@@ -734,8 +734,6 @@ main (int argc, char *argv[])
 	gtk_window_set_default_icon_name ("utilities-system-monitor");
 	g_set_application_name(_("System Monitor"));
 
-	mateconf_init (argc, argv, NULL);
-
 	client = mateconf_client_get_default ();
 	mateconf_client_add_dir(client, "/apps/procman", MATECONF_CLIENT_PRELOAD_NONE, NULL);
 

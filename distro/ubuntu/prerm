@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+pkgname=mate-system-monitor
+
+/usr/sbin/mateconfpkg --uninstall ${pkgname}
+
+exit 0

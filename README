@@ -1,10 +1,10 @@
-System-Monitor
+mate-system-monitor
 =============
 
 
 Optional dependencies :
 - libgksu2 - recommended
-- libmatesu
+- libgnomesu
 - libselinux
 - lsb_release in PATH - recommended on linux
 

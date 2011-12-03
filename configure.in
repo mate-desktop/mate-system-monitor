@@ -2,7 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.52)
 
-AC_INIT([mate-system-monitor], [2011.11.8],
+AC_INIT([mate-system-monitor], [2011.12.01],
         [https://matsusoft.com.ar/projects/mate/])
 AC_CONFIG_SRCDIR(configure.in)
 AC_CONFIG_HEADERS(config.h)

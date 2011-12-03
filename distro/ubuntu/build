@@ -2,7 +2,7 @@
 
 # fill it
 pkgname=mate-system-monitor
-pkgver=2011.08.31
+pkgver=2011.12.01
 pkgrel=1
 pkgdesc="A system monitor for MATE"
 

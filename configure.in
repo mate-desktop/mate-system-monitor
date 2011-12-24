@@ -64,6 +64,8 @@ fi
 dnl CXXFLAGS="-fvisibility=hidden -fvisibility-inlines-hidden $CXXFLAGS"
 dnl CXXFLAGS="-fvisibility-inlines-hidden $CXXFLAGS"
 
+AC_PATH_PROG(MATECONFTOOL, mateconftool-2)
+
 AM_MATECONF_SOURCE_2
 
 

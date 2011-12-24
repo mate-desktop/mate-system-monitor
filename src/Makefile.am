@@ -63,7 +63,7 @@ install-data-local:
 	if test -z "$(DESTDIR)"; then \
 	  for p in $(schema_DATA); do \
 	    MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) \
-	      mateconftool-2 --makefile-install-rule $(top_builddir)/src/$$p; \
+	      ${MATECONFTOOL} --makefile-install-rule $(top_builddir)/src/$$p; \
 	  done; \
 	fi
 else

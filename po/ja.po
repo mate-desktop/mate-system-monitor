@@ -1,8 +1,8 @@
 # mate-system-monitor (procman) ja.po.
 # Copyright (C) 2001-2010 Free Software Foundation, Inc.
 # Takeshi Aihana <takeshi.aihana@gmail.com>, 2001-2009.
-# KAMAGASAKO Masatoshi <emerald@mate.gr.jp>, 2003.
-# Satoru SATOh <ss@mate.gr.jp>, 2006.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+# Satoru SATOh <ss@gnome.gr.jp>, 2006.
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
 #
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2010-09-04 13:57+0000\n"
 "PO-Revision-Date: 2009-09-15 06:03+0900\n"
 "Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
-"Language-Team: Japanese <mate-translation@mate.gr.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,10 +36,10 @@ msgstr "起動時にシステムのタブを表示する"
 msgid "translator-credits"
 msgstr ""
 "相花 毅 <takeshi.aihana@gmail.com>\n"
-"KAMAGASAKO Masatoshi <emerald@mate.gr.jp>\n"
-"Satoru SATOH <ss@mate.gr.jp>\n"
+"KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
+"Satoru SATOH <ss@gnome.gr.jp>\n"
 "草野 貴之 <AE5T-KSN@asahi-net.or.jp>\n"
-"日本MATEユーザー会 <http://www.mate.gr.jp/>"
+"日本MATEユーザー会 <http://www.gnome.gr.jp/>"
 
 #: ../src/disks.cpp:300 ../src/memmaps.cpp:498
 msgid "Device"

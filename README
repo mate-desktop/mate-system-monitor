@@ -1,6 +1,7 @@
 mate-system-monitor
 =============
 
+mate-system-monitor is a fork of gnome-system-monitor
 
 Optional dependencies :
 - libgksu2 - recommended

@@ -1,1 +1,317 @@
-svn log
+commit 9f898bdcf2a7478ac61942e0d9c1c919f3fa4c65
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Fri Jan 13 20:03:12 2012 -0500
+
+    Added mate-desktop.org to about window
+
+ src/callbacks.cpp |  353 +++++++++++++++++++++++++++--------------------------
+ 1 files changed, 177 insertions(+), 176 deletions(-)
+
+commit 1f882326df89b8c2990f71e014586fc2310b7c11
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue Jan 10 14:39:28 2012 -0500
+
+    Changed mate.gr.jp to gnome.gr.jp as requested in issue #86
+
+ po/ChangeLog |  428 +++++++++++++++++++++++++++++-----------------------------
+ po/ja.po     |   12 +-
+ 2 files changed, 220 insertions(+), 220 deletions(-)
+
+commit 74cb9efe234214c79ba6a685126b387fcef0be34
+Merge: b7b1526 ef37d8f
+Author: Perberos <perberos@gmail.com>
+Date:   Sat Dec 24 13:47:14 2011 -0800
+
+    Merge pull request #1 from samtygier/master
+    
+    fix that solves a PATH issue for me 2
+
+commit ef37d8f0e5391a6c955e5c77816b182d5f6ee824
+Author: Sam Tygier <samtygier@yahoo.co.uk>
+Date:   Sat Dec 24 20:03:14 2011 +0000
+
+    Use MATECONFTOOL in makefile. Without this install fails if PATH for sudo does not contain install prefixed bin.
+
+ configure.in    |    2 ++
+ src/Makefile.am |    2 +-
+ 2 files changed, 3 insertions(+), 1 deletions(-)
+
+commit b7b15266d086a24e8b48868b9b1b18bc04cd6c21
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Dec 14 01:01:23 2011 +0100
+
+    updated version to 1.1.0
+
+ AUTHORS                   |    1 +
+ configure.in              |    8 ++++----
+ distro/archlinux/PKGBUILD |    2 +-
+ distro/ubuntu/build       |    2 +-
+ 4 files changed, 7 insertions(+), 6 deletions(-)
+
+commit a0f499ad5f0156d2089fee2cd145e084ce85305d
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Fri Dec 2 21:17:49 2011 -0500
+
+    Changed version to 2011.12.01
+
+ configure.in              |    2 +-
+ distro/archlinux/PKGBUILD |    2 +-
+ distro/ubuntu/build       |    2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit ddb8ec9ffd94f9c1c40a1e38618401e0c9f0e077
+Author: Perberos <perberos@gmail.com>
+Date:   Mon Nov 14 18:46:55 2011 -0300
+
+    updating autogen.sh
+
+ autogen.sh |   15 +++++++++------
+ 1 files changed, 9 insertions(+), 6 deletions(-)
+
+commit 428acec0268528eeb8f99c1a7b621334eeaaa802
+Author: Perberos <perberos@gmail.com>
+Date:   Fri Nov 11 06:41:13 2011 -0300
+
+    ignore this commit
+
+ pixmaps/side.png |  Bin 3429 -> 8778 bytes
+ 1 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 94fb1159f50ff579c48204f588abd1aee290f4f9
+Author: Perberos <perberos@gmail.com>
+Date:   Tue Nov 8 16:31:02 2011 -0300
+
+    readme still need more info
+
+ README |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 881277e87ea63f43b1bd2c3763f0ae3b92f7d64e
+Author: Perberos <perberos@gmail.com>
+Date:   Tue Nov 8 16:25:52 2011 -0300
+
+    chmod +x to autogen.sh
+
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+
+commit f45852ab2a7126f354079499fc8b03976c0eab27
+Author: Perberos <perberos@gmail.com>
+Date:   Tue Nov 8 16:22:08 2011 -0300
+
+    initial
+
+ AUTHORS                                           |    7 +
+ COPYING                                           |  339 ++
+ ChangeLog                                         |    1 +
+ Makefile.am                                       |   28 +
+ NEWS                                              |  508 +++
+ README                                            |   10 +
+ autogen.sh                                        |   22 +
+ configure.in                                      |  103 +
+ distro/archlinux/PKGBUILD                         |   39 +
+ distro/archlinux/mate-system-monitor.install      |   22 +
+ distro/ubuntu/build                               |   35 +
+ distro/ubuntu/postinst                            |    8 +
+ distro/ubuntu/postrm                              |    8 +
+ distro/ubuntu/preinst                             |    6 +
+ distro/ubuntu/prerm                               |    9 +
+ help/C/figures/addColumn.png                      |  Bin 0 -> 4411 bytes
+ help/C/figures/changePriority.png                 |  Bin 0 -> 4074 bytes
+ help/C/figures/colorPanel.png                     |  Bin 0 -> 28898 bytes
+ help/C/figures/columnContextMenu.png              |  Bin 0 -> 7454 bytes
+ help/C/figures/mate-system-monitor_window.png     |  Bin 0 -> 88521 bytes
+ help/C/figures/memoryMaps.png                     |  Bin 0 -> 55862 bytes
+ help/C/figures/moreInfo.png                       |  Bin 0 -> 42522 bytes
+ help/C/figures/processListing.png                 |  Bin 0 -> 42476 bytes
+ help/C/figures/sortButton.png                     |  Bin 0 -> 3572 bytes
+ help/C/figures/sortMenu.png                       |  Bin 0 -> 7490 bytes
+ help/C/figures/sortMenu2.png                      |  Bin 0 -> 8793 bytes
+ help/C/figures/systemMonitor.png                  |  Bin 0 -> 30459 bytes
+ help/C/figures/viewMenu.png                       |  Bin 0 -> 4468 bytes
+ help/C/legal.xml                                  |   76 +
+ help/C/mate-system-monitor.xml                    | 1455 +++++++
+ help/ChangeLog                                    |  108 +
+ help/Makefile.am                                  |   22 +
+ help/ar/ar.po                                     | 1180 ++++++
+ help/ar/figures/mate-system-monitor_window.png    |  Bin 0 -> 72185 bytes
+ help/bg/bg.po                                     | 1831 ++++++++
+ help/bg/figures/addColumn.png                     |  Bin 0 -> 51784 bytes
+ help/bg/figures/changePriority.png                |  Bin 0 -> 25281 bytes
+ help/bg/figures/colorPanel.png                    |  Bin 0 -> 86478 bytes
+ help/bg/figures/columnContextMenu.png             |  Bin 0 -> 19935 bytes
+ help/bg/figures/mate-system-monitor_window.png    |  Bin 0 -> 88066 bytes
+ help/bg/figures/memoryMaps.png                    |  Bin 0 -> 83322 bytes
+ help/bg/figures/moreInfo.png                      |  Bin 0 -> 88066 bytes
+ help/bg/figures/processListing.png                |  Bin 0 -> 88066 bytes
+ help/bg/figures/sortButton.png                    |  Bin 0 -> 19935 bytes
+ help/bg/figures/sortMenu.png                      |  Bin 0 -> 19935 bytes
+ help/bg/figures/sortMenu2.png                     |  Bin 0 -> 19935 bytes
+ help/bg/figures/systemMonitor.png                 |  Bin 0 -> 70822 bytes
+ help/bg/figures/viewMenu.png                      |  Bin 0 -> 79778 bytes
+ help/ca/ca.po                                     | 2053 +++++++++
+ help/ca/figures/mate-system-monitor_window.png    |  Bin 0 -> 83797 bytes
+ help/cs/cs.po                                     | 1223 ++++++
+ help/cs/figures/mate-system-monitor_window.png    |  Bin 0 -> 98878 bytes
+ help/da/da.po                                     | 1798 ++++++++
+ help/de/de.po                                     | 1853 ++++++++
+ help/de/figures/mate-system-monitor_window.png    |  Bin 0 -> 78867 bytes
+ help/el/el.po                                     | 1845 ++++++++
+ help/es/es.po                                     | 1851 ++++++++
+ help/es/figures/mate-system-monitor_window.png    |  Bin 0 -> 54608 bytes
+ help/fr/figures/mate-system-monitor_window.png    |  Bin 0 -> 89169 bytes
+ help/fr/fr.po                                     | 1836 ++++++++
+ help/mate-system-monitor.omf.in                   |    9 +
+ help/oc/oc.po                                     | 1452 +++++++
+ help/pa/pa.po                                     | 1492 +++++++
+ help/sv/figures/mate-system-monitor_window.png    |  Bin 0 -> 126339 bytes
+ help/sv/sv.po                                     | 1408 +++++++
+ help/zh_CN/figures/mate-system-monitor_window.png |  Bin 0 -> 90178 bytes
+ help/zh_CN/zh_CN.po                               | 1627 +++++++
+ mate-system-monitor.desktop.in.in                 |   14 +
+ pixmaps/Makefile.am                               |    4 +
+ pixmaps/download.svg                              |  217 +
+ pixmaps/side.png                                  |  Bin 0 -> 3429 bytes
+ pixmaps/upload.svg                                |  195 +
+ po/ChangeLog                                      | 4672 +++++++++++++++++++++
+ po/LINGUAS                                        |   87 +
+ po/POTFILES.in                                    |   23 +
+ po/POTFILES.skip                                  |    1 +
+ po/am.po                                          |  666 +++
+ po/ar.po                                          | 1135 +++++
+ po/as.po                                          | 1134 +++++
+ po/ast.po                                         | 1096 +++++
+ po/az.po                                          |  652 +++
+ po/be.po                                          | 1397 ++++++
+ po/be@latin.po                                    | 1075 +++++
+ po/bg.po                                          | 1125 +++++
+ po/bn.po                                          | 1126 +++++
+ po/bn_IN.po                                       | 1130 +++++
+ po/bs.po                                          |  647 +++
+ po/ca.po                                          | 1575 +++++++
+ po/ca@valencia.po                                 | 1575 +++++++
+ po/cs.po                                          | 1122 +++++
+ po/cy.po                                          | 1070 +++++
+ po/da.po                                          | 1264 ++++++
+ po/de.po                                          | 1133 +++++
+ po/dz.po                                          | 1180 ++++++
+ po/el.po                                          | 1175 ++++++
+ po/en@shaw.po                                     | 1115 +++++
+ po/en_CA.po                                       |  796 ++++
+ po/en_GB.po                                       | 1357 ++++++
+ po/eo.po                                          | 1098 +++++
+ po/es.po                                          | 1129 +++++
+ po/et.po                                          |  876 ++++
+ po/eu.po                                          | 1115 +++++
+ po/fa.po                                          |  669 +++
+ po/fi.po                                          | 1354 ++++++
+ po/fr.po                                          | 1144 +++++
+ po/ga.po                                          | 1037 +++++
+ po/gl.po                                          | 1138 +++++
+ po/gu.po                                          | 1127 +++++
+ po/he.po                                          | 1393 ++++++
+ po/hi.po                                          | 1137 +++++
+ po/hr.po                                          | 1089 +++++
+ po/hu.po                                          | 1127 +++++
+ po/id.po                                          | 1124 +++++
+ po/it.po                                          | 1141 +++++
+ po/ja.po                                          | 1117 +++++
+ po/ka.po                                          | 1015 +++++
+ po/kn.po                                          | 1119 +++++
+ po/ko.po                                          | 1146 +++++
+ po/ku.po                                          |  768 ++++
+ po/li.po                                          |  687 +++
+ po/lt.po                                          | 1130 +++++
+ po/lv.po                                          | 1126 +++++
+ po/mai.po                                         | 1106 +++++
+ po/mg.po                                          |  912 ++++
+ po/mk.po                                          | 1099 +++++
+ po/ml.po                                          | 1124 +++++
+ po/mn.po                                          |  656 +++
+ po/mr.po                                          | 1111 +++++
+ po/ms.po                                          |  657 +++
+ po/nb.po                                          | 1114 +++++
+ po/nds.po                                         | 1092 +++++
+ po/ne.po                                          | 1005 +++++
+ po/nl.po                                          | 1182 ++++++
+ po/nn.po                                          | 1227 ++++++
+ po/oc.po                                          | 1086 +++++
+ po/or.po                                          | 1117 +++++
+ po/pa.po                                          | 1151 +++++
+ po/pl.po                                          | 1124 +++++
+ po/ps.po                                          | 1024 +++++
+ po/pt.po                                          | 1521 +++++++
+ po/pt_BR.po                                       | 1138 +++++
+ po/ro.po                                          | 1124 +++++
+ po/ru.po                                          | 1127 +++++
+ po/rw.po                                          |  901 ++++
+ po/si.po                                          |  995 +++++
+ po/sk.po                                          | 1234 ++++++
+ po/sl.po                                          | 1114 +++++
+ po/sq.po                                          |  798 ++++
+ po/sr.po                                          | 1514 +++++++
+ po/sr@latin.po                                    | 1514 +++++++
+ po/sv.po                                          | 1299 ++++++
+ po/ta.po                                          | 1128 +++++
+ po/te.po                                          | 1121 +++++
+ po/th.po                                          | 1459 +++++++
+ po/tr.po                                          | 1153 +++++
+ po/ug.po                                          | 1190 ++++++
+ po/uk.po                                          | 1119 +++++
+ po/vi.po                                          | 1077 +++++
+ po/zh_CN.po                                       | 1105 +++++
+ po/zh_HK.po                                       | 1105 +++++
+ po/zh_TW.po                                       | 1115 +++++
+ src/Makefile.am                                   |   71 +
+ src/argv.cpp                                      |   22 +
+ src/argv.h                                        |   18 +
+ src/bacon-message-connection.c                    |  396 ++
+ src/bacon-message-connection.h                    |   43 +
+ src/callbacks.cpp                                 |  436 ++
+ src/callbacks.h                                   |   82 +
+ src/defaulttable.h                                |   51 +
+ src/disks.cpp                                     |  425 ++
+ src/disks.h                                       |   12 +
+ src/e_date.c                                      |  214 +
+ src/e_date.h                                      |    9 +
+ src/gsm_color_button.c                            |  923 ++++
+ src/gsm_color_button.h                            |   92 +
+ src/iconthemewrapper.cpp                          |   23 +
+ src/iconthemewrapper.h                            |   23 +
+ src/interface.cpp                                 |  808 ++++
+ src/interface.h                                   |   32 +
+ src/load-graph.cpp                                |  787 ++++
+ src/load-graph.h                                  |  131 +
+ src/lsof.cpp                                      |  408 ++
+ src/lsof.h                                        |    9 +
+ src/mate-system-monitor.schemas.in                |  769 ++++
+ src/mateconf-keys.cpp                             |   14 +
+ src/mateconf-keys.h                               |   19 +
+ src/memmaps.cpp                                   |  663 +++
+ src/memmaps.h                                     |    9 +
+ src/openfiles.cpp                                 |  394 ++
+ src/openfiles.h                                   |   10 +
+ src/prettytable.cpp                               |  256 ++
+ src/prettytable.h                                 |   62 +
+ src/procactions.cpp                               |  190 +
+ src/procactions.h                                 |   28 +
+ src/procdialogs.cpp                               |  842 ++++
+ src/procdialogs.h                                 |   54 +
+ src/procman.cpp                                   |  773 ++++
+ src/procman.h                                     |  247 ++
+ src/procman_gksu.cpp                              |   54 +
+ src/procman_gksu.h                                |   12 +
+ src/procman_matesu.cpp                            |   40 +
+ src/procman_matesu.h                              |   12 +
+ src/proctable.cpp                                 |  964 +++++
+ src/proctable.h                                   |   65 +
+ src/selection.cpp                                 |   43 +
+ src/selection.h                                   |   21 +
+ src/selinux.cpp                                   |   65 +
+ src/selinux.h                                     |   14 +
+ src/smooth_refresh.cpp                            |  173 +
+ src/smooth_refresh.h                              |  104 +
+ src/sysinfo.cpp                                   |  676 +++
+ src/sysinfo.h                                     |    9 +
+ src/util.cpp                                      |  510 +++
+ src/util.h                                        |  151 +
+ 214 files changed, 135724 insertions(+), 0 deletions(-)

@@ -1,7 +1,7 @@
 #ifndef H_MATE_SYSTEM_MONITOR_MATESU_H_1132171917
 #define H_MATE_SYSTEM_MONITOR_MATESU_H_1132171917
 
-#include <glib/gtypes.h>
+#include <glib.h>
 
 gboolean
 procman_matesu_create_root_password_dialog(const char * message);

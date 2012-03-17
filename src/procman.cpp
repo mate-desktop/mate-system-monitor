@@ -728,10 +728,11 @@ main (int argc, char *argv[])
 		exit (0);
 	}
 
+	/* initialize rsvg */
+	rsvg_init ();
+
 	gtk_window_set_default_icon_name ("utilities-system-monitor");
 	g_set_application_name(_("System Monitor"));
-
-	mateconf_init (argc, argv, NULL);
 
 	client = mateconf_client_get_default ();
 	mateconf_client_add_dir(client, "/apps/procman", MATECONF_CLIENT_PRELOAD_NONE, NULL);
@@ -767,6 +768,10 @@ main (int argc, char *argv[])
 	procman_free_data (procdata);
 
 	glibtop_close ();
+
+	// This function should only be called just before program exit.
+	// See MATE bug #592100 for a discussion about this.
+	rsvg_term ();
 
 	return 0;
 }

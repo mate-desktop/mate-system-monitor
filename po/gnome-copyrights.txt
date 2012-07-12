@@ -1,0 +1,1057 @@
+========== am.po ==========
+# Translations into the Amharic Language.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the procman package.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+#
+#
+
+
+
+
+========== ar.po ==========
+# translation of mate-system-monitor.HEAD.po to Arabic
+# translation of procman.HEAD.ar.po to
+# translation of procman.HEAD.ar.po to
+# Arabic translation of procman.
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002, 2004.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004, 2005.
+# Djihed Afifi <djihed@gmail.com>, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010.
+# Anas Husseini <linux.anas@gmail.com>, 2007.
+# Anas Afif Emad <anas.e87@gmail.com, 2008, 2009.
+
+
+
+
+========== as.po ==========
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+
+
+
+
+========== ast.po ==========
+# translation of mate-system-monitor.po to Asturian
+# Asturian translation for mate-system-monitor
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# Xose S. Puente <xspuente@gmail.com>, 2007.
+
+
+
+
+========== az.po ==========
+# translation of procman.HEAD.az.po to Azerbaijani Turkish
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Mətin Əmirov <metin@karegen.com>, 2003, 2004.
+#
+
+
+
+
+========== be.po ==========
+# Беларускі пераклад procman.HEAD.
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Vital Khilko <dojlid@mova.org>, 2003.
+# Ales Nyakhaychyk <nab@mail.by>, 2004, 2010.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2010.
+
+
+
+
+========== be@latin.po ==========
+# Biełaruski pierakład mate-system-monitor.
+# Copyright (C) Ihar Hrachyshka, 2008.
+# This file is distributed under the same license as the mate-system-monitor package.
+# Ihar Hrachyshka <booxter@lacinka.org>, 2008.
+#
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation for mate-system-monitor po-file.
+# Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
+# Vladimir Petkov <vpetkov@i-space.org>, 2004, 2005.
+# Alexander Shopov <ash@contact.bg>, 2005, 2006, 2007, 2008, 2009.
+# Yavor Doganov <yavor@gnu.org>, 2008.
+#
+
+
+
+
+========== bn.po ==========
+# Bengali Translation of mate-system-monitor
+# Copyright (C)  2003, 2006, 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Sayamindu Dasgupta <unmadindu@Softhome.net>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Runa Bhattacharjee <runab@redhat.com>, 2009.
+# Israt Jahan <israt@ankur.org.bd>, 2009-2010.
+#
+
+
+
+
+========== bn_IN.po ==========
+# translation of bn_IN.po to Bengali INDIA
+# Bengali Translation of mate-system-monitor
+# Copyright (C)  2003, 2006, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Sayamindu Dasgupta <unmadindu@Softhome.net>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Runa Bhattacharjee <runab@redhat.com>, 2009, 2010.
+
+
+
+
+========== bs.po ==========
+# translation of procman.HEAD.po to Bosnian
+# This file is distributed under the same license as the procman package.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Kemal Šanjta <gomez@lugzdk.ba>, 2004.
+#
+
+
+
+
+========== ca.po ==========
+# Catalan translation of procman.
+# Copyright © 2000-2007 Free Software Foundation, Inc.
+# Softcatalà <info@softcatala.org>, 2000.
+# Jesús Moreno <jmmolas@wanadoo.es>, 2002.
+# Gil Forcada <gilforcada@guifi.net>, 2006, 2009.
+# Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>, 2007
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
+#
+# petit glossari amb alguns termes que poden portar confusió
+# kill: mata
+# stop: atura
+# end: finalitza
+#
+
+
+
+
+========== ca@valencia.po ==========
+# Catalan translation of procman.
+# Copyright © 2000-2007 Free Software Foundation, Inc.
+# Softcatalà <info@softcatala.org>, 2000.
+# Jesús Moreno <jmmolas@wanadoo.es>, 2002.
+# Gil Forcada <gilforcada@guifi.net>, 2006, 2009.
+# Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>, 2007
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007.
+#
+# petit glossari amb alguns termes que poden portar confusió
+# kill: mata
+# stop: atura
+# end: finalitza
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation of mate-system-monitor.
+# Copyright (C) 2008, 2009 the author(s) of mate-system-monitor.
+# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# This file is distributed under the same license as the mate-system-monitor package.
+# Miloslav Trmac <mitr@volny.cz>, 2002, 2003, 2004, 2005, 2006.
+# Petr Tomeš <ptomes@gmail.com>, 2006.
+# Jakub Friedl <jfriedl@suse.cz>, 2006.
+# Petr Kovar <pknbe@volny.cz>, 2008, 2009.
+
+
+
+
+========== cy.po ==========
+# procman yn Gymraeg.
+# Copyright (C) 2003, The Free Software Foundation.
+# This file is distributed under the same license as the procman package.
+# Dafydd Harries <daf@muse.19inch.net>, 2003 2004.
+#
+# Geirfa:
+# [rj] Lladd proses, nid llofruddio proses
+#      (mwy cywir o fewn y cyd-destun, rwy'n credu)
+# [rj] Lluosog edefyn yw edafedd, *nid* edefynnau!
+# [rj] Zombie = proses amhosib ei lladd (awgrym yn unig)
+# [rj] Benywaidd yw proses (yn ôl y Termiadur Ysgol gwreiddiol)
+#
+# [rj] Wedi gyrru'r cyfan drwy Cysill, 29ain Mai 2005
+
+
+
+
+========== da.po ==========
+# Danish translation of mate-system-monitor.
+# Copyright (C) 2001-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+# Ole Laursen <olau@hardworking.dk>, 2001-2005.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004-2005.
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 09.
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2008
+#
+# Konventioner:
+#
+#   application -> program
+#   end proces -> afslutte proces
+#   kill proces -> terminere proces
+#   memory map -> hukommelsesområde
+#   nice -> venlighedsværdi (hvis det er i modsætning til prioritet), (ellers) prioritet
+#   renice -> skift prioritet
+#   RSS memory -> fysik hukommelse (se top(1))
+#   CPU -> CPU, processor (normalt bruges kun "processor", men det kommer til at fylde meget)
+#
+# Husk at tilføje dig i credit-listen (besked id "translator-credits")
+#
+
+
+
+
+========== de.po ==========
+# German MATE System Monitor translation.
+# Copyright (C) 2001-2003 Free Software Foundation, Inc.
+# Christian Meyer <chrisime@gnome.org>, 2001, 2002.
+# Christian Neumair <chris@mate-de.org>, 2003, 2004.
+# Hendrik Richter <hendrikr@gnome.org>, 2005, 2006, 2007, 2008.
+# Frank Arnold <frank@scirocco-5v-turbo.de>, 2005, 2006.
+# Andre Klapper <ak-47@gmx.net>, 2007.
+# Hendrik Brandt <heb@mate-de.org>, 2008.
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009.
+#
+
+
+
+
+========== dz.po ==========
+# Dzongkha translation of mate-system-monitor
+# Copyright @ 2006, Free Software Foundation, Inc.
+# Mindu Dorji
+#
+
+
+
+
+========== el.po ==========
+# translation of el.po to Greek
+# Greek translation of mate-system-monitor.
+# Copyright (C) 2002,2003 Simos Xenitellis.
+#
+# kostas: 30Oct2003, updated translation for Mate 2.6
+# kostas: 03Feb2004, one more update
+# Nikos: 21Feb2004, add plurals, small fixes.
+#
+# simos: 111 messages, 16Aug2002, initial translation.
+# simos: 119 messages, 06Nov2002, completed translation.
+# kostas: 141 messagew, 17Jul2003, updated translation fot 2.4.
+# Simos Xenitellis ,<simos74@gmx.net>, 2002.
+# Kostas Papadimas <pkst@gnome.org>, 2003, 2004, 2005, 2008.
+# Nikos Charonitakis <frolix68@yahoo.gr>, 2004.
+
+
+
+
+========== en@shaw.po ==========
+# Shavian translation for mate-system-monitor.
+# Copyright (C) 2009 The Mate Foundation.
+# Thomas Thurman <tthurman@gnome.org>, 2009.
+
+
+
+
+========== en_CA.po ==========
+# English/Canada translation of procman.
+# Copyright (C) 2004-2006 Adam Weinberger and the MATE Foundation
+# This file is distributed under the same licence as the procman package.
+# Adam Weinberger <adamw@gnome.org>, 2004, 2005, 2006.
+# 
+# 
+
+
+
+
+========== en_GB.po ==========
+# English (British) translation.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the procman package.
+# Gareth Owen <gowen72@yahoo.com>, 2004.
+# Bruce Cowan <bcowan@fastmail.co.uk>, 2009.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010.
+
+
+
+
+========== eo.po ==========
+# Esperanto translation for mate-system-monitor
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the mate-system-monitor package.
+# Fabio SANTOS <fabiosantos.gyn@gmail.com>, 2010.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
+#
+
+
+
+
+========== es.po ==========
+# translation of mate-system-monitor.HEAD.po to Español
+# translation of mate-system-monitor to Spanish
+# Copyright © 2001,2002,2003, 2006, 2007, 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Carlos Perelló Marín <carlos@mate-db.org>, 2001.
+# Héctor García Álvarez <hector@scouts-es.org>, 2002.
+# Pablo Gonzalo del Campo <pablodc@bigfoot.com>,2002, 2003.
+# Francisco Javier F. Serrador <serrador@cvs.mate.org>, 2004, 2005, 2006.
+# Jorge González <jorgegonz@svn.mate.org>, 2007, 2009, 2010.
+
+
+
+
+========== et.po ==========
+# MATE süsteemijälgija eesti keele tõlge.
+# Estonian translation of MATE System Monitor.
+#
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007-2009 The MATE Project
+# This file is distributed under the same license as the mate-system-monitor
+# package.
+#
+# Ivar Smolin <okul@linux.ee>, 2005-2009.
+# Priit Laes <amd store20 com>, 2005, 2006.
+#
+
+
+
+
+========== eu.po ==========
+# translation of eu.po to Basque
+# Copyright © 2001,2002,2003, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the procman package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2004, 2006, 2007, 2008, 2009, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
+
+
+
+
+========== fa.po ==========
+# Persian translation of procman.
+# Copyright (C) 2003 The FarsiWeb Project Group
+# Roozbeh Pournader <roozbeh@sharif.edu>, 2003
+#
+
+
+
+
+========== fi.po ==========
+# procman Finnish Translation
+# Suomennos: http://mate.fi/
+# Copyright (C) 2003-2009 Free Software Foundation, Inc.
+# Tarmo Toikkanen <tarmo@iki.fi>, 2002.
+# Lauri Nurmi <lanurmi@iki.fi>, 2003.
+# Pauli Virtanen <pauli.virtanen@hut.fi>, 2003-2005.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2009.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
+# Tommi Vainikainen <thv@iki.fi>, 2009.
+#
+
+
+
+
+========== fr.po ==========
+# French translation of mate-system-monitor.
+# Copyright (C) 2002-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Mathieu Gauthier-Pilote <mathieu.g.p@videotron.ca>, 2002.
+# Christophe Merlet <redfox@redfoxcenter.org>, 2002-2006.
+# Benoît Dejean <benoit@placenet.org>, 2006-2007.
+# Robert-André Mauchin <zebob.m@pengzone.org>, 2006-2008.
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007-2008.
+# Claude Paroz <claude@2xlibre.net>, 2007-2009.
+#
+
+
+
+
+========== ga.po ==========
+# Irish translations for mate-system-monitor package.
+# Copyright (C) 2003-2008 Free Software Foundation, Inc.
+# Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003.
+# Alastair McKinstry <mckinstry@computer.org>, 2004.
+# Seán de Búrca <leftmostcat@gmail.com>, 2008.
+#
+
+
+
+
+========== gl.po ==========
+# translation of mate-system-monitor-master-po-gl.po to Galician
+# Galician translation of Procman System Monitor for MATE.
+# Copyright (C) 2001-2002, 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
+#
+#
+# Manuel A. Fernández Montecelo <manuel@sindominio.net>, 2001-2002.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
+# Ignacio Casal Quinteiro <icq@svn.mate.org>, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Suso Baleato <suso.baleato@xunta.es>, 2009.
+# Fran Dieguez <fran.dieguez@glug.es>, 2009.
+# Antón Méixome <meixome@mancomun.org>, 2009.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010.
+#
+
+
+
+
+========== gu.po ==========
+# translation of mate-system-monitor.master.gu.po to Gujarati
+# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+# Ankit Patel <ankit@redhat.com>, 2006, 2007.
+# Sweta Kothari <sweta2782@yahoo.co.in>, 2008.
+# Sweta Kothari <swkothar@redhat.com>, 2008, 2009, 2010.
+
+
+
+
+========== he.po ==========
+# translation of procman.HEAD.he.po to Hebrew
+# translation of procman.HEAD.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003
+# Yair Hershkovitz <yairhr@gmail.com>, 2006
+#
+
+
+
+
+========== hi.po ==========
+# translation of mate-system-monitor.master.po to Hindi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# G Karunakar <karunakar@freedomink.org>, 2003.
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
+# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+
+
+
+
+========== hr.po ==========
+# Translation of procman to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Denis Lackovic <delacko@fly.srk.fer.hr>,Jerko Škifić <skific@riteh.hr>,Robert Sedak <robert.sedak@sk.tel.hr>,
+
+
+
+
+========== hu.po ==========
+# Hungarian translation of mate-system-monitor.
+# Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Robert Vanyi <robi at mora.u-szeged dot hu>, 2002.
+# Andras Timar <timar at mate dot hu>, 2002, 2003.
+# Laszlo Dvornik <dvornik at mate dot hu>, 2004.
+# Gabor Kelemen <kelemeng at mate dot hu>, 2005, 2006, 2007, 2008, 2009, 2010.
+# Mate ORY <orymate at gmail d0t com>, 2006.
+
+
+
+
+========== id.po ==========
+# translation of mate-system-monitor.master.po to Bahasa Indonesia
+# Indonesia translation of procman.
+# Copyright (C) 2005 THE procman'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the procman package.
+#
+#
+# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
+# Dirgita <dirgitadevina@gmail.com>, 2010.
+
+
+
+
+========== it.po ==========
+# Italian messages for mate-system-monitor
+# Copyright (C) 2001-2009 Free Software Foundation, Inc.
+# This package is distributed under the same license as the mate-system-monitor package.
+# Luca Ferretti <elle.uca@libero.it> 2006, 2007, 2008.
+# Alessio Frusciante <algol@firenze.linux.it>, 2001, 2002, 2003, 2004, 2005, 2006, 2007.
+# Davide Falanga <davide.falanga@alice.it>, 2009.
+# Milo Casagrande <milo@ubuntu.com>, 2008, 2009.
+
+
+
+
+========== ja.po ==========
+# mate-system-monitor (procman) ja.po.
+# Copyright (C) 2001-2010 Free Software Foundation, Inc.
+# Takeshi Aihana <takeshi.aihana@gmail.com>, 2001-2009.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+# Satoru SATOh <ss@gnome.gr.jp>, 2006.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
+#
+
+
+
+
+========== ka.po ==========
+# translation of ka.po to Georgian
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007.
+#
+
+
+
+
+========== kn.po ==========
+# translation of mate-system-monitor.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
+
+
+
+
+========== ko.po ==========
+# mate-system-monitor Korean translation
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Young-Ho, Cha <ganadist@chollian.net> 2002, 2006, 2007
+# Changwoo Ryu <cwryu@debian.org> 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+#
+# 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
+#
+
+
+
+
+========== ku.po ==========
+# Kurdish translation for mate-system-monitor
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the mate-system-monitor package.
+# Erdal Ronahi <erdal.ronahi@gmail.com>, 2006.
+# 
+# 
+# 
+
+
+
+
+========== li.po ==========
+# GTop Dutch Translation
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Mathieu van Woerkom <mathieu@brabants.org>, 2003
+# 
+
+
+
+
+========== lt.po ==========
+# translation of lt.po to Lithuanian
+# Lithuanian translation of procman
+# Copyright (C) 2003-2007, 2008 Free Software Foundation, Inc.
+#
+# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2007.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Gintautas Miliauskas <gintas@akl.lt>, 2006, 2008.
+
+
+
+
+========== lv.po ==========
+# translation of lv.po to Latvian
+# Copyright (C) 2006, 2007, 2009 Free Software Foundation, Inc.
+#
+# Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
+
+
+
+
+========== mai.po ==========
+# translation of mate-system-monitor.master.po to Maithili
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+
+
+
+
+========== mg.po ==========
+# MALAGASY TRANSLATION OF MATE-SYSTEM-MONITOR.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Thierry Randrianiriana <randrianiriana@gmail.com>, 2006.
+
+
+
+
+========== mk.po ==========
+# translation of mate-system-monitor.HEAD.po to Macedonian
+# translation of procman.HEAD.mk.po to
+# translation of procman.HEAD.mk.po to
+# Procman translated on Macedonian
+# Copyright (C) 2002,2003, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Stojcev Darko | <atom1c@linux.net.mk | 2002
+# http://www.linux.net.mk
+#
+#
+# Vladislav Bidikov <bidikovi@mail.com.mk>, 2003.
+#  <ufo@linux.net.mk>, 2005.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+# Arangel Angov <ufo@linux.net.mk>, 2005, 2006, 2008.
+# Jovan Naumovski <jovan@lugola.net>, 2006, 2007.
+# Arangel Angov <arangel@linux.net.mk>, 2007.
+
+
+
+
+========== ml.po ==========
+# translation of mate-system-monitor.master.ml.po to
+# This file is distributed under the same license as the mate-system-monitor package.
+# Copyright (C) 2003-2008 mate-system-monitor'S COPYRIGHT HOLDER.
+# FSF-India <locale@gnu.org.in>, 2003.
+# Ani Peter <apeter@redhat.com>, 2006.
+# Hari Vishnu <harivishnu@gmail.com>, 2008
+
+
+
+
+========== mn.po ==========
+# translation of procman.mate-2-4.mn.po to Mongolian
+# translation of procman.HEAD.mn.po to Mongolian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Sanlig Badral <badral@chinggis.com>, 2003.
+# Sanlig Badral <badral@users.sf.net>, 2003.
+#
+
+
+
+
+========== mr.po ==========
+# translation of mate-system-monitor.master.po to Marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sshedmak@redhat.com>, 2010.
+
+
+
+
+========== ms.po ==========
+# Malay translation of procman.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
+#
+
+
+
+
+========== nb.po ==========
+# Norwegian translation of procman.
+# Copyright (C) 2001-2004, 2005 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 2001-2009.
+# Terance Edward Sola <terance@lyse.net>, 2005.
+#
+
+
+
+
+========== nds.po ==========
+# Low German translation for mate-system-monitor.
+# Copyright (C) 2009 mate-system-monitor's COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-system-monitor package.
+# Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2009.
+#
+
+
+
+
+========== ne.po ==========
+# translation of mate-system-monitor.HEAD.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Pawan Chitrakar <pawan@mpp.org.np>, 2005.
+# Sameer Rajbhandari <amit@mpp.org.np>, 2005.
+# Nabin Gautam <nabin@mpp.org.np>, 2007.
+
+
+
+
+========== nl.po ==========
+# Dutch translation for Mate System Monitor
+#
+# This file is distributed under the same license as the mate-system-monitor
+# package.
+#
+# Almer S. Tigelaar <almer1@dds.nl>, 2000.
+# A.J. van der Vegt <jeroen@dirck.mine.nu>, 2004
+# Tino Meinen <a.t.meinen@chello.nl>, 2005, 2006.
+# Reinout van Schouwen <reinouts@gnome.org>, 2007
+# Daniel van Eeden <matenl@myname.nl>, 2008
+# Wouter Bolsterlee <wbolster@gnome.org>, 2008–2010.
+#
+
+
+
+
+========== nn.po ==========
+# translation of nome-system-monitor.po to Norwegian Nynorsk
+# This file is distributed under the same license as the mate-system-monitor package.
+# Copyright (C) Free Software Foundation, Inc.
+# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2006.
+# Eskild Hustvedt <eskildh@gnome.org>, 2008
+
+
+
+
+========== oc.po ==========
+# Translation of oc.po to Occitan
+# Occitan translation of mate-system-monitor
+# Copyright (C) 2002-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the procman package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
+
+
+
+
+========== or.po ==========
+# translation of mate-system-manager.master.or.po to Oriya
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
+# Subhransu Behera <sbehera@redhat.com>, 2006.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2008, 2009, 2010.
+
+
+
+
+========== pa.po ==========
+# translation of mate-system-monitor.HEAD.po to Punjabi
+# Punjabi translation of procman.HEAD.
+# Copyright (C) 2004 THE procman.HEAD'S COPYRIGHT HOLDER
+#
+#
+# A S Alam <aalam@users.sf.net>, 2004, 2005, 2006, 2007, 2009.
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2008.
+
+
+
+
+========== pl.po ==========
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# matepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+========== ps.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== pt.po ==========
+# mate-system-monitor's Portuguese Translation
+# Copyright © 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 mate-system-monitor
+# Distributed under the same licence as the mate-system-monitor package
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation of mate-system-monitor.
+# Copyright (C) 2002-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+# Francisco Petrúcio Cavalcante Junior <fpcj@impa.br>, 2002.
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002, 2006.
+# Afonso Celso Medina <medina@maua.br>, 2004.
+# Raphael Higino <phhigino@gmail.com>, 2005.
+# Vinicius Pinheiro <vinnie.gp@gmail.com>, 2006.
+# Og Maciel <ogmaciel@ubuntu.com>, 2007, 2009.
+# Washington Lins <washington-lins@uol.com.br>, 2007.
+# Vladimir Melo <vladimirmelo@foresightlinux.org>, 2007.
+# Hugo Doria <hugodoria@gmail.com>, 2007-2008.
+# Thiago Lima Demétrio <thiago@omegasul.com.br>, 2008.
+# Djavan Fagundes <dnoway@gmail.com>, 2008.
+# André Gondim <andregondim@ubuntu.com>, 2009.
+#
+
+
+
+
+========== ro.po ==========
+# Romanian translation for mate-system-monitor (procman)
+# Copyright (C) 2003-2008 Free Software Foundation, Inc.
+# Mugurel Tudor <mugurelu@mate.ro>, 2002, 2003.
+# Dan Damian <dand@mate.ro>, 2005.
+# Mișu Moldovan <dumol@mate.ro>, 2005-2009.
+#
+
+
+
+
+========== ru.po ==========
+# translation of mate-system-monitor to Russian
+# Copyright (C) 2001-2009 Free Software Foundation, Inc.
+#
+# Sergey Volozhanin <svo@asplinux.ru>, 2001.
+# Valek Filippov  <frob@df.ru>, 2002.
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2004.
+# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003.
+# Leonid Kanter <leon@asplinux.ru>, 2004, 2005, 2006.
+# Alexander Sigachov <ajvol2@gmail.com>, 2007.
+
+
+
+
+========== rw.po ==========
+# translation of procman to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the procman package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+
+
+
+
+========== si.po ==========
+# translation of si.po to Sinhala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Danishka Navin <snavin@redhat.com>, 2007.
+
+
+
+
+========== sk.po ==========
+# Slovak translation for mate-system-monitor.
+# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2006, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2001, 2002.
+# Stanislav Visnovsky <visnovsky@kde.org>, 2003.
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2004.
+# Marcel Telka <marcel@telka.sk>, 2005, 2006.
+# Marián Bača <majoobaca@gmail.com>, 2010.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translations for mate-system-monitor.
+# Copyright (C) 2002-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Andraž Tori <andraz.tori1@guest.arnes.si>, 2002.
+# Matic Žgur <mr.zgur@gmail.com>, 2006 - 2007.
+# Matej Urbančič <mateju@svn.mate.org>, 2007 - 2010.
+#
+
+
+
+
+========== sq.po ==========
+# Përkthimi i mesazheve të mate-system-monitor në shqip
+# Albanian translation of procman
+# Copyright (C) 2006 Free Software Foundation, Inc.
+#
+# Laurent Dhima <laurenti@alblinux.net>, 2002, 2003, 2004, 2005, 2006.
+
+
+
+
+========== sr.po ==========
+# Serbian translation of procman
+# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003, 2005, 2006.
+#
+# This file is distributed under the same license as the procman package.
+#
+# Maintainer: Душан Марјановић <mdfk@root.co.yu>
+# Reviewed on 2005-03-06 by: Данило Шеган <danilo@prevod.org>
+#
+
+
+
+
+========== sr@latin.po ==========
+# Serbian translation of procman
+# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003, 2005, 2006.
+#
+# This file is distributed under the same license as the procman package.
+#
+# Maintainer: Dušan Marjanović <mdfk@root.co.yu>
+# Reviewed on 2005-03-06 by: Danilo Šegan <danilo@prevod.org>
+#
+
+
+
+
+========== sv.po ==========
+# Swedish messages for mate-system-monitor.
+# Copyright (C) 2001-2009 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009.
+#
+
+
+
+
+========== ta.po ==========
+# translation of mate-system-monitor.HEAD.ta.po to Tamil
+# Tamil translation of Tamil Procman 2.4.
+# Copyright (C) 2003, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+#
+# Dinesh Nadarajah <n_dinesh@yahoo.com>, 2003.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# Felix <ifelix@redhat.com>, 2006.
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007.
+# I. Felix <ifelix@redhat.com>, 2008, 2009.
+
+
+
+
+========== te.po ==========
+# translation of mate-system-monitor.master.te.po to Telugu
+# Telugu translation of mate-system-monitor.
+# Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>.
+# This file is distributed under the same license as the mate-system-monitor package.
+#
+# Pramod <pramod@swecha.net>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+
+
+
+
+========== th.po ==========
+# Thai translation of procman.
+# Copyright (C) 2004-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the procman package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2004-2009.
+#
+#
+
+
+
+
+========== tr.po ==========
+# translation of mate-system-monitor to Turkish
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+# Ömer Fadıl USTA <omer_fad@hotmai.com>,2002.
+# Davut Topcan <davut@aysis.com.tr>, 2004, 2005.
+# Baris Cicek <baris@teamforce.name.tr>, 2007.
+# Turkish translation for procman messages
+# Copyright (C) 2001, 2004, 2005, 2007 Free Software Foundation, Inc.
+# Baris Cicek <baris@teamforce.name.tr>, 2008, 2009.
+
+
+
+
+========== ug.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== uk.po ==========
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Yuriy Syrota <rasta@renome.rovno.ua>, 2001.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2008
+#
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation for MATE System Monitor.
+# Copyright © 2009 MATE i18n Project for Vietnamese.
+# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+#
+
+
+
+
+========== zh_CN.po ==========
+# Simplified Chinese translation for procman.
+# Copyright (C) 2002, 2003, 2004, 2005, 2009 Free Software Foundation, Inc.
+# He Qiangqiang <carton@263.net>, 2002.
+# Funda Wang <fundawang@linux.net.cn>, 2003-2005.
+# Aron Xu <happyaron.xu@gmail.com>, 2009.
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation for mate-system-monitor(procman).
+# Copyright (C) 2001-07 Free Software Foundation, Inc.
+# Abel Cheung <abel@oaka.org>, 2001-03, 05.
+# Woodman Tuen <wmtuen@gmail.com>, 2004-07.
+# Chao-Hsiung Liao  <j_h_liau@yahoo.com.tw>, 2008.
+#
+
+
+
+
+========== zh_TW.po ==========
+# Chinese (Taiwan) translation for mate-system-monitor(procman).
+# Copyright (C) 2001-07 Free Software Foundation, Inc.
+# Abel Cheung <abel@oaka.org>, 2001-03, 05.
+# Woodman Tuen <wmtuen@gmail.com>, 2004-07.
+# Chao-Hsiung Liao  <j_h_liau@yahoo.com.tw>, 2008.
+#
+
+
+
+

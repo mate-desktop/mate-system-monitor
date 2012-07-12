@@ -1,3 +1,191 @@
+commit 4f9e5e2320f0a27fe676962b71d5160efec479a7
+Merge: 4595921 3fa35a8
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Jul 12 15:33:28 2012 +0200
+
+    Merge branch 'master' of github.com:mate-desktop/mate-system-monitor
+
+commit 45959215873762f93accd1384d40b145c007f100
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Jul 12 15:33:17 2012 +0200
+
+    add po gnome copyrights file
+
+ po/gnome-copyrights.txt | 1057 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1057 insertions(+)
+
+commit 3fa35a8281ee5088b7e2222b683e5d9191cfd902
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Jun 14 22:27:13 2012 +0200
+
+    port to libmatewnck
+
+ configure.in              |    4 ++--
+ distro/archlinux/PKGBUILD |    2 +-
+ src/prettytable.cpp       |   23 +++++++++++------------
+ src/prettytable.h         |    9 ++++-----
+ src/procman.h             |    2 +-
+ src/proctable.cpp         |    4 ++--
+ 6 files changed, 21 insertions(+), 23 deletions(-)
+
+commit 6f24d86e80d059e7d050eae400441029c0e34e59
+Merge: fb91675 f6e7ded
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed May 23 05:21:53 2012 -0700
+
+    Merge pull request #5 from MDykstra/master
+    
+    backward compatible dependency on gmodule-2.0
+
+commit f6e7ded9039d35f3e9c26ca10a8bf242ed4198e2
+Author: Marcel Dijkstra <marcel.dykstra@gmail.com>
+Date:   Wed May 16 01:54:29 2012 +0200
+
+    only depend on gmodule-2.0 if it exists
+
+ configure.in |    4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit e4be2442cab4116d8d6c6fdb69efeeefd7ed78e2
+Author: Marcel Dijkstra <marcel.dykstra@gmail.com>
+Date:   Fri Apr 27 20:44:37 2012 +0200
+
+    liner now requires gmodule-2.0 in mate-text-editor
+
+ configure.in |    3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit fb9167552795d7ec526c39b8238ded596b5665c7
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Fri Apr 6 12:50:02 2012 -0400
+
+    Removed empty, useless acconfig.h file
+
+ 0 files changed
+
+commit de2ad9ebb7d4da2e2adaf6af06506042d777bf48
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sun Mar 25 19:05:48 2012 -0400
+
+    Preparing for 1.2.1 release
+
+ configure.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d8f49f31e5d2987cf494e47a16efd298eeb1e17e
+Merge: 7d89fc8 7b0f14e
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Sat Mar 17 10:52:00 2012 -0700
+
+    Merge pull request #3 from benpicco/master
+    
+    sync with upstream
+
+commit 7b0f14e04533ae7cdb3689862e763f90c688dccf
+Author: =?UTF-8?q?Chris=20K=C3=BChl?= <chrisk@openismus.com>
+Date:   Thu Jan 27 11:55:10 2011 +0100
+
+    Removed use of deprecated mateconf_init.
+
+ src/procman.cpp |    2 --
+ 1 file changed, 2 deletions(-)
+
+commit bb04c1debe08a65ca834ad531b73fcc58b37eb2a
+Author: =?UTF-8?q?Javier=20Jard=C3=B3n?= <jjardon@gnome.org>
+Date:   Thu Sep 30 18:42:44 2010 +0200
+
+    Replacing GtkNotebookPage with GtkWidget according to changes in GTK+
+    
+    Signed-off-by: Chris Kühl <chrisk@openismus.com>
+
+ src/callbacks.cpp |    2 +-
+ src/callbacks.h   |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 0a2d8ddbcd904afbd80aace9de6732a7bea28399
+Author: Chris Kühl <chrisk@openismus.com>
+Date:   Thu Jan 27 15:20:45 2011 +0100
+
+    Moved rsvg_init and rsvg_term into main to fix Bug #613752.
+
+ src/gsm_color_button.c |    3 ---
+ src/procman.cpp        |    7 +++++++
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+
+commit ed0b5b561f7adada1e62041d29edd18612d42ea8
+Author: Chris Kühl <chrisk@openismus.com>
+Date:   Wed Jan 26 14:12:09 2011 +0100
+
+    Replaced occurances of gtk_dialog_set_has_separator with g_object_set.
+
+ src/lsof.cpp        |    1 -
+ src/memmaps.cpp     |    1 -
+ src/openfiles.cpp   |    2 +-
+ src/procdialogs.cpp |    4 ++--
+ 4 files changed, 3 insertions(+), 5 deletions(-)
+
+commit a43f2684570c10f3c5ee2f32b41065c9d2f2f14e
+Author: Chris Kühl <chrisk@openismus.com>
+Date:   Wed Jan 26 11:51:50 2011 +0100
+
+    Replace old GDK drawing API
+    
+    Patch from Sergey Nizovtsev.
+    See https://bugzilla.gnome.org/show_bug.cgi?id=627568
+
+ src/load-graph.cpp |   30 ++++++++++--------------------
+ src/load-graph.h   |    1 -
+ 2 files changed, 10 insertions(+), 21 deletions(-)
+
+commit d978ff67175c8e0b05b2a6732ec47aff2dbd21b8
+Author: Andreas Nilsson <nisses.mail@home.se>
+Date:   Tue Oct 26 17:09:15 2010 +0200
+
+    Remove duplicate label in File System tab
+    
+    https://bugzilla.gnome.org/show_bug.cgi?id=597250
+
+ src/disks.cpp |    4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 7d89fc8a9fbe3d16bdbb3f5eaeeb978e212c4c83
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Mar 11 16:57:17 2012 +0100
+
+    added serious image (thanks to Rowen_Stipe)
+
+ TODO                 |    1 +
+ pixmaps/side-cat.png |  Bin 0 -> 8778 bytes
+ pixmaps/side.png     |  Bin 8778 -> 4504 bytes
+ 3 files changed, 1 insertion(+)
+
+commit 1d633a3a02df3809cbe01b592d875374e931373d
+Author: Perberos <perberos@gmail.com>
+Date:   Fri Mar 9 20:43:30 2012 -0300
+
+    build error with glib2-2.31 (https://github.com/mate-desktop/mate-system-monitor/issues/2)
+
+ src/interface.h      |    2 +-
+ src/load-graph.h     |    2 +-
+ src/lsof.h           |    2 +-
+ src/openfiles.h      |    2 +-
+ src/procman_matesu.h |    2 +-
+ src/util.cpp         |    2 +-
+ 6 files changed, 6 insertions(+), 6 deletions(-)
+
+commit 8f583a5decc28f0f1283bc0067be77904e78871e
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Mar 7 20:40:47 2012 +0100
+
+    update for 1.2 release
+
+ AUTHORS      |    7 +-
+ ChangeLog    |  318 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ README       |    1 +
+ autogen.sh   |    4 +-
+ configure.in |    2 +-
+ 5 files changed, 327 insertions(+), 5 deletions(-)
+
 commit 9f898bdcf2a7478ac61942e0d9c1c919f3fa4c65
 Author: Steve Zesch <stevezesch2@gmail.com>
 Date:   Fri Jan 13 20:03:12 2012 -0500
@@ -5,7 +193,7 @@ Date:   Fri Jan 13 20:03:12 2012 -0500
     Added mate-desktop.org to about window
 
  src/callbacks.cpp |  353 +++++++++++++++++++++++++++--------------------------
- 1 files changed, 177 insertions(+), 176 deletions(-)
+ 1 file changed, 177 insertions(+), 176 deletions(-)
 
 commit 1f882326df89b8c2990f71e014586fc2310b7c11
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -34,7 +222,7 @@ Date:   Sat Dec 24 20:03:14 2011 +0000
 
  configure.in    |    2 ++
  src/Makefile.am |    2 +-
- 2 files changed, 3 insertions(+), 1 deletions(-)
+ 2 files changed, 3 insertions(+), 1 deletion(-)
 
 commit b7b15266d086a24e8b48868b9b1b18bc04cd6c21
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -66,7 +254,7 @@ Date:   Mon Nov 14 18:46:55 2011 -0300
     updating autogen.sh
 
  autogen.sh |   15 +++++++++------
- 1 files changed, 9 insertions(+), 6 deletions(-)
+ 1 file changed, 9 insertions(+), 6 deletions(-)
 
 commit 428acec0268528eeb8f99c1a7b621334eeaaa802
 Author: Perberos <perberos@gmail.com>
@@ -75,7 +263,7 @@ Date:   Fri Nov 11 06:41:13 2011 -0300
     ignore this commit
 
  pixmaps/side.png |  Bin 3429 -> 8778 bytes
- 1 files changed, 0 insertions(+), 0 deletions(-)
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 commit 94fb1159f50ff579c48204f588abd1aee290f4f9
 Author: Perberos <perberos@gmail.com>
@@ -84,7 +272,7 @@ Date:   Tue Nov 8 16:31:02 2011 -0300
     readme still need more info
 
  README |    4 ++--
- 1 files changed, 2 insertions(+), 2 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 commit 881277e87ea63f43b1bd2c3763f0ae3b92f7d64e
 Author: Perberos <perberos@gmail.com>
@@ -92,7 +280,7 @@ Date:   Tue Nov 8 16:25:52 2011 -0300
 
     chmod +x to autogen.sh
 
- 0 files changed, 0 insertions(+), 0 deletions(-)
+ 0 files changed
 
 commit f45852ab2a7126f354079499fc8b03976c0eab27
 Author: Perberos <perberos@gmail.com>
@@ -314,4 +502,4 @@ Date:   Tue Nov 8 16:22:08 2011 -0300
  src/sysinfo.h                                     |    9 +
  src/util.cpp                                      |  510 +++
  src/util.h                                        |  151 +
- 214 files changed, 135724 insertions(+), 0 deletions(-)
+ 214 files changed, 135724 insertions(+)

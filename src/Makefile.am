@@ -49,13 +49,14 @@ specdir = $(datadir)/procman
 
 
 # GSettings schemas, enum files and conversion file
-gsettings_ENUM_NAMESPACE = org.mate.mate-system-monitor
+gsettings_ENUM_NAMESPACE = org.mate.system-monitor
 gsettings_ENUM_FILES = $(top_srcdir)/src/*.h
-gsettingsschemadir = $(datadir)/glib-2.0/schemas
-gsettings_in_file = org.mate.mate-system-monitor.gschema.xml.in
-gsettings_SCHEMAS = $(gsettings_in_file:.xml.in=.xml)
-@INTLTOOL_XML_NOMERGE_RULE@
+gsettings_SCHEMAS = org.mate.system-monitor.gschema.xml
 @GSETTINGS_RULES@
+@INTLTOOL_XML_NOMERGE_RULE@
+
+%.gschema.xml.in: %.gschema.xml.in.in Makefile
+	$(AM_V_GEN) $(SED) -e 's^\@GETTEXT_PACKAGE\@^$(GETTEXT_PACKAGE)^g' < $< > $@
 
 dist_noinst_DATA = \
     $(gsettings_in_file)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.mate-system-monitor" path="/org/mate/mate-system-monitor/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor" path="/org/mate/system-monitor/">
     <key name="width" type="i">
       <default>440</default>
       <summary>Main Window width</summary>
@@ -90,12 +90,12 @@
       <_summary>Show network traffic in bits
       </_summary>
     </key>
-    <child name="proctree" schema="org.mate.mate-system-monitor.proctree"/>
-    <child name="disktreenew" schema="org.mate.mate-system-monitor.disktreenew"/>
-    <child name="memmapstree" schema="org.mate.mate-system-monitor.memmapstree"/>
-    <child name="openfilestree" schema="org.mate.mate-system-monitor.openfilestree" />
+    <child name="proctree" schema="org.mate.system-monitor.proctree"/>
+    <child name="disktreenew" schema="org.mate.system-monitor.disktreenew"/>
+    <child name="memmapstree" schema="org.mate.system-monitor.memmapstree"/>
+    <child name="openfilestree" schema="org.mate.system-monitor.openfilestree" />
   </schema>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.mate-system-monitor.proctree" path="/org/mate/mate-system-monitor/proctree/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.proctree" path="/org/mate/system-monitor/proctree/">
     <key name="sort-col" type="i">
       <default>0</default>
       <summary>Process view sort column</summary>
@@ -245,7 +245,7 @@
       <summary>Show process 'Waiting Channel' column on startup</summary>
     </key>
   </schema>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.mate-system-monitor.disktreenew" path="/org/mate/mate-system-monitor/disktreenew/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.disktreenew" path="/org/mate/system-monitor/disktreenew/">
     <key name="sort-col" type="i">
       <default>1</default>
       <summary>Process view sort column</summary>
@@ -259,7 +259,7 @@
       <summary>Disk view columns order</summary>
     </key>
   </schema>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.mate-system-monitor.memmapstree" path="/org/mate/mate-system-monitor/memmapstree/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.memmapstree" path="/org/mate/system-monitor/memmapstree/">
     <key name="sort-col" type="i">
       <default>0</default>
       <summary>Process view sort column</summary>
@@ -269,7 +269,7 @@
       <summary>Process view sort order</summary>
     </key>
   </schema>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.mate-system-monitor.openfilestree" path="/org/mate/mate-system-monitor/openfilestree/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.openfilestree" path="/org/mate/system-monitor/openfilestree/">
     <key name="sort-col" type="i">
       <default>0</default>
       <_summary>Process view sort column</_summary>

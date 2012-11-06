@@ -90,9 +90,9 @@ cb_columns_changed(GtkTreeView *treeview, gpointer user_data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(user_data);
 
-	procman_save_tree_state(procdata->client,
+	procman_save_tree_state(procdata->settings,
 				GTK_WIDGET(treeview),
-				"/apps/procman/proctree");
+				"proctree");
 }
 
 
@@ -392,7 +392,7 @@ proctable_new (ProcData * const procdata)
 
 	set_proctree_reorderable(procdata);
 
-	procman_get_tree_state (procdata->client, proctree, "/apps/procman/proctree");
+	procman_get_tree_state (procdata->settings, proctree, "proctree");
 
 	/* Override column settings by hiding this column if it's meaningless: */
 	if (!can_show_security_context_column ()) {

@@ -31,7 +31,6 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkx.h>
 #include <bacon-message-connection.h>
-#include <mateconf/mateconf-client.h>
 #include <glibtop.h>
 #include <glibtop/close.h>
 #include <glibtop/loadavg.h>
@@ -44,7 +43,7 @@
 #include "callbacks.h"
 #include "smooth_refresh.h"
 #include "util.h"
-#include "mateconf-keys.h"
+#include "settings-keys.h"
 #include "argv.h"
 
 
@@ -69,12 +68,10 @@ ProcData* ProcData::get_instance()
 
 
 static void
-tree_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+tree_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData *procdata = static_cast<ProcData*>(data);
-	MateConfValue *value = mateconf_entry_get_value (entry);
-
-	procdata->config.show_tree = mateconf_value_get_bool (value);
+	procdata->config.show_tree = g_settings_get_boolean(settings, key);
 
 	g_object_set(G_OBJECT(procdata->tree),
 		     "show-expanders", procdata->config.show_tree,
@@ -86,36 +83,32 @@ tree_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpointe
 }
 
 static void
-solaris_mode_changed_cb(MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+solaris_mode_changed_cb(GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData *procdata = static_cast<ProcData*>(data);
-	MateConfValue *value = mateconf_entry_get_value (entry);
 
-	procdata->config.solaris_mode = mateconf_value_get_bool(value);
+	procdata->config.solaris_mode = g_settings_get_boolean(settings, key);
 	proctable_update_all (procdata);
 }
 
 
 static void
-network_in_bits_changed_cb(MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+network_in_bits_changed_cb(GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData *procdata = static_cast<ProcData*>(data);
-	MateConfValue *value = mateconf_entry_get_value (entry);
 
-	procdata->config.network_in_bits = mateconf_value_get_bool(value);
-	// force scale to be redrawn
+	procdata->config.network_in_bits = g_settings_get_boolean(settings, key);
 	procdata->net_graph->clear_background();
 }
 
 
 
 static void
-view_as_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+view_as_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData *procdata = static_cast<ProcData*>(data);
-	MateConfValue *value = mateconf_entry_get_value (entry);
 
-	procdata->config.whose_process = mateconf_value_get_int (value);
+	procdata->config.whose_process = g_settings_get_int (settings, key);
 	procdata->config.whose_process = CLAMP (procdata->config.whose_process, 0, 2);
 	proctable_clear_tree (procdata);
 	proctable_update_all (procdata);
@@ -123,26 +116,20 @@ view_as_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpoi
 }
 
 static void
-warning_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+warning_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData *procdata = static_cast<ProcData*>(data);
-	const gchar *key = mateconf_entry_get_key (entry);
-	MateConfValue *value = mateconf_entry_get_value (entry);
-
-	if (g_str_equal (key, "/apps/procman/kill_dialog")) {
-		procdata->config.show_kill_warning = mateconf_value_get_bool (value);
+	if (g_str_equal (key, "kill-dialog")) {
+        procdata->config.show_kill_warning = g_settings_get_boolean (settings, key);
 	}
 }
 
 static void
-timeouts_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+timeouts_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData *procdata = static_cast<ProcData*>(data);
-	const gchar *key = mateconf_entry_get_key (entry);
-	MateConfValue *value = mateconf_entry_get_value (entry);
-
-	if (g_str_equal (key, "/apps/procman/update_interval")) {
-		procdata->config.update_interval = mateconf_value_get_int (value);
+	if (g_str_equal (key, "update-interval")) {
+        procdata->config.update_interval = g_settings_get_int (settings, key);
 		procdata->config.update_interval =
 			MAX (procdata->config.update_interval, 1000);
 
@@ -155,8 +142,8 @@ timeouts_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpo
 							   procdata);
 		}
 	}
-	else if (g_str_equal (key, "/apps/procman/graph_update_interval")){
-		procdata->config.graph_update_interval = mateconf_value_get_int (value);
+	else if (g_str_equal (key, "graph-update-interval")){
+        procdata->config.graph_update_interval = g_settings_get_int (settings, key);
 		procdata->config.graph_update_interval =
 			MAX (procdata->config.graph_update_interval,
 			     250);
@@ -167,9 +154,9 @@ timeouts_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpo
 		load_graph_change_speed(procdata->net_graph,
 					procdata->config.graph_update_interval);
 	}
-	else if (g_str_equal(key, "/apps/procman/disks_interval")) {
+	else if (g_str_equal(key, "disks-interval")) {
 
-		procdata->config.disks_update_interval = mateconf_value_get_int (value);
+		procdata->config.disks_update_interval = g_settings_get_int (settings, key);
 		procdata->config.disks_update_interval =
 			MAX (procdata->config.disks_update_interval, 1000);
 
@@ -187,16 +174,14 @@ timeouts_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpo
 }
 
 static void
-color_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(data);
-	const gchar *key = mateconf_entry_get_key (entry);
-	MateConfValue *value = mateconf_entry_get_value (entry);
-	const gchar *color = mateconf_value_get_string (value);
+	const gchar *color = g_settings_get_string (settings, key);
 
-	if (g_str_has_prefix (key, "/apps/procman/cpu_color")) {
-		for (int i = 0; i < GLIBTOP_NCPU; i++) {
-			string cpu_key = make_string(g_strdup_printf("/apps/procman/cpu_color%d", i));
+	if (g_str_has_prefix (key, "cpu-color")) {
+         for (int i = 0; i < procdata->config.num_cpus; i++) {
+            string cpu_key = make_string(g_strdup_printf("cpu-color%d", i));
 			if (cpu_key == key) {
 				gdk_color_parse (color, &procdata->config.cpu_color[i]);
 				procdata->cpu_graph->colors.at(i) = procdata->config.cpu_color[i];
@@ -204,19 +189,19 @@ color_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpoint
 			}
 		}
 	}
-	else if (g_str_equal (key, "/apps/procman/mem_color")) {
+	else if (g_str_equal (key, "mem-color")) {
 		gdk_color_parse (color, &procdata->config.mem_color);
 		procdata->mem_graph->colors.at(0) = procdata->config.mem_color;
 	}
-	else if (g_str_equal (key, "/apps/procman/swap_color")) {
+	else if (g_str_equal (key, "swap-color")) {
 		gdk_color_parse (color, &procdata->config.swap_color);
 		procdata->mem_graph->colors.at(1) = procdata->config.swap_color;
 	}
-	else if (g_str_equal (key, "/apps/procman/net_in_color")) {
+	else if (g_str_equal (key, "net-in-color")) {
 		gdk_color_parse (color, &procdata->config.net_in_color);
 		procdata->net_graph->colors.at(0) = procdata->config.net_in_color;
 	}
-	else if (g_str_equal (key, "/apps/procman/net_out_color")) {
+	else if (g_str_equal (key, "net-out-color")) {
 		gdk_color_parse (color, &procdata->config.net_out_color);
 		procdata->net_graph->colors.at(1) = procdata->config.net_out_color;
 	}
@@ -228,19 +213,18 @@ color_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpoint
 
 
 static void
-show_all_fs_changed_cb (MateConfClient *client, guint id, MateConfEntry *entry, gpointer data)
+show_all_fs_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(data);
-	MateConfValue *value = mateconf_entry_get_value (entry);
 
-	procdata->config.show_all_fs = mateconf_value_get_bool (value);
+	procdata->config.show_all_fs = g_settings_get_boolean (settings, key);
 
 	cb_update_disks (data);
 }
 
 
 static ProcData *
-procman_data_new (MateConfClient *client)
+procman_data_new (GSettings *settings)
 {
 
 	ProcData *pd;
@@ -251,96 +235,96 @@ procman_data_new (MateConfClient *client)
 
 	pd = ProcData::get_instance();
 
-	pd->config.width = mateconf_client_get_int (client, "/apps/procman/width", NULL);
-	pd->config.height = mateconf_client_get_int (client, "/apps/procman/height", NULL);
-	pd->config.show_tree = mateconf_client_get_bool (client, "/apps/procman/show_tree", NULL);
-	mateconf_client_notify_add (client, "/apps/procman/show_tree", tree_changed_cb,
-				 pd, NULL, NULL);
+	pd->config.width = g_settings_get_int (settings, "width");
+	pd->config.height = g_settings_get_int (settings, "height");
+	pd->config.show_tree = g_settings_get_boolean (settings, "show-tree");
+	g_signal_connect (G_OBJECT(settings), "changed::show-tree", G_CALLBACK(tree_changed_cb), pd);
 
-	pd->config.solaris_mode = mateconf_client_get_bool(client, procman::mateconf::solaris_mode.c_str(), NULL);
-	mateconf_client_notify_add(client, procman::mateconf::solaris_mode.c_str(), solaris_mode_changed_cb, pd, NULL, NULL);
+	pd->config.solaris_mode = g_settings_get_boolean(settings, procman::settings::solaris_mode.c_str());
+	std::string detail_string("changed::" + procman::settings::solaris_mode);
+	g_signal_connect(G_OBJECT(settings), detail_string.c_str(), G_CALLBACK(solaris_mode_changed_cb), pd);
 
-	pd->config.network_in_bits = mateconf_client_get_bool(client, procman::mateconf::network_in_bits.c_str(), NULL);
-	mateconf_client_notify_add(client, procman::mateconf::network_in_bits.c_str(), network_in_bits_changed_cb, pd, NULL, NULL);
+	pd->config.network_in_bits = g_settings_get_boolean(settings, procman::settings::network_in_bits.c_str());
+	detail_string = "changed::" + procman::settings::network_in_bits;
+	g_signal_connect(G_OBJECT(settings), detail_string.c_str(), G_CALLBACK(network_in_bits_changed_cb), pd);
 
-
-	pd->config.show_kill_warning = mateconf_client_get_bool (client, "/apps/procman/kill_dialog",
-							      NULL);
-	mateconf_client_notify_add (client, "/apps/procman/kill_dialog", warning_changed_cb,
-				 pd, NULL, NULL);
-	pd->config.update_interval = mateconf_client_get_int (client, "/apps/procman/update_interval",
-							   NULL);
-	mateconf_client_notify_add (client, "/apps/procman/update_interval", timeouts_changed_cb,
-				 pd, NULL, NULL);
-	pd->config.graph_update_interval = mateconf_client_get_int (client,
-						"/apps/procman/graph_update_interval",
-						NULL);
-	mateconf_client_notify_add (client, "/apps/procman/graph_update_interval", timeouts_changed_cb,
-				 pd, NULL, NULL);
-	pd->config.disks_update_interval = mateconf_client_get_int (client,
-								 "/apps/procman/disks_interval",
-								 NULL);
-	mateconf_client_notify_add (client, "/apps/procman/disks_interval", timeouts_changed_cb,
-				 pd, NULL, NULL);
+	pd->config.show_kill_warning = g_settings_get_boolean (settings, "kill-dialog");
+	g_signal_connect (G_OBJECT(settings), "changed::kill-dialog", G_CALLBACK(warning_changed_cb), pd);
+	pd->config.update_interval = g_settings_get_int (settings, "update-interval");
+	g_signal_connect (G_OBJECT(settings), "changed::update-interval", G_CALLBACK(timeouts_changed_cb), pd);
+	pd->config.graph_update_interval = g_settings_get_int (settings,
+	"graph-update-interval");
+	g_signal_connect (G_OBJECT(settings), "changed::graph-update-interval",
+	G_CALLBACK(timeouts_changed_cb), pd);
+	pd->config.disks_update_interval = g_settings_get_int (settings, "disks-interval");
+	g_signal_connect (G_OBJECT(settings), "changed::disks-interval", G_CALLBACK(timeouts_changed_cb), pd);
 
 
-	/* /apps/procman/show_all_fs */
-	pd->config.show_all_fs = mateconf_client_get_bool (
-		client, "/apps/procman/show_all_fs",
-		NULL);
-	mateconf_client_notify_add
-		(client, "/apps/procman/show_all_fs",
-		 show_all_fs_changed_cb, pd, NULL, NULL);
+	/* show_all_fs */
+	pd->config.show_all_fs = g_settings_get_boolean (settings, "show-all-fs");
+	g_signal_connect (settings, "changed::show-all-fs", G_CALLBACK(show_all_fs_changed_cb), pd);
 
 
-	pd->config.whose_process = mateconf_client_get_int (client, "/apps/procman/view_as", NULL);
-	mateconf_client_notify_add (client, "/apps/procman/view_as", view_as_changed_cb,
-				 pd, NULL, NULL);
-	pd->config.current_tab = mateconf_client_get_int (client, "/apps/procman/current_tab", NULL);
+	pd->config.whose_process = g_settings_get_int (settings, "view-as");
+	g_signal_connect (G_OBJECT(settings), "changed::view-as", G_CALLBACK(view_as_changed_cb),pd);
+	pd->config.current_tab = g_settings_get_int (settings, "current-tab");
 
-	for (int i = 0; i < GLIBTOP_NCPU; i++) {
+	/* Determinie number of cpus since libgtop doesn't really tell you*/
+	pd->config.num_cpus = 0;
+	glibtop_get_cpu (&cpu);
+	pd->frequency = cpu.frequency;
+	i=0;
+	while (i < GLIBTOP_NCPU && cpu.xcpu_total[i] != 0) {
+	pd->config.num_cpus ++;
+	i++;
+	}
+	if (pd->config.num_cpus == 0)
+	pd->config.num_cpus = 1;
+
+	for (int i = 0; i < pd->config.num_cpus; i++) {
 		gchar *key;
-		key = g_strdup_printf ("/apps/procman/cpu_color%d", i);
+		key = g_strdup_printf ("cpu-color%d", i);
 
-		color = mateconf_client_get_string (client, key, NULL);
+		color = g_settings_get_string (settings, key);
 		if (!color)
 			color = g_strdup ("#f25915e815e8");
-		mateconf_client_notify_add (client, key,
-			  	 color_changed_cb, pd, NULL, NULL);
+		detail_string = std::string("changed::") + std::string(key);
+		g_signal_connect (G_OBJECT(settings), detail_string.c_str(),
+                          G_CALLBACK(color_changed_cb), pd);
 		gdk_color_parse(color, &pd->config.cpu_color[i]);
 		g_free (color);
 		g_free (key);
 	}
-	color = mateconf_client_get_string (client, "/apps/procman/mem_color", NULL);
+	color = g_settings_get_string (settings, "mem-color");
 	if (!color)
 		color = g_strdup ("#000000ff0082");
-	mateconf_client_notify_add (client, "/apps/procman/mem_color",
-			  	 color_changed_cb, pd, NULL, NULL);
+	g_signal_connect (G_OBJECT(settings), "changed::mem-color",
+                      G_CALLBACK(color_changed_cb), pd);
 	gdk_color_parse(color, &pd->config.mem_color);
 
 	g_free (color);
 
-	color = mateconf_client_get_string (client, "/apps/procman/swap_color", NULL);
+	color = g_settings_get_string (settings, "swap-color");
 	if (!color)
 		color = g_strdup ("#00b6000000ff");
-	mateconf_client_notify_add (client, "/apps/procman/swap_color",
-			  	 color_changed_cb, pd, NULL, NULL);
+	g_signal_connect (G_OBJECT(settings), "changed::swap-color",
+                      G_CALLBACK(color_changed_cb), pd);
 	gdk_color_parse(color, &pd->config.swap_color);
 	g_free (color);
 
-	color = mateconf_client_get_string (client, "/apps/procman/net_in_color", NULL);
+	color = g_settings_get_string (settings, "net-in-color");
 	if (!color)
 		color = g_strdup ("#000000f200f2");
-	mateconf_client_notify_add (client, "/apps/procman/net_in_color",
-			  	 color_changed_cb, pd, NULL, NULL);
+	g_signal_connect (G_OBJECT(settings), "changed::net-in-color",
+                      G_CALLBACK(color_changed_cb), pd);
 	gdk_color_parse(color, &pd->config.net_in_color);
 	g_free (color);
 
-	color = mateconf_client_get_string (client, "/apps/procman/net_out_color", NULL);
+	color = g_settings_get_string (settings, "net-out-color");
 	if (!color)
 		color = g_strdup ("#00f2000000c1");
-	mateconf_client_notify_add (client, "/apps/procman/net_out_color",
-			  	 color_changed_cb, pd, NULL, NULL);
+	g_signal_connect (G_OBJECT(settings), "changed::net-out-color",
+                      G_CALLBACK(color_changed_cb), pd);
 	gdk_color_parse(color, &pd->config.net_out_color);
 	g_free (color);
 
@@ -357,21 +341,9 @@ procman_data_new (MateConfClient *client)
 				       PROCMAN_TAB_SYSINFO,
 				       PROCMAN_TAB_DISKS);
 
-	/* Determinie number of cpus since libgtop doesn't really tell you*/
-	pd->config.num_cpus = 0;
-	glibtop_get_cpu (&cpu);
-	pd->frequency = cpu.frequency;
-	i=0;
-    	while (i < GLIBTOP_NCPU && cpu.xcpu_total[i] != 0) {
-    	    pd->config.num_cpus ++;
-    	    i++;
-    	}
-    	if (pd->config.num_cpus == 0)
-    		pd->config.num_cpus = 1;
-
 	// delayed initialization as SmoothRefresh() needs ProcData
 	// i.e. we can't call ProcData::get_instance
-	pd->smooth_refresh = new SmoothRefresh();
+	pd->smooth_refresh = new SmoothRefresh(settings);
 
 	return pd;
 
@@ -387,30 +359,24 @@ procman_free_data (ProcData *procdata)
 
 
 gboolean
-procman_get_tree_state (MateConfClient *client, GtkWidget *tree, const gchar *prefix)
+procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child_schema)
 {
 	GtkTreeModel *model;
 	GList *columns, *it;
 	gint sort_col;
 	GtkSortType order;
-	gchar *key;
 
 
 	g_assert(tree);
-	g_assert(prefix);
+	g_assert(child_schema);
 
-	if (!mateconf_client_dir_exists (client, prefix, NULL))
-		return FALSE;
+	GSettings *pt_settings = g_settings_get_child (settings, child_schema);
 
 	model = gtk_tree_view_get_model (GTK_TREE_VIEW (tree));
 
-	key = g_strdup_printf ("%s/sort_col", prefix);
-	sort_col = mateconf_client_get_int (client, key, NULL);
-	g_free (key);
+	sort_col = g_settings_get_int (pt_settings, "sort-col");
 
-	key = g_strdup_printf ("%s/sort_order", prefix);
-	order = static_cast<GtkSortType>(mateconf_client_get_int (client, key, NULL));
-	g_free (key);
+	order = static_cast<GtkSortType>(g_settings_get_int (pt_settings, "sort-order"));
 
 	if (sort_col != -1)
 		gtk_tree_sortable_set_sort_column_id (GTK_TREE_SORTABLE (model),
@@ -419,52 +385,60 @@ procman_get_tree_state (MateConfClient *client, GtkWidget *tree, const gchar *pr
 
 	columns = gtk_tree_view_get_columns (GTK_TREE_VIEW (tree));
 
-	for(it = columns; it; it = it->next)
-	{
+	if(!g_strcmp0(child_schema, "proctree"))
+     {
+       for(it = columns; it; it = it->next)
+       {
 		GtkTreeViewColumn *column;
-		MateConfValue *value = NULL;
 		gint width;
 		gboolean visible;
 		int id;
+		gchar *key;
 
 		column = static_cast<GtkTreeViewColumn*>(it->data);
 		id = gtk_tree_view_column_get_sort_column_id (column);
 
-		key = g_strdup_printf ("%s/col_%d_width", prefix, id);
-		value = mateconf_client_get (client, key, NULL);
+		key = g_strdup_printf ("col-%d-width", id);
+		g_settings_get (pt_settings, key, "i", &width);
 		g_free (key);
 
-		if (value != NULL) {
-			width = mateconf_value_get_int(value);
-			mateconf_value_free (value);
+		key = g_strdup_printf ("col-%d-visible", id);
+        visible = g_settings_get_boolean (pt_settings, key);
+        g_free (key);
 
-			key = g_strdup_printf ("%s/col_%d_visible", prefix, id);
-			visible = mateconf_client_get_bool (client, key, NULL);
-			g_free (key);
+        column = gtk_tree_view_get_column (GTK_TREE_VIEW (tree), id);
+        if(!column) continue;
+        gtk_tree_view_column_set_visible (column, visible);
+        if (visible) {
+            /* ensure column is really visible */
+            width = MAX(width, 10);
+            gtk_tree_view_column_set_fixed_width(column, width);
+        }
+     }
+    }
 
-			column = gtk_tree_view_get_column (GTK_TREE_VIEW (tree), id);
-			if(!column) continue;
-			gtk_tree_view_column_set_visible (column, visible);
-			if (visible) {
-				/* ensure column is really visible */
-				width = MAX(width, 10);
-				gtk_tree_view_column_set_fixed_width(column, width);
-			}
-		}
-	}
-
-	if(g_str_has_suffix(prefix, "proctree") || g_str_has_suffix(prefix, "disktreenew"))
+    if(!g_strcmp0(child_schema, "proctree") ||
+       !g_strcmp0(child_schema, "disktreenew"))
 	{
-		GSList *order;
-		char *key;
+		GVariant *value;
+		GVariantIter iter;
+		int sortIndex;
 
-		key = g_strdup_printf("%s/columns_order", prefix);
-		order = mateconf_client_get_list(client, key, MATECONF_VALUE_INT, NULL);
+		GSList *order = NULL;
+
+		value = g_settings_get_value(pt_settings, "columns-order");
+		g_variant_iter_init(&iter, value);
+
+		while (g_variant_iter_loop (&iter, "i", &sortIndex))
+		order = g_slist_append(order, GINT_TO_POINTER(sortIndex));
+
 		proctable_set_columns_order(GTK_TREE_VIEW(tree), order);
 
 		g_slist_free(order);
-		g_free(key);
 	}
+
+    g_object_unref(pt_settings);
+    pt_settings = NULL;
 
 	g_list_free(columns);
 
@@ -472,7 +446,7 @@ procman_get_tree_state (MateConfClient *client, GtkWidget *tree, const gchar *pr
 }
 
 void
-procman_save_tree_state (MateConfClient *client, GtkWidget *tree, const gchar *prefix)
+procman_save_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child_schema)
 {
 	GtkTreeModel *model;
 	GList *it, *columns;
@@ -480,26 +454,24 @@ procman_save_tree_state (MateConfClient *client, GtkWidget *tree, const gchar *p
 	GtkSortType order;
 
 	g_assert(tree);
-	g_assert(prefix);
+	g_assert(child_schema);
+
+	GSettings *pt_settings = g_settings_get_child (settings, child_schema);
 
 	model = gtk_tree_view_get_model (GTK_TREE_VIEW (tree));
 	if (gtk_tree_sortable_get_sort_column_id (GTK_TREE_SORTABLE (model), &sort_col,
 					          &order)) {
-		gchar *key;
-
-		key = g_strdup_printf ("%s/sort_col", prefix);
-		mateconf_client_set_int (client, key, sort_col, NULL);
-		g_free (key);
-
-		key = g_strdup_printf ("%s/sort_order", prefix);
-		mateconf_client_set_int (client, key, order, NULL);
-		g_free (key);
+		g_settings_set_int (pt_settings, "sort-col", sort_col);
+		g_settings_set_int (pt_settings, "sort-order", order);
 	}
 
 	columns = gtk_tree_view_get_columns (GTK_TREE_VIEW (tree));
+    g_print("%i\n", g_list_length(columns));
 
-	for(it = columns; it; it = it->next)
-	{
+	if(!g_strcmp0(child_schema, "proctree"))
+    {
+      for(it = columns; it; it = it->next)
+      {
 		GtkTreeViewColumn *column;
 		gboolean visible;
 		gint width;
@@ -511,35 +483,36 @@ procman_save_tree_state (MateConfClient *client, GtkWidget *tree, const gchar *p
 		visible = gtk_tree_view_column_get_visible (column);
 		width = gtk_tree_view_column_get_width (column);
 
-		key = g_strdup_printf ("%s/col_%d_width", prefix, id);
-		mateconf_client_set_int (client, key, width, NULL);
+		key = g_strdup_printf ("col-%d-width", id);
+        g_settings_set_int (pt_settings, key, width);
 		g_free (key);
 
-		key = g_strdup_printf ("%s/col_%d_visible", prefix, id);
-		mateconf_client_set_bool (client, key, visible, NULL);
+		key = g_strdup_printf ("col-%d-visible", id);
+		g_settings_set_boolean (pt_settings, key, visible);
 		g_free (key);
-	}
+      }
+    }
 
-	if(g_str_has_suffix(prefix, "proctree") || g_str_has_suffix(prefix, "disktreenew"))
+    if(!g_strcmp0(child_schema, "proctree") || !g_strcmp0(child_schema, "disktreenew"))
 	{
 		GSList *order;
-		char *key;
-		GError *error = NULL;
+		GSList *order_node;
+		GVariantBuilder *builder;
+		GVariant *order_variant;
 
-		key = g_strdup_printf("%s/columns_order", prefix);
 		order = proctable_get_columns_order(GTK_TREE_VIEW(tree));
 
-		if(!mateconf_client_set_list(client, key, MATECONF_VALUE_INT, order, &error))
-		{
-			g_critical("Could not save MateConf key '%s' : %s",
-				   key,
-				   error->message);
-			g_error_free(error);
-		}
+		builder = g_variant_builder_new (G_VARIANT_TYPE_ARRAY);
+
+		for(order_node = order; order_node; order_node = order_node->next)
+		g_variant_builder_add(builder, "i", GPOINTER_TO_INT(order_node->data));
+
+		order_variant = g_variant_new("ai", builder);
+		g_settings_set_value(pt_settings, "columns-order", order_variant);
+
 
 		g_slist_free(order);
-		g_free(key);
-	}
+     }
 
 	g_list_free(columns);
 }
@@ -547,13 +520,13 @@ procman_save_tree_state (MateConfClient *client, GtkWidget *tree, const gchar *p
 void
 procman_save_config (ProcData *data)
 {
-	MateConfClient *client = data->client;
+	GSettings *settings = data->settings;
 
 
 	g_assert(data);
 
-	procman_save_tree_state (data->client, data->tree, "/apps/procman/proctree");
-	procman_save_tree_state (data->client, data->disk_list, "/apps/procman/disktreenew");
+	procman_save_tree_state (data->settings, data->tree, "proctree");
+	procman_save_tree_state (data->settings, data->disk_list, "disktreenew");
 
 	#if GTK_CHECK_VERSION(3, 0, 0)
 		data->config.width = gdk_window_get_width(gtk_widget_get_window(data->app));
@@ -567,11 +540,11 @@ procman_save_config (ProcData *data)
 		data->config.height = height;
 	#endif
 
-	mateconf_client_set_int (client, "/apps/procman/width", data->config.width, NULL);
-	mateconf_client_set_int (client, "/apps/procman/height", data->config.height, NULL);
-	mateconf_client_set_int (client, "/apps/procman/current_tab", data->config.current_tab, NULL);
+	g_settings_set_int (settings, "width", data->config.width);
+	g_settings_set_int (settings, "height", data->config.height);
+	g_settings_set_int (settings, "current-tab", data->config.current_tab);
 
-	mateconf_client_suggest_sync (client, NULL);
+	g_settings_sync ();
 
 
 
@@ -587,7 +560,7 @@ get_startup_timestamp ()
 
 	/* we don't unset the env, since startup-notification
 	 * may still need it */
-	startup_id_env = g_getenv ("DESKTOP_STARTUP_ID");
+	startup_id_env = g_getenv ("DESKTOP-STARTUP-ID");
 	if (startup_id_env == NULL)
 		goto out;
 
@@ -675,7 +648,7 @@ int
 main (int argc, char *argv[])
 {
 	guint32 startup_timestamp;
-	MateConfClient *client;
+	GSettings *settings;
 	ProcData *procdata;
 	BaconMessageConnection *conn;
 
@@ -734,15 +707,14 @@ main (int argc, char *argv[])
 	gtk_window_set_default_icon_name ("utilities-system-monitor");
 	g_set_application_name(_("System Monitor"));
 
-	client = mateconf_client_get_default ();
-	mateconf_client_add_dir(client, "/apps/procman", MATECONF_CLIENT_PRELOAD_NONE, NULL);
+	settings = g_settings_new (GSM_GSETTINGS_SCHEMA);
 
 	glibtop_init ();
 
 	procman_debug("end init");
 
-	procdata = procman_data_new (client);
-	procdata->client = client;
+	procdata = procman_data_new (settings);
+	procdata->settings = g_settings_new(GSM_GSETTINGS_SCHEMA);
 
 	procman_debug("begin create_main_window");
 	create_main_window (procdata);

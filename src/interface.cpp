@@ -797,12 +797,13 @@ static void
 cb_toggle_tree (GtkAction *action, gpointer data)
 {
 	ProcData *procdata = static_cast<ProcData*>(data);
-	MateConfClient *client = procdata->client;
+	GSettings *settings = procdata->settings;
 	gboolean show;
 
 	show = gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (action));
 	if (show == procdata->config.show_tree)
 		return;
 
-	mateconf_client_set_bool (client, "/apps/procman/show_tree", show, NULL);
+	g_settings_set_boolean (settings, "show-tree", show);
 }
+

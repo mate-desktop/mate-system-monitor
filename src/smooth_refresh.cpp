@@ -4,7 +4,6 @@
 #include <unistd.h>
 
 #include <glib.h>
-#include <mateconf/mateconf-client.h>
 #include <glibtop.h>
 #include <glibtop/proctime.h>
 #include <glibtop/cpu.h>
@@ -16,9 +15,7 @@
 #include "util.h"
 
 
-const string SmoothRefresh::KEY("/apps/procman/smooth_refresh");
-const bool SmoothRefresh::KEY_DEFAULT_VALUE(true);
-
+const string SmoothRefresh::KEY("smooth-refresh");
 
 
 unsigned SmoothRefresh::get_own_cpu_usage()
@@ -46,43 +43,32 @@ unsigned SmoothRefresh::get_own_cpu_usage()
 
 
 
-void SmoothRefresh::status_changed(MateConfClient *client,
-				   guint cnxn_id,
-				   MateConfEntry *entry,
-				   gpointer user_data)
+void SmoothRefresh::status_changed(GSettings *settings,
+                                   const gchar *key,
+                                   gpointer user_data)
 {
-  static_cast<SmoothRefresh*>(user_data)->load_mateconf_value(mateconf_entry_get_value(entry));
+  static_cast<SmoothRefresh*>(user_data)->load_settings_value(key);
 }
 
-void SmoothRefresh::load_mateconf_value(MateConfValue* value)
+void SmoothRefresh::load_settings_value(const gchar *key)
 {
-  bool own_value = false;
-
-  if (not value) {
-    value = mateconf_client_get(mateconf_client_get_default(), KEY.c_str(), NULL);
-  }
-
-  this->active = value ? mateconf_value_get_bool(value) : KEY_DEFAULT_VALUE;
+  this->active = g_settings_get_boolean(settings, key);
 
   if (this->active)
     procman_debug("smooth_refresh is enabled");
-
-  if (own_value and value)
-    mateconf_value_free(value);
 }
 
-
-SmoothRefresh::SmoothRefresh()
+SmoothRefresh::SmoothRefresh(GSettings *a_settings)
+:
+   settings(a_settings)
 {
-  this->connection = mateconf_client_notify_add(mateconf_client_get_default(),
-					     KEY.c_str(),
-					     status_changed,
-					     this,
-					     NULL,
-					     NULL);
+  this->connection = g_signal_connect(G_OBJECT(settings),
+                                      "changed::smooth-refresh",
+                                      G_CALLBACK(status_changed),
+                                      this);
 
   this->reset();
-  this->load_mateconf_value();
+  this->load_settings_value(KEY.c_str());
 }
 
 
@@ -106,8 +92,7 @@ void SmoothRefresh::reset()
 SmoothRefresh::~SmoothRefresh()
 {
   if (this->connection)
-    mateconf_client_notify_remove(mateconf_client_get_default(),
-			       this->connection);
+    g_signal_handler_disconnect(G_OBJECT(settings), this->connection);
 }
 
 

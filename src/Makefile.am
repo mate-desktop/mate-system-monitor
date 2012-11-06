@@ -30,10 +30,10 @@ mate_system_monitor_SOURCES = \
 	sysinfo.cpp sysinfo.h \
 	lsof.cpp lsof.h \
 	selection.cpp selection.h \
-	mateconf-keys.cpp mateconf-keys.h \
+	settings-keys.cpp settings-keys.h \
 	iconthemewrapper.cpp iconthemewrapper.h \
 	e_date.c e_date.h \
-        gsm_color_button.c gsm_color_button.h
+	gsm_color_button.c gsm_color_button.h
 
 
 mate_system_monitor_LDADD = @PROCMAN_LIBS@ libbacon.la
@@ -47,25 +47,20 @@ libbacon_la_SOURCES = \
 
 specdir = $(datadir)/procman
 
-schemadir   = $(MATECONF_SCHEMA_FILE_DIR)
-schema_ins  = mate-system-monitor.schemas.in
-schema_DATA = $(schema_ins:.schemas.in=.schemas)
-@INTLTOOL_SCHEMAS_RULE@
 
-EXTRA_DIST = \
-	$(schema_ins)
+# GSettings schemas, enum files and conversion file
+gsettings_ENUM_NAMESPACE = org.mate.mate-system-monitor
+gsettings_ENUM_FILES = $(top_srcdir)/src/*.h
+gsettingsschemadir = $(datadir)/glib-2.0/schemas
+gsettings_in_file = org.mate.mate-system-monitor.gschema.xml.in
+gsettings_SCHEMAS = $(gsettings_in_file:.xml.in=.xml)
+@INTLTOOL_XML_NOMERGE_RULE@
+@GSETTINGS_RULES@
+
+dist_noinst_DATA = \
+    $(gsettings_in_file)
 
 CLEANFILES = \
-	$(schema_DATA)
+    $(gsettings_SCHEMAS)
 
-if MATECONF_SCHEMAS_INSTALL
-install-data-local:
-	if test -z "$(DESTDIR)"; then \
-	  for p in $(schema_DATA); do \
-	    MATECONF_CONFIG_SOURCE=$(MATECONF_SCHEMA_CONFIG_SOURCE) \
-	      ${MATECONFTOOL} --makefile-install-rule $(top_builddir)/src/$$p; \
-	  done; \
-	fi
-else
-install-data-local:
-endif
+MAINTAINERCLEANFILES = $(gsettings_SCHEMAS:.xml=.valid)

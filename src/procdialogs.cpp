@@ -467,9 +467,9 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
 	typedef SpinButtonUpdater SBU;
 
-	static SBU interval_updater("update_interval");
-	static SBU graph_interval_updater("graph_update_interval");
-	static SBU disks_interval_updater("disks_interval");
+	static SBU interval_updater("update-interval");
+	static SBU graph_interval_updater("graph-update-interval");
+	static SBU disks_interval_updater("disks-interval");
 
 	GtkWidget *notebook;
 	GtkWidget *proc_box;

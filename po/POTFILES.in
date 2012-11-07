@@ -14,7 +14,7 @@ src/load-graph.cpp
 src/lsof.cpp
 src/memmaps.cpp
 src/openfiles.cpp
-src/org.mate.mate-system-monitor.xml.in
+src/org.mate.system-monitor.gschema.xml.in.in
 src/procactions.cpp
 src/procdialogs.cpp
 src/procman.cpp

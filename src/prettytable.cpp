@@ -40,6 +40,7 @@ void
 PrettyTable::on_application_opened(MatewnckScreen* screen, MatewnckApplication* app, gpointer data)
 {
   PrettyTable * const that = static_cast<PrettyTable*>(data);
+  FILE *f;
 
   pid_t pid = matewnck_application_get_pid(app);
 
@@ -51,7 +52,11 @@ PrettyTable::on_application_opened(MatewnckScreen* screen, MatewnckApplication* 
 
   Glib::RefPtr<Gdk::Pixbuf> icon;
 
-  icon = that->theme->load_icon(icon_name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN);
+  f = fopen (icon_name, "r");
+  if (f != NULL) {
+    fclose (f);
+    icon = that->theme->load_icon(icon_name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN);
+  }
 
   if (not icon) {
     icon = Glib::wrap(matewnck_application_get_icon(app), /* take_copy */ true);

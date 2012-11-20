@@ -51,7 +51,8 @@ PrettyTable::on_application_opened(MatewnckScreen* screen, MatewnckApplication* 
 
 
   Glib::RefPtr<Gdk::Pixbuf> icon;
-
+  
+  // Make sure that icon_name is a valid symlink before loading.
   f = fopen (icon_name, "r");
   if (f != NULL) {
     fclose (f);

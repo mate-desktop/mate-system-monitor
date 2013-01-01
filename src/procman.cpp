@@ -66,6 +66,18 @@ ProcData* ProcData::get_instance()
   return &instance;
 }
 
+static gboolean
+has_key (gchar **keys, const gchar *key)
+{
+        gchar **loop = keys;
+
+	while (*loop) {
+		if (!strcmp (*loop++, key))
+			return TRUE;
+        }
+
+	return FALSE;
+}
 
 static void
 tree_changed_cb (GSettings *settings, const gchar *key, gpointer data)
@@ -177,7 +189,15 @@ static void
 color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(data);
-	const gchar *color = g_settings_get_string (settings, key);
+        gchar **keys;
+        gchar *color = NULL;
+
+        keys = g_settings_list_keys (settings);
+        if (has_key (keys, key))
+		color = g_settings_get_string (settings, key);
+	else
+		color = "#FFFFFF";	/* white default color */
+	g_strfreev (keys);
 
 	if (g_str_has_prefix (key, "cpu-color")) {
          for (int i = 0; i < procdata->config.num_cpus; i++) {

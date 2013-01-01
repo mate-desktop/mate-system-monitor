@@ -27,7 +27,9 @@
 #include <gtk/gtk.h>
 #include <cairo.h>
 #include <librsvg/rsvg.h>
+#ifndef RSVG_CAIRO_H
 #include <librsvg/rsvg-cairo.h>
+#endif
 
 G_BEGIN_DECLS
 /* The GtkColorSelectionButton widget is a simple color picker in a button.

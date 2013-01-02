@@ -196,7 +196,7 @@ color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
         if (has_key (keys, key))
 		color = g_settings_get_string (settings, key);
 	else
-		color = g_strdup("#FFFFFF");	/* white default color */
+		color = g_strdup("#000000");	/* black default color */
 	g_strfreev (keys);
 
 	if (g_str_has_prefix (key, "cpu-color")) {

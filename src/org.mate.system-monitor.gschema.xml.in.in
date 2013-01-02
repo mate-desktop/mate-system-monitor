@@ -53,19 +53,67 @@
       <_description>0 for the System Info, 1 for the processes list, 2 for the resources and 3 for the disks list</_description>
     </key>
     <key name="cpu-color0" type="s">
-      <default>'#FF6E00'</default>
+      <default>'#FF0000'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="cpu-color1" type="s">
-      <default>'#CB0C29'</default>
+      <default>'#0000FF'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="cpu-color2" type="s">
-      <default>'#49A835'</default>
+      <default>'#FFFF00'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="cpu-color3" type="s">
-      <default>'#2D7DB3'</default>
+      <default>'#00FF00'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color4" type="s">
+      <default>'#FF6600'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color5" type="s">
+      <default>'#6600CC'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color6" type="s">
+      <default>'#990000'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color7" type="s">
+      <default>'#000099'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color8" type="s">
+      <default>'#FFCC00'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color9" type="s">
+      <default>'#009900'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color10" type="s">
+      <default>'#CC6600'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color11" type="s">
+      <default>'#330099'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color12" type="s">
+      <default>'#CC0066'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color13" type="s">
+      <default>'#00FFCC'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color14" type="s">
+      <default>'#FFCC99'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color15" type="s">
+      <default>'#339999'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="mem-color" type="s">

@@ -66,6 +66,18 @@ ProcData* ProcData::get_instance()
   return &instance;
 }
 
+static gboolean
+has_key (gchar **keys, const gchar *key)
+{
+        gchar **loop = keys;
+
+	while (*loop) {
+		if (!strcmp (*loop++, key))
+			return TRUE;
+        }
+
+	return FALSE;
+}
 
 static void
 tree_changed_cb (GSettings *settings, const gchar *key, gpointer data)
@@ -177,7 +189,15 @@ static void
 color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(data);
-	const gchar *color = g_settings_get_string (settings, key);
+        gchar **keys;
+        gchar *color = NULL;
+
+        keys = g_settings_list_keys (settings);
+        if (has_key (keys, key))
+		color = g_settings_get_string (settings, key);
+	else
+		color = g_strdup("#000000");	/* black default color */
+	g_strfreev (keys);
 
 	if (g_str_has_prefix (key, "cpu-color")) {
          for (int i = 0; i < procdata->config.num_cpus; i++) {
@@ -701,8 +721,7 @@ main (int argc, char *argv[])
 		exit (0);
 	}
 
-	/* initialize rsvg */
-	rsvg_init ();
+	g_type_init ();
 
 	gtk_window_set_default_icon_name ("utilities-system-monitor");
 	g_set_application_name(_("System Monitor"));
@@ -740,10 +759,6 @@ main (int argc, char *argv[])
 	procman_free_data (procdata);
 
 	glibtop_close ();
-
-	// This function should only be called just before program exit.
-	// See MATE bug #592100 for a discussion about this.
-	rsvg_term ();
 
 	return 0;
 }

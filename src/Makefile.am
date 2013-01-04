@@ -58,6 +58,9 @@ gsettings_SCHEMAS = org.mate.system-monitor.gschema.xml
 %.gschema.xml.in: %.gschema.xml.in.in Makefile
 	$(AM_V_GEN) $(SED) -e 's^\@GETTEXT_PACKAGE\@^$(GETTEXT_PACKAGE)^g' < $< > $@
 
+convertdir = $(datadir)/MateConf/gsettings
+dist_convert_DATA = mate-system-monitor.convert
+
 dist_noinst_DATA = \
     $(gsettings_in_file)
 

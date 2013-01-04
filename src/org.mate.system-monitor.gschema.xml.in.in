@@ -53,19 +53,19 @@
       <_description>0 for the System Info, 1 for the processes list, 2 for the resources and 3 for the disks list</_description>
     </key>
     <key name="cpu-color0" type="s">
-      <default>'#FF0000'</default>
+      <default>'#FF6E00'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="cpu-color1" type="s">
-      <default>'#0000FF'</default>
+      <default>'#CB0C29'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="cpu-color2" type="s">
-      <default>'#FFFF00'</default>
+      <default>'#49A835'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="cpu-color3" type="s">
-      <default>'#00FF00'</default>
+      <default>'#2D7DB3'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
     <key name="cpu-color4" type="s">

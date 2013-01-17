@@ -1,3 +1,305 @@
+commit d26233e7395c81f4974b1d13a5b3c532f773f42b
+Merge: c1553da 801b5ab
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Jan 7 04:20:24 2013 -0800
+
+    Merge pull request #17 from MDykstra/master
+    
+    grayscale sidebar image, compatible with any color scheme
+
+commit 801b5ab326a490739c838b4328ed17c4368d22e0
+Author: Marcel Dijkstra <marcel.dykstra@gmail.com>
+Date:   Sun Jan 6 13:55:51 2013 +0100
+
+    grayscaled sidebar image, compatible with any color scheme
+
+ pixmaps/side.png |  Bin 4504 -> 5504 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c1553da1a3b25a116f999d0c40bfdc6f3012849d
+Merge: 8335218 6b58b44
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jan 4 03:09:01 2013 -0800
+
+    Merge pull request #13 from cygwinports/master
+    
+    Add mateconf-gsettings-data-convert file
+
+commit 8335218ae2c9ab769d584cd1bcc9d5da581efed4
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jan 4 11:55:33 2013 +0100
+
+    Restore first 4 original cpu colors
+
+ src/org.mate.system-monitor.gschema.xml.in.in |    8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 6c8240e5611355fdf8f69ab603c0113a2840000b
+Merge: 99a70e0 7816180
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Jan 4 02:50:21 2013 -0800
+
+    Merge pull request #16 from sbalneav/master
+    
+    Paint it black
+
+commit 781618080e373211921222bef4696fe9ce3edd61
+Author: Scott Balneaves <sbalneav@alburg.net>
+Date:   Wed Jan 2 15:22:54 2013 -0600
+
+    I have to turn my head until my darkness goes
+
+ src/procman.cpp |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 73da57f093a422229c053333a81738a97ac000fb
+Author: Scott Balneaves <sbalneav@alburg.net>
+Date:   Tue Jan 1 15:45:06 2013 -0600
+
+    Fix deprecations
+
+ src/gsm_color_button.c |    2 +-
+ src/gsm_color_button.h |    2 ++
+ src/procman.cpp        |    9 ++-------
+ 3 files changed, 5 insertions(+), 8 deletions(-)
+
+commit fd824a7e03a8303801db03abf59fbdd5dfe3e39a
+Author: Scott Balneaves <sbalneav@alburg.net>
+Date:   Tue Jan 1 15:11:12 2013 -0600
+
+    Fix Issue #14
+
+ src/org.mate.system-monitor.gschema.xml.in.in |   56 +++++++++++++++++++++++--
+ src/procman.cpp                               |   22 +++++++++-
+ 2 files changed, 73 insertions(+), 5 deletions(-)
+
+commit 6b58b44c9516f1dc8c163323e45bb840eab940e2
+Author: Yaakov Selkowitz <yselkowitz@users.sourceforge.net>
+Date:   Tue Dec 25 01:43:16 2012 -0600
+
+    Add mateconf-gsettings-data-convert file
+
+ src/Makefile.am                 |    3 ++
+ src/mate-system-monitor.convert |   74 +++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 77 insertions(+)
+
+commit 99a70e0dac224bf34ab2753bafc1344c04991b2a
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Tue Nov 20 00:06:18 2012 -0500
+
+    Added a comment related to previous commit.
+
+ src/prettytable.cpp |    3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 42e355492516efe168b1ad16e3762610402fce10
+Merge: 6d06a22 244dabb
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Mon Nov 19 21:01:01 2012 -0800
+
+    Merge pull request #11 from sbalneav/master
+    
+    Fixes #9
+
+commit 244dabb83477ab71b8f023c58461b3246988c34c
+Author: Scott Balneaves <sbalneav@alburg.net>
+Date:   Mon Nov 19 22:42:09 2012 -0600
+
+    Fixes issue #9
+
+ src/prettytable.cpp |    7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit 6d06a224d764c5b58127f665b2fcfa7eeac080ee
+Author: Nelson Marques <nmo.marques@gmail.com>
+Date:   Wed Nov 7 16:30:59 2012 +0000
+
+    add missing semi-colon to OnlyShowIn desktop file
+
+ mate-system-monitor.desktop.in.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f2633b384c62eafeb7c395fc3831940ee2a3a724
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Nov 7 11:35:35 2012 +0100
+
+    gsettings schema transatable
+
+ src/org.mate.system-monitor.gschema.xml.in.in |  133 ++++++++++++-------------
+ 1 file changed, 66 insertions(+), 67 deletions(-)
+
+commit 2607287294831b187ee28f0009c713f6df9134e4
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Nov 7 11:33:28 2012 +0100
+
+    fix POTFILES.in
+
+ po/POTFILES.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2d0ac0aa94fa42554146a6eaede36d445d078db2
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Nov 7 00:15:09 2012 +0100
+
+    fix gsettings keys names
+
+ src/procdialogs.cpp |    6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 9b4f1532d7a38c0850a0c164c405c25c806a9137
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Nov 7 00:00:57 2012 +0100
+
+    fix gsettings key name
+
+ src/callbacks.cpp |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 39c9b9529e46dd0847fca0aa8840150ad898ccb0
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Nov 6 23:58:44 2012 +0100
+
+    bump version to 1.5.0
+
+ configure.in |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 17ceaa364a9cf482612dc1babbe9d300b70aa41a
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Nov 6 23:57:59 2012 +0100
+
+    re-add desktop file
+
+ mate-system-monitor.desktop.in.in |   16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit eb7b95cc5e20488865a6950341c3a8ed8d721b55
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Nov 6 23:57:37 2012 +0100
+
+    fix schema installation
+
+ src/Makefile.am                                 |   11 +-
+ src/mate-system-monitor.schemas.in              |  771 -----------------------
+ src/org.mate.mate-system-monitor.gschema.xml.in |  282 ---------
+ src/org.mate.system-monitor.gschema.xml.in.in   |  282 +++++++++
+ src/procman.h                                   |    2 +-
+ 5 files changed, 289 insertions(+), 1059 deletions(-)
+
+commit 066eec2b099b863ab3a5e5f505340493903935ba
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Nov 6 23:24:16 2012 +0100
+
+    remove mateconf schema
+
+ mate-system-monitor.desktop.in.in |   15 ---------------
+ 1 file changed, 15 deletions(-)
+
+commit 684e6bb4c072f707a92ce72d85954b5790aaab53
+Merge: 7caef9a f27253b
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Nov 6 14:22:49 2012 -0800
+
+    Merge pull request #10 from NiceandGently/master
+    
+    port to gsettings
+
+commit f27253b155db8d3c06bf13801c63bdc282da4157
+Author: raveit <chat-to-me@raveit.de>
+Date:   Tue Nov 6 18:19:51 2012 +0100
+
+    Port to gesettings
+
+ configure.in                                    |   16 +-
+ po/POTFILES.in                                  |    2 +-
+ src/Makefile.am                                 |   35 +-
+ src/callbacks.cpp                               |   22 +-
+ src/disks.cpp                                   |    8 +-
+ src/interface.cpp                               |    5 +-
+ src/mate-system-monitor.schemas.in              |    2 +
+ src/mateconf-keys.cpp                           |   14 -
+ src/mateconf-keys.h                             |   19 --
+ src/memmaps.cpp                                 |  154 +--------
+ src/openfiles.cpp                               |   13 +-
+ src/org.mate.mate-system-monitor.gschema.xml.in |  282 ++++++++++++++++
+ src/procdialogs.cpp                             |   63 ++--
+ src/procman.cpp                                 |  390 +++++++++++------------
+ src/procman.h                                   |   16 +-
+ src/proctable.cpp                               |    6 +-
+ src/settings-keys.cpp                           |   14 +
+ src/settings-keys.h                             |   19 ++
+ src/smooth_refresh.cpp                          |   47 +--
+ src/smooth_refresh.h                            |   15 +-
+ 20 files changed, 615 insertions(+), 527 deletions(-)
+
+commit 7caef9a314fc9f1fea996d79601d4242286825b1
+Merge: d1453ff bd77d12
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Fri Oct 12 14:03:56 2012 -0700
+
+    Merge pull request #7 from NiceandGently/master
+    
+    fix incorrect FSF address
+
+commit bd77d1287b5434014ce52a0a3bb195ff2883185b
+Author: raveit65 <chat-to-me@raveit.de>
+Date:   Fri Oct 12 22:06:00 2012 +0200
+
+    fix incorrect FSF address
+
+ src/bacon-message-connection.c |    2 +-
+ src/bacon-message-connection.h |    2 +-
+ src/callbacks.cpp              |    2 +-
+ src/callbacks.h                |    2 +-
+ src/gsm_color_button.c         |    4 ++--
+ src/gsm_color_button.h         |    4 ++--
+ src/interface.cpp              |    2 +-
+ src/interface.h                |    2 +-
+ src/procactions.cpp            |    2 +-
+ src/procactions.h              |    2 +-
+ src/procdialogs.cpp            |    2 +-
+ src/procdialogs.h              |    2 +-
+ src/procman.cpp                |    2 +-
+ src/procman.h                  |    2 +-
+ src/proctable.cpp              |    2 +-
+ src/proctable.h                |    2 +-
+ 16 files changed, 18 insertions(+), 18 deletions(-)
+
+commit d1453ff860c405a5405d856da0d670f028d30101
+Merge: ed445b3 f02b38e
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Oct 2 07:37:03 2012 -0700
+
+    Merge pull request #6 from NiceandGently/master
+    
+    add OnlyShowIn=MATE and remove Categories=MATE entry in desktop file
+
+commit f02b38e3cbd3e484c1fb3707ac821963be72bff5
+Author: Wolfgang Ulbrich <chat-to-me@raveit.de>
+Date:   Tue Oct 2 15:31:46 2012 +0300
+
+    Update mate-system-monitor.desktop.in.in
+    
+    add OnlyShowIn=MATE and remove Categories=MATE entry in desktop file
+
+ mate-system-monitor.desktop.in.in |    3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit ed445b315c23031bd4c2d9357459e744e52479fe
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Thu Jul 12 14:55:10 2012 -0400
+
+    Preparing for 1.4 release.
+
+ ChangeLog              |  202 ++++++++++++++++++++++++++++++++++++++++++++++--
+ configure.in           |    2 +-
+ distro/ubuntu/build    |   35 ---------
+ distro/ubuntu/postinst |    8 --
+ distro/ubuntu/postrm   |    8 --
+ distro/ubuntu/preinst  |    6 --
+ distro/ubuntu/prerm    |    9 ---
+ 7 files changed, 196 insertions(+), 74 deletions(-)
+
 commit 4f9e5e2320f0a27fe676962b71d5160efec479a7
 Merge: 4595921 3fa35a8
 Author: Stefano Karapetsas <stefano@karapetsas.com>

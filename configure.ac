@@ -4,7 +4,7 @@ AC_PREREQ(2.52)
 
 AC_INIT([mate-system-monitor], [1.5.1],
         [http://www.mate-desktop.org/])
-AC_CONFIG_SRCDIR(configure.in)
+AC_CONFIG_SRCDIR(configure.ac)
 AC_CONFIG_HEADERS(config.h)
 
 AM_INIT_AUTOMAKE
@@ -20,7 +20,6 @@ AC_PROG_CC
 AC_PROG_CXX
 AC_LANG_CPLUSPLUS
 AC_LANG_COMPILER_REQUIRE
-AM_PROG_CC_STDC
 AC_HEADER_STDC
 MATE_COMPILE_WARNINGS
 

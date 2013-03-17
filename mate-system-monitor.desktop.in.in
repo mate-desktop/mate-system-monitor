@@ -1,5 +1,6 @@
 [Desktop Entry]
-_Name=System Monitor
+_Name=MATE System Monitor
+_GenericName=System Monitor
 _Comment=View current processes and monitor system state
 TryExec=mate-system-monitor
 Exec=mate-system-monitor

@@ -2,7 +2,10 @@
 
 SUBDIRS = pixmaps po src help
 
+man_MANS = mate-system-monitor.1
+
 EXTRA_DIST = \
+	$(man_MANS) \
 	mate-doc-utils.make \
 	mate-system-monitor.desktop.in \
 	mate-system-monitor.doap \

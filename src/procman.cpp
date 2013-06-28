@@ -69,12 +69,12 @@ ProcData* ProcData::get_instance()
 static gboolean
 has_key (gchar **keys, const gchar *key)
 {
-        gchar **loop = keys;
+	gchar **loop = keys;
 
 	while (*loop) {
 		if (!strcmp (*loop++, key))
 			return TRUE;
-        }
+	}
 
 	return FALSE;
 }
@@ -189,19 +189,19 @@ static void
 color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(data);
-        gchar **keys;
-        gchar *color = NULL;
+	gchar **keys;
+	gchar *color = NULL;
 
-        keys = g_settings_list_keys (settings);
-        if (has_key (keys, key))
+	keys = g_settings_list_keys (settings);
+	if (has_key (keys, key))
 		color = g_settings_get_string (settings, key);
 	else
 		color = g_strdup("#000000");	/* black default color */
 	g_strfreev (keys);
 
 	if (g_str_has_prefix (key, "cpu-color")) {
-         for (int i = 0; i < procdata->config.num_cpus; i++) {
-            string cpu_key = make_string(g_strdup_printf("cpu-color%d", i));
+		for (int i = 0; i < procdata->config.num_cpus; i++) {
+			string cpu_key = make_string(g_strdup_printf("cpu-color%d", i));
 			if (cpu_key == key) {
 				gdk_color_parse (color, &procdata->config.cpu_color[i]);
 				procdata->cpu_graph->colors.at(i) = procdata->config.cpu_color[i];

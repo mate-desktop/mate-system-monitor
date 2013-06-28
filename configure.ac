@@ -7,7 +7,7 @@ AC_INIT([mate-system-monitor], [1.6.0],
 AC_CONFIG_SRCDIR(configure.ac)
 AC_CONFIG_HEADERS(config.h)
 
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([dist-xz])
 AC_SUBST(ACLOCAL_AMFLAGS, [\${ACLOCAL_FLAGS}])
 
 AM_PROG_LIBTOOL

@@ -8,7 +8,6 @@ EXTRA_DIST = \
 	$(man_MANS) \
 	mate-doc-utils.make \
 	mate-system-monitor.desktop.in \
-	mate-system-monitor.doap \
 	intltool-extract.in \
 	intltool-merge.in \
 	intltool-update.in \

@@ -62,9 +62,13 @@ convertdir = $(datadir)/MateConf/gsettings
 dist_convert_DATA = mate-system-monitor.convert
 
 dist_noinst_DATA = \
-    $(gsettings_in_file)
+	$(gsettings_in_file)
 
 CLEANFILES = \
-    $(gsettings_SCHEMAS)
+	$(gsettings_SCHEMAS) \
+	$(gsettings_SCHEMAS).in
+
+EXTRA_DIST = \
+	$(gsettings_SCHEMAS).in.in
 
 MAINTAINERCLEANFILES = $(gsettings_SCHEMAS:.xml=.valid)

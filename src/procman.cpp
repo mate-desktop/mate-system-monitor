@@ -189,15 +189,7 @@ static void
 color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(data);
-	gchar **keys;
-	gchar *color = NULL;
-
-	keys = g_settings_list_keys (settings);
-	if (has_key (keys, key))
-		color = g_settings_get_string (settings, key);
-	else
-		color = g_strdup("#000000");	/* black default color */
-	g_strfreev (keys);
+	const gchar *color = g_settings_get_string (settings, key); 
 
 	if (g_str_has_prefix (key, "cpu-color")) {
 		for (int i = 0; i < procdata->config.num_cpus; i++) {
@@ -249,6 +241,7 @@ procman_data_new (GSettings *settings)
 
 	ProcData *pd;
 	gchar *color;
+	gchar **keys;
 	gint swidth, sheight;
 	gint i;
 	glibtop_cpu cpu;
@@ -301,12 +294,14 @@ procman_data_new (GSettings *settings)
 	if (pd->config.num_cpus == 0)
 	pd->config.num_cpus = 1;
 
+	keys = g_settings_list_keys (settings);
 	for (int i = 0; i < pd->config.num_cpus; i++) {
 		gchar *key;
 		key = g_strdup_printf ("cpu-color%d", i);
 
-		color = g_settings_get_string (settings, key);
-		if (!color)
+		if (has_key (keys, key))
+			color = g_settings_get_string (settings, key);
+		else
 			color = g_strdup ("#f25915e815e8");
 		detail_string = std::string("changed::") + std::string(key);
 		g_signal_connect (G_OBJECT(settings), detail_string.c_str(),
@@ -315,6 +310,7 @@ procman_data_new (GSettings *settings)
 		g_free (color);
 		g_free (key);
 	}
+	g_strfreev (keys);
 	color = g_settings_get_string (settings, "mem-color");
 	if (!color)
 		color = g_strdup ("#000000ff0082");

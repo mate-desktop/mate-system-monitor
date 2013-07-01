@@ -116,6 +116,38 @@
       <default>'#339999'</default>
       <_summary>Default graph cpu color</_summary>
     </key>
+    <key name="cpu-color16" type="s">
+      <default>'#FF0000'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color17" type="s">
+      <default>'#00FF00'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color18" type="s">
+      <default>'#0000FF'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color19" type="s">
+      <default>'#FF8080'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color20" type="s">
+      <default>'#80FF80'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color21" type="s">
+      <default>'#8080FF'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color22" type="s">
+      <default>'#FF8000'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
+    <key name="cpu-color23" type="s">
+      <default>'#80FF00'</default>
+      <_summary>Default graph cpu color</_summary>
+    </key>
     <key name="mem-color" type="s">
       <default>'#AB1852'</default>
       <_summary>Default graph mem color</_summary>

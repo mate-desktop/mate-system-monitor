@@ -55,7 +55,7 @@ msgid "MATE Documentation Project"
 msgstr "مشروع وثائق جنوم"
 
 #: C/mate-system-monitor.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
 msgstr ""
 
 #: C/mate-system-monitor.xml:12(para)
@@ -136,8 +136,8 @@ msgid "Feedback"
 msgstr "تغذية راجعة"
 
 #: C/mate-system-monitor.xml:115(para)
-msgid "To report a bug or make a suggestion regarding the System Monitor application or this manual, follow the directions in the <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "للإبلاغ عن مشكلة أو تقديم اقتراح يخص مراقب النّظام أو هذا الدليل. اتبع الإرشادات في  <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgid "To report a bug or make a suggestion regarding the System Monitor application or this manual, follow the directions in the <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr "للإبلاغ عن مشكلة أو تقديم اقتراح يخص مراقب النّظام أو هذا الدليل. اتبع الإرشادات في  <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
 
 #: C/mate-system-monitor.xml:123(para)
 msgid "User manual for System Monitor"

@@ -139,7 +139,7 @@
     <legalnotice> 
       <title>Feedback</title> 
       <para>
-        To report a bug or make a suggestion regarding the &app; application or this manual, follow the directions in the <ulink url="ghelp:mate-feedback" type="help">MATE Feedback Page</ulink>. 
+        To report a bug or make a suggestion regarding the &app; application or this manual, follow the directions in the <ulink url="help:mate-feedback" type="help">MATE Feedback Page</ulink>. 
       </para>
 
 <!-- Translators may also add here feedback address for translations -->

@@ -1,5 +1,6 @@
 #include <config.h>
-#include <libmatewnck/libmatewnck.h>
+#define WNCK_I_KNOW_THIS_IS_UNSTABLE
+#include <libwnck/libwnck.h>
 #include <dirent.h>
 #include <sys/stat.h>
 #include <stdio.h>
@@ -23,7 +24,7 @@ namespace
 
 PrettyTable::PrettyTable()
 {
-  MatewnckScreen* screen = matewnck_screen_get_default();
+  WnckScreen* screen = wnck_screen_get_default();
   g_signal_connect(G_OBJECT(screen), "application_opened",
 		   G_CALLBACK(PrettyTable::on_application_opened), this);
   g_signal_connect(G_OBJECT(screen), "application_closed",
@@ -37,17 +38,17 @@ PrettyTable::~PrettyTable()
 
 
 void
-PrettyTable::on_application_opened(MatewnckScreen* screen, MatewnckApplication* app, gpointer data)
+PrettyTable::on_application_opened(WnckScreen* screen, WnckApplication* app, gpointer data)
 {
   PrettyTable * const that = static_cast<PrettyTable*>(data);
   FILE *f;
 
-  pid_t pid = matewnck_application_get_pid(app);
+  pid_t pid = wnck_application_get_pid(app);
 
   if (pid == 0)
     return;
 
-  const char* icon_name = matewnck_application_get_icon_name(app);
+  const char* icon_name = wnck_application_get_icon_name(app);
 
 
   Glib::RefPtr<Gdk::Pixbuf> icon;
@@ -60,7 +61,7 @@ PrettyTable::on_application_opened(MatewnckScreen* screen, MatewnckApplication* 
   }
 
   if (not icon) {
-    icon = Glib::wrap(matewnck_application_get_icon(app), /* take_copy */ true);
+    icon = Glib::wrap(wnck_application_get_icon(app), /* take_copy */ true);
     icon = icon->scale_simple(APP_ICON_SIZE, APP_ICON_SIZE, Gdk::INTERP_HYPER);
   }
 
@@ -89,9 +90,9 @@ PrettyTable::register_application(pid_t pid, Glib::RefPtr<Gdk::Pixbuf> icon)
 
 
 void
-PrettyTable::on_application_closed(MatewnckScreen* screen, MatewnckApplication* app, gpointer data)
+PrettyTable::on_application_closed(WnckScreen* screen, WnckApplication* app, gpointer data)
 {
-  pid_t pid = matewnck_application_get_pid(app);
+  pid_t pid = wnck_application_get_pid(app);
 
   if (pid == 0)
     return;
@@ -161,7 +162,7 @@ PrettyTable::get_icon_from_default(const ProcInfo &info)
 
 
 Glib::RefPtr<Gdk::Pixbuf>
-PrettyTable::get_icon_from_matewnck(const ProcInfo &info)
+PrettyTable::get_icon_from_wnck(const ProcInfo &info)
 {
   Glib::RefPtr<Gdk::Pixbuf> icon;
 
@@ -228,7 +229,7 @@ PrettyTable::set_icon(ProcInfo &info)
 
   if (getters.empty())
     {
-      getters.push_back(&PrettyTable::get_icon_from_matewnck);
+      getters.push_back(&PrettyTable::get_icon_from_wnck);
       getters.push_back(&PrettyTable::get_icon_from_theme);
       getters.push_back(&PrettyTable::get_icon_from_default);
       getters.push_back(&PrettyTable::get_icon_from_name);

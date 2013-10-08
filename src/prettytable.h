@@ -12,7 +12,8 @@
 #include <string>
 
 extern "C" {
-#include <libmatewnck/libmatewnck.h>
+#define WNCK_I_KNOW_THIS_IS_UNSTABLE
+#include <libwnck/libwnck.h>
 }
 
 #include "iconthemewrapper.h"
@@ -33,8 +34,8 @@ class PrettyTable
 
 private:
 
-  static void on_application_opened(MatewnckScreen* screen, MatewnckApplication* app, gpointer data);
-  static void on_application_closed(MatewnckScreen* screen, MatewnckApplication* app, gpointer data);
+  static void on_application_opened(WnckScreen* screen, WnckApplication* app, gpointer data);
+  static void on_application_closed(WnckScreen* screen, WnckApplication* app, gpointer data);
 
   void register_application(pid_t pid, Glib::RefPtr<Gdk::Pixbuf> icon);
   void unregister_application(pid_t pid);
@@ -42,7 +43,7 @@ private:
 
   Glib::RefPtr<Gdk::Pixbuf> get_icon_from_theme(const ProcInfo &);
   Glib::RefPtr<Gdk::Pixbuf> get_icon_from_default(const ProcInfo &);
-  Glib::RefPtr<Gdk::Pixbuf> get_icon_from_matewnck(const ProcInfo &);
+  Glib::RefPtr<Gdk::Pixbuf> get_icon_from_wnck(const ProcInfo &);
   Glib::RefPtr<Gdk::Pixbuf> get_icon_from_name(const ProcInfo &);
   Glib::RefPtr<Gdk::Pixbuf> get_icon_for_kernel(const ProcInfo &);
   Glib::RefPtr<Gdk::Pixbuf> get_icon_dummy(const ProcInfo &);

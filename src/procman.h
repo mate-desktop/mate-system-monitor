@@ -116,7 +116,7 @@ struct MutableProcInfo
   gulong memwritable;
   gulong mem;
 
-  // matewnck gives an unsigned long
+  // wnck gives an unsigned long
   gulong memxserver;
 
   gulong start_time;

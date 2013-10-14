@@ -1,36 +1,30 @@
-# Slovenian translations for mate-system-monitor.
-# Copyright (C) 2002-2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-system-monitor package.
-#
-# Andraž Tori <andraz.tori1@guest.arnes.si>, 2002.
-# Matic Žgur <mr.zgur@gmail.com>, 2006 - 2007.
-# Matej Urbančič <mateju@svn.mate.org>, 2007 - 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Andraž Tori <andraz.tori1@guest.arnes.si>, 2002
+# jierro <jierro@windowslive.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-monitor&component=general\n"
-"POT-Creation-Date: 2009-09-11 15:21+0000\n"
-"PO-Revision-Date: 2010-07-19 08:31+0100\n"
-"Last-Translator: Matej Urbančič <mateju@svn.mate.org>\n"
-"Language-Team: Slovenian MATE Translation Team <mate-si@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2013-05-24 12:50+0000\n"
+"Last-Translator: jierro <jierro@windowslive.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Poedit-Language: Slovenian\n"
-"X-Poedit-Country: SLOVENIJA\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
-#: ../mate-system-monitor.desktop.in.in.h:1
-#: ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619
-#: ../src/procman.cpp:724
+#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Nadzornik sistema"
 
-#: ../mate-system-monitor.desktop.in.in.h:2
-#: ../src/callbacks.cpp:158
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
 msgid "View current processes and monitor system state"
 msgstr "Ogled trenutnih opravil in nadzor stanja sistema"
 
@@ -40,49 +34,35 @@ msgstr "Pokaži sistemski zavihek"
 
 #: ../src/callbacks.cpp:167
 msgid "translator-credits"
-msgstr ""
-"Matic Žgur <mr.zgur@gmail.com>\n"
-"Andraž Tori <andraz.tori1@guest.arnes.si>\n"
-"Tilen Travnik <tilen.travnik@guest.arnes.si>\n"
-"Matej Urbančič <mateju@svn.mate.org>"
+msgstr "Matic Žgur <mr.zgur@gmail.com>\nAndraž Tori <andraz.tori1@guest.arnes.si>\nTilen Travnik <tilen.travnik@guest.arnes.si>\nMatej Urbančič <mateju@svn.mate.org>\nDamir Jerovšek <damir.jerovsek@ubuntu.si>"
 
-#: ../src/disks.cpp:300
-#: ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Naprava"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Mapa"
 
-#: ../src/disks.cpp:302
-#: ../src/gsm_color_button.c:211
-#: ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Vrsta"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Skupno"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Prosto"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Razpoložljivo"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Uporabljeno"
-
-#: ../src/disks.cpp:313
-#: ../src/interface.cpp:702
-#: ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Datotečni sistemi"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -110,238 +90,247 @@ msgid "%b %d %Y"
 msgstr "%d. %b %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid "0 for the System Info, 1 for the processes list, 2 for the resources and 3 for the disks list"
-msgstr "O za podrobnosti o sistemu, 1 za seznam opravil, 2 za vire in 3 za seznam diskov"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Privzeta barva grafa cpe"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Privzeta barva grafa vhodnega omrežnega prometa"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Privzeta barva grafa pomnilnika"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Privzeta barva grafa odhodnega omrežnega prometa"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Privzeta barva grafa izmenjevalnega prostora"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid "Determines which processes to show by default. 0 is All, 1 is user, and 2 is active"
-msgstr "Določa katera opravila so privzeto prikazana: 0 za vsa, 1 za uporabnikova in 2 za dejavna"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Vrstni red stolpcev pogleda diskov"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Omogoči/Onemogoči mehko osveževanje"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid "If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "Možnost omogoča delovanje programa v 'Solaris načinu', kjer je poraba CPE razdeljena na skupno število CPE enot. V obratnem primeru deluje v 'Irix načinu'."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Višina glavnega okna"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Širina glavnega okna"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Vrstni red stolpcev pogleda opravil"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Višina glavnega okna"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Stolpec vrste pogleda opravil"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Vrstni red vrste pogleda opravil"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Shrani trenutno pogledan zavihek"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'CPE %'"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'procesorskega časa'"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'PID'"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'SELinux'"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'čakajočega kanala'"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'pomnilnika X strežnika'"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'argumentov'"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'ocenjene poraba pomnilnika'"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'imena'"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'ocene prednostni delovanja'"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'lastnika'"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'stalnega pomnilnika'"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'skupnega pomnilnika'"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'začetega časa'"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'stanja'"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'navideznega pomnilnika'"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Ob zagonu pokaži stolpec 'zapisljivega pomnilnika'"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Pokaži odvisnosti opravil v drevesnem diagramu"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Pokaži opozorilo pri med uničevanjem opravila"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
-msgstr "Solaris način za odstotek CPE"
+msgstr "Način Solaris za odstotek CPE"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Čas v milisekundah med osvežitvami seznama naprav"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Možnost omogoča delovanje programa v 'načinu Solaris', kjer je poraba CPE razdeljena na skupno število CPE enot. V obratnem primeru deluje v 'načinu Irix'."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Čas v milisekundah med osvežitvami grafov"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Omogoči/Onemogoči gladko osveževanje"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Pokaži opozorilno okno med uničevanjem opravil"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Čas v milisekundah med osvežitvami pogleda opravil"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Čas v milisekundah med osvežitvami grafov"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "Ali naj bodo prikazani podatki o vseh datotečnih sistemih"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
-msgid "Whether to display information about all filesystems (including types like 'autofs' and 'procfs'). Useful for getting a list of all currently mounted filesystems."
-msgstr "Ali naj bodo prikazani podatki o vseh datotečnih sistemih (vključno z vrstami kot so 'autofs' in 'procfs'). Uporabno za izdelavo seznama vseh trenutno priklopljenih datotečnih sistemov."
+#: ../src/mate-system-monitor.schemas.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "Ali naj bodo prikazani podatki o vseh datotečnih sistemih (vključno z vrstami, kot so 'autofs' in 'procfs'). Uporabno za izdelavo seznama vseh trenutno priklopljenih datotečnih sistemov."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Čas v milisekundah med osvežitvami seznama naprav"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Določa, katera opravila so privzeto prikazana: 0 za vsa, 1 za uporabnikova in 2 za dejavna"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Shrani trenutno ogledan zavihek"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "O za podrobnosti o sistemu, 1 za seznam opravil, 2 za vire in 3 za seznam diskov"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Privzeta barva grafa cpe"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Privzeta barva grafa pomnilnika"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Privzeta barva grafa izmenjevalnega prostora"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Privzeta barva grafa vhodnega omrežnega prometa"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Privzeta barva grafa odhodnega omrežnega prometa"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Stolpec vrste pogleda opravil"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Vrstni red stolpcev pogleda opravil"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Vrstni red vrste pogleda opravil"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Širina stolpca z 'imenom' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'imena' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Širina stolpca 'lastnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'lastnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Širina stolpca 'stanja' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'stanja' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Širina stolpca 'navideznega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'navideznega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Širina stolpca 'stalnega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'stalnega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Širina stolpca 'zapisljivega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'zapisljivega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Širina stolpca 'skupnega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'skupnega pomnilnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Širina stolpca 'pomnilnika strežnika X' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'pomnilnika X strežnika' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
-msgstr "Širina stolpca z odstotkom CPE"
+msgstr "Širina stolpca z 'CPE %' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'CPE %' opravila"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
+msgid "Width of process 'CPU time' column"
+msgstr "Širina stolpca s 'procesorskim časom' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:45
-msgid "Width of process 'CPU time' column"
-msgstr "Širina stolpca s procesorskim časom"
+msgid "Show process 'CPU time' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'procesorskega časa' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Širina stolpca PID"
+msgid "Width of process 'start time' column"
+msgstr "Širina stolpca 'začetnega časa' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Širina stolpca SELinux"
+msgid "Show process 'start time' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'začetega časa' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Širina stolpca čakajočega kanala"
+msgid "Width of process 'nice' column"
+msgstr "Širina stolpca 'vrednosti ocene prednostni delovanja'"
 
 #: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Širina stolpca pomnilnika strežnika X"
+msgid "Show process 'nice' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'ocene prednostni delovanja' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Širina stolpca argumentov"
+msgid "Width of process 'PID' column"
+msgstr "Širina stolpca 'PID' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Širina stolpca z ocenjeno porabo pomnilnika"
+msgid "Show process 'PID' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'PID' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Širina stolpca z imenom"
+msgid "Width of process 'SELinux security context' column"
+msgstr "Širina stolpca 'varnostne vsebine SELinux' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Širina stolpca vrednosti ocene prednostni delovanja"
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'varnostne vsebine SELinux' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Širina stolpca podatkov lastnika"
+msgid "Width of process 'arguments' column"
+msgstr "Širina stolpca 'argumentov' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Širina stolpca stalnega pomnilnika"
+msgid "Show process 'arguments' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'argumentov' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Širina stolpca skupnega pomnilnika"
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Širina stolpca z 'ocenjeno porabo pomnilnika' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:57
-msgid "Width of process 'start time' column"
-msgstr "Širina stolpca časa začetka"
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'ocenjene poraba pomnilnika' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Širina stolpca stanja"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Širina stolpca 'čakajočega kanala' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Širina stolpca navideznega pomnilnika"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Ob zagonu pokaži stolpec 'čakajočega kanala' opravila"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Širina stolpca zapisljivega pomnilnika"
+msgid "Disk view columns order"
+msgstr "Vrstni red stolpcev pogleda diskov"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -359,8 +348,7 @@ msgstr "Naslov"
 msgid "The title of the color selection dialog"
 msgstr "Naziv pogovornega okna izbire barv"
 
-#: ../src/gsm_color_button.c:198
-#: ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Izbor barve"
 
@@ -376,11 +364,11 @@ msgstr "Izbrana barva"
 msgid "Type of color picker"
 msgstr "Vrsta izbirnika barv"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Sprejeti so neveljavni podatki o barvi\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Kliknite za nastavitev barv grafa"
 
@@ -430,8 +418,7 @@ msgstr "_Nadaljuj opravilo"
 msgid "Continue process if stopped"
 msgstr "Nadaljuj zaustavljeno opravilo"
 
-#: ../src/interface.cpp:66
-#: ../src/procdialogs.cpp:84
+#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
 msgid "_End Process"
 msgstr "_Končaj opravilo"
 
@@ -439,8 +426,7 @@ msgstr "_Končaj opravilo"
 msgid "Force process to finish normally"
 msgstr "Prisili opravilo, da se normalno zaključi"
 
-#: ../src/interface.cpp:68
-#: ../src/procdialogs.cpp:75
+#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
 msgid "_Kill Process"
 msgstr "_Uniči opravilo"
 
@@ -474,7 +460,7 @@ msgstr "_Karte pomnilnika"
 
 #: ../src/interface.cpp:79
 msgid "Open the memory maps associated with a process"
-msgstr "Odpri karte pomnilnika povezane z opravilom"
+msgstr "Odpri karte pomnilnika, povezane z opravilom"
 
 #: ../src/interface.cpp:80
 msgid "Open _Files"
@@ -506,7 +492,7 @@ msgstr "Pokaži odvisnosti nadrejeni/podrejeni med opravili"
 
 #: ../src/interface.cpp:99
 msgid "_Active Processes"
-msgstr "_Dejavna opravili"
+msgstr "_Dejavna opravila"
 
 #: ../src/interface.cpp:100
 msgid "Show active processes"
@@ -549,8 +535,7 @@ msgstr "CPE%d"
 msgid "Memory and Swap History"
 msgstr "Zgodovina porabe pomnilnika in izmenjevalnega prostora"
 
-#: ../src/interface.cpp:359
-#: ../src/proctable.cpp:226
+#: ../src/interface.cpp:359 ../src/proctable.cpp:226
 msgid "Memory"
 msgstr "Pomnilnik"
 
@@ -583,17 +568,20 @@ msgstr "Skupaj poslano"
 msgid "System"
 msgstr "Sistem"
 
-#: ../src/interface.cpp:694
-#: ../src/procdialogs.cpp:525
+#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
 msgstr "Opravila"
 
-#: ../src/interface.cpp:698
-#: ../src/procdialogs.cpp:640
+#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
 msgstr "Viri"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Datotečni sistemi"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -603,7 +591,7 @@ msgstr[2] "%u sekundi"
 msgstr[3] "%u sekunde"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) of %s"
@@ -614,10 +602,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Napaka</b>\n"
-"'%s' ni veljaven logični izraz Perl.\n"
-"%s"
+msgstr "<b>Napaka</b>\n'%s' ni veljaven logični izraz Perl.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -627,8 +612,7 @@ msgstr "Opravilo"
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:292
-#: ../src/memmaps.cpp:476
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
 msgid "Filename"
 msgstr "Ime datoteke"
 
@@ -637,15 +621,15 @@ msgstr "Ime datoteke"
 msgid "Search for Open Files"
 msgstr "Iskanje odprtih datotek"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Ime vsebuje:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Ne upoštevaj velikosti črk"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "Zadetki i_skanja:"
 
@@ -706,7 +690,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "Karte pomnilnika"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Karte pomnilnika za opravilo \"%s\" (PID %u):"
@@ -721,15 +705,15 @@ msgstr "cev"
 
 #: ../src/openfiles.cpp:38
 msgid "IPv6 network connection"
-msgstr "IPv6 omrežna povezava"
+msgstr "omrežna povezava IPv6"
 
 #: ../src/openfiles.cpp:40
 msgid "IPv4 network connection"
-msgstr "IPv4 omrežna povezava"
+msgstr "omrežna povezava IPv4"
 
 #: ../src/openfiles.cpp:42
 msgid "local socket"
-msgstr "lokalen vtič"
+msgstr "lokalni vtič"
 
 #: ../src/openfiles.cpp:44
 msgid "unknown type"
@@ -760,18 +744,14 @@ msgstr "_Datoteke, ki jih je odprlo opravilo \"%s\" (PID %u):"
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Ni mogoča sprememba prednosti opravila s pid %d na %d.\n"
-"%s"
+msgstr "Sprememba prednosti opravila s pid %d na %d ni mogoča.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Ni mogoče uničiti opravila s pid %d s signalom %d.\n"
-"%s"
+msgstr "Ni mogoče uničiti opravila s pid %d s signalom %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -780,8 +760,10 @@ msgstr "Ali želite uničiti izbrano opravilo?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:72
-msgid "Killing a process may destroy data, break the session or introduce a security risk. Only unresponding processes should be killed."
-msgstr "Z uničevanjem opravila se podatki lahko izgubijo, sesuje se lahko seja ali pa dejanje predstavlja varnostno tveganje. Uničiti je treba le opravila, ki niso odzivna."
+msgid ""
+"Killing a process may destroy data, break the session or introduce a "
+"security risk. Only unresponding processes should be killed."
+msgstr "Z uničenjem opravila se podatki lahko izgubijo, sesuje se lahko seja ali pa dejanje predstavlja varnostno tveganje. Uničiti je treba le opravila, ki niso odzivna."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -790,7 +772,9 @@ msgstr "Ali želite končati izbrano opravilo?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
-msgid "Ending a process may destroy data, break the session or introduce a security risk. Only unresponding processes should be ended."
+msgid ""
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
 msgstr "S končanjem opravila se podatki lahko izgubijo, sesuje se lahko seja ali pa dejanje predstavlja varnostno tveganje. Vsiljeno končati je treba le opravila, ki niso odzivna."
 
 #: ../src/procdialogs.cpp:115
@@ -830,7 +814,9 @@ msgid "Note:"
 msgstr "Opomba:"
 
 #: ../src/procdialogs.cpp:234
-msgid "The priority of a process is given by its nice value. A lower nice value corresponds to a higher priority."
+msgid ""
+"The priority of a process is given by its nice value. A lower nice value "
+"corresponds to a higher priority."
 msgstr "Prednost opravila je podana z oceno prednostni delovanja. Nižja vrednost ustreza višji prednosti."
 
 #: ../src/procdialogs.cpp:457
@@ -845,8 +831,7 @@ msgstr "Možnosti nadzornika sistema"
 msgid "Behavior"
 msgstr "Obnašanje"
 
-#: ../src/procdialogs.cpp:551
-#: ../src/procdialogs.cpp:666
+#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
 #: ../src/procdialogs.cpp:728
 msgid "_Update interval in seconds:"
 msgstr "_Časovni razmik posodabljanja v sekundah:"
@@ -861,16 +846,15 @@ msgstr "Opozori pred končanjem ali _uničevanjem opravila"
 
 #: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
-msgstr "Solaris način"
+msgstr "Način Solaris"
 
-#: ../src/procdialogs.cpp:622
-#: ../src/procdialogs.cpp:762
+#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
 msgid "Information Fields"
 msgstr "Polja podrobnosti"
 
 #: ../src/procdialogs.cpp:635
 msgid "Process i_nformation shown in list:"
-msgstr "_Podatki o opravilih prikazanih v seznamu:"
+msgstr "_Podatki o opravilih, prikazanih v seznamu:"
 
 #: ../src/procdialogs.cpp:647
 msgid "Graphs"
@@ -886,9 +870,9 @@ msgstr "Pokaži _vse datotečne sisteme"
 
 #: ../src/procdialogs.cpp:775
 msgid "File system i_nformation shown in list:"
-msgstr "Podatki o _datotečnem sistemu prikazani v seznamu:"
+msgstr "Podatki o _datotečnem sistemu, prikazanih na seznamu:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "Enostaven nadzornik sistema in opravil"
 
@@ -947,7 +931,7 @@ msgstr "ID"
 
 #: ../src/proctable.cpp:224
 msgid "Security Context"
-msgstr "Vsebinska varnost"
+msgstr "Vsebina varnosti"
 
 #: ../src/proctable.cpp:225
 msgid "Command Line"
@@ -961,7 +945,7 @@ msgstr "Čakajoč kanal"
 #: ../src/proctable.cpp:945
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr "Povprečna obremenitev zadnjih 1, 5, 15 minut: %0.2f, %0.2f, %0.2f"
+msgstr "Povprečna obremenitev zadnjih 1, 5 in 15 minut: %0.2f, %0.2f, %0.2f"
 
 #: ../src/sysinfo.cpp:77
 #, c-format
@@ -972,42 +956,42 @@ msgstr "Izdaja %s"
 msgid "Unknown CPU model"
 msgstr "Neznan model procesorja"
 
-#: ../src/sysinfo.cpp:586
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "Jedro %s"
 
-#: ../src/sysinfo.cpp:599
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:613
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Strojna oprema</b>"
 
-#: ../src/sysinfo.cpp:618
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "Pomnilnik:"
 
-#: ../src/sysinfo.cpp:625
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "Procesor %d:"
 
-#: ../src/sysinfo.cpp:630
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "Procesor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:642
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>Stanje sistema</b>"
 
-#: ../src/sysinfo.cpp:648
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "Prostor na disku:"
 
@@ -1089,18 +1073,18 @@ msgstr "%.1f Gbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u bitov"
-msgstr[1] "%u bit"
-msgstr[2] "%u bita"
+msgstr[0] "%u bit"
+msgstr[1] "%u bita"
+msgstr[2] "%u bitov"
 msgstr[3] "%u biti"
 
 #: ../src/util.cpp:185
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u bajtov"
-msgstr[1] "%u bajt"
-msgstr[2] "%u bajta"
+msgstr[0] "%u bajt"
+msgstr[1] "%u bajta"
+msgstr[2] "%u bajtov"
 msgstr[3] "%u bajti"
 
 #: ../src/util.cpp:373

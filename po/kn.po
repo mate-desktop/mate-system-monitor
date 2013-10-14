@@ -1,24 +1,25 @@
-# translation of mate-system-monitor.master.kn.po to Kannada
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
+# 
+# Translators:
+# shankar <svenkate@redhat.com>, 2008, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor.master.kn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-monitor&component=general\n"
-"POT-Creation-Date: 2009-05-13 22:23+0000\n"
-"PO-Revision-Date: 2009-09-18 01:46+0530\n"
-"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
-"Language-Team: Kannada <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:27+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Kannada (http://www.transifex.com/projects/p/MATE/language/kn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "ಗಣಕ ಮೇಲ್ವಿಚಾರಕ"
 
@@ -34,38 +35,33 @@ msgstr "ವ್ಯವಸ್ಥೆಯ ಟ್ಯಾಬನ್ನು ತೋರಿಸ�
 msgid "translator-credits"
 msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ ಎಂ. ವಿ. <svenkate@redhat.com>"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "ಸಾಧನ"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "ಕೋಶ"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "ಬಗೆ"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "ಒಟ್ಟು ಸಂಖ್ಯೆ"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "ಮುಕ್ತ"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "ಲಭ್ಯ"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "ಬಳಕೆಯಾದ"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:703
-#: ../src/procdialogs.cpp:707
-msgid "File Systems"
-msgstr "ಕಡತ ವ್ಯವಸ್ಥೆಗಳು"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -93,256 +89,247 @@ msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 ಯು ಗಣಕದ ಮಾಹಿತಿಗಾಗಿ, 1 ಪ್ರಕ್ರಿಯೆಗಳ ಪಟ್ಟಿಗಾಗಿ, 2 ಸಂಪನ್ಮೂಲಗಳು ಹಾಗು 3 ಡಿಸ್ಕ್‍ಗಳ "
-"ಪಟ್ಟಿಗಾಗಿ"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾದ ನಕ್ಷೆ cpu ಬಣ್ಣ"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ನಕ್ಷೆ ಒಳಬರುವ ಜಾಲಬಂಧ ಸಂಚಾರದ ಬಣ್ಣ"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾದ ನಕ್ಷೆ mem ಬಣ್ಣ"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ನಕ್ಷೆ ಹೊರಹೋಗುವ ಜಾಲಬಂಧ ಸಂಚಾರದ ಬಣ್ಣ"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾದ ನಕ್ಷೆಯ ಸ್ವಾಪ್ ಬಣ್ಣ"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಯಾವ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ತೋರಿಸಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ. 0 ಆದಲ್ಲಿ "
-"ಎಲ್ಲವನ್ನೂ, 1 ಆದಲ್ಲಿ ಬಳಕೆದಾರ, ಹಾಗು 2 ಆದಲ್ಲಿ ಸಕ್ರಿಯವಾದ"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "ಡಿಸ್ಕ್‌ ನೋಟ ಲಂಬಸಾಲುಗಳ ಅನುಕ್ರಮ"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "ಮೃದುವಾದ ಪುನಶ್ಚೇತನಗೊಳಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು/ಅಶಕ್ತಗೊಳಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"TRUE ಆದಲ್ಲಿ, ಗಣಕ-ಮೇಲ್ವಿಚಾರಕವು 'ಸೋಲಾರಿಸ್ ವಿಧಾನ'ದಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ,ಇದರಲ್ಲಿ ಒಂದು "
-"ಕಾರ್ಯದ cpu ಬಳಕೆಯುCPUಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆಗಳಿಂದ ಹಂಚಲ್ಪಡುತ್ತದೆ. ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ ಅದು 'Irix "
-"ವಿಧಾನ'ದಲ್ಲಿ ಕಾರ್ಯ ನಿರ್ವಹಿಸುತ್ತದೆ."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "ಮುಖ್ಯ ವಿಂಡೊದ ಎತ್ತರ"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "ಮುಖ್ಯ ವಿಂಡೊದ ಅಗಲ"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "ಪ್ರಕ್ರಿಯೆಗಳ ನೋಟ ಲಂಬಸಾಲುಗಳ ಅನುಕ್ರಮ"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "ಮುಖ್ಯ ವಿಂಡೊದ ಎತ್ತರ"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "ಪ್ರಕ್ರಿಯೆಗಳ ನೋಟ ವಿಂಗಡಣಾ ಲಂಬಸಾಲು"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "ಪ್ರಕ್ರಿಯೆಗಳ ನೋಟ ವಿಂಗಡಣಾ ಅನುಕ್ರಮ"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "ಈಗ ನೋಡುತ್ತಿರುವ ಹಾಳೆಯನ್ನು ಉಳಿಸುತ್ತದೆ"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'CPU %' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'CPU ಸಮಯ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'PID' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'SELinux ಸುರಕ್ಷತಾ ಸನ್ನಿವೇಶ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಕಾಯುವ ಚಾನಲ್' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'X ಪರಿಚಾರಕದ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಆರ್ಗ್ಯುಮೆಂಟ್‍ಗಳು' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಯೋಜಿತ ಮೆಮೊರಿ ಬಳಕೆ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಹೆಸರು' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ನೈಸ್' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಮಾಲಿಕ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ರೆಸಿಡೆಂಟ್ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಹಂಚಲಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಆರಂಭದ ಸಮಯ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಸ್ಥಿತಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ವಾಸ್ತವ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಬರೆಯಬಹುದಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "ಪ್ರಕ್ರಿಯೆಗಳ ಅವಲಂಬನೆಗಳನ್ನು ವೃಕ್ಷದ ಮಾದರಿಯಲ್ಲಿ ತೋರಿಸು"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ನಿಲ್ಲಿಸುವಾಗ ಎಚ್ಚರಿಕೆಯ ಸಂದೇಶವನ್ನು ತೋರಿಸು"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "CPU ಪ್ರತಿಶತಕ್ಕಾಗಿ Solaris ವಿಧಾನ"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "ಸಾಧನಗಳ ಪಟ್ಟಿಯ ಅಪ್ಡೇಟ್‍ಗಳ ನಡುವಿನ ಸಮಯ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "TRUE ಆದಲ್ಲಿ, ಗಣಕ-ಮೇಲ್ವಿಚಾರಕವು 'ಸೋಲಾರಿಸ್ ವಿಧಾನ'ದಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ,ಇದರಲ್ಲಿ ಒಂದು ಕಾರ್ಯದ cpu ಬಳಕೆಯುCPUಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆಗಳಿಂದ ಹಂಚಲ್ಪಡುತ್ತದೆ. ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ ಅದು 'Irix ವಿಧಾನ'ದಲ್ಲಿ ಕಾರ್ಯ ನಿರ್ವಹಿಸುತ್ತದೆ."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "ನಕ್ಷೆಗಳ ಅಪ್ಡೇಟ್‍ಗಳ ನಡುವಿನ ಸಮಯ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "ಮೃದುವಾದ ಪುನಶ್ಚೇತನಗೊಳಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು/ಅಶಕ್ತಗೊಳಿಸು"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ನಿಲ್ಲಿಸುವಾಗ ಎಚ್ಚರಿಕೆಯ ಸಂದೇಶವನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "ಪ್ರಕ್ರಿಯೆಯ ನೋಟದ ಅಪ್ಡೇಟ್‍ಗಳ ನಡುವಿನ ಸಮಯ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "ನಕ್ಷೆಗಳ ಅಪ್ಡೇಟ್‍ಗಳ ನಡುವಿನ ಸಮಯ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "ಎಲ್ಲಾ ಕಡತ ವ್ಯವಸ್ಥೆಗಳ ಬಗೆಗಿನ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಬೇಕೆ"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"ಎಲ್ಲಾ ಕಡತ ವ್ಯವಸ್ಥೆಗಳ ಬಗೆಗಿನ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಬೇಕೆ?('autofs' ಹಾಗು 'procfs' ನಂತಹ "
-"ಬಗೆಯವನ್ನೂ ಸೇರಿಸಿ). ಈಗ ಆರೋಹಿತಗೊಂಡ ಕಡತವ್ಯವಸ್ಥೆಗಳ ಪಟ್ಟಿಯನ್ನು ಪಡೆಯಲು ಸಹಕಾರಿಯಾಗುತ್ತದೆ."
+msgstr "ಎಲ್ಲಾ ಕಡತ ವ್ಯವಸ್ಥೆಗಳ ಬಗೆಗಿನ ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಬೇಕೆ?('autofs' ಹಾಗು 'procfs' ನಂತಹ ಬಗೆಯವನ್ನೂ ಸೇರಿಸಿ). ಈಗ ಆರೋಹಿತಗೊಂಡ ಕಡತವ್ಯವಸ್ಥೆಗಳ ಪಟ್ಟಿಯನ್ನು ಪಡೆಯಲು ಸಹಕಾರಿಯಾಗುತ್ತದೆ."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "ಸಾಧನಗಳ ಪಟ್ಟಿಯ ಅಪ್ಡೇಟ್‍ಗಳ ನಡುವಿನ ಸಮಯ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಯಾವ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ತೋರಿಸಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ. 0 ಆದಲ್ಲಿ ಎಲ್ಲವನ್ನೂ, 1 ಆದಲ್ಲಿ ಬಳಕೆದಾರ, ಹಾಗು 2 ಆದಲ್ಲಿ ಸಕ್ರಿಯವಾದ"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "ಈಗ ನೋಡುತ್ತಿರುವ ಹಾಳೆಯನ್ನು ಉಳಿಸುತ್ತದೆ"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 ಯು ಗಣಕದ ಮಾಹಿತಿಗಾಗಿ, 1 ಪ್ರಕ್ರಿಯೆಗಳ ಪಟ್ಟಿಗಾಗಿ, 2 ಸಂಪನ್ಮೂಲಗಳು ಹಾಗು 3 ಡಿಸ್ಕ್‍ಗಳ ಪಟ್ಟಿಗಾಗಿ"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾದ ನಕ್ಷೆ cpu ಬಣ್ಣ"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾದ ನಕ್ಷೆ mem ಬಣ್ಣ"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾದ ನಕ್ಷೆಯ ಸ್ವಾಪ್ ಬಣ್ಣ"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ನಕ್ಷೆ ಒಳಬರುವ ಜಾಲಬಂಧ ಸಂಚಾರದ ಬಣ್ಣ"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ನಕ್ಷೆ ಹೊರಹೋಗುವ ಜಾಲಬಂಧ ಸಂಚಾರದ ಬಣ್ಣ"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "ಪ್ರಕ್ರಿಯೆಗಳ ನೋಟ ವಿಂಗಡಣಾ ಲಂಬಸಾಲು"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "ಪ್ರಕ್ರಿಯೆಗಳ ನೋಟ ಲಂಬಸಾಲುಗಳ ಅನುಕ್ರಮ"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "ಪ್ರಕ್ರಿಯೆಗಳ ನೋಟ ವಿಂಗಡಣಾ ಅನುಕ್ರಮ"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ಹೆಸರು' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಹೆಸರು' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ಮಾಲಿಕ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಮಾಲಿಕ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ಸ್ಥಿತಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಸ್ಥಿತಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ವಾಸ್ತವ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ವಾಸ್ತವ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ರೆಸಿಡೆಂಟ್ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ರೆಸಿಡೆಂಟ್ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ಬರೆಯಬಹುದಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಬರೆಯಬಹುದಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ಹಂಚಲಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಹಂಚಲಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'X ಪರಿಚಾರಕದ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'X ಪರಿಚಾರಕದ ಮೆಮೊರಿ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "ಪ್ರಕ್ರಿಯೆ 'CPU %' ಲಂಬಸಾಲಿನ ಅಗಲ"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'CPU %' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "ಪ್ರಕ್ರಿಯೆ 'CPU ಸಮಯ' ಲಂಬಸಾಲಿನ ಅಗಲ"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'CPU ಸಮಯ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'PID' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'SELinux ಸುರಕ್ಷತಾ ಸನ್ನಿವೇಶ' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "'ಕಾಯುವ ಚಾನಲ್‌' ಲಂಬಸಾಲು ಪ್ರಕ್ರಿಯೆ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'X ಪರಿಚಾರಕದ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ಆರ್ಗ್ಯುಮೆಂಟ್‍ಗಳು' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ಯೋಜಿತ ಮೆಮೊರಿ ಬಳಕೆ' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ಹೆಸರು' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ನೈಸ್' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ಮಾಲಿಕ' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ರೆಸಿಡೆಂಟ್ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ಹಂಚಲಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "ಪ್ರಕ್ರಿಯೆ 'ಆರಂಭದ ಸಮಯ' ಲಂಬಸಾಲಿನ ಅಗಲ"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಆರಂಭದ ಸಮಯ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ನೈಸ್' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ನೈಸ್' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'PID' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'PID' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'SELinux ಸುರಕ್ಷತಾ ಸನ್ನಿವೇಶ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'SELinux ಸುರಕ್ಷತಾ ಸನ್ನಿವೇಶ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ಆರ್ಗ್ಯುಮೆಂಟ್‍ಗಳು' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಆರ್ಗ್ಯುಮೆಂಟ್‍ಗಳು' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "ಪ್ರಕ್ರಿಯೆ 'ಯೋಜಿತ ಮೆಮೊರಿ ಬಳಕೆ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಯೋಜಿತ ಮೆಮೊರಿ ಬಳಕೆ' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ಸ್ಥಿತಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "'ಕಾಯುವ ಚಾನಲ್‌' ಲಂಬಸಾಲು ಪ್ರಕ್ರಿಯೆ ಅಗಲ"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ವಾಸ್ತವ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "ಆರಂಭಿಸಿದಾಗ ಪ್ರಕ್ರಿಯೆ 'ಕಾಯುವ ಚಾನಲ್' ಲಂಬಸಾಲನ್ನು ತೋರಿಸು"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "ಪ್ರಕ್ರಿಯೆ 'ಬರೆಯಬಹುದಾದ ಮೆಮೊರಿ' ಲಂಬಸಾಲಿನ ಅಗಲ"
+msgid "Disk view columns order"
+msgstr "ಡಿಸ್ಕ್‌ ನೋಟ ಲಂಬಸಾಲುಗಳ ಅನುಕ್ರಮ"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -360,7 +347,7 @@ msgstr "ಶೀರ್ಷಿಕೆ"
 msgid "The title of the color selection dialog"
 msgstr "ಬಣ್ಣ ಆಯ್ಕೆ ಸಂವಾದದ ಬಣ್ಣ"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸು"
 
@@ -376,11 +363,11 @@ msgstr "ಆರಿಸಲಾದ ಬಣ್ಣ"
 msgid "Type of color picker"
 msgstr "ಬಣ್ಣದ ಆಯ್ಕೆಗಾರದ ಬಗೆ"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "ಅಮಾನ್ಯ ಬಣ್ಣದ ದತ್ತಾಂಶವನ್ನು ಪಡೆಯಲಾಗಿದೆ\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "ನಕ್ಷೆಯ ಬಣ್ಣಗಳನ್ನು ಬದಲಾಯಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
@@ -580,23 +567,27 @@ msgstr "ಒಟ್ಟು ಕಳುಹಿಸಲಾದವು"
 msgid "System"
 msgstr "ಗಣಕ"
 
-#: ../src/interface.cpp:694 ../src/procdialogs.cpp:523
+#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
 msgstr "ಪ್ರಕ್ರಿಯೆಗಳು"
 
-#: ../src/interface.cpp:698 ../src/procdialogs.cpp:638
+#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
 msgstr "ಸಂಪನ್ಮೂಲಗಳು"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "ಕಡತ ವ್ಯವಸ್ಥೆಗಳು"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u ಸೆಕೆಂಡ್"
-msgstr[1] "%u ಸೆಕೆಂಡ್‍ಗಳು"
+msgstr[0] ""
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%), %s ನಲ್ಲಿ"
@@ -607,10 +598,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>ದೋಷ</b>\n"
-"'%s' ಯು ಒಂದು ಮಾನ್ಯವಾದ Perl ರೆಗ್ಯುಲರ್ ಎಕ್ಸ್‌ಪ್ರೆಶನ್ ಆಗಿಲ್ಲ.\n"
-"%s"
+msgstr "<b>ದೋಷ</b>\n'%s' ಯು ಒಂದು ಮಾನ್ಯವಾದ Perl ರೆಗ್ಯುಲರ್ ಎಕ್ಸ್‌ಪ್ರೆಶನ್ ಆಗಿಲ್ಲ.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -629,15 +617,15 @@ msgstr "ಕಡತದ ಹೆಸರು"
 msgid "Search for Open Files"
 msgstr "ತೆರೆಯಲ್ಪಟ್ಟ ಕಡತಗಳಿಗಾಗು ಹುಡುಕು"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "ಇದನ್ನು ಹೊಂದಿರುವ ಹೆಸರು(_N):"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "ಕೇಸ್ ಸಂವೇದಿ ಹೊಂದಾಣಿಕೆ"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "ಹುಡುಕು ಫಲಿತಾಂಶಗಳು (_e):"
 
@@ -698,7 +686,7 @@ msgstr "ಐನೋಡ್"
 msgid "Memory Maps"
 msgstr "ಮೆಮೊರಿ ನಕ್ಷೆಗಳು"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "\"%s\" ಪ್ರಕ್ರಿಯೆಗಾಗಿನ ಮೆಮೊರಿ ನಕ್ಷೆಗಳು (_M) (PID %u):"
@@ -752,18 +740,14 @@ msgstr "\"%s\" ಪ್ರಕ್ರಿಯೆಯಿಂದ ತೆರೆಯಲ್ಪ�
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"pid %d ಯಿಂದ %d ಗೆ ಪ್ರಕ್ರಿಯೆಯ ಆದ್ಯತೆಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.\n"
-"%s"
+msgstr "pid %d ಯಿಂದ %d ಗೆ ಪ್ರಕ್ರಿಯೆಯ ಆದ್ಯತೆಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"pid %d ಯೊಂದಿಗಿನ ಪ್ರಕ್ರಿಯೆಯನ್ನು %d ಸಂಜ್ಞೆಯೊಂದಿಗೆ ನಿಲ್ಲಿಸಲು ಸಾಧವಿಲ್ಲ.\n"
-"%s"
+msgstr "pid %d ಯೊಂದಿಗಿನ ಪ್ರಕ್ರಿಯೆಯನ್ನು %d ಸಂಜ್ಞೆಯೊಂದಿಗೆ ನಿಲ್ಲಿಸಲು ಸಾಧವಿಲ್ಲ.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -775,9 +759,7 @@ msgstr "ಆರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿ�
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿಲ್ಲಿಸಿದಲ್ಲಿ ದತ್ತಾಂಶದ ನಾಶ, ಅಧಿವೇಶನದ ಕೊನೆಗೊಳ್ಳುವಿಕೆ ಅಥವ ಒಂದು "
-"ಸುರಕ್ಷತಾ ತೊಂದರೆಗೆ ಕಾರಣವಾಗಬಹುದು. ಕೇವಲ ಪ್ರತಿಸ್ಪಂದಿಸದ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಮಾತ್ರ ನಿಲ್ಲಿಸಬೇಕು."
+msgstr "ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿಲ್ಲಿಸಿದಲ್ಲಿ ದತ್ತಾಂಶದ ನಾಶ, ಅಧಿವೇಶನದ ಕೊನೆಗೊಳ್ಳುವಿಕೆ ಅಥವ ಒಂದು ಸುರಕ್ಷತಾ ತೊಂದರೆಗೆ ಕಾರಣವಾಗಬಹುದು. ಕೇವಲ ಪ್ರತಿಸ್ಪಂದಿಸದ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಮಾತ್ರ ನಿಲ್ಲಿಸಬೇಕು."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -787,111 +769,106 @@ msgstr "ಆರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊ�
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊನೆಗೊಳಿಸಿದಲ್ಲಿ ದತ್ತಾಂಶದ ನಾಶ, ಅಧಿವೇಶನದ ಕೊನೆಗೊಳ್ಳುವಿಕೆ ಅಥವ ಒಂದು "
-"ಸುರಕ್ಷತಾ ತೊಂದರೆಗೆ ಕಾರಣವಾಗಬಹುದು. ಕೇವಲ ಪ್ರತಿಸ್ಪಂದಿಸದ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಮಾತ್ರ "
-"ಕೊನೆಗೊಳ್ಳಿಸಬೇಕು."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊನೆಗೊಳಿಸಿದಲ್ಲಿ ದತ್ತಾಂಶದ ನಾಶ, ಅಧಿವೇಶನದ ಕೊನೆಗೊಳ್ಳುವಿಕೆ ಅಥವ ಒಂದು ಸುರಕ್ಷತಾ ತೊಂದರೆಗೆ ಕಾರಣವಾಗಬಹುದು. ಕೇವಲ ಪ್ರತಿಸ್ಪಂದಿಸದ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಮಾತ್ರ ಕೊನೆಗೊಳ್ಳಿಸಬೇಕು."
 
-#: ../src/procdialogs.cpp:113
+#: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
 msgstr "(ಅತಿ ಹೆಚ್ಚಿನ ಆದ್ಯತೆ)"
 
-#: ../src/procdialogs.cpp:115
+#: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
 msgstr "(ಹೆಚ್ಚಿನ ಆದ್ಯತೆ)"
 
-#: ../src/procdialogs.cpp:117
+#: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
 msgstr "(ಸಾಮಾನ್ಯ ಆದ್ಯತೆ)"
 
-#: ../src/procdialogs.cpp:119
+#: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
 msgstr "(ಕೆಳಮಟ್ಟದ ಆದ್ಯತೆ)"
 
-#: ../src/procdialogs.cpp:121
+#: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
 msgstr "(ಅತಿ ಕೆಳಮಟ್ಟದ ಆದ್ಯತೆ)"
 
-#: ../src/procdialogs.cpp:173
+#: ../src/procdialogs.cpp:175
 msgid "Change Priority"
 msgstr "ಆದ್ಯತೆಯನ್ನು ಬದಲಾಯಿಸು"
 
-#: ../src/procdialogs.cpp:194
+#: ../src/procdialogs.cpp:196
 msgid "Change _Priority"
 msgstr "ಆದ್ಯತೆಯನ್ನು ಬದಲಾಯಿಸು(_P)"
 
-#: ../src/procdialogs.cpp:215
+#: ../src/procdialogs.cpp:217
 msgid "_Nice value:"
 msgstr "ನೈಸ್ ಮೌಲ್ಯ(_N):"
 
-#: ../src/procdialogs.cpp:231
+#: ../src/procdialogs.cpp:233
 msgid "Note:"
 msgstr "ಟಿಪ್ಪಣಿ:"
 
-#: ../src/procdialogs.cpp:232
+#: ../src/procdialogs.cpp:234
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"ಒಂದು ಪ್ರಕ್ರಿಯೆಯ ಆದ್ಯತೆಯು ಅದರ ನೈಸ್ ಮೌಲ್ಯದಿಂದ ತಿಳಿಯಲ್ಪಡುತ್ತದೆ. ಕಡಿಮೆ ನೈಸ್ ಮೌಲ್ಯವು ಇದ್ದರೆ "
-"ಅದು ಹೆಚ್ಚಿನ ಆದ್ಯತೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ."
+msgstr "ಒಂದು ಪ್ರಕ್ರಿಯೆಯ ಆದ್ಯತೆಯು ಅದರ ನೈಸ್ ಮೌಲ್ಯದಿಂದ ತಿಳಿಯಲ್ಪಡುತ್ತದೆ. ಕಡಿಮೆ ನೈಸ್ ಮೌಲ್ಯವು ಇದ್ದರೆ ಅದು ಹೆಚ್ಚಿನ ಆದ್ಯತೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ."
 
-#: ../src/procdialogs.cpp:455
+#: ../src/procdialogs.cpp:457
 msgid "Icon"
 msgstr "ಚಿಹ್ನೆ"
 
-#: ../src/procdialogs.cpp:500
+#: ../src/procdialogs.cpp:502
 msgid "System Monitor Preferences"
 msgstr "ಗಣಕ ಮೇಲ್ವಿಚಾರಣೆಯ ಆದ್ಯತೆಗಳು"
 
-#: ../src/procdialogs.cpp:530
+#: ../src/procdialogs.cpp:532
 msgid "Behavior"
 msgstr "ವರ್ತನೆ"
 
-#: ../src/procdialogs.cpp:549 ../src/procdialogs.cpp:664
-#: ../src/procdialogs.cpp:726
+#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
+#: ../src/procdialogs.cpp:728
 msgid "_Update interval in seconds:"
 msgstr "ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಅಪ್ಡೇಟ್ ಕಾಲಾವಧಿ(_U):"
 
-#: ../src/procdialogs.cpp:574
+#: ../src/procdialogs.cpp:576
 msgid "Enable _smooth refresh"
 msgstr "ಮೃದು ಪುನಶ್ಚೇತನಗೊಳಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_s)"
 
-#: ../src/procdialogs.cpp:588
+#: ../src/procdialogs.cpp:590
 msgid "Alert before ending or _killing processes"
 msgstr "ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊನೆಗೊಳಿಸುವಾದ ಅಥವ ನಿಲ್ಲಿಸುವಾಗ ಎಚ್ಚರಿಸು(_k)"
 
-#: ../src/procdialogs.cpp:602
+#: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
 msgstr "ಸೊಲಾರಿಸ್ ವಿಧಾನ"
 
-#: ../src/procdialogs.cpp:620 ../src/procdialogs.cpp:760
+#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
 msgid "Information Fields"
 msgstr "ಮಾಹಿತಿ ಕ್ಷೇತ್ರಗಳು"
 
-#: ../src/procdialogs.cpp:633
+#: ../src/procdialogs.cpp:635
 msgid "Process i_nformation shown in list:"
 msgstr "ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯ ಮಾಹಿತಿ(_n):"
 
-#: ../src/procdialogs.cpp:645
+#: ../src/procdialogs.cpp:647
 msgid "Graphs"
 msgstr "ನಕ್ಷೆಗಳು"
 
-#: ../src/procdialogs.cpp:684
+#: ../src/procdialogs.cpp:686
 msgid "Show network speed in bits"
 msgstr "ಜಾಲಬಂಧದ ವೇಗವನ್ನು ಬಿಟ್‌ಗಳಲ್ಲಿ ತೋರಿಸು"
 
-#: ../src/procdialogs.cpp:746
+#: ../src/procdialogs.cpp:748
 msgid "Show _all filesystems"
 msgstr "ಎಲ್ಲಾ ಕಡತವ್ಯವಸ್ಥೆಗಳನ್ನು ತೋರಿಸು(_a)"
 
-#: ../src/procdialogs.cpp:773
+#: ../src/procdialogs.cpp:775
 msgid "File system i_nformation shown in list:"
 msgstr "ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯ ಮಾಹಿತಿ(_n):"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "ಒಂದು ಸರಳ ಪ್ರಕ್ರಿಯೆ ಹಾಗು ವ್ಯವಸ್ಥೆ ಮೇಲ್ವಿಚಾರಕ."
 
@@ -971,46 +948,46 @@ msgstr "ಕೊನೆಯ 1, 5, 15 ನಿಮಿಷಗಳ ಲೋಡ್ ಸರಾಸ
 msgid "Release %s"
 msgstr "ಬಿಡುಗಡೆ %s"
 
-#: ../src/sysinfo.cpp:111
+#: ../src/sysinfo.cpp:116
 msgid "Unknown CPU model"
 msgstr "ಗೊತ್ತಿರದ CPU ಮಾದರಿ"
 
-#: ../src/sysinfo.cpp:549
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "ಕರ್ನಲ್ %s"
 
-#: ../src/sysinfo.cpp:562
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:576
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>ಯಂತ್ರಾಂಶ</b>"
 
-#: ../src/sysinfo.cpp:581
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "ಮೆಮೊರಿ:"
 
-#: ../src/sysinfo.cpp:588
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "ಸಂಸ್ಕಾರಕ %d:"
 
-#: ../src/sysinfo.cpp:593
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "ಸಂಸ್ಕಾರಕ:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:605
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>ಗಣಕದ ಸ್ಥಿತಿ</b>"
 
-#: ../src/sysinfo.cpp:611
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "ಲಭ್ಯವಿರುವ ಡಿಸ್ಕ್‍ ಜಾಗ:"
 
@@ -1075,37 +1052,30 @@ msgstr "%.1f GiB"
 
 #: ../src/util.cpp:167
 #, c-format
-#| msgid "%.1f KiB"
 msgid "%.1f kbit"
 msgstr "%.1f kbit"
 
 #: ../src/util.cpp:168
 #, c-format
-#| msgid "%.1f MiB"
 msgid "%.1f Mbit"
 msgstr "%.1f Mbit"
 
 #: ../src/util.cpp:169
 #, c-format
-#| msgid "%.1f GiB"
 msgid "%.1f Gbit"
 msgstr "%.1f Gbit"
 
 #: ../src/util.cpp:184
 #, c-format
-#| msgid "%u byte"
-#| msgid_plural "%u bytes"
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u ಬಿಟ್‌"
-msgstr[1] "%u ಬಿಟ್‌ಗಳು"
+msgstr[0] ""
 
 #: ../src/util.cpp:185
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u ಬೈಟ್"
-msgstr[1] "%u ಬೈಟ್‍ಗಳು"
+msgstr[0] ""
 
 #: ../src/util.cpp:373
 msgid "<i>N/A</i>"
@@ -1116,4 +1086,3 @@ msgstr "<i>N/A</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
-

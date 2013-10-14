@@ -1,68 +1,67 @@
-# translation of ka.po to Georgian
-# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007.
-#
+# 
+# Translators:
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: ka\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-10-06 13:18+0200\n"
-"PO-Revision-Date: 2007-10-06 14:25+0200\n"
-"Last-Translator: Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>\n"
-"Language-Team: Georgian <http://mail.mate.org/mailman/listinfo/mate-ge-list>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:29+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Georgian (http://www.transifex.com/projects/p/MATE/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:155
-#: ../src/interface.cpp:660 ../src/procman.cpp:712
+#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "სისტემის მონიტორი"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:156
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
 msgid "View current processes and monitor system state"
 msgstr "მიმდინარე პროცესებისა და თვალყურის სისტემის ნახვა"
 
-#: ../src/callbacks.cpp:165
+#: ../src/argv.cpp:18
+msgid "Show the System tab"
+msgstr ""
+
+#: ../src/callbacks.cpp:167
 msgid "translator-credits"
 msgstr "Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>"
 
-#: ../src/disks.cpp:275 ../src/memmaps.cpp:500
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "მოწყობილობა"
 
-#: ../src/disks.cpp:276
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "დასტა"
 
-#: ../src/disks.cpp:277 ../src/openfiles.cpp:235
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "ტიპი"
 
-#: ../src/disks.cpp:278
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "სულ"
 
-#: ../src/disks.cpp:279
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "თავისუფალი"
 
-#: ../src/disks.cpp:280
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "ხელმისაწვდომი"
 
-#: ../src/disks.cpp:281
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "გამოყენებული"
-
-#: ../src/disks.cpp:288 ../src/interface.cpp:736 ../src/procdialogs.cpp:718
-#: ../src/procdialogs.cpp:722
-msgid "File Systems"
-msgstr "ფაილური სისტემები"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -90,592 +89,648 @@ msgid "%b %d %Y"
 msgstr "%b·%d·%Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
+msgid "Main Window width"
+msgstr "მთავარი ფანჯრის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "მთავარი ფანჯრის სიმაღლე"
+
+#: ../src/mate-system-monitor.schemas.in.h:3
+msgid "Show process dependencies in tree form"
+msgstr "პროცესთა ერთმანეთთან დამოკიდებულება განშტოების სახით ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr "Solaris რეჟიმი CPU-ს პროცენტული გამოსახვისთვის"
+
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "პირდაპირი განახლების ჩართვა/გამორთვა"
+
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "პროცესების მოკვლისას გაფრთხილების დიალოგის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
+msgid "Time in milliseconds between updates of the process view"
+msgstr "პროცესების ხედის განახლების დრო მილიწამებში"
+
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "გრაფიკების განახლების დროის მილიწამებში ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "არის თუ არა საჭირო ფაილთა სისტემის შესახებ ინფორმაციის გამოჩენა"
+
+#: ../src/mate-system-monitor.schemas.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "ინფორმაციის ჩვენება ფაილთა სისტემების შესახებ (როგორც 'autofs' და 'procfs'). კარგი იქნება ყველა მონტაჟირებული ფაილ სისტემების ჩვენებაც."
+
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "მოწყობილობათა სიის ჩვენების განახლება მილიწამებში"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "განსაზღვრავს თუ რომელი პროცესი აჩვენოს ნაგულისხმევად 0 - ყველა, 1 - მომხმარებელი, 2 - აქტიური"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "ინახავს მიმდინარე აქტიურ ჩანართს"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr "0 სისტემის ინფორმაციისთვის, 1 პროცესების სიისთვის, 2 რესურსებისთვის და 3 ტომთა სიისთვის"
 
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph background color"
-msgstr "გრაფიკის ნაგულისხმევი ფონის ფერი"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
+#: ../src/mate-system-monitor.schemas.in.h:16
 msgid "Default graph cpu color"
 msgstr "გრაფიკის ნაგულისხმევი cpu-ს ფონის ფერი"
 
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph frame color"
-msgstr "გრაფიკის ნაგულისხმევი ჩარჩოს ფონის ფერი"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph incoming network traffic color"
-msgstr "ნაგულისხმევი ფერი ქსელის შემავალი ტრაფიკის გრაფიკისთვის"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
+#: ../src/mate-system-monitor.schemas.in.h:17
 msgid "Default graph mem color"
 msgstr "გრაფიკის ნაგულისხმევი მეხსიერების ფონის ფერი"
 
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid "Default graph outgoing network traffic color"
-msgstr "ნაგულისხმევი ფერი ქსელის გამავალი ტრაფიკის გრაფიკისთვის"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
+#: ../src/mate-system-monitor.schemas.in.h:18
 msgid "Default graph swap color"
 msgstr "გრაფიკის ნაგულისხმევი swap მეხსიერების ფონის ფერი"
 
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"განსაზღვრავს თუ რომელი პროცესი აჩვენოს ნაგულისხმევად 0 - ყველა, 1 - "
-"მომხმარებელი, 2 - აქტიური"
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "ნაგულისხმევი ფერი ქსელის შემავალი ტრაფიკის გრაფიკისთვის"
 
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid "Disk view columns order"
-msgstr "დისკების სვეტების მიმდევრობის ხედი"
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "ნაგულისხმევი ფერი ქსელის გამავალი ტრაფიკის გრაფიკისთვის"
 
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Enable/Disable smooth refresh"
-msgstr "პირდაპირი განახლების ჩართვა/გამორთვა"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Main Window height"
-msgstr "მთავარი ფანჯრის სიმაღლე"
-
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Main Window width"
-msgstr "მთავარი ფანჯრის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view columns order"
-msgstr "პროცესთა სვეტების თანმიმდევრობა"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
+#: ../src/mate-system-monitor.schemas.in.h:21
 msgid "Process view sort column"
 msgstr "პროცესთა სიის სორტირების სვეტი"
 
-#: ../src/mate-system-monitor.schemas.in.h:17
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "პროცესთა სვეტების თანმიმდევრობა"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
 msgid "Process view sort order"
 msgstr "პროცესთა სიის სორტირების მეთოდი"
 
-#: ../src/mate-system-monitor.schemas.in.h:18
-msgid "Saves the currently viewed tab"
-msgstr "ინახავს მიმდინარე აქტიურ ჩანართს"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "გაშვებისას პროცესის 'CPU %' სვეტის ჩვენება"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'CPU time' column on startup"
-msgstr "გაშვებისას პროცესის 'CPU დრო' სვეტის ჩვენება"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'PID' column on startup"
-msgstr "გაშვებისას პროცესის PID სვეტის ჩვენება"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "გაშვებისას პროცესის 'SELinux security context'-ის სვეტის ჩვენება"
-
 #: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'X server memory' column on startup"
-msgstr "გაშვებისას პროცესის 'X სერვერის მეხსიერების'-ის სვეტის ჩვენება"
+msgid "Width of process 'name' column"
+msgstr "პროცესის 'სახელის' სვეტის სიგანე"
 
 #: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'arguments' column on startup"
-msgstr "გაშვებისას პროცესის 'არგუმენტების' სვეტის ჩვენება"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "გაშვებისას 'მეხსიერების მოსალოდნელი გამოყენების' სვეტის ჩვენება"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
 msgid "Show process 'name' column on startup"
 msgstr "გაშვებისას პროცესის 'სახელის' სვეტის ჩვენება"
 
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'nice' column on startup"
-msgstr "გაშვებისას პროცესის 'პრიორიტეტის' სვეტის ჩვენება"
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "პროცესის 'მფლობელის' სვეტის სიგანე"
 
-#: ../src/mate-system-monitor.schemas.in.h:29
+#: ../src/mate-system-monitor.schemas.in.h:27
 msgid "Show process 'owner' column on startup"
 msgstr "გაშვებისას პროცესის 'მფლობელის' სვეტის ჩვენება"
 
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'resident memory' column on startup"
-msgstr "გაშვებისას პროცესის 'ძირითადი მეხსიერების' სვეტის ჩვენება"
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "პროცესის 'სტატუსის' სვეტის სიგანე"
 
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'shared memory' column on startup"
-msgstr "გაშვებისას პროცესის 'გაზიარებული მეხსიერების' სვეტის ჩვენება"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'start time' column on startup"
-msgstr "გაშვებისას პროცესის 'გაშვების დრო' სვეტის ჩვენება"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
+#: ../src/mate-system-monitor.schemas.in.h:29
 msgid "Show process 'status' column on startup"
 msgstr "გაშვებისას პროცესის 'სტატუსის' სვეტის ჩვენება"
 
-#: ../src/mate-system-monitor.schemas.in.h:34
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "პროცესის 'ვირტუალური მეხსიერების' სვეტის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
 msgid "Show process 'virtual memory' column on startup"
 msgstr "გაშვებისას პროცესის 'ვირტუალური მეხსიერების' სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "პროცესის 'ძირითადი მეხსიერების' სვეტის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "გაშვებისას პროცესის 'ძირითადი მეხსიერების' სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "პროცესის 'ჩაწერადი მეხსიერების' სვეტის სიგანე"
 
 #: ../src/mate-system-monitor.schemas.in.h:35
 msgid "Show process 'writable memory' column on startup"
 msgstr "გაშვებისას პროცესის 'ჩაწერადი მეხსიერების' სვეტის ჩვენება"
 
 #: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show process dependencies in tree form"
-msgstr "პროცესთა ერთმანეთთან დამოკიდებულება განშტოების სახით ჩვენება"
+msgid "Width of process 'shared memory' column"
+msgstr "პროცესის 'გაზიარებული მეხსიერების' სვეტის სიგანე"
 
 #: ../src/mate-system-monitor.schemas.in.h:37
-msgid "Show warning dialog when killing processes"
-msgstr "პროცესების მოკვლისას გაფრთხილების დიალოგის ჩვენება"
+msgid "Show process 'shared memory' column on startup"
+msgstr "გაშვებისას პროცესის 'გაზიარებული მეხსიერების' სვეტის ჩვენება"
 
 #: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Solaris mode for CPU percentage"
-msgstr "Solaris რეჟიმი CPU-ს პროცენტული გამოსახვისთვის"
+msgid "Width of process 'X server memory' column"
+msgstr "პროცესის 'X სერვერის მეხსიერების' სვეტის სიგანე"
 
 #: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "მოწყობილობათა სიის ჩვენების განახლება მილიწამებში"
-
-#: ../src/mate-system-monitor.schemas.in.h:40
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "გრაფიკების განახლების დროის მილიწამებში ჩვენება"
+msgid "Show process 'X server memory' column on startup"
+msgstr "გაშვებისას პროცესის 'X სერვერის მეხსიერების'-ის სვეტის ჩვენება"
 
 #: ../src/mate-system-monitor.schemas.in.h:41
-msgid "Time in milliseconds between updates of the process view"
-msgstr "პროცესების ხედის განახლების დრო მილიწამებში"
-
-#: ../src/mate-system-monitor.schemas.in.h:42
-msgid "Whether information about all filesystems should be displayed"
-msgstr "არის თუ არა საჭირო ფაილთა სისტემის შესახებ ინფორმაციის გამოჩენა"
-
-#: ../src/mate-system-monitor.schemas.in.h:43
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr ""
-"ინფორმაციის ჩვენება ფაილთა სისტემების შესახებ (როგორც 'autofs' და 'procfs'). "
-"კარგი იქნება ყველა მონტაჟირებული ფაილ სისტემების ჩვენებაც."
-
-#: ../src/mate-system-monitor.schemas.in.h:45
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "პროცესის 'CPU %' სვეტის სიგანე"
 
-#: ../src/mate-system-monitor.schemas.in.h:46
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "გაშვებისას პროცესის 'CPU %' სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "პროცესის 'CPU-ს დრო' სვეტის სიგანე"
 
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'PID' column"
-msgstr "პროცესის 'PID' სვეტის სიგანე"
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "გაშვებისას პროცესის 'CPU დრო' სვეტის ჩვენება"
 
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'SELinux security context' column"
-msgstr "პროცესის 'SELinux security context' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "პროცესის 'X სერვერის მეხსიერების' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "პროცესის 'არგუმენტების' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "პროცესის 'მეხსიერების მოსალოდნელი გამოყენების' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "პროცესის 'სახელის' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "პროცესის 'პრიორიტეტის' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "პროცესის 'მფლობელის' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "პროცესის 'ძირითადი მეხსიერების' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "პროცესის 'გაზიარებული მეხსიერების' სვეტის სიგანე"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
+#: ../src/mate-system-monitor.schemas.in.h:46
 msgid "Width of process 'start time' column"
 msgstr "პროცესის 'გაშვების დრო' სვეტის სიგანე"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "გაშვებისას პროცესის 'გაშვების დრო' სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "პროცესის 'პრიორიტეტის' სვეტის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "გაშვებისას პროცესის 'პრიორიტეტის' სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "პროცესის 'PID' სვეტის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "გაშვებისას პროცესის PID სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "პროცესის 'SELinux security context' სვეტის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "გაშვებისას პროცესის 'SELinux security context'-ის სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "პროცესის 'არგუმენტების' სვეტის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "გაშვებისას პროცესის 'არგუმენტების' სვეტის ჩვენება"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "პროცესის 'მეხსიერების მოსალოდნელი გამოყენების' სვეტის სიგანე"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "გაშვებისას 'მეხსიერების მოსალოდნელი გამოყენების' სვეტის ჩვენება"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "პროცესის 'სტატუსის' სვეტის სიგანე"
+msgid "Width of process 'Waiting Channel' column"
+msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "პროცესის 'ვირტუალური მეხსიერების' სვეტის სიგანე"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "პროცესის 'ჩაწერადი მეხსიერების' სვეტის სიგანე"
+msgid "Disk view columns order"
+msgstr "დისკების სვეტების მიმდევრობის ხედი"
+
+#: ../src/gsm_color_button.c:188
+msgid "Fraction"
+msgstr ""
+
+#: ../src/gsm_color_button.c:189
+msgid "Percentage full for pie colour pickers"
+msgstr ""
+
+#: ../src/gsm_color_button.c:196
+msgid "Title"
+msgstr ""
+
+#: ../src/gsm_color_button.c:197
+msgid "The title of the color selection dialog"
+msgstr ""
+
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
+msgid "Pick a Color"
+msgstr ""
+
+#: ../src/gsm_color_button.c:204
+msgid "Current Color"
+msgstr ""
+
+#: ../src/gsm_color_button.c:205
+msgid "The selected color"
+msgstr ""
+
+#: ../src/gsm_color_button.c:212
+msgid "Type of color picker"
+msgstr ""
+
+#: ../src/gsm_color_button.c:533
+msgid "Received invalid color data\n"
+msgstr ""
+
+#: ../src/gsm_color_button.c:631
+msgid "Click to set graph colors"
+msgstr ""
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
-#: ../src/interface.cpp:49
+#: ../src/interface.cpp:50
 msgid "_Monitor"
 msgstr "_მონიტორი"
 
-#: ../src/interface.cpp:50
+#: ../src/interface.cpp:51
 msgid "_Edit"
 msgstr "_დამუშავება"
 
-#: ../src/interface.cpp:51
+#: ../src/interface.cpp:52
 msgid "_View"
 msgstr "_ხედი"
 
-#: ../src/interface.cpp:52
+#: ../src/interface.cpp:53
 msgid "_Help"
 msgstr "_დახმარება"
 
-#: ../src/interface.cpp:54
+#: ../src/interface.cpp:55
 msgid "Search for _Open Files"
 msgstr "გასახსნელი ფაილების ძ_იება"
 
-#: ../src/interface.cpp:55
+#: ../src/interface.cpp:56
 msgid "Search for open files"
 msgstr "გასახსნელი ფაილების ძიება"
 
-#: ../src/interface.cpp:56
-msgid "_Quit"
-msgstr "_გასვლა"
-
-#: ../src/interface.cpp:57
+#: ../src/interface.cpp:58
 msgid "Quit the program"
 msgstr "პროგრამიდან გასვლა"
 
-#: ../src/interface.cpp:60
+#: ../src/interface.cpp:61
 msgid "_Stop Process"
 msgstr "_პროცესების შეჩერება"
 
-#: ../src/interface.cpp:61
+#: ../src/interface.cpp:62
 msgid "Stop process"
 msgstr "პროცესის შეჩერება"
 
-#: ../src/interface.cpp:62
+#: ../src/interface.cpp:63
 msgid "_Continue Process"
 msgstr "პროცესის _გაგრძელება"
 
-#: ../src/interface.cpp:63
+#: ../src/interface.cpp:64
 msgid "Continue process if stopped"
 msgstr "პროცესის გაგრძელება, თუ გაჩერებულია"
 
-#: ../src/interface.cpp:65 ../src/interface.cpp:183
-msgid "End _Process"
-msgstr "_პროცესის დასრულება"
+#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
+msgid "_End Process"
+msgstr "პროცესის _დასრულება"
 
-#: ../src/interface.cpp:66
+#: ../src/interface.cpp:67
 msgid "Force process to finish normally"
 msgstr "პროცესის ძალდატანება მისი ნორმალური დახურვისთვის"
 
-#: ../src/interface.cpp:67 ../src/procdialogs.cpp:75
+#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
 msgid "_Kill Process"
 msgstr "ძალ-_დატანებით გამორთვა"
 
-#: ../src/interface.cpp:68
+#: ../src/interface.cpp:69
 msgid "Force process to finish immediately"
 msgstr "პროცესის ძალდატანება მისი მყისვე დახურვისთვის"
 
-#: ../src/interface.cpp:69
+#: ../src/interface.cpp:70
 msgid "_Change Priority..."
 msgstr "_პრიორიტეტის შეცვლა..."
 
-#: ../src/interface.cpp:70
+#: ../src/interface.cpp:71
 msgid "Change the order of priority of process"
 msgstr "პროცესის პრიორიტეტის შეცვლა"
 
-#: ../src/interface.cpp:71
-msgid "Prefere_nces"
-msgstr "პარა_მეტრები"
-
-#: ../src/interface.cpp:72
+#: ../src/interface.cpp:73
 msgid "Configure the application"
 msgstr "პროგრამის კონფიგურირება"
 
-#: ../src/interface.cpp:74
+#: ../src/interface.cpp:75
+msgid "_Refresh"
+msgstr ""
+
+#: ../src/interface.cpp:76
+msgid "Refresh the process list"
+msgstr ""
+
+#: ../src/interface.cpp:78
 msgid "_Memory Maps"
 msgstr "_მეხსიერების რუქები"
 
-#: ../src/interface.cpp:75
+#: ../src/interface.cpp:79
 msgid "Open the memory maps associated with a process"
 msgstr "პროცესთან დაკავშირებული მახსოვრობის რუქის გახსნა"
 
-#: ../src/interface.cpp:76
+#: ../src/interface.cpp:80
 msgid "Open _Files"
 msgstr "_ფაილის გახსნა"
 
-#: ../src/interface.cpp:77
+#: ../src/interface.cpp:81
 msgid "View the files opened by a process"
 msgstr "პროცესის მიერ გახსნილი ფაილების ნახვა"
 
-#: ../src/interface.cpp:79
+#: ../src/interface.cpp:83
 msgid "_Contents"
 msgstr "_შინაარსი"
 
-#: ../src/interface.cpp:80
+#: ../src/interface.cpp:84
 msgid "Open the manual"
 msgstr "დოკუმენტაციის გახსნა"
 
-#: ../src/interface.cpp:81
-msgid "_About"
-msgstr "პროგრამის შეს_ახებ"
-
-#: ../src/interface.cpp:82
+#: ../src/interface.cpp:86
 msgid "About this application"
 msgstr "ამ პროგრამის შესახებ"
 
-#: ../src/interface.cpp:87
+#: ../src/interface.cpp:91
 msgid "_Dependencies"
 msgstr "_დამოკიდებულებანი"
 
-#: ../src/interface.cpp:88
+#: ../src/interface.cpp:92
 msgid "Show parent/child relationship between processes"
 msgstr "პროცესების მშობელი/შვილი იერარქიული დამოკიდებულების ჩვენება"
 
-#: ../src/interface.cpp:95
+#: ../src/interface.cpp:99
 msgid "_Active Processes"
 msgstr "აქტიური პ_როცესები"
 
-#: ../src/interface.cpp:96
+#: ../src/interface.cpp:100
 msgid "Show active processes"
 msgstr "აქტიური პროცესების ჩვენება"
 
-#: ../src/interface.cpp:97
+#: ../src/interface.cpp:101
 msgid "A_ll Processes"
 msgstr "ყ_ველა პროცესი"
 
-#: ../src/interface.cpp:98
+#: ../src/interface.cpp:102
 msgid "Show all processes"
 msgstr "ყველა პროცესის ჩვენება"
 
-#: ../src/interface.cpp:99
+#: ../src/interface.cpp:103
 msgid "M_y Processes"
 msgstr "ჩემ_ი პროცესები"
 
-#: ../src/interface.cpp:100
+#: ../src/interface.cpp:104
 msgid "Show user own process"
 msgstr "მოხმარებლის პროცესების ჩვენება"
 
-#: ../src/interface.cpp:250
+#: ../src/interface.cpp:189
+msgid "End _Process"
+msgstr "_პროცესის დასრულება"
+
+#: ../src/interface.cpp:243
 msgid "CPU History"
 msgstr "CPU ისტორია"
 
 #: ../src/interface.cpp:300
-msgid "CPU:"
-msgstr "CPU:"
+msgid "CPU"
+msgstr ""
 
-#: ../src/interface.cpp:303
+#: ../src/interface.cpp:302
 #, c-format
-msgid "CPU%d:"
-msgstr "CPU%d:"
+msgid "CPU%d"
+msgstr ""
 
-#: ../src/interface.cpp:323
+#: ../src/interface.cpp:320
 msgid "Memory and Swap History"
 msgstr "მეხსიერება და Swap ისტორია"
 
-#: ../src/interface.cpp:355
-msgid "User memory:"
-msgstr "მომხმარებლის მეხსიერება:"
+#: ../src/interface.cpp:359 ../src/proctable.cpp:226
+msgid "Memory"
+msgstr "მეხსიერება"
 
-#. xgettext: user memory: 123 MiB of 512MiB
-#. xgettext: swap: 10MiB of 1GiB
-#: ../src/interface.cpp:373 ../src/interface.cpp:433
-msgid "of"
-msgstr "ის"
+#: ../src/interface.cpp:385
+msgid "Swap"
+msgstr ""
 
-#: ../src/interface.cpp:414
-msgid "Used swap:"
-msgstr "გამოყენებული Swap:"
-
-#: ../src/interface.cpp:473
+#: ../src/interface.cpp:406
 msgid "Network History"
 msgstr "ქსელის ისტორია"
 
-#: ../src/interface.cpp:504
-msgid "Received:"
-msgstr "მიღებული:"
+#: ../src/interface.cpp:445
+msgid "Receiving"
+msgstr ""
 
-#: ../src/interface.cpp:524 ../src/interface.cpp:567
-msgid "Total:"
-msgstr "სულ:"
+#: ../src/interface.cpp:466
+msgid "Total Received"
+msgstr ""
 
-#: ../src/interface.cpp:548
-msgid "Sent:"
-msgstr "გაგზავნილი:"
+#: ../src/interface.cpp:500
+msgid "Sending"
+msgstr ""
 
-#: ../src/interface.cpp:724
+#: ../src/interface.cpp:522
+msgid "Total Sent"
+msgstr ""
+
+#. procman_create_sysinfo_view();
+#: ../src/interface.cpp:690
 msgid "System"
 msgstr "სისტემა"
 
-#: ../src/interface.cpp:728 ../src/procdialogs.cpp:514
+#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
 msgstr "პროცესები"
 
-#: ../src/interface.cpp:732 ../src/procdialogs.cpp:629
+#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
 msgstr "რესურსები"
 
-#. xgettext: rate, 10MiB/s
-#: ../src/load-graph.cpp:441 ../src/load-graph.cpp:452
-#, c-format
-msgid "%s/s"
-msgstr "%s/s"
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "ფაილური სისტემები"
 
-#: ../src/lsof.cpp:355
+#: ../src/load-graph.cpp:155
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] ""
+
+#. xgettext: 540MiB (53 %) of 1.0 GiB
+#: ../src/load-graph.cpp:330
+#, c-format
+msgid "%s (%.1f %%) of %s"
+msgstr ""
+
+#: ../src/lsof.cpp:124
+#, c-format
+msgid ""
+"<b>Error</b>\n"
+"'%s' is not a valid Perl regular expression.\n"
+"%s"
+msgstr ""
+
+#: ../src/lsof.cpp:270
 msgid "Process"
 msgstr "პროცესი"
 
-#: ../src/lsof.cpp:367
+#: ../src/lsof.cpp:282
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:377 ../src/memmaps.cpp:478
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
 msgid "Filename"
 msgstr "ფაილის სახელი"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:394
+#: ../src/lsof.cpp:309
 msgid "Search for Open Files"
 msgstr "გასახსნელი ფაილების ძიება"
 
-#: ../src/lsof.cpp:422
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_სახელი შეიცავს:"
 
-#: ../src/lsof.cpp:438
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "რეგისტრის არ გათვალისწინება"
 
-#: ../src/lsof.cpp:446
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "ძი_ების შედეგი:"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:480
+#: ../src/memmaps.cpp:478
 msgid "VM Start"
 msgstr "VM გაშვება"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:482
+#: ../src/memmaps.cpp:480
 msgid "VM End"
 msgstr "VM დასრულება"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:484
+#: ../src/memmaps.cpp:482
 msgid "VM Size"
 msgstr "VM ზომა"
 
-#: ../src/memmaps.cpp:485
+#: ../src/memmaps.cpp:483
 msgid "Flags"
 msgstr "ალმები"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:487
+#: ../src/memmaps.cpp:485
 msgid "VM Offset"
 msgstr "VM წანაცვლება"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:490
+#: ../src/memmaps.cpp:488
 msgid "Private clean"
 msgstr "პრივატ clean"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:493
+#: ../src/memmaps.cpp:491
 msgid "Private dirty"
 msgstr "პრივატ dirty"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:496
+#: ../src/memmaps.cpp:494
 msgid "Shared clean"
 msgstr "გაზიარებული clean"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:499
+#: ../src/memmaps.cpp:497
 msgid "Shared dirty"
 msgstr "გაზიარებული dirty"
 
-#: ../src/memmaps.cpp:501
+#: ../src/memmaps.cpp:499
 msgid "Inode"
 msgstr "Inode"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/memmaps.cpp:610
+#: ../src/memmaps.cpp:608
 msgid "Memory Maps"
 msgstr "მეხსიერების რუქები"
 
-#: ../src/memmaps.cpp:629
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_მეხსიერების რუქა პროცესისთვის \"%s\" (PID %u):"
 
-#: ../src/openfiles.cpp:33
+#: ../src/openfiles.cpp:34
 msgid "file"
 msgstr "ფაილი"
 
-#: ../src/openfiles.cpp:35
+#: ../src/openfiles.cpp:36
 msgid "pipe"
 msgstr "ნაკადი"
 
-#: ../src/openfiles.cpp:37
-msgid "network connection"
-msgstr "ქსელური კავშირი"
+#: ../src/openfiles.cpp:38
+msgid "IPv6 network connection"
+msgstr ""
 
-#: ../src/openfiles.cpp:39
+#: ../src/openfiles.cpp:40
+msgid "IPv4 network connection"
+msgstr ""
+
+#: ../src/openfiles.cpp:42
 msgid "local socket"
 msgstr "ლოკალური სოკეტი"
 
-#: ../src/openfiles.cpp:41
+#: ../src/openfiles.cpp:44
 msgid "unknown type"
 msgstr "უცნობი ტიპი"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
-#: ../src/openfiles.cpp:234
+#: ../src/openfiles.cpp:246
 msgid "FD"
 msgstr "FD"
 
-#: ../src/openfiles.cpp:236
+#: ../src/openfiles.cpp:248
 msgid "Object"
 msgstr "ობიექტი"
 
-#: ../src/openfiles.cpp:320
+#: ../src/openfiles.cpp:332
 msgid "Open Files"
 msgstr "ფაილების გახსნა"
 
-#: ../src/openfiles.cpp:342
+#: ../src/openfiles.cpp:354
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "პროცესის მიერ გახსნილი ფაილები \"%s\" (PID %u):"
@@ -685,18 +740,14 @@ msgstr "პროცესის მიერ გახსნილი ფაი
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"ვერ ვცვლი პროცესის პრიორიტეტს %d-ის %d.\n"
-"%s-ად"
+msgstr "ვერ ვცვლი პროცესის პრიორიტეტს %d-ის %d.\n%s-ად"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"ვერ ვკლავ პროცესის %d (pid)-ს %d ბრძანებით.\n"
-"%s"
+msgstr "ვერ ვკლავ პროცესის %d (pid)-ს %d ბრძანებით.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -708,10 +759,7 @@ msgstr "გნებავთ მოცემული პროცესებ�
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"პროცესის მოკვლამ შეიძლება დააზიანოს თქვენი მონაცემები, დატოვეთ სესია, "
-"ნაკლები რისკისთვის. უკეთესია თუ დაასრულებთ მხოლოდ გაჭედილ ან უმოქმედო "
-"პროცესებს."
+msgstr "პროცესის მოკვლამ შეიძლება დააზიანოს თქვენი მონაცემები, დატოვეთ სესია, ნაკლები რისკისთვის. უკეთესია თუ დაასრულებთ მხოლოდ გაჭედილ ან უმოქმედო პროცესებს."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -721,295 +769,320 @@ msgstr "დავასრულო ამორჩეული პროცე�
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"პროცესის დასრულებამ შეიძლება დააზიანოს თქვენი მონაცემები, დატოვეთ სესია, "
-"ნაკლები რისკისთვის. უკეთესია თუ დაასრულებთ მხოლოდ გაჭედილ ან უმოქმედო "
-"პროცესებს."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "პროცესის დასრულებამ შეიძლება დააზიანოს თქვენი მონაცემები, დატოვეთ სესია, ნაკლები რისკისთვის. უკეთესია თუ დაასრულებთ მხოლოდ გაჭედილ ან უმოქმედო პროცესებს."
 
-#: ../src/procdialogs.cpp:84
-msgid "_End Process"
-msgstr "პროცესის _დასრულება"
-
-#: ../src/procdialogs.cpp:113
+#: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
 msgstr "(ძალიან მაღალი პრიორიტეტი)"
 
-#: ../src/procdialogs.cpp:115
+#: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
 msgstr "(მაღალი პრიორიტეტი)"
 
-#: ../src/procdialogs.cpp:117
+#: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
 msgstr "(ჩვეულებრივი პრიორიტეტი)"
 
-#: ../src/procdialogs.cpp:119
+#: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
 msgstr "(დაბალი პრიორიტეტი)"
 
-#: ../src/procdialogs.cpp:121
+#: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
 msgstr "(ძალიან დაბალი პრიორიტეტი)"
 
-#: ../src/procdialogs.cpp:173
+#: ../src/procdialogs.cpp:175
 msgid "Change Priority"
 msgstr "პრიორიტეტის შეცვლა"
 
-#: ../src/procdialogs.cpp:194
+#: ../src/procdialogs.cpp:196
 msgid "Change _Priority"
 msgstr "პრიორიტეტის _შეცვლა"
 
-#: ../src/procdialogs.cpp:215
+#: ../src/procdialogs.cpp:217
 msgid "_Nice value:"
 msgstr "პ_რიორიტეტის პარამეტრი:"
 
-#: ../src/procdialogs.cpp:231
+#: ../src/procdialogs.cpp:233
 msgid "Note:"
 msgstr "შენიშვნა:"
 
-#: ../src/procdialogs.cpp:232
+#: ../src/procdialogs.cpp:234
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"პროცესს პრიორიტეტი მიეცემა nice მნიშვნელობით. nice-ს პატარა მნიშვნელობა "
-"შეესაბამება უფრო მაღალ პრიორიტეტს."
+msgstr "პროცესს პრიორიტეტი მიეცემა nice მნიშვნელობით. nice-ს პატარა მნიშვნელობა შეესაბამება უფრო მაღალ პრიორიტეტს."
 
-#: ../src/procdialogs.cpp:392
-msgid "Process i_nformation shown in list:"
-msgstr "სიაში ნაჩვენები პროცესების ი_ნფორმაცია:"
-
-#: ../src/procdialogs.cpp:444
+#: ../src/procdialogs.cpp:457
 msgid "Icon"
 msgstr "ხატულა"
 
-#: ../src/procdialogs.cpp:491
+#: ../src/procdialogs.cpp:502
 msgid "System Monitor Preferences"
 msgstr "სისტემის მონიტორის პარამეტრები"
 
-#: ../src/procdialogs.cpp:521
+#: ../src/procdialogs.cpp:532
 msgid "Behavior"
 msgstr "ქცევა"
 
-#: ../src/procdialogs.cpp:540 ../src/procdialogs.cpp:655
-#: ../src/procdialogs.cpp:741
+#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
+#: ../src/procdialogs.cpp:728
 msgid "_Update interval in seconds:"
 msgstr "_ინტერვალის _განახლება წამებში:"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:576
 msgid "Enable _smooth refresh"
 msgstr "პ_ირდაპირი განახლების ჩართვა"
 
-#: ../src/procdialogs.cpp:579
+#: ../src/procdialogs.cpp:590
 msgid "Alert before ending or _killing processes"
 msgstr "გაფრთხილების ჩვენება პროცესის დასრულების ან მოკვლისას"
 
-#: ../src/procdialogs.cpp:593
+#: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
 msgstr "სოლარის რეჟიმი"
 
-#: ../src/procdialogs.cpp:611
+#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
 msgid "Information Fields"
 msgstr "საინფორმაციო ველი"
 
-#: ../src/procdialogs.cpp:636
+#: ../src/procdialogs.cpp:635
+msgid "Process i_nformation shown in list:"
+msgstr "სიაში ნაჩვენები პროცესების ი_ნფორმაცია:"
+
+#: ../src/procdialogs.cpp:647
 msgid "Graphs"
 msgstr "გრაფიკი"
 
-#: ../src/procdialogs.cpp:677
-msgid "_Background color:"
-msgstr "_ფონის ფერი:"
+#: ../src/procdialogs.cpp:686
+msgid "Show network speed in bits"
+msgstr ""
 
-#: ../src/procdialogs.cpp:696
-msgid "_Grid color:"
-msgstr "ბ_ადის შეფერილობა:"
-
-#: ../src/procdialogs.cpp:761
+#: ../src/procdialogs.cpp:748
 msgid "Show _all filesystems"
 msgstr "ყველა ფაილ სიტემების ჩვენება"
 
-#: ../src/proctable.cpp:242
+#: ../src/procdialogs.cpp:775
+msgid "File system i_nformation shown in list:"
+msgstr ""
+
+#: ../src/procman.cpp:690
+msgid "A simple process and system monitor."
+msgstr ""
+
+#: ../src/proctable.cpp:211
 msgid "Process Name"
 msgstr "პროცესის სახელი"
 
-#: ../src/proctable.cpp:243
+#: ../src/proctable.cpp:212
 msgid "User"
 msgstr "მომხმარებელი"
 
-#: ../src/proctable.cpp:244
+#: ../src/proctable.cpp:213
 msgid "Status"
 msgstr "სტატუსი"
 
-#: ../src/proctable.cpp:245
+#: ../src/proctable.cpp:214
 msgid "Virtual Memory"
 msgstr "ვირტუალური მეხსიერება (VM)"
 
-#: ../src/proctable.cpp:246
+#: ../src/proctable.cpp:215
 msgid "Resident Memory"
 msgstr "ძირითადი მეხსიერება"
 
-#: ../src/proctable.cpp:247
+#: ../src/proctable.cpp:216
 msgid "Writable Memory"
 msgstr "ჩაწერადი მეხსიერება"
 
-#: ../src/proctable.cpp:248
+#: ../src/proctable.cpp:217
 msgid "Shared Memory"
 msgstr "გაზიარებული მეხსიერება"
 
-#: ../src/proctable.cpp:249
+#: ../src/proctable.cpp:218
 msgid "X Server Memory"
 msgstr "X სერვერის მეხსიერება"
 
-#: ../src/proctable.cpp:250
+#: ../src/proctable.cpp:219
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: ../src/proctable.cpp:251
+#: ../src/proctable.cpp:220
 msgid "CPU Time"
 msgstr "CPU-ს დრო"
 
-#: ../src/proctable.cpp:252
+#: ../src/proctable.cpp:221
 msgid "Started"
 msgstr "გაშვებული"
 
-#: ../src/proctable.cpp:253
+#: ../src/proctable.cpp:222
 msgid "Nice"
 msgstr "Nice"
 
-#: ../src/proctable.cpp:254
+#: ../src/proctable.cpp:223
 msgid "ID"
 msgstr "ID"
 
-#: ../src/proctable.cpp:255
+#: ../src/proctable.cpp:224
 msgid "Security Context"
 msgstr "უსაფრთხოების კონტექსტი"
 
-#: ../src/proctable.cpp:256
+#: ../src/proctable.cpp:225
 msgid "Command Line"
 msgstr "ბრძანების ველი"
 
-#: ../src/proctable.cpp:257
-msgid "Memory"
-msgstr "მეხსიერება"
+#. xgettext: wchan, see ps(1) or top(1)
+#: ../src/proctable.cpp:228
+msgid "Waiting Channel"
+msgstr ""
 
-#: ../src/proctable.cpp:454
-msgid "Running"
-msgstr "გაშვებულია"
-
-#: ../src/proctable.cpp:458
-msgid "Stopped"
-msgstr "გაჩერებულია"
-
-#: ../src/proctable.cpp:462
-msgid "Zombie"
-msgstr "ზომბური"
-
-#: ../src/proctable.cpp:466
-msgid "Uninterruptible"
-msgstr "უწყვეტი"
-
-#: ../src/proctable.cpp:470
-msgid "Sleeping"
-msgstr "ძინავს"
-
-#. xgettext: weeks, days
-#: ../src/proctable.cpp:597
-#, c-format
-msgid "%uw%ud"
-msgstr "%uw%ud"
-
-#. xgettext: days, hours (0 -> 23)
-#: ../src/proctable.cpp:601
-#, c-format
-msgid "%ud%02uh"
-msgstr "%ud%02uh"
-
-#. xgettext: hours (0 -> 23), minutes, seconds
-#: ../src/proctable.cpp:605
-#, c-format
-msgid "%u:%02u:%02u"
-msgstr "%u:%02u:%02u"
-
-#. xgettext: minutes, seconds, centiseconds
-#: ../src/proctable.cpp:608
-#, c-format
-msgid "%u:%02u.%02u"
-msgstr "%u:%02u.%02u"
-
-#: ../src/proctable.cpp:1034
+#: ../src/proctable.cpp:945
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "დატვირთულობა ბოლო 1, 5, 15 წუთის განმავლობაში: %0.2f,·%0.2f,·%0.2f"
 
-#: ../src/sysinfo.cpp:92
-msgid "Unknown CPU model"
-msgstr "CPU-ს უცნობი მოდელი"
-
-#. xgettext: Release 2.6.19
-#: ../src/sysinfo.cpp:401
+#: ../src/sysinfo.cpp:77
 #, c-format
 msgid "Release %s"
 msgstr "გამოშვება %s"
 
-#: ../src/sysinfo.cpp:408
+#: ../src/sysinfo.cpp:116
+msgid "Unknown CPU model"
+msgstr "CPU-ს უცნობი მოდელი"
+
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "კერნელი %s"
 
-#: ../src/sysinfo.cpp:416
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "გნომი %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:425
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>მოწყობილობა</b>"
 
-#: ../src/sysinfo.cpp:446
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "მეხსიერება:"
 
-#: ../src/sysinfo.cpp:466
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "პროცესორი %d:"
 
-#: ../src/sysinfo.cpp:471
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "პროცესორი:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:491
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>სისტემის სტატუსი</b>"
 
-#: ../src/sysinfo.cpp:512
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "დისკის ხელმისაწვდომი ტევადობა:"
 
-#: ../src/util.cpp:77
+#: ../src/util.cpp:30
+msgid "Running"
+msgstr "გაშვებულია"
+
+#: ../src/util.cpp:34
+msgid "Stopped"
+msgstr "გაჩერებულია"
+
+#: ../src/util.cpp:38
+msgid "Zombie"
+msgstr "ზომბური"
+
+#: ../src/util.cpp:42
+msgid "Uninterruptible"
+msgstr "უწყვეტი"
+
+#: ../src/util.cpp:46
+msgid "Sleeping"
+msgstr "ძინავს"
+
+#. xgettext: weeks, days
+#: ../src/util.cpp:101
+#, c-format
+msgid "%uw%ud"
+msgstr "%uw%ud"
+
+#. xgettext: days, hours (0 -> 23)
+#: ../src/util.cpp:105
+#, c-format
+msgid "%ud%02uh"
+msgstr "%ud%02uh"
+
+#. xgettext: hours (0 -> 23), minutes, seconds
+#: ../src/util.cpp:109
+#, c-format
+msgid "%u:%02u:%02u"
+msgstr "%u:%02u:%02u"
+
+#. xgettext: minutes, seconds, centiseconds
+#: ../src/util.cpp:112
+#, c-format
+msgid "%u:%02u.%02u"
+msgstr "%u:%02u.%02u"
+
+#: ../src/util.cpp:164
+#, c-format
+msgid "%.1f KiB"
+msgstr "%.1f·კბ"
+
+#: ../src/util.cpp:165
+#, c-format
+msgid "%.1f MiB"
+msgstr "%.1f მბ"
+
+#: ../src/util.cpp:166
+#, c-format
+msgid "%.1f GiB"
+msgstr "%.1f·გბ"
+
+#: ../src/util.cpp:167
+#, c-format
+msgid "%.1f kbit"
+msgstr ""
+
+#: ../src/util.cpp:168
+#, c-format
+msgid "%.1f Mbit"
+msgstr ""
+
+#: ../src/util.cpp:169
+#, c-format
+msgid "%.1f Gbit"
+msgstr ""
+
+#: ../src/util.cpp:184
+#, c-format
+msgid "%u bit"
+msgid_plural "%u bits"
+msgstr[0] ""
+
+#: ../src/util.cpp:185
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "%u ბაიტი"
 
-#: ../src/util.cpp:84
-#, c-format
-msgid "%.1f KiB"
-msgstr "%.1f·კბ"
+#: ../src/util.cpp:373
+msgid "<i>N/A</i>"
+msgstr ""
 
-#: ../src/util.cpp:87
+#. xgettext: rate, 10MiB/s or 10Mbit/s
+#: ../src/util.cpp:490
 #, c-format
-msgid "%.1f MiB"
-msgstr "%.1f მბ"
-
-#: ../src/util.cpp:90
-#, c-format
-msgid "%.1f GiB"
-msgstr "%.1f·გბ"
-
+msgid "%s/s"
+msgstr "%s/s"

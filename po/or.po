@@ -1,30 +1,27 @@
-# translation of mate-system-manager.master.or.po to Oriya
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
-# Subhransu Behera <sbehera@redhat.com>, 2006.
-# Manoj Kumar Giri <mgiri@redhat.com>, 2008, 2009, 2010.
+# 
+# Translators:
+# Manoj Kumar Giri <mgiri@redhat.com>, 2008, 2009, 2010
+# Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006
+# Subhransu Behera <sbehera@redhat.com>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-manager.master.or\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-monitor&component=general\n"
-"POT-Creation-Date: 2010-04-25 21:02+0000\n"
-"PO-Revision-Date: 2010-04-29 15:03+0530\n"
-"Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
-"Language-Team: Oriya <Translation-team-or@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:30+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Oriya (http://www.transifex.com/projects/p/MATE/language/or/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: or\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "ତନ୍ତ୍ର ପ୍ରଦର୍ଶିକା"
 
@@ -40,38 +37,33 @@ msgstr "ତନ୍ତ୍ର ଟ୍ୟାବ ଦର୍ଶାନ୍ତୁ"
 msgid "translator-credits"
 msgstr "ଶୁଭ୍ରାଂଶୁ ବେହେରା <arya_subhransu@yahoo.co.in>"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "ଉପକରଣ"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "ଡିରେକ୍ଟୋରି"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "ପ୍ରକାର"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "ସର୍ବମୋଟ"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "ମାଗଣା"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "ଉପଲବ୍ଧ"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "ବ୍ଯବହ୍ରୁତ"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "ଫାଇଲ ତନ୍ତ୍ର"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -99,254 +91,247 @@ msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
+msgid "Main Window width"
+msgstr "ମୂଖ୍ୟ ୱିଣ୍ଡୋ ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "ମୂଖ୍ୟ ୱିଣ୍ଡୋ ଉଚ୍ଚତା"
+
+#: ../src/mate-system-monitor.schemas.in.h:3
+msgid "Show process dependencies in tree form"
+msgstr "ପ୍ରକ୍ରିୟା ନିର୍ଭରଶୀଳ ମାନଙ୍କୁ ବୃକ୍ଷ ଆକାରରେ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr "CPU ପ୍ରତିଶତ ପାଇଁ Solaris ଧାରା"
+
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "ଯଦି TRUE, ତନ୍ତ୍ର-ପ୍ରଦର୍ଶିକା 'Solaris ଧାରା'ରେ ପ୍ରୟୋଗ ହୋଇଥାଏ ଯେଉଁଥିରେ ଗୋଟିଏ କାର୍ଯ୍ୟର cpu ବ୍ୟବହାର ସମସ୍ତ CPUଗୁଡ଼ିକର ସମଷ୍ଟି ଦ୍ୱାରା ବିଭାଜିତ ହୋଇଥାଏ. ଅନ୍ୟଥା ଏହା 'Irix'ଧାରାରେ ପ୍ରୟୋଗ ହୋଇଥାଏ."
+
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "ମସୃଣ ସତେଜନକୁ ସକ୍ରିୟ/ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "ପ୍ରକ୍ରିୟାଗୁଡ଼ିକୁ ବନ୍ଦକରିବା ସମୟରେ ଚେତାବନୀ ସଂଳାପ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
+msgid "Time in milliseconds between updates of the process view"
+msgstr "ପ୍ରକ୍ରିୟା ଦର୍ଶନ ଅଦ୍ୟତନର ମଧ୍ଯବର୍ତ୍ତୀ ସମୟ ମିଲିସେକଣ୍ଡରେ"
+
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "ଆଲେଖୀଗୁଡ଼ିକର ଅଦ୍ୟତନର ମଧ୍ଯବର୍ତ୍ତୀ ସମୟ ମିଲିସେକଣ୍ଡରେ"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "ସମସ୍ତ ଫାଇଲତନ୍ତ୍ରଗୁଡ଼ିକ ବିଷୟରେ ସୂଚନାକୁ ଦର୍ଶାଯିବା ଉଚିତ କି ନୁହଁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "ସମସ୍ତ ଫାଇଲତନ୍ତ୍ରଗୁଡ଼ିକ ବିଷୟରେ ସୂଚନାକୁ ଦର୍ଶାଯିବା ଉଚିତ କି ନୁହଁ ('autofs' ଏବଂ 'procfs' ପ୍ରକାରଗୁଡ଼ିକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରି). ସମସ୍ତ ସ୍ଥପିତ ଫାଇଲତନ୍ତ୍ରଗୁଡ଼ିକର ତାଲିକା ପାଇବା ପାଇଁ ଫଳପ୍ରଦ."
+
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "ଯନ୍ତ୍ରଗୁଡ଼ିକର ତାଲିକା ଅଦ୍ୟତନ ମଧ୍ଯବର୍ତ୍ତୀ ସମୟ ମିଲିସେକଣ୍ଡରେ"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଭାବରେ କେଉଁ ପ୍ରକ୍ରିୟାକୁ ଦର୍ଶାଯିବ ତାହା ବର୍ଣ୍ଣନାକରନ୍ତୁ. 0 ହେଉଛି ସମସ୍ତ, 1 ହେଉଛି ଚାଳକ, ଏବଂ 2 ହେଉଛି ସକ୍ରିୟ"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "ବର୍ତ୍ତମାନ ଦେଖିଥିବା ଟ୍ୟାବକୁ ସଂରକ୍ଷଣ କରେ"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr "ତନ୍ତ୍ର ସୂଚନା ପାଇଁ 0, ପ୍ରକ୍ରିୟା ତାଲିକା ପାଇଁ 1, ଉତ୍ସଗୁଡ଼ିକ ପାଇଁ 2 ଏବଂ ଡିସ୍କ ତାଲିକା ପାଇଁ 3"
 
-#: ../src/mate-system-monitor.schemas.in.h:2
+#: ../src/mate-system-monitor.schemas.in.h:16
 msgid "Default graph cpu color"
 msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଆଲେଖୀ cpu ରଙ୍ଗ"
 
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଆଲେଖୀ ଆସୁଥିବା ନେଟୱର୍କ ଟ୍ରାଫିକ ରଙ୍ଗ"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
+#: ../src/mate-system-monitor.schemas.in.h:17
 msgid "Default graph mem color"
 msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଆଲେଖୀ mem ରଙ୍ଗ"
 
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଆଲେଖୀ ଯାଉଥିବା ନେଟୱର୍କ ଟ୍ରାଫିକ ରଙ୍ଗ"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
+#: ../src/mate-system-monitor.schemas.in.h:18
 msgid "Default graph swap color"
 msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଆଲେଖୀ swap ରଙ୍ଗ"
 
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଭାବରେ କେଉଁ ପ୍ରକ୍ରିୟାକୁ ଦର୍ଶାଯିବ ତାହା ବର୍ଣ୍ଣନାକରନ୍ତୁ. 0 ହେଉଛି ସମସ୍ତ, 1 ହେଉଛି "
-"ଚାଳକ, ଏବଂ 2 ହେଉଛି ସକ୍ରିୟ"
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଆଲେଖୀ ଆସୁଥିବା ନେଟୱର୍କ ଟ୍ରାଫିକ ରଙ୍ଗ"
 
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "ଡିସ୍କ ଦୃଶ୍ୟ ସ୍ଥମ୍ଭଗୁଡ଼ିକର କ୍ରମ"
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଆଲେଖୀ ଯାଉଥିବା ନେଟୱର୍କ ଟ୍ରାଫିକ ରଙ୍ଗ"
 
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "ମସୃଣ ସତେଜନକୁ ସକ୍ରିୟ/ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"ଯଦି TRUE, ତନ୍ତ୍ର-ପ୍ରଦର୍ଶିକା 'Solaris ଧାରା'ରେ ପ୍ରୟୋଗ ହୋଇଥାଏ ଯେଉଁଥିରେ ଗୋଟିଏ କାର୍ଯ୍ୟର cpu "
-"ବ୍ୟବହାର ସମସ୍ତ CPUଗୁଡ଼ିକର ସମଷ୍ଟି ଦ୍ୱାରା ବିଭାଜିତ ହୋଇଥାଏ. ଅନ୍ୟଥା ଏହା 'Irix'ଧାରାରେ ପ୍ରୟୋଗ "
-"ହୋଇଥାଏ."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "ମୂଖ୍ୟ ୱିଣ୍ଡୋ ଉଚ୍ଚତା"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
-msgid "Main Window width"
-msgstr "ମୂଖ୍ୟ ୱିଣ୍ଡୋ ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "ପ୍ରକ୍ରିୟା ଦୃଶ୍ୟ ସ୍ତମ୍ଭ କ୍ରମ"
-
-#: ../src/mate-system-monitor.schemas.in.h:14
+#: ../src/mate-system-monitor.schemas.in.h:21
 msgid "Process view sort column"
 msgstr "ପ୍ରକ୍ରିୟା ଦୃଶ୍ୟ ସ୍ତମ୍ଭ ସଜଡ଼ା"
 
-#: ../src/mate-system-monitor.schemas.in.h:15
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "ପ୍ରକ୍ରିୟା ଦୃଶ୍ୟ ସ୍ତମ୍ଭ କ୍ରମ"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
 msgid "Process view sort order"
 msgstr "ପ୍ରକ୍ରିୟା ଦୃଶ୍ୟ ସଜଡ଼ା କ୍ରମ"
 
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "ବର୍ତ୍ତମାନ ଦେଖିଥିବା ଟ୍ୟାବକୁ ସଂରକ୍ଷଣ କରେ"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'CPU %' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'CPU time' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'PID' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'SELinux ସୁରକ୍ଷା ପ୍ରସଙ୍ଗ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'ଅପେକ୍ଷା ଚାନେଲ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'X ସର୍ଭର ସ୍ମୃତି' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
 #: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'ସ୍ୱତନ୍ତ୍ରଚର' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+msgid "Width of process 'name' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ନାମ' ସ୍ତମ୍ଭର ଓସାର"
 
 #: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'ଆକଳିତ ସ୍ମୃତି ସ୍ଥାନ ବ୍ୟବହାର' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
 msgid "Show process 'name' column on startup"
 msgstr "ଆରମ୍ଭ ସମୟରେ 'ନାମ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'nice' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ମାଲିକ' ସ୍ତମ୍ଭର ଓସାର"
 
-#: ../src/mate-system-monitor.schemas.in.h:28
+#: ../src/mate-system-monitor.schemas.in.h:27
 msgid "Show process 'owner' column on startup"
 msgstr "ଆରମ୍ଭ ସମୟରେ 'ମାଲିକ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ସ୍ଥିତି' ସ୍ତମ୍ଭର ଓସାର"
+
 #: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'ନିବାସୀ ସ୍ମୃତି ସ୍ଥାନ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'ସହଭାଗୀ ସ୍ମୃତି ସ୍ଥାନ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "ଆରମ୍ଭ ସମୟରେ 'ଆରମ୍ଭ ସମୟ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
 msgid "Show process 'status' column on startup"
 msgstr "ଆରମ୍ଭ ସମୟରେ 'ସ୍ଥିତି' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
-#: ../src/mate-system-monitor.schemas.in.h:33
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ଆଭାସୀ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
 msgid "Show process 'virtual memory' column on startup"
 msgstr "ଆରମ୍ଭ ସମୟରେ 'ଆବାସୀ ସ୍ମୃତି ସ୍ଥାନ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ନିବାସୀ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'ନିବାସୀ ସ୍ମୃତି ସ୍ଥାନ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
 #: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ଲେଖାଯୋଗ୍ୟ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
 msgid "Show process 'writable memory' column on startup"
 msgstr "ଆରମ୍ଭ ସମୟରେ 'ଲେଖାଯୋଗ୍ୟ ସ୍ମୃତି ସ୍ଥାନ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
-#: ../src/mate-system-monitor.schemas.in.h:35
-msgid "Show process dependencies in tree form"
-msgstr "ପ୍ରକ୍ରିୟା ନିର୍ଭରଶୀଳ ମାନଙ୍କୁ ବୃକ୍ଷ ଆକାରରେ ଦର୍ଶାନ୍ତୁ"
-
 #: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "ପ୍ରକ୍ରିୟାଗୁଡ଼ିକୁ ବନ୍ଦକରିବା ସମୟରେ ଚେତାବନୀ ସଂଳାପ ଦର୍ଶାନ୍ତୁ"
+msgid "Width of process 'shared memory' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ସହଭାଗୀ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
 
 #: ../src/mate-system-monitor.schemas.in.h:37
-msgid "Solaris mode for CPU percentage"
-msgstr "CPU ପ୍ରତିଶତ ପାଇଁ Solaris ଧାରା"
+msgid "Show process 'shared memory' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'ସହଭାଗୀ ସ୍ମୃତି ସ୍ଥାନ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
 #: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "ଯନ୍ତ୍ରଗୁଡ଼ିକର ତାଲିକା ଅଦ୍ୟତନ ମଧ୍ଯବର୍ତ୍ତୀ ସମୟ ମିଲିସେକଣ୍ଡରେ"
+msgid "Width of process 'X server memory' column"
+msgstr "ପ୍ରକ୍ରିୟା 'X ସର୍ଭର ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
 
 #: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "ଆଲେଖୀଗୁଡ଼ିକର ଅଦ୍ୟତନର ମଧ୍ଯବର୍ତ୍ତୀ ସମୟ ମିଲିସେକଣ୍ଡରେ"
-
-#: ../src/mate-system-monitor.schemas.in.h:40
-msgid "Time in milliseconds between updates of the process view"
-msgstr "ପ୍ରକ୍ରିୟା ଦର୍ଶନ ଅଦ୍ୟତନର ମଧ୍ଯବର୍ତ୍ତୀ ସମୟ ମିଲିସେକଣ୍ଡରେ"
+msgid "Show process 'X server memory' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'X ସର୍ଭର ସ୍ମୃତି' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
 #: ../src/mate-system-monitor.schemas.in.h:41
-msgid "Whether information about all filesystems should be displayed"
-msgstr "ସମସ୍ତ ଫାଇଲତନ୍ତ୍ରଗୁଡ଼ିକ ବିଷୟରେ ସୂଚନାକୁ ଦର୍ଶାଯିବା ଉଚିତ କି ନୁହଁ"
-
-#: ../src/mate-system-monitor.schemas.in.h:42
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr ""
-"ସମସ୍ତ ଫାଇଲତନ୍ତ୍ରଗୁଡ଼ିକ ବିଷୟରେ ସୂଚନାକୁ ଦର୍ଶାଯିବା ଉଚିତ କି ନୁହଁ ('autofs' ଏବଂ 'procfs' "
-"ପ୍ରକାରଗୁଡ଼ିକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରି). ସମସ୍ତ ସ୍ଥପିତ ଫାଇଲତନ୍ତ୍ରଗୁଡ଼ିକର ତାଲିକା ପାଇବା ପାଇଁ ଫଳପ୍ରଦ."
-
-#: ../src/mate-system-monitor.schemas.in.h:44
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "ପ୍ରକ୍ରିୟା 'CPU %' ସ୍ତମ୍ଭର ଓସାର"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'CPU %' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "ପ୍ରକ୍ରିୟା 'CPU time' ସ୍ତମ୍ଭର ଓସାର"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'CPU time' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "ପ୍ରକ୍ରିୟା 'PID' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "ପ୍ରକ୍ରିୟା 'CPU ସୁରକ୍ଷା ପ୍ରସଙ୍ଗ' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ଅପେକ୍ଷା ଚାନେଲ' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "ପ୍ରକ୍ରିୟା 'X ସର୍ଭର ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ସ୍ୱତନ୍ତ୍ରଚରଗୁଡ଼ିକର' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ଆକଳିତ ସ୍ମୃତି ସ୍ଥାନ ବ୍ୟବହାର' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ନାମ' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "ପ୍ରକ୍ରିୟା 'nice' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ମାଲିକ' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ନିବାସୀ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ସହଭାଗୀ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "ପ୍ରକ୍ରିୟା 'ଆରମ୍ଭ ସମୟ' ସ୍ତମ୍ଭର ଓସାର"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'ଆରମ୍ଭ ସମୟ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "ପ୍ରକ୍ରିୟା 'nice' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'nice' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "ପ୍ରକ୍ରିୟା 'PID' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'PID' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "ପ୍ରକ୍ରିୟା 'CPU ସୁରକ୍ଷା ପ୍ରସଙ୍ଗ' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'SELinux ସୁରକ୍ଷା ପ୍ରସଙ୍ଗ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ସ୍ୱତନ୍ତ୍ରଚରଗୁଡ଼ିକର' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'ସ୍ୱତନ୍ତ୍ରଚର' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ଆକଳିତ ସ୍ମୃତି ସ୍ଥାନ ବ୍ୟବହାର' ସ୍ତମ୍ଭର ଓସାର"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'ଆକଳିତ ସ୍ମୃତି ସ୍ଥାନ ବ୍ୟବହାର' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ସ୍ଥିତି' ସ୍ତମ୍ଭର ଓସାର"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "ପ୍ରକ୍ରିୟା 'ଅପେକ୍ଷା ଚାନେଲ' ସ୍ତମ୍ଭର ଓସାର"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ଆଭାସୀ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "ଆରମ୍ଭ ସମୟରେ 'ଅପେକ୍ଷା ଚାନେଲ' ପ୍ରକ୍ରିୟା ସ୍ତମ୍ଭ ଦର୍ଶାନ୍ତୁ"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "ପ୍ରକ୍ରିୟା 'ଲେଖାଯୋଗ୍ୟ ସ୍ମୃତି ସ୍ଥାନ' ସ୍ତମ୍ଭର ଓସାର"
+msgid "Disk view columns order"
+msgstr "ଡିସ୍କ ଦୃଶ୍ୟ ସ୍ଥମ୍ଭଗୁଡ଼ିକର କ୍ରମ"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -364,7 +349,7 @@ msgstr "ଶୀର୍ଷକ"
 msgid "The title of the color selection dialog"
 msgstr "ରଙ୍ଗ ଚୟନ ସମଳାପର ଶୀର୍ଷକ"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "ଗୋଟିଏ ରଙ୍ଗ ବାଛନ୍ତୁ"
 
@@ -380,11 +365,11 @@ msgstr "ବଚ୍ଛିତ ରଙ୍ଗ"
 msgid "Type of color picker"
 msgstr "ରଙ୍ଗ ଚୟକର ପ୍ରକାର"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "ଅବୈଧ ରଙ୍ଗ ତଥ୍ୟ ଗ୍ରହଣ କରିଅଛି\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "ଆଲେଖି ରଙ୍ଗ ବିନ୍ୟାସ କରିବା ପାଇଁ କ୍ଲିକ କରନ୍ତୁ"
 
@@ -592,7 +577,12 @@ msgstr "ପ୍ରକ୍ରିୟାଗୁଡ଼ିକ"
 msgid "Resources"
 msgstr "ଉତ୍ସଗୁଡ଼ିକ"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "ଫାଇଲ ତନ୍ତ୍ର"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -600,7 +590,7 @@ msgstr[0] "%u ସେକଣ୍ଡ"
 msgstr[1] "%u ସେକଣ୍ଡ"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) of %s"
@@ -611,10 +601,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>ତ୍ରୁଟି</b>\n"
-"'%s' ଟି ଗୋଟିଏ ବୈଧ Perl ନିୟମିତ ଅଭିବ୍ୟକ୍ତି ନୁହଁ.\n"
-"%s"
+msgstr "<b>ତ୍ରୁଟି</b>\n'%s' ଟି ଗୋଟିଏ ବୈଧ Perl ନିୟମିତ ଅଭିବ୍ୟକ୍ତି ନୁହଁ.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -633,15 +620,15 @@ msgstr "ଫାଇଲ ନାମ"
 msgid "Search for Open Files"
 msgstr "ଫାଇଲ ମାନଙ୍କୁ ଖୋଲନ୍ତୁକୁ ଖୋଜନ୍ତୁ"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "ନାମ ଧାରଣ କରିଥାଏ (_N):"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "ଅକ୍ଷର ଅନିର୍ଦ୍ଦିଷ୍ଟ ମେଳନ"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "ସନ୍ଧାନ ଫଳ (_e):"
 
@@ -702,7 +689,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "ସ୍ମୃତି ସ୍ଥାନ ପ୍ରତିଚିତ୍ରଣ"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "ପ୍ରକ୍ରିୟା ପାଇଁ ସ୍ମୃତି ସ୍ଥାନ ପ୍ରତିଚିତ୍ରଣଗୁଡ଼ିକ \"%s\" (PID %u) (_M):"
@@ -756,18 +743,14 @@ msgstr "ପ୍ରକ୍ରିୟା ଦ୍ୱାରା ଖୋଲାଯାଇଥ�
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"pid %d ରୁ %d କୁ ପ୍ରକ୍ରିୟାର ପ୍ରାଥମିକତାକୁ ପରିବର୍ତ୍ତନ କରିହେବ ନାହିଁ।\n"
-"%s"
+msgstr "pid %d ରୁ %d କୁ ପ୍ରକ୍ରିୟାର ପ୍ରାଥମିକତାକୁ ପରିବର୍ତ୍ତନ କରିହେବ ନାହିଁ।\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"ସଂକେତ %d ସହିତଥିବା pid %d ସହିତ ପ୍ରକ୍ରିୟାକୁ ବନ୍ଦ କରିପାରିବେ ନାହିଁ.\n"
-"%s"
+msgstr "ସଂକେତ %d ସହିତଥିବା pid %d ସହିତ ପ୍ରକ୍ରିୟାକୁ ବନ୍ଦ କରିପାରିବେ ନାହିଁ.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -779,9 +762,7 @@ msgstr "ବଚ୍ଛିତ ପ୍ରକ୍ରିୟାକୁ ବନ୍ଦ କର
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"ପ୍ରକ୍ରିୟାକୁ ବନ୍ଦ କରିବା ଦ୍ୱାରା ତଥ୍ୟ ନଷ୍ଟ ହୋଇପାରେ, ଅଧିବେଶନ ଅଟକାଇପାରେ କିମ୍ବା କୌଣସି ସୁରକ୍ଷା ବିପଦ "
-"ଦେଖାଦେଇପାରେ. କେବଳ ଉତ୍ତର ଦେଉନଥିବା ପ୍ରକ୍ରିୟାଗୁଡ଼ିକୁ ବନ୍ଦକରିବା ଉଚିତ."
+msgstr "ପ୍ରକ୍ରିୟାକୁ ବନ୍ଦ କରିବା ଦ୍ୱାରା ତଥ୍ୟ ନଷ୍ଟ ହୋଇପାରେ, ଅଧିବେଶନ ଅଟକାଇପାରେ କିମ୍ବା କୌଣସି ସୁରକ୍ଷା ବିପଦ ଦେଖାଦେଇପାରେ. କେବଳ ଉତ୍ତର ଦେଉନଥିବା ପ୍ରକ୍ରିୟାଗୁଡ଼ିକୁ ବନ୍ଦକରିବା ଉଚିତ."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -791,11 +772,9 @@ msgstr "ବଚ୍ଛିତ ପ୍ରକ୍ରିୟାକୁ ସମାପ୍ତ 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"ପ୍ରକ୍ରିୟାକୁ ବନ୍ଦ କରିବା ଦ୍ୱାରା ତଥ୍ୟ ନଷ୍ଟ ହୋଇପାରେ, ଅଧିବେଶନ ଅଟକାଇପାରେ କିମ୍ବା କୌଣସି ସୁରକ୍ଷା ବିପଦ "
-"ଦେଖାଦେଇପାରେ. କେବଳ ଉତ୍ତର ଦେଉନଥିବା ପ୍ରକ୍ରିୟାଗୁଡ଼ିକୁ ସମାପ୍ତକରିବା ଉଚିତ."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "ପ୍ରକ୍ରିୟାକୁ ବନ୍ଦ କରିବା ଦ୍ୱାରା ତଥ୍ୟ ନଷ୍ଟ ହୋଇପାରେ, ଅଧିବେଶନ ଅଟକାଇପାରେ କିମ୍ବା କୌଣସି ସୁରକ୍ଷା ବିପଦ ଦେଖାଦେଇପାରେ. କେବଳ ଉତ୍ତର ଦେଉନଥିବା ପ୍ରକ୍ରିୟାଗୁଡ଼ିକୁ ସମାପ୍ତକରିବା ଉଚିତ."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -837,9 +816,7 @@ msgstr "ଟିପ୍ପଣୀ:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"ପ୍ରକ୍ରିୟାର ପ୍ରାଥମିକତା ଏହାର nice ମୂଲ୍ୟ ଦ୍ୱାରା ଦିଆଯାଇଥାଏ. ଗୋଟିଏ କମ nice ମୂଲ୍ୟ ଉଚ୍ଚ ପ୍ରାଥମିକତା "
-"ସହିତ ଅନୁରୂପ ହୋଇଥାଏ."
+msgstr "ପ୍ରକ୍ରିୟାର ପ୍ରାଥମିକତା ଏହାର nice ମୂଲ୍ୟ ଦ୍ୱାରା ଦିଆଯାଇଥାଏ. ଗୋଟିଏ କମ nice ମୂଲ୍ୟ ଉଚ୍ଚ ପ୍ରାଥମିକତା ସହିତ ଅନୁରୂପ ହୋଇଥାଏ."
 
 #: ../src/procdialogs.cpp:457
 msgid "Icon"
@@ -894,7 +871,7 @@ msgstr "ସମସ୍ତ ଫାଇଲତନ୍ତ୍ରଗୁଡ଼ିକୁ ଦ�
 msgid "File system i_nformation shown in list:"
 msgstr "ଫାଇଲ ତନ୍ତ୍ର ସୂଚନା ତାଲିକାରେ ଦର୍ଶାଯାଇଛି (_n):"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "ଗୋଟିଏ ସରଳ ପ୍ରକ୍ରିୟା ଏବଂ ତନ୍ତ୍ର ପ୍ରଦର୍ଶିକା."
 
@@ -978,42 +955,42 @@ msgstr "ସଂସ୍କରଣ %s"
 msgid "Unknown CPU model"
 msgstr "ଅଜଣା CPU ମଡେଲ"
 
-#: ../src/sysinfo.cpp:586
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "କର୍ଣ୍ଣଲ %s"
 
-#: ../src/sysinfo.cpp:599
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:613
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>ହାର୍ଡୱେର</b>"
 
-#: ../src/sysinfo.cpp:618
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "ସ୍ମୃତି ସ୍ଥାନ:"
 
-#: ../src/sysinfo.cpp:625
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "ସଞ୍ଚାଳକ %d:"
 
-#: ../src/sysinfo.cpp:630
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "ସଞ୍ଚାଳକ:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:642
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>ତନ୍ତ୍ର ସ୍ଥିତି</b>"
 
-#: ../src/sysinfo.cpp:648
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "ଉପଲବ୍ଧ ଡିସ୍କ ସ୍ଥାନ:"
 
@@ -1114,4 +1091,3 @@ msgstr "<i>N/A</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
-

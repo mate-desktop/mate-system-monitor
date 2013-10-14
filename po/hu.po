@@ -1,28 +1,29 @@
-# Hungarian translation of mate-system-monitor.
-# Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-system-monitor package.
-#
-# Robert Vanyi <robi at mora.u-szeged dot hu>, 2002.
-# Andras Timar <timar at mate dot hu>, 2002, 2003.
-# Laszlo Dvornik <dvornik at mate dot hu>, 2004.
-# Gabor Kelemen <kelemeng at mate dot hu>, 2005, 2006, 2007, 2008, 2009, 2010.
-# Mate ORY <orymate at gmail d0t com>, 2006.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Andras Timar <timar at mate dot hu>, 2002, 2003
+# Gabor Kelemen <kelemeng at mate dot hu>, 2005, 2006, 2007, 2008, 2009, 2010
+# Laszlo Dvornik <dvornik at mate dot hu>, 2004
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Robert Vanyi <robi at mora.u-szeged dot hu>, 2002
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-08 13:23+0100\n"
-"PO-Revision-Date: 2010-02-08 13:25+0100\n"
-"Last-Translator: Gabor Kelemen <kelemeng at mate dot hu>\n"
-"Language-Team: Hungarian <mate at fsf dot hu>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:29+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Rendszerfigyelő"
 
@@ -36,44 +37,35 @@ msgstr "A Rendszer lap megjelenítése"
 
 #: ../src/callbacks.cpp:167
 msgid "translator-credits"
-msgstr ""
-"Dvornik László <dvornik@mate.hu>\n"
-"Kelemen Gábor <kelemeng@mate.hu>\n"
-"Tímár András <timar@mate.hu>\n"
-"Ványi Róbert <robi@mora.u-szeged.hu>"
+msgstr "Dvornik László <dvornik@mate.hu>\nKelemen Gábor <kelemeng@mate.hu>\nTímár András <timar@mate.hu>\nVányi Róbert <robi@mora.u-szeged.hu>"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Eszköz"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Könyvtár"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Típus"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Összesen"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Szabad"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Elérhető"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Használt"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Fájlrendszerek"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -101,257 +93,247 @@ msgid "%b %d %Y"
 msgstr "%Y %b. %d"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 - rendszerinformációk, 1 - folyamatlista, 2 - erőforrások és 3 - lemezek "
-"listája"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "A cpu alapértelmezett színe a grafikonon"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "A hálózati bejövő forgalom alapértelmezett színe a grafikonon"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "A memória alapértelmezett színe a grafikonon"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "A hálózati kimenő forgalom alapértelmezett színe a grafikonon"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "A swap alapértelmezett színe a grafikonon"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Megadja, hogy alapértelmezésben mely folyamatok látszódjanak. Lehetséges "
-"értékek: 0 (Mind), 1 (Felhasználói) és 2 (Aktív)."
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Lemeznézet rendezési iránya"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Egyenletes frissítés engedélyezése/tiltása"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"Ha ez be van állítva, akkor a rendszerfigyelő Solaris módban működik, ahol a "
-"feladat processzorhasználata el van osztva a processzorok teljes számával. "
-"Ellenkező esetben Irix módban működik."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Főablak magassága"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Főablak szélessége"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Folyamatnézet rendezési iránya"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Főablak magassága"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Folyamatlista-nézet rendezése ezen oszlop szerint"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Folyamatlista-nézet rendezési iránya "
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Elmenti a jelenleg megjelenített lapot"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "A folyamat „CPU %” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "A folyamat „CPU idő” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "A folyamat „Azonosító” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "A folyamat „SELinux biztonsági környezete” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "A folyamat „Várakozási csatorna” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "A folyamat „X kiszolgáló memória” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "A folyamat „Paraméterek” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "A folyamat „Becsült memóriahasználat” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "A folyamat „Név” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "A folyamat „Nice” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "A folyamat „Tulajdonos” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "A folyamat „Rezidens memória” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "A folyamat „Osztott memória” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "A folyamat „Indulási idő” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "A folyamat „Állapot” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "A folyamat „Virtuális memória” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "A folyamat „Írható memória” oszlopának mutatása indításkor"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Folyamat függőségeinek megjelenítése fanézetben"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Folyamatok kilövésénél figyelmeztető párbeszédablak megjelenítése"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Solaris mód a CPU százalékos arányhoz"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Az eszközlista frissítései közötti idő ezredmásodpercben"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Ha ez be van állítva, akkor a rendszerfigyelő Solaris módban működik, ahol a feladat processzorhasználata el van osztva a processzorok teljes számával. Ellenkező esetben Irix módban működik."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Az grafikonok frissítései közötti idő ezredmásodpercben"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Egyenletes frissítés engedélyezése/tiltása"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Folyamatok kilövésénél figyelmeztető párbeszédablak megjelenítése"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "A folyamatnézet frissítései közötti idő ezredmásodpercben"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Az grafikonok frissítései közötti idő ezredmásodpercben"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "A fájlrendszer-információk megjelenjenek-e?"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"Megjelenjenek-e az összes fájlrendszer információi (beleértve az „autofs”-"
-"hez és a „procfs”-hez hasonló típusokat is). Hasznos lehet az összes "
-"csatlakoztatott fájlrendszer kilistázásához."
+msgstr "Megjelenjenek-e az összes fájlrendszer információi (beleértve az „autofs”-hez és a „procfs”-hez hasonló típusokat is). Hasznos lehet az összes csatlakoztatott fájlrendszer kilistázásához."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Az eszközlista frissítései közötti idő ezredmásodpercben"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Megadja, hogy alapértelmezésben mely folyamatok látszódjanak. Lehetséges értékek: 0 (Mind), 1 (Felhasználói) és 2 (Aktív)."
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Elmenti a jelenleg megjelenített lapot"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 - rendszerinformációk, 1 - folyamatlista, 2 - erőforrások és 3 - lemezek listája"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "A cpu alapértelmezett színe a grafikonon"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "A memória alapértelmezett színe a grafikonon"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "A swap alapértelmezett színe a grafikonon"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "A hálózati bejövő forgalom alapértelmezett színe a grafikonon"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "A hálózati kimenő forgalom alapértelmezett színe a grafikonon"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Folyamatlista-nézet rendezése ezen oszlop szerint"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Folyamatnézet rendezési iránya"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Folyamatlista-nézet rendezési iránya "
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "A folyamat „Név” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "A folyamat „Név” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "A folyamat „Tulajdonos” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "A folyamat „Tulajdonos” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "A folyamat „Állapot” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "A folyamat „Állapot” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "A folyamat „Virtuális memória” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "A folyamat „Virtuális memória” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "A folyamat „Rezidens memória” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "A folyamat „Rezidens memória” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "A folyamat „Írható memória” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "A folyamat „Írható memória” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "A folyamat „Osztott memória” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "A folyamat „Osztott memória” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "A folyamat „X kiszolgáló memória” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "A folyamat „X kiszolgáló memória” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "A folyamat „CPU %” oszlopának szélessége"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "A folyamat „CPU %” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "A folyamat „CPU idő” oszlopának szélessége"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "A folyamat „CPU idő” oszlopának mutatása indításkor"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "A folyamat „Azonosító” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "A folyamat „SELinux biztonsági környezete” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "A folyamat „Várakozási csatorna” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "A folyamat „X kiszolgáló memória” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "A folyamat „Paraméterek” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "A folyamat „Becsült memóriahasználat” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "A folyamat „Név” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "A folyamat „Nice” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "A folyamat „Tulajdonos” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "A folyamat „Rezidens memória” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "A folyamat „Osztott memória” oszlopának szélessége"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "A folyamat „Indulási idő” oszlopának szélessége"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "A folyamat „Indulási idő” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "A folyamat „Nice” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "A folyamat „Nice” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "A folyamat „Azonosító” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "A folyamat „Azonosító” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "A folyamat „SELinux biztonsági környezete” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "A folyamat „SELinux biztonsági környezete” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "A folyamat „Paraméterek” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "A folyamat „Paraméterek” oszlopának mutatása indításkor"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "A folyamat „Becsült memóriahasználat” oszlopának szélessége"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "A folyamat „Becsült memóriahasználat” oszlopának mutatása indításkor"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "A folyamat „Állapot” oszlopának szélessége"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "A folyamat „Várakozási csatorna” oszlopának szélessége"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "A folyamat „Virtuális memória” oszlopának szélessége"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "A folyamat „Várakozási csatorna” oszlopának mutatása indításkor"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "A folyamat „Írható memória” oszlopának szélessége"
+msgid "Disk view columns order"
+msgstr "Lemeznézet rendezési iránya"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -369,7 +351,7 @@ msgstr "Cím"
 msgid "The title of the color selection dialog"
 msgstr "A színválasztó ablak címkéje"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Szín kiválasztása"
 
@@ -385,11 +367,11 @@ msgstr "A kiválasztott szín"
 msgid "Type of color picker"
 msgstr "Színválasztó típusa"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Érvénytelen színadat\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Kattintson a grafikon színeinek beállításához"
 
@@ -597,7 +579,12 @@ msgstr "Folyamatok"
 msgid "Resources"
 msgstr "Erőforrások"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Fájlrendszerek"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -605,7 +592,7 @@ msgstr[0] "%u másodperc"
 msgstr[1] "%u másodperc"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%), összesen %s"
@@ -616,10 +603,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Hiba</b>\n"
-"A(z) „%s” nem egy érvényes Perl reguláris kifejezés.\n"
-"%s"
+msgstr "<b>Hiba</b>\nA(z) „%s” nem egy érvényes Perl reguláris kifejezés.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -638,15 +622,15 @@ msgstr "Fájlnév"
 msgid "Search for Open Files"
 msgstr "Nyitott fájlok keresése"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Név tartalmazza:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Kis- és nagybetű nem különböző"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "_Keresés eredménye:"
 
@@ -707,7 +691,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "Memóriatérképek"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "„%s” (PID: %u) folyamat _memóriatérképei:"
@@ -761,19 +745,14 @@ msgstr "„%s” (PID: %u) folyamat által meg_nyitott fájlok:"
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"A(z) %d azonosítójú folyamat prioritása nem változtatható meg a következőre: "
-"%d.\n"
-"%s"
+msgstr "A(z) %d azonosítójú folyamat prioritása nem változtatható meg a következőre: %d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"A(z) %d azonosítójú folyamat nem lőhető ki %d jelzéssel.\n"
-"%s"
+msgstr "A(z) %d azonosítójú folyamat nem lőhető ki %d jelzéssel.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -785,10 +764,7 @@ msgstr "Kilövi a kijelölt folyamatot?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Egy folyamat kilövésével megsemmisítheti adatait, tönkreteheti a "
-"munkamenetét vagy biztonsági kockázatot okozhat. Csak a nem válaszoló "
-"folyamatokat szabad kilőni."
+msgstr "Egy folyamat kilövésével megsemmisítheti adatait, tönkreteheti a munkamenetét vagy biztonsági kockázatot okozhat. Csak a nem válaszoló folyamatokat szabad kilőni."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -798,12 +774,9 @@ msgstr "Befejezteti a kijelölt folyamatot?"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Egy folyamat befejeztetésével megsemmisítheti adatait, tönkreteheti a "
-"munkamenetét vagy biztonsági kockázatot okozhat. Csak a nem válaszoló "
-"folyamatokat szabad befejeztetni."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Egy folyamat befejeztetésével megsemmisítheti adatait, tönkreteheti a munkamenetét vagy biztonsági kockázatot okozhat. Csak a nem válaszoló folyamatokat szabad befejeztetni."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -845,9 +818,7 @@ msgstr "Megjegyzés:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"A folyamat prioritását a nice értéke adja meg. Alacsony nice érték magasabb "
-"prioritásnak felel meg."
+msgstr "A folyamat prioritását a nice értéke adja meg. Alacsony nice érték magasabb prioritásnak felel meg."
 
 #: ../src/procdialogs.cpp:457
 msgid "Icon"
@@ -872,9 +843,7 @@ msgstr "Egyenlete_s frissítés engedélyezése"
 
 #: ../src/procdialogs.cpp:590
 msgid "Alert before ending or _killing processes"
-msgstr ""
-"F_olyamatok befejeztetése vagy kilövése előtt figyelmeztető üzenet "
-"megjelenítése"
+msgstr "F_olyamatok befejeztetése vagy kilövése előtt figyelmeztető üzenet megjelenítése"
 
 #: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
@@ -904,7 +873,7 @@ msgstr "Min_den fájlrendszer megjelenítése"
 msgid "File system i_nformation shown in list:"
 msgstr "A listában megjelenített fájl_rendszer-információk:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "Egyszerű folyamat- és rendszerfigyelő."
 
@@ -988,42 +957,42 @@ msgstr "%s kiadás"
 msgid "Unknown CPU model"
 msgstr "Ismeretlen processzortípus"
 
-#: ../src/sysinfo.cpp:586
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel: %s"
 
-#: ../src/sysinfo.cpp:599
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:613
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Hardver</b>"
 
-#: ../src/sysinfo.cpp:618
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "Memória:"
 
-#: ../src/sysinfo.cpp:625
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "%d. processzor:"
 
-#: ../src/sysinfo.cpp:630
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "Processzor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:642
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>Rendszerállapot</b>"
 
-#: ../src/sysinfo.cpp:648
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "Elérhető lemezterület:"
 
@@ -1124,4 +1093,3 @@ msgstr "<i>---</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
-

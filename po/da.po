@@ -1,40 +1,26 @@
-# Danish translation of mate-system-monitor.
-# Copyright (C) 2001-2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-system-monitor package.
-# Ole Laursen <olau@hardworking.dk>, 2001-2005.
-# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004-2005.
-# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 09.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Kenneth Nielsen <k.nielsen81@gmail.com>, 2008
-#
-# Konventioner:
-#
-#   application -> program
-#   end proces -> afslutte proces
-#   kill proces -> terminere proces
-#   memory map -> hukommelsesområde
-#   nice -> venlighedsværdi (hvis det er i modsætning til prioritet), (ellers) prioritet
-#   renice -> skift prioritet
-#   RSS memory -> fysik hukommelse (se top(1))
-#   CPU -> CPU, processor (normalt bruges kun "processor", men det kommer til at fylde meget)
-#
-# Husk at tilføje dig i credit-listen (besked id "translator-credits")
-#
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-21 00:25+0200\n"
-"PO-Revision-Date: 2009-09-20 20:59+0200\n"
-"Last-Translator: Kenneth Nielsen <k.nielsen81@gmail.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:29+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Systemovervågning"
 
@@ -48,48 +34,35 @@ msgstr "Vis systemfanebladet"
 
 #: ../src/callbacks.cpp:167
 msgid "translator-credits"
-msgstr ""
-"Ole Laursen\n"
-"Martin Willemoes Hansen\n"
-"Lasse Bang Mikkelsen\n"
-"Ask Hjorth Larsen\n"
-"Kenneth Nielsen\n"
-"\n"
-"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
-"Mere info: http://www.dansk-gruppen.dk"
+msgstr "Ole Laursen\nMartin Willemoes Hansen\nLasse Bang Mikkelsen\nAsk Hjorth Larsen\nKenneth Nielsen\n\nDansk-gruppen <dansk@dansk-gruppen.dk>\nMere info: http://www.dansk-gruppen.dk"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Enhed"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Mappe"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Type"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Total"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Fri"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Tilgængelig"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Benyttet"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Filsystemer"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -117,259 +90,247 @@ msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 for systeminformation, 1 for procesliste, 2 for ressourcer og 3 for "
-"diskliste"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Standard-farve for CPU-graf"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Standard-farve for indkommende trafik på netværksgraf"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Standard-farve for hukommelsesgraf"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Standard-farve for udgående trafik på netværksgraf"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Standard-farve for swapgraf"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Afgør hvilke processer der vises som standard, 0 er alle, 1 er bruger og 2 "
-"er aktive"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Disklistens kolonne-sorteringsrækkefølge"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Aktivér/deaktivér blød opdatering"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"Hvis \"TRUE\", kører systemovervågning i \"Solaris-tilstand\" hvor et jobs "
-"processorforbrug divideres med det totale antal processorer. Ellers køres i "
-"\"Irix-tilstand\"."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Hovedvinduets højde"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Hovedvinduets bredde"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Proceslistens kolonne-sorteringsrækkefølge"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Hovedvinduets højde"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Proceslistens sorteringskolonne"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Proceslistens sorteringsrækkefølge"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Gemmer det aktuelt viste faneblad"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Vis kolonnen procesvis CPU-belastningsprocent ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Vis kolonnen procesvis CPU-tid ved start"
-
-# "Process PID" er dobbeltkonfekt da PID står for Process IDentifier
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Vis PID-kolonnen ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Vis kolonnen procesvis SELinux-sikkerhedskontekst ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Vis proceskolonnen \"Ventekanal\" ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Vis kolonnen procesvis X-serverhukommelse ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Vis kolonnen procesargumenter ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Vis kolonnen estimeret hukommelsesforbrug ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Vis kolonnen procesnavn ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Vis kolonnen procesprioritet ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Vis kolonnen procesejer ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Vis kolonnen resident proceshukommelse ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Vis kolonnen delt proceshukommelse ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Vis kolonnen procesopstarts-tidspunkt ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Vis kolonnen processtatus ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Vis kolonnen virtuel proceshukommelse ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Vis kolonnen skrivbar proceshukommelse ved start"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Vis procesafhængigheder som et træ"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Vis advarselsvindue ved terminering af processer"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Solaris-tilstand for processorforbrug"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Tid i millisekunder mellem opdateringer af listen med enheder"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Hvis \"TRUE\", kører systemovervågning i \"Solaris-tilstand\" hvor et jobs processorforbrug divideres med det totale antal processorer. Ellers køres i \"Irix-tilstand\"."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Tid i millisekunder mellem opdateringer af graferne"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Aktivér/deaktivér blød opdatering"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Vis advarselsvindue ved terminering af processer"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Tid i millisekunder mellem opdateringer af proceslisten"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Tid i millisekunder mellem opdateringer af graferne"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "Om information om alle filsystemer skal vises"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"Om information om alle filsystemer skal vises (dette inkluderer filsystemer "
-"som \"autofs\" og \"procfs\"). Dette er nyttigt hvis der ønskes en liste "
-"over alle monterede filsystemer."
+msgstr "Om information om alle filsystemer skal vises (dette inkluderer filsystemer som \"autofs\" og \"procfs\"). Dette er nyttigt hvis der ønskes en liste over alle monterede filsystemer."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Tid i millisekunder mellem opdateringer af listen med enheder"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Afgør hvilke processer der vises som standard, 0 er alle, 1 er bruger og 2 er aktive"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Gemmer det aktuelt viste faneblad"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 for systeminformation, 1 for procesliste, 2 for ressourcer og 3 for diskliste"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Standard-farve for CPU-graf"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Standard-farve for hukommelsesgraf"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Standard-farve for swapgraf"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Standard-farve for indkommende trafik på netværksgraf"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Standard-farve for udgående trafik på netværksgraf"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Proceslistens sorteringskolonne"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Proceslistens kolonne-sorteringsrækkefølge"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Proceslistens sorteringsrækkefølge"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Bredde af kolonnen procesnavn"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Vis kolonnen procesnavn ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Bredde af kolonnen procesejer"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Vis kolonnen procesejer ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Bredde af kolonnen processtatus"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Vis kolonnen processtatus ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Bredde af kolonnen virtuel proceshukommelse"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Vis kolonnen virtuel proceshukommelse ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Bredde af kolonnen resident proceshukommelse"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Vis kolonnen resident proceshukommelse ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Bredde af kolonnen skrivbar proceshukommelse"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Vis kolonnen skrivbar proceshukommelse ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Bredde af kolonnen delt proceshukommelse"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Vis kolonnen delt proceshukommelse ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Bredde af kolonnen procesvis X-serverhukommelse"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Vis kolonnen procesvis X-serverhukommelse ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "Bredde af kolonnen procesvis CPU-belastningsprocent"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Vis kolonnen procesvis CPU-belastningsprocent ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "Bredde af kolonnen procesvis CPU-tid"
 
-# "Process PID" er dobbeltkonfekt
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Vis kolonnen procesvis CPU-tid ved start"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Bredde af PID-kolonnen"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Bredde af kolonnen procesvis SELinux-sikkerhedskontekst"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Bredde af proceskolonnen \"Ventekanal\""
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Bredde af kolonnen procesvis X-serverhukommelse"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Bredde af kolonnen procesargumenter"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Bredde af kolonnen estimeret procesvis hukommelsesforbrug"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Bredde af kolonnen procesnavn"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Bredde af kolonnen procesprioritet"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Bredde af kolonnen procesejer"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Bredde af kolonnen resident proceshukommelse"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Bredde af kolonnen delt proceshukommelse"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "Bredde af kolonnen procesopstarts-tidspunkt"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Vis kolonnen procesopstarts-tidspunkt ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Bredde af kolonnen procesprioritet"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Vis kolonnen procesprioritet ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Bredde af PID-kolonnen"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Vis PID-kolonnen ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Bredde af kolonnen procesvis SELinux-sikkerhedskontekst"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Vis kolonnen procesvis SELinux-sikkerhedskontekst ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Bredde af kolonnen procesargumenter"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Vis kolonnen procesargumenter ved start"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Bredde af kolonnen estimeret procesvis hukommelsesforbrug"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Vis kolonnen estimeret hukommelsesforbrug ved start"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Bredde af kolonnen processtatus"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Bredde af proceskolonnen \"Ventekanal\""
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Bredde af kolonnen virtuel proceshukommelse"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Vis proceskolonnen \"Ventekanal\" ved start"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Bredde af kolonnen skrivbar proceshukommelse"
+msgid "Disk view columns order"
+msgstr "Disklistens kolonne-sorteringsrækkefølge"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -387,7 +348,7 @@ msgstr "Titel"
 msgid "The title of the color selection dialog"
 msgstr "Titlen på farvevælger-vinduet"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Vælg en farve"
 
@@ -403,11 +364,11 @@ msgstr "Den valgte farve"
 msgid "Type of color picker"
 msgstr "Farvevælgerens type"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Modtog ugyldig farvedata\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Klik for at indstille graf-farver"
 
@@ -429,7 +390,6 @@ msgstr "_Vis"
 msgid "_Help"
 msgstr "_Hjælp"
 
-# titel til et vindue med de åbne filer for en proces
 #: ../src/interface.cpp:55
 msgid "Search for _Open Files"
 msgstr "Søg efter _åbne filer"
@@ -526,7 +486,6 @@ msgstr "Om dette program"
 msgid "_Dependencies"
 msgstr "_Afhængigheder"
 
-# dækker vist nogenlunde
 #: ../src/interface.cpp:92
 msgid "Show parent/child relationship between processes"
 msgstr "Vis ophav/underproces-forhold mellem processer"
@@ -559,7 +518,6 @@ msgstr "Vis dine egne processer"
 msgid "End _Process"
 msgstr "Afslut _proces"
 
-# history unødvendigt
 #: ../src/interface.cpp:243
 msgid "CPU History"
 msgstr "Processorforbrug"
@@ -573,8 +531,6 @@ msgstr "CPU"
 msgid "CPU%d"
 msgstr "CPU%d"
 
-# ingen grund til at tage 'swap' med her, det er blot en overskrift,
-# ligeledes for 'history' 
 #: ../src/interface.cpp:320
 msgid "Memory and Swap History"
 msgstr "Hukommelsesforbrug"
@@ -587,7 +543,6 @@ msgstr "Hukommelse"
 msgid "Swap"
 msgstr "Swap"
 
-# history unødvendigt
 #: ../src/interface.cpp:406
 msgid "Network History"
 msgstr "Netværkshistorik"
@@ -621,7 +576,12 @@ msgstr "Processer"
 msgid "Resources"
 msgstr "Ressourcer"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Filsystemer"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -629,7 +589,7 @@ msgstr[0] "%u sekund"
 msgstr[1] "%u sekunder"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) af %s"
@@ -640,10 +600,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Fejl</b>\n"
-"\"%s\" er ikke et gyldigt Perl-regulært udtryk.\n"
-"%s"
+msgstr "<b>Fejl</b>\n\"%s\" er ikke et gyldigt Perl-regulært udtryk.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -657,21 +614,20 @@ msgstr "PID"
 msgid "Filename"
 msgstr "Filnavn"
 
-# titel til et vindue med de åbne filer for en proces
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
 #: ../src/lsof.cpp:309
 msgid "Search for Open Files"
 msgstr "Søg efter åbne filer"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Navnet indeholder:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Ikke-versalfølsom sammenligning"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "S_øgeresultater:"
 
@@ -732,7 +688,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "Hukommelsesområder"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Hukommelsesområder for proces \"%s\" (PID %u):"
@@ -772,7 +728,6 @@ msgstr "FD"
 msgid "Object"
 msgstr "Objekt"
 
-# titel til et vindue med de åbne filer for en proces
 #: ../src/openfiles.cpp:332
 msgid "Open Files"
 msgstr "Åbne filer"
@@ -787,18 +742,14 @@ msgstr "_Filer åbnet af proces \"%s\" (PID %u):"
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Kan ikke ændre prioriteten for proces med proces-id %d til %d.\n"
-"%s"
+msgstr "Kan ikke ændre prioriteten for proces med proces-id %d til %d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Kan ikke afslutte proces med proces-id %d med signal %d.\n"
-"%s"
+msgstr "Kan ikke afslutte proces med proces-id %d med signal %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -810,10 +761,7 @@ msgstr "Terminér den valgte proces?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Ved at terminere en proces kan du ødelægge dine data, spolere en fungerende "
-"session eller skabe en sikkerhedsrisiko. Kun forkert-fungerende processer "
-"bør termineres."
+msgstr "Ved at terminere en proces kan du ødelægge dine data, spolere en fungerende session eller skabe en sikkerhedsrisiko. Kun forkert-fungerende processer bør termineres."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -823,12 +771,9 @@ msgstr "Afslut den valgte proces?"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Ved at afslutte en proces kan du ødelægge dine data, spolere en fungerende "
-"session eller skabe en sikkerhedsrisiko. Kun forkert-fungerende processer "
-"bør afsluttes."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Ved at afslutte en proces kan du ødelægge dine data, spolere en fungerende session eller skabe en sikkerhedsrisiko. Kun forkert-fungerende processer bør afsluttes."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -870,9 +815,7 @@ msgstr "Note:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"Prioriteten af en proces er givet ved dens venlighedsværdi. En lavere\n"
-"værdi svarer til en højre prioritet."
+msgstr "Prioriteten af en proces er givet ved dens venlighedsværdi. En lavere\nværdi svarer til en højre prioritet."
 
 #: ../src/procdialogs.cpp:457
 msgid "Icon"
@@ -927,7 +870,7 @@ msgstr "Vis _alle filsystemer"
 msgid "File system i_nformation shown in list:"
 msgstr "Filsystemi_nformation vist i listen:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "En simpel proces- og systemovervåger."
 
@@ -976,7 +919,6 @@ msgstr "CPU-tid"
 msgid "Started"
 msgstr "Startet"
 
-# prioritet er helt entydigt her
 #: ../src/proctable.cpp:222
 msgid "Nice"
 msgstr "Prioritet"
@@ -1001,10 +943,8 @@ msgstr "Ventekanal"
 #: ../src/proctable.cpp:945
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr ""
-"Gennemsnitsbelastning for de sidste 1, 5 og 15 minutter: %0.2f, %0.2f, %0.2f"
+msgstr "Gennemsnitsbelastning for de sidste 1, 5 og 15 minutter: %0.2f, %0.2f, %0.2f"
 
-# Verb eller subst?
 #: ../src/sysinfo.cpp:77
 #, c-format
 msgid "Release %s"
@@ -1014,42 +954,42 @@ msgstr "Udgave %s"
 msgid "Unknown CPU model"
 msgstr "Ukendt processormodel"
 
-#: ../src/sysinfo.cpp:586
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "Kerne %s"
 
-#: ../src/sysinfo.cpp:599
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:613
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Maskinel</b>"
 
-#: ../src/sysinfo.cpp:618
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "Hukommelse:"
 
-#: ../src/sysinfo.cpp:625
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "Processor %d:"
 
-#: ../src/sysinfo.cpp:630
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "Processor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:642
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>Systemstatus</b>"
 
-#: ../src/sysinfo.cpp:648
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "Tilgængelig diskplads:"
 
@@ -1150,115 +1090,3 @@ msgstr "<i>N/A</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
-
-#~ msgid "Default graph background color"
-#~ msgstr "Standard-baggrundsfarve for graf"
-
-#~ msgid "Default graph frame color"
-#~ msgstr "Standard-farve for graframme"
-
-#~ msgid "_Quit"
-#~ msgstr "_Afslut"
-
-#~ msgid "Prefere_nces"
-#~ msgstr "_Indstillinger"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "User memory:"
-#~ msgstr "Brugerhukommelse:"
-
-#~ msgid "of"
-#~ msgstr "af"
-
-#~ msgid "Used swap:"
-#~ msgstr "Benyttet swap:"
-
-#~ msgid "Total:"
-#~ msgstr "Total:"
-
-#~ msgid "Sent:"
-#~ msgstr "Sendt:"
-
-#~ msgid "_Background color:"
-#~ msgstr "_Baggrundsfarve:"
-
-#~ msgid "_Grid color:"
-#~ msgstr "_Gitterfarve:"
-
-#~ msgid "Column zero saved width"
-#~ msgstr "Gemt bredde af kolonne nul"
-
-#~ msgid "Default graph net out color"
-#~ msgstr "Standard-farve for udgående trafik på netværksgraf"
-
-#~ msgid "Show column zero on startup"
-#~ msgstr "Vis kolonne nul ved start"
-
-# Verb eller subst? Det er garanteret bare versionsnummeret
-#~ msgid "Release %s (%s)"
-#~ msgstr "Udgave %s (%s)"
-
-#~ msgid "Devices"
-#~ msgstr "Enheder"
-
-#~ msgid "No hidden processes"
-#~ msgstr "Ingen skjulte processer"
-
-#~ msgid ""
-#~ "There are no hidden processes in the list. To show all running processes, "
-#~ "select the \"All processes\" option in the main window."
-#~ msgstr ""
-#~ "Der er ingen skjulte processer i listen. Vælg \"Alle processer\" i "
-#~ "hovedvinduet for at vise alle kørende processer."
-
-#~ msgid "Hidden Processes"
-#~ msgstr "Skjulte processer"
-
-#~ msgid "Currently _hidden processes:"
-#~ msgstr "Aktuelt _skjulte processer:"
-
-#~ msgid "_Remove From List"
-#~ msgstr "_Fjern fra listen"
-
-#~ msgid ""
-#~ "These are the processes you have chosen to hide. You can reshow a process "
-#~ "by removing it from this list."
-#~ msgstr ""
-#~ "Dette er de processer som du har valgt at skjule. Du kan vise en proces "
-#~ "igen ved at fjerne den fra denne liste."
-
-#~ msgid "Show process threads"
-#~ msgstr "Vis procestråde"
-
-#~ msgid "Show warning dialog when hiding processes"
-#~ msgstr "Vis advarselsvindue ved skjul af processer"
-
-#~ msgid "_File"
-#~ msgstr "_Fil"
-
-#~ msgid "_Hide Process"
-#~ msgstr "Skj_ul proces"
-
-#~ msgid "_Hidden Processes"
-#~ msgstr "_Skjulte processer"
-
-#~ msgid "Open the list of currently hidden processes"
-#~ msgstr "Åbn listen over aktuelt skjulte processer"
-
-#~ msgid "Hide the selected process?"
-#~ msgstr "Skjul den valgte proces?"
-
-#~ msgid ""
-#~ "Hidden processes are no longer visible in the process list. You can re-"
-#~ "enable them by selecting the \"Hidden Processes\" entry in the View menu."
-#~ msgstr ""
-#~ "Skjulte processer er ikke længere synlige i proceslisten. Du kan "
-#~ "genaktivere dem ved at vælge \"Skjulte processer\" i menuen \"Vis\"."
-
-#~ msgid "Alert before _hiding processes"
-#~ msgstr "Advar ved _skjul af processer"
-
-#~ msgid "Arguments"
-#~ msgstr "Parametre"

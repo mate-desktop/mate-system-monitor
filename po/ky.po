@@ -3,14 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#  <translatorky@lavabit.com>, 2013.
+# chingis, 2013
+# ballpen, 2013
+# chingis, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2013-03-30 08:17+0000\n"
-"Last-Translator: chingis <translatorky@lavabit.com>\n"
+"PO-Revision-Date: 2013-06-17 17:14+0000\n"
+"Last-Translator: ballpen\n"
 "Language-Team: Kirgyz (http://www.transifex.com/projects/p/MATE/language/ky/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +27,7 @@ msgstr "Системалык монитор"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
 msgid "View current processes and monitor system state"
-msgstr ""
+msgstr "Кезектеги процесстерди көрүү жана системанын абалын мониторинг кылуу"
 
 #: ../src/argv.cpp:18
 msgid "Show the System tab"
@@ -37,7 +39,7 @@ msgstr "Жумалиев Чыңгыз <translatorky@lavabit.com>"
 
 #: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
-msgstr "Түзмөгү"
+msgstr "Түзүлүшү"
 
 #: ../src/disks.cpp:300
 msgid "Directory"
@@ -98,11 +100,11 @@ msgstr "Негизги терезенин бийиктиги"
 
 #: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
-msgstr ""
+msgstr "Процесстин көз караныдылыктарын бак түрүндө көрсөтүү"
 
 #: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
-msgstr ""
+msgstr "БПЖны колдонуу деңгээлин Solaris режиминде көрсөтүү"
 
 #: ../src/mate-system-monitor.schemas.in.h:5
 msgid ""
@@ -112,11 +114,11 @@ msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:6
 msgid "Enable/Disable smooth refresh"
-msgstr ""
+msgstr "Тегиз жаңылоосун аракетке келтирүү/келтирбөө"
 
 #: ../src/mate-system-monitor.schemas.in.h:7
 msgid "Show warning dialog when killing processes"
-msgstr ""
+msgstr "Процесстерди жок кылуу учурунда эскертүү диалогун көрсөтүү"
 
 #: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
@@ -149,7 +151,7 @@ msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:14
 msgid "Saves the currently viewed tab"
-msgstr ""
+msgstr "Кезектеги көрүлгөн салманы сактайт"
 
 #: ../src/mate-system-monitor.schemas.in.h:15
 msgid ""
@@ -159,15 +161,15 @@ msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:16
 msgid "Default graph cpu color"
-msgstr ""
+msgstr "БП графигинин жарыяланбас түсү"
 
 #: ../src/mate-system-monitor.schemas.in.h:17
 msgid "Default graph mem color"
-msgstr ""
+msgstr "Эс графигинин жарыяланбас түсү"
 
 #: ../src/mate-system-monitor.schemas.in.h:18
 msgid "Default graph swap color"
-msgstr ""
+msgstr "Куюштуруу графигинин жарыяланбас түсү"
 
 #: ../src/mate-system-monitor.schemas.in.h:19
 msgid "Default graph incoming network traffic color"
@@ -179,15 +181,15 @@ msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:21
 msgid "Process view sort column"
-msgstr ""
+msgstr "Процесс көрүнүшүнүн сорттоо тилкеси"
 
 #: ../src/mate-system-monitor.schemas.in.h:22
 msgid "Process view columns order"
-msgstr ""
+msgstr "Процесс көрүнүшүнүн тилкелер тартиби"
 
 #: ../src/mate-system-monitor.schemas.in.h:23
 msgid "Process view sort order"
-msgstr ""
+msgstr "Процесс көрүнүшүнүн сорттоо тартиби"
 
 #: ../src/mate-system-monitor.schemas.in.h:24
 msgid "Width of process 'name' column"
@@ -207,7 +209,7 @@ msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:28
 msgid "Width of process 'status' column"
-msgstr ""
+msgstr "'Абалдар' жараян тилкесинин туурасы"
 
 #: ../src/mate-system-monitor.schemas.in.h:29
 msgid "Show process 'status' column on startup"
@@ -289,7 +291,7 @@ msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:50
 msgid "Width of process 'PID' column"
-msgstr ""
+msgstr "PID тилкесинин туурасы"
 
 #: ../src/mate-system-monitor.schemas.in.h:51
 msgid "Show process 'PID' column on startup"
@@ -329,7 +331,7 @@ msgstr ""
 
 #: ../src/mate-system-monitor.schemas.in.h:60
 msgid "Disk view columns order"
-msgstr ""
+msgstr "Диск көрүнүшүнүн тилкелер тартиби"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -345,7 +347,7 @@ msgstr "Аталыш"
 
 #: ../src/gsm_color_button.c:197
 msgid "The title of the color selection dialog"
-msgstr ""
+msgstr "Түс тандоо диалогунун аталышы"
 
 #: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
@@ -361,15 +363,15 @@ msgstr "Тандалган түс"
 
 #: ../src/gsm_color_button.c:212
 msgid "Type of color picker"
-msgstr ""
+msgstr "Түс тандоонун түрү"
 
 #: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
-msgstr ""
+msgstr "Туура эмес түс маалыматтары алынды\n"
 
 #: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
-msgstr ""
+msgstr "График түстөрүн өзгөртүү үчүн басыңыз"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
@@ -415,7 +417,7 @@ msgstr "Процессти _улантуу"
 
 #: ../src/interface.cpp:64
 msgid "Continue process if stopped"
-msgstr ""
+msgstr "Токтотулган процесстин ишин улантуу"
 
 #: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
 msgid "_End Process"
@@ -423,7 +425,7 @@ msgstr "Процессти _аяктоо"
 
 #: ../src/interface.cpp:67
 msgid "Force process to finish normally"
-msgstr ""
+msgstr "Процессти дурус аяктоо"
 
 #: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
 msgid "_Kill Process"
@@ -431,11 +433,11 @@ msgstr "Процессти _жок кылуу"
 
 #: ../src/interface.cpp:69
 msgid "Force process to finish immediately"
-msgstr "Процессти токтоосуз аяктоо"
+msgstr "Процессти токтоосуз мажбурлап бүтүрүү"
 
 #: ../src/interface.cpp:70
 msgid "_Change Priority..."
-msgstr "Алгачкылыган ө_згөртүү..."
+msgstr "Алгачкылыгын ө_згөртүү..."
 
 #: ../src/interface.cpp:71
 msgid "Change the order of priority of process"
@@ -455,11 +457,11 @@ msgstr "Процесстер тизмесин жаңылоо"
 
 #: ../src/interface.cpp:78
 msgid "_Memory Maps"
-msgstr "Э_стин карталары"
+msgstr "Э_с карталары"
 
 #: ../src/interface.cpp:79
 msgid "Open the memory maps associated with a process"
-msgstr ""
+msgstr "Процесске байланыштуу эс карталарын ачуу"
 
 #: ../src/interface.cpp:80
 msgid "Open _Files"
@@ -467,7 +469,7 @@ msgstr "Ачык _файлдар"
 
 #: ../src/interface.cpp:81
 msgid "View the files opened by a process"
-msgstr ""
+msgstr "Процесс ачкан файлдарды көрүү"
 
 #: ../src/interface.cpp:83
 msgid "_Contents"
@@ -487,7 +489,7 @@ msgstr "_Көз карандылыктар"
 
 #: ../src/interface.cpp:92
 msgid "Show parent/child relationship between processes"
-msgstr ""
+msgstr "Процесстердин ата-эне/тукум катышын көрсөтүү"
 
 #: ../src/interface.cpp:99
 msgid "_Active Processes"
@@ -499,23 +501,23 @@ msgstr "Активдүү процесстерди көрсөтүү"
 
 #: ../src/interface.cpp:101
 msgid "A_ll Processes"
-msgstr "_Бардык процесстер"
+msgstr "_Бардык жараяндар"
 
 #: ../src/interface.cpp:102
 msgid "Show all processes"
-msgstr "Бардык процесстерди көрсөтүү"
+msgstr "Бардык жараяндарды көрсөтүү"
 
 #: ../src/interface.cpp:103
 msgid "M_y Processes"
-msgstr "_Менин процесстерим"
+msgstr "_Менин жараяндарым"
 
 #: ../src/interface.cpp:104
 msgid "Show user own process"
-msgstr ""
+msgstr "Кезектеги колдонуучунун процесстерин көрсөтүү"
 
 #: ../src/interface.cpp:189
 msgid "End _Process"
-msgstr "Процессти _аяктоо"
+msgstr "Жараянды _аяктоо"
 
 #: ../src/interface.cpp:243
 msgid "CPU History"
@@ -532,7 +534,7 @@ msgstr "БП%d"
 
 #: ../src/interface.cpp:320
 msgid "Memory and Swap History"
-msgstr ""
+msgstr "Эс жана куюштуруунун тарыхы"
 
 #: ../src/interface.cpp:359 ../src/proctable.cpp:226
 msgid "Memory"
@@ -540,7 +542,7 @@ msgstr "Эси"
 
 #: ../src/interface.cpp:385
 msgid "Swap"
-msgstr ""
+msgstr "Куюштуруусу"
 
 #: ../src/interface.cpp:406
 msgid "Network History"
@@ -548,7 +550,7 @@ msgstr "Тармак тарыхы"
 
 #: ../src/interface.cpp:445
 msgid "Receiving"
-msgstr "Алуу"
+msgstr "Алынууда"
 
 #: ../src/interface.cpp:466
 msgid "Total Received"
@@ -556,7 +558,7 @@ msgstr "Бардыгы алынганы"
 
 #: ../src/interface.cpp:500
 msgid "Sending"
-msgstr "Жөнөтүү"
+msgstr "Жөнөтүлүүдө"
 
 #: ../src/interface.cpp:522
 msgid "Total Sent"
@@ -569,7 +571,7 @@ msgstr "Система"
 
 #: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
-msgstr "Процесстер"
+msgstr "Жараяндар"
 
 #: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
@@ -578,7 +580,7 @@ msgstr "Ресурстар"
 #: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
 #: ../src/procdialogs.cpp:709
 msgid "File Systems"
-msgstr "Файлдык системалар"
+msgstr "Файл системалары"
 
 #: ../src/load-graph.cpp:155
 #, c-format
@@ -602,7 +604,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:270
 msgid "Process"
-msgstr "Процесс"
+msgstr "Процесси"
 
 #: ../src/lsof.cpp:282
 msgid "PID"
@@ -619,7 +621,7 @@ msgstr "Ачык файлдарды издөө"
 
 #: ../src/lsof.cpp:336
 msgid "_Name contains:"
-msgstr ""
+msgstr "_Атында камтылганы:"
 
 #: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
@@ -632,50 +634,50 @@ msgstr "_Издөө натыйжалары:"
 #. xgettext: virtual memory start
 #: ../src/memmaps.cpp:478
 msgid "VM Start"
-msgstr ""
+msgstr "ВЭ башы"
 
 #. xgettext: virtual memory end
 #: ../src/memmaps.cpp:480
 msgid "VM End"
-msgstr ""
+msgstr "ВЭ аягы"
 
 #. xgettext: virtual memory syze
 #: ../src/memmaps.cpp:482
 msgid "VM Size"
-msgstr ""
+msgstr "ВЭ өлчөмү"
 
 #: ../src/memmaps.cpp:483
 msgid "Flags"
-msgstr "Желектер"
+msgstr "Желектери"
 
 #. xgettext: virtual memory offset
 #: ../src/memmaps.cpp:485
 msgid "VM Offset"
-msgstr ""
+msgstr "ВЭ жылышы"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
 #: ../src/memmaps.cpp:488
 msgid "Private clean"
-msgstr ""
+msgstr "Жеке тазасы"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
 #: ../src/memmaps.cpp:491
 msgid "Private dirty"
-msgstr ""
+msgstr "Жеке кири"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
 #: ../src/memmaps.cpp:494
 msgid "Shared clean"
-msgstr ""
+msgstr "Бөлүнгөн тазасы"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
 #: ../src/memmaps.cpp:497
 msgid "Shared dirty"
-msgstr ""
+msgstr "Бөлүнгөн кири"
 
 #: ../src/memmaps.cpp:499
 msgid "Inode"
@@ -684,12 +686,12 @@ msgstr "Inode"
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
 #: ../src/memmaps.cpp:608
 msgid "Memory Maps"
-msgstr "Эстин карталары"
+msgstr "Эс карталары"
 
 #: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr ""
+msgstr "«%s» (PID %u) процессинин э_с карталары:"
 
 #: ../src/openfiles.cpp:34
 msgid "file"
@@ -733,7 +735,7 @@ msgstr "Ачык файлдар"
 #: ../src/openfiles.cpp:354
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
-msgstr ""
+msgstr "«%s» (PID %u) процесси ачкан _файлдары:"
 
 #: ../src/procactions.cpp:75
 #, c-format
@@ -775,31 +777,31 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
-msgstr ""
+msgstr "(Өтө жогорку алгачкылык)"
 
 #: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
-msgstr ""
+msgstr "(Жогорку алгачкылык)"
 
 #: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
-msgstr ""
+msgstr "(Кадимкидей алгачкылык)"
 
 #: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
-msgstr ""
+msgstr "(Төмөн алгачкылык)"
 
 #: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
-msgstr ""
+msgstr "(Өтө төмөн алгачкылык)"
 
 #: ../src/procdialogs.cpp:175
 msgid "Change Priority"
-msgstr "Алгачкылыган өзгөртүү"
+msgstr "Алгачкылыгын өзгөртүү"
 
 #: ../src/procdialogs.cpp:196
 msgid "Change _Priority"
-msgstr "А_лгачкылыган өзгөртүү"
+msgstr "А_лгачкылыгын өзгөртүү"
 
 #: ../src/procdialogs.cpp:217
 msgid "_Nice value:"
@@ -821,7 +823,7 @@ msgstr "Белги"
 
 #: ../src/procdialogs.cpp:502
 msgid "System Monitor Preferences"
-msgstr "Системалык монитордун параметрлери"
+msgstr "Системалык монитордун ырастоолору"
 
 #: ../src/procdialogs.cpp:532
 msgid "Behavior"
@@ -830,15 +832,15 @@ msgstr "Кылык"
 #: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
 #: ../src/procdialogs.cpp:728
 msgid "_Update interval in seconds:"
-msgstr ""
+msgstr "_Жаңылоо интервалы секундада:"
 
 #: ../src/procdialogs.cpp:576
 msgid "Enable _smooth refresh"
-msgstr ""
+msgstr "_Тегиз жаңылоону аракетке келтирүү"
 
 #: ../src/procdialogs.cpp:590
 msgid "Alert before ending or _killing processes"
-msgstr ""
+msgstr "Процесстерди аяктоо же _жок кылуу алдында эскертүү"
 
 #: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
@@ -850,7 +852,7 @@ msgstr "Маалыматтык талаалар"
 
 #: ../src/procdialogs.cpp:635
 msgid "Process i_nformation shown in list:"
-msgstr ""
+msgstr "Тизмеде көрсөтүлүүчү файл процесс _маалыматы:"
 
 #: ../src/procdialogs.cpp:647
 msgid "Graphs"
@@ -858,7 +860,7 @@ msgstr "Графиктер"
 
 #: ../src/procdialogs.cpp:686
 msgid "Show network speed in bits"
-msgstr "Тармак ылдамдыгын бит кылып көрсөтүү"
+msgstr "Тармак ылдамдыгын бит бирдигинде көрсөтүү"
 
 #: ../src/procdialogs.cpp:748
 msgid "Show _all filesystems"
@@ -866,15 +868,15 @@ msgstr "_Бардык файл системаларын көрсөтүү"
 
 #: ../src/procdialogs.cpp:775
 msgid "File system i_nformation shown in list:"
-msgstr ""
+msgstr "Тизмеде көрсөтүлүүчү файл системасынын _маалыматы:"
 
 #: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
-msgstr ""
+msgstr "Жөнөкөй процесс жана система диспетчери."
 
 #: ../src/proctable.cpp:211
 msgid "Process Name"
-msgstr "Процесс аты"
+msgstr "Жараян аты"
 
 #: ../src/proctable.cpp:212
 msgid "User"
@@ -886,19 +888,19 @@ msgstr "Абалы"
 
 #: ../src/proctable.cpp:214
 msgid "Virtual Memory"
-msgstr ""
+msgstr "Виртуалдуу эси"
 
 #: ../src/proctable.cpp:215
 msgid "Resident Memory"
-msgstr ""
+msgstr "Резиденттик эси"
 
 #: ../src/proctable.cpp:216
 msgid "Writable Memory"
-msgstr "Жазылуучу эс"
+msgstr "Жазылуучу эси"
 
 #: ../src/proctable.cpp:217
 msgid "Shared Memory"
-msgstr "Бөлүшүлүүчү эс"
+msgstr "Бөлүнүүчү эси"
 
 #: ../src/proctable.cpp:218
 msgid "X Server Memory"
@@ -911,11 +913,11 @@ msgstr "% БП"
 
 #: ../src/proctable.cpp:220
 msgid "CPU Time"
-msgstr "БП убакыты"
+msgstr "БП убагы"
 
 #: ../src/proctable.cpp:221
 msgid "Started"
-msgstr "Жүргүзгөн"
+msgstr "Жүргүзүлгөн күнү"
 
 #: ../src/proctable.cpp:222
 msgid "Nice"
@@ -931,22 +933,22 @@ msgstr "Коопсуздук контексти"
 
 #: ../src/proctable.cpp:225
 msgid "Command Line"
-msgstr "Командалык сап"
+msgstr "Командалык сабы"
 
 #. xgettext: wchan, see ps(1) or top(1)
 #: ../src/proctable.cpp:228
 msgid "Waiting Channel"
-msgstr "Ядродо күтүү"
+msgstr "Күтүүдөгү каналы"
 
 #: ../src/proctable.cpp:945
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr "1, 5, 15 мүнөттөрдөгү орточо жүктөөсү: %0.2f, %0.2f, %0.2f"
+msgstr "1, 5, 15 минуталарындагы орточо жүктөлүшү: %0.2f, %0.2f, %0.2f"
 
 #: ../src/sysinfo.cpp:77
 #, c-format
 msgid "Release %s"
-msgstr "Чыгаруусу %s"
+msgstr "Чыгарылышы %s"
 
 #: ../src/sysinfo.cpp:116
 msgid "Unknown CPU model"
@@ -979,7 +981,7 @@ msgstr "Процессор %d:"
 
 #: ../src/sysinfo.cpp:634
 msgid "Processor:"
-msgstr "Процессор:"
+msgstr "Процессору:"
 
 #. disk space section
 #: ../src/sysinfo.cpp:646
@@ -997,7 +999,7 @@ msgstr "Иштөөдө"
 
 #: ../src/util.cpp:34
 msgid "Stopped"
-msgstr "Токтолгон"
+msgstr "Токтотулган"
 
 #: ../src/util.cpp:38
 msgid "Zombie"

@@ -1,29 +1,29 @@
-# Slovak translation for mate-system-monitor.
-# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2006, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-system-monitor package.
-# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2001, 2002.
-# Stanislav Visnovsky <visnovsky@kde.org>, 2003.
-# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2004.
-# Marcel Telka <marcel@telka.sk>, 2005, 2006.
-# Marián Bača <majoobaca@gmail.com>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2013
+# Marcel Telka <marcel@telka.sk>, 2005, 2006
+# Majo Baca <majoobaca@gmail.com>, 2010
+# Stanislav Visnovsky <visnovsky@kde.org>, 2003
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2001, 2002, 2004
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-"
-"monitor&component=general\n"
-"POT-Creation-Date: 2010-07-20 11:06+0000\n"
-"PO-Revision-Date: 2010-08-03 22:55+0200\n"
-"Last-Translator: Marián Bača <majoobaca@gmail.com>\n"
-"Language-Team: Slovak <mate-sk-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2013-05-14 00:05+0000\n"
+"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Generator: Lokalize 1.0\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Monitor systému"
 
@@ -37,43 +37,35 @@ msgstr "Zobraziť kartu \"Systém\""
 
 #: ../src/callbacks.cpp:167
 msgid "translator-credits"
-msgstr ""
-"Stanislav Višňovský\n"
-"Marcel Telka <marcel@telka.sk>\n"
-"Marián Bača <majoobaca@gmail.com>"
+msgstr "Stanislav Višňovský\nMarcel Telka <marcel@telka.sk>\nMarián Bača <majoobaca@gmail.com>\nJán Ďanovský <dagsoftware@yahoo.com>"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Zariadenie"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Adresár"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Typ"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Celkom"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Voľné"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Dostupné"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Použité"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Súborové systémy"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -101,267 +93,255 @@ msgid "%b %d %Y"
 msgstr "%d. %b %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 pre informácie o systéme, 1 pre zoznam procesov, 2 pre zdroje a 3 pre "
-"zoznam diskov"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Predvolená farba grafu procesora"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Predvolená farba grafu prichádzajúcej sieťovej prevádzky"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Predvolená farba grafu pamäte"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Predvolená farba grafu odchádzajúcej sieťovej prevádzky"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Predvolená farba grafu odkladacieho priestoru"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Určuje, ktoré procesy štandardne zobraziť. 0 pre všetky, 1 pre procesy "
-"používateľa a 2 pre aktívne"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Poradie stĺpcov prehľadu diskov"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Povoliť/zakázať vyhladené obnovovanie"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"Ak je TRUE, monitor systému pracuje v režime \"Solaris\", kde je využite "
-"procesora pre každý proces rozdelené podľa celkového počtu procesorov, Inak "
-"štandardne pracuje v režime \"Irix\"."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Výška hlavného okna"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Šírka hlavného okna"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Poradie stĺpcov prehľadu procesov"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Výška hlavného okna"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Stĺpec triedenia prehľadu procesov"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Poradie triedenia prehľadu procesov"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Uloží aktuálne zobrazenú kartu"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'procesor %'"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'čas procesora'"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'PID'"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'kontext SELinux'"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'čakací kanál'"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'pamäť X servera'"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'parametre'"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'odhadované využitie pamäte'"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'názov'"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'nice'"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'vlastník'"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'rezidentná pamäť'"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'zdieľaná pamäť'"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'čas štartu'"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'stav'"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'virtuálna pamäť'"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Zobraziť pri štarte stĺpec 'zapisovateľná pamäť'"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Zobraziť závislosti procesov v tvare stromu"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Zobraziť dialógové okno s upozornením pri zabíjaní procesov"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Režim \"Solaris\" pre percentuálne využitie procesora"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Čas v milisekundách medzi aktualizáciami zoznamu zariadení"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Ak je TRUE, monitor systému pracuje v režime \"Solaris\", kde je využite procesora pre každý proces rozdelené podľa celkového počtu procesorov, Inak štandardne pracuje v režime \"Irix\"."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Čas v milisekundách medzi aktualizáciami grafov"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Povoliť/zakázať vyhladené obnovovanie"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Zobraziť dialógové okno s upozornením pri zabíjaní procesov"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Čas v milisekundách medzi aktualizáciami prehľadu procesov"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Čas v milisekundách medzi aktualizáciami grafov"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "Či majú byť zobrazené informácie o všetkých súborových systémoch"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"Zobraziť informácie o všetkých súborových systémoch (vrátane typov ako "
-"'autofs' a 'procfs'). Užitočné na získanie zoznamu všetkých momentálne "
-"pripojených súborových systémov."
+msgstr "Zobraziť informácie o všetkých súborových systémoch (vrátane typov ako 'autofs' a 'procfs'). Užitočné na získanie zoznamu všetkých momentálne pripojených súborových systémov."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Čas v milisekundách medzi aktualizáciami zoznamu zariadení"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Určuje, ktoré procesy štandardne zobraziť. 0 pre všetky, 1 pre procesy používateľa a 2 pre aktívne"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Uloží aktuálne zobrazenú kartu"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 pre informácie o systéme, 1 pre zoznam procesov, 2 pre zdroje a 3 pre zoznam diskov"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Predvolená farba grafu procesora"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Predvolená farba grafu pamäte"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Predvolená farba grafu odkladacieho priestoru"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Predvolená farba grafu prichádzajúcej sieťovej prevádzky"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Predvolená farba grafu odchádzajúcej sieťovej prevádzky"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Stĺpec triedenia prehľadu procesov"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Poradie stĺpcov prehľadu procesov"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Poradie triedenia prehľadu procesov"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Šírka stĺpca 'názov'"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'názov'"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Šírka stĺpca 'vlastník'"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'vlastník'"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Šírka stĺpca 'stav'"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'stav'"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Šírka stĺpca 'virtuálna pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'virtuálna pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Šírka stĺpca 'rezidentná pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'rezidentná pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Šírka stĺpca 'zapisovateľná pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'zapisovateľná pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Šírka stĺpca 'zdieľaná pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'zdieľaná pamäť'"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Šírka stĺpca 'pamäť X servera'"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'pamäť X servera'"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "Šírka stĺpca 'procesor %'"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'procesor %'"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "Šírka stĺpca 'čas procesora'"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'čas procesora'"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Šírka stĺpca 'PID'"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Šírka stĺpca 'kontext SELinux'"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Šírka stĺpca 'kanál čakania'"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Šírka stĺpca 'pamäť X servera'"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Šírka stĺpca 'parametre'"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Šírka stĺpca 'predpokladané využite pamäte'"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Šírka stĺpca 'názov'"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Šírka stĺpca 'nice'"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Šírka stĺpca 'vlastník'"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Šírka stĺpca 'rezidentná pamäť'"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Šírka stĺpca 'zdieľaná pamäť'"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "Šírka stĺpca 'čas štartu'"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'čas štartu'"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Šírka stĺpca 'nice'"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'nice'"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Šírka stĺpca 'PID'"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'PID'"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Šírka stĺpca 'kontext SELinux'"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'kontext SELinux'"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Šírka stĺpca 'parametre'"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'parametre'"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Šírka stĺpca 'predpokladané využite pamäte'"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'odhadované využitie pamäte'"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Šírka stĺpca 'stav'"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Šírka stĺpca 'kanál čakania'"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Šírka stĺpca 'virtuálna pamäť'"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Zobraziť pri štarte stĺpec 'čakací kanál'"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Šírka stĺpca 'zapisovateľná pamäť'"
+msgid "Disk view columns order"
+msgstr "Poradie stĺpcov prehľadu diskov"
 
 #: ../src/gsm_color_button.c:188
-#, fuzzy
 msgid "Fraction"
-msgstr "Kúsok"
+msgstr "Podiel"
 
 #: ../src/gsm_color_button.c:189
-#, fuzzy
 msgid "Percentage full for pie colour pickers"
-msgstr "Plný percentuálny podiel pre výber farby grafu"
+msgstr "Plný percentuálny podiel farebného výseku grafu"
 
 #: ../src/gsm_color_button.c:196
 msgid "Title"
@@ -371,7 +351,7 @@ msgstr "Titulok"
 msgid "The title of the color selection dialog"
 msgstr "Titulok dialógu \"Výber farby\""
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:605
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Výber farby"
 
@@ -387,11 +367,11 @@ msgstr "Vybraná farba"
 msgid "Type of color picker"
 msgstr "Typ výberu farby"
 
-#: ../src/gsm_color_button.c:526
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Prijaté neplatné dáta farieb\n"
 
-#: ../src/gsm_color_button.c:626
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Kliknite pre nastavenie farby grafov"
 
@@ -533,7 +513,6 @@ msgstr "Zobraziť všetky procesy"
 msgid "M_y Processes"
 msgstr "M_oje procesy"
 
-# asi má byť množné číslo - nahlásiť bug?
 #: ../src/interface.cpp:104
 msgid "Show user own process"
 msgstr "Zobraziť vlastný proces používateľa"
@@ -546,7 +525,6 @@ msgstr "Ukončiť _proces"
 msgid "CPU History"
 msgstr "História využitia procesora"
 
-# zobrazuje sa, keď je len jeden; inak nasledujúci reťazec
 #: ../src/interface.cpp:300
 msgid "CPU"
 msgstr "CPU"
@@ -601,6 +579,11 @@ msgstr "Procesy"
 msgid "Resources"
 msgstr "Zdroje"
 
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Súborové systémy"
+
 #: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
@@ -610,7 +593,7 @@ msgstr[1] "%u sekunda"
 msgstr[2] "%u sekundy"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:339
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) z %s"
@@ -621,10 +604,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Chyba</b>\n"
-"'%s' nie je platný regulárny výraz jazyka Perl.\n"
-"%s"
+msgstr "<b>Chyba</b>\n'%s' nie je platný regulárny výraz jazyka Perl.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -643,15 +623,15 @@ msgstr "Názov súboru"
 msgid "Search for Open Files"
 msgstr "Hľadať otvorené súbory"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Názov obsahuje:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Zhoda s nerozlišovaním veľkosti písmen"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "_Výsledky hľadania:"
 
@@ -712,7 +692,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "Mapy pamäte"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Mapy pamäte pre proces \"%s\" (PID %u):"
@@ -766,18 +746,14 @@ msgstr "_Súbory otvorené procesom \"%s\" (PID %u):"
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Nie je možné zmeniť prioritu procesu s pid %d na %d.\n"
-"%s"
+msgstr "Nie je možné zmeniť prioritu procesu s pid %d na %d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Nie je možné zabiť proces s pid %d signálom %d.\n"
-"%s"
+msgstr "Nie je možné zabiť proces s pid %d signálom %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -789,9 +765,7 @@ msgstr "Zabiť zvolený proces?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Zabitím procesu môžete zničiť údaje, prerušiť bežiacu reláciu alebo vytvoriť "
-"bezpečnostné riziko. Len procesy, ktoré neodpovedajú, by mali byť zabité."
+msgstr "Zabitím procesu môžete zničiť údaje, prerušiť bežiacu reláciu alebo vytvoriť bezpečnostné riziko. Len procesy, ktoré neodpovedajú, by mali byť zabité."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -801,12 +775,9 @@ msgstr "Ukončiť zvolený proces?"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Ukončením procesu môžete zničiť údaje, prerušiť bežiacu reláciu alebo "
-"vytvoriť bezpečnostné riziko. Len procesy, ktoré neodpovedajú, by mali byť "
-"ukončené."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Ukončením procesu môžete zničiť údaje, prerušiť bežiacu reláciu alebo vytvoriť bezpečnostné riziko. Len procesy, ktoré neodpovedajú, by mali byť ukončené."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -848,9 +819,7 @@ msgstr "Poznámka:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"Priorita procesu je určená jeho hodnotou nice. Nižšia hodnota znamená vyššiu "
-"prioritu."
+msgstr "Priorita procesu je určená jeho hodnotou nice. Nižšia hodnota znamená vyššiu prioritu."
 
 #: ../src/procdialogs.cpp:457
 msgid "Icon"
@@ -905,7 +874,7 @@ msgstr "Zobraziť _všetky súborové systémy"
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformácie o súborových systémoch zobrazené v zozname:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "Jednoduchý monitor procesov a systému."
 
@@ -1127,108 +1096,3 @@ msgstr "<i>Nie je k dispozícii</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
-
-#~ msgid "Devices"
-#~ msgstr "Zariadenia"
-
-#~ msgid "No hidden processes"
-#~ msgstr "Bez skrytých procesov"
-
-#~ msgid ""
-#~ "There are no hidden processes in the list. To show all running processes, "
-#~ "select the \"All processes\" option in the main window."
-#~ msgstr ""
-#~ "Nie sú skryté procesy v zozname. Aby ste zobrazili všetky bežiace "
-#~ "procesy, zvoľte voľbu \"Všetky procesy\" v hlavnom okne."
-
-#~ msgid "Hidden Processes"
-#~ msgstr "Skryté procesy"
-
-#~ msgid "Currently _hidden processes:"
-#~ msgstr "Momentálne _skryté procesy:"
-
-#~ msgid "_Remove From List"
-#~ msgstr "_Odstrániť zo zoznamu"
-
-#~ msgid ""
-#~ "These are the processes you have chosen to hide. You can reshow a process "
-#~ "by removing it from this list."
-#~ msgstr ""
-#~ "Toto sú procesy, ktoré chcete skryť. Ak ich odstránite z tohto zoznamu, "
-#~ "procesy sa budú zase zobrazovať."
-
-#~ msgid "Column zero saved width"
-#~ msgstr "Uložená šírka st=lpca nula"
-
-#~ msgid "Default graph background color"
-#~ msgstr "Predvolená farba pozadia grafu"
-
-#~ msgid "Default graph frame color"
-#~ msgstr "Predvolená farba rámu grafu"
-
-#~ msgid "Default graph net out color"
-#~ msgstr "Predvolená farba mimo grafu pamäte"
-
-#~ msgid "Show process threads"
-#~ msgstr "Zobraziť vlákna procesov"
-
-#~ msgid "Show warning dialog when hiding processes"
-#~ msgstr "Zobraziť dialógové okno s upozornením pri skrývaní procesov"
-
-#~ msgid "_File"
-#~ msgstr "_Súbor"
-
-#~ msgid "_Quit"
-#~ msgstr "_Koniec"
-
-#~ msgid "Prefere_nces"
-#~ msgstr "Pre_dvoľby"
-
-#~ msgid "_Hide Process"
-#~ msgstr "_Skryť proces"
-
-#~ msgid "_Hidden Processes"
-#~ msgstr "_Skryté procesy"
-
-#~ msgid "Open the list of currently hidden processes"
-#~ msgstr "Otvoriť zoznam momentálne skrytých procesov"
-
-#~ msgid "_About"
-#~ msgstr "_O programe"
-
-#~ msgid "User memory:"
-#~ msgstr "Pamäť používateľa:"
-
-#~ msgid "of"
-#~ msgstr "z"
-
-#~ msgid "Used swap:"
-#~ msgstr "Použitý odkladací priestor:"
-
-#~ msgid "Total:"
-#~ msgstr "Celkom:"
-
-#~ msgid "Sent:"
-#~ msgstr "Odoslané:"
-
-#~ msgid "Hide the selected process?"
-#~ msgstr "Skryť zvolený proces?"
-
-#~ msgid ""
-#~ "Hidden processes are no longer visible in the process list. You can re-"
-#~ "enable them by selecting the \"Hidden Processes\" entry in the View menu."
-#~ msgstr ""
-#~ "Skryté procesy nie sú viac viditeľné v zozname procesov. Môžete ich znovu "
-#~ "povoliť zvolením položky \"Skryté procesy\" v menu Zobraziť."
-
-#~ msgid "Alert before _hiding processes"
-#~ msgstr "Varovať pred _skrývaním procesov"
-
-#~ msgid "_Background color:"
-#~ msgstr "Farba po_zadia:"
-
-#~ msgid "_Grid color:"
-#~ msgstr "Farba _mriežky:"
-
-#~ msgid "Arguments"
-#~ msgstr "Argumenty"

@@ -1,28 +1,25 @@
-# Serbian translation of procman
-# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003, 2005, 2006.
-#
-# This file is distributed under the same license as the procman package.
-#
-# Maintainer: Душан Марјановић <mdfk@root.co.yu>
-# Reviewed on 2005-03-06 by: Данило Шеган <danilo@prevod.org>
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003, 2005, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-"
-"monitor&component=general\n"
-"POT-Creation-Date: 2009-08-28 10:12+0000\n"
-"PO-Revision-Date: 2009-08-28 16:33+0200\n"
-"Last-Translator: Слободан Д. Средојевић <slobo@akrep.be>\n"
-"Language-Team: Serbian (sr) <gnom@prevod,org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:28+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/projects/p/MATE/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Праћење система"
 
@@ -36,47 +33,35 @@ msgstr "Прикажи лист са системом"
 
 #: ../src/callbacks.cpp:167
 msgid "translator-credits"
-msgstr ""
-"Душан Марјановић <madafaka@root.co.yu>\n"
-"Данило Шеган <danilo@prevod.org>\n"
-"Слободан Д. Средојевић <slobo@akrep.be>\n"
-"Милош Поповић <gpopac@gmail.com>\n"
-"Бранко Кокановић <branko.kokanovic@gmail.com>\n"
-"\n"
-"Prevod.org — превод на српски језик."
+msgstr "Душан Марјановић <madafaka@root.co.yu>\nДанило Шеган <danilo@prevod.org>\nСлободан Д. Средојевић <slobo@akrep.be>\nМилош Поповић <gpopac@gmail.com>\nБранко Кокановић <branko.kokanovic@gmail.com>\n\nPrevod.org — превод на српски језик."
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Уређај"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Директоријум"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Врста"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Укупно"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Слободно"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Расположиво"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Заузето"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Системи датотека"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -104,258 +89,247 @@ msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 за Системске Информације, 1 за листу процеса, 2 за ресурсе и 3 за листу "
-"дискова"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Подразумевана боја процесора на графику"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Подразумевана боја на графику за долазни мрежни саобраћај"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Подразумевана боја меморије на графику"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Подразумевана боја на графику за долазни мрежни саобраћај"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Подразумевана боја размене меморије на графику"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Одређује које процесе подразумевано приказати. 0 је за све, 1 за корисникове "
-"и 2 за активне"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Редослед ређања у прегледу деоница"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Укључи/искључи прецизно, меко освежавање"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"Ако је постављено на „TRUE“ (тачно), Праћење Система ће радити у Соларисовом "
-"режиму рада где је процесорско време задатка подељено са укупним бројем "
-"процесора. У супротном ће радити у Ирикс режиму."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Висина главног прозора"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Ширина главног прозора"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Редослед ређања колона у прегледу процеса"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Висина главног прозора"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Стубац за ређање у прегледу процеса"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Редослед ређања у прегледу процеса"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Забележи текуће стање у листу"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Прикажи колону „Процесор %“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Прикажи колону „Процесорско време“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Прикажи колону „ПИД“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Прикажи колону „SELinux безбедоносни контекст“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Прикажи колону „Чека на“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Прикажи колону „Меморија Икс сервера“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Прикажи колону „аргументи“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Прикажи колону „процењено коришћење меморије“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Прикажи колону „име“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Прикажи колону „пристојно“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Прикажи колону „корисник“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Прикажи колону „резидентна меморија“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Прикажи колону „дељена меморија“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Прикажи колону „започет“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Прикажи колону „стање“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Прикажи колону „виртуална меморија“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Прикажи колону „уписива меморија“ по покретању"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Прикажи међузависност процеса у облику стабла"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Прикажи упозорење пре убијања процеса"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Соларис начин рада за проценат процесора"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Време у милисекундама између освежавања списка уређаја"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Ако је постављено на „TRUE“ (тачно), Праћење Система ће радити у Соларисовом режиму рада где је процесорско време задатка подељено са укупним бројем процесора. У супротном ће радити у Ирикс режиму."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Време у милисекундама између освежавања графика"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Укључи/искључи прецизно, меко освежавање"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Прикажи упозорење пре убијања процеса"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Време у милисекундама између освежавања списка процеса"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
-msgid "Whether information about all filesystems should be displayed"
-msgstr ""
-"Да ли би требало да буде приказана информација о свим системима датотека"
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Време у милисекундама између освежавања графика"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "Да ли би требало да буде приказана информација о свим системима датотека"
+
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"Да ли би треба да буду приказане информације о свим системима датотека, "
-"укључујући и врсте система датотека „autofs“ и „procfs“. Може бити корисно "
-"добити списак свих тренутно прикључених система датотека."
+msgstr "Да ли би треба да буду приказане информације о свим системима датотека, укључујући и врсте система датотека „autofs“ и „procfs“. Може бити корисно добити списак свих тренутно прикључених система датотека."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Време у милисекундама између освежавања списка уређаја"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Одређује које процесе подразумевано приказати. 0 је за све, 1 за корисникове и 2 за активне"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Забележи текуће стање у листу"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 за Системске Информације, 1 за листу процеса, 2 за ресурсе и 3 за листу дискова"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Подразумевана боја процесора на графику"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Подразумевана боја меморије на графику"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Подразумевана боја размене меморије на графику"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Подразумевана боја на графику за долазни мрежни саобраћај"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Подразумевана боја на графику за долазни мрежни саобраћај"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Стубац за ређање у прегледу процеса"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Редослед ређања колона у прегледу процеса"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Редослед ређања у прегледу процеса"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Ширина колоне „име“"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Прикажи колону „име“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Ширина колоне „власник“"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Прикажи колону „корисник“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Ширина колоне „стање“"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Прикажи колону „стање“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Ширина колоне „виртуална меморија“"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Прикажи колону „виртуална меморија“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Ширина колоне „резидентна меморија“"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Прикажи колону „резидентна меморија“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Ширина колоне „уписива меморија“"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Прикажи колону „уписива меморија“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Ширина колоне „дељена меморија“"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Прикажи колону „дељена меморија“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Ширина колоне „Меморија Икс сервера“"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Прикажи колону „Меморија Икс сервера“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "Ширина колоне „Процесор %“"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Прикажи колону „Процесор %“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "Ширина колоне „Процесорско време“"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Прикажи колону „Процесорско време“ по покретању"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Ширина колоне „ПИД“"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Ширина колоне „SELinux безбедоносни контекст“"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Ширина колоне „Чека на“"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Ширина колоне „Меморија Икс сервера“"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Ширина колоне „аргументи“"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Ширина колоне „процењено коришћење меморије“"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Ширина колоне „име“"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Ширина колоне „пристојно“"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Ширина колоне „власник“"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Ширина колоне „резидентна меморија“"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Ширина колоне „дељена меморија“"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "Ширина колоне „започет“"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Прикажи колону „започет“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Ширина колоне „пристојно“"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Прикажи колону „пристојно“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Ширина колоне „ПИД“"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Прикажи колону „ПИД“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Ширина колоне „SELinux безбедоносни контекст“"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Прикажи колону „SELinux безбедоносни контекст“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Ширина колоне „аргументи“"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Прикажи колону „аргументи“ по покретању"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Ширина колоне „процењено коришћење меморије“"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Прикажи колону „процењено коришћење меморије“ по покретању"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Ширина колоне „стање“"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Ширина колоне „Чека на“"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Ширина колоне „виртуална меморија“"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Прикажи колону „Чека на“ по покретању"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Ширина колоне „уписива меморија“"
+msgid "Disk view columns order"
+msgstr "Редослед ређања у прегледу деоница"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -373,7 +347,7 @@ msgstr "Наслов"
 msgid "The title of the color selection dialog"
 msgstr "Назив прозорчета за избор боје"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Изабери боју"
 
@@ -389,11 +363,11 @@ msgstr "Изабрана боја"
 msgid "Type of color picker"
 msgstr "Врста изборника боје"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Примљени су неисправни подаци\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Кликните за постављање боје графика"
 
@@ -601,8 +575,12 @@ msgstr "Процеси"
 msgid "Resources"
 msgstr "Ресурси"
 
-# bug(slobo): Множински облици. Данило — овај је твој.
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Системи датотека"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -611,7 +589,7 @@ msgstr[1] "%u секунде"
 msgstr[2] "%u секунди"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) од %s"
@@ -622,10 +600,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Грешка</b>\n"
-"'%s' није исправан регуларни израз у Перлу.\n"
-"%s"
+msgstr "<b>Грешка</b>\n'%s' није исправан регуларни израз у Перлу.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -644,15 +619,15 @@ msgstr "Име датотеке"
 msgid "Search for Open Files"
 msgstr "Тражи отворене датотеке"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Назив садржи:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Занемари велика и мала слова"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "Р_езултати претраге:"
 
@@ -713,7 +688,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "Мапе меморије"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Мапе меморије за процес „%s“ (ИБ процеса %u):"
@@ -767,18 +742,14 @@ msgstr "_Датотеке које је отворио процес „%s“(И�
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Не могу да променим приоритет процеса са ПИБ-ом %d на %d.\n"
-"%s"
+msgstr "Не могу да променим приоритет процеса са ПИБ-ом %d на %d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Не могу да убијем процес са ПИБ-ом %d помоћу сигнала %d.\n"
-"%s"
+msgstr "Не могу да убијем процес са ПИБ-ом %d помоћу сигнала %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -790,10 +761,7 @@ msgstr "Убити изабрани процес?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Убијање неког процеса, може уништити податке, прекинути текућу сесију или "
-"проузроковати безбедносни пропуст. Требало би убијати само процесе који се "
-"не одазивају"
+msgstr "Убијање неког процеса, може уништити податке, прекинути текућу сесију или проузроковати безбедносни пропуст. Требало би убијати само процесе који се не одазивају"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -803,12 +771,9 @@ msgstr "Окончати изабрани процес?"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Окончавање неког процеса може уништити податке, прекинути текућу сесију или "
-"проузроковати безбедносни пропуст. Требало би окончавати само процесе који "
-"се не одазивају."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Окончавање неког процеса може уништити податке, прекинути текућу сесију или проузроковати безбедносни пропуст. Требало би окончавати само процесе који се не одазивају."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -850,9 +815,7 @@ msgstr "Приметите:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"Приоритет процеса је задат по вредности параметра лепог понашања (nice). "
-"Нижа вредност представља виши приоритет."
+msgstr "Приоритет процеса је задат по вредности параметра лепог понашања (nice). Нижа вредност представља виши приоритет."
 
 #: ../src/procdialogs.cpp:457
 msgid "Icon"
@@ -907,7 +870,7 @@ msgstr "Прикажи _све системе датотека"
 msgid "File system i_nformation shown in list:"
 msgstr "Подаци о _систему датотека у списку:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "Прост програм за праћење система и процеса."
 
@@ -991,42 +954,42 @@ msgstr "Издање %s"
 msgid "Unknown CPU model"
 msgstr "Непознат процесор"
 
-#: ../src/sysinfo.cpp:586
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "Кернел %s"
 
-#: ../src/sysinfo.cpp:599
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "Гном %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:613
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Делови рачунара</b>"
 
-#: ../src/sysinfo.cpp:618
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "Меморија:"
 
-#: ../src/sysinfo.cpp:625
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "Процесор %d:"
 
-#: ../src/sysinfo.cpp:630
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "Procesor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:642
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>Стање система</b>"
 
-#: ../src/sysinfo.cpp:648
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "Расположив простор на диску:"
 
@@ -1074,7 +1037,6 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-# bug(slobo): ово је одређено у правопису. погледај да ли се ово може преводити
 #: ../src/util.cpp:164
 #, c-format
 msgid "%.1f KiB"
@@ -1090,7 +1052,6 @@ msgstr "%.1f MiB"
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-# bug(slobo): ово је одређено у правопису. погледај да ли се ово може преводити
 #: ../src/util.cpp:167
 #, c-format
 msgid "%.1f kbit"
@@ -1131,384 +1092,3 @@ msgstr "<i>недоступно</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
-
-#~ msgid "Devices"
-#~ msgstr "Уређаји"
-
-#~ msgid "No hidden processes"
-#~ msgstr "Нема скривених процеса"
-
-#~ msgid ""
-#~ "There are no hidden processes in the list. To show all running processes, "
-#~ "select the \"All processes\" option in the main window."
-#~ msgstr ""
-#~ "Нема сакривених процеса у списку. Да прикажете све покренуте процесе, "
-#~ "изаберите опцију „Сви процеси“ из главног прозора."
-
-#~ msgid "Hidden Processes"
-#~ msgstr "Сакривени процеси"
-
-#~ msgid "Currently _hidden processes:"
-#~ msgstr "Тренутно _скривени процеси:"
-
-#~ msgid "_Remove From List"
-#~ msgstr "_Уклони из списка"
-
-#~ msgid ""
-#~ "These are the processes you have chosen to hide. You can reshow a process "
-#~ "by removing it from this list."
-#~ msgstr ""
-#~ "Ово су процеси које сте изабрали да буду сакривени. Можете их опет "
-#~ "учинити видљивим уклањањем са овог списка."
-
-#~ msgid "Column zero saved width"
-#~ msgstr "Сачувана ширина нултог ступца"
-
-#~ msgid "Default graph background color"
-#~ msgstr "Подразумевана боја позадине графика"
-
-#~ msgid "Default graph frame color"
-#~ msgstr "Подразумевана боја оквира на графику"
-
-#~ msgid "Default graph net out color"
-#~ msgstr "Подразумевана боја на графику за одлазни мрежни саобраћај"
-
-#~ msgid "Show process threads"
-#~ msgstr "Прикажи нити процеса"
-
-#~ msgid "Show warning dialog when hiding processes"
-#~ msgstr "Прикажи упозорење пре скривања процеса"
-
-#~ msgid "_File"
-#~ msgstr "_Датотека"
-
-#~ msgid "_Quit"
-#~ msgstr "_Изађи"
-
-#~ msgid "Prefere_nces"
-#~ msgstr "По_ставке"
-
-#~ msgid "_Hide Process"
-#~ msgstr "_Сакриј процес"
-
-#~ msgid "_Hidden Processes"
-#~ msgstr "Са_кривени процеси"
-
-#~ msgid "Open the list of currently hidden processes"
-#~ msgstr "Отвори списак тренутно скривених процеса"
-
-#~ msgid "_About"
-#~ msgstr "_О програму"
-
-#~ msgid "User memory:"
-#~ msgstr "Корисничка меморија:"
-
-#~ msgid "of"
-#~ msgstr "од"
-
-# bug(slobo): превод за swap
-#~ msgid "Used swap:"
-#~ msgstr "Заузета замена:"
-
-#~ msgid "Total:"
-#~ msgstr "Укупно:"
-
-#~ msgid "Sent:"
-#~ msgstr "Послато:"
-
-#~ msgid "Hide the selected process?"
-#~ msgstr "Сакриј изабрани процес?"
-
-#~ msgid ""
-#~ "Hidden processes are no longer visible in the process list. You can re-"
-#~ "enable them by selecting the \"Hidden Processes\" entry in the View menu."
-#~ msgstr ""
-#~ "Сакривени процеси се не приказују у списку процеса. Можете их поново "
-#~ "приказати избором „Сакривени процеси“ у менију Преглед."
-
-#~ msgid "Alert before _hiding processes"
-#~ msgstr "Прикажи упозорење пре _скривања процеса"
-
-#~ msgid "Process Fields"
-#~ msgstr "Поља процеса"
-
-#~ msgid "_Background color:"
-#~ msgstr "Боја _позадине:"
-
-#~ msgid "_Grid color:"
-#~ msgstr "Боја _мреже:"
-
-#~ msgid "Arguments"
-#~ msgstr "Аргументи"
-
-#~ msgid "Update _interval:"
-#~ msgstr "Период _освежавања:"
-
-#~ msgid "Jorgen Scheibengruber - nicer devices treeview"
-#~ msgstr "Jorgen Scheibengruber — лепше дрво уређаја"
-
-# bug(mdfk): Не знам како да транскрибујем, па остављам изворно
-#~ msgid "Benoît Dejean - maintainer"
-#~ msgstr "Benoît Dejean — одржавалац"
-
-#~ msgid "Show advanced info tab on startup"
-#~ msgstr "Прикажи лист са напредним подацима по покретању"
-
-#~ msgid "Less _info"
-#~ msgstr "_Мање података"
-
-#~ msgid "More _info"
-#~ msgstr "Више подата_ка"
-
-#~ msgid "Process Info"
-#~ msgstr "Подаци о процесу"
-
-#~ msgid "Status:"
-#~ msgstr "Стање:"
-
-#~ msgid "Priority:"
-#~ msgstr "Приоритет:"
-
-#~ msgid "Memory Usage"
-#~ msgstr "Искоришћеност меморије"
-
-#~ msgid "RSS:"
-#~ msgstr "RSS:"
-
-#~ msgid "Very high - nice %d"
-#~ msgstr "Врло висок — пристојно %d"
-
-#~ msgid "High - nice %d"
-#~ msgstr "Висок — пристојно %d"
-
-#~ msgid "Normal - nice %d"
-#~ msgstr "Нормалан — пристојно %d"
-
-#~ msgid "Low - nice %d"
-#~ msgstr "Низак — пристојно %d"
-
-#~ msgid "Very low - nice %d"
-#~ msgstr "Врло низак — пристојно %d"
-
-#~ msgid "_Threads"
-#~ msgstr "_Нити"
-
-#~ msgid "Show each thread as a separate process"
-#~ msgstr "Прикажи сваку нит као засебан процес"
-
-#~ msgid "RSS Memory"
-#~ msgstr "RSS меморија"
-
-#~ msgid "%s (thread)"
-#~ msgstr "%s (нит)"
-
-#~ msgid "Saves the pane position for the system monitor tab"
-#~ msgstr "Држи положај плоча за лист праћења система"
-
-#~ msgid "Force a process to finish normally"
-#~ msgstr "Приморај процес да се уобичајено оконча"
-
-#~ msgid "Force a process to finish immediately"
-#~ msgstr "Приморај процес да се истовремено оконча"
-
-#~ msgid "Open the memory maps associated with the process"
-#~ msgstr "Отвори мапе меморије које користи процес"
-
-#~ msgid "View the files opened by the process"
-#~ msgstr "Погледај датотеке које користи процес"
-
-#~ msgid "Sea_rch:"
-#~ msgstr "Претра_жи:"
-
-#~ msgid "Sho_w:"
-#~ msgstr "При_кажи:"
-
-#~ msgid "More _Info >>"
-#~ msgstr "Више _података >>"
-
-#~ msgid "No such process."
-#~ msgstr "Нема таквог процеса."
-
-#~ msgid ""
-#~ "Process Name: %s \n"
-#~ "\n"
-#~ "You do not have permission to change the priority of this process. You "
-#~ "can enter the root password to gain the necessary permission."
-#~ msgstr ""
-#~ "Име процеса: %s \n"
-#~ "\n"
-#~ "Нисте овлашћени да мењате важност овог процеса. Можете унети "
-#~ "администраторску лозинку да би добили потребна овлашћења."
-
-#~ msgid ""
-#~ "Process Name: %s\n"
-#~ "\n"
-#~ "You must be root to decrease a nice value of this process or set a nice "
-#~ "value less than 0. You can enter the root password to gain the necessary "
-#~ "permission."
-#~ msgstr ""
-#~ "Име процеса : %s \n"
-#~ "\n"
-#~ "Морате бити администратор да бисте процес учинили мање пристојним (nice "
-#~ "вредност испод нуле). Можете унети администраторску лозинку да би добили "
-#~ "потребна овлашћења."
-
-#~ msgid ""
-#~ "Process Name: %s \n"
-#~ "\n"
-#~ "You do not have permission to end this process. You can enter the root "
-#~ "password to gain the necessary permission."
-#~ msgstr ""
-#~ "Име процеса : %s \n"
-#~ "\n"
-#~ "Нисте овлашћени да окончате овај процес. Можете унети администраторску "
-#~ "лозинку да би добили потребна овлашћења."
-
-#~ msgid "An error occured while killing the process."
-#~ msgstr "Догодила се грешка при убијању процеса."
-
-#~ msgid "Could not find \"%s\""
-#~ msgstr "Не могу да нађем „%s“"
-
-#~ msgid ""
-#~ "There are no processes containing the searched string. Please note that "
-#~ "the search is performed only on processes shown in the process list."
-#~ msgstr ""
-#~ "Нема процеса који садрже тражену ниску. Приметите да се претрага изводи "
-#~ "само међу процесима приказаним у списку."
-
-#~ msgid "Kevin Vandersloot"
-#~ msgstr "Кевин Вандерслот (Vandersloot)"
-
-#~ msgid "(C) 2001 Kevin Vandersloot"
-#~ msgstr "© 2001 Кевин Вандерслот (Vandersloot)"
-
-#~ msgid "Simple process viewer using libgtop"
-#~ msgstr "Програм за праћење процеса који користи libgtop"
-
-#~ msgid "X window system"
-#~ msgstr "X window систем"
-
-#~ msgid "bourne again shell"
-#~ msgstr "bourne again љуска"
-
-#~ msgid "Mate-Session"
-#~ msgstr "Гном-Сесија"
-
-#~ msgid "No processes are currently hidden."
-#~ msgstr "Тренутно нема сакривених процеса"
-
-#~ msgid "Manage Hidden Processes"
-#~ msgstr "Управљај скривеним процесима"
-
-#~ msgid "Force a process to finish."
-#~ msgstr "Приморај процес да се оконча."
-
-#~ msgid "Force a process to finish now."
-#~ msgstr "Приморај процес да се оконча истог тренутка."
-
-#~ msgid "Display a tree showing process dependencies"
-#~ msgstr "Прикажи дрво које осликава међузависност процеса"
-
-#~ msgid "Display threads (subprocesses)"
-#~ msgstr "Прикажи нити (подпроцесе)"
-
-#~ msgid "Name"
-#~ msgstr "Име"
-
-#~ msgid "Application Manager"
-#~ msgstr "Управник програмима"
-
-#~ msgid "Running Applications"
-#~ msgstr "Покренути програми"
-
-#~ msgid "Are you sure you want to hide this process?"
-#~ msgstr "Да ли сте сигурни да желите да сакријете овај процес?"
-
-#~ msgid "_Show this dialog next time"
-#~ msgstr "_Прикажи ово прозорче и следећи пут"
-
-#~ msgid "Are you sure you want to kill this process?"
-#~ msgstr "Да ли сте сигурни да желите да убијете овај процес?"
-
-#~ msgid "If you kill a process, unsaved data will be lost."
-#~ msgstr "Уколико убијете процес, несачувани подаци ће бити изгубљени."
-
-#~ msgid "Are you sure you want to end this process?"
-#~ msgstr "Да ли сте сигурни да желите да окончате овај процес?"
-
-#~ msgid "If you end a process, unsaved data will be lost."
-#~ msgstr "Уколико окончате процес, несачувани подаци ће бити изгубљени."
-
-#~ msgid "Kill Process"
-#~ msgstr "Убиј Процес"
-
-#~ msgid "End Process"
-#~ msgstr "Окончај Процес"
-
-#~ msgid "Root Password :"
-#~ msgstr "Root лозинка :"
-
-#~ msgid "Wrong Password."
-#~ msgstr "Погрешна Лозинка."
-
-#~ msgid "show simple dialog to end processes and logout"
-#~ msgstr "прикажи једноставно прозорче за окончање процеса и одјављивање"
-
-#~ msgid "%s could not be found."
-#~ msgstr "Не може да нађе %s."
-
-#~ msgid "%d K"
-#~ msgstr "%d К"
-
-#~ msgid "%.0f MB"
-#~ msgstr "%.0f MB"
-
-#~ msgid "View processes being run by all users"
-#~ msgstr "Види процесе свих корисника"
-
-#~ msgid "View processes being run by you"
-#~ msgstr "Види своје процесе"
-
-#~ msgid "View only active processes"
-#~ msgstr "Види само активне процесе"
-
-#~ msgid "Kevin Vandersloot (kfv101@psu.edu)"
-#~ msgstr "Kevin Vandersloot (kfv101@psu.edu)"
-
-#~ msgid "Used CPU:"
-#~ msgstr "Заузет проц.:"
-
-#~ msgid "Change Priority ..."
-#~ msgstr "Промени Приоритет ..."
-
-#~ msgid "Hide Process"
-#~ msgstr "Сакриј Процес"
-
-#~ msgid ""
-#~ "Are you sure you want to hide this process?\n"
-#~ "(Choose 'Hidden Processes' in the Settings menu to reshow)"
-#~ msgstr ""
-#~ "Да ли сте сигурни да желите да сакријете овај процес?\n"
-#~ "(Изаберите `Скривен Процеси` из менија Подешавања да би их опет видели)"
-
-#~ msgid "Erik Johnsson (zaphod@linux.nu) - icon support"
-#~ msgstr "Kevin Vandersloot (kfv101@psu.edu) - подршка за иконе"
-
-#~ msgid "Status : "
-#~ msgstr "Стање : "
-
-#~ msgid "Total : "
-#~ msgstr "Укупно : "
-
-#~ msgid "Used Space"
-#~ msgstr "Заузет простор"
-
-#~ msgid "_Set"
-#~ msgstr "_Подеси"
-
-#~ msgid "Update Speed ( seconds ) :"
-#~ msgstr "Брзина Освежавања ( секунде ) :"
-
-#~ msgid "Se_t"
-#~ msgstr "Под_еси"

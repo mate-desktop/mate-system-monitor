@@ -1,30 +1,26 @@
-# translation of mate-system-monitor.master.te.po to Telugu
-# Telugu translation of mate-system-monitor.
-# Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>.
-# This file is distributed under the same license as the mate-system-monitor package.
-#
-# Pramod <pramod@swecha.net>, 2007.
-# Krishna Babu K <kkrothap@redhat.com>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Krishnababu Krothapalli <kkrothap@redhat.com>, 2009
+# Pramod <pramod@swecha.net>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor.master.te\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-monitor&component=general\n"
-"POT-Creation-Date: 2009-05-13 22:23+0000\n"
-"PO-Revision-Date: 2009-05-14 17:13+0530\n"
-"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
-"Language-Team: Telugu <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:28+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Telugu (http://www.transifex.com/projects/p/MATE/language/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "వ్యవస్థ పర్యవేక్షకి"
 
@@ -40,38 +36,33 @@ msgstr "సిస్టమ్ టాబ్ చూపుము"
 msgid "translator-credits"
 msgstr "Pramod <pramod@swecha.net> కృష్ణబాబు కె <kkrothap@redhat.com>"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "పరికరం"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "వివరము"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "రకము"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "మొత్తము"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "ఖాళీ"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "అందుబాటులోవుంది"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "వుపయోగించిన"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:703
-#: ../src/procdialogs.cpp:707
-msgid "File Systems"
-msgstr "దస్త్ర వ్యవస్థలు"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -99,253 +90,247 @@ msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
+msgid "Main Window width"
+msgstr "ముఖ్య విండో వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "ముఖ్య విండో యెత్తు"
+
+#: ../src/mate-system-monitor.schemas.in.h:3
+msgid "Show process dependencies in tree form"
+msgstr "ట్రీ ఆకారములో క్రమణం అధారములు(డిపెన్డెన్సీలు) చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr "CPU శాతము కొరకు సోలారీస్ రీతి"
+
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "నిజమైతే (TRUE), సిస్టమ్-పర్యవేక్షకి 'సాలారీస్ రీతి' నందు నిర్వహించబడుతుంది అప్పుడు కర్తవ్యంయొక్క సిపియు వినియోగం మొత్తం సిపియులచే విభాగించబడుతుంది. లేదంటే అది 'ఐరిక్స్ రీతి'నందు నిర్వహించ బడుతుంది."
+
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "మృదువు పునర్వికాసంను చేతనం/అచేతనంచేయి"
+
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "క్రమణములను అంతమొందించునప్పుడు హెచ్చరిక డైలాగును చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
+msgid "Time in milliseconds between updates of the process view"
+msgstr "క్రమణం దర్శనము నవీకరణల మధ్య సమయం మిల్లీసెకనులలో"
+
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "రేఖాపటాల నవీకరణల మధ్య సమయం మిల్లీసెకనులలో"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "అన్ని దస్త్ర వ్యవస్థల యొక్క సమాచారము ప్రదర్శింపబడాలా"
+
+#: ../src/mate-system-monitor.schemas.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "అన్ని దస్త్రవ్యవస్థల గురించి సమాచారమును ప్రదర్శించాలా ('autofs' మరియు 'procfs' వంటి రకములతో కలుపుకొని). ప్రస్తుతం మరల్పైవున్న అన్ని దస్త్రవ్యవస్థల జాబితాను పొందుటకు వుపయోగకరంగా వుంటుంది."
+
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "పరికరాల జాబితా నవీకరణల మధ్య సమయం మిల్లీసెకనులలో"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "అప్రమేయంగా ఏఏ కార్యక్రమములను చూపాలో నిర్ణయిస్తుంది. 0 అంటే అన్నీ, 1 అంటే వినియోగదారి, 2 అంటే క్రియాశీలమైనవి"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "ప్రస్తుతము దర్శించిన టాబ్‌ను దాస్తుంది"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr "సిస్టమ్ సమాచారం కొరకు 0, కార్యక్రమముల జాబితా కొరకు 1, వనరుల కొరకు 2 మరియు డిస్కుల జాబితా కొరకు 3"
 
-#: ../src/mate-system-monitor.schemas.in.h:2
+#: ../src/mate-system-monitor.schemas.in.h:16
 msgid "Default graph cpu color"
 msgstr "అప్రమేయ రేఖాపటం సిపియు వర్ణము"
 
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "వస్తున్న నెట్వర్కు రద్దీ యొక్క అప్రమేయ రేఖాపటం వర్ణము"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
+#: ../src/mate-system-monitor.schemas.in.h:17
 msgid "Default graph mem color"
 msgstr "అప్రమేయ రేఖాపటం మెమ్ వర్ణము"
 
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "వెల్తున్న నెట్వర్కు రద్దీ యొక్క అప్రమేయ రేఖాపటం వర్ణము"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
+#: ../src/mate-system-monitor.schemas.in.h:18
 msgid "Default graph swap color"
 msgstr "అప్రమేయ రేఖాపటం స్వాప్ వర్ణము"
 
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"అప్రమేయంగా ఏఏ కార్యక్రమములను చూపాలో నిర్ణయిస్తుంది. 0 అంటే అన్నీ, 1 అంటే వినియోగదారి, 2 అంటే "
-"క్రియాశీలమైనవి"
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "వస్తున్న నెట్వర్కు రద్దీ యొక్క అప్రమేయ రేఖాపటం వర్ణము"
 
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "డిస్కు దర్శనం నిలువుపట్టీల క్రమం"
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "వెల్తున్న నెట్వర్కు రద్దీ యొక్క అప్రమేయ రేఖాపటం వర్ణము"
 
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "మృదువు పునర్వికాసంను చేతనం/అచేతనంచేయి"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"నిజమైతే (TRUE), సిస్టమ్-పర్యవేక్షకి 'సాలారీస్ రీతి' నందు నిర్వహించబడుతుంది అప్పుడు కర్తవ్యంయొక్క సిపియు "
-"వినియోగం మొత్తం సిపియులచే విభాగించబడుతుంది. లేదంటే అది 'ఐరిక్స్ రీతి'నందు నిర్వహించ బడుతుంది."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "ముఖ్య విండో యెత్తు"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
-msgid "Main Window width"
-msgstr "ముఖ్య విండో వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "క్రమణము దర్శించు నిలువువరుసల క్రమము"
-
-#: ../src/mate-system-monitor.schemas.in.h:14
+#: ../src/mate-system-monitor.schemas.in.h:21
 msgid "Process view sort column"
 msgstr "క్రమణము దర్శించు నిలువువరుసను క్రమపరచు(సార్టుచేయి)"
 
-#: ../src/mate-system-monitor.schemas.in.h:15
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "క్రమణము దర్శించు నిలువువరుసల క్రమము"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
 msgid "Process view sort order"
 msgstr "క్రమణము దర్శనం క్రమపరచు(సార్టుచేయు) క్రమము"
 
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "ప్రస్తుతము దర్శించిన టాబ్‌ను దాస్తుంది"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'CPU %' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'CPU సమయం' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'PID' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'SELinux రక్షణ సందర్భం' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "ప్రారంభంనందు క్రమణముయొక్క 'వేచివుండు చానల్' అను నిలువువరుసను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'X సేవిక మెమొరీ' నిలువుపట్టీను చూపుము"
-
 #: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'ఆర్గుమెంట్స్' నిలువుపట్టీను చూపుము"
+msgid "Width of process 'name' column"
+msgstr "క్రమణము 'నామము' నిలువుపట్టీ వెడల్పు"
 
 #: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'అంచనావేసిన మెమొరీ వినియోగపు' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
 msgid "Show process 'name' column on startup"
 msgstr "ప్రారంభించునపుడు క్రమణము 'నామము' నిలువుపట్టీను చూపుము"
 
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'నైస్' నిలువుపట్టీను చూపుము"
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "క్రమణము 'యజమాని' నిలువుపట్టీ వెడల్పు"
 
-#: ../src/mate-system-monitor.schemas.in.h:28
+#: ../src/mate-system-monitor.schemas.in.h:27
 msgid "Show process 'owner' column on startup"
 msgstr "ప్రారంభించునపుడు క్రమణము 'యజమాని' నిలువుపట్టీను చూపుము"
 
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "క్రమణము 'స్థితి' నిలువుపట్టీ వెడల్పు"
+
 #: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'నివాసపు మెమొరీ' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'భాగస్వామ్య మెమొరీ' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "ప్రారంభించునపుడు క్రమణము 'ప్రారంభ సమయపు' నిలువుపట్టీను చూపుము"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
 msgid "Show process 'status' column on startup"
 msgstr "ప్రారంభించునపుడు క్రమణము 'స్థితి' నిలువుపట్టీను చూపుము"
 
-#: ../src/mate-system-monitor.schemas.in.h:33
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "క్రమణము 'వర్చ్యువల్ మెమొరీ' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
 msgid "Show process 'virtual memory' column on startup"
 msgstr "ప్రారంభించునపుడు క్రమణము 'వర్చ్యువల్ మెమొరీ' నిలువుపట్టీను చూపుము"
 
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "క్రమణము 'నివాసపు మెమొరీ' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'నివాసపు మెమొరీ' నిలువుపట్టీను చూపుము"
+
 #: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "క్రమణము 'వ్రాయదగు మెమొరీ' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
 msgid "Show process 'writable memory' column on startup"
 msgstr "ప్రారంభించునపుడు క్రమణము 'వ్రాయదగు మెమొరీ' నిలువుపట్టీను చూపుము"
 
-#: ../src/mate-system-monitor.schemas.in.h:35
-msgid "Show process dependencies in tree form"
-msgstr "ట్రీ ఆకారములో క్రమణం అధారములు(డిపెన్డెన్సీలు) చూపుము"
-
 #: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "క్రమణములను అంతమొందించునప్పుడు హెచ్చరిక డైలాగును చూపుము"
+msgid "Width of process 'shared memory' column"
+msgstr "క్రమణము 'భాగస్వామ్య మెమొరీ' నిలువుపట్టీ వెడల్పు"
 
 #: ../src/mate-system-monitor.schemas.in.h:37
-msgid "Solaris mode for CPU percentage"
-msgstr "CPU శాతము కొరకు సోలారీస్ రీతి"
+msgid "Show process 'shared memory' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'భాగస్వామ్య మెమొరీ' నిలువుపట్టీను చూపుము"
 
 #: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "పరికరాల జాబితా నవీకరణల మధ్య సమయం మిల్లీసెకనులలో"
+msgid "Width of process 'X server memory' column"
+msgstr "క్రమణము 'X సేవిక మెమొరీ' నిలువుపట్టీ వెడల్పు"
 
 #: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "రేఖాపటాల నవీకరణల మధ్య సమయం మిల్లీసెకనులలో"
-
-#: ../src/mate-system-monitor.schemas.in.h:40
-msgid "Time in milliseconds between updates of the process view"
-msgstr "క్రమణం దర్శనము నవీకరణల మధ్య సమయం మిల్లీసెకనులలో"
+msgid "Show process 'X server memory' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'X సేవిక మెమొరీ' నిలువుపట్టీను చూపుము"
 
 #: ../src/mate-system-monitor.schemas.in.h:41
-msgid "Whether information about all filesystems should be displayed"
-msgstr "అన్ని దస్త్ర వ్యవస్థల యొక్క సమాచారము ప్రదర్శింపబడాలా"
-
-#: ../src/mate-system-monitor.schemas.in.h:42
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr ""
-"అన్ని దస్త్రవ్యవస్థల గురించి సమాచారమును ప్రదర్శించాలా ('autofs' మరియు 'procfs' వంటి రకములతో "
-"కలుపుకొని). ప్రస్తుతం మరల్పైవున్న అన్ని దస్త్రవ్యవస్థల జాబితాను పొందుటకు వుపయోగకరంగా వుంటుంది."
-
-#: ../src/mate-system-monitor.schemas.in.h:44
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "క్రమణము 'CPU %' నిలువుపట్టీ వెడల్పు"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'CPU %' నిలువుపట్టీను చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "క్రమణము 'CPU సమయం' నిలువుపట్టీ వెడల్పు"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'CPU సమయం' నిలువుపట్టీను చూపుము"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "క్రమణము 'PID' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "క్రమణము 'SELinux రక్షణా సందర్భ' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "క్రమణము 'వేచివుండు చానల్' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "క్రమణము 'X సేవిక మెమొరీ' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "క్రమణము 'ఆర్గుమెంట్స్' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "క్రమణము 'అంచనావేసిన మెమొరీ వినియోగం' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "క్రమణము 'నామము' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "క్రమణము 'నైస్' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "క్రమణము 'యజమాని' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "క్రమణము 'నివాసపు మెమొరీ' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "క్రమణము 'భాగస్వామ్య మెమొరీ' నిలువుపట్టీ వెడల్పు"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "క్రమణము 'ప్రారంభ సమయం' నిలువుపట్టీ వెడల్పు"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'ప్రారంభ సమయపు' నిలువుపట్టీను చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "క్రమణము 'నైస్' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'నైస్' నిలువుపట్టీను చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "క్రమణము 'PID' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'PID' నిలువుపట్టీను చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "క్రమణము 'SELinux రక్షణా సందర్భ' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'SELinux రక్షణ సందర్భం' నిలువుపట్టీను చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "క్రమణము 'ఆర్గుమెంట్స్' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'ఆర్గుమెంట్స్' నిలువుపట్టీను చూపుము"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "క్రమణము 'అంచనావేసిన మెమొరీ వినియోగం' నిలువుపట్టీ వెడల్పు"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "ప్రారంభించునపుడు క్రమణము 'అంచనావేసిన మెమొరీ వినియోగపు' నిలువుపట్టీను చూపుము"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "క్రమణము 'స్థితి' నిలువుపట్టీ వెడల్పు"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "క్రమణము 'వేచివుండు చానల్' నిలువుపట్టీ వెడల్పు"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "క్రమణము 'వర్చ్యువల్ మెమొరీ' నిలువుపట్టీ వెడల్పు"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "ప్రారంభంనందు క్రమణముయొక్క 'వేచివుండు చానల్' అను నిలువువరుసను చూపుము"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "క్రమణము 'వ్రాయదగు మెమొరీ' నిలువుపట్టీ వెడల్పు"
+msgid "Disk view columns order"
+msgstr "డిస్కు దర్శనం నిలువుపట్టీల క్రమం"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -363,7 +348,7 @@ msgstr "శీర్షిక"
 msgid "The title of the color selection dialog"
 msgstr "వర్ణ యెంపిక డైలాగుయొక్క శీర్షిక"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "ఒక వర్ణమును యెంచుకొనుము"
 
@@ -379,11 +364,11 @@ msgstr "ఎన్నుకొనిన వర్ణము"
 msgid "Type of color picker"
 msgstr "వర్ణ సంగ్రాహకి రకము"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "చెల్లని వర్ణ డాటా అందుకోబడింది\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "ఇక్కడ నొక్కి గ్రాఫ్ వర్ణములను అమర్చుము"
 
@@ -583,15 +568,20 @@ msgstr "మొత్తము పంపినది"
 msgid "System"
 msgstr "వ్యవస్థ"
 
-#: ../src/interface.cpp:694 ../src/procdialogs.cpp:523
+#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
 msgstr "క్రమణములు"
 
-#: ../src/interface.cpp:698 ../src/procdialogs.cpp:638
+#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
 msgstr "వనరులు"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "దస్త్ర వ్యవస్థలు"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -599,7 +589,7 @@ msgstr[0] "%u సెకను"
 msgstr[1] "%u సెకనులు"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) of %s"
@@ -610,10 +600,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Error</b>\n"
-"'%s' అనునది సరైన Perl సమీకరణం కాదు.\n"
-"%s"
+msgstr "<b>Error</b>\n'%s' అనునది సరైన Perl సమీకరణం కాదు.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -632,15 +619,15 @@ msgstr "దస్త్రనామము"
 msgid "Search for Open Files"
 msgstr "తెరచిన దస్త్రముల కొరకు వెతుకు"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_నామము కలిగివున్న:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "సందర్భ స్పందనరహిత ఉపమించు"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "_ఫలితాలు వెతుకు:"
 
@@ -701,7 +688,7 @@ msgstr "ఐనోడ్"
 msgid "Memory Maps"
 msgstr "జ్ఞాపకశక్తి పటాలు"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_\"%s\" క్రమణం కొరకు జ్ఞాపకశక్తి పటాలు (పిఐడి %u):"
@@ -755,18 +742,14 @@ msgstr "_\"%s\" క్రమణం ద్వారా దస్త్రము�
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"%d కు  %d పిఐడి ద్వారా క్రమణం యొక్క ప్రాధామ్యంను మార్చుటకు వీలుకాదు.\n"
-"%s"
+msgstr "%d కు  %d పిఐడి ద్వారా క్రమణం యొక్క ప్రాధామ్యంను మార్చుటకు వీలుకాదు.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"%d సైగల తో %d పిఐడి తో క్రమణంను నిర్మూలించుట వీలుకాదు.\n"
-"%s"
+msgstr "%d సైగల తో %d పిఐడి తో క్రమణంను నిర్మూలించుట వీలుకాదు.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -778,9 +761,7 @@ msgstr "ఎంచుకొనబడిన క్రమణంను నిర్�
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"ఒక క్రమణమును అంతము చేయుటవలన డాటా నష్టం జరుగవచ్చు, విభాగము(సెషన్) అంతరాయం కలుగవచ్చు లేదా "
-"కొత్త రక్షణా సమస్య లేవనెత్తవచ్చు. స్పందించని క్రమణములు మాత్రమే అంతమొందించాలి."
+msgstr "ఒక క్రమణమును అంతము చేయుటవలన డాటా నష్టం జరుగవచ్చు, విభాగము(సెషన్) అంతరాయం కలుగవచ్చు లేదా కొత్త రక్షణా సమస్య లేవనెత్తవచ్చు. స్పందించని క్రమణములు మాత్రమే అంతమొందించాలి."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -790,110 +771,106 @@ msgstr "ఎంచుకొనబడిన క్రమణం అంతం"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"క్రమణమును ముగించుట డాటాను నష్టం కలిగించవచ్చు, విభాగము(సెషన్) అంతరాయం కలుగవచ్చు లేదా కొత్త రక్షణా "
-"సమస్య లేవనెత్తవచ్చు. స్పందించని క్రమణములు మాత్రమే ముగించాలి."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "క్రమణమును ముగించుట డాటాను నష్టం కలిగించవచ్చు, విభాగము(సెషన్) అంతరాయం కలుగవచ్చు లేదా కొత్త రక్షణా సమస్య లేవనెత్తవచ్చు. స్పందించని క్రమణములు మాత్రమే ముగించాలి."
 
-#: ../src/procdialogs.cpp:113
+#: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
 msgstr "(చాలా ఉన్నతమైన ప్రాధామ్యం)"
 
-#: ../src/procdialogs.cpp:115
+#: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
 msgstr "(ఉన్నతమైన ప్రాధామ్యం)"
 
-#: ../src/procdialogs.cpp:117
+#: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
 msgstr "(సాధారణ ప్రాధామ్యం)"
 
-#: ../src/procdialogs.cpp:119
+#: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
 msgstr "(తక్కువైన ప్రాధామ్యం)"
 
-#: ../src/procdialogs.cpp:121
+#: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
 msgstr "(చాలా తక్కువైన ప్రాధామ్యం)"
 
-#: ../src/procdialogs.cpp:173
+#: ../src/procdialogs.cpp:175
 msgid "Change Priority"
 msgstr "ప్రాధామ్యం మార్చుము"
 
-#: ../src/procdialogs.cpp:194
+#: ../src/procdialogs.cpp:196
 msgid "Change _Priority"
 msgstr "_ప్రాధామ్యం మార్చుము"
 
-#: ../src/procdialogs.cpp:215
+#: ../src/procdialogs.cpp:217
 msgid "_Nice value:"
 msgstr "_మంచి విలువలు:"
 
-#: ../src/procdialogs.cpp:231
+#: ../src/procdialogs.cpp:233
 msgid "Note:"
 msgstr "గమనిక:"
 
-#: ../src/procdialogs.cpp:232
+#: ../src/procdialogs.cpp:234
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"క్రమణముయొక్క ప్రాముఖ్యత దాని నైస్ విలువ ద్వారా యివ్వబడుతుంది. తక్కువ నైస్ విలువ అధిక ప్రాముఖ్యతను "
-"సూచిస్తుంది."
+msgstr "క్రమణముయొక్క ప్రాముఖ్యత దాని నైస్ విలువ ద్వారా యివ్వబడుతుంది. తక్కువ నైస్ విలువ అధిక ప్రాముఖ్యతను సూచిస్తుంది."
 
-#: ../src/procdialogs.cpp:455
+#: ../src/procdialogs.cpp:457
 msgid "Icon"
 msgstr "ప్రతిమ"
 
-#: ../src/procdialogs.cpp:500
+#: ../src/procdialogs.cpp:502
 msgid "System Monitor Preferences"
 msgstr "వ్యవస్థ దర్శిని అభీష్టాలు"
 
-#: ../src/procdialogs.cpp:530
+#: ../src/procdialogs.cpp:532
 msgid "Behavior"
 msgstr "ప్రవర్తన"
 
-#: ../src/procdialogs.cpp:549 ../src/procdialogs.cpp:664
-#: ../src/procdialogs.cpp:726
+#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
+#: ../src/procdialogs.cpp:728
 msgid "_Update interval in seconds:"
 msgstr "_క్షణాలలో విరామం తాజాపరచు:"
 
-#: ../src/procdialogs.cpp:574
+#: ../src/procdialogs.cpp:576
 msgid "Enable _smooth refresh"
 msgstr "_మృదువు పునర్వికాసం క్రియాశీలించు"
 
-#: ../src/procdialogs.cpp:588
+#: ../src/procdialogs.cpp:590
 msgid "Alert before ending or _killing processes"
 msgstr "_ముగించుటకు ముందు జాగురూకతగానుండు లేదా క్రమణములు నిర్మూలించు"
 
-#: ../src/procdialogs.cpp:602
+#: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
 msgstr "సొలారిస్ విధము"
 
-#: ../src/procdialogs.cpp:620 ../src/procdialogs.cpp:760
+#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
 msgid "Information Fields"
 msgstr "సమాచార క్షేత్రాలు"
 
-#: ../src/procdialogs.cpp:633
+#: ../src/procdialogs.cpp:635
 msgid "Process i_nformation shown in list:"
 msgstr "_క్రమణ సమాచారము జాబితాలో చూపబడింది:"
 
-#: ../src/procdialogs.cpp:645
+#: ../src/procdialogs.cpp:647
 msgid "Graphs"
 msgstr "రేఖాపటాలు"
 
-#: ../src/procdialogs.cpp:684
+#: ../src/procdialogs.cpp:686
 msgid "Show network speed in bits"
 msgstr "నెట్వర్కు వేగమును బిట్లలో చూపుము"
 
-#: ../src/procdialogs.cpp:746
+#: ../src/procdialogs.cpp:748
 msgid "Show _all filesystems"
 msgstr "అన్ని దస్త్ర వ్యవస్థలను చూపుము"
 
-#: ../src/procdialogs.cpp:773
+#: ../src/procdialogs.cpp:775
 msgid "File system i_nformation shown in list:"
 msgstr "దస్త్రవ్యవస్థ సమాచారము జాబితానందు చూపబడింది:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "ఒక సాదారణ క్రమణము మరియు వ్యవస్థ పర్యవేక్షకి."
 
@@ -973,46 +950,46 @@ msgstr "చివరి 1, 5, 15 నిమిషముల కొరకు సగ
 msgid "Release %s"
 msgstr "%s విడుదల"
 
-#: ../src/sysinfo.cpp:111
+#: ../src/sysinfo.cpp:116
 msgid "Unknown CPU model"
 msgstr "తెలియని సిపియు నమూనా"
 
-#: ../src/sysinfo.cpp:549
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "%s కెర్నెల్"
 
-#: ../src/sysinfo.cpp:562
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "%s గ్నోమ్"
 
 #. hardware section
-#: ../src/sysinfo.cpp:576
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Hardware</b>"
 
-#: ../src/sysinfo.cpp:581
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "జ్ఞాపకశక్తి:"
 
-#: ../src/sysinfo.cpp:588
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "క్రమణిక %d:"
 
-#: ../src/sysinfo.cpp:593
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "క్రమణిక:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:605
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>వ్యవస్థ స్థితి</b>"
 
-#: ../src/sysinfo.cpp:611
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "ఖని ఖాళీ లభ్యత:"
 
@@ -1077,26 +1054,21 @@ msgstr "%.1f GiB"
 
 #: ../src/util.cpp:167
 #, c-format
-#| msgid "%.1f KiB"
 msgid "%.1f kbit"
 msgstr "%.1f kbit"
 
 #: ../src/util.cpp:168
 #, c-format
-#| msgid "%.1f MiB"
 msgid "%.1f Mbit"
 msgstr "%.1f Mbit"
 
 #: ../src/util.cpp:169
 #, c-format
-#| msgid "%.1f GiB"
 msgid "%.1f Gbit"
 msgstr "%.1f Gbit"
 
 #: ../src/util.cpp:184
 #, c-format
-#| msgid "%u byte"
-#| msgid_plural "%u bytes"
 msgid "%u bit"
 msgid_plural "%u bits"
 msgstr[0] "%u bit"
@@ -1118,4 +1090,3 @@ msgstr "<i>N/A</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
-

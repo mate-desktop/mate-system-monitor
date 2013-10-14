@@ -1,33 +1,30 @@
-# translation of procman.HEAD.he.po to Hebrew
-# translation of procman.HEAD.po to Hebrew
-# This file is distributed under the same license as the PACKAGE package.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002, 2003
 # Yair Hershkovitz <yairhr@gmail.com>, 2006
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: procman.HEAD.he\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-monitor&component=general\n"
-"POT-Creation-Date: 2009-05-13 22:23+0000\n"
-"PO-Revision-Date: 2009-07-04 23:21+0200\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:29+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Hebrew (http://www.transifex.com/projects/p/MATE/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.1\n"
+"Language: he\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../mate-system-monitor.desktop.in.in.h:1
-#: ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619
-#: ../src/procman.cpp:724
+#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "מנטר המערכת"
 
-#: ../mate-system-monitor.desktop.in.in.h:2
-#: ../src/callbacks.cpp:158
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
 msgid "View current processes and monitor system state"
 msgstr "הצג את התהליכים הנוכחיים ונטר את מצב המערכת"
 
@@ -37,51 +34,35 @@ msgstr "הצג את לשונית המערכת"
 
 #: ../src/callbacks.cpp:167
 msgid "translator-credits"
-msgstr ""
-"גיל אשר <dolfin@rpg.org.il>\n"
-"יאיר הרשקוביץ <yairhr@gmail.com>\n"
-"Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"\n"
-"פרוייקט תרגום MATE לעברית:\n"
-"‏http://mate-il.berlios.de"
+msgstr "גיל אשר <dolfin@rpg.org.il>\nיאיר הרשקוביץ <yairhr@gmail.com>\nYaron Shahrabani <sh.yaron@gmail.com>\n\nפרוייקט תרגום MATE לעברית:\n‏http://mate-il.berlios.de"
 
-#: ../src/disks.cpp:300
-#: ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "התקן"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "ספרייה"
 
-#: ../src/disks.cpp:302
-#: ../src/gsm_color_button.c:211
-#: ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "סוג"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "סך־הכל"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "חופשי"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "פנוי"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "בשימוש"
-
-#: ../src/disks.cpp:313
-#: ../src/interface.cpp:702
-#: ../src/procdialogs.cpp:703
-#: ../src/procdialogs.cpp:707
-msgid "File Systems"
-msgstr "מערכות קבצים"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -109,238 +90,247 @@ msgid "%b %d %Y"
 msgstr "%d %b %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid "0 for the System Info, 1 for the processes list, 2 for the resources and 3 for the disks list"
-msgstr "0 for the System Info, 1 for the processes list, 2 for the resources and 3 for the disks list"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Default graph cpu color"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Default graph incoming network traffic color"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Default graph mem color"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Default graph outgoing network traffic color"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Default graph swap color"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid "Determines which processes to show by default. 0 is All, 1 is user, and 2 is active"
-msgstr "Determines which processes to show by default. 0 is All, 1 is user, and 2 is active"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Disk view columns order"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Enable/Disable smooth refresh"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid "If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Main Window height"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Main Window width"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Process view columns order"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Main Window height"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Process view sort column"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Process view sort order"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Saves the currently viewed tab"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Show process 'CPU %' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Show process 'CPU time' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Show process 'PID' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Show process 'SELinux security context' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Show process 'Waiting Channel' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Show process 'X server memory' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Show process 'arguments' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Show process 'estimated memory usage' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Show process 'name' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Show process 'nice' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Show process 'owner' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Show process 'resident memory' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Show process 'shared memory' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Show process 'start time' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Show process 'status' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Show process 'virtual memory' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Show process 'writable memory' column on startup"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Show process dependencies in tree form"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Show warning dialog when killing processes"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Solaris mode for CPU percentage"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Time in milliseconds between updates of the devices list"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage is divided by the total number of CPUs. Else it operates in 'Irix mode'."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Time in milliseconds between updates of the graphs"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Enable/Disable smooth refresh"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Show warning dialog when killing processes"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Time in milliseconds between updates of the process view"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Time in milliseconds between updates of the graphs"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "Whether information about all filesystems should be displayed"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
-msgid "Whether to display information about all filesystems (including types like 'autofs' and 'procfs'). Useful for getting a list of all currently mounted filesystems."
+#: ../src/mate-system-monitor.schemas.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
 msgstr "Whether to display information about all filesystems (including types like 'autofs' and 'procfs'). Useful for getting a list of all currently mounted filesystems."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Time in milliseconds between updates of the devices list"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Determines which processes to show by default. 0 is All, 1 is user, and 2 is active"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Saves the currently viewed tab"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 for the System Info, 1 for the processes list, 2 for the resources and 3 for the disks list"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Default graph cpu color"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Default graph mem color"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Default graph swap color"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Default graph incoming network traffic color"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Default graph outgoing network traffic color"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Process view sort column"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Process view columns order"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Process view sort order"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Width of process 'name' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Show process 'name' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Width of process 'owner' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Show process 'owner' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Width of process 'status' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Show process 'status' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Width of process 'virtual memory' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Show process 'virtual memory' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Width of process 'resident memory' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Show process 'resident memory' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Width of process 'writable memory' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Show process 'writable memory' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Width of process 'shared memory' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Show process 'shared memory' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Width of process 'X server memory' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Show process 'X server memory' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "Width of process 'CPU %' column"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Show process 'CPU %' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "Width of process 'CPU time' column"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Show process 'CPU time' column on startup"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Width of process 'PID' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Width of process 'SELinux security context' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Width of process 'Waiting Channel' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Width of process 'X server memory' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Width of process 'arguments' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Width of process 'estimated memory usage' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Width of process 'name' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Width of process 'nice' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Width of process 'owner' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Width of process 'resident memory' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Width of process 'shared memory' column"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "Width of process 'start time' column"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Show process 'start time' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Width of process 'nice' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Show process 'nice' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Width of process 'PID' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Show process 'PID' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Width of process 'SELinux security context' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Show process 'SELinux security context' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Width of process 'arguments' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Show process 'arguments' column on startup"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Width of process 'estimated memory usage' column"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Show process 'estimated memory usage' column on startup"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Width of process 'status' column"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Width of process 'Waiting Channel' column"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Width of process 'virtual memory' column"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Show process 'Waiting Channel' column on startup"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Width of process 'writable memory' column"
+msgid "Disk view columns order"
+msgstr "Disk view columns order"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -358,8 +348,7 @@ msgstr "כותרת"
 msgid "The title of the color selection dialog"
 msgstr "הכותרת של חלון בחירת הצבע"
 
-#: ../src/gsm_color_button.c:198
-#: ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "בחר צבע"
 
@@ -375,11 +364,11 @@ msgstr "הצבע הנבחר"
 msgid "Type of color picker"
 msgstr "סוג בוחר הצבע"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "התקבל מידע צבע לא תקין\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "לחץ להגדרת צבעי הגרף"
 
@@ -429,8 +418,7 @@ msgstr "ה_משך תהליך"
 msgid "Continue process if stopped"
 msgstr "המשך תהליך שנעצר"
 
-#: ../src/interface.cpp:66
-#: ../src/procdialogs.cpp:84
+#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
 msgid "_End Process"
 msgstr "_סיים תהליך"
 
@@ -438,12 +426,10 @@ msgstr "_סיים תהליך"
 msgid "Force process to finish normally"
 msgstr "חייב תהליך להסתיים"
 
-#: ../src/interface.cpp:68
-#: ../src/procdialogs.cpp:75
+#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
 msgid "_Kill Process"
 msgstr "ה_רוג תהליך"
 
-#
 #: ../src/interface.cpp:69
 msgid "Force process to finish immediately"
 msgstr "חייב תהליך להסתיים מיידית"
@@ -549,8 +535,7 @@ msgstr "מעבד־%d"
 msgid "Memory and Swap History"
 msgstr "היסטורית זיכרון ותחלופה"
 
-#: ../src/interface.cpp:359
-#: ../src/proctable.cpp:226
+#: ../src/interface.cpp:359 ../src/proctable.cpp:226
 msgid "Memory"
 msgstr "זיכרון"
 
@@ -583,17 +568,20 @@ msgstr "סה\"כ נשלח"
 msgid "System"
 msgstr "מערכת"
 
-#: ../src/interface.cpp:694
-#: ../src/procdialogs.cpp:523
+#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
 msgstr "תהליכים"
 
-#: ../src/interface.cpp:698
-#: ../src/procdialogs.cpp:638
+#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
 msgstr "משאבים"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "מערכות קבצים"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -601,7 +589,7 @@ msgstr[0] "שניה אחת"
 msgstr[1] "%u שניות"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "‏‎%s ‏(%% %.1f) מתוך ‎%s"
@@ -612,10 +600,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>שגיאה</b>\n"
-"'‏‎%s‏'‏ אינו ביטוי רגולרי תקף של Perl‏.\n"
-"%s"
+msgstr "<b>שגיאה</b>\n'‏‎%s‏'‏ אינו ביטוי רגולרי תקף של Perl‏.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -625,8 +610,7 @@ msgstr "תהליך"
 msgid "PID"
 msgstr "מזהה תהליך"
 
-#: ../src/lsof.cpp:292
-#: ../src/memmaps.cpp:476
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
 msgid "Filename"
 msgstr "שם קובץ"
 
@@ -635,15 +619,15 @@ msgstr "שם קובץ"
 msgid "Search for Open Files"
 msgstr "חפש קבצים פתוחים"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_שם מכיל:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "ללא התאמת רשיות"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "_תוצות חיפוש:"
 
@@ -704,7 +688,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "מפות זיכרון"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "מפות זיכרון עבור התהליך \"%s\" (מזהה תהליך %u):"
@@ -758,18 +742,14 @@ msgstr "קבצים שנפתחו על ידי התהליך \"%s\" (מזהה תהל
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"לא ניתן לשנות את העדיפות לתהליך בעל מזהה התהליך %d ל־%d.\n"
-"%s"
+msgstr "לא ניתן לשנות את העדיפות לתהליך בעל מזהה התהליך %d ל־%d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"לא ניתן לחסל את התהליך בעל מזהה התהליך %d בעזרת האות %d.\n"
-"%s"
+msgstr "לא ניתן לחסל את התהליך בעל מזהה התהליך %d בעזרת האות %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -778,7 +758,9 @@ msgstr "להרוג את התהליך הנבחר?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:72
-msgid "Killing a process may destroy data, break the session or introduce a security risk. Only unresponding processes should be killed."
+msgid ""
+"Killing a process may destroy data, break the session or introduce a "
+"security risk. Only unresponding processes should be killed."
 msgstr "הריגת תהליך עלולה לגרום לאיבוד מידע ופגיעה באבטחה. יש להרוג תהליך שאינו מגיב בלבד."
 
 #. xgettext: primary alert message
@@ -788,105 +770,107 @@ msgstr "לסיים את התהליך?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
-msgid "Ending a process may destroy data, break the session or introduce a security risk. Only unresponding processes should be ended."
+msgid ""
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
 msgstr "סיום תהליך עלול לגרום לאיבוד מידע ופגיעה באבטחה. יש לסיים תהליך שאינו מגיב בלבד."
 
-#: ../src/procdialogs.cpp:113
+#: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
 msgstr "(עדיפות גבוהה מאוד)"
 
-#: ../src/procdialogs.cpp:115
+#: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
 msgstr "(עדיפות גבוהה)"
 
-#: ../src/procdialogs.cpp:117
+#: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
 msgstr "(עדיפות רגילה)"
 
-#: ../src/procdialogs.cpp:119
+#: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
 msgstr "(עדיפות נמוכה)"
 
-#: ../src/procdialogs.cpp:121
+#: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
 msgstr "(עדיפות נמוכה מאוד)"
 
-#: ../src/procdialogs.cpp:173
+#: ../src/procdialogs.cpp:175
 msgid "Change Priority"
 msgstr "שנה עדיפות"
 
-#: ../src/procdialogs.cpp:194
+#: ../src/procdialogs.cpp:196
 msgid "Change _Priority"
 msgstr "שנה _עדיפות"
 
-#: ../src/procdialogs.cpp:215
+#: ../src/procdialogs.cpp:217
 msgid "_Nice value:"
 msgstr "_עדיפות:"
 
-#: ../src/procdialogs.cpp:231
+#: ../src/procdialogs.cpp:233
 msgid "Note:"
 msgstr "הערה:"
 
-#: ../src/procdialogs.cpp:232
-msgid "The priority of a process is given by its nice value. A lower nice value corresponds to a higher priority."
+#: ../src/procdialogs.cpp:234
+msgid ""
+"The priority of a process is given by its nice value. A lower nice value "
+"corresponds to a higher priority."
 msgstr "העדיפות של התהליך. ערך נמוך שווה ערך לעדיפות גבוהה."
 
-#: ../src/procdialogs.cpp:455
+#: ../src/procdialogs.cpp:457
 msgid "Icon"
 msgstr "סמל"
 
-#: ../src/procdialogs.cpp:500
+#: ../src/procdialogs.cpp:502
 msgid "System Monitor Preferences"
 msgstr "העדפות מנטר המערכת"
 
-#: ../src/procdialogs.cpp:530
+#: ../src/procdialogs.cpp:532
 msgid "Behavior"
 msgstr "התנהגות"
 
-#: ../src/procdialogs.cpp:549
-#: ../src/procdialogs.cpp:664
-#: ../src/procdialogs.cpp:726
+#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
+#: ../src/procdialogs.cpp:728
 msgid "_Update interval in seconds:"
 msgstr "מרוח _עדכון בשניות:"
 
-#: ../src/procdialogs.cpp:574
+#: ../src/procdialogs.cpp:576
 msgid "Enable _smooth refresh"
 msgstr "אפשר _רענון חלק"
 
-#: ../src/procdialogs.cpp:588
+#: ../src/procdialogs.cpp:590
 msgid "Alert before ending or _killing processes"
 msgstr "התרע לפני _סיום או הריגת תהליכים"
 
-#: ../src/procdialogs.cpp:602
+#: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
 msgstr "מצב Solaris"
 
-#: ../src/procdialogs.cpp:620
-#: ../src/procdialogs.cpp:760
+#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
 msgid "Information Fields"
 msgstr "שדות מידע"
 
-#: ../src/procdialogs.cpp:633
+#: ../src/procdialogs.cpp:635
 msgid "Process i_nformation shown in list:"
 msgstr "_מידע על תהליכים אשר מוצג ברשימה:"
 
-#: ../src/procdialogs.cpp:645
+#: ../src/procdialogs.cpp:647
 msgid "Graphs"
 msgstr "גרפים"
 
-#: ../src/procdialogs.cpp:684
+#: ../src/procdialogs.cpp:686
 msgid "Show network speed in bits"
 msgstr "הצגת מהירות הרשת בסיביות"
 
-#: ../src/procdialogs.cpp:746
+#: ../src/procdialogs.cpp:748
 msgid "Show _all filesystems"
 msgstr "הצג את _כל מערכות הקבצים"
 
-#: ../src/procdialogs.cpp:773
+#: ../src/procdialogs.cpp:775
 msgid "File system i_nformation shown in list:"
 msgstr "_מידע על מערכות קבצים אשר מוצג ברשימה:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "מנטר תהליכים ומערכת פשוט."
 
@@ -966,46 +950,46 @@ msgstr "ממוצעי עומס עבור ‎1, 5, 15 הדקות האחרונות: 
 msgid "Release %s"
 msgstr "הוצאה %s"
 
-#: ../src/sysinfo.cpp:111
+#: ../src/sysinfo.cpp:116
 msgid "Unknown CPU model"
 msgstr "מודל מעבד לא ידוע"
 
-#: ../src/sysinfo.cpp:549
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "ליבה %s"
 
-#: ../src/sysinfo.cpp:562
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:576
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>חומרה</b>"
 
-#: ../src/sysinfo.cpp:581
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "זיכרון:"
 
-#: ../src/sysinfo.cpp:588
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "מעבד %d:"
 
-#: ../src/sysinfo.cpp:593
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "מעבד:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:605
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>סטטוס מערכת</b>"
 
-#: ../src/sysinfo.cpp:611
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "מקום פנוי בדיסק:"
 
@@ -1070,26 +1054,21 @@ msgstr "%.1f ג\"ב"
 
 #: ../src/util.cpp:167
 #, c-format
-#| msgid "%.1f KiB"
 msgid "%.1f kbit"
 msgstr "%.1f ק\"ס"
 
 #: ../src/util.cpp:168
 #, c-format
-#| msgid "%.1f MiB"
 msgid "%.1f Mbit"
 msgstr "%.1f מ\"ס"
 
 #: ../src/util.cpp:169
 #, c-format
-#| msgid "%.1f GiB"
 msgid "%.1f Gbit"
 msgstr "%.1f ג\"ס"
 
 #: ../src/util.cpp:184
 #, c-format
-#| msgid "%u byte"
-#| msgid_plural "%u bytes"
 msgid "%u bit"
 msgid_plural "%u bits"
 msgstr[0] "סיבית אחת"
@@ -1111,283 +1090,3 @@ msgstr "<i>לא זמין</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/שניה"
-
-#~ msgid "Default graph background color"
-#~ msgstr "Default graph background color"
-#~ msgid "Default graph frame color"
-#~ msgstr "Default graph frame color"
-#~ msgid "_Quit"
-#~ msgstr "_יציאה"
-#~ msgid "Prefere_nces"
-#~ msgstr "הע_דפות"
-#~ msgid "_About"
-#~ msgstr "_אודות"
-#~ msgid "User memory:"
-#~ msgstr "זיכרון משתמש:"
-#~ msgid "of"
-#~ msgstr "מתוך"
-#~ msgid "Used swap:"
-#~ msgstr "תחלופה בשימוש:"
-#~ msgid "Total:"
-#~ msgstr "סך-הכל:"
-#~ msgid "Sent:"
-#~ msgstr "נשלח:"
-#~ msgid "_Background color:"
-#~ msgstr "צבע _רקע:"
-#~ msgid "_Grid color:"
-#~ msgstr "צבע ר_שת:"
-#~ msgid "No hidden processes"
-#~ msgstr "אין תהליכים נסתרים"
-#~ msgid ""
-#~ "There are no hidden processes in the list. To show all running processes, "
-#~ "select the \"All processes\" option in the main window."
-#~ msgstr ""
-#~ "אין תהליכים נסתרים ברשימה. על מנת להראות את כל התהליכים הרצים, יש לבחור "
-#~ "באפשרות \"כל התהליכים\" בחלון הראשי."
-#~ msgid "Hidden Processes"
-#~ msgstr "תהליכים נסתרים"
-#~ msgid "Currently _hidden processes:"
-#~ msgstr "תהליכים _נסתרים:"
-#~ msgid "_Remove From List"
-#~ msgstr "_הסר מהרשימה"
-#~ msgid ""
-#~ "These are the processes you have chosen to hide. You can reshow a process "
-#~ "by removing it from this list."
-#~ msgstr ""
-#~ "אילו התהליכים שבחרת להסתיר. ניתן להציג מחדש תהליך על-ידי הסרתו מהרשימה "
-#~ "הזו."
-#~ msgid "Column zero saved width"
-#~ msgstr "Column zero saved width"
-#~ msgid "Default graph net out color"
-#~ msgstr "Default graph net out color"
-#~ msgid "Show column zero on startup"
-#~ msgstr "Show column zero on startup"
-#~ msgid "Show process threads"
-#~ msgstr "Show process threads"
-#~ msgid "Show warning dialog when hiding processes"
-#~ msgstr "Show warning dialog when hiding processes"
-#~ msgid "_Hide Process"
-#~ msgstr "_הסתר תהליך"
-#~ msgid "_Hidden Processes"
-#~ msgstr "תהליכים _נסתרים"
-#~ msgid "Open the list of currently hidden processes"
-#~ msgstr "פתח את רשימת התהליכים הנסתרים"
-#~ msgid "Hide the selected process?"
-#~ msgstr "להסתיר את התהליך הנבחר?"
-#~ msgid ""
-#~ "Hidden processes are no longer visible in the process list. You can re-"
-#~ "enable them by selecting the \"Hidden Processes\" entry in the View menu."
-#~ msgstr ""
-#~ "תהליכים מוסתרים אינם נראים יותר ברשימת התהליכים. באפשרותך להחזיר אותם על "
-#~ "ידי בחירה באפשרות \"תהליכים מוסתרים\" שבתפריט התצוגה."
-#~ msgid "Alert before _hiding processes"
-#~ msgstr "התרה לפני ה_סתרת תליכים"
-#~ msgid "Unknown distribution"
-#~ msgstr "הפצה לא ידועה"
-#~ msgid "Unknown release"
-#~ msgstr "הוצאה לא ידועה"
-#~ msgid "Release %s (%s)"
-#~ msgstr "הוצאה  %s (%s)"
-#~ msgid "Process CPU % column saved width"
-#~ msgstr "Process CPU % column saved width"
-#~ msgid "Process CPU time column saved width"
-#~ msgstr "Process CPU time column saved width"
-#~ msgid "Process PID column saved width"
-#~ msgstr "Process PID column saved width"
-#~ msgid "Process SELinux security context column saved width"
-#~ msgstr "Process SELinux security context column saved width"
-#~ msgid "Process arguments column saved width"
-#~ msgstr "Process arguments column saved width"
-#~ msgid "Process name column saved width"
-#~ msgstr "Process name column saved width"
-#~ msgid "Process nice column saved width"
-#~ msgstr "Process nice column saved width"
-#~ msgid "Process owner column saved width"
-#~ msgstr "Process owner column saved width"
-#~ msgid "Process resident memory column saved width"
-#~ msgstr "Process resident memory column saved width"
-#~ msgid "Process shared memory column saved width"
-#~ msgstr "Process shared memory column saved width"
-#~ msgid "Process start time column saved width"
-#~ msgstr "Process start time column saved width"
-#~ msgid "Process status column saved width"
-#~ msgstr "Process status column saved width"
-#~ msgid "Process virtual memory column saved width"
-#~ msgstr "Process virtual memory column saved width"
-#~ msgid "Show process writable memory column saved width"
-#~ msgstr "Show process writable memory column saved width"
-#~ msgid "Process Fields"
-#~ msgstr "שדות תהליך"
-#~ msgid "Arguments"
-#~ msgstr "ארגומנטים"
-#~ msgid "%.1f ק\"ב"
-#~ msgstr "%.1f ק\"ב"
-#~ msgid "%.1f מ\"ב"
-#~ msgstr "%.1f מ\"ב"
-#~ msgid "%.1f ג\"ב"
-#~ msgstr "%.1f ג\"ב"
-
-#, fuzzy
-#~ msgid "Kevin Vandersloot"
-#~ msgstr "(C) 2001 Kevin Vandersloot"
-
-#, fuzzy
-#~ msgid "Jorgen Scheibengruber - nicer devices treeview"
-#~ msgstr "Jorgen Scheibengruber <mfcn@gmx.de> - תצוגת עץ יפה יותר להתקנים"
-#~ msgid "(C) 2001 Kevin Vandersloot"
-#~ msgstr "(C) 2001 Kevin Vandersloot"
-#~ msgid "Simple process viewer using libgtop"
-#~ msgstr "מציג תהליכים פשוט בעזרת libgtop"
-#~ msgid "X window system"
-#~ msgstr "מערכת חלונות X"
-#~ msgid "bourne again shell"
-#~ msgstr "מעטפת bourne again"
-#~ msgid "Mate-Session"
-#~ msgstr "תצורת הפעלה של Mate"
-#~ msgid "No processes are currently hidden."
-#~ msgstr "אין תהליכים נסתרים כרגע."
-#~ msgid "Manage Hidden Processes"
-#~ msgstr "ניהול תהליכים נסתרים"
-#~ msgid "Process Info"
-#~ msgstr "מידע תהליך"
-#~ msgid "Status:"
-#~ msgstr "מצב:"
-#~ msgid "Priority:"
-#~ msgstr "עדיפות:"
-#~ msgid "Memory Usage"
-#~ msgstr "שימוש בזיכרון"
-#~ msgid "RSS:"
-#~ msgstr "RSS:"
-#~ msgid "Very high - nice %d"
-#~ msgstr "מאוד גבוהה - nice %d"
-#~ msgid "High - nice %d"
-#~ msgstr "גבוהה - nice %d"
-#~ msgid "Normal - nice %d"
-#~ msgstr "רגילה - nice %d"
-#~ msgid "Low - nice %d"
-#~ msgstr "נמוכה - nice %d"
-#~ msgid "Very low - nice %d"
-#~ msgstr "מאוד נמוכה - nice %d"
-#~ msgid "Force a process to finish."
-#~ msgstr "חייב את התהליך להסתיים"
-#~ msgid "Force a process to finish now."
-#~ msgstr "חייב תהליך להסתיים עכשיו."
-#~ msgid "Display a tree showing process dependencies"
-#~ msgstr "הצג עץ המראה את תלויות התהליכים"
-#~ msgid "_Threads"
-#~ msgstr "_תת-תהליכים"
-#~ msgid "Display threads (subprocesses)"
-#~ msgstr "הצג תת-תהליכים"
-#~ msgid "More _Info >>"
-#~ msgstr "עוד _מידע >>"
-#~ msgid "<< Less _Info"
-#~ msgstr "<< פחות _מידע"
-#~ msgid "Sea_rch:"
-#~ msgstr "_חיפוש:"
-#~ msgid "More _Info"
-#~ msgstr "עוד _מידע"
-#~ msgid "Name"
-#~ msgstr "שם"
-#~ msgid "Devices"
-#~ msgstr "התקנים"
-#~ msgid "Application Manager"
-#~ msgstr "מנהל יישומים"
-#~ msgid "Running Applications"
-#~ msgstr "יישומים מופעלים"
-#~ msgid ""
-#~ "Process Name : %s \n"
-#~ "\n"
-#~ "You do not have permission to change the priority of this process. You "
-#~ "can enter the root password to gain the necessary permission."
-#~ msgstr ""
-#~ "שם התהליך : %s \n"
-#~ "\n"
-#~ "אין לך הרשאות לשנות את העדיפות של התהליך הזה. אתה יכול להזין את סיסמת "
-#~ "root כדי לקבל את ההרשאות הדרושות."
-#~ msgid ""
-#~ "Process Name : %s \n"
-#~ "\n"
-#~ "You must be root to renice a process lower than 0. You can enter the root "
-#~ "password to gain the necessary permission."
-#~ msgstr ""
-#~ "שם התהליך : %s \n"
-#~ "\n"
-#~ "אתה חייב להיות root כדי לשנות את העדיפות של התהליך מתחת ל 0. אתה יכול "
-#~ "להזין את סיסמת root כדי לקבל את ההרשאות הדרושות."
-#~ msgid ""
-#~ "Process Name : %s \n"
-#~ "\n"
-#~ "You do not have permission to end this process. You can enter the root "
-#~ "password to gain the necessary permission."
-#~ msgstr ""
-#~ "שם התהליך : %s \n"
-#~ "\n"
-#~ "אין לך הרשאות לשנות לסיים תהליך זה. אתה יכול להזין את סיסמת root כדי לקבל "
-#~ "את ההרשאות הדרושות."
-#~ msgid "An error occured while killing the process."
-#~ msgstr "ארעה שגיאה בזמן הריגת התהליך."
-
-#, fuzzy
-#~ msgid "_Show this dialog next time"
-#~ msgstr "הצג תיבת דו-שיח זו בפעם הבאה."
-
-#, fuzzy
-#~ msgid "If you kill a process, unsaved data will be lost."
-#~ msgstr "מידע לא שמור יאבד."
-
-#, fuzzy
-#~ msgid "If you end a process, unsaved data will be lost."
-#~ msgstr "מידע לא שמור יאבד."
-
-#, fuzzy
-#~ msgid "Update _interval:"
-#~ msgstr "ה_שהיית עדכון ( שניות) :"
-#~ msgid "Kill Process"
-#~ msgstr "הרוג תהליך"
-#~ msgid "End Process"
-#~ msgstr "סיים תהליך"
-#~ msgid "Root Password :"
-#~ msgstr "סיסמת root :"
-#~ msgid "Wrong Password."
-#~ msgstr "סיסמה שגוייה."
-#~ msgid "show simple dialog to end processes and logout"
-#~ msgstr "הצג תיבת דו-שיח פשוטה לסיום תהליכים והתנתקות"
-#~ msgid "RSS Memory"
-#~ msgstr "זיכרון RSS"
-#~ msgid " (thread)"
-#~ msgstr " (תת-תהליך)"
-#~ msgid "%s could not be found."
-#~ msgstr "לא ניתן למצוא את %s."
-#~ msgid "%d K"
-#~ msgstr "%d K"
-#~ msgid "Kevin Vandersloot (kfv101@psu.edu)"
-#~ msgstr "Kevin Vandersloot (kfv101@psu.edu)"
-#~ msgid "View processes being run by all users"
-#~ msgstr "מציג את התהליכים שמופעלים על-ידי כל המשתמשים"
-#~ msgid "View processes being run by you"
-#~ msgstr "מציג את התהליכים שמופעלים על-ידך"
-#~ msgid "Used CPU:"
-#~ msgstr "מעבד בשימוש:"
-#~ msgid "Change Priority ..."
-#~ msgstr "שנה עדיפות ..."
-#~ msgid "Hide Process"
-#~ msgstr "הסתר תהליך"
-#~ msgid ""
-#~ "Are you sure you want to hide this process?\n"
-#~ "(Choose 'Hidden Processes' in the Settings menu to reshow)"
-#~ msgstr ""
-#~ "אתה בטוח שברצונך להסתיר את תהליך זה? (בחר 'תהליכים נסתרים' בתפריט ההגדרות "
-#~ "כדי להציגו מחדש)"
-#~ msgid "Erik Johnsson (zaphod@linux.nu) - initial icon support"
-#~ msgstr "Erik Johnsson (zaphod@linux.nu) - תמיכה בסמלים פנימיים"
-#~ msgid "Status : "
-#~ msgstr "מצב : "
-#~ msgid "Total : "
-#~ msgstr "סך-הכל : "
-#~ msgid "Update Speed ( seconds ) :"
-#~ msgstr "מהירות עדכון ( שניות ) :"
-#~ msgid "Se_t"
-#~ msgstr "ק_בע"
-#~ msgid "Used Space"
-#~ msgstr "שטח בשימוש"
-

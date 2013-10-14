@@ -1,1070 +1,1096 @@
-# procman yn Gymraeg.
-# Copyright (C) 2003, The Free Software Foundation.
-# This file is distributed under the same license as the procman package.
-# Dafydd Harries <daf@muse.19inch.net>, 2003 2004.
-#
-# Geirfa:
-# [rj] Lladd proses, nid llofruddio proses
-#      (mwy cywir o fewn y cyd-destun, rwy'n credu)
-# [rj] Lluosog edefyn yw edafedd, *nid* edefynnau!
-# [rj] Zombie = proses amhosib ei lladd (awgrym yn unig)
-# [rj] Benywaidd yw proses (yn ôl y Termiadur Ysgol gwreiddiol)
-#
-# [rj] Wedi gyrru'r cyfan drwy Cysill, 29ain Mai 2005
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: procman\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-25 19:52+0000\n"
-"PO-Revision-Date: 2006-02-22 23:13-0000\n"
-"Last-Translator: Rhys Jones <rhys@sucs.org>\n"
-"Language-Team: Cymraeg <mate-cy@www.linux.org.uk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:27+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Welsh (http://www.transifex.com/projects/p/MATE/language/cy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n==2) ? 1 : 0\n"
+"Language: cy\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 
-#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.c:164
-#: ../src/interface.c:666
+#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Arsylwr System"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.c:165
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
 msgid "View current processes and monitor system state"
 msgstr "Gweld prosesau cyfredol ac arsylwi cyflwr y system"
 
-#: ../src/callbacks.c:173
-msgid "translator-credits"
+#: ../src/argv.cpp:18
+msgid "Show the System tab"
 msgstr ""
-"Dafydd Harries <daf@muse.19inch.net>\n"
-"Rhys Jones <rhys@sucs.org>"
 
-#: ../src/disks.c:204 ../src/memmaps.c:302
+#: ../src/callbacks.cpp:167
+msgid "translator-credits"
+msgstr "Dafydd Harries <daf@muse.19inch.net>\nRhys Jones <rhys@sucs.org>"
+
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Dyfais"
 
-#: ../src/disks.c:205
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Cyfeiriadur"
 
-#: ../src/disks.c:206 ../src/openfiles.c:232
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Math"
 
-#: ../src/disks.c:207
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Cyfanswm"
 
-#: ../src/disks.c:208
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Rhydd"
 
-#: ../src/disks.c:209
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Ar gael"
 
-#: ../src/disks.c:210
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Defnydd"
 
-#: ../src/disks.c:217 ../src/interface.c:745 ../src/procdialogs.c:770
-#: ../src/procdialogs.c:774
-msgid "Devices"
-msgstr "Dyfeisiau"
-
-#: ../src/e_date.c:154
+#. xgettext: ? stands for unknown
+#: ../src/e_date.c:155
 msgid "?"
 msgstr "?"
 
-#: ../src/e_date.c:161
+#: ../src/e_date.c:162
 msgid "Today %l:%M %p"
 msgstr "Heddiw %l:%M %p"
 
-#: ../src/e_date.c:170
+#: ../src/e_date.c:171
 msgid "Yesterday %l:%M %p"
 msgstr "Ddoe %l:%M %p"
 
-#: ../src/e_date.c:182
+#: ../src/e_date.c:183
 msgid "%a %l:%M %p"
 msgstr "%a %l:%M %p"
 
-#: ../src/e_date.c:190
+#: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
 msgstr "%b %d %l:%M %p"
 
-#: ../src/e_date.c:192
+#: ../src/e_date.c:193
 msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
-#. translators: primary alert message
-#: ../src/favorites.c:350
-msgid "No hidden processes"
-msgstr "Dim prosesau cudd"
-
-#. translators: secondary alert message
-#: ../src/favorites.c:357
-msgid ""
-"There are no hidden processes in the list. To show all running processes, "
-"select the \"All processes\" option in the main window."
-msgstr ""
-"Does yna ddim prosesau cudd yn y rhestr. I ddangos bob proses sy'n rhedeg, "
-"dewiswch yr opsiwn \"Pob proses\" yn y brif ffenestr."
-
-#: ../src/favorites.c:377
-msgid "Hidden Processes"
-msgstr "Prosesau Cudd"
-
-#: ../src/favorites.c:401
-msgid "Currently _hidden processes:"
-msgstr "Prosesau sy'n _gudd ar hyn o bryd:"
-
-#: ../src/favorites.c:423
-msgid "_Remove From List"
-msgstr "_Gwaredu o'r Rhestr"
-
-#: ../src/favorites.c:432 ../src/procdialogs.c:285
-msgid "Note:"
-msgstr "Nodyn:"
-
-#: ../src/favorites.c:433
-msgid ""
-"These are the processes you have chosen to hide. You can reshow a process by "
-"removing it from this list."
-msgstr ""
-"Dyma'r prosesau rydych chi wedi dewis eu cuddio. Gallwch ail-ddangos proses "
-"drwy ei gwaredu o'r rhestr hon."
-
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid "Column zero saved width"
-msgstr "Lled o ddim wedi ei gadw ar gyfer y golofn"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph background color"
-msgstr "Lliw rhagosodedig cefndir graff"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph cpu color"
-msgstr "Lliw rhagosodedig cpu ar y graff"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph frame color"
-msgstr "Lliw rhagosodedig ffrâm ar y graff"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph mem color"
-msgstr "Lliw rhagosodedig cof ar y graff"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph net in color"
-msgstr "Lliw rhagosodedig rhwyd allan ar y graff"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid "Default graph net out color"
-msgstr "Lliw rhagosodedig rhwyd i mewn ar y graff"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Default graph swap color"
-msgstr "Lliw rhagosodedig cyfnewid ar y graff"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Pennu pa brosesau i'w dangos yn ragosodedig. 0 ar gyfer y cyfan, 1 ar gyfer "
-"rhai'r defnyddiwr, a 2 ar gyfer y rhai gweithredol"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid "Disk view columns order"
-msgstr "Trefn colofnau golwg disg"
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Enable/Disable smooth refresh"
-msgstr "Galluogi/analluogi adnewyddu llyfn"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
-msgid "Main Window height"
-msgstr "Uchder prif ffenestr"
-
-#: ../src/mate-system-monitor.schemas.in.h:13
 msgid "Main Window width"
 msgstr "Lled prif ffenestr"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view columns order"
-msgstr "Trefn colofnau golwg proses"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Uchder prif ffenestr"
 
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort column"
-msgstr "Colofn trefn golwg proses"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Process view sort order"
-msgstr "Trefn ddidoli golwg proses"
-
-#: ../src/mate-system-monitor.schemas.in.h:17
-msgid "Saves the currently viewed tab"
-msgstr "Cadw'r tab a welir ar hyn o bryd"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-msgid "Show column zero on startup"
-msgstr "Dangos colofn sero wrth ddechrau"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Dangos dibyniaethau prosesau ar ffurf coeden"
 
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process threads"
-msgstr "Dangos edafedd prosesau"
+#: ../src/mate-system-monitor.schemas.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr ""
 
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show warning dialog when hiding processes"
-msgstr "Dangos deialog rhybudd wrth guddio prosesau"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr ""
 
-#: ../src/mate-system-monitor.schemas.in.h:22
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Galluogi/analluogi adnewyddu llyfn"
+
+#: ../src/mate-system-monitor.schemas.in.h:7
 msgid "Show warning dialog when killing processes"
 msgstr "Dangos deialog rhybudd wrth ladd prosesau"
 
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Amser, mewn milfedau eiliadau, rhwng diweddariadau'r rhestr ddyfais"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Amser, mewn milfedau eiliadau, rhwng diweddariadau'r graffiau"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Amser, mewn milfedau eiliadau, rhwng diweddariadau'r golwg broses"
 
-#: ../src/mate-system-monitor.schemas.in.h:26
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Amser, mewn milfedau eiliadau, rhwng diweddariadau'r graffiau"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "A ddylid dangos gwybodaeth am bob system ffeil"
 
-#: ../src/mate-system-monitor.schemas.in.h:27
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
+msgstr "A ddylid dangos gwybodaeth am bob system ffeil (yn cynnwys mathau 'autofs' a 'procfs'). Defnyddiol os am gael rhestr o bob system ffeil sydd wedi'i osod ar hyn o bryd."
+
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Amser, mewn milfedau eiliadau, rhwng diweddariadau'r rhestr ddyfais"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Pennu pa brosesau i'w dangos yn ragosodedig. 0 ar gyfer y cyfan, 1 ar gyfer rhai'r defnyddiwr, a 2 ar gyfer y rhai gweithredol"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Cadw'r tab a welir ar hyn o bryd"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
 msgstr ""
-"A ddylid dangos gwybodaeth am bob system ffeil (yn cynnwys mathau 'autofs' a "
-"'procfs'). Defnyddiol os am gael rhestr o bob system ffeil sydd wedi'i osod "
-"ar hyn o bryd."
 
-#: ../src/interface.c:46
-msgid "_File"
-msgstr "_Ffeil"
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Lliw rhagosodedig cpu ar y graff"
 
-#: ../src/interface.c:47
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Lliw rhagosodedig cof ar y graff"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Lliw rhagosodedig cyfnewid ar y graff"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Colofn trefn golwg proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Trefn colofnau golwg proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Trefn ddidoli golwg proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:41
+#, no-c-format
+msgid "Width of process 'CPU %' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:44
+msgid "Width of process 'CPU time' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:46
+msgid "Width of process 'start time' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:58
+msgid "Width of process 'Waiting Channel' column"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:59
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr ""
+
+#: ../src/mate-system-monitor.schemas.in.h:60
+msgid "Disk view columns order"
+msgstr "Trefn colofnau golwg disg"
+
+#: ../src/gsm_color_button.c:188
+msgid "Fraction"
+msgstr ""
+
+#: ../src/gsm_color_button.c:189
+msgid "Percentage full for pie colour pickers"
+msgstr ""
+
+#: ../src/gsm_color_button.c:196
+msgid "Title"
+msgstr ""
+
+#: ../src/gsm_color_button.c:197
+msgid "The title of the color selection dialog"
+msgstr ""
+
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
+msgid "Pick a Color"
+msgstr ""
+
+#: ../src/gsm_color_button.c:204
+msgid "Current Color"
+msgstr ""
+
+#: ../src/gsm_color_button.c:205
+msgid "The selected color"
+msgstr ""
+
+#: ../src/gsm_color_button.c:212
+msgid "Type of color picker"
+msgstr ""
+
+#: ../src/gsm_color_button.c:533
+msgid "Received invalid color data\n"
+msgstr ""
+
+#: ../src/gsm_color_button.c:631
+msgid "Click to set graph colors"
+msgstr ""
+
+#. xgettext: noun, top level menu.
+#. "File" did not make sense for system-monitor
+#: ../src/interface.cpp:50
+msgid "_Monitor"
+msgstr ""
+
+#: ../src/interface.cpp:51
 msgid "_Edit"
 msgstr "_Golygu"
 
-#: ../src/interface.c:48
+#: ../src/interface.cpp:52
 msgid "_View"
 msgstr "_Golwg"
 
-#: ../src/interface.c:49
+#: ../src/interface.cpp:53
 msgid "_Help"
 msgstr "_Cymorth"
 
-#: ../src/interface.c:51
-msgid "_Quit"
-msgstr "_Gorffen"
+#: ../src/interface.cpp:55
+msgid "Search for _Open Files"
+msgstr ""
 
-#: ../src/interface.c:52
+#: ../src/interface.cpp:56
+msgid "Search for open files"
+msgstr ""
+
+#: ../src/interface.cpp:58
 msgid "Quit the program"
 msgstr "Gorffen y rhaglen"
 
-#: ../src/interface.c:55
+#: ../src/interface.cpp:61
 msgid "_Stop Process"
 msgstr "_Diweddu Proses"
 
-#: ../src/interface.c:56
+#: ../src/interface.cpp:62
 msgid "Stop process"
 msgstr "Diweddu proses"
 
-#: ../src/interface.c:57
+#: ../src/interface.cpp:63
 msgid "_Continue Process"
 msgstr "_Parhau Proses"
 
-#: ../src/interface.c:58
+#: ../src/interface.cpp:64
 msgid "Continue process if stopped"
 msgstr "Parhau proses os yw wedi diweddu"
 
-#: ../src/interface.c:60 ../src/interface.c:188
-msgid "End _Process"
-msgstr "Diweddu _Proses"
+#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
+msgid "_End Process"
+msgstr "_Diweddu Proses"
 
-#: ../src/interface.c:61
+#: ../src/interface.cpp:67
 msgid "Force process to finish normally"
 msgstr "Gorfodi proses i orffen yn naturiol"
 
-#: ../src/interface.c:62 ../src/procdialogs.c:129
+#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
 msgid "_Kill Process"
 msgstr "_Lladd Proses"
 
-#: ../src/interface.c:63
+#: ../src/interface.cpp:69
 msgid "Force process to finish immediately"
 msgstr "Gorfodi proses i orffen yn syth"
 
-#: ../src/interface.c:64
+#: ../src/interface.cpp:70
 msgid "_Change Priority..."
 msgstr "_Newid Blaenoriaeth..."
 
-#: ../src/interface.c:65
+#: ../src/interface.cpp:71
 msgid "Change the order of priority of process"
 msgstr "Newid trefn pwysigrwydd proses"
 
-#: ../src/interface.c:66
-msgid "Prefere_nces"
-msgstr "_Hoffterau"
-
-#: ../src/interface.c:67
+#: ../src/interface.cpp:73
 msgid "Configure the application"
 msgstr "Cyflunio'r rhaglen"
 
-#: ../src/interface.c:69 ../src/procdialogs.c:85
-msgid "_Hide Process"
-msgstr "_Cuddio'r Proses"
+#: ../src/interface.cpp:75
+msgid "_Refresh"
+msgstr ""
 
-#: ../src/interface.c:70
-msgid "Hide process from list"
-msgstr "Cuddio proses o'r rhestr"
+#: ../src/interface.cpp:76
+msgid "Refresh the process list"
+msgstr ""
 
-#: ../src/interface.c:71
-msgid "_Hidden Processes"
-msgstr "Prosesau _Cudd"
-
-#: ../src/interface.c:72
-msgid "Open the list of currently hidden processes"
-msgstr "Agor y rhestr o brosesau sy'n gudd ar hyn o bryd"
-
-#: ../src/interface.c:73
+#: ../src/interface.cpp:78
 msgid "_Memory Maps"
 msgstr "_Mapiau Cof"
 
-#: ../src/interface.c:74
+#: ../src/interface.cpp:79
 msgid "Open the memory maps associated with a process"
 msgstr "Agor y mapiau cof a gysylltir â phroses"
 
-#: ../src/interface.c:75
+#: ../src/interface.cpp:80
 msgid "Open _Files"
 msgstr "Agor _Ffeiliau"
 
-#: ../src/interface.c:76
+#: ../src/interface.cpp:81
 msgid "View the files opened by a process"
 msgstr "Gweld y ffeiliau agorwyd gan broses"
 
-#: ../src/interface.c:78
+#: ../src/interface.cpp:83
 msgid "_Contents"
 msgstr "_Cynnwys"
 
-#: ../src/interface.c:79
+#: ../src/interface.cpp:84
 msgid "Open the manual"
 msgstr "Agor y llawlyfr"
 
-#: ../src/interface.c:80
-msgid "_About"
-msgstr "_Ynghylch"
-
-#: ../src/interface.c:81
+#: ../src/interface.cpp:86
 msgid "About this application"
 msgstr "Ynghylch y rhaglen hon"
 
-#: ../src/interface.c:86
+#: ../src/interface.cpp:91
 msgid "_Dependencies"
 msgstr "_Dibyniaethau"
 
-#: ../src/interface.c:87
+#: ../src/interface.cpp:92
 msgid "Show parent/child relationship between processes"
 msgstr "Dangos perthynas rhiant/plentyn rhwng prosesau"
 
-#: ../src/interface.c:94
+#: ../src/interface.cpp:99
 msgid "_Active Processes"
 msgstr "_Prosesau gweithredol"
 
-#: ../src/interface.c:95
+#: ../src/interface.cpp:100
 msgid "Show active processes"
 msgstr "Dangos prosesau gweithredol"
 
-#: ../src/interface.c:96
+#: ../src/interface.cpp:101
 msgid "A_ll Processes"
 msgstr "_Pob proses"
 
-#: ../src/interface.c:97
+#: ../src/interface.cpp:102
 msgid "Show all processes"
 msgstr "Dangos bob proses"
 
-#: ../src/interface.c:98
+#: ../src/interface.cpp:103
 msgid "M_y Processes"
 msgstr "Fy _mhrosesau i"
 
-#: ../src/interface.c:99
+#: ../src/interface.cpp:104
 msgid "Show user own process"
 msgstr "Dangos prosesau'r defnyddiwr ei hun"
 
-#: ../src/interface.c:260
+#: ../src/interface.cpp:189
+msgid "End _Process"
+msgstr "Diweddu _Proses"
+
+#: ../src/interface.cpp:243
 msgid "CPU History"
 msgstr "Hanes CPU"
 
-#: ../src/interface.c:303
-msgid "CPU:"
-msgstr "CPU:"
+#: ../src/interface.cpp:300
+msgid "CPU"
+msgstr ""
 
-#: ../src/interface.c:306
+#: ../src/interface.cpp:302
 #, c-format
-msgid "CPU%d:"
-msgstr "CPU%d:"
+msgid "CPU%d"
+msgstr ""
 
-#: ../src/interface.c:326
+#: ../src/interface.cpp:320
 msgid "Memory and Swap History"
 msgstr "Hanes Cof a Chyfnewid"
 
-#: ../src/interface.c:359
-msgid "User memory:"
-msgstr "Cof defnyddiwr:"
+#: ../src/interface.cpp:359 ../src/proctable.cpp:226
+msgid "Memory"
+msgstr ""
 
-#: ../src/interface.c:377 ../src/interface.c:437
-msgid "of"
-msgstr "o"
+#: ../src/interface.cpp:385
+msgid "Swap"
+msgstr ""
 
-#: ../src/interface.c:418
-msgid "Used swap:"
-msgstr "Defnydd cyfnewid:"
-
-#: ../src/interface.c:477
+#: ../src/interface.cpp:406
 msgid "Network History"
 msgstr "Hanes Rhwydwaith"
 
-#: ../src/interface.c:509
-msgid "Received:"
-msgstr "Wedi derbyn:"
+#: ../src/interface.cpp:445
+msgid "Receiving"
+msgstr ""
 
-#: ../src/interface.c:529 ../src/interface.c:572
-msgid "Total:"
-msgstr "Cyfanswm:"
+#: ../src/interface.cpp:466
+msgid "Total Received"
+msgstr ""
 
-#: ../src/interface.c:553
-msgid "Sent:"
-msgstr "Wedi anfon"
+#: ../src/interface.cpp:500
+msgid "Sending"
+msgstr ""
 
-#: ../src/interface.c:733 ../src/procdialogs.c:579
+#: ../src/interface.cpp:522
+msgid "Total Sent"
+msgstr ""
+
+#. procman_create_sysinfo_view();
+#: ../src/interface.cpp:690
+msgid "System"
+msgstr ""
+
+#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
 msgstr "Prosesau"
 
-#: ../src/interface.c:739 ../src/procdialogs.c:682
+#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
 msgstr "Adnoddau"
 
-#: ../src/load-graph.c:368 ../src/load-graph.c:378
-#, c-format
-msgid "%s/s"
-msgstr "%s/eiliad"
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr ""
 
-#: ../src/memmaps.c:296
+#: ../src/load-graph.cpp:155
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. xgettext: 540MiB (53 %) of 1.0 GiB
+#: ../src/load-graph.cpp:330
+#, c-format
+msgid "%s (%.1f %%) of %s"
+msgstr ""
+
+#: ../src/lsof.cpp:124
+#, c-format
+msgid ""
+"<b>Error</b>\n"
+"'%s' is not a valid Perl regular expression.\n"
+"%s"
+msgstr ""
+
+#: ../src/lsof.cpp:270
+msgid "Process"
+msgstr ""
+
+#: ../src/lsof.cpp:282
+msgid "PID"
+msgstr ""
+
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
 msgid "Filename"
 msgstr "Enw Ffeil"
 
-#: ../src/memmaps.c:297
+#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
+#: ../src/lsof.cpp:309
+msgid "Search for Open Files"
+msgstr ""
+
+#: ../src/lsof.cpp:336
+msgid "_Name contains:"
+msgstr ""
+
+#: ../src/lsof.cpp:352
+msgid "Case insensitive matching"
+msgstr ""
+
+#: ../src/lsof.cpp:360
+msgid "S_earch results:"
+msgstr ""
+
+#. xgettext: virtual memory start
+#: ../src/memmaps.cpp:478
 msgid "VM Start"
 msgstr "Cychwyn VM"
 
-#: ../src/memmaps.c:298
+#. xgettext: virtual memory end
+#: ../src/memmaps.cpp:480
 msgid "VM End"
 msgstr "Diwedd VM"
 
-#: ../src/memmaps.c:299
+#. xgettext: virtual memory syze
+#: ../src/memmaps.cpp:482
 msgid "VM Size"
 msgstr "Maint VM"
 
-#: ../src/memmaps.c:300
+#: ../src/memmaps.cpp:483
 msgid "Flags"
 msgstr "Baneri"
 
-#: ../src/memmaps.c:301
+#. xgettext: virtual memory offset
+#: ../src/memmaps.cpp:485
 msgid "VM Offset"
 msgstr "Dadleoliad VM"
 
-#: ../src/memmaps.c:303
+#. xgettext: memory that has not been modified since
+#. it has been allocated
+#: ../src/memmaps.cpp:488
+msgid "Private clean"
+msgstr ""
+
+#. xgettext: memory that has been modified since it
+#. has been allocated
+#: ../src/memmaps.cpp:491
+msgid "Private dirty"
+msgstr ""
+
+#. xgettext: shared memory that has not been modified
+#. since it has been allocated
+#: ../src/memmaps.cpp:494
+msgid "Shared clean"
+msgstr ""
+
+#. xgettext: shared memory that has been modified
+#. since it has been allocated
+#: ../src/memmaps.cpp:497
+msgid "Shared dirty"
+msgstr ""
+
+#: ../src/memmaps.cpp:499
 msgid "Inode"
 msgstr "Inode"
 
-#: ../src/memmaps.c:405
+#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
+#: ../src/memmaps.cpp:608
 msgid "Memory Maps"
 msgstr "Mapiau Cof"
 
-#: ../src/memmaps.c:425
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Mapiau cof y broses \"%s\" (PID %u):"
 
-#: ../src/openfiles.c:31
+#: ../src/openfiles.cpp:34
 msgid "file"
 msgstr "ffeil"
 
-#: ../src/openfiles.c:33
+#: ../src/openfiles.cpp:36
 msgid "pipe"
 msgstr "pibell"
 
-#: ../src/openfiles.c:35
-msgid "network connection"
-msgstr "cysylltiad rhwydwaith"
+#: ../src/openfiles.cpp:38
+msgid "IPv6 network connection"
+msgstr ""
 
-#: ../src/openfiles.c:37
+#: ../src/openfiles.cpp:40
+msgid "IPv4 network connection"
+msgstr ""
+
+#: ../src/openfiles.cpp:42
 msgid "local socket"
 msgstr "soced lleol"
 
-#: ../src/openfiles.c:39
+#: ../src/openfiles.cpp:44
 msgid "unknown type"
 msgstr "math anhysbys"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
-#: ../src/openfiles.c:231
+#: ../src/openfiles.cpp:246
 msgid "FD"
 msgstr "DFf"
 
-#: ../src/openfiles.c:233
+#: ../src/openfiles.cpp:248
 msgid "Object"
 msgstr "Gwrthrych"
 
-#: ../src/openfiles.c:312
+#: ../src/openfiles.cpp:332
 msgid "Open Files"
 msgstr "Ffeiliau Agored"
 
-#: ../src/openfiles.c:334
+#: ../src/openfiles.cpp:354
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "_Ffeiliau agorwyd gan y broses \"%s\" (PID %u):"
 
-#: ../src/procactions.c:75
+#: ../src/procactions.cpp:75
 #, c-format
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Methu newid blaenoriaeth y broses â'r pid %d i %d.\n"
-"%s"
+msgstr "Methu newid blaenoriaeth y broses â'r pid %d i %d.\n%s"
 
-#: ../src/procactions.c:144
+#: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Methu lladd proses gyda'r pid %d gyda'r signal %d.\n"
-"%s"
+msgstr "Methu lladd proses gyda'r pid %d gyda'r signal %d.\n%s"
 
-#. translators: primary alert message
-#: ../src/procdialogs.c:65
-msgid "Hide the selected process?"
-msgstr "Cuddio'r broses sydd wedi ei dewis?"
-
-#. FIXME: View menu -> Edit menu
-#. translators: secondary alert messagex
-#: ../src/procdialogs.c:75
-msgid ""
-"Hidden processes are no longer visible in the process list. You can re-"
-"enable them by selecting the \"Hidden Processes\" entry in the View menu."
-msgstr ""
-"Nid yw prosesau wedi'u cuddio i'w gweld yn y rhestr brosesau bellach. "
-"Gallwch eu dangos wrth ddewis \"Prosesau Cudd\" yn y ddewislen Golwg."
-
-#. translators: primary alert message
-#: ../src/procdialogs.c:124
+#. xgettext: primary alert message
+#: ../src/procdialogs.cpp:70
 msgid "Kill the selected process?"
 msgstr "Lladd y broses a ddewiswyd?"
 
-#. translators: secondary alert message
-#: ../src/procdialogs.c:126
+#. xgettext: secondary alert message
+#: ../src/procdialogs.cpp:72
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Wrth ladd proses, gallech ddistrywio'ch data, dryllio'r sesiwn bresennol neu "
-"achosi perygl i ddiogelwch. Dim ond prosesau sy'n camymddwyn dylai cael eu "
-"lladd."
+msgstr "Wrth ladd proses, gallech ddistrywio'ch data, dryllio'r sesiwn bresennol neu achosi perygl i ddiogelwch. Dim ond prosesau sy'n camymddwyn dylai cael eu lladd."
 
-#. translators: primary alert message
-#: ../src/procdialogs.c:133
+#. xgettext: primary alert message
+#: ../src/procdialogs.cpp:79
 msgid "End the selected process?"
 msgstr "Gorffen y broses a ddewiswyd?"
 
-#. translators: secondary alert message
-#: ../src/procdialogs.c:135
+#. xgettext: secondary alert message
+#: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Wrth orffen proses, gallech ddistrywio'ch data, dryllio'r sesiwn bresennol "
-"neu achosi perygl i ddiogelwch. Dim ond prosesau sy'n camymddwyn dylai cael "
-"eu gorffen."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Wrth orffen proses, gallech ddistrywio'ch data, dryllio'r sesiwn bresennol neu achosi perygl i ddiogelwch. Dim ond prosesau sy'n camymddwyn dylai cael eu gorffen."
 
-#: ../src/procdialogs.c:138
-msgid "_End Process"
-msgstr "_Diweddu Proses"
-
-#: ../src/procdialogs.c:167
+#: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
 msgstr "(Blaenoriaeth Uchel Iawn)"
 
-#: ../src/procdialogs.c:169
+#: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
 msgstr "(Blaenoriaeth Uchel)"
 
-#: ../src/procdialogs.c:171
+#: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
 msgstr "(Blaenoriaeth Normal)"
 
-#: ../src/procdialogs.c:173
+#: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
 msgstr "(Blaenoriaeth Isel)"
 
-#: ../src/procdialogs.c:175
+#: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
 msgstr "(Blaenoriaeth Isel Iawn)"
 
-#: ../src/procdialogs.c:227
+#: ../src/procdialogs.cpp:175
 msgid "Change Priority"
 msgstr "Newid Blaenoriaeth"
 
-#: ../src/procdialogs.c:248
+#: ../src/procdialogs.cpp:196
 msgid "Change _Priority"
 msgstr "Newid _Blaenoriaeth"
 
-#: ../src/procdialogs.c:269
+#: ../src/procdialogs.cpp:217
 msgid "_Nice value:"
 msgstr "Gwerth _Neis:"
 
-#: ../src/procdialogs.c:286
+#: ../src/procdialogs.cpp:233
+msgid "Note:"
+msgstr "Nodyn:"
+
+#: ../src/procdialogs.cpp:234
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"Ei gwerth neis sy'n penderfynu blaenoriaeth proses. Mae gwerth neis is yn "
-"cyfateb i flaenoriaeth uwch."
+msgstr "Ei gwerth neis sy'n penderfynu blaenoriaeth proses. Mae gwerth neis is yn cyfateb i flaenoriaeth uwch."
 
-#: ../src/procdialogs.c:464
-msgid "Processes i_nfo showed in list:"
-msgstr "_Gwybodaeth proses a ddangosir yn y rhestr:"
-
-#: ../src/procdialogs.c:516
+#: ../src/procdialogs.cpp:457
 msgid "Icon"
 msgstr "Eicon"
 
-#: ../src/procdialogs.c:556
+#: ../src/procdialogs.cpp:502
 msgid "System Monitor Preferences"
 msgstr "Hoffterau Arsylwr System"
 
-#: ../src/procdialogs.c:586
+#: ../src/procdialogs.cpp:532
 msgid "Behavior"
 msgstr "Ymddygiad"
 
-#: ../src/procdialogs.c:605 ../src/procdialogs.c:708 ../src/procdialogs.c:793
+#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
+#: ../src/procdialogs.cpp:728
 msgid "_Update interval in seconds:"
 msgstr "Ysbaid _diweddaru mewn eiliadau:"
 
-#: ../src/procdialogs.c:630
+#: ../src/procdialogs.cpp:576
 msgid "Enable _smooth refresh"
 msgstr "Galluogi _adnewyddu llyfn"
 
-#: ../src/procdialogs.c:644
+#: ../src/procdialogs.cpp:590
 msgid "Alert before ending or _killing processes"
 msgstr "Rhybuddio cyn diweddu neu _ladd prosesau"
 
-#: ../src/procdialogs.c:654
-msgid "Alert before _hiding processes"
-msgstr "Rhybuddio cyn _cuddio prosesau"
+#: ../src/procdialogs.cpp:604
+msgid "Solaris mode"
+msgstr ""
 
-#: ../src/procdialogs.c:664
-msgid "Process Fields"
-msgstr "Meysydd Proses"
+#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
+msgid "Information Fields"
+msgstr ""
 
-#: ../src/procdialogs.c:689
+#: ../src/procdialogs.cpp:635
+msgid "Process i_nformation shown in list:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:647
 msgid "Graphs"
 msgstr "Graffiau"
 
-#: ../src/procdialogs.c:729
-msgid "_Background color:"
-msgstr "Lliw _cefndir:"
+#: ../src/procdialogs.cpp:686
+msgid "Show network speed in bits"
+msgstr ""
 
-#: ../src/procdialogs.c:748
-msgid "_Grid color:"
-msgstr "Lliw _grid:"
-
-#: ../src/procdialogs.c:812
+#: ../src/procdialogs.cpp:748
 msgid "Show _all filesystems"
 msgstr "Dangos bob _system ffeil"
 
-#: ../src/proctable.c:245
+#: ../src/procdialogs.cpp:775
+msgid "File system i_nformation shown in list:"
+msgstr ""
+
+#: ../src/procman.cpp:690
+msgid "A simple process and system monitor."
+msgstr ""
+
+#: ../src/proctable.cpp:211
 msgid "Process Name"
 msgstr "Enw Proses"
 
-#: ../src/proctable.c:246
+#: ../src/proctable.cpp:212
 msgid "User"
 msgstr "Defnyddiwr"
 
-#: ../src/proctable.c:247
+#: ../src/proctable.cpp:213
 msgid "Status"
 msgstr "Cyflwr"
 
-#: ../src/proctable.c:248
+#: ../src/proctable.cpp:214
 msgid "Virtual Memory"
 msgstr "Rhith-gof"
 
-#: ../src/proctable.c:249
+#: ../src/proctable.cpp:215
 msgid "Resident Memory"
 msgstr "Cof Arhosol"
 
-#: ../src/proctable.c:250
+#: ../src/proctable.cpp:216
 msgid "Writable Memory"
 msgstr "Cof Ysgrifenadwy"
 
-#: ../src/proctable.c:251
+#: ../src/proctable.cpp:217
 msgid "Shared Memory"
 msgstr "Cof Wedi ei Rannu"
 
-#: ../src/proctable.c:252
+#: ../src/proctable.cpp:218
 msgid "X Server Memory"
 msgstr "Cof Gweinydd X"
 
-#: ../src/proctable.c:253
+#: ../src/proctable.cpp:219
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: ../src/proctable.c:254
+#: ../src/proctable.cpp:220
 msgid "CPU Time"
 msgstr "Amser CPU"
 
-#: ../src/proctable.c:255
+#: ../src/proctable.cpp:221
 msgid "Started"
 msgstr "Wedi Cychwyn"
 
-#: ../src/proctable.c:256
+#: ../src/proctable.cpp:222
 msgid "Nice"
 msgstr "Neis"
 
-#: ../src/proctable.c:257
+#: ../src/proctable.cpp:223
 msgid "ID"
 msgstr "ID"
 
-#: ../src/proctable.c:258
+#: ../src/proctable.cpp:224
 msgid "Security Context"
 msgstr "Cyd-destun Diogelwch"
 
-#: ../src/proctable.c:259
-msgid "Arguments"
-msgstr "Ymresymiadau"
+#: ../src/proctable.cpp:225
+msgid "Command Line"
+msgstr ""
 
-#: ../src/proctable.c:432
-msgid "Running"
-msgstr "Rhedeg"
+#. xgettext: wchan, see ps(1) or top(1)
+#: ../src/proctable.cpp:228
+msgid "Waiting Channel"
+msgstr ""
 
-#: ../src/proctable.c:437
-msgid "Stopped"
-msgstr "Ataliwyd"
-
-# EFALLAI
-#: ../src/proctable.c:442
-msgid "Zombie"
-msgstr "Proses amhosib ei lladd"
-
-#: ../src/proctable.c:447
-msgid "Uninterruptible"
-msgstr "Di-doredig"
-
-#: ../src/proctable.c:452
-msgid "Sleeping"
-msgstr "Cysgu"
-
-#: ../src/proctable.c:1034
+#: ../src/proctable.cpp:945
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Cyfartaledd llwyth am y 1, 5, 15 munud olaf: %0.2f, %0.2f, %0.2f"
 
-#: ../src/util.c:87
+#: ../src/sysinfo.cpp:77
 #, c-format
-msgid "%u byte"
-msgid_plural "%u bytes"
-msgstr[0] "%u beit"
-msgstr[1] "%u feit"
+msgid "Release %s"
+msgstr ""
 
-#: ../src/util.c:93
+#: ../src/sysinfo.cpp:116
+msgid "Unknown CPU model"
+msgstr ""
+
+#: ../src/sysinfo.cpp:590
+#, c-format
+msgid "Kernel %s"
+msgstr ""
+
+#: ../src/sysinfo.cpp:603
+#, c-format
+msgid "MATE %s"
+msgstr ""
+
+#. hardware section
+#: ../src/sysinfo.cpp:617
+#, c-format
+msgid "<b>Hardware</b>"
+msgstr ""
+
+#: ../src/sysinfo.cpp:622
+msgid "Memory:"
+msgstr ""
+
+#: ../src/sysinfo.cpp:629
+#, c-format
+msgid "Processor %d:"
+msgstr ""
+
+#: ../src/sysinfo.cpp:634
+msgid "Processor:"
+msgstr ""
+
+#. disk space section
+#: ../src/sysinfo.cpp:646
+#, c-format
+msgid "<b>System Status</b>"
+msgstr ""
+
+#: ../src/sysinfo.cpp:652
+msgid "Available disk space:"
+msgstr ""
+
+#: ../src/util.cpp:30
+msgid "Running"
+msgstr "Rhedeg"
+
+#: ../src/util.cpp:34
+msgid "Stopped"
+msgstr "Ataliwyd"
+
+#: ../src/util.cpp:38
+msgid "Zombie"
+msgstr "Proses amhosib ei lladd"
+
+#: ../src/util.cpp:42
+msgid "Uninterruptible"
+msgstr "Di-doredig"
+
+#: ../src/util.cpp:46
+msgid "Sleeping"
+msgstr "Cysgu"
+
+#. xgettext: weeks, days
+#: ../src/util.cpp:101
+#, c-format
+msgid "%uw%ud"
+msgstr ""
+
+#. xgettext: days, hours (0 -> 23)
+#: ../src/util.cpp:105
+#, c-format
+msgid "%ud%02uh"
+msgstr ""
+
+#. xgettext: hours (0 -> 23), minutes, seconds
+#: ../src/util.cpp:109
+#, c-format
+msgid "%u:%02u:%02u"
+msgstr ""
+
+#. xgettext: minutes, seconds, centiseconds
+#: ../src/util.cpp:112
+#, c-format
+msgid "%u:%02u.%02u"
+msgstr ""
+
+#: ../src/util.cpp:164
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.c:97
+#: ../src/util.cpp:165
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.c:101
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#~ msgid "Jorgen Scheibengruber - nicer devices treeview"
-#~ msgstr "Jorgen Scheibengruber - golwg coeden neisiach"
-
-#~ msgid "Benoît Dejean - maintainer"
-#~ msgstr "Benoît Dejean - cynhaliwr"
-
-#~ msgid "Show advanced info tab on startup"
-#~ msgstr "Dangos tab gwybodaeth estynedig wrth ddechrau"
-
-#~ msgid "Less _Info"
-#~ msgstr "Llai o _Wybodaeth"
-
-#~ msgid "More _Info"
-#~ msgstr "Mwy o _Wybodaeth"
-
-#~ msgid "Process Info"
-#~ msgstr "Gwybodaeth Proses"
-
-#~ msgid "Command:"
-#~ msgstr "Gorchymyn:"
-
-#~ msgid "Status:"
-#~ msgstr "Cyflwr:"
-
-#~ msgid "Priority:"
-#~ msgstr "Blaenoriaeth:"
-
-#~ msgid "Memory Usage"
-#~ msgstr "Defnydd Cof"
-
-#~ msgid "RSS:"
-#~ msgstr "RSS:"
-
-#~ msgid "Very high - nice %d"
-#~ msgstr "Uchel iawn - neis %d"
-
-#~ msgid "High - nice %d"
-#~ msgstr "Uchel - neis %d"
-
-#~ msgid "Normal - nice %d"
-#~ msgstr "Arferol - neis %d"
-
-#~ msgid "Low - nice %d"
-#~ msgstr "Isel - neis %d"
-
-#~ msgid "Very low - nice %d"
-#~ msgstr "Isel iawn - neis %d"
-
-#~ msgid "_Threads"
-#~ msgstr "_Edau"
-
-#~ msgid "Show each thread as a separate process"
-#~ msgstr "Dangos bob edefyn fel proses wahanol"
-
-#~ msgid "Sho_w:"
-#~ msgstr "_Dangos:"
-
-#~ msgid "seconds"
-#~ msgstr "eiliadau"
-
-#~ msgid "Update _interval:"
-#~ msgstr "_Ysbaid diweddaru:"
-
-#~ msgid "Memory"
-#~ msgstr "Cof"
-
-#~ msgid "RSS Memory"
-#~ msgstr "Cof RSS"
-
-#~ msgid "%s (thread)"
-#~ msgstr "%s (edefyn)"
-
-#~ msgid "Saves the pane position for the system monitor tab"
-#~ msgstr "Cadw lleoliad cwarel ar gyfer y tab arsylwi system"
-
-#~ msgid "Force a process to finish normally"
-#~ msgstr "Gorfodi proses i orffen yn naturiol"
-
-#~ msgid "Force a process to finish immediately"
-#~ msgstr "Gorfodi proses i orffen yn syth"
-
-#~ msgid "Open the memory maps associated with the process"
-#~ msgstr "Agor y mapiau cof a gysylltir â phroses"
-
-#~ msgid "View the files opened by the process"
-#~ msgstr "Gweld y ffeiliau agorwyd gan y broses"
-
-#~ msgid "Sea_rch:"
-#~ msgstr "_Chwilio:"
-
-#~ msgid "More _Info >>"
-#~ msgstr "Mwy o _Wybodaeth >>"
-
-#~ msgid "No such process."
-#~ msgstr "Does mo'r fath broses."
-
-#~ msgid ""
-#~ "Process Name: %s \n"
-#~ "\n"
-#~ "You do not have permission to change the priority of this process. You "
-#~ "can enter the root password to gain the necessary permission."
-#~ msgstr ""
-#~ "Enw Proses : %s \n"
-#~ "\n"
-#~ "Nid oes caniatad gennych i newid blaenoriaeth y broses hon. Gallwch roi'r "
-#~ "cyfrinair gwraidd i gael y caniatad anghenrheidiol."
-
-#~ msgid ""
-#~ "Process Name: %s\n"
-#~ "\n"
-#~ "You must be root to decrease a nice value of this process or set a nice "
-#~ "value less than 0. You can enter the root password to gain the necessary "
-#~ "permission."
-#~ msgstr ""
-#~ "Enw Proses : %s \n"
-#~ "\n"
-#~ "Rhaid i chi fod yn ddefnyddiwr gwraidd cyn lleihau gwerth neis y broses "
-#~ "neu gosod gwerth neis sy'n llai na 0. Gallwch roi'r cyfrinair gwraidd i "
-#~ "gael y caniatad angenrheidiol."
-
-#~ msgid ""
-#~ "Process Name: %s \n"
-#~ "\n"
-#~ "You do not have permission to end this process. You can enter the root "
-#~ "password to gain the necessary permission."
-#~ msgstr ""
-#~ "Enw Proses : %s \n"
-#~ "\n"
-#~ "Does gennych ddim caniatad i orffen y broses hon. Gallwch roi'r cyfrinair "
-#~ "gwraidd i gael y caniatad anghenrheidiol."
-
-#~ msgid "An error occured while killing the process."
-#~ msgstr "Digwyddodd gwall wrth ladd y broses."
-
-#~ msgid "Could not find \"%s\""
-#~ msgstr "Methu canfod \"%s\""
-
-#~ msgid ""
-#~ "There are no processes containing the searched string. Please note that "
-#~ "the search is performed only on processes shown in the process list."
-#~ msgstr ""
-#~ "Does yna ddim prosesau sy'n cynnwys y llinyn chwiliwyd amdano. Sylwch mai "
-#~ "dim ond y prosesau sydd yn y rhestr broses sy'n cael eu chwilio."
-
-#~ msgid "Kevin Vandersloot"
-#~ msgstr "Kevin Vandersloot"
-
-#~ msgid "(C) 2001 Kevin Vandersloot"
-#~ msgstr "(C) 2001 Kevin Vandersloot"
-
-#~ msgid "Simple process viewer using libgtop"
-#~ msgstr "Gwelydd proses syml sy'n defnyddio libgtop"
-
-#~ msgid "X window system"
-#~ msgstr "System ffenestri X"
-
-#~ msgid "bourne again shell"
-#~ msgstr "cragen bourne again"
-
-#~ msgid "Mate-Session"
-#~ msgstr "Mate-Session"
-
-#~ msgid "No processes are currently hidden."
-#~ msgstr "Does dim prosesau wedi eu cuddio ar hyn o bryd."
-
-#~ msgid "Manage Hidden Processes"
-#~ msgstr "Trefnu Prosesau Cudd"
-
-#~ msgid "Force a process to finish."
-#~ msgstr "Gorfodi proses i orffen."
-
-#~ msgid "Force a process to finish now."
-#~ msgstr "Gorfodi proses i orffen nawr."
-
-#~ msgid "Display a tree showing process dependencies"
-#~ msgstr "Dangos coeden yn dangos dibynniadau proses"
-
-#~ msgid "Display threads (subprocesses)"
-#~ msgstr "Danfos edau (isbrosesau)"
-
-#~ msgid "Name"
-#~ msgstr "Enw"
-
-#~ msgid "Application Manager"
-#~ msgstr "Rheolwr Rhaglenni"
-
-#~ msgid "Running Applications"
-#~ msgstr "Rhaglenni sy'n Rhedeg"
-
-#~ msgid "Process name:"
-#~ msgstr "Enw proses:"
-
-#~ msgid "Are you sure you want to hide this process?"
-#~ msgstr "Ydych chi'n siwr eich bod chi am guddio'r proses hwn?"
-
-#~ msgid "_Show this dialog next time"
-#~ msgstr "_Dangos y deialog hwn y tro nesaf"
-
-#~ msgid "Are you sure you want to kill this process?"
-#~ msgstr "Ydych chi'n siwr eich bod chi am lofruddio'r proses hwn?"
-
-#~ msgid "If you kill a process, unsaved data will be lost."
-#~ msgstr "Os ydych chi'n llofruddio proses, caiff data heb ei arbed ei golli."
-
-#~ msgid "Are you sure you want to end this process?"
-#~ msgstr "Ydych chi'n siwr eich bod chi am terfynu's proses hwn?"
-
-#~ msgid "If you end a process, unsaved data will be lost."
-#~ msgstr "Os ydych chi'n terfynu proses, caiff data heb ei arbed ei golli."
-
-#~ msgid "Kill Process"
-#~ msgstr "Llofruddio Proses"
-
-#~ msgid "End Process"
-#~ msgstr "Diewddu Proses"
-
-#~ msgid "Root Password :"
-#~ msgstr "Cyfrinair Root :"
-
-#~ msgid "Wrong Password."
-#~ msgstr "Cyfrinair Anghywir."
-
-#~ msgid "show simple dialog to end processes and logout"
-#~ msgstr "dangos deialog syml er mwyn diewddu prosesau a allgofnodi"
-
-#~ msgid "%s could not be found."
-#~ msgstr "Methwyd canfod %s."
-
-#~ msgid "%d K"
-#~ msgstr "%d C"
-
-#~ msgid "%.0f MB"
-#~ msgstr "%.0f MB"
-
-#~ msgid "Kevin Vandersloot (kfv101@psu.edu)"
-#~ msgstr "Kevin Vandersloot (kfv101@psu.edu)"
-
-#~ msgid "View processes being run by all users"
-#~ msgstr "Dangos prosesau sy'n cael eu rhedeg gan bob defnyddiwr"
-
-#~ msgid "View processes being run by you"
-#~ msgstr "Dangos prosesau sy'n cael eu rhedeg gennych chi"
-
-#~ msgid "View only active processes"
-#~ msgstr "Dangos prosesau gweithredol yn unig"
-
-#~ msgid "Used CPU:"
-#~ msgstr "Defnydd CPU:"
-
-#~ msgid "Change Priority ..."
-#~ msgstr "Newid Blaenoriaeth ..."
-
-#~ msgid "Hide Process"
-#~ msgstr "Cuddio Proses"
-
-#~ msgid ""
-#~ "Are you sure you want to hide this process?\n"
-#~ "(Choose 'Hidden Processes' in the Settings menu to reshow)"
-#~ msgstr ""
-#~ "Ydych chi'n sicr eich bod chi am guddio'r proses hwn?\n"
-#~ "(Dewiswch 'Prosesau Cudd' yn y dewislen Gosodiadau er mwyn ailddangos)"
+#: ../src/util.cpp:167
+#, c-format
+msgid "%.1f kbit"
+msgstr ""
+
+#: ../src/util.cpp:168
+#, c-format
+msgid "%.1f Mbit"
+msgstr ""
+
+#: ../src/util.cpp:169
+#, c-format
+msgid "%.1f Gbit"
+msgstr ""
+
+#: ../src/util.cpp:184
+#, c-format
+msgid "%u bit"
+msgid_plural "%u bits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: ../src/util.cpp:185
+#, c-format
+msgid "%u byte"
+msgid_plural "%u bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: ../src/util.cpp:373
+msgid "<i>N/A</i>"
+msgstr ""
+
+#. xgettext: rate, 10MiB/s or 10Mbit/s
+#: ../src/util.cpp:490
+#, c-format
+msgid "%s/s"
+msgstr "%s/eiliad"

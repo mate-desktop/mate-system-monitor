@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
-# samson <sambelet@yahoo.com>, 2013.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002
+# samson <sambelet@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2013-03-26 22:50+0000\n"
+"PO-Revision-Date: 2013-06-18 16:07+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -376,7 +376,7 @@ msgstr ""
 #. "File" did not make sense for system-monitor
 #: ../src/interface.cpp:50
 msgid "_Monitor"
-msgstr ""
+msgstr "_ሞኒተር"
 
 #: ../src/interface.cpp:51
 msgid "_Edit"
@@ -484,7 +484,7 @@ msgstr "ስለዚህ መተግበሪያ "
 
 #: ../src/interface.cpp:91
 msgid "_Dependencies"
-msgstr ""
+msgstr "_ጥገኞች"
 
 #: ../src/interface.cpp:92
 msgid "Show parent/child relationship between processes"
@@ -492,23 +492,23 @@ msgstr ""
 
 #: ../src/interface.cpp:99
 msgid "_Active Processes"
-msgstr ""
+msgstr "_ንቁ ሂደቶች"
 
 #: ../src/interface.cpp:100
 msgid "Show active processes"
-msgstr ""
+msgstr "ንቁ ሂደቶች ማሳያ"
 
 #: ../src/interface.cpp:101
 msgid "A_ll Processes"
-msgstr ""
+msgstr "ሁ_ሉንም ሂደቶች"
 
 #: ../src/interface.cpp:102
 msgid "Show all processes"
-msgstr ""
+msgstr "ሁሉንም ሂደቶች ማሳያ"
 
 #: ../src/interface.cpp:103
 msgid "M_y Processes"
-msgstr ""
+msgstr "የ_ኔ ሂደቶች"
 
 #: ../src/interface.cpp:104
 msgid "Show user own process"
@@ -520,16 +520,16 @@ msgstr ""
 
 #: ../src/interface.cpp:243
 msgid "CPU History"
-msgstr ""
+msgstr "የ CPU ታሪክ"
 
 #: ../src/interface.cpp:300
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../src/interface.cpp:302
 #, c-format
 msgid "CPU%d"
-msgstr ""
+msgstr "CPU%d"
 
 #: ../src/interface.cpp:320
 msgid "Memory and Swap History"
@@ -549,7 +549,7 @@ msgstr ""
 
 #: ../src/interface.cpp:445
 msgid "Receiving"
-msgstr ""
+msgstr "በመቀበል ላይ "
 
 #: ../src/interface.cpp:466
 msgid "Total Received"
@@ -557,42 +557,42 @@ msgstr ""
 
 #: ../src/interface.cpp:500
 msgid "Sending"
-msgstr ""
+msgstr "በመላክ ላይ "
 
 #: ../src/interface.cpp:522
 msgid "Total Sent"
-msgstr ""
+msgstr "ጠቅላላ የተላከው "
 
 #. procman_create_sysinfo_view();
 #: ../src/interface.cpp:690
 msgid "System"
-msgstr ""
+msgstr "ስርአት"
 
 #: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
 msgid "Processes"
-msgstr ""
+msgstr "ሂደቶች"
 
 #: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
 msgid "Resources"
-msgstr ""
+msgstr "ምንጮች"
 
 #: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
 #: ../src/procdialogs.cpp:709
 msgid "File Systems"
-msgstr ""
+msgstr "የ ፋይል ስርአት"
 
 #: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u ሰከንድ"
+msgstr[1] "%u ሰከንዶች "
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
-msgstr ""
+msgstr "%s (%.1f %%) of %s"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -715,7 +715,7 @@ msgstr ""
 
 #: ../src/openfiles.cpp:44
 msgid "unknown type"
-msgstr ""
+msgstr "ያልታወቀ አይነት "
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
@@ -730,7 +730,7 @@ msgstr ""
 
 #: ../src/openfiles.cpp:332
 msgid "Open Files"
-msgstr ""
+msgstr "ፋይሎች መክፈቻ"
 
 #: ../src/openfiles.cpp:354
 #, c-format
@@ -777,23 +777,23 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
-msgstr ""
+msgstr "(በጣም ከፍተኛ ቅድሚያ)"
 
 #: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
-msgstr ""
+msgstr "(ከፍተኛ ቅድሚያ)"
 
 #: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
-msgstr ""
+msgstr "(መደበኛ ቅድሚያ)"
 
 #: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
-msgstr ""
+msgstr "(ዝቅተኛ ቅድሚያ)"
 
 #: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
-msgstr ""
+msgstr "(በጣም ዝቅተኛ ቅድሚያ)"
 
 #: ../src/procdialogs.cpp:175
 msgid "Change Priority"
@@ -809,7 +809,7 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:233
 msgid "Note:"
-msgstr ""
+msgstr "ማስታወሻ:"
 
 #: ../src/procdialogs.cpp:234
 msgid ""
@@ -848,7 +848,7 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
 msgid "Information Fields"
-msgstr ""
+msgstr "የ መረጃ ሜዳዎች"
 
 #: ../src/procdialogs.cpp:635
 msgid "Process i_nformation shown in list:"

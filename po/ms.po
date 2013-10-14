@@ -1,657 +1,1089 @@
-# Malay translation of procman.
-# Copyright (C) 2002 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# abuyop <abuyop@gmail.com>, 2013
 # Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: procman HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-10-17 02:04+0200\n"
-"PO-Revision-Date: 2004-01-04 18:18+0730\n"
-"Last-Translator: Hasbullah Bin Pit <sebol@ikhlas.com>\n"
-"Language-Team: ms <sebol@ikhlas.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2013-08-11 02:28+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: mate-system-monitor.desktop.in.h:1 src/callbacks.c:144 src/interface.c:614
+#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
-msgstr "Monitor Sistem"
+msgstr "Pemantau Sistem"
 
-#: mate-system-monitor.desktop.in.h:2
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
 msgid "View current processes and monitor system state"
-msgstr "Lihat proses semasa dan monitor keadaan sistem"
+msgstr "Lihat proses semasa dan pantau keadaan sistem"
 
-#: src/callbacks.c:121
-msgid "Kevin Vandersloot"
-msgstr "Kevin Vandersloot"
+#: ../src/argv.cpp:18
+msgid "Show the System tab"
+msgstr "Tunjuk tab Sistem"
 
-#: src/callbacks.c:122
-msgid "Jorgen Scheibengruber - nicer devices treeview"
-msgstr "Jorgen Scheibengruber - paparan peranci lebih baik"
+#: ../src/callbacks.cpp:167
+msgid "translator-credits"
+msgstr "abuyop <abuyop@gmail.com>"
 
-#: src/callbacks.c:130
-msgid "translator_credits"
-msgstr ""
-"Hasbullah Bin Pit <sebol@ikhlas.com>,Merlimau\n"
-"Khairulanuar Abd Majid <khairul@ikhlas.com>\n"
-"Mohamad Afifi Omar <mr_mohd_afifi@yahoo.com>\n"
-"Rakan-rakan di mypenguin99 & Bincang.net"
-
-#: src/callbacks.c:145
-msgid "(C) 2001 Kevin Vandersloot"
-msgstr "(C) 2001 Kevin Vandersloot"
-
-#: src/callbacks.c:146
-msgid "Simple process viewer using libgtop"
-msgstr "Pelihat proses mudah menggunakan libgtop"
-
-#: src/defaulttable.h:8
-msgid "X window system"
-msgstr "Sistem Xwindow"
-
-#: src/defaulttable.h:9
-msgid "bourne again shell"
-msgstr "bash"
-
-#: src/defaulttable.h:10
-msgid "Mate-Session"
-msgstr "Sessi Mate"
-
-#: src/favorites.c:344
-msgid "No processes are currently hidden."
-msgstr "Tiada proses yang kini tersembunyi."
-
-#: src/favorites.c:364
-msgid "Manage Hidden Processes"
-msgstr "Urus Proses Tersembunyi"
-
-#: src/favorites.c:388
-msgid "_Hidden processes:"
-msgstr "Proses Ter_sembunyi:"
-
-#: src/favorites.c:410
-msgid "_Remove From List"
-msgstr "_Buang daripada Senarai"
-
-#: src/favorites.c:419 src/procdialogs.c:439
-msgid "Note:"
-msgstr "Nota:"
-
-#: src/favorites.c:420
-msgid ""
-"These are the processes you have chosen to hide. You can reshow a process by "
-"removing it from this list."
-msgstr ""
-"Ini adalah proses yang anda pilih untuk disembunyi. Anda boleh paparkan "
-"semula dengan membuangnya daripada senarai."
-
-#: src/infoview.c:81
-msgid "Process Info"
-msgstr "Maklumat Proses"
-
-#: src/infoview.c:95
-msgid "Command:"
-msgstr "Arahan:"
-
-#: src/infoview.c:99
-msgid "Status:"
-msgstr "Status:"
-
-#: src/infoview.c:103
-msgid "Priority:"
-msgstr "Prioriti:"
-
-#: src/infoview.c:127
-msgid "Memory Usage"
-msgstr "Penggunaan Memori"
-
-#: src/infoview.c:141
-msgid "Total:"
-msgstr "Jumlah:"
-
-#: src/infoview.c:145
-msgid "RSS:"
-msgstr "RSS:"
-
-#: src/infoview.c:149
-msgid "Shared:"
-msgstr "Terkongsi:"
-
-#: src/infoview.c:194
-#, c-format
-msgid "Very high - nice %d"
-msgstr "Amat Tinggi - elok %d"
-
-#: src/infoview.c:196
-#, c-format
-msgid "High - nice %d"
-msgstr "Tinggi - elok %d"
-
-#: src/infoview.c:198
-#, c-format
-msgid "Normal - nice %d"
-msgstr "Normal - elok %d"
-
-#: src/infoview.c:200
-#, c-format
-msgid "Low - nice %d"
-msgstr "Rendah - elok %d"
-
-#: src/infoview.c:202
-#, c-format
-msgid "Very low - nice %d"
-msgstr "Amat Rendah - elok %d"
-
-#: src/interface.c:53 src/interface.c:124
-msgid "_Change Priority..."
-msgstr "_Tukar Prioriti..."
-
-#: src/interface.c:53 src/interface.c:124
-msgid "Change the importance (nice value) of a process"
-msgstr "Tukar kepentingan (nilai Elok) bagi proses"
-
-#: src/interface.c:58 src/interface.c:135 src/procdialogs.c:155
-msgid "_Hide Process"
-msgstr "_Sembunyi Proses"
-
-#: src/interface.c:58 src/interface.c:135
-msgid "Hide a process"
-msgstr "Sembunyikan proses"
-
-#: src/interface.c:64 src/interface.c:230
-msgid "End _Process"
-msgstr "Akhiri _Proses"
-
-#: src/interface.c:64
-msgid "Force a process to finish."
-msgstr "Paksa proses supaya berakhir."
-
-#: src/interface.c:69 src/interface.c:146 src/procdialogs.c:217
-#: src/procdialogs.c:1008
-msgid "_Kill Process"
-msgstr "_Bunuh Proses"
-
-#: src/interface.c:69
-msgid "Force a process to finish now."
-msgstr "Paksa proses untuk ditamatkan sekarang."
-
-#: src/interface.c:75
-msgid "_Hidden Processes"
-msgstr "Proses Ter_sembunyi"
-
-#: src/interface.c:76
-msgid "View and edit your list of hidden processes"
-msgstr "Lihat dan edit senarai proses tersembunyi"
-
-#: src/interface.c:87 src/interface.c:129
-msgid "_Memory Maps"
-msgstr "Peta _Memori"
-
-#: src/interface.c:87 src/interface.c:129
-msgid "View the memory maps associated with a process"
-msgstr "Lihat peta memori yang dikaitkan dengan proses"
-
-#: src/interface.c:93
-msgid "Process _Dependencies"
-msgstr "Papar Ke_bergantungan"
-
-#: src/interface.c:93
-msgid "Display a tree showing process dependencies"
-msgstr "Papar pepohon menunjukkan kebergantungan proses"
-
-#: src/interface.c:98
-msgid "_Threads"
-msgstr "_Bebenang"
-
-#: src/interface.c:98
-msgid "Display threads (subprocesses)"
-msgstr "Papar bebenang (subproses)"
-
-#: src/interface.c:141 src/procdialogs.c:222 src/procdialogs.c:1012
-msgid "_End Process"
-msgstr "_Tamatkan Proses"
-
-#: src/interface.c:141
-msgid "Force a process to finish"
-msgstr "Paksa proses supaya tamat"
-
-#: src/interface.c:146
-msgid "Force a process to finish now"
-msgstr "Paksa proses untuk ditamatkan sekarang"
-
-#: src/interface.c:153
-msgid "More _Info >>"
-msgstr "_Lebih Maklumat >>"
-
-#: src/interface.c:154
-msgid "<< Less _Info"
-msgstr "<< _Kurang maklumat"
-
-#: src/interface.c:187
-msgid "Sea_rch:"
-msgstr "Ca_ri:"
-
-#: src/interface.c:199
-msgid "All Processes"
-msgstr "Semua Proses"
-
-#: src/interface.c:200
-msgid "My Processes"
-msgstr "Proses Daku"
-
-#: src/interface.c:201
-msgid "Active Processes"
-msgstr "Proses Aktif"
-
-#: src/interface.c:208
-msgid "Vie_w:"
-msgstr "_Lihat:"
-
-#: src/interface.c:235
-msgid "More _Info"
-msgstr "Lebih _Maklumat"
-
-#: src/interface.c:334
-msgid "Name"
-msgstr "Nama"
-
-#: src/interface.c:335
-msgid "Directory"
-msgstr "Direktori"
-
-#: src/interface.c:336
-msgid "Type"
-msgstr "Jenis"
-
-#: src/interface.c:337
-msgid "Total"
-msgstr "Jumlah:"
-
-#: src/interface.c:338
-msgid "Used"
-msgstr "Digunakan"
-
-#: src/interface.c:359
-msgid "CPU History"
-msgstr "Sejarah CPU"
-
-#: src/interface.c:400
-#, c-format
-msgid "CPU%d:"
-msgstr "CPU%d:"
-
-#: src/interface.c:419
-msgid "Memory and Swap History"
-msgstr "Sejarah Memori dan Swap"
-
-#: src/interface.c:452
-msgid "Used memory:"
-msgstr "Memori digunakan:"
-
-#: src/interface.c:461 src/interface.c:488
-msgid "of"
-msgstr "drpd"
-
-#: src/interface.c:479
-msgid "Used swap:"
-msgstr "Swap digunakan:"
-
-#: src/interface.c:509 src/procdialogs.c:928
-msgid "Devices"
-msgstr "Peranti"
-
-#: src/interface.c:626 src/procdialogs.c:753
-msgid "Process Listing"
-msgstr "Senarai Proses"
-
-#: src/interface.c:632 src/procdialogs.c:840
-msgid "Resource Monitor"
-msgstr "Monitor Sumber"
-
-#: src/interface.c:690
-msgid "Application Manager"
-msgstr "Pengurus Aplikasi"
-
-#: src/interface.c:696
-msgid "Running Applications"
-msgstr "Aplikasi yang Terlaksana"
-
-#: src/interface.c:715
-msgid "_Close Application"
-msgstr "_Tutup Aplikasi"
-
-#: src/memmaps.c:227
-msgid "Filename"
-msgstr "Namafail"
-
-#: src/memmaps.c:227
-msgid "VM Start"
-msgstr "Mula VM"
-
-#: src/memmaps.c:227
-msgid "VM End"
-msgstr "Akhir VM"
-
-#: src/memmaps.c:228 src/proctable.c:133
-msgid "VM Size"
-msgstr "Saiz VM"
-
-#: src/memmaps.c:228
-msgid "Flags"
-msgstr "Flag"
-
-#: src/memmaps.c:228
-msgid "VM Offset"
-msgstr "Ofset VM"
-
-#: src/memmaps.c:229
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Peranti"
 
-#: src/memmaps.c:229
+#: ../src/disks.cpp:300
+msgid "Directory"
+msgstr "Direktori"
+
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+msgid "Type"
+msgstr "Jenis"
+
+#: ../src/disks.cpp:302
+msgid "Total"
+msgstr "Jumlah"
+
+#: ../src/disks.cpp:303
+msgid "Free"
+msgstr "Bebas"
+
+#: ../src/disks.cpp:304
+msgid "Available"
+msgstr "Tersedia"
+
+#: ../src/disks.cpp:305
+msgid "Used"
+msgstr "Digunakan"
+
+#. xgettext: ? stands for unknown
+#: ../src/e_date.c:155
+msgid "?"
+msgstr "?"
+
+#: ../src/e_date.c:162
+msgid "Today %l:%M %p"
+msgstr "Hari ini %l:%M %p"
+
+#: ../src/e_date.c:171
+msgid "Yesterday %l:%M %p"
+msgstr "Semalam %l:%M %p"
+
+#: ../src/e_date.c:183
+msgid "%a %l:%M %p"
+msgstr "%a %l:%M %p"
+
+#: ../src/e_date.c:191
+msgid "%b %d %l:%M %p"
+msgstr "%b %d %l:%M %p"
+
+#: ../src/e_date.c:193
+msgid "%b %d %Y"
+msgstr "%b %d %Y"
+
+#: ../src/mate-system-monitor.schemas.in.h:1
+msgid "Main Window width"
+msgstr "Lebar Tetingkap Utama"
+
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Tinggi Tetingkap Utama"
+
+#: ../src/mate-system-monitor.schemas.in.h:3
+msgid "Show process dependencies in tree form"
+msgstr "Tunjuk dependensi proses dalam bentuk pepohon"
+
+#: ../src/mate-system-monitor.schemas.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr "Mod Solaris untuk peratusan CPU"
+
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Jika BENAR, system-monitor beroperasi dalam 'Solaris mode' yang mana tugas penggunaan cpu dibahagi dengan jumlah CPU. Jika tidak ia beroperasi dalam 'Irix mode'."
+
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Benar/Lumpuhkan segar semula lancar"
+
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Tunjuk dialog amaran bila membunuh proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
+msgid "Time in milliseconds between updates of the process view"
+msgstr "Masa dalam saat di antara kemaskini paparan proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Masa dalam saat di antara kemaskini graf"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "Sama ada maklumat mengenai semua sistem fail patut dipaparkan"
+
+#: ../src/mate-system-monitor.schemas.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "Sama ada hendak papar maklumat mengenai semua sistem fail (termasuklah jenis seperti 'autofs' dan 'procfs'). Berguna untuk mendapatkan senarai bagi semua sistem fail terlekap semasa."
+
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Masa dalam saat di antara kemaskini senarai peranti"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Tentukan proses yang manakah hendak dipapar secara lalai. 0 ialah Semua, 1 ialah pengguna, dan 2 ialah aktif"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Simpan tab dipapar semasa"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 untuk Maklumat Sistem, 1 untuk senarai proses, 2 untuk sumber dan 3 untuk senarai cakera"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Warna cpu graf lalai"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Warna ingatan graf lalai"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Warna silih graf lalai"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Warna trafik rangkaian masuk graf lalai"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Warna trafik rangkaian keluar graf lalai"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Lajur isih paparan proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Tertib lajur paparan proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Tertib isih paparan proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Lebar lajur 'name' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Tunjuk lajur 'name' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Lebar lajur 'owner' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Tunjuk lajur 'owner' proses semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Lebar lajur 'status' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Tunjuk lajur 'status' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Lebar lajur 'virtual memory' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Tunjuk lajur 'virtual memory' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Lebar lajur 'resident memory' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Tunjuk lajur 'resident memory' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Lebar lajur 'writable memory' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Tunjuk lajur 'writable memory' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Lebar lajur 'shared memory' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Tunjuk lajur 'shared memory' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Lebar lajur 'X server memory' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Tunjuk lajur 'X server memory' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
+#, no-c-format
+msgid "Width of process 'CPU %' column"
+msgstr "Lebar lajur 'CPU %' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Tunjuk lajur 'CPU %s' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
+msgid "Width of process 'CPU time' column"
+msgstr "Lebar lajur 'CPU time' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Tunjuk lajur 'CPU time' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:46
+msgid "Width of process 'start time' column"
+msgstr "Lebar lajur 'start time' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Tunjuk lajur 'start time' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Lebar lajur 'nice' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Tunjuk lajur 'nice' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Lebar lajur 'PID' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Tunjuk lajur 'PID' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Lebar lajur 'SELinux security context' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Tunjuk lajur 'SELinux security context' proses semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Lebar lajur 'arguments' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Tunjuk lajur 'arguments' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Lebar lajur 'estimated memory usage' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Tunjuk lajur 'estimated memory usage' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:58
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Lebar lajur 'Waiting Channel' proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:59
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Tunjuk lajur 'Waiting Channel' proses  semasa permulaan"
+
+#: ../src/mate-system-monitor.schemas.in.h:60
+msgid "Disk view columns order"
+msgstr "Tertib lajur paparan cakera"
+
+#: ../src/gsm_color_button.c:188
+msgid "Fraction"
+msgstr "Pecahan"
+
+#: ../src/gsm_color_button.c:189
+msgid "Percentage full for pie colour pickers"
+msgstr "Peratus penuh untuk pemilih warna carta pai"
+
+#: ../src/gsm_color_button.c:196
+msgid "Title"
+msgstr "Tajuk"
+
+#: ../src/gsm_color_button.c:197
+msgid "The title of the color selection dialog"
+msgstr "Tajuk bagi dialog pemilihan warna"
+
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
+msgid "Pick a Color"
+msgstr "Pilih satu Warna"
+
+#: ../src/gsm_color_button.c:204
+msgid "Current Color"
+msgstr "Warna Semasa"
+
+#: ../src/gsm_color_button.c:205
+msgid "The selected color"
+msgstr "Warna pilihan"
+
+#: ../src/gsm_color_button.c:212
+msgid "Type of color picker"
+msgstr "Jenis pemilih warna"
+
+#: ../src/gsm_color_button.c:533
+msgid "Received invalid color data\n"
+msgstr "Data warna tidak sah diterima⏎\n"
+
+#: ../src/gsm_color_button.c:631
+msgid "Click to set graph colors"
+msgstr "Klik untuk tetapkan warna graf"
+
+#. xgettext: noun, top level menu.
+#. "File" did not make sense for system-monitor
+#: ../src/interface.cpp:50
+msgid "_Monitor"
+msgstr "_Pemantau"
+
+#: ../src/interface.cpp:51
+msgid "_Edit"
+msgstr "_Sunting"
+
+#: ../src/interface.cpp:52
+msgid "_View"
+msgstr "_Lihat"
+
+#: ../src/interface.cpp:53
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../src/interface.cpp:55
+msgid "Search for _Open Files"
+msgstr "Gelintar  untuk Fail _Terbuka"
+
+#: ../src/interface.cpp:56
+msgid "Search for open files"
+msgstr "Gelintar untuk fail terbuka"
+
+#: ../src/interface.cpp:58
+msgid "Quit the program"
+msgstr "Keluar program"
+
+#: ../src/interface.cpp:61
+msgid "_Stop Process"
+msgstr "_Henti Proses"
+
+#: ../src/interface.cpp:62
+msgid "Stop process"
+msgstr "Henti proses"
+
+#: ../src/interface.cpp:63
+msgid "_Continue Process"
+msgstr "T_eruskan Proses"
+
+#: ../src/interface.cpp:64
+msgid "Continue process if stopped"
+msgstr "Teruskan proses jika berhenti"
+
+#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
+msgid "_End Process"
+msgstr "_Tamatkan Proses"
+
+#: ../src/interface.cpp:67
+msgid "Force process to finish normally"
+msgstr "Paksa proses diselesaikan secara normal"
+
+#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
+msgid "_Kill Process"
+msgstr "_Matikan Proses"
+
+#: ../src/interface.cpp:69
+msgid "Force process to finish immediately"
+msgstr "Paksa proses untuk diselesaikan serta-merta"
+
+#: ../src/interface.cpp:70
+msgid "_Change Priority..."
+msgstr "_Ubah Keutamaan..."
+
+#: ../src/interface.cpp:71
+msgid "Change the order of priority of process"
+msgstr "Ubah tertib keutamaan proses"
+
+#: ../src/interface.cpp:73
+msgid "Configure the application"
+msgstr "Konfigur aplikasi"
+
+#: ../src/interface.cpp:75
+msgid "_Refresh"
+msgstr "Se_gar Semula"
+
+#: ../src/interface.cpp:76
+msgid "Refresh the process list"
+msgstr "Segar semula senarai proses"
+
+#: ../src/interface.cpp:78
+msgid "_Memory Maps"
+msgstr "Peta _Ingatan"
+
+#: ../src/interface.cpp:79
+msgid "Open the memory maps associated with a process"
+msgstr "Buka peta ingatan yang berkaitan dengan proses"
+
+#: ../src/interface.cpp:80
+msgid "Open _Files"
+msgstr "Buka _Fail"
+
+#: ../src/interface.cpp:81
+msgid "View the files opened by a process"
+msgstr "Lihat fail yang dibuka oleh proses"
+
+#: ../src/interface.cpp:83
+msgid "_Contents"
+msgstr "_Kandungan"
+
+#: ../src/interface.cpp:84
+msgid "Open the manual"
+msgstr "Bukan panduan"
+
+#: ../src/interface.cpp:86
+msgid "About this application"
+msgstr "Perihal aplikasi ini"
+
+#: ../src/interface.cpp:91
+msgid "_Dependencies"
+msgstr "_Dependensi"
+
+#: ../src/interface.cpp:92
+msgid "Show parent/child relationship between processes"
+msgstr "Tunjuk hubungan induk/anak diantara proses"
+
+#: ../src/interface.cpp:99
+msgid "_Active Processes"
+msgstr "Proses _Aktif"
+
+#: ../src/interface.cpp:100
+msgid "Show active processes"
+msgstr "Tunjuk proses aktif"
+
+#: ../src/interface.cpp:101
+msgid "A_ll Processes"
+msgstr "Se_mua Proses"
+
+#: ../src/interface.cpp:102
+msgid "Show all processes"
+msgstr "Tunjuk semua proses"
+
+#: ../src/interface.cpp:103
+msgid "M_y Processes"
+msgstr "Proses Sa_ya"
+
+#: ../src/interface.cpp:104
+msgid "Show user own process"
+msgstr "Tunjuk proses milik pengguna"
+
+#: ../src/interface.cpp:189
+msgid "End _Process"
+msgstr "Tamatkan _Proses"
+
+#: ../src/interface.cpp:243
+msgid "CPU History"
+msgstr "Sejarah CPU"
+
+#: ../src/interface.cpp:300
+msgid "CPU"
+msgstr "CPU"
+
+#: ../src/interface.cpp:302
+#, c-format
+msgid "CPU%d"
+msgstr "CPU%d"
+
+#: ../src/interface.cpp:320
+msgid "Memory and Swap History"
+msgstr "Sejarah ingatan dan Silih"
+
+#: ../src/interface.cpp:359 ../src/proctable.cpp:226
+msgid "Memory"
+msgstr "Ingatan"
+
+#: ../src/interface.cpp:385
+msgid "Swap"
+msgstr "Silih"
+
+#: ../src/interface.cpp:406
+msgid "Network History"
+msgstr "Sejarah Rangkaian"
+
+#: ../src/interface.cpp:445
+msgid "Receiving"
+msgstr "Menerima"
+
+#: ../src/interface.cpp:466
+msgid "Total Received"
+msgstr "Jumlah Diterima"
+
+#: ../src/interface.cpp:500
+msgid "Sending"
+msgstr "Menghantar"
+
+#: ../src/interface.cpp:522
+msgid "Total Sent"
+msgstr "Jumlah Hantar"
+
+#. procman_create_sysinfo_view();
+#: ../src/interface.cpp:690
+msgid "System"
+msgstr "Sistem"
+
+#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
+msgid "Processes"
+msgstr "Proses"
+
+#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
+msgid "Resources"
+msgstr "Sumber"
+
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Sistem Fail"
+
+#: ../src/load-graph.cpp:155
+#, c-format
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] "%u saat"
+
+#. xgettext: 540MiB (53 %) of 1.0 GiB
+#: ../src/load-graph.cpp:330
+#, c-format
+msgid "%s (%.1f %%) of %s"
+msgstr "%s (%.1f %%) dari %s"
+
+#: ../src/lsof.cpp:124
+#, c-format
+msgid ""
+"<b>Error</b>\n"
+"'%s' is not a valid Perl regular expression.\n"
+"%s"
+msgstr "<b>Error</b>⏎\n'%s' bukan ungkapan nalar Perl yang sah.⏎\n%s"
+
+#: ../src/lsof.cpp:270
+msgid "Process"
+msgstr "Proses"
+
+#: ../src/lsof.cpp:282
+msgid "PID"
+msgstr "PID"
+
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
+msgid "Filename"
+msgstr "Nama fail"
+
+#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
+#: ../src/lsof.cpp:309
+msgid "Search for Open Files"
+msgstr "Gelintar untuk Fail Terbuka"
+
+#: ../src/lsof.cpp:336
+msgid "_Name contains:"
+msgstr "_Nama dikandungi:"
+
+#: ../src/lsof.cpp:352
+msgid "Case insensitive matching"
+msgstr "Pemadanan tak sensitif kata"
+
+#: ../src/lsof.cpp:360
+msgid "S_earch results:"
+msgstr "Hasil g_elintar:"
+
+#. xgettext: virtual memory start
+#: ../src/memmaps.cpp:478
+msgid "VM Start"
+msgstr "Mula VM"
+
+#. xgettext: virtual memory end
+#: ../src/memmaps.cpp:480
+msgid "VM End"
+msgstr "Akhir VM"
+
+#. xgettext: virtual memory syze
+#: ../src/memmaps.cpp:482
+msgid "VM Size"
+msgstr "Saiz VM"
+
+#: ../src/memmaps.cpp:483
+msgid "Flags"
+msgstr "Bendera"
+
+#. xgettext: virtual memory offset
+#: ../src/memmaps.cpp:485
+msgid "VM Offset"
+msgstr "Ofset VM"
+
+#. xgettext: memory that has not been modified since
+#. it has been allocated
+#: ../src/memmaps.cpp:488
+msgid "Private clean"
+msgstr "Peribadi bersih"
+
+#. xgettext: memory that has been modified since it
+#. has been allocated
+#: ../src/memmaps.cpp:491
+msgid "Private dirty"
+msgstr "Peribadi kotor"
+
+#. xgettext: shared memory that has not been modified
+#. since it has been allocated
+#: ../src/memmaps.cpp:494
+msgid "Shared clean"
+msgstr "Terkongsi bersih"
+
+#. xgettext: shared memory that has been modified
+#. since it has been allocated
+#: ../src/memmaps.cpp:497
+msgid "Shared dirty"
+msgstr "Terkongsi kotor"
+
+#: ../src/memmaps.cpp:499
 msgid "Inode"
 msgstr "Inod"
 
-#: src/memmaps.c:305
+#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
+#: ../src/memmaps.cpp:608
 msgid "Memory Maps"
-msgstr "Peta Memori"
+msgstr "Peta Ingatan"
 
-#: src/memmaps.c:325
-msgid "Process name:"
-msgstr "Nama proses:"
+#: ../src/memmaps.cpp:626
+#, c-format
+msgid "_Memory maps for process \"%s\" (PID %u):"
+msgstr "Peta _ingatan untuk proses \"%s\" (PID %u):"
 
-#: src/procactions.c:54
-msgid "No such process."
-msgstr "Tiada proses sebegitu."
+#: ../src/openfiles.cpp:34
+msgid "file"
+msgstr "fail"
 
-#: src/procactions.c:67
+#: ../src/openfiles.cpp:36
+msgid "pipe"
+msgstr "paip"
+
+#: ../src/openfiles.cpp:38
+msgid "IPv6 network connection"
+msgstr "sambungan rangkaian IPv6"
+
+#: ../src/openfiles.cpp:40
+msgid "IPv4 network connection"
+msgstr "sambungan rangkaian IPv4"
+
+#: ../src/openfiles.cpp:42
+msgid "local socket"
+msgstr "soket setempat"
+
+#: ../src/openfiles.cpp:44
+msgid "unknown type"
+msgstr "jenis tidak  diketahui"
+
+#. Translators: "FD" here means "File Descriptor". Please use
+#. a very short translation if possible, and at most
+#. 2-3 characters for it to be able to fit in the UI.
+#: ../src/openfiles.cpp:246
+msgid "FD"
+msgstr "FD"
+
+#: ../src/openfiles.cpp:248
+msgid "Object"
+msgstr "Objek"
+
+#: ../src/openfiles.cpp:332
+msgid "Open Files"
+msgstr "Buka Fail"
+
+#: ../src/openfiles.cpp:354
+#, c-format
+msgid "_Files opened by process \"%s\" (PID %u):"
+msgstr "_Fail dibuka oleh proses \"%s\" (PID %u):"
+
+#: ../src/procactions.cpp:75
 #, c-format
 msgid ""
-"Process Name : %s \n"
-"\n"
-"You do not have permission to change the priority of this process. You can "
-"enter the root password to gain the necessary permission."
-msgstr ""
-"Nama Proses : %s \n"
-"\n"
-"Anda tidak mempunyai keizinan untuk menukar prioriti proses ini. Anda boleh "
-"memasukkkan katalalauan root untuk mendapatkan keinzinan yang diperlukan."
+"Cannot change the priority of process with pid %d to %d.\n"
+"%s"
+msgstr "Tidak dapat ubah keutamaan proses dengan pid %d hingga %d.⏎\n%s"
 
-#: src/procactions.c:74
+#: ../src/procactions.cpp:155
 #, c-format
 msgid ""
-"Process Name : %s \n"
-"\n"
-"You must be root to renice a process lower than 0. You can enter the root "
-"password to gain the necessary permission."
-msgstr ""
-"Nama Proses : %s \n"
-"\n"
-"Anda tidak mempunyai keizinan untuk menukar Elok proses yang kurang daripada "
-"0. Anda boleh mem asukkkan katalalauan root untuk mendapatkan keinzinan yang "
-"diperlukan."
+"Cannot kill process with pid %d with signal %d.\n"
+"%s"
+msgstr "Tidak dapat matikan process dengan pid %d dengan isyarat %d.⏎\n%s"
 
-#: src/procactions.c:126
-#, c-format
+#. xgettext: primary alert message
+#: ../src/procdialogs.cpp:70
+msgid "Kill the selected process?"
+msgstr "Matikan proses terpilih?"
+
+#. xgettext: secondary alert message
+#: ../src/procdialogs.cpp:72
 msgid ""
-"Process Name : %s \n"
-"\n"
-"You do not have permission to end this process. You can enter the root "
-"password to gain the necessary permission."
-msgstr ""
-"Nama Proses : %s \n"
-"\n"
-"Anda tidak mempunyai keizinan untuk menamatkan proses ini . Anda boleh "
-"memasukkkan katalalauan root untuk mendapatkan keinzinan yang diperlukan."
+"Killing a process may destroy data, break the session or introduce a "
+"security risk. Only unresponding processes should be killed."
+msgstr "Mematikan proses boleh memusnahkan data, rosakkan sesidan menimbulkan risiko keselamatan. Hanya proses yang tidak memberi respons sahaja patut dimatikan."
 
-#: src/procactions.c:145
-msgid "An error occured while killing the process."
-msgstr "Ralat berlaku bila cuba membunuh proses."
+#. xgettext: primary alert message
+#: ../src/procdialogs.cpp:79
+msgid "End the selected process?"
+msgstr "Tamatkan proses terpilih?"
 
-#: src/procdialogs.c:80
-msgid "Are you sure you want to hide this process?"
-msgstr "Anda pasti untuk menyembunyi proses ini?"
-
-#: src/procdialogs.c:81
+#. xgettext: secondary alert message
+#: ../src/procdialogs.cpp:81
 msgid ""
-"If you hide a process, you can unhide it by selecting 'Hidden Processes' in "
-"the Edit menu."
-msgstr ""
-"Jika anda menyembunyi proses, anda boleh nyah sorok ia dengan memilih "
-"'Proses Tersembunyi' pada menu edit."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Menamatkan proses boleh memusnahkan data, rosakkan sesidan menimbulkan risiko keselamatan. Hanya proses yang tidak memberi respons sahaja patut ditamatkan."
 
-#: src/procdialogs.c:138 src/procdialogs.c:279
-msgid "_Show this dialog next time"
-msgstr "_Papar dialog ini kelak."
-
-#: src/procdialogs.c:215
-msgid "Are you sure you want to kill this process?"
-msgstr "Anda pasti untuk membunuh proses ini?"
-
-#: src/procdialogs.c:216
-msgid "If you kill a process, unsaved data will be lost."
-msgstr "Jika anda bunuh satu proses, data yang tidak disimpan akan hilang."
-
-#: src/procdialogs.c:220
-msgid "Are you sure you want to end this process?"
-msgstr "Anda pasti untuk menamatkan proses ini?"
-
-#: src/procdialogs.c:221
-msgid "If you end a process, unsaved data will be lost."
-msgstr "Jika anda menamatkan proses, data yang tidak disimpan akan hilang."
-
-#: src/procdialogs.c:319
+#: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
-msgstr "(Prioriti Amat Tinggi)"
+msgstr "(Keutamaan Amat Tinggi)"
 
-#: src/procdialogs.c:321
+#: ../src/procdialogs.cpp:117
 msgid "(High Priority)"
-msgstr "(Prioriti Tinggi)"
+msgstr "(Keutamaan Tinggi)"
 
-#: src/procdialogs.c:323
+#: ../src/procdialogs.cpp:119
 msgid "(Normal Priority)"
-msgstr "(Prioriti Normal)"
+msgstr "(Keutamaan Biasa)"
 
-#: src/procdialogs.c:325
+#: ../src/procdialogs.cpp:121
 msgid "(Low Priority)"
-msgstr "(Prioriti Rendah)"
+msgstr "(Keutamaan Rendah)"
 
-#: src/procdialogs.c:327
+#: ../src/procdialogs.cpp:123
 msgid "(Very Low Priority)"
-msgstr "(Prioriti Amat Rendah)"
+msgstr "(Keutamaan Amat Rendah)"
 
-#: src/procdialogs.c:381 src/procdialogs.c:1016
+#: ../src/procdialogs.cpp:175
 msgid "Change Priority"
-msgstr "Tukar Prioriti"
+msgstr "Tukar Keutamaan"
 
-#: src/procdialogs.c:402 src/procdialogs.c:1017
+#: ../src/procdialogs.cpp:196
 msgid "Change _Priority"
-msgstr "Tukar _Prioriti"
+msgstr "Tukar _Keutamaan"
 
-#: src/procdialogs.c:423
+#: ../src/procdialogs.cpp:217
 msgid "_Nice value:"
 msgstr "Nilai _Elok:"
 
-#: src/procdialogs.c:440
+#: ../src/procdialogs.cpp:233
+msgid "Note:"
+msgstr "Nota:"
+
+#: ../src/procdialogs.cpp:234
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"Prioriti bagi proses diberi mengikut nilai Elok. Nilai Elok yang rendah "
-"menunjukkan prioriti tinggi."
+msgstr "Keutamaan bagi proses diberi mengikut nilai Elok. Nilai Elok yang rendah menunjukkan keutamaan tinggi."
 
-#: src/procdialogs.c:695
+#: ../src/procdialogs.cpp:457
 msgid "Icon"
 msgstr "Ikon"
 
-#: src/procdialogs.c:735
-msgid "Preferences"
-msgstr "Keutamaan"
+#: ../src/procdialogs.cpp:502
+msgid "System Monitor Preferences"
+msgstr "Keutamaan Pemantau Sistem"
 
-#: src/procdialogs.c:760
+#: ../src/procdialogs.cpp:532
 msgid "Behavior"
 msgstr "Kelakuan"
 
-#: src/procdialogs.c:779 src/procdialogs.c:866
-msgid "_Update interval:"
-msgstr "Selang masa _kemaskini:"
+#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
+#: ../src/procdialogs.cpp:728
+msgid "_Update interval in seconds:"
+msgstr "_Kemaskini sela dalam saat:"
 
-#: src/procdialogs.c:795 src/procdialogs.c:883 src/procdialogs.c:964
-msgid "seconds"
-msgstr "saat"
+#: ../src/procdialogs.cpp:576
+msgid "Enable _smooth refresh"
+msgstr "Benarkan segar semula lan_car"
 
-#: src/procdialogs.c:802
-msgid "Show warning dialog when ending or _killing processes"
-msgstr "Papar dialog amaran bila proses ditamatkan atau di_bunuh"
+#: ../src/procdialogs.cpp:590
+msgid "Alert before ending or _killing processes"
+msgstr "Beri amaran sebelum mati atau _tamatkan proses"
 
-#: src/procdialogs.c:812
-msgid "Show warning dialog when _hiding processes"
-msgstr "Papar dialog arahan bila _menyembunyikan proses"
+#: ../src/procdialogs.cpp:604
+msgid "Solaris mode"
+msgstr "Mod Solaris"
 
-#: src/procdialogs.c:822
-msgid "Process Fields"
-msgstr "Medan Proses"
+#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
+msgid "Information Fields"
+msgstr "Medan Maklumat"
 
-#: src/procdialogs.c:847
+#: ../src/procdialogs.cpp:635
+msgid "Process i_nformation shown in list:"
+msgstr "Maklumat proses ditunjuk dalam senarai:"
+
+#: ../src/procdialogs.cpp:647
 msgid "Graphs"
 msgstr "Graf"
 
-#: src/procdialogs.c:890
-msgid "_Background color:"
-msgstr "Warna latar _belakang:"
+#: ../src/procdialogs.cpp:686
+msgid "Show network speed in bits"
+msgstr "Tunjuk kelajuan rangakan dalam bit"
 
-#: src/procdialogs.c:909
-msgid "_Grid color:"
-msgstr "Warna _grid:"
+#: ../src/procdialogs.cpp:748
+msgid "Show _all filesystems"
+msgstr "Tunjuk semu_a sistem fail"
 
-#: src/procdialogs.c:947
-msgid "Update _interval:"
-msgstr "_Selang masa kemaskini:"
+#: ../src/procdialogs.cpp:775
+msgid "File system i_nformation shown in list:"
+msgstr "Ma_klumat sistem fail ditunjuk dalam senarai:"
 
-#: src/procdialogs.c:1007
-msgid "Kill Process"
-msgstr "Bunuh Proses"
+#: ../src/procman.cpp:690
+msgid "A simple process and system monitor."
+msgstr "Merupakan pemantau sistem dan proses yang ringkas."
 
-#: src/procdialogs.c:1011
-msgid "End Process"
-msgstr "Akhiri Proses"
-
-#: src/procdialogs.c:1036
-msgid "Root Password :"
-msgstr "Katalaluan Root :"
-
-#: src/procdialogs.c:1081
-msgid "Wrong Password."
-msgstr "Katalaluan Salah :("
-
-#: src/procman.c:47
-msgid "show simple dialog to end processes and logout"
-msgstr "papar dialog mudah untuk menamatkan proses dan logkeluar"
-
-#: src/proctable.c:131
+#: ../src/proctable.cpp:211
 msgid "Process Name"
 msgstr "Nama Proses"
 
-#: src/proctable.c:131
-msgid "Arguments"
-msgstr "Hujah"
-
-#: src/proctable.c:132
+#: ../src/proctable.cpp:212
 msgid "User"
 msgstr "Pengguna"
 
-#: src/proctable.c:132
+#: ../src/proctable.cpp:213
 msgid "Status"
 msgstr "Status"
 
-#: src/proctable.c:133
-msgid "Memory"
-msgstr "Memori"
+#: ../src/proctable.cpp:214
+msgid "Virtual Memory"
+msgstr "Ingatan Maya"
 
-#: src/proctable.c:133
+#: ../src/proctable.cpp:215
 msgid "Resident Memory"
-msgstr "Memori Mastautin"
+msgstr "Ingatan Mastautin"
 
-#: src/proctable.c:134
+#: ../src/proctable.cpp:216
+msgid "Writable Memory"
+msgstr "Ingatan Boleh Tulis"
+
+#: ../src/proctable.cpp:217
 msgid "Shared Memory"
-msgstr "Memori Terkongsi"
+msgstr "Ingatan Terkongsi"
 
-#: src/proctable.c:134
-msgid "RSS Memory"
-msgstr "Memori RSS"
-
-#: src/proctable.c:135
+#: ../src/proctable.cpp:218
 msgid "X Server Memory"
-msgstr "Memori Pelayan X"
+msgstr "Ingatan Pelayan X"
 
-#: src/proctable.c:137
+#: ../src/proctable.cpp:219
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: src/proctable.c:138
+#: ../src/proctable.cpp:220
+msgid "CPU Time"
+msgstr "Masa CPU"
+
+#: ../src/proctable.cpp:221
+msgid "Started"
+msgstr "Bermula"
+
+#: ../src/proctable.cpp:222
 msgid "Nice"
 msgstr "Elok"
 
-#: src/proctable.c:138
+#: ../src/proctable.cpp:223
 msgid "ID"
 msgstr "ID"
 
-#: src/proctable.c:282
+#: ../src/proctable.cpp:224
+msgid "Security Context"
+msgstr "Konteks Keselamatan"
+
+#: ../src/proctable.cpp:225
+msgid "Command Line"
+msgstr "Baris Perintah"
+
+#. xgettext: wchan, see ps(1) or top(1)
+#: ../src/proctable.cpp:228
+msgid "Waiting Channel"
+msgstr "Menunggu Saluran"
+
+#: ../src/proctable.cpp:945
+#, c-format
+msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
+msgstr "Purata muatan bagi  1, 5, 15 minit terakhir: %0.2f, %0.2f, %0.2f"
+
+#: ../src/sysinfo.cpp:77
+#, c-format
+msgid "Release %s"
+msgstr "Keluaran %s"
+
+#: ../src/sysinfo.cpp:116
+msgid "Unknown CPU model"
+msgstr "Model CPU tidak diketahui"
+
+#: ../src/sysinfo.cpp:590
+#, c-format
+msgid "Kernel %s"
+msgstr "Kernel %s"
+
+#: ../src/sysinfo.cpp:603
+#, c-format
+msgid "MATE %s"
+msgstr "MATE %s"
+
+#. hardware section
+#: ../src/sysinfo.cpp:617
+#, c-format
+msgid "<b>Hardware</b>"
+msgstr "<b>Perkakasan</b>"
+
+#: ../src/sysinfo.cpp:622
+msgid "Memory:"
+msgstr "Ingatan:"
+
+#: ../src/sysinfo.cpp:629
+#, c-format
+msgid "Processor %d:"
+msgstr "Pemproses %d:"
+
+#: ../src/sysinfo.cpp:634
+msgid "Processor:"
+msgstr "Pemproses:"
+
+#. disk space section
+#: ../src/sysinfo.cpp:646
+#, c-format
+msgid "<b>System Status</b>"
+msgstr "<b>Status Sistem</b>"
+
+#: ../src/sysinfo.cpp:652
+msgid "Available disk space:"
+msgstr "Ruang cakera tersedia:"
+
+#: ../src/util.cpp:30
 msgid "Running"
-msgstr "Terlaksana"
+msgstr "Berjalan"
 
-#: src/proctable.c:288
+#: ../src/util.cpp:34
 msgid "Stopped"
-msgstr "Terhenti"
+msgstr "Berhenti"
 
-#: src/proctable.c:293
+#: ../src/util.cpp:38
+msgid "Zombie"
+msgstr "Zombi"
+
+#: ../src/util.cpp:42
+msgid "Uninterruptible"
+msgstr "Tidak boleh disampuk"
+
+#: ../src/util.cpp:46
 msgid "Sleeping"
 msgstr "Tidur"
 
-#: src/proctable.c:412
-msgid " (thread)"
-msgstr " (bebenang)"
-
-#: src/proctable.c:982
+#. xgettext: weeks, days
+#: ../src/util.cpp:101
 #, c-format
-msgid "%s could not be found."
-msgstr "%s tak dapat dijumpai."
+msgid "%uw%ud"
+msgstr "%uw%ud"
 
-#: src/util.c:294
+#. xgettext: days, hours (0 -> 23)
+#: ../src/util.cpp:105
 #, c-format
-msgid "%d byte"
-msgid_plural "%d bytes"
-msgstr[0] "%d bait"
-msgstr[1] "%d bait"
+msgid "%ud%02uh"
+msgstr "%ud%02uh"
 
-#: src/util.c:297
+#. xgettext: hours (0 -> 23), minutes, seconds
+#: ../src/util.cpp:109
 #, c-format
-msgid "%d K"
-msgstr "%d K"
+msgid "%u:%02u:%02u"
+msgstr "%u:%02u:%02u"
 
-#: src/util.c:301
+#. xgettext: minutes, seconds, centiseconds
+#: ../src/util.cpp:112
 #, c-format
-msgid "%.1f MB"
-msgstr "%.1f MB"
+msgid "%u:%02u.%02u"
+msgstr "%u:%02u.%02u"
 
-#: src/util.c:303
+#: ../src/util.cpp:164
 #, c-format
-msgid "%.0f MB"
-msgstr "%.0f MB"
+msgid "%.1f KiB"
+msgstr "%.1f KiB"
 
-#: src/util.c:306
+#: ../src/util.cpp:165
 #, c-format
-msgid "%.1f GB"
-msgstr "%.1f GB"
+msgid "%.1f MiB"
+msgstr "%.1f MiB"
 
-#~ msgid "View processes being run by all users"
-#~ msgstr "Lihat proses yang dilaksanakan oleh semua pengguna"
+#: ../src/util.cpp:166
+#, c-format
+msgid "%.1f GiB"
+msgstr "%.1f GiB"
 
-#~ msgid "View processes being run by you"
-#~ msgstr "Lihat proses yang dilaksanakan oleh saya"
+#: ../src/util.cpp:167
+#, c-format
+msgid "%.1f kbit"
+msgstr "%.1f kbit"
 
-#~ msgid "View only active processes"
-#~ msgstr "Hanya lihat proses yang aktif"
+#: ../src/util.cpp:168
+#, c-format
+msgid "%.1f Mbit"
+msgstr "%.1f Mbit"
+
+#: ../src/util.cpp:169
+#, c-format
+msgid "%.1f Gbit"
+msgstr "%.1f Gbit"
+
+#: ../src/util.cpp:184
+#, c-format
+msgid "%u bit"
+msgid_plural "%u bits"
+msgstr[0] "%u bit"
+
+#: ../src/util.cpp:185
+#, c-format
+msgid "%u byte"
+msgid_plural "%u bytes"
+msgstr[0] "%u bait"
+
+#: ../src/util.cpp:373
+msgid "<i>N/A</i>"
+msgstr "<i>T/A</i>"
+
+#. xgettext: rate, 10MiB/s or 10Mbit/s
+#: ../src/util.cpp:490
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"

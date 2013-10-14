@@ -1,26 +1,27 @@
-# Беларускі пераклад procman.HEAD.
-# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-# Vital Khilko <dojlid@mova.org>, 2003.
-# Ales Nyakhaychyk <nab@mail.by>, 2004, 2010.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ales Nyakhaychyk <nab@mail.by>, 2004, 2010
+# booxter <ihar.hrachyshka@gmail.com>, 2010
+# Vital Khilko <dojlid@mova.org>, 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: procman.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-03 03:12+0300\n"
-"PO-Revision-Date: 2010-04-03 03:02+0300\n"
-"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:26+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: be\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Virtaal 0.5.2\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Сыстэмны назіральнік"
 
@@ -36,38 +37,33 @@ msgstr "Паказаць сыстэмную картку"
 msgid "translator-credits"
 msgstr "Belarusian Language Linux Team <i18n@mova.org>"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Прылада"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Каталёг"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Тып"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Агулам"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Вольна"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Даступна"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Выкарыстана"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Файлавыя сыстэмы"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -95,256 +91,247 @@ msgid "%b %d %Y"
 msgstr "%d %b %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 — інфармацыя пра сыстэму, 1 — сьпіс працэсаў, 2 — рэсурсаў, 3 — дыскаў"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Прадвызначаны колер графіка ЦП"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Прадвызначаны колер графіка ўваходнага трафіка"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Прадвызначаны колер графіка памяці"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Прадвызначаны колер графіка выходнага трафіка"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Прадвызначаны колер графіка swap"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Вызначае, якія працэсы паказваць прадвызначана. 0 — усе, 1 — "
-"карыстальніцкія, 2 — актыўныя"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Парадак слупкоў прагляду дыска"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Уключыць/выключыць плаўнае абнаўленьне"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"Калі ўключана, сыстэмны назіральнік працуе ў «рэжыме Solaris», у якім "
-"загрузка ЦП для задачы падзяляецца на агульную колькасьць ЦП. Інакш "
-"выкарыстоўваецца «рэжым Irix»."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Вышыня асноўнага вакна"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Шырыня асноўнага вакна"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Парадак слупкоў прагляду працэсаў"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Вышыня асноўнага вакна"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Слупок парадкаваньня для сьпісу працэсаў"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Парадак слупкоў для сьпісу працэсаў"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Захоўвае прагляданую картку"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Паказваць слупок занятасьці ЦП працэсамі у працэнтах пры ўключэньні"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Паказваць калёнку часу занятасьці ЦПУ працэсам пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Паказваць калёнку PID працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Паказваць калёнку кантэкста SELinux працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Паказваць калёнку чаканьня ў ядры пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Паказваць калёнку памяці Х-паслужніка для працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Паказваць калёнку аргумэнтаў працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Паказваць калёнку ацэнкі выкарыстаньня памяці працэсам пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Паказваць калёнку імя працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Паказваць калёнку прыярытэта працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Паказваць калёнку ўладальніка працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Паказваць калёнку рэзыдэнтнай памяці працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Паказваць калёнку падзяляемай памяці працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Паказваць калёнку часу запуска працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Паказваць калёнку стана працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Паказваць калёнку віртуальнай памяці працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Паказваць калёнку даступнай для запісу памяці працэса пры запуску"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Паказваць залежнасьці працэсаў у выглядзе дрэва"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Адлюстроўваць дыялёг папярэджаньня падчас забіцьця працэсаў"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Рэжым Solaris для загрузкі ЦП у адсотках"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Час у мілісэкундах паміж абнаўленьнямі сьпіса прыладаў"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Калі ўключана, сыстэмны назіральнік працуе ў «рэжыме Solaris», у якім загрузка ЦП для задачы падзяляецца на агульную колькасьць ЦП. Інакш выкарыстоўваецца «рэжым Irix»."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Час у мілісэкундах паміж абнаўленьнем графікаў"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Уключыць/выключыць плаўнае абнаўленьне"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Адлюстроўваць дыялёг папярэджаньня падчас забіцьця працэсаў"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Час у мілісэкундах паміж абнаўленьнем агляду працэсаў"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Час у мілісэкундах паміж абнаўленьнем графікаў"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "Ці павінны адлюстроўвацца зьвесткі пра файлавую сыстэму"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"Ці павінны адлюстроўвацца зьвесткі пра ўсе файлавыя сыстэмы (уключаючы "
-"такія, як autofs і procfs). Можа быць карысным атрымаць поўны сьпіс усіх "
-"змантаваных файлавых сыстэмаў."
+msgstr "Ці павінны адлюстроўвацца зьвесткі пра ўсе файлавыя сыстэмы (уключаючы такія, як autofs і procfs). Можа быць карысным атрымаць поўны сьпіс усіх змантаваных файлавых сыстэмаў."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Час у мілісэкундах паміж абнаўленьнямі сьпіса прыладаў"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Вызначае, якія працэсы паказваць прадвызначана. 0 — усе, 1 — карыстальніцкія, 2 — актыўныя"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Захоўвае прагляданую картку"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 — інфармацыя пра сыстэму, 1 — сьпіс працэсаў, 2 — рэсурсаў, 3 — дыскаў"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Прадвызначаны колер графіка ЦП"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Прадвызначаны колер графіка памяці"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Прадвызначаны колер графіка swap"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Прадвызначаны колер графіка ўваходнага трафіка"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Прадвызначаны колер графіка выходнага трафіка"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Слупок парадкаваньня для сьпісу працэсаў"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Парадак слупкоў прагляду працэсаў"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Парадак слупкоў для сьпісу працэсаў"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Шырыня калёнкі імя працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Паказваць калёнку імя працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Шырыня калёнкі уладальніка працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Паказваць калёнку ўладальніка працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Шырыня калёнкі стану працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Паказваць калёнку стана працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Шырыня калёнкі віртуальнай памяці працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Паказваць калёнку віртуальнай памяці працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Шырыня калёнкі рэзыдэнтнай памяці працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Паказваць калёнку рэзыдэнтнай памяці працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Шырыня калёнкі даступнай для запісу памяці працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Паказваць калёнку даступнай для запісу памяці працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Шырыня калёнкі падзяляемай памяці працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Паказваць калёнку падзяляемай памяці працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Шырыня калёнкі памяці Х-сэрвэра для працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Паказваць калёнку памяці Х-паслужніка для працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "Шырыня калёнкі адсоткавай занятасьці ЦП"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Паказваць слупок занятасьці ЦП працэсамі у працэнтах пры ўключэньні"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "Шырыня калёнкі часавай занятасьці ЦП працэсам"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Паказваць калёнку часу занятасьці ЦПУ працэсам пры запуску"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Шырыня калёнкі PID працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Шырыня калёнкі кантэкста SELinux працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Шырыня калёнкі чаканьня ў ядры"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Шырыня калёнкі памяці Х-сэрвэра для працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Шырыня калёнкі аргумэнтаў працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Шырыня калёнкі ацэнкі выкарыстаньня памяці працэсам"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Шырыня калёнкі імя працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Шырыня калёнкі прыярытэта працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Шырыня калёнкі уладальніка працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Шырыня калёнкі рэзыдэнтнай памяці працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Шырыня калёнкі падзяляемай памяці працэса"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "Шырыня калёнкі часу запуска працэса"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Паказваць калёнку часу запуска працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Шырыня калёнкі прыярытэта працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Паказваць калёнку прыярытэта працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Шырыня калёнкі PID працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Паказваць калёнку PID працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Шырыня калёнкі кантэкста SELinux працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Паказваць калёнку кантэкста SELinux працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Шырыня калёнкі аргумэнтаў працэса"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Паказваць калёнку аргумэнтаў працэса пры запуску"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Шырыня калёнкі ацэнкі выкарыстаньня памяці працэсам"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Паказваць калёнку ацэнкі выкарыстаньня памяці працэсам пры запуску"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Шырыня калёнкі стану працэса"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Шырыня калёнкі чаканьня ў ядры"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Шырыня калёнкі віртуальнай памяці працэса"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Паказваць калёнку чаканьня ў ядры пры запуску"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Шырыня калёнкі даступнай для запісу памяці працэса"
+msgid "Disk view columns order"
+msgstr "Парадак слупкоў прагляду дыска"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -362,7 +349,7 @@ msgstr "Загаловак"
 msgid "The title of the color selection dialog"
 msgstr "Загаловак акна дыялёгу выбару колеру"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Абраць колер"
 
@@ -378,11 +365,11 @@ msgstr "Абраны колер"
 msgid "Type of color picker"
 msgstr "Тып дыялёгу выбару колеру"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Атрыманы некарэктныя зьвесткі пра колер\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Пстрыкніце для зьмены колераў графіка"
 
@@ -590,16 +577,22 @@ msgstr "Працэсы"
 msgid "Resources"
 msgstr "Рэсурсы"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Файлавыя сыстэмы"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u сэкунда"
-msgstr[1] "%u сэкунды"
-msgstr[2] "%u сэкундаў"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) з %s"
@@ -610,10 +603,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Памылка</b>\n"
-"'%s' не зьяўляецца сапраўдным выразам Perl.\n"
-"%s"
+msgstr "<b>Памылка</b>\n'%s' не зьяўляецца сапраўдным выразам Perl.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -632,15 +622,15 @@ msgstr "Назва файла"
 msgid "Search for Open Files"
 msgstr "Пошук адкрытых файлаў"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Назва ўтрымлівае:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Зважаць на памер літар"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "_Вынікі пошуку:"
 
@@ -701,7 +691,7 @@ msgstr "Inode"
 msgid "Memory Maps"
 msgstr "Мапы памяці"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Мапы памяці для працэсу «%s» (PID %u):"
@@ -755,18 +745,14 @@ msgstr "Файлы, адкрытыя працэсам «%s» (PID %u):"
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Не ўдалося зьмяніць прыярытэт працэсу з PID %d на %d.\n"
-"%s"
+msgstr "Не ўдалося зьмяніць прыярытэт працэсу з PID %d на %d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Не ўдалося скончыць працэс з PID %d пры дапамозе сыгналу %d.\n"
-"%s"
+msgstr "Не ўдалося скончыць працэс з PID %d пры дапамозе сыгналу %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -778,10 +764,7 @@ msgstr "Зьняць абраны працэс?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Здымаючы працэс, можна зьнішчыць зьвесткі, перарваць працоўны сэанс або "
-"стварыць пагрозу бясьпекі. Здымаць трэба толькі тыя працэсы, якія не "
-"адказваюць."
+msgstr "Здымаючы працэс, можна зьнішчыць зьвесткі, перарваць працоўны сэанс або стварыць пагрозу бясьпекі. Здымаць трэба толькі тыя працэсы, якія не адказваюць."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -791,12 +774,9 @@ msgstr "Скончыць абраны працэс?"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Скончваючы працэс, можна зьнішчыць зьвесткі, перарваць працоўны сэанс або "
-"стварыць пагрозу бясьпекі. Закончваць трэба толькі тыя працэсы, якія не "
-"адказваюць."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Скончваючы працэс, можна зьнішчыць зьвесткі, перарваць працоўны сэанс або стварыць пагрозу бясьпекі. Закончваць трэба толькі тыя працэсы, якія не адказваюць."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -893,7 +873,7 @@ msgstr "Адлюстраваць _усе файлавыя сыстэмы"
 msgid "File system i_nformation shown in list:"
 msgstr "Інфармацыя аб _файлавай сыстэме, якая адлюстроўваецца ў сьпісе:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "Просты назіральнік за працэсамі й сыстэмай."
 
@@ -977,42 +957,42 @@ msgstr "Выданьне %s"
 msgid "Unknown CPU model"
 msgstr "Невядомая мадэль ЦП"
 
-#: ../src/sysinfo.cpp:586
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "Ядро %s"
 
-#: ../src/sysinfo.cpp:599
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:613
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Апаратура</b>"
 
-#: ../src/sysinfo.cpp:618
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "Памяць:"
 
-#: ../src/sysinfo.cpp:625
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "Працэсар %d:"
 
-#: ../src/sysinfo.cpp:630
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "Працэсар:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:642
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>Стан сыстэмы</b>"
 
-#: ../src/sysinfo.cpp:648
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "Наяўная дыскавая прастора:"
 
@@ -1094,17 +1074,19 @@ msgstr "%.1f Гбіт"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u біт"
-msgstr[1] "%u біты"
-msgstr[2] "%u бітаў"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/util.cpp:185
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u байт"
-msgstr[1] "%u байты"
-msgstr[2] "%u байтаў"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/util.cpp:373
 msgid "<i>N/A</i>"
@@ -1115,283 +1097,3 @@ msgstr "<i>Няма</i>"
 #, c-format
 msgid "%s/s"
 msgstr "%s/с"
-
-#~ msgid "Kevin Vandersloot"
-#~ msgstr "Kevin Vandersloot"
-
-#~ msgid "Jorgen Scheibengruber - nicer devices treeview"
-#~ msgstr "Jorgen Scheibengruber - прыгожае дрэва прылад"
-
-#~ msgid "(C) 2001 Kevin Vandersloot"
-#~ msgstr "(C) 2001 Kevin Vandersloot"
-
-#~ msgid "Simple process viewer using libgtop"
-#~ msgstr "Кампактны праглядальнік працэсаў,які выкарыстоўвае libgtop"
-
-#~ msgid "X window system"
-#~ msgstr "Сыстэма X window"
-
-#~ msgid "bourne again shell"
-#~ msgstr "Абалёнка bourne again"
-
-#~ msgid "Mate-Session"
-#~ msgstr "Mate-Session"
-
-#~ msgid "No processes are currently hidden."
-#~ msgstr "Няма схаваных працэсаў"
-
-#~ msgid "Manage Hidden Processes"
-#~ msgstr "Мэнаджар схаваных працэсаў"
-
-#~ msgid "_Hidden processes:"
-#~ msgstr "С_хаваныя працэсы:"
-
-#~ msgid "_Remove From List"
-#~ msgstr "_Выдаліць са сьпісу"
-
-#~ msgid ""
-#~ "These are the processes you have chosen to hide. You can reshow a process "
-#~ "by removing it from this list."
-#~ msgstr ""
-#~ "Дадзеныя працэсы схаваны. Гэты дыялёг дазволіць вярнуць схаваныя працэсы "
-#~ "ў сьпіс праглядальніку працэсаў."
-
-#~ msgid "Status:"
-#~ msgstr "Стан:"
-
-#~ msgid "Priority:"
-#~ msgstr "Прыярытэт :"
-
-#~ msgid "Memory Usage"
-#~ msgstr "Выкарыстаньне памяці"
-
-#~ msgid "Total:"
-#~ msgstr "Агулам:"
-
-#~ msgid "RSS:"
-#~ msgstr "RSS:"
-
-#~ msgid "Very high - nice %d"
-#~ msgstr "Вельмі высокі - nice %d"
-
-#~ msgid "High - nice %d"
-#~ msgstr "Высокі - nice %d"
-
-#~ msgid "Normal - nice %d"
-#~ msgstr "Нармальны - nice %d"
-
-#~ msgid "Low - nice %d"
-#~ msgstr "Нізкі - nice %d"
-
-#~ msgid "Very low - nice %d"
-#~ msgstr "Вельмі нізкі - nice %d"
-
-#~ msgid "Hide a process"
-#~ msgstr "Схаваць працэс"
-
-#~ msgid "Force a process to finish."
-#~ msgstr "Паскорыць завяршэньне працэсу."
-
-#~ msgid "Force a process to finish now."
-#~ msgstr "Тэрмінова скончыць працэс."
-
-#~ msgid "_Hidden Processes"
-#~ msgstr "Адлюстраваць _схаваныя працэсы"
-
-#~ msgid "View and edit your list of hidden processes"
-#~ msgstr "Прагледзіць і адрэдагаваць сьпіс схаваных працэсаў"
-
-#~ msgid "Display a tree showing process dependencies"
-#~ msgstr "Адлюстроўваць дрэва залежнасьці працэсаў"
-
-#~ msgid "_Threads"
-#~ msgstr "_Ніткі"
-
-#~ msgid "Display threads (subprocesses)"
-#~ msgstr "Адлюстраваць ніткі (падпрацэсы)"
-
-#~ msgid "More _Info >>"
-#~ msgstr "Болей інфармацыі _>>"
-
-#~ msgid "<< Less _Info"
-#~ msgstr "_<< Меней інфармацыі"
-
-#~ msgid "Sea_rch:"
-#~ msgstr "По_шук:"
-
-#~ msgid "More _Info"
-#~ msgstr "Дадатковая _інфармацыя"
-
-#~ msgid "Name"
-#~ msgstr "Назва"
-
-#~ msgid "Used memory:"
-#~ msgstr "Выкарыстана памяці:"
-
-#~ msgid "of"
-#~ msgstr "з"
-
-#~ msgid "Used swap:"
-#~ msgstr "Выкарыстана свопу:"
-
-#~ msgid "Devices"
-#~ msgstr "Прылады"
-
-#~ msgid "Application Manager"
-#~ msgstr "Мэнаджар дастасаваньняў"
-
-#~ msgid "Running Applications"
-#~ msgstr "Запуск дастасаваньняў"
-
-#~ msgid ""
-#~ "Process Name : %s \n"
-#~ "\n"
-#~ "You do not have permission to change the priority of this process. You "
-#~ "can enter the root password to gain the necessary permission."
-#~ msgstr ""
-#~ "Назва працэса : %s \n"
-#~ "\n"
-#~ "Вы ня маеце правы на зьмену прыярытэта дадзенага працэса. Увядзіце пароль "
-#~ "адміністратара (root), для выкананьня дадзенага дзеяньня."
-
-#~ msgid ""
-#~ "Process Name : %s \n"
-#~ "\n"
-#~ "You must be root to renice a process lower than 0. You can enter the root "
-#~ "password to gain the necessary permission."
-#~ msgstr ""
-#~ "Назва працэса : %s \n"
-#~ "\n"
-#~ "Вы ня маеце правы на зьмену nice узроўня ніжэй за 0. Увядзіце пароль "
-#~ "адміністратара (root), для выкананьня дадзенага дзеяньня."
-
-#~ msgid ""
-#~ "Process Name : %s \n"
-#~ "\n"
-#~ "You do not have permission to end this process. You can enter the root "
-#~ "password to gain the necessary permission."
-#~ msgstr ""
-#~ "Назва працэсу : %s \n"
-#~ "\n"
-#~ "Вы ня маеце правы на завяршэньне дадзенага працэса. Увядзіце пароль "
-#~ "адміністратара (root), для выкананьня дадзенага дзеяньня."
-
-#~ msgid "An error occured while killing the process."
-#~ msgstr "Памылка пад час заканчэньня працэса."
-
-#~ msgid "Are you sure you want to hide this process?"
-#~ msgstr "Вы насамрэч жадаеце схаваць гэты працэс?"
-
-#~ msgid ""
-#~ "If you hide a process, you can unhide it by selecting 'Hidden Processes' "
-#~ "in the Edit menu."
-#~ msgstr ""
-#~ "Калі вы схавалі працэс, вы можаце адшукаць яго, вылучаўшы \"Схаваныя "
-#~ "працэсы\" ў мэню \"Рэдагаваньне\"."
-
-#~ msgid "_Show this dialog next time"
-#~ msgstr "_Паказваць наступным разам гэты дыялёг"
-
-#~ msgid "Are you sure you want to kill this process?"
-#~ msgstr "Вы насамрэч жадаеце забіць гэты працэс?"
-
-#~ msgid "If you kill a process, unsaved data will be lost."
-#~ msgstr "Калі вы заб'еце працэс, незахаваныя даньні будуць згублены."
-
-#~ msgid "Are you sure you want to end this process?"
-#~ msgstr "Вы насамрэч жадаеце скончыць гэты працэс?"
-
-#~ msgid "If you end a process, unsaved data will be lost."
-#~ msgstr "Калі вы скончыце працэс, незахаваныя даньні будуць згублены."
-
-#~ msgid "Preferences"
-#~ msgstr "Наладка"
-
-#~ msgid "_Background color:"
-#~ msgstr "Колер _тла:"
-
-#~ msgid "_Grid color:"
-#~ msgstr "Колер _кратаў:"
-
-#~ msgid "Update _interval:"
-#~ msgstr "Пэрыяд аб_наўленьня:"
-
-#~ msgid "Kill Process"
-#~ msgstr "Забіць працэс"
-
-#~ msgid "Root Password :"
-#~ msgstr "Пароль root'а :"
-
-#~ msgid "Wrong Password."
-#~ msgstr "Памылковы пароль."
-
-#~ msgid "show simple dialog to end processes and logout"
-#~ msgstr "адлюстраваць просты дыялёг для заканчэньня працэсаў і выйсьці"
-
-#~ msgid "Arguments"
-#~ msgstr "Аргумэнты"
-
-#~ msgid "RSS Memory"
-#~ msgstr "Памяць RSS"
-
-#~ msgid " (thread)"
-#~ msgstr " (нітка)"
-
-#~ msgid "%s could not be found."
-#~ msgstr "%s не адшуканы."
-
-#~ msgid "%d K"
-#~ msgstr "%d Кб"
-
-#~ msgid "%.0f MB"
-#~ msgstr "%.0f Мб"
-
-#~ msgid "Kevin Vandersloot (kfv101@psu.edu)"
-#~ msgstr "Kevin Vandersloot (kfv101@psu.edu)"
-
-#~ msgid "View processes being run by all users"
-#~ msgstr "Прагледзіць сьпіс працэсаў, якія запушчаны ўсімі карыстальнікамі"
-
-#~ msgid "View processes being run by you"
-#~ msgstr "Прагледзіць сьпіс працэсаў, якія запушчаны вамі"
-
-#~ msgid "Used CPU:"
-#~ msgstr "Выкарыстана ЦПУ:"
-
-#~ msgid "Change Priority ..."
-#~ msgstr "Зьмяніць прыярытэт..."
-
-#~ msgid "Hide Process"
-#~ msgstr "Cхаваць працэс"
-
-#~ msgid ""
-#~ "Are you sure you want to hide this process?\n"
-#~ "(Choose 'Hidden Processes' in the Settings menu to reshow)"
-#~ msgstr ""
-#~ "Вы упэўнены, што жадаеце схаваць працэс?\n"
-#~ "(Для вяртаньня працэса ў сьпіс, скарыстайцеся\n"
-#~ "пунктам 'Схаваныя працэсы' у мэню \"Наладка\"."
-
-#~ msgid "Erik Johnsson (zaphod@linux.nu) - icon support"
-#~ msgstr "Erik Johnsson (zaphod@linux.nu) - падтрымка значак"
-
-#~ msgid "Hidden Processes"
-#~ msgstr "Схаваныя працэсы"
-
-#~ msgid "Status : "
-#~ msgstr "Стан : "
-
-#~ msgid "Total : "
-#~ msgstr "Агулам : "
-
-#~ msgid "Used Space"
-#~ msgstr "Скарыстаная прастора"
-
-#~ msgid "_Set"
-#~ msgstr "_Усталяваць"
-
-#~ msgid "Update Speed ( seconds ) :"
-#~ msgstr "Пэрыяд абнаўленьня (сэк.) :"
-
-#~ msgid "Se_t"
-#~ msgstr "_Усталяваць"

@@ -1,28 +1,24 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# matepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-04 15:57+0200\n"
-"PO-Revision-Date: 2010-09-02 00:04+0100\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <matepl@aviary.pl>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-07-12 13:28+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Monitor systemu"
 
@@ -38,38 +34,33 @@ msgstr "Wyświetla kartę systemową"
 msgid "translator-credits"
 msgstr "Aviary.pl <matepl@aviary.pl>, 2008, 2009, 2010"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Urządzenie"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Katalog"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Typ"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Łącznie"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Wolne"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Dostępne"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Wykorzystane"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Systemy plików"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -97,259 +88,247 @@ msgid "%b %d %Y"
 msgstr "%d %b %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 - informacje o systemie, 1 - lista procesów, 2 - zasoby i 3 - lista dysków"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Domyślny kolor wykresu procesora"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Domyślny kolor wykresu przychodzącego ruchu sieciowego"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Domyślny kolor wykresu pamięci"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Domyślny kolor wykresu wychodzącego ruchu sieciowego"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Domyślny kolor wykresu przestrzeni wymiany"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Określa, które procesy będą domyślnie wyświetlane. 0 - wszystkie, 1 - "
-"użytkownika i 2 - aktywne"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Kolejność kolumn widoku dysków"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Włącza/wyłącza płynne odświeżanie"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"Jeśli wartość wynosi \"true\", monitor systemu działa w trybie Solaris, w "
-"którym użycie procesora przez zadanie jest dzielone przez całkowitą liczbę "
-"procesorów. Domyślnie działa w trybie Irix."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Wysokość głównego okna"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Szerokość głównego okna"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Kolejność kolumn widoku procesów"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Wysokość głównego okna"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Kolumna sortowania widoku procesów"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Porządek sortowania widoku procesów"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Zapisuje obecnie oglądaną zakładkę"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Wyświetlanie kolumny CPU % podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Wyświetlanie kolumny czasu CPU podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Wyświetlanie kolumny PID podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr ""
-"Wyświetlanie kolumny kontekstu bezpieczeństwa procesu SELinux podczas "
-"uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Wyświetlanie kolumny \"Kanał oczekujący\" podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Wyświetlanie kolumny pamięci X serwera podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Wyświetlanie kolumny parametrów podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Wyświetlanie kolumny szacowanego użycia pamięci podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Wyświetlanie kolumny nazwy podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Wyświetlanie kolumny nice podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Wyświetlanie kolumny właściciela podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Wyświetlanie kolumny pamięci rezydentnej podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Wyświetlanie kolumny pamięci współdzielonej podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Wyświetlanie kolumny czasu uruchomienia podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Wyświetlanie kolumny stanu procesu podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Wyświetlanie kolumny pamięci wirtualnej podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Wyświetlanie kolumny pamięci zapisywalnej podczas uruchomienia"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Wyświetlanie zależności procesów w postaci drzewa"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Wyświetlanie okna z ostrzeżeniem przy usuwaniu procesów"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Tryb Solaris dla procentowego użycia procesora"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Czas w milisekundach pomiędzy aktualizacjami listy urządzeń"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Jeśli wartość wynosi \"true\", monitor systemu działa w trybie Solaris, w którym użycie procesora przez zadanie jest dzielone przez całkowitą liczbę procesorów. Domyślnie działa w trybie Irix."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Czas z milisekundach pomiędzy aktualizacjami wykresów"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Włącza/wyłącza płynne odświeżanie"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Wyświetlanie okna z ostrzeżeniem przy usuwaniu procesów"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Czas w milisekundach pomiędzy aktualizacjami widoku procesów"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
-msgid "Whether information about all filesystems should be displayed"
-msgstr ""
-"Określa, czy będzie wyświetlana informacja o wszystkich systemach plików"
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Czas z milisekundach pomiędzy aktualizacjami wykresów"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "Określa, czy będzie wyświetlana informacja o wszystkich systemach plików"
+
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"Określa, czy będzie wyświetlana informacja o wszystkich systemach plików, "
-"włączając w to systemy takie jak \"autofs\" i \"procfs\". Może być to "
-"przydatne do wyświetlenia listy aktualnie zamontowanych systemów plików."
+msgstr "Określa, czy będzie wyświetlana informacja o wszystkich systemach plików, włączając w to systemy takie jak \"autofs\" i \"procfs\". Może być to przydatne do wyświetlenia listy aktualnie zamontowanych systemów plików."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Czas w milisekundach pomiędzy aktualizacjami listy urządzeń"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Określa, które procesy będą domyślnie wyświetlane. 0 - wszystkie, 1 - użytkownika i 2 - aktywne"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Zapisuje obecnie oglądaną zakładkę"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 - informacje o systemie, 1 - lista procesów, 2 - zasoby i 3 - lista dysków"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Domyślny kolor wykresu procesora"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Domyślny kolor wykresu pamięci"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Domyślny kolor wykresu przestrzeni wymiany"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Domyślny kolor wykresu przychodzącego ruchu sieciowego"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Domyślny kolor wykresu wychodzącego ruchu sieciowego"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Kolumna sortowania widoku procesów"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Kolejność kolumn widoku procesów"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Porządek sortowania widoku procesów"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Szerokość kolumny nazwy procesu"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Wyświetlanie kolumny nazwy podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Szerokość kolumny właściciela"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Wyświetlanie kolumny właściciela podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Szerokość kolumny stanu"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Wyświetlanie kolumny stanu procesu podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Szerokość kolumny pamięci wirtualnej"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Wyświetlanie kolumny pamięci wirtualnej podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Szerokość kolumny pamięci rezydentnej"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Wyświetlanie kolumny pamięci rezydentnej podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Szerokość kolumny pamięci zapisywalnej"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Wyświetlanie kolumny pamięci zapisywalnej podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Szerokość kolumny pamięci współdzielonej"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Wyświetlanie kolumny pamięci współdzielonej podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Szerokość kolumny pamięci X serwera"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Wyświetlanie kolumny pamięci X serwera podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "Szerokość kolumny CPU %"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Wyświetlanie kolumny CPU % podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "Szerokość kolumny czasu CPU"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Wyświetlanie kolumny czasu CPU podczas uruchomienia"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Szerokość kolumny PID"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Szerokość kolumny kontekstu bezpieczeństwa procesu SELinux"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Szerokość kolumny \"Kanał oczekujący\""
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Szerokość kolumny pamięci X serwera"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Szerokość kolumny parametrów procesów"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Szerokość kolumny szacowanego użycia pamięci"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Szerokość kolumny nazwy procesu"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Szerokość kolumny nice"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Szerokość kolumny właściciela"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Szerokość kolumny pamięci rezydentnej"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Szerokość kolumny pamięci współdzielonej"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "Szerokość kolumny czasu uruchomienia"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Wyświetlanie kolumny czasu uruchomienia podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Szerokość kolumny nice"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Wyświetlanie kolumny nice podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Szerokość kolumny PID"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Wyświetlanie kolumny PID podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Szerokość kolumny kontekstu bezpieczeństwa procesu SELinux"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Wyświetlanie kolumny kontekstu bezpieczeństwa procesu SELinux podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Szerokość kolumny parametrów procesów"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Wyświetlanie kolumny parametrów podczas uruchomienia"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Szerokość kolumny szacowanego użycia pamięci"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Wyświetlanie kolumny szacowanego użycia pamięci podczas uruchomienia"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Szerokość kolumny stanu"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Szerokość kolumny \"Kanał oczekujący\""
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Szerokość kolumny pamięci wirtualnej"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Wyświetlanie kolumny \"Kanał oczekujący\" podczas uruchomienia"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Szerokość kolumny pamięci zapisywalnej"
+msgid "Disk view columns order"
+msgstr "Kolejność kolumn widoku dysków"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -367,7 +346,7 @@ msgstr "Tytuł"
 msgid "The title of the color selection dialog"
 msgstr "Tytuł okna dialogowego wyboru koloru"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:605
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Wybór koloru"
 
@@ -383,11 +362,11 @@ msgstr "Zaznaczony kolor"
 msgid "Type of color picker"
 msgstr "Typ wybierania kolorów"
 
-#: ../src/gsm_color_button.c:526
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Otrzymano nieprawidłowe dane o kolorach\n"
 
-#: ../src/gsm_color_button.c:626
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Kliknięcie pozwala ustawić kolory wykresu"
 
@@ -595,6 +574,11 @@ msgstr "Procesy"
 msgid "Resources"
 msgstr "Zasoby"
 
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Systemy plików"
+
 #: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
@@ -604,7 +588,7 @@ msgstr[1] "%u sekundy"
 msgstr[2] "%u sekund"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:339
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) z %s"
@@ -615,10 +599,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Błąd</b>\n"
-"\"%s\" nie jest prawidłowym wyrażeniem regularnym języka Perl.\n"
-"%s"
+msgstr "<b>Błąd</b>\n\"%s\" nie jest prawidłowym wyrażeniem regularnym języka Perl.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -637,15 +618,15 @@ msgstr "Nazwa pliku"
 msgid "Search for Open Files"
 msgstr "Szukanie otwartych plików"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Nazwa zawiera:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Ignorowanie wielkości liter"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "Wy_niki wyszukiwania:"
 
@@ -706,7 +687,7 @@ msgstr "I-węzeł"
 msgid "Memory Maps"
 msgstr "Mapy pamięci"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Mapy pamięci dla procesu \"%s\" (PID %u):"
@@ -760,18 +741,14 @@ msgstr "_Pliki otwarte przez proces \"%s\" (PID %u):"
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Nie można zmienić priorytetu procesu z PID %d na %d.\n"
-"%s"
+msgstr "Nie można zmienić priorytetu procesu z PID %d na %d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Nie można usunąć procesu z PID %d za pomocą sygnału %d.\n"
-"%s"
+msgstr "Nie można usunąć procesu z PID %d za pomocą sygnału %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -783,10 +760,7 @@ msgstr "Usunąć zaznaczony proces?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Usuwając proces, można uszkodzić dane, przerwać pracującą sesję lub stworzyć "
-"zagrożenie bezpieczeństwa. Powinno się usuwać tylko procesy, które przestały "
-"odpowiadać."
+msgstr "Usuwając proces, można uszkodzić dane, przerwać pracującą sesję lub stworzyć zagrożenie bezpieczeństwa. Powinno się usuwać tylko procesy, które przestały odpowiadać."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -796,12 +770,9 @@ msgstr "Zakończyć zaznaczony proces?"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Kończąc proces, można uszkodzić dane, przerwać pracującą sesję lub stworzyć "
-"zagrożenie bezpieczeństwa. Powinno się kończyć tylko procesy, które "
-"przestały odpowiadać."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Kończąc proces, można uszkodzić dane, przerwać pracującą sesję lub stworzyć zagrożenie bezpieczeństwa. Powinno się kończyć tylko procesy, które przestały odpowiadać."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -843,9 +814,7 @@ msgstr "Uwaga:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"Priorytet procesu jest określany przez wartość nice. Niższa wartość nice "
-"odpowiada wyższemu priorytetowi."
+msgstr "Priorytet procesu jest określany przez wartość nice. Niższa wartość nice odpowiada wyższemu priorytetowi."
 
 #: ../src/procdialogs.cpp:457
 msgid "Icon"
@@ -900,7 +869,7 @@ msgstr "Wyświetlanie _wszystkich systemów plików"
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformacje o procesie wyświetlane na liście:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "Prosty monitor systemu i procesów."
 

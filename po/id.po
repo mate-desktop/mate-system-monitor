@@ -1,29 +1,28 @@
-# translation of mate-system-monitor.master.po to Bahasa Indonesia
-# Indonesia translation of procman.
-# Copyright (C) 2005 THE procman'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the procman package.
-#
-#
-# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006.
-# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
-# Dirgita <dirgitadevina@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006
+# Dirgita <dirgitadevina@gmail.com>, 2010
+# Mohamad Hasan Al Banna, 2012
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor.master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.mate.org/enter_bug.cgi?product=system-"
-"monitor&component=general\n"
-"POT-Creation-Date: 2010-04-08 11:10+0000\n"
-"PO-Revision-Date: 2010-04-10 10:44+0800\n"
-"Last-Translator: Dirgita <dirgitadevina@gmail.com>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 15:25+0200\n"
+"PO-Revision-Date: 2012-10-30 11:42+0000\n"
+"Last-Translator: Mohamad Hasan Al Banna\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/MATE/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:724
+#: ../src/interface.cpp:619 ../src/procman.cpp:735
 msgid "System Monitor"
 msgstr "Monitor Sistem"
 
@@ -37,44 +36,35 @@ msgstr "Tampilkan tab Sistem"
 
 #: ../src/callbacks.cpp:167
 msgid "translator-credits"
-msgstr ""
-"Mohammad DAMT <mdamt@bisnisweb.com>\n"
-"Ahmad Riza H Nst  <ari@160c.afraid.org>\n"
-"Dirgita <dirgita@gmail.com>\n"
-"Tim MATE Indonesia <http://id.mate.org>"
+msgstr "Mohammad DAMT <mdamt@bisnisweb.com>\nAhmad Riza H Nst  <ari@160c.afraid.org>\nDirgita <dirgita@gmail.com>\nTim MATE Indonesia <http://id.mate.org>"
 
-#: ../src/disks.cpp:300 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
 msgid "Device"
 msgstr "Perangkat"
 
-#: ../src/disks.cpp:301
+#: ../src/disks.cpp:300
 msgid "Directory"
 msgstr "Direktori"
 
-#: ../src/disks.cpp:302 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Jenis"
 
-#: ../src/disks.cpp:303
+#: ../src/disks.cpp:302
 msgid "Total"
 msgstr "Total"
 
-#: ../src/disks.cpp:304
+#: ../src/disks.cpp:303
 msgid "Free"
 msgstr "Bebas"
 
-#: ../src/disks.cpp:305
+#: ../src/disks.cpp:304
 msgid "Available"
 msgstr "Tersedia"
 
-#: ../src/disks.cpp:306
+#: ../src/disks.cpp:305
 msgid "Used"
 msgstr "Dipakai"
-
-#: ../src/disks.cpp:313 ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
-msgid "File Systems"
-msgstr "Sistem Berkas"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -102,257 +92,247 @@ msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
 #: ../src/mate-system-monitor.schemas.in.h:1
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr ""
-"0 untuk Informasi Sistem, 1 untuk daftar proses, 2 untuk sumber daya, dan 3 "
-"untuk daftar diska"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Default graph cpu color"
-msgstr "Warna utama grafik cpu"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Default graph incoming network traffic color"
-msgstr "Warna utama grafik jaringan (diterima)"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Default graph mem color"
-msgstr "Warna utama grafik memori"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid "Default graph outgoing network traffic color"
-msgstr "Warna utama grafik jaringan (keluar)"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Default graph swap color"
-msgstr "Warna utama grafik swap"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is "
-"active"
-msgstr ""
-"Menentukan proses yang diutamakan untuk tampil. 0 untuk Semua, 1 untuk "
-"pengguna, dan 2 untuk proses yang aktif"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Disk view columns order"
-msgstr "Urutan kolom diska yang ditampilkan"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Enable/Disable smooth refresh"
-msgstr "Mengaktifkan/menonaktifkan penyegaran halus"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr ""
-"Apabila TRUE, monitor-sistem akan beroperasi dalam 'modus Solaris', yakni "
-"tugas-tugas yang menggunakan cpu dibagi dengan jumlah CPU yang dimiliki. "
-"Selain itu, akan bekerja dalam 'modus Irix'."
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid "Main Window height"
-msgstr "Tinggi jendela utama"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Main Window width"
 msgstr "Lebar jendela utama"
 
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid "Process view columns order"
-msgstr "Susunan kolom proses yang ditampilkan"
+#: ../src/mate-system-monitor.schemas.in.h:2
+msgid "Main Window height"
+msgstr "Tinggi jendela utama"
 
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Process view sort column"
-msgstr "Urutan kolom proses yang ditampilkan"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid "Process view sort order"
-msgstr "Susunan urut kolom proses yang ditampilkan"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Saves the currently viewed tab"
-msgstr "Simpan tab yang sekarang ditampilkan"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Tampilkan kolom proses '% CPU' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Show process 'CPU time' column on startup"
-msgstr "Tampilkan kolom proses 'Waktu CPU' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Show process 'PID' column on startup"
-msgstr "Tampilkan kolom proses 'PID' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Tampilkan kolom proses 'Konteks Keamanan SELinux' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Tampilkan kolom proses 'Kanal Tunggu' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Show process 'X server memory' column on startup"
-msgstr "Tampilkan kolom proses 'Memori Server X' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Show process 'arguments' column on startup"
-msgstr "Tampilkan kolom proses 'Argumen' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Tampilkan kolom proses 'Perkiraan Memori yang Dipakai' pada saat mula"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Show process 'name' column on startup"
-msgstr "Tampilkan kolom proses 'Nama' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'nice' column on startup"
-msgstr "Tampilkan kolom proses 'Angkatan' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Show process 'owner' column on startup"
-msgstr "Tampilkan kolom proses 'Pemilik' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'resident memory' column on startup"
-msgstr "Tampilkan kolom proses 'Memori Bertetap' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Show process 'shared memory' column on startup"
-msgstr "Tampilkan kolom proses 'Memori Berbagi' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'start time' column on startup"
-msgstr "Tampilkan kolom proses 'Waktu Mulai' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Show process 'status' column on startup"
-msgstr "Tampilkan kolom proses 'Status' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Tampilkan kolom proses 'Memori Virtual' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Show process 'writable memory' column on startup"
-msgstr "Tampilkan kolom proses 'Memori Dapat Ditulis' pada saat mulai"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
+#: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Tampilkan ketergantungan proses dalam bentuk pohon"
 
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Show warning dialog when killing processes"
-msgstr "Tampilkan dialog peringatan saat menghentikan proses"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
+#: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
 msgstr "Modus Solaris untuk persentase CPU"
 
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Jeda pembaharuan untuk daftar perangkat dalam milidetik"
+#: ../src/mate-system-monitor.schemas.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Apabila TRUE, monitor-sistem akan beroperasi dalam 'modus Solaris', yakni tugas-tugas yang menggunakan cpu dibagi dengan jumlah CPU yang dimiliki. Selain itu, akan bekerja dalam 'modus Irix'."
 
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Jeda pembaharuan untuk grafik dalam milidetik"
+#: ../src/mate-system-monitor.schemas.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Mengaktifkan/menonaktifkan penyegaran halus"
 
-#: ../src/mate-system-monitor.schemas.in.h:40
+#: ../src/mate-system-monitor.schemas.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Tampilkan dialog peringatan saat menghentikan proses"
+
+#: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Jeda pembaharuan untuk proses yang ditampilkan dalam milidetik"
 
-#: ../src/mate-system-monitor.schemas.in.h:41
+#: ../src/mate-system-monitor.schemas.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Jeda pembaharuan untuk grafik dalam milidetik"
+
+#: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
 msgstr "Apakah informasi tentang semua sistem berkas harus ditampilkan"
 
-#: ../src/mate-system-monitor.schemas.in.h:42
+#: ../src/mate-system-monitor.schemas.in.h:11
 msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr ""
-"Apakah menampilkan informasi tentang semua sistem berkas (termasuk yang "
-"berjenis 'autofs' dan 'procfs'). Sangat berguna untuk melihat semua sistem "
-"berkas yang dikaitkan."
+msgstr "Apakah menampilkan informasi tentang semua sistem berkas (termasuk yang berjenis 'autofs' dan 'procfs'). Sangat berguna untuk melihat semua sistem berkas yang dikaitkan."
 
-#: ../src/mate-system-monitor.schemas.in.h:44
+#: ../src/mate-system-monitor.schemas.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Jeda pembaharuan untuk daftar perangkat dalam milidetik"
+
+#: ../src/mate-system-monitor.schemas.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Menentukan proses yang diutamakan untuk tampil. 0 untuk Semua, 1 untuk pengguna, dan 2 untuk proses yang aktif"
+
+#: ../src/mate-system-monitor.schemas.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Simpan tab yang sekarang ditampilkan"
+
+#: ../src/mate-system-monitor.schemas.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 untuk Informasi Sistem, 1 untuk daftar proses, 2 untuk sumber daya, dan 3 untuk daftar diska"
+
+#: ../src/mate-system-monitor.schemas.in.h:16
+msgid "Default graph cpu color"
+msgstr "Warna utama grafik cpu"
+
+#: ../src/mate-system-monitor.schemas.in.h:17
+msgid "Default graph mem color"
+msgstr "Warna utama grafik memori"
+
+#: ../src/mate-system-monitor.schemas.in.h:18
+msgid "Default graph swap color"
+msgstr "Warna utama grafik swap"
+
+#: ../src/mate-system-monitor.schemas.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Warna utama grafik jaringan (diterima)"
+
+#: ../src/mate-system-monitor.schemas.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Warna utama grafik jaringan (keluar)"
+
+#: ../src/mate-system-monitor.schemas.in.h:21
+msgid "Process view sort column"
+msgstr "Urutan kolom proses yang ditampilkan"
+
+#: ../src/mate-system-monitor.schemas.in.h:22
+msgid "Process view columns order"
+msgstr "Susunan kolom proses yang ditampilkan"
+
+#: ../src/mate-system-monitor.schemas.in.h:23
+msgid "Process view sort order"
+msgstr "Susunan urut kolom proses yang ditampilkan"
+
+#: ../src/mate-system-monitor.schemas.in.h:24
+msgid "Width of process 'name' column"
+msgstr "Lebar kolom proses 'Nama'"
+
+#: ../src/mate-system-monitor.schemas.in.h:25
+msgid "Show process 'name' column on startup"
+msgstr "Tampilkan kolom proses 'Nama' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:26
+msgid "Width of process 'owner' column"
+msgstr "Lebar kolom proses 'Pemilik'"
+
+#: ../src/mate-system-monitor.schemas.in.h:27
+msgid "Show process 'owner' column on startup"
+msgstr "Tampilkan kolom proses 'Pemilik' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:28
+msgid "Width of process 'status' column"
+msgstr "Lebar kolom proses 'Status'"
+
+#: ../src/mate-system-monitor.schemas.in.h:29
+msgid "Show process 'status' column on startup"
+msgstr "Tampilkan kolom proses 'Status' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:30
+msgid "Width of process 'virtual memory' column"
+msgstr "Lebar kolom proses 'Memori Virtual'"
+
+#: ../src/mate-system-monitor.schemas.in.h:31
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Tampilkan kolom proses 'Memori Virtual' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:32
+msgid "Width of process 'resident memory' column"
+msgstr "Lebar kolom proses 'Memori Bertetap'"
+
+#: ../src/mate-system-monitor.schemas.in.h:33
+msgid "Show process 'resident memory' column on startup"
+msgstr "Tampilkan kolom proses 'Memori Bertetap' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:34
+msgid "Width of process 'writable memory' column"
+msgstr "Lebar kolom proses 'Memori Dapat Ditulis'"
+
+#: ../src/mate-system-monitor.schemas.in.h:35
+msgid "Show process 'writable memory' column on startup"
+msgstr "Tampilkan kolom proses 'Memori Dapat Ditulis' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:36
+msgid "Width of process 'shared memory' column"
+msgstr "Lebar kolom proses 'Memori Berbagi'"
+
+#: ../src/mate-system-monitor.schemas.in.h:37
+msgid "Show process 'shared memory' column on startup"
+msgstr "Tampilkan kolom proses 'Memori Berbagi' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:38
+msgid "Width of process 'X server memory' column"
+msgstr "Lebar kolom proses 'Memori Server X'"
+
+#: ../src/mate-system-monitor.schemas.in.h:39
+msgid "Show process 'X server memory' column on startup"
+msgstr "Tampilkan kolom proses 'Memori Server X' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:41
 #, no-c-format
 msgid "Width of process 'CPU %' column"
 msgstr "Lebar kolom proses '% CPU'"
 
-#: ../src/mate-system-monitor.schemas.in.h:45
+#: ../src/mate-system-monitor.schemas.in.h:43
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Tampilkan kolom proses '% CPU' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:44
 msgid "Width of process 'CPU time' column"
 msgstr "Lebar kolom proses 'Waktu CPU'"
 
+#: ../src/mate-system-monitor.schemas.in.h:45
+msgid "Show process 'CPU time' column on startup"
+msgstr "Tampilkan kolom proses 'Waktu CPU' pada saat mulai"
+
 #: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'PID' column"
-msgstr "Lebar kolom proses 'PID'"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Width of process 'SELinux security context' column"
-msgstr "Lebar kolom proses 'Konteks Keamanan SELinux'"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Lebar kolom proses 'Kanal Tunggu'"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Width of process 'X server memory' column"
-msgstr "Lebar kolom proses 'Memori Server X'"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'arguments' column"
-msgstr "Lebar kolom proses 'Argumen'"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Lebar kolom proses 'Perkiraan Memori yang Dipakai'"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'name' column"
-msgstr "Lebar kolom proses 'Nama'"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Width of process 'nice' column"
-msgstr "Lebar kolom proses 'Angkatan'"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'owner' column"
-msgstr "Lebar kolom proses 'Pemilik'"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Width of process 'resident memory' column"
-msgstr "Lebar kolom proses 'Memori Bertetap'"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'shared memory' column"
-msgstr "Lebar kolom proses 'Memori Berbagi'"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
 msgid "Width of process 'start time' column"
 msgstr "Lebar kolom proses 'Waktu Mulai'"
 
+#: ../src/mate-system-monitor.schemas.in.h:47
+msgid "Show process 'start time' column on startup"
+msgstr "Tampilkan kolom proses 'Waktu Mulai' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:48
+msgid "Width of process 'nice' column"
+msgstr "Lebar kolom proses 'Angkatan'"
+
+#: ../src/mate-system-monitor.schemas.in.h:49
+msgid "Show process 'nice' column on startup"
+msgstr "Tampilkan kolom proses 'Angkatan' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:50
+msgid "Width of process 'PID' column"
+msgstr "Lebar kolom proses 'PID'"
+
+#: ../src/mate-system-monitor.schemas.in.h:51
+msgid "Show process 'PID' column on startup"
+msgstr "Tampilkan kolom proses 'PID' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:52
+msgid "Width of process 'SELinux security context' column"
+msgstr "Lebar kolom proses 'Konteks Keamanan SELinux'"
+
+#: ../src/mate-system-monitor.schemas.in.h:53
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Tampilkan kolom proses 'Konteks Keamanan SELinux' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:54
+msgid "Width of process 'arguments' column"
+msgstr "Lebar kolom proses 'Argumen'"
+
+#: ../src/mate-system-monitor.schemas.in.h:55
+msgid "Show process 'arguments' column on startup"
+msgstr "Tampilkan kolom proses 'Argumen' pada saat mulai"
+
+#: ../src/mate-system-monitor.schemas.in.h:56
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Lebar kolom proses 'Perkiraan Memori yang Dipakai'"
+
+#: ../src/mate-system-monitor.schemas.in.h:57
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Tampilkan kolom proses 'Perkiraan Memori yang Dipakai' pada saat mula"
+
 #: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'status' column"
-msgstr "Lebar kolom proses 'Status'"
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Lebar kolom proses 'Kanal Tunggu'"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Width of process 'virtual memory' column"
-msgstr "Lebar kolom proses 'Memori Virtual'"
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Tampilkan kolom proses 'Kanal Tunggu' pada saat mulai"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Width of process 'writable memory' column"
-msgstr "Lebar kolom proses 'Memori Dapat Ditulis'"
+msgid "Disk view columns order"
+msgstr "Urutan kolom diska yang ditampilkan"
 
 #: ../src/gsm_color_button.c:188
 msgid "Fraction"
@@ -370,7 +350,7 @@ msgstr "Judul"
 msgid "The title of the color selection dialog"
 msgstr "Judul untuk dialog seleksi warna"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:602
+#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
 msgstr "Ambil Warna"
 
@@ -386,11 +366,11 @@ msgstr "Warna yang dipilih"
 msgid "Type of color picker"
 msgstr "Jenis penitik warna"
 
-#: ../src/gsm_color_button.c:523
+#: ../src/gsm_color_button.c:533
 msgid "Received invalid color data\n"
 msgstr "Menerima data warna yang tidak sah\n"
 
-#: ../src/gsm_color_button.c:623
+#: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
 msgstr "Klik untuk menyetel warna grafik"
 
@@ -598,15 +578,19 @@ msgstr "Proses"
 msgid "Resources"
 msgstr "Sumber Daya"
 
-#: ../src/load-graph.cpp:153
+#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
+#: ../src/procdialogs.cpp:709
+msgid "File Systems"
+msgstr "Sistem Berkas"
+
+#: ../src/load-graph.cpp:155
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] "%u detik"
-msgstr[1] "%u detik"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:329
+#: ../src/load-graph.cpp:330
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) dari %s"
@@ -617,10 +601,7 @@ msgid ""
 "<b>Error</b>\n"
 "'%s' is not a valid Perl regular expression.\n"
 "%s"
-msgstr ""
-"<b>Galat</b>\n"
-"'%s' bukanlah ekspresi reguler Perl yang sah.\n"
-"%s"
+msgstr "<b>Galat</b>\n'%s' bukanlah ekspresi reguler Perl yang sah.\n%s"
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -639,15 +620,15 @@ msgstr "Nama Berkas"
 msgid "Search for Open Files"
 msgstr "Cari Berkas yang Dibuka"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Nama berisi:"
 
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:352
 msgid "Case insensitive matching"
 msgstr "Abaikan kapitalisasi karakter"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:360
 msgid "S_earch results:"
 msgstr "Hasil p_encarian:"
 
@@ -708,7 +689,7 @@ msgstr "Inoda"
 msgid "Memory Maps"
 msgstr "Peta Memori"
 
-#: ../src/memmaps.cpp:627
+#: ../src/memmaps.cpp:626
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "Peta _memori untuk proses \"%s\" (PID %u):"
@@ -762,18 +743,14 @@ msgstr "_Berkas yang dibuka oleh proses \"%s\" (PID %u):"
 msgid ""
 "Cannot change the priority of process with pid %d to %d.\n"
 "%s"
-msgstr ""
-"Tidak dapat mengganti prioritas pid %d menjadi %d.\n"
-"%s"
+msgstr "Tidak dapat mengganti prioritas pid %d menjadi %d.\n%s"
 
 #: ../src/procactions.cpp:155
 #, c-format
 msgid ""
 "Cannot kill process with pid %d with signal %d.\n"
 "%s"
-msgstr ""
-"Tidak dapat menghentikan proses pid %d dengan sinyal %d.\n"
-"%s"
+msgstr "Tidak dapat menghentikan proses pid %d dengan sinyal %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:70
@@ -785,10 +762,7 @@ msgstr "Hentikan proses yang dipilih?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponding processes should be killed."
-msgstr ""
-"Menghentikan suatu proses dapat mengakibatkan hilangnya data, merusak sesi "
-"yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses beku "
-"yang seharusnya dimatikan."
+msgstr "Menghentikan suatu proses dapat mengakibatkan hilangnya data, merusak sesi yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses beku yang seharusnya dimatikan."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:79
@@ -798,12 +772,9 @@ msgstr "Akhiri proses yang dipilih?"
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:81
 msgid ""
-"Ending a process may destroy data, break the session or introduce a security "
-"risk. Only unresponding processes should be ended."
-msgstr ""
-"Mengakhiri suatu proses dapat mengakibatkan hilangnya data, merusak sesi "
-"yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses beku "
-"yang seharusnya diakhiri."
+"Ending a process may destroy data, break the session or introduce a security"
+" risk. Only unresponding processes should be ended."
+msgstr "Mengakhiri suatu proses dapat mengakibatkan hilangnya data, merusak sesi yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses beku yang seharusnya diakhiri."
 
 #: ../src/procdialogs.cpp:115
 msgid "(Very High Priority)"
@@ -845,9 +816,7 @@ msgstr "Catatan:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
-"Prioritas suatu proses ditentukan oleh nilai angkatan (nice). Semakin rendah "
-"nilai angkatannya, maka semakin tinggi prioritasnya."
+msgstr "Prioritas suatu proses ditentukan oleh nilai angkatan (nice). Semakin rendah nilai angkatannya, maka semakin tinggi prioritasnya."
 
 #: ../src/procdialogs.cpp:457
 msgid "Icon"
@@ -902,7 +871,7 @@ msgstr "Tampilkan semu_a sistem berkas"
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformasi sistem berkas yang ditampilkan:"
 
-#: ../src/procman.cpp:682
+#: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
 msgstr "Monitor sederhana untuk proses dan sistem."
 
@@ -986,42 +955,42 @@ msgstr "Rilis %s"
 msgid "Unknown CPU model"
 msgstr "Model CPU tak diketahui"
 
-#: ../src/sysinfo.cpp:586
+#: ../src/sysinfo.cpp:590
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel %s"
 
-#: ../src/sysinfo.cpp:599
+#: ../src/sysinfo.cpp:603
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:613
+#: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Perangkat Keras</b>"
 
-#: ../src/sysinfo.cpp:618
+#: ../src/sysinfo.cpp:622
 msgid "Memory:"
 msgstr "Memori:"
 
-#: ../src/sysinfo.cpp:625
+#: ../src/sysinfo.cpp:629
 #, c-format
 msgid "Processor %d:"
 msgstr "Prosesor %d:"
 
-#: ../src/sysinfo.cpp:630
+#: ../src/sysinfo.cpp:634
 msgid "Processor:"
 msgstr "Prosesor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:642
+#: ../src/sysinfo.cpp:646
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>Status Sistem</b>"
 
-#: ../src/sysinfo.cpp:648
+#: ../src/sysinfo.cpp:652
 msgid "Available disk space:"
 msgstr "Ruang diska tersedia:"
 
@@ -1103,15 +1072,13 @@ msgstr "%.1f Gbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u bit"
-msgstr[1] "%u bit"
+msgstr[0] "%u bits"
 
 #: ../src/util.cpp:185
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u bita"
-msgstr[1] "%u bita"
+msgstr[0] "%u bytes"
 
 #: ../src/util.cpp:373
 msgid "<i>N/A</i>"

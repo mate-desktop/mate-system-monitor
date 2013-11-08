@@ -4,6 +4,8 @@ SUBDIRS = pixmaps po src help
 
 man_MANS = mate-system-monitor.1
 
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
+
 EXTRA_DIST = \
 	$(man_MANS) \
 	mate-doc-utils.make \

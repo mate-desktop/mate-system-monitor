@@ -66,7 +66,11 @@ struct LoadGraph {
 	GtkWidget *main_widget;
 	GtkWidget *disp;
 
+#if GTK_CHECK_VERSION(3,0,0)
+	cairo_surface_t *background;
+#else
 	GdkDrawable *background;
+#endif
 
 	guint timer_index;
 

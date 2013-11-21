@@ -411,10 +411,11 @@ namespace {
 #define LOGO_H 351
 #define RADIUS 5
 
-static gboolean
-sysinfo_logo_expose (GtkWidget *widget,
-		     GdkEventExpose *event,
-		     gpointer data_ptr)
+#if GTK_CHECK_VERSION(3,0,0)
+static gboolean sysinfo_logo_expose (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
+#else
+static gboolean sysinfo_logo_expose (GtkWidget *widget, GdkEventExpose *event, gpointer data_ptr)
+#endif
 {
   GtkAllocation allocation;
   GtkStyle *style;
@@ -546,8 +547,11 @@ procman_create_sysinfo_view(void)
   gtk_misc_set_padding(GTK_MISC(logo), 5, 12);
   gtk_box_pack_start(GTK_BOX(hbox), logo, FALSE, FALSE, 0);
 
-  g_signal_connect(G_OBJECT(logo), "expose-event",
-		   G_CALLBACK(sysinfo_logo_expose), NULL);
+#if GTK_CHECK_VERSION(3,0,0)
+  g_signal_connect(G_OBJECT(logo), "draw", G_CALLBACK(sysinfo_logo_expose), NULL);
+#else
+  g_signal_connect(G_OBJECT(logo), "expose-event", G_CALLBACK(sysinfo_logo_expose), NULL);
+#endif
 
   vbox = gtk_vbox_new(FALSE, 12);
   gtk_container_set_border_width(GTK_CONTAINER(vbox), 12);

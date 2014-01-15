@@ -138,6 +138,9 @@ cb_about (GtkAction *action, gpointer data)
         "Benoît Dejean",
         "Paolo Borelli",
         "Karl Lattimer",
+        "Perberos",
+        "Stefano Karapetsas",
+        "Steve Zesch",
         NULL
     };
 
@@ -158,7 +161,8 @@ cb_about (GtkAction *action, gpointer data)
         "comments",           _("View current processes and monitor system state"),
         "version",            VERSION,
         "copyright",          "Copyright \xc2\xa9 2001-2004 Kevin Vandersloot\n"
-                              "Copyright \xc2\xa9 2005-2007 Benoît Dejean",
+                              "Copyright \xc2\xa9 2005-2007 Benoît Dejean\n"
+                              "Copyright \xc2\xa9 2011-2014 MATE developers",
         "logo-icon-name",     "utilities-system-monitor",
         "authors",            authors,
         "artists",            artists,

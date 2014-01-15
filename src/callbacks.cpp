@@ -154,20 +154,19 @@ cb_about (GtkAction *action, gpointer data)
 
     gtk_show_about_dialog (
         NULL,
-        "name",         _("System Monitor"),
-        "comments",     _("View current processes and monitor "
-                      "system state"),
-        "version",      VERSION,
-        "copyright",        "Copyright \xc2\xa9 2001-2004 Kevin Vandersloot\n"
-                    "Copyright \xc2\xa9 2005-2007 Benoît Dejean",
-        "logo-icon-name",   "utilities-system-monitor",
-        "authors",      authors,
-        "artists",      artists,
-        "documenters",      documenters,
-        "translator-credits",   _("translator-credits"),
-        "license",      "GPL 2+",
-        "wrap-license",     TRUE,
-        "website", "http://www.mate-desktop.org",
+        "name",               _("System Monitor"),
+        "comments",           _("View current processes and monitor system state"),
+        "version",            VERSION,
+        "copyright",          "Copyright \xc2\xa9 2001-2004 Kevin Vandersloot\n"
+                              "Copyright \xc2\xa9 2005-2007 Benoît Dejean",
+        "logo-icon-name",     "utilities-system-monitor",
+        "authors",            authors,
+        "artists",            artists,
+        "documenters",        documenters,
+        "translator-credits", _("translator-credits"),
+        "license",            "GPL 2+",
+        "wrap-license",       TRUE,
+        "website",            "http://www.mate-desktop.org",
         NULL
         );
 }
@@ -176,11 +175,11 @@ cb_about (GtkAction *action, gpointer data)
 void
 cb_help_contents (GtkAction *action, gpointer data)
 {
-  GError* error = 0;
-  if (!g_app_info_launch_default_for_uri("help:mate-system-monitor", NULL, &error)) {
-    g_warning("Could not display help : %s", error->message);
-    g_error_free(error);
-  }
+    GError* error = 0;
+    if (!g_app_info_launch_default_for_uri("help:mate-system-monitor", NULL, &error)) {
+        g_warning("Could not display help : %s", error->message);
+        g_error_free(error);
+    }
 }
 
 

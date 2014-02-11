@@ -7,6 +7,7 @@ man_MANS = mate-system-monitor.1
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 EXTRA_DIST = \
+	autogen.sh \
 	$(man_MANS) \
 	mate-system-monitor.desktop.in \
 	intltool-extract.in \

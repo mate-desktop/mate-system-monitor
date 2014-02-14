@@ -1,35 +1,46 @@
-.TH "MATE-SYSTEM-MONITOR" "1" 
+.\" Manual Page for mate-system-monitor
+.TH MATE-SYSTEM-MONITOR 1 "10 February 2014" "MATE Desktop Environment"
+.\" Please adjust this date when revising the manpage.
+.\"
 .SH "NAME" 
-mate-system-monitor \(em view and control processes 
+MATE System Monitor \- view and control processes 
 .SH "SYNOPSIS" 
 .PP 
-\fBmate-system-monitor\fR [\fB-s,\fP\fB\-\-show-system-tab\fP]  
-.SH "mate-system-monitor" 
+.B mate-system-monitor [OPTIONS]  
+.SH "DESCRIPTION" 
 .PP 
-The mate-system-monitor allows you to view and control the 
-processes running on your system.  You can access detailed memory 
-maps, send signals, and terminate the processes. 
+The \fBmate-system-monitor\fR allows you to view and control the processes running on your system. You can access detailed memory maps, send signals, and terminate the processes. 
 .PP 
-In addition, the mate-system-monitor provides an overall 
-view of the resource usage on your system, including memory 
-and CPU allocation. 
+In addition, the \fBmate-system-monitor\fR provides an overall view of the resource usage on your system, including memory and CPU allocation, as well as network usage. It also allows you to view file system information such as Device, Type, Mountpoints, and Disk Usage.
+.PP
+The System tab will display basic information about your system like Hostname, Kernel, MATE Version, Installed Memory, and Processor Information.
 .SH "OPTIONS" 
-.PP 
-This program accepts all the standard MATE and GTK+
-options, which follow the usual GNU command line syntax, with long 
-options starting with two dashes ('\-').  In addition to those 
-standard MATE options, the 
-mate-system-monitor accepts the following options: 
-.IP "\fB-s,\fP  \fB\-\-show-system-tab\fP         " 10 
+This program accepts all the standard MATE and GTK+ options, which follow the usual GNU command line syntax, with long options starting with two dashes ('\-').  In addition to those standard MATE options, the mate-system-monitor accepts the following options: 
+.TP
+\fB\-s, \-\-show\-system\-tab\fR
 Show the System tab. 
-.SH "AUTHOR" 
-.PP 
-The mate-system-monitor was written by Kevin Vandersloot . 
-.PP 
-This manual page was written by Colin Walters walters@debian.org for 
-the \fBDebian\fP system (but may be used by others).  Permission is 
-granted to copy, distribute and/or modify this document under 
-the terms of the GNU Free Documentation 
-License, Version 1.1 or any later version published by the Free 
-Software Foundation; with no Invariant Sections, no Front-Cover 
-Texts and no Back-Cover Texts. 
+.TP
+\fB\-?, \-h, \-\-help\fR
+Print standard command line options.
+.SH "BUGS"
+.SS Should you encounter any bugs, they may be reported at: 
+http://github.com/mate-desktop/mate-system-monitor/issues
+.SH "AUTHORS" 
+.SS The MATE System Monitor (mate\-system\-monitor) is maintained by The MATE developers:
+.nf
+Perberos <perberos@gmail.com>
+Stefano Karapetsas <stefano@karapetsas.com>
+Steve Zesch <stevezesch2@gmail.com>
+.fi
+.SS This Man Page has been updated/re-written for the MATE Desktop Environment by:
+Adam Erdman <hekel@archlinux.info> (2014)
+.SH "HISTORY"
+.SS The gnome-system-monitor was written by:
+Kevin Vandersloot, Erik Johnsson, Jorgen Scheibengruber, Benoît Dejean, Paolo Borelli & Karl Lattimer.
+.SS This manual page was originally written by Colin Walters <walters@debian.org> for the Debian system. 
+.SH "LICENSE"
+Permission is granted to copy, distribute and/or modify this document under the terms of the \fBGNU Free Documentation License, Version 1.1\fR or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts and no Back-Cover Texts. 
+.SH "SEE ALSO"
+.SS
+MATE System Monitor documentation can be found from the "Help" menu, or by pressing the F1 key. 
+Further information may also be available at: http://wiki.mate-desktop.org/docs

@@ -9,6 +9,7 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=GTK;System;Monitor;
+Keywords=MATE;system;monitor;process;list;view;current;resources;
 OnlyShowIn=MATE;
 X-MATE-Bugzilla-Bugzilla=MATE
 X-MATE-Bugzilla-Product=system-monitor

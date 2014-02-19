@@ -1,0 +1,5 @@
+1.7.1
+
+  * Add GTK3 support
+  * Use libwnck instead of libmatewnck
+  * Use yelp-tools instead of mate-doc-utils

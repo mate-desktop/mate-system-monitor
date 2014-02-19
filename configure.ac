@@ -8,7 +8,7 @@ AC_CONFIG_SRCDIR(configure.ac)
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE([no-dist-gzip dist-xz])
+AM_INIT_AUTOMAKE([no-dist-gzip dist-xz check-news])
 AC_SUBST(ACLOCAL_AMFLAGS, [\${ACLOCAL_FLAGS}])
 
 AM_PROG_LIBTOOL

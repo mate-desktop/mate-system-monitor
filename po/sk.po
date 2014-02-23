@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2013
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2013-2014
 # Marcel Telka <marcel@telka.sk>, 2005, 2006
 # Majo Baca <majoobaca@gmail.com>, 2010
 # Stanislav Visnovsky <visnovsky@kde.org>, 2003
@@ -11,9 +11,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2013-05-14 00:05+0000\n"
+"PO-Revision-Date: 2014-02-20 23:46+0000\n"
 "Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "Zariadenie"
 
 #: ../src/disks.cpp:300
 msgid "Directory"
-msgstr "Adresár"
+msgstr "Priečinok"
 
 #: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
 msgid "Type"
@@ -447,7 +447,7 @@ msgstr "Zmeniť poradie priority procesu"
 
 #: ../src/interface.cpp:73
 msgid "Configure the application"
-msgstr "Konfigurovať aplikáciu"
+msgstr "Konfigurovať program"
 
 #: ../src/interface.cpp:75
 msgid "_Refresh"
@@ -483,7 +483,7 @@ msgstr "Otvoriť manuál"
 
 #: ../src/interface.cpp:86
 msgid "About this application"
-msgstr "O tejto aplikácii"
+msgstr "O programe"
 
 #: ../src/interface.cpp:91
 msgid "_Dependencies"

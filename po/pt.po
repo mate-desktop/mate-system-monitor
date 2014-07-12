@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Carlos <crolidge@gmail.com>, 2012
+# Carlos Moreira <crolidge@gmail.com>, 2012
+# Carlos Moreira <crolidge@gmail.com>, 2014
 # Sérgio Marques <smarquespt@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2012-08-31 14:07+0000\n"
-"Last-Translator: Carlos <crolidge@gmail.com>\n"
+"PO-Revision-Date: 2014-05-24 11:30+0000\n"
+"Last-Translator: Carlos Moreira <crolidge@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,7 +100,7 @@ msgstr "Altura da janela principal"
 
 #: ../src/mate-system-monitor.schemas.in.h:3
 msgid "Show process dependencies in tree form"
-msgstr "Mostrar processos dependentes"
+msgstr "Mostrar processos dependentes em árvore"
 
 #: ../src/mate-system-monitor.schemas.in.h:4
 msgid "Solaris mode for CPU percentage"
@@ -117,7 +118,7 @@ msgstr "Ativar/desativar atualização suave"
 
 #: ../src/mate-system-monitor.schemas.in.h:7
 msgid "Show warning dialog when killing processes"
-msgstr "Mostrar caixa de diálogo ao terminar processos"
+msgstr "Mostrar diálogo de aviso ao terminar processos"
 
 #: ../src/mate-system-monitor.schemas.in.h:8
 msgid "Time in milliseconds between updates of the process view"
@@ -350,7 +351,7 @@ msgstr "O título da caixa de diálogo da seleção de cor"
 
 #: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
 msgid "Pick a Color"
-msgstr "Escolha a cor"
+msgstr "Escolha uma cor"
 
 #: ../src/gsm_color_button.c:204
 msgid "Current Color"
@@ -384,7 +385,7 @@ msgstr "_Editar"
 
 #: ../src/interface.cpp:52
 msgid "_View"
-msgstr "_ver"
+msgstr "_Ver"
 
 #: ../src/interface.cpp:53
 msgid "_Help"
@@ -436,7 +437,7 @@ msgstr "Obriga a finalizar o processo imediatamente"
 
 #: ../src/interface.cpp:70
 msgid "_Change Priority..."
-msgstr "_Alterar prioridade"
+msgstr "_Alterar prioridade..."
 
 #: ../src/interface.cpp:71
 msgid "Change the order of priority of process"
@@ -444,7 +445,7 @@ msgstr "Alterar a prioridade do processo"
 
 #: ../src/interface.cpp:73
 msgid "Configure the application"
-msgstr "Configuração da aplicação"
+msgstr "Configurar a aplicação"
 
 #: ../src/interface.cpp:75
 msgid "_Refresh"
@@ -476,7 +477,7 @@ msgstr "_Conteúdo"
 
 #: ../src/interface.cpp:84
 msgid "Open the manual"
-msgstr "Abrir manual"
+msgstr "Abrir o manual"
 
 #: ../src/interface.cpp:86
 msgid "About this application"

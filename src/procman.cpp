@@ -537,7 +537,6 @@ procman_save_config (ProcData *data)
 {
 	GSettings *settings = data->settings;
 
-
 	g_assert(data);
 
 	procman_save_tree_state (data->settings, data->tree, "proctree");
@@ -558,11 +557,6 @@ procman_save_config (ProcData *data)
 	g_settings_set_int (settings, "width", data->config.width);
 	g_settings_set_int (settings, "height", data->config.height);
 	g_settings_set_int (settings, "current-tab", data->config.current_tab);
-
-	g_settings_sync ();
-
-
-
 }
 
 static guint32

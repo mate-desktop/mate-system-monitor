@@ -10,13 +10,14 @@
 # Frank Arnold <frank@scirocco-5v-turbo.de>, 2005, 2006
 # Hendrik Brandt <heb@mate-de.org>, 2008
 # Hendrik Richter <hendrikr@gnome.org>, 2005, 2006, 2007, 2008
+# Tobias Bannert, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2012-07-12 13:29+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-10-11 22:46+0000\n"
+"Last-Translator: Tobias Bannert\n"
 "Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -130,7 +131,7 @@ msgstr "Zeit in Millisekunden zwischen den Aktualisierungen der Prozessliste"
 
 #: ../src/mate-system-monitor.schemas.in.h:9
 msgid "Time in milliseconds between updates of the graphs"
-msgstr "Zeit in Millisekunden zwischen den Aktualisierungen der Graphen"
+msgstr "Zeit in Millisekunden zwischen den Aktualisierungen der Diagramme"
 
 #: ../src/mate-system-monitor.schemas.in.h:10
 msgid "Whether information about all filesystems should be displayed"
@@ -141,7 +142,7 @@ msgid ""
 "Whether to display information about all filesystems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "filesystems."
-msgstr "Legt fest, ob Informationen über alle Dateisysteme angezeigt werden sollen. Dies schließt Dateisystemarten wie »autofs« und »procfs« mit ein. Es kann nützlich sein, eine Liste aller zurzeit eingebundenen Dateisysteme zu erhalten."
+msgstr "Legt fest, ob Informationen über alle Dateisysteme angezeigt werden sollen. Das schließt Dateisystemarten wie »autofs« und »procfs« mit ein. Es kann nützlich sein, eine Liste aller zurzeit eingehängter Dateisysteme zu erhalten."
 
 #: ../src/mate-system-monitor.schemas.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -165,23 +166,23 @@ msgstr "0 für Systeminformationen, 1 für Prozessliste, 2 für Ressourcen und 3
 
 #: ../src/mate-system-monitor.schemas.in.h:16
 msgid "Default graph cpu color"
-msgstr "Farbvorgabe für den CPU-Graph"
+msgstr "Farbvorgabe für das CPU-Diagramm"
 
 #: ../src/mate-system-monitor.schemas.in.h:17
 msgid "Default graph mem color"
-msgstr "Farbvorgabe für den Speicher-Graph"
+msgstr "Farbvorgabe für das Speicherdiagramm"
 
 #: ../src/mate-system-monitor.schemas.in.h:18
 msgid "Default graph swap color"
-msgstr "Farbvorgabe für den Graph des Auslagerungsspeichers"
+msgstr "Farbvorgabe für das Diagramm des Auslagerungsspeichers"
 
 #: ../src/mate-system-monitor.schemas.in.h:19
 msgid "Default graph incoming network traffic color"
-msgstr "Farbvorgabe für den Graph des eingehenden Netzwerkverkehrs"
+msgstr "Farbvorgabe für das Diagramm des eingehenden Netzwerkverkehrs"
 
 #: ../src/mate-system-monitor.schemas.in.h:20
 msgid "Default graph outgoing network traffic color"
-msgstr "Farbvorgabe für den Graph des ausgehenden Netzwerkverkehrs"
+msgstr "Farbvorgabe für das Diagramm des ausgehenden Netzwerkverkehrs"
 
 #: ../src/mate-system-monitor.schemas.in.h:21
 msgid "Process view sort column"
@@ -327,11 +328,11 @@ msgstr "Spalte »Geschätzter Speicherverbrauch« beim Start anzeigen"
 
 #: ../src/mate-system-monitor.schemas.in.h:58
 msgid "Width of process 'Waiting Channel' column"
-msgstr "Breite der Spalte »Waiting Channel«"
+msgstr "Breite der Spalte »Wartender Kanal«"
 
 #: ../src/mate-system-monitor.schemas.in.h:59
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Spalte »Waiting Channel« beim Start anzeigen"
+msgstr "Spalte »Wartender Kanal« beim Start anzeigen"
 
 #: ../src/mate-system-monitor.schemas.in.h:60
 msgid "Disk view columns order"
@@ -375,7 +376,7 @@ msgstr "Ungültige Farbdaten empfangen\n"
 
 #: ../src/gsm_color_button.c:631
 msgid "Click to set graph colors"
-msgstr "Klicken, um die Farben der Graphen einzustellen"
+msgstr "Klicken, um die Farben der Diagramme einzustellen"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
@@ -425,7 +426,7 @@ msgstr "Prozess fortsetzen, falls angehalten"
 
 #: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
 msgid "_End Process"
-msgstr "Prozess bee_nden"
+msgstr "Prozess _beenden"
 
 #: ../src/interface.cpp:67
 msgid "Force process to finish normally"
@@ -469,7 +470,7 @@ msgstr "Die Speicherfelder anzeigen, die einem Prozess angehören"
 
 #: ../src/interface.cpp:80
 msgid "Open _Files"
-msgstr "Offene _Dateien"
+msgstr "_Offene Dateien"
 
 #: ../src/interface.cpp:81
 msgid "View the files opened by a process"
@@ -485,7 +486,7 @@ msgstr "Das Handbuch öffnen"
 
 #: ../src/interface.cpp:86
 msgid "About this application"
-msgstr "Info zu dieser Anwendung"
+msgstr "Über diese Anwendung"
 
 #: ../src/interface.cpp:91
 msgid "_Dependencies"
@@ -513,7 +514,7 @@ msgstr "Alle Prozesse anzeigen"
 
 #: ../src/interface.cpp:103
 msgid "M_y Processes"
-msgstr "Ei_gene Prozesse"
+msgstr "_Eigene Prozesse"
 
 #: ../src/interface.cpp:104
 msgid "Show user own process"
@@ -525,7 +526,7 @@ msgstr "Prozess _beenden"
 
 #: ../src/interface.cpp:243
 msgid "CPU History"
-msgstr "CPU-Chronik"
+msgstr "CPU-Verlauf"
 
 #: ../src/interface.cpp:300
 msgid "CPU"
@@ -538,7 +539,7 @@ msgstr "CPU%d"
 
 #: ../src/interface.cpp:320
 msgid "Memory and Swap History"
-msgstr "Speicher- und Auslagerungschronik"
+msgstr "Speicher- und Auslagerungsverlauf"
 
 #: ../src/interface.cpp:359 ../src/proctable.cpp:226
 msgid "Memory"
@@ -546,11 +547,11 @@ msgstr "Speicher"
 
 #: ../src/interface.cpp:385
 msgid "Swap"
-msgstr "Swap"
+msgstr "Auslagerungsspeicher"
 
 #: ../src/interface.cpp:406
 msgid "Network History"
-msgstr "Netzwerk-Chronik"
+msgstr "Netzwerkverlauf"
 
 #: ../src/interface.cpp:445
 msgid "Receiving"
@@ -849,7 +850,7 @@ msgstr "Vor _Beenden oder Abwürgen eines Prozesses Warndialog anzeigen"
 
 #: ../src/procdialogs.cpp:604
 msgid "Solaris mode"
-msgstr "Solaris-Modus"
+msgstr "Solaris-_Modus"
 
 #: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
 msgid "Information Fields"
@@ -857,11 +858,11 @@ msgstr "Informationsfelder"
 
 #: ../src/procdialogs.cpp:635
 msgid "Process i_nformation shown in list:"
-msgstr "In der Liste angezeigte Prozessi_nformationen:"
+msgstr "In _der Liste angezeigte Prozessinformationen:"
 
 #: ../src/procdialogs.cpp:647
 msgid "Graphs"
-msgstr "Graphen"
+msgstr "Diagramme"
 
 #: ../src/procdialogs.cpp:686
 msgid "Show network speed in bits"
@@ -873,7 +874,7 @@ msgstr "_Alle Dateisysteme anzeigen"
 
 #: ../src/procdialogs.cpp:775
 msgid "File system i_nformation shown in list:"
-msgstr "In der Liste angezeigte Prozessi_nformationen:"
+msgstr "In _der Liste angezeigte Dateisysteminformationen:"
 
 #: ../src/procman.cpp:690
 msgid "A simple process and system monitor."
@@ -943,7 +944,7 @@ msgstr "Befehlszeile"
 #. xgettext: wchan, see ps(1) or top(1)
 #: ../src/proctable.cpp:228
 msgid "Waiting Channel"
-msgstr "Waiting Channel"
+msgstr "Wartender Kanal"
 
 #: ../src/proctable.cpp:945
 #, c-format
@@ -973,7 +974,7 @@ msgstr "MATE %s"
 #: ../src/sysinfo.cpp:617
 #, c-format
 msgid "<b>Hardware</b>"
-msgstr "<b>Hardware</b>"
+msgstr "<b>Geräte</b>"
 
 #: ../src/sysinfo.cpp:622
 msgid "Memory:"

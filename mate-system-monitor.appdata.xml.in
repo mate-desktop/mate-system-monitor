@@ -4,16 +4,16 @@
  <id>mate-system-monitor.desktop</id>
  <metadata_license>CC0-1.0</metadata_license>
  <project_license>GPL-2.0+</project_license>
- <name>Mate System Monitor</name>
+ <name>MATE System Monitor</name>
  <summary>A Process and resource monitor for MATE Desktop</summary>
  <description>
   <p>
-   Mate System Monitor allows to graphically view and manipulate the running
+   MATE System Monitor allows to graphically view and manipulate the running
    processes on your system. It also provides an overview of available resources,
    such as CPU and memory.
   </p>
   <p>
-   Mate System Monitor is a fork of GNOME System Monitor and part of the MATE
+   MATE System Monitor is a fork of GNOME System Monitor and part of the MATE
    Desktop Environment. If you would like to know more about MATE and System Monitor,
    please visit the project's home page.
   </p>

@@ -1,6 +1,7 @@
 [encoding: UTF-8]
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
+mate-system-monitor.appdata.xml.in
 mate-system-monitor.desktop.in.in
 src/argv.cpp
 src/argv.h

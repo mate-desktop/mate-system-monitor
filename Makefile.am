@@ -6,9 +6,15 @@ man_MANS = mate-system-monitor.1
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
+@INTLTOOL_XML_RULE@
+appdatadir = $(datadir)/appdata
+appdata_in_files = mate-system-monitor.appdata.xml.in
+appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+
 EXTRA_DIST = \
 	autogen.sh \
 	$(man_MANS) \
+	$(appdata_in_files) \
 	mate-system-monitor.desktop.in \
 	intltool-extract.in \
 	intltool-merge.in \
@@ -22,6 +28,8 @@ Applications_DATA = $(Applications_in_files:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
 
 distuninstallcheck_listfiles = find . -type f -print | grep -v 'scrollkeeper'
+
+CLEANFILES = mate-system-monitor.appdata.xml
 
 DISTCLEANFILES = \
   intltool-extract \

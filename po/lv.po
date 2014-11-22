@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2012-07-12 13:28+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-10 15:09+0100\n"
+"PO-Revision-Date: 2014-11-10 14:09+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/MATE/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,12 +19,30 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:735
+#: ../mate-system-monitor.appdata.xml.in.h:1
+msgid "A Process and resource monitor for MATE Desktop"
+msgstr ""
+
+#: ../mate-system-monitor.appdata.xml.in.h:2
+msgid ""
+"<p> MATE System Monitor allows to graphically view and manipulate the "
+"running processes on your system. It also provides an overview of available "
+"resources, such as CPU and memory. </p> <p> MATE System Monitor is a fork of"
+" GNOME System Monitor and part of the MATE Desktop Environment. If you would"
+" like to know more about MATE and System Monitor, please visit the project's"
+" home page. </p>"
+msgstr ""
+
+#: ../mate-system-monitor.desktop.in.in.h:1
+msgid "MATE System Monitor"
+msgstr ""
+
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:160
+#: ../src/interface.cpp:619 ../src/procman.cpp:716
 msgid "System Monitor"
 msgstr "Sistēmas pārraugs"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:161
 msgid "View current processes and monitor system state"
 msgstr "Skatīt pašreizējos procesus un pārraudzīt sistēmas stāvokli"
 
@@ -32,11 +50,11 @@ msgstr "Skatīt pašreizējos procesus un pārraudzīt sistēmas stāvokli"
 msgid "Show the System tab"
 msgstr "Rādīt sistēmas cilni"
 
-#: ../src/callbacks.cpp:167
+#: ../src/callbacks.cpp:170
 msgid "translator-credits"
 msgstr "Raivis Dejus <orvils@gmail.com>\nPēteris Krišjānis <pecisk@inbox.lv>\nVitalijs <vitalium@gmail.com>"
 
-#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:360
 msgid "Device"
 msgstr "Ierīce"
 
@@ -44,7 +62,7 @@ msgstr "Ierīce"
 msgid "Directory"
 msgstr "Mape"
 
-#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:221 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "Tips"
 
@@ -89,286 +107,43 @@ msgstr "%d %b %l:%M %p"
 msgid "%b %d %Y"
 msgstr "%d %b %Y"
 
-#: ../src/mate-system-monitor.schemas.in.h:1
-msgid "Main Window width"
-msgstr "Galvenā loga platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Main Window height"
-msgstr "Galvenā loga augstums"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Show process dependencies in tree form"
-msgstr "Palaižot rādīt procesa atkarību koka kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Solaris mode for CPU percentage"
-msgstr "Solaris režīms CPU noslogojumam"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "Ja PATIESS, sistēmas pārraugs darbojas 'Solaris režīmā', kur uzdevuma cpu slodze tiek dalīta ar kopējo CPU skaitu. Pretējā gadījumā darbojas 'Irix režīmā'."
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Enable/Disable smooth refresh"
-msgstr "Aktivizēt/deaktivizēt gludeno atjaunināšanu"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid "Show warning dialog when killing processes"
-msgstr "Parādīt brīdinājumu, pirms nogalināt procesus"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Time in milliseconds between updates of the process view"
-msgstr "Laiks milisekundēs starp procesu skata atjauninājumiem"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "Laiks milisekundēs starp atjauninājumiem grafā"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid "Whether information about all filesystems should be displayed"
-msgstr "Vai rādīt informāciju par visām failsistēmām"
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr "Vai rādīt informāciju par visu failsistēmu (ieskaitot tipus 'autofs' un 'procfs'). Ērti saraksta ar visām piemontētam failsistēmam iegūšanai."
-
-#: ../src/mate-system-monitor.schemas.in.h:12
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "Laiks milisekundēs starp atjauninājumiem ierīču sarakstā"
-
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
-" active"
-msgstr "Noskaidro, kuru procesu parādīt kā noklusēto. 0 ir visi, 1 ir lietotāja, un 2 ir aktīvie"
-
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Saves the currently viewed tab"
-msgstr "Saglābāt tekošo cilni"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr "0 sistēmas informācijai, 1 procesu sarakstam, 2 resursiem un 3 disku sarakstam"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Default graph cpu color"
-msgstr "Noklusētā cpu grafika krāsa"
-
-#: ../src/mate-system-monitor.schemas.in.h:17
-msgid "Default graph mem color"
-msgstr "Noklusētā atmiņas grafika krāsa"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-msgid "Default graph swap color"
-msgstr "Noklusēta maiņvietas grafika krāsa"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Default graph incoming network traffic color"
-msgstr "Noklusētā ienākošās tīkla plūsmas grafika krāsa"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Default graph outgoing network traffic color"
-msgstr "Noklusētā izejošās tīkla plūsmas grafika krāsa"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Process view sort column"
-msgstr "Procesu skata kārtošanas kolonna"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Process view columns order"
-msgstr "Procesu skata kolonnu secība"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Process view sort order"
-msgstr "Procesu skata kārtošanas secība"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Width of process 'name' column"
-msgstr "Procesa 'nosaukuma' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'name' column on startup"
-msgstr "Palaižot rādīt procesa 'nosaukuma' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Width of process 'owner' column"
-msgstr "Procesa 'īpašnieka' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'owner' column on startup"
-msgstr "Palaižot rādīt procesa 'īpašnieka' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Width of process 'status' column"
-msgstr "Procesa 'statusa' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'status' column on startup"
-msgstr "Palaižot rādīt procesa 'statusa' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Width of process 'virtual memory' column"
-msgstr "Procesa 'virtuālās atmiņas' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'virtual memory' column on startup"
-msgstr "Palaižot rādīt procesa 'virtuālās atmiņas' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Width of process 'resident memory' column"
-msgstr "Procesa 'aizņemtās atmiņas' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'resident memory' column on startup"
-msgstr "Palaižot rādīt procesa 'pastāvīgās atmiņas' izmantojuma kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Width of process 'writable memory' column"
-msgstr "Procesa 'rakstāmās atmiņas' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
-msgid "Show process 'writable memory' column on startup"
-msgstr "Palaižot rādīt procesa 'rakstāmās atmiņas' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Width of process 'shared memory' column"
-msgstr "Procesa 'koplietotās atmiņas' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
-msgid "Show process 'shared memory' column on startup"
-msgstr "Palaižot rādīt procesa 'koplietošanas atmiņas' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Width of process 'X server memory' column"
-msgstr "'X servera atmiņas' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Show process 'X server memory' column on startup"
-msgstr "Palaižot rādīt izmantotās 'X servera atmiņas' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:41
-#, no-c-format
-msgid "Width of process 'CPU %' column"
-msgstr "'CPU %' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:43
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "Palaižot rādīt 'CPU %' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:44
-msgid "Width of process 'CPU time' column"
-msgstr "'CPU laika' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:45
-msgid "Show process 'CPU time' column on startup"
-msgstr "Palaižot rādīt 'CPU laika' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'start time' column"
-msgstr "Procesa 'palaišanas laika' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Show process 'start time' column on startup"
-msgstr "Palaižot rādīt procesa 'palaišanas laika' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'nice' column"
-msgstr "Procesa 'jaukuma' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Show process 'nice' column on startup"
-msgstr "Palaižot rādīt procesa 'jaukuma koeficienta' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'PID' column"
-msgstr "Procesa 'PID' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Show process 'PID' column on startup"
-msgstr "Palaižot rādīt procesa 'PID' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'SELinux security context' column"
-msgstr "Procesa 'SELinux drošības konteksta' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "Palaižot rādīt procesa 'SELinux drošības konteksta' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'arguments' column"
-msgstr "Procesa 'argumentu' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Show process 'arguments' column on startup"
-msgstr "Palaižot rādīt 'argumentu' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'estimated memory usage' column"
-msgstr "Procesa 'paredzamā atmiņas izmantojuma' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Palaižot rādīt 'paredzamā atmiņas izmantojuma' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'Waiting Channel' column"
-msgstr "Procesa 'gaidīšanas kanāla' kolonnas platums"
-
-#: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Palaižot rādīt procesa 'gaidīšanas kanāla' kolonnu"
-
-#: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Disk view columns order"
-msgstr "Disku skata kolonnu secība"
-
-#: ../src/gsm_color_button.c:188
+#: ../src/gsm_color_button.c:198
 msgid "Fraction"
 msgstr "Daļa"
 
-#: ../src/gsm_color_button.c:189
+#: ../src/gsm_color_button.c:199
 msgid "Percentage full for pie colour pickers"
 msgstr "Pilnuma procenti krāsu izvēles logam"
 
-#: ../src/gsm_color_button.c:196
+#: ../src/gsm_color_button.c:206
 msgid "Title"
 msgstr "Virsraksts"
 
-#: ../src/gsm_color_button.c:197
+#: ../src/gsm_color_button.c:207
 msgid "The title of the color selection dialog"
 msgstr "Krāsu izvēles loga virsraksts"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
+#: ../src/gsm_color_button.c:208 ../src/gsm_color_button.c:642
 msgid "Pick a Color"
 msgstr "Izvēlieties krāsu"
 
-#: ../src/gsm_color_button.c:204
+#: ../src/gsm_color_button.c:214
 msgid "Current Color"
 msgstr "Pašreizējā krāsa"
 
-#: ../src/gsm_color_button.c:205
+#: ../src/gsm_color_button.c:215
 msgid "The selected color"
 msgstr "Izvēlētā krāsa"
 
-#: ../src/gsm_color_button.c:212
+#: ../src/gsm_color_button.c:222
 msgid "Type of color picker"
 msgstr "Krāsu izvēles tips"
 
-#: ../src/gsm_color_button.c:533
+#: ../src/gsm_color_button.c:565
 msgid "Received invalid color data\n"
 msgstr "Saņemti nederīgi krāsas dati\n"
 
-#: ../src/gsm_color_button.c:631
+#: ../src/gsm_color_button.c:663
 msgid "Click to set graph colors"
 msgstr "Klikšķiniet, lai iestatītu grafika krāsu"
 
@@ -564,24 +339,24 @@ msgid "Total Sent"
 msgstr "Kopā nosūtīts"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:690
+#: ../src/interface.cpp:695
 msgid "System"
 msgstr "Sistēma"
 
-#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
+#: ../src/interface.cpp:699 ../src/procdialogs.cpp:526
 msgid "Processes"
 msgstr "Procesi"
 
-#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
+#: ../src/interface.cpp:703 ../src/procdialogs.cpp:639
 msgid "Resources"
 msgstr "Resursi"
 
-#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
+#: ../src/interface.cpp:707 ../src/procdialogs.cpp:704
+#: ../src/procdialogs.cpp:708
 msgid "File Systems"
 msgstr "Failsistēmas"
 
-#: ../src/load-graph.cpp:155
+#: ../src/load-graph.cpp:161
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -590,12 +365,12 @@ msgstr[1] "%u sekundes"
 msgstr[2] "%u sekunžu"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:330
+#: ../src/load-graph.cpp:343
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%) no %s"
 
-#: ../src/lsof.cpp:124
+#: ../src/lsof.cpp:125
 #, c-format
 msgid ""
 "<b>Error</b>\n"
@@ -603,93 +378,93 @@ msgid ""
 "%s"
 msgstr "<b>Kļūda</b>\n'%s' nav derīga Perl regulārā izteiksme.\n%s"
 
-#: ../src/lsof.cpp:270
+#: ../src/lsof.cpp:271
 msgid "Process"
 msgstr "Process"
 
-#: ../src/lsof.cpp:282
+#: ../src/lsof.cpp:283
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
+#: ../src/lsof.cpp:293 ../src/memmaps.cpp:338
 msgid "Filename"
 msgstr "Faila nosaukums"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:309
+#: ../src/lsof.cpp:310
 msgid "Search for Open Files"
 msgstr "Meklēt atvērtos failus"
 
-#: ../src/lsof.cpp:336
+#: ../src/lsof.cpp:337
 msgid "_Name contains:"
 msgstr "_Nosaukums satur:"
 
-#: ../src/lsof.cpp:352
+#: ../src/lsof.cpp:353
 msgid "Case insensitive matching"
 msgstr "Lielo-mazo burtu nejutīgs meklējums"
 
-#: ../src/lsof.cpp:360
+#: ../src/lsof.cpp:361
 msgid "S_earch results:"
 msgstr "M_eklēšanas rezultāti:"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:478
+#: ../src/memmaps.cpp:340
 msgid "VM Start"
 msgstr "VA sākums"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:480
+#: ../src/memmaps.cpp:342
 msgid "VM End"
 msgstr "VA beigas"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:482
+#: ../src/memmaps.cpp:344
 msgid "VM Size"
 msgstr "VA izmērs"
 
-#: ../src/memmaps.cpp:483
+#: ../src/memmaps.cpp:345
 msgid "Flags"
 msgstr "Karogi"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:485
+#: ../src/memmaps.cpp:347
 msgid "VM Offset"
 msgstr "VA nobīde"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:488
+#: ../src/memmaps.cpp:350
 msgid "Private clean"
 msgstr "Tīrā privātā"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:491
+#: ../src/memmaps.cpp:353
 msgid "Private dirty"
 msgstr "Aizņemtā privātā"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:494
+#: ../src/memmaps.cpp:356
 msgid "Shared clean"
 msgstr "Brīvā koplietotā"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:497
+#: ../src/memmaps.cpp:359
 msgid "Shared dirty"
 msgstr "Aizņemtā koplietotā"
 
-#: ../src/memmaps.cpp:499
+#: ../src/memmaps.cpp:361
 msgid "Inode"
 msgstr "Inode"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/memmaps.cpp:608
+#: ../src/memmaps.cpp:470
 msgid "Memory Maps"
 msgstr "Atmiņas kartes"
 
-#: ../src/memmaps.cpp:626
+#: ../src/memmaps.cpp:488
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "At_miņas kartes procesam \"%s\" (PID %u):"
@@ -729,14 +504,261 @@ msgstr "FD"
 msgid "Object"
 msgstr "Objekts"
 
-#: ../src/openfiles.cpp:332
+#: ../src/openfiles.cpp:333
 msgid "Open Files"
 msgstr "Atvērtie faili"
 
-#: ../src/openfiles.cpp:354
+#: ../src/openfiles.cpp:357
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "Procesa \"%s atvērtie _faili (PID %u):"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
+msgid "Main Window width"
+msgstr "Galvenā loga platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
+msgid "Main Window height"
+msgstr "Galvenā loga augstums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
+msgid "Show process dependencies in tree form"
+msgstr "Palaižot rādīt procesa atkarību koka kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr "Solaris režīms CPU noslogojumam"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "Ja PATIESS, sistēmas pārraugs darbojas 'Solaris režīmā', kur uzdevuma cpu slodze tiek dalīta ar kopējo CPU skaitu. Pretējā gadījumā darbojas 'Irix režīmā'."
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "Aktivizēt/deaktivizēt gludeno atjaunināšanu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "Parādīt brīdinājumu, pirms nogalināt procesus"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
+msgid "Time in milliseconds between updates of the process view"
+msgstr "Laiks milisekundēs starp procesu skata atjauninājumiem"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Laiks milisekundēs starp atjauninājumiem grafā"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "Vai rādīt informāciju par visām failsistēmām"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "Vai rādīt informāciju par visu failsistēmu (ieskaitot tipus 'autofs' un 'procfs'). Ērti saraksta ar visām piemontētam failsistēmam iegūšanai."
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Laiks milisekundēs starp atjauninājumiem ierīču sarakstā"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "Noskaidro, kuru procesu parādīt kā noklusēto. 0 ir visi, 1 ir lietotāja, un 2 ir aktīvie"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "Saglābāt tekošo cilni"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 sistēmas informācijai, 1 procesu sarakstam, 2 resursiem un 3 disku sarakstam"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
+msgid "Default graph cpu color"
+msgstr "Noklusētā cpu grafika krāsa"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
+msgid "Default graph mem color"
+msgstr "Noklusētā atmiņas grafika krāsa"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
+msgid "Default graph swap color"
+msgstr "Noklusēta maiņvietas grafika krāsa"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "Noklusētā ienākošās tīkla plūsmas grafika krāsa"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "Noklusētā izejošās tīkla plūsmas grafika krāsa"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:21
+msgid "Show network traffic in bits"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:22
+msgid "Process view sort column"
+msgstr "Procesu skata kārtošanas kolonna"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:23
+msgid "Process view columns order"
+msgstr "Procesu skata kolonnu secība"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:24
+msgid "Process view sort order"
+msgstr "Procesu skata kārtošanas secība"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:25
+msgid "Width of process 'name' column"
+msgstr "Procesa 'nosaukuma' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:26
+msgid "Show process 'name' column on startup"
+msgstr "Palaižot rādīt procesa 'nosaukuma' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:27
+msgid "Width of process 'owner' column"
+msgstr "Procesa 'īpašnieka' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:28
+msgid "Show process 'owner' column on startup"
+msgstr "Palaižot rādīt procesa 'īpašnieka' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:29
+msgid "Width of process 'status' column"
+msgstr "Procesa 'statusa' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:30
+msgid "Show process 'status' column on startup"
+msgstr "Palaižot rādīt procesa 'statusa' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:31
+msgid "Width of process 'virtual memory' column"
+msgstr "Procesa 'virtuālās atmiņas' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:32
+msgid "Show process 'virtual memory' column on startup"
+msgstr "Palaižot rādīt procesa 'virtuālās atmiņas' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:33
+msgid "Width of process 'resident memory' column"
+msgstr "Procesa 'aizņemtās atmiņas' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:34
+msgid "Show process 'resident memory' column on startup"
+msgstr "Palaižot rādīt procesa 'pastāvīgās atmiņas' izmantojuma kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:35
+msgid "Width of process 'writable memory' column"
+msgstr "Procesa 'rakstāmās atmiņas' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:36
+msgid "Show process 'writable memory' column on startup"
+msgstr "Palaižot rādīt procesa 'rakstāmās atmiņas' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:37
+msgid "Width of process 'shared memory' column"
+msgstr "Procesa 'koplietotās atmiņas' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:38
+msgid "Show process 'shared memory' column on startup"
+msgstr "Palaižot rādīt procesa 'koplietošanas atmiņas' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:39
+msgid "Width of process 'X server memory' column"
+msgstr "'X servera atmiņas' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:40
+msgid "Show process 'X server memory' column on startup"
+msgstr "Palaižot rādīt izmantotās 'X servera atmiņas' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:42
+#, no-c-format
+msgid "Width of process 'CPU %' column"
+msgstr "'CPU %' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:44
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "Palaižot rādīt 'CPU %' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:45
+msgid "Width of process 'CPU time' column"
+msgstr "'CPU laika' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:46
+msgid "Show process 'CPU time' column on startup"
+msgstr "Palaižot rādīt 'CPU laika' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:47
+msgid "Width of process 'start time' column"
+msgstr "Procesa 'palaišanas laika' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:48
+msgid "Show process 'start time' column on startup"
+msgstr "Palaižot rādīt procesa 'palaišanas laika' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:49
+msgid "Width of process 'nice' column"
+msgstr "Procesa 'jaukuma' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:50
+msgid "Show process 'nice' column on startup"
+msgstr "Palaižot rādīt procesa 'jaukuma koeficienta' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:51
+msgid "Width of process 'PID' column"
+msgstr "Procesa 'PID' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:52
+msgid "Show process 'PID' column on startup"
+msgstr "Palaižot rādīt procesa 'PID' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:53
+msgid "Width of process 'SELinux security context' column"
+msgstr "Procesa 'SELinux drošības konteksta' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:54
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "Palaižot rādīt procesa 'SELinux drošības konteksta' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:55
+msgid "Width of process 'arguments' column"
+msgstr "Procesa 'argumentu' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:56
+msgid "Show process 'arguments' column on startup"
+msgstr "Palaižot rādīt 'argumentu' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:57
+msgid "Width of process 'estimated memory usage' column"
+msgstr "Procesa 'paredzamā atmiņas izmantojuma' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:58
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "Palaižot rādīt 'paredzamā atmiņas izmantojuma' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:59
+msgid "Width of process 'Waiting Channel' column"
+msgstr "Procesa 'gaidīšanas kanāla' kolonnas platums"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:60
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "Palaižot rādīt procesa 'gaidīšanas kanāla' kolonnu"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
+msgid "Disk view columns order"
+msgstr "Disku skata kolonnu secība"
 
 #: ../src/procactions.cpp:75
 #, c-format
@@ -796,46 +818,46 @@ msgstr "(Zema prioritāte)"
 msgid "(Very Low Priority)"
 msgstr "(Ļoti zema prioritāte)"
 
-#: ../src/procdialogs.cpp:175
+#: ../src/procdialogs.cpp:179
 msgid "Change Priority"
 msgstr "Mainīt prioritāti"
 
-#: ../src/procdialogs.cpp:196
+#: ../src/procdialogs.cpp:202
 msgid "Change _Priority"
 msgstr "Mainīt _prioritāti"
 
-#: ../src/procdialogs.cpp:217
+#: ../src/procdialogs.cpp:223
 msgid "_Nice value:"
 msgstr "_Jaukuma vērtība:"
 
-#: ../src/procdialogs.cpp:233
+#: ../src/procdialogs.cpp:239
 msgid "Note:"
 msgstr "Piezīme:"
 
-#: ../src/procdialogs.cpp:234
+#: ../src/procdialogs.cpp:240
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "Procesa prioritāte tiek veidota izmantojot šo jaukuma vērtību. Zemāka jaukuma vērtība dod augstāku prioritāti."
 
-#: ../src/procdialogs.cpp:457
+#: ../src/procdialogs.cpp:456
 msgid "Icon"
 msgstr "Ikona"
 
-#: ../src/procdialogs.cpp:502
+#: ../src/procdialogs.cpp:501
 msgid "System Monitor Preferences"
 msgstr "Sistēmas pārrauga iestatījumi"
 
-#: ../src/procdialogs.cpp:532
+#: ../src/procdialogs.cpp:533
 msgid "Behavior"
 msgstr "Uzvedība"
 
-#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
-#: ../src/procdialogs.cpp:728
+#: ../src/procdialogs.cpp:552 ../src/procdialogs.cpp:665
+#: ../src/procdialogs.cpp:727
 msgid "_Update interval in seconds:"
 msgstr "Atja_unošanas intervāls sekundēs:"
 
-#: ../src/procdialogs.cpp:576
+#: ../src/procdialogs.cpp:577
 msgid "Enable _smooth refresh"
 msgstr "Aktivizēt gludeno at_svaidzinājumu"
 
@@ -847,31 +869,31 @@ msgstr "Parādīt brīdinājumu, beidzot vai _nobeidzot procesus"
 msgid "Solaris mode"
 msgstr "Solaris režīms"
 
-#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
+#: ../src/procdialogs.cpp:621 ../src/procdialogs.cpp:761
 msgid "Information Fields"
 msgstr "Informācijas lauki"
 
-#: ../src/procdialogs.cpp:635
+#: ../src/procdialogs.cpp:634
 msgid "Process i_nformation shown in list:"
 msgstr "Sarakstā redzamās i_nformācijas lauki:"
 
-#: ../src/procdialogs.cpp:647
+#: ../src/procdialogs.cpp:646
 msgid "Graphs"
 msgstr "Grafiki"
 
-#: ../src/procdialogs.cpp:686
+#: ../src/procdialogs.cpp:685
 msgid "Show network speed in bits"
 msgstr "Rādīt tīkla ātrumu bitos"
 
-#: ../src/procdialogs.cpp:748
+#: ../src/procdialogs.cpp:747
 msgid "Show _all filesystems"
 msgstr "Rādīt vis_as failsistēmas"
 
-#: ../src/procdialogs.cpp:775
+#: ../src/procdialogs.cpp:774
 msgid "File system i_nformation shown in list:"
 msgstr "Sarakstā redzamās failsistēmas i_nformācija:"
 
-#: ../src/procman.cpp:690
+#: ../src/procman.cpp:672
 msgid "A simple process and system monitor."
 msgstr "Vienkāršs sistēmas un procesu pārraugs."
 
@@ -955,42 +977,42 @@ msgstr "Laidiens %s"
 msgid "Unknown CPU model"
 msgstr "Nezināms CPU modelis"
 
-#: ../src/sysinfo.cpp:590
+#: ../src/sysinfo.cpp:594
 #, c-format
 msgid "Kernel %s"
 msgstr "Kodols %s"
 
-#: ../src/sysinfo.cpp:603
+#: ../src/sysinfo.cpp:607
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:617
+#: ../src/sysinfo.cpp:621
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>Aparatūra</b>"
 
-#: ../src/sysinfo.cpp:622
+#: ../src/sysinfo.cpp:626
 msgid "Memory:"
 msgstr "Atmiņa:"
 
-#: ../src/sysinfo.cpp:629
+#: ../src/sysinfo.cpp:633
 #, c-format
 msgid "Processor %d:"
 msgstr "Procesors %d:"
 
-#: ../src/sysinfo.cpp:634
+#: ../src/sysinfo.cpp:638
 msgid "Processor:"
 msgstr "Procesors:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:646
+#: ../src/sysinfo.cpp:650
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>Sistēmas statuss</b>"
 
-#: ../src/sysinfo.cpp:652
+#: ../src/sysinfo.cpp:656
 msgid "Available disk space:"
 msgstr "Pieejamā diska vieta:"
 

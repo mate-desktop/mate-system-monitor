@@ -5,13 +5,14 @@
 # Translators:
 # Aron Xu <happyaron.xu@gmail.com>, 2009
 # He Qiangqiang <carton@263.net>, 2002
+# liushuyu011 <liushuyu_011@163.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2012-07-12 13:30+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-10 15:09+0100\n"
+"PO-Revision-Date: 2014-11-12 04:21+0000\n"
+"Last-Translator: liushuyu011 <liushuyu_011@163.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/MATE/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,12 +20,30 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:735
+#: ../mate-system-monitor.appdata.xml.in.h:1
+msgid "A Process and resource monitor for MATE Desktop"
+msgstr "一个用于 MATE 桌面的进程与资源监视器"
+
+#: ../mate-system-monitor.appdata.xml.in.h:2
+msgid ""
+"<p> MATE System Monitor allows to graphically view and manipulate the "
+"running processes on your system. It also provides an overview of available "
+"resources, such as CPU and memory. </p> <p> MATE System Monitor is a fork of"
+" GNOME System Monitor and part of the MATE Desktop Environment. If you would"
+" like to know more about MATE and System Monitor, please visit the project's"
+" home page. </p>"
+msgstr "<p> MATE 系统监视器可以让你以图形化的界面来操作正在运行的进程。它还提供了可用资源的概览, 比如 CPU 和 RAM 的空闲状况。 </p> <p> MATE 系统监视器是 GNOME 系统监视器的一个分支, 并且它还是 MATE 桌面环境的一部分。如果你想了解更多关于 MATE 和 系统监视器的知识, 请访问它们的项目页面。</p>"
+
+#: ../mate-system-monitor.desktop.in.in.h:1
+msgid "MATE System Monitor"
+msgstr "MATE 系统监视器"
+
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:160
+#: ../src/interface.cpp:619 ../src/procman.cpp:716
 msgid "System Monitor"
 msgstr "系统监视器"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:161
 msgid "View current processes and monitor system state"
 msgstr "查看当前进程及监视系统状态"
 
@@ -32,11 +51,11 @@ msgstr "查看当前进程及监视系统状态"
 msgid "Show the System tab"
 msgstr "显示系统标签"
 
-#: ../src/callbacks.cpp:167
+#: ../src/callbacks.cpp:170
 msgid "translator-credits"
 msgstr "MATE 简体中文翻译 <i18n-translation@lists.linux.net.cn>.\nHe Qiangqiang <carton@263.net>, 2002.\nFunda Wang <fundawang@linux.net.cn>, 2003-2005.\nZhang Miao <mymzhang@gmail.com>,2009."
 
-#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:360
 msgid "Device"
 msgstr "设备"
 
@@ -44,7 +63,7 @@ msgstr "设备"
 msgid "Directory"
 msgstr "目录"
 
-#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:221 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "类型"
 
@@ -89,286 +108,43 @@ msgstr "%-m月%-d日 %H:%M"
 msgid "%b %d %Y"
 msgstr "%Y年%-m月%-d日"
 
-#: ../src/mate-system-monitor.schemas.in.h:1
-msgid "Main Window width"
-msgstr "主窗口宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Main Window height"
-msgstr "主窗口高度"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Show process dependencies in tree form"
-msgstr "以树型显示进程依赖关系"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Solaris mode for CPU percentage"
-msgstr "CPU 百分比使用 Solaris 模式"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "如果为 TRUE，系统监视器将工作在“Solaris 模式”，其中任务的 CPU 使用量将被除以总的 CPU 数目。否则它将工作在“Irix 模式”。"
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Enable/Disable smooth refresh"
-msgstr "启用/禁用平滑刷新"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid "Show warning dialog when killing processes"
-msgstr "杀死进程时显示警告对话框"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Time in milliseconds between updates of the process view"
-msgstr "更新进程视图的时间间隔，以毫秒计"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "更新图形的时间间隔，以毫秒计"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid "Whether information about all filesystems should be displayed"
-msgstr "是否应显示关于全部文件系统的信息"
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr "是否应显示关于全部文件系统的信息(包含类似“autofs”和“procfs”的文件系统)。您可以通过此功能获得目前已挂载的全部文件系统。"
-
-#: ../src/mate-system-monitor.schemas.in.h:12
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "更新设备列表的时间间隔，以毫秒计"
-
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
-" active"
-msgstr "确定默认情况下要显示哪些进程。0 代表全部，1 代表用户，2 代表活动"
-
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Saves the currently viewed tab"
-msgstr "保存目前查看的标签"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr "0 代表系统信息，1 代表进程列表，2 代表资源，3 代表磁盘列表"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Default graph cpu color"
-msgstr "图形中 CPU 的默认颜色"
-
-#: ../src/mate-system-monitor.schemas.in.h:17
-msgid "Default graph mem color"
-msgstr "图形中内存的默认颜色"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-msgid "Default graph swap color"
-msgstr "图形中交换区的默认颜色"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Default graph incoming network traffic color"
-msgstr "图形中网络流入流量的默认颜色"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Default graph outgoing network traffic color"
-msgstr "图形中网络流出流量的默认颜色"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Process view sort column"
-msgstr "进程视图排序列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Process view columns order"
-msgstr "进程视图列顺序"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Process view sort order"
-msgstr "进程视图排序顺序"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Width of process 'name' column"
-msgstr "进程名列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'name' column on startup"
-msgstr "启动时显示进程“名称”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Width of process 'owner' column"
-msgstr "进程所有者列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'owner' column on startup"
-msgstr "启动时显示进程“所有者”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Width of process 'status' column"
-msgstr "进程状态列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'status' column on startup"
-msgstr "启动时显示进程“状态”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Width of process 'virtual memory' column"
-msgstr "进程虚拟内存列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'virtual memory' column on startup"
-msgstr "启动时显示进程“虚拟内存”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Width of process 'resident memory' column"
-msgstr "进程常驻内存列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'resident memory' column on startup"
-msgstr "启动时显示进程“常驻内存”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Width of process 'writable memory' column"
-msgstr "进程可写内存列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
-msgid "Show process 'writable memory' column on startup"
-msgstr "启动时显示进程“可写内存”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Width of process 'shared memory' column"
-msgstr "进程共享内存列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
-msgid "Show process 'shared memory' column on startup"
-msgstr "启动时显示进程“共享内存”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Width of process 'X server memory' column"
-msgstr "进程 X 服务器内存列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Show process 'X server memory' column on startup"
-msgstr "启动时显示进程“X 服务器内存”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:41
-#, no-c-format
-msgid "Width of process 'CPU %' column"
-msgstr "进程 CPU 百分比列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:43
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "启动时显示进程“CPU 百分比”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:44
-msgid "Width of process 'CPU time' column"
-msgstr "进程 CPU 时间列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:45
-msgid "Show process 'CPU time' column on startup"
-msgstr "启动时显示进程“CPU 时间”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'start time' column"
-msgstr "启动时进程启动时间列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Show process 'start time' column on startup"
-msgstr "启动时显示进程“开始时间”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'nice' column"
-msgstr "进程 nice 值列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Show process 'nice' column on startup"
-msgstr "启动时显示进程“nice 值”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'PID' column"
-msgstr "进程 PID 列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Show process 'PID' column on startup"
-msgstr "启动时显示进程“PID”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'SELinux security context' column"
-msgstr "进程 SELinux 安全环境列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "启动时显示进程“SELinux 安全环境”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'arguments' column"
-msgstr "进程参数列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Show process 'arguments' column on startup"
-msgstr "启动时显示进程“参数”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'estimated memory usage' column"
-msgstr "预计内存占用列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "启动时显示进程“预计内存使用”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'Waiting Channel' column"
-msgstr "等候频道列的宽度"
-
-#: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "启动时显示进程“等候频道”列"
-
-#: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Disk view columns order"
-msgstr "磁盘视图列顺序"
-
-#: ../src/gsm_color_button.c:188
+#: ../src/gsm_color_button.c:198
 msgid "Fraction"
 msgstr "分数"
 
-#: ../src/gsm_color_button.c:189
+#: ../src/gsm_color_button.c:199
 msgid "Percentage full for pie colour pickers"
 msgstr "饼状颜色拾取器的満百分比"
 
-#: ../src/gsm_color_button.c:196
+#: ../src/gsm_color_button.c:206
 msgid "Title"
 msgstr "标题"
 
-#: ../src/gsm_color_button.c:197
+#: ../src/gsm_color_button.c:207
 msgid "The title of the color selection dialog"
 msgstr "颜色选择对话框标题"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
+#: ../src/gsm_color_button.c:208 ../src/gsm_color_button.c:642
 msgid "Pick a Color"
 msgstr "拾取颜色"
 
-#: ../src/gsm_color_button.c:204
+#: ../src/gsm_color_button.c:214
 msgid "Current Color"
 msgstr "当前颜色"
 
-#: ../src/gsm_color_button.c:205
+#: ../src/gsm_color_button.c:215
 msgid "The selected color"
 msgstr "选中的颜色"
 
-#: ../src/gsm_color_button.c:212
+#: ../src/gsm_color_button.c:222
 msgid "Type of color picker"
 msgstr "颜色拾取器类型"
 
-#: ../src/gsm_color_button.c:533
+#: ../src/gsm_color_button.c:565
 msgid "Received invalid color data\n"
 msgstr "接收到非法颜色数据\n"
 
-#: ../src/gsm_color_button.c:631
+#: ../src/gsm_color_button.c:663
 msgid "Click to set graph colors"
 msgstr "点击以设置图形颜色"
 
@@ -564,36 +340,36 @@ msgid "Total Sent"
 msgstr "总计已发送"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:690
+#: ../src/interface.cpp:695
 msgid "System"
 msgstr "系统"
 
-#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
+#: ../src/interface.cpp:699 ../src/procdialogs.cpp:526
 msgid "Processes"
 msgstr "进程"
 
-#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
+#: ../src/interface.cpp:703 ../src/procdialogs.cpp:639
 msgid "Resources"
 msgstr "资源"
 
-#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
+#: ../src/interface.cpp:707 ../src/procdialogs.cpp:704
+#: ../src/procdialogs.cpp:708
 msgid "File Systems"
 msgstr "文件系统"
 
-#: ../src/load-graph.cpp:155
+#: ../src/load-graph.cpp:161
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] "%u 秒"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:330
+#: ../src/load-graph.cpp:343
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%.1f %%)，共 %s"
 
-#: ../src/lsof.cpp:124
+#: ../src/lsof.cpp:125
 #, c-format
 msgid ""
 "<b>Error</b>\n"
@@ -601,93 +377,93 @@ msgid ""
 "%s"
 msgstr "<b>错误</b>\n“%s”不是有效的 Perl 正则表达式。\n%s"
 
-#: ../src/lsof.cpp:270
+#: ../src/lsof.cpp:271
 msgid "Process"
 msgstr "进程"
 
-#: ../src/lsof.cpp:282
+#: ../src/lsof.cpp:283
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
+#: ../src/lsof.cpp:293 ../src/memmaps.cpp:338
 msgid "Filename"
 msgstr "文件名"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:309
+#: ../src/lsof.cpp:310
 msgid "Search for Open Files"
 msgstr "搜索打开的文件"
 
-#: ../src/lsof.cpp:336
+#: ../src/lsof.cpp:337
 msgid "_Name contains:"
 msgstr "名称包含(_N)："
 
-#: ../src/lsof.cpp:352
+#: ../src/lsof.cpp:353
 msgid "Case insensitive matching"
 msgstr "区分大小写"
 
-#: ../src/lsof.cpp:360
+#: ../src/lsof.cpp:361
 msgid "S_earch results:"
 msgstr "搜索结果(_E)："
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:478
+#: ../src/memmaps.cpp:340
 msgid "VM Start"
 msgstr "VM 开始于"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:480
+#: ../src/memmaps.cpp:342
 msgid "VM End"
 msgstr "VM 终止于"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:482
+#: ../src/memmaps.cpp:344
 msgid "VM Size"
 msgstr "VM 大小"
 
-#: ../src/memmaps.cpp:483
+#: ../src/memmaps.cpp:345
 msgid "Flags"
 msgstr "标志"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:485
+#: ../src/memmaps.cpp:347
 msgid "VM Offset"
 msgstr "VM 偏移"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:488
+#: ../src/memmaps.cpp:350
 msgid "Private clean"
 msgstr "未被修改的私有内存"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:491
+#: ../src/memmaps.cpp:353
 msgid "Private dirty"
 msgstr "已被修改的私有内存"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:494
+#: ../src/memmaps.cpp:356
 msgid "Shared clean"
 msgstr "未被修改的共享内存"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:497
+#: ../src/memmaps.cpp:359
 msgid "Shared dirty"
 msgstr "已被修改的共享内存"
 
-#: ../src/memmaps.cpp:499
+#: ../src/memmaps.cpp:361
 msgid "Inode"
 msgstr "Inode"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/memmaps.cpp:608
+#: ../src/memmaps.cpp:470
 msgid "Memory Maps"
 msgstr "内存映射"
 
-#: ../src/memmaps.cpp:626
+#: ../src/memmaps.cpp:488
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "进程“%s”(PID %u)的内存映像(_M)："
@@ -727,14 +503,261 @@ msgstr "FD"
 msgid "Object"
 msgstr "对象"
 
-#: ../src/openfiles.cpp:332
+#: ../src/openfiles.cpp:333
 msgid "Open Files"
 msgstr "打开的文件"
 
-#: ../src/openfiles.cpp:354
+#: ../src/openfiles.cpp:357
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "进程“%s”(PID %u)所打开的文件(_F)："
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
+msgid "Main Window width"
+msgstr "主窗口宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
+msgid "Main Window height"
+msgstr "主窗口高度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
+msgid "Show process dependencies in tree form"
+msgstr "以树型显示进程依赖关系"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr "CPU 百分比使用 Solaris 模式"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "如果为 TRUE，系统监视器将工作在“Solaris 模式”，其中任务的 CPU 使用量将被除以总的 CPU 数目。否则它将工作在“Irix 模式”。"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "启用/禁用平滑刷新"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "杀死进程时显示警告对话框"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
+msgid "Time in milliseconds between updates of the process view"
+msgstr "更新进程视图的时间间隔，以毫秒计"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "更新图形的时间间隔，以毫秒计"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "是否应显示关于全部文件系统的信息"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "是否应显示关于全部文件系统的信息(包含类似“autofs”和“procfs”的文件系统)。您可以通过此功能获得目前已挂载的全部文件系统。"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "更新设备列表的时间间隔，以毫秒计"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "确定默认情况下要显示哪些进程。0 代表全部，1 代表用户，2 代表活动"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "保存目前查看的标签"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 代表系统信息，1 代表进程列表，2 代表资源，3 代表磁盘列表"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
+msgid "Default graph cpu color"
+msgstr "图形中 CPU 的默认颜色"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
+msgid "Default graph mem color"
+msgstr "图形中内存的默认颜色"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
+msgid "Default graph swap color"
+msgstr "图形中交换区的默认颜色"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "图形中网络流入流量的默认颜色"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "图形中网络流出流量的默认颜色"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:21
+msgid "Show network traffic in bits"
+msgstr "使用字节显示网络通讯量"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:22
+msgid "Process view sort column"
+msgstr "进程视图排序列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:23
+msgid "Process view columns order"
+msgstr "进程视图列顺序"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:24
+msgid "Process view sort order"
+msgstr "进程视图排序顺序"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:25
+msgid "Width of process 'name' column"
+msgstr "进程名列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:26
+msgid "Show process 'name' column on startup"
+msgstr "启动时显示进程“名称”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:27
+msgid "Width of process 'owner' column"
+msgstr "进程所有者列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:28
+msgid "Show process 'owner' column on startup"
+msgstr "启动时显示进程“所有者”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:29
+msgid "Width of process 'status' column"
+msgstr "进程状态列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:30
+msgid "Show process 'status' column on startup"
+msgstr "启动时显示进程“状态”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:31
+msgid "Width of process 'virtual memory' column"
+msgstr "进程虚拟内存列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:32
+msgid "Show process 'virtual memory' column on startup"
+msgstr "启动时显示进程“虚拟内存”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:33
+msgid "Width of process 'resident memory' column"
+msgstr "进程常驻内存列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:34
+msgid "Show process 'resident memory' column on startup"
+msgstr "启动时显示进程“常驻内存”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:35
+msgid "Width of process 'writable memory' column"
+msgstr "进程可写内存列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:36
+msgid "Show process 'writable memory' column on startup"
+msgstr "启动时显示进程“可写内存”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:37
+msgid "Width of process 'shared memory' column"
+msgstr "进程共享内存列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:38
+msgid "Show process 'shared memory' column on startup"
+msgstr "启动时显示进程“共享内存”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:39
+msgid "Width of process 'X server memory' column"
+msgstr "进程 X 服务器内存列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:40
+msgid "Show process 'X server memory' column on startup"
+msgstr "启动时显示进程“X 服务器内存”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:42
+#, no-c-format
+msgid "Width of process 'CPU %' column"
+msgstr "进程 CPU 百分比列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:44
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "启动时显示进程“CPU 百分比”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:45
+msgid "Width of process 'CPU time' column"
+msgstr "进程 CPU 时间列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:46
+msgid "Show process 'CPU time' column on startup"
+msgstr "启动时显示进程“CPU 时间”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:47
+msgid "Width of process 'start time' column"
+msgstr "启动时进程启动时间列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:48
+msgid "Show process 'start time' column on startup"
+msgstr "启动时显示进程“开始时间”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:49
+msgid "Width of process 'nice' column"
+msgstr "进程 nice 值列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:50
+msgid "Show process 'nice' column on startup"
+msgstr "启动时显示进程“nice 值”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:51
+msgid "Width of process 'PID' column"
+msgstr "进程 PID 列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:52
+msgid "Show process 'PID' column on startup"
+msgstr "启动时显示进程“PID”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:53
+msgid "Width of process 'SELinux security context' column"
+msgstr "进程 SELinux 安全环境列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:54
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "启动时显示进程“SELinux 安全环境”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:55
+msgid "Width of process 'arguments' column"
+msgstr "进程参数列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:56
+msgid "Show process 'arguments' column on startup"
+msgstr "启动时显示进程“参数”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:57
+msgid "Width of process 'estimated memory usage' column"
+msgstr "预计内存占用列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:58
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "启动时显示进程“预计内存使用”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:59
+msgid "Width of process 'Waiting Channel' column"
+msgstr "等候频道列的宽度"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:60
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "启动时显示进程“等候频道”列"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
+msgid "Disk view columns order"
+msgstr "磁盘视图列顺序"
 
 #: ../src/procactions.cpp:75
 #, c-format
@@ -794,46 +817,46 @@ msgstr "(低优先级)"
 msgid "(Very Low Priority)"
 msgstr "(非常低优先级)"
 
-#: ../src/procdialogs.cpp:175
+#: ../src/procdialogs.cpp:179
 msgid "Change Priority"
 msgstr "改变优先级"
 
-#: ../src/procdialogs.cpp:196
+#: ../src/procdialogs.cpp:202
 msgid "Change _Priority"
 msgstr "改变优先级(_P)"
 
-#: ../src/procdialogs.cpp:217
+#: ../src/procdialogs.cpp:223
 msgid "_Nice value:"
 msgstr "_Nice 值："
 
-#: ../src/procdialogs.cpp:233
+#: ../src/procdialogs.cpp:239
 msgid "Note:"
 msgstr "备忘："
 
-#: ../src/procdialogs.cpp:234
+#: ../src/procdialogs.cpp:240
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "进程的优先级由它的 nice 值决定。低的 nice 值对应于高优先级。"
 
-#: ../src/procdialogs.cpp:457
+#: ../src/procdialogs.cpp:456
 msgid "Icon"
 msgstr "图标"
 
-#: ../src/procdialogs.cpp:502
+#: ../src/procdialogs.cpp:501
 msgid "System Monitor Preferences"
 msgstr "系统监视器首选项"
 
-#: ../src/procdialogs.cpp:532
+#: ../src/procdialogs.cpp:533
 msgid "Behavior"
 msgstr "行为"
 
-#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
-#: ../src/procdialogs.cpp:728
+#: ../src/procdialogs.cpp:552 ../src/procdialogs.cpp:665
+#: ../src/procdialogs.cpp:727
 msgid "_Update interval in seconds:"
 msgstr "更新间隔，以秒计(_U)："
 
-#: ../src/procdialogs.cpp:576
+#: ../src/procdialogs.cpp:577
 msgid "Enable _smooth refresh"
 msgstr "启用平滑刷新(_S)"
 
@@ -845,31 +868,31 @@ msgstr "结束或杀死进程前警告(_K)"
 msgid "Solaris mode"
 msgstr "Solaris 模式"
 
-#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
+#: ../src/procdialogs.cpp:621 ../src/procdialogs.cpp:761
 msgid "Information Fields"
 msgstr "信息域"
 
-#: ../src/procdialogs.cpp:635
+#: ../src/procdialogs.cpp:634
 msgid "Process i_nformation shown in list:"
 msgstr "此列表中显示的进程信息(_N)："
 
-#: ../src/procdialogs.cpp:647
+#: ../src/procdialogs.cpp:646
 msgid "Graphs"
 msgstr "图形"
 
-#: ../src/procdialogs.cpp:686
+#: ../src/procdialogs.cpp:685
 msgid "Show network speed in bits"
 msgstr "以字节为单位显示网络速度"
 
-#: ../src/procdialogs.cpp:748
+#: ../src/procdialogs.cpp:747
 msgid "Show _all filesystems"
 msgstr "显示全部文件系统(_A)"
 
-#: ../src/procdialogs.cpp:775
+#: ../src/procdialogs.cpp:774
 msgid "File system i_nformation shown in list:"
 msgstr "列表中显示的文件系统信息(_N)："
 
-#: ../src/procman.cpp:690
+#: ../src/procman.cpp:672
 msgid "A simple process and system monitor."
 msgstr "简单的进程和系统监视器。"
 
@@ -953,42 +976,42 @@ msgstr "版本 %s"
 msgid "Unknown CPU model"
 msgstr "未知 CPU 型号"
 
-#: ../src/sysinfo.cpp:590
+#: ../src/sysinfo.cpp:594
 #, c-format
 msgid "Kernel %s"
 msgstr "内核 %s"
 
-#: ../src/sysinfo.cpp:603
+#: ../src/sysinfo.cpp:607
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:617
+#: ../src/sysinfo.cpp:621
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>硬件</b>"
 
-#: ../src/sysinfo.cpp:622
+#: ../src/sysinfo.cpp:626
 msgid "Memory:"
 msgstr "内存："
 
-#: ../src/sysinfo.cpp:629
+#: ../src/sysinfo.cpp:633
 #, c-format
 msgid "Processor %d:"
 msgstr "处理器 %d："
 
-#: ../src/sysinfo.cpp:634
+#: ../src/sysinfo.cpp:638
 msgid "Processor:"
 msgstr "处理器："
 
 #. disk space section
-#: ../src/sysinfo.cpp:646
+#: ../src/sysinfo.cpp:650
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>系统状态</b>"
 
-#: ../src/sysinfo.cpp:652
+#: ../src/sysinfo.cpp:656
 msgid "Available disk space:"
 msgstr "可用的磁盘空间："
 

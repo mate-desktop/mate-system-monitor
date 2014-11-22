@@ -5,18 +5,18 @@
 # Translators:
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004-2005
 # Anas Afif Emad <anas.e87@gmail.com, 2008-2009
-# linostar <linux.anas@gmail.com>, 2007
+# Anas El Husseini <linux.anas@gmail.com>, 2007
 # Djihed Afifi <djihed@gmail.com>, 2006
 # Khaled Hosny <khaledhosny@eglug.org>, 2006-2010
-# moceap <moceap@hotmail.com>, 2013
+# Mosaab Alzoubi <moceap@hotmail.com>, 2013
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002,2004
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-07-12 15:25+0200\n"
-"PO-Revision-Date: 2013-10-05 15:42+0000\n"
-"Last-Translator: mauron\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-10 15:09+0100\n"
+"PO-Revision-Date: 2014-11-10 14:09+0000\n"
+"Last-Translator: infirit <infirit@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,12 +24,30 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: ../mate-system-monitor.desktop.in.in.h:1 ../src/callbacks.cpp:157
-#: ../src/interface.cpp:619 ../src/procman.cpp:735
+#: ../mate-system-monitor.appdata.xml.in.h:1
+msgid "A Process and resource monitor for MATE Desktop"
+msgstr ""
+
+#: ../mate-system-monitor.appdata.xml.in.h:2
+msgid ""
+"<p> MATE System Monitor allows to graphically view and manipulate the "
+"running processes on your system. It also provides an overview of available "
+"resources, such as CPU and memory. </p> <p> MATE System Monitor is a fork of"
+" GNOME System Monitor and part of the MATE Desktop Environment. If you would"
+" like to know more about MATE and System Monitor, please visit the project's"
+" home page. </p>"
+msgstr ""
+
+#: ../mate-system-monitor.desktop.in.in.h:1
+msgid "MATE System Monitor"
+msgstr ""
+
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:160
+#: ../src/interface.cpp:619 ../src/procman.cpp:716
 msgid "System Monitor"
 msgstr "مِرقاب النّظام"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:158
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:161
 msgid "View current processes and monitor system state"
 msgstr "اعرض العمليات الحالية و راقب حالة النظام"
 
@@ -37,11 +55,11 @@ msgstr "اعرض العمليات الحالية و راقب حالة النظا
 msgid "Show the System tab"
 msgstr "أظهر لسان النظام"
 
-#: ../src/callbacks.cpp:167
+#: ../src/callbacks.cpp:170
 msgid "translator-credits"
 msgstr "فريق عيون العرب للترجمة http://www.arabeyes.org :\nعرفات المديني\t<lumina@silverpen.de>\nأنس الحسيني\t<linux.anas@gmail.com>\nجهاد عفيفي\t<djihed@gmail.com>\nخالد حسني\t<khaledhosny@eglug.org>\nأنس عفيف عماد\t<anas.e87@gmail.com>\nمصعب الزعبي\t<moceap@hotmail.com>\n\nمراجعة و إتمام بواسطة عيون العرب http://arabeyes.org و مجتمع لينكس العربي http://linuxac.org عام 1434 بإشراف مصعب الزعبي moceap@hotmail.com"
 
-#: ../src/disks.cpp:299 ../src/memmaps.cpp:498
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:360
 msgid "Device"
 msgstr "الجهاز"
 
@@ -49,7 +67,7 @@ msgstr "الجهاز"
 msgid "Directory"
 msgstr "الدّليل"
 
-#: ../src/disks.cpp:301 ../src/gsm_color_button.c:211 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:221 ../src/openfiles.cpp:247
 msgid "Type"
 msgstr "النّوع"
 
@@ -94,286 +112,43 @@ msgstr "%Oe %b %Ol:%OM %p"
 msgid "%b %d %Y"
 msgstr "%Oe %b %Y"
 
-#: ../src/mate-system-monitor.schemas.in.h:1
-msgid "Main Window width"
-msgstr "عرض النّافذة الرّئيسيّ"
-
-#: ../src/mate-system-monitor.schemas.in.h:2
-msgid "Main Window height"
-msgstr "ارتفاع النّافذة الرّئيسيّ"
-
-#: ../src/mate-system-monitor.schemas.in.h:3
-msgid "Show process dependencies in tree form"
-msgstr "اعرض علاقات العمليات على شكل شجرة"
-
-#: ../src/mate-system-monitor.schemas.in.h:4
-msgid "Solaris mode for CPU percentage"
-msgstr "نمط سولاريس لنسبة استخدام المعالج المئوية"
-
-#: ../src/mate-system-monitor.schemas.in.h:5
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "إذا ضٌبط كصحيح، فسيعمل مرقاب النظام system-monitor في 'نمط سولاريس' حيث استخدام المهمة للمعالج يُقسّم على العدد الكلي للمعالجات. وإلا فسيعمل في 'نمط آيريكس'."
-
-#: ../src/mate-system-monitor.schemas.in.h:6
-msgid "Enable/Disable smooth refresh"
-msgstr "تفعيل/تعطيل التحديث المرن"
-
-#: ../src/mate-system-monitor.schemas.in.h:7
-msgid "Show warning dialog when killing processes"
-msgstr "اعرض حوار تنبيه عند إنهاء عمليات"
-
-#: ../src/mate-system-monitor.schemas.in.h:8
-msgid "Time in milliseconds between updates of the process view"
-msgstr "الوقت بالمللي ثانية بين تحديثات مشهد العمليات"
-
-#: ../src/mate-system-monitor.schemas.in.h:9
-msgid "Time in milliseconds between updates of the graphs"
-msgstr "الوقت بالمللي ثانية بين تحديثات الرسم البياني"
-
-#: ../src/mate-system-monitor.schemas.in.h:10
-msgid "Whether information about all filesystems should be displayed"
-msgstr "إذا يجب عرض معلومات حول كل أنظمة الملفات"
-
-#: ../src/mate-system-monitor.schemas.in.h:11
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr "إذا كان يجب عرض معلومات حول كل أنظمة الملفات أم لا. تستعمل لإيجاد قائمة لكل أنظمة الملفات المستعملة."
-
-#: ../src/mate-system-monitor.schemas.in.h:12
-msgid "Time in milliseconds between updates of the devices list"
-msgstr "الوقت بالمللي ثانية بين تحديثات قائمة الأجهزة"
-
-#: ../src/mate-system-monitor.schemas.in.h:13
-msgid ""
-"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
-" active"
-msgstr "تحدّد العمليات المعروضة افتراضيا. 0 للكل، 1 للمستخدم، و 2 للنشاط"
-
-#: ../src/mate-system-monitor.schemas.in.h:14
-msgid "Saves the currently viewed tab"
-msgstr "يحفظ اللسان المعروض حاليًا"
-
-#: ../src/mate-system-monitor.schemas.in.h:15
-msgid ""
-"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
-"for the disks list"
-msgstr "0 لمعلومات النظام، 1 لقائمة العمليّات، 2 للموارد و 3 لقائمة الأقراص"
-
-#: ../src/mate-system-monitor.schemas.in.h:16
-msgid "Default graph cpu color"
-msgstr "اللون الافتراضي لخلفية الرّسم البياني للمعالج"
-
-#: ../src/mate-system-monitor.schemas.in.h:17
-msgid "Default graph mem color"
-msgstr "اللون الافتراضي للرّسم البياني للذاكرة"
-
-#: ../src/mate-system-monitor.schemas.in.h:18
-msgid "Default graph swap color"
-msgstr "اللون الافتراضي لخلفية الذاكرة البديلة"
-
-#: ../src/mate-system-monitor.schemas.in.h:19
-msgid "Default graph incoming network traffic color"
-msgstr "اللون الافتراضي للرسم البياني لمرور الشبكة الداخل"
-
-#: ../src/mate-system-monitor.schemas.in.h:20
-msgid "Default graph outgoing network traffic color"
-msgstr "اللون الافتراضي للرسم البياني لمرور الشبكة الخارج"
-
-#: ../src/mate-system-monitor.schemas.in.h:21
-msgid "Process view sort column"
-msgstr "العمود المرتب في مشهد العمليات"
-
-#: ../src/mate-system-monitor.schemas.in.h:22
-msgid "Process view columns order"
-msgstr "ترتيب الأعمدة في مشهد العمليات"
-
-#: ../src/mate-system-monitor.schemas.in.h:23
-msgid "Process view sort order"
-msgstr "اتجاه الترتيب في مشهد العمليات"
-
-#: ../src/mate-system-monitor.schemas.in.h:24
-msgid "Width of process 'name' column"
-msgstr "اتساع عمود اسم العملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:25
-msgid "Show process 'name' column on startup"
-msgstr "اعرض عمود اسم العملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:26
-msgid "Width of process 'owner' column"
-msgstr "اتساع عمود مستخدم العملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:27
-msgid "Show process 'owner' column on startup"
-msgstr "اعرض عمود مستخدم العملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:28
-msgid "Width of process 'status' column"
-msgstr "اتساع عمود حالة العملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:29
-msgid "Show process 'status' column on startup"
-msgstr "اعرض عمود حالة العملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:30
-msgid "Width of process 'virtual memory' column"
-msgstr "اتساع عمود الذاكرة الافتراضية للعملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:31
-msgid "Show process 'virtual memory' column on startup"
-msgstr "اعرض عمود الذاكرة الوهمية للعملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:32
-msgid "Width of process 'resident memory' column"
-msgstr "اتساع عمود الذاكرة المقيمة للعملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:33
-msgid "Show process 'resident memory' column on startup"
-msgstr "اعرض عمود الذاكرة المقيمة للعملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:34
-msgid "Width of process 'writable memory' column"
-msgstr "اتساع عمود ذاكرة العملية القابلة للكتابة"
-
-#: ../src/mate-system-monitor.schemas.in.h:35
-msgid "Show process 'writable memory' column on startup"
-msgstr "اعرض عمود الذاكرة القابلة للكتابة للعملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:36
-msgid "Width of process 'shared memory' column"
-msgstr "اتساع عمود الذاكرة المشتركة للعملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:37
-msgid "Show process 'shared memory' column on startup"
-msgstr "اعرض عمود الذاكرة المشتركة للعملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:38
-msgid "Width of process 'X server memory' column"
-msgstr "اتساع عمود ذاكرة خادوم X للعملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:39
-msgid "Show process 'X server memory' column on startup"
-msgstr "اعرض عمود ذاكرة خادوم X للعملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:41
-#, no-c-format
-msgid "Width of process 'CPU %' column"
-msgstr "اتساع عمود نسبة استخدام العملية للمعالج"
-
-#: ../src/mate-system-monitor.schemas.in.h:43
-#, no-c-format
-msgid "Show process 'CPU %' column on startup"
-msgstr "اعرض عمود نسبة استخدام المعالج 'CPU %' عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:44
-msgid "Width of process 'CPU time' column"
-msgstr "اتساع عمود وقت المعالج المستخدَم من قبل العملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:45
-msgid "Show process 'CPU time' column on startup"
-msgstr "اعرض عمود وقت المعالج 'CPU time' عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:46
-msgid "Width of process 'start time' column"
-msgstr "اتساع عمود وقت بدء العملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:47
-msgid "Show process 'start time' column on startup"
-msgstr "اعرض عمود وقت تشغيل العملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:48
-msgid "Width of process 'nice' column"
-msgstr "اتساع عمود قيمة الأولوية nice للعملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:49
-msgid "Show process 'nice' column on startup"
-msgstr "اعرض عمود قيمة الأولوية nice للعملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:50
-msgid "Width of process 'PID' column"
-msgstr "اتساع عمود PID الخاص بالعمليّة"
-
-#: ../src/mate-system-monitor.schemas.in.h:51
-msgid "Show process 'PID' column on startup"
-msgstr "اعرض عمود رقم العملية 'PID' عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:52
-msgid "Width of process 'SELinux security context' column"
-msgstr "اتساع عمود سياق أمن SELinux للعملية"
-
-#: ../src/mate-system-monitor.schemas.in.h:53
-msgid "Show process 'SELinux security context' column on startup"
-msgstr "اعرض عمود الوضع الأمني ل SELinux عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:54
-msgid "Width of process 'arguments' column"
-msgstr "اتساع عمود معطيات العمليّة"
-
-#: ../src/mate-system-monitor.schemas.in.h:55
-msgid "Show process 'arguments' column on startup"
-msgstr "اعرض عمود معطيات العملية عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:56
-msgid "Width of process 'estimated memory usage' column"
-msgstr "اتساع عمود استخدام العمليّة المقدّر من الذاكرة"
-
-#: ../src/mate-system-monitor.schemas.in.h:57
-msgid "Show process 'estimated memory usage' column on startup"
-msgstr "اعرض عمود تقدير الذاكرة المستعملة عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:58
-msgid "Width of process 'Waiting Channel' column"
-msgstr "اتساع عمود 'قناة الانتظار'"
-
-#: ../src/mate-system-monitor.schemas.in.h:59
-msgid "Show process 'Waiting Channel' column on startup"
-msgstr "اعرض عمود 'قناة الانتظار' عند بدء التشغيل"
-
-#: ../src/mate-system-monitor.schemas.in.h:60
-msgid "Disk view columns order"
-msgstr "ترتيب الأعمدة بمشهد القرص"
-
-#: ../src/gsm_color_button.c:188
+#: ../src/gsm_color_button.c:198
 msgid "Fraction"
 msgstr "جزء"
 
-#: ../src/gsm_color_button.c:189
+#: ../src/gsm_color_button.c:199
 msgid "Percentage full for pie colour pickers"
 msgstr "النسبة كلية لمنتقيات اللون الدائرية"
 
-#: ../src/gsm_color_button.c:196
+#: ../src/gsm_color_button.c:206
 msgid "Title"
 msgstr "عنوان"
 
-#: ../src/gsm_color_button.c:197
+#: ../src/gsm_color_button.c:207
 msgid "The title of the color selection dialog"
 msgstr "عنوان حوار انتقاء الألوان"
 
-#: ../src/gsm_color_button.c:198 ../src/gsm_color_button.c:610
+#: ../src/gsm_color_button.c:208 ../src/gsm_color_button.c:642
 msgid "Pick a Color"
 msgstr "اختر لونًا"
 
-#: ../src/gsm_color_button.c:204
+#: ../src/gsm_color_button.c:214
 msgid "Current Color"
 msgstr "اللون الحالي"
 
-#: ../src/gsm_color_button.c:205
+#: ../src/gsm_color_button.c:215
 msgid "The selected color"
 msgstr "اللون المختار"
 
-#: ../src/gsm_color_button.c:212
+#: ../src/gsm_color_button.c:222
 msgid "Type of color picker"
 msgstr "نوع منتقِ اللون"
 
-#: ../src/gsm_color_button.c:533
+#: ../src/gsm_color_button.c:565
 msgid "Received invalid color data\n"
 msgstr "تلقيت بيانات لون غير سليمة\n"
 
-#: ../src/gsm_color_button.c:631
+#: ../src/gsm_color_button.c:663
 msgid "Click to set graph colors"
 msgstr "انقر لضبط ألوان الرسم البياني"
 
@@ -569,24 +344,24 @@ msgid "Total Sent"
 msgstr "المجموع المُرسَل"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:690
+#: ../src/interface.cpp:695
 msgid "System"
 msgstr "النّظام"
 
-#: ../src/interface.cpp:694 ../src/procdialogs.cpp:525
+#: ../src/interface.cpp:699 ../src/procdialogs.cpp:526
 msgid "Processes"
 msgstr "العمليّات"
 
-#: ../src/interface.cpp:698 ../src/procdialogs.cpp:640
+#: ../src/interface.cpp:703 ../src/procdialogs.cpp:639
 msgid "Resources"
 msgstr "الموارد"
 
-#: ../src/interface.cpp:702 ../src/procdialogs.cpp:705
-#: ../src/procdialogs.cpp:709
+#: ../src/interface.cpp:707 ../src/procdialogs.cpp:704
+#: ../src/procdialogs.cpp:708
 msgid "File Systems"
 msgstr "أنظمة الملفات"
 
-#: ../src/load-graph.cpp:155
+#: ../src/load-graph.cpp:161
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -598,12 +373,12 @@ msgstr[4] "%Iu ثانية"
 msgstr[5] "%Iu ثانية"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:330
+#: ../src/load-graph.cpp:343
 #, c-format
 msgid "%s (%.1f %%) of %s"
 msgstr "%s (%I.1f %%) من %s"
 
-#: ../src/lsof.cpp:124
+#: ../src/lsof.cpp:125
 #, c-format
 msgid ""
 "<b>Error</b>\n"
@@ -611,93 +386,93 @@ msgid ""
 "%s"
 msgstr "<b>خطأ</b>\n'%s' ليس تعبيرًا نمطيًا صالحًا في بِرل.\n%s"
 
-#: ../src/lsof.cpp:270
+#: ../src/lsof.cpp:271
 msgid "Process"
 msgstr "عمليّة"
 
-#: ../src/lsof.cpp:282
+#: ../src/lsof.cpp:283
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:292 ../src/memmaps.cpp:476
+#: ../src/lsof.cpp:293 ../src/memmaps.cpp:338
 msgid "Filename"
 msgstr "اسم الملف"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:309
+#: ../src/lsof.cpp:310
 msgid "Search for Open Files"
 msgstr "ابحث عن الملفات المفتوحة"
 
-#: ../src/lsof.cpp:336
+#: ../src/lsof.cpp:337
 msgid "_Name contains:"
 msgstr "الا_سم يحتوي:"
 
-#: ../src/lsof.cpp:352
+#: ../src/lsof.cpp:353
 msgid "Case insensitive matching"
 msgstr "مُطابقة غير حساسة للحالة"
 
-#: ../src/lsof.cpp:360
+#: ../src/lsof.cpp:361
 msgid "S_earch results:"
 msgstr "نتائج ال_بحث:"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:478
+#: ../src/memmaps.cpp:340
 msgid "VM Start"
 msgstr "بداية الذاكرة الافتراضية"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:480
+#: ../src/memmaps.cpp:342
 msgid "VM End"
 msgstr "نهاية الذاكرة الافتراضية"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:482
+#: ../src/memmaps.cpp:344
 msgid "VM Size"
 msgstr "حجم الذاكرة الافتراضية"
 
-#: ../src/memmaps.cpp:483
+#: ../src/memmaps.cpp:345
 msgid "Flags"
 msgstr "خيارات"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:485
+#: ../src/memmaps.cpp:347
 msgid "VM Offset"
 msgstr "إزاحة الذاكرة الافتراضية"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:488
+#: ../src/memmaps.cpp:350
 msgid "Private clean"
 msgstr "نظيفة خاصة"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:491
+#: ../src/memmaps.cpp:353
 msgid "Private dirty"
 msgstr "وسخة خاصة"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:494
+#: ../src/memmaps.cpp:356
 msgid "Shared clean"
 msgstr "نظيفة مشتركة"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:497
+#: ../src/memmaps.cpp:359
 msgid "Shared dirty"
 msgstr "وسخة مشتركة"
 
-#: ../src/memmaps.cpp:499
+#: ../src/memmaps.cpp:361
 msgid "Inode"
 msgstr "Inode"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/memmaps.cpp:608
+#: ../src/memmaps.cpp:470
 msgid "Memory Maps"
 msgstr "خرائط الذاكرة"
 
-#: ../src/memmaps.cpp:626
+#: ../src/memmaps.cpp:488
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "خرائط الذاكرة للعملية \"%s\" (PID %Iu):"
@@ -737,14 +512,261 @@ msgstr "و.م."
 msgid "Object"
 msgstr "كائن"
 
-#: ../src/openfiles.cpp:332
+#: ../src/openfiles.cpp:333
 msgid "Open Files"
 msgstr "الملفّات المفتوحة"
 
-#: ../src/openfiles.cpp:354
+#: ../src/openfiles.cpp:357
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "الملفات المفتوحة بالعملية \"%s\" (PID %Iu):"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
+msgid "Main Window width"
+msgstr "عرض النّافذة الرّئيسيّ"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
+msgid "Main Window height"
+msgstr "ارتفاع النّافذة الرّئيسيّ"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
+msgid "Show process dependencies in tree form"
+msgstr "اعرض علاقات العمليات على شكل شجرة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
+msgid "Solaris mode for CPU percentage"
+msgstr "نمط سولاريس لنسبة استخدام المعالج المئوية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
+"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
+msgstr "إذا ضٌبط كصحيح، فسيعمل مرقاب النظام system-monitor في 'نمط سولاريس' حيث استخدام المهمة للمعالج يُقسّم على العدد الكلي للمعالجات. وإلا فسيعمل في 'نمط آيريكس'."
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
+msgid "Enable/Disable smooth refresh"
+msgstr "تفعيل/تعطيل التحديث المرن"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
+msgid "Show warning dialog when killing processes"
+msgstr "اعرض حوار تنبيه عند إنهاء عمليات"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
+msgid "Time in milliseconds between updates of the process view"
+msgstr "الوقت بالمللي ثانية بين تحديثات مشهد العمليات"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "الوقت بالمللي ثانية بين تحديثات الرسم البياني"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
+msgid "Whether information about all filesystems should be displayed"
+msgstr "إذا يجب عرض معلومات حول كل أنظمة الملفات"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
+msgid ""
+"Whether to display information about all filesystems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"filesystems."
+msgstr "إذا كان يجب عرض معلومات حول كل أنظمة الملفات أم لا. تستعمل لإيجاد قائمة لكل أنظمة الملفات المستعملة."
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "الوقت بالمللي ثانية بين تحديثات قائمة الأجهزة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
+msgid ""
+"Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
+" active"
+msgstr "تحدّد العمليات المعروضة افتراضيا. 0 للكل، 1 للمستخدم، و 2 للنشاط"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
+msgid "Saves the currently viewed tab"
+msgstr "يحفظ اللسان المعروض حاليًا"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+msgid ""
+"0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
+"for the disks list"
+msgstr "0 لمعلومات النظام، 1 لقائمة العمليّات، 2 للموارد و 3 لقائمة الأقراص"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
+msgid "Default graph cpu color"
+msgstr "اللون الافتراضي لخلفية الرّسم البياني للمعالج"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
+msgid "Default graph mem color"
+msgstr "اللون الافتراضي للرّسم البياني للذاكرة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
+msgid "Default graph swap color"
+msgstr "اللون الافتراضي لخلفية الذاكرة البديلة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:19
+msgid "Default graph incoming network traffic color"
+msgstr "اللون الافتراضي للرسم البياني لمرور الشبكة الداخل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:20
+msgid "Default graph outgoing network traffic color"
+msgstr "اللون الافتراضي للرسم البياني لمرور الشبكة الخارج"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:21
+msgid "Show network traffic in bits"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:22
+msgid "Process view sort column"
+msgstr "العمود المرتب في مشهد العمليات"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:23
+msgid "Process view columns order"
+msgstr "ترتيب الأعمدة في مشهد العمليات"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:24
+msgid "Process view sort order"
+msgstr "اتجاه الترتيب في مشهد العمليات"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:25
+msgid "Width of process 'name' column"
+msgstr "اتساع عمود اسم العملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:26
+msgid "Show process 'name' column on startup"
+msgstr "اعرض عمود اسم العملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:27
+msgid "Width of process 'owner' column"
+msgstr "اتساع عمود مستخدم العملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:28
+msgid "Show process 'owner' column on startup"
+msgstr "اعرض عمود مستخدم العملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:29
+msgid "Width of process 'status' column"
+msgstr "اتساع عمود حالة العملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:30
+msgid "Show process 'status' column on startup"
+msgstr "اعرض عمود حالة العملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:31
+msgid "Width of process 'virtual memory' column"
+msgstr "اتساع عمود الذاكرة الافتراضية للعملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:32
+msgid "Show process 'virtual memory' column on startup"
+msgstr "اعرض عمود الذاكرة الوهمية للعملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:33
+msgid "Width of process 'resident memory' column"
+msgstr "اتساع عمود الذاكرة المقيمة للعملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:34
+msgid "Show process 'resident memory' column on startup"
+msgstr "اعرض عمود الذاكرة المقيمة للعملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:35
+msgid "Width of process 'writable memory' column"
+msgstr "اتساع عمود ذاكرة العملية القابلة للكتابة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:36
+msgid "Show process 'writable memory' column on startup"
+msgstr "اعرض عمود الذاكرة القابلة للكتابة للعملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:37
+msgid "Width of process 'shared memory' column"
+msgstr "اتساع عمود الذاكرة المشتركة للعملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:38
+msgid "Show process 'shared memory' column on startup"
+msgstr "اعرض عمود الذاكرة المشتركة للعملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:39
+msgid "Width of process 'X server memory' column"
+msgstr "اتساع عمود ذاكرة خادوم X للعملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:40
+msgid "Show process 'X server memory' column on startup"
+msgstr "اعرض عمود ذاكرة خادوم X للعملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:42
+#, no-c-format
+msgid "Width of process 'CPU %' column"
+msgstr "اتساع عمود نسبة استخدام العملية للمعالج"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:44
+#, no-c-format
+msgid "Show process 'CPU %' column on startup"
+msgstr "اعرض عمود نسبة استخدام المعالج 'CPU %' عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:45
+msgid "Width of process 'CPU time' column"
+msgstr "اتساع عمود وقت المعالج المستخدَم من قبل العملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:46
+msgid "Show process 'CPU time' column on startup"
+msgstr "اعرض عمود وقت المعالج 'CPU time' عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:47
+msgid "Width of process 'start time' column"
+msgstr "اتساع عمود وقت بدء العملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:48
+msgid "Show process 'start time' column on startup"
+msgstr "اعرض عمود وقت تشغيل العملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:49
+msgid "Width of process 'nice' column"
+msgstr "اتساع عمود قيمة الأولوية nice للعملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:50
+msgid "Show process 'nice' column on startup"
+msgstr "اعرض عمود قيمة الأولوية nice للعملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:51
+msgid "Width of process 'PID' column"
+msgstr "اتساع عمود PID الخاص بالعمليّة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:52
+msgid "Show process 'PID' column on startup"
+msgstr "اعرض عمود رقم العملية 'PID' عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:53
+msgid "Width of process 'SELinux security context' column"
+msgstr "اتساع عمود سياق أمن SELinux للعملية"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:54
+msgid "Show process 'SELinux security context' column on startup"
+msgstr "اعرض عمود الوضع الأمني ل SELinux عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:55
+msgid "Width of process 'arguments' column"
+msgstr "اتساع عمود معطيات العمليّة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:56
+msgid "Show process 'arguments' column on startup"
+msgstr "اعرض عمود معطيات العملية عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:57
+msgid "Width of process 'estimated memory usage' column"
+msgstr "اتساع عمود استخدام العمليّة المقدّر من الذاكرة"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:58
+msgid "Show process 'estimated memory usage' column on startup"
+msgstr "اعرض عمود تقدير الذاكرة المستعملة عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:59
+msgid "Width of process 'Waiting Channel' column"
+msgstr "اتساع عمود 'قناة الانتظار'"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:60
+msgid "Show process 'Waiting Channel' column on startup"
+msgstr "اعرض عمود 'قناة الانتظار' عند بدء التشغيل"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
+msgid "Disk view columns order"
+msgstr "ترتيب الأعمدة بمشهد القرص"
 
 #: ../src/procactions.cpp:75
 #, c-format
@@ -804,46 +826,46 @@ msgstr "(أولوية منخفضة)"
 msgid "(Very Low Priority)"
 msgstr "(أولوية منخفضة جدًا)"
 
-#: ../src/procdialogs.cpp:175
+#: ../src/procdialogs.cpp:179
 msgid "Change Priority"
 msgstr "غيّر الأولوية"
 
-#: ../src/procdialogs.cpp:196
+#: ../src/procdialogs.cpp:202
 msgid "Change _Priority"
 msgstr "غيّر الأ_ولوية"
 
-#: ../src/procdialogs.cpp:217
+#: ../src/procdialogs.cpp:223
 msgid "_Nice value:"
 msgstr "قيمة Nice:"
 
-#: ../src/procdialogs.cpp:233
+#: ../src/procdialogs.cpp:239
 msgid "Note:"
 msgstr "ملاحظة:"
 
-#: ../src/procdialogs.cpp:234
+#: ../src/procdialogs.cpp:240
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "أولوية العملية معطاة بقيمة nice. كلما انخفضت قيمت nice كلما أشارت لأولوية أكبر."
 
-#: ../src/procdialogs.cpp:457
+#: ../src/procdialogs.cpp:456
 msgid "Icon"
 msgstr "رمز"
 
-#: ../src/procdialogs.cpp:502
+#: ../src/procdialogs.cpp:501
 msgid "System Monitor Preferences"
 msgstr "تفضيلات مرقاب النّظام"
 
-#: ../src/procdialogs.cpp:532
+#: ../src/procdialogs.cpp:533
 msgid "Behavior"
 msgstr "السلوك"
 
-#: ../src/procdialogs.cpp:551 ../src/procdialogs.cpp:666
-#: ../src/procdialogs.cpp:728
+#: ../src/procdialogs.cpp:552 ../src/procdialogs.cpp:665
+#: ../src/procdialogs.cpp:727
 msgid "_Update interval in seconds:"
 msgstr "ال_مدة بالثانية بين التحديثات الآلية:"
 
-#: ../src/procdialogs.cpp:576
+#: ../src/procdialogs.cpp:577
 msgid "Enable _smooth refresh"
 msgstr "_فعّل التحديث المرن"
 
@@ -855,31 +877,31 @@ msgstr "نبّه عند إنهاء أو _قتل العمليّات"
 msgid "Solaris mode"
 msgstr "نمط سولاريس"
 
-#: ../src/procdialogs.cpp:622 ../src/procdialogs.cpp:762
+#: ../src/procdialogs.cpp:621 ../src/procdialogs.cpp:761
 msgid "Information Fields"
 msgstr "_حقول المعلومات"
 
-#: ../src/procdialogs.cpp:635
+#: ../src/procdialogs.cpp:634
 msgid "Process i_nformation shown in list:"
 msgstr "_معلومات العمليات المعروضة في القائمة:"
 
-#: ../src/procdialogs.cpp:647
+#: ../src/procdialogs.cpp:646
 msgid "Graphs"
 msgstr "رسوم بيانية"
 
-#: ../src/procdialogs.cpp:686
+#: ../src/procdialogs.cpp:685
 msgid "Show network speed in bits"
 msgstr "اعرض سرعة الشبكة بالبتات"
 
-#: ../src/procdialogs.cpp:748
+#: ../src/procdialogs.cpp:747
 msgid "Show _all filesystems"
 msgstr "أظهر كل أنظمة الملفات"
 
-#: ../src/procdialogs.cpp:775
+#: ../src/procdialogs.cpp:774
 msgid "File system i_nformation shown in list:"
 msgstr "م_علومات نظام الملفات معروضة في قائمة:"
 
-#: ../src/procman.cpp:690
+#: ../src/procman.cpp:672
 msgid "A simple process and system monitor."
 msgstr "مرقاب مبسّط للنظام والعمليات."
 
@@ -963,42 +985,42 @@ msgstr "إصدارة %s"
 msgid "Unknown CPU model"
 msgstr "طِراز معالج مجهول"
 
-#: ../src/sysinfo.cpp:590
+#: ../src/sysinfo.cpp:594
 #, c-format
 msgid "Kernel %s"
 msgstr "النواة %s"
 
-#: ../src/sysinfo.cpp:603
+#: ../src/sysinfo.cpp:607
 #, c-format
 msgid "MATE %s"
 msgstr "متّة %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:617
+#: ../src/sysinfo.cpp:621
 #, c-format
 msgid "<b>Hardware</b>"
 msgstr "<b>عتاد</b>"
 
-#: ../src/sysinfo.cpp:622
+#: ../src/sysinfo.cpp:626
 msgid "Memory:"
 msgstr "الذاكرة:"
 
-#: ../src/sysinfo.cpp:629
+#: ../src/sysinfo.cpp:633
 #, c-format
 msgid "Processor %d:"
 msgstr "المعالج %Id:"
 
-#: ../src/sysinfo.cpp:634
+#: ../src/sysinfo.cpp:638
 msgid "Processor:"
 msgstr "المعالج:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:646
+#: ../src/sysinfo.cpp:650
 #, c-format
 msgid "<b>System Status</b>"
 msgstr "<b>حالة النظام</b>"
 
-#: ../src/sysinfo.cpp:652
+#: ../src/sysinfo.cpp:656
 msgid "Available disk space:"
 msgstr "مساحة القرص المتوفرة:"
 

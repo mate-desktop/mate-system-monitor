@@ -27,7 +27,7 @@ Applications_in_files = mate-system-monitor.desktop.in
 Applications_DATA = $(Applications_in_files:.desktop.in=.desktop)
 @INTLTOOL_DESKTOP_RULE@
 
-distuninstallcheck_listfiles = find . -type f -print | grep -v 'scrollkeeper'
+distuninstallcheck_listfiles = find . -type f -print
 
 CLEANFILES = mate-system-monitor.appdata.xml
 
@@ -36,8 +36,6 @@ DISTCLEANFILES = \
   intltool-merge \
   intltool-update \
   mate-system-monitor.desktop
-
-DISTCHECK_CONFIGURE_FLAGS = --disable-scrollkeeper
 
 dist-hook:
 	@if test -d "$(srcdir)/.git"; \

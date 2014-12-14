@@ -189,7 +189,7 @@ static void
 color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
 	ProcData * const procdata = static_cast<ProcData*>(data);
-	const gchar *color = g_settings_get_string (settings, key); 
+	gchar *color = g_settings_get_string (settings, key);
 
 	if (g_str_has_prefix (key, "cpu-color")) {
 		for (int i = 0; i < procdata->config.num_cpus; i++) {
@@ -220,6 +220,7 @@ color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 	else {
 		g_assert_not_reached();
 	}
+	g_free (color);
 }
 
 
@@ -450,6 +451,7 @@ procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child
 
 		proctable_set_columns_order(GTK_TREE_VIEW(tree), order);
 
+		g_variant_unref(value);
 		g_slist_free(order);
 	}
 

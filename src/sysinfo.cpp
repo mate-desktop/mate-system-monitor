@@ -562,11 +562,7 @@ procman_create_sysinfo_view(void)
   GtkWidget *distro_table;
 
   GtkWidget *hardware_table;
-  GtkWidget *memory_label;
-  GtkWidget *processor_label;
-
   GtkWidget *disk_space_table;
-  GtkWidget *disk_space_label;
 
   GtkWidget *header;
 
@@ -659,8 +655,7 @@ procman_create_sysinfo_view(void)
   g_free(markup);
 
   markup = procman::format_size(data->memory_bytes);
-  memory_label = add_row(GTK_TABLE(hardware_table), _("Memory:"),
-                         markup, 0);
+  add_row(GTK_TABLE(hardware_table), _("Memory:"), markup, 0);
   g_free(markup);
 
   for (guint i = 0; i < data->processors.size(); ++i) {
@@ -674,8 +669,7 @@ procman_create_sysinfo_view(void)
       t = _("Processor:");
     }
 
-    processor_label = add_row(GTK_TABLE(hardware_table), t,
-                              data->processors[i].c_str(), 1 + i);
+    add_row(GTK_TABLE(hardware_table), t, data->processors[i].c_str(), 1 + i);
 
     if(markup)
       g_free(markup);
@@ -688,9 +682,7 @@ procman_create_sysinfo_view(void)
   g_free(markup);
 
   markup = procman::format_size(data->free_space_bytes);
-  disk_space_label = add_row(GTK_TABLE(disk_space_table), 
-                             _("Available disk space:"), markup,
-                             0);
+  add_row(GTK_TABLE(disk_space_table), _("Available disk space:"), markup, 0);
   g_free(markup);
 
   return hbox;

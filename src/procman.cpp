@@ -712,9 +712,7 @@ main (int argc, char *argv[])
 		exit (0);
 	}
 
-#if !GLIB_CHECK_VERSION (2, 36, 0)
 	g_type_init ();
-#endif
 
 	gtk_window_set_default_icon_name ("utilities-system-monitor");
 	g_set_application_name(_("System Monitor"));

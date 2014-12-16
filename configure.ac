@@ -116,12 +116,10 @@ echo "
 
 Configuration:
 
-	Source code location:	${srcdir}
-	C Compiler:		${CC}
-	C++ Compiler:		${CXX}
-	CFLAGS:			${CFLAGS}
-	CXXFLAGS:		${CXXFLAGS}
-	Gtk+ Version:		${GTK_API_VERSION}
-	Maintainer mode:	${USER_MAINTAINER_MODE}
-	Languages:		${ALL_LINGUAS}
+        Source code location:   ${srcdir}
+        C Compiler:             ${CC}
+        C++ Compiler:           ${CXX}
+        CFLAGS:                 ${CFLAGS}
+        CXXFLAGS:               ${CXXFLAGS}
+        Gtk+ Version:           ${GTK_API_VERSION}
 "

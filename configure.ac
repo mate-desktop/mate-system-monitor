@@ -1,29 +1,32 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_PREREQ(2.52)
+AC_PREREQ([2.63])
 
-AC_INIT([mate-system-monitor], [1.9.1],
+AC_INIT([mate-system-monitor],
+	[1.9.1],
         [http://www.mate-desktop.org/])
 AC_CONFIG_SRCDIR(configure.ac)
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_INIT_AUTOMAKE([no-dist-gzip dist-xz check-news])
-AC_SUBST(ACLOCAL_AMFLAGS, [\${ACLOCAL_FLAGS}])
+AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-xz foreign check-news])
+AM_SILENT_RULES([yes])
 
-AM_PROG_LIBTOOL
+AM_MAINTAINER_MODE([enable])
+MATE_MAINTAINER_MODE_DEFINES
 
-IT_PROG_INTLTOOL([0.35.0])
-PKG_PROG_PKG_CONFIG([0.19])
-
-AC_ISC_POSIX
+# Check For programs
 AC_PROG_CC
 AC_PROG_CXX
-AC_LANG_CPLUSPLUS
+AC_LANG([C++])
 AC_LANG_COMPILER_REQUIRE
-AC_HEADER_STDC
-MATE_COMPILE_WARNINGS
+PKG_PROG_PKG_CONFIG([0.19])
 
+# Initialize libtool
+LT_PREREQ([2.2])
+LT_INIT
+
+# Package dependencies
 GLIB_REQUIRED=2.36.0
 LIBGTOP_REQUIRED=2.23.1
 MATE_ICON_THEME_REQUIRED=1.1.0
@@ -61,9 +64,11 @@ AC_ARG_WITH([gtk],
 PKG_CHECK_MODULES(GMODULE,gmodule-2.0,[GMODULE_ADD="gmodule-2.0"],[GMODULE_ADD=""])
 PKG_CHECK_MODULES(PROCMAN,$GMODULE_ADD glib-2.0 >= $GLIB_REQUIRED libgtop-2.0 >= $LIBGTOP_REQUIRED libwnck-$LIBWNCK_API_VERSION >= $LIBWNCK_REQUIRED gtk+-$GTK_API_VERSION >= $GTK_REQUIRED mate-icon-theme >= $MATE_ICON_THEME_REQUIRED gtkmm-$GTKMM_API_VERSION >= $GTKMM_REQUIRED libxml-2.0 >= $LIBXML_REQUIRED librsvg-2.0 >= $RSVG_REQUIRED glibmm-2.4 >= $GLIBMM_REQUIRED giomm-2.4 >= $GIOMM_REQUIRED)
 
+# Compiler warnings
+MATE_COMPILE_WARNINGS([maximum])
 
 AC_ARG_ENABLE(more-warnings,
-[AC_HELP_STRING([--enable-more-warnings], [Maximum compiler warnings])],
+[AC_HELP_STRING([--enable-more-warnings],[Maximum compiler warnings])],
 set_more_warnings="$enableval",[
     set_more_warnings=yes
 ])
@@ -88,17 +93,16 @@ dnl CXXFLAGS="-fvisibility-inlines-hidden $CXXFLAGS"
 
 GLIB_GSETTINGS
 
+# i18n stuff
+IT_PROG_INTLTOOL([0.41.0])
+
 GETTEXT_PACKAGE=mate-system-monitor
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",
                    [The gettext catalog name])
-AM_GLIB_GNU_GETTEXT
 
+# Documentation
 YELP_HELP_INIT
-
-dnl Set PACKAGE_LOCALE_DIR in config.h.
-GLIB_DEFINE_LOCALEDIR(PACKAGE_LOCALE_DIR)
-
 
 AC_CONFIG_FILES([
 Makefile
@@ -115,12 +119,11 @@ echo "
 
 Configuration:
 
-	Source code location:	${srcdir}
-	C Compiler:		${CC}
-	C++ Compiler:		${CXX}
-	CFLAGS:			${CFLAGS}
-	CXXFLAGS:		${CXXFLAGS}
-	Gtk+ Version:		${GTK_API_VERSION}
-	Maintainer mode:	${USER_MAINTAINER_MODE}
-	Languages:		${ALL_LINGUAS}
+        Source code location:   ${srcdir}
+        C Compiler:             ${CC}
+        C++ Compiler:           ${CXX}
+        CFLAGS:                 ${CFLAGS}
+        CXXFLAGS:               ${CXXFLAGS}
+        Gtk+ Version:           ${GTK_API_VERSION}
+        Maintainer mode:        ${USE_MAINTAINER_MODE}
 "

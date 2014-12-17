@@ -22,8 +22,6 @@ which yelp-build || {
     exit 1
 }
 
-REQUIRED_AUTOMAKE_VERSION=1.9
-MATE_DATADIR="$mate_datadir"
 USE_COMMON_DOC_BUILD=yes
 
 . mate-autogen

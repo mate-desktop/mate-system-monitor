@@ -420,6 +420,28 @@ namespace {
   };
 
 
+  class OpenBSDSysInfo
+    : public SysInfo
+  {
+  public:
+    OpenBSDSysInfo()
+    {
+      this->load_openbsd_info();
+    }
+
+  private:
+    void load_openbsd_info()
+    {
+      this->distro_name = "OpenBSD";
+      this->distro_release = this->kernel;
+
+      std::ifstream input("/etc/motd");
+
+      if (input)
+        std::getline(input, this->kernel);
+   }
+  };
+
   SysInfo* get_sysinfo()
   {
     if (g_file_test ("/etc/os-release", G_FILE_TEST_EXISTS)) {
@@ -434,6 +456,9 @@ namespace {
     }
     else if (SysInfo::system() == "NetBSD") {
       return new NetBSDSysInfo;
+    }
+    else if (SysInfo::system() == "OpenBSD") {
+      return new OpenBSDSysInfo;
     }
 
     return new SysInfo;

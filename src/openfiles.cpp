@@ -336,9 +336,6 @@ create_single_openfiles_dialog (GtkTreeModel *model, GtkTreePath *path,
 						       NULL);
 	gtk_window_set_resizable (GTK_WINDOW (openfilesdialog), TRUE);
 	gtk_window_set_default_size (GTK_WINDOW (openfilesdialog), 575, 400);
-#if !GTK_CHECK_VERSION(2,22,0)
-	g_object_set(G_OBJECT(openfilesdialog), "has-separator", FALSE, NULL);
-#endif
 	gtk_container_set_border_width (GTK_CONTAINER (openfilesdialog), 5);
 
 	vbox = gtk_dialog_get_content_area (GTK_DIALOG (openfilesdialog));

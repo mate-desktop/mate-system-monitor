@@ -31,11 +31,11 @@
 
 void LoadGraph::clear_background()
 {
-    if (this->background) {
+    if (background) {
 #if GTK_CHECK_VERSION(3,0,0)
-        cairo_surface_destroy (this->background);
+        cairo_surface_destroy (background);
 #else
-        g_object_unref(this->background);
+        g_object_unref(background);
 #endif
         this->background = NULL;
     }
@@ -47,7 +47,7 @@ unsigned LoadGraph::num_bars() const
     unsigned n;
 
     // keep 100 % num_bars == 0
-    switch (static_cast<int>(this->draw_height / (this->fontsize + 14)))
+    switch (static_cast<int>(this->draw_height / (fontsize + 14)))
     {
     case 0:
     case 1:
@@ -593,10 +593,10 @@ LoadGraph::~LoadGraph()
 {
   load_graph_stop(this);
 
-  if (this->timer_index)
-    g_source_remove(this->timer_index);
+  if (timer_index)
+    g_source_remove(timer_index);
 
-  this->clear_background();
+  clear_background();
 }
 
 

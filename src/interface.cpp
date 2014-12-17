@@ -618,13 +618,14 @@ create_main_window (ProcData *procdata)
 	app = gtk_window_new(GTK_WINDOW_TOPLEVEL);
 	gtk_window_set_title(GTK_WINDOW(app), _("System Monitor"));
 
-	/* use rgba colormap, if available */
 	GdkScreen* screen = gtk_widget_get_screen(app);
 #if GTK_CHECK_VERSION(3,0,0)
+	/* use visual, if available */
 	GdkVisual* visual = gdk_screen_get_rgba_visual(screen);
 	if (visual)
 		gtk_widget_set_visual(app, visual);
 #else
+	/* use rgba colormap, if available */
 	GdkColormap* colormap = gdk_screen_get_rgba_colormap(screen);
 	if (colormap)
 		gtk_widget_set_default_colormap(colormap);

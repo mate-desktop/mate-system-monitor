@@ -544,17 +544,8 @@ procman_save_config (ProcData *data)
 	procman_save_tree_state (data->settings, data->tree, "proctree");
 	procman_save_tree_state (data->settings, data->disk_list, "disktreenew");
 
-	#if GTK_CHECK_VERSION(3, 0, 0)
-		data->config.width = gdk_window_get_width(gtk_widget_get_window(data->app));
-		data->config.height = gdk_window_get_height(gtk_widget_get_window(data->app));
-	#else
-		gint width, height;
-
-		gdk_drawable_get_size(gtk_widget_get_window(data->app), &width, &height);
-
-		data->config.width = width;
-		data->config.height = height;
-	#endif
+	data->config.width = gdk_window_get_width(gtk_widget_get_window(data->app));
+	data->config.height = gdk_window_get_height(gtk_widget_get_window(data->app));
 
 	g_settings_set_int (settings, "width", data->config.width);
 	g_settings_set_int (settings, "height", data->config.height);

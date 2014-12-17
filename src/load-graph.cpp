@@ -175,7 +175,7 @@ static void draw_background(LoadGraph *g) {
 
 /* Redraws the backing buffer for the load graph and updates the window */
 void
-load_graph_draw (LoadGraph *g)
+load_graph_queue_draw (LoadGraph *g)
 {
 	/* repaint */
 	gtk_widget_queue_draw (g->disp);
@@ -197,13 +197,13 @@ load_graph_configure (GtkWidget *widget,
 
 	g->clear_background();
 
-	load_graph_draw (g);
+	load_graph_queue_draw (g);
 
 	return TRUE;
 }
 
 #if GTK_CHECK_VERSION(3,0,0)
-static gboolean load_graph_expose (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
+static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
 #else
 static gboolean load_graph_expose (GtkWidget *widget, GdkEventExpose *event, gpointer data_ptr)
 #endif
@@ -571,7 +571,7 @@ load_graph_update (gpointer user_data)
 	}
 
 	if (g->draw)
-		load_graph_draw (g);
+		load_graph_queue_draw (g);
 
 	g->render_counter++;
 
@@ -701,7 +701,7 @@ LoadGraph::LoadGraph(guint type)
 	g->disp = gtk_drawing_area_new ();
 	gtk_widget_show (g->disp);
 #if GTK_CHECK_VERSION(3,0,0)
-	g_signal_connect (G_OBJECT (g->disp), "draw", G_CALLBACK (load_graph_expose), g);
+	g_signal_connect (G_OBJECT (g->disp), "draw", G_CALLBACK (load_graph_draw), g);
 #else
 	g_signal_connect (G_OBJECT (g->disp), "expose_event", G_CALLBACK (load_graph_expose), g);
 #endif

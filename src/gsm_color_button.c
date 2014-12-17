@@ -445,7 +445,7 @@ render (GtkWidget * widget)
 
 /* Handle exposure events for the color picker's drawing area */
 #if GTK_CHECK_VERSION(3,0,0)
-static gboolean expose_event (GtkWidget * widget, cairo_t * cr, gpointer data)
+static gboolean draw (GtkWidget * widget, cairo_t * cr, gpointer data)
 #else
 static gboolean expose_event (GtkWidget * widget, GdkEventExpose * event, gpointer data)
 #endif
@@ -657,7 +657,7 @@ gsm_color_button_init (GSMColorButton * color_button)
   gtk_widget_set_tooltip_text (GTK_WIDGET(color_button), _("Click to set graph colors"));
 
 #if GTK_CHECK_VERSION(3,0,0)
-  g_signal_connect (color_button, "draw", G_CALLBACK (expose_event), color_button);
+  g_signal_connect (color_button, "draw", G_CALLBACK (draw), color_button);
 #else
   g_signal_connect (color_button, "expose-event", G_CALLBACK (expose_event), color_button);
 #endif

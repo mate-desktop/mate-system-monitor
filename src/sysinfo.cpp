@@ -448,7 +448,7 @@ namespace {
 #define RADIUS 5
 
 #if GTK_CHECK_VERSION(3,0,0)
-static gboolean sysinfo_logo_expose (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
+static gboolean sysinfo_logo_draw (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
 #else
 static gboolean sysinfo_logo_expose (GtkWidget *widget, GdkEventExpose *event, gpointer data_ptr)
 #endif
@@ -580,7 +580,7 @@ procman_create_sysinfo_view(void)
   gtk_box_pack_start(GTK_BOX(hbox), logo, FALSE, FALSE, 0);
 
 #if GTK_CHECK_VERSION(3,0,0)
-  g_signal_connect(G_OBJECT(logo), "draw", G_CALLBACK(sysinfo_logo_expose), NULL);
+  g_signal_connect(G_OBJECT(logo), "draw", G_CALLBACK(sysinfo_logo_draw), NULL);
 #else
   g_signal_connect(G_OBJECT(logo), "expose-event", G_CALLBACK(sysinfo_logo_expose), NULL);
 #endif

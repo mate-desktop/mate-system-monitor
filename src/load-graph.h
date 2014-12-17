@@ -102,7 +102,7 @@ struct LoadGraph {
 
 /* Force a drawing update */
 void
-load_graph_draw (LoadGraph *g);
+load_graph_queue_draw (LoadGraph *g);
 
 /* Start load graph. */
 void

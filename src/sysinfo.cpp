@@ -113,7 +113,7 @@ namespace {
 							 keys[j]));
 
 	if (!model)
-	  model = _("Unknown CPU model");
+	  continue;
 
 	this->processors.push_back(model);
       }

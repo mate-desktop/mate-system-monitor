@@ -223,7 +223,11 @@ procdialog_create_renice_dialog (ProcData *procdata)
 	
 	renice_adj = gtk_adjustment_new (info->nice, RENICE_VAL_MIN, RENICE_VAL_MAX, 1, 1, 0);
 	new_nice_value = 0;
+#if GTK_CHECK_VERSION (3, 0, 0)
+	hscale = gtk_scale_new (GTK_ORIENTATION_HORIZONTAL, renice_adj);
+#else
 	hscale = gtk_hscale_new (GTK_ADJUSTMENT (renice_adj));
+#endif
 	gtk_label_set_mnemonic_widget (GTK_LABEL (label), hscale);
 	gtk_scale_set_digits (GTK_SCALE (hscale), 0);
 	gtk_table_attach (GTK_TABLE (table), hscale, 1, 2, 0, 1,

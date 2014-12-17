@@ -116,7 +116,7 @@ void
 cb_show_open_files (GtkAction *action, gpointer data)
 {
     ProcData *procdata = static_cast<ProcData*>(data);
-    
+
     create_openfiles_dialog (procdata);
 }
 

@@ -12,29 +12,29 @@ gboolean (*matesu_exec)(const char *commandline);
 static void
 load_matesu(void)
 {
-	static gboolean init;
+    static gboolean init;
 
-	if (init)
-		return;
+    if (init)
+        return;
 
-	init = TRUE;
+    init = TRUE;
 
-	load_symbols("libmatesu.so.0",
-		     "matesu_exec", &matesu_exec,
-		     NULL);
+    load_symbols("libmatesu.so.0",
+             "matesu_exec", &matesu_exec,
+             NULL);
 }
 
 
 gboolean
 procman_matesu_create_root_password_dialog(const char *command)
 {
-	return matesu_exec(command);
+    return matesu_exec(command);
 }
 
 
 gboolean
 procman_has_matesu(void)
 {
-	load_matesu();
-	return matesu_exec != NULL;
+    load_matesu();
+    return matesu_exec != NULL;
 }

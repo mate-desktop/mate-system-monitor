@@ -22,6 +22,7 @@ mate_system_monitor_cpp_files = \
 	procdialogs.cpp \
 	memmaps.cpp \
 	openfiles.cpp \
+	procproperties.cpp \
 	smooth_refresh.cpp \
 	disks.cpp \
 	selinux.cpp \

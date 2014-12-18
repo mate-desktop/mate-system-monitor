@@ -25,10 +25,6 @@
 #include <signal.h>
 #include <string.h>
 
-#ifdef HAVE_SYSTEMD
-#include <systemd/sd-daemon.h>
-#endif
-
 #include "procdialogs.h"
 #include "proctable.h"
 #include "callbacks.h"
@@ -479,7 +475,7 @@ create_field_page(GtkWidget *tree, const char* text)
              column_id == COL_SEAT ||
              column_id == COL_OWNER)
 #ifdef HAVE_SYSTEMD
-            && sd_booted() <= 0
+            && !LOGIND_RUNNING()
 #endif
                 )
             continue;

@@ -113,32 +113,32 @@ struct ProcConfig
 struct MutableProcInfo
 {
 MutableProcInfo()
- : status(0)
-      { }
+: status(0)
+    { }
 
-      std::string user;
+    std::string user;
 
-      gchar wchan[40];
+    gchar wchan[40];
 
-      // all these members are filled with libgtop which uses
-      // guint64 (to have fixed size data) but we don't need more
-      // than an unsigned long (even for 32bit apps on a 64bit
-      // kernel) as these data are amounts, not offsets.
-      gulong vmsize;
-      gulong memres;
-      gulong memshared;
-      gulong memwritable;
-      gulong mem;
+    // all these members are filled with libgtop which uses
+    // guint64 (to have fixed size data) but we don't need more
+    // than an unsigned long (even for 32bit apps on a 64bit
+    // kernel) as these data are amounts, not offsets.
+    gulong vmsize;
+    gulong memres;
+    gulong memshared;
+    gulong memwritable;
+    gulong mem;
 
-      // wnck gives an unsigned long
-      gulong memxserver;
+    // wnck gives an unsigned long
+    gulong memxserver;
 
-      gulong start_time;
-      guint64 cpu_time;
-      guint status;
-      guint pcpu;
-      gint nice;
-      gchar *cgroup_name;
+    gulong start_time;
+    guint64 cpu_time;
+    guint status;
+    guint pcpu;
+    gint nice;
+    gchar *cgroup_name;
 };
 
 

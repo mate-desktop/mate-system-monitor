@@ -731,7 +731,8 @@ main (int argc, char *argv[])
         cb_change_current_page (GTK_NOTEBOOK(procdata->notebook), PROCMAN_TAB_SYSINFO, procdata);
     }
 
-     gtk_widget_show(procdata->app);
+    gtk_widget_set_name(procdata->app, "mate-system-monitor");
+    gtk_widget_show(procdata->app);
 
     procman_debug("begin gtk_main");
     kit.run();

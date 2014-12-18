@@ -4,7 +4,8 @@ AM_CPPFLAGS = \
 	-DPROCMAN_DATADIR=\""$(datadir)/procman/"\" \
 	-DMATELOCALEDIR=\""$(datadir)/locale"\" \
 	-DDATADIR=\""$(datadir)"\" \
-	@PROCMAN_CFLAGS@
+	@PROCMAN_CFLAGS@ \
+	@SYSTEMD_CFLAGS@
 
 bin_PROGRAMS = mate-system-monitor
 
@@ -47,7 +48,7 @@ mate_system_monitor_SOURCES = \
 	$(mate_system_monitor_cpp_files) \
 	$(mate_system_monitor_c_files)
 
-mate_system_monitor_LDADD = @PROCMAN_LIBS@ libbacon.la
+mate_system_monitor_LDADD = @PROCMAN_LIBS@ @SYSTEMD_LIBS@ libbacon.la
 
 
 noinst_LTLIBRARIES = libbacon.la

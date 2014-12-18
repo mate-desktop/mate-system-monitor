@@ -64,6 +64,17 @@ AC_ARG_WITH([gtk],
 PKG_CHECK_MODULES(GMODULE,gmodule-2.0,[GMODULE_ADD="gmodule-2.0"],[GMODULE_ADD=""])
 PKG_CHECK_MODULES(PROCMAN,$GMODULE_ADD glib-2.0 >= $GLIB_REQUIRED libgtop-2.0 >= $LIBGTOP_REQUIRED libwnck-$LIBWNCK_API_VERSION >= $LIBWNCK_REQUIRED gtk+-$GTK_API_VERSION >= $GTK_REQUIRED mate-icon-theme >= $MATE_ICON_THEME_REQUIRED gtkmm-$GTKMM_API_VERSION >= $GTKMM_REQUIRED libxml-2.0 >= $LIBXML_REQUIRED librsvg-2.0 >= $RSVG_REQUIRED glibmm-2.4 >= $GLIBMM_REQUIRED giomm-2.4 >= $GIOMM_REQUIRED)
 
+have_systemd=no
+AC_ARG_ENABLE(systemd, AS_HELP_STRING([--disable-systemd], [disable systemd support]))
+if test "x$enable_systemd" != "xno"; then
+        PKG_CHECK_MODULES(SYSTEMD, [ libsystemd-daemon libsystemd-login ],
+                [AC_DEFINE(HAVE_SYSTEMD, 1, [Define if systemd is available]) have_systemd=yes], have_systemd=no)
+        if test "x$have_systemd" = xno -a "x$enable_systemd" = xyes; then
+                AC_MSG_ERROR([*** systemd support requested but libraries not found])
+        fi
+fi
+AM_CONDITIONAL(HAVE_SYSTEMD, [test "$have_systemd" = "yes"])
+
 # Compiler warnings
 MATE_COMPILE_WARNINGS([maximum])
 
@@ -126,4 +137,5 @@ Configuration:
         CXXFLAGS:               ${CXXFLAGS}
         Gtk+ Version:           ${GTK_API_VERSION}
         Maintainer mode:        ${USE_MAINTAINER_MODE}
+        Systemd support:        ${have_systemd}
 "

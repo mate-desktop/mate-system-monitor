@@ -95,6 +95,16 @@ cb_columns_changed(GtkTreeView *treeview, gpointer user_data)
                             "proctree");
 }
 
+static void
+cb_sort_changed (GtkTreeSortable *model, gpointer user_data)
+{
+    ProcData * const procdata = static_cast<ProcData*>(user_data);
+
+    procman_save_tree_state (procdata->settings,
+                             GTK_WIDGET (procdata->tree),
+                             "proctree");
+}
+
 
 static GtkTreeViewColumn*
 my_gtk_tree_view_get_column_with_sort_column_id(GtkTreeView *treeview, int id)
@@ -435,6 +445,9 @@ proctable_new (ProcData * const procdata)
 
     g_signal_connect (G_OBJECT(proctree), "columns-changed",
                       G_CALLBACK(cb_columns_changed), procdata);
+
+    g_signal_connect (G_OBJECT (model), "sort-column-changed",
+                      G_CALLBACK (cb_sort_changed), procdata);
 
     return scrolled;
 }

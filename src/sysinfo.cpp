@@ -169,7 +169,7 @@ namespace {
         void load_uname_info()
         {
             this->hostname = uname().nodename;
-            this->kernel = string(uname().sysname) + ' ' + uname().release;
+            this->kernel = string(uname().sysname) + ' ' + uname().release + ' ' + uname().machine;
         }
 
 

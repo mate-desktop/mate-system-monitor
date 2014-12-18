@@ -272,27 +272,27 @@ proctable_new (ProcData * const procdata)
                                     GTK_POLICY_AUTOMATIC);
 
     model = gtk_tree_store_new (NUM_COLUMNS,
-                                G_TYPE_STRING,    /* Process Name */
-                                G_TYPE_STRING,    /* User        */
-                                G_TYPE_UINT,    /* Status    */
-                                G_TYPE_ULONG,    /* VM Size    */
-                                G_TYPE_ULONG,    /* Resident Memory */
-                                G_TYPE_ULONG,    /* Writable Memory */
-                                G_TYPE_ULONG,    /* Shared Memory */
-                                G_TYPE_ULONG,    /* X Server Memory */
-                                G_TYPE_UINT,    /* % CPU    */
-                                G_TYPE_UINT64,    /* CPU time    */
-                                G_TYPE_ULONG,    /* Started    */
-                                G_TYPE_INT,        /* Nice        */
-                                G_TYPE_UINT,    /* ID        */
-                                G_TYPE_STRING,    /* Security Context */
-                                G_TYPE_STRING,    /* Arguments    */
-                                G_TYPE_ULONG,    /* Memory       */
-                                G_TYPE_STRING,    /* wchan    */
+                                G_TYPE_STRING,      /* Process Name */
+                                G_TYPE_STRING,      /* User         */
+                                G_TYPE_UINT,        /* Status       */
+                                G_TYPE_ULONG,       /* VM Size      */
+                                G_TYPE_ULONG,       /* Resident Memory */
+                                G_TYPE_ULONG,       /* Writable Memory */
+                                G_TYPE_ULONG,       /* Shared Memory */
+                                G_TYPE_ULONG,       /* X Server Memory */
+                                G_TYPE_UINT,        /* % CPU        */
+                                G_TYPE_UINT64,      /* CPU time     */
+                                G_TYPE_ULONG,       /* Started      */
+                                G_TYPE_INT,         /* Nice         */
+                                G_TYPE_UINT,        /* ID           */
+                                G_TYPE_STRING,      /* Security Context */
+                                G_TYPE_STRING,      /* Arguments    */
+                                G_TYPE_ULONG,       /* Memory       */
+                                G_TYPE_STRING,      /* wchan        */
                                 G_TYPE_STRING,      /* Cgroup       */
-                                GDK_TYPE_PIXBUF,    /* Icon        */
-                                G_TYPE_POINTER,    /* ProcInfo    */
-                                G_TYPE_STRING    /* Sexy tooltip */
+                                GDK_TYPE_PIXBUF,    /* Icon         */
+                                G_TYPE_POINTER,     /* ProcInfo     */
+                                G_TYPE_STRING       /* Sexy tooltip */
         );
 
     proctree = gtk_tree_view_new_with_model (GTK_TREE_MODEL (model));

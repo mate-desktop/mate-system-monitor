@@ -52,6 +52,7 @@
 #include "util.h"
 #include "interface.h"
 #include "selinux.h"
+#include "cgroups.h"
 
 
 ProcInfo::UserMap ProcInfo::users;
@@ -258,6 +259,7 @@ proctable_new (ProcData * const procdata)
         N_("Memory"),
         /* xgettext: wchan, see ps(1) or top(1) */
         N_("Waiting Channel"),
+        N_("Control Group"),
         NULL,
         "POINTER"
     };
@@ -287,6 +289,7 @@ proctable_new (ProcData * const procdata)
                                 G_TYPE_STRING,    /* Arguments    */
                                 G_TYPE_ULONG,    /* Memory       */
                                 G_TYPE_STRING,    /* wchan    */
+                                G_TYPE_STRING,      /* Cgroup       */
                                 GDK_TYPE_PIXBUF,    /* Icon        */
                                 G_TYPE_POINTER,    /* ProcInfo    */
                                 G_TYPE_STRING    /* Sexy tooltip */
@@ -330,7 +333,7 @@ proctable_new (ProcData * const procdata)
     gtk_tree_view_set_expander_column (GTK_TREE_VIEW (proctree), column);
 
 
-    for (i = COL_USER; i <= COL_WCHAN; i++) {
+    for (i = COL_USER; i <= COL_CGROUP; i++) {
 
         GtkCellRenderer *cell;
         GtkTreeViewColumn *col;
@@ -435,6 +438,14 @@ proctable_new (ProcData * const procdata)
         gtk_tree_view_column_set_visible (column, FALSE);
     }
 
+    if (!cgroups_enabled()) {
+        GtkTreeViewColumn *column;
+
+        column = my_gtk_tree_view_get_column_with_sort_column_id(GTK_TREE_VIEW(proctree), COL_CGROUP);
+        gtk_tree_view_column_set_visible(column, FALSE);
+    }
+
+
     g_signal_connect (G_OBJECT (gtk_tree_view_get_selection (GTK_TREE_VIEW (proctree))),
                       "changed",
                       G_CALLBACK (cb_row_selected), procdata);
@@ -459,6 +470,7 @@ ProcInfo::~ProcInfo()
     g_free(this->tooltip);
     g_free(this->arguments);
     g_free(this->security_context);
+    g_free(this->cgroup_name);
 }
 
 
@@ -544,7 +556,6 @@ static void get_process_memory_writable(ProcInfo *info)
     g_free(maps);
 }
 
-
 static void
 get_process_memory_info(ProcInfo *info)
 {
@@ -593,6 +604,7 @@ update_info_mutable_cols(ProcInfo *info)
     tree_store_update(model, &info->node, COL_NICE, info->nice);
     tree_store_update(model, &info->node, COL_MEM, info->mem);
     tree_store_update(model, &info->node, COL_WCHAN, info->wchan);
+    tree_store_update(model, &info->node, COL_CGROUP, info->cgroup_name);
 }
 
 
@@ -709,6 +721,9 @@ update_info (ProcData *procdata, ProcInfo *info)
     ProcInfo::cpu_times[info->pid] = info->cpu_time = proctime.rtime;
     info->nice = procuid.nice;
     info->ppid = procuid.ppid;
+
+    /* get cgroup data */
+    get_process_cgroup_info(info);
 }
 
 
@@ -753,6 +768,8 @@ ProcInfo::ProcInfo(pid_t pid)
     info->start_time = proctime.start_time;
 
     get_process_selinux_context (info);
+    info->cgroup_name = NULL;
+    get_process_cgroup_info(info);
 }
 
 

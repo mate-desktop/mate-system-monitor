@@ -126,6 +126,7 @@ MutableProcInfo()
       guint status;
       guint pcpu;
       gint nice;
+      gchar *cgroup_name;
 };
 
 

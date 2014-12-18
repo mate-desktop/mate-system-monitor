@@ -25,6 +25,7 @@ mate_system_monitor_SOURCES = \
 	defaulttable.h \
 	disks.cpp disks.h \
 	selinux.h selinux.cpp \
+	cgroups.h cgroups.cpp \
 	procman_matesu.h procman_matesu.cpp \
 	procman_gksu.h procman_gksu.cpp \
 	sysinfo.cpp sysinfo.h \

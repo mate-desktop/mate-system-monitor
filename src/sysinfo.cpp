@@ -60,7 +60,7 @@ namespace {
             this->load_memory_info();
             this->load_disk_info();
             this->load_uname_info();
-           this->load_mate_version();
+            this->load_mate_version();
         }
 
         virtual ~SysInfo()

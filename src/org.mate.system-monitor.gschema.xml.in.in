@@ -16,7 +16,7 @@
     <key name="solaris-mode" type="b">
       <default>false</default>
       <_summary>Solaris mode for CPU percentage</_summary>
-      <_description>If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage is divided by the total number of CPUs. Else it operates in 'Irix mode'.</_description>
+      <_description>If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage is divided by the total number of CPUs. Otherwise, it operates in 'Irix mode'.</_description>
     </key>
     <key name="smooth-refresh" type="b">
       <default>true</default>
@@ -36,8 +36,8 @@
     </key>
     <key name="show-all-fs" type="b">
       <default>false</default>
-      <_summary>Whether information about all filesystems should be displayed</_summary>
-      <_description>Whether to display information about all filesystems (including types like 'autofs' and 'procfs'). Useful for getting a list of all currently mounted filesystems.</_description>
+      <_summary>Whether information about all file systems should be displayed</_summary>
+      <_description>Whether to display information about all file systems (including types like 'autofs' and 'procfs'). Useful for getting a list of all currently mounted file systems.</_description>
     </key>
     <key name="disks-interval" type="i">
       <default>5000</default>
@@ -54,27 +54,27 @@
     </key>
     <key name="cpu-color0" type="s">
       <default>'#FF6E00'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color1" type="s">
       <default>'#CB0C29'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color2" type="s">
       <default>'#49A835'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color3" type="s">
       <default>'#2D7DB3'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color4" type="s">
       <default>'#FF6600'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color5" type="s">
       <default>'#6600CC'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color6" type="s">
       <default>'#990000'</default>
@@ -82,43 +82,43 @@
     </key>
     <key name="cpu-color7" type="s">
       <default>'#000099'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color8" type="s">
       <default>'#FFCC00'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color9" type="s">
       <default>'#009900'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color10" type="s">
       <default>'#CC6600'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color11" type="s">
       <default>'#330099'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color12" type="s">
       <default>'#CC0066'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color13" type="s">
       <default>'#00FFCC'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color14" type="s">
       <default>'#FFCC99'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="cpu-color15" type="s">
       <default>'#339999'</default>
-      <_summary>Default graph cpu color</_summary>
+      <_summary>Default graph CPU color</_summary>
     </key>
     <key name="mem-color" type="s">
       <default>'#AB1852'</default>
-      <_summary>Default graph mem color</_summary>
+      <_summary>Default graph memory color</_summary>
     </key>
     <key name="swap-color" type="s">
       <default>'#49A835'</default>

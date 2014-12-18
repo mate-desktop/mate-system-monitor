@@ -307,11 +307,11 @@
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.disktreenew" path="/org/mate/system-monitor/disktreenew/">
     <key name="sort-col" type="i">
       <default>1</default>
-      <_summary>Process view sort column</_summary>
+      <_summary>Disk view sort colum</_summary>
     </key>
     <key name="sort-order" type="i">
       <default>0</default>
-      <_summary>Process view sort order</_summary>
+      <_summary>Disk view sort order</_summary>
     </key>
     <key name="columns-order" type="ai">
       <default>[ 0 ]</default>
@@ -321,21 +321,21 @@
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.memmapstree" path="/org/mate/system-monitor/memmapstree/">
     <key name="sort-col" type="i">
       <default>0</default>
-      <_summary>Process view sort column</_summary>
+      <_summary>Memory map sort column</_summary>
     </key>
     <key name="sort-order" type="i">
       <default>0</default>
-      <_summary>Process view sort order</_summary>
+      <_summary>Memory map sort order</_summary>
     </key>
   </schema>
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.openfilestree" path="/org/mate/system-monitor/openfilestree/">
     <key name="sort-col" type="i">
       <default>0</default>
-      <_summary>Process view sort column</_summary>
+      <_summary>Open files sort column</_summary>
     </key>
     <key name="sort-order" type="i">
       <default>0</default>
-      <_summary>Process view sort order</_summary>
+      <_summary>Open files sort order</_summary>
     </key>
   </schema>
 </schemalist>

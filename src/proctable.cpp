@@ -691,6 +691,7 @@ insert_info_to_tree (ProcInfo *info, ProcData *procdata, bool forced = false)
 
             if (!gtk_tree_view_row_expanded(GTK_TREE_VIEW(procdata->tree), parent_node))
             gtk_tree_view_expand_row(GTK_TREE_VIEW(procdata->tree), parent_node, FALSE);
+                gtk_tree_view_expand_row(GTK_TREE_VIEW(procdata->tree), parent_node, FALSE);
             gtk_tree_path_free(parent_node);
         } else
             gtk_tree_store_insert(GTK_TREE_STORE(model), &info->node, NULL, 0);

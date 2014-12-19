@@ -219,14 +219,12 @@ static gboolean load_graph_expose (GtkWidget *widget, GdkEventExpose *event, gpo
 #endif
 {
     LoadGraph * const graph = static_cast<LoadGraph*>(data_ptr);
-    GtkAllocation allocation;
     GdkWindow *window;
 
     guint i, j;
     gdouble sample_width, x_offset;
 
     window = gtk_widget_get_window (graph->disp);
-    gtk_widget_get_allocation (graph->disp, &allocation);
 
     if (graph->background == NULL) {
         draw_background(graph);

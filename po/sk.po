@@ -8,13 +8,14 @@
 # Majo Baca <majoobaca@gmail.com>, 2010
 # Stanislav Visnovsky <visnovsky@kde.org>, 2003
 # Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2001, 2002, 2004
+# Tibor Kaputa <tibbbi2@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 15:09+0100\n"
-"PO-Revision-Date: 2014-11-10 14:09+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
+"POT-Creation-Date: 2014-12-19 01:20+0100\n"
+"PO-Revision-Date: 2014-12-20 23:34+0000\n"
+"Last-Translator: Tibor Kaputa <tibbbi2@gmail.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr ""
+msgstr "Monitor procesov a prostriedkov prostredia MATE"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -34,30 +35,42 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr ""
+msgstr "<p> Monitor systému MATE umožňuje grafické zobrazenie a manipuláciu bežiacich procesov na vašom systéme. Taktiež poskytuje prehľad dostupných prostriedkov, akými sú napr. CPU a pamäť. </p> <p> Monitor systému MATE je odvodený z Monitoru systému GNOME a je súčasťou prostredia MATE. Ak by ste sa chceli dozvedieť viac o MATE a Monitore systému, prosím navštívte domovskú stránku projektu. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "Monitor systému MATE"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:160
-#: ../src/interface.cpp:619 ../src/procman.cpp:716
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
+#: ../src/interface.cpp:690 ../src/procman.cpp:710
 msgid "System Monitor"
 msgstr "Monitor systému"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:161
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
 msgstr "Zobrazuje aktuálne procesy a monitoruje stav systému"
 
-#: ../src/argv.cpp:18
+#: ../src/argv.cpp:21
 msgid "Show the System tab"
 msgstr "Zobraziť kartu \"Systém\""
 
-#: ../src/callbacks.cpp:170
+#: ../src/argv.cpp:26
+msgid "Show the Processes tab"
+msgstr "Zobraziť kartu s procesmi"
+
+#: ../src/argv.cpp:31
+msgid "Show the Resources tab"
+msgstr "Zobraziť kartu s prostriedkami"
+
+#: ../src/argv.cpp:36
+msgid "Show the File Systems tab"
+msgstr "Zobraziť kartu so súborovými systémami"
+
+#: ../src/callbacks.cpp:196
 msgid "translator-credits"
 msgstr "Stanislav Višňovský\nMarcel Telka <marcel@telka.sk>\nMarián Bača <majoobaca@gmail.com>\nJán Ďanovský <dagsoftware@yahoo.com>"
 
-#: ../src/disks.cpp:299 ../src/memmaps.cpp:360
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:361
 msgid "Device"
 msgstr "Zariadenie"
 
@@ -65,7 +78,7 @@ msgstr "Zariadenie"
 msgid "Directory"
 msgstr "Priečinok"
 
-#: ../src/disks.cpp:301 ../src/gsm_color_button.c:221 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:227 ../src/openfiles.cpp:251
 msgid "Type"
 msgstr "Typ"
 
@@ -110,256 +123,323 @@ msgstr "%d. %b %k:%M"
 msgid "%b %d %Y"
 msgstr "%d. %b %Y"
 
-#: ../src/gsm_color_button.c:198
+#: ../src/gsm_color_button.c:203
 msgid "Fraction"
 msgstr "Podiel"
 
-#: ../src/gsm_color_button.c:199
-msgid "Percentage full for pie colour pickers"
-msgstr "Plný percentuálny podiel farebného výseku grafu"
+#. TRANSLATORS: description of the pie color picker's (mem, swap) filled
+#. percentage property
+#: ../src/gsm_color_button.c:205
+msgid "Percentage full for pie color pickers"
+msgstr "Farba položky v koláči"
 
-#: ../src/gsm_color_button.c:206
+#: ../src/gsm_color_button.c:212
 msgid "Title"
 msgstr "Titulok"
 
-#: ../src/gsm_color_button.c:207
+#: ../src/gsm_color_button.c:213
 msgid "The title of the color selection dialog"
 msgstr "Titulok dialógu \"Výber farby\""
 
-#: ../src/gsm_color_button.c:208 ../src/gsm_color_button.c:642
+#: ../src/gsm_color_button.c:214 ../src/gsm_color_button.c:639
 msgid "Pick a Color"
 msgstr "Výber farby"
 
-#: ../src/gsm_color_button.c:214
+#: ../src/gsm_color_button.c:220
 msgid "Current Color"
 msgstr "Aktuálna farba"
 
-#: ../src/gsm_color_button.c:215
+#: ../src/gsm_color_button.c:221
 msgid "The selected color"
 msgstr "Vybraná farba"
 
-#: ../src/gsm_color_button.c:222
+#: ../src/gsm_color_button.c:228
 msgid "Type of color picker"
 msgstr "Typ výberu farby"
 
-#: ../src/gsm_color_button.c:565
+#: ../src/gsm_color_button.c:562
 msgid "Received invalid color data\n"
 msgstr "Prijaté neplatné dáta farieb\n"
 
-#: ../src/gsm_color_button.c:663
+#: ../src/gsm_color_button.c:662
 msgid "Click to set graph colors"
 msgstr "Kliknite pre nastavenie farby grafov"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
-#: ../src/interface.cpp:50
+#: ../src/interface.cpp:51
 msgid "_Monitor"
 msgstr "_Monitor"
 
-#: ../src/interface.cpp:51
+#: ../src/interface.cpp:52
 msgid "_Edit"
 msgstr "_Upraviť"
 
-#: ../src/interface.cpp:52
+#: ../src/interface.cpp:53
 msgid "_View"
 msgstr "_Zobraziť"
 
-#: ../src/interface.cpp:53
+#: ../src/interface.cpp:54
 msgid "_Help"
 msgstr "_Pomocník"
 
-#: ../src/interface.cpp:55
+#: ../src/interface.cpp:56
 msgid "Search for _Open Files"
 msgstr "_Hľadať otvorené súbory"
 
-#: ../src/interface.cpp:56
+#: ../src/interface.cpp:57
 msgid "Search for open files"
 msgstr "Hľadať otvorené súbory"
 
-#: ../src/interface.cpp:58
+#: ../src/interface.cpp:59
 msgid "Quit the program"
 msgstr "Ukončiť program"
 
-#: ../src/interface.cpp:61
+#: ../src/interface.cpp:62
 msgid "_Stop Process"
 msgstr "_Zastaviť proces"
 
-#: ../src/interface.cpp:62
+#: ../src/interface.cpp:63
 msgid "Stop process"
 msgstr "Zastaviť proces"
 
-#: ../src/interface.cpp:63
+#: ../src/interface.cpp:64
 msgid "_Continue Process"
 msgstr "_Pokračovať v procese"
 
-#: ../src/interface.cpp:64
+#: ../src/interface.cpp:65
 msgid "Continue process if stopped"
 msgstr "Pokračovať v procese, ak bol zastavený"
 
-#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
+#: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
 msgid "_End Process"
 msgstr "_Ukončiť proces"
 
-#: ../src/interface.cpp:67
+#: ../src/interface.cpp:68
 msgid "Force process to finish normally"
 msgstr "Vynútiť normálne ukončenie procesu"
 
-#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
+#: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
 msgid "_Kill Process"
 msgstr "Za_biť proces"
 
-#: ../src/interface.cpp:69
+#: ../src/interface.cpp:70
 msgid "Force process to finish immediately"
 msgstr "Vynútiť okamžité ukončenie procesu"
 
-#: ../src/interface.cpp:70
-msgid "_Change Priority..."
-msgstr "Zmeniť p_rioritu..."
-
 #: ../src/interface.cpp:71
+msgid "_Change Priority"
+msgstr "_Zmeniť prioritu"
+
+#: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
 msgstr "Zmeniť poradie priority procesu"
 
-#: ../src/interface.cpp:73
+#: ../src/interface.cpp:74
 msgid "Configure the application"
 msgstr "Konfigurovať program"
 
-#: ../src/interface.cpp:75
+#: ../src/interface.cpp:76
 msgid "_Refresh"
 msgstr "Ob_noviť"
 
-#: ../src/interface.cpp:76
+#: ../src/interface.cpp:77
 msgid "Refresh the process list"
 msgstr "Obnoviť zoznam procesov"
 
-#: ../src/interface.cpp:78
+#: ../src/interface.cpp:79
 msgid "_Memory Maps"
 msgstr "_Mapy pamäte"
 
-#: ../src/interface.cpp:79
+#: ../src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
 msgstr "Otvoriť mapy pamäte priradené k procesu"
 
-#: ../src/interface.cpp:80
+#. Translators: this means 'Files that are open' (open is no verb here
+#: ../src/interface.cpp:82
 msgid "Open _Files"
 msgstr "Otvorené _súbory"
 
-#: ../src/interface.cpp:81
+#: ../src/interface.cpp:83
 msgid "View the files opened by a process"
 msgstr "Zobraziť súbory otvorené procesom"
 
-#: ../src/interface.cpp:83
+#: ../src/interface.cpp:84
+msgid "_Properties"
+msgstr "_Vlastnosti"
+
+#: ../src/interface.cpp:85
+msgid "View additional information about a process"
+msgstr "Zobraziť dodatočné informácie o procese"
+
+#: ../src/interface.cpp:88
 msgid "_Contents"
 msgstr "Ob_sah"
 
-#: ../src/interface.cpp:84
+#: ../src/interface.cpp:89
 msgid "Open the manual"
 msgstr "Otvoriť manuál"
 
-#: ../src/interface.cpp:86
+#: ../src/interface.cpp:91
 msgid "About this application"
 msgstr "O programe"
 
-#: ../src/interface.cpp:91
+#: ../src/interface.cpp:96
 msgid "_Dependencies"
 msgstr "_Závislosti"
 
-#: ../src/interface.cpp:92
+#: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
 msgstr "Zobraziť vzťahy rodič/potomok medzi procesmi"
 
-#: ../src/interface.cpp:99
+#: ../src/interface.cpp:104
 msgid "_Active Processes"
 msgstr "_Aktívne procesy"
 
-#: ../src/interface.cpp:100
+#: ../src/interface.cpp:105
 msgid "Show active processes"
 msgstr "Zobraziť aktívne procesy"
 
-#: ../src/interface.cpp:101
+#: ../src/interface.cpp:106
 msgid "A_ll Processes"
 msgstr "_Všetky procesy"
 
-#: ../src/interface.cpp:102
+#: ../src/interface.cpp:107
 msgid "Show all processes"
 msgstr "Zobraziť všetky procesy"
 
-#: ../src/interface.cpp:103
+#: ../src/interface.cpp:108
 msgid "M_y Processes"
 msgstr "M_oje procesy"
 
-#: ../src/interface.cpp:104
-msgid "Show user own process"
-msgstr "Zobraziť vlastný proces používateľa"
+#: ../src/interface.cpp:109
+msgid "Show only user-owned processes"
+msgstr "Zobraziť iba procesy vlastnené používateľmi"
 
-#: ../src/interface.cpp:189
+#: ../src/interface.cpp:114 ../src/util.cpp:217
+msgid "Very High"
+msgstr "Veľmi vysoká"
+
+#: ../src/interface.cpp:115
+msgid "Set process priority to very high"
+msgstr "Nastaviť prioritu procesu na veľmi vysokú"
+
+#: ../src/interface.cpp:116 ../src/util.cpp:219
+msgid "High"
+msgstr "Vysoká"
+
+#: ../src/interface.cpp:117
+msgid "Set process priority to high"
+msgstr "Nastaviť prioritu procesu na vysokú"
+
+#: ../src/interface.cpp:118 ../src/util.cpp:221
+msgid "Normal"
+msgstr "Normálna"
+
+#: ../src/interface.cpp:119
+msgid "Set process priority to normal"
+msgstr "Nastaviť prioritu procesu na normálnu"
+
+#: ../src/interface.cpp:120 ../src/util.cpp:223
+msgid "Low"
+msgstr "Nízka"
+
+#: ../src/interface.cpp:121
+msgid "Set process priority to low"
+msgstr "Nastaviť prioritu procesu na nízku"
+
+#: ../src/interface.cpp:122 ../src/util.cpp:225
+msgid "Very Low"
+msgstr "Veľmi nízka"
+
+#: ../src/interface.cpp:123
+msgid "Set process priority to very low"
+msgstr "Nastaviť prioritu procesu na veľmi nízku"
+
+#: ../src/interface.cpp:124
+msgid "Custom"
+msgstr "Vlastná"
+
+#: ../src/interface.cpp:125
+msgid "Set process priority manually"
+msgstr "Nastaviť prioritu procesu ručne"
+
+#: ../src/interface.cpp:231
 msgid "End _Process"
 msgstr "Ukončiť _proces"
 
-#: ../src/interface.cpp:243
+#. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
+#. Sending
+#: ../src/interface.cpp:279
+#, c-format
+msgid "Pick a Color for '%s'"
+msgstr "Vyberte farbu pre „%s“"
+
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "História využitia procesora"
 
-#: ../src/interface.cpp:300
+#: ../src/interface.cpp:344 ../src/procproperties.cpp:139
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:302
+#: ../src/interface.cpp:346
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:320
+#: ../src/interface.cpp:367
 msgid "Memory and Swap History"
 msgstr "História využitia pamäte a odkladacieho priestoru"
 
-#: ../src/interface.cpp:359 ../src/proctable.cpp:226
+#: ../src/interface.cpp:401 ../src/proctable.cpp:262
+#: ../src/procproperties.cpp:133
 msgid "Memory"
 msgstr "Pamäť"
 
-#: ../src/interface.cpp:385
+#: ../src/interface.cpp:432
 msgid "Swap"
 msgstr "Odkladací priestor"
 
-#: ../src/interface.cpp:406
+#: ../src/interface.cpp:463
 msgid "Network History"
 msgstr "História siete"
 
-#: ../src/interface.cpp:445
+#: ../src/interface.cpp:496
 msgid "Receiving"
 msgstr "Prijímanie"
 
-#: ../src/interface.cpp:466
+#: ../src/interface.cpp:529
 msgid "Total Received"
 msgstr "Spolu prijatých"
 
-#: ../src/interface.cpp:500
+#: ../src/interface.cpp:557
 msgid "Sending"
 msgstr "Posielanie"
 
-#: ../src/interface.cpp:522
+#: ../src/interface.cpp:591
 msgid "Total Sent"
 msgstr "Spolu poslaných"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:695
+#: ../src/interface.cpp:777
 msgid "System"
 msgstr "Systém"
 
-#: ../src/interface.cpp:699 ../src/procdialogs.cpp:526
+#: ../src/interface.cpp:781 ../src/procdialogs.cpp:549
 msgid "Processes"
 msgstr "Procesy"
 
-#: ../src/interface.cpp:703 ../src/procdialogs.cpp:639
+#: ../src/interface.cpp:785 ../src/procdialogs.cpp:662
 msgid "Resources"
 msgstr "Zdroje"
 
-#: ../src/interface.cpp:707 ../src/procdialogs.cpp:704
-#: ../src/procdialogs.cpp:708
+#: ../src/interface.cpp:789 ../src/procdialogs.cpp:727
+#: ../src/procdialogs.cpp:731
 msgid "File Systems"
 msgstr "Súborové systémy"
 
-#: ../src/load-graph.cpp:161
+#: ../src/load-graph.cpp:170
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -367,230 +447,240 @@ msgstr[0] "%u sekúnd"
 msgstr[1] "%u sekunda"
 msgstr[2] "%u sekundy"
 
+#: ../src/load-graph.cpp:351
+msgid "not available"
+msgstr "nie je dostupná"
+
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:343
+#: ../src/load-graph.cpp:354
 #, c-format
-msgid "%s (%.1f %%) of %s"
-msgstr "%s (%.1f %%) z %s"
+msgid "%s (%.1f%%) of %s"
+msgstr "%s (%.1f%%) z %s"
 
-#: ../src/lsof.cpp:125
+#: ../src/lsof.cpp:126
+msgid "Error"
+msgstr "Chyba"
+
+#: ../src/lsof.cpp:127
 #, c-format
-msgid ""
-"<b>Error</b>\n"
-"'%s' is not a valid Perl regular expression.\n"
-"%s"
-msgstr "<b>Chyba</b>\n'%s' nie je platný regulárny výraz jazyka Perl.\n%s"
+msgid "'%s' is not a valid Perl regular expression."
+msgstr "„%s“ nie je platným regulárnym výrazom."
 
-#: ../src/lsof.cpp:271
+#: ../src/lsof.cpp:273
 msgid "Process"
 msgstr "Proces"
 
-#: ../src/lsof.cpp:283
+#: ../src/lsof.cpp:285
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:293 ../src/memmaps.cpp:338
+#: ../src/lsof.cpp:295 ../src/memmaps.cpp:339
 msgid "Filename"
 msgstr "Názov súboru"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:310
+#: ../src/lsof.cpp:312
 msgid "Search for Open Files"
 msgstr "Hľadať otvorené súbory"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:339
 msgid "_Name contains:"
 msgstr "_Názov obsahuje:"
 
+#. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
+msgid "C_lear"
+msgstr "_Vyčistiť"
+
+#: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
 msgstr "Zhoda s nerozlišovaním veľkosti písmen"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:365
 msgid "S_earch results:"
 msgstr "_Výsledky hľadania:"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:340
+#: ../src/memmaps.cpp:341
 msgid "VM Start"
 msgstr "Začiatok virtuálnej pamäte"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:342
+#: ../src/memmaps.cpp:343
 msgid "VM End"
 msgstr "Koniec virtuálnej pamäte"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:344
+#: ../src/memmaps.cpp:345
 msgid "VM Size"
 msgstr "Veľkosť virtuálnej pamäte"
 
-#: ../src/memmaps.cpp:345
+#: ../src/memmaps.cpp:346
 msgid "Flags"
 msgstr "Príznaky"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:347
+#: ../src/memmaps.cpp:348
 msgid "VM Offset"
 msgstr "Posun virtuálnej pamäte"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:350
+#: ../src/memmaps.cpp:351
 msgid "Private clean"
 msgstr "Súkromná nepoužitá"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:353
+#: ../src/memmaps.cpp:354
 msgid "Private dirty"
 msgstr "Súkromná použitá"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:356
+#: ../src/memmaps.cpp:357
 msgid "Shared clean"
 msgstr "Zdieľaná nepoužitá"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:359
+#: ../src/memmaps.cpp:360
 msgid "Shared dirty"
 msgstr "Zdieľaná použitá"
 
-#: ../src/memmaps.cpp:361
+#: ../src/memmaps.cpp:362
 msgid "Inode"
 msgstr "Inode"
 
-#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/memmaps.cpp:470
+#: ../src/memmaps.cpp:467
 msgid "Memory Maps"
 msgstr "Mapy pamäte"
 
-#: ../src/memmaps.cpp:488
+#: ../src/memmaps.cpp:479
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Mapy pamäte pre proces \"%s\" (PID %u):"
 
-#: ../src/openfiles.cpp:34
+#: ../src/openfiles.cpp:38
 msgid "file"
 msgstr "súbor"
 
-#: ../src/openfiles.cpp:36
+#: ../src/openfiles.cpp:40
 msgid "pipe"
 msgstr "rúra"
 
-#: ../src/openfiles.cpp:38
+#: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
 msgstr "Sieťové pripojenie IPv6"
 
-#: ../src/openfiles.cpp:40
+#: ../src/openfiles.cpp:44
 msgid "IPv4 network connection"
 msgstr "Sieťové pripojenie IPv4"
 
-#: ../src/openfiles.cpp:42
+#: ../src/openfiles.cpp:46
 msgid "local socket"
 msgstr "miestna zásuvka"
 
-#: ../src/openfiles.cpp:44
+#: ../src/openfiles.cpp:48
 msgid "unknown type"
 msgstr "neznámy typ"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
-#: ../src/openfiles.cpp:246
+#: ../src/openfiles.cpp:250
 msgid "FD"
 msgstr "FD"
 
-#: ../src/openfiles.cpp:248
+#: ../src/openfiles.cpp:252
 msgid "Object"
 msgstr "Objekt"
 
-#: ../src/openfiles.cpp:333
+#: ../src/openfiles.cpp:337
 msgid "Open Files"
 msgstr "Otvorené súbory"
 
-#: ../src/openfiles.cpp:357
+#: ../src/openfiles.cpp:358
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "_Súbory otvorené procesom \"%s\" (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
-msgid "Main Window width"
-msgstr "Šírka hlavného okna"
+msgid "Main window size and position in the form (width, height, xpos, ypos)"
+msgstr "Veľkosť a poloha hlavného okna vo formulári (šírka, výška, xpos, ypos)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
-msgid "Main Window height"
-msgstr "Výška hlavného okna"
-
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Zobraziť závislosti procesov v tvare stromu"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Solaris mode for CPU percentage"
 msgstr "Režim \"Solaris\" pre percentuálne využitie procesora"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
 msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "Ak je TRUE, monitor systému pracuje v režime \"Solaris\", kde je využite procesora pre každý proces rozdelené podľa celkového počtu procesorov, Inak štandardne pracuje v režime \"Irix\"."
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
+"is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
+"mode'."
+msgstr "Ak je táto voľba vybraná, system-monitor beží v režime „Solaris“, kde použitie CPU úlohou je vydelené celkovým počtom procesorov. Za iných okolností funguje v režime „lrix“."
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
 msgid "Enable/Disable smooth refresh"
 msgstr "Povoliť/zakázať vyhladené obnovovanie"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
 msgid "Show warning dialog when killing processes"
 msgstr "Zobraziť dialógové okno s upozornením pri zabíjaní procesov"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Čas v milisekundách medzi aktualizáciami prehľadu procesov"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
 msgid "Time in milliseconds between updates of the graphs"
 msgstr "Čas v milisekundách medzi aktualizáciami grafov"
 
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+msgid "Whether information about all file systems should be displayed"
+msgstr "Či majú byť zobrazené údaje o všetkých súborových systémoch"
+
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
-msgid "Whether information about all filesystems should be displayed"
-msgstr "Či majú byť zobrazené informácie o všetkých súborových systémoch"
+msgid ""
+"Whether to display information about all file systems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"file systems."
+msgstr "Či majú byť zobrazené informácie o všetkých súborových systémoch (vrátane typov ako „autofs“ a „procfs“). Je to užitočné pre získanie zoznamu momentálne pripojených súborových systémov."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr "Zobraziť informácie o všetkých súborových systémoch (vrátane typov ako 'autofs' a 'procfs'). Užitočné na získanie zoznamu všetkých momentálne pripojených súborových systémov."
-
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
 msgstr "Čas v milisekundách medzi aktualizáciami zoznamu zariadení"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
 msgstr "Určuje, ktoré procesy štandardne zobraziť. 0 pre všetky, 1 pre procesy používateľa a 2 pre aktívne"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
 msgid "Saves the currently viewed tab"
 msgstr "Uloží aktuálne zobrazenú kartu"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr "0 pre informácie o systéme, 1 pre zoznam procesov, 2 pre zdroje a 3 pre zoznam diskov"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+msgid "Default graph CPU color"
+msgstr "Predvolená farba grafu CPU"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
 msgid "Default graph cpu color"
 msgstr "Predvolená farba grafu procesora"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
-msgid "Default graph mem color"
+msgid "Default graph memory color"
 msgstr "Predvolená farba grafu pamäte"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
@@ -607,7 +697,7 @@ msgstr "Predvolená farba grafu odchádzajúcej sieťovej prevádzky"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:21
 msgid "Show network traffic in bits"
-msgstr ""
+msgstr "Zobraziť sieťovú premávku v bitoch"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:22
 msgid "Process view sort column"
@@ -760,262 +850,374 @@ msgid "Show process 'Waiting Channel' column on startup"
 msgstr "Zobraziť pri štarte stĺpec 'čakací kanál'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
+msgid "Width of process 'Control Group' column"
+msgstr "Šírka stĺpca procesu „Kontrolná skupina“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:62
+msgid "Show process 'Control Group' column on startup"
+msgstr "Zobraziť po spustení stĺpec „Kontrolná skupina“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:63
+msgid "Width of process 'Unit' column"
+msgstr "Šírka stĺpca „Jednotka“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:64
+msgid "Show process 'Unit' column on startup"
+msgstr "Zobraziť po spustení stĺpec „Jednotka“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
+msgid "Width of process 'Session' column"
+msgstr "Šírka stĺpca „Relácia“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
+msgid "Show process 'Session' column on startup"
+msgstr "Zobraziť po spustení stĺpec „Relácia“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
+msgid "Width of process 'Seat' column"
+msgstr "Šírka stĺpca „Sedadlo“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:68
+msgid "Show process 'Seat' column on startup"
+msgstr "Zobraziť po spustení stĺpec „Sedadlo“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
+msgid "Width of process 'Owner' column"
+msgstr "Šírka stĺpca „Vlastník“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
+msgid "Show process 'Owner' column on startup"
+msgstr "Zobraziť po spustení stĺpec „Vlastník“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
+msgid "Width of process 'Priority' column"
+msgstr "Šírka stĺpca „Priorita“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
+msgid "Show process 'Priority' column on startup"
+msgstr "Zobraziť po spustení stĺpec „Priorita“"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
+msgid "Disk view sort colum"
+msgstr "Zoradenie stĺpca s diskmi"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:74
+msgid "Disk view sort order"
+msgstr "Zoradenie diskov"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:75
 msgid "Disk view columns order"
 msgstr "Poradie stĺpcov prehľadu diskov"
 
-#: ../src/procactions.cpp:75
-#, c-format
-msgid ""
-"Cannot change the priority of process with pid %d to %d.\n"
-"%s"
-msgstr "Nie je možné zmeniť prioritu procesu s pid %d na %d.\n%s"
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
+msgid "Memory map sort column"
+msgstr "Zoradenie stĺpca s pamäťovou mapou"
 
-#: ../src/procactions.cpp:155
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
+msgid "Memory map sort order"
+msgstr "Zoradenie pamäťovej mapy"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
+msgid "Open files sort column"
+msgstr "Zoradenie stĺpca s otvorenými súbormi"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:79
+msgid "Open files sort order"
+msgstr "Zoradenie otvorených súborov"
+
+#: ../src/procactions.cpp:76
 #, c-format
 msgid ""
-"Cannot kill process with pid %d with signal %d.\n"
+"Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Nie je možné zabiť proces s pid %d signálom %d.\n%s"
+msgstr "Nepodarilo sa zmeniť prioritu procesu s PIDmi %d až %d\n%s"
+
+#: ../src/procactions.cpp:156
+#, c-format
+msgid ""
+"Cannot kill process with PID %d with signal %d.\n"
+"%s"
+msgstr "Nepodarilo sa zabiť proces s PIDom %d pomocou signálu %d.\n%s"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:70
-msgid "Kill the selected process?"
-msgstr "Zabiť zvolený proces?"
+#: ../src/procdialogs.cpp:72
+#, c-format
+msgid "Kill the selected process »%s« (PID: %u)?"
+msgstr "Zabiť vybraný proces »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:72
+#: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
-"security risk. Only unresponding processes should be killed."
-msgstr "Zabitím procesu môžete zničiť údaje, prerušiť bežiacu reláciu alebo vytvoriť bezpečnostné riziko. Len procesy, ktoré neodpovedajú, by mali byť zabité."
+"security risk. Only unresponsive processes should be killed."
+msgstr "Zabitie procesu môže viesť k zničeniu dát, poškodeniu relácie, alebo spôsobiť bezpečnostné riziko. Iba neodpovedajúce procesy by mali byť zabité."
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:79
-msgid "End the selected process?"
-msgstr "Ukončiť zvolený proces?"
+#: ../src/procdialogs.cpp:83
+#, c-format
+msgid "End the selected process »%s« (PID: %u)?"
+msgstr "Ukončiť vybraný proces »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:81
+#: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
-" risk. Only unresponding processes should be ended."
-msgstr "Ukončením procesu môžete zničiť údaje, prerušiť bežiacu reláciu alebo vytvoriť bezpečnostné riziko. Len procesy, ktoré neodpovedajú, by mali byť ukončené."
+" risk. Only unresponsive processes should be ended."
+msgstr "Ukončenie procesu môže viesť k zničeniu dát, poškodeniu relácie, alebo spôsobiť bezpečnostné riziko. Iba neodpovedajúce procesy by mali byť ukončené."
 
-#: ../src/procdialogs.cpp:115
-msgid "(Very High Priority)"
-msgstr "(Veľmi vysoká priorita)"
+#: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
+#, c-format
+msgid "(%s Priority)"
+msgstr "(%s Priorita)"
 
-#: ../src/procdialogs.cpp:117
-msgid "(High Priority)"
-msgstr "(Vysoká priorita)"
+#: ../src/procdialogs.cpp:173
+#, c-format
+msgid "Change Priority of Process »%s« (PID: %u)"
+msgstr "Zmeniť prioritu procesu »%s« (PID: %u)"
 
-#: ../src/procdialogs.cpp:119
-msgid "(Normal Priority)"
-msgstr "(Normálna priorita)"
-
-#: ../src/procdialogs.cpp:121
-msgid "(Low Priority)"
-msgstr "(Nízka priorita)"
-
-#: ../src/procdialogs.cpp:123
-msgid "(Very Low Priority)"
-msgstr "(Veľmi nízka priorita)"
-
-#: ../src/procdialogs.cpp:179
-msgid "Change Priority"
-msgstr "Zmeniť prioritu"
-
-#: ../src/procdialogs.cpp:202
+#: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
 msgstr "Zmeniť _prioritu"
 
-#: ../src/procdialogs.cpp:223
+#: ../src/procdialogs.cpp:208
 msgid "_Nice value:"
 msgstr "Hodnota _nice:"
 
-#: ../src/procdialogs.cpp:239
+#: ../src/procdialogs.cpp:229
 msgid "Note:"
 msgstr "Poznámka:"
 
-#: ../src/procdialogs.cpp:240
+#: ../src/procdialogs.cpp:230
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "Priorita procesu je určená jeho hodnotou nice. Nižšia hodnota znamená vyššiu prioritu."
 
-#: ../src/procdialogs.cpp:456
+#: ../src/procdialogs.cpp:467
 msgid "Icon"
 msgstr "Ikona"
 
-#: ../src/procdialogs.cpp:501
+#: ../src/procdialogs.cpp:526
 msgid "System Monitor Preferences"
 msgstr "Nastavenia monitora systému"
 
-#: ../src/procdialogs.cpp:533
+#: ../src/procdialogs.cpp:556
 msgid "Behavior"
 msgstr "Správanie"
 
-#: ../src/procdialogs.cpp:552 ../src/procdialogs.cpp:665
-#: ../src/procdialogs.cpp:727
+#: ../src/procdialogs.cpp:575 ../src/procdialogs.cpp:688
+#: ../src/procdialogs.cpp:750
 msgid "_Update interval in seconds:"
 msgstr "_Interval aktualizácie v sekundách:"
 
-#: ../src/procdialogs.cpp:577
+#: ../src/procdialogs.cpp:600
 msgid "Enable _smooth refresh"
 msgstr "Povoliť _vyhladené obnovovanie"
 
-#: ../src/procdialogs.cpp:590
+#: ../src/procdialogs.cpp:613
 msgid "Alert before ending or _killing processes"
 msgstr "Varovať pred ukončením alebo za_bitím procesov"
 
-#: ../src/procdialogs.cpp:604
+#: ../src/procdialogs.cpp:626
+msgid "Divide CPU usage by CPU count"
+msgstr "Vydeliť použitie CPU počtom CPU"
+
+#: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
 msgstr "Režim \"Solaris\""
 
-#: ../src/procdialogs.cpp:621 ../src/procdialogs.cpp:761
+#: ../src/procdialogs.cpp:644 ../src/procdialogs.cpp:784
 msgid "Information Fields"
 msgstr "Polia s informáciami"
 
-#: ../src/procdialogs.cpp:634
+#: ../src/procdialogs.cpp:657
 msgid "Process i_nformation shown in list:"
 msgstr "I_nformácie o procesoch zobrazené v zozname:"
 
-#: ../src/procdialogs.cpp:646
+#: ../src/procdialogs.cpp:669
 msgid "Graphs"
 msgstr "Grafy"
 
-#: ../src/procdialogs.cpp:685
+#: ../src/procdialogs.cpp:708
 msgid "Show network speed in bits"
 msgstr "Zobraziť rýchlosť siete v bitoch"
 
-#: ../src/procdialogs.cpp:747
-msgid "Show _all filesystems"
+#: ../src/procdialogs.cpp:770
+msgid "Show _all file systems"
 msgstr "Zobraziť _všetky súborové systémy"
 
-#: ../src/procdialogs.cpp:774
+#: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformácie o súborových systémoch zobrazené v zozname:"
 
-#: ../src/procman.cpp:672
+#: ../src/procman.cpp:659
 msgid "A simple process and system monitor."
 msgstr "Jednoduchý monitor procesov a systému."
 
-#: ../src/proctable.cpp:211
+#: ../src/proctable.cpp:247 ../src/procproperties.cpp:130
 msgid "Process Name"
 msgstr "Názov procesu"
 
-#: ../src/proctable.cpp:212
+#: ../src/proctable.cpp:248 ../src/procproperties.cpp:131
 msgid "User"
 msgstr "Používateľ"
 
-#: ../src/proctable.cpp:213
+#: ../src/proctable.cpp:249 ../src/procproperties.cpp:132
 msgid "Status"
 msgstr "Stav"
 
-#: ../src/proctable.cpp:214
+#: ../src/proctable.cpp:250 ../src/procproperties.cpp:134
 msgid "Virtual Memory"
 msgstr "Virtuálna pamäť"
 
-#: ../src/proctable.cpp:215
+#: ../src/proctable.cpp:251 ../src/procproperties.cpp:135
 msgid "Resident Memory"
 msgstr "Rezidentná pamäť"
 
-#: ../src/proctable.cpp:216
+#: ../src/proctable.cpp:252 ../src/procproperties.cpp:136
 msgid "Writable Memory"
 msgstr "Zapisovateľná pamäť"
 
-#: ../src/proctable.cpp:217
+#: ../src/proctable.cpp:253 ../src/procproperties.cpp:137
 msgid "Shared Memory"
 msgstr "Zdieľaná pamäť"
 
-#: ../src/proctable.cpp:218
+#: ../src/proctable.cpp:254 ../src/procproperties.cpp:138
 msgid "X Server Memory"
 msgstr "Pamäť X servera"
 
-#: ../src/proctable.cpp:219
+#: ../src/proctable.cpp:255
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: ../src/proctable.cpp:220
+#: ../src/proctable.cpp:256 ../src/procproperties.cpp:140
 msgid "CPU Time"
 msgstr "Čas procesora"
 
-#: ../src/proctable.cpp:221
+#: ../src/proctable.cpp:257 ../src/procproperties.cpp:141
 msgid "Started"
 msgstr "Začaté"
 
-#: ../src/proctable.cpp:222
+#: ../src/proctable.cpp:258 ../src/procproperties.cpp:142
 msgid "Nice"
 msgstr "Nice"
 
-#: ../src/proctable.cpp:223
+#: ../src/proctable.cpp:259 ../src/procproperties.cpp:144
 msgid "ID"
 msgstr "ID"
 
-#: ../src/proctable.cpp:224
+#: ../src/proctable.cpp:260 ../src/procproperties.cpp:145
 msgid "Security Context"
 msgstr "Bezpečnostný kontext"
 
-#: ../src/proctable.cpp:225
+#: ../src/proctable.cpp:261 ../src/procproperties.cpp:146
 msgid "Command Line"
 msgstr "Príkazový riadok"
 
-#. xgettext: wchan, see ps(1) or top(1)
-#: ../src/proctable.cpp:228
+#. xgettext: combined noun, the function the process is waiting in, see wchan
+#. ps(1)
+#: ../src/proctable.cpp:264 ../src/procproperties.cpp:147
 msgid "Waiting Channel"
 msgstr "Čakací kanál"
 
-#: ../src/proctable.cpp:945
+#: ../src/proctable.cpp:265
+msgid "Control Group"
+msgstr "Kontrolná skupina"
+
+#: ../src/proctable.cpp:266
+msgid "Unit"
+msgstr "Jednotka"
+
+#: ../src/proctable.cpp:267
+msgid "Session"
+msgstr "Relácia"
+
+#. TRANSLATORS: Seat = i.e. the physical seat the session of the process
+#. belongs to, only
+#. for multi-seat environments. See
+#. http://en.wikipedia.org/wiki/Multiseat_configuration
+#: ../src/proctable.cpp:270
+msgid "Seat"
+msgstr "Sedadlo"
+
+#: ../src/proctable.cpp:271
+msgid "Owner"
+msgstr "Vlastník"
+
+#: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
+msgid "Priority"
+msgstr "Priorita"
+
+#: ../src/proctable.cpp:1096
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Priemery záťaže pre posledných 1, 5, 15 minút: %0.2f, %0.2f, %0.2f"
 
-#: ../src/sysinfo.cpp:77
+#: ../src/procproperties.cpp:104 ../src/util.cpp:420
+msgid "N/A"
+msgstr "N/A"
+
+#: ../src/procproperties.cpp:140
 #, c-format
-msgid "Release %s"
-msgstr "Vydanie %s"
+msgid "%lld second"
+msgid_plural "%lld seconds"
+msgstr[0] "%lld sekunda"
+msgstr[1] "%lld sekundy"
+msgstr[2] "%lld sekúnd"
 
-#: ../src/sysinfo.cpp:116
-msgid "Unknown CPU model"
-msgstr "Neznámy model procesora"
+#: ../src/procproperties.cpp:258
+msgid "Process Properties"
+msgstr "Vlastnosti procesu"
 
-#: ../src/sysinfo.cpp:594
+#: ../src/procproperties.cpp:278
+#, c-format
+msgid "Properties of process \"%s\" (PID %u):"
+msgstr "Vlastnosti procesu \"%s\" (PID %u):"
+
+#. Translators: The first string parameter is release version (codename),
+#. * the second one is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:78
+#, c-format
+msgid "Release %s %s"
+msgstr "Uvoľniť %s %s"
+
+#. translators: This is the type of architecture, for example:
+#. * "64-bit" or "32-bit"
+#: ../src/sysinfo.cpp:115
+#, c-format
+msgid "%d-bit"
+msgstr "%d-bit"
+
+#: ../src/sysinfo.cpp:780
 #, c-format
 msgid "Kernel %s"
 msgstr "Jadro  %s"
 
-#: ../src/sysinfo.cpp:607
+#: ../src/sysinfo.cpp:794
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:621
-#, c-format
-msgid "<b>Hardware</b>"
-msgstr "<b>Hardvér</b>"
+#: ../src/sysinfo.cpp:809
+msgid "Hardware"
+msgstr "Hardvér"
 
-#: ../src/sysinfo.cpp:626
+#: ../src/sysinfo.cpp:814
 msgid "Memory:"
 msgstr "Pamäť:"
 
-#: ../src/sysinfo.cpp:633
-#, c-format
-msgid "Processor %d:"
-msgstr "Procesor %d:"
-
-#: ../src/sysinfo.cpp:638
+#: ../src/sysinfo.cpp:818
 msgid "Processor:"
 msgstr "Procesor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:650
-#, c-format
-msgid "<b>System Status</b>"
-msgstr "<b>Stav systému</b>"
+#: ../src/sysinfo.cpp:826
+msgid "System Status"
+msgstr "Status systému"
 
-#: ../src/sysinfo.cpp:656
+#: ../src/sysinfo.cpp:831
 msgid "Available disk space:"
 msgstr "Dostupné miesto na disku:"
 
@@ -1063,37 +1265,47 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:164
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:165
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:166
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:167
-#, c-format
-msgid "%.1f kbit"
-msgstr "%.1f kbit"
-
-#: ../src/util.cpp:168
-#, c-format
-msgid "%.1f Mbit"
-msgstr "%.1f Mbit"
-
 #: ../src/util.cpp:169
 #, c-format
-msgid "%.1f Gbit"
-msgstr "%.1f Gbit"
+msgid "%.1f TiB"
+msgstr "%.1f TiB"
 
-#: ../src/util.cpp:184
+#: ../src/util.cpp:170
+#, c-format
+msgid "%.3g kbit"
+msgstr "%.3g kbit"
+
+#: ../src/util.cpp:171
+#, c-format
+msgid "%.3g Mbit"
+msgstr "%.3g Mbit"
+
+#: ../src/util.cpp:172
+#, c-format
+msgid "%.3g Gbit"
+msgstr "%.3g Gbit"
+
+#: ../src/util.cpp:173
+#, c-format
+msgid "%.3g Tbit"
+msgstr "%.3g Tbit"
+
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
@@ -1101,7 +1313,7 @@ msgstr[0] "%u bitov"
 msgstr[1] "%u bit"
 msgstr[2] "%u bity"
 
-#: ../src/util.cpp:185
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
@@ -1109,12 +1321,8 @@ msgstr[0] "%u bajtov"
 msgstr[1] "%u bajt"
 msgstr[2] "%u bajty"
 
-#: ../src/util.cpp:373
-msgid "<i>N/A</i>"
-msgstr "<i>Nie je k dispozícii</i>"
-
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:490
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

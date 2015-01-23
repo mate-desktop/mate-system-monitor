@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 15:09+0100\n"
-"PO-Revision-Date: 2014-11-16 10:46+0000\n"
+"POT-Creation-Date: 2014-12-19 01:20+0100\n"
+"PO-Revision-Date: 2014-12-19 15:47+0000\n"
 "Last-Translator: Mihail Varantsou <meequz@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -43,24 +43,36 @@ msgstr "<p> Сістэмны назіральнік MATE дазваляе кір
 msgid "MATE System Monitor"
 msgstr "Сістэмны назіральнік MATE"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:160
-#: ../src/interface.cpp:619 ../src/procman.cpp:716
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
+#: ../src/interface.cpp:690 ../src/procman.cpp:710
 msgid "System Monitor"
 msgstr "Сістэмны назіральнік"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:161
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
 msgstr "Паказвае актыўныя працэсы і назірае за станам сістэмы"
 
-#: ../src/argv.cpp:18
+#: ../src/argv.cpp:21
 msgid "Show the System tab"
-msgstr "Паказаць картку Сістэма"
+msgstr "Паказваць картку Сістэма"
 
-#: ../src/callbacks.cpp:170
+#: ../src/argv.cpp:26
+msgid "Show the Processes tab"
+msgstr "Паказваць картку Працэсы"
+
+#: ../src/argv.cpp:31
+msgid "Show the Resources tab"
+msgstr "Паказваць картку Рэсурсы"
+
+#: ../src/argv.cpp:36
+msgid "Show the File Systems tab"
+msgstr "Паказваць картку Файлавыя Сістэмы"
+
+#: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Belarusian Language Linux Team <i18n@mova.org>\nМіхась Варанцоў <meequz@gmail.com>"
+msgstr "Belarusian Language Linux Team <i18n@mova.org>\nМіхась Варанцоў <meequz@gmail.com> 2014"
 
-#: ../src/disks.cpp:299 ../src/memmaps.cpp:360
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:361
 msgid "Device"
 msgstr "Прылада"
 
@@ -68,7 +80,7 @@ msgstr "Прылада"
 msgid "Directory"
 msgstr "Каталог"
 
-#: ../src/disks.cpp:301 ../src/gsm_color_button.c:221 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:227 ../src/openfiles.cpp:251
 msgid "Type"
 msgstr "Тып"
 
@@ -113,256 +125,323 @@ msgstr "%d %b %H:%M"
 msgid "%b %d %Y"
 msgstr "%d %b %Y"
 
-#: ../src/gsm_color_button.c:198
+#: ../src/gsm_color_button.c:203
 msgid "Fraction"
 msgstr "Частка"
 
-#: ../src/gsm_color_button.c:199
-msgid "Percentage full for pie colour pickers"
-msgstr "Доля запаўнення для палосаў выбару колеру"
+#. TRANSLATORS: description of the pie color picker's (mem, swap) filled
+#. percentage property
+#: ../src/gsm_color_button.c:205
+msgid "Percentage full for pie color pickers"
+msgstr ""
 
-#: ../src/gsm_color_button.c:206
+#: ../src/gsm_color_button.c:212
 msgid "Title"
 msgstr "Загаловак"
 
-#: ../src/gsm_color_button.c:207
+#: ../src/gsm_color_button.c:213
 msgid "The title of the color selection dialog"
 msgstr "Загаловак акенца выбару колеру"
 
-#: ../src/gsm_color_button.c:208 ../src/gsm_color_button.c:642
+#: ../src/gsm_color_button.c:214 ../src/gsm_color_button.c:639
 msgid "Pick a Color"
 msgstr "Абраць колер"
 
-#: ../src/gsm_color_button.c:214
+#: ../src/gsm_color_button.c:220
 msgid "Current Color"
 msgstr "Актыўны колер"
 
-#: ../src/gsm_color_button.c:215
+#: ../src/gsm_color_button.c:221
 msgid "The selected color"
 msgstr "Абраны колер"
 
-#: ../src/gsm_color_button.c:222
+#: ../src/gsm_color_button.c:228
 msgid "Type of color picker"
 msgstr "Тып выбарніка колеру"
 
-#: ../src/gsm_color_button.c:565
+#: ../src/gsm_color_button.c:562
 msgid "Received invalid color data\n"
 msgstr "Атрыманы некарэктныя звесткі пра колер\n"
 
-#: ../src/gsm_color_button.c:663
+#: ../src/gsm_color_button.c:662
 msgid "Click to set graph colors"
 msgstr "Пстрыкніце для змены колераў графіка"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
-#: ../src/interface.cpp:50
+#: ../src/interface.cpp:51
 msgid "_Monitor"
 msgstr "_Назіральнік"
 
-#: ../src/interface.cpp:51
+#: ../src/interface.cpp:52
 msgid "_Edit"
 msgstr "_Змяніць"
 
-#: ../src/interface.cpp:52
+#: ../src/interface.cpp:53
 msgid "_View"
 msgstr "_Выгляд"
 
-#: ../src/interface.cpp:53
+#: ../src/interface.cpp:54
 msgid "_Help"
 msgstr "_Даведка"
 
-#: ../src/interface.cpp:55
+#: ../src/interface.cpp:56
 msgid "Search for _Open Files"
 msgstr "Шукаць _адкрытыя файлы"
 
-#: ../src/interface.cpp:56
+#: ../src/interface.cpp:57
 msgid "Search for open files"
 msgstr "Шукаць адкрытыя файлы"
 
-#: ../src/interface.cpp:58
+#: ../src/interface.cpp:59
 msgid "Quit the program"
 msgstr "Выйсці з праграмы"
 
-#: ../src/interface.cpp:61
+#: ../src/interface.cpp:62
 msgid "_Stop Process"
 msgstr "_Спыніць працэс"
 
-#: ../src/interface.cpp:62
+#: ../src/interface.cpp:63
 msgid "Stop process"
 msgstr "Спыніць працэс"
 
-#: ../src/interface.cpp:63
+#: ../src/interface.cpp:64
 msgid "_Continue Process"
 msgstr "_Працягнуць працэс"
 
-#: ../src/interface.cpp:64
+#: ../src/interface.cpp:65
 msgid "Continue process if stopped"
 msgstr "Працягнуць працэс, калі прыпынены"
 
-#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
+#: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
 msgid "_End Process"
 msgstr "С_кончыць працэс"
 
-#: ../src/interface.cpp:67
+#: ../src/interface.cpp:68
 msgid "Force process to finish normally"
 msgstr "Карэктна скончыць працэс"
 
-#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
+#: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
 msgid "_Kill Process"
 msgstr "_Забіць працэс"
 
-#: ../src/interface.cpp:69
+#: ../src/interface.cpp:70
 msgid "Force process to finish immediately"
 msgstr "Завяршыць працэс неадкладна"
 
-#: ../src/interface.cpp:70
-msgid "_Change Priority..."
-msgstr "_Змяніць прыярытэт..."
-
 #: ../src/interface.cpp:71
+msgid "_Change Priority"
+msgstr "_Змяніць прыярытэт"
+
+#: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
 msgstr "Змяніць прыярытэт працэсу"
 
-#: ../src/interface.cpp:73
+#: ../src/interface.cpp:74
 msgid "Configure the application"
 msgstr "Наставіць праграму"
 
-#: ../src/interface.cpp:75
+#: ../src/interface.cpp:76
 msgid "_Refresh"
 msgstr "_Абнавіць"
 
-#: ../src/interface.cpp:76
+#: ../src/interface.cpp:77
 msgid "Refresh the process list"
 msgstr "Абнавіць спіс працэсаў"
 
-#: ../src/interface.cpp:78
+#: ../src/interface.cpp:79
 msgid "_Memory Maps"
 msgstr "_Мапы памяці"
 
-#: ../src/interface.cpp:79
+#: ../src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
 msgstr "Адкрываць мапы памяці, звязаныя з працэсам"
 
-#: ../src/interface.cpp:80
+#. Translators: this means 'Files that are open' (open is no verb here
+#: ../src/interface.cpp:82
 msgid "Open _Files"
 msgstr "Адкрытыя _файлы"
 
-#: ../src/interface.cpp:81
+#: ../src/interface.cpp:83
 msgid "View the files opened by a process"
 msgstr "Праглядзець файлы, адкрытыя працэсам"
 
-#: ../src/interface.cpp:83
+#: ../src/interface.cpp:84
+msgid "_Properties"
+msgstr "_Уласцівасці"
+
+#: ../src/interface.cpp:85
+msgid "View additional information about a process"
+msgstr "Паглядзець дадатковую інфармацыю пра працэс"
+
+#: ../src/interface.cpp:88
 msgid "_Contents"
 msgstr "_Змест"
 
-#: ../src/interface.cpp:84
+#: ../src/interface.cpp:89
 msgid "Open the manual"
 msgstr "Адкрыць даведку"
 
-#: ../src/interface.cpp:86
+#: ../src/interface.cpp:91
 msgid "About this application"
 msgstr "Пра праграму"
 
-#: ../src/interface.cpp:91
+#: ../src/interface.cpp:96
 msgid "_Dependencies"
 msgstr "_Залежнасці"
 
-#: ../src/interface.cpp:92
+#: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
 msgstr "Паказваць іерархічныя залежнасці працэсаў"
 
-#: ../src/interface.cpp:99
+#: ../src/interface.cpp:104
 msgid "_Active Processes"
 msgstr "_Актыўныя працэсы"
 
-#: ../src/interface.cpp:100
+#: ../src/interface.cpp:105
 msgid "Show active processes"
-msgstr "Паказаць спіс актыўных працэсаў"
+msgstr "Паказваць спіс актыўных працэсаў"
 
-#: ../src/interface.cpp:101
+#: ../src/interface.cpp:106
 msgid "A_ll Processes"
 msgstr "_Усе працэсы"
 
-#: ../src/interface.cpp:102
+#: ../src/interface.cpp:107
 msgid "Show all processes"
-msgstr "Паказаць усе працэсы"
+msgstr "Паказваць усе працэсы"
 
-#: ../src/interface.cpp:103
+#: ../src/interface.cpp:108
 msgid "M_y Processes"
 msgstr "_Мае працэсы"
 
-#: ../src/interface.cpp:104
-msgid "Show user own process"
-msgstr "Паказваць працэсы карыстальніка"
+#: ../src/interface.cpp:109
+msgid "Show only user-owned processes"
+msgstr ""
 
-#: ../src/interface.cpp:189
+#: ../src/interface.cpp:114 ../src/util.cpp:217
+msgid "Very High"
+msgstr "Вельмі высокі"
+
+#: ../src/interface.cpp:115
+msgid "Set process priority to very high"
+msgstr ""
+
+#: ../src/interface.cpp:116 ../src/util.cpp:219
+msgid "High"
+msgstr "Высокі"
+
+#: ../src/interface.cpp:117
+msgid "Set process priority to high"
+msgstr ""
+
+#: ../src/interface.cpp:118 ../src/util.cpp:221
+msgid "Normal"
+msgstr "Звычайны"
+
+#: ../src/interface.cpp:119
+msgid "Set process priority to normal"
+msgstr ""
+
+#: ../src/interface.cpp:120 ../src/util.cpp:223
+msgid "Low"
+msgstr "Нізкі"
+
+#: ../src/interface.cpp:121
+msgid "Set process priority to low"
+msgstr ""
+
+#: ../src/interface.cpp:122 ../src/util.cpp:225
+msgid "Very Low"
+msgstr "Вельмі нізкі"
+
+#: ../src/interface.cpp:123
+msgid "Set process priority to very low"
+msgstr ""
+
+#: ../src/interface.cpp:124
+msgid "Custom"
+msgstr "Іншы"
+
+#: ../src/interface.cpp:125
+msgid "Set process priority manually"
+msgstr ""
+
+#: ../src/interface.cpp:231
 msgid "End _Process"
 msgstr "Ск_ончыць працэс"
 
-#: ../src/interface.cpp:243
+#. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
+#. Sending
+#: ../src/interface.cpp:279
+#, c-format
+msgid "Pick a Color for '%s'"
+msgstr "Выбраць колер для '%s'"
+
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Гісторыя выкарыстання ЦПУ"
 
-#: ../src/interface.cpp:300
+#: ../src/interface.cpp:344 ../src/procproperties.cpp:139
 msgid "CPU"
 msgstr "ЦП"
 
-#: ../src/interface.cpp:302
+#: ../src/interface.cpp:346
 #, c-format
 msgid "CPU%d"
 msgstr "ЦП%d"
 
-#: ../src/interface.cpp:320
+#: ../src/interface.cpp:367
 msgid "Memory and Swap History"
 msgstr "Гісторыя выкарыстання памяці і прасторы swap"
 
-#: ../src/interface.cpp:359 ../src/proctable.cpp:226
+#: ../src/interface.cpp:401 ../src/proctable.cpp:262
+#: ../src/procproperties.cpp:133
 msgid "Memory"
 msgstr "Памяць"
 
-#: ../src/interface.cpp:385
+#: ../src/interface.cpp:432
 msgid "Swap"
 msgstr "Swap"
 
-#: ../src/interface.cpp:406
+#: ../src/interface.cpp:463
 msgid "Network History"
 msgstr "Гісторыя сеціва"
 
-#: ../src/interface.cpp:445
+#: ../src/interface.cpp:496
 msgid "Receiving"
 msgstr "Атрыманне"
 
-#: ../src/interface.cpp:466
+#: ../src/interface.cpp:529
 msgid "Total Received"
 msgstr "Прынята агулам"
 
-#: ../src/interface.cpp:500
+#: ../src/interface.cpp:557
 msgid "Sending"
 msgstr "Адсыланне"
 
-#: ../src/interface.cpp:522
+#: ../src/interface.cpp:591
 msgid "Total Sent"
 msgstr "Адаслана агулам"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:695
+#: ../src/interface.cpp:777
 msgid "System"
 msgstr "Сістэма"
 
-#: ../src/interface.cpp:699 ../src/procdialogs.cpp:526
+#: ../src/interface.cpp:781 ../src/procdialogs.cpp:549
 msgid "Processes"
 msgstr "Працэсы"
 
-#: ../src/interface.cpp:703 ../src/procdialogs.cpp:639
+#: ../src/interface.cpp:785 ../src/procdialogs.cpp:662
 msgid "Resources"
 msgstr "Рэсурсы"
 
-#: ../src/interface.cpp:707 ../src/procdialogs.cpp:704
-#: ../src/procdialogs.cpp:708
+#: ../src/interface.cpp:789 ../src/procdialogs.cpp:727
+#: ../src/procdialogs.cpp:731
 msgid "File Systems"
 msgstr "Файлавыя сістэмы"
 
-#: ../src/load-graph.cpp:161
+#: ../src/load-graph.cpp:170
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -371,230 +450,240 @@ msgstr[1] "%u секунды"
 msgstr[2] "%u секунд"
 msgstr[3] "%u секунд"
 
+#: ../src/load-graph.cpp:351
+msgid "not available"
+msgstr "не даступна"
+
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:343
+#: ../src/load-graph.cpp:354
 #, c-format
-msgid "%s (%.1f %%) of %s"
-msgstr "%s (%.1f %%) з %s"
+msgid "%s (%.1f%%) of %s"
+msgstr "%s (%.1f%%) з %s"
 
-#: ../src/lsof.cpp:125
+#: ../src/lsof.cpp:126
+msgid "Error"
+msgstr "Памылка"
+
+#: ../src/lsof.cpp:127
 #, c-format
-msgid ""
-"<b>Error</b>\n"
-"'%s' is not a valid Perl regular expression.\n"
-"%s"
-msgstr "<b>Памылка</b>\n'%s' не з'яўляецца дзейсным выразам Perl.\n%s"
+msgid "'%s' is not a valid Perl regular expression."
+msgstr "'%s' не ёсць дзейсным рэгулярным выразам Perl."
 
-#: ../src/lsof.cpp:271
+#: ../src/lsof.cpp:273
 msgid "Process"
 msgstr "Працэс"
 
-#: ../src/lsof.cpp:283
+#: ../src/lsof.cpp:285
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:293 ../src/memmaps.cpp:338
+#: ../src/lsof.cpp:295 ../src/memmaps.cpp:339
 msgid "Filename"
 msgstr "Назва файла"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:310
+#: ../src/lsof.cpp:312
 msgid "Search for Open Files"
 msgstr "Пошук адкрытых файлаў"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:339
 msgid "_Name contains:"
 msgstr "_Назва ўтрымлівае:"
 
+#. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
+msgid "C_lear"
+msgstr "А_чысціць"
+
+#: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
 msgstr "Не ўлічваць рэгістр"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:365
 msgid "S_earch results:"
 msgstr "_Вынікі пошуку:"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:340
+#: ../src/memmaps.cpp:341
 msgid "VM Start"
 msgstr "Пачатак VM"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:342
+#: ../src/memmaps.cpp:343
 msgid "VM End"
 msgstr "Канец VM"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:344
+#: ../src/memmaps.cpp:345
 msgid "VM Size"
 msgstr "Памер VM"
 
-#: ../src/memmaps.cpp:345
+#: ../src/memmaps.cpp:346
 msgid "Flags"
 msgstr "Сцяжкі"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:347
+#: ../src/memmaps.cpp:348
 msgid "VM Offset"
 msgstr "VM зрух"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:350
+#: ../src/memmaps.cpp:351
 msgid "Private clean"
 msgstr "Прыватная чыстая"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:353
+#: ../src/memmaps.cpp:354
 msgid "Private dirty"
 msgstr "Прыватная выкарыстаная"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:356
+#: ../src/memmaps.cpp:357
 msgid "Shared clean"
 msgstr "Супольная чыстая"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:359
+#: ../src/memmaps.cpp:360
 msgid "Shared dirty"
 msgstr "Супольная выкарыстаная"
 
-#: ../src/memmaps.cpp:361
+#: ../src/memmaps.cpp:362
 msgid "Inode"
 msgstr "Inode"
 
-#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/memmaps.cpp:470
+#: ../src/memmaps.cpp:467
 msgid "Memory Maps"
 msgstr "Мапы памяці"
 
-#: ../src/memmaps.cpp:488
+#: ../src/memmaps.cpp:479
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Мапы памяці для працэсу «%s» (PID %u):"
 
-#: ../src/openfiles.cpp:34
+#: ../src/openfiles.cpp:38
 msgid "file"
 msgstr "файл"
 
-#: ../src/openfiles.cpp:36
+#: ../src/openfiles.cpp:40
 msgid "pipe"
 msgstr "канал"
 
-#: ../src/openfiles.cpp:38
+#: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
 msgstr "сеціўнае далучэнне IPv6"
 
-#: ../src/openfiles.cpp:40
+#: ../src/openfiles.cpp:44
 msgid "IPv4 network connection"
 msgstr "сеціўнае далучэнне IPv4"
 
-#: ../src/openfiles.cpp:42
+#: ../src/openfiles.cpp:46
 msgid "local socket"
 msgstr "лакальны сокет"
 
-#: ../src/openfiles.cpp:44
+#: ../src/openfiles.cpp:48
 msgid "unknown type"
 msgstr "невядомы тып"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
-#: ../src/openfiles.cpp:246
+#: ../src/openfiles.cpp:250
 msgid "FD"
 msgstr "FD"
 
-#: ../src/openfiles.cpp:248
+#: ../src/openfiles.cpp:252
 msgid "Object"
 msgstr "Аб'ект"
 
-#: ../src/openfiles.cpp:333
+#: ../src/openfiles.cpp:337
 msgid "Open Files"
 msgstr "Адкрытыя файлы"
 
-#: ../src/openfiles.cpp:357
+#: ../src/openfiles.cpp:358
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "Файлы, адкрытыя працэсам «%s» (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
-msgid "Main Window width"
-msgstr "Шырыня асноўнага вакна"
+msgid "Main window size and position in the form (width, height, xpos, ypos)"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
-msgid "Main Window height"
-msgstr "Вышыня асноўнага вакна"
-
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Паказваць залежнасці працэсаў у выглядзе дрэва"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Solaris mode for CPU percentage"
 msgstr "Рэжым Solaris для загрузкі ЦП у адсотках"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
 msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "Калі ўключана, сістэмны назіральнік працуе ў «рэжыме Solaris», у якім загрузка ЦП для задачы падзяляецца на агульную колькасць ЦП. Інакш выкарыстоўваецца «рэжым Irix»."
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
+"is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
+"mode'."
+msgstr ""
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
 msgid "Enable/Disable smooth refresh"
 msgstr "Уключыць/адключыць мяккае абнаўленне"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
 msgid "Show warning dialog when killing processes"
 msgstr "Паказваць акенца папярэджання падчас забіцця працэсаў"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Час у мілісекундах паміж абнаўленнем прагляду працэсаў"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
 msgid "Time in milliseconds between updates of the graphs"
 msgstr "Час у мілісекундах паміж абнаўленнем графікаў"
 
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+msgid "Whether information about all file systems should be displayed"
+msgstr "Ці трэба паказваць інфармацыю пра ўсе файлавыя сістэмы"
+
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
-msgid "Whether information about all filesystems should be displayed"
-msgstr "Ці трэба паказваць звесткі пра ўсе файлавыя сістэмы"
+msgid ""
+"Whether to display information about all file systems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"file systems."
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr "Ці трэба паказваць звесткі пра ўсе файлавыя сістэмы (уключаючы такія, як autofs і procfs). Можа быць карысным атрымаць поўны спіс усіх змантаваных файлавых сістэм."
-
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
 msgstr "Час у мілісекундах паміж абнаўленнямі спіса прыладаў"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
 msgstr "Вызначае, якія працэсы паказваць стандартна. 0 — усе, 1 — карыстальніцкія, 2 — актыўныя"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
 msgid "Saves the currently viewed tab"
 msgstr "Захоўвае прагляданую картку"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr "0 — інфармацыя пра сістэму, 1 — спіс працэсаў, 2 — рэсурсаў, 3 — дыскаў"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+msgid "Default graph CPU color"
+msgstr "Стандартны колер графіка ЦП"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
 msgid "Default graph cpu color"
 msgstr "Стандартны колер графіка ЦП"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
-msgid "Default graph mem color"
+msgid "Default graph memory color"
 msgstr "Стандартны колер графіка памяці"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
@@ -764,262 +853,375 @@ msgid "Show process 'Waiting Channel' column on startup"
 msgstr "Паказваць слупок чакання ў ядры падчас запуску"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
+msgid "Width of process 'Control Group' column"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:62
+msgid "Show process 'Control Group' column on startup"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:63
+msgid "Width of process 'Unit' column"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:64
+msgid "Show process 'Unit' column on startup"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
+msgid "Width of process 'Session' column"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
+msgid "Show process 'Session' column on startup"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
+msgid "Width of process 'Seat' column"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:68
+msgid "Show process 'Seat' column on startup"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
+msgid "Width of process 'Owner' column"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
+msgid "Show process 'Owner' column on startup"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
+msgid "Width of process 'Priority' column"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
+msgid "Show process 'Priority' column on startup"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
+msgid "Disk view sort colum"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:74
+msgid "Disk view sort order"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:75
 msgid "Disk view columns order"
 msgstr "Парадак слупкоў прагляду дыска"
 
-#: ../src/procactions.cpp:75
-#, c-format
-msgid ""
-"Cannot change the priority of process with pid %d to %d.\n"
-"%s"
-msgstr "Не выйшла змяніць прыярытэт працэсу з PID %d на %d.\n%s"
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
+msgid "Memory map sort column"
+msgstr ""
 
-#: ../src/procactions.cpp:155
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
+msgid "Memory map sort order"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
+msgid "Open files sort column"
+msgstr ""
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:79
+msgid "Open files sort order"
+msgstr ""
+
+#: ../src/procactions.cpp:76
 #, c-format
 msgid ""
-"Cannot kill process with pid %d with signal %d.\n"
+"Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Не выйшла скончыць працэс з PID %d пры дапамозе сігналу %d.\n%s"
+msgstr "Немагчыма змяніць прыярытэт працэсу з PID %d да %d.\n%s"
+
+#: ../src/procactions.cpp:156
+#, c-format
+msgid ""
+"Cannot kill process with PID %d with signal %d.\n"
+"%s"
+msgstr "Немагчыма забіць працэс з PID %d з дапамогай сігналу %d.\n%s"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:70
-msgid "Kill the selected process?"
-msgstr "Зняць абраны працэс?"
+#: ../src/procdialogs.cpp:72
+#, c-format
+msgid "Kill the selected process »%s« (PID: %u)?"
+msgstr "Забіць абраны працэс »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:72
+#: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
-"security risk. Only unresponding processes should be killed."
-msgstr "Здымаючы працэс, можна знішчыць звесткі, перарваць дзейны сеанс або стварыць пагрозу бяспекі. Здымаць трэба толькі тыя працэсы, якія не адказваюць."
+"security risk. Only unresponsive processes should be killed."
+msgstr "Забіваючы працэс, можна знішчыць звесткі, перарваць дзейны сеанс або стварыць пагрозу бяспекі. Забіваць трэба толькі тыя працэсы, якія не адказваюць."
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:79
-msgid "End the selected process?"
-msgstr "Скончыць абраны працэс?"
+#: ../src/procdialogs.cpp:83
+#, c-format
+msgid "End the selected process »%s« (PID: %u)?"
+msgstr "Скончыць абраны працэс »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:81
+#: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
-" risk. Only unresponding processes should be ended."
-msgstr "Скончваючы працэс, можна знішчыць звесткі, перарваць працоўны сеанс або стварыць пагрозу бяспекі. Скончваць трэба толькі тыя працэсы, якія не адказваюць."
+" risk. Only unresponsive processes should be ended."
+msgstr "Скончваючы працэс, можна знішчыць звесткі, перарваць дзейны сеанс ці стварыць пагрозу бяспекі. Скончваць трэба толькі тыя працэсы, якія не адказваюць."
 
-#: ../src/procdialogs.cpp:115
-msgid "(Very High Priority)"
-msgstr "(Вельмі высокі прыярытэт)"
+#: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
+#, c-format
+msgid "(%s Priority)"
+msgstr "(Прыярытэт %s)"
 
-#: ../src/procdialogs.cpp:117
-msgid "(High Priority)"
-msgstr "(Высокі прыярытэт)"
+#: ../src/procdialogs.cpp:173
+#, c-format
+msgid "Change Priority of Process »%s« (PID: %u)"
+msgstr "Змяніць прыярытэт працэсу »%s« (PID: %u)"
 
-#: ../src/procdialogs.cpp:119
-msgid "(Normal Priority)"
-msgstr "(Звычайны прыярытэт)"
-
-#: ../src/procdialogs.cpp:121
-msgid "(Low Priority)"
-msgstr "(Нізкі прыярытэт)"
-
-#: ../src/procdialogs.cpp:123
-msgid "(Very Low Priority)"
-msgstr "(Вельмі нізкі прыярытэт)"
-
-#: ../src/procdialogs.cpp:179
-msgid "Change Priority"
-msgstr "Змяніць прыярытэт"
-
-#: ../src/procdialogs.cpp:202
+#: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
 msgstr "Змяніць _прыярытэт"
 
-#: ../src/procdialogs.cpp:223
+#: ../src/procdialogs.cpp:208
 msgid "_Nice value:"
 msgstr "Значэнне _прыярытэту:"
 
-#: ../src/procdialogs.cpp:239
+#: ../src/procdialogs.cpp:229
 msgid "Note:"
-msgstr "Нататкі:"
+msgstr "Заўважце:"
 
-#: ../src/procdialogs.cpp:240
+#: ../src/procdialogs.cpp:230
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "Меншае значэнне адпавядае вышэйшаму прыярытэту."
 
-#: ../src/procdialogs.cpp:456
+#: ../src/procdialogs.cpp:467
 msgid "Icon"
 msgstr "Значок"
 
-#: ../src/procdialogs.cpp:501
+#: ../src/procdialogs.cpp:526
 msgid "System Monitor Preferences"
 msgstr "Настáўленні сістэмнага назіральніка"
 
-#: ../src/procdialogs.cpp:533
+#: ../src/procdialogs.cpp:556
 msgid "Behavior"
 msgstr "Паводзіны"
 
-#: ../src/procdialogs.cpp:552 ../src/procdialogs.cpp:665
-#: ../src/procdialogs.cpp:727
+#: ../src/procdialogs.cpp:575 ../src/procdialogs.cpp:688
+#: ../src/procdialogs.cpp:750
 msgid "_Update interval in seconds:"
 msgstr "_Перыяд абнаўлення ў секундах:"
 
-#: ../src/procdialogs.cpp:577
+#: ../src/procdialogs.cpp:600
 msgid "Enable _smooth refresh"
 msgstr "Уключыць _мяккае абнаўленне"
 
-#: ../src/procdialogs.cpp:590
+#: ../src/procdialogs.cpp:613
 msgid "Alert before ending or _killing processes"
 msgstr "Паказваць папярэджанне падчас сканчэння ці за_бойства працэсаў"
 
-#: ../src/procdialogs.cpp:604
+#: ../src/procdialogs.cpp:626
+msgid "Divide CPU usage by CPU count"
+msgstr "Дзяліць выкарыстанне ЦП на колькасць ЦП"
+
+#: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
 msgstr "Рэжым Solaris"
 
-#: ../src/procdialogs.cpp:621 ../src/procdialogs.cpp:761
+#: ../src/procdialogs.cpp:644 ../src/procdialogs.cpp:784
 msgid "Information Fields"
 msgstr "Інфармацыйныя палі"
 
-#: ../src/procdialogs.cpp:634
+#: ../src/procdialogs.cpp:657
 msgid "Process i_nformation shown in list:"
 msgstr "Інфармацыя пра працэсы, якая паказваецца ў спісе:"
 
-#: ../src/procdialogs.cpp:646
+#: ../src/procdialogs.cpp:669
 msgid "Graphs"
 msgstr "Графікі"
 
-#: ../src/procdialogs.cpp:685
+#: ../src/procdialogs.cpp:708
 msgid "Show network speed in bits"
 msgstr "Паказваць хуткасць сеткі ў бітах"
 
-#: ../src/procdialogs.cpp:747
-msgid "Show _all filesystems"
-msgstr "Паказаць _усе файлавыя сістэмы"
+#: ../src/procdialogs.cpp:770
+msgid "Show _all file systems"
+msgstr "Паказваць _усе файлавыя сістэмы"
 
-#: ../src/procdialogs.cpp:774
+#: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
 msgstr "Інфармацыя пра _файлавую сістэму, якая паказваецца ў спісе:"
 
-#: ../src/procman.cpp:672
+#: ../src/procman.cpp:659
 msgid "A simple process and system monitor."
 msgstr "Просты назіральнік за працэсамі і сістэмай."
 
-#: ../src/proctable.cpp:211
+#: ../src/proctable.cpp:247 ../src/procproperties.cpp:130
 msgid "Process Name"
 msgstr "Назва працэса"
 
-#: ../src/proctable.cpp:212
+#: ../src/proctable.cpp:248 ../src/procproperties.cpp:131
 msgid "User"
 msgstr "Карыстальнік"
 
-#: ../src/proctable.cpp:213
+#: ../src/proctable.cpp:249 ../src/procproperties.cpp:132
 msgid "Status"
 msgstr "Стан"
 
-#: ../src/proctable.cpp:214
+#: ../src/proctable.cpp:250 ../src/procproperties.cpp:134
 msgid "Virtual Memory"
 msgstr "Віртуальная памяць"
 
-#: ../src/proctable.cpp:215
+#: ../src/proctable.cpp:251 ../src/procproperties.cpp:135
 msgid "Resident Memory"
 msgstr "Рэзыдэнтная памяць"
 
-#: ../src/proctable.cpp:216
+#: ../src/proctable.cpp:252 ../src/procproperties.cpp:136
 msgid "Writable Memory"
 msgstr "Запісвальная памяць"
 
-#: ../src/proctable.cpp:217
+#: ../src/proctable.cpp:253 ../src/procproperties.cpp:137
 msgid "Shared Memory"
 msgstr "Супольная памяць"
 
-#: ../src/proctable.cpp:218
+#: ../src/proctable.cpp:254 ../src/procproperties.cpp:138
 msgid "X Server Memory"
 msgstr "Памяць X-сервера"
 
-#: ../src/proctable.cpp:219
+#: ../src/proctable.cpp:255
 #, no-c-format
 msgid "% CPU"
 msgstr "% ЦПУ"
 
-#: ../src/proctable.cpp:220
+#: ../src/proctable.cpp:256 ../src/procproperties.cpp:140
 msgid "CPU Time"
 msgstr "Час ЦП"
 
-#: ../src/proctable.cpp:221
+#: ../src/proctable.cpp:257 ../src/procproperties.cpp:141
 msgid "Started"
 msgstr "Калі запушчаны"
 
-#: ../src/proctable.cpp:222
+#: ../src/proctable.cpp:258 ../src/procproperties.cpp:142
 msgid "Nice"
 msgstr "Nice"
 
-#: ../src/proctable.cpp:223
+#: ../src/proctable.cpp:259 ../src/procproperties.cpp:144
 msgid "ID"
 msgstr "ID"
 
-#: ../src/proctable.cpp:224
+#: ../src/proctable.cpp:260 ../src/procproperties.cpp:145
 msgid "Security Context"
 msgstr "Кантэкст бяспекі"
 
-#: ../src/proctable.cpp:225
+#: ../src/proctable.cpp:261 ../src/procproperties.cpp:146
 msgid "Command Line"
 msgstr "Загадны радок"
 
-#. xgettext: wchan, see ps(1) or top(1)
-#: ../src/proctable.cpp:228
+#. xgettext: combined noun, the function the process is waiting in, see wchan
+#. ps(1)
+#: ../src/proctable.cpp:264 ../src/procproperties.cpp:147
 msgid "Waiting Channel"
 msgstr "Чаканне ў ядры"
 
-#: ../src/proctable.cpp:945
+#: ../src/proctable.cpp:265
+msgid "Control Group"
+msgstr ""
+
+#: ../src/proctable.cpp:266
+msgid "Unit"
+msgstr ""
+
+#: ../src/proctable.cpp:267
+msgid "Session"
+msgstr "Сеанс"
+
+#. TRANSLATORS: Seat = i.e. the physical seat the session of the process
+#. belongs to, only
+#. for multi-seat environments. See
+#. http://en.wikipedia.org/wiki/Multiseat_configuration
+#: ../src/proctable.cpp:270
+msgid "Seat"
+msgstr ""
+
+#: ../src/proctable.cpp:271
+msgid "Owner"
+msgstr "Уладальнік"
+
+#: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
+msgid "Priority"
+msgstr "Прыярытэт"
+
+#: ../src/proctable.cpp:1096
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Сярэдняя загрузка за апошнія 1, 5, 15 хвілін: %0.2f, %0.2f, %0.2f"
 
-#: ../src/sysinfo.cpp:77
+#: ../src/procproperties.cpp:104 ../src/util.cpp:420
+msgid "N/A"
+msgstr ""
+
+#: ../src/procproperties.cpp:140
 #, c-format
-msgid "Release %s"
-msgstr "Выданне %s"
+msgid "%lld second"
+msgid_plural "%lld seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/sysinfo.cpp:116
-msgid "Unknown CPU model"
-msgstr "Невядомая мадэль ЦП"
+#: ../src/procproperties.cpp:258
+msgid "Process Properties"
+msgstr "Уласцівасці працэсу"
 
-#: ../src/sysinfo.cpp:594
+#: ../src/procproperties.cpp:278
+#, c-format
+msgid "Properties of process \"%s\" (PID %u):"
+msgstr "Уласцівасці працэсу \"%s\" (PID %u):"
+
+#. Translators: The first string parameter is release version (codename),
+#. * the second one is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:78
+#, c-format
+msgid "Release %s %s"
+msgstr "Выданне %s %s"
+
+#. translators: This is the type of architecture, for example:
+#. * "64-bit" or "32-bit"
+#: ../src/sysinfo.cpp:115
+#, c-format
+msgid "%d-bit"
+msgstr "%d-бітны"
+
+#: ../src/sysinfo.cpp:780
 #, c-format
 msgid "Kernel %s"
 msgstr "Ядро %s"
 
-#: ../src/sysinfo.cpp:607
+#: ../src/sysinfo.cpp:794
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:621
-#, c-format
-msgid "<b>Hardware</b>"
-msgstr "<b>Апаратура</b>"
+#: ../src/sysinfo.cpp:809
+msgid "Hardware"
+msgstr "Апаратура"
 
-#: ../src/sysinfo.cpp:626
+#: ../src/sysinfo.cpp:814
 msgid "Memory:"
 msgstr "Памяць:"
 
-#: ../src/sysinfo.cpp:633
-#, c-format
-msgid "Processor %d:"
-msgstr "Працэсар %d:"
-
-#: ../src/sysinfo.cpp:638
+#: ../src/sysinfo.cpp:818
 msgid "Processor:"
 msgstr "Працэсар:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:650
-#, c-format
-msgid "<b>System Status</b>"
-msgstr "<b>Стан сістэмы</b>"
+#: ../src/sysinfo.cpp:826
+msgid "System Status"
+msgstr "Стан сістэмы"
 
-#: ../src/sysinfo.cpp:656
+#: ../src/sysinfo.cpp:831
 msgid "Available disk space:"
 msgstr "Наяўная дыскавая прастора:"
 
@@ -1067,37 +1269,47 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:164
-#, c-format
-msgid "%.1f KiB"
-msgstr "%.1f Кб"
-
-#: ../src/util.cpp:165
-#, c-format
-msgid "%.1f MiB"
-msgstr "%.1f Мб"
-
 #: ../src/util.cpp:166
 #, c-format
-msgid "%.1f GiB"
-msgstr "%.1f Гб"
+msgid "%.1f KiB"
+msgstr "%.1f Кіб"
 
 #: ../src/util.cpp:167
 #, c-format
-msgid "%.1f kbit"
-msgstr "%.1f кбіт"
+msgid "%.1f MiB"
+msgstr "%.1f Міб"
 
 #: ../src/util.cpp:168
 #, c-format
-msgid "%.1f Mbit"
-msgstr "%.1f Мбіт"
+msgid "%.1f GiB"
+msgstr "%.1f Гіб"
 
 #: ../src/util.cpp:169
 #, c-format
-msgid "%.1f Gbit"
-msgstr "%.1f Гбіт"
+msgid "%.1f TiB"
+msgstr "%.1f ЦіБ"
 
-#: ../src/util.cpp:184
+#: ../src/util.cpp:170
+#, c-format
+msgid "%.3g kbit"
+msgstr "%.3g кбіт"
+
+#: ../src/util.cpp:171
+#, c-format
+msgid "%.3g Mbit"
+msgstr "%.3g Мбіт"
+
+#: ../src/util.cpp:172
+#, c-format
+msgid "%.3g Gbit"
+msgstr "%.3g Гбіт"
+
+#: ../src/util.cpp:173
+#, c-format
+msgid "%.3g Tbit"
+msgstr "%.3g Тбіт"
+
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
@@ -1106,7 +1318,7 @@ msgstr[1] "%u біты"
 msgstr[2] "%u бітаў"
 msgstr[3] "%u бітаў"
 
-#: ../src/util.cpp:185
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
@@ -1115,12 +1327,8 @@ msgstr[1] "%u байты"
 msgstr[2] "%u байтаў"
 msgstr[3] "%u байтаў"
 
-#: ../src/util.cpp:373
-msgid "<i>N/A</i>"
-msgstr "<i>Няма</i>"
-
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:490
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/с"

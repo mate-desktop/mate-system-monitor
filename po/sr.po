@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-10 15:09+0100\n"
-"PO-Revision-Date: 2014-11-16 15:19+0000\n"
+"POT-Creation-Date: 2014-12-19 01:20+0100\n"
+"PO-Revision-Date: 2014-12-25 08:21+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/MATE/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -37,24 +37,36 @@ msgstr "<p> Мејтов пратилац система омогућава гр
 msgid "MATE System Monitor"
 msgstr "Мејтов пратилац система"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:160
-#: ../src/interface.cpp:619 ../src/procman.cpp:716
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
+#: ../src/interface.cpp:690 ../src/procman.cpp:710
 msgid "System Monitor"
 msgstr "Праћење система"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:161
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
 msgstr "Прегледајте текуће процесе и пратите стање система"
 
-#: ../src/argv.cpp:18
+#: ../src/argv.cpp:21
 msgid "Show the System tab"
 msgstr "Прикажи језичак система"
 
-#: ../src/callbacks.cpp:170
-msgid "translator-credits"
-msgstr "Душан Марјановић <madafaka@root.co.yu>\nДанило Шеган <danilo@prevod.org>\nСлободан Д. Средојевић <slobo@akrep.be>\nМилош Поповић <gpopac@gmail.com>\nБранко Кокановић <branko.kokanovic@gmail.com>\nМирослав Николић <miroslavnikolic@rocketmail.com>\n\nPrevod.org — превод на српски језик."
+#: ../src/argv.cpp:26
+msgid "Show the Processes tab"
+msgstr "Прикажи језичак процеса"
 
-#: ../src/disks.cpp:299 ../src/memmaps.cpp:360
+#: ../src/argv.cpp:31
+msgid "Show the Resources tab"
+msgstr "Прикажи језичак изворишта"
+
+#: ../src/argv.cpp:36
+msgid "Show the File Systems tab"
+msgstr "Прикажи језичак система датотека"
+
+#: ../src/callbacks.cpp:196
+msgid "translator-credits"
+msgstr "Душан Марјановић <madafaka@root.co.yu>\nДанило Шеган <danilo@prevod.org>\nСлободан Д. Средојевић <slobo@akrep.be>\nМилош Поповић <gpopac@gmail.com>\nБранко Кокановић <branko.kokanovic@gmail.com>\nМирослав Николић <miroslavnikolic@rocketmail.com>\n\nhttp://prevod.org — превод на српски језик."
+
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:361
 msgid "Device"
 msgstr "Уређај"
 
@@ -62,7 +74,7 @@ msgstr "Уређај"
 msgid "Directory"
 msgstr "Директоријум"
 
-#: ../src/disks.cpp:301 ../src/gsm_color_button.c:221 ../src/openfiles.cpp:247
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:227 ../src/openfiles.cpp:251
 msgid "Type"
 msgstr "Врста"
 
@@ -107,256 +119,323 @@ msgstr "%d. %b. у %l:%M %p"
 msgid "%b %d %Y"
 msgstr "%d. %b. %Y."
 
-#: ../src/gsm_color_button.c:198
+#: ../src/gsm_color_button.c:203
 msgid "Fraction"
 msgstr "Део"
 
-#: ../src/gsm_color_button.c:199
-msgid "Percentage full for pie colour pickers"
-msgstr "Пуни проценат за бирач боје пите"
+#. TRANSLATORS: description of the pie color picker's (mem, swap) filled
+#. percentage property
+#: ../src/gsm_color_button.c:205
+msgid "Percentage full for pie color pickers"
+msgstr "Проценат испуњености за бираче боја пите"
 
-#: ../src/gsm_color_button.c:206
+#: ../src/gsm_color_button.c:212
 msgid "Title"
 msgstr "Наслов"
 
-#: ../src/gsm_color_button.c:207
+#: ../src/gsm_color_button.c:213
 msgid "The title of the color selection dialog"
 msgstr "Наслов прозорчета за избор боје"
 
-#: ../src/gsm_color_button.c:208 ../src/gsm_color_button.c:642
+#: ../src/gsm_color_button.c:214 ../src/gsm_color_button.c:639
 msgid "Pick a Color"
 msgstr "Изаберите боју"
 
-#: ../src/gsm_color_button.c:214
+#: ../src/gsm_color_button.c:220
 msgid "Current Color"
 msgstr "Тренутна боја"
 
-#: ../src/gsm_color_button.c:215
+#: ../src/gsm_color_button.c:221
 msgid "The selected color"
 msgstr "Изабрана боја"
 
-#: ../src/gsm_color_button.c:222
+#: ../src/gsm_color_button.c:228
 msgid "Type of color picker"
 msgstr "Врста изборника боје"
 
-#: ../src/gsm_color_button.c:565
+#: ../src/gsm_color_button.c:562
 msgid "Received invalid color data\n"
 msgstr "Примљени су неисправни подаци\n"
 
-#: ../src/gsm_color_button.c:663
+#: ../src/gsm_color_button.c:662
 msgid "Click to set graph colors"
 msgstr "Кликните да поставите боје графика"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
-#: ../src/interface.cpp:50
+#: ../src/interface.cpp:51
 msgid "_Monitor"
 msgstr "_Прати"
 
-#: ../src/interface.cpp:51
+#: ../src/interface.cpp:52
 msgid "_Edit"
 msgstr "_Уреди"
 
-#: ../src/interface.cpp:52
+#: ../src/interface.cpp:53
 msgid "_View"
 msgstr "П_реглед"
 
-#: ../src/interface.cpp:53
+#: ../src/interface.cpp:54
 msgid "_Help"
 msgstr "По_моћ"
 
-#: ../src/interface.cpp:55
+#: ../src/interface.cpp:56
 msgid "Search for _Open Files"
 msgstr "Потражи _отворене датотеке"
 
-#: ../src/interface.cpp:56
+#: ../src/interface.cpp:57
 msgid "Search for open files"
 msgstr "Потражите отворене датотеке"
 
-#: ../src/interface.cpp:58
+#: ../src/interface.cpp:59
 msgid "Quit the program"
 msgstr "Изађи из програма"
 
-#: ../src/interface.cpp:61
+#: ../src/interface.cpp:62
 msgid "_Stop Process"
 msgstr "_Заустави процес"
 
-#: ../src/interface.cpp:62
+#: ../src/interface.cpp:63
 msgid "Stop process"
 msgstr "Зауставите процес"
 
-#: ../src/interface.cpp:63
+#: ../src/interface.cpp:64
 msgid "_Continue Process"
 msgstr "_Настави процес"
 
-#: ../src/interface.cpp:64
+#: ../src/interface.cpp:65
 msgid "Continue process if stopped"
 msgstr "Наставите рад процеса ако је заустављен"
 
-#: ../src/interface.cpp:66 ../src/procdialogs.cpp:84
+#: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
 msgid "_End Process"
 msgstr "_Окончај процес"
 
-#: ../src/interface.cpp:67
+#: ../src/interface.cpp:68
 msgid "Force process to finish normally"
 msgstr "Приморајте процес да уобичајено заврши рад"
 
-#: ../src/interface.cpp:68 ../src/procdialogs.cpp:75
+#: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
 msgid "_Kill Process"
 msgstr "_Убиј процес"
 
-#: ../src/interface.cpp:69
+#: ../src/interface.cpp:70
 msgid "Force process to finish immediately"
 msgstr "Приморајте процес да одмах заврши рад"
 
-#: ../src/interface.cpp:70
-msgid "_Change Priority..."
-msgstr "Промени _хитност..."
-
 #: ../src/interface.cpp:71
+msgid "_Change Priority"
+msgstr "Промени _важност"
+
+#: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
 msgstr "Измените редослед важности изабраног процеса"
 
-#: ../src/interface.cpp:73
+#: ../src/interface.cpp:74
 msgid "Configure the application"
 msgstr "Подесите програм"
 
-#: ../src/interface.cpp:75
+#: ../src/interface.cpp:76
 msgid "_Refresh"
 msgstr "_Освежи"
 
-#: ../src/interface.cpp:76
+#: ../src/interface.cpp:77
 msgid "Refresh the process list"
 msgstr "Освежите списак процеса"
 
-#: ../src/interface.cpp:78
+#: ../src/interface.cpp:79
 msgid "_Memory Maps"
 msgstr "_Мапе меморије"
 
-#: ../src/interface.cpp:79
+#: ../src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
 msgstr "Отворите мапе меморије које користи процес"
 
-#: ../src/interface.cpp:80
+#. Translators: this means 'Files that are open' (open is no verb here
+#: ../src/interface.cpp:82
 msgid "Open _Files"
 msgstr "Отвори _датотеке"
 
-#: ../src/interface.cpp:81
+#: ../src/interface.cpp:83
 msgid "View the files opened by a process"
 msgstr "Погледајте датотеке које је отворио процес"
 
-#: ../src/interface.cpp:83
+#: ../src/interface.cpp:84
+msgid "_Properties"
+msgstr "_Својства"
+
+#: ../src/interface.cpp:85
+msgid "View additional information about a process"
+msgstr "Прегледајте додатне податке о процесу"
+
+#: ../src/interface.cpp:88
 msgid "_Contents"
 msgstr "_Садржај"
 
-#: ../src/interface.cpp:84
+#: ../src/interface.cpp:89
 msgid "Open the manual"
 msgstr "Отворите приручник"
 
-#: ../src/interface.cpp:86
+#: ../src/interface.cpp:91
 msgid "About this application"
 msgstr "О овом програму"
 
-#: ../src/interface.cpp:91
+#: ../src/interface.cpp:96
 msgid "_Dependencies"
 msgstr "_Међузависности"
 
-#: ../src/interface.cpp:92
+#: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
 msgstr "Прикажите међусобне односе процеса"
 
-#: ../src/interface.cpp:99
+#: ../src/interface.cpp:104
 msgid "_Active Processes"
 msgstr "_Активни процеси"
 
-#: ../src/interface.cpp:100
+#: ../src/interface.cpp:105
 msgid "Show active processes"
 msgstr "Прикажите радне процесе"
 
-#: ../src/interface.cpp:101
+#: ../src/interface.cpp:106
 msgid "A_ll Processes"
 msgstr "_Сви процеси"
 
-#: ../src/interface.cpp:102
+#: ../src/interface.cpp:107
 msgid "Show all processes"
 msgstr "Прикажите све процесе"
 
-#: ../src/interface.cpp:103
+#: ../src/interface.cpp:108
 msgid "M_y Processes"
 msgstr "_Моји процеси"
 
-#: ../src/interface.cpp:104
-msgid "Show user own process"
-msgstr "Прикажите корисникове процесе"
+#: ../src/interface.cpp:109
+msgid "Show only user-owned processes"
+msgstr "Прикажите само процесе у власништву корисника"
 
-#: ../src/interface.cpp:189
+#: ../src/interface.cpp:114 ../src/util.cpp:217
+msgid "Very High"
+msgstr "Врло висока"
+
+#: ../src/interface.cpp:115
+msgid "Set process priority to very high"
+msgstr "Поставите важност процеса на врло високу"
+
+#: ../src/interface.cpp:116 ../src/util.cpp:219
+msgid "High"
+msgstr "Висока"
+
+#: ../src/interface.cpp:117
+msgid "Set process priority to high"
+msgstr "Поставите важност процеса на високу"
+
+#: ../src/interface.cpp:118 ../src/util.cpp:221
+msgid "Normal"
+msgstr "Обична"
+
+#: ../src/interface.cpp:119
+msgid "Set process priority to normal"
+msgstr "Поставите важност процеса на обичну"
+
+#: ../src/interface.cpp:120 ../src/util.cpp:223
+msgid "Low"
+msgstr "Ниска"
+
+#: ../src/interface.cpp:121
+msgid "Set process priority to low"
+msgstr "Поставите важност процеса на ниску"
+
+#: ../src/interface.cpp:122 ../src/util.cpp:225
+msgid "Very Low"
+msgstr "Врло ниска"
+
+#: ../src/interface.cpp:123
+msgid "Set process priority to very low"
+msgstr "Поставите важност процеса на врло ниску"
+
+#: ../src/interface.cpp:124
+msgid "Custom"
+msgstr "Произвољна"
+
+#: ../src/interface.cpp:125
+msgid "Set process priority manually"
+msgstr "Поставите важност процеса на произвољну"
+
+#: ../src/interface.cpp:231
 msgid "End _Process"
 msgstr "_Окончај процес"
 
-#: ../src/interface.cpp:243
+#. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
+#. Sending
+#: ../src/interface.cpp:279
+#, c-format
+msgid "Pick a Color for '%s'"
+msgstr "Изаберите боју за „%s“"
+
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Временски дијаграм процесора"
 
-#: ../src/interface.cpp:300
+#: ../src/interface.cpp:344 ../src/procproperties.cpp:139
 msgid "CPU"
 msgstr "Процесор"
 
-#: ../src/interface.cpp:302
+#: ../src/interface.cpp:346
 #, c-format
 msgid "CPU%d"
 msgstr "Процесор %d"
 
-#: ../src/interface.cpp:320
+#: ../src/interface.cpp:367
 msgid "Memory and Swap History"
 msgstr "Временски дијаграм оперативне и виртуелне меморије"
 
-#: ../src/interface.cpp:359 ../src/proctable.cpp:226
+#: ../src/interface.cpp:401 ../src/proctable.cpp:262
+#: ../src/procproperties.cpp:133
 msgid "Memory"
 msgstr "Оперативна меморија"
 
-#: ../src/interface.cpp:385
+#: ../src/interface.cpp:432
 msgid "Swap"
 msgstr "Виртуелна меморија"
 
-#: ../src/interface.cpp:406
+#: ../src/interface.cpp:463
 msgid "Network History"
 msgstr "Временски дијаграм мрежног саобраћаја"
 
-#: ../src/interface.cpp:445
+#: ../src/interface.cpp:496
 msgid "Receiving"
 msgstr "Брзина примања"
 
-#: ../src/interface.cpp:466
+#: ../src/interface.cpp:529
 msgid "Total Received"
 msgstr "Укупно је примљено"
 
-#: ../src/interface.cpp:500
+#: ../src/interface.cpp:557
 msgid "Sending"
 msgstr "Брзина слања"
 
-#: ../src/interface.cpp:522
+#: ../src/interface.cpp:591
 msgid "Total Sent"
 msgstr "Укупно је послато"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:695
+#: ../src/interface.cpp:777
 msgid "System"
 msgstr "Систем"
 
-#: ../src/interface.cpp:699 ../src/procdialogs.cpp:526
+#: ../src/interface.cpp:781 ../src/procdialogs.cpp:549
 msgid "Processes"
 msgstr "Процеси"
 
-#: ../src/interface.cpp:703 ../src/procdialogs.cpp:639
+#: ../src/interface.cpp:785 ../src/procdialogs.cpp:662
 msgid "Resources"
 msgstr "Ресурси"
 
-#: ../src/interface.cpp:707 ../src/procdialogs.cpp:704
-#: ../src/procdialogs.cpp:708
+#: ../src/interface.cpp:789 ../src/procdialogs.cpp:727
+#: ../src/procdialogs.cpp:731
 msgid "File Systems"
 msgstr "Системи датотека"
 
-#: ../src/load-graph.cpp:161
+#: ../src/load-graph.cpp:170
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
@@ -364,230 +443,240 @@ msgstr[0] "%u секунда"
 msgstr[1] "%u секунде"
 msgstr[2] "%u секунди"
 
+#: ../src/load-graph.cpp:351
+msgid "not available"
+msgstr "недоступно"
+
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:343
+#: ../src/load-graph.cpp:354
 #, c-format
-msgid "%s (%.1f %%) of %s"
-msgstr "%s (%.1f %%) од %s"
+msgid "%s (%.1f%%) of %s"
+msgstr "%s (%.1f%%) од %s"
 
-#: ../src/lsof.cpp:125
+#: ../src/lsof.cpp:126
+msgid "Error"
+msgstr "Грешка"
+
+#: ../src/lsof.cpp:127
 #, c-format
-msgid ""
-"<b>Error</b>\n"
-"'%s' is not a valid Perl regular expression.\n"
-"%s"
-msgstr "<b>Грешка</b>\n„%s“ није исправан регуларан израз Перла.\n%s"
+msgid "'%s' is not a valid Perl regular expression."
+msgstr "„%s“ није исправан регуларни израз Перла."
 
-#: ../src/lsof.cpp:271
+#: ../src/lsof.cpp:273
 msgid "Process"
 msgstr "Процес"
 
-#: ../src/lsof.cpp:283
+#: ../src/lsof.cpp:285
 msgid "PID"
 msgstr "ПИБ"
 
-#: ../src/lsof.cpp:293 ../src/memmaps.cpp:338
+#: ../src/lsof.cpp:295 ../src/memmaps.cpp:339
 msgid "Filename"
 msgstr "Датотека"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:310
+#: ../src/lsof.cpp:312
 msgid "Search for Open Files"
 msgstr "Потражи отворене датотеке"
 
-#: ../src/lsof.cpp:337
+#: ../src/lsof.cpp:339
 msgid "_Name contains:"
 msgstr "_Назив садржи:"
 
+#. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
+msgid "C_lear"
+msgstr "_Очисти"
+
+#: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
 msgstr "Не разликуј величину слова"
 
-#: ../src/lsof.cpp:361
+#: ../src/lsof.cpp:365
 msgid "S_earch results:"
 msgstr "Резултати _претраге:"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:340
+#: ../src/memmaps.cpp:341
 msgid "VM Start"
 msgstr "Почетак ВМ"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:342
+#: ../src/memmaps.cpp:343
 msgid "VM End"
 msgstr "Крај ВМ"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:344
+#: ../src/memmaps.cpp:345
 msgid "VM Size"
 msgstr "Величина ВМ"
 
-#: ../src/memmaps.cpp:345
+#: ../src/memmaps.cpp:346
 msgid "Flags"
 msgstr "Параметри"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:347
+#: ../src/memmaps.cpp:348
 msgid "VM Offset"
 msgstr "Померај ВМ"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:350
+#: ../src/memmaps.cpp:351
 msgid "Private clean"
 msgstr "Приватна немењана"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:353
+#: ../src/memmaps.cpp:354
 msgid "Private dirty"
 msgstr "Приватна мењана"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:356
+#: ../src/memmaps.cpp:357
 msgid "Shared clean"
 msgstr "Дељена немењана"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:359
+#: ../src/memmaps.cpp:360
 msgid "Shared dirty"
 msgstr "Дељена мењана"
 
-#: ../src/memmaps.cpp:361
+#: ../src/memmaps.cpp:362
 msgid "Inode"
 msgstr "И-чвор"
 
-#. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/memmaps.cpp:470
+#: ../src/memmaps.cpp:467
 msgid "Memory Maps"
 msgstr "Мапе меморије"
 
-#: ../src/memmaps.cpp:488
+#: ../src/memmaps.cpp:479
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "_Мапе меморије за процес „%s“ (ИБ процеса %u):"
 
-#: ../src/openfiles.cpp:34
+#: ../src/openfiles.cpp:38
 msgid "file"
 msgstr "датотека"
 
-#: ../src/openfiles.cpp:36
+#: ../src/openfiles.cpp:40
 msgid "pipe"
 msgstr "спојка"
 
-#: ../src/openfiles.cpp:38
+#: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
 msgstr "ИПв6 мрежна веза"
 
-#: ../src/openfiles.cpp:40
+#: ../src/openfiles.cpp:44
 msgid "IPv4 network connection"
 msgstr "ИПв4 мрежна веза"
 
-#: ../src/openfiles.cpp:42
+#: ../src/openfiles.cpp:46
 msgid "local socket"
 msgstr "локална утичница"
 
-#: ../src/openfiles.cpp:44
+#: ../src/openfiles.cpp:48
 msgid "unknown type"
 msgstr "непозната врста"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
-#: ../src/openfiles.cpp:246
+#: ../src/openfiles.cpp:250
 msgid "FD"
 msgstr "Описник"
 
-#: ../src/openfiles.cpp:248
+#: ../src/openfiles.cpp:252
 msgid "Object"
 msgstr "Објекат"
 
-#: ../src/openfiles.cpp:333
+#: ../src/openfiles.cpp:337
 msgid "Open Files"
 msgstr "Отворене датотеке"
 
-#: ../src/openfiles.cpp:357
+#: ../src/openfiles.cpp:358
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "_Датотеке које је отворио процес „%s“ (ИБ процеса %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
-msgid "Main Window width"
-msgstr "Ширина главног прозора"
+msgid "Main window size and position in the form (width, height, xpos, ypos)"
+msgstr "Величина и положај главног прозора у облику (ширина, висина, х-положај, у-положај)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
-msgid "Main Window height"
-msgstr "Висина главног прозора"
-
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Show process dependencies in tree form"
 msgstr "Приказује међузависност процеса у облику стабла"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Solaris mode for CPU percentage"
-msgstr "Соларис начин рада за проценат процесора"
+msgstr "Режим Солариса за проценат процесора"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
+msgid ""
+"If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
+"is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
+"mode'."
+msgstr "Ако је изабрано, пратилац система ради у „режиму Солариса“ у коме се оптерећење процесора по задатку дели укупним бројем процесора. У супротном ради у „режиму Ирикса“."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
-msgid ""
-"If TRUE, system-monitor operates in 'Solaris mode' where a task's cpu usage "
-"is divided by the total number of CPUs. Else it operates in 'Irix mode'."
-msgstr "Ако је изабрано, пратилац система ће радити у Соларисовом режиму рада где је процесорско време задатка подељено са укупним бројем процесора. У супротном, радиће у Ирикс режиму."
-
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
 msgid "Enable/Disable smooth refresh"
 msgstr "Укључује/искључује прецизно, меко освежавање"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
 msgid "Show warning dialog when killing processes"
 msgstr "Приказује упозорење пре убијања процеса"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
 msgid "Time in milliseconds between updates of the process view"
 msgstr "Време у милисекундама између освежавања списка процеса"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:8
 msgid "Time in milliseconds between updates of the graphs"
 msgstr "Време у милисекундама између освежавања графика"
 
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
+msgid "Whether information about all file systems should be displayed"
+msgstr "Да ли ће приказати податке о свим системима датотека"
+
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
-msgid "Whether information about all filesystems should be displayed"
-msgstr "Да ли да прикаже податке о свим системима датотека"
+msgid ""
+"Whether to display information about all file systems (including types like "
+"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
+"file systems."
+msgstr "Да ли треба да прикаже податке о свим системима датотека (укључујући врсте као што су autofs„“ и „procfs“). Корисно за добијање списка свих тренутно прикачених система датотека."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
-msgid ""
-"Whether to display information about all filesystems (including types like "
-"'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
-"filesystems."
-msgstr "Да ли ће бити приказани подаци о свим системима датотека, (укључујући и врсте система датотека „autofs“ и „procfs“). Корисно је за добављање списка свих тренутно прикључених система датотека."
-
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
 msgstr "Време у милисекундама између освежавања списка уређаја"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:12
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
 msgstr "Одређује које процесе подразумевано приказати. 0 је за све, 1 за корисникове и 2 за активне"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
 msgid "Saves the currently viewed tab"
 msgstr "Чува тренутно прегледани језичак"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr "0 за Системске Информације, 1 за листу процеса, 2 за ресурсе и 3 за листу дискова"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
+msgid "Default graph CPU color"
+msgstr "Основна боја графика процесора"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
 msgid "Default graph cpu color"
 msgstr "Основна боја графика процесора"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
-msgid "Default graph mem color"
+msgid "Default graph memory color"
 msgstr "Основна боја графика меморије"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
@@ -757,262 +846,374 @@ msgid "Show process 'Waiting Channel' column on startup"
 msgstr "Приказује колону канал чекања процеса по покретању"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
+msgid "Width of process 'Control Group' column"
+msgstr "Ширина колоне управљачке групе процеса"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:62
+msgid "Show process 'Control Group' column on startup"
+msgstr "Приказује колону управљачке групе процеса по покретању"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:63
+msgid "Width of process 'Unit' column"
+msgstr "Ширина колоне јединице процеса"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:64
+msgid "Show process 'Unit' column on startup"
+msgstr "Приказује колону јединице процеса по покретању"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
+msgid "Width of process 'Session' column"
+msgstr "Ширина колоне сесије процеса"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
+msgid "Show process 'Session' column on startup"
+msgstr "Приказује колону сесије процеса по покретању"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
+msgid "Width of process 'Seat' column"
+msgstr "Ширина колоне смештаја процеса"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:68
+msgid "Show process 'Seat' column on startup"
+msgstr "Приказује колону смештаја процеса по покретању"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
+msgid "Width of process 'Owner' column"
+msgstr "Ширина колоне власника процеса"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
+msgid "Show process 'Owner' column on startup"
+msgstr "Приказује колону власника процеса по покретању"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
+msgid "Width of process 'Priority' column"
+msgstr "Ширина колоне важности процеса"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
+msgid "Show process 'Priority' column on startup"
+msgstr "Приказује колону важности процеса по покретању"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
+msgid "Disk view sort colum"
+msgstr "Колона поретка у прегледу диска"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:74
+msgid "Disk view sort order"
+msgstr "Редослед ређања у прегледу диска"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:75
 msgid "Disk view columns order"
 msgstr "Поредак колона у прегледу диска"
 
-#: ../src/procactions.cpp:75
-#, c-format
-msgid ""
-"Cannot change the priority of process with pid %d to %d.\n"
-"%s"
-msgstr "Не могу да променим хитност процеса са пиб-ом %d на %d.\n%s"
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
+msgid "Memory map sort column"
+msgstr "Колона поретка карте меморије"
 
-#: ../src/procactions.cpp:155
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
+msgid "Memory map sort order"
+msgstr "Редослед ређања карте меморије"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
+msgid "Open files sort column"
+msgstr "Колона поретка отворених датотека"
+
+#: ../src/org.mate.system-monitor.gschema.xml.in.in.h:79
+msgid "Open files sort order"
+msgstr "Редослед ређања отворених датотека"
+
+#: ../src/procactions.cpp:76
 #, c-format
 msgid ""
-"Cannot kill process with pid %d with signal %d.\n"
+"Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Не могу да убијем процес са пиб-ом %d помоћу сигнала %d.\n%s"
+msgstr "Не могу да изменим важност процеса са ПИБ-ом %d на %d.\n%s"
+
+#: ../src/procactions.cpp:156
+#, c-format
+msgid ""
+"Cannot kill process with PID %d with signal %d.\n"
+"%s"
+msgstr "Не могу да убијем процес са ПИБ-ом %d сигналом „%d“.\n%s"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:70
-msgid "Kill the selected process?"
-msgstr "Да убијем изабрани процес?"
+#: ../src/procdialogs.cpp:72
+#, c-format
+msgid "Kill the selected process »%s« (PID: %u)?"
+msgstr "Да убијем изабрани процес „%s“ (ПИБ: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:72
+#: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
-"security risk. Only unresponding processes should be killed."
-msgstr "Убијање неког процеса може уништити податке, прекинути текућу сесију или проузроковати безбедносни пропуст. Требало би убити само процесе који се не одазивају."
+"security risk. Only unresponsive processes should be killed."
+msgstr "Убијање процеса може да уништи податке, прекине сесију или да доведе до безбедносног ризика. Треба убијати само процесе који се не одазивају."
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:79
-msgid "End the selected process?"
-msgstr "Да окончам изабрани процес?"
+#: ../src/procdialogs.cpp:83
+#, c-format
+msgid "End the selected process »%s« (PID: %u)?"
+msgstr "Да окончам изабрани процес „%s“ (ПИБ: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:81
+#: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
-" risk. Only unresponding processes should be ended."
-msgstr "Окончавање неког процеса може уништити податке, прекинути текућу сесију или проузроковати безбедносни пропуст. Требало би окончати само процесе који се не одазивају."
+" risk. Only unresponsive processes should be ended."
+msgstr "Окончавање процеса може да уништи податке, прекине сесију или да доведе до безбедносног ризика. Треба окончавати само процесе који се не одазивају."
 
-#: ../src/procdialogs.cpp:115
-msgid "(Very High Priority)"
-msgstr "(Врло висока важност)"
+#: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
+#, c-format
+msgid "(%s Priority)"
+msgstr "(%s важност)"
 
-#: ../src/procdialogs.cpp:117
-msgid "(High Priority)"
-msgstr "(Висока важност)"
+#: ../src/procdialogs.cpp:173
+#, c-format
+msgid "Change Priority of Process »%s« (PID: %u)"
+msgstr "Измените важност процеса „%s“ (ПИБ: %u)"
 
-#: ../src/procdialogs.cpp:119
-msgid "(Normal Priority)"
-msgstr "(Обична важност)"
-
-#: ../src/procdialogs.cpp:121
-msgid "(Low Priority)"
-msgstr "(Ниска важност)"
-
-#: ../src/procdialogs.cpp:123
-msgid "(Very Low Priority)"
-msgstr "(Врло ниска важност)"
-
-#: ../src/procdialogs.cpp:179
-msgid "Change Priority"
-msgstr "Промените хитност"
-
-#: ../src/procdialogs.cpp:202
+#: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
-msgstr "Промени _хитност"
+msgstr "Промени _важност"
 
-#: ../src/procdialogs.cpp:223
+#: ../src/procdialogs.cpp:208
 msgid "_Nice value:"
 msgstr "Вредност за _лепо понашање:"
 
-#: ../src/procdialogs.cpp:239
+#: ../src/procdialogs.cpp:229
 msgid "Note:"
 msgstr "Обавештење:"
 
-#: ../src/procdialogs.cpp:240
+#: ../src/procdialogs.cpp:230
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Хитност процеса је задата вредношћу његовог лепог понашања. Нижа вредност представља вишу хитност."
+msgstr "Важност процеса је задата вредношћу његовог лепог понашања. Нижа вредност представља вишу важност."
 
-#: ../src/procdialogs.cpp:456
+#: ../src/procdialogs.cpp:467
 msgid "Icon"
 msgstr "Иконица"
 
-#: ../src/procdialogs.cpp:501
+#: ../src/procdialogs.cpp:526
 msgid "System Monitor Preferences"
 msgstr "Поставке праћења система"
 
-#: ../src/procdialogs.cpp:533
+#: ../src/procdialogs.cpp:556
 msgid "Behavior"
 msgstr "Понашање"
 
-#: ../src/procdialogs.cpp:552 ../src/procdialogs.cpp:665
-#: ../src/procdialogs.cpp:727
+#: ../src/procdialogs.cpp:575 ../src/procdialogs.cpp:688
+#: ../src/procdialogs.cpp:750
 msgid "_Update interval in seconds:"
 msgstr "Период _освежавања (у секундама):"
 
-#: ../src/procdialogs.cpp:577
+#: ../src/procdialogs.cpp:600
 msgid "Enable _smooth refresh"
 msgstr "Укључи прецизно, _меко освежавање"
 
-#: ../src/procdialogs.cpp:590
+#: ../src/procdialogs.cpp:613
 msgid "Alert before ending or _killing processes"
 msgstr "Прикажи упозорење пре _окончавања или убијања процеса"
 
-#: ../src/procdialogs.cpp:604
+#: ../src/procdialogs.cpp:626
+msgid "Divide CPU usage by CPU count"
+msgstr "Подели оптерећење процесора њиховим бројем"
+
+#: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
 msgstr "Соларис режим"
 
-#: ../src/procdialogs.cpp:621 ../src/procdialogs.cpp:761
+#: ../src/procdialogs.cpp:644 ../src/procdialogs.cpp:784
 msgid "Information Fields"
 msgstr "Поља са подацима"
 
-#: ../src/procdialogs.cpp:634
+#: ../src/procdialogs.cpp:657
 msgid "Process i_nformation shown in list:"
 msgstr "Подаци о _процесима приказани у списку:"
 
-#: ../src/procdialogs.cpp:646
+#: ../src/procdialogs.cpp:669
 msgid "Graphs"
 msgstr "Графици"
 
-#: ../src/procdialogs.cpp:685
+#: ../src/procdialogs.cpp:708
 msgid "Show network speed in bits"
 msgstr "Прикажи брзину мреже у битовима"
 
-#: ../src/procdialogs.cpp:747
-msgid "Show _all filesystems"
+#: ../src/procdialogs.cpp:770
+msgid "Show _all file systems"
 msgstr "Прикажи _све системе датотека"
 
-#: ../src/procdialogs.cpp:774
+#: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
 msgstr "Подаци о систему _датотека приказани на списку:"
 
-#: ../src/procman.cpp:672
+#: ../src/procman.cpp:659
 msgid "A simple process and system monitor."
 msgstr "Једноставан програм за праћење система и процеса."
 
-#: ../src/proctable.cpp:211
+#: ../src/proctable.cpp:247 ../src/procproperties.cpp:130
 msgid "Process Name"
 msgstr "Назив процеса"
 
-#: ../src/proctable.cpp:212
+#: ../src/proctable.cpp:248 ../src/procproperties.cpp:131
 msgid "User"
 msgstr "Корисник"
 
-#: ../src/proctable.cpp:213
+#: ../src/proctable.cpp:249 ../src/procproperties.cpp:132
 msgid "Status"
 msgstr "Стање"
 
-#: ../src/proctable.cpp:214
+#: ../src/proctable.cpp:250 ../src/procproperties.cpp:134
 msgid "Virtual Memory"
 msgstr "Виртуелна меморија"
 
-#: ../src/proctable.cpp:215
+#: ../src/proctable.cpp:251 ../src/procproperties.cpp:135
 msgid "Resident Memory"
 msgstr "Преостала меморија"
 
-#: ../src/proctable.cpp:216
+#: ../src/proctable.cpp:252 ../src/procproperties.cpp:136
 msgid "Writable Memory"
 msgstr "Уписива меморија"
 
-#: ../src/proctable.cpp:217
+#: ../src/proctable.cpp:253 ../src/procproperties.cpp:137
 msgid "Shared Memory"
 msgstr "Дељена меморија"
 
-#: ../src/proctable.cpp:218
+#: ../src/proctable.cpp:254 ../src/procproperties.cpp:138
 msgid "X Server Memory"
 msgstr "Меморија Икс сервера"
 
-#: ../src/proctable.cpp:219
+#: ../src/proctable.cpp:255
 #, no-c-format
 msgid "% CPU"
 msgstr "Процесор — %"
 
-#: ../src/proctable.cpp:220
+#: ../src/proctable.cpp:256 ../src/procproperties.cpp:140
 msgid "CPU Time"
 msgstr "Време процесора"
 
-#: ../src/proctable.cpp:221
+#: ../src/proctable.cpp:257 ../src/procproperties.cpp:141
 msgid "Started"
 msgstr "Покренут"
 
-#: ../src/proctable.cpp:222
+#: ../src/proctable.cpp:258 ../src/procproperties.cpp:142
 msgid "Nice"
 msgstr "Хитност"
 
-#: ../src/proctable.cpp:223
+#: ../src/proctable.cpp:259 ../src/procproperties.cpp:144
 msgid "ID"
 msgstr "ИБ"
 
-#: ../src/proctable.cpp:224
+#: ../src/proctable.cpp:260 ../src/procproperties.cpp:145
 msgid "Security Context"
 msgstr "Безбедносни контекст"
 
-#: ../src/proctable.cpp:225
+#: ../src/proctable.cpp:261 ../src/procproperties.cpp:146
 msgid "Command Line"
 msgstr "Линија наредби"
 
-#. xgettext: wchan, see ps(1) or top(1)
-#: ../src/proctable.cpp:228
+#. xgettext: combined noun, the function the process is waiting in, see wchan
+#. ps(1)
+#: ../src/proctable.cpp:264 ../src/procproperties.cpp:147
 msgid "Waiting Channel"
 msgstr "Канал чекања"
 
-#: ../src/proctable.cpp:945
+#: ../src/proctable.cpp:265
+msgid "Control Group"
+msgstr "Управљачка група"
+
+#: ../src/proctable.cpp:266
+msgid "Unit"
+msgstr "Јединица"
+
+#: ../src/proctable.cpp:267
+msgid "Session"
+msgstr "Сесија"
+
+#. TRANSLATORS: Seat = i.e. the physical seat the session of the process
+#. belongs to, only
+#. for multi-seat environments. See
+#. http://en.wikipedia.org/wiki/Multiseat_configuration
+#: ../src/proctable.cpp:270
+msgid "Seat"
+msgstr "Смештај"
+
+#: ../src/proctable.cpp:271
+msgid "Owner"
+msgstr "Власник"
+
+#: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
+msgid "Priority"
+msgstr "Важност"
+
+#: ../src/proctable.cpp:1096
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Просечно оптерећење у последњих 1, 5 и 15 минута: %0.2f, %0.2f, %0.2f"
 
-#: ../src/sysinfo.cpp:77
+#: ../src/procproperties.cpp:104 ../src/util.cpp:420
+msgid "N/A"
+msgstr "Н/Д"
+
+#: ../src/procproperties.cpp:140
 #, c-format
-msgid "Release %s"
-msgstr "Издање %s"
+msgid "%lld second"
+msgid_plural "%lld seconds"
+msgstr[0] "%lld секунда"
+msgstr[1] "%lld секунде"
+msgstr[2] "%lld секунди"
 
-#: ../src/sysinfo.cpp:116
-msgid "Unknown CPU model"
-msgstr "Непознат процесор"
+#: ../src/procproperties.cpp:258
+msgid "Process Properties"
+msgstr "Својства процеса"
 
-#: ../src/sysinfo.cpp:594
+#: ../src/procproperties.cpp:278
+#, c-format
+msgid "Properties of process \"%s\" (PID %u):"
+msgstr "Својства процеса „%s“ (ПИБ %u):"
+
+#. Translators: The first string parameter is release version (codename),
+#. * the second one is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:78
+#, c-format
+msgid "Release %s %s"
+msgstr "Издање %s %s"
+
+#. translators: This is the type of architecture, for example:
+#. * "64-bit" or "32-bit"
+#: ../src/sysinfo.cpp:115
+#, c-format
+msgid "%d-bit"
+msgstr "%d-бита"
+
+#: ../src/sysinfo.cpp:780
 #, c-format
 msgid "Kernel %s"
 msgstr "Кернел %s"
 
-#: ../src/sysinfo.cpp:607
+#: ../src/sysinfo.cpp:794
 #, c-format
 msgid "MATE %s"
 msgstr "Мејт %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:621
-#, c-format
-msgid "<b>Hardware</b>"
-msgstr "<b>Делови рачунара</b>"
+#: ../src/sysinfo.cpp:809
+msgid "Hardware"
+msgstr "Хардвер"
 
-#: ../src/sysinfo.cpp:626
+#: ../src/sysinfo.cpp:814
 msgid "Memory:"
 msgstr "Меморија:"
 
-#: ../src/sysinfo.cpp:633
-#, c-format
-msgid "Processor %d:"
-msgstr "Процесор %d:"
-
-#: ../src/sysinfo.cpp:638
+#: ../src/sysinfo.cpp:818
 msgid "Processor:"
 msgstr "Процесор:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:650
-#, c-format
-msgid "<b>System Status</b>"
-msgstr "<b>Стање система</b>"
+#: ../src/sysinfo.cpp:826
+msgid "System Status"
+msgstr "Стање система"
 
-#: ../src/sysinfo.cpp:656
+#: ../src/sysinfo.cpp:831
 msgid "Available disk space:"
 msgstr "Расположив простор диска:"
 
@@ -1060,37 +1261,47 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:164
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:165
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:166
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:167
-#, c-format
-msgid "%.1f kbit"
-msgstr "%.1f kbit"
-
-#: ../src/util.cpp:168
-#, c-format
-msgid "%.1f Mbit"
-msgstr "%.1f Mbit"
-
 #: ../src/util.cpp:169
 #, c-format
-msgid "%.1f Gbit"
-msgstr "%.1f Gbit"
+msgid "%.1f TiB"
+msgstr "%.1f TiB"
 
-#: ../src/util.cpp:184
+#: ../src/util.cpp:170
+#, c-format
+msgid "%.3g kbit"
+msgstr "%.3g kbit"
+
+#: ../src/util.cpp:171
+#, c-format
+msgid "%.3g Mbit"
+msgstr "%.3g Mbit"
+
+#: ../src/util.cpp:172
+#, c-format
+msgid "%.3g Gbit"
+msgstr "%.3g Gbit"
+
+#: ../src/util.cpp:173
+#, c-format
+msgid "%.3g Tbit"
+msgstr "%.3g Tbit"
+
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
@@ -1098,7 +1309,7 @@ msgstr[0] "%u бит"
 msgstr[1] "%u бита"
 msgstr[2] "%u битова"
 
-#: ../src/util.cpp:185
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
@@ -1106,12 +1317,8 @@ msgstr[0] "%u бајт"
 msgstr[1] "%u бајта"
 msgstr[2] "%u бајтова"
 
-#: ../src/util.cpp:373
-msgid "<i>N/A</i>"
-msgstr "<i>недоступно</i>"
-
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:490
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-01-03 19:35+0000\n"
+"PO-Revision-Date: 2015-03-12 18:18+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgstr "Показати вкладку файлові системи"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Юрій Сирота\nКирило Полежаєв <polezhajev@ukr.net>\nМаксим Дзюманенко <dziumanenko@gmail.com>\nМикола Ткач <Stuartlittle1970@gmail.com>"
+msgstr "Юрій Сирота <yuri@beer.com>\nКирило Полежаєв <polezhajev@ukr.net>\nМаксим Дзюманенко <dziumanenko@gmail.com>\nМикола Ткач <Stuartlittle1970@gmail.com>"
 
 #: ../src/disks.cpp:299 ../src/memmaps.cpp:361
 msgid "Device"

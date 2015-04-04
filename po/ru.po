@@ -4,8 +4,10 @@
 # 
 # Translators:
 # Alexander Sigachov <ajvol2@gmail.com>, 2007
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2014
+# Alexei Sorokin <sor.alexei@meowr.ru>, 2014-2015
+# AlexL <loginov.alex.valer@gmail.com>, 2015
 # Andrew W. Nosenko <awn@bcs.zp.ua>, 2003
+# bizdelnick <bizdelnick@gmail.com>, 2015
 # Eugene V. Samusev <samusev@gmail.com>, 2014
 # Leonid Kanter <leon@asplinux.ru>, 2004, 2005, 2006
 # Sergey Volozhanin <svo@asplinux.ru>, 2001
@@ -16,8 +18,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-01-10 15:33+0000\n"
-"Last-Translator: Виктор Кукшиев <andrey0bolkonsky@gmail.com>\n"
+"PO-Revision-Date: 2015-02-28 20:27+0000\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -133,7 +135,7 @@ msgstr "Доля"
 #. percentage property
 #: ../src/gsm_color_button.c:205
 msgid "Percentage full for pie color pickers"
-msgstr ""
+msgstr "Доля заполнения для полос выбора цвета"
 
 #: ../src/gsm_color_button.c:212
 msgid "Title"
@@ -231,7 +233,7 @@ msgstr "Завершить процесс немедленно"
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr ""
+msgstr "_Изменить приоритет"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
@@ -268,11 +270,11 @@ msgstr "Просмотреть файлы, открытые процессом"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Параметры"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Показать дополнительную информацию о процессе"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -316,55 +318,55 @@ msgstr "_Мои процессы"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Показать только процессы пользователя"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Самый высокий"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Установить очень высокий приоритет процесса"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "Высокий"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Установить высокий приоритет процесса"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Нормальный"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Установить нормальный приоритет процесса"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "Низкий"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Установить низкий приоритет процесса"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "Очень низкий"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Установить очень низкий приоритет процесса"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Вручную"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Установить приоритет процесса вручную"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -375,7 +377,7 @@ msgstr "Завер_шить процесс"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Выбор цвета для '%s'"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -457,7 +459,7 @@ msgstr "недоступно"
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) из %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
@@ -466,7 +468,7 @@ msgstr "Ошибка"
 #: ../src/lsof.cpp:127
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr ""
+msgstr "'%s' не является корректным регулярным выражением Perl."
 
 #: ../src/lsof.cpp:273
 msgid "Process"
@@ -492,7 +494,7 @@ msgstr "_Имя содержит:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
 msgid "C_lear"
-msgstr ""
+msgstr "_Очистить"
 
 #: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
@@ -609,7 +611,7 @@ msgstr "Файлы, открытые процессом «%s» (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "Размер и положение главного окна в виде (ширина, высота, X_положение, Y_положение)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
 msgid "Show process dependencies in tree form"
@@ -624,7 +626,7 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr ""
+msgstr "Если включено, то системный монитор работает в «режиме Solaris», когда использование процессора делится на общее число процессоров. В противном случае он работает в «режиме Irix»."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
 msgid "Enable/Disable smooth refresh"
@@ -644,14 +646,14 @@ msgstr "Время в миллисекундах между обновление
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "Отображать ли информацию обо всех файловых системах"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
 msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr ""
+msgstr "Отображать ли информацию обо всех файловых системах (включая такие типы, как «autofs» и «procfs»). Позволяет получить список всех примонтированных файловых систем."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
 msgid "Time in milliseconds between updates of the devices list"
@@ -675,7 +677,7 @@ msgstr "0 — информация о системе, 1 — список про�
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
 msgid "Default graph CPU color"
-msgstr ""
+msgstr "Цвет графика CPU по умолчанию"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
 msgid "Default graph cpu color"
@@ -683,7 +685,7 @@ msgstr "Цвет графика ЦП по умолчанию"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
 msgid "Default graph memory color"
-msgstr ""
+msgstr "Цвет графика памяти по умолчанию"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
 msgid "Default graph swap color"
@@ -853,59 +855,59 @@ msgstr "Показывать столбец ожидания в ядре при 
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "Ширина столбца «Группа управления» процесса"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:62
 msgid "Show process 'Control Group' column on startup"
-msgstr ""
+msgstr "Показывать столбец «Группа управления» процесса при запуске"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:63
 msgid "Width of process 'Unit' column"
-msgstr ""
+msgstr "Ширина столбца «Единица измерения» процесса"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:64
 msgid "Show process 'Unit' column on startup"
-msgstr ""
+msgstr "Показывать столбец «Единица измерения» процесса при запуске"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "Ширина столбца «Сессия» процесса"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "Показывать столбец «Сессия» при запуске"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "Ширина столбца «Рабочее место» процесса"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:68
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "Показывать столбец «Рабочее место» при запуске"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Ширина столбца «Владелец» процесса"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "Показывать столбец «Владелец» при запуске"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "Ширина столбца «Приоритет» процесса"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "Показывать столбец «Приоритет» при запуске"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
 msgid "Disk view sort colum"
-msgstr ""
+msgstr "Столбец сортировки просмотра диска"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:74
 msgid "Disk view sort order"
-msgstr ""
+msgstr "Порядок сортировки просмотра диска"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:75
 msgid "Disk view columns order"
@@ -913,69 +915,69 @@ msgstr "Порядок столбцов просмотра диска"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
 msgid "Memory map sort column"
-msgstr ""
+msgstr "Столбец сортировки карты памяти"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
 msgid "Memory map sort order"
-msgstr ""
+msgstr "Порядок сортировки карты памяти"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
 msgid "Open files sort column"
-msgstr ""
+msgstr "Столбец сортировки открытых файлов"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:79
 msgid "Open files sort order"
-msgstr ""
+msgstr "Порядок сортировки открытых файлов"
 
 #: ../src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "Невозможно изменить приоритет процесса с PID %d на %d.\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "Невозможно послать процессу с PID %d сигнал %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "Убить процесс «%s» (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "Убийство процесса может привести к уничтожению данных, обрыву сессии или создать уязвимость. Следует убивать только зависшие процессы."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "Завершить выбранный процесс «%s» (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "Завершение процесса может привести к уничтожению данных, обрыву сессии или создать уязвимость. Следует завершать только зависшие процессы."
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(Приоритет %s)"
 
 #: ../src/procdialogs.cpp:173
 #, c-format
 msgid "Change Priority of Process »%s« (PID: %u)"
-msgstr ""
+msgstr "Изменить приоритет процесса «%s» (PID: %u)"
 
 #: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
@@ -1022,7 +1024,7 @@ msgstr "Предупреждать перед _завершением или с�
 
 #: ../src/procdialogs.cpp:626
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "Делить использование CPU на число CPU"
 
 #: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
@@ -1046,7 +1048,7 @@ msgstr "Показывать скорость сети в битах"
 
 #: ../src/procdialogs.cpp:770
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Показать _все файловые системы"
 
 #: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
@@ -1125,15 +1127,15 @@ msgstr "Ожидание в ядре"
 
 #: ../src/proctable.cpp:265
 msgid "Control Group"
-msgstr ""
+msgstr "Группа управления"
 
 #: ../src/proctable.cpp:266
 msgid "Unit"
-msgstr ""
+msgstr "Единица измерения"
 
 #: ../src/proctable.cpp:267
 msgid "Session"
-msgstr ""
+msgstr "Сеанс"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1141,15 +1143,15 @@ msgstr ""
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
 #: ../src/proctable.cpp:270
 msgid "Seat"
-msgstr ""
+msgstr "Рабочее место"
 
 #: ../src/proctable.cpp:271
 msgid "Owner"
-msgstr ""
+msgstr "Владелец"
 
 #: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
 msgid "Priority"
-msgstr ""
+msgstr "Приоритет"
 
 #: ../src/proctable.cpp:1096
 #, c-format
@@ -1158,38 +1160,38 @@ msgstr "Средняя загрузка за последние 1, 5, 15 мин�
 
 #: ../src/procproperties.cpp:104 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "Н/Д"
 
 #: ../src/procproperties.cpp:140
 #, c-format
 msgid "%lld second"
 msgid_plural "%lld seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%lld секунда"
+msgstr[1] "%lld секунды"
+msgstr[2] "%lld секунд"
 
 #: ../src/procproperties.cpp:258
 msgid "Process Properties"
-msgstr ""
+msgstr "Свойства процесса"
 
 #: ../src/procproperties.cpp:278
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "Параметры процесса \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "Выпуск %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-разрядный"
 
 #: ../src/sysinfo.cpp:780
 #, c-format
@@ -1204,7 +1206,7 @@ msgstr "MATE %s"
 #. hardware section
 #: ../src/sysinfo.cpp:809
 msgid "Hardware"
-msgstr ""
+msgstr "Оборудование"
 
 #: ../src/sysinfo.cpp:814
 msgid "Memory:"
@@ -1217,7 +1219,7 @@ msgstr "Процесссор:"
 #. disk space section
 #: ../src/sysinfo.cpp:826
 msgid "System Status"
-msgstr ""
+msgstr "Состояние системы"
 
 #: ../src/sysinfo.cpp:831
 msgid "Available disk space:"
@@ -1285,27 +1287,27 @@ msgstr "%.1f ГиБ"
 #: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f ТиБ"
 
 #: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g кбит"
 
 #: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Мбит"
 
 #: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Гбит"
 
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Тбит"
 
 #: ../src/util.cpp:188
 #, c-format

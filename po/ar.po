@@ -4,20 +4,23 @@
 # 
 # Translators:
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004-2005
+# alibacha19 <alibacha19@gmail.com>, 2015
 # Anas Afif Emad <anas.e87@gmail.com, 2008-2009
+# Anas El Husseini <linux.anas@gmail.com>, 2007
 # Anas El Husseini <linux.anas@gmail.com>, 2007
 # Djihed Afifi <djihed@gmail.com>, 2006
 # Khaled Hosny <khaledhosny@eglug.org>, 2006-2010
-# mehdi_setifi <chinoune.mehdi@gmail.com>, 2014
+# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2014
 # Mosaab Alzoubi <moceap@hotmail.com>, 2013
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002,2004
+# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-23 06:19+0000\n"
-"Last-Translator: mehdi_setifi <chinoune.mehdi@gmail.com>\n"
+"PO-Revision-Date: 2015-03-07 10:55+0000\n"
+"Last-Translator: مهدي السطيفي <chinoune.mehdi@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -324,7 +327,7 @@ msgstr "عالية جدا"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr "ضبط أولوية العملية على جد عالية"
+msgstr "ضبط أولوية العملية على عالية جدا"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
@@ -375,7 +378,7 @@ msgstr "أ_نه العملية"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "اختر لونا لـ: '%s'"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -460,7 +463,7 @@ msgstr "غير متاح"
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) من %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
@@ -495,7 +498,7 @@ msgstr "الا_سم يحتوي:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
 msgid "C_lear"
-msgstr ""
+msgstr "ا_مسح"
 
 #: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
@@ -612,7 +615,7 @@ msgstr "الملفات المفتوحة بالعملية \"%s\" (PID %Iu):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "حجم و موضع النافذة الرئيسة على هيئة (عُرض، ارتفاع، س، ع)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
 msgid "Show process dependencies in tree form"
@@ -647,7 +650,7 @@ msgstr "الوقت بالمللي ثانية بين تحديثات الرسم ا
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "أي من معلومات أنظمة الملفات يجب عرضها."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
 msgid ""
@@ -856,27 +859,27 @@ msgstr "اعرض عمود 'قناة الانتظار' عند بدء التشغي
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "عُرض عمود 'مجموعة التحكم'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:62
 msgid "Show process 'Control Group' column on startup"
-msgstr ""
+msgstr "عرض عمود 'مجموعة التحكم' عند البدء"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:63
 msgid "Width of process 'Unit' column"
-msgstr ""
+msgstr "عُرض عمود 'الوحدة'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:64
 msgid "Show process 'Unit' column on startup"
-msgstr ""
+msgstr "عرض عمود 'الوحدة' عند البدء"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "عُرض عمود 'الجلسة'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "عرض عمود 'الجلسة' عند البدء"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
 msgid "Width of process 'Seat' column"
@@ -888,19 +891,19 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "عُرض عمود 'المالك'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "عرض عمود 'المالك' عند البدء"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "عُرض عمود 'الأولوية'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "عرض عمود 'الأولوية' عند البدء"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
 msgid "Disk view sort colum"
@@ -935,7 +938,7 @@ msgstr ""
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "لا يُمكن تغيير أولوية العملية ذات  PID %d إلى %d.\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
@@ -948,37 +951,37 @@ msgstr ""
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "هل تريد قتل العملية »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "قتل عملية يمكن أن تخرّب البيانات أو توقف الجلسة أو تجلب خطرا أمنيا. يجب قتل العمليات غير المستجيبة فقط."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "هل تريد إنهاء العملية »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "إنهاء عملية قد يخرب بيانات، يوقف الجلسة أو يسبّب خطرا أمنيا. يجب إنهاء العمليات عير المستجيبة فقط."
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(أولوية %s)"
 
 #: ../src/procdialogs.cpp:173
 #, c-format
 msgid "Change Priority of Process »%s« (PID: %u)"
-msgstr ""
+msgstr "تغيير أولوية العملية »%s« (PID: %u)"
 
 #: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
@@ -1025,7 +1028,7 @@ msgstr "نبّه عند إنهاء أو _قتل العمليّات"
 
 #: ../src/procdialogs.cpp:626
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "قسّم استخدام المعالج على عدد المعالجات"
 
 #: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
@@ -1049,7 +1052,7 @@ msgstr "اعرض سرعة الشبكة بالبتات"
 
 #: ../src/procdialogs.cpp:770
 msgid "Show _all file systems"
-msgstr ""
+msgstr "عرض كل أنظمة الملفات"
 
 #: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
@@ -1128,15 +1131,15 @@ msgstr "قَناة الانتظار"
 
 #: ../src/proctable.cpp:265
 msgid "Control Group"
-msgstr ""
+msgstr "مجموعة التحكم"
 
 #: ../src/proctable.cpp:266
 msgid "Unit"
-msgstr ""
+msgstr "وحدة"
 
 #: ../src/proctable.cpp:267
 msgid "Session"
-msgstr ""
+msgstr "جلسة"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1167,12 +1170,12 @@ msgstr ""
 #, c-format
 msgid "%lld second"
 msgid_plural "%lld seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "%lld ثانية"
+msgstr[1] "ثانية"
+msgstr[2] "ثانيتان"
+msgstr[3] "%lld ثوان"
+msgstr[4] "%lld ثانية"
+msgstr[5] "%lld ثانية"
 
 #: ../src/procproperties.cpp:258
 msgid "Process Properties"
@@ -1181,21 +1184,21 @@ msgstr "خصائص العملية"
 #: ../src/procproperties.cpp:278
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "خصائص العملية \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "الإصدار %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-بت"
 
 #: ../src/sysinfo.cpp:780
 #, c-format
@@ -1253,90 +1256,90 @@ msgstr "نائمة"
 #: ../src/util.cpp:101
 #, c-format
 msgid "%uw%ud"
-msgstr "%Iuأ%Iuي"
+msgstr "%uأ%uي"
 
 #. xgettext: days, hours (0 -> 23)
 #: ../src/util.cpp:105
 #, c-format
 msgid "%ud%02uh"
-msgstr "%Iuي%02uس"
+msgstr "%uي%02uس"
 
 #. xgettext: hours (0 -> 23), minutes, seconds
 #: ../src/util.cpp:109
 #, c-format
 msgid "%u:%02u:%02u"
-msgstr "%Iu:%02u:%02u"
+msgstr "%u:%02u:%02u"
 
 #. xgettext: minutes, seconds, centiseconds
 #: ../src/util.cpp:112
 #, c-format
 msgid "%u:%02u.%02u"
-msgstr "%Iu:%02u.%02u"
+msgstr "%u:%02u.%02u"
 
 #: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
-msgstr "%I.1f كب"
+msgstr "%.1f كب"
 
 #: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
-msgstr "%I.1f مب"
+msgstr "%.1f مب"
 
 #: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
-msgstr "%I.1f غب"
+msgstr "%.1f غب"
 
 #: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f تب"
 
 #: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
-msgstr "%.3g ك.بتة"
+msgstr "%.3g ك.بت"
 
 #: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
-msgstr "%.3g م.بتة"
+msgstr "%.3g م.بت"
 
 #: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
-msgstr "%.3g غ.بتة"
+msgstr "%.3g غ.بت"
 
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
-msgstr "%.3g ت.بتة"
+msgstr "%.3g ت.بت"
 
 #: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%Iu بتة"
-msgstr[1] "بتة واحدة"
-msgstr[2] "بتتين"
-msgstr[3] "%Iu بتات"
-msgstr[4] "%Iu بتة"
-msgstr[5] "%Iu بتة"
+msgstr[0] "%u بت"
+msgstr[1] "بت واحد"
+msgstr[2] "بتين"
+msgstr[3] "%u بتات"
+msgstr[4] "%u بت"
+msgstr[5] "%u بت"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%Iu بايت"
+msgstr[0] "%u بايت"
 msgstr[1] "بايت واحد"
 msgstr[2] "بايتين"
-msgstr[3] "%Iu بايتات"
-msgstr[4] "%Iu بايت"
-msgstr[5] "%Iu بايت"
+msgstr[3] "%u بايتات"
+msgstr[4] "%u بايت"
+msgstr[5] "%u بايت"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
-msgstr "%s/ثا"
+msgstr "%s\\ثا"

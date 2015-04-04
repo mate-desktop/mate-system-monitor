@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2015
 # Kostas Papadimas <pkst@gnome.org>, 2003, 2004, 2005, 2008
 # Nikos Charonitakis <frolix68@yahoo.gr>, 2004
 # Simos Xenitellis ,<simos74@gmx.net>, 2002
@@ -11,8 +12,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-19 00:23+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
+"PO-Revision-Date: 2015-03-19 23:22+0000\n"
+"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/projects/p/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +37,7 @@ msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "Παρακολούθηση Συστήματος MATE"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
 #: ../src/interface.cpp:690 ../src/procman.cpp:710
@@ -61,7 +62,7 @@ msgstr ""
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "Προβολή καρτέλας συστήματος αρχείων"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
@@ -263,7 +264,7 @@ msgstr "Προβολή των αρχείων που ανοίχθηκαν από 
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Προτιμήσεις"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
@@ -370,7 +371,7 @@ msgstr "Τερματισμός διεργα_σίας"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Επιλογή χρώματος για '%s'"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -445,17 +446,17 @@ msgstr[1] "%u δευτερόλεπτα"
 
 #: ../src/load-graph.cpp:351
 msgid "not available"
-msgstr ""
+msgstr "μη διαθέσιμο"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) από %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
 #: ../src/lsof.cpp:127
 #, c-format
@@ -669,7 +670,7 @@ msgstr "0 for the System Info, 1 for the processes list, 2 for the resources and
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
 msgid "Default graph CPU color"
-msgstr ""
+msgstr "Προεπιλεγμένο χρώμα γραφήματος CPU"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
 msgid "Default graph cpu color"
@@ -677,7 +678,7 @@ msgstr "Προεπιλεγμένο χρώμα γραφήματος cpu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
 msgid "Default graph memory color"
-msgstr ""
+msgstr "Προεπιλεγμένο χρώμα γραφήματος μνήμης"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
 msgid "Default graph swap color"
@@ -1123,11 +1124,11 @@ msgstr ""
 
 #: ../src/proctable.cpp:266
 msgid "Unit"
-msgstr ""
+msgstr "Μονάδα"
 
 #: ../src/proctable.cpp:267
 msgid "Session"
-msgstr ""
+msgstr "Συνεδρία"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1139,7 +1140,7 @@ msgstr ""
 
 #: ../src/proctable.cpp:271
 msgid "Owner"
-msgstr ""
+msgstr "Ιδιοκτήτης"
 
 #: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
 msgid "Priority"
@@ -1182,7 +1183,7 @@ msgstr ""
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-bit"
 
 #: ../src/sysinfo.cpp:780
 #, c-format
@@ -1197,7 +1198,7 @@ msgstr "MATE %s"
 #. hardware section
 #: ../src/sysinfo.cpp:809
 msgid "Hardware"
-msgstr ""
+msgstr "Υλικό"
 
 #: ../src/sysinfo.cpp:814
 msgid "Memory:"
@@ -1210,7 +1211,7 @@ msgstr "Επεξεργαστής:"
 #. disk space section
 #: ../src/sysinfo.cpp:826
 msgid "System Status"
-msgstr ""
+msgstr "Κατάσταση συστήματος"
 
 #: ../src/sysinfo.cpp:831
 msgid "Available disk space:"
@@ -1278,27 +1279,27 @@ msgstr "%.1f GiB"
 #: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f TiB"
 
 #: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g kbit"
 
 #: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Mbit"
 
 #: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Gbit"
 
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Tbit"
 
 #: ../src/util.cpp:188
 #, c-format

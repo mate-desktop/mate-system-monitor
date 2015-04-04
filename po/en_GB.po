@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2014
+# Andi Chandler <andi@gowling.com>, 2014-2015
 # Bruce Cowan <bcowan@fastmail.co.uk>, 2009
 # Gareth Owen <gowen72@yahoo.com>, 2004
 # Martin Wimpress <code@flexion.org>, 2014
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-29 13:43+0000\n"
+"PO-Revision-Date: 2015-03-15 22:12+0000\n"
 "Last-Translator: Martin Wimpress <code@flexion.org>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/MATE/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -1160,8 +1160,8 @@ msgstr "N/A"
 #, c-format
 msgid "%lld second"
 msgid_plural "%lld seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%lld second"
+msgstr[1] "%lld seconds"
 
 #: ../src/procproperties.cpp:258
 msgid "Process Properties"

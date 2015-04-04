@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ivar Smolin <okul@linux.ee>, 2014
+# Ivar Smolin <okul@linux.ee>, 2014-2015
 # Priit Laes <amd store20 com>, 2005, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-27 09:12+0000\n"
+"PO-Revision-Date: 2015-03-18 19:12+0000\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
@@ -906,11 +906,11 @@ msgstr "Kettavaate tulpade järjestus"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
 msgid "Memory map sort column"
-msgstr ""
+msgstr "Mäluplaani sortimisveerg"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
 msgid "Memory map sort order"
-msgstr ""
+msgstr "Mäluplaani sortimisjärjestus"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
 msgid "Open files sort column"
@@ -1007,7 +1007,7 @@ msgstr "_Värskendamise vahemik sekundites:"
 
 #: ../src/procdialogs.cpp:600
 msgid "Enable _smooth refresh"
-msgstr "_Sujuv värskendus lubatud"
+msgstr "_Sujuv värskendus on lubatud"
 
 #: ../src/procdialogs.cpp:613
 msgid "Alert before ending or _killing processes"
@@ -1023,7 +1023,7 @@ msgstr "Solarise režiim"
 
 #: ../src/procdialogs.cpp:644 ../src/procdialogs.cpp:784
 msgid "Information Fields"
-msgstr "Teabeväljad"
+msgstr "Andmeväljad"
 
 #: ../src/procdialogs.cpp:657
 msgid "Process i_nformation shown in list:"
@@ -1035,7 +1035,7 @@ msgstr "Graafikud"
 
 #: ../src/procdialogs.cpp:708
 msgid "Show network speed in bits"
-msgstr "Kuva võrgukiirust bittides"
+msgstr "Võrgukiiruse kuvamine bittides"
 
 #: ../src/procdialogs.cpp:770
 msgid "Show _all file systems"

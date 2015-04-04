@@ -5,14 +5,14 @@
 # Translators:
 # Gintautas Miliauskas <gintas@akl.lt>, 2006, 2008
 # Justina Klingaitė <justina.klingaite@gmail.com>, 2005
-# Moo, 2014
+# Moo, 2014-2015
 # Tomas Kuliavas <tokul@users.sourceforge.net>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-22 18:59+0000\n"
+"PO-Revision-Date: 2015-04-03 21:45+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -1018,7 +1018,7 @@ msgstr "Perspėti prieš užbaigiant arba nutrau_kiant procesus"
 
 #: ../src/procdialogs.cpp:626
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "Dalinti CPU naudojimą iš CPU skaičiaus"
 
 #: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
@@ -1178,14 +1178,14 @@ msgstr "Proceso \"%s\" (PID %u) savybės:"
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "%s %s laida"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-bitų"
 
 #: ../src/sysinfo.cpp:780
 #, c-format
@@ -1200,7 +1200,7 @@ msgstr "MATE %s"
 #. hardware section
 #: ../src/sysinfo.cpp:809
 msgid "Hardware"
-msgstr ""
+msgstr "Aparatinė įranga"
 
 #: ../src/sysinfo.cpp:814
 msgid "Memory:"
@@ -1281,27 +1281,27 @@ msgstr "%.1f GiB"
 #: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f TiB"
 
 #: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g kbit"
 
 #: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Mbit"
 
 #: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Gbit"
 
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Tbit"
 
 #: ../src/util.cpp:188
 #, c-format

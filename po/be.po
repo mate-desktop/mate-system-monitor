@@ -10,13 +10,13 @@
 # Mihail Varantsou <meequz@gmail.com>, 2014
 # Mihail Varantsou <meequz@gmail.com>, 2014
 # nab <nab@mail.by>, 2004,2010
-# Vital Khilko <dojlid@mova.org>, 2003,2014
+# Vital Khilko <dojlid@mova.org>, 2003,2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-19 15:47+0000\n"
+"PO-Revision-Date: 2015-03-19 13:12+0000\n"
 "Last-Translator: Mihail Varantsou <meequz@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> Сістэмны назіральнік MATE дазваляе кіраваць запушчанымі працэсамі вашай сістэмы праз графічны інтэрфэйс і дае агляд даступных рэсурсаў, такіх як CPU і памяць. </p> <p> Сістэмны назіральнік MATE ёсць форкам Сістэмнага назіральніка GNOME і часткай асяроддзя MATE. Каб даведацца больш пра MATE і Сістэмнага назіральніка, завітайце на хатнюю старонку праекта. </p>"
+msgstr "<p> Сістэмны назіральнік MATE дазваляе кіраваць запушчанымі працэсамі сістэмы праз графічны інтэрфейс і дае агляд даступных рэсурсаў, такіх як CPU і памяць. </p> <p> Сістэмны назіральнік MATE ёсць форкам Сістэмнага назіральніка GNOME і часткай асяроддзя MATE. Каб даведацца больш пра MATE і Сістэмнага назіральніка, завітайце на хатнюю старонку праекта. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -235,7 +235,7 @@ msgstr "_Змяніць прыярытэт"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
-msgstr "Змяніць прыярытэт працэсу"
+msgstr "Змяніць прыярытэт працэса"
 
 #: ../src/interface.cpp:74
 msgid "Configure the application"
@@ -562,7 +562,7 @@ msgstr "Мапы памяці"
 #: ../src/memmaps.cpp:479
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr "_Мапы памяці для працэсу «%s» (PID %u):"
+msgstr "_Мапы памяці для працэса «%s» (PID %u):"
 
 #: ../src/openfiles.cpp:38
 msgid "file"
@@ -574,11 +574,11 @@ msgstr "канал"
 
 #: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
-msgstr "сеціўнае далучэнне IPv6"
+msgstr "сеткавае злучэнне IPv6"
 
 #: ../src/openfiles.cpp:44
 msgid "IPv4 network connection"
-msgstr "сеціўнае далучэнне IPv4"
+msgstr "сеткавае злучэнне IPv4"
 
 #: ../src/openfiles.cpp:46
 msgid "local socket"
@@ -724,7 +724,7 @@ msgstr "Паказваць слупок \"назва працэса\" падча
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:27
 msgid "Width of process 'owner' column"
-msgstr "Шырыня слупка уладальніка працэса"
+msgstr "Шырыня слупка ўладальніка працэса"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:28
 msgid "Show process 'owner' column on startup"
@@ -786,7 +786,7 @@ msgstr "Шырыня слупка адсоткавай занятасці ЦП"
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:44
 #, no-c-format
 msgid "Show process 'CPU %' column on startup"
-msgstr "Паказваць слупок занятасці ЦП працэсамі у адсотках падчас ўключэння"
+msgstr "Паказваць слупок занятасці ЦП працэсамі ў адсотках падчас ўключэння"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:45
 msgid "Width of process 'CPU time' column"
@@ -933,7 +933,7 @@ msgstr ""
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Немагчыма змяніць прыярытэт працэсу з PID %d да %d.\n%s"
+msgstr "Немагчыма змяніць прыярытэт працэса з PID %d да %d.\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
@@ -976,7 +976,7 @@ msgstr "(Прыярытэт %s)"
 #: ../src/procdialogs.cpp:173
 #, c-format
 msgid "Change Priority of Process »%s« (PID: %u)"
-msgstr "Змяніць прыярытэт працэсу »%s« (PID: %u)"
+msgstr "Змяніць прыярытэт працэса »%s« (PID: %u)"
 
 #: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
@@ -1172,12 +1172,12 @@ msgstr[3] ""
 
 #: ../src/procproperties.cpp:258
 msgid "Process Properties"
-msgstr "Уласцівасці працэсу"
+msgstr "Уласцівасці працэса"
 
 #: ../src/procproperties.cpp:278
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr "Уласцівасці працэсу \"%s\" (PID %u):"
+msgstr "Уласцівасці працэса \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit

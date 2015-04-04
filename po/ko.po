@@ -5,6 +5,7 @@
 # Translators:
 # Changwoo Ryu <cwryu@debian.org>, 2004, 2005, 2006, 2007, 2008, 2009, 2010
 # Jinkyu Yi <jincreator@jincreator.net>, 2013
+# 박정규(Jung Kyu Park) <bagjunggyu@gmail.com>, 2015
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2015
 # Young-Ho, Cha <ganadist@chollian.net> 2002, 2006, 2007
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-01-15 12:53+0000\n"
-"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"PO-Revision-Date: 2015-03-26 18:03+0000\n"
+"Last-Translator: 박정규(Jung Kyu Park) <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +34,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr ""
+msgstr "<p>마테 시스템 감시기는 그래픽 보기를 보여주며 시스템에서 동작 중인 프로세스를 다룰 수 있습니다. CPU와 메모리 같은 가용 자원 개요 정보를 제공하기도 합니다.</p> <p>마테 시스템 감시기는 그놈 시스템 감시기에서 갈라져 나왔으며, 마테 데스크톱 환경의 일부입니다. 마테와 시스템 감시기 정보를 더 알고자 한다면 프로젝트 홈페이지를 방문하십시오.</p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -129,7 +130,7 @@ msgstr "조각"
 #. percentage property
 #: ../src/gsm_color_button.c:205
 msgid "Percentage full for pie color pickers"
-msgstr ""
+msgstr "파이 색상 선택기에 대한 전체 비율"
 
 #: ../src/gsm_color_button.c:212
 msgid "Title"
@@ -451,7 +452,7 @@ msgstr "없음"
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) / %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
@@ -603,7 +604,7 @@ msgstr "\"%s\" 프로세스가 연 파일(_F) (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "메인 창 크기와 위치 (폭, 높이, X 좌표, Y 좌표)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
 msgid "Show process dependencies in tree form"
@@ -618,7 +619,7 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr ""
+msgstr "참이면, 시스템 감시기는 '솔라리스 모드'로 동작하여 각 작업의 CPU사용량을 전체 CPU 수로 나눕니다. 그렇지 않으면 '아이릭스 모드'로 동작합니다."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
 msgid "Enable/Disable smooth refresh"
@@ -638,14 +639,14 @@ msgstr "그래프 업데이트 간격 (천분의 일초 단위)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "모든 파일 시스템 정보 표시 여부"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
 msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr ""
+msgstr "( 'autofs가'와 'procfs의'와 같은 유형을 포함하여) 모든 파일 시스템에 대한 정보를 표시할지 여부를 결정합니다. 현재 마운트 된 모든 파일 시스템의 목록을 얻기에 유용합니다."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
 msgid "Time in milliseconds between updates of the devices list"
@@ -871,35 +872,35 @@ msgstr "시작시 프로세스 '세션' 내용 표시"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "프로세스 'Seat' 컬럼 폭"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:68
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "시작시 프로세스 'Seat' 컬럼 표시"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "프로세스 '소유자' 컬럼 폭"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "프로세스 '소유자' 컬럼 표시"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "프로세스 '우선순위' 컬럼 폭"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "프로세스 '우선순위' 컬럼 표시"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
 msgid "Disk view sort colum"
-msgstr ""
+msgstr "디스크 보기 정렬 컬럼"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:74
 msgid "Disk view sort order"
-msgstr ""
+msgstr "디스크 보기 정렬 순서"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:75
 msgid "Disk view columns order"
@@ -907,59 +908,59 @@ msgstr "디스크 보기 컬럼 순서"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
 msgid "Memory map sort column"
-msgstr ""
+msgstr "메모리 맵 정렬 컬럼"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
 msgid "Memory map sort order"
-msgstr ""
+msgstr "메모리 맵 정렬 순서"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
 msgid "Open files sort column"
-msgstr ""
+msgstr "파일 열기 정렬 컬럼"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:79
 msgid "Open files sort order"
-msgstr ""
+msgstr "파일 열기 정렬 순서"
 
 #: ../src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "프로세스의 우선 순위를 변경할 수 없습니다 PID %d 를 %d 로.\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "프로세스를 중단 시킬 수 없습니다 PID %d 인 시그널을 signal %d 로.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "선택한 프로세스를 강제로 중단 시키시겠습니까 »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "프로세스를 중단 시키면 데이터를 잃거나, 세션을 망치거나 보안에 위험을 일으킬 수 있습니다. 반응이 없는 프로세스만 중단 시키시길 권합니다."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "선택한 프로세스를 끝내시겠습니까 »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "프로세스를 끝내면 데이터를 잃거나, 세션을 망치거나 보안에 위험을 일으킬 수 있습니다. 반응이 없는 프로세스만 끝내시길 권합니다."
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
 #, c-format
@@ -1135,7 +1136,7 @@ msgstr "세션"
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
 #: ../src/proctable.cpp:270
 msgid "Seat"
-msgstr ""
+msgstr "자리"
 
 #: ../src/proctable.cpp:271
 msgid "Owner"

@@ -9,6 +9,7 @@
 # dnoway <dnoway@gmail.com>, 2008
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2002, 2006
 # Francisco Petrúcio Cavalcante Junior <fpcj@impa.br>, 2002
+# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2015
 # Og Maciel <ogmaciel@ubuntu.com>, 2007, 2009
 # Raphael Higino <phhigino@gmail.com>, 2005
 # Thiago Lima Demétrio <thiago@omegasul.com.br>, 2008
@@ -20,8 +21,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-01-11 04:08+0000\n"
-"Last-Translator: Aldo Oliveira <america103@gmail.com>\n"
+"PO-Revision-Date: 2015-02-23 08:09+0000\n"
+"Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/MATE/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -872,43 +873,43 @@ msgstr "Mostrar coluna 'Unidade' do processo ao inicializar"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "Largura da coluna \"Sessão\" do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "Mostrar a coluna \"Sessão\" do processo ao inicializar"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "Largura da coluna \"Banco\" do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:68
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "Mostrar a coluna \"Banco\" do processo ao inicializar"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Largura da coluna \"Proprietário\" do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "Mostrar a coluna \"Proprietário\" do processo ao inicializar"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "Largura da coluna 'Prioridade' do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "Mostrar coluna 'Prioridade' do processo ao inicializar"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
 msgid "Disk view sort colum"
-msgstr ""
+msgstr "Ordenar coluna de visualização de disco"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:74
 msgid "Disk view sort order"
-msgstr ""
+msgstr "Ordem de classificação de visualização de disco"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:75
 msgid "Disk view columns order"
@@ -916,59 +917,59 @@ msgstr "Ordem das colunas de discos"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
 msgid "Memory map sort column"
-msgstr ""
+msgstr "Ordenar coluna de mapa de memória"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
 msgid "Memory map sort order"
-msgstr ""
+msgstr "Ordem de classificação de mapa de memória"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
 msgid "Open files sort column"
-msgstr ""
+msgstr "Ordenar coluna de arquivos abertos"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:79
 msgid "Open files sort order"
-msgstr ""
+msgstr "Ordem de classificação de arquivos abertos"
 
 #: ../src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "Não foi possível mudar a prioridade do processo com PID %d para %d.\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "Não foi possível matar o processo com PID %d usando sinal %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "Matar o processo selecionado »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "Matar um processo pode destruir dados, interromper a sessão ou introduzir um risco de segurança. Somente processos sem resposta devem ser matados."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "Finalizar o processo selecionado »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "Finalizar um processo pode destruir dados, interromper a sessão ou introduzir um risco de segurança. Somente processos sem resposta devem ser finalizados."
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
 #, c-format

@@ -5,13 +5,14 @@
 # Translators:
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2002
 # Damir Jerovšek <jierro@windowslive.com>, 2013
+# worm <thewormhole@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-19 00:23+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
+"PO-Revision-Date: 2015-03-12 17:26+0000\n"
+"Last-Translator: worm <thewormhole@gmail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +36,7 @@ msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "MATE Sistemski Nadzornik"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
 #: ../src/interface.cpp:690 ../src/procman.cpp:710
@@ -52,15 +53,15 @@ msgstr "Pokaži sistemski zavihek"
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr ""
+msgstr "Pokaži zavihek Procesi"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "Pokaži zavihek Viri"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "Pokaži zavihek Datotečnega Sistema"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
@@ -262,11 +263,11 @@ msgstr "Pokaži datoteke, ki jih je odprlo opravilo"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Lasnosti"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Ogled dodatnih informacij o procesu"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -310,55 +311,55 @@ msgstr "_Moja opravila"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Prikaži samo procese uporabnika"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Zelo Visoko"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Nastavi prioriteto procesa na zelo visoko"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "Visoko"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Nastavi prioriteto procesa na visoko"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Običajno"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Nastavi prioriteto procesa na Običajno"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "Nizko"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Nastavi prioriteto procesa na Nizko"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "Zelo Nizko"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Nastavi prioriteto procesa na zelo Nizko"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Po meri"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Ročno nastavi prioriteto procesa."
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -446,17 +447,17 @@ msgstr[3] "%u sekunde"
 
 #: ../src/load-graph.cpp:351
 msgid "not available"
-msgstr ""
+msgstr "ni na voljo"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) od %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
-msgstr ""
+msgstr "Napaka"
 
 #: ../src/lsof.cpp:127
 #, c-format
@@ -670,7 +671,7 @@ msgstr "O za podrobnosti o sistemu, 1 za seznam opravil, 2 za vire in 3 za sezna
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
 msgid "Default graph CPU color"
-msgstr ""
+msgstr "Privzeta barva grafa CPU"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
 msgid "Default graph cpu color"
@@ -678,7 +679,7 @@ msgstr "Privzeta barva grafa cpe"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
 msgid "Default graph memory color"
-msgstr ""
+msgstr "Privzeta barva grafa pomnilnika"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
 msgid "Default graph swap color"
@@ -694,7 +695,7 @@ msgstr "Privzeta barva grafa odhodnega omrežnega prometa"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:21
 msgid "Show network traffic in bits"
-msgstr ""
+msgstr "Prikaži omrežni promet v bitih"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:22
 msgid "Process view sort column"
@@ -1128,7 +1129,7 @@ msgstr ""
 
 #: ../src/proctable.cpp:267
 msgid "Session"
-msgstr ""
+msgstr "Seja"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1140,11 +1141,11 @@ msgstr ""
 
 #: ../src/proctable.cpp:271
 msgid "Owner"
-msgstr ""
+msgstr "Lasnik"
 
 #: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
 msgid "Priority"
-msgstr ""
+msgstr "Prednost"
 
 #: ../src/proctable.cpp:1096
 #, c-format
@@ -1153,7 +1154,7 @@ msgstr "Povprečna obremenitev zadnjih 1, 5 in 15 minut: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:104 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../src/procproperties.cpp:140
 #, c-format
@@ -1200,7 +1201,7 @@ msgstr "MATE %s"
 #. hardware section
 #: ../src/sysinfo.cpp:809
 msgid "Hardware"
-msgstr ""
+msgstr "Strojna oprema"
 
 #: ../src/sysinfo.cpp:814
 msgid "Memory:"

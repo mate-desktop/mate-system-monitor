@@ -3,7 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# ABE Tsunehiko, 2015
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
+# Mika Kobayashi, 2015
 # Satoru SATOh <ss@gnome.gr.jp>, 2006
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010
 msgid ""
@@ -11,8 +13,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-19 00:23+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
+"PO-Revision-Date: 2015-05-24 20:46+0000\n"
+"Last-Translator: Mika Kobayashi\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/MATE/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +24,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr ""
+msgstr "MATE Desktopのプロセスと資源をモニターします。"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -32,16 +34,16 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr ""
+msgstr "<p> MATE システムモニターはシステム上のプロセスを可視化し、操作するプログラムです。また、CPU やメモリーなどのリソースを確認も行えます。 </p> <p> MATE システムモニターは GNOME システムモニターのフォークであり、MATE デスクトップ環境の一部です。もしMATE と MATE システムモニターについて興味があれば、ぜひプロジェクトのホームページをご覧ください。</p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "MATE システムモニター"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
 #: ../src/interface.cpp:690 ../src/procman.cpp:710
 msgid "System Monitor"
-msgstr "システム・モニタ"
+msgstr "システムモニター"
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
@@ -49,19 +51,19 @@ msgstr "現在のプロセスを表示してシステムの状態を監視しま
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
-msgstr "起動時にシステムのタブを表示する"
+msgstr "システムタブを表示する"
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr ""
+msgstr "プロセスタブを表示する"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "リソースタブを表示する"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "ファイルシステムタブを表示する"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
@@ -73,7 +75,7 @@ msgstr "デバイス"
 
 #: ../src/disks.cpp:300
 msgid "Directory"
-msgstr "フォルダ"
+msgstr "ディレクトリー"
 
 #: ../src/disks.cpp:301 ../src/gsm_color_button.c:227 ../src/openfiles.cpp:251
 msgid "Type"
@@ -136,7 +138,7 @@ msgstr "タイトル"
 
 #: ../src/gsm_color_button.c:213
 msgid "The title of the color selection dialog"
-msgstr "色の選択ダイアログに付与するタイトルです"
+msgstr "色の選択ダイアログのタイトル"
 
 #: ../src/gsm_color_button.c:214 ../src/gsm_color_button.c:639
 msgid "Pick a Color"
@@ -156,7 +158,7 @@ msgstr "色の取得ダイアログの種類"
 
 #: ../src/gsm_color_button.c:562
 msgid "Received invalid color data\n"
-msgstr "おかしな色データを受け取りました\n"
+msgstr "不正な色データを受け取りました\n"
 
 #: ../src/gsm_color_button.c:662
 msgid "Click to set graph colors"
@@ -182,11 +184,11 @@ msgstr "ヘルプ(_H)"
 
 #: ../src/interface.cpp:56
 msgid "Search for _Open Files"
-msgstr "オープンしたファイルの検索(_O)"
+msgstr "開いたファイルの検索(_O)"
 
 #: ../src/interface.cpp:57
 msgid "Search for open files"
-msgstr "オープンしているファイルを検索します"
+msgstr "開いているファイルを検索します"
 
 #: ../src/interface.cpp:59
 msgid "Quit the program"
@@ -226,7 +228,7 @@ msgstr "プロセスを今すぐ強制終了します"
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr ""
+msgstr "優先度の変更(_C)"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
@@ -238,7 +240,7 @@ msgstr "プログラムを設定します"
 
 #: ../src/interface.cpp:76
 msgid "_Refresh"
-msgstr "更新する(_R)"
+msgstr "更新(_R)"
 
 #: ../src/interface.cpp:77
 msgid "Refresh the process list"
@@ -246,28 +248,28 @@ msgstr "プロセスの一覧を更新します"
 
 #: ../src/interface.cpp:79
 msgid "_Memory Maps"
-msgstr "メモリ・マップ(_M)"
+msgstr "メモリーマップ(_M)"
 
 #: ../src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
-msgstr "プロセスに関連づけられているメモリマップを開きます"
+msgstr "プロセスに関連づけられているメモリーマップを開きます"
 
 #. Translators: this means 'Files that are open' (open is no verb here
 #: ../src/interface.cpp:82
 msgid "Open _Files"
-msgstr "オープンしたファイル(_F)"
+msgstr "開いたファイル(_F)"
 
 #: ../src/interface.cpp:83
 msgid "View the files opened by a process"
-msgstr "プロセスがオープンしたファイルを表示します"
+msgstr "プロセスが開いたファイルを表示します"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "プロパティ(_P)"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "プロセスの追加情報を表示します。"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -279,11 +281,11 @@ msgstr "ヘルプを表示します"
 
 #: ../src/interface.cpp:91
 msgid "About this application"
-msgstr "このアプリケーションの情報です"
+msgstr "このアプリケーションについて"
 
 #: ../src/interface.cpp:96
 msgid "_Dependencies"
-msgstr "スレッド表示にする(_D)"
+msgstr "依存関係(_D)"
 
 #: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
@@ -307,59 +309,59 @@ msgstr "すべてのプロセスを表示します"
 
 #: ../src/interface.cpp:108
 msgid "M_y Processes"
-msgstr "ユーザのプロセス(_Y)"
+msgstr "ユーザーのプロセス(_Y)"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "ユーザーが所有しているプロセスだけを表示します。"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "非常に高い"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "プロセスの優先度を「非常に高い」に設定します。"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "高い"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "プロセスの優先度を「高い」に設定します。"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "標準"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "プロセスの優先度を「標準」に設定します。"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "低い"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "プロセスの優先度を「低い」に設定します。"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "非常に低い"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "プロセスの優先度を「非常に低い」に設定します。"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "カスタム"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "プロセスの優先度を手動で設定します。"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -370,7 +372,7 @@ msgstr "プロセスの終了(_P)"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "'%s' の色を選択します。"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -387,12 +389,12 @@ msgstr "CPU%d"
 
 #: ../src/interface.cpp:367
 msgid "Memory and Swap History"
-msgstr "メモリとスワップの履歴"
+msgstr "メモリーとスワップの履歴"
 
 #: ../src/interface.cpp:401 ../src/proctable.cpp:262
 #: ../src/procproperties.cpp:133
 msgid "Memory"
-msgstr "メモリ"
+msgstr "メモリー"
 
 #: ../src/interface.cpp:432
 msgid "Swap"
@@ -440,26 +442,26 @@ msgstr "ファイルシステム"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u秒"
+msgstr[0] "%u 秒"
 
 #: ../src/load-graph.cpp:351
 msgid "not available"
-msgstr ""
+msgstr "利用できません"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) of %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 #: ../src/lsof.cpp:127
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr ""
+msgstr "'%s' という文字列は Perl の正規表現として妥当ではありません。"
 
 #: ../src/lsof.cpp:273
 msgid "Process"
@@ -485,7 +487,7 @@ msgstr "ファイル名が次を含む(_N):"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
 msgid "C_lear"
-msgstr ""
+msgstr "クリア(_L)"
 
 #: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
@@ -545,16 +547,16 @@ msgstr "Shared dirty"
 
 #: ../src/memmaps.cpp:362
 msgid "Inode"
-msgstr "I-ノード"
+msgstr "I ノード"
 
 #: ../src/memmaps.cpp:467
 msgid "Memory Maps"
-msgstr "メモリ・マップ"
+msgstr "メモリーマップ"
 
 #: ../src/memmaps.cpp:479
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr "\"%s\" (PID %u) のメモリ・マップ(_M):"
+msgstr "\"%s\" (PID %u) のメモリーマップ(_M):"
 
 #: ../src/openfiles.cpp:38
 msgid "file"
@@ -593,20 +595,20 @@ msgstr "オブジェクト"
 
 #: ../src/openfiles.cpp:337
 msgid "Open Files"
-msgstr "オープンしたファイル"
+msgstr "開いたファイル"
 
 #: ../src/openfiles.cpp:358
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
-msgstr "\"%s\" (PID: %u) がオープンしたファイルの一覧(_F):"
+msgstr "\"%s\" (PID: %u) が開いたファイルの一覧(_F):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "メインウィンドウのサイズと位置 (幅、高さ、X 座標、Y 座標)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:2
 msgid "Show process dependencies in tree form"
-msgstr "ツリー表示でプロセスの依存関係を表示するか"
+msgstr "ツリー表示でプロセスの依存関係を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Solaris mode for CPU percentage"
@@ -617,15 +619,15 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr ""
+msgstr "TRUE にすると、システムモニターはタスクの CPU 使用率を CPU の個数で割る'Solaris モード' で表示します。FALSE の場合は 'Irix モード' で表示します。"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
 msgid "Enable/Disable smooth refresh"
-msgstr "スムース・リフレッシュの有効/無効"
+msgstr "スムーズリフレッシュの有効/無効"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
 msgid "Show warning dialog when killing processes"
-msgstr "プロセスを強制終了する際に警告ダイアログを表示するか"
+msgstr "プロセスを強制終了する際に警告ダイアログを表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
 msgid "Time in milliseconds between updates of the process view"
@@ -637,14 +639,14 @@ msgstr "グラフの更新間隔 (ミリ秒)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:9
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "全てのファイルシステムの情報を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:10
 msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr ""
+msgstr "全てのファイルシステム(autofs、procfsなどを含む)についての情報を表示するかどうかです。現在マウントされている全てのファイルシステムの一覧を見たい場合に便利です。"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
 msgid "Time in milliseconds between updates of the devices list"
@@ -654,11 +656,11 @@ msgstr "デバイス一覧の更新間隔 (ミリ秒)"
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "デフォルトでどのレベルのプロセスを表示するか (0: すべて、1: ユーザ・プロセス、2: 動作中のプロセス)"
+msgstr "デフォルトでどのレベルのプロセスを表示するか (0: 全て、1: ユーザープロセス、2: 動作中のプロセス)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:13
 msgid "Saves the currently viewed tab"
-msgstr "現在表示しているタブを保存するか"
+msgstr "現在表示しているタブを保存する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:14
 msgid ""
@@ -668,7 +670,7 @@ msgstr "0: システム情報、1: プロセスの一覧、2: リソース、3: 
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
 msgid "Default graph CPU color"
-msgstr ""
+msgstr "CPU グラフの色 (デフォルト)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:16
 msgid "Default graph cpu color"
@@ -676,11 +678,11 @@ msgstr "CPU グラフの色 (デフォルト)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:17
 msgid "Default graph memory color"
-msgstr ""
+msgstr "メモリーグラフの色 (デフォルト)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:18
 msgid "Default graph swap color"
-msgstr "スワップ・グラフの色 (デフォルト)"
+msgstr "スワップグラフの色 (デフォルト)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:19
 msgid "Default graph incoming network traffic color"
@@ -692,7 +694,7 @@ msgstr "ネットワーク送信グラフの色 (デフォルト)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:21
 msgid "Show network traffic in bits"
-msgstr ""
+msgstr "ネットワークトラフィックをビットで表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:22
 msgid "Process view sort column"
@@ -712,15 +714,15 @@ msgstr "プロセス名の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:26
 msgid "Show process 'name' column on startup"
-msgstr "起動時にプロセス名の項目を表示するか"
+msgstr "起動時にプロセス名の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:27
 msgid "Width of process 'owner' column"
-msgstr "ユーザ名の項目の幅"
+msgstr "ユーザー名の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:28
 msgid "Show process 'owner' column on startup"
-msgstr "起動時にユーザ名の項目を表示するか"
+msgstr "起動時にユーザー名の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:29
 msgid "Width of process 'status' column"
@@ -728,47 +730,47 @@ msgstr "状態の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:30
 msgid "Show process 'status' column on startup"
-msgstr "起動時に状態の項目を表示するか"
+msgstr "起動時に状態の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:31
 msgid "Width of process 'virtual memory' column"
-msgstr "仮想メモリの項目の幅"
+msgstr "仮想メモリーの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:32
 msgid "Show process 'virtual memory' column on startup"
-msgstr "起動時に仮想メモリの項目を表示するか"
+msgstr "起動時に仮想メモリーの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:33
 msgid "Width of process 'resident memory' column"
-msgstr "Resident メモリの項目の幅"
+msgstr "Resident メモリーの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:34
 msgid "Show process 'resident memory' column on startup"
-msgstr "起動時に Resident メモリの項目を表示するか"
+msgstr "起動時に Resident メモリーの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:35
 msgid "Width of process 'writable memory' column"
-msgstr "書き込み可能なメモリの項目の幅"
+msgstr "書き込み可能なメモリーの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:36
 msgid "Show process 'writable memory' column on startup"
-msgstr "起動時に書き込み可能なメモリの項目を表示するか"
+msgstr "起動時に書き込み可能なメモリーの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:37
 msgid "Width of process 'shared memory' column"
-msgstr "共有メモリの項目の幅"
+msgstr "共有メモリーの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:38
 msgid "Show process 'shared memory' column on startup"
-msgstr "起動時に共有メモリの項目を表示するか"
+msgstr "起動時に共有メモリーの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:39
 msgid "Width of process 'X server memory' column"
-msgstr "Xサーバ・メモリ使用率の項目の幅"
+msgstr "X サーバーメモリー使用率の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:40
 msgid "Show process 'X server memory' column on startup"
-msgstr "起動時にXサーバ・メモリの項目を表示するか"
+msgstr "起動時に X サーバーメモリーの項目を表示するか"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:42
 #, no-c-format
@@ -778,7 +780,7 @@ msgstr "CPU 使用率の項目の幅"
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:44
 #, no-c-format
 msgid "Show process 'CPU %' column on startup"
-msgstr "起動時に CPU 使用率の項目を表示するか"
+msgstr "起動時に CPU 使用率の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:45
 msgid "Width of process 'CPU time' column"
@@ -786,7 +788,7 @@ msgstr "CPU 時間の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:46
 msgid "Show process 'CPU time' column on startup"
-msgstr "起動時に CPU 時間の項目を表示するか"
+msgstr "起動時に CPU 時間の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:47
 msgid "Width of process 'start time' column"
@@ -794,7 +796,7 @@ msgstr "起動日時の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:48
 msgid "Show process 'start time' column on startup"
-msgstr "起動時に起動日時の項目を表示するか"
+msgstr "起動時に起動日時の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:49
 msgid "Width of process 'nice' column"
@@ -802,7 +804,7 @@ msgstr "Nice 値の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:50
 msgid "Show process 'nice' column on startup"
-msgstr "起動時に Nice 値の項目を表示するか"
+msgstr "起動時に Nice 値の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:51
 msgid "Width of process 'PID' column"
@@ -810,15 +812,15 @@ msgstr "PID の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:52
 msgid "Show process 'PID' column on startup"
-msgstr "起動時に PID の項目を表示するか"
+msgstr "起動時に PID の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:53
 msgid "Width of process 'SELinux security context' column"
-msgstr "SELinux のセキュリティ・コンテキストの項目の幅"
+msgstr "SELinux のセキュリティコンテキストの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:54
 msgid "Show process 'SELinux security context' column on startup"
-msgstr "起動時に SELinux のセキュリティ・コンテキストの項目を表示するか"
+msgstr "起動時に SELinux のセキュリティコンテキストの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:55
 msgid "Width of process 'arguments' column"
@@ -826,15 +828,15 @@ msgstr "引数の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:56
 msgid "Show process 'arguments' column on startup"
-msgstr "起動時に引数の項目を表示するか"
+msgstr "起動時に引数の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:57
 msgid "Width of process 'estimated memory usage' column"
-msgstr "メモリ使用量の項目の幅"
+msgstr "メモリー使用量の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:58
 msgid "Show process 'estimated memory usage' column on startup"
-msgstr "起動時にメモリ使用量の項目を表示するか"
+msgstr "起動時にメモリー使用量の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:59
 msgid "Width of process 'Waiting Channel' column"
@@ -842,31 +844,31 @@ msgstr "休止中の関数名の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:60
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr "起動時に休止中の関数名の項目を表示するか"
+msgstr "起動時に休止中の関数名の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "コントロールグループの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:62
 msgid "Show process 'Control Group' column on startup"
-msgstr ""
+msgstr "起動時にコントロールグループの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:63
 msgid "Width of process 'Unit' column"
-msgstr ""
+msgstr "ユニットの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:64
 msgid "Show process 'Unit' column on startup"
-msgstr ""
+msgstr "起動時にユニットの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "セッションの項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "起動時にセッションの項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
 msgid "Width of process 'Seat' column"
@@ -878,27 +880,27 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "所有者の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "起動時に所有者の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "優先度の項目の幅"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "起動時に優先度の項目を表示する"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
 msgid "Disk view sort colum"
-msgstr ""
+msgstr "ディスクビューのソートを行う項目"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:74
 msgid "Disk view sort order"
-msgstr ""
+msgstr "ディスクビューのソート順"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:75
 msgid "Disk view columns order"
@@ -906,73 +908,73 @@ msgstr "デバイスの一覧表示で表示する項目の順番"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:76
 msgid "Memory map sort column"
-msgstr ""
+msgstr "メモリーマップのソートを行う項目"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:77
 msgid "Memory map sort order"
-msgstr ""
+msgstr "メモリーマップのソート順"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:78
 msgid "Open files sort column"
-msgstr ""
+msgstr "開いているファイルのソートを行う項目"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:79
 msgid "Open files sort order"
-msgstr ""
+msgstr "開いているファイルのソート順"
 
 #: ../src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "PID %d のプロセスの優先度を %d に変更できませんでした。\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "PID %d のプロセスをシグナル %d で強制終了できませんでした。\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "選択したプロセス »%s« (PID: %u) を強制終了しますか？"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "プロセスを強制終了するとデータの破壊、セッションの終了、セキュリティ問題などを引き起こすことがあります。応答のないプロセスだけを終了させるようにしてください。"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "選択したプロセス »%s« (PID: %u) を終了しますか？"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "プロセスを終了するとデータの破壊、セッションの終了、セキュリティ問題などを引き起こすことがあります。応答のないプロセスだけを終了させるようにしてください。"
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(優先度 %s)"
 
 #: ../src/procdialogs.cpp:173
 #, c-format
 msgid "Change Priority of Process »%s« (PID: %u)"
-msgstr ""
+msgstr "プロセス »%s« (PID: %u) の優先度を変更する"
 
 #: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
-msgstr "プロパティの変更(_P)"
+msgstr "優先度の変更(_P)"
 
 #: ../src/procdialogs.cpp:208
 msgid "_Nice value:"
@@ -986,7 +988,7 @@ msgstr "メモ:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "プロセスの優先度は Nice 値で与えられます。小さい Nice 値は高いプロセスに相当します。"
+msgstr "プロセスの優先度は Nice 値で設定します。Nice 値が小さいほど高優先度になります。"
 
 #: ../src/procdialogs.cpp:467
 msgid "Icon"
@@ -994,7 +996,7 @@ msgstr "アイコン"
 
 #: ../src/procdialogs.cpp:526
 msgid "System Monitor Preferences"
-msgstr "システム・モニタの設定"
+msgstr "システムモニターの設定"
 
 #: ../src/procdialogs.cpp:556
 msgid "Behavior"
@@ -1007,7 +1009,7 @@ msgstr "更新間隔(秒)(_U):"
 
 #: ../src/procdialogs.cpp:600
 msgid "Enable _smooth refresh"
-msgstr "スムース・リフレッシュを有効にする(_S)"
+msgstr "スムーズリフレッシュを有効にする(_S)"
 
 #: ../src/procdialogs.cpp:613
 msgid "Alert before ending or _killing processes"
@@ -1015,11 +1017,11 @@ msgstr "プロセスを終了または強制終了する前に警告する(_K)"
 
 #: ../src/procdialogs.cpp:626
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "CPU 使用率を CPU の個数で割る"
 
 #: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
-msgstr "Solaris モードにする"
+msgstr "Solaris モード"
 
 #: ../src/procdialogs.cpp:644 ../src/procdialogs.cpp:784
 msgid "Information Fields"
@@ -1039,7 +1041,7 @@ msgstr "ネットワークの速度をビット単位で表示する"
 
 #: ../src/procdialogs.cpp:770
 msgid "Show _all file systems"
-msgstr ""
+msgstr "すべてのファイルシステムを表示する(_A)"
 
 #: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
@@ -1047,7 +1049,7 @@ msgstr "一覧に表示するファイルシステムの情報(_N):"
 
 #: ../src/procman.cpp:659
 msgid "A simple process and system monitor."
-msgstr "プロセスやシステムの状態を監視するシンプルなモニタです"
+msgstr "プロセスやシステムの状態を監視するシンプルなモニターです。"
 
 #: ../src/proctable.cpp:247 ../src/procproperties.cpp:130
 msgid "Process Name"
@@ -1055,7 +1057,7 @@ msgstr "プロセス名"
 
 #: ../src/proctable.cpp:248 ../src/procproperties.cpp:131
 msgid "User"
-msgstr "ユーザ"
+msgstr "ユーザー"
 
 #: ../src/proctable.cpp:249 ../src/procproperties.cpp:132
 msgid "Status"
@@ -1063,23 +1065,23 @@ msgstr "状態"
 
 #: ../src/proctable.cpp:250 ../src/procproperties.cpp:134
 msgid "Virtual Memory"
-msgstr "仮想メモリ"
+msgstr "仮想メモリー"
 
 #: ../src/proctable.cpp:251 ../src/procproperties.cpp:135
 msgid "Resident Memory"
-msgstr "Resident メモリ"
+msgstr "Resident メモリー"
 
 #: ../src/proctable.cpp:252 ../src/procproperties.cpp:136
 msgid "Writable Memory"
-msgstr "Writable メモリ"
+msgstr "Writable メモリー"
 
 #: ../src/proctable.cpp:253 ../src/procproperties.cpp:137
 msgid "Shared Memory"
-msgstr "共有メモリ"
+msgstr "共有メモリー"
 
 #: ../src/proctable.cpp:254 ../src/procproperties.cpp:138
 msgid "X Server Memory"
-msgstr "X サーバ・メモリ"
+msgstr "X サーバーメモリー"
 
 #: ../src/proctable.cpp:255
 #, no-c-format
@@ -1096,7 +1098,7 @@ msgstr "起動日時"
 
 #: ../src/proctable.cpp:258 ../src/procproperties.cpp:142
 msgid "Nice"
-msgstr "Nice値"
+msgstr "Nice 値"
 
 #: ../src/proctable.cpp:259 ../src/procproperties.cpp:144
 msgid "ID"
@@ -1104,7 +1106,7 @@ msgstr "ID"
 
 #: ../src/proctable.cpp:260 ../src/procproperties.cpp:145
 msgid "Security Context"
-msgstr "セキュリティ・コンテキスト"
+msgstr "セキュリティコンテキスト"
 
 #: ../src/proctable.cpp:261 ../src/procproperties.cpp:146
 msgid "Command Line"
@@ -1118,15 +1120,15 @@ msgstr "休止中の関数"
 
 #: ../src/proctable.cpp:265
 msgid "Control Group"
-msgstr ""
+msgstr "コントロールグループ"
 
 #: ../src/proctable.cpp:266
 msgid "Unit"
-msgstr ""
+msgstr "ユニット"
 
 #: ../src/proctable.cpp:267
 msgid "Session"
-msgstr ""
+msgstr "セッション"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1138,49 +1140,49 @@ msgstr ""
 
 #: ../src/proctable.cpp:271
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
 msgid "Priority"
-msgstr ""
+msgstr "優先度"
 
 #: ../src/proctable.cpp:1096
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr "1, 5, 15分後の平均負荷: %0.2f, %0.2f, %0.2f"
+msgstr "最近 1, 5, 15分間の平均負荷: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:104 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "無し"
 
 #: ../src/procproperties.cpp:140
 #, c-format
 msgid "%lld second"
 msgid_plural "%lld seconds"
-msgstr[0] ""
+msgstr[0] "%lld 秒"
 
 #: ../src/procproperties.cpp:258
 msgid "Process Properties"
-msgstr ""
+msgstr "プロセスのプロパティ"
 
 #: ../src/procproperties.cpp:278
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "プロセス \"%s\" (PID %u) の属性:"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "リリース %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d ビット"
 
 #: ../src/sysinfo.cpp:780
 #, c-format
@@ -1195,20 +1197,20 @@ msgstr "MATE %s"
 #. hardware section
 #: ../src/sysinfo.cpp:809
 msgid "Hardware"
-msgstr ""
+msgstr "ハードウェア"
 
 #: ../src/sysinfo.cpp:814
 msgid "Memory:"
-msgstr "メモリ:"
+msgstr "メモリー:"
 
 #: ../src/sysinfo.cpp:818
 msgid "Processor:"
-msgstr "プロセッサ:"
+msgstr "プロセッサー:"
 
 #. disk space section
 #: ../src/sysinfo.cpp:826
 msgid "System Status"
-msgstr ""
+msgstr "システムステータス"
 
 #: ../src/sysinfo.cpp:831
 msgid "Available disk space:"
@@ -1276,27 +1278,27 @@ msgstr "%.1f GiB"
 #: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f TiB"
 
 #: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g kbit"
 
 #: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Mbit"
 
 #: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Gbit"
 
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Tbit"
 
 #: ../src/util.cpp:188
 #, c-format

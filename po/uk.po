@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-03-12 18:18+0000\n"
+"PO-Revision-Date: 2015-05-09 06:28+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgstr "Тип"
 
 #: ../src/disks.cpp:302
 msgid "Total"
-msgstr "Всього"
+msgstr "Усього"
 
 #: ../src/disks.cpp:303
 msgid "Free"
@@ -136,7 +136,7 @@ msgstr "Заголовок"
 
 #: ../src/gsm_color_button.c:213
 msgid "The title of the color selection dialog"
-msgstr "Заголовок діалогу вибору кольору"
+msgstr "Заголовок діялоґу вибору кольору"
 
 #: ../src/gsm_color_button.c:214 ../src/gsm_color_button.c:639
 msgid "Pick a Color"
@@ -190,7 +190,7 @@ msgstr "Пошук відкритих файлів"
 
 #: ../src/interface.cpp:59
 msgid "Quit the program"
-msgstr "Вийти з програми"
+msgstr "Вийти з проґрами"
 
 #: ../src/interface.cpp:62
 msgid "_Stop Process"
@@ -234,7 +234,7 @@ msgstr "Змінити пріоритет процесу"
 
 #: ../src/interface.cpp:74
 msgid "Configure the application"
-msgstr "Налаштувати програму"
+msgstr "Налаштувати проґраму"
 
 #: ../src/interface.cpp:76
 msgid "_Refresh"
@@ -242,7 +242,7 @@ msgstr "_Оновити"
 
 #: ../src/interface.cpp:77
 msgid "Refresh the process list"
-msgstr "Оновити список процесів"
+msgstr "Оновити перелік процесів"
 
 #: ../src/interface.cpp:79
 msgid "_Memory Maps"
@@ -279,7 +279,7 @@ msgstr "Відкрити довідку"
 
 #: ../src/interface.cpp:91
 msgid "About this application"
-msgstr "Про цю програму"
+msgstr "Про цю проґраму"
 
 #: ../src/interface.cpp:96
 msgid "_Dependencies"
@@ -408,7 +408,7 @@ msgstr "Отримання"
 
 #: ../src/interface.cpp:529
 msgid "Total Received"
-msgstr "Всього отримано"
+msgstr "Усього отримано"
 
 #: ../src/interface.cpp:557
 msgid "Sending"
@@ -416,7 +416,7 @@ msgstr "Надсилання"
 
 #: ../src/interface.cpp:591
 msgid "Total Sent"
-msgstr "Всього надіслано"
+msgstr "Усього надіслано"
 
 #. procman_create_sysinfo_view();
 #: ../src/interface.cpp:777
@@ -612,14 +612,14 @@ msgstr "Показувати залежності процесів у вигля
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:3
 msgid "Solaris mode for CPU percentage"
-msgstr "Режим Solaris для показника використання процесору"
+msgstr "Режим Solaris для показника використання процесора"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:4
 msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr "Якщо значення TRUE, тоді системний монітор діє в \"режимі Solaris\", де використання CPU певною задачею розділено між загальною кількістю процесорів. В іншому випадку він діє у \"режимі Irix\"."
+msgstr "Якщо значення TRUE, тоді системний монітор діє у \"режимі Solaris\", де використання CPU певною задачею розділено між загальною кількістю процесорів. У іншому випадку він діє у \"режимі Irix\"."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:5
 msgid "Enable/Disable smooth refresh"
@@ -627,7 +627,7 @@ msgstr "Увімкнути/вимкнути плавне оновлення"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:6
 msgid "Show warning dialog when killing processes"
-msgstr "Показувати діалог попередження при знищенні процесів"
+msgstr "Показувати діялоґ попередження при знищенні процесів"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:7
 msgid "Time in milliseconds between updates of the process view"
@@ -646,7 +646,7 @@ msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr "Чи відображати інформацію про всі файлові системи (включаючи такі типи, як 'autofs' і 'procfs'). Корисно для отримання списку всіх встановлених на даний момент файлових систем."
+msgstr "Чи відображати інформацію про усі файлові системи (включаючи такі типи, як 'autofs' і 'procfs'). Корисно для отримання переліку усіх встановлених на дану мить файлових систем."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
 msgid "Time in milliseconds between updates of the devices list"
@@ -666,7 +666,7 @@ msgstr "Зберігає поточну активну вкладку"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 — інформація про систему, 1 — список процесів, 2 — ресурсів, 3 — дисків"
+msgstr "0 — інформація про систему, 1 — перелік процесів, 2 — ресурсів, 3 — дисків"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:15
 msgid "Default graph CPU color"
@@ -780,7 +780,7 @@ msgstr "Ширина стовпчика завантаження ЦП"
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:44
 #, no-c-format
 msgid "Show process 'CPU %' column on startup"
-msgstr "Показувати на старті стовпчик використання процесору."
+msgstr "Показувати на старті стовпчик використання процесора."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:45
 msgid "Width of process 'CPU time' column"
@@ -788,7 +788,7 @@ msgstr "Ширина стовпчика часу зайнятості ЦП пр�
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:46
 msgid "Show process 'CPU time' column on startup"
-msgstr "Показувати на старті стовпчик часу процесору"
+msgstr "Показувати на старті стовпчик часу процесора"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:47
 msgid "Width of process 'start time' column"
@@ -982,7 +982,7 @@ msgstr "_Рівень пріоритету:"
 
 #: ../src/procdialogs.cpp:229
 msgid "Note:"
-msgstr "Примітка:"
+msgstr "Нотатка:"
 
 #: ../src/procdialogs.cpp:230
 msgid ""
@@ -1029,7 +1029,7 @@ msgstr "Інформаційні поля"
 
 #: ../src/procdialogs.cpp:657
 msgid "Process i_nformation shown in list:"
-msgstr "_Інформація про процеси зі списку:"
+msgstr "_Інформація про процеси з переліку:"
 
 #: ../src/procdialogs.cpp:669
 msgid "Graphs"
@@ -1045,7 +1045,7 @@ msgstr "Показати _усі файлові системи"
 
 #: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
-msgstr "Ін_формація про файлову систему зі списку:"
+msgstr "Ін_формація про файлову систему із переліку:"
 
 #: ../src/procman.cpp:659
 msgid "A simple process and system monitor."

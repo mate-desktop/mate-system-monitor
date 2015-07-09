@@ -973,7 +973,7 @@ msgstr "لتغيير لون الخطوط التي تمثل استخدام الذ
 
 #: C/mate-system-monitor.xml:1113(para)
 msgid "Click on the <guibutton>User memory</guibutton> or <guibutton>Used swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is displayed."
-msgstr "انقر على زر <guibutton>الذاكرة المستخدمة</guibutton> أو <guibutton>الذاكرة البديلة المستخدمة</guibutton>. سيظهر مربع حوار <guilabel>إختر لوناً</guilabel"
+msgstr "انقر على زر <guibutton>الذاكرة المستخدمة</guibutton> أو <guibutton>الذاكرة البديلة المستخدمة</guibutton>. سيظهر مربع حوار <guilabel>إختر لوناً</guilabel>"
 
 #: C/mate-system-monitor.xml:1135(title)
 msgid "Preferences"

@@ -1235,7 +1235,7 @@ msgid ""
 "To change the background color of the <application>System Monitor</"
 "application> graphs, perform the following steps:"
 msgstr ""
-"要改变<application>系统监视器/application>图表的背景颜色，请执行以下步骤："
+"要改变<application>系统监视器</application>图表的背景颜色，请执行以下步骤："
 
 #: C/mate-system-monitor.xml:1060(para) C/mate-system-monitor.xml:1099(para)
 msgid ""

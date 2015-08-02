@@ -20,6 +20,7 @@ AC_PROG_CC
 AC_PROG_CXX
 AC_LANG([C++])
 AC_LANG_COMPILER_REQUIRE
+AX_CXX_COMPILE_STDCXX_11([],[mandatory])
 PKG_PROG_PKG_CONFIG([0.19])
 
 # Initialize libtool
@@ -103,7 +104,7 @@ if test "$GCC" = "yes" -a "$set_more_warnings" != "no"; then
     -Wnested-externs -Wpointer-arith \
     -Wcast-align -Wsign-compare \
     $CFLAGS"
-    CXXFLAGS="-Wall -std=c++98 $CXXFLAGS"
+    CXXFLAGS="-Wall $CXXFLAGS"
 else
     AC_MSG_RESULT(no)
 fi

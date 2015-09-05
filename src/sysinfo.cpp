@@ -544,6 +544,34 @@ namespace {
         }
     };
 
+    class MintSysInfo
+        : public SysInfo
+    {
+    public:
+        MintSysInfo()
+        {
+            this->load_os_release();
+        }
+
+    private:
+        void load_os_release()
+        {
+            this->distro_name = "Linux Mint";
+            std::ifstream input("/etc/linuxmint/info");
+            if (input) {
+                while (!input.eof()) {
+                    string s;
+                    int len;
+                    std::getline(input, s);
+                    if (s.find("DESCRIPTION=") == 0) {
+                        len = strlen("DESCRIPTION=");
+                        // also strip the surrounding quotes
+                       this->distro_release = s.substr(len + 1, s.size() - len - 2);
+                   }
+                }
+            }
+        }
+    };
 
     class OpenBSDSysInfo
         : public SysInfo
@@ -569,7 +597,10 @@ namespace {
 
     SysInfo* get_sysinfo()
     {
-        if (g_file_test ("/etc/os-release", G_FILE_TEST_EXISTS)) {
+        if (g_file_test ("/etc/linuxmint/info", G_FILE_TEST_EXISTS)) {
+            return new MintSysInfo;
+        }
+        else if (g_file_test ("/etc/os-release", G_FILE_TEST_EXISTS)) {
             return new GenericSysInfo;
         }
         else if (char *p = g_find_program_in_path("lsb_release")) {
@@ -726,7 +757,6 @@ procman_create_sysinfo_view(void)
     gtk_container_set_border_width(GTK_CONTAINER(hbox), 6);
 
     /* left-side logo */
-
     logo = gtk_image_new_from_file(DATADIR "/pixmaps/mate-system-monitor/side.png");
     gtk_misc_set_alignment(GTK_MISC(logo), 0.5, 0.0);
     gtk_misc_set_padding(GTK_MISC(logo), 5, 12);

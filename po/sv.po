@@ -11,9 +11,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-05-28 00:41+0000\n"
+"PO-Revision-Date: 2015-08-09 21:45+0000\n"
 "Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/MATE/language/sv/)\n"
+"Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -267,7 +267,7 @@ msgstr "_Egenskaper"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Visa extra information om en process"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -311,55 +311,55 @@ msgstr "_Mina processer"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Visa endast processer som ägs av en användare"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Mycket hög"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Ställ in process-prioritet till mycket hög"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "Hög"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Ställ in process-prioriteten till hög"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Ställ in process-prioritet till normal"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "Låg"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Ställ in process-prioriteten till låg"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "Mycket låg"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Ställ in process-prioritet till mycket låg"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Anpassad"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Ställ in process-prioriteten manuellt"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -370,7 +370,7 @@ msgstr "Avsluta _process"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Välj en färg för '%s'"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -445,17 +445,17 @@ msgstr[1] "%u sekunder"
 
 #: ../src/load-graph.cpp:351
 msgid "not available"
-msgstr ""
+msgstr "inte tillgänglig"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) av %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
-msgstr ""
+msgstr "Fel"
 
 #: ../src/lsof.cpp:127
 #, c-format
@@ -486,7 +486,7 @@ msgstr "_Namn innehåller:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
 msgid "C_lear"
-msgstr ""
+msgstr "R_ensa"
 
 #: ../src/lsof.cpp:357
 msgid "Case insensitive matching"

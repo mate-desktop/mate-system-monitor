@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-04-03 21:45+0000\n"
+"PO-Revision-Date: 2015-07-01 11:21+0000\n"
 "Last-Translator: Moo\n"
-"Language-Team: Lithuanian (http://www.transifex.com/projects/p/MATE/language/lt/)\n"
+"Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -312,7 +312,7 @@ msgstr "M_ano procesai"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Rodyti tik naudotojui priklausančius procesus"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
@@ -371,7 +371,7 @@ msgstr "Už_baigti procesą"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Pasirinkite spalvą elementui '%s'"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -1154,7 +1154,7 @@ msgstr "Paskutiniųjų 1, 5 ir 15 minučių apkrovos vidurkiai: %0.2f, %0.2f, %0
 
 #: ../src/procproperties.cpp:104 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "Nepasiekiama"
 
 #: ../src/procproperties.cpp:140
 #, c-format

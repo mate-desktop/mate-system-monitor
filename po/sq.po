@@ -4,15 +4,16 @@
 # 
 # Translators:
 # oltjano <apple.doctor92@yahoo.com>, 2012
+# Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2015
 # Laurent Dhima <laurenti@alblinux.net>, 2002, 2003, 2004, 2005, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-19 00:23+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Albanian (http://www.transifex.com/projects/p/MATE/language/sq/)\n"
+"PO-Revision-Date: 2015-07-08 10:18+0000\n"
+"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
+"Language-Team: Albanian (http://www.transifex.com/mate/MATE/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -225,7 +226,7 @@ msgstr "Detyro një proçes të përfundojë menjëherë"
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr ""
+msgstr "_Ndrysho prioritetin"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
@@ -237,11 +238,11 @@ msgstr "Konfiguro aplikativin"
 
 #: ../src/interface.cpp:76
 msgid "_Refresh"
-msgstr ""
+msgstr "_Rifresko"
 
 #: ../src/interface.cpp:77
 msgid "Refresh the process list"
-msgstr ""
+msgstr "Rifresko listën e proceseve"
 
 #: ../src/interface.cpp:79
 msgid "_Memory Maps"
@@ -266,7 +267,7 @@ msgstr ""
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Shfaq informacione shtesë mbi një proces"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -377,12 +378,12 @@ msgstr "Kronollogjia e përdorimit të CPU"
 
 #: ../src/interface.cpp:344 ../src/procproperties.cpp:139
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../src/interface.cpp:346
 #, c-format
 msgid "CPU%d"
-msgstr ""
+msgstr "CPU%d"
 
 #: ../src/interface.cpp:367
 msgid "Memory and Swap History"
@@ -391,7 +392,7 @@ msgstr "Kronollogjia e përdorimit të kujtesës dhe swap"
 #: ../src/interface.cpp:401 ../src/proctable.cpp:262
 #: ../src/procproperties.cpp:133
 msgid "Memory"
-msgstr ""
+msgstr "Memoria"
 
 #: ../src/interface.cpp:432
 msgid "Swap"
@@ -420,7 +421,7 @@ msgstr ""
 #. procman_create_sysinfo_view();
 #: ../src/interface.cpp:777
 msgid "System"
-msgstr ""
+msgstr "Sistemi"
 
 #: ../src/interface.cpp:781 ../src/procdialogs.cpp:549
 msgid "Processes"
@@ -439,8 +440,8 @@ msgstr ""
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u sekondë"
+msgstr[1] "%u sekonda"
 
 #: ../src/load-graph.cpp:351
 msgid "not available"
@@ -454,7 +455,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:126
 msgid "Error"
-msgstr ""
+msgstr "Gabim"
 
 #: ../src/lsof.cpp:127
 #, c-format
@@ -467,7 +468,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:285
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: ../src/lsof.cpp:295 ../src/memmaps.cpp:339
 msgid "Filename"
@@ -1191,7 +1192,7 @@ msgstr ""
 #: ../src/sysinfo.cpp:794
 #, c-format
 msgid "MATE %s"
-msgstr ""
+msgstr "MATE %s"
 
 #. hardware section
 #: ../src/sysinfo.cpp:809
@@ -1200,11 +1201,11 @@ msgstr ""
 
 #: ../src/sysinfo.cpp:814
 msgid "Memory:"
-msgstr ""
+msgstr "Memoria:"
 
 #: ../src/sysinfo.cpp:818
 msgid "Processor:"
-msgstr ""
+msgstr "Procesori:"
 
 #. disk space section
 #: ../src/sysinfo.cpp:826
@@ -1277,27 +1278,27 @@ msgstr "%.1f GiB"
 #: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f TiB"
 
 #: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g kbit"
 
 #: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Mbit"
 
 #: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Gbit"
 
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Tbit"
 
 #: ../src/util.cpp:188
 #, c-format

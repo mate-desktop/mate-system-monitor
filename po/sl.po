@@ -5,15 +5,16 @@
 # Translators:
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2002
 # Damir Jerovšek <jierro@windowslive.com>, 2013
+# Damir MEVKIĆ <damir.mevkic@gmail.com>, 2015
 # worm <thewormhole@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-03-12 17:26+0000\n"
-"Last-Translator: worm <thewormhole@gmail.com>\n"
-"Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
+"PO-Revision-Date: 2015-08-07 23:55+0000\n"
+"Last-Translator: Damir MEVKIĆ <damir.mevkic@gmail.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/mate/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr ""
+msgstr "Pregled procesov in sredstev za MATE Namizje"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""

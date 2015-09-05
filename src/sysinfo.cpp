@@ -752,12 +752,16 @@ procman_create_sysinfo_view(void)
 
     gchar *markup;
 
-
     hbox = gtk_hbox_new(FALSE, 12);
     gtk_container_set_border_width(GTK_CONTAINER(hbox), 6);
 
     /* left-side logo */
-    logo = gtk_image_new_from_file(DATADIR "/pixmaps/mate-system-monitor/side.png");
+    if (g_file_test (DATADIR "/pixmaps/mate-system-monitor/distribution/side.png", G_FILE_TEST_EXISTS)) {
+        logo = gtk_image_new_from_file(DATADIR "/pixmaps/mate-system-monitor/distribution/side.png");
+    }
+    else {
+        logo = gtk_image_new_from_file(DATADIR "/pixmaps/mate-system-monitor/side.png");
+    }
     gtk_misc_set_alignment(GTK_MISC(logo), 0.5, 0.0);
     gtk_misc_set_padding(GTK_MISC(logo), 5, 12);
     gtk_box_pack_start(GTK_BOX(hbox), logo, FALSE, FALSE, 0);

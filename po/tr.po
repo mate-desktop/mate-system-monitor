@@ -6,6 +6,7 @@
 # Atilla Öntaş <tarakbumba@gmail.com>, 2015
 # Atilla Öntaş <tarakbumba@gmail.com>, 2015
 # Baris Cicek <baris@teamforce.name.tr>, 2007-2009
+# Baris Cicek <baris@teamforce.name.tr>, 2007, 208, 2009
 # Davut Topcan <davut@aysis.com.tr>, 2004-2005
 # mauron, 2014
 # mauron, 2014
@@ -15,9 +16,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-01-08 08:06+0000\n"
+"PO-Revision-Date: 2015-04-24 13:50+0000\n"
 "Last-Translator: Atilla Öntaş <tarakbumba@gmail.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/MATE/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/mate/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -69,7 +70,7 @@ msgstr "Dosya Sistemleri sekmesini göster"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Deniz Koçak <deniz.kocak@linux.org.tr>\nDavut Topcan <davut@aysis.com.tr>\nBarış Çiçek <baris@teamforce.name.tr>"
+msgstr "Nilgün Belma Bugüner <nilgun@fide.org>\nDeniz Koçak <deniz.kocak@linux.org.tr>\nDavut Topcan <davut@aysis.com.tr>\nBarış Çiçek <baris@teamforce.name.tr>\nmauron\nAtilla Öntaş <tarakbumba@gmail.com>"
 
 #: ../src/disks.cpp:299 ../src/memmaps.cpp:361
 msgid "Device"

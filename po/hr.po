@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2014
+# Ivica  Kolić <ikoli@yahoo.com>, 2014-2015
 # Tomislav Krznar <tomislav.krznar@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2014-12-19 00:23+0000\n"
-"Last-Translator: infirit <infirit@gmail.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
+"PO-Revision-Date: 2015-04-24 16:26+0000\n"
+"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/mate/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,15 +52,15 @@ msgstr "Pokaži karticu sustava"
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr ""
+msgstr "Pokaži karticu procesa"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "Pokaži karticu resursa"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "Pokaži karticu datotečnih sustava"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
@@ -262,11 +262,11 @@ msgstr "Pregledaj datoteke otvorene od procesa"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Svojstva"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Pogledaj dodatne informacije o procesu"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -314,51 +314,51 @@ msgstr ""
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Vrlo visoko"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Postavi prioritet procesa vrlo visoko"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "Visoko"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Postavi prioritet procesa visoko"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Normalno"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Postavi prioritet procesa normalno"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "NIsko"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Postavi prioritet procesa nisko"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "Vrlo nisko"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Postavi prioritet procesa vrlo nisko"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Prilagođeno"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Postavi prioritet procesa ručno"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -369,7 +369,7 @@ msgstr "_Zaustavi proces"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Odaberi boju za '%s'"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -445,17 +445,17 @@ msgstr[2] "%u sekundi"
 
 #: ../src/load-graph.cpp:351
 msgid "not available"
-msgstr ""
+msgstr "nije dostupno"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) od %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
-msgstr ""
+msgstr "Greška"
 
 #: ../src/lsof.cpp:127
 #, c-format
@@ -486,7 +486,7 @@ msgstr "_Ime sadrži:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
 msgid "C_lear"
-msgstr ""
+msgstr "O_čisti"
 
 #: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:770
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Pokaži _sve datotečne sustave"
 
 #: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
@@ -1139,11 +1139,11 @@ msgstr ""
 
 #: ../src/proctable.cpp:271
 msgid "Owner"
-msgstr ""
+msgstr "Vlasnik"
 
 #: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
 msgid "Priority"
-msgstr ""
+msgstr "Prioritet"
 
 #: ../src/proctable.cpp:1096
 #, c-format
@@ -1164,7 +1164,7 @@ msgstr[2] ""
 
 #: ../src/procproperties.cpp:258
 msgid "Process Properties"
-msgstr ""
+msgstr "Svojstva procesa"
 
 #: ../src/procproperties.cpp:278
 #, c-format
@@ -1198,7 +1198,7 @@ msgstr "MATE %s"
 #. hardware section
 #: ../src/sysinfo.cpp:809
 msgid "Hardware"
-msgstr ""
+msgstr "Sklopovlje"
 
 #: ../src/sysinfo.cpp:814
 msgid "Memory:"

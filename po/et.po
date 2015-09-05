@@ -10,9 +10,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-03-18 19:12+0000\n"
+"PO-Revision-Date: 2015-08-10 12:55+0000\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
-"Language-Team: Estonian (http://www.transifex.com/projects/p/MATE/language/et/)\n"
+"Language-Team: Estonian (http://www.transifex.com/mate/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -266,7 +266,7 @@ msgstr "_Omadused"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Protsessi kohta täiendavate andmete näitamine"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -318,7 +318,7 @@ msgstr "Väga kõrge"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Protsessi tähtsuse määramine väga kõrgeks"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
@@ -326,7 +326,7 @@ msgstr "Kõrge"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Protsessi tähtsuse määramine kõrgeks"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
@@ -334,7 +334,7 @@ msgstr "Tavaline"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Protsessi tähtsuse määramine tavaliseks"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
@@ -342,7 +342,7 @@ msgstr "Madal"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Protsessi tähtsuse määramine madalaks"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
@@ -350,7 +350,7 @@ msgstr "Väga madal"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Protsessi tähtsuse määramine väga madalaks"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
@@ -358,7 +358,7 @@ msgstr "Kohandatud"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Protsessi tähtsuse käsitsi määramine"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -450,7 +450,7 @@ msgstr "pole saadaval"
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) %s-st"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
@@ -485,7 +485,7 @@ msgstr "_Nimi sisaldab:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
 msgid "C_lear"
-msgstr ""
+msgstr "_Puhasta"
 
 #: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
@@ -712,7 +712,7 @@ msgstr "Protsessi nimeveeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:26
 msgid "Show process 'name' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli nimeveergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Nimi'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:27
 msgid "Width of process 'owner' column"
@@ -720,7 +720,7 @@ msgstr "Protsessi omaniku veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:28
 msgid "Show process 'owner' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli omaniku veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Omanik'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:29
 msgid "Width of process 'status' column"
@@ -728,7 +728,7 @@ msgstr "Protsessi olekuveeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:30
 msgid "Show process 'status' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli olekuveergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Olek'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:31
 msgid "Width of process 'virtual memory' column"
@@ -736,7 +736,7 @@ msgstr "Protsessi virtuaalmälu veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:32
 msgid "Show process 'virtual memory' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli virtuaalmälu veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Virtuaalmälu'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:33
 msgid "Width of process 'resident memory' column"
@@ -744,7 +744,7 @@ msgstr "Protsessi residentse mälu veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:34
 msgid "Show process 'resident memory' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli residentse mälu veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Residentne mälu'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:35
 msgid "Width of process 'writable memory' column"
@@ -752,7 +752,7 @@ msgstr "Protsessi kirjutatava mälu veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:36
 msgid "Show process 'writable memory' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli kirjutatava mälu veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Kirjutatav mälu'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:37
 msgid "Width of process 'shared memory' column"
@@ -760,7 +760,7 @@ msgstr "Protsessi jagatud mälu veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:38
 msgid "Show process 'shared memory' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli jagatud mälu veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Jagatud mälu'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:39
 msgid "Width of process 'X server memory' column"
@@ -768,7 +768,7 @@ msgstr "Protsessi 'X-serveri mälu' veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:40
 msgid "Show process 'X server memory' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli X-serveri mälu veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'X-serveri mälu'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:42
 #, no-c-format
@@ -778,7 +778,7 @@ msgstr "Protsessi 'CPU %' veeru laius"
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:44
 #, no-c-format
 msgid "Show process 'CPU %' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli 'CPU %' veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'CPU %'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:45
 msgid "Width of process 'CPU time' column"
@@ -786,7 +786,7 @@ msgstr "Protsessi 'CPU aeg' veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:46
 msgid "Show process 'CPU time' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli CPU aja veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'CPU aeg'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:47
 msgid "Width of process 'start time' column"
@@ -794,7 +794,7 @@ msgstr "Protsessi alustamisaja veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:48
 msgid "Show process 'start time' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli alustamise aja veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Alustamise aeg'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:49
 msgid "Width of process 'nice' column"
@@ -802,7 +802,7 @@ msgstr "Protsessi prioriteedi veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:50
 msgid "Show process 'nice' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli prioriteedi veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Prioriteet'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:51
 msgid "Width of process 'PID' column"
@@ -810,7 +810,7 @@ msgstr "Protsessi PID-veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:52
 msgid "Show process 'PID' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli PID-veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'PID'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:53
 msgid "Width of process 'SELinux security context' column"
@@ -818,7 +818,7 @@ msgstr "Protsessi 'SELinux-i turvakontekst' veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:54
 msgid "Show process 'SELinux security context' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli SELinux-i turvakonteksti veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'SELinux-i turvakontekst'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:55
 msgid "Width of process 'arguments' column"
@@ -826,7 +826,7 @@ msgstr "Protsessi argumentide veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:56
 msgid "Show process 'arguments' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli argumentide veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Argumendid'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:57
 msgid "Width of process 'estimated memory usage' column"
@@ -834,7 +834,7 @@ msgstr "Protsessi hinnangulise mälukasutuse veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:58
 msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli hinnangulise mälukasutuse veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Hinnanguline mälukasutus'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:59
 msgid "Width of process 'Waiting Channel' column"
@@ -842,7 +842,7 @@ msgstr "Protsessi ootekanali nimeveeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:60
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Käivitamisel näidatakse protsessitabeli ootekanali veergu"
+msgstr "Käivitamisel näidatakse protsessitabeliss veergu 'Ootekanal'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:61
 msgid "Width of process 'Control Group' column"
@@ -862,11 +862,11 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:65
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "Protsessi seansi veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:66
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "Käivitamisel näidatakse protsessitabelis veergu 'Seanss'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
 msgid "Width of process 'Seat' column"
@@ -878,19 +878,19 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Protsessi omaniku veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "Käivitamisel näidatakse protsessitabelis veergu 'Omanik'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:71
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "Protsessi tähtsuse veeru laius"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "Käivitamisel näidatakse protsessitabelis veergu 'Tähtsus'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:73
 msgid "Disk view sort colum"

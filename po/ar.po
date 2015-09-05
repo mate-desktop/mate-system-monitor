@@ -19,9 +19,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-03-07 10:55+0000\n"
+"PO-Revision-Date: 2015-08-22 15:00+0000\n"
 "Last-Translator: مهدي السطيفي <chinoune.mehdi@gmail.com>\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
+"Language-Team: Arabic (http://www.transifex.com/mate/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +40,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr ""
+msgstr "<p> مراقب نظام متّة يسمح بعرض رسومي للعمليات المشتغلة و التعامل معها. و يوفّر أيضا نظرة عن الموارد المتاحة. مثل المعالج و الذاكرة. </p> <p> مراقب نظام متّة فرع عن مراقب نظام غنوم و جزء من بيئة سطح مكتب متّة. ان كنت ترغب أن تتعرف أكثر على متّة و مراقب النظام. رجاء زر الصفحة الرئيسة للمشروع. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -657,7 +657,7 @@ msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr ""
+msgstr "حول عرض معلومات عن كل ملفات النظام ( بما فيها أنواعا مثل 'autofs' و 'procfs'). مفيدة للحصول على قائمة جميع ملفات النظام الموصولة حاليا."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:11
 msgid "Time in milliseconds between updates of the devices list"
@@ -883,11 +883,11 @@ msgstr "عرض عمود 'الجلسة' عند البدء"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:67
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "اتساع عمود مقعد العملية"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:68
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "اعرض عمود مقعد العملية عند بدء التشغيل"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.in.h:69
 msgid "Width of process 'Owner' column"
@@ -945,7 +945,7 @@ msgstr "لا يُمكن تغيير أولوية العملية ذات  PID %d إ
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "لا يُمكن قتل العملية ذات PID %d بالإشارة %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
@@ -1147,7 +1147,7 @@ msgstr "جلسة"
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
 #: ../src/proctable.cpp:270
 msgid "Seat"
-msgstr ""
+msgstr "مقعد"
 
 #: ../src/proctable.cpp:271
 msgid "Owner"

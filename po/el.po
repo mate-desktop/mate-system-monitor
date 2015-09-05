@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# alexandros_ <alexandros.venn@gmail.com>, 2015
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2015
 # Kostas Papadimas <pkst@gnome.org>, 2003, 2004, 2005, 2008
 # Nikos Charonitakis <frolix68@yahoo.gr>, 2004
@@ -12,9 +13,9 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 01:20+0100\n"
-"PO-Revision-Date: 2015-03-19 23:22+0000\n"
-"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/MATE/language/el/)\n"
+"PO-Revision-Date: 2015-07-20 06:40+0000\n"
+"Last-Translator: alexandros_ <alexandros.venn@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -268,7 +269,7 @@ msgstr "_Προτιμήσεις"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Προβολή επιπρόσθετων πληροφοριών σχετικά με την διαδικασία"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -324,7 +325,7 @@ msgstr ""
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "Υψηλή"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
@@ -332,7 +333,7 @@ msgstr ""
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Κανονική"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
@@ -340,7 +341,7 @@ msgstr ""
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "Χαμηλή "
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
@@ -356,7 +357,7 @@ msgstr ""
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Προσαρμοσμένη"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
@@ -1144,7 +1145,7 @@ msgstr "Ιδιοκτήτης"
 
 #: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
 msgid "Priority"
-msgstr ""
+msgstr "Προτεραιότητα"
 
 #: ../src/proctable.cpp:1096
 #, c-format
@@ -1153,7 +1154,7 @@ msgstr "Μέσος φόρτος για τα τελευταία 1, 5, 15 λεπτ
 
 #: ../src/procproperties.cpp:104 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../src/procproperties.cpp:140
 #, c-format

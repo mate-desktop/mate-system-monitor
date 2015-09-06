@@ -767,11 +767,8 @@ create_main_window (ProcData *procdata)
 
     /* create the main notebook */
     procdata->notebook = notebook = gtk_notebook_new ();
-      gtk_box_pack_start (GTK_BOX (main_box),
-                          notebook,
-                          TRUE,
-                          TRUE,
-                          0);
+    gtk_box_pack_start (GTK_BOX (main_box), notebook, TRUE, TRUE, 0);
+    gtk_container_set_border_width (GTK_CONTAINER (notebook), 12);
 
     sysinfo_box = gtk_hbox_new(TRUE, 0); // procman_create_sysinfo_view();
     sysinfo_label = gtk_label_new(_("System"));
@@ -815,10 +812,9 @@ create_main_window (ProcData *procdata)
 
     /* create the statusbar */
     procdata->statusbar = gtk_statusbar_new();
-    gtk_box_pack_end(GTK_BOX(main_box), procdata->statusbar, FALSE, FALSE, 0);
+    gtk_box_pack_start(GTK_BOX(main_box), procdata->statusbar, FALSE, FALSE, 0);
     procdata->tip_message_cid = gtk_statusbar_get_context_id
         (GTK_STATUSBAR (procdata->statusbar), "tip_message");
-
 
     action = gtk_action_group_get_action (procdata->action_group, "ShowDependencies");
     gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (action),

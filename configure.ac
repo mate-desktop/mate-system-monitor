@@ -38,6 +38,12 @@ SYSTEMD_REQUIRED=38
 # systemd v43 used the C++ keyword 'class' as a function parameter. This breaks the build for C++ programs.
 SYSTEMD_EXCLUDED=43
 
+# GLib min/max required versions
+AC_DEFINE([GLIB_VERSION_MAX_ALLOWED], [GLIB_VERSION_2_36],
+	[Warn on use of APIs added after GLib 2.36])
+AC_DEFINE([GLIB_VERSION_MIN_REQUIRED], [GLIB_VERSION_2_36],
+	[Warn on use of APIs deprecated before GLib 2.36])
+
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
   [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],

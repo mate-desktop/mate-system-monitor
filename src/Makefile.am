@@ -64,12 +64,10 @@ specdir = $(datadir)/procman
 # GSettings schemas, enum files and conversion file
 gsettings_ENUM_NAMESPACE = org.mate.system-monitor
 gsettings_ENUM_FILES = $(top_srcdir)/src/*.h
-gsettings_SCHEMAS = org.mate.system-monitor.gschema.xml
+gsettingsschema_in_files = org.mate.system-monitor.gschema.xml.in
+gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 @GSETTINGS_RULES@
 @INTLTOOL_XML_NOMERGE_RULE@
-
-%.gschema.xml.in: %.gschema.xml.in.in Makefile
-	$(AM_V_GEN) $(SED) -e 's^\@GETTEXT_PACKAGE\@^$(GETTEXT_PACKAGE)^g' < $< > $@
 
 convertdir = $(datadir)/MateConf/gsettings
 dist_convert_DATA = mate-system-monitor.convert
@@ -78,10 +76,9 @@ dist_noinst_DATA = \
 	$(gsettings_in_file)
 
 CLEANFILES = \
-	$(gsettings_SCHEMAS) \
-	$(gsettings_SCHEMAS).in
+	$(gsettings_SCHEMAS)
 
 EXTRA_DIST = \
-	$(gsettings_SCHEMAS).in.in
+	$(gsettingsschema_in_files)
 
 MAINTAINERCLEANFILES = $(gsettings_SCHEMAS:.xml=.valid)

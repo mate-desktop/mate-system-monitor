@@ -533,7 +533,8 @@ namespace {
                     std::getline(input, s);
                     if (s.find("NAME=") == 0) {
                         len = strlen("NAME=");
-                        this->distro_name = s.substr(len);
+                        // also strip the surrounding quotes
+                        this->distro_name = s.substr(len + 1, s.size() - len - 2);
                     } else if (s.find("VERSION=") == 0) {
                         len = strlen("VERSION=");
                         // also strip the surrounding quotes

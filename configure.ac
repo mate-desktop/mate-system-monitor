@@ -33,9 +33,7 @@ GIOMM_REQUIRED=2.26.0
 GLIBMM_REQUIRED=2.22
 LIBXML_REQUIRED=2.0
 RSVG_REQUIRED=2.35
-SYSTEMD_REQUIRED=38
-# systemd v43 used the C++ keyword 'class' as a function parameter. This breaks the build for C++ programs.
-SYSTEMD_EXCLUDED=43
+SYSTEMD_REQUIRED=44
 
 # GLib min/max required versions
 AC_DEFINE([GLIB_VERSION_MAX_ALLOWED], [GLIB_VERSION_2_36],
@@ -74,16 +72,17 @@ PKG_CHECK_MODULES(PROCMAN,$GMODULE_ADD glib-2.0 >= $GLIB_REQUIRED libgtop-2.0 >=
 
 have_systemd=no
 AC_ARG_ENABLE(systemd, AS_HELP_STRING([--disable-systemd], [disable systemd support]),,enable_systemd=no)
-	if test "x$enable_systemd" != "xno"; then
-		PKG_CHECK_MODULES(SYSTEMD, [ libsystemd-login >= $SYSTEMD_REQUIRED ],
-					   [ PKG_CHECK_MODULES(SYSTEMD_EX, [ libsystemd-login = $SYSTEMD_EXCLUDED ],
-									   AC_MSG_ERROR([*** systemd v43 found but it has a bug in its header files (uses C++ keyword)]), # Can't use systemd v43
-									   [AC_DEFINE(HAVE_SYSTEMD, 1, [Define if systemd is available]) have_systemd=yes])],
-					   have_systemd=no)
-if test "x$have_systemd" = xno; then
-                AC_MSG_ERROR([*** systemd support requested but libraries not found])
-        fi
+if test "x$enable_systemd" != "xno"; then
+	PKG_CHECK_MODULES(SYSTEMD, [libsystemd], [have_systemd=yes],
+	                  [PKG_CHECK_MODULES(SYSTEMD, [libsystemd-login >= $SYSTEMD_REQUIRED],
+	                  [have_systemd=yes])])
+	if test "x$have_systemd" = xno; then
+		AC_MSG_ERROR([*** systemd support requested but libraries not found])
+	else
+		AC_DEFINE(HAVE_SYSTEMD, 1, [Define if systemd is available])
+	fi
 fi
+
 AM_CONDITIONAL(HAVE_SYSTEMD, [test "$have_systemd" = "yes"])
 
 # Compiler warnings

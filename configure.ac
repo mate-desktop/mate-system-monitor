@@ -103,7 +103,6 @@ if test "$GCC" = "yes" -a "$set_more_warnings" != "no"; then
     -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes \
     -Wnested-externs -Wpointer-arith \
     -Wcast-align -Wsign-compare \
-    -std=gnu89 \
     $CFLAGS"
     CXXFLAGS="-Wall -std=c++98 $CXXFLAGS"
 else

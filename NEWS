@@ -1,3 +1,14 @@
+1.11.0
+
+  * SysInfo: add proper detection for Linux Mint and LMDE
+  * SysInfo: let distributions define custom side image
+  * Interface: add border to notebook
+  * Retrieve strings directly from gschema (requires intltool 0.50.1)
+  * Add support for libsystemd (in addition to libsystemd-login)
+  * Drop useless dependency on mate-icon-theme
+  * Drop C89 support
+  * Translations update
+
 1.10.1
 
   * Some adjustments for NetBSD

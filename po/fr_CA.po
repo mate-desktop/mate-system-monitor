@@ -3,27 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# corneliu.e <corneliueva@yahoo.com>, 2014
-# Dan Damian <dand@mate.ro>, 2005
-# Daniel <danny34ever@yahoo.com>, 2015
-# Mugurel Tudor <mugurelu@mate.ro>, 2002, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-08 15:37+0200\n"
-"PO-Revision-Date: 2015-11-03 14:43+0000\n"
-"Last-Translator: Daniel <danny34ever@yahoo.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/mate/MATE/language/ro/)\n"
+"PO-Revision-Date: 2015-10-08 14:49+0000\n"
+"Last-Translator: Martin Wimpress <code@flexion.org>\n"
+"Language-Team: French (Canada) (http://www.transifex.com/mate/MATE/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Un monitor de procese și resurse pentru desktopul MATE"
+msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -37,93 +33,93 @@ msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr "Monitor sistem MATE"
+msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
 #: ../src/interface.cpp:690 ../src/procman.cpp:710
 msgid "System Monitor"
-msgstr "Monitorizare sistem"
+msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
-msgstr "Arată procesele curente și monitorizează starea sistemului"
+msgstr ""
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
-msgstr "Arată pagina „Sistem”"
+msgstr ""
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr "Arată pagina „Procese”"
+msgstr ""
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr "Arată pagina „Resurse”"
+msgstr ""
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr "Arată fila cu sistemele de fișiere"
+msgstr ""
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Dan Damian <dand@mate.ro>\nMișu Moldovan <dumol@mate.ro>\nMugurel Tudor <mugurelu@mate.ro>"
+msgstr ""
 
 #: ../src/disks.cpp:299 ../src/memmaps.cpp:361
 msgid "Device"
-msgstr "Dispozitiv"
+msgstr ""
 
 #: ../src/disks.cpp:300
 msgid "Directory"
-msgstr "Director"
+msgstr ""
 
 #: ../src/disks.cpp:301 ../src/gsm_color_button.c:227 ../src/openfiles.cpp:251
 msgid "Type"
-msgstr "Tip"
+msgstr ""
 
 #: ../src/disks.cpp:302
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 #: ../src/disks.cpp:303
 msgid "Free"
-msgstr "Liber"
+msgstr ""
 
 #: ../src/disks.cpp:304
 msgid "Available"
-msgstr "Disponibil"
+msgstr ""
 
 #: ../src/disks.cpp:305
 msgid "Used"
-msgstr "Utilizat"
+msgstr ""
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
 msgid "?"
-msgstr "?"
+msgstr ""
 
 #: ../src/e_date.c:162
 msgid "Today %l:%M %p"
-msgstr "Azi %l:%M %p"
+msgstr ""
 
 #: ../src/e_date.c:171
 msgid "Yesterday %l:%M %p"
-msgstr "Ieri %l:%M %p"
+msgstr ""
 
 #: ../src/e_date.c:183
 msgid "%a %l:%M %p"
-msgstr "%a %l:%M %p"
+msgstr ""
 
 #: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
-msgstr "%d %b %l:%M %p"
+msgstr ""
 
 #: ../src/e_date.c:193
 msgid "%b %d %Y"
-msgstr "%d %b %Y"
+msgstr ""
 
 #: ../src/gsm_color_button.c:203
 msgid "Fraction"
-msgstr "Fracțiune"
+msgstr ""
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
@@ -133,487 +129,486 @@ msgstr ""
 
 #: ../src/gsm_color_button.c:212
 msgid "Title"
-msgstr "Titlu"
+msgstr ""
 
 #: ../src/gsm_color_button.c:213
 msgid "The title of the color selection dialog"
-msgstr "Titlul dialogului de alegere a culorii"
+msgstr ""
 
 #: ../src/gsm_color_button.c:214 ../src/gsm_color_button.c:639
 msgid "Pick a Color"
-msgstr "Alegeți o culoare"
+msgstr ""
 
 #: ../src/gsm_color_button.c:220
 msgid "Current Color"
-msgstr "Culoare curentă"
+msgstr ""
 
 #: ../src/gsm_color_button.c:221
 msgid "The selected color"
-msgstr "Culoarea selectată"
+msgstr ""
 
 #: ../src/gsm_color_button.c:228
 msgid "Type of color picker"
-msgstr "Tipul instrumentului de alegere a culorii"
+msgstr ""
 
 #: ../src/gsm_color_button.c:562
 msgid "Received invalid color data\n"
-msgstr "S-au primit date invalide de culoare\n"
+msgstr ""
 
 #: ../src/gsm_color_button.c:662
 msgid "Click to set graph colors"
-msgstr "Alegeți prin clicuri culorile graficului"
+msgstr ""
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
 #: ../src/interface.cpp:51
 msgid "_Monitor"
-msgstr "_Monitorizare"
+msgstr ""
 
 #: ../src/interface.cpp:52
 msgid "_Edit"
-msgstr "_Editare"
+msgstr ""
 
 #: ../src/interface.cpp:53
 msgid "_View"
-msgstr "_Vizualizare"
+msgstr ""
 
 #: ../src/interface.cpp:54
 msgid "_Help"
-msgstr "_Ajutor"
+msgstr "_Aide"
 
 #: ../src/interface.cpp:56
 msgid "Search for _Open Files"
-msgstr "Caută fișiere _deschise"
+msgstr ""
 
 #: ../src/interface.cpp:57
 msgid "Search for open files"
-msgstr "Caută fișiere deschise"
+msgstr ""
 
 #: ../src/interface.cpp:59
 msgid "Quit the program"
-msgstr "Ieșire din program"
+msgstr ""
 
 #: ../src/interface.cpp:62
 msgid "_Stop Process"
-msgstr "_Oprește procesul"
+msgstr ""
 
 #: ../src/interface.cpp:63
 msgid "Stop process"
-msgstr "Oprește procesul"
+msgstr ""
 
 #: ../src/interface.cpp:64
 msgid "_Continue Process"
-msgstr "_Continuă procesul"
+msgstr ""
 
 #: ../src/interface.cpp:65
 msgid "Continue process if stopped"
-msgstr "Continuă un proces oprit"
+msgstr ""
 
 #: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
 msgid "_End Process"
-msgstr "_Termină procesul"
+msgstr ""
 
 #: ../src/interface.cpp:68
 msgid "Force process to finish normally"
-msgstr "Se va forța terminarea normală a procesului"
+msgstr ""
 
 #: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
 msgid "_Kill Process"
-msgstr "_Omoară procesul"
+msgstr ""
 
 #: ../src/interface.cpp:70
 msgid "Force process to finish immediately"
-msgstr "Se va forța terminarea imediată a procesului"
+msgstr ""
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr "S_chimbă prioritate"
+msgstr ""
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
-msgstr "Se va schimba prioritatea unui proces"
+msgstr ""
 
 #: ../src/interface.cpp:74
 msgid "Configure the application"
-msgstr "Configurare aplicație"
+msgstr ""
 
 #: ../src/interface.cpp:76
 msgid "_Refresh"
-msgstr "_Reactualizează"
+msgstr ""
 
 #: ../src/interface.cpp:77
 msgid "Refresh the process list"
-msgstr "Reactualizează lista proceselor"
+msgstr ""
 
 #: ../src/interface.cpp:79
 msgid "_Memory Maps"
-msgstr "_Hartă memorie"
+msgstr ""
 
 #: ../src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
-msgstr "Se va afișa harta memoriei asociată unui proces"
+msgstr ""
 
 #. Translators: this means 'Files that are open' (open is no verb here
 #: ../src/interface.cpp:82
 msgid "Open _Files"
-msgstr "_Fișiere deschise"
+msgstr ""
 
 #: ../src/interface.cpp:83
 msgid "View the files opened by a process"
-msgstr "Se va afișa harta memoriei asociată unui proces"
+msgstr ""
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr "_Proprietăți"
+msgstr ""
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr "Afișează informații adiționale despre un proces"
+msgstr ""
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
-msgstr "_Conținut"
+msgstr ""
 
 #: ../src/interface.cpp:89
 msgid "Open the manual"
-msgstr "Deschide manualul"
+msgstr ""
 
 #: ../src/interface.cpp:91
 msgid "About this application"
-msgstr "Despre această aplicație"
+msgstr ""
 
 #: ../src/interface.cpp:96
 msgid "_Dependencies"
-msgstr "_Dependențe"
+msgstr ""
 
 #: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
-msgstr "Se vor afișa relațiile de tip părinte-copil dintre procese"
+msgstr ""
 
 #: ../src/interface.cpp:104
 msgid "_Active Processes"
-msgstr "Procese _active"
+msgstr ""
 
 #: ../src/interface.cpp:105
 msgid "Show active processes"
-msgstr "Arată procesele active"
+msgstr ""
 
 #: ../src/interface.cpp:106
 msgid "A_ll Processes"
-msgstr "T_oate procesele"
+msgstr ""
 
 #: ../src/interface.cpp:107
 msgid "Show all processes"
-msgstr "Arată toate procesele"
+msgstr ""
 
 #: ../src/interface.cpp:108
 msgid "M_y Processes"
-msgstr "Procesele _mele"
+msgstr ""
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr "Afișează doar procesele deținute de un utilizator"
+msgstr ""
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr "Foarte ridicată"
+msgstr ""
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr "Definește prioritatea procesului ca foarte ridicată"
+msgstr ""
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr "Ridicată"
+msgstr ""
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr "Definește prioritatea procesului ca ridicată"
+msgstr ""
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr "Normală"
+msgstr ""
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr "Definește prioritatea procesului ca normală"
+msgstr ""
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr "Scăzută"
+msgstr ""
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr "Definește prioritatea procesului ca scăzută"
+msgstr ""
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr "Foarte scăzută"
+msgstr ""
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr "Definește prioritatea procesului ca foarte scăzută"
+msgstr ""
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr "Personalizată"
+msgstr ""
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr "Definire manuală a priorității procesului"
+msgstr ""
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
-msgstr "_Termină procesul"
+msgstr ""
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr "Alegeți o culoare pentru „%s”"
+msgstr ""
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
-msgstr "Istoric procesor"
+msgstr ""
 
 #: ../src/interface.cpp:344 ../src/procproperties.cpp:139
 msgid "CPU"
-msgstr "CPU"
+msgstr ""
 
 #: ../src/interface.cpp:346
 #, c-format
 msgid "CPU%d"
-msgstr "CPU%d"
+msgstr ""
 
 #: ../src/interface.cpp:367
 msgid "Memory and Swap History"
-msgstr "Istoric memorie și swap"
+msgstr ""
 
 #: ../src/interface.cpp:401 ../src/proctable.cpp:262
 #: ../src/procproperties.cpp:133
 msgid "Memory"
-msgstr "Memorie"
+msgstr "Mémoire"
 
 #: ../src/interface.cpp:432
 msgid "Swap"
-msgstr "Swap"
+msgstr ""
 
 #: ../src/interface.cpp:463
 msgid "Network History"
-msgstr "Istoric rețea"
+msgstr ""
 
 #: ../src/interface.cpp:496
 msgid "Receiving"
-msgstr "În curs de primire"
+msgstr ""
 
 #: ../src/interface.cpp:529
 msgid "Total Received"
-msgstr "Primite în total"
+msgstr ""
 
 #: ../src/interface.cpp:557
 msgid "Sending"
-msgstr "În curs de trimitere"
+msgstr ""
 
 #: ../src/interface.cpp:591
 msgid "Total Sent"
-msgstr "Trimise în total"
+msgstr ""
 
 #. procman_create_sysinfo_view();
 #: ../src/interface.cpp:777
 msgid "System"
-msgstr "Sistem"
+msgstr ""
 
 #: ../src/interface.cpp:781 ../src/procdialogs.cpp:549
 msgid "Processes"
-msgstr "Procese"
+msgstr ""
 
 #: ../src/interface.cpp:785 ../src/procdialogs.cpp:662
 msgid "Resources"
-msgstr "Resurse"
+msgstr ""
 
 #: ../src/interface.cpp:789 ../src/procdialogs.cpp:727
 #: ../src/procdialogs.cpp:731
 msgid "File Systems"
-msgstr "Sisteme de fișiere"
+msgstr ""
 
 #: ../src/load-graph.cpp:170
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "o secundă"
-msgstr[1] "%u secunde"
-msgstr[2] "%u de secunde"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/load-graph.cpp:351
 msgid "not available"
-msgstr "indisponibil"
+msgstr ""
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:354
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr "%s (%.1f%%) din %s"
+msgstr ""
 
 #: ../src/lsof.cpp:126
 msgid "Error"
-msgstr "Eroare"
+msgstr ""
 
 #: ../src/lsof.cpp:127
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr "„%s” nu este o expresie regulară Perl validă."
+msgstr ""
 
 #: ../src/lsof.cpp:273
 msgid "Process"
-msgstr "Proces"
+msgstr ""
 
 #: ../src/lsof.cpp:285
 msgid "PID"
-msgstr "PID"
+msgstr ""
 
 #: ../src/lsof.cpp:295 ../src/memmaps.cpp:339
 msgid "Filename"
-msgstr "Nume fișier"
+msgstr ""
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
 #: ../src/lsof.cpp:312
 msgid "Search for Open Files"
-msgstr "Căutare fișiere deschise"
+msgstr ""
 
 #: ../src/lsof.cpp:339
 msgid "_Name contains:"
-msgstr "_Numele conține:"
+msgstr ""
 
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:353
 msgid "C_lear"
-msgstr "C_urăță"
+msgstr ""
 
 #: ../src/lsof.cpp:357
 msgid "Case insensitive matching"
-msgstr "Căutare cu majuscule nesemnificative"
+msgstr ""
 
 #: ../src/lsof.cpp:365
 msgid "S_earch results:"
-msgstr "R_ezultatele căutării:"
+msgstr ""
 
 #. xgettext: virtual memory start
 #: ../src/memmaps.cpp:341
 msgid "VM Start"
-msgstr "Început VM"
+msgstr ""
 
 #. xgettext: virtual memory end
 #: ../src/memmaps.cpp:343
 msgid "VM End"
-msgstr "Sfârșit VM"
+msgstr ""
 
 #. xgettext: virtual memory syze
 #: ../src/memmaps.cpp:345
 msgid "VM Size"
-msgstr "Mărime VM"
+msgstr ""
 
 #: ../src/memmaps.cpp:346
 msgid "Flags"
-msgstr "Indicatori"
+msgstr ""
 
 #. xgettext: virtual memory offset
 #: ../src/memmaps.cpp:348
 msgid "VM Offset"
-msgstr "Offset VM"
+msgstr ""
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
 #: ../src/memmaps.cpp:351
 msgid "Private clean"
-msgstr "Alocată nefolosită"
+msgstr ""
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
 #: ../src/memmaps.cpp:354
 msgid "Private dirty"
-msgstr "Alocată folosită"
+msgstr ""
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
 #: ../src/memmaps.cpp:357
 msgid "Shared clean"
-msgstr "Partajată nefolosită"
+msgstr ""
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
 #: ../src/memmaps.cpp:360
 msgid "Shared dirty"
-msgstr "Partajată folosită"
+msgstr ""
 
 #: ../src/memmaps.cpp:362
 msgid "Inode"
-msgstr "Inode"
+msgstr ""
 
 #: ../src/memmaps.cpp:467
 msgid "Memory Maps"
-msgstr "Zone de memorie"
+msgstr ""
 
 #: ../src/memmaps.cpp:479
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr "_Zone de memorie pentru procesul „%s” (PID %u):"
+msgstr ""
 
 #: ../src/openfiles.cpp:38
 msgid "file"
-msgstr "fișier"
+msgstr "fichier"
 
 #: ../src/openfiles.cpp:40
 msgid "pipe"
-msgstr "filtru"
+msgstr ""
 
 #: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
-msgstr "conexiune de rețea IPv6"
+msgstr ""
 
 #: ../src/openfiles.cpp:44
 msgid "IPv4 network connection"
-msgstr "conexiune de rețea IPv4"
+msgstr ""
 
 #: ../src/openfiles.cpp:46
 msgid "local socket"
-msgstr "socket local"
+msgstr ""
 
 #: ../src/openfiles.cpp:48
 msgid "unknown type"
-msgstr "tip necunoscut"
+msgstr ""
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
 #: ../src/openfiles.cpp:250
 msgid "FD"
-msgstr "Descriptor fișier"
+msgstr ""
 
 #: ../src/openfiles.cpp:252
 msgid "Object"
-msgstr "Obiect"
+msgstr ""
 
 #: ../src/openfiles.cpp:337
 msgid "Open Files"
-msgstr "Fișiere deschise"
+msgstr ""
 
 #: ../src/openfiles.cpp:358
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
-msgstr "_Fișiere deschise de procesul „%s” (PID %u):"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr "Dimensiune fereastră principală și poziție de forma (lățime, înălțime, poziție pe axa x, poziție pe axa y)"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid "Show process dependencies in tree form"
-msgstr "Arată dependențele procesului în arbore"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Solaris mode for CPU percentage"
-msgstr "Mod „Solaris” pentru procentajul CPU"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:4
 msgid ""
@@ -624,23 +619,23 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:5
 msgid "Enable/Disable smooth refresh"
-msgstr "(Dez)Activează actualizarea de efect"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Show warning dialog when killing processes"
-msgstr "Avertizează înainte de a termina procesele"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:7
 msgid "Time in milliseconds between updates of the process view"
-msgstr "Timp în milisecunde între actualizările listei de procese"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:8
 msgid "Time in milliseconds between updates of the graphs"
-msgstr "Timp în milisecunde între actualizările graficelor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:9
 msgid "Whether information about all file systems should be displayed"
-msgstr "Dacă să fie afișate informații pentru toate sistemele de fișiere"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:10
 msgid ""
@@ -651,201 +646,201 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:11
 msgid "Time in milliseconds between updates of the devices list"
-msgstr "Timp în milisecunde între actualizările din lista dispozitivelor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Specifică procesele afișate implicit. „0” pentru toate, „1” pentru ale utilizatorului, „2” pentru cele active"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:13
 msgid "Saves the currently viewed tab"
-msgstr "Salvează tabul curent"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 pentru informațiile despre sistem, 1 pentru lista de procese, 2 pentru resurse și 3 pentru lista discurilor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:15
 msgid "Default graph CPU color"
-msgstr "Culoare implicită grafic procesor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph cpu color"
-msgstr "Culoare implicită grafic procesor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:17
 msgid "Default graph memory color"
-msgstr "Culoare implicită grafic memorie"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:18
 msgid "Default graph swap color"
-msgstr "Culoare implicită grafic swap"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:19
 msgid "Default graph incoming network traffic color"
-msgstr "Culoare implicită grafic rețea pachete primite"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:20
 msgid "Default graph outgoing network traffic color"
-msgstr "Culoare implicită grafic rețea pachete trimise"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:21
 msgid "Show network traffic in bits"
-msgstr "Arată traficul de rețea în biți"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:22
 msgid "Process view sort column"
-msgstr "Coloană de ordonare a listei proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:23
 msgid "Process view columns order"
-msgstr "Ordine de sortare a coloanelor proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:24
 msgid "Process view sort order"
-msgstr "Ordine de sortare a listei proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:25
 msgid "Width of process 'name' column"
-msgstr "Lățimea coloanei „Nume” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Show process 'name' column on startup"
-msgstr "Arată la pornire coloana numelor proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Width of process 'owner' column"
-msgstr "Lățimea coloanei „Deținător” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Show process 'owner' column on startup"
-msgstr "Arată la pornire coloana deținătorilor proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Width of process 'status' column"
-msgstr "Lățimea coloanei „Stare” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Show process 'status' column on startup"
-msgstr "Arată la pornire coloana stării proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Width of process 'virtual memory' column"
-msgstr "Lățimea coloanei „Memorie virtuală” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Show process 'virtual memory' column on startup"
-msgstr "Arată la pornire coloana memoriei virtuale"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Width of process 'resident memory' column"
-msgstr "Lățimea coloanei „Memorie rezidentă” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Show process 'resident memory' column on startup"
-msgstr "Arată la pornire coloana memoriei rezidente"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Width of process 'writable memory' column"
-msgstr "Lățimea coloanei „Memorie neprotejată la scriere” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Show process 'writable memory' column on startup"
-msgstr "Arată la pornire coloana memoriei neprotejate la scriere"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Width of process 'shared memory' column"
-msgstr "Lățimea coloanei „Memorie partajată” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Show process 'shared memory' column on startup"
-msgstr "Arată la pornire coloana memoriei partajate"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Width of process 'X server memory' column"
-msgstr "Lățimea coloanei „Memorie server X” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Show process 'X server memory' column on startup"
-msgstr "Arată la pornire coloana memoriei X utilizate"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:42
 #, no-c-format
 msgid "Width of process 'CPU %' column"
-msgstr "Lățimea coloanei „Utilizare procesor” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:44
 #, no-c-format
 msgid "Show process 'CPU %' column on startup"
-msgstr "Arată la pornire coloana cu utilizarea CPU în procente"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 msgid "Width of process 'CPU time' column"
-msgstr "Lățimea coloanei „Timp procesor” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Show process 'CPU time' column on startup"
-msgstr "Arată la pornire coloana cu timpul CPU total"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Width of process 'start time' column"
-msgstr "Lățimea coloanei „Timp de pornire” a procesului"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Show process 'start time' column on startup"
-msgstr "Arată la pornire coloana timpului de pornire"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Width of process 'nice' column"
-msgstr "Lățimea coloanei valorilor „nice”"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Show process 'nice' column on startup"
-msgstr "Arată la pornire coloana valorilor „nice”"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Width of process 'PID' column"
-msgstr "Lățimea coloanei cu PID-urile proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Show process 'PID' column on startup"
-msgstr "Arată la pornire coloana cu PID-urile proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Width of process 'SELinux security context' column"
-msgstr "Lățimea coloanei contextelor de securitate SELinux"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Show process 'SELinux security context' column on startup"
-msgstr "Arată la pornire coloana contextelor de securitate SELinux"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Width of process 'arguments' column"
-msgstr "Lățimea coloanei argumentelor proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Show process 'arguments' column on startup"
-msgstr "Arată la pornire coloana argumentelor proceselor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Width of process 'estimated memory usage' column"
-msgstr "Lățimea coloanei de estimare a utilizării memoriei"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Show process 'estimated memory usage' column on startup"
-msgstr "Arată la pornire coloana cu estimarea memoriei utilizate"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Width of process 'Waiting Channel' column"
-msgstr "Lățimea coloanei funcțiilor kernel în așteptare"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:60
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Arată la pornire coloana funcțiilor kernel în așteptare"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:61
 msgid "Width of process 'Control Group' column"
@@ -853,7 +848,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:62
 msgid "Show process 'Control Group' column on startup"
-msgstr "Arată coloana „Grup de control” a procesului la pornire"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:63
 msgid "Width of process 'Unit' column"
@@ -861,7 +856,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:64
 msgid "Show process 'Unit' column on startup"
-msgstr "Arată coloana „Unitate” a procesului la pornire"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:65
 msgid "Width of process 'Session' column"
@@ -869,7 +864,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:66
 msgid "Show process 'Session' column on startup"
-msgstr "Arată coloana „Sesiune” a procesului la pornire"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:67
 msgid "Width of process 'Seat' column"
@@ -877,7 +872,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:68
 msgid "Show process 'Seat' column on startup"
-msgstr "Arată coloana „Scaun” a procesului la pornire"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:69
 msgid "Width of process 'Owner' column"
@@ -885,7 +880,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr "Arată coloana „Deținător” a procesului la pornire"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:71
 msgid "Width of process 'Priority' column"
@@ -893,7 +888,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr "Arată coloana „Prioritate” a procesului la pornire"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:73
 msgid "Disk view sort colum"
@@ -905,7 +900,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:75
 msgid "Disk view columns order"
-msgstr "Ordine de sortare a coloanelor discurilor"
+msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:76
 msgid "Memory map sort column"
@@ -975,131 +970,131 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:185
 msgid "Change _Priority"
-msgstr "_Schimbă prioritatea"
+msgstr ""
 
 #: ../src/procdialogs.cpp:208
 msgid "_Nice value:"
-msgstr "Valoare „_nice”:"
+msgstr ""
 
 #: ../src/procdialogs.cpp:229
 msgid "Note:"
-msgstr "Notă:"
+msgstr ""
 
 #: ../src/procdialogs.cpp:230
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Prioritatea unui proces este dată de valoarea „nice” asociată. O valoare „nice” scăzută corespunde unei priorități crescute."
+msgstr ""
 
 #: ../src/procdialogs.cpp:467
 msgid "Icon"
-msgstr "Pictogramă"
+msgstr "Icône"
 
 #: ../src/procdialogs.cpp:526
 msgid "System Monitor Preferences"
-msgstr "Preferințe monitorizare sistem"
+msgstr ""
 
 #: ../src/procdialogs.cpp:556
 msgid "Behavior"
-msgstr "Comportament"
+msgstr ""
 
 #: ../src/procdialogs.cpp:575 ../src/procdialogs.cpp:688
 #: ../src/procdialogs.cpp:750
 msgid "_Update interval in seconds:"
-msgstr "Interval de _reactualizare în secunde:"
+msgstr ""
 
 #: ../src/procdialogs.cpp:600
 msgid "Enable _smooth refresh"
-msgstr "Activează reactualizarea cu e_fect"
+msgstr ""
 
 #: ../src/procdialogs.cpp:613
 msgid "Alert before ending or _killing processes"
-msgstr "Avertizează înainte de _terminarea proceselor"
+msgstr ""
 
 #: ../src/procdialogs.cpp:626
 msgid "Divide CPU usage by CPU count"
-msgstr "Împarte utilizare procesor la numărul de procesoare"
+msgstr ""
 
 #: ../src/procdialogs.cpp:627
 msgid "Solaris mode"
-msgstr "Mod „Solaris”"
+msgstr ""
 
 #: ../src/procdialogs.cpp:644 ../src/procdialogs.cpp:784
 msgid "Information Fields"
-msgstr "Câmpuri de informații"
+msgstr ""
 
 #: ../src/procdialogs.cpp:657
 msgid "Process i_nformation shown in list:"
-msgstr "_Detalii de proces afișate în listă:"
+msgstr ""
 
 #: ../src/procdialogs.cpp:669
 msgid "Graphs"
-msgstr "Grafice"
+msgstr ""
 
 #: ../src/procdialogs.cpp:708
 msgid "Show network speed in bits"
-msgstr "Arată viteza în biți a rețelei"
+msgstr ""
 
 #: ../src/procdialogs.cpp:770
 msgid "Show _all file systems"
-msgstr "Arată _toate sistemele de fișiere"
+msgstr ""
 
 #: ../src/procdialogs.cpp:797
 msgid "File system i_nformation shown in list:"
-msgstr "_Detalii ale sistemelor de fișiere afișate în listă:"
+msgstr ""
 
 #: ../src/procman.cpp:659
 msgid "A simple process and system monitor."
-msgstr "Un program de monitorizare a sistemului."
+msgstr ""
 
 #: ../src/proctable.cpp:247 ../src/procproperties.cpp:130
 msgid "Process Name"
-msgstr "Nume proces"
+msgstr ""
 
 #: ../src/proctable.cpp:248 ../src/procproperties.cpp:131
 msgid "User"
-msgstr "Utilizator"
+msgstr ""
 
 #: ../src/proctable.cpp:249 ../src/procproperties.cpp:132
 msgid "Status"
-msgstr "Stare"
+msgstr ""
 
 #: ../src/proctable.cpp:250 ../src/procproperties.cpp:134
 msgid "Virtual Memory"
-msgstr "Virtuală"
+msgstr ""
 
 #: ../src/proctable.cpp:251 ../src/procproperties.cpp:135
 msgid "Resident Memory"
-msgstr "Rezidentă"
+msgstr ""
 
 #: ../src/proctable.cpp:252 ../src/procproperties.cpp:136
 msgid "Writable Memory"
-msgstr "Neprotejată"
+msgstr ""
 
 #: ../src/proctable.cpp:253 ../src/procproperties.cpp:137
 msgid "Shared Memory"
-msgstr "Partajată"
+msgstr ""
 
 #: ../src/proctable.cpp:254 ../src/procproperties.cpp:138
 msgid "X Server Memory"
-msgstr "Server X"
+msgstr ""
 
 #: ../src/proctable.cpp:255
 #, no-c-format
 msgid "% CPU"
-msgstr "% CPU"
+msgstr ""
 
 #: ../src/proctable.cpp:256 ../src/procproperties.cpp:140
 msgid "CPU Time"
-msgstr "Timp CPU"
+msgstr ""
 
 #: ../src/proctable.cpp:257 ../src/procproperties.cpp:141
 msgid "Started"
-msgstr "Pornit"
+msgstr ""
 
 #: ../src/proctable.cpp:258 ../src/procproperties.cpp:142
 msgid "Nice"
-msgstr "Nice"
+msgstr ""
 
 #: ../src/proctable.cpp:259 ../src/procproperties.cpp:144
 msgid "ID"
@@ -1107,29 +1102,29 @@ msgstr "ID"
 
 #: ../src/proctable.cpp:260 ../src/procproperties.cpp:145
 msgid "Security Context"
-msgstr "Context de securitate"
+msgstr ""
 
 #: ../src/proctable.cpp:261 ../src/procproperties.cpp:146
 msgid "Command Line"
-msgstr "Linie de comandă"
+msgstr ""
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
 #: ../src/proctable.cpp:264 ../src/procproperties.cpp:147
 msgid "Waiting Channel"
-msgstr "Funcție kernel în așteptare"
+msgstr ""
 
 #: ../src/proctable.cpp:265
 msgid "Control Group"
-msgstr "Grup de control"
+msgstr ""
 
 #: ../src/proctable.cpp:266
 msgid "Unit"
-msgstr "Unitate"
+msgstr ""
 
 #: ../src/proctable.cpp:267
 msgid "Session"
-msgstr "Sesiune"
+msgstr ""
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1137,41 +1132,40 @@ msgstr "Sesiune"
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
 #: ../src/proctable.cpp:270
 msgid "Seat"
-msgstr "Scaun"
+msgstr ""
 
 #: ../src/proctable.cpp:271
 msgid "Owner"
-msgstr "Deținător"
+msgstr ""
 
 #: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
 msgid "Priority"
-msgstr "Prioritate"
+msgstr ""
 
 #: ../src/proctable.cpp:1096
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr "Încărcarea medie pentru ultimele 1, 5 și 15 minute: %0.2f, %0.2f, %0.2f"
+msgstr ""
 
 #: ../src/procproperties.cpp:104 ../src/util.cpp:420
 msgid "N/A"
-msgstr "Nedisponibil"
+msgstr ""
 
 #: ../src/procproperties.cpp:140
 #, c-format
 msgid "%lld second"
 msgid_plural "%lld seconds"
-msgstr[0] "o secundă"
-msgstr[1] "%lld secunde"
-msgstr[2] "%lld de secunde"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/procproperties.cpp:258
 msgid "Process Properties"
-msgstr "Proprietăți proces"
+msgstr ""
 
 #: ../src/procproperties.cpp:278
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr "Proprietățile procesului „%s” (PID %u):"
+msgstr ""
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
@@ -1185,98 +1179,98 @@ msgstr ""
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr "%d-biți"
+msgstr ""
 
 #: ../src/sysinfo.cpp:814
 #, c-format
 msgid "Kernel %s"
-msgstr "Kernel %s"
+msgstr ""
 
 #: ../src/sysinfo.cpp:828
 #, c-format
 msgid "MATE %s"
-msgstr "MATE %s"
+msgstr ""
 
 #. hardware section
 #: ../src/sysinfo.cpp:843
 msgid "Hardware"
-msgstr "Componente"
+msgstr ""
 
 #: ../src/sysinfo.cpp:848
 msgid "Memory:"
-msgstr "Memorie:"
+msgstr ""
 
 #: ../src/sysinfo.cpp:852
 msgid "Processor:"
-msgstr "Procesor:"
+msgstr ""
 
 #. disk space section
 #: ../src/sysinfo.cpp:860
 msgid "System Status"
-msgstr "Stare sistem"
+msgstr ""
 
 #: ../src/sysinfo.cpp:865
 msgid "Available disk space:"
-msgstr "Spațiu disponibil pe disc:"
+msgstr ""
 
 #: ../src/util.cpp:30
 msgid "Running"
-msgstr "Pornit"
+msgstr ""
 
 #: ../src/util.cpp:34
 msgid "Stopped"
-msgstr "Oprit"
+msgstr ""
 
 #: ../src/util.cpp:38
 msgid "Zombie"
-msgstr "Zombie"
+msgstr ""
 
 #: ../src/util.cpp:42
 msgid "Uninterruptible"
-msgstr "Neîntreruptibil"
+msgstr ""
 
 #: ../src/util.cpp:46
 msgid "Sleeping"
-msgstr "Adormit"
+msgstr ""
 
 #. xgettext: weeks, days
 #: ../src/util.cpp:101
 #, c-format
 msgid "%uw%ud"
-msgstr "%us%uz"
+msgstr ""
 
 #. xgettext: days, hours (0 -> 23)
 #: ../src/util.cpp:105
 #, c-format
 msgid "%ud%02uh"
-msgstr "%uz%02uo"
+msgstr ""
 
 #. xgettext: hours (0 -> 23), minutes, seconds
 #: ../src/util.cpp:109
 #, c-format
 msgid "%u:%02u:%02u"
-msgstr "%u:%02u:%02u"
+msgstr ""
 
 #. xgettext: minutes, seconds, centiseconds
 #: ../src/util.cpp:112
 #, c-format
 msgid "%u:%02u.%02u"
-msgstr "%u:%02u.%02u"
+msgstr ""
 
 #: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
-msgstr "%.1f KiB"
+msgstr ""
 
 #: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
-msgstr "%.1f MiB"
+msgstr ""
 
 #: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
-msgstr "%.1f GiB"
+msgstr ""
 
 #: ../src/util.cpp:169
 #, c-format
@@ -1307,20 +1301,18 @@ msgstr ""
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u octet"
-msgstr[1] "%u octeți"
-msgstr[2] "%u de octeți"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u octet"
-msgstr[1] "%u octeți"
-msgstr[2] "%u de octeți"
+msgstr[0] ""
+msgstr[1] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
-msgstr "%s/s"
+msgstr ""

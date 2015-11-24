@@ -116,7 +116,7 @@ PrettyTable::unregister_application(pid_t pid)
 Glib::RefPtr<Gdk::Pixbuf>
 PrettyTable::get_icon_from_theme(const ProcInfo &info)
 {
-    return this->theme->load_icon(info.name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN);
+    return this->theme->load_icon(info.name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN | Gtk::ICON_LOOKUP_FORCE_SIZE);
 }
 
 
@@ -149,7 +149,7 @@ PrettyTable::get_icon_from_default(const ProcInfo &info)
         IconCache::iterator it(this->defaults.find(name));
 
         if (it == this->defaults.end()) {
-            pix = this->theme->load_icon(name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN);
+            pix = this->theme->load_icon(name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN | Gtk::ICON_LOOKUP_FORCE_SIZE);
             if (pix)
                 this->defaults[name] = pix;
             } else
@@ -179,7 +179,7 @@ PrettyTable::get_icon_from_wnck(const ProcInfo &info)
 Glib::RefPtr<Gdk::Pixbuf>
 PrettyTable::get_icon_from_name(const ProcInfo &info)
 {
-    return this->theme->load_icon(info.name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN);
+    return this->theme->load_icon(info.name, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN | Gtk::ICON_LOOKUP_FORCE_SIZE);
 }
 
 

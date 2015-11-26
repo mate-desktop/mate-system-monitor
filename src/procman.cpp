@@ -430,7 +430,7 @@ procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child
                 gtk_tree_view_column_set_visible (column, visible);
                 if (visible) {
                     /* ensure column is really visible */
-                    width = MAX(width, 10);
+                    width = MAX(width, 20);
                     gtk_tree_view_column_set_fixed_width(column, width);
               }
          }

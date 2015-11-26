@@ -357,7 +357,7 @@ proctable_new (ProcData * const procdata)
     gtk_tree_view_column_set_sort_column_id (column, COL_NAME);
     gtk_tree_view_column_set_resizable (column, TRUE);
     gtk_tree_view_column_set_sizing(column, GTK_TREE_VIEW_COLUMN_FIXED);
-    gtk_tree_view_column_set_min_width (column, 1);
+    gtk_tree_view_column_set_min_width (column, 20);
     g_signal_connect(G_OBJECT(column), "notify::fixed-width", G_CALLBACK(cb_proctable_column_resized), procdata->settings);
     gtk_tree_view_append_column (GTK_TREE_VIEW (proctree), column);
     gtk_tree_view_set_expander_column (GTK_TREE_VIEW (proctree), column);
@@ -372,8 +372,9 @@ proctable_new (ProcData * const procdata)
         col = gtk_tree_view_column_new();
         gtk_tree_view_column_pack_start(col, cell, TRUE);
         gtk_tree_view_column_set_title(col, _(titles[i]));
-        gtk_tree_view_column_set_resizable(col, TRUE);
         gtk_tree_view_column_set_sort_column_id(col, i);
+        gtk_tree_view_column_set_resizable(col, TRUE);
+        gtk_tree_view_column_set_sizing(col, GTK_TREE_VIEW_COLUMN_FIXED);
         g_signal_connect(G_OBJECT(col), "notify::fixed-width", G_CALLBACK(cb_proctable_column_resized), procdata->settings);
         gtk_tree_view_column_set_reorderable(col, TRUE);
         gtk_tree_view_append_column(GTK_TREE_VIEW(proctree), col);
@@ -452,7 +453,7 @@ proctable_new (ProcData * const procdata)
                 break;
         }
 
-        // xaling
+        // xalign
         switch(i)
         {
             case COL_VMSIZE:
@@ -472,11 +473,10 @@ proctable_new (ProcData * const procdata)
         // sizing
         switch (i) {
             case COL_ARGS:
-                gtk_tree_view_column_set_sizing(col, GTK_TREE_VIEW_COLUMN_FIXED);
                 gtk_tree_view_column_set_min_width(col, 150);
                 break;
             default:
-                gtk_tree_view_column_set_min_width(column, 20);
+                gtk_tree_view_column_set_min_width(col, 20);
                 break;
         }
     }

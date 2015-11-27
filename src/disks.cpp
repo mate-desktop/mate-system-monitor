@@ -353,6 +353,7 @@ create_disk_view(ProcData *procdata)
     gtk_tree_view_column_set_sort_column_id(col, DISK_DEVICE);
     gtk_tree_view_column_set_reorderable(col, TRUE);
     gtk_tree_view_column_set_resizable(col, TRUE);
+    gtk_tree_view_column_set_min_width (col, 30);
     gtk_tree_view_append_column(GTK_TREE_VIEW(disk_tree), col);
 
     /* sizes - used */

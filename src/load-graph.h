@@ -58,7 +58,11 @@ struct LoadGraph {
     double graph_delx;
     guint graph_buffer_offset;
 
+#if GTK_CHECK_VERSION(3,0,0)
+    std::vector<GdkRGBA> colors;
+#else
     std::vector<GdkColor> colors;
+#endif
 
     std::vector<float> data_block;
     gfloat* data[NUM_POINTS];

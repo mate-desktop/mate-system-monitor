@@ -25,10 +25,9 @@
 #include <glib.h>
 #include <gdk/gdk.h>
 #include <gtk/gtk.h>
+#if !GTK_CHECK_VERSION(3,0,0)
 #include <cairo.h>
 #include <librsvg/rsvg.h>
-#ifndef RSVG_CAIRO_H
-#include <librsvg/rsvg-cairo.h>
 #endif
 
 G_BEGIN_DECLS
@@ -80,11 +79,20 @@ struct _GSMColorButtonClass
 };
 
 GType gsm_color_button_get_type (void) G_GNUC_CONST;
+#if GTK_CHECK_VERSION(3,0,0)
+GtkWidget *gsm_color_button_new (const GdkRGBA * color, guint type);
+void gsm_color_button_set_color (GSMColorButton * color_button, const GdkRGBA * color);
+#else
 GtkWidget *gsm_color_button_new (const GdkColor * color, guint type);
 void gsm_color_button_set_color (GSMColorButton * color_button, const GdkColor * color);
+#endif
 void gsm_color_button_set_fraction (GSMColorButton * color_button, const gdouble fraction);
 void gsm_color_button_set_cbtype (GSMColorButton * color_button, guint type);
+#if GTK_CHECK_VERSION(3,0,0)
+void gsm_color_button_get_color (GSMColorButton * color_button, GdkRGBA * color);
+#else
 void gsm_color_button_get_color (GSMColorButton * color_button, GdkColor * color);
+#endif
 gdouble gsm_color_button_get_fraction (GSMColorButton * color_button);
 guint gsm_color_button_get_cbtype (GSMColorButton * color_button);
 void gsm_color_button_set_title (GSMColorButton * color_button, const gchar * title);

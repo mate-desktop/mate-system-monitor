@@ -726,7 +726,11 @@ add_row(GtkTable * table, const char * label, const char * value, int row)
     GtkWidget *header = gtk_label_new(NULL);
     gtk_label_set_markup(GTK_LABEL(header), label);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
+#if GTK_CHECK_VERSION (3, 14, 0)
+    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#else
     gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
+#endif
 #if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         table, header,
@@ -741,7 +745,11 @@ add_row(GtkTable * table, const char * label, const char * value, int row)
 
     GtkWidget *label_widget = gtk_label_new(value);
     gtk_label_set_selectable(GTK_LABEL(label_widget), TRUE);
+#if GTK_CHECK_VERSION (3, 14, 0)
+    gtk_widget_set_halign (label_widget, GTK_ALIGN_START);
+#else
     gtk_misc_set_alignment(GTK_MISC(label_widget), 0.0, 0.5);
+#endif
 #if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         table, label_widget,
@@ -788,8 +796,16 @@ procman_create_sysinfo_view(void)
     else {
         logo = gtk_image_new_from_file(DATADIR "/pixmaps/mate-system-monitor/side.png");
     }
+#if GTK_CHECK_VERSION (3, 14, 0)
+    gtk_widget_set_valign (logo, GTK_ALIGN_START);
+    gtk_widget_set_margin_start (logo, 5);
+    gtk_widget_set_margin_end (logo, 5);
+    gtk_widget_set_margin_top (logo, 12);
+    gtk_widget_set_margin_bottom (logo, 12);
+#else
     gtk_misc_set_alignment(GTK_MISC(logo), 0.5, 0.0);
     gtk_misc_set_padding(GTK_MISC(logo), 5, 12);
+#endif
     gtk_box_pack_start(GTK_BOX(hbox), logo, FALSE, FALSE, 0);
 
 #if GTK_CHECK_VERSION(3,0,0)
@@ -828,7 +844,11 @@ procman_create_sysinfo_view(void)
 
     distro_release_label = gtk_label_new("???");
     gtk_label_set_selectable(GTK_LABEL(distro_release_label), TRUE);
+#if GTK_CHECK_VERSION (3, 14, 0)
+    gtk_widget_set_halign (distro_release_label, GTK_ALIGN_START);
+#else
     gtk_misc_set_alignment(GTK_MISC(distro_release_label), 0.0, 0.5);
+#endif
 #if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         GTK_GRID(distro_table), distro_release_label,
@@ -847,7 +867,11 @@ procman_create_sysinfo_view(void)
     header = gtk_label_new(markup);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
     g_free(markup);
+#if GTK_CHECK_VERSION (3, 14, 0)
+    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#else
     gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
+#endif
 #if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         GTK_GRID(distro_table), header,
@@ -867,7 +891,11 @@ procman_create_sysinfo_view(void)
         header = gtk_label_new(markup);
         gtk_label_set_selectable(GTK_LABEL(header), TRUE);
         g_free(markup);
+#if GTK_CHECK_VERSION (3, 14, 0)
+        gtk_widget_set_halign (header, GTK_ALIGN_START);
+#else
         gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
+#endif
 #if GTK_CHECK_VERSION (3, 0, 0)
         gtk_grid_attach(
             GTK_GRID(distro_table), header,

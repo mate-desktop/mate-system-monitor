@@ -115,7 +115,7 @@ static void draw_background(LoadGraph *graph) {
 
     layout = pango_cairo_create_layout (cr);
 #if GTK_CHECK_VERSION(3,0,0)
-    font_desc = pango_font_description_copy (gtk_style_context_get_font (context, GTK_STATE_FLAG_NORMAL));
+    gtk_style_context_get (context, GTK_STATE_FLAG_NORMAL, GTK_STYLE_PROPERTY_FONT, &font_desc, NULL);
 #else
     font_desc = pango_font_description_copy (style->font_desc);
 #endif

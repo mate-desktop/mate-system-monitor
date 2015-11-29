@@ -248,8 +248,9 @@ void procman_lsof(ProcData *procdata)
 
     GtkWidget *tree = gtk_tree_view_new_with_model(GTK_TREE_MODEL(model));
     g_object_unref(model);
+#if !GTK_CHECK_VERSION(3,0,0)
     gtk_tree_view_set_rules_hint(GTK_TREE_VIEW(tree), TRUE);
-
+#endif
 
     GtkTreeViewColumn *column;
     GtkCellRenderer *renderer;

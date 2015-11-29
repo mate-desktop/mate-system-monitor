@@ -31,6 +31,9 @@
 #include <gdk/gdkkeysyms.h>
 #include <math.h>
 #include <cairo.h>
+#if GTK_CHECK_VERSION(3,0,0)
+#include <librsvg/rsvg.h>
+#endif
 
 #include "gsm_color_button.h"
 
@@ -38,11 +41,19 @@
 
 struct _GSMColorButtonPrivate
 {
+#if GTK_CHECK_VERSION(3,0,0)
+    GtkWidget *cc_dialog;		/* Color chooser dialog */
+
+    gchar *title;            /* Title for the color selection window */
+
+    GdkRGBA color;
+#else
     GtkWidget *cs_dialog;        /* Color selection dialog */
 
     gchar *title;            /* Title for the color selection window */
 
     GdkColor color;
+#endif
 
     gdouble fraction;        /* Only used by GSMCP_TYPE_PIE */
     guint type;
@@ -219,7 +230,11 @@ gsm_color_button_class_init (GSMColorButtonClass * klass)
                                      g_param_spec_boxed ("color",
                                                          _("Current Color"),
                                                          _("The selected color"),
+#if GTK_CHECK_VERSION(3,0,0)
+                                                         GDK_TYPE_RGBA,
+#else
                                                          GDK_TYPE_COLOR,
+#endif
                                                          G_PARAM_READWRITE));
 
     g_object_class_install_property (gobject_class,
@@ -276,6 +291,36 @@ static void
 render (GtkWidget * widget)
 {
     GSMColorButton *color_button = GSM_COLOR_BUTTON (widget);
+#if GTK_CHECK_VERSION(3,0,0)
+    GdkRGBA *color;
+    GdkRGBA tmp_color = color_button->priv->color;
+    color = &tmp_color;
+    cairo_t *cr = gdk_cairo_create (gtk_widget_get_window (widget));
+    cairo_path_t *path = NULL;
+    gint width, height;
+    gdouble radius, arc_start, arc_end;
+    gdouble highlight_factor;
+
+    if (color_button->priv->highlight > 0) {
+        highlight_factor = 0.125 * color_button->priv->highlight;
+
+    if (color->red + highlight_factor > 1.0)
+        color->red = 1.0;
+    else
+        color->red = color->red + highlight_factor;
+
+    if (color->blue + highlight_factor > 1.0)
+        color->blue = 1.0;
+    else
+      color->blue = color->blue + highlight_factor;
+
+    if (color->green + highlight_factor > 1.0)
+        color->green = 1.0;
+    else
+        color->green = color->green + highlight_factor;
+    }
+    gdk_cairo_set_source_rgba (cr, color);
+#else
     GdkColor *color, tmp_color = color_button->priv->color;
     color = &tmp_color;
     cairo_t *cr = gdk_cairo_create (gtk_widget_get_window (widget));
@@ -303,6 +348,7 @@ render (GtkWidget * widget)
         color->green = color->green + highlight_factor;
     }
     gdk_cairo_set_source_color (cr, color);
+#endif
     width = gdk_window_get_width(gtk_widget_get_window(widget));
     height = gdk_window_get_height(gtk_widget_get_window(widget));
 
@@ -581,15 +627,25 @@ gsm_color_button_drag_data_received (GtkWidget * widget,
 
 
 static void
+#if GTK_CHECK_VERSION(3,0,0)
+set_color_icon (GdkDragContext * context, GdkRGBA * color)
+#else
 set_color_icon (GdkDragContext * context, GdkColor * color)
+#endif
 {
     GdkPixbuf *pixbuf;
     guint32 pixel;
 
     pixbuf = gdk_pixbuf_new (GDK_COLORSPACE_RGB, FALSE, 8, 48, 32);
 
+#if GTK_CHECK_VERSION(3,0,0)
+    pixel = ((guint32)(color->red * 0xff) << 24) |
+            ((guint32)(color->green * 0xff) << 16) |
+            ((guint32)(color->blue * 0xff) << 8);
+#else
     pixel = ((color->red & 0xff00) << 16) |
           ((color->green & 0xff00) << 8) | (color->blue & 0xff00);
+#endif
 
     gdk_pixbuf_fill (pixbuf, pixel);
 
@@ -673,9 +729,15 @@ gsm_color_button_finalize (GObject * object)
 {
     GSMColorButton *color_button = GSM_COLOR_BUTTON (object);
 
+#if GTK_CHECK_VERSION(3,0,0)
+    if (color_button->priv->cc_dialog != NULL)
+        gtk_widget_destroy (color_button->priv->cc_dialog);
+    color_button->priv->cc_dialog = NULL;
+#else
     if (color_button->priv->cs_dialog != NULL)
         gtk_widget_destroy (color_button->priv->cs_dialog);
     color_button->priv->cs_dialog = NULL;
+#endif
 
     g_free (color_button->priv->title);
     color_button->priv->title = NULL;
@@ -687,7 +749,11 @@ gsm_color_button_finalize (GObject * object)
 }
 
 GtkWidget *
+#if GTK_CHECK_VERSION(3,0,0)
+gsm_color_button_new (const GdkRGBA * color, guint type)
+#else
 gsm_color_button_new (const GdkColor * color, guint type)
+#endif
 {
     return g_object_new (GSM_TYPE_COLOR_BUTTON, "color", color, "type", type,
                          NULL);
@@ -697,6 +763,16 @@ static void
 dialog_response (GtkWidget * widget, GtkResponseType response, gpointer data)
 {
     GSMColorButton *color_button = GSM_COLOR_BUTTON (data);
+#if GTK_CHECK_VERSION(3,0,0)
+    GtkColorChooser *color_chooser;
+
+    if (response == GTK_RESPONSE_OK) {
+        color_chooser = GTK_COLOR_CHOOSER (color_button->priv->cc_dialog);
+
+        gtk_color_chooser_get_rgba (color_chooser, &color_button->priv->color);
+
+        gtk_widget_hide (color_button->priv->cc_dialog);
+#else
     GtkColorSelection *color_selection;
 
     if (response == GTK_RESPONSE_OK) {
@@ -708,6 +784,7 @@ dialog_response (GtkWidget * widget, GtkResponseType response, gpointer data)
                                                &color_button->priv->color);
 
         gtk_widget_hide (color_button->priv->cs_dialog);
+#endif
 
         gtk_widget_queue_draw (GTK_WIDGET (&color_button->widget));
 
@@ -718,7 +795,11 @@ dialog_response (GtkWidget * widget, GtkResponseType response, gpointer data)
         g_object_thaw_notify (G_OBJECT (color_button));
     }
     else  /* (response == GTK_RESPONSE_CANCEL) */
+#if GTK_CHECK_VERSION(3,0,0)
+        gtk_widget_hide (color_button->priv->cc_dialog);
+#else
         gtk_widget_hide (color_button->priv->cs_dialog);
+#endif
 }
 
 static gboolean
@@ -726,7 +807,11 @@ dialog_destroy (GtkWidget * widget, gpointer data)
 {
     GSMColorButton *color_button = GSM_COLOR_BUTTON (data);
 
+#if GTK_CHECK_VERSION(3,0,0)
+    color_button->priv->cc_dialog = NULL;
+#else
     color_button->priv->cs_dialog = NULL;
+#endif
 
     return FALSE;
 }
@@ -735,6 +820,37 @@ static gint
 gsm_color_button_clicked (GtkWidget * widget, GdkEventButton * event)
 {
     GSMColorButton *color_button = GSM_COLOR_BUTTON (widget);
+#if GTK_CHECK_VERSION(3,0,0)
+
+    /* if dialog already exists, make sure it's shown and raised */
+    if (!color_button->priv->cc_dialog)
+    {
+        /* Create the dialog and connects its buttons */
+        GtkWidget *cc_dialog;
+        GtkWidget *parent;
+
+        parent = gtk_widget_get_toplevel (GTK_WIDGET (color_button));
+        if (!gtk_widget_is_toplevel (parent))
+            parent = NULL;
+
+        cc_dialog = gtk_color_chooser_dialog_new (color_button->priv->title, GTK_WINDOW (parent));
+
+        gtk_window_set_modal (GTK_WINDOW (cc_dialog), TRUE);
+
+        g_signal_connect (cc_dialog, "response",
+                          G_CALLBACK (dialog_response), color_button);
+
+        g_signal_connect (cc_dialog, "destroy",
+                          G_CALLBACK (dialog_destroy), color_button);
+
+        color_button->priv->cc_dialog = cc_dialog;
+    }
+
+    gtk_color_chooser_set_rgba (GTK_COLOR_CHOOSER (color_button->priv->cc_dialog),
+                                &color_button->priv->color);
+
+    gtk_window_present (GTK_WINDOW (color_button->priv->cc_dialog));
+#else
     GtkColorSelectionDialog *color_dialog;
 
     /* if dialog already exists, make sure it's shown and raised */
@@ -780,6 +896,7 @@ gsm_color_button_clicked (GtkWidget * widget, GdkEventButton * event)
                                             &color_button->priv->color);
 
     gtk_window_present (GTK_WINDOW (color_button->priv->cs_dialog));
+#endif
     return 0;
 }
 
@@ -867,18 +984,29 @@ gsm_color_button_set_fraction (GSMColorButton * color_button,
 }
 
 void
+#if GTK_CHECK_VERSION(3,0,0)
+gsm_color_button_get_color (GSMColorButton * color_button, GdkRGBA * color)
+#else
 gsm_color_button_get_color (GSMColorButton * color_button, GdkColor * color)
+#endif
 {
     g_return_if_fail (GSM_IS_COLOR_BUTTON (color_button));
 
     color->red = color_button->priv->color.red;
     color->green = color_button->priv->color.green;
     color->blue = color_button->priv->color.blue;
+#if GTK_CHECK_VERSION(3,0,0)
+    color->alpha = color_button->priv->color.alpha;
+#endif
 }
 
 void
 gsm_color_button_set_color (GSMColorButton * color_button,
+#if GTK_CHECK_VERSION(3,0,0)
+                            const GdkRGBA * color)
+#else
                             const GdkColor * color)
+#endif
 {
     g_return_if_fail (GSM_IS_COLOR_BUTTON (color_button));
     g_return_if_fail (color != NULL);
@@ -886,6 +1014,9 @@ gsm_color_button_set_color (GSMColorButton * color_button,
     color_button->priv->color.red = color->red;
     color_button->priv->color.green = color->green;
     color_button->priv->color.blue = color->blue;
+#if GTK_CHECK_VERSION(3,0,0)
+    color_button->priv->color.alpha = color->alpha;
+#endif
 
     gtk_widget_queue_draw (GTK_WIDGET (&color_button->widget));    //->priv->draw_area);
 
@@ -904,8 +1035,13 @@ gsm_color_button_set_title (GSMColorButton * color_button,
     color_button->priv->title = g_strdup (title);
     g_free (old_title);
 
+#if GTK_CHECK_VERSION(3,0,0)
+    if (color_button->priv->cc_dialog)
+        gtk_window_set_title (GTK_WINDOW (color_button->priv->cc_dialog),
+#else
     if (color_button->priv->cs_dialog)
         gtk_window_set_title (GTK_WINDOW (color_button->priv->cs_dialog),
+#endif
                               color_button->priv->title);
 
     g_object_notify (G_OBJECT (color_button), "title");
@@ -952,7 +1088,11 @@ gsm_color_button_get_property (GObject * object,
                                GValue * value, GParamSpec * pspec)
 {
     GSMColorButton *color_button = GSM_COLOR_BUTTON (object);
+#if GTK_CHECK_VERSION(3,0,0)
+    GdkRGBA color;
+#else
     GdkColor color;
+#endif
 
     switch (param_id)
     {

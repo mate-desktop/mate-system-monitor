@@ -41,6 +41,11 @@
 #include "sysinfo.h"
 #include "gsm_color_button.h"
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+#define gtk_hbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_HORIZONTAL,Y)
+#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
+#endif
+
 static void    cb_toggle_tree (GtkAction *action, gpointer data);
 static void    cb_proc_goto_tab (gint tab);
 

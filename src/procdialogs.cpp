@@ -37,6 +37,11 @@
 #include "procman_gksu.h"
 #include "cgroups.h"
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+#define gtk_hbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_HORIZONTAL,Y)
+#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
+#endif
+
 static GtkWidget *renice_dialog = NULL;
 static GtkWidget *prefs_dialog = NULL;
 static gint new_nice_value = 0;

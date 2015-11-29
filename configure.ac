@@ -36,9 +36,7 @@ LIBXML_REQUIRED=2.0
 RSVG_REQUIRED=2.35
 SYSTEMD_REQUIRED=44
 
-# GLib min/max required versions
-AC_DEFINE([GLIB_VERSION_MAX_ALLOWED], [GLIB_VERSION_2_36],
-	[Warn on use of APIs added after GLib 2.36])
+# GLib min required versions
 AC_DEFINE([GLIB_VERSION_MIN_REQUIRED], [GLIB_VERSION_2_36],
 	[Warn on use of APIs deprecated before GLib 2.36])
 

@@ -365,8 +365,9 @@ create_disk_view(ProcData *procdata)
         gtk_tree_view_column_pack_start(col, cell, TRUE);
         gtk_tree_view_column_set_title(col, _(titles[i]));
         gtk_tree_view_column_set_sort_column_id(col, i);
-        gtk_tree_view_column_set_resizable(col, TRUE);
         gtk_tree_view_column_set_reorderable(col, TRUE);
+        gtk_tree_view_column_set_resizable(col, TRUE);
+        gtk_tree_view_column_set_min_width (col, 30);
         gtk_tree_view_column_set_sizing(col, GTK_TREE_VIEW_COLUMN_FIXED);
         gtk_tree_view_append_column(GTK_TREE_VIEW(disk_tree), col);
 
@@ -406,8 +407,9 @@ create_disk_view(ProcData *procdata)
                                         DISK_USED_PERCENTAGE, NULL);
     gtk_tree_view_column_set_title(col, _(titles[DISK_USED]));
     gtk_tree_view_column_set_sort_column_id(col, DISK_USED);
-    gtk_tree_view_column_set_resizable(col, TRUE);
     gtk_tree_view_column_set_reorderable(col, TRUE);
+    gtk_tree_view_column_set_resizable(col, TRUE);
+    gtk_tree_view_column_set_min_width (col, 150);
     gtk_tree_view_column_set_sizing(col, GTK_TREE_VIEW_COLUMN_FIXED);
     gtk_tree_view_append_column(GTK_TREE_VIEW(disk_tree), col);
 

@@ -310,10 +310,6 @@ create_sys_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (cpu_graph_box), hbox,
                         FALSE, FALSE, 0);
 
-    /*cpu_legend_box = gtk_hbox_new(TRUE, 10);
-    gtk_box_pack_start (GTK_BOX (hbox), cpu_legend_box,
-                TRUE, TRUE, 0);*/
-
     GtkWidget* cpu_table = gtk_table_new(std::min(procdata->config.num_cpus / 4, 1),
                                          std::min(procdata->config.num_cpus, 4),
                                          TRUE);
@@ -331,10 +327,7 @@ create_sys_view (ProcData *procdata)
                  static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL),
                  static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL),
                  0, 0);
-        //gtk_size_group_add_widget (sizegroup, temp_hbox);
-        /*g_signal_connect (G_OBJECT (temp_hbox), "size_request",
-                     G_CALLBACK(size_request), &cpu_size);
-*/
+
         color_picker = gsm_color_button_new (&cpu_graph->colors.at(i), GSMCP_TYPE_CPU);
         g_signal_connect (G_OBJECT (color_picker), "color_set",
                           G_CALLBACK (cb_cpu_color_changed), GINT_TO_POINTER (i));
@@ -512,16 +505,7 @@ create_sys_view (ProcData *procdata)
     gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_in),
                             1.0,
                             0.5);
-/*
-    hbox = gtk_hbox_new (FALSE, 0);
-    g_signal_connect (G_OBJECT (hbox), "size_request",
-                      G_CALLBACK(size_request), &net_size);
-    gtk_box_pack_start (GTK_BOX (hbox),
-                        load_graph_get_labels(net_graph)->net_in,
-                        TRUE,
-                        TRUE,
-                        0);
-*/
+
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_in), 100, -1);
     gtk_table_attach (GTK_TABLE (table), load_graph_get_labels(net_graph)->net_in, 2, 3, 0, 1,
                       static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL), GTK_FILL, 0, 0);
@@ -573,17 +557,7 @@ create_sys_view (ProcData *procdata)
     gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_out),
                             1.0,
                             0.5);
-/*
-    hbox = gtk_hbox_new (FALSE, 0);
-    g_signal_connect (G_OBJECT (load_graph_get_labels(net_graph)->net_out), "size_request",
-                      G_CALLBACK(size_request), &net_size);
 
-    gtk_box_pack_start (GTK_BOX (hbox),
-                        load_graph_get_labels(net_graph)->net_out,
-                        TRUE,
-                        TRUE,
-                        0);
-*/
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_out), 100, -1);
     gtk_table_attach (GTK_TABLE (table), load_graph_get_labels(net_graph)->net_out, 2, 3, 0, 1,
                       static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL), GTK_FILL, 0, 0);

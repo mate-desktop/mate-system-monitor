@@ -85,6 +85,8 @@ inline void unref_map_values(Map &map)
 
 namespace procman
 {
+    gchar* format_duration_for_display(unsigned centiseconds);
+
     void size_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
                              GtkTreeModel *model, GtkTreeIter *iter,
                              gpointer user_data);

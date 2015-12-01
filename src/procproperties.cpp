@@ -24,12 +24,6 @@
 #include <glibtop/procmem.h>
 #include <glibtop/procmap.h>
 #include <glibtop/procstate.h>
-#if defined (__linux__)
-#include <asm/param.h>
-#elif defined (__NetBSD__) || defined (__OpenBSD__)
-#include <sys/param.h>
-#include <sys/sysctl.h>
-#endif
 
 #include "procman.h"
 #include "procproperties.h"
@@ -115,18 +109,6 @@ fill_proc_properties (GtkWidget *tree, ProcInfo *info)
 
     get_process_memory_info(info);
 
-#if defined (__NetBSD__) || defined (__OpenBSD__)
-    struct clockinfo cinf;
-    size_t size = sizeof (cinf);
-    int HZ;
-    int mib[] = { CTL_KERN, KERN_CLOCKRATE };
-
-    if (sysctl (mib, G_N_ELEMENTS (mib), &cinf, &size, NULL, 0) == -1)
-        HZ = 100;
-    else
-        HZ = cinf.hz;
-#endif
-
     proc_arg proc_props[] = {
         { N_("Process Name"), g_strdup_printf("%s", info->name)},
         { N_("User"), g_strdup_printf("%s (%d)", info->user.c_str(), info->uid)},
@@ -138,7 +120,7 @@ fill_proc_properties (GtkWidget *tree, ProcInfo *info)
         { N_("Shared Memory"), format_memsize(info->memshared)},
         { N_("X Server Memory"), format_memsize(info->memxserver)},
         { N_("CPU"), g_strdup_printf("%d%%", info->pcpu)},
-        { N_("CPU Time"), g_strdup_printf(ngettext("%lld second", "%lld seconds", info->cpu_time/HZ), (unsigned long long)info->cpu_time/HZ) },
+        { N_("CPU Time"), procman::format_duration_for_display(100 * info->cpu_time / ProcData::get_instance()->frequency) },
         { N_("Started"), procman_format_date_for_display(info->start_time) },
         { N_("Nice"), g_strdup_printf("%d", info->nice)},
         { N_("Priority"), g_strdup_printf("%s", procman::get_nice_level(info->nice)) },

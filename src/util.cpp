@@ -85,8 +85,8 @@ static inline unsigned divide(unsigned *q, unsigned *r, unsigned d)
  * @param d: duration in centiseconds
  * @type d: unsigned
  */
-static char *
-format_duration_for_display(unsigned centiseconds)
+gchar *
+procman::format_duration_for_display(unsigned centiseconds)
 {
     unsigned weeks = 0, days = 0, hours = 0, minutes = 0, seconds = 0;
 

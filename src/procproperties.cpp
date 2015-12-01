@@ -35,6 +35,7 @@
 #include "procproperties.h"
 #include "proctable.h"
 #include "util.h"
+#include "e_date.h"
 
 enum
 {
@@ -138,7 +139,7 @@ fill_proc_properties (GtkWidget *tree, ProcInfo *info)
         { N_("X Server Memory"), format_memsize(info->memxserver)},
         { N_("CPU"), g_strdup_printf("%d%%", info->pcpu)},
         { N_("CPU Time"), g_strdup_printf(ngettext("%lld second", "%lld seconds", info->cpu_time/HZ), (unsigned long long)info->cpu_time/HZ) },
-        { N_("Started"), g_strdup_printf("%s", ctime((const time_t*)(&info->start_time)))},
+        { N_("Started"), procman_format_date_for_display(info->start_time) },
         { N_("Nice"), g_strdup_printf("%d", info->nice)},
         { N_("Priority"), g_strdup_printf("%s", procman::get_nice_level(info->nice)) },
         { N_("ID"), g_strdup_printf("%d", info->pid)},

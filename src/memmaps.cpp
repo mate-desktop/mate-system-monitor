@@ -61,40 +61,6 @@ namespace
     };
 
 
-
-
-#if 0
-
-    struct ColumnState
-    {
-        unsigned visible;
-        unsigned id;
-        unsigned width;
-
-        int pack() const
-        {
-            unsigned p = 0;
-            p |= (this->visible & 0x0001) << 24;
-            p |= (this->id      & 0x00ff) << 16;
-            p |= (this->width   & 0xffff);
-            return p;
-        }
-
-        void unpack(int i)
-        {
-            this->visible = 0x0001 & (i >> 24);
-            this->id      = 0x00ff & (i >> 16);
-            this->width   = 0xffff & i;
-        }
-    };
-
-
-
-
-#endif
-
-
-
     class InodeDevices
     {
         typedef std::map<guint16, string> Map;

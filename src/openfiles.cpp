@@ -288,22 +288,9 @@ create_openfiles_tree (ProcData *procdata)
         gtk_tree_view_append_column (GTK_TREE_VIEW (tree), column);
     }
 
-#if 0
-    gtk_tree_sortable_set_sort_func (GTK_TREE_SORTABLE (model),
-                                     COL_VMSZ,
-                                     sort_ints,
-                                     GINT_TO_POINTER (COL_FD),
-                                     NULL);
-/*gtk_tree_sortable_set_sort_column_id (GTK_TREE_SORTABLE (model),
-  0,
-  GTK_SORT_ASCENDING);*/
-#endif
-
     procman_get_tree_state (procdata->settings, tree, procman::settings::open_files_tree_prefix.c_str());
 
-
     return tree;
-
 }
 
 

@@ -542,7 +542,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     /* driven by window childs. The problem is that the fields list */
     /* have to show at least 4 items to respect HIG. I don't know   */
     /* any function to set list height by contents/items inside it. */
-    gtk_window_set_default_size (GTK_WINDOW (dialog), 400, 420);
+    gtk_window_set_default_size (GTK_WINDOW (dialog), 400, 500);
     gtk_container_set_border_width (GTK_CONTAINER (dialog), 5);
     prefs_dialog = dialog;
 

@@ -332,9 +332,6 @@ proctable_new (ProcData * const procdata)
                                          search_equal_func,
                                          NULL,
                                          NULL);
-#if !GTK_CHECK_VERSION(3,0,0)
-    gtk_tree_view_set_rules_hint (GTK_TREE_VIEW (proctree), TRUE);
-#endif
     g_object_unref (G_OBJECT (model));
 
     selection = gtk_tree_view_get_selection (GTK_TREE_VIEW (proctree));

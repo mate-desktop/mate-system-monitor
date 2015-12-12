@@ -96,7 +96,6 @@ struct ProcConfig
     int         disks_update_interval;
     gint        whose_process;
     gint        current_tab;
-#if GTK_CHECK_VERSION(3,0,0)
     GdkRGBA     cpu_color[GLIBTOP_NCPU];
     GdkRGBA     mem_color;
     GdkRGBA     swap_color;
@@ -104,15 +103,6 @@ struct ProcConfig
     GdkRGBA     net_out_color;
     GdkRGBA     bg_color;
     GdkRGBA     frame_color;
-#else
-    GdkColor    cpu_color[GLIBTOP_NCPU];
-    GdkColor    mem_color;
-    GdkColor    swap_color;
-    GdkColor    net_in_color;
-    GdkColor    net_out_color;
-    GdkColor    bg_color;
-    GdkColor    frame_color;
-#endif
     gint        num_cpus;
     bool solaris_mode;
     bool network_in_bits;

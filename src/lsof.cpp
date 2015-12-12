@@ -21,10 +21,6 @@
 #include "lsof.h"
 #include "util.h"
 
-#if GTK_CHECK_VERSION (3, 0, 0)
-#define gtk_hbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_HORIZONTAL,Y)
-#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
-#endif
 
 using std::string;
 
@@ -252,9 +248,6 @@ void procman_lsof(ProcData *procdata)
 
     GtkWidget *tree = gtk_tree_view_new_with_model(GTK_TREE_MODEL(model));
     g_object_unref(model);
-#if !GTK_CHECK_VERSION(3,0,0)
-    gtk_tree_view_set_rules_hint(GTK_TREE_VIEW(tree), TRUE);
-#endif
 
     GtkTreeViewColumn *column;
     GtkCellRenderer *renderer;
@@ -321,25 +314,25 @@ void procman_lsof(ProcData *procdata)
     gtk_window_set_resizable(GTK_WINDOW(dialog), TRUE);
     gtk_window_set_default_size(GTK_WINDOW(dialog), 575, 400);
     gtk_container_set_border_width(GTK_CONTAINER(dialog), 12);
-    GtkWidget *mainbox = gtk_vbox_new(FALSE, 12);
+    GtkWidget *mainbox = gtk_box_new(GTK_ORIENTATION_VERTICAL, 12);
     gtk_container_add(GTK_CONTAINER(dialog), mainbox);
     gtk_box_set_spacing(GTK_BOX(mainbox), 6);
 
 
     // Label, entry and search button
 
-    GtkWidget *hbox1 = gtk_hbox_new(FALSE, 12);
+    GtkWidget *hbox1 = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
     gtk_box_pack_start(GTK_BOX(mainbox), hbox1, FALSE, FALSE, 0);
 
     GtkWidget *image = gtk_image_new_from_stock(GTK_STOCK_FIND, GTK_ICON_SIZE_DIALOG);
     gtk_box_pack_start(GTK_BOX(hbox1), image, FALSE, FALSE, 0);
 
 
-    GtkWidget *vbox2 = gtk_vbox_new(FALSE, 12);
+    GtkWidget *vbox2 = gtk_box_new(GTK_ORIENTATION_VERTICAL, 12);
     gtk_box_pack_start(GTK_BOX(hbox1), vbox2, TRUE, TRUE, 0);
 
 
-    GtkWidget *hbox = gtk_hbox_new(FALSE, 12);
+    GtkWidget *hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
     gtk_box_pack_start(GTK_BOX(vbox2), hbox, TRUE, TRUE, 0);
     GtkWidget *label = gtk_label_new_with_mnemonic(_("_Name contains:"));
     gtk_box_pack_start(GTK_BOX(hbox), label, FALSE, FALSE, 0);
@@ -360,12 +353,12 @@ void procman_lsof(ProcData *procdata)
 
 
     GtkWidget *case_button = gtk_check_button_new_with_mnemonic(_("Case insensitive matching"));
-    GtkWidget *hbox3 = gtk_hbox_new(FALSE, 12);
+    GtkWidget *hbox3 = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
     gtk_box_pack_start(GTK_BOX(hbox3), case_button, FALSE, FALSE, 0);
     gtk_box_pack_start(GTK_BOX(vbox2), hbox3, FALSE, FALSE, 0);
 
 
-    GtkWidget *results_box = gtk_hbox_new(FALSE, 12);
+    GtkWidget *results_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
     gtk_box_pack_start(GTK_BOX(mainbox), results_box, FALSE, FALSE, 0);
     GtkWidget *results_label = gtk_label_new_with_mnemonic(_("S_earch results:"));
     gtk_box_pack_start(GTK_BOX(results_box), results_label, FALSE, FALSE, 0);
@@ -385,7 +378,7 @@ void procman_lsof(ProcData *procdata)
     gtk_container_add(GTK_CONTAINER(scrolled), tree);
     gtk_box_pack_start(GTK_BOX(mainbox), scrolled, TRUE, TRUE, 0);
 
-    GtkWidget *bottom_box = gtk_hbox_new(FALSE, 12);
+    GtkWidget *bottom_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
     GtkWidget *close_button = gtk_button_new_from_stock(GTK_STOCK_CLOSE);
     gtk_box_pack_start(GTK_BOX(mainbox), bottom_box, FALSE, FALSE, 0);
     gtk_box_pack_end(GTK_BOX(bottom_box), close_button, FALSE, FALSE, 0);

@@ -13,10 +13,6 @@
 #include "interface.h"
 #include "iconthemewrapper.h"
 
-#if GTK_CHECK_VERSION (3, 0, 0)
-#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
-#endif
-
 enum DiskColumns
 {
     /* string columns* */
@@ -309,7 +305,7 @@ create_disk_view(ProcData *procdata)
         N_("Used")
     };
 
-    disk_box = gtk_vbox_new(FALSE, 6);
+    disk_box = gtk_box_new(GTK_ORIENTATION_VERTICAL, 6);
 
     gtk_container_set_border_width(GTK_CONTAINER(disk_box), 12);
 
@@ -338,9 +334,6 @@ create_disk_view(ProcData *procdata)
     g_signal_connect(G_OBJECT(disk_tree), "row-activated", G_CALLBACK(open_dir), NULL);
     procdata->disk_list = disk_tree;
     gtk_container_add(GTK_CONTAINER(scrolled), disk_tree);
-#if !GTK_CHECK_VERSION(3,0,0)
-    gtk_tree_view_set_rules_hint(GTK_TREE_VIEW(disk_tree), TRUE);
-#endif
     g_object_unref(G_OBJECT(model));
 
     /* icon + device */

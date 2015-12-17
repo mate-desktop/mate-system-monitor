@@ -146,8 +146,6 @@ proctable_set_columns_order(GtkTreeView *treeview, GSList *order)
 
         id = GPOINTER_TO_INT(it->data);
 
-        g_assert(id >= 0 && id < NUM_COLUMNS);
-
         cur = my_gtk_tree_view_get_column_with_sort_column_id(treeview, id);
 
         if(cur && cur != last)

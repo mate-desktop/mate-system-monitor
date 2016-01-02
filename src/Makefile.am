@@ -61,16 +61,14 @@ libbacon_la_SOURCES = \
 specdir = $(datadir)/procman
 
 
-# GSettings schemas, enum files and conversion file
 gsettings_ENUM_NAMESPACE = org.mate.system-monitor
 gsettings_ENUM_FILES = $(top_srcdir)/src/*.h
+
 gsettingsschema_in_files = org.mate.system-monitor.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
+
 @GSETTINGS_RULES@
 @INTLTOOL_XML_NOMERGE_RULE@
-
-convertdir = $(datadir)/MateConf/gsettings
-dist_convert_DATA = mate-system-monitor.convert
 
 dist_noinst_DATA = \
 	$(gsettings_in_file)

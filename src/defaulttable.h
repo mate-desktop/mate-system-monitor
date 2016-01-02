@@ -33,7 +33,6 @@ static const PrettyTableItem default_table[] = {
     ITEM("emacs(server|\\d+)?", "mate-emacs"),
     ITEM("evolution.*", "internet-mail"),
     ITEM("famd|gam_server", "file-manager"),
-    ITEM("mateconfd-2", "preferences-desktop"),
     ITEM("getty", "input-keyboard"),
     ITEM("gdb|((gcc|g\\+\\+)(-.*)?)|ar|ld|make", "applications-development"),
     ITEM("marco", "mate-window-manager"),

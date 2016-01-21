@@ -324,7 +324,7 @@ void procman_lsof(ProcData *procdata)
     GtkWidget *hbox1 = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
     gtk_box_pack_start(GTK_BOX(mainbox), hbox1, FALSE, FALSE, 0);
 
-    GtkWidget *image = gtk_image_new_from_stock(GTK_STOCK_FIND, GTK_ICON_SIZE_DIALOG);
+    GtkWidget *image = gtk_image_new_from_icon_name("edit-find", GTK_ICON_SIZE_DIALOG);
     gtk_box_pack_start(GTK_BOX(hbox1), image, FALSE, FALSE, 0);
 
 

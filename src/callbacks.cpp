@@ -250,6 +250,7 @@ cb_end_process_button_pressed (GtkButton *button, gpointer data)
 static void change_settings_color(GSettings *settings, const char *key,
                    GSMColorButton *cp)
 {
+#if GTK_CHECK_VERSION(3,0,0)
     GdkRGBA c;
     char *color;
 
@@ -257,6 +258,14 @@ static void change_settings_color(GSettings *settings, const char *key,
     color = gdk_rgba_to_string (&c);
     g_settings_set_string (settings, key, color);
     g_free (color);
+#else
+    GdkColor c;
+    char color[24]; /* color should be 1 + 3*4 + 1 = 15 chars -> 24 */
+
+    gsm_color_button_get_color(cp, &c);
+    g_snprintf(color, sizeof color, "#%04x%04x%04x", c.red, c.green, c.blue);
+    g_settings_set_string (settings, key, color);
+#endif
 }
 
 

@@ -31,6 +31,10 @@
 #include "procman.h"
 #include "util.h"
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+#define gtk_hbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_HORIZONTAL,Y)
+#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
+#endif
 
 using std::string;
 using std::vector;
@@ -628,7 +632,11 @@ namespace {
 #define LOGO_H 351
 #define RADIUS 5
 
+#if GTK_CHECK_VERSION(3,0,0)
 static gboolean sysinfo_logo_draw (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
+#else
+static gboolean sysinfo_logo_expose (GtkWidget *widget, GdkEventExpose *event, gpointer data_ptr)
+#endif
 {
     GtkAllocation allocation;
     GtkStyle *style;
@@ -689,9 +697,15 @@ add_section(GtkBox *vbox , const char * title, int num_row, int num_col, GtkWidg
     gtk_alignment_set_padding(GTK_ALIGNMENT(alignment), 0, 0, 12, 0);
     gtk_container_add(GTK_CONTAINER(frame), alignment);
 
+#if GTK_CHECK_VERSION (3, 0, 0)
     table = gtk_grid_new();
     gtk_grid_set_row_spacing(GTK_GRID(table), 6);
     gtk_grid_set_column_spacing(GTK_GRID(table), 6);
+#else
+    table = gtk_table_new(num_row, num_col, FALSE);
+    gtk_table_set_row_spacings(GTK_TABLE(table), 6);
+    gtk_table_set_col_spacings(GTK_TABLE(table), 6);
+#endif
     gtk_container_set_border_width(GTK_CONTAINER(table), 6);
     gtk_container_add(GTK_CONTAINER(alignment), table);
 
@@ -703,23 +717,50 @@ add_section(GtkBox *vbox , const char * title, int num_row, int num_col, GtkWidg
 
 
 static GtkWidget*
+#if GTK_CHECK_VERSION (3, 0, 0)
 add_row(GtkGrid * table, const char * label, const char * value, int row)
+#else
+add_row(GtkTable * table, const char * label, const char * value, int row)
+#endif
 {
     GtkWidget *header = gtk_label_new(NULL);
     gtk_label_set_markup(GTK_LABEL(header), label);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
-    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (header), 0.0);
+#else
+    gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
+#endif
+#if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         table, header,
         0, row, 1, 1);
+#else
+    gtk_table_attach(
+        table, header,
+        0, 1, row, row + 1,
+        GTK_FILL, GTK_FILL, 0, 0
+        );
+#endif
 
     GtkWidget *label_widget = gtk_label_new(value);
     gtk_label_set_selectable(GTK_LABEL(label_widget), TRUE);
-    gtk_widget_set_halign (label_widget, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label_widget), 0.0);
+#else
+    gtk_misc_set_alignment(GTK_MISC(label_widget), 0.0, 0.5);
+#endif
+#if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         table, label_widget,
         1, row, 1, 1);
-
+#else
+    gtk_table_attach(
+        table, label_widget,
+        1, 2, row, row + 1,
+        GTK_FILL, GTK_FILL, 0, 0
+        );
+#endif
     return label_widget;
 }
 
@@ -745,7 +786,7 @@ procman_create_sysinfo_view(void)
 
     gchar *markup;
 
-    hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
+    hbox = gtk_hbox_new(FALSE, 12);
     gtk_container_set_border_width(GTK_CONTAINER(hbox), 6);
 
     /* left-side logo */
@@ -755,16 +796,25 @@ procman_create_sysinfo_view(void)
     else {
         logo = gtk_image_new_from_file(DATADIR "/pixmaps/mate-system-monitor/side.png");
     }
+#if GTK_CHECK_VERSION (3, 0, 0)
     gtk_widget_set_valign (logo, GTK_ALIGN_START);
     gtk_widget_set_margin_start (logo, 5);
     gtk_widget_set_margin_end (logo, 5);
     gtk_widget_set_margin_top (logo, 12);
     gtk_widget_set_margin_bottom (logo, 12);
+#else
+    gtk_misc_set_alignment(GTK_MISC(logo), 0.5, 0.0);
+    gtk_misc_set_padding(GTK_MISC(logo), 5, 12);
+#endif
     gtk_box_pack_start(GTK_BOX(hbox), logo, FALSE, FALSE, 0);
 
+#if GTK_CHECK_VERSION(3,0,0)
     g_signal_connect(G_OBJECT(logo), "draw", G_CALLBACK(sysinfo_logo_draw), NULL);
+#else
+    g_signal_connect(G_OBJECT(logo), "expose-event", G_CALLBACK(sysinfo_logo_expose), NULL);
+#endif
 
-    vbox = gtk_box_new(GTK_ORIENTATION_VERTICAL, 12);
+    vbox = gtk_vbox_new(FALSE, 12);
     gtk_container_set_border_width(GTK_CONTAINER(vbox), 12);
     gtk_box_pack_start(GTK_BOX(hbox), vbox, TRUE, TRUE, 0);
 
@@ -794,10 +844,22 @@ procman_create_sysinfo_view(void)
 
     distro_release_label = gtk_label_new("???");
     gtk_label_set_selectable(GTK_LABEL(distro_release_label), TRUE);
-    gtk_widget_set_halign (distro_release_label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (distro_release_label), 0.0);
+#else
+    gtk_misc_set_alignment(GTK_MISC(distro_release_label), 0.0, 0.5);
+#endif
+#if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         GTK_GRID(distro_table), distro_release_label,
         0, table_count, 1, 1);
+#else
+    gtk_table_attach(
+        GTK_TABLE(distro_table), distro_release_label,
+        0, 1, table_count, table_count+1,
+        GTK_FILL, GTK_FILL, 0, 0
+        );
+#endif
     table_count++;
     data->set_distro_labels(gtk_frame_get_label_widget(GTK_FRAME(distro_frame)), distro_release_label);
 
@@ -805,10 +867,22 @@ procman_create_sysinfo_view(void)
     header = gtk_label_new(markup);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
     g_free(markup);
-    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (header), 0.0);
+#else
+    gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
+#endif
+#if GTK_CHECK_VERSION (3, 0, 0)
     gtk_grid_attach(
         GTK_GRID(distro_table), header,
         0, table_count, 1, 1);
+#else
+    gtk_table_attach(
+        GTK_TABLE(distro_table), header,
+        0, 1, table_count, table_count + 1,
+        GTK_FILL, GTK_FILL, 0, 0
+        );
+#endif
     table_count++;
 
     if (data->mate_version != "")
@@ -817,10 +891,22 @@ procman_create_sysinfo_view(void)
         header = gtk_label_new(markup);
         gtk_label_set_selectable(GTK_LABEL(header), TRUE);
         g_free(markup);
-        gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+        gtk_label_set_xalign (GTK_LABEL (header), 0.0);
+#else
+        gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
+#endif
+#if GTK_CHECK_VERSION (3, 0, 0)
         gtk_grid_attach(
             GTK_GRID(distro_table), header,
             0, table_count, 1, 1);
+#else
+        gtk_table_attach(
+            GTK_TABLE(distro_table), header,
+            0, 1, table_count, table_count + 1,
+            GTK_FILL, GTK_FILL, 0, 0
+            );
+#endif
         table_count++;
     }
 
@@ -831,11 +917,19 @@ procman_create_sysinfo_view(void)
     g_free(markup);
 
     markup = procman::format_size(data->memory_bytes);
+#if GTK_CHECK_VERSION (3, 0, 0)
     add_row(GTK_GRID(hardware_table), _("Memory:"), markup, 0);
+#else
+    add_row(GTK_TABLE(hardware_table), _("Memory:"), markup, 0);
+#endif
     g_free(markup);
 
     markup = NULL;
+#if GTK_CHECK_VERSION (3, 0, 0)
     add_row(GTK_GRID(hardware_table), _("Processor:"),
+#else
+    add_row(GTK_TABLE(hardware_table), _("Processor:"),
+#endif
             data->processors.c_str(), 1);
 
     if(markup)
@@ -848,7 +942,11 @@ procman_create_sysinfo_view(void)
     g_free(markup);
 
     markup = procman::format_size(data->free_space_bytes);
+#if GTK_CHECK_VERSION (3, 0, 0)
     add_row(GTK_GRID(disk_space_table), _("Available disk space:"), markup, 0);
+#else
+    add_row(GTK_TABLE(disk_space_table), _("Available disk space:"), markup, 0);
+#endif
     g_free(markup);
 
     return hbox;

@@ -37,6 +37,10 @@
 #include "procman_gksu.h"
 #include "cgroups.h"
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+#define gtk_hbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_HORIZONTAL,Y)
+#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
+#endif
 
 static GtkWidget *renice_dialog = NULL;
 static GtkWidget *prefs_dialog = NULL;
@@ -154,7 +158,11 @@ procdialog_create_renice_dialog (ProcData *procdata)
     GtkWidget *label;
     GtkWidget *priority_label;
     GtkWidget *table;
+#if GTK_CHECK_VERSION(3,0,0)
     GtkAdjustment *renice_adj;
+#else
+    GtkObject *renice_adj;
+#endif
     GtkWidget *hscale;
     GtkWidget *button;
     GtkWidget *icon;
@@ -193,7 +201,7 @@ procdialog_create_renice_dialog (ProcData *procdata)
     gtk_box_set_spacing (GTK_BOX (dialog_vbox), 2);
     gtk_container_set_border_width (GTK_CONTAINER (dialog_vbox), 5);
 
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 12);
+    vbox = gtk_vbox_new (FALSE, 12);
     gtk_box_pack_start (GTK_BOX (dialog_vbox), vbox, TRUE, TRUE, 0);
     gtk_container_set_border_width (GTK_CONTAINER (vbox), 12);
 
@@ -208,7 +216,11 @@ procdialog_create_renice_dialog (ProcData *procdata)
 
     renice_adj = gtk_adjustment_new (info->nice, RENICE_VAL_MIN, RENICE_VAL_MAX, 1, 1, 0);
     new_nice_value = 0;
+#if GTK_CHECK_VERSION (3, 0, 0)
     hscale = gtk_scale_new (GTK_ORIENTATION_HORIZONTAL, renice_adj);
+#else
+    hscale = gtk_hscale_new (GTK_ADJUSTMENT (renice_adj));
+#endif
     gtk_label_set_mnemonic_widget (GTK_LABEL (label), hscale);
     gtk_scale_set_digits (GTK_SCALE (hscale), 0);
     gtk_table_attach (GTK_TABLE (table), hscale, 1, 2, 0, 1,
@@ -402,10 +414,14 @@ create_field_page(GtkWidget *tree, const char* text)
     GtkTreeViewColumn *column;
     GtkCellRenderer *cell;
 
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox = gtk_vbox_new (FALSE, 6);
 
     label = gtk_label_new_with_mnemonic (text);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, TRUE, 0);
 
     scrolled = gtk_scrolled_window_new (NULL, NULL);
@@ -537,39 +553,47 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_container_set_border_width (GTK_CONTAINER (notebook), 5);
     gtk_box_pack_start (GTK_BOX (main_vbox), notebook, TRUE, TRUE, 0);
 
-    proc_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 18);
+    proc_box = gtk_vbox_new (FALSE, 18);
     gtk_container_set_border_width (GTK_CONTAINER (proc_box), 12);
     tab_label = gtk_label_new (_("Processes"));
     gtk_widget_show (tab_label);
     gtk_notebook_append_page (GTK_NOTEBOOK (notebook), proc_box, tab_label);
 
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (proc_box), vbox, FALSE, FALSE, 0);
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Behavior"));
     label = gtk_label_new (NULL);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
 
-    hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new (FALSE, 0);
     gtk_box_pack_start (GTK_BOX (vbox), hbox, FALSE, FALSE, 0);
 
     label = gtk_label_new ("    ");
     gtk_box_pack_start (GTK_BOX (hbox), label, FALSE, FALSE, 0);
 
-    vbox2 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox2 = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (hbox), vbox2, TRUE, TRUE, 0);
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+    hbox2 = gtk_hbox_new (FALSE, 12);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
     label = gtk_label_new_with_mnemonic (_("_Update interval in seconds:"));
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
 
-    hbox3 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox3 = gtk_hbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (hbox2), hbox3, TRUE, TRUE, 0);
 
     update = (gfloat) procdata->config.update_interval;
@@ -587,7 +611,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_label_set_mnemonic_widget (GTK_LABEL (label), spin_button);
 
 
-    hbox2 = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox2 = gtk_hbox_new(FALSE, 6);
     gtk_box_pack_start(GTK_BOX(vbox2), hbox2, FALSE, FALSE, 0);
 
     smooth_button = gtk_check_button_new_with_mnemonic(_("Enable _smooth refresh"));
@@ -600,7 +624,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
 
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox2 = gtk_hbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
     check_button = gtk_check_button_new_with_mnemonic (_("Alert before ending or _killing processes"));
@@ -613,7 +637,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
 
 
-    hbox2 = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox2 = gtk_hbox_new(FALSE, 6);
     gtk_box_pack_start(GTK_BOX(vbox2), hbox2, FALSE, FALSE, 0);
 
     GtkWidget *solaris_button = gtk_check_button_new_with_mnemonic(_("Divide CPU usage by CPU count"));
@@ -628,20 +652,24 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
 
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox2 = gtk_hbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (proc_box), vbox, TRUE, TRUE, 0);
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Information Fields"));
     label = gtk_label_new (NULL);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
 
-    hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new (FALSE, 0);
     gtk_box_pack_start (GTK_BOX (vbox), hbox, TRUE, TRUE, 0);
 
     label = gtk_label_new ("    ");
@@ -650,40 +678,48 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     vbox2 = create_field_page (procdata->tree, _("Process i_nformation shown in list:"));
     gtk_box_pack_start (GTK_BOX (hbox), vbox2, TRUE, TRUE, 0);
 
-    sys_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 12);
+    sys_box = gtk_vbox_new (FALSE, 12);
     gtk_container_set_border_width (GTK_CONTAINER (sys_box), 12);
     tab_label = gtk_label_new (_("Resources"));
     gtk_widget_show (tab_label);
     gtk_notebook_append_page (GTK_NOTEBOOK (notebook), sys_box, tab_label);
 
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (sys_box), vbox, FALSE, FALSE, 0);
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Graphs"));
     label = gtk_label_new (NULL);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, TRUE, FALSE, 0);
 
-    hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new (FALSE, 0);
     gtk_box_pack_start (GTK_BOX (vbox), hbox, FALSE, FALSE, 0);
 
     label = gtk_label_new ("    ");
     gtk_box_pack_start (GTK_BOX (hbox), label, FALSE, FALSE, 0);
 
-    vbox2 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox2 = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (hbox), vbox2, TRUE, TRUE, 0);
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+    hbox2 = gtk_hbox_new (FALSE, 12);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
     label = gtk_label_new_with_mnemonic (_("_Update interval in seconds:"));
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
     gtk_size_group_add_widget (size, label);
 
-    hbox3 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox3 = gtk_hbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (hbox2), hbox3, TRUE, TRUE, 0);
 
     update = (gfloat) procdata->config.graph_update_interval;
@@ -709,13 +745,13 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
 
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+    hbox2 = gtk_hbox_new (FALSE, 12);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, TRUE, TRUE, 0);
 
     /*
      * Devices
      */
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox = gtk_vbox_new (FALSE, 6);
     gtk_container_set_border_width (GTK_CONTAINER (vbox), 12);
     tab_label = gtk_label_new (_("File Systems"));
     gtk_widget_show (tab_label);
@@ -723,28 +759,36 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     tmp = g_strdup_printf ("<b>%s</b>", _("File Systems"));
     label = gtk_label_new (NULL);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
 
-    hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new (FALSE, 0);
     gtk_box_pack_start (GTK_BOX (vbox), hbox, FALSE, FALSE, 0);
 
     label = gtk_label_new ("    ");
     gtk_box_pack_start (GTK_BOX (hbox), label, FALSE, FALSE, 0);
 
-    vbox2 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox2 = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (hbox), vbox2, TRUE, TRUE, 0);
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+    hbox2 = gtk_hbox_new (FALSE, 12);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
     label = gtk_label_new_with_mnemonic (_("_Update interval in seconds:"));
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
 
-    hbox3 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox3 = gtk_hbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (hbox2), hbox3, TRUE, TRUE, 0);
 
     update = (gfloat) procdata->config.disks_update_interval;
@@ -758,7 +802,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
                       &disks_interval_updater);
 
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+    hbox2 = gtk_hbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
     check_button = gtk_check_button_new_with_mnemonic (_("Show _all file systems"));
     gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (check_button),
@@ -768,7 +812,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (hbox2), check_button, FALSE, FALSE, 0);
 
 
-    vbox2 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    vbox2 = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (vbox), vbox2, FALSE, FALSE, 0);
 
     label = gtk_label_new ("    ");
@@ -776,12 +820,16 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Information Fields"));
     label = gtk_label_new (NULL);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
 
-    hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new (FALSE, 0);
     gtk_box_pack_start (GTK_BOX (vbox), hbox, TRUE, TRUE, 0);
 
     label = gtk_label_new ("    ");

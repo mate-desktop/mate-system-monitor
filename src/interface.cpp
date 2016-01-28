@@ -41,6 +41,11 @@
 #include "sysinfo.h"
 #include "gsm_color_button.h"
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+#define gtk_hbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_HORIZONTAL,Y)
+#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
+#endif
+
 static void    cb_toggle_tree (GtkAction *action, gpointer data);
 static void    cb_proc_goto_tab (gint tab);
 
@@ -204,10 +209,10 @@ create_proc_view (ProcData *procdata)
     GtkWidget *hbox2;
     char* string;
 
-    vbox1 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 18);
+    vbox1 = gtk_vbox_new (FALSE, 18);
     gtk_container_set_border_width (GTK_CONTAINER (vbox1), 12);
 
-    hbox1 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+    hbox1 = gtk_hbox_new (FALSE, 12);
     gtk_box_pack_start (GTK_BOX (vbox1), hbox1, FALSE, FALSE, 0);
 
     string = make_loadavg_string ();
@@ -225,7 +230,7 @@ create_proc_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (vbox1), scrolled, TRUE, TRUE, 0);
 
 
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox2 = gtk_hbox_new (FALSE, 0);
     gtk_box_pack_start (GTK_BOX (vbox1), hbox2, FALSE, FALSE, 0);
 
     procdata->endprocessbutton = gtk_button_new_with_mnemonic (_("End _Process"));
@@ -282,19 +287,19 @@ create_sys_view (ProcData *procdata)
     // Translators: color picker title, %s is CPU, Memory, Swap, Receiving, Sending
     title_template = g_strdup(_("Pick a Color for '%s'"));
 
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 18);
+    vbox = gtk_vbox_new (FALSE, 18);
 
     gtk_container_set_border_width (GTK_CONTAINER (vbox), 12);
 
     /* The CPU BOX */
 
-    cpu_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    cpu_box = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (vbox), cpu_box, TRUE, TRUE, 0);
 
     label = make_title_label (_("CPU History"));
     gtk_box_pack_start (GTK_BOX (cpu_box), label, FALSE, FALSE, 0);
 
-    cpu_graph_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    cpu_graph_box = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (cpu_box), cpu_graph_box, TRUE, TRUE, 0);
 
     cpu_graph = new LoadGraph(LOAD_GRAPH_CPU);
@@ -304,7 +309,7 @@ create_sys_view (ProcData *procdata)
                         TRUE,
                          0);
 
-    hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new(FALSE, 0);
     spacer = gtk_label_new ("");
     gtk_widget_set_size_request(GTK_WIDGET(spacer), 57, -1);
     gtk_box_pack_start (GTK_BOX (hbox), spacer,
@@ -324,7 +329,7 @@ create_sys_view (ProcData *procdata)
     for (i=0;i<procdata->config.num_cpus; i++) {
         GtkWidget *temp_hbox;
 
-        temp_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+        temp_hbox = gtk_hbox_new (FALSE, 0);
         gtk_table_attach(GTK_TABLE(cpu_table), temp_hbox,
                  i % 4, i % 4 + 1,
                  i / 4, i / 4 + 1,
@@ -362,13 +367,13 @@ create_sys_view (ProcData *procdata)
 
     procdata->cpu_graph = cpu_graph;
 
-    mem_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    mem_box = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (vbox), mem_box, TRUE, TRUE, 0);
 
     label = make_title_label (_("Memory and Swap History"));
     gtk_box_pack_start (GTK_BOX (mem_box), label, FALSE, FALSE, 0);
 
-    mem_graph_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    mem_graph_box = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (mem_box), mem_graph_box, TRUE, TRUE, 0);
 
 
@@ -379,7 +384,7 @@ create_sys_view (ProcData *procdata)
                         TRUE,
                         0);
 
-    hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new(FALSE, 0);
     spacer = gtk_label_new ("");
     gtk_widget_set_size_request(GTK_WIDGET(spacer), 54, -1);
     gtk_box_pack_start (GTK_BOX (hbox), spacer,
@@ -389,7 +394,7 @@ create_sys_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (mem_graph_box), hbox,
                         FALSE, FALSE, 0);
 
-    mem_legend_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 10);
+    mem_legend_box = gtk_hbox_new(TRUE, 10);
     gtk_box_pack_start (GTK_BOX (hbox), mem_legend_box,
                         TRUE, TRUE, 0);
 
@@ -466,13 +471,13 @@ create_sys_view (ProcData *procdata)
     procdata->mem_graph = mem_graph;
 
     /* The net box */
-    net_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    net_box = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (vbox), net_box, TRUE, TRUE, 0);
 
     label = make_title_label (_("Network History"));
     gtk_box_pack_start (GTK_BOX (net_box), label, FALSE, FALSE, 0);
 
-    net_graph_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    net_graph_box = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (net_box), net_graph_box, TRUE, TRUE, 0);
 
     net_graph = new LoadGraph(LOAD_GRAPH_NET);
@@ -482,7 +487,7 @@ create_sys_view (ProcData *procdata)
                         TRUE,
                         0);
 
-    hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
+    hbox = gtk_hbox_new(FALSE, 0);
     spacer = gtk_label_new ("");
     gtk_widget_set_size_request(GTK_WIDGET(spacer), 54, -1);
     gtk_box_pack_start (GTK_BOX (hbox), spacer,
@@ -492,7 +497,7 @@ create_sys_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (net_graph_box), hbox,
                         FALSE, FALSE, 0);
 
-    net_legend_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 10);
+    net_legend_box = gtk_hbox_new(TRUE, 10);
     gtk_box_pack_start (GTK_BOX (hbox), net_legend_box,
                         TRUE, TRUE, 0);
 
@@ -716,12 +721,19 @@ create_main_window (ProcData *procdata)
     gtk_window_set_title(GTK_WINDOW(app), _("System Monitor"));
 
     GdkScreen* screen = gtk_widget_get_screen(app);
+#if GTK_CHECK_VERSION(3,0,0)
     /* use visual, if available */
     GdkVisual* visual = gdk_screen_get_rgba_visual(screen);
     if (visual)
         gtk_widget_set_visual(app, visual);
+#else
+    /* use rgba colormap, if available */
+    GdkColormap* colormap = gdk_screen_get_rgba_colormap(screen);
+    if (colormap)
+        gtk_widget_set_default_colormap(colormap);
+#endif
 
-    main_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
+    main_box = gtk_vbox_new (FALSE, 0);
     gtk_container_add(GTK_CONTAINER(app), main_box);
 
     width = procdata->config.width;
@@ -789,7 +801,7 @@ create_main_window (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (main_box), notebook, TRUE, TRUE, 0);
     gtk_container_set_border_width (GTK_CONTAINER (notebook), 12);
 
-    sysinfo_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0); // procman_create_sysinfo_view();
+    sysinfo_box = gtk_hbox_new(TRUE, 0); // procman_create_sysinfo_view();
     sysinfo_label = gtk_label_new(_("System"));
     gtk_notebook_append_page(GTK_NOTEBOOK(notebook), sysinfo_box, sysinfo_label);
 

@@ -19,6 +19,11 @@
 #define NI_IDN 0
 #endif
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+#define gtk_hbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_HORIZONTAL,Y)
+#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
+#endif
+
 enum
 {
     COL_FD,
@@ -260,6 +265,9 @@ create_openfiles_tree (ProcData *procdata)
         );
 
     tree = gtk_tree_view_new_with_model (GTK_TREE_MODEL (model));
+#if !GTK_CHECK_VERSION(3,0,0)
+    gtk_tree_view_set_rules_hint (GTK_TREE_VIEW (tree), TRUE);
+#endif
     g_object_unref (G_OBJECT (model));
 
     for (i = 0; i < NUM_OPENFILES_COL-1; i++) {
@@ -332,11 +340,11 @@ create_single_openfiles_dialog (GtkTreeModel *model, GtkTreePath *path,
     gtk_box_set_spacing (GTK_BOX (vbox), 2);
     gtk_container_set_border_width (GTK_CONTAINER (vbox), 5);
 
-    dialog_vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
+    dialog_vbox = gtk_vbox_new (FALSE, 6);
     gtk_container_set_border_width (GTK_CONTAINER (dialog_vbox), 5);
     gtk_box_pack_start (GTK_BOX (vbox), dialog_vbox, TRUE, TRUE, 0);
 
-    cmd_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+    cmd_hbox = gtk_hbox_new (FALSE, 12);
     gtk_box_pack_start (GTK_BOX (dialog_vbox), cmd_hbox, FALSE, FALSE, 0);
 
 

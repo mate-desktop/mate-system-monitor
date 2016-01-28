@@ -195,26 +195,46 @@ color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
         for (int i = 0; i < procdata->config.num_cpus; i++) {
             string cpu_key = make_string(g_strdup_printf("cpu-color%d", i));
             if (cpu_key == key) {
+#if GTK_CHECK_VERSION(3,0,0)
                 gdk_rgba_parse (&procdata->config.cpu_color[i], color);
+#else
+                gdk_color_parse (color, &procdata->config.cpu_color[i]);
+#endif
                 procdata->cpu_graph->colors.at(i) = procdata->config.cpu_color[i];
                 break;
             }
         }
     }
     else if (g_str_equal (key, "mem-color")) {
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_rgba_parse (&procdata->config.mem_color, color);
+#else
+        gdk_color_parse (color, &procdata->config.mem_color);
+#endif
         procdata->mem_graph->colors.at(0) = procdata->config.mem_color;
     }
     else if (g_str_equal (key, "swap-color")) {
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_rgba_parse (&procdata->config.swap_color, color);
+#else
+        gdk_color_parse (color, &procdata->config.swap_color);
+#endif
         procdata->mem_graph->colors.at(1) = procdata->config.swap_color;
     }
     else if (g_str_equal (key, "net-in-color")) {
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_rgba_parse (&procdata->config.net_in_color, color);
+#else
+        gdk_color_parse (color, &procdata->config.net_in_color);
+#endif
         procdata->net_graph->colors.at(0) = procdata->config.net_in_color;
     }
     else if (g_str_equal (key, "net-out-color")) {
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_rgba_parse (&procdata->config.net_out_color, color);
+#else
+        gdk_color_parse (color, &procdata->config.net_out_color);
+#endif
         procdata->net_graph->colors.at(1) = procdata->config.net_out_color;
     }
     else {
@@ -309,7 +329,11 @@ procman_data_new (GSettings *settings)
         detail_string = std::string("changed::") + std::string(key);
         g_signal_connect (G_OBJECT(settings), detail_string.c_str(),
                           G_CALLBACK(color_changed_cb), pd);
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_rgba_parse (&pd->config.cpu_color[i], color);
+#else
+        gdk_color_parse(color, &pd->config.cpu_color[i]);
+#endif
         g_free (color);
         g_free (key);
     }
@@ -319,7 +343,11 @@ procman_data_new (GSettings *settings)
         color = g_strdup ("#000000ff0082");
     g_signal_connect (G_OBJECT(settings), "changed::mem-color",
                       G_CALLBACK(color_changed_cb), pd);
+#if GTK_CHECK_VERSION(3,0,0)
     gdk_rgba_parse (&pd->config.mem_color, color);
+#else
+    gdk_color_parse(color, &pd->config.mem_color);
+#endif
 
     g_free (color);
 
@@ -328,7 +356,11 @@ procman_data_new (GSettings *settings)
         color = g_strdup ("#00b6000000ff");
     g_signal_connect (G_OBJECT(settings), "changed::swap-color",
                       G_CALLBACK(color_changed_cb), pd);
+#if GTK_CHECK_VERSION(3,0,0)
     gdk_rgba_parse (&pd->config.swap_color, color);
+#else
+    gdk_color_parse(color, &pd->config.swap_color);
+#endif
     g_free (color);
 
     color = g_settings_get_string (settings, "net-in-color");
@@ -336,7 +368,11 @@ procman_data_new (GSettings *settings)
         color = g_strdup ("#000000f200f2");
     g_signal_connect (G_OBJECT(settings), "changed::net-in-color",
                       G_CALLBACK(color_changed_cb), pd);
+#if GTK_CHECK_VERSION(3,0,0)
     gdk_rgba_parse (&pd->config.net_in_color, color);
+#else
+    gdk_color_parse(color, &pd->config.net_in_color);
+#endif
     g_free (color);
 
     color = g_settings_get_string (settings, "net-out-color");
@@ -344,7 +380,11 @@ procman_data_new (GSettings *settings)
         color = g_strdup ("#00f2000000c1");
     g_signal_connect (G_OBJECT(settings), "changed::net-out-color",
                       G_CALLBACK(color_changed_cb), pd);
+#if GTK_CHECK_VERSION(3,0,0)
     gdk_rgba_parse (&pd->config.net_out_color, color);
+#else
+    gdk_color_parse(color, &pd->config.net_out_color);
+#endif
     g_free (color);
 
     /* Sanity checks */

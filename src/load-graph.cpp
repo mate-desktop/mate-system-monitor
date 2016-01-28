@@ -28,10 +28,18 @@
 #include "util.h"
 #include "gsm_color_button.h"
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+#define gtk_vbox_new(X,Y) gtk_box_new(GTK_ORIENTATION_VERTICAL,Y)
+#endif
+
 void LoadGraph::clear_background()
 {
     if (background) {
+#if GTK_CHECK_VERSION(3,0,0)
         cairo_surface_destroy (background);
+#else
+        g_object_unref(background);
+#endif
         this->background = NULL;
     }
 }
@@ -75,7 +83,9 @@ static void draw_background(LoadGraph *graph) {
     PangoLayout* layout;
     PangoFontDescription* font_desc;
     PangoRectangle extents;
+#if GTK_CHECK_VERSION(3,0,0)
     GdkRGBA fg, bg;
+#endif
 
     num_bars = graph->num_bars();
     graph->graph_dely = (graph->draw_height - 15) / num_bars; /* round to int to avoid AA blur */
@@ -84,19 +94,34 @@ static void draw_background(LoadGraph *graph) {
     graph->graph_buffer_offset = (int) (1.5 * graph->graph_delx) + FRAME_WIDTH ;
 
     gtk_widget_get_allocation (graph->disp, &allocation);
+#if GTK_CHECK_VERSION(3,0,0)
     graph->background = gdk_window_create_similar_surface (gtk_widget_get_window (graph->disp), CAIRO_CONTENT_COLOR_ALPHA, allocation.width, allocation.height);
     cr = cairo_create (graph->background);
+#else
+    graph->background = gdk_pixmap_new (GDK_DRAWABLE (gtk_widget_get_window (graph->disp)), allocation.width, allocation.height, -1);
+    cr = gdk_cairo_create (graph->background);
+#endif
 
+#if GTK_CHECK_VERSION(3,0,0)
     GtkStyleContext *context = gtk_widget_get_style_context (ProcData::get_instance()->notebook);
     gtk_style_context_get_background_color (context, GTK_STATE_FLAG_NORMAL, &bg);
     gtk_style_context_get_color (context, GTK_STATE_FLAG_NORMAL, &fg);
 
     // set the background colour
     gdk_cairo_set_source_rgba (cr, &bg);
+#else
+    // set the background colour
+    GtkStyle *style = gtk_widget_get_style (ProcData::get_instance()->notebook);
+    gdk_cairo_set_source_color (cr, &style->bg[GTK_STATE_NORMAL]);
+#endif
     cairo_paint (cr);
 
     layout = pango_cairo_create_layout (cr);
+#if GTK_CHECK_VERSION(3,0,0)
     gtk_style_context_get (context, GTK_STATE_FLAG_NORMAL, GTK_STYLE_PROPERTY_FONT, &font_desc, NULL);
+#else
+    font_desc = pango_font_description_copy (style->font_desc);
+#endif
     pango_font_description_set_size (font_desc, 0.8 * graph->fontsize * PANGO_SCALE);
     pango_layout_set_font_description (layout, font_desc);
     pango_font_description_free (font_desc);
@@ -123,7 +148,11 @@ static void draw_background(LoadGraph *graph) {
         else
             y = i * graph->graph_dely + graph->fontsize / 2.0;
 
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_cairo_set_source_rgba (cr, &fg);
+#else
+        gdk_cairo_set_source_color (cr, &style->fg[GTK_STATE_NORMAL]);
+#endif
         if (graph->type == LOAD_GRAPH_NET) {
             // operation orders matters so it's 0 if i == num_bars
             guint64 rate = graph->net.max - (i * graph->net.max / num_bars);
@@ -168,7 +197,11 @@ static void draw_background(LoadGraph *graph) {
         pango_layout_set_text (layout, caption, -1);
         pango_layout_get_extents (layout, NULL, &extents);
         cairo_move_to (cr, ((ceil(x) + 0.5) + graph->rmargin + graph->indent) - (1.0 * extents.width / PANGO_SCALE/2), graph->draw_height - 1.0 * extents.height / PANGO_SCALE);
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_cairo_set_source_rgba (cr, &fg);
+#else
+        gdk_cairo_set_source_color (cr, &style->fg[GTK_STATE_NORMAL]);
+#endif
         pango_cairo_show_layout (cr, layout);
         g_free (caption);
     }
@@ -206,7 +239,11 @@ load_graph_configure (GtkWidget *widget,
     return TRUE;
 }
 
+#if GTK_CHECK_VERSION(3,0,0)
 static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
+#else
+static gboolean load_graph_expose (GtkWidget *widget, GdkEventExpose *event, gpointer data_ptr)
+#endif
 {
     LoadGraph * const graph = static_cast<LoadGraph*>(data_ptr);
     GdkWindow *window;
@@ -218,9 +255,13 @@ static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer d
 
     if (graph->background == NULL) {
         draw_background(graph);
+#if GTK_CHECK_VERSION(3,0,0)
         cairo_pattern_t *pattern = cairo_pattern_create_for_surface (graph->background);
         gdk_window_set_background_pattern (window, pattern);
         cairo_pattern_destroy (pattern);
+#else
+        gdk_window_set_back_pixmap (window, graph->background, FALSE);
+#endif
     }
 
     /* Number of pixels wide for one graph point */
@@ -245,7 +286,11 @@ static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer d
 
     for (j = 0; j < graph->n; ++j) {
         cairo_move_to (cr, x_offset, (1.0f - graph->data[0][j]) * graph->real_draw_height);
+#if GTK_CHECK_VERSION(3,0,0)
         gdk_cairo_set_source_rgba (cr, &(graph->colors [j]));
+#else
+        gdk_cairo_set_source_color (cr, &(graph->colors [j]));
+#endif
 
         for (i = 1; i < LoadGraph::NUM_POINTS; ++i) {
             if (graph->data[i][j] == -1.0f)
@@ -725,13 +770,17 @@ LoadGraph::LoadGraph(guint type)
     render_counter = (frames_per_unit - 1);
     draw = FALSE;
 
-    main_widget = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
+    main_widget = gtk_vbox_new (FALSE, FALSE);
     gtk_widget_set_size_request(main_widget, -1, LoadGraph::GRAPH_MIN_HEIGHT);
     gtk_widget_show (main_widget);
 
     disp = gtk_drawing_area_new ();
     gtk_widget_show (disp);
+#if GTK_CHECK_VERSION(3,0,0)
     g_signal_connect (G_OBJECT (disp), "draw", G_CALLBACK (load_graph_draw), graph);
+#else
+    g_signal_connect (G_OBJECT (disp), "expose_event", G_CALLBACK (load_graph_expose), graph);
+#endif
     g_signal_connect (G_OBJECT(disp), "configure_event",
                       G_CALLBACK (load_graph_configure), graph);
     g_signal_connect (G_OBJECT(disp), "destroy",

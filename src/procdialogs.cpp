@@ -405,7 +405,11 @@ create_field_page(GtkWidget *tree, const char* text)
     vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
 
     label = gtk_label_new_with_mnemonic (text);
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, TRUE, 0);
 
     scrolled = gtk_scrolled_window_new (NULL, NULL);
@@ -548,7 +552,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Behavior"));
     label = gtk_label_new (NULL);
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
@@ -566,7 +574,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
     label = gtk_label_new_with_mnemonic (_("_Update interval in seconds:"));
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
 
     hbox3 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
@@ -636,7 +648,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Information Fields"));
     label = gtk_label_new (NULL);
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
@@ -661,7 +677,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Graphs"));
     label = gtk_label_new (NULL);
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, TRUE, FALSE, 0);
@@ -679,7 +699,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
     label = gtk_label_new_with_mnemonic (_("_Update interval in seconds:"));
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
     gtk_size_group_add_widget (size, label);
 
@@ -723,7 +747,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     tmp = g_strdup_printf ("<b>%s</b>", _("File Systems"));
     label = gtk_label_new (NULL);
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
@@ -741,7 +769,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
     label = gtk_label_new_with_mnemonic (_("_Update interval in seconds:"));
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
 
     hbox3 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
@@ -776,7 +808,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     tmp = g_strdup_printf ("<b>%s</b>", _("Information Fields"));
     label = gtk_label_new (NULL);
+#if GTK_CHECK_VERSION (3, 14, 0)
     gtk_widget_set_halign (label, GTK_ALIGN_START);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_markup (GTK_LABEL (label), tmp);
     g_free (tmp);
     gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);

@@ -251,7 +251,11 @@ make_title_label (const char *text)
     label = gtk_label_new (full);
     g_free (full);
 
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_label_set_use_markup (GTK_LABEL (label), TRUE);
 
     return label;
@@ -346,7 +350,11 @@ create_sys_view (ProcData *procdata)
         g_free (label_text);
 
         cpu_label = gtk_label_new (NULL);
-        gtk_widget_set_halign (cpu_label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+        gtk_label_set_xalign (GTK_LABEL (cpu_label), 0.0);
+#else
+        gtk_misc_set_alignment (GTK_MISC (cpu_label), 0.0, 0.5);
+#endif
         gtk_box_pack_start (GTK_BOX (temp_hbox), cpu_label, TRUE, TRUE, 0);
         load_graph_get_labels(cpu_graph)->cpu[i] = cpu_label;
 
@@ -402,7 +410,11 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table), label, 1, 7, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
 
     gtk_table_attach (GTK_TABLE (table),
@@ -433,7 +445,11 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table), label, 1, 7, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
 
     gtk_table_attach (GTK_TABLE (table),
@@ -499,22 +515,40 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table), label, 1, 2, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
 
-    gtk_widget_set_halign (load_graph_get_labels(net_graph)->net_in, GTK_ALIGN_END);
-    gtk_widget_set_valign (load_graph_get_labels(net_graph)->net_in, GTK_ALIGN_CENTER);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in), 1.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_in),
+                            1.0,
+                            0.5);
+#endif
 
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_in), 100, -1);
     gtk_table_attach (GTK_TABLE (table), load_graph_get_labels(net_graph)->net_in, 2, 3, 0, 1,
                       static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL), GTK_FILL, 0, 0);
 
     label = gtk_label_new (_("Total Received"));
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table), label, 1, 2, 1, 2, GTK_FILL, GTK_FILL, 0, 0);
 
-    gtk_widget_set_halign (load_graph_get_labels(net_graph)->net_in_total, GTK_ALIGN_END);
-    gtk_widget_set_valign (load_graph_get_labels(net_graph)->net_in_total, GTK_ALIGN_CENTER);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in_total), 1.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_in_total),
+                            1.0,
+                            0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table),
                       load_graph_get_labels(net_graph)->net_in_total,
                       2,
@@ -549,22 +583,40 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table), label, 1, 2, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
 
-    gtk_widget_set_halign (load_graph_get_labels(net_graph)->net_out, GTK_ALIGN_END);
-    gtk_widget_set_valign (load_graph_get_labels(net_graph)->net_out, GTK_ALIGN_CENTER);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out), 1.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_out),
+                            1.0,
+                            0.5);
+#endif
 
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_out), 100, -1);
     gtk_table_attach (GTK_TABLE (table), load_graph_get_labels(net_graph)->net_out, 2, 3, 0, 1,
                       static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL), GTK_FILL, 0, 0);
 
     label = gtk_label_new (_("Total Sent"));
-    gtk_widget_set_halign (label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table), label, 1, 2, 1, 2, GTK_FILL, GTK_FILL, 0, 0);
 
-    gtk_widget_set_halign (load_graph_get_labels(net_graph)->net_out_total, GTK_ALIGN_END);
-    gtk_widget_set_valign (load_graph_get_labels(net_graph)->net_out_total, GTK_ALIGN_CENTER);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out_total), 1.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_out_total),
+                            1.0,
+                            0.5);
+#endif
     gtk_table_attach (GTK_TABLE (table),
                       load_graph_get_labels(net_graph)->net_out_total,
                       2,

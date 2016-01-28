@@ -708,14 +708,22 @@ add_row(GtkGrid * table, const char * label, const char * value, int row)
     GtkWidget *header = gtk_label_new(NULL);
     gtk_label_set_markup(GTK_LABEL(header), label);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
-    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (header), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (header), 0.0, 0.5);
+#endif
     gtk_grid_attach(
         table, header,
         0, row, 1, 1);
 
     GtkWidget *label_widget = gtk_label_new(value);
     gtk_label_set_selectable(GTK_LABEL(label_widget), TRUE);
-    gtk_widget_set_halign (label_widget, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label_widget), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (label_widget), 0.0, 0.5);
+#endif
     gtk_grid_attach(
         table, label_widget,
         1, row, 1, 1);
@@ -794,7 +802,11 @@ procman_create_sysinfo_view(void)
 
     distro_release_label = gtk_label_new("???");
     gtk_label_set_selectable(GTK_LABEL(distro_release_label), TRUE);
-    gtk_widget_set_halign (distro_release_label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (distro_release_label), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (distro_release_label), 0.0, 0.5);
+#endif
     gtk_grid_attach(
         GTK_GRID(distro_table), distro_release_label,
         0, table_count, 1, 1);
@@ -805,7 +817,11 @@ procman_create_sysinfo_view(void)
     header = gtk_label_new(markup);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
     g_free(markup);
-    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (header), 0.0);
+#else
+    gtk_misc_set_alignment (GTK_MISC (header), 0.0, 0.5);
+#endif
     gtk_grid_attach(
         GTK_GRID(distro_table), header,
         0, table_count, 1, 1);
@@ -817,7 +833,11 @@ procman_create_sysinfo_view(void)
         header = gtk_label_new(markup);
         gtk_label_set_selectable(GTK_LABEL(header), TRUE);
         g_free(markup);
-        gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+        gtk_label_set_xalign (GTK_LABEL (header), 0.0);
+#else
+        gtk_misc_set_alignment (GTK_MISC (header), 0.0, 0.5);
+#endif
         gtk_grid_attach(
             GTK_GRID(distro_table), header,
             0, table_count, 1, 1);

@@ -726,8 +726,8 @@ add_row(GtkTable * table, const char * label, const char * value, int row)
     GtkWidget *header = gtk_label_new(NULL);
     gtk_label_set_markup(GTK_LABEL(header), label);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
-#if GTK_CHECK_VERSION (3, 14, 0)
-    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (header), 0.0);
 #else
     gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
 #endif
@@ -745,8 +745,8 @@ add_row(GtkTable * table, const char * label, const char * value, int row)
 
     GtkWidget *label_widget = gtk_label_new(value);
     gtk_label_set_selectable(GTK_LABEL(label_widget), TRUE);
-#if GTK_CHECK_VERSION (3, 14, 0)
-    gtk_widget_set_halign (label_widget, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (label_widget), 0.0);
 #else
     gtk_misc_set_alignment(GTK_MISC(label_widget), 0.0, 0.5);
 #endif
@@ -844,8 +844,8 @@ procman_create_sysinfo_view(void)
 
     distro_release_label = gtk_label_new("???");
     gtk_label_set_selectable(GTK_LABEL(distro_release_label), TRUE);
-#if GTK_CHECK_VERSION (3, 14, 0)
-    gtk_widget_set_halign (distro_release_label, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (distro_release_label), 0.0);
 #else
     gtk_misc_set_alignment(GTK_MISC(distro_release_label), 0.0, 0.5);
 #endif
@@ -867,8 +867,8 @@ procman_create_sysinfo_view(void)
     header = gtk_label_new(markup);
     gtk_label_set_selectable(GTK_LABEL(header), TRUE);
     g_free(markup);
-#if GTK_CHECK_VERSION (3, 14, 0)
-    gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+    gtk_label_set_xalign (GTK_LABEL (header), 0.0);
 #else
     gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
 #endif
@@ -891,8 +891,8 @@ procman_create_sysinfo_view(void)
         header = gtk_label_new(markup);
         gtk_label_set_selectable(GTK_LABEL(header), TRUE);
         g_free(markup);
-#if GTK_CHECK_VERSION (3, 14, 0)
-        gtk_widget_set_halign (header, GTK_ALIGN_START);
+#if GTK_CHECK_VERSION (3, 16, 0)
+        gtk_label_set_xalign (GTK_LABEL (header), 0.0);
 #else
         gtk_misc_set_alignment(GTK_MISC(header), 0.0, 0.5);
 #endif

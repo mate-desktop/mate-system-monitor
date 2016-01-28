@@ -796,7 +796,7 @@ procman_create_sysinfo_view(void)
     else {
         logo = gtk_image_new_from_file(DATADIR "/pixmaps/mate-system-monitor/side.png");
     }
-#if GTK_CHECK_VERSION (3, 14, 0)
+#if GTK_CHECK_VERSION (3, 0, 0)
     gtk_widget_set_valign (logo, GTK_ALIGN_START);
     gtk_widget_set_margin_start (logo, 5);
     gtk_widget_set_margin_end (logo, 5);

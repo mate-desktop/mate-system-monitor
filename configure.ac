@@ -42,12 +42,12 @@ AC_DEFINE([GLIB_VERSION_MIN_REQUIRED], [GLIB_VERSION_2_36],
 
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
-  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
+  [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 3.0)])],
   [case "$with_gtk" in
     2.0|3.0) ;;
     *) AC_MSG_ERROR([invalid gtk version specified]) ;;
     esac],
-    [with_gtk=2.0])
+    [with_gtk=3.0])
   AC_MSG_RESULT([$with_gtk])
   case "$with_gtk" in
     2.0) GTK_API_VERSION=2.0
@@ -58,9 +58,10 @@ AC_ARG_WITH([gtk],
          LIBWNCK_REQUIRED=2.5.0
          ;;
     3.0) GTK_API_VERSION=3.0
-         GTK_REQUIRED=3.0.0
+         GTK_REQUIRED=3.14.0
          GTKMM_API_VERSION=3.0
-         GTKMM_REQUIRED=3.0.0
+         # RHEL 7 has gtkmm 3.8...
+         GTKMM_REQUIRED=3.8.0
          LIBWNCK_API_VERSION=3.0
          LIBWNCK_REQUIRED=2.91.0
          ;;

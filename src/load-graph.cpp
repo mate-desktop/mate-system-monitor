@@ -31,7 +31,7 @@
 void LoadGraph::clear_background()
 {
     if (background) {
-        cairo_surface_destroy (background);
+        cairo_pattern_destroy (background);
         this->background = NULL;
     }
 }
@@ -75,6 +75,7 @@ static void draw_background(LoadGraph *graph) {
     PangoLayout* layout;
     PangoFontDescription* font_desc;
     PangoRectangle extents;
+    cairo_surface_t *surface;
     GdkRGBA fg, bg;
 
     num_bars = graph->num_bars();
@@ -84,8 +85,8 @@ static void draw_background(LoadGraph *graph) {
     graph->graph_buffer_offset = (int) (1.5 * graph->graph_delx) + FRAME_WIDTH ;
 
     gtk_widget_get_allocation (graph->disp, &allocation);
-    graph->background = gdk_window_create_similar_surface (gtk_widget_get_window (graph->disp), CAIRO_CONTENT_COLOR_ALPHA, allocation.width, allocation.height);
-    cr = cairo_create (graph->background);
+    surface = gdk_window_create_similar_surface (gtk_widget_get_window (graph->disp), CAIRO_CONTENT_COLOR_ALPHA, allocation.width, allocation.height);
+    cr = cairo_create (surface);
 
     GtkStyleContext *context = gtk_widget_get_style_context (ProcData::get_instance()->notebook);
     gtk_style_context_get_background_color (context, GTK_STATE_FLAG_NORMAL, &bg);
@@ -175,6 +176,8 @@ static void draw_background(LoadGraph *graph) {
     g_object_unref(layout);
     cairo_stroke (cr);
     cairo_destroy (cr);
+    graph->background = cairo_pattern_create_for_surface (surface);
+    cairo_surface_destroy (surface);
 }
 
 /* Redraws the backing buffer for the load graph and updates the window */
@@ -216,13 +219,6 @@ static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer d
 
     window = gtk_widget_get_window (graph->disp);
 
-    if (graph->background == NULL) {
-        draw_background(graph);
-        cairo_pattern_t *pattern = cairo_pattern_create_for_surface (graph->background);
-        gdk_window_set_background_pattern (window, pattern);
-        cairo_pattern_destroy (pattern);
-    }
-
     /* Number of pixels wide for one graph point */
     sample_width = (float)(graph->draw_width - graph->rmargin - graph->indent) / (float)LoadGraph::NUM_POINTS;
     /* General offset */
@@ -235,6 +231,12 @@ static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer d
     cairo_t* cr;
 
     cr = gdk_cairo_create (window);
+
+    if (graph->background == NULL) {
+        draw_background(graph);
+    }
+    cairo_set_source (cr, graph->background);
+    cairo_paint (cr);
 
     cairo_set_line_width (cr, 1);
     cairo_set_line_cap (cr, CAIRO_LINE_CAP_ROUND);

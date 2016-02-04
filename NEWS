@@ -1,5 +1,13 @@
 1.13.0
 
+  * prefs dialog: increase height a bit
+  * drop MateConf migration script
+  * drop GTK+2 code and --with-gtk build option
+  * set minimum GTK+ version to 3.14 and drop some deprecated code
+  * fix some deprecations
+  * load-graph: Draw the background explicitly, fixes graph with gtk+-3.20
+  * Changed graph grid line colors
+
 1.12.1
 
   * Process table: delay saving column widths (avoids eating CPU

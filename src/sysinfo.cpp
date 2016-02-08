@@ -657,11 +657,11 @@ static gboolean sysinfo_logo_draw (GtkWidget *widget, cairo_t *context, gpointer
                                       style->base[GTK_STATE_SELECTED].green / 65535.0,
                                       style->base[GTK_STATE_SELECTED].blue / 65535.0,
                                       1.0);
-  cairo_pattern_add_color_stop_rgba(cp, 1.0,
-                                    style->base[GTK_STATE_SELECTED].red / 65535.0,
-                                    style->base[GTK_STATE_SELECTED].green / 65535.0,
-                                    style->base[GTK_STATE_SELECTED].blue / 65535.0,
-                                    0.0);
+    cairo_pattern_add_color_stop_rgba(cp, 1.0,
+                                      style->base[GTK_STATE_SELECTED].red / 65535.0,
+                                      style->base[GTK_STATE_SELECTED].green / 65535.0,
+                                      style->base[GTK_STATE_SELECTED].blue / 65535.0,
+                                      0.0);
     cairo_set_source(cr, cp);
     cairo_fill(cr);
 

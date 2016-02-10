@@ -33,6 +33,8 @@
 #include <bacon-message-connection.h>
 #include <glibtop.h>
 #include <glibtop/close.h>
+#include <glibtop/cpu.h>
+#include <glibtop/sysinfo.h>
 #include <glibtop/loadavg.h>
 
 #include "load-graph.h"
@@ -239,12 +241,10 @@ show_all_fs_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 static ProcData *
 procman_data_new (GSettings *settings)
 {
-
     ProcData *pd;
     gchar *color;
     gchar **keys;
     gint swidth, sheight;
-    gint i;
     glibtop_cpu cpu;
 
     pd = ProcData::get_instance();
@@ -285,17 +285,10 @@ procman_data_new (GSettings *settings)
     g_signal_connect (G_OBJECT(settings), "changed::view-as", G_CALLBACK(view_as_changed_cb),pd);
     pd->config.current_tab = g_settings_get_int (settings, "current-tab");
 
-    /* Determinie number of cpus since libgtop doesn't really tell you*/
-    pd->config.num_cpus = 0;
     glibtop_get_cpu (&cpu);
     pd->frequency = cpu.frequency;
-    i=0;
-    while (i < GLIBTOP_NCPU && cpu.xcpu_total[i] != 0) {
-        pd->config.num_cpus ++;
-        i++;
-    }
-    if (pd->config.num_cpus == 0)
-        pd->config.num_cpus = 1;
+
+    pd->config.num_cpus = glibtop_get_sysinfo()->ncpu; // or server->ncpu + 1
 
     keys = g_settings_list_keys (settings);
     for (int i = 0; i < pd->config.num_cpus; i++) {

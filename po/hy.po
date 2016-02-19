@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Siranush <ss.m.95@mail.ru>, 2015
+# Siranush <ss.m.95@mail.ru>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-08 15:37+0200\n"
-"PO-Revision-Date: 2015-10-06 17:25+0000\n"
+"POT-Creation-Date: 2016-01-12 10:59+0300\n"
+"PO-Revision-Date: 2016-01-18 10:22+0000\n"
 "Last-Translator: Siranush <ss.m.95@mail.ru>\n"
 "Language-Team: Armenian (http://www.transifex.com/mate/MATE/language/hy/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr ""
+msgstr "Գործընթացի և ռեսուրսի վերահսկում MATE  Աշխատանքային սեղանի համար"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -30,68 +30,68 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr ""
+msgstr "<p> MATE Համակարգային Մոնիտորը թույլ է տալիս գրաֆիկորեն տեսնել և շահարկել ձեր համակարգչի ընթացող գործընթացները։ Այն տրամադրում է նաև ակնարկ առկա ռեսուրսները, ինչպիսիք են CPU և հիշողությունը։</p> <p> MATE Համակարգային Մոնիտորը համարժեք է GNOME Համակարգային Մոնիտորին և MATE Աշխատանքային Սեղանի Միջավայրի մի մասն է։ Եթե ցանկանում եք ավելին իմանալ MATE֊ի և Համակարգային Մոնիտորի մասին խնդրում ենք այցելեք ծրագրի գլխավոր էջ։</p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "MATE Համակարգային Հսկում"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:690 ../src/procman.cpp:710
+#: ../src/interface.cpp:660 ../src/procman.cpp:710
 msgid "System Monitor"
 msgstr "Համակարգի ստուգում"
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
-msgstr ""
+msgstr "Դիտել ընթացիկ գործընթացներն ու հսկել համակարգի վիճակը"
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
-msgstr ""
+msgstr "Ցույց տալ Համակարգի թերթը"
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr ""
+msgstr "Ցույց տալ Գործընթացի թերթը"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "Ցույց տալ Ռեսուրսների թերթը"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "Ցույց տալ Ֆայլային Համակարգի թերթը"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
 msgstr "թարգմանչի կրեդիտներ"
 
-#: ../src/disks.cpp:299 ../src/memmaps.cpp:361
+#: ../src/disks.cpp:299 ../src/memmaps.cpp:327
 msgid "Device"
 msgstr "Սարք"
 
 #: ../src/disks.cpp:300
 msgid "Directory"
-msgstr ""
+msgstr "ֆայլապանակ"
 
-#: ../src/disks.cpp:301 ../src/gsm_color_button.c:227 ../src/openfiles.cpp:251
+#: ../src/disks.cpp:301 ../src/gsm_color_button.c:219 ../src/openfiles.cpp:251
 msgid "Type"
 msgstr "Տեսակ"
 
 #: ../src/disks.cpp:302
 msgid "Total"
-msgstr ""
+msgstr "Ընդհանուր "
 
 #: ../src/disks.cpp:303
 msgid "Free"
-msgstr ""
+msgstr "Ազատ"
 
 #: ../src/disks.cpp:304
 msgid "Available"
-msgstr ""
+msgstr "Հասանելի"
 
 #: ../src/disks.cpp:305
 msgid "Used"
-msgstr ""
+msgstr "Օգտագործված"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
@@ -118,61 +118,61 @@ msgstr "%b %d %l:%M %p"
 msgid "%b %d %Y"
 msgstr "%b %d %Y"
 
-#: ../src/gsm_color_button.c:203
+#: ../src/gsm_color_button.c:195
 msgid "Fraction"
-msgstr ""
+msgstr "Խմբակցությունն"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: ../src/gsm_color_button.c:205
+#: ../src/gsm_color_button.c:197
 msgid "Percentage full for pie color pickers"
-msgstr ""
+msgstr "Կարկանդակի համար ամբողջական տոկոսային հարաբերության գույն ընտրողներ"
 
-#: ../src/gsm_color_button.c:212
+#: ../src/gsm_color_button.c:204
 msgid "Title"
 msgstr "Վերնագիր"
 
-#: ../src/gsm_color_button.c:213
+#: ../src/gsm_color_button.c:205
 msgid "The title of the color selection dialog"
-msgstr ""
+msgstr "Գույնի ընտրության երկխոսության վերնագիր"
 
-#: ../src/gsm_color_button.c:214 ../src/gsm_color_button.c:639
+#: ../src/gsm_color_button.c:206 ../src/gsm_color_button.c:617
 msgid "Pick a Color"
 msgstr "Ընտրեք գույնը"
 
-#: ../src/gsm_color_button.c:220
+#: ../src/gsm_color_button.c:212
 msgid "Current Color"
 msgstr "Ընթացիկ Գույնը"
 
-#: ../src/gsm_color_button.c:221
+#: ../src/gsm_color_button.c:213
 msgid "The selected color"
 msgstr "Ընտրված գույնը"
 
-#: ../src/gsm_color_button.c:228
+#: ../src/gsm_color_button.c:220
 msgid "Type of color picker"
-msgstr ""
+msgstr "Գույնի տեսակի ընտրող"
 
-#: ../src/gsm_color_button.c:562
+#: ../src/gsm_color_button.c:539
 msgid "Received invalid color data\n"
 msgstr "Ստացվել է անվավեր գույնի տվյալներ\n"
 
-#: ../src/gsm_color_button.c:662
+#: ../src/gsm_color_button.c:640
 msgid "Click to set graph colors"
-msgstr ""
+msgstr "Սեղմեք սահմանել գրաֆիկի գույները"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
 #: ../src/interface.cpp:51
 msgid "_Monitor"
-msgstr ""
+msgstr "_Մոնիտոր"
 
 #: ../src/interface.cpp:52
 msgid "_Edit"
-msgstr ""
+msgstr "_Խմբագրել"
 
 #: ../src/interface.cpp:53
 msgid "_View"
-msgstr ""
+msgstr "_Դիտել"
 
 #: ../src/interface.cpp:54
 msgid "_Help"
@@ -180,144 +180,144 @@ msgstr "_Օգնություն"
 
 #: ../src/interface.cpp:56
 msgid "Search for _Open Files"
-msgstr ""
+msgstr "Որոնում _Բաց Ֆայլերի համար"
 
 #: ../src/interface.cpp:57
 msgid "Search for open files"
-msgstr ""
+msgstr "Որոնում բաց ֆայլերի համար"
 
 #: ../src/interface.cpp:59
 msgid "Quit the program"
-msgstr ""
+msgstr "Ծրագրից դուրս գալ"
 
 #: ../src/interface.cpp:62
 msgid "_Stop Process"
-msgstr ""
+msgstr "_Դադարեցնել Գործընթացը"
 
 #: ../src/interface.cpp:63
 msgid "Stop process"
-msgstr ""
+msgstr "Դադարեցնել Գործընթացը"
 
 #: ../src/interface.cpp:64
 msgid "_Continue Process"
-msgstr ""
+msgstr "_Շարունակել Գործընթացը"
 
 #: ../src/interface.cpp:65
 msgid "Continue process if stopped"
-msgstr ""
+msgstr "_Շարունակել գործընթացը, եթե դադարեցված է"
 
-#: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
+#: ../src/interface.cpp:67 ../src/procdialogs.cpp:91
 msgid "_End Process"
-msgstr ""
+msgstr "_Ավարտել Գործընթացը"
 
 #: ../src/interface.cpp:68
 msgid "Force process to finish normally"
-msgstr ""
+msgstr "Հարկադրել գործընթացը ավարտել նորմալ"
 
-#: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
+#: ../src/interface.cpp:69 ../src/procdialogs.cpp:80
 msgid "_Kill Process"
-msgstr ""
+msgstr "_Սպանել Գործընթացը"
 
 #: ../src/interface.cpp:70
 msgid "Force process to finish immediately"
-msgstr ""
+msgstr "Հարկադրել գործընթացը ավարտել անմիջապես"
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr ""
+msgstr "_Փոխել Առաջնահերթությունը"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
-msgstr ""
+msgstr "Փոխել գործընթացների առաջնայնության կարգը"
 
 #: ../src/interface.cpp:74
 msgid "Configure the application"
-msgstr ""
+msgstr "Կարգավորել դիմումը"
 
 #: ../src/interface.cpp:76
 msgid "_Refresh"
-msgstr ""
+msgstr "_Թարմացնել"
 
 #: ../src/interface.cpp:77
 msgid "Refresh the process list"
-msgstr ""
+msgstr "Թարմացնել  գործընթացների ցանկը"
 
 #: ../src/interface.cpp:79
 msgid "_Memory Maps"
-msgstr ""
+msgstr "_Հիշողության Քարտեզներ"
 
 #: ../src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
-msgstr ""
+msgstr "Բացիր հիշողության քարտեզներ հետ կապված մի գործընթաց"
 
 #. Translators: this means 'Files that are open' (open is no verb here
 #: ../src/interface.cpp:82
 msgid "Open _Files"
-msgstr ""
+msgstr "Բացել _Ֆայլեր"
 
 #: ../src/interface.cpp:83
 msgid "View the files opened by a process"
-msgstr ""
+msgstr "Դիտել գործընթացի կողմից բացված ֆայլերը"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Հատկություններ"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "դիտել լրացուցիչ տեղեկատվություն գործըթացի մասին"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
-msgstr ""
+msgstr "_Բովանդակություն"
 
 #: ../src/interface.cpp:89
 msgid "Open the manual"
-msgstr ""
+msgstr "Բացեք ձեռնարկը"
 
 #: ../src/interface.cpp:91
 msgid "About this application"
-msgstr ""
+msgstr "Այս ծրագրի մասին"
 
 #: ../src/interface.cpp:96
 msgid "_Dependencies"
-msgstr ""
+msgstr "_Կախվածություն"
 
 #: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
-msgstr ""
+msgstr "Ցույց տալ ծնող/երեխա փոխհարաբերությունները գործընթացների միջև"
 
 #: ../src/interface.cpp:104
 msgid "_Active Processes"
-msgstr ""
+msgstr "_Ակտիվ պրոցեսներ"
 
 #: ../src/interface.cpp:105
 msgid "Show active processes"
-msgstr ""
+msgstr "Ցույց տալ ակտիվ գործընթացները"
 
 #: ../src/interface.cpp:106
 msgid "A_ll Processes"
-msgstr ""
+msgstr "Բ_ոլոր գործընթացները"
 
 #: ../src/interface.cpp:107
 msgid "Show all processes"
-msgstr ""
+msgstr "Ցույց տալ բոլոր գործընթացները"
 
 #: ../src/interface.cpp:108
 msgid "M_y Processes"
-msgstr ""
+msgstr "Ի_մ Գործընթացները"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Ցույց տալ միայն օգտագործողին պատկանող գործընթացները"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Շատ Բարձր"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Գործընթացի առաջնահերթությունը սահմանել շատ բարձր"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
@@ -325,7 +325,7 @@ msgstr "Բարձր"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Գործընթացի առաջնահերթությունը սահմանել բարձր"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
@@ -333,7 +333,7 @@ msgstr "Նորմալ"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Գործընթացի առաջնահերթությունը սահմանել նորմալ"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
@@ -341,15 +341,15 @@ msgstr "Ցածր"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Գործընթացի առաջնահերթությունը սահմանել ցածր"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "Շատ ցածր"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Գործընթացի առաջնահերթությունը սահմանել շատ ցածր"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
@@ -357,99 +357,99 @@ msgstr "Սովորություն"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Գործընթացի առաջնահերթությունը սահմանել ձեռքով"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
-msgstr ""
+msgstr "_Գործընթացի Ավարտ"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Ընտրեք գույնը '%s'"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
-msgstr ""
+msgstr "ԿՄՀ Պատմություն"
 
-#: ../src/interface.cpp:344 ../src/procproperties.cpp:139
+#: ../src/interface.cpp:337 ../src/procproperties.cpp:122
 msgid "CPU"
 msgstr "ԿՄՀ"
 
-#: ../src/interface.cpp:346
+#: ../src/interface.cpp:339
 #, c-format
 msgid "CPU%d"
-msgstr ""
+msgstr "ԿՀՄ%d"
 
-#: ../src/interface.cpp:367
+#: ../src/interface.cpp:360
 msgid "Memory and Swap History"
-msgstr ""
+msgstr "Հիշողության և Փոխանակման Պատմություն"
 
-#: ../src/interface.cpp:401 ../src/proctable.cpp:262
-#: ../src/procproperties.cpp:133
+#: ../src/interface.cpp:394 ../src/proctable.cpp:275
+#: ../src/procproperties.cpp:116
 msgid "Memory"
-msgstr ""
+msgstr "Հիշողություն"
 
-#: ../src/interface.cpp:432
+#: ../src/interface.cpp:425
 msgid "Swap"
-msgstr ""
+msgstr "Փոխանակություն "
 
-#: ../src/interface.cpp:463
+#: ../src/interface.cpp:456
 msgid "Network History"
-msgstr ""
+msgstr "Ցանցի Պատմություն"
 
-#: ../src/interface.cpp:496
+#: ../src/interface.cpp:489
 msgid "Receiving"
-msgstr ""
+msgstr "Ստացում "
 
-#: ../src/interface.cpp:529
+#: ../src/interface.cpp:512
 msgid "Total Received"
-msgstr ""
+msgstr "Ստացված Հանրագումար"
 
-#: ../src/interface.cpp:557
+#: ../src/interface.cpp:539
 msgid "Sending"
-msgstr ""
+msgstr "Ուղարկում "
 
-#: ../src/interface.cpp:591
+#: ../src/interface.cpp:562
 msgid "Total Sent"
-msgstr ""
+msgstr "Ընդհանուր Ուղարկել"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:777
+#: ../src/interface.cpp:737
 msgid "System"
 msgstr "Համակարգ"
 
-#: ../src/interface.cpp:781 ../src/procdialogs.cpp:549
+#: ../src/interface.cpp:741 ../src/procdialogs.cpp:542
 msgid "Processes"
-msgstr ""
+msgstr "Գործընթացներ"
 
-#: ../src/interface.cpp:785 ../src/procdialogs.cpp:662
+#: ../src/interface.cpp:745 ../src/procdialogs.cpp:655
 msgid "Resources"
-msgstr ""
+msgstr "Ռեսուրսներ"
 
-#: ../src/interface.cpp:789 ../src/procdialogs.cpp:727
-#: ../src/procdialogs.cpp:731
+#: ../src/interface.cpp:749 ../src/procdialogs.cpp:720
+#: ../src/procdialogs.cpp:724
 msgid "File Systems"
-msgstr ""
+msgstr "Ֆայլերի Համակարգ"
 
-#: ../src/load-graph.cpp:170
+#: ../src/load-graph.cpp:164
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u վարկյան"
+msgstr[1] "%u վարկյաններ"
 
-#: ../src/load-graph.cpp:351
+#: ../src/load-graph.cpp:337
 msgid "not available"
-msgstr ""
+msgstr "ոչ հասանելի"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:354
+#: ../src/load-graph.cpp:340
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%)  %s"
 
 #: ../src/lsof.cpp:126
 msgid "Error"
@@ -458,859 +458,852 @@ msgstr "Սխալ"
 #: ../src/lsof.cpp:127
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr ""
+msgstr "'%s' ոչ հիմնավոր ծրագրավորման Perl լեզվի կանոնավոր արտահայտություն"
 
-#: ../src/lsof.cpp:273
+#: ../src/lsof.cpp:271
 msgid "Process"
-msgstr ""
+msgstr "Գործընթաց"
 
-#: ../src/lsof.cpp:285
+#: ../src/lsof.cpp:283
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
-#: ../src/lsof.cpp:295 ../src/memmaps.cpp:339
+#: ../src/lsof.cpp:293 ../src/memmaps.cpp:305
 msgid "Filename"
-msgstr ""
+msgstr "Ֆայլի անուն"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:312
+#: ../src/lsof.cpp:310
 msgid "Search for Open Files"
-msgstr ""
+msgstr "Որոնում Բաց Ֆայլերի համար "
 
-#: ../src/lsof.cpp:339
+#: ../src/lsof.cpp:337
 msgid "_Name contains:"
 msgstr "_Անունը պարունակում է․"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:353
+#: ../src/lsof.cpp:351
 msgid "C_lear"
-msgstr ""
+msgstr "Մ_աքրել"
 
-#: ../src/lsof.cpp:357
+#: ../src/lsof.cpp:355
 msgid "Case insensitive matching"
-msgstr ""
+msgstr "Անզգա համապատասխանության դեպք"
 
-#: ../src/lsof.cpp:365
+#: ../src/lsof.cpp:363
 msgid "S_earch results:"
 msgstr "Որոնման արդյունքներ։"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:341
+#: ../src/memmaps.cpp:307
 msgid "VM Start"
-msgstr ""
+msgstr "VM Սկիզբ"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:343
+#: ../src/memmaps.cpp:309
 msgid "VM End"
-msgstr ""
+msgstr "VM Վերջ"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:345
+#: ../src/memmaps.cpp:311
 msgid "VM Size"
-msgstr ""
+msgstr "VM Չափ"
 
-#: ../src/memmaps.cpp:346
+#: ../src/memmaps.cpp:312
 msgid "Flags"
-msgstr ""
+msgstr "Դրոշներ"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:348
+#: ../src/memmaps.cpp:314
 msgid "VM Offset"
-msgstr ""
+msgstr "VM Հաշվանցում"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:351
+#: ../src/memmaps.cpp:317
 msgid "Private clean"
-msgstr ""
+msgstr "Մասնավոր մաքուր"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:354
+#: ../src/memmaps.cpp:320
 msgid "Private dirty"
-msgstr ""
+msgstr "Մասնավոր կեղտոտ"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:357
+#: ../src/memmaps.cpp:323
 msgid "Shared clean"
-msgstr ""
+msgstr "Կիսված մաքուր"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:360
+#: ../src/memmaps.cpp:326
 msgid "Shared dirty"
-msgstr ""
+msgstr "Կիսաված կեղտոտ"
 
-#: ../src/memmaps.cpp:362
+#: ../src/memmaps.cpp:328
 msgid "Inode"
-msgstr ""
+msgstr "Inode"
 
-#: ../src/memmaps.cpp:467
+#: ../src/memmaps.cpp:432
 msgid "Memory Maps"
-msgstr ""
+msgstr "Հիշողության Քարտեզներ"
 
-#: ../src/memmaps.cpp:479
+#: ../src/memmaps.cpp:444
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr ""
+msgstr "_Հիշողության քարտեզներ գործընթացի համար \"%s\" (PID %u):"
 
 #: ../src/openfiles.cpp:38
 msgid "file"
-msgstr ""
+msgstr "ֆայլ"
 
 #: ../src/openfiles.cpp:40
 msgid "pipe"
-msgstr ""
+msgstr "խողովակ"
 
 #: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
-msgstr ""
+msgstr "IPv6 ցանցային միացում"
 
 #: ../src/openfiles.cpp:44
 msgid "IPv4 network connection"
-msgstr ""
+msgstr "IPv4 ցանցային միացում"
 
 #: ../src/openfiles.cpp:46
 msgid "local socket"
-msgstr ""
+msgstr "Տեղային սոկետ"
 
 #: ../src/openfiles.cpp:48
 msgid "unknown type"
-msgstr ""
+msgstr "անհայտ տեսակ"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
 #: ../src/openfiles.cpp:250
 msgid "FD"
-msgstr ""
+msgstr "Ֆայլային դեսկրիպտոր"
 
 #: ../src/openfiles.cpp:252
 msgid "Object"
-msgstr ""
+msgstr "Օբյեկտ"
 
-#: ../src/openfiles.cpp:337
+#: ../src/openfiles.cpp:323
 msgid "Open Files"
-msgstr ""
+msgstr "Բացել ֆայլերը"
 
-#: ../src/openfiles.cpp:358
+#: ../src/openfiles.cpp:344
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
-msgstr ""
+msgstr "_Ֆայլերը բացված են  \"%s\" (PID %u) գործընթացի կողմից;"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "Գլխավոր պատուհանի չափը և դիրքը ձևի մեջ (լայնությունը, բարձրությունը, xpos, ypos)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid "Show process dependencies in tree form"
-msgstr ""
+msgstr "Ցույց տալ գործընթացի կախվածությունը ծառի տեսքով"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Solaris mode for CPU percentage"
-msgstr ""
+msgstr "Արևային ռեժիմ CPU տոկոսային հարաբերության համար"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:4
 msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr ""
+msgstr "Եթե ճիշտ է, ապա համակարգի մոնիտորը գործում է 'Solaris ռեժիմում', որտեղ խնդիրը պրոցեսորի օգտագործումը բաժանում է ընդհանուր պրոցեսորների թվին։ Հակառակ դեպքում, այն գործում է 'Irix ռեժիմում'։"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:5
 msgid "Enable/Disable smooth refresh"
-msgstr ""
+msgstr "Միացնել/Անջատել հարթ թարմացումը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Show warning dialog when killing processes"
-msgstr ""
+msgstr "Ցույց տալ զգուշացում երկխոսությունը, երբ սպանվում են գործընթացները"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:7
 msgid "Time in milliseconds between updates of the process view"
-msgstr ""
+msgstr "Գործընթացների տեսքի թարմացումների միջև ժամանակը միլիվարկյաններով"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:8
 msgid "Time in milliseconds between updates of the graphs"
-msgstr ""
+msgstr "Սարքերի ցուցակների թարմացումների միջև ժամանակը միլիվարկյաններով"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:9
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "Անկախ ամեն ինչից բոլոր ֆայլային համակարգերի մասին պետք է տեղեկություններ ցուցադրել։"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:10
 msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr ""
+msgstr "Արդյոք ցուցադրել տեղեկատվություն բոլոր ֆայլերի համակարգերի մասին (այդ թվում տեսակների, ինչպես 'autofs' և 'procfs')։ Օգտագործելու համար ստանալ բոլոր ներկայումս տեղադրված ֆայլային համակարգերը։"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:11
 msgid "Time in milliseconds between updates of the devices list"
-msgstr ""
+msgstr "Սարքերի ցուցակների թարմացումների միջև ժամանակը միլիվարկյաններով"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr ""
+msgstr "Որոշել թե որ գործընթացները ցույց տալ ըստ նախնականի։ 0 Բոլորը, 1 օգտագործոցի, և 2 ակտիվ է"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:13
 msgid "Saves the currently viewed tab"
-msgstr ""
+msgstr "Պահպանել ներկայումս դիտված էջերը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr ""
+msgstr "0 համակարգային ինֆորմացիայի համար , 1 մշակում է ցուցակ , 2 ռեսուրսների համար և 3 լազերային սկավառակների ցուցակի համար"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:15
 msgid "Default graph CPU color"
-msgstr ""
+msgstr "ԿՄՀ գրաֆիկի հիմնական գույն"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph cpu color"
-msgstr ""
+msgstr "ԿՄՀ գրաֆիկի հիմնական գույն"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:17
 msgid "Default graph memory color"
-msgstr ""
+msgstr "Հիշողության գրաֆիկի հիմնական գույն"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:18
 msgid "Default graph swap color"
-msgstr ""
+msgstr "Տողափոխության գրաֆիկի հիմնական գույն"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:19
 msgid "Default graph incoming network traffic color"
-msgstr ""
+msgstr "Մուտքային ցանցի երթևեկության գրաֆիկի հիմնական գույն"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:20
 msgid "Default graph outgoing network traffic color"
-msgstr ""
+msgstr "Ելքային ցանցի երթևեկության գրաֆիկի հիմնական գույն"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:21
 msgid "Show network traffic in bits"
-msgstr ""
+msgstr "Ցույց տալ ցանցի երթևեկությունը բիթերով"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:22
 msgid "Process view sort column"
-msgstr ""
+msgstr "Գործընթացի տեսքի տեսակավորման կարգ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:23
 msgid "Process view columns order"
-msgstr ""
+msgstr "Գործընթացի սյունակների դիտման կարգ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:24
 msgid "Process view sort order"
-msgstr ""
+msgstr "Գործընթացի տեսքի դասավորման կարգ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:25
 msgid "Width of process 'name' column"
-msgstr ""
+msgstr "Գործընթացի 'անուն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Show process 'name' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'անուն' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Width of process 'owner' column"
-msgstr ""
+msgstr "Գործընթացի 'սեփականատեր' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Show process 'owner' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'սեփականատեր' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Width of process 'status' column"
-msgstr ""
+msgstr "Գործընթացի 'կարգավիճակ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Show process 'status' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'կարգավիճակ' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Width of process 'virtual memory' column"
-msgstr ""
+msgstr "Գործընթացի 'վիրտուալ հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Show process 'virtual memory' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'վիրտուալ հիշողություն' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Width of process 'resident memory' column"
-msgstr ""
+msgstr "Գործընթացի 'ռեզիդենտ հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Show process 'resident memory' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'ռեզիդենտ հիշողություն' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Width of process 'writable memory' column"
-msgstr ""
+msgstr "Գործընթացի 'գրելի հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Show process 'writable memory' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'գրելի հիշողություն' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Width of process 'shared memory' column"
-msgstr ""
+msgstr "Գործընթացի 'բաժանված հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Show process 'shared memory' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'կիսված հիշողություն' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Width of process 'X server memory' column"
-msgstr ""
+msgstr "Գործընթացի 'X սերվերի հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Show process 'X server memory' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'X սերվերի հիշողություն' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:42
 #, no-c-format
 msgid "Width of process 'CPU %' column"
-msgstr ""
+msgstr "Գործընթացի 'ԿՄՀ %' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:44
 #, no-c-format
 msgid "Show process 'CPU %' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'ԿՄՀ %' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 msgid "Width of process 'CPU time' column"
-msgstr ""
+msgstr "Գործընթացի 'ԿՄՀ ժամանակ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Show process 'CPU time' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'ԿՄՀ ժամանակ' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Width of process 'start time' column"
-msgstr ""
+msgstr "Գործընթացի 'ժամանակի սկիզբ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Show process 'start time' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'ժամանակի սկիզբ' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Width of process 'nice' column"
-msgstr ""
+msgstr "Գործընթացի 'գեղեցիկ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Show process 'nice' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'գեղեցիկ' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Width of process 'PID' column"
-msgstr ""
+msgstr "Գործընթացի 'PID' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Show process 'PID' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'PID' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Width of process 'SELinux security context' column"
-msgstr ""
+msgstr "Գործընթացի 'SELinux անվտանգության համատեքստ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Show process 'SELinux security context' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'SELinux անվտանգության համատեքստ' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Width of process 'arguments' column"
-msgstr ""
+msgstr "Գործընթացի 'փաստարկներ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Show process 'arguments' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'փաստարկներ' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Width of process 'estimated memory usage' column"
-msgstr ""
+msgstr "Գործընթացի 'գնահատված հիշողության օգտագործում' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Show process 'estimated memory usage' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'գնահատված հիշողության օգտագործում' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Width of process 'Waiting Channel' column"
-msgstr ""
+msgstr "Գործընթացի 'Սպասող ալիք' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:60
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'Սպասող ալիք' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:61
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "Գործընթացի 'Ղեկավարող խումբ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:62
 msgid "Show process 'Control Group' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'Ղեկավորող խումբ' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:63
 msgid "Width of process 'Unit' column"
-msgstr ""
+msgstr "Գործընթացի 'Միավոր' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:64
 msgid "Show process 'Unit' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'Միավոր' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:65
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "Գործընթացի 'Աշխատաշրջան' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:66
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'Աշխատաշրջան' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:67
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "Գործընթացի 'նստավայր' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:68
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'Նստավայր' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:69
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Գործընթացի 'Սեփականատեր' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:70
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "Ցույց տալ 'Սեփականատեր' սյունակը մեկնարկի վրա"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:71
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "Գործընթացի 'Առաջնահերթություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:72
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "Ցույց տալ գործըթացի 'Առաջնահերթություն' մեկնարկի մասին սյունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:73
 msgid "Disk view sort colum"
-msgstr ""
+msgstr "Սկավառակի տեսքի տեսակավորման սյունակ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:74
 msgid "Disk view sort order"
-msgstr ""
+msgstr "Սկավառակի տեսքի դասավորություն"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:75
 msgid "Disk view columns order"
-msgstr ""
+msgstr "Սկավառակի սյունակների դիտման կարգ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:76
 msgid "Memory map sort column"
-msgstr ""
+msgstr "Հիշողության քարտեզի տեսակավորման սյունակ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:77
 msgid "Memory map sort order"
-msgstr ""
+msgstr "Հիշողության քարտեզի դասավորությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:78
 msgid "Open files sort column"
-msgstr ""
+msgstr "Բաց ֆայլերի տեսակավորման սյունակ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Open files sort order"
-msgstr ""
+msgstr "Բաց ֆայլերի դասավորությունը"
 
 #: ../src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "Չի կարող փոխել գործընթացների առաջնահերթությունը PID %d հետ %d։\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "Չի կարող սպանել գործընթացը PID %d ազդանշանի հետ %d։\n%s"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:72
+#: ../src/procdialogs.cpp:73
 #, c-format
 msgid "Kill the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "Սպանել ընտրված գործընթացը »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:76
+#: ../src/procdialogs.cpp:77
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "Սպանելով գործընթացը կարող է ոչնչացնել տվյալները, ընդհատել սեսիան կամ ներկայացնել անվտանգության ռիսկը։ Միայն պետք է սպանել անարձագանք գործընթացները։"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:83
+#: ../src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process »%s« (PID: %u)?"
-msgstr ""
+msgstr "Վերջացնել ընտրված գործընթացը  »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:87
+#: ../src/procdialogs.cpp:88
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "Ավարտելով գործընթացը կարող է ոչնչացնել տվյալները, ընդհատել սեսիան կամ ներկայացնել անվտանգության ռիսկը։ Միայն պետք է ավարտել անարձագանք գործընթացները։"
 
-#: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:223
+#: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:216
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(%s Առաջնահերթություն)"
 
-#: ../src/procdialogs.cpp:173
+#: ../src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process »%s« (PID: %u)"
-msgstr ""
+msgstr "Փոխել պրոցեսի առաջնահերթությունը »%s« (PID: %u)"
 
-#: ../src/procdialogs.cpp:185
+#: ../src/procdialogs.cpp:182
 msgid "Change _Priority"
-msgstr ""
+msgstr "Փոխել  _Առաջնահերթությունը"
 
-#: ../src/procdialogs.cpp:208
+#: ../src/procdialogs.cpp:205
 msgid "_Nice value:"
-msgstr ""
+msgstr "_Գեղեցիկ արժեք։"
 
-#: ../src/procdialogs.cpp:229
+#: ../src/procdialogs.cpp:222
 msgid "Note:"
-msgstr ""
+msgstr "Նշում։"
 
-#: ../src/procdialogs.cpp:230
+#: ../src/procdialogs.cpp:223
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
+msgstr "Գործընթացի առաջնահերթությունը տրվում է նրա լավագույն արժեքով։ Ստորին լավագույն արժեքը համապատասխանում է բարձր առաջնահերթությանը։"
 
-#: ../src/procdialogs.cpp:467
+#: ../src/procdialogs.cpp:460
 msgid "Icon"
 msgstr "Պատկերակ"
 
-#: ../src/procdialogs.cpp:526
+#: ../src/procdialogs.cpp:519
 msgid "System Monitor Preferences"
-msgstr ""
+msgstr "Համակարգի Մոնիտորի Նախընտրանքներ"
 
-#: ../src/procdialogs.cpp:556
+#: ../src/procdialogs.cpp:549
 msgid "Behavior"
-msgstr ""
+msgstr "Վարքագիծ"
 
-#: ../src/procdialogs.cpp:575 ../src/procdialogs.cpp:688
-#: ../src/procdialogs.cpp:750
+#: ../src/procdialogs.cpp:568 ../src/procdialogs.cpp:681
+#: ../src/procdialogs.cpp:743
 msgid "_Update interval in seconds:"
-msgstr ""
+msgstr "_Թարմացնել ինտերվալը վայրկյաններով:"
 
-#: ../src/procdialogs.cpp:600
+#: ../src/procdialogs.cpp:593
 msgid "Enable _smooth refresh"
-msgstr ""
+msgstr "Միացնել _հարթ թարմացումը"
 
-#: ../src/procdialogs.cpp:613
+#: ../src/procdialogs.cpp:606
 msgid "Alert before ending or _killing processes"
-msgstr ""
+msgstr "Զգուշացնել մինչև ավարտվելը կամ սպանել գործընթացները"
 
-#: ../src/procdialogs.cpp:626
+#: ../src/procdialogs.cpp:619
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "CPU սարքավորումները օգտագործվում է CPU հաշվարկի կողմից"
 
-#: ../src/procdialogs.cpp:627
+#: ../src/procdialogs.cpp:620
 msgid "Solaris mode"
-msgstr ""
+msgstr "Արևային ռեժիմ"
 
-#: ../src/procdialogs.cpp:644 ../src/procdialogs.cpp:784
+#: ../src/procdialogs.cpp:637 ../src/procdialogs.cpp:777
 msgid "Information Fields"
-msgstr ""
+msgstr "Տեղեկատվական Դաշտերը"
 
-#: ../src/procdialogs.cpp:657
+#: ../src/procdialogs.cpp:650
 msgid "Process i_nformation shown in list:"
-msgstr ""
+msgstr "Գործընթացի տեղեկատվությունը ցուցադրվել է ցուցակում։"
 
-#: ../src/procdialogs.cpp:669
+#: ../src/procdialogs.cpp:662
 msgid "Graphs"
-msgstr ""
+msgstr "Գրաֆիկներ"
 
-#: ../src/procdialogs.cpp:708
+#: ../src/procdialogs.cpp:701
 msgid "Show network speed in bits"
-msgstr ""
+msgstr "Ցույց տալ ցանցի արագությունը բիթերով"
 
-#: ../src/procdialogs.cpp:770
+#: ../src/procdialogs.cpp:763
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Ցույց տալ _բոլոր Ֆայլային համակարգերը"
 
-#: ../src/procdialogs.cpp:797
+#: ../src/procdialogs.cpp:790
 msgid "File system i_nformation shown in list:"
-msgstr ""
+msgstr "Ֆայլային համակարգի տեղեկատվությունը ցուցադրվել է ցուցակում:"
 
 #: ../src/procman.cpp:659
 msgid "A simple process and system monitor."
-msgstr ""
+msgstr "Մի պարզ գործընթացի և համակարգի հսկում։"
 
-#: ../src/proctable.cpp:247 ../src/procproperties.cpp:130
+#: ../src/proctable.cpp:260 ../src/procproperties.cpp:113
 msgid "Process Name"
-msgstr ""
+msgstr "Գործընթացի անուն"
 
-#: ../src/proctable.cpp:248 ../src/procproperties.cpp:131
+#: ../src/proctable.cpp:261 ../src/procproperties.cpp:114
 msgid "User"
-msgstr ""
+msgstr "Օգտագործող"
 
-#: ../src/proctable.cpp:249 ../src/procproperties.cpp:132
+#: ../src/proctable.cpp:262 ../src/procproperties.cpp:115
 msgid "Status"
-msgstr ""
+msgstr "Կարգավիճակ"
 
-#: ../src/proctable.cpp:250 ../src/procproperties.cpp:134
+#: ../src/proctable.cpp:263 ../src/procproperties.cpp:117
 msgid "Virtual Memory"
-msgstr ""
+msgstr "Վիրտուալ հիշողություն"
 
-#: ../src/proctable.cpp:251 ../src/procproperties.cpp:135
+#: ../src/proctable.cpp:264 ../src/procproperties.cpp:118
 msgid "Resident Memory"
-msgstr ""
+msgstr "Ռեզիդենտ Հիշողություն"
 
-#: ../src/proctable.cpp:252 ../src/procproperties.cpp:136
+#: ../src/proctable.cpp:265 ../src/procproperties.cpp:119
 msgid "Writable Memory"
-msgstr ""
+msgstr "Գրելի Հիշողություն"
 
-#: ../src/proctable.cpp:253 ../src/procproperties.cpp:137
+#: ../src/proctable.cpp:266 ../src/procproperties.cpp:120
 msgid "Shared Memory"
-msgstr ""
+msgstr "Կիսաված Հիշողություն"
 
-#: ../src/proctable.cpp:254 ../src/procproperties.cpp:138
+#: ../src/proctable.cpp:267 ../src/procproperties.cpp:121
 msgid "X Server Memory"
-msgstr ""
+msgstr "X Սերվեր Հիշողություն"
 
-#: ../src/proctable.cpp:255
+#: ../src/proctable.cpp:268
 #, no-c-format
 msgid "% CPU"
-msgstr ""
+msgstr "% ԿՄՀ"
 
-#: ../src/proctable.cpp:256 ../src/procproperties.cpp:140
+#: ../src/proctable.cpp:269 ../src/procproperties.cpp:123
 msgid "CPU Time"
-msgstr ""
+msgstr "ԿՀՄ Ժամանակ"
 
-#: ../src/proctable.cpp:257 ../src/procproperties.cpp:141
+#: ../src/proctable.cpp:270 ../src/procproperties.cpp:124
 msgid "Started"
-msgstr ""
+msgstr "Սկսված"
 
-#: ../src/proctable.cpp:258 ../src/procproperties.cpp:142
+#: ../src/proctable.cpp:271 ../src/procproperties.cpp:125
 msgid "Nice"
-msgstr ""
+msgstr "Գեղեցիկ"
 
-#: ../src/proctable.cpp:259 ../src/procproperties.cpp:144
+#: ../src/proctable.cpp:272 ../src/procproperties.cpp:127
 msgid "ID"
 msgstr "ID"
 
-#: ../src/proctable.cpp:260 ../src/procproperties.cpp:145
+#: ../src/proctable.cpp:273 ../src/procproperties.cpp:128
 msgid "Security Context"
-msgstr ""
+msgstr "Անվտանգության Համատեքստ"
 
-#: ../src/proctable.cpp:261 ../src/procproperties.cpp:146
+#: ../src/proctable.cpp:274 ../src/procproperties.cpp:129
 msgid "Command Line"
-msgstr ""
+msgstr "Հրամանային Տող"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: ../src/proctable.cpp:264 ../src/procproperties.cpp:147
+#: ../src/proctable.cpp:277 ../src/procproperties.cpp:130
 msgid "Waiting Channel"
-msgstr ""
+msgstr "Սպասող Ալիք"
 
-#: ../src/proctable.cpp:265
+#: ../src/proctable.cpp:278
 msgid "Control Group"
-msgstr ""
+msgstr "Վերահսկող Խումբ"
 
-#: ../src/proctable.cpp:266
+#: ../src/proctable.cpp:279
 msgid "Unit"
-msgstr ""
+msgstr "Միավոր"
 
-#: ../src/proctable.cpp:267
+#: ../src/proctable.cpp:280
 msgid "Session"
-msgstr ""
+msgstr "Սեսիա"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: ../src/proctable.cpp:270
+#: ../src/proctable.cpp:283
 msgid "Seat"
-msgstr ""
+msgstr "Նստավայր"
 
-#: ../src/proctable.cpp:271
+#: ../src/proctable.cpp:284
 msgid "Owner"
-msgstr ""
+msgstr "Սեփականատեր"
 
-#: ../src/proctable.cpp:272 ../src/procproperties.cpp:143
+#: ../src/proctable.cpp:285 ../src/procproperties.cpp:126
 msgid "Priority"
-msgstr ""
+msgstr "Առաջնահերթություն"
 
-#: ../src/proctable.cpp:1096
+#: ../src/proctable.cpp:1108
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr ""
+msgstr "Բեռնել միջինները վերջինների համար 1, 5, 15 րեպեներ։ %0.2f, %0.2f, %0.2f"
 
-#: ../src/procproperties.cpp:104 ../src/util.cpp:420
+#: ../src/procproperties.cpp:99 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "Տ/Չ"
 
-#: ../src/procproperties.cpp:140
-#, c-format
-msgid "%lld second"
-msgid_plural "%lld seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../src/procproperties.cpp:258
+#: ../src/procproperties.cpp:240
 msgid "Process Properties"
-msgstr ""
+msgstr "Գործընթացի Հատկություններ"
 
-#: ../src/procproperties.cpp:278
+#: ../src/procproperties.cpp:260
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "Գործընթացի Հատկություններ \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "Ազատել %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-բիտ"
 
-#: ../src/sysinfo.cpp:814
+#: ../src/sysinfo.cpp:804
 #, c-format
 msgid "Kernel %s"
-msgstr ""
+msgstr "Միջուկ %s"
 
-#: ../src/sysinfo.cpp:828
+#: ../src/sysinfo.cpp:816
 #, c-format
 msgid "MATE %s"
-msgstr ""
+msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:829
 msgid "Hardware"
 msgstr "Ապարատային միջոցներ"
 
-#: ../src/sysinfo.cpp:848
+#: ../src/sysinfo.cpp:834
 msgid "Memory:"
-msgstr ""
+msgstr "Հիշողություն։"
 
-#: ../src/sysinfo.cpp:852
+#: ../src/sysinfo.cpp:838
 msgid "Processor:"
-msgstr ""
+msgstr "Պրոցեսոր։"
 
 #. disk space section
-#: ../src/sysinfo.cpp:860
+#: ../src/sysinfo.cpp:846
 msgid "System Status"
-msgstr ""
+msgstr "Համակարգի Կարգավիճակ"
 
-#: ../src/sysinfo.cpp:865
+#: ../src/sysinfo.cpp:851
 msgid "Available disk space:"
-msgstr ""
+msgstr "Ազատ սկավառակ տարածություն"
 
 #: ../src/util.cpp:30
 msgid "Running"
-msgstr ""
+msgstr "Գործարկում"
 
 #: ../src/util.cpp:34
 msgid "Stopped"
-msgstr ""
+msgstr "Կանգնեցված"
 
 #: ../src/util.cpp:38
 msgid "Zombie"
-msgstr ""
+msgstr "Զոմբի"
 
 #: ../src/util.cpp:42
 msgid "Uninterruptible"
-msgstr ""
+msgstr "Անխափան"
 
 #: ../src/util.cpp:46
 msgid "Sleeping"
-msgstr ""
+msgstr "Քնել"
 
 #. xgettext: weeks, days
 #: ../src/util.cpp:101
 #, c-format
 msgid "%uw%ud"
-msgstr ""
+msgstr "%uw%ud"
 
 #. xgettext: days, hours (0 -> 23)
 #: ../src/util.cpp:105
 #, c-format
 msgid "%ud%02uh"
-msgstr ""
+msgstr "%ud%02uh"
 
 #. xgettext: hours (0 -> 23), minutes, seconds
 #: ../src/util.cpp:109
 #, c-format
 msgid "%u:%02u:%02u"
-msgstr ""
+msgstr "%u:%02u:%02u"
 
 #. xgettext: minutes, seconds, centiseconds
 #: ../src/util.cpp:112
 #, c-format
 msgid "%u:%02u.%02u"
-msgstr ""
+msgstr "%u:%02u.%02u"
 
 #: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
-msgstr ""
+msgstr "%.1f ԿԲ"
 
 #: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
-msgstr ""
+msgstr "%.1f ՄԲ"
 
 #: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
-msgstr ""
+msgstr "%.1f ԳԲ"
 
 #: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f ՏԲ"
 
 #: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g կբիթ"
 
 #: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Մբիթ"
 
 #: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Գբիթ"
 
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Տբիթ"
 
 #: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u բիթ"
+msgstr[1] "%u բիթեր"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u բայթ"
+msgstr[1] "%u բայթեր"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

@@ -1,3 +1,7 @@
+1.13.1
+
+  * get exact number of CPUs instead of guessing
+
 1.13.0
 
   * prefs dialog: increase height a bit

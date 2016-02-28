@@ -88,15 +88,24 @@ static void draw_background(LoadGraph *graph) {
     cr = cairo_create (surface);
 
     GtkStyleContext *context = gtk_widget_get_style_context (ProcData::get_instance()->notebook);
-    gtk_style_context_get_background_color (context, GTK_STATE_FLAG_NORMAL, &bg);
-    gtk_style_context_get_color (context, GTK_STATE_FLAG_NORMAL, &fg);
+    gtk_style_context_save (context);
+    gtk_style_context_set_state (context, GTK_STATE_FLAG_NORMAL);
+    gtk_style_context_get_background_color (context, gtk_style_context_get_state (context), &bg);
+    gtk_style_context_get_color (context, gtk_style_context_get_state (context), &fg);
+    gtk_style_context_restore (context);
 
     // set the background colour
     gdk_cairo_set_source_rgba (cr, &bg);
     cairo_paint (cr);
 
     layout = pango_cairo_create_layout (cr);
-    gtk_style_context_get (context, GTK_STATE_FLAG_NORMAL, GTK_STYLE_PROPERTY_FONT, &font_desc, NULL);
+    gtk_style_context_save (context);
+    gtk_style_context_set_state (context, GTK_STATE_FLAG_NORMAL);
+    gtk_style_context_get (context,
+                           gtk_style_context_get_state (context),
+                           GTK_STYLE_PROPERTY_FONT,
+                           &font_desc, NULL);
+    gtk_style_context_restore (context);
     pango_font_description_set_size (font_desc, 0.8 * graph->fontsize * PANGO_SCALE);
     pango_layout_set_font_description (layout, font_desc);
     pango_font_description_free (font_desc);

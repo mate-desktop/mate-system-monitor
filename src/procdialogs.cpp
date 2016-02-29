@@ -70,7 +70,7 @@ procdialog_create_kill_dialog (ProcData *procdata, int signal)
 
     if (signal == SIGKILL) {
         /*xgettext: primary alert message*/
-        primary = g_strdup_printf (_("Kill the selected process »%s« (PID: %u)?"),
+        primary = g_strdup_printf (_("Kill the selected process “%s” (PID: %u)?"),
                                    procdata->selected_process->name,
                                    procdata->selected_process->pid);
         /*xgettext: secondary alert message*/
@@ -81,7 +81,7 @@ procdialog_create_kill_dialog (ProcData *procdata, int signal)
     }
     else {
         /*xgettext: primary alert message*/
-        primary = g_strdup_printf (_("End the selected process »%s« (PID: %u)?"),
+        primary = g_strdup_printf (_("End the selected process “%s” (PID: %u)?"),
                                    procdata->selected_process->name,
                                    procdata->selected_process->pid);
         /*xgettext: secondary alert message*/
@@ -167,7 +167,7 @@ procdialog_create_renice_dialog (ProcData *procdata)
     if (!info)
         return;
 
-    dialog_title = g_strdup_printf (_("Change Priority of Process »%s« (PID: %u)"),
+    dialog_title = g_strdup_printf (_("Change Priority of Process “%s” (PID: %u)"),
                                     info->name, info->pid);
     dialog = gtk_dialog_new_with_buttons (dialog_title, NULL,
                                           GTK_DIALOG_DESTROY_WITH_PARENT,

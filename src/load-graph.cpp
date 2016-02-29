@@ -94,7 +94,7 @@ static void draw_background(LoadGraph *graph) {
     gtk_style_context_get_color (context, gtk_style_context_get_state (context), &fg);
     gtk_style_context_restore (context);
 
-    // set the background colour
+    // set the background color
     gdk_cairo_set_source_rgba (cr, &bg);
     cairo_paint (cr);
 

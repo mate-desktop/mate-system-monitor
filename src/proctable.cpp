@@ -1025,7 +1025,6 @@ proctable_update_list (ProcData * const procdata)
             if (procdata->config.show_tree)
             {
                 selection.save(procdata->tree);
-                proctable_clear_tree(procdata);
             }
             break;
 
@@ -1035,7 +1034,6 @@ proctable_update_list (ProcData * const procdata)
             if (procdata->config.show_tree)
             {
                 selection.save(procdata->tree);
-                proctable_clear_tree(procdata);
             }
             break;
     }

@@ -153,131 +153,131 @@
     </key>
     <key name="col-0-width" type="i">
       <default>198</default>
-      <summary>Width of process 'name' column</summary>
+      <summary>Width of process 'Name' column</summary>
     </key>
     <key name="col-0-visible" type="b">
       <default>true</default>
-      <summary>Show process 'name' column on startup</summary>
+      <summary>Show process 'Name' column on startup</summary>
     </key>
     <key name="col-1-width" type="i">
       <default>0</default>
-      <summary>Width of process 'owner' column</summary>
+      <summary>Width of process 'User' column</summary>
     </key>
     <key name="col-1-visible" type="b">
       <default>false</default>
-      <summary>Show process 'owner' column on startup</summary>
+      <summary>Show process 'User' column on startup</summary>
     </key>
     <key name="col-2-width" type="i">
       <default>37</default>
-      <summary>Width of process 'status' column</summary>
+      <summary>Width of process 'Status' column</summary>
     </key>
     <key name="col-2-visible" type="b">
       <default>true</default>
-      <summary>Show process 'status' column on startup</summary>
+      <summary>Show process 'Status' column on startup</summary>
     </key>
     <key name="col-3-width" type="i">
       <default>0</default>
-      <summary>Width of process 'virtual memory' column</summary>
+      <summary>Width of process 'Virtual Memory' column</summary>
     </key>
     <key name="col-3-visible" type="b">
       <default>false</default>
-      <summary>Show process 'virtual memory' column on startup</summary>
+      <summary>Show process 'Virtual Memory' column on startup</summary>
     </key>
     <key name="col-4-width" type="i">
       <default>53</default>
-      <summary>Width of process 'resident memory' column</summary>
+      <summary>Width of process 'Resident Memory' column</summary>
     </key>
     <key name="col-4-visible" type="b">
       <default>false</default>
-      <summary>Show process 'resident memory' column on startup</summary>
+      <summary>Show process 'Resident Memory' column on startup</summary>
     </key>
     <key name="col-5-width" type="i">
       <default>0</default>
-      <summary>Width of process 'writable memory' column</summary>
+      <summary>Width of process 'Writable Memory' column</summary>
     </key>
     <key name="col-5-visible" type="b">
       <default>false</default>
-      <summary>Show process 'writable memory' column on startup</summary>
+      <summary>Show process 'Writable Memory' column on startup</summary>
     </key>
     <key name="col-6-width" type="i">
       <default>0</default>
-      <summary>Width of process 'shared memory' column</summary>
+      <summary>Width of process 'Shared Memory' column</summary>
     </key>
     <key name="col-6-visible" type="b">
       <default>false</default>
-      <summary>Show process 'shared memory' column on startup</summary>
+      <summary>Show process 'Shared Memory' column on startup</summary>
     </key>
     <key name="col-7-width" type="i">
       <default>0</default>
-      <summary>Width of process 'X server memory' column</summary>
+      <summary>Width of process 'X Server Memory' column</summary>
     </key>
     <key name="col-7-visible" type="b">
       <default>false</default>
-      <summary>Show process 'X server memory' column on startup</summary>
+      <summary>Show process 'X Server Memory' column on startup</summary>
     </key>
     <key name="col-8-width" type="i">
       <default>0</default>
-      <summary>Width of process 'CPU %' column</summary>
+      <summary>Width of process '% CPU' column</summary>
     </key>
     <key name="col-8-visible" type="b">
       <default>true</default>
-      <summary>Show process 'CPU %' column on startup</summary>
+      <summary>Show process '% CPU' column on startup</summary>
     </key>
     <key name="col-9-width" type="i">
       <default>50</default>
-      <summary>Width of process 'CPU time' column</summary>
+      <summary>Width of process 'CPU Time' column</summary>
     </key>
     <key name="col-9-visible" type="b">
       <default>false</default>
-      <summary>Show process 'CPU time' column on startup</summary>
+      <summary>Show process 'CPU Time' column on startup</summary>
     </key>
     <key name="col-10-width" type="i">
       <default>0</default>
-      <summary>Width of process 'start time' column</summary>
+      <summary>Width of process 'Started' column</summary>
     </key>
     <key name="col-10-visible" type="b">
       <default>false</default>
-      <summary>Show process 'start time' column on startup</summary>
+      <summary>Show process 'Started' column on startup</summary>
     </key>
     <key name="col-11-width" type="i">
       <default>48</default>
-      <summary>Width of process 'nice' column</summary>
+      <summary>Width of process 'Nice' column</summary>
     </key>
     <key name="col-11-visible" type="b">
       <default>true</default>
-      <summary>Show process 'nice' column on startup</summary>
+      <summary>Show process 'Nice' column on startup</summary>
     </key>
     <key name="col-12-width" type="i">
       <default>48</default>
-      <summary>Width of process 'PID' column</summary>
+      <summary>Width of process 'ID' column</summary>
     </key>
     <key name="col-12-visible" type="b">
       <default>true</default>
-      <summary>Show process 'PID' column on startup</summary>
+      <summary>Show process 'ID' column on startup</summary>
     </key>
     <key name="col-13-width" type="i">
       <default>48</default>
-      <summary>Width of process 'SELinux security context' column</summary>
+      <summary>Width of process 'Security Context' column</summary>
     </key>
     <key name="col-13-visible" type="b">
       <default>false</default>
-      <summary>Show process 'SELinux security context' column on startup</summary>
+      <summary>Show process 'Security Context' column on startup</summary>
     </key>
     <key name="col-14-width" type="i">
       <default>48</default>
-      <summary>Width of process 'arguments' column</summary>
+      <summary>Width of process 'Command Line' column</summary>
     </key>
     <key name="col-14-visible" type="b">
       <default>false</default>
-      <summary>Show process 'arguments' column on startup</summary>
+      <summary>Show process 'Command Line' column on startup</summary>
     </key>
     <key name="col-15-width" type="i">
       <default>48</default>
-      <summary>Width of process 'estimated memory usage' column</summary>
+      <summary>Width of process 'Memory' column</summary>
     </key>
     <key name="col-15-visible" type="b">
       <default>true</default>
-      <summary>Show process 'estimated memory usage' column on startup</summary>
+      <summary>Show process 'Memory' column on startup</summary>
     </key>
     <key name="col-16-width" type="i">
       <default>48</default>

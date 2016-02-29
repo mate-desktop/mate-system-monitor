@@ -88,6 +88,7 @@ struct ProcConfig
     gint        height;
     gint        xpos;
     gint        ypos;
+    gboolean    maximized;
     gboolean    show_kill_warning;
     gboolean    show_tree;
     gboolean    show_all_fs;

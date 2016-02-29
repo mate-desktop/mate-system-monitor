@@ -253,6 +253,8 @@ procman_data_new (GSettings *settings)
                     &pd->config.width, &pd->config.height,
                     &pd->config.xpos, &pd->config.ypos);
 
+    pd->config.maximized = g_settings_get_boolean(settings, "maximized");
+
     pd->config.show_tree = g_settings_get_boolean (settings, "show-tree");
     g_signal_connect (G_OBJECT(settings), "changed::show-tree", G_CALLBACK(tree_changed_cb), pd);
 
@@ -511,13 +513,21 @@ procman_save_config (ProcData *data)
 
     g_assert(data);
 
-    data->config.width = gdk_window_get_width(gtk_widget_get_window(data->app));
-    data->config.height = gdk_window_get_height(gtk_widget_get_window(data->app));
-    gtk_window_get_position(GTK_WINDOW(data->app), &data->config.xpos, &data->config.ypos);
+    data->config.maximized = gdk_window_get_state(gtk_widget_get_window (data->app)) & GDK_WINDOW_STATE_MAXIMIZED;
+    if (!data->config.maximized) {
+        // we only want to store/overwrite size and position info with non-maximized state info
+        data->config.width = gdk_window_get_width(gtk_widget_get_window(data->app));
+        data->config.height = gdk_window_get_height(gtk_widget_get_window(data->app));
 
-    g_settings_set (settings, "window-state", "(iiii)",
-                    data->config.width, data->config.height,
-                    data->config.xpos, data->config.ypos);
+        gtk_window_get_position(GTK_WINDOW(data->app), &data->config.xpos, &data->config.ypos);
+
+        g_settings_set (settings, "window-state", "(iiii)",
+                        data->config.width, data->config.height,
+                        data->config.xpos, data->config.ypos);
+    }
+
+    g_settings_set_boolean (settings, "maximized", data->config.maximized);
+
     g_settings_set_int (settings, "current-tab", data->config.current_tab);
 }
 

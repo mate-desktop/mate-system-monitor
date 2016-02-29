@@ -727,6 +727,9 @@ create_main_window (ProcData *procdata)
     gtk_window_set_default_size (GTK_WINDOW (app), width, height);
     gtk_window_move(GTK_WINDOW (app), xpos, ypos);
     gtk_window_set_resizable (GTK_WINDOW (app), TRUE);
+    if (procdata->config.maximized) {
+        gtk_window_maximize(GTK_WINDOW(app));
+    }
 
     /* create the menubar */
     procdata->uimanager = gtk_ui_manager_new ();

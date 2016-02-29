@@ -5,6 +5,10 @@
       <default>(700, 500, 50, 50)</default>
       <summary>Main window size and position in the form (width, height, xpos, ypos)</summary>
     </key>
+    <key name="maximized" type="b">
+      <default>false</default>
+      <summary>If TRUE, main window will open maximized, and saved size and position values are ignored.</summary>
+    </key>
     <key name="show-tree" type="b">
       <default>false</default>
       <summary>Show process dependencies in tree form</summary>

@@ -819,7 +819,12 @@ update_info (ProcData *procdata, ProcInfo *info)
 
     info->set_user(procstate.uid);
 
-    info->pcpu = (proctime.rtime - info->cpu_time) * 100 / procdata->cpu_total_time;
+    // if the cpu time has increased reset the status to running
+    // regardless of kernel state (https://bugzilla.gnome.org/606579)
+    guint64 difference = proctime.rtime - info->cpu_time;
+    if (difference > 0)
+        info->status = GLIBTOP_PROCESS_RUNNING;
+    info->pcpu = difference * 100 / procdata->cpu_total_time;
     info->pcpu = MIN(info->pcpu, 100);
 
     if (not procdata->config.solaris_mode)

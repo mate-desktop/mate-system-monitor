@@ -174,7 +174,8 @@ update_openfiles_dialog (GtkWidget *tree)
     GHashTable *new_maps;
     guint i;
 
-    info = static_cast<ProcInfo*>(g_object_get_data (G_OBJECT (tree), "selected_info"));
+    pid_t pid = GPOINTER_TO_UINT(static_cast<pid_t*>(g_object_get_data (G_OBJECT (tree), "selected_info")));
+    info = ProcInfo::find(pid);
 
     if (!info)
         return;
@@ -357,7 +358,7 @@ create_single_openfiles_dialog (GtkTreeModel *model, GtkTreePath *path,
 
     tree = create_openfiles_tree (procdata);
     gtk_container_add (GTK_CONTAINER (scrolled), tree);
-    g_object_set_data (G_OBJECT (tree), "selected_info", info);
+    g_object_set_data (G_OBJECT (tree), "selected_info", GUINT_TO_POINTER (info->pid));
     g_object_set_data (G_OBJECT (tree), "settings", procdata->settings);
 
     gtk_box_pack_start (GTK_BOX (dialog_vbox), scrolled, TRUE, TRUE, 0);

@@ -33,7 +33,6 @@
 #include "util.h"
 #include "load-graph.h"
 #include "settings-keys.h"
-#include "procman_matesu.h"
 #include "procman_gksu.h"
 #include "cgroups.h"
 
@@ -884,8 +883,6 @@ procdialog_create_root_password_dialog(ProcmanActionType type,
 
     if (procman_has_gksu())
         ret = procman_gksu_create_root_password_dialog(command);
-    else if (procman_has_matesu())
-        ret = procman_matesu_create_root_password_dialog(command);
 
     g_free(command);
     return ret;

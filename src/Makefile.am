@@ -27,7 +27,6 @@ mate_system_monitor_cpp_files = \
 	disks.cpp \
 	selinux.cpp \
 	cgroups.cpp \
-	procman_matesu.cpp \
 	procman_gksu.cpp \
 	sysinfo.cpp \
 	lsof.cpp \

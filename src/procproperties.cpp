@@ -112,6 +112,9 @@ fill_proc_properties (GtkWidget *tree, ProcInfo *info)
     guint i;
     GtkListStore *store;
 
+    if (!info)
+        return;
+
     get_process_memory_info(info);
 
 #if defined (__NetBSD__) || defined (__OpenBSD__)
@@ -167,10 +170,8 @@ update_procproperties_dialog (GtkWidget *tree)
 {
     ProcInfo *info;
 
-    info = static_cast<ProcInfo*>(g_object_get_data (G_OBJECT (tree), "selected_info"));
-
-    if (!info)
-        return;
+    pid_t pid = GPOINTER_TO_UINT(static_cast<pid_t*>(g_object_get_data (G_OBJECT (tree), "selected_info")));
+    info = ProcInfo::find(pid);
 
     fill_proc_properties(tree, info);
 }
@@ -290,7 +291,7 @@ create_single_procproperties_dialog (GtkTreeModel *model, GtkTreePath *path,
 
     tree = create_procproperties_tree (procdata);
     gtk_container_add (GTK_CONTAINER (scrolled), tree);
-    g_object_set_data (G_OBJECT (tree), "selected_info", info);
+    g_object_set_data (G_OBJECT (tree), "selected_info", GUINT_TO_POINTER (info->pid));
 
     gtk_box_pack_start (GTK_BOX (dialog_vbox), scrolled, TRUE, TRUE, 0);
     gtk_widget_show_all (scrolled);

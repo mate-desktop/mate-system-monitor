@@ -990,7 +990,7 @@ refresh_list (ProcData *procdata, const pid_t* pid_list, const guint n)
 }
 
 
-void
+static void
 proctable_update_list (ProcData * const procdata)
 {
     pid_t* pid_list;

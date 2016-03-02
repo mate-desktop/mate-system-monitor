@@ -1043,7 +1043,7 @@ proctable_update_list (ProcData * const procdata)
 
 
 void
-proctable_update_all (ProcData * const procdata)
+proctable_update (ProcData * const procdata)
 {
     char* string;
 

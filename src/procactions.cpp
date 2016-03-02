@@ -108,7 +108,7 @@ renice (ProcData *procdata, int nice)
                                       cb_timeout,
                                       procdata);
 
-    proctable_update_all (procdata);
+    proctable_update (procdata);
 }
 
 
@@ -187,5 +187,5 @@ kill_process (ProcData *procdata, int sig)
     procdata->timeout = g_timeout_add (procdata->config.update_interval,
                                        cb_timeout,
                                        procdata);
-    proctable_update_all (procdata);
+    proctable_update (procdata);
 }

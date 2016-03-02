@@ -93,7 +93,7 @@ tree_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 
     proctable_clear_tree (procdata);
 
-    proctable_update_all (procdata);
+    proctable_update (procdata);
 }
 
 static void
@@ -102,7 +102,7 @@ solaris_mode_changed_cb(GSettings *settings, const gchar *key, gpointer data)
     ProcData *procdata = static_cast<ProcData*>(data);
 
     procdata->config.solaris_mode = g_settings_get_boolean(settings, key);
-    proctable_update_all (procdata);
+    proctable_update (procdata);
 }
 
 
@@ -125,7 +125,7 @@ view_as_changed_cb (GSettings *settings, const gchar *key, gpointer data)
     procdata->config.whose_process = g_settings_get_int (settings, key);
     procdata->config.whose_process = CLAMP (procdata->config.whose_process, 0, 2);
     proctable_clear_tree (procdata);
-    proctable_update_all (procdata);
+    proctable_update (procdata);
 
 }
 
@@ -725,7 +725,7 @@ main (int argc, char *argv[])
     create_main_window (procdata);
     procman_debug("end create_main_window");
 
-    // proctable_update_all (procdata);
+    // proctable_update (procdata);
 
     init_volume_monitor (procdata);
 

@@ -451,7 +451,7 @@ gint
 cb_user_refresh (GtkAction*, gpointer data)
 {
     ProcData * const procdata = static_cast<ProcData*>(data);
-    proctable_update_all(procdata);
+    proctable_update (procdata);
     return FALSE;
 }
 
@@ -462,7 +462,7 @@ cb_timeout (gpointer data)
     ProcData * const procdata = static_cast<ProcData*>(data);
     guint new_interval;
 
-    proctable_update_all (procdata);
+    proctable_update (procdata);
 
     if (procdata->smooth_refresh->get(new_interval))
     {

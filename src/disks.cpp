@@ -251,10 +251,11 @@ cb_disk_columns_changed(GtkTreeView *treeview, gpointer user_data)
 }
 
 
-static void open_dir(GtkTreeView       *tree_view,
-                     GtkTreePath       *path,
-                     GtkTreeViewColumn *column,
-                     gpointer           user_data)
+static void
+open_dir(GtkTreeView       *tree_view,
+         GtkTreePath       *path,
+         GtkTreeViewColumn *column,
+         gpointer           user_data)
 {
     GtkTreeIter iter;
     GtkTreeModel *model;

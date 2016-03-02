@@ -139,7 +139,6 @@ proctable_set_columns_order(GtkTreeView *treeview, GSList *order)
 }
 
 
-
 GSList*
 proctable_get_columns_order(GtkTreeView *treeview)
 {
@@ -190,7 +189,7 @@ save_column_width (gpointer data)
     return FALSE;
 }
 
-void
+static void
 cb_proctable_column_resized(GtkWidget *widget, GParamSpec *pspec, gpointer data)
 {
     current_column = GTK_TREE_VIEW_COLUMN(widget);

@@ -401,7 +401,7 @@ procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child
 
     if(!g_strcmp0(child_schema, "proctree"))
     {
-        for(it = columns; it; it = it->next)
+        for (it = columns; it; it = it->next)
         {
             GtkTreeViewColumn *column;
             gint width;
@@ -482,7 +482,8 @@ procman_save_tree_state (GSettings *settings, GtkWidget *tree, const gchar *chil
 
     columns = gtk_tree_view_get_columns (GTK_TREE_VIEW (tree));
 
-    if(!g_strcmp0(child_schema, "proctree") || !g_strcmp0(child_schema, "disktreenew"))
+    if (g_strcmp0(child_schema, "proctree") == 0 ||
+        g_strcmp0(child_schema, "disktreenew") == 0)
     {
         GSList *order;
         GSList *order_node;
@@ -493,8 +494,8 @@ procman_save_tree_state (GSettings *settings, GtkWidget *tree, const gchar *chil
 
         builder = g_variant_builder_new (G_VARIANT_TYPE_ARRAY);
 
-        for(order_node = order; order_node; order_node = order_node->next)
-        g_variant_builder_add(builder, "i", GPOINTER_TO_INT(order_node->data));
+        for (order_node = order; order_node; order_node = order_node->next)
+            g_variant_builder_add(builder, "i", GPOINTER_TO_INT(order_node->data));
 
         order_variant = g_variant_new("ai", builder);
         g_settings_set_value(pt_settings, "columns-order", order_variant);

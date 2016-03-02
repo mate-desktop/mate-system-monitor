@@ -399,7 +399,8 @@ procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child
 
     columns = gtk_tree_view_get_columns (GTK_TREE_VIEW (tree));
 
-    if(!g_strcmp0(child_schema, "proctree"))
+    if (g_strcmp0(child_schema, "proctree") == 0 ||
+        g_strcmp0(child_schema, "disktreenew") == 0)
     {
         for (it = columns; it; it = it->next)
         {
@@ -421,19 +422,17 @@ procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child
             g_free (key);
 
             column = gtk_tree_view_get_column (GTK_TREE_VIEW (tree), id);
-            if(!column) continue;
-                gtk_tree_view_column_set_visible (column, visible);
-                if (visible) {
-                    /* ensure column is really visible */
-                    width = MAX(width, 20);
-                    gtk_tree_view_column_set_fixed_width(column, width);
-              }
-         }
-    }
+            if (column == NULL)
+                continue;
 
-    if(!g_strcmp0(child_schema, "proctree") ||
-       !g_strcmp0(child_schema, "disktreenew"))
-    {
+            gtk_tree_view_column_set_visible (column, visible);
+            if (visible) {
+                /* ensure column is really visible */
+                width = MAX(width, 20);
+                gtk_tree_view_column_set_fixed_width(column, width);
+            }
+        }
+
         GVariant *value;
         GVariantIter iter;
         int sortIndex;

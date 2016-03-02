@@ -285,6 +285,44 @@ open_dir(GtkTreeView       *tree_view,
     g_free(dir);
 }
 
+static guint timeout_id = 0;
+static GtkTreeViewColumn *current_column;
+
+static gboolean
+save_column_width (gpointer data)
+{
+    gint width;
+    gchar *key;
+    int id;
+    GSettings *settings;
+
+    settings = g_settings_get_child (G_SETTINGS (data), "disktreenew");
+    id = gtk_tree_view_column_get_sort_column_id (current_column);
+    width = gtk_tree_view_column_get_width (current_column);
+
+    key = g_strdup_printf ("col-%d-width", id);
+    g_settings_set_int(settings, key, width);
+    g_free (key);
+
+    if (timeout_id) {
+        g_source_remove (timeout_id);
+        timeout_id = 0;
+    }
+
+    return FALSE;
+}
+
+static void
+cb_disks_column_resized(GtkWidget *widget, GParamSpec *pspec, gpointer data)
+{
+    current_column = GTK_TREE_VIEW_COLUMN(widget);
+
+    if (timeout_id)
+        g_source_remove (timeout_id);
+
+    timeout_id = g_timeout_add (250, save_column_width, data);
+}
+
 GtkWidget *
 create_disk_view(ProcData *procdata)
 {
@@ -355,6 +393,7 @@ create_disk_view(ProcData *procdata)
     gtk_tree_view_column_set_resizable(col, TRUE);
     gtk_tree_view_column_set_min_width (col, 30);
     gtk_tree_view_column_set_sizing(col, GTK_TREE_VIEW_COLUMN_FIXED);
+    g_signal_connect(G_OBJECT(col), "notify::fixed-width", G_CALLBACK(cb_disks_column_resized), procdata->settings);
     gtk_tree_view_append_column(GTK_TREE_VIEW(disk_tree), col);
 
     /* sizes - used */
@@ -369,6 +408,7 @@ create_disk_view(ProcData *procdata)
         gtk_tree_view_column_set_resizable(col, TRUE);
         gtk_tree_view_column_set_min_width (col, 30);
         gtk_tree_view_column_set_sizing(col, GTK_TREE_VIEW_COLUMN_FIXED);
+        g_signal_connect(G_OBJECT(col), "notify::fixed-width", G_CALLBACK(cb_disks_column_resized), procdata->settings);
         gtk_tree_view_append_column(GTK_TREE_VIEW(disk_tree), col);
 
         switch (i) {
@@ -411,6 +451,7 @@ create_disk_view(ProcData *procdata)
     gtk_tree_view_column_set_resizable(col, TRUE);
     gtk_tree_view_column_set_min_width (col, 150);
     gtk_tree_view_column_set_sizing(col, GTK_TREE_VIEW_COLUMN_FIXED);
+    g_signal_connect(G_OBJECT(col), "notify::fixed-width", G_CALLBACK(cb_disks_column_resized), procdata->settings);
     gtk_tree_view_append_column(GTK_TREE_VIEW(disk_tree), col);
 
     /* numeric sort */

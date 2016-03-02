@@ -355,17 +355,15 @@ private:
 };
 
 
-
-
 static void
-field_toggled (GtkCellRendererToggle *cell, gchar *path_str, gpointer data)
+field_toggled (const gchar *child_schema, GtkCellRendererToggle *cell, gchar *path_str, gpointer data)
 {
     GtkTreeModel *model = static_cast<GtkTreeModel*>(data);
     GtkTreePath *path = gtk_tree_path_new_from_string (path_str);
     GtkTreeIter iter;
     GtkTreeViewColumn *column;
     gboolean toggled;
-    GSettings *settings = g_settings_get_child (ProcData::get_instance()->settings, "proctree");
+    GSettings *settings = g_settings_get_child (ProcData::get_instance()->settings, child_schema);
     gchar *key;
     int id;
 
@@ -387,11 +385,22 @@ field_toggled (GtkCellRendererToggle *cell, gchar *path_str, gpointer data)
     g_free (key);
 
     gtk_tree_path_free (path);
+}
 
+static void
+proc_field_toggled (GtkCellRendererToggle *cell, gchar *path_str, gpointer data)
+{
+    field_toggled ("proctree", cell, path_str, data);
+}
+
+static void
+disk_field_toggled (GtkCellRendererToggle *cell, gchar *path_str, gpointer data)
+{
+    field_toggled ("disktreenew", cell, path_str, data);
 }
 
 static GtkWidget *
-create_field_page(GtkWidget *tree, const char* text)
+create_field_page(GtkWidget *tree, const gchar *child_schema, const gchar *text)
 {
     GtkWidget *vbox;
     GtkWidget *scrolled;
@@ -433,7 +442,11 @@ create_field_page(GtkWidget *tree, const char* text)
     gtk_tree_view_column_set_attributes (column, cell,
                                          "active", 0,
                                          NULL);
-    g_signal_connect (G_OBJECT (cell), "toggled", G_CALLBACK (field_toggled), model);
+    if (g_strcmp0 (child_schema, "proctree") == 0)
+        g_signal_connect (G_OBJECT (cell), "toggled", G_CALLBACK (proc_field_toggled), model);
+    else if (g_strcmp0 (child_schema, "disktreenew") == 0)
+        g_signal_connect (G_OBJECT (cell), "toggled", G_CALLBACK (disk_field_toggled), model);
+
     gtk_tree_view_column_set_clickable (column, TRUE);
     gtk_tree_view_append_column (GTK_TREE_VIEW (treeview), column);
 
@@ -663,7 +676,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     label = gtk_label_new ("    ");
     gtk_box_pack_start (GTK_BOX (hbox), label, FALSE, FALSE, 0);
 
-    vbox2 = create_field_page (procdata->tree, _("Process i_nformation shown in list:"));
+    vbox2 = create_field_page (procdata->tree, "proctree", _("Process i_nformation shown in list:"));
     gtk_box_pack_start (GTK_BOX (hbox), vbox2, TRUE, TRUE, 0);
 
     sys_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 12);
@@ -823,7 +836,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     label = gtk_label_new ("    ");
     gtk_box_pack_start (GTK_BOX (hbox), label, FALSE, FALSE, 0);
 
-    vbox3 = create_field_page (procdata->disk_list, _("File system i_nformation shown in list:"));
+    vbox3 = create_field_page (procdata->disk_list, "disktreenew", _("File system i_nformation shown in list:"));
     gtk_box_pack_start (GTK_BOX (hbox), vbox3, TRUE, TRUE, 0);
 
     gtk_widget_show_all (dialog);

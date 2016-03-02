@@ -7,9 +7,6 @@
 
 #include <sys/wait.h>
 
-// #include <libsexy/sexy-icon-entry.h>
-
-
 #include <set>
 #include <string>
 #include <sstream>
@@ -338,11 +335,6 @@ void procman_lsof(ProcData *procdata)
     gtk_box_pack_start(GTK_BOX(hbox), label, FALSE, FALSE, 0);
     GtkWidget *entry = gtk_entry_new();
 
-    // entry = sexy_icon_entry_new();
-    // sexy_icon_entry_add_clear_button(SEXY_ICON_ENTRY(entry));
-    // GtkWidget *icon = gtk_image_new_from_stock(GTK_STOCK_FIND, GTK_ICON_SIZE_MENU);
-    // sexy_icon_entry_set_icon(SEXY_ICON_ENTRY(entry), SEXY_ICON_ENTRY_PRIMARY, GTK_IMAGE(icon));
-
     gtk_box_pack_start(GTK_BOX(hbox), entry, TRUE, TRUE, 0);
     GtkWidget *search_button = gtk_button_new_from_stock(GTK_STOCK_FIND);
     gtk_box_pack_start(GTK_BOX(hbox), search_button, FALSE, FALSE, 0);
@@ -364,9 +356,6 @@ void procman_lsof(ProcData *procdata)
     gtk_box_pack_start(GTK_BOX(results_box), results_label, FALSE, FALSE, 0);
     GtkWidget *count_label = gtk_label_new(NULL);
     gtk_box_pack_end(GTK_BOX(results_box), count_label, FALSE, FALSE, 0);
-
-
-
 
     // Scrolled TreeView
     GtkWidget *scrolled = gtk_scrolled_window_new(NULL, NULL);

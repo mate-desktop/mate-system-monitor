@@ -5,11 +5,7 @@
 
 #include <glib.h>
 #include <gtk/gtk.h>
-#include <stddef.h>
-#include <cstring>
 #include <string>
-#include <functional>
-#include <algorithm>
 
 using std::string;
 

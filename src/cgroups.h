@@ -5,10 +5,8 @@
 
 #include "procman.h"
 
-void
-get_process_cgroup_info (ProcInfo *info);
+void get_process_cgroup_info (ProcInfo *info);
 
-gboolean
-cgroups_enabled (void);
+gboolean cgroups_enabled (void);
 
 #endif /* PROCMAN_CGROUP_H_20111103 */

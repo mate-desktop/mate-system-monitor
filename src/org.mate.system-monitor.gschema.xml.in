@@ -343,7 +343,7 @@
   <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.system-monitor.disktreenew" path="/org/mate/system-monitor/disktreenew/">
     <key name="sort-col" type="i">
       <default>1</default>
-      <summary>Disk view sort colum</summary>
+      <summary>Disk view sort column</summary>
     </key>
     <key name="sort-order" type="i">
       <default>0</default>

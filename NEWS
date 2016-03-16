@@ -1,3 +1,20 @@
+1.13.2
+
+  * disks: implement saving and loading width and visibility of columns
+  * process table: rename proctable_update_all func to proctable_update
+  * process table: proctable_update_list is a local function
+  * fix segfault on view mode change with process properties open
+  * drop weird matesu support (did matesu ever exist?!)
+  * process properties: show cgroups + show N/A when selinux isn't set
+  * process table: show running state when CPU time changes
+  * sysinfo: fix forgotten memleak
+  * process table: avoid expanding collapsed nodes on every refresh
+  * main window: save maximized state in gsettings on exit and load it on startup
+  * defaulttable: use correct icons (fix old gnome->mate replace error)
+  * schema: make column names match the actual names in UI
+  * prefs dialog: fix refresh rate not saving in some cases
+  * GTK+-3: Get values from GtkStyleContext states properly
+
 1.13.1
 
   * get exact number of CPUs instead of guessing

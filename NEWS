@@ -1,3 +1,11 @@
+1.12.2
+
+  * Process table: avoid expanding collapsed nodes on every refresh
+  * Prefs dialog: fix refresh rate not saving in some cases
+  * Memmaps dialog: fix unwanted autoscrolling to the top of list
+  * Fix segfault on view mode change with process properties open
+  * Some more fixes
+
 1.12.1
 
   * Process table: delay saving column widths (avoids eating CPU

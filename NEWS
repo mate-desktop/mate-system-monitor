@@ -1,33 +1,31 @@
-1.13.2
+1.14.0
 
-  * disks: implement saving and loading width and visibility of columns
-  * process table: rename proctable_update_all func to proctable_update
-  * process table: proctable_update_list is a local function
-  * fix segfault on view mode change with process properties open
-  * drop weird matesu support (did matesu ever exist?!)
-  * process properties: show cgroups + show N/A when selinux isn't set
-  * process table: show running state when CPU time changes
-  * sysinfo: fix forgotten memleak
-  * process table: avoid expanding collapsed nodes on every refresh
-  * main window: save maximized state in gsettings on exit and load it on startup
-  * defaulttable: use correct icons (fix old gnome->mate replace error)
-  * schema: make column names match the actual names in UI
-  * prefs dialog: fix refresh rate not saving in some cases
-  * GTK+-3: Get values from GtkStyleContext states properly
+  * Move to GTK+3, drop GTK+2 code and --with-gtk build option
+  * Set minimum required GTK+ version to 3.14, drop some deprecated
+    code
+  * Run gksu binary instead of loading libgksu2.so (which is GTK+2
+    only)
+  * Drop MateConf migration script
+  * Main window: save maximized state in gsettings on exit and load
+    it on startup
+  * Disks: add saving and loading width and visibility of columns
+  * Process properties: show cgroups
+  * Process properties: show N/A when cgroups or selinux isn't set
+  * Process table: show running state when CPU time changes
+  * Change graph grid line colors and pattern
+  * Draw the background of graphs explicitly to avoid issues with
+    GTK+ 3.20
+  * Fix incorrect icons for some known apps like marco or vino
+  * Some more fixes and cleanups
+  * Translations update
 
-1.13.1
+1.12.2
 
-  * get exact number of CPUs instead of guessing
-
-1.13.0
-
-  * prefs dialog: increase height a bit
-  * drop MateConf migration script
-  * drop GTK+2 code and --with-gtk build option
-  * set minimum GTK+ version to 3.14 and drop some deprecated code
-  * fix some deprecations
-  * load-graph: Draw the background explicitly, fixes graph with gtk+-3.20
-  * Changed graph grid line colors
+  * Process table: avoid expanding collapsed nodes on every refresh
+  * Prefs dialog: fix refresh rate not saving in some cases
+  * Memmaps dialog: fix unwanted autoscrolling to the top of list
+  * Fix segfault on view mode change with process properties open
+  * Some more fixes
 
 1.12.1
 

@@ -5,17 +5,19 @@
 # Translators:
 # Alessio Frusciante <algol@firenze.linux.it>, 2001, 2002, 2003, 2004, 2005, 2006, 2007
 # Davide Falanga <davide.falanga@alice.it>, 2009
+# Karoly Nagy <karoly.nagy17@protonmail.com>, 2016
 # Dario Di Nucci <linkin88mail@gmail.com>, 2014
 # Luca Ferretti <elle.uca@libero.it>, 2007, 2008
 # Marco Bartolucci <nap.84@live.it>, 2016
+# Marco Zani <minaz666@gmail.com>, 2016
 # Milo Casagrande <milo@ubuntu.com>, 2008, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-09 11:28+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-06-03 16:25+0000\n"
+"Last-Translator: Marco Zani <minaz666@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/mate/MATE/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -612,7 +614,7 @@ msgstr "Dimensione e posizione della finestra principale nella forma (larghezza,
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr ""
+msgstr "se VERO, la finestra principale verrà aperta massimizzata, e i valori di dimensione e posizione salvati verranno ignorati."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -718,81 +720,81 @@ msgstr "Ordine della vista dei processi"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Width of process 'Name' column"
-msgstr ""
+msgstr "Larghezza della colonna nome processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
-msgstr ""
+msgstr "Mostra colonna dei processi 'Nome' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Width of process 'User' column"
-msgstr ""
+msgstr "Larghezza della colonna dei processi 'Utente'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
-msgstr ""
+msgstr "Mostra colonna dei processi 'Utente' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr ""
+msgstr "Larghezza della colonna dei processi 'Stato'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr ""
+msgstr "Mostra colonna dei processi 'Stato' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr ""
+msgstr "Larghezza della colonna dei processi 'Memoria Virtuale'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr ""
+msgstr "Mostra la colonna del processo 'Memoria Virtuale' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr ""
+msgstr "Larghezza della colonna dei processi 'Memoria Residente'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr ""
+msgstr "Mostra la colonna del processo 'Memoria Installata' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr ""
+msgstr "Larghezza della colonna dei processi 'Memoria Scrivibile'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr ""
+msgstr "Mostra la colonna del processo 'Memoria Scrivibile' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr ""
+msgstr "Larghezza della colonna dei processi 'Memoria Condivisa'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr ""
+msgstr "Mostra la colonna del processo 'Memoria Condivisa' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr ""
+msgstr "Larghezza della colonna del processo 'Memoria del Server X'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr ""
+msgstr "Mostra la colonna del processo 'Memoria del Server X'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Larghezza della colonna del processo '% CPU'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Visualizza la colonna del processo '% CPU' all'avvio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
-msgstr ""
+msgstr "Larghezza della colonna del processo 'Orologio della CPU'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"

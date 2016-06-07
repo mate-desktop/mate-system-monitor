@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-11 18:05+0000\n"
+"PO-Revision-Date: 2016-06-06 20:14+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -1040,7 +1040,7 @@ msgstr "Canvia la prioritat del procés «%s» (PID: %u)"
 
 #: ../src/procdialogs.cpp:181
 msgid "Change _Priority"
-msgstr "Canvia la _Prioritat"
+msgstr "Canvia la _prioritat"
 
 #: ../src/procdialogs.cpp:204
 msgid "_Nice value:"

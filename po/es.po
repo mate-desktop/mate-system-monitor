@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Adolfo Jayme Barrientos, 2013
-# Adolfo Jayme Barrientos, 2015
+# Fitoschido, 2013
+# Fitoschido, 2015
 # Carlos Perelló Marín <carlos@mate-db.org>, 2001
 # Emiliano Fascetti, 2014-2015
 # Francisco Javier F. Serrador <serrador@cvs.mate.org>, 2004, 2005, 2006
 # Héctor García Álvarez <hector@scouts-es.org>, 2002
-# Ivan Nieto <ivan.nieto.sousa@gmail.com>, 2016
+# Ivan Nieto <ivan.n.s@tuta.io>, 2016
 # Jorge González <jorgegonz@svn.mate.org>, 2007, 2009, 2010
 # Pablo Gonzalo del Campo <pablodc@bigfoot.com>,2002, 2003
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
 "PO-Revision-Date: 2016-03-28 23:08+0000\n"
-"Last-Translator: Ivan Nieto <ivan.nieto.sousa@gmail.com>\n"
+"Last-Translator: Ivan Nieto <ivan.n.s@tuta.io>\n"
 "Language-Team: Spanish (http://www.transifex.com/mate/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

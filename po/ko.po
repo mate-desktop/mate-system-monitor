@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-31 01:24+0000\n"
+"PO-Revision-Date: 2016-04-07 12:00+0000\n"
 "Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/mate/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,7 @@ msgstr "파일 시스템 탭 표시"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "류창우 <cwryu@debian.org>\n차영호 <ganadist@gmail.com>"
+msgstr "류창우 <cwryu@debian.org>\n차영호 <ganadist@gmail.com>\nMATE Desktop Environment Team <https://www.transifex.com/mate/teams/13566/ko/>"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"

@@ -6,14 +6,14 @@
 # Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009
 # Henrik Mattsson-Mårn <h@reglage.net>, 2016
-# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015
+# Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-09 11:28+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-05-20 00:52+0000\n"
+"Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1103,7 +1103,7 @@ msgstr "Visa nätverkshastighet i bitar"
 
 #: ../src/procdialogs.cpp:808
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Visa _alla filsystem"
 
 #: ../src/procdialogs.cpp:839
 msgid "File system i_nformation shown in list:"
@@ -1186,7 +1186,7 @@ msgstr ""
 
 #: ../src/proctable.cpp:260
 msgid "Unit"
-msgstr ""
+msgstr "Enhet"
 
 #: ../src/proctable.cpp:261
 msgid "Session"
@@ -1232,14 +1232,14 @@ msgstr ""
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "Utgåva %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-bitar"
 
 #: ../src/sysinfo.cpp:819
 #, c-format

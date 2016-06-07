@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-25 20:11+0000\n"
+"PO-Revision-Date: 2016-05-01 01:29+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "En prosess og ressursmonitor for MATE skrivebordsmiljø"
+msgstr "Et prosess og ressursovervåknings-program for MATE-skrivebordsmiljøet"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -32,7 +32,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> MATE systemmonitor giver mulighet for grafisk visning og manipulering av kjørende prosesser på systemet ditt. Det gir også et overblikk over tilgjengelige ressurser, som CPU og hukommelse. </p> <p> MATE systemmonitor er en forgrening av GNOME systemmonitor og en del av skrivebordsmiljøet MATE. Hvis du ønsker at vite mer om MATE og systemmonitor, besøk prosjektets hjemmeside. </p>"
+msgstr "<p> MATE systemovervåkning gir mulighet for grafisk visning og manipulering av kjørende prosesser på systemet ditt. Det gir også et overblikk over tilgjengelige ressurser, som CPU og hukommelse. </p> <p> MATE systemovervåkning er en forgrening av GNOME systemovervåkning og en del av skrivebordsmiljøet MATE. Hvis du ønsker at vite mer om MATE og systemovervåkning, besøk prosjektets hjemmeside. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -41,7 +41,7 @@ msgstr "MATE Systemovervåking"
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
 #: ../src/interface.cpp:712 ../src/procman.cpp:713
 msgid "System Monitor"
-msgstr "Systemmonitor"
+msgstr "Systemovervåkning"
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
@@ -1057,7 +1057,7 @@ msgstr "Ikon"
 
 #: ../src/procdialogs.cpp:536
 msgid "System Monitor Preferences"
-msgstr "Brukervalg for systemmonitor"
+msgstr "Brukervalg for systemovervåkning"
 
 #: ../src/procdialogs.cpp:566
 msgid "Behavior"
@@ -1368,7 +1368,7 @@ msgstr[1] "%u bits"
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "%u byte"
-msgstr[1] "%u bytes"
+msgstr[1] "%u byte"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:587

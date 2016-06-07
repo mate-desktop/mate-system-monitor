@@ -1,3 +1,7 @@
+1.15.0
+
+  * Translations update
+
 1.14.0
 
   * Move to GTK+3, drop GTK+2 code and --with-gtk build option

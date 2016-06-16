@@ -137,7 +137,9 @@ namespace
 
         void update_count(unsigned count)
         {
-            string s = static_cast<std::ostringstream&>(std::ostringstream() << count).str();
+            std::ostringstream ss;
+            ss << count;
+            string s = ss.str();
             gtk_label_set_text(this->count, s.c_str());
         }
 

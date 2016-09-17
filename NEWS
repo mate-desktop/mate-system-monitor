@@ -1,5 +1,10 @@
-1.15.0
+1.16.0
 
+  * Translations update
+
+1.14.1
+
+  * Fix build with recent gcc and clang
   * Translations update
 
 1.14.0

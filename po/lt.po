@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-26 21:55+0000\n"
+"PO-Revision-Date: 2016-08-11 07:26+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -171,7 +171,7 @@ msgstr "_Monitorius"
 
 #: ../src/interface.cpp:52
 msgid "_Edit"
-msgstr "_Keisti"
+msgstr "_Taisa"
 
 #: ../src/interface.cpp:53
 msgid "_View"
@@ -191,7 +191,7 @@ msgstr "Ieškoti atvertų failų"
 
 #: ../src/interface.cpp:59
 msgid "Quit the program"
-msgstr "Uždaryti programą"
+msgstr "Išeiti iš programos"
 
 #: ../src/interface.cpp:62
 msgid "_Stop Process"
@@ -462,7 +462,7 @@ msgstr "Klaida"
 #: ../src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr "'%s' nėra teisinga Perl reguliarioji išraiška."
+msgstr "'%s' nėra teisingas Perl reguliarusis reiškinys."
 
 #: ../src/lsof.cpp:268
 msgid "Process"
@@ -577,7 +577,7 @@ msgstr "IPv4 tinklo prisijungimas"
 
 #: ../src/openfiles.cpp:46
 msgid "local socket"
-msgstr "vietinė jungtis"
+msgstr "vietinis lizdas"
 
 #: ../src/openfiles.cpp:48
 msgid "unknown type"

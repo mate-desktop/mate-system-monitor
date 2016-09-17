@@ -13,13 +13,14 @@
 # Petr Tomeš <ptomes@gmail.com>, 2006
 # Radek kohout <radekpv@seznam.cz>, 2015
 # Robin Kriebel <kriebel.robin@gmail.com>, 2016
+# Roman Horník <roman.hornik@debian-linux.cz>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-05-22 09:01+0000\n"
-"Last-Translator: Jaroslav Lichtblau <dragonlord@seznam.cz>\n"
+"PO-Revision-Date: 2016-09-04 07:59+0000\n"
+"Last-Translator: Martin Kříž <liberte.czech@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/mate/MATE/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -617,7 +618,7 @@ msgstr "Hlavní velikost okna a pozice formou (šířka, výška, xpozice, ypozi
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr ""
+msgstr "Je-li POVOLENO, hlavní okno bude otevřeno maximalizované, čili uložené rozměry a pozice okna budou ignorovány."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -735,7 +736,7 @@ msgstr "Šířka sloupce 'Uživatel' procesu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Uživatel'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
@@ -743,7 +744,7 @@ msgstr "Šířka sloupce 'Stav'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec ' Stav'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
@@ -751,7 +752,7 @@ msgstr "Šířka sloupce 'Virtuální paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Virtuální paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
@@ -759,7 +760,7 @@ msgstr "Šířka sloupce 'Rezidentní pamět'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Rezidentní paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
@@ -767,7 +768,7 @@ msgstr "Šířka sloupce 'Zapisovatelná paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Zapisovatelná paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
@@ -775,7 +776,7 @@ msgstr "Šířka sloupce 'Sdílená paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Sdílená paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
@@ -783,7 +784,7 @@ msgstr "Šířka sloupce 'Paměť severu X'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Paměť severu X'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
@@ -793,7 +794,7 @@ msgstr "Šířka sloupce '% CPU'"
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'CPU %'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
@@ -801,15 +802,15 @@ msgstr "Šířka sloupce 'Čas CPU'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Čas CPU %'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Width of process 'Started' column"
-msgstr ""
+msgstr "Šířka sloupce 'Spuštěné'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Show process 'Started' column on startup"
-msgstr ""
+msgstr "Po spuštění zobrazovat sloupec 'Spuštěné'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
@@ -817,7 +818,7 @@ msgstr "Šířka sloupce 'Nice'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
-msgstr ""
+msgstr "Zobrazit sloupec procesu 'Nice' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
@@ -825,7 +826,7 @@ msgstr "Šířka sloupce 'ID'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Show process 'ID' column on startup"
-msgstr ""
+msgstr "Zobrazit sloupec procesu 'ID' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"
@@ -833,7 +834,7 @@ msgstr "Šířka sloupce 'Kontext zabezpečení SELinux'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Show process 'Security Context' column on startup"
-msgstr ""
+msgstr "Zobrazit sloupec procesu \"Kontext zabezpečení\" při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Width of process 'Command Line' column"
@@ -841,7 +842,7 @@ msgstr "Šířka sloupce 'Příkazový řádek'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Show process 'Command Line' column on startup"
-msgstr ""
+msgstr "Zobrazit sloupec procesu 'Příkazový řádek' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Width of process 'Memory' column"
@@ -849,7 +850,7 @@ msgstr "Šířka sloupce 'Paměť'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Show process 'Memory' column on startup"
-msgstr ""
+msgstr "Zobrazit sloupec procesu 'Paměť' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:60
 msgid "Width of process 'Waiting Channel' column"
@@ -921,59 +922,59 @@ msgstr "Pořadí sloupců pohledu na disky"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:77
 msgid "Width of disk view 'Device' column"
-msgstr ""
+msgstr "Šířka disku pohledu na sloupec 'Zařízení'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:78
 msgid "Show disk view 'Device' column on startup"
-msgstr ""
+msgstr "Zobrazit jako disk sloupec 'Zařízení' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Width of disk view 'Directory' column"
-msgstr ""
+msgstr "Šířka disku pohledu na sloupec 'Adresář'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:80
 msgid "Show disk view 'Directory' column on startup"
-msgstr ""
+msgstr "Zobrazit jako disk sloupec 'Adresář' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:81
 msgid "Width of disk view 'Type' column"
-msgstr ""
+msgstr "Šířka disku pohledu na sloupec 'Typ'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:82
 msgid "Show disk view 'Type' column on startup"
-msgstr ""
+msgstr "Zobrazit jako disk sloupec 'Typ' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:83
 msgid "Width of disk view 'Total' column"
-msgstr ""
+msgstr "Šířka disku pohledu na sloupec 'Celkem'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:84
 msgid "Show disk view 'Total' column on startup"
-msgstr ""
+msgstr "Zobrazit jako disk sloupec 'Celkem' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:85
 msgid "Width of disk view 'Free' column"
-msgstr ""
+msgstr "Šířka disku pohledu na sloupec 'Volný'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:86
 msgid "Show disk view 'Free' column on startup"
-msgstr ""
+msgstr "Zobrazit jako disk sloupec 'Volný' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:87
 msgid "Width of disk view 'Available' column"
-msgstr ""
+msgstr "Šířka disku pohledu na sloupec 'Dostupný'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:88
 msgid "Show disk view 'Available' column on startup"
-msgstr ""
+msgstr "Zobrazit jako disk sloupec 'Dostupný' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:89
 msgid "Width of disk view 'Used' column"
-msgstr ""
+msgstr "Šířka disku pohledu na sloupec 'Použitý'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:90
 msgid "Show disk view 'Used' column on startup"
-msgstr ""
+msgstr "Zobrazit jako disk sloupec 'Použitý' při startu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:91
 msgid "Memory map sort column"

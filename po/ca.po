@@ -7,17 +7,17 @@
 # Jesús Moreno <jmmolas@wanadoo.es>, 2002
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2007
-# Pere Orga <gotrunks@gmail.com>, 2013
-# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2015-2016
+# Pere O. <gotrunks@gmail.com>, 2013
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015-2016
 # Softcatalà <info@softcatala.org>, 2000
-# xavivars <xavi.ivars@gmail.com>, 2016
+# Xavi Ivars <xavi.ivars@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-06-06 20:14+0000\n"
-"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
+"PO-Revision-Date: 2016-07-02 19:35+0000\n"
+"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +37,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> El monitor de sistema de MATE permet visualitzar i manipular gràficament els processos en execució al sistema. També proporciona una visió de conjunt dels recursos disponibles, com ara la CPU i la memòria. </p> <p> El monitor de sistema de MATE és un fork del monitor de sistema de GNOME, i part de l'entorn d'escriptori MATE. Si voleu saber més sobre MATE i el monitor de sistema de MATE, si us plau, visiteu la pàgina principal del projecte. . </p>"
+msgstr "<p> El monitor de sistema de MATE permet visualitzar i manipular gràficament els processos en execució al sistema. També proporciona una visió de conjunt dels recursos disponibles, com ara la CPU i la memòria. </p> <p> El monitor de sistema de MATE és un fork del monitor de sistema de GNOME, i part de l'entorn d'escriptori MATE. Si voleu saber més sobre MATE i el monitor de sistema de MATE, si us plau, visiteu la pàgina principal del projecte. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -614,7 +614,7 @@ msgstr "Mida i posició de la finestra principal, en la forma (ample, alt, coord
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr "Si és TRUE, la finestra principal s'obrirà maximitzada, i els valors de posició i mida desats s'ignoraran."
+msgstr "Si és TRUE, la finestra principal s'obrirà maximitzada, i els valors desats de la posició i de la mida s'ignoraran."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -680,27 +680,27 @@ msgstr "0 per a la informació del sistema, 1 per a la llista de processos, 2 pe
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
-msgstr "Color per defecte de la gràfica de la CPU"
+msgstr "Color predeterminat de la gràfica de la CPU"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:17
 msgid "Default graph cpu color"
-msgstr "Color predeterminat de la CPU a la gràfica"
+msgstr "Color predeterminat de la gràfica de la CPU"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:18
 msgid "Default graph memory color"
-msgstr "Color per defecte de la gràfica de la memòria"
+msgstr "Color predeterminat de la gràfica de la memòria"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:19
 msgid "Default graph swap color"
-msgstr "Color predeterminat de l'espai d'intercanvi a la gràfica"
+msgstr "Color predeterminat de la gràfica de l'espai d'intercanvi"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:20
 msgid "Default graph incoming network traffic color"
-msgstr "Color predeterminat de la xarxa d'entrada a la gràfica"
+msgstr "Color predeterminat de la gràfica del tràfic de xarxa d'entrada"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:21
 msgid "Default graph outgoing network traffic color"
-msgstr "Color predeterminat del trànsit de sortida de la xarxa"
+msgstr "Color predeterminat de la gràfica del tràfic de xarxa de sortida"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:22
 msgid "Show network traffic in bits"

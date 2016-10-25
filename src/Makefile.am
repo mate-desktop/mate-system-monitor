@@ -4,6 +4,7 @@ AM_CPPFLAGS = \
 	-DPROCMAN_DATADIR=\""$(datadir)/procman/"\" \
 	-DMATELOCALEDIR=\""$(datadir)/locale"\" \
 	-DDATADIR=\""$(datadir)"\" \
+	-DLIBEXEC_DIR=\""$(pkglibexecdir)"\" \
 	@PROCMAN_CFLAGS@ \
 	@SYSTEMD_CFLAGS@
 
@@ -28,6 +29,7 @@ mate_system_monitor_cpp_files = \
 	selinux.cpp \
 	cgroups.cpp \
 	procman_gksu.cpp \
+	procman_pkexec.cpp \
 	sysinfo.cpp \
 	lsof.cpp \
 	selection.cpp \

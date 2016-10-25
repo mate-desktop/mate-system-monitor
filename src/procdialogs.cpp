@@ -34,6 +34,7 @@
 #include "load-graph.h"
 #include "settings-keys.h"
 #include "procman_gksu.h"
+#include "procman_pkexec.h"
 #include "cgroups.h"
 
 
@@ -894,7 +895,9 @@ procdialog_create_root_password_dialog(ProcmanActionType type,
 
     procman_debug("Trying to run '%s' as root", command);
 
-    if (procman_has_gksu())
+    if (procman_has_pkexec())
+        ret = procman_pkexec_create_root_password_dialog(command);
+    else if (procman_has_gksu())
         ret = procman_gksu_create_root_password_dialog(command);
 
     g_free(command);

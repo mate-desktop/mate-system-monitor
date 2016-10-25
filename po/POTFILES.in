@@ -3,6 +3,7 @@
 # Please keep this file sorted alphabetically.
 mate-system-monitor.appdata.xml.in
 mate-system-monitor.desktop.in.in
+org.mate.mate-system-monitor.policy.in.in
 src/argv.cpp
 src/argv.h
 src/callbacks.cpp

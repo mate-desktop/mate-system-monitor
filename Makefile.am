@@ -2,7 +2,7 @@
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-SUBDIRS = pixmaps po src help
+SUBDIRS = pixmaps po src tools help
 
 man_MANS = mate-system-monitor.1
 
@@ -11,16 +11,25 @@ appdatadir = $(datadir)/appdata
 appdata_in_files = mate-system-monitor.appdata.xml.in
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 
+org.mate.mate-system-monitor.policy.in: org.mate.mate-system-monitor.policy.in.in Makefile
+	$(AM_V_GEN) sed -e "s|\@pkglibexecdir\@|$(pkglibexecdir)|" $< > $@
+
 EXTRA_DIST = \
 	autogen.sh \
 	$(man_MANS) \
 	$(appdata_in_files) \
+	org.mate.mate-system-monitor.policy.in.in \
 	mate-system-monitor.desktop.in \
 	intltool-extract.in \
 	intltool-merge.in \
 	intltool-update.in \
 	omf.make \
 	xmldocs.make
+
+@INTLTOOL_POLICY_RULE@
+polkit_policydir = $(datadir)/polkit-1/actions
+polkit_policy_in_files = org.mate.mate-system-monitor.policy.in
+polkit_policy_DATA = $(polkit_policy_in_files:.policy.in=.policy)
 
 Applicationsdir = $(datadir)/applications
 Applications_in_files = mate-system-monitor.desktop.in
@@ -35,7 +44,9 @@ DISTCLEANFILES = \
   intltool-extract \
   intltool-merge \
   intltool-update \
-  mate-system-monitor.desktop
+  mate-system-monitor.desktop \
+  org.mate.mate-system-monitor.policy \
+  org.mate.mate-system-monitor.policy.in
 
 # Build ChangeLog from GIT  history
 ChangeLog:

@@ -1,3 +1,9 @@
+1.17.0
+
+  * Add pkexec support for using kill and renice on other users'
+    processes, and try using it before trying gksu
+  * Translations update
+
 1.16.0
 
   * Translations update

@@ -1,19 +1,19 @@
-1.17.0
+### mate-system-monitor 1.17.0
 
   * Add pkexec support for using kill and renice on other users'
     processes, and try using it before trying gksu
   * Translations update
 
-1.16.0
+### mate-system-monitor 1.16.0
 
   * Translations update
 
-1.14.1
+### mate-system-monitor 1.14.1
 
   * Fix build with recent gcc and clang
   * Translations update
 
-1.14.0
+### mate-system-monitor 1.14.0
 
   * Move to GTK+3, drop GTK+2 code and --with-gtk build option
   * Set minimum required GTK+ version to 3.14, drop some deprecated
@@ -35,7 +35,7 @@
   * Translations update
   * Fix Changelog generation
 
-1.12.2
+### mate-system-monitor 1.12.2
 
   * Process table: avoid expanding collapsed nodes on every refresh
   * Prefs dialog: fix refresh rate not saving in some cases
@@ -43,7 +43,7 @@
   * Fix segfault on view mode change with process properties open
   * Some more fixes
 
-1.12.1
+### mate-system-monitor 1.12.1
 
   * Process table: delay saving column widths (avoids eating CPU
     and slowdowns when resizing columns)
@@ -53,7 +53,7 @@
     resizing it to zero with recent GTK+3 versions)
   * Some fixes and adjustments
 
-1.12.0
+### mate-system-monitor 1.12.0
 
   * SysInfo: add proper detection for Linux Mint and LMDE
   * SysInfo: let distributions define custom side image
@@ -65,18 +65,18 @@
   * Drop C89 support
   * Translations update
 
-1.10.1
+### mate-system-monitor 1.10.1
 
   * Some adjustments for NetBSD
   * Help fixes
   * Translations update
 
-1.10.0
+### mate-system-monitor 1.10.0
 
   * Bugfixes
   * Improvements from GNOME System Monitor
 
-1.8.0
+### mate-system-monitor 1.8.0
 
   * Add GTK3 support
   * Use libwnck instead of libmatewnck

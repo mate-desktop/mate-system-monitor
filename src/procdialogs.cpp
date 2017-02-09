@@ -153,7 +153,7 @@ procdialog_create_renice_dialog (ProcData *procdata)
     GtkWidget *vbox;
     GtkWidget *label;
     GtkWidget *priority_label;
-    GtkWidget *table;
+    GtkWidget *grid;
     GtkAdjustment *renice_adj;
     GtkWidget *hscale;
     GtkWidget *button;
@@ -197,26 +197,24 @@ procdialog_create_renice_dialog (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (dialog_vbox), vbox, TRUE, TRUE, 0);
     gtk_container_set_border_width (GTK_CONTAINER (vbox), 12);
 
-    table = gtk_table_new (2, 2, FALSE);
-    gtk_table_set_col_spacings (GTK_TABLE(table), 12);
-    gtk_table_set_row_spacings (GTK_TABLE(table), 6);
-    gtk_box_pack_start (GTK_BOX (vbox), table, TRUE, TRUE, 0);
+    grid = gtk_grid_new ();
+    gtk_grid_set_column_spacing (GTK_GRID(grid), 12);
+    gtk_grid_set_row_spacing (GTK_GRID(grid), 6);
+    gtk_box_pack_start (GTK_BOX (vbox), grid, TRUE, TRUE, 0);
 
     label = gtk_label_new_with_mnemonic (_("_Nice value:"));
-    gtk_table_attach (GTK_TABLE (table), label, 0, 1, 0, 2,
-                      GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), label, 0, 0, 1, 2);
 
     renice_adj = gtk_adjustment_new (info->nice, RENICE_VAL_MIN, RENICE_VAL_MAX, 1, 1, 0);
     new_nice_value = 0;
     hscale = gtk_scale_new (GTK_ORIENTATION_HORIZONTAL, renice_adj);
     gtk_label_set_mnemonic_widget (GTK_LABEL (label), hscale);
     gtk_scale_set_digits (GTK_SCALE (hscale), 0);
-    gtk_table_attach (GTK_TABLE (table), hscale, 1, 2, 0, 1,
-                      static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL), GTK_FILL, 0, 0);
+    gtk_widget_set_hexpand (hscale, TRUE);
+    gtk_grid_attach (GTK_GRID (grid), hscale, 1, 0, 1, 1);
     text = g_strdup_printf(_("(%s Priority)"), procman::get_nice_level (info->nice));
     priority_label = gtk_label_new (text);
-    gtk_table_attach (GTK_TABLE (table), priority_label, 1, 2, 1, 2,
-                      GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), priority_label, 1, 1, 1, 1);
     g_free(text);
 
     text = g_strconcat("<small><i><b>", _("Note:"), "</b> ",

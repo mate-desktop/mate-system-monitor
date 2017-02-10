@@ -269,7 +269,7 @@ create_sys_view (ProcData *procdata)
     GtkWidget *cpu_box, *mem_box, *net_box;
     GtkWidget *cpu_graph_box, *mem_graph_box, *net_graph_box;
     GtkWidget *label,*cpu_label, *spacer;
-    GtkWidget *table;
+    GtkWidget *grid;
     GtkWidget *color_picker;
     GtkWidget *mem_legend_box, *net_legend_box;
     LoadGraph *cpu_graph, *mem_graph, *net_graph;
@@ -314,23 +314,19 @@ create_sys_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (cpu_graph_box), hbox,
                         FALSE, FALSE, 0);
 
-    GtkWidget* cpu_table = gtk_table_new(std::min(procdata->config.num_cpus / 4, 1),
-                                         std::min(procdata->config.num_cpus, 4),
-                                         TRUE);
-    gtk_table_set_row_spacings(GTK_TABLE(cpu_table), 6);
-    gtk_table_set_col_spacings(GTK_TABLE(cpu_table), 6);
-    gtk_box_pack_start(GTK_BOX(hbox), cpu_table, TRUE, TRUE, 0);
+    GtkWidget* cpu_grid = gtk_grid_new();
+    gtk_grid_set_row_spacing(GTK_GRID(cpu_grid), 6);
+    gtk_grid_set_column_spacing(GTK_GRID(cpu_grid), 6);
+    gtk_grid_set_column_homogeneous(GTK_GRID(cpu_grid), TRUE);
+    gtk_box_pack_start(GTK_BOX(hbox), cpu_grid, TRUE, TRUE, 0);
 
     for (i=0;i<procdata->config.num_cpus; i++) {
         GtkWidget *temp_hbox;
 
         temp_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
-        gtk_table_attach(GTK_TABLE(cpu_table), temp_hbox,
-                 i % 4, i % 4 + 1,
-                 i / 4, i / 4 + 1,
-                 static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL),
-                 static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL),
-                 0, 0);
+        gtk_widget_set_hexpand (temp_hbox, TRUE);
+        gtk_grid_attach(GTK_GRID(cpu_grid), temp_hbox,
+                        i % 4, i / 4, 1, 1);
 
         color_picker = gsm_color_button_new (&cpu_graph->colors.at(i), GSMCP_TYPE_CPU);
         g_signal_connect (G_OBJECT (color_picker), "color_set",
@@ -393,10 +389,10 @@ create_sys_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (hbox), mem_legend_box,
                         TRUE, TRUE, 0);
 
-    table = gtk_table_new (2, 7, FALSE);
-    gtk_table_set_row_spacings (GTK_TABLE (table), 6);
-    gtk_table_set_col_spacings (GTK_TABLE (table), 6);
-    gtk_box_pack_start (GTK_BOX (mem_legend_box), table,
+    grid = gtk_grid_new ();
+    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
+    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
+    gtk_box_pack_start (GTK_BOX (mem_legend_box), grid,
                         TRUE, TRUE, 0);
 
     label_text = g_strdup(_("Memory"));
@@ -406,7 +402,7 @@ create_sys_view (ProcData *procdata)
     title_text = g_strdup_printf(title_template, label_text);
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_table_attach (GTK_TABLE (table), color_picker, 0, 1, 0, 2, GTK_SHRINK, GTK_SHRINK, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
     label = gtk_label_new (label_text);
     g_free(label_text);
@@ -415,23 +411,16 @@ create_sys_view (ProcData *procdata)
 #else
     gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table), label, 1, 7, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 7, 1);
 
-    gtk_table_attach (GTK_TABLE (table),
+    gtk_grid_attach (GTK_GRID (grid),
                       load_graph_get_labels(mem_graph)->memory,
-                      1,
-                      2,
-                      1,
-                      2,
-                      GTK_FILL,
-                      GTK_FILL,
-                      0,
-                      0);
+                      1, 1, 1, 1);
 
-    table = gtk_table_new (2, 7, FALSE);
-    gtk_table_set_row_spacings (GTK_TABLE (table), 6);
-    gtk_table_set_col_spacings (GTK_TABLE (table), 6);
-    gtk_box_pack_start (GTK_BOX (mem_legend_box), table,
+    grid = gtk_grid_new ();
+    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
+    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
+    gtk_box_pack_start (GTK_BOX (mem_legend_box), grid,
                         TRUE, TRUE, 0);
 
     label_text = g_strdup(_("Swap"));
@@ -441,7 +430,7 @@ create_sys_view (ProcData *procdata)
     title_text = g_strdup_printf(title_template, label_text);
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_table_attach (GTK_TABLE (table), color_picker, 0, 1, 0, 2, GTK_SHRINK, GTK_SHRINK, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
     label = gtk_label_new (label_text);
     g_free(label_text);
@@ -450,18 +439,11 @@ create_sys_view (ProcData *procdata)
 #else
     gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table), label, 1, 7, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 7, 1);
 
-    gtk_table_attach (GTK_TABLE (table),
+    gtk_grid_attach (GTK_GRID (grid),
                       load_graph_get_labels(mem_graph)->swap,
-                      1,
-                      2,
-                      1,
-                      2,
-                      GTK_FILL,
-                      GTK_FILL,
-                      0,
-                      0);
+                      1, 1, 1, 1);
 
     procdata->mem_graph = mem_graph;
 
@@ -496,10 +478,10 @@ create_sys_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (hbox), net_legend_box,
                         TRUE, TRUE, 0);
 
-    table = gtk_table_new (2, 4, FALSE);
-    gtk_table_set_row_spacings (GTK_TABLE (table), 6);
-    gtk_table_set_col_spacings (GTK_TABLE (table), 6);
-    gtk_box_pack_start (GTK_BOX (net_legend_box), table,
+    grid = gtk_grid_new ();
+    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
+    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
+    gtk_box_pack_start (GTK_BOX (net_legend_box), grid,
                         TRUE, TRUE, 0);
 
     label_text = g_strdup(_("Receiving"));
@@ -511,7 +493,7 @@ create_sys_view (ProcData *procdata)
     title_text = g_strdup_printf(title_template, label_text);
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_table_attach (GTK_TABLE (table), color_picker, 0, 1, 0, 2, GTK_SHRINK, GTK_SHRINK, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
     label = gtk_label_new (label_text);
     g_free(label_text);
@@ -520,7 +502,7 @@ create_sys_view (ProcData *procdata)
 #else
     gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table), label, 1, 2, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 1, 1);
 
 #if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in), 1.0);
@@ -531,8 +513,8 @@ create_sys_view (ProcData *procdata)
 #endif
 
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_in), 100, -1);
-    gtk_table_attach (GTK_TABLE (table), load_graph_get_labels(net_graph)->net_in, 2, 3, 0, 1,
-                      static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL), GTK_FILL, 0, 0);
+    gtk_widget_set_hexpand (load_graph_get_labels(net_graph)->net_in, TRUE);
+    gtk_grid_attach (GTK_GRID (grid), load_graph_get_labels(net_graph)->net_in, 2, 0, 1, 1);
 
     label = gtk_label_new (_("Total Received"));
 #if GTK_CHECK_VERSION (3, 16, 0)
@@ -540,7 +522,7 @@ create_sys_view (ProcData *procdata)
 #else
     gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table), label, 1, 2, 1, 2, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), label, 1, 1, 1, 1);
 
 #if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in_total), 1.0);
@@ -549,25 +531,18 @@ create_sys_view (ProcData *procdata)
                             1.0,
                             0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table),
-                      load_graph_get_labels(net_graph)->net_in_total,
-                      2,
-                      3,
-                      1,
-                      2,
-                      GTK_FILL,
-                      GTK_FILL,
-                      0,
-                      0);
+    gtk_grid_attach (GTK_GRID (grid),
+                     load_graph_get_labels(net_graph)->net_in_total,
+                     2, 1, 1, 1);
 
     spacer = gtk_label_new ("");
     gtk_widget_set_size_request(GTK_WIDGET(spacer), 38, -1);
-    gtk_table_attach (GTK_TABLE (table), spacer, 3, 4, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), spacer, 3, 0, 1, 1);
 
-    table = gtk_table_new (2, 3, FALSE);
-    gtk_table_set_row_spacings (GTK_TABLE (table), 6);
-    gtk_table_set_col_spacings (GTK_TABLE (table), 6);
-    gtk_box_pack_start (GTK_BOX (net_legend_box), table,
+    grid = gtk_grid_new ();
+    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
+    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
+    gtk_box_pack_start (GTK_BOX (net_legend_box), grid,
                         TRUE, TRUE, 0);
 
     label_text = g_strdup(_("Sending"));
@@ -579,7 +554,7 @@ create_sys_view (ProcData *procdata)
     title_text = g_strdup_printf(title_template, label_text);
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_table_attach (GTK_TABLE (table), color_picker, 0, 1, 0, 2, GTK_SHRINK, GTK_SHRINK, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
     label = gtk_label_new (label_text);
     g_free(label_text);
@@ -588,7 +563,7 @@ create_sys_view (ProcData *procdata)
 #else
     gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table), label, 1, 2, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 1, 1);
 
 #if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out), 1.0);
@@ -599,8 +574,8 @@ create_sys_view (ProcData *procdata)
 #endif
 
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_out), 100, -1);
-    gtk_table_attach (GTK_TABLE (table), load_graph_get_labels(net_graph)->net_out, 2, 3, 0, 1,
-                      static_cast<GtkAttachOptions>(GTK_EXPAND | GTK_FILL), GTK_FILL, 0, 0);
+    gtk_widget_set_hexpand (load_graph_get_labels(net_graph)->net_out, TRUE);
+    gtk_grid_attach (GTK_GRID (grid), load_graph_get_labels(net_graph)->net_out, 2, 0, 1, 1);
 
     label = gtk_label_new (_("Total Sent"));
 #if GTK_CHECK_VERSION (3, 16, 0)
@@ -608,7 +583,7 @@ create_sys_view (ProcData *procdata)
 #else
     gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table), label, 1, 2, 1, 2, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), label, 1, 1, 1, 1);
 
 #if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out_total), 1.0);
@@ -617,20 +592,13 @@ create_sys_view (ProcData *procdata)
                             1.0,
                             0.5);
 #endif
-    gtk_table_attach (GTK_TABLE (table),
+    gtk_grid_attach (GTK_GRID (grid),
                       load_graph_get_labels(net_graph)->net_out_total,
-                      2,
-                      3,
-                      1,
-                      2,
-                      GTK_FILL,
-                      GTK_FILL,
-                      0,
-                      0);
+                      2, 1, 1, 1);
 
     spacer = gtk_label_new ("");
     gtk_widget_set_size_request(GTK_WIDGET(spacer), 38, -1);
-    gtk_table_attach (GTK_TABLE (table), spacer, 3, 4, 0, 1, GTK_FILL, GTK_FILL, 0, 0);
+    gtk_grid_attach (GTK_GRID (grid), spacer, 3, 0, 1, 1);
 
     procdata->net_graph = net_graph;
     g_free(title_template);

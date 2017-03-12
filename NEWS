@@ -1,7 +1,10 @@
-### mate-system-monitor 1.17.0
+### mate-system-monitor 1.18.0
 
+  * NEWS: use consistent, project wide, markdown-like formatting
+    to make generating release announcements easier
   * Add pkexec support for using kill and renice on other users'
     processes, and try using it before trying gksu
+  * Fix some GTK+ deprecations
   * Translations update
 
 ### mate-system-monitor 1.16.0

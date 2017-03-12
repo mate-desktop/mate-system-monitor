@@ -6,15 +6,15 @@
 # crolidge, 2012
 # crolidge, 2014
 # Diogo Oliveira <diogodesigns@gmail.com>, 2015
-# alfalb_mansil, 2015
+# Manuela Silva <manuela.silva@sky.com>, 2015-2017
 # Sérgio Marques <smarquespt@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-09 11:28+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2017-01-13 02:41+0000\n"
+"Last-Translator: Manuela Silva <manuela.silva@sky.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/mate/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -721,47 +721,47 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
-msgstr ""
+msgstr "Mostrar a coluna 'Nome' do processo no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Width of process 'User' column"
-msgstr ""
+msgstr "Largura da coluna do processo \"Utilizador\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
-msgstr ""
+msgstr "Mostrar coluna do processo \"Utilizador\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr ""
+msgstr "Largura da coluna 'Estado' do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr ""
+msgstr "Mostrar coluna do processo 'Estado' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr ""
+msgstr "Largura da coluna 'Memória Virtual' do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr ""
+msgstr "Mostrar a coluna 'Memória Virtual' do processo no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr ""
+msgstr "Largura da coluna 'Memória Residente' do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr ""
+msgstr "Mostrar coluna do processo \"Memória Residente\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr ""
+msgstr "Largura da coluna 'Memória Gravável' do processo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr ""
+msgstr "Mostrar a coluna 'Memória Gravável' do processo no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
@@ -782,28 +782,28 @@ msgstr ""
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Largura da coluna do processo \"CPU %\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Mostrar coluna do processo \"CPU %\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
-msgstr ""
+msgstr "Largura da coluna do processo \"Tempo da CPU\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"
-msgstr ""
+msgstr "Mostrar coluna do processo \"Tempo da CPU\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Width of process 'Started' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Iniciado'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Show process 'Started' column on startup"
-msgstr ""
+msgstr "Mostrar coluna do processo \"Iniciado\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
@@ -815,11 +815,11 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Identificação'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Show process 'ID' column on startup"
-msgstr ""
+msgstr "Mostrar coluna do processo \"Identificação\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"

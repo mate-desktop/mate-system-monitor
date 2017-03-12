@@ -8,6 +8,7 @@
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005, 2006, 2007
 # Josep Puigdemont <josep.puigdemont@gmail.com>, 2007
 # Pere O. <gotrunks@gmail.com>, 2013
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015-2016
 # Softcatalà <info@softcatala.org>, 2000
 # Xavi Ivars <xavi.ivars@gmail.com>, 2016
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-07-02 19:35+0000\n"
+"PO-Revision-Date: 2017-02-19 08:18+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +38,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> El monitor de sistema de MATE permet visualitzar i manipular gràficament els processos en execució al sistema. També proporciona una visió de conjunt dels recursos disponibles, com ara la CPU i la memòria. </p> <p> El monitor de sistema de MATE és un fork del monitor de sistema de GNOME, i part de l'entorn d'escriptori MATE. Si voleu saber més sobre MATE i el monitor de sistema de MATE, si us plau, visiteu la pàgina principal del projecte. </p>"
+msgstr "<p> El monitor de sistema de MATE permet visualitzar i manipular gràficament els processos en execució al sistema. També proporciona una visió de conjunt dels recursos disponibles, com ara la CPU i la memòria. </p> <p> El monitor de sistema de MATE és una bifurcació del monitor de sistema de GNOME, i part de l'entorn d'escriptori MATE. Si voleu saber més sobre MATE i el monitor de sistema de MATE, si us plau, visiteu la pàgina principal del projecte. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -504,12 +505,12 @@ msgstr "_Resultats de la cerca:"
 #. xgettext: virtual memory start
 #: ../src/memmaps.cpp:307
 msgid "VM Start"
-msgstr "Inici de la MV"
+msgstr "Principi de la MV"
 
 #. xgettext: virtual memory end
 #: ../src/memmaps.cpp:309
 msgid "VM End"
-msgstr "Fi de la MV"
+msgstr "Final de la MV"
 
 #. xgettext: virtual memory syze
 #: ../src/memmaps.cpp:311
@@ -776,11 +777,11 @@ msgstr "Mostra a l'inici la columna «Memòria compartida» del procés"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr "Amplada de la columna «Memòria del servidor X» del procés"
+msgstr "Amplada de la columna «Memòria del servidor de les X» del procés"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr "Mostra a l'inici la columna «Memòria del servidor X» del procés"
+msgstr "Mostra a l'inici la columna «Memòria del servidor de les X» del procés"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
@@ -1147,7 +1148,7 @@ msgstr "Memòria compartida"
 
 #: ../src/proctable.cpp:248 ../src/procproperties.cpp:124
 msgid "X Server Memory"
-msgstr "Memòria del servidor X"
+msgstr "Memòria del servidor de les X"
 
 #: ../src/proctable.cpp:249
 #, no-c-format

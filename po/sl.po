@@ -5,7 +5,7 @@
 # Translators:
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2002
 # Damir Jerovšek <jierro@windowslive.com>, 2013
-# Damir MEVKIĆ <damir.mevkic@gmail.com>, 2015
+# Damir Mevkić <damir.mevkic@gmail.com>, 2015
 # worm <thewormhole@gmail.com>, 2015
 msgid ""
 msgstr ""

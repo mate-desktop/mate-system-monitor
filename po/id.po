@@ -5,7 +5,7 @@
 # Translators:
 # Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006
 # Dirgita <dirgitadevina@gmail.com>, 2010
-# Mohamad Hasan Al Banna <se7entime@protonmail.com>, 2012
+# Mohamad Hasan Al Banna <se7entime@openmailbox.org>, 2012
 # Mohammad DAMT <mdamt@bisnisweb.com>, 2005
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2014,2016
 msgid ""

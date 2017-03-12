@@ -3,19 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>, 2017
 # alexandros_ <alexandros.venn@gmail.com>, 2015
 # Angelos Chraniotis <chraniotis@gmail.com>, 2016
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2015-2016
 # Kostas Papadimas <pkst@gnome.org>, 2003, 2004, 2005, 2008
 # Nikos Charonitakis <frolix68@yahoo.gr>, 2004
 # Simos Xenitellis ,<simos74@gmx.net>, 2002
+# Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>, 2017
+# Γιώργος Μηντζιλώνης, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-04-30 13:31+0000\n"
-"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
+"PO-Revision-Date: 2017-02-07 20:15+0000\n"
+"Last-Translator: Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>\n"
 "Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +38,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr ""
+msgstr "<p>Το σύστημα παρακολούθησης MATE επιτρέπει να δείτε τα γραφικά και να χειριστείτε τις διεργασίες που τρέχουν στο σύστημά σας. Επίσης, παρέχει μια επισκόπηση των διαθέσιμων πόρων, όπως η CPU και μνήμη. </p> <p> Το σύστημα παρακολούθησης MATE είναι ένα παρακλάδι του συστήματος παρακολούθησης GNOME και μέρος του περιβάλλοντος εργασίας MATE. Εάν θέλε να μάθετε περισσότερα σχετικά με το MATE και το σύστημα παρακολούθησης MATE, παρακαλούμε επισκεφθείτε την ιστοσελίδα τους. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -60,7 +63,7 @@ msgstr "Προβολή καρτέλας διεργασιών"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "Προβολή Καρτέλας Πόρων"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
@@ -68,7 +71,7 @@ msgstr "Προβολή καρτέλας συστήματος αρχείων"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Σίμος Ξενιτέλλης <simos@gnome.org>, 2009\nΚώστας Παπαδήμας <pkst@gnome.org>, 2009\nΝίκος Χαρωνιτάκης <nikosx@gmail.com>, 2009\nΤζένη Πετούμενου <epetoumenou@gmail.com>, 2009"
+msgstr "Σίμος Ξενιτέλλης <simos@gnome.org>, 2009\nΚώστας Παπαδήμας <pkst@gnome.org>, 2009\nΝίκος Χαρωνιτάκης <nikosx@gmail.com>, 2009\nΤζένη Πετούμενου <epetoumenou@gmail.com>, 2009\nΑλέξανδρος Μουχτσής <alexandros@gnugr.org>, 2016"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -131,7 +134,7 @@ msgstr "Κλάσμα"
 #. percentage property
 #: ../src/gsm_color_button.c:197
 msgid "Percentage full for pie color pickers"
-msgstr ""
+msgstr "Πλήρες ποσοστό για επιλογείς χρώματος πίτας"
 
 #: ../src/gsm_color_button.c:204
 msgid "Title"
@@ -229,7 +232,7 @@ msgstr "Επιβολή άμεσου τερματισμού μιας διεργα
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr ""
+msgstr "_Αλλαγή προτεραιότητας"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
@@ -314,7 +317,7 @@ msgstr "Οι διεργασίες _μου"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Προβολή διεργασιών του χρήστη"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:221
 msgid "Very High"
@@ -322,7 +325,7 @@ msgstr "Πολύ Υψηλή"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Ορισμός προτεραιότητας διεργασίας στο πολύ υψηλό "
 
 #: ../src/interface.cpp:116 ../src/util.cpp:223
 msgid "High"
@@ -330,7 +333,7 @@ msgstr "Υψηλή"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Ορισμός προτεραιότητας διεργασίας στο υψηλό "
 
 #: ../src/interface.cpp:118 ../src/util.cpp:225
 msgid "Normal"
@@ -338,7 +341,7 @@ msgstr "Κανονική"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Ορισμός προτεραιότητας διεργασίας στο κανονικό"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:227
 msgid "Low"
@@ -346,15 +349,15 @@ msgstr "Χαμηλή "
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Ορισμός προτεραιότητας διεργασίας στο χαμηλό"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:229
 msgid "Very Low"
-msgstr ""
+msgstr "Πολύ Χαμηλό"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Ορισμός προτεραιότητας διεργασίας στο πολύ χαμηλό"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
@@ -362,7 +365,7 @@ msgstr "Προσαρμοσμένη"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Ορισμός προτεραιότητας διεργασίας χειροκίνητα "
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -463,7 +466,7 @@ msgstr "Σφάλμα"
 #: ../src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr ""
+msgstr "Το '%s' είναι μη έγκυρη κοινή έκφραση Perl"
 
 #: ../src/lsof.cpp:268
 msgid "Process"
@@ -489,7 +492,7 @@ msgstr "Το ό_νομα περιέχει:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:343
 msgid "C_lear"
-msgstr ""
+msgstr "Ε_κκαθάριση"
 
 #: ../src/lsof.cpp:347
 msgid "Case insensitive matching"
@@ -606,13 +609,13 @@ msgstr "_Αρχεία που ανοίχθηκαν από τη διεργασία
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "Κύριο μέγεθος και θέση παραθύρου στη φόρμα (πλάτος, ύψος, θέσηx, θέσηy)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr ""
+msgstr "Αν είναι αληθές, το κύριο παράθυρο θα ανοίξει μεγιστοποιημένο, και οι αποθηκευμένες τιμές μεγέθους και θέσης θα αγνοηθούν. "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -627,7 +630,7 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr ""
+msgstr "Αν είναι αληθές, η εποπτεία συστήματος θα λειτουργεί σε \"Solaris mode\" όταν η χρήση μίας διεργασίας του επεξεργαστή διαιρεθεί από το συνολικό αριθμό των πυρήνων. Αλλιώς, θα λειτουργεί σε \"Irix mode\"."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -647,14 +650,14 @@ msgstr "Χρόνος σε χιλιοστά δευτερολέπτου ανάμε
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:10
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "Αν θα προβάλλονται πληροφορίες για όλα τα συστήματα αρχείων"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:11
 msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr ""
+msgstr "Αν θα εμφανίζονται πληροφορίες για όλα τα συστήματα αρχείων (αυτό περιλαμβάνει τύπους συστημάτων αρχείων όπως 'autofs' και 'procfs'). Είναι χρήσιμο για τη λήψη όλων των τρεχόντων προσαρτημένων συστημάτων αρχείων."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -718,133 +721,133 @@ msgstr "Σειρά ταξινόμησης προβολής διεργασίας"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Width of process 'Name' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Ονόματος'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Όνομα' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Width of process 'User' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Χρήστη'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης διεργασίας 'Ιδιοκτήτης' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr ""
+msgstr "Πλάτος στήλης διεργασίας 'Κατάσταση'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης διεργασίας 'Κατάσταση' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr ""
+msgstr "Πλάτος διεργασίας στήλης 'Εικονική Μνήμη'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλη διεργασίας  'Εικονική Μνήμη' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr ""
+msgstr "Πλάτος στήλης διεργασίας 'Παραμένουσα Μνήμη'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης διεργασίας 'Παραμένουσα Μνήμη' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Εγγράψιμη Μνήμη'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Εγγράψιμη Μνήμη' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Κοινόχρηστη Μνήμη'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Κοινόχρηστης Μνήμη' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Μνήμη Εξυπηρετητή X'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Μνήμη Εξυπηρετητή X' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Πλάτος στήλης '% CPU'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης '% CPU' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Ώρα CPU'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Ώρας CPU' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Width of process 'Started' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Εκκίνηση'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Show process 'Started' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Εκκίνηση' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Nice'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Nice' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'ID'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Show process 'ID' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'ID' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Περιβάλλον Ασφάλειας'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Show process 'Security Context' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης διεργασίας 'Περιεχόμενο Ασφαλείας' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Width of process 'Command Line' column"
-msgstr ""
+msgstr "Πλάτος στήλης διεργασίας 'Command Line'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Show process 'Command Line' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'nice' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Width of process 'Memory' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'ιδιοκτήτης'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Show process 'Memory' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'ιδιοκτήτης' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:60
 msgid "Width of process 'Waiting Channel' column"
@@ -856,185 +859,185 @@ msgstr "Εμφάνιση στήλης 'κανάλι αναμονής' κατά �
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:62
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "Πλάτος στήλης διεργασίας 'Έλεγχος Ομάδας'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:63
 msgid "Show process 'Control Group' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης διεργασίας 'Έλεγχος Ομάδας' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:64
 msgid "Width of process 'Unit' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Μονάδας'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:65
 msgid "Show process 'Unit' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Μονάδας' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:66
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Συνεδρίας'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:67
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Συνεδρίας' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:68
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Θέσης'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:69
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Θέσης' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:70
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Ιδιοκτήτης'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:71
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Ιδιοκτήτης' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:72
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "Πλάτος στήλης 'Προτεραιότητα'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:73
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "Εμφάνιση στήλης 'Προτεραιότητας' κατά την εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:74
 msgid "Disk view sort column"
-msgstr ""
+msgstr "Στήλη ταξινόμησης προβολής δίσκου"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:75
 msgid "Disk view sort order"
-msgstr ""
+msgstr "Σειρά ταξινόμησης προβολής δίσκου"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:76
 msgid "Disk view columns order"
-msgstr "Σειρά ταξινόμησης προβολής δίσκου"
+msgstr "Σειρά στηλών ταξινόμησης της προβολής δίσκου"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:77
 msgid "Width of disk view 'Device' column"
-msgstr ""
+msgstr "Προβολή του πλάτους του δίσκου της στήλης 'Συσκευή'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:78
 msgid "Show disk view 'Device' column on startup"
-msgstr ""
+msgstr "Εμφάνιση της προβολής δίσκου της στήλης 'Συσκευή' στην εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Width of disk view 'Directory' column"
-msgstr ""
+msgstr "Προβολή του πλάτους του δίσκου της στήλης 'Κατάλογος'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:80
 msgid "Show disk view 'Directory' column on startup"
-msgstr ""
+msgstr "Εμφάνιση της προβολής δίσκου της στήλης 'Κατάλογος' στην εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:81
 msgid "Width of disk view 'Type' column"
-msgstr ""
+msgstr "Προβολή του πλάτους του δίσκου της στήλης 'Τύπος'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:82
 msgid "Show disk view 'Type' column on startup"
-msgstr ""
+msgstr "Εμφάνιση της προβολής δίσκου της στήλης 'Τύπος' στην εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:83
 msgid "Width of disk view 'Total' column"
-msgstr ""
+msgstr "Προβολή του πλάτους του δίσκου της στήλης 'Συνολικός'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:84
 msgid "Show disk view 'Total' column on startup"
-msgstr ""
+msgstr "Εμφάνιση της προβολής δίσκου της στήλης 'Συνολικός' στην εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:85
 msgid "Width of disk view 'Free' column"
-msgstr ""
+msgstr "Προβολή του πλάτους του δίσκου της στήλης 'Ελεύθερος'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:86
 msgid "Show disk view 'Free' column on startup"
-msgstr ""
+msgstr "Εμφάνιση της προβολής δίσκου της στήλης 'Ελεύθερος' στην εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:87
 msgid "Width of disk view 'Available' column"
-msgstr ""
+msgstr "Προβολή του πλάτους του δίσκου της στήλης 'Διαθέσιμος'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:88
 msgid "Show disk view 'Available' column on startup"
-msgstr ""
+msgstr "Εμφάνιση της προβολής δίσκου της στήλης 'Διαθέσιμος' στην εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:89
 msgid "Width of disk view 'Used' column"
-msgstr ""
+msgstr "Προβολή του πλάτους του δίσκου της στήλης 'Χρησιμοποιούμενος'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:90
 msgid "Show disk view 'Used' column on startup"
-msgstr ""
+msgstr "Εμφάνιση της προβολής του δίσκου της στήλης 'Χρησιμοποιούμενος' στην εκκίνηση"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:91
 msgid "Memory map sort column"
-msgstr ""
+msgstr "Στήλη ταξινόμησης χάρτη μνήμης"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:92
 msgid "Memory map sort order"
-msgstr ""
+msgstr "Σειρά ταξινόμησης χάρτη μνήμης"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:93
 msgid "Open files sort column"
-msgstr ""
+msgstr "Άνοιγμα αρχείων ταξινομημένα κατά στήλη"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:94
 msgid "Open files sort order"
-msgstr ""
+msgstr "Άνοιγμα αρχείων ταξινομημένα κατά σειρά"
 
 #: ../src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "Αδυναμία αλλαγής της σειράς προτεραιότητας μιας διεργασίας με PID  %d to %d.\n %s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "Αδυναμία βίαου τερματισμού διεργασίας με PID %d με σήμα %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Βίαιος τερματισμός της επιλεγμένης διεργασίας “%s” (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "Ο βίαιος τερματισμός μια διεργασίας, μπορεί να καταστρέψει τα δεδομένα και τη συνεδρία σας, ή να δημιουργήσει ένα κενό ασφαλείας. Θα πρέπει να τερματίζετε βίαια μόνο προβληματικές διεργασίες."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Βίαιος τερματισμός της επιλεγμένης διεργασίας “%s” (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "Ο τερματισμός μια διεργασίας, μπορεί να καταστρέψει τα δεδομένα και τη συνεδρία σας, ή να δημιουργήσει ένα κενό ασφαλείας. Θα πρέπει να τερματίζετε μόνο προβληματικές διεργασίες."
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(%s Προτεραιότητα)"
 
 #: ../src/procdialogs.cpp:169
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr ""
+msgstr "Αλλαγή προτεραιότητας της διεργασίας “%s” (PID: %u)"
 
 #: ../src/procdialogs.cpp:181
 msgid "Change _Priority"
@@ -1081,7 +1084,7 @@ msgstr "Εμφάνιση διαλόγου προειδοποίησης κατά 
 
 #: ../src/procdialogs.cpp:644
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "Διαίρεση χρήσης CPU με τον αριθμό CPU"
 
 #: ../src/procdialogs.cpp:645
 msgid "Solaris mode"
@@ -1105,7 +1108,7 @@ msgstr "Εμφάνιση της ταχύτητας δικτύου σε bit"
 
 #: ../src/procdialogs.cpp:808
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Εμφάνιση_όλων των συστημάτων αρχείων"
 
 #: ../src/procdialogs.cpp:839
 msgid "File system i_nformation shown in list:"
@@ -1162,7 +1165,7 @@ msgstr "Ξεκίνησε"
 
 #: ../src/proctable.cpp:252 ../src/procproperties.cpp:128
 msgid "Nice"
-msgstr "Nice"
+msgstr "Ευγενικό"
 
 #: ../src/proctable.cpp:253 ../src/procproperties.cpp:130
 msgid "ID"
@@ -1184,7 +1187,7 @@ msgstr "Κανάλι αναμονής"
 
 #: ../src/proctable.cpp:259 ../src/procproperties.cpp:134
 msgid "Control Group"
-msgstr ""
+msgstr "Ομάδα Ελέγχου"
 
 #: ../src/proctable.cpp:260
 msgid "Unit"
@@ -1200,7 +1203,7 @@ msgstr "Συνεδρία"
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
 #: ../src/proctable.cpp:264
 msgid "Seat"
-msgstr ""
+msgstr "Θέση"
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
@@ -1222,19 +1225,19 @@ msgstr "N/A"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
-msgstr ""
+msgstr "Ιδιότητες Διεργασιών"
 
 #: ../src/procproperties.cpp:262
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "Ιδιότητες της διαδικασίας \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "Κυκλοφορία  %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"

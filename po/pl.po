@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
@@ -445,6 +445,7 @@ msgid_plural "%u seconds"
 msgstr[0] "%u sekunda"
 msgstr[1] "%u sekundy"
 msgstr[2] "%u sekund"
+msgstr[3] "%u sekund"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -1366,6 +1367,7 @@ msgid_plural "%u bits"
 msgstr[0] "%u bit"
 msgstr[1] "%u bity"
 msgstr[2] "%u bitów"
+msgstr[3] "%u bitów"
 
 #: ../src/util.cpp:193
 #, c-format
@@ -1374,6 +1376,7 @@ msgid_plural "%u bytes"
 msgstr[0] "%u bajt"
 msgstr[1] "%u bajty"
 msgstr[2] "%u bajtów"
+msgstr[3] "%u bajtów"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:587

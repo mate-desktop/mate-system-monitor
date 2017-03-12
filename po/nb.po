@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-05-01 01:29+0000\n"
+"PO-Revision-Date: 2016-11-19 14:46+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -234,7 +234,7 @@ msgstr "Endre prioritet for en prosess"
 
 #: ../src/interface.cpp:74
 msgid "Configure the application"
-msgstr "Konfigurer programmet"
+msgstr "Sett opp programmet"
 
 #: ../src/interface.cpp:76
 msgid "_Refresh"
@@ -683,7 +683,7 @@ msgstr "Forvalgt farge for cpu-graf"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:18
 msgid "Default graph memory color"
-msgstr "Standardfarge for hukommelsesgraf"
+msgstr "Forvalgt farge for hukommelsesgraf"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:19
 msgid "Default graph swap color"

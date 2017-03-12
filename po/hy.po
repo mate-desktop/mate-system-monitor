@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-07-23 09:39+0000\n"
+"PO-Revision-Date: 2016-09-20 15:40+0000\n"
 "Last-Translator: hrexen <mdavit@student.ethz.ch>\n"
 "Language-Team: Armenian (http://www.transifex.com/mate/MATE/language/hy/)\n"
 "MIME-Version: 1.0\n"
@@ -714,7 +714,7 @@ msgstr "Գործընթացի տեսքի դասավորման կարգ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Width of process 'Name' column"
-msgstr ""
+msgstr "Գործընթացի 'Անուն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
@@ -722,7 +722,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Width of process 'User' column"
-msgstr ""
+msgstr "Գործընթացի 'Սեփականատեր' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
@@ -730,7 +730,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr ""
+msgstr "Գործընթացի 'Կարգավիճակ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
@@ -738,7 +738,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr ""
+msgstr "Գործընթացի 'Վիրտուալ հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
@@ -746,7 +746,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr ""
+msgstr "Գործընթացի 'Ռեզիդենտ հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
@@ -754,7 +754,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr ""
+msgstr "Գործընթացի 'Գրելի հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
@@ -762,7 +762,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr ""
+msgstr "Գործընթացի 'Բաժանված հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
@@ -770,7 +770,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr ""
+msgstr "Գործընթացի 'X սերվերի հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
@@ -779,7 +779,7 @@ msgstr ""
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Գործընթացի 'ԿՄՀ %' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
@@ -788,7 +788,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
-msgstr ""
+msgstr "Գործընթացի 'ԿՄՀ ժամանակ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"
@@ -796,7 +796,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Width of process 'Started' column"
-msgstr ""
+msgstr "Գործընթացի 'Կարգավիճակ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Show process 'Started' column on startup"
@@ -804,7 +804,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
-msgstr ""
+msgstr "Գործընթացի 'Գեղեցիկ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
@@ -812,7 +812,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
-msgstr ""
+msgstr "Գործընթացի 'ID' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Show process 'ID' column on startup"
@@ -820,7 +820,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"
-msgstr ""
+msgstr "Գործընթացի 'Անվտանգության համատեքստ' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Show process 'Security Context' column on startup"
@@ -836,7 +836,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Width of process 'Memory' column"
-msgstr ""
+msgstr "Գործընթացի 'Հիշողություն' սյունակի լայնությունը"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Show process 'Memory' column on startup"

@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Atilla Öntaş <tarakbumba@gmail.com>, 2015
-# Atilla Öntaş <tarakbumba@gmail.com>, 2015
+# tarakbumba <tarakbumba@gmail.com>, 2015
+# tarakbumba <tarakbumba@gmail.com>, 2015
 # Baris Cicek <baris@teamforce.name.tr>, 2007-2009
 # Baris Cicek <baris@teamforce.name.tr>, 2007, 208, 2009
 # Davut Topcan <davut@aysis.com.tr>, 2004-2005

@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Fitoschido, 2013
-# Fitoschido, 2015
+# Adolfo Jayme-Barrientos, 2013
+# Adolfo Jayme-Barrientos, 2015
 # Carlos Perelló Marín <carlos@mate-db.org>, 2001
 # Emiliano Fascetti, 2014-2015
 # Francisco Javier F. Serrador <serrador@cvs.mate.org>, 2004, 2005, 2006

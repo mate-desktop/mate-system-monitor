@@ -8,13 +8,14 @@
 # Henrik Mattsson-Mårn <h@reglage.net>, 2016
 # Jonatan Nyberg <jonatan@autistici.org>, 2016
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015-2016
+# Tobias Lekare <lekare@linux.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-10-18 10:50+0000\n"
-"Last-Translator: Jonatan Nyberg <jonatan@autistici.org>\n"
+"PO-Revision-Date: 2017-02-06 14:54+0000\n"
+"Last-Translator: Tobias Lekare <lekare@linux.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -605,13 +606,13 @@ msgstr "_Filer som öppnats av processen \"%s\" (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "Huvudfönsterstorlek och position i formatet (bredd, höjd, XPOS, ypos)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr ""
+msgstr "Om SANT så kommer huvudfönstret att öppnas maximerat och sparade storleks-/positionsvärden kommer ignoreras."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -701,7 +702,7 @@ msgstr "Färg på standarddiagram för utgående nätverkstrafik"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:22
 msgid "Show network traffic in bits"
-msgstr ""
+msgstr "Visa nätverkstrafik i bits"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:23
 msgid "Process view sort column"
@@ -1033,7 +1034,7 @@ msgstr "(%s prioritet)"
 #: ../src/procdialogs.cpp:169
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr ""
+msgstr "Ändra prioritet för Process “%s” (PID: %u)"
 
 #: ../src/procdialogs.cpp:181
 msgid "Change _Priority"
@@ -1080,7 +1081,7 @@ msgstr "Varna innan processer avslutas eller _dödas"
 
 #: ../src/procdialogs.cpp:644
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "Dela CPU-användning med CPU-antal"
 
 #: ../src/procdialogs.cpp:645
 msgid "Solaris mode"
@@ -1183,7 +1184,7 @@ msgstr "Väntande kanal"
 
 #: ../src/proctable.cpp:259 ../src/procproperties.cpp:134
 msgid "Control Group"
-msgstr ""
+msgstr "Kontrollgrupp"
 
 #: ../src/proctable.cpp:260
 msgid "Unit"
@@ -1221,7 +1222,7 @@ msgstr "N/A"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
-msgstr ""
+msgstr "Processegenskaper"
 
 #: ../src/procproperties.cpp:262
 #, c-format
@@ -1336,27 +1337,27 @@ msgstr "%.1f GiB"
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f TiB"
 
 #: ../src/util.cpp:174
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g kbit"
 
 #: ../src/util.cpp:175
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Mbit"
 
 #: ../src/util.cpp:176
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Gbit"
 
 #: ../src/util.cpp:177
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Tbit"
 
 #: ../src/util.cpp:192
 #, c-format

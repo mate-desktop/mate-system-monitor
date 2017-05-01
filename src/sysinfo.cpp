@@ -688,15 +688,12 @@ add_section(GtkBox *vbox , const char * title, int num_row, int num_col, GtkWidg
     gtk_frame_set_shadow_type(GTK_FRAME(frame), GTK_SHADOW_NONE);
     gtk_box_pack_start(GTK_BOX(vbox), frame, FALSE, FALSE, 0);
 
-    GtkWidget *alignment = gtk_alignment_new(0.5, 0.5, 1.0, 1.0);
-    gtk_alignment_set_padding(GTK_ALIGNMENT(alignment), 0, 0, 12, 0);
-    gtk_container_add(GTK_CONTAINER(frame), alignment);
-
     table = gtk_grid_new();
     gtk_grid_set_row_spacing(GTK_GRID(table), 6);
     gtk_grid_set_column_spacing(GTK_GRID(table), 6);
+    gtk_widget_set_margin_start (GTK_WIDGET(table), 12);
     gtk_container_set_border_width(GTK_CONTAINER(table), 6);
-    gtk_container_add(GTK_CONTAINER(alignment), table);
+    gtk_container_add(GTK_CONTAINER(frame), table);
 
     if(out_frame)
         *out_frame = frame;

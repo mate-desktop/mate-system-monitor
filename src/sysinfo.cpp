@@ -600,15 +600,15 @@ namespace {
 
     SysInfo* get_sysinfo()
     {
-        if (g_file_test ("/etc/linuxmint/info", G_FILE_TEST_EXISTS)) {
+        if (char *p = g_find_program_in_path("lsb_release")) {
+            g_free(p);
+            return new LSBSysInfo;
+        }
+        else if (g_file_test ("/etc/linuxmint/info", G_FILE_TEST_EXISTS)) {
             return new MintSysInfo;
         }
         else if (g_file_test ("/etc/os-release", G_FILE_TEST_EXISTS)) {
             return new GenericSysInfo;
-        }
-        else if (char *p = g_find_program_in_path("lsb_release")) {
-            g_free(p);
-            return new LSBSysInfo;
         }
         else if (SysInfo::system() == "SunOS") {
             return new SolarisSysInfo;

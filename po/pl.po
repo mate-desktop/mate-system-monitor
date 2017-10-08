@@ -6,25 +6,26 @@
 # Darek Witkowski, 2016
 # Marcin Kralka <marcink96@gmail.com>, 2014
 # Paweł Bandura <gawelx@gmail.com>, 2015
-# Piotr Strębski <strebski@o2.pl>, 2015-2016
+# Piotr Drąg <piotrdrag@gmail.com>, 2017
+# Piotr Strębski <strebski@gmail.com>, 2015-2016
 # Wiktor Jezioro <wikjezioro@op.pl>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-04-08 01:24+0000\n"
-"Last-Translator: Darek Witkowski\n"
+"PO-Revision-Date: 2017-09-23 18:17+0000\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/mate/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Monitor procesów i zasobów dla środowiska graficznego MATE"
+msgstr "Monitor procesów i zasobów dla środowiska MATE"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -34,11 +35,11 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> Monitor Systemu MATE pozwala na graficzne przedstawienie oraz manipulowanie uruchomionych procesów w twoim systemie. Dostarcza również podgląd dostępnych zasobów, takich jak CPU i pamięci. </p> <p> Monitor Systemu MATE jest forkiem Monitora Systemu GNOME i jest częścią Środowiska Graficznego MATE. Jeżeli chciałbyś dowiedzieć się więcej na temat MATE i Monitora Systemu, proszę odwiedzić stronę domową projektu. </p>"
+msgstr "<p> Monitor Systemu MATE umożliwia graficzne przedstawienie oraz manipulowanie uruchomionych procesów w systemie. Dostarcza również podgląd dostępnych zasobów, takich jak CPU i pamięci. </p> <p> Monitor systemu MATE jest forkiem Monitora systemu GNOME i jest częścią środowiska MATE. Jeżeli chcesz dowiedzieć się więcej na temat MATE i Monitora systemu, proszę odwiedzić stronę domową projektu. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr "Monitor Systemu MATE"
+msgstr "Monitor systemu MATE"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
 #: ../src/interface.cpp:712 ../src/procman.cpp:713
@@ -67,7 +68,7 @@ msgstr "Wyświetla kartę plików systemowych"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Aviary.pl <matepl@aviary.pl>, 2008, 2009, 2010\nMarcin Kralka <marcink96@gmail.com>, 2014"
+msgstr "Tłumacze środowiska MATE, 2013-2017\n\nZbigniew Chyla, 2001-2002\nArtur Flinta, 2003-2005\nWadim Dziedzic, 2007-2009\nTomasz Dominikowski, 2007-2009\nPiotr Zaryk, 2008\nPiotr Drąg, 2010\nAviary.pl, 2007-2010"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -112,11 +113,11 @@ msgstr "Wczoraj o %H:%M"
 
 #: ../src/e_date.c:183
 msgid "%a %l:%M %p"
-msgstr "%a %H:%M"
+msgstr "%a, %H:%M"
 
 #: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
-msgstr "%d %b %H:%M"
+msgstr "%d %b, %H:%M"
 
 #: ../src/e_date.c:193
 msgid "%b %d %Y"
@@ -372,7 +373,7 @@ msgstr "Za_kończ proces"
 #: ../src/interface.cpp:283
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr "Wybierz kolor dla '%s'"
+msgstr "Wybierz kolor dla \"%s\""
 
 #: ../src/interface.cpp:294
 msgid "CPU History"
@@ -464,7 +465,7 @@ msgstr "Błąd"
 #: ../src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr "'%s' nie jest poprawnym wyrażeniem regularnym Perl."
+msgstr "\"%s\" nie jest poprawnym wyrażeniem regularnym Perl."
 
 #: ../src/lsof.cpp:268
 msgid "Process"
@@ -735,61 +736,61 @@ msgstr "Wyświetlanie kolumny \"Użytkownik\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr "Szerokość kolumny procesu \"Status\""
+msgstr "Szerokość kolumny procesu \"Stan\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr "Wyświetlanie kolumny 'Status' podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"Stan\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr "Szerokość kolumny procesu \"Pamięć Wirtualna\""
+msgstr "Szerokość kolumny procesu \"Pamięć wirtualna\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr "Wyświetlanie kolumny \"Pamięci Wirtualna\" podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"Pamięci wirtualna\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr "Szerokość kolumny \"Pamięć Rezydentna\""
+msgstr "Szerokość kolumny \"Pamięć rezydentna\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr "Wyświetlanie kolumny \"Pamięć Rezydentna\" podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"Pamięć rezydentna\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr "Szerokość kolumny \"Pamięć Zapisywalna\""
+msgstr "Szerokość kolumny \"Pamięć zapisywalna\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr "Wyświetlanie kolumny \"Pamięć Zapisywalna\" podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"Pamięć zapisywalna\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr "Szerokość kolumny \"Pamięć Współdzielona\""
+msgstr "Szerokość kolumny \"Pamięć współdzielona\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr "Wyświetlanie kolumny \"Pamięć Współdzielona\" podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"Pamięć współdzielona\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr "Szerokość kolumny \"Pamięci X Serwera\""
+msgstr "Szerokość kolumny \"Pamięć serwera X\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr "Wyświetlanie kolumny \"Pamięci X Serwera\" podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"Pamięć serwera X\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr "Szerokość kolumny \"CPU %\""
+msgstr "Szerokość kolumny \"% procesora\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Wyświetlanie kolumny \"CPU %\" podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"% procesora\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
@@ -857,11 +858,11 @@ msgstr "Wyświetlanie kolumny \"Kanał oczekujący\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:62
 msgid "Width of process 'Control Group' column"
-msgstr "Szerokość kolumny \"Grupa Kontrolna\""
+msgstr "Szerokość kolumny \"Grupa kontrolna\""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:63
 msgid "Show process 'Control Group' column on startup"
-msgstr "Wyświetlanie kolumny \"Grupa Kontrolna\" podczas uruchomienia"
+msgstr "Wyświetlanie kolumny \"Grupa kontrolna\" podczas uruchomienia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:64
 msgid "Width of process 'Unit' column"
@@ -1035,7 +1036,7 @@ msgstr "(Priorytet %s)"
 #: ../src/procdialogs.cpp:169
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr "Zmień priorytet procesu »%s« (PID: %u)"
+msgstr "Zmień priorytet procesu \"%s\" (PID: %u)"
 
 #: ../src/procdialogs.cpp:181
 msgid "Change _Priority"
@@ -1082,7 +1083,7 @@ msgstr "Ostrzeżenie przed _kończeniem lub usuwaniem procesów"
 
 #: ../src/procdialogs.cpp:644
 msgid "Divide CPU usage by CPU count"
-msgstr "Podziel użycie CPU względem ilości CPU"
+msgstr "Podziel użycie CPU względem liczby CPU"
 
 #: ../src/procdialogs.cpp:645
 msgid "Solaris mode"
@@ -1146,7 +1147,7 @@ msgstr "Pamięć współdzielona"
 
 #: ../src/proctable.cpp:248 ../src/procproperties.cpp:124
 msgid "X Server Memory"
-msgstr "Pamięć X serwera"
+msgstr "Pamięć serwera X"
 
 #: ../src/proctable.cpp:249
 #, no-c-format
@@ -1343,22 +1344,22 @@ msgstr "%.1f TiB"
 #: ../src/util.cpp:174
 #, c-format
 msgid "%.3g kbit"
-msgstr "%.3g kbit"
+msgstr "%.3g kb"
 
 #: ../src/util.cpp:175
 #, c-format
 msgid "%.3g Mbit"
-msgstr "%.3g Mbit"
+msgstr "%.3g Mb"
 
 #: ../src/util.cpp:176
 #, c-format
 msgid "%.3g Gbit"
-msgstr "%.3g Gbit"
+msgstr "%.3g Gb"
 
 #: ../src/util.cpp:177
 #, c-format
 msgid "%.3g Tbit"
-msgstr "%.3g Tbit"
+msgstr "%.3g Tb"
 
 #: ../src/util.cpp:192
 #, c-format

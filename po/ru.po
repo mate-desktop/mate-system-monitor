@@ -8,7 +8,7 @@
 # AlexL <loginov.alex.valer@gmail.com>, 2015-2016
 # Andreï Victorovitch Kostyrka, 2016
 # Andrew W. Nosenko <awn@bcs.zp.ua>, 2003
-# Дмитрий Михирев <bizdelnick@gmail.com>, 2015
+# Дмитрий Михирев, 2015
 # Eugene V. Samusev <inactive+bitlz@transifex.com>, 2014
 # Leonid Kanter <leon@asplinux.ru>, 2004, 2005, 2006
 # Sergey Volozhanin <svo@asplinux.ru>, 2001
@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-28 17:22+0000\n"
+"PO-Revision-Date: 2017-09-23 18:17+0000\n"
 "Last-Translator: Andreï Victorovitch Kostyrka\n"
 "Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"

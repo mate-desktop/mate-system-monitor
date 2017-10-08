@@ -3,17 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2017
 # Gintautas Miliauskas <gintas@akl.lt>, 2006, 2008
 # Justina Klingaitė <justina.klingaite@gmail.com>, 2005
-# Moo, 2014-2016
+# Moo, 2014-2017
 # Tomas Kuliavas <tokul@users.sourceforge.net>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-11-19 21:50+0000\n"
-"Last-Translator: Moo\n"
+"PO-Revision-Date: 2017-09-19 13:40+0000\n"
+"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/mate/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -634,7 +635,7 @@ msgstr "Įjungti/išjungti tolygų atnaujinimą"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:7
 msgid "Show warning dialog when killing processes"
-msgstr "„Žudant“ procesus rodyti perspėjimo dialogą"
+msgstr "Nutraukiant procesus rodyti įspėjimo dialogą"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:8
 msgid "Time in milliseconds between updates of the process view"
@@ -1059,7 +1060,7 @@ msgstr "Piktograma"
 
 #: ../src/procdialogs.cpp:536
 msgid "System Monitor Preferences"
-msgstr "Sistemos monitoriaus nuostatos"
+msgstr "Sistemos monitoriaus nustatymai"
 
 #: ../src/procdialogs.cpp:566
 msgid "Behavior"
@@ -1076,7 +1077,7 @@ msgstr "Įjungti _tolygų atnaujinimą"
 
 #: ../src/procdialogs.cpp:631
 msgid "Alert before ending or _killing processes"
-msgstr "Perspėti prieš užbaigiant arba nutrau_kiant procesus"
+msgstr "Įspėti prieš užbaigiant arba nutrau_kiant procesus"
 
 #: ../src/procdialogs.cpp:644
 msgid "Divide CPU usage by CPU count"

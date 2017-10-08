@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Rasti K5 <rasti.khdhr@gmail.com>, 2016
+# Rasti K5 <rasti.khdhr@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-09-25 15:50+0000\n"
+"PO-Revision-Date: 2017-09-21 12:29+0000\n"
 "Last-Translator: Rasti K5 <rasti.khdhr@gmail.com>\n"
 "Language-Team: Kurdish (Iraq) (http://www.transifex.com/mate/MATE/language/ku_IQ/)\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr "جۆر"
 
 #: ../src/disks.cpp:341
 msgid "Total"
-msgstr ""
+msgstr "سەرجەم"
 
 #: ../src/disks.cpp:342
 msgid "Free"
@@ -87,16 +87,16 @@ msgstr ""
 
 #: ../src/disks.cpp:343
 msgid "Available"
-msgstr ""
+msgstr "بەردەست"
 
 #: ../src/disks.cpp:344
 msgid "Used"
-msgstr ""
+msgstr "بەکارهاتوو"
 
 #. xgettext: ? stands for unknown
 #: ../src/e_date.c:155
 msgid "?"
-msgstr ""
+msgstr "؟"
 
 #: ../src/e_date.c:162
 msgid "Today %l:%M %p"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../src/gsm_color_button.c:204
 msgid "Title"
-msgstr ""
+msgstr "سەرناو"
 
 #: ../src/gsm_color_button.c:205
 msgid "The title of the color selection dialog"
@@ -168,27 +168,27 @@ msgstr ""
 
 #: ../src/interface.cpp:52
 msgid "_Edit"
-msgstr ""
+msgstr "_دەستکاریکردن"
 
 #: ../src/interface.cpp:53
 msgid "_View"
-msgstr ""
+msgstr "_بینین"
 
 #: ../src/interface.cpp:54
 msgid "_Help"
-msgstr ""
+msgstr "_یارمەتی"
 
 #: ../src/interface.cpp:56
 msgid "Search for _Open Files"
-msgstr ""
+msgstr "گەڕان بۆ _پەڕگە کراوەکان"
 
 #: ../src/interface.cpp:57
 msgid "Search for open files"
-msgstr ""
+msgstr "گەڕان بۆ پەڕگە کراوەکان"
 
 #: ../src/interface.cpp:59
 msgid "Quit the program"
-msgstr ""
+msgstr "دەرچوون لە بەرنامە"
 
 #: ../src/interface.cpp:62
 msgid "_Stop Process"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../src/interface.cpp:114 ../src/util.cpp:221
 msgid "Very High"
-msgstr ""
+msgstr "زۆر بەرز"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
@@ -321,7 +321,7 @@ msgstr ""
 
 #: ../src/interface.cpp:116 ../src/util.cpp:223
 msgid "High"
-msgstr ""
+msgstr "بەرز"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
@@ -337,7 +337,7 @@ msgstr ""
 
 #: ../src/interface.cpp:120 ../src/util.cpp:227
 msgid "Low"
-msgstr ""
+msgstr "نزم"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
@@ -345,7 +345,7 @@ msgstr ""
 
 #: ../src/interface.cpp:122 ../src/util.cpp:229
 msgid "Very Low"
-msgstr ""
+msgstr "زۆر نزم"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
@@ -390,7 +390,7 @@ msgstr ""
 #: ../src/interface.cpp:402 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
-msgstr ""
+msgstr "بیرگە"
 
 #: ../src/interface.cpp:437
 msgid "Swap"
@@ -419,7 +419,7 @@ msgstr ""
 #. procman_create_sysinfo_view();
 #: ../src/interface.cpp:792
 msgid "System"
-msgstr ""
+msgstr "سیستەم"
 
 #: ../src/interface.cpp:796 ../src/procdialogs.cpp:559
 msgid "Processes"
@@ -453,7 +453,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:123
 msgid "Error"
-msgstr ""
+msgstr "هەڵە"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -1041,7 +1041,7 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:221
 msgid "Note:"
-msgstr ""
+msgstr "تێبینی:"
 
 #: ../src/procdialogs.cpp:222
 msgid ""
@@ -1051,7 +1051,7 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:477
 msgid "Icon"
-msgstr ""
+msgstr "وێنۆچکە"
 
 #: ../src/procdialogs.cpp:536
 msgid "System Monitor Preferences"
@@ -1116,7 +1116,7 @@ msgstr ""
 
 #: ../src/proctable.cpp:242 ../src/procproperties.cpp:117
 msgid "User"
-msgstr ""
+msgstr "بەکارهێنەر"
 
 #: ../src/proctable.cpp:243 ../src/procproperties.cpp:118
 msgid "Status"
@@ -1183,7 +1183,7 @@ msgstr ""
 
 #: ../src/proctable.cpp:260
 msgid "Unit"
-msgstr ""
+msgstr "یەکە"
 
 #: ../src/proctable.cpp:261
 msgid "Session"
@@ -1199,7 +1199,7 @@ msgstr ""
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
-msgstr ""
+msgstr "خاوەن"
 
 #: ../src/proctable.cpp:266 ../src/procproperties.cpp:129
 msgid "Priority"
@@ -1251,11 +1251,11 @@ msgstr ""
 #. hardware section
 #: ../src/sysinfo.cpp:852
 msgid "Hardware"
-msgstr ""
+msgstr "ڕەقەکاڵا"
 
 #: ../src/sysinfo.cpp:857
 msgid "Memory:"
-msgstr ""
+msgstr "بیرگە:"
 
 #: ../src/sysinfo.cpp:861
 msgid "Processor:"
@@ -1264,7 +1264,7 @@ msgstr ""
 #. disk space section
 #: ../src/sysinfo.cpp:869
 msgid "System Status"
-msgstr ""
+msgstr "دۆخی سیستەم"
 
 #: ../src/sysinfo.cpp:874
 msgid "Available disk space:"

@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2014
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2014,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-09 11:28+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2017-09-19 14:45+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh (http://www.transifex.com/mate/MATE/language/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "MATE жүйелік бақылаушысы"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
 #: ../src/interface.cpp:712 ../src/procman.cpp:713
@@ -47,19 +47,19 @@ msgstr "Ағымдағы үрдістерді қарау және жүйе қа�
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
-msgstr ""
+msgstr "Жүйелік бетті көрсету"
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr ""
+msgstr "Үрдістер бетін көрсету"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "Ресурстар бетін көрсету"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "Файлдық жүйелер бетін көрсету"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
@@ -112,11 +112,11 @@ msgstr "%a %l:%M %p"
 
 #: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
-msgstr ""
+msgstr "%b %d %l:%M %p"
 
 #: ../src/e_date.c:193
 msgid "%b %d %Y"
-msgstr ""
+msgstr "%b %d %Y"
 
 #: ../src/gsm_color_button.c:195
 msgid "Fraction"
@@ -126,7 +126,7 @@ msgstr "Ақпарат"
 #. percentage property
 #: ../src/gsm_color_button.c:197
 msgid "Percentage full for pie color pickers"
-msgstr ""
+msgstr "Шеңберлік түстер таңдаушысы үшін толық түс пайыз шамасы"
 
 #: ../src/gsm_color_button.c:204
 msgid "Title"
@@ -134,7 +134,7 @@ msgstr "Атауы"
 
 #: ../src/gsm_color_button.c:205
 msgid "The title of the color selection dialog"
-msgstr ""
+msgstr "Түстерді таңдау сұхбатының атауы"
 
 #: ../src/gsm_color_button.c:206 ../src/gsm_color_button.c:617
 msgid "Pick a Color"
@@ -142,15 +142,15 @@ msgstr "Түсті таңдаңыз"
 
 #: ../src/gsm_color_button.c:212
 msgid "Current Color"
-msgstr ""
+msgstr "Ағымдағы түс"
 
 #: ../src/gsm_color_button.c:213
 msgid "The selected color"
-msgstr ""
+msgstr "Таңдалған түс"
 
 #: ../src/gsm_color_button.c:220
 msgid "Type of color picker"
-msgstr ""
+msgstr "Түстер таңдаушысының түрі"
 
 #: ../src/gsm_color_button.c:539
 msgid "Received invalid color data\n"
@@ -158,13 +158,13 @@ msgstr "Алынған түс мәні қате\n"
 
 #: ../src/gsm_color_button.c:640
 msgid "Click to set graph colors"
-msgstr ""
+msgstr "График түстерін орнату үшін шертіңіз"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
 #: ../src/interface.cpp:51
 msgid "_Monitor"
-msgstr ""
+msgstr "_Бақылау"
 
 #: ../src/interface.cpp:52
 msgid "_Edit"
@@ -216,7 +216,7 @@ msgstr ""
 
 #: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
 msgid "_Kill Process"
-msgstr ""
+msgstr "Үрдісті ө_лтіру"
 
 #: ../src/interface.cpp:70
 msgid "Force process to finish immediately"
@@ -452,7 +452,7 @@ msgstr "%s (%.1f%%), барлығы %s"
 
 #: ../src/lsof.cpp:123
 msgid "Error"
-msgstr ""
+msgstr "Қате"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -474,7 +474,7 @@ msgstr "Файл аты"
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
 #: ../src/lsof.cpp:307
 msgid "Search for Open Files"
-msgstr ""
+msgstr "Ашық файлдар ішінен іздеу"
 
 #: ../src/lsof.cpp:334
 msgid "_Name contains:"
@@ -483,7 +483,7 @@ msgstr ""
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:343
 msgid "C_lear"
-msgstr ""
+msgstr "Та_зарту"
 
 #: ../src/lsof.cpp:347
 msgid "Case insensitive matching"
@@ -543,7 +543,7 @@ msgstr "Ортақ кір"
 
 #: ../src/memmaps.cpp:328
 msgid "Inode"
-msgstr ""
+msgstr "Inode"
 
 #: ../src/memmaps.cpp:432
 msgid "Memory Maps"
@@ -560,7 +560,7 @@ msgstr "файл"
 
 #: ../src/openfiles.cpp:40
 msgid "pipe"
-msgstr ""
+msgstr "pipe"
 
 #: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
@@ -600,7 +600,7 @@ msgstr "\"%s\" үрдісі ашып тұрған _файлдары (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "Басты терезенің өлшемі және орны, пішімі (ені, биіктігі, x орны, y орны)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid ""
@@ -610,11 +610,11 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
-msgstr ""
+msgstr "Үрдістер тәуелділіктерін ағаш тектес түрде көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:4
 msgid "Solaris mode for CPU percentage"
-msgstr ""
+msgstr "Процессор пайыздық көрінісі үшін Solaris режимі"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:5
 msgid ""
@@ -625,23 +625,23 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
-msgstr ""
+msgstr "Тегіс жаңартуды іске қосу/сөндіру"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:7
 msgid "Show warning dialog when killing processes"
-msgstr ""
+msgstr "Үрдістерді өлтіру кезінде ескерту сұхбатын көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:8
 msgid "Time in milliseconds between updates of the process view"
-msgstr ""
+msgstr "Үрдістер көрінісінде жаңартулар арасындағы уақыт, миллисекунд есебімен"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:9
 msgid "Time in milliseconds between updates of the graphs"
-msgstr ""
+msgstr "Графиктер жаңартулары арасындағы уақыт, миллисекунд есебімен"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:10
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "Барлық файлдық жүйелер туралы ақпарат көрсетілуі тиіс пе"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:11
 msgid ""
@@ -652,7 +652,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
-msgstr ""
+msgstr "Құрылғылар тізімін жаңарту арасындағы уақыт, миллисекунд есебімен"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:13
 msgid ""
@@ -662,7 +662,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
-msgstr ""
+msgstr "Ағымдағы қаралған бетті сақтайды"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:15
 msgid ""
@@ -680,325 +680,325 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:18
 msgid "Default graph memory color"
-msgstr ""
+msgstr "Үнсіз келісім графигінің жады түсі"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:19
 msgid "Default graph swap color"
-msgstr ""
+msgstr "Үнсіз келісім графигінің своп түсі"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:20
 msgid "Default graph incoming network traffic color"
-msgstr ""
+msgstr "Үнсіз келісім графигінің кіріс желі трафигінің түсі"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:21
 msgid "Default graph outgoing network traffic color"
-msgstr ""
+msgstr "Үнсіз келісім графигінің шығыс желі трафигінің түсі"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:22
 msgid "Show network traffic in bits"
-msgstr ""
+msgstr "Жүйелік трафикті бит есебімен көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:23
 msgid "Process view sort column"
-msgstr ""
+msgstr "Үрдістер көрінісінің сұрыптау бағаны"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:24
 msgid "Process view columns order"
-msgstr ""
+msgstr "Үрдістер көрінісінің бағандар реті"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:25
 msgid "Process view sort order"
-msgstr ""
+msgstr "Үрдістер көрінісінің сұрыптау реті"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Width of process 'Name' column"
-msgstr ""
+msgstr "Үрдістің \"Аты\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Аты\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Width of process 'User' column"
-msgstr ""
+msgstr "Үрдістің \"Пайдаланушы\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Пайдаланушы\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr ""
+msgstr "Үрдістің \"Қалып-күйі\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Қалып-күйі\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr ""
+msgstr "Үрдістің \"Виртуалды жады\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Виртуалды жады\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr ""
+msgstr "Үрдістің \"Резидентті жады\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Резидентті жады\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr ""
+msgstr "Үрдістің \"Жазуға келетін жады\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Жазуға келетін жады\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr ""
+msgstr "Үрдістің \"Ортақ жады\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Ортақ жады\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr ""
+msgstr "Үрдістің \"X серверінің жадысы\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr ""
+msgstr "Үрдістің \"X серверінің жадысы\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Үрдістің \"Процессор %\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Процессор %\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
-msgstr ""
+msgstr "Үрдістің \"Процессор уақыты\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Процессор уақыты\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Width of process 'Started' column"
-msgstr ""
+msgstr "Үрдістің \"Іске қосылған\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Show process 'Started' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Іске қосылған\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
-msgstr ""
+msgstr "Үрдістің \"Ергіштік (nice)\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Ергіштік (nice)\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
-msgstr ""
+msgstr "Үрдістің \"ID\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Show process 'ID' column on startup"
-msgstr ""
+msgstr "Үрдістің \"ID\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"
-msgstr ""
+msgstr "Үрдістің \"Қауіпсіздік контексті\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Show process 'Security Context' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Қауіпсіздік контексті\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Width of process 'Command Line' column"
-msgstr ""
+msgstr "Үрдістің \"Командалық жол\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Show process 'Command Line' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Командалық жол\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Width of process 'Memory' column"
-msgstr ""
+msgstr "Үрдістің \"Жады\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Show process 'Memory' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Жады\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:60
 msgid "Width of process 'Waiting Channel' column"
-msgstr ""
+msgstr "Үрдістің \"Күтетін арна\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:61
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Күтетін арна\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:62
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "Үрдістің \"Басқару тобы\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:63
 msgid "Show process 'Control Group' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Басқару тобы\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:64
 msgid "Width of process 'Unit' column"
-msgstr ""
+msgstr "Үрдістің \"Юнит\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:65
 msgid "Show process 'Unit' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Юнит\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:66
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "Үрдістің \"Сессия\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:67
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Сессия\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:68
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "Үрдістің \"Отыру орны\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:69
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Отыру орны\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:70
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Үрдістің \"Иесі\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:71
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Иесі\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:72
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "Үрдістің \"Приоритеті\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:73
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Приоритеті\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:74
 msgid "Disk view sort column"
-msgstr ""
+msgstr "Диск көрінісінің сұрыптау бағаны"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:75
 msgid "Disk view sort order"
-msgstr ""
+msgstr "Диск көрінісінің сұрыптау реті"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:76
 msgid "Disk view columns order"
-msgstr ""
+msgstr "Диск көрінісінің бағандар реті"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:77
 msgid "Width of disk view 'Device' column"
-msgstr ""
+msgstr "Диск көрінісінің \"Құрылғы\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:78
 msgid "Show disk view 'Device' column on startup"
-msgstr ""
+msgstr "Диск көрінісінің \"Құрылғы\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Width of disk view 'Directory' column"
-msgstr ""
+msgstr "Диск көрінісінің \"Бума\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:80
 msgid "Show disk view 'Directory' column on startup"
-msgstr ""
+msgstr "Диск көрінісінің \"Бума\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:81
 msgid "Width of disk view 'Type' column"
-msgstr ""
+msgstr "Диск көрінісінің \"Түрі\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:82
 msgid "Show disk view 'Type' column on startup"
-msgstr ""
+msgstr "Диск көрінісінің \"Түрі\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:83
 msgid "Width of disk view 'Total' column"
-msgstr ""
+msgstr "Диск көрінісінің \"Жалпы\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:84
 msgid "Show disk view 'Total' column on startup"
-msgstr ""
+msgstr "Диск көрінісінің \"Жалпы\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:85
 msgid "Width of disk view 'Free' column"
-msgstr ""
+msgstr "Диск көрінісінің \"Бос\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:86
 msgid "Show disk view 'Free' column on startup"
-msgstr ""
+msgstr "Диск көрінісінің \"Бос\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:87
 msgid "Width of disk view 'Available' column"
-msgstr ""
+msgstr "Диск көрінісінің \"Қолжетерлік\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:88
 msgid "Show disk view 'Available' column on startup"
-msgstr ""
+msgstr "Диск көрінісінің \"Қолжетерлік\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:89
 msgid "Width of disk view 'Used' column"
-msgstr ""
+msgstr "Диск көрінісінің \"Қолданылған\" бағанының ені"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:90
 msgid "Show disk view 'Used' column on startup"
-msgstr ""
+msgstr "Диск көрінісінің \"Қолданылған\" бағанын іске қосылғанда көрсету"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:91
 msgid "Memory map sort column"
-msgstr ""
+msgstr "Жады картасы көрінісінің сұрыптау бағаны"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:92
 msgid "Memory map sort order"
-msgstr ""
+msgstr "Жады картасы көрінісінің сұрыптау реті"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:93
 msgid "Open files sort column"
-msgstr ""
+msgstr "Ашық файлдар көрінісінің сұрыптау бағаны"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:94
 msgid "Open files sort order"
-msgstr ""
+msgstr "Ашық файлдар көрінісінің сұрыптау реті"
 
 #: ../src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "PID %d болатын үрдіс приоритетін %d мәніне орнату мүмкін емес.\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "PID %d болатын үрдісті %d сигналымен өлтіру мүмкін емес.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Таңдалған \"%s\" (PID: %u) үрдісін өлтіруді қалайсыз ба?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
@@ -1011,14 +1011,14 @@ msgstr "Үрдісті өлтіру деректер жоғалуына, сес�
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Таңдалған \"%s\" (PID: %u) үрдісін аяқтауды қалайсыз ба?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "Үрдісті аяқтау деректер жоғалуына, сессияның сынуына немесе қауіпсіздік мәселесіне әкеп соғуы мүмкін. Тек жауап бермейтін үрдістерді аяқтау керек."
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:215
 #, c-format
@@ -1028,7 +1028,7 @@ msgstr ""
 #: ../src/procdialogs.cpp:169
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr ""
+msgstr "\"%s\" (PID: %u) үрдісінің приоритетін өзгерту"
 
 #: ../src/procdialogs.cpp:181
 msgid "Change _Priority"
@@ -1036,7 +1036,7 @@ msgstr "_Приоритетті өзгерту"
 
 #: ../src/procdialogs.cpp:204
 msgid "_Nice value:"
-msgstr ""
+msgstr "_Ергіштік (nice) мәні:"
 
 #: ../src/procdialogs.cpp:221
 msgid "Note:"
@@ -1046,7 +1046,7 @@ msgstr "Ескерту:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
+msgstr "Үрдіс приоритеті оның nice мәні арқылы беріледі. Кішірек nice мәні жоғарырақ приоритетті сипаттайды."
 
 #: ../src/procdialogs.cpp:477
 msgid "Icon"
@@ -1079,7 +1079,7 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:645
 msgid "Solaris mode"
-msgstr ""
+msgstr "Solaris режимі"
 
 #: ../src/procdialogs.cpp:662 ../src/procdialogs.cpp:822
 msgid "Information Fields"
@@ -1095,7 +1095,7 @@ msgstr "Графиктер"
 
 #: ../src/procdialogs.cpp:738
 msgid "Show network speed in bits"
-msgstr ""
+msgstr "Желі жылдамдығын битпен көрсету"
 
 #: ../src/procdialogs.cpp:808
 msgid "Show _all file systems"
@@ -1156,7 +1156,7 @@ msgstr "Іске қосылған"
 
 #: ../src/proctable.cpp:252 ../src/procproperties.cpp:128
 msgid "Nice"
-msgstr "Ницца"
+msgstr "Ергіштік (nice)"
 
 #: ../src/proctable.cpp:253 ../src/procproperties.cpp:130
 msgid "ID"
@@ -1216,7 +1216,7 @@ msgstr "Анықталмаған"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
-msgstr ""
+msgstr "Үрдіс қасиеттері"
 
 #: ../src/procproperties.cpp:262
 #, c-format
@@ -1228,46 +1228,46 @@ msgstr ""
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "Шығарылымы %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-бит"
 
 #: ../src/sysinfo.cpp:819
 #, c-format
 msgid "Kernel %s"
-msgstr ""
+msgstr "Ядро %s"
 
 #: ../src/sysinfo.cpp:835
 #, c-format
 msgid "MATE %s"
-msgstr ""
+msgstr "MATE %s"
 
 #. hardware section
 #: ../src/sysinfo.cpp:852
 msgid "Hardware"
-msgstr ""
+msgstr "Құрылғылар"
 
 #: ../src/sysinfo.cpp:857
 msgid "Memory:"
-msgstr ""
+msgstr "Жады:"
 
 #: ../src/sysinfo.cpp:861
 msgid "Processor:"
-msgstr ""
+msgstr "Процессор:"
 
 #. disk space section
 #: ../src/sysinfo.cpp:869
 msgid "System Status"
-msgstr ""
+msgstr "Жүйенің қалып-күйі"
 
 #: ../src/sysinfo.cpp:874
 msgid "Available disk space:"
-msgstr ""
+msgstr "Қолжетерлік диск орны:"
 
 #: ../src/util.cpp:30
 msgid "Running"

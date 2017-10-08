@@ -6,14 +6,15 @@
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2002
 # Damir Jerovšek <jierro@windowslive.com>, 2013
 # Damir Mevkić <damir.mevkic@gmail.com>, 2015
+# Helena S <ele@tutamail.com>, 2017
 # worm <thewormhole@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-09 11:28+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2017-09-23 18:17+0000\n"
+"Last-Translator: Helena S <ele@tutamail.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/mate/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -129,7 +130,7 @@ msgstr "Delež"
 #. percentage property
 #: ../src/gsm_color_button.c:197
 msgid "Percentage full for pie color pickers"
-msgstr ""
+msgstr "Odstotek za izbirnike barv v polni piti"
 
 #: ../src/gsm_color_button.c:204
 msgid "Title"
@@ -227,7 +228,7 @@ msgstr "Prisili opravilo, da se takoj zaključi"
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr ""
+msgstr "_Spremeni prednost"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
@@ -371,7 +372,7 @@ msgstr "_Končaj opravilo"
 #: ../src/interface.cpp:283
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Izberite barvo za '%s'"
 
 #: ../src/interface.cpp:294
 msgid "CPU History"
@@ -463,7 +464,7 @@ msgstr "Napaka"
 #: ../src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr ""
+msgstr "'%s' ni veljaven logični izraz Perl."
 
 #: ../src/lsof.cpp:268
 msgid "Process"
@@ -489,7 +490,7 @@ msgstr "_Ime vsebuje:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:343
 msgid "C_lear"
-msgstr ""
+msgstr "P_očisti"
 
 #: ../src/lsof.cpp:347
 msgid "Case insensitive matching"
@@ -606,13 +607,13 @@ msgstr "_Datoteke, ki jih je odprlo opravilo \"%s\" (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr ""
+msgstr "Velikost glavnega okna in položaj v obliki (širina, višina, xpos, ypos)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr ""
+msgstr "Izbrana možnost omogoča, da se glavno okno odpre čez cel zaslon in se shranjene vrednosti velikosti in položaja prezrejo."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -627,7 +628,7 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr ""
+msgstr "Možnost omogoča delovanje programa v 'načinu Solaris', kjer je poraba CPE razdeljena na skupno število CPE enot. V obratnem primeru deluje v 'načinu Irix'."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -647,14 +648,14 @@ msgstr "Čas v milisekundah med osvežitvami grafov"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:10
 msgid "Whether information about all file systems should be displayed"
-msgstr ""
+msgstr "Ali naj bodo prikazani podatki o vseh datotečnih sistemih"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:11
 msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr ""
+msgstr "Ali naj bodo prikazani podatki o vseh datotečnih sistemih (vključno z vrstami, kot so 'autofs' in 'procfs'). Uporabno za izdelavo seznama vseh trenutno priklopljenih datotečnih sistemov."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -718,89 +719,89 @@ msgstr "Vrstni red vrste pogleda opravil"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Width of process 'Name' column"
-msgstr ""
+msgstr "Širina stolpca 'Ime opravila'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec 'Ime opravila'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Width of process 'User' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'Uporabnik'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'Uporabnik'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'Stanje'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'Stanje'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'Navideznega pomnilnika'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'Navideznega pomnilnika'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'stalnega pomnilnika' "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'stalnega pomnilnika'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'zapisljivega pomnilnika' "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'zapisljivega pomnilnika'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'skupnega pomnilnika'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'skupnega pomnilnika'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'pomnilnika strežnika X'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'pomnilnika X strežnika'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'CPE v %' "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'CPE %' "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
-msgstr ""
+msgstr "Širina stolpca opravila s 'procesorskim časom' "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'procesorski čas' "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Width of process 'Started' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'Začeto'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Show process 'Started' column on startup"
@@ -808,19 +809,19 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
-msgstr ""
+msgstr "Širina stolpca 'vrednosti ocene prednostni delovanja'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'ocene prednostni delovanja' "
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'ID'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Show process 'ID' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'ID'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"
@@ -991,50 +992,50 @@ msgstr ""
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr ""
+msgstr "Sprememba prednosti opravila s PID %d na %d ni mogoča.\n%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr ""
+msgstr "Ni mogoče uničiti opravila s PID %d s signalom %d.\n%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Ali želite uničiti izbrano opravilo “%s” (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "Z uničenjem opravila se podatki lahko izgubijo, sesuje se lahko seja ali pa dejanje predstavlja varnostno tveganje. Uničiti je treba le opravila, ki niso odzivna."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Ali želite končatii izbrano opravilo “%s” (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "S končanjem opravila se podatki lahko izgubijo, sesuje se lahko seja ali pa dejanje predstavlja varnostno tveganje. Vsiljeno končati je treba le opravila, ki niso odzivna."
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(%s Prednost)"
 
 #: ../src/procdialogs.cpp:169
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr ""
+msgstr "Spremeni prednost opravila “%s” (PID: %u)"
 
 #: ../src/procdialogs.cpp:181
 msgid "Change _Priority"
@@ -1105,7 +1106,7 @@ msgstr "Pokaži hitrost omrežne povezave v bitih"
 
 #: ../src/procdialogs.cpp:808
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Pokaži _vse datotečne sisteme"
 
 #: ../src/procdialogs.cpp:839
 msgid "File system i_nformation shown in list:"
@@ -1222,26 +1223,26 @@ msgstr "N/A"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
-msgstr ""
+msgstr "Lastnosti opravila"
 
 #: ../src/procproperties.cpp:262
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "Lastnosti opravila \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
 #: ../src/sysinfo.cpp:78
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "Izdaja %s %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
 #: ../src/sysinfo.cpp:115
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d biti"
 
 #: ../src/sysinfo.cpp:819
 #, c-format
@@ -1269,7 +1270,7 @@ msgstr "Procesor:"
 #. disk space section
 #: ../src/sysinfo.cpp:869
 msgid "System Status"
-msgstr ""
+msgstr "Stanje sistema"
 
 #: ../src/sysinfo.cpp:874
 msgid "Available disk space:"
@@ -1337,27 +1338,27 @@ msgstr "%.1f GiB"
 #: ../src/util.cpp:173
 #, c-format
 msgid "%.1f TiB"
-msgstr ""
+msgstr "%.1f KiB"
 
 #: ../src/util.cpp:174
 #, c-format
 msgid "%.3g kbit"
-msgstr ""
+msgstr "%.3g kbit"
 
 #: ../src/util.cpp:175
 #, c-format
 msgid "%.3g Mbit"
-msgstr ""
+msgstr "%.3g Mbit"
 
 #: ../src/util.cpp:176
 #, c-format
 msgid "%.3g Gbit"
-msgstr ""
+msgstr "%.3g Gbit"
 
 #: ../src/util.cpp:177
 #, c-format
 msgid "%.3g Tbit"
-msgstr ""
+msgstr "%.3g Tbit"
 
 #: ../src/util.cpp:192
 #, c-format

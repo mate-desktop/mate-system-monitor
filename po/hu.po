@@ -6,7 +6,7 @@
 # Andras Timar <timar at mate dot hu>, 2002-2003
 # Balázs Meskó <meskobalazs@gmail.com>, 2016
 # Gabor Kelemen <kelemeng at mate dot hu>, 2005-2010
-# kami911 <kami911@gmail.com>, 2015
+# KAMI KAMI <kami911@gmail.com>, 2015
 # Laszlo Dvornik <dvornik at mate dot hu>, 2004
 # Mate ORY <orymate at gmail d0t com>, 2006
 # Rezső Páder <rezso@rezso.net>, 2014-2016
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2016-03-11 17:59+0000\n"
+"PO-Revision-Date: 2017-09-19 13:40+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/mate/MATE/language/hu/)\n"
 "MIME-Version: 1.0\n"

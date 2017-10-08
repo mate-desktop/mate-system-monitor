@@ -6,7 +6,7 @@
 # Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009
 # Henrik Mattsson-Mårn <h@reglage.net>, 2016
-# Jonatan Nyberg <jonatan@autistici.org>, 2016
+# Jonatan Nyberg, 2016
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2015-2016
 # Tobias Lekare <lekare@linux.com>, 2017
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2017-02-06 14:54+0000\n"
+"PO-Revision-Date: 2017-09-19 13:40+0000\n"
 "Last-Translator: Tobias Lekare <lekare@linux.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/mate/MATE/language/sv/)\n"
 "MIME-Version: 1.0\n"

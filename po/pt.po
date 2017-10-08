@@ -3,9 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# crolidge, 2012
-# crolidge, 2014
+# Carlos Moreira, 2012
+# Carlos Moreira, 2014
 # Diogo Oliveira <diogodesigns@gmail.com>, 2015
+# José Vieira <jvieira33@sapo.pt>, 2017
 # Manuela Silva <manuela.silva@sky.com>, 2015-2017
 # Sérgio Marques <smarquespt@gmail.com>, 2012
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2017-01-13 02:41+0000\n"
-"Last-Translator: Manuela Silva <manuela.silva@sky.com>\n"
+"PO-Revision-Date: 2017-09-23 18:17+0000\n"
+"Last-Translator: José Vieira <jvieira33@sapo.pt>\n"
 "Language-Team: Portuguese (http://www.transifex.com/mate/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -611,7 +612,7 @@ msgstr "Tamanho e posição da janela principal na forma (largura, altura xpos, 
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr ""
+msgstr "Se VERDADEIRO, a janela principal abrirá maximizada e os valores guardados para o tamanho e posição serão ignorados."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -717,7 +718,7 @@ msgstr "Ordem da vista de processos"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Width of process 'Name' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Nome'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
@@ -765,19 +766,19 @@ msgstr "Mostrar a coluna 'Memória Gravável' do processo no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Memória Partilhada'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr ""
+msgstr "Exibir a coluna do processo 'Memória Partilhada' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Memória do servidor X'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr ""
+msgstr "Exibir coluna do processo 'Memória do Servidor X' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
@@ -807,11 +808,11 @@ msgstr "Mostrar coluna do processo \"Iniciado\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Nice'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
-msgstr ""
+msgstr "Exibir coluna do processo 'Nice' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
@@ -823,27 +824,27 @@ msgstr "Mostrar coluna do processo \"Identificação\" no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Contexto de Segurança'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Show process 'Security Context' column on startup"
-msgstr ""
+msgstr "Exibir coluna do processo 'Contexto de Segurança' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Width of process 'Command Line' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Linha de Comandos'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Show process 'Command Line' column on startup"
-msgstr ""
+msgstr "Exibir coluna do processo 'Linha de Comandos' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Width of process 'Memory' column"
-msgstr ""
+msgstr "Largura da coluna do processo 'Memória'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Show process 'Memory' column on startup"
-msgstr ""
+msgstr "Exibir coluna do processo 'Memória' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:60
 msgid "Width of process 'Waiting Channel' column"
@@ -903,7 +904,7 @@ msgstr "Mostrar coluna do processo \"proprietário\" ao iniciar"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:74
 msgid "Disk view sort column"
-msgstr ""
+msgstr "Coluna de ordenação da visualização de disco"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:75
 msgid "Disk view sort order"
@@ -915,59 +916,59 @@ msgstr "Ordem das colunas na visualização do disco"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:77
 msgid "Width of disk view 'Device' column"
-msgstr ""
+msgstr "Largura da coluna de visualização de disco 'Dispositivo'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:78
 msgid "Show disk view 'Device' column on startup"
-msgstr ""
+msgstr "Exibir coluna de visualização de disco 'Dispositivo' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Width of disk view 'Directory' column"
-msgstr ""
+msgstr "Largura da coluna de visualização de disco 'Directório'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:80
 msgid "Show disk view 'Directory' column on startup"
-msgstr ""
+msgstr "Exibir coluna de visualização de disco 'Directório' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:81
 msgid "Width of disk view 'Type' column"
-msgstr ""
+msgstr "Largura da coluna de visualização de disco 'Tipo'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:82
 msgid "Show disk view 'Type' column on startup"
-msgstr ""
+msgstr "Exibir coluna de visualização de disco 'Tipo' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:83
 msgid "Width of disk view 'Total' column"
-msgstr ""
+msgstr "Largura da coluna de visualização de disco 'Total'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:84
 msgid "Show disk view 'Total' column on startup"
-msgstr ""
+msgstr "Exibir coluna de visualização de disco 'Total' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:85
 msgid "Width of disk view 'Free' column"
-msgstr ""
+msgstr "Largura da coluna de visualização de disco 'Livre'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:86
 msgid "Show disk view 'Free' column on startup"
-msgstr ""
+msgstr "Exibir coluna de visualização de disco 'Livre' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:87
 msgid "Width of disk view 'Available' column"
-msgstr ""
+msgstr "Largura da coluna de visualização de disco 'Disponível'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:88
 msgid "Show disk view 'Available' column on startup"
-msgstr ""
+msgstr "Exibir coluna de visualização de disco 'Disponível' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:89
 msgid "Width of disk view 'Used' column"
-msgstr ""
+msgstr "Largura da coluna de visualização de disco 'Usado'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:90
 msgid "Show disk view 'Used' column on startup"
-msgstr ""
+msgstr "Exibir coluna de visualização de disco 'Usado' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:91
 msgid "Memory map sort column"
@@ -1003,7 +1004,7 @@ msgstr "Não pode terminar o processo pid %d com sinal %d.\n%s"
 #: ../src/procdialogs.cpp:72
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Terminar o processo “%s” (PID: %u) seleccionado?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:76
@@ -1016,7 +1017,7 @@ msgstr "Terminar um processo pode destruir dados, quebrar a sessão ou introduzi
 #: ../src/procdialogs.cpp:83
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Finalizar o processo “%s” (PID: %u) seleccionado?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:87
@@ -1033,7 +1034,7 @@ msgstr "(Prioridade %s)"
 #: ../src/procdialogs.cpp:169
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr ""
+msgstr "Alterar a prioridade do processo “%s” (PID: %u)?"
 
 #: ../src/procdialogs.cpp:181
 msgid "Change _Priority"

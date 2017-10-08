@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2017-03-11 19:45+0000\n"
+"PO-Revision-Date: 2017-09-19 13:40+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr ""
+msgstr "<p> MATE System Monitor allows to graphically view and manipulate the running processes on your system. It also provides an overview of available resources, such as CPU and memory. </p> <p> MATE System Monitor is a fork of GNOME System Monitor and part of the MATE Desktop Environment. If you would like to know more about MATE and System Monitor, please visit the project's home page. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -489,7 +489,7 @@ msgstr "ማ_ጽጃ"
 
 #: ../src/lsof.cpp:347
 msgid "Case insensitive matching"
-msgstr ""
+msgstr "Case insensitive ተመሳሳይ"
 
 #: ../src/lsof.cpp:355
 msgid "S_earch results:"
@@ -616,14 +616,14 @@ msgstr "የ ሂደት ጥገኞች በ ዛፍ ፎርም ማሳያ"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:4
 msgid "Solaris mode for CPU percentage"
-msgstr ""
+msgstr "Solaris mode for CPU percentage"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:5
 msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr ""
+msgstr "እውነት ከሆነ: የ ስርአት መቆጣጠሪያ ይሰራል በ 'Solaris mode' ስራዎች በ CPU አጠቃቀም ይከፋፈላሉ ለ ጠቅላላ ቁጥር CPUs. ያለ በለዚያ: የሚሰራው በ 'Irix mode'. ነው"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -654,7 +654,7 @@ msgstr "ስለ ሁሉም የ ፋይል ስርአት መረጃ ማሳያ (እነ�
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
-msgstr ""
+msgstr "ጊዜ በ ሚሊ ሰከንዶች በ ማሻሻያ አካሎች ዝርዝር መካከል"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:13
 msgid ""
@@ -1007,7 +1007,7 @@ msgstr "የ ተመረጠውን ሂደት ማጥፊያ “%s” (PID: %u)?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr ""
+msgstr "ሂደቱን ሟቋረጥ ዳታ ሊያጠፋ ይችላል: ክፍለ ጊዜውን ሊሰብር ይችላል: የ ደህንነት ችግር ሊፈጥር ይችላል: እባክዎን የማይመለስ ሂደት ብቻ ያቋርጡ"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:83
@@ -1020,7 +1020,7 @@ msgstr "የ ተመረጠውን ሂደት መጨረሻ “%s” (PID: %u)?"
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr ""
+msgstr "ሂደቱን ሟቋረጥ ዳታ ሊያጠፋ ይችላል: ክፍለ ጊዜውን ሊሰብር ይችላል: የ ደህንነት ችግር ሊፈጥር ይችላል: እባክዎን የማይመለስ ሂደት ብቻ ያቋርጡ "
 
 #: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:215
 #, c-format
@@ -1048,7 +1048,7 @@ msgstr "ማስታወሻ:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr ""
+msgstr "የ ሂደት ቅድሚያ የሚሰጠው በ ጥሩ ዋጋ ነው: ዝቅተኛ ጥሩ ዋጋ ይስማማል ከ ከፍተኛ ቅድሚያ ጋር"
 
 #: ../src/procdialogs.cpp:477
 msgid "Icon"
@@ -1069,19 +1069,19 @@ msgstr "የ _ማሻሻያ ክፍተት በ ሰከንድ:"
 
 #: ../src/procdialogs.cpp:618
 msgid "Enable _smooth refresh"
-msgstr ""
+msgstr "_ለስላሳ ማነቃቂያ ማስቻያ"
 
 #: ../src/procdialogs.cpp:631
 msgid "Alert before ending or _killing processes"
-msgstr ""
+msgstr "ከ መጨረሱ ወይንም ሂደቱ ከ መጥፋቱ በፊት አስታውቀኝ"
 
 #: ../src/procdialogs.cpp:644
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "የ CPU አጠቃቀም ማካፈያ በ CPU መቁጠሪያ"
 
 #: ../src/procdialogs.cpp:645
 msgid "Solaris mode"
-msgstr ""
+msgstr "Solaris mode"
 
 #: ../src/procdialogs.cpp:662 ../src/procdialogs.cpp:822
 msgid "Information Fields"
@@ -1089,7 +1089,7 @@ msgstr "የ መረጃ ሜዳዎች"
 
 #: ../src/procdialogs.cpp:679
 msgid "Process i_nformation shown in list:"
-msgstr ""
+msgstr "በ ዝርዝር ውስጥ የሚታየው የ መ_ራጃ ሂደት"
 
 #: ../src/procdialogs.cpp:691
 msgid "Graphs"
@@ -1129,7 +1129,7 @@ msgstr "Virtual ማስታወሻ"
 
 #: ../src/proctable.cpp:245 ../src/procproperties.cpp:121
 msgid "Resident Memory"
-msgstr ""
+msgstr "የ ነበረው ማስታወሻ "
 
 #: ../src/proctable.cpp:246 ../src/procproperties.cpp:122
 msgid "Writable Memory"
@@ -1281,7 +1281,7 @@ msgstr "ማስቆሚያ "
 
 #: ../src/util.cpp:38
 msgid "Zombie"
-msgstr ""
+msgstr "Zombie"
 
 #: ../src/util.cpp:42
 msgid "Uninterruptible"

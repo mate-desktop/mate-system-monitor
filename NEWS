@@ -1,3 +1,9 @@
+### mate-system-monitor 1.18.1
+
+  * sysinfo: disable focus in all labels
+  * Update copyright year
+  * Translations update
+
 ### mate-system-monitor 1.18.0
 
   * NEWS: use consistent, project wide, markdown-like formatting

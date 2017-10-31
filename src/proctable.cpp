@@ -216,8 +216,8 @@ search_equal_func(GtkTreeModel *model,
                        COL_USER, &user,
                        -1);
 
-    found = !((name && strstr(name, key))
-              || (user && strstr(user, key)));
+    found = !((name && strcasestr(name, key))
+              || (user && strcasestr(user, key)));
 
     g_free(name);
     g_free(user);

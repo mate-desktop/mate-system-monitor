@@ -343,9 +343,8 @@ procman_data_new (GSettings *settings)
     g_free (color);
 
     /* Sanity checks */
-    gdk_window_get_geometry (gdk_screen_get_root_window (gdk_screen_get_default()),
-                             NULL, NULL, &swidth, &sheight);
-
+    swidth = WidthOfScreen (gdk_x11_screen_get_xscreen (gdk_screen_get_default ()));
+    sheight = HeightOfScreen (gdk_x11_screen_get_xscreen (gdk_screen_get_default ()));
     pd->config.width = CLAMP (pd->config.width, 50, swidth);
     pd->config.height = CLAMP (pd->config.height, 50, sheight);
     pd->config.update_interval = MAX (pd->config.update_interval, 1000);

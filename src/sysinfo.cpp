@@ -625,8 +625,8 @@ namespace {
 }
 
 
-#define X_PAD  5
-#define Y_PAD  12
+#define X_PAD  0
+#define Y_PAD  0
 #define LOGO_W 92
 #define LOGO_H 351
 #define RADIUS 5

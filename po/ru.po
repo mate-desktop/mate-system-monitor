@@ -9,20 +9,21 @@
 # Andreï Victorovitch Kostyrka, 2016
 # Andrew W. Nosenko <awn@bcs.zp.ua>, 2003
 # Дмитрий Михирев, 2015
+# Dmitriy Kulikov <kulikov@dima.perm.ru>, 2017
 # Eugene V. Samusev <inactive+bitlz@transifex.com>, 2014
 # Leonid Kanter <leon@asplinux.ru>, 2004, 2005, 2006
 # Sergey Volozhanin <svo@asplinux.ru>, 2001
 # theirix <theirix@gmail.com>, 2016
 # Valek Filippov  <frob@df.ru>, 2002
 # monsta <monsta@inbox.ru>, 2016
-# Андрей Болконский <andrey0bolkonsky@gmail.com>, 2015
+# Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2017-09-23 18:17+0000\n"
-"Last-Translator: Andreï Victorovitch Kostyrka\n"
+"POT-Creation-Date: 2017-11-06 12:28+0100\n"
+"PO-Revision-Date: 2017-11-06 15:23+0000\n"
+"Last-Translator: Dmitriy Kulikov <kulikov@dima.perm.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,13 +50,29 @@ msgid "MATE System Monitor"
 msgstr "Системный монитор MATE"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:712 ../src/procman.cpp:713
+#: ../src/interface.cpp:680 ../src/procman.cpp:714
 msgid "System Monitor"
 msgstr "Системный монитор"
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
 msgstr "Программа для просмотра текущих процессов и мониторинга состояния системы"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:1
+msgid "Kill process"
+msgstr "Убить процесс"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:2
+msgid "Privileges are required to control other users' processes"
+msgstr "Для управления процессами других пользователей требуются дополнительные привилегии"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:3
+msgid "Renice process"
+msgstr "Изменить приоритет процесса"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:4
+msgid "Privileges are required to change the priority of processes"
+msgstr "Для изменения приоритета процессов требуются дополнительные привилегии"
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
@@ -218,7 +235,7 @@ msgstr "Продол_жить процесс"
 msgid "Continue process if stopped"
 msgstr "Продолжить процесс, если остановлен"
 
-#: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
+#: ../src/interface.cpp:67 ../src/procdialogs.cpp:91
 msgid "_End Process"
 msgstr "Завер_шить процесс"
 
@@ -226,7 +243,7 @@ msgstr "Завер_шить процесс"
 msgid "Force process to finish normally"
 msgstr "Корректно завершить процесс"
 
-#: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
+#: ../src/interface.cpp:69 ../src/procdialogs.cpp:80
 msgid "_Kill Process"
 msgstr "Сн_ять процесс"
 
@@ -386,63 +403,63 @@ msgstr "Выбор цвета для '%s'"
 msgid "CPU History"
 msgstr "Использование процессора"
 
-#: ../src/interface.cpp:341 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "ЦП"
 
-#: ../src/interface.cpp:343
+#: ../src/interface.cpp:339
 #, c-format
 msgid "CPU%d"
 msgstr "ЦП%d"
 
-#: ../src/interface.cpp:368
+#: ../src/interface.cpp:364
 msgid "Memory and Swap History"
 msgstr "Использование памяти/подкачки"
 
-#: ../src/interface.cpp:402 ../src/proctable.cpp:256
+#: ../src/interface.cpp:398 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Память"
 
-#: ../src/interface.cpp:437
+#: ../src/interface.cpp:426
 msgid "Swap"
 msgstr "Подкачка"
 
-#: ../src/interface.cpp:472
+#: ../src/interface.cpp:454
 msgid "Network History"
 msgstr "Использование сети"
 
-#: ../src/interface.cpp:505
+#: ../src/interface.cpp:487
 msgid "Receiving"
 msgstr "Приём"
 
-#: ../src/interface.cpp:537
+#: ../src/interface.cpp:519
 msgid "Total Received"
 msgstr "Всего принято:"
 
-#: ../src/interface.cpp:573
+#: ../src/interface.cpp:548
 msgid "Sending"
 msgstr "Отправка"
 
-#: ../src/interface.cpp:605
+#: ../src/interface.cpp:580
 msgid "Total Sent"
 msgstr "Всего отправлено"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:792
+#: ../src/interface.cpp:760
 msgid "System"
 msgstr "Система"
 
-#: ../src/interface.cpp:796 ../src/procdialogs.cpp:559
+#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
 msgid "Processes"
 msgstr "Процессы"
 
-#: ../src/interface.cpp:800 ../src/procdialogs.cpp:684
+#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
 msgid "Resources"
 msgstr "Ресурсы"
 
-#: ../src/interface.cpp:804 ../src/procdialogs.cpp:757
-#: ../src/procdialogs.cpp:761
+#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
+#: ../src/procdialogs.cpp:760
 msgid "File Systems"
 msgstr "Файловые системы"
 
@@ -474,37 +491,37 @@ msgstr "Ошибка"
 msgid "'%s' is not a valid Perl regular expression."
 msgstr "'%s' не является корректным регулярным выражением Perl."
 
-#: ../src/lsof.cpp:268
+#: ../src/lsof.cpp:270
 msgid "Process"
 msgstr "Процесс"
 
-#: ../src/lsof.cpp:280
+#: ../src/lsof.cpp:282
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:290 ../src/memmaps.cpp:305
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:305
 msgid "Filename"
 msgstr "Имя файла"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:307
+#: ../src/lsof.cpp:309
 msgid "Search for Open Files"
 msgstr "Поиск открытых файлов"
 
-#: ../src/lsof.cpp:334
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Имя содержит:"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:343
+#: ../src/lsof.cpp:345
 msgid "C_lear"
 msgstr "_Очистить"
 
-#: ../src/lsof.cpp:347
+#: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
 msgstr "Учитывать регистр"
 
-#: ../src/lsof.cpp:355
+#: ../src/lsof.cpp:357
 msgid "S_earch results:"
 msgstr "_Результаты поиска:"
 
@@ -1010,117 +1027,117 @@ msgid ""
 msgstr "Невозможно послать процессу с PID %d сигнал %d.\n%s"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:72
+#: ../src/procdialogs.cpp:73
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
 msgstr "Убить выбранный процесс «%s» (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:76
+#: ../src/procdialogs.cpp:77
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
 msgstr "Убийство процесса может привести к уничтожению данных, обрыву сессии или создать уязвимость. Следует убивать только зависшие процессы."
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:83
+#: ../src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
 msgstr "Завершить выбранный процесс «%s» (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:87
+#: ../src/procdialogs.cpp:88
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
 msgstr "Завершение процесса может привести к уничтожению данных, обрыву сессии или создать уязвимость. Следует завершать только зависшие процессы."
 
-#: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:215
+#: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
 msgstr "(Приоритет %s)"
 
-#: ../src/procdialogs.cpp:169
+#: ../src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
 msgstr "Изменить приоритет процесса «%s» (PID: %u)"
 
-#: ../src/procdialogs.cpp:181
+#: ../src/procdialogs.cpp:182
 msgid "Change _Priority"
 msgstr "_Изменить приоритет"
 
-#: ../src/procdialogs.cpp:204
+#: ../src/procdialogs.cpp:205
 msgid "_Nice value:"
 msgstr "_Уровень приоритета:"
 
-#: ../src/procdialogs.cpp:221
+#: ../src/procdialogs.cpp:220
 msgid "Note:"
 msgstr "Примечание:"
 
-#: ../src/procdialogs.cpp:222
+#: ../src/procdialogs.cpp:221
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "Приоритет процесса задаётся уровнем nice. Меньшее значение nice соответствует более высокому приоритету."
 
-#: ../src/procdialogs.cpp:477
+#: ../src/procdialogs.cpp:476
 msgid "Icon"
 msgstr "Значок"
 
-#: ../src/procdialogs.cpp:536
+#: ../src/procdialogs.cpp:535
 msgid "System Monitor Preferences"
 msgstr "Параметры системного монитора"
 
-#: ../src/procdialogs.cpp:566
+#: ../src/procdialogs.cpp:565
 msgid "Behavior"
 msgstr "Поведение"
 
-#: ../src/procdialogs.cpp:589 ../src/procdialogs.cpp:714
-#: ../src/procdialogs.cpp:784
+#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
+#: ../src/procdialogs.cpp:783
 msgid "_Update interval in seconds:"
 msgstr "_Интервал обновления в секундах:"
 
-#: ../src/procdialogs.cpp:618
+#: ../src/procdialogs.cpp:617
 msgid "Enable _smooth refresh"
 msgstr "Включить _плавное обновление"
 
-#: ../src/procdialogs.cpp:631
+#: ../src/procdialogs.cpp:630
 msgid "Alert before ending or _killing processes"
 msgstr "Предупреждать перед _завершением или снятием процессов"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:643
 msgid "Divide CPU usage by CPU count"
 msgstr "Делить использование CPU на число CPU"
 
-#: ../src/procdialogs.cpp:645
+#: ../src/procdialogs.cpp:644
 msgid "Solaris mode"
 msgstr "Режим Solaris"
 
-#: ../src/procdialogs.cpp:662 ../src/procdialogs.cpp:822
+#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
 msgid "Information Fields"
 msgstr "Информационные поля"
 
-#: ../src/procdialogs.cpp:679
+#: ../src/procdialogs.cpp:678
 msgid "Process i_nformation shown in list:"
 msgstr "Информация о процессах, отображаемая в списке:"
 
-#: ../src/procdialogs.cpp:691
+#: ../src/procdialogs.cpp:690
 msgid "Graphs"
 msgstr "Графики"
 
-#: ../src/procdialogs.cpp:738
+#: ../src/procdialogs.cpp:737
 msgid "Show network speed in bits"
 msgstr "Показывать скорость сети в битах"
 
-#: ../src/procdialogs.cpp:808
+#: ../src/procdialogs.cpp:807
 msgid "Show _all file systems"
 msgstr "Показать _все файловые системы"
 
-#: ../src/procdialogs.cpp:839
+#: ../src/procdialogs.cpp:838
 msgid "File system i_nformation shown in list:"
 msgstr "Информация о файловой _системе, отображаемая в списке:"
 
-#: ../src/procman.cpp:662
+#: ../src/procman.cpp:663
 msgid "A simple process and system monitor."
 msgstr "Простой диспетчер процессов и системы"
 
@@ -1257,30 +1274,30 @@ msgstr "%d-разрядный"
 msgid "Kernel %s"
 msgstr "Ядро %s"
 
-#: ../src/sysinfo.cpp:835
+#: ../src/sysinfo.cpp:836
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:852
+#: ../src/sysinfo.cpp:854
 msgid "Hardware"
 msgstr "Оборудование"
 
-#: ../src/sysinfo.cpp:857
+#: ../src/sysinfo.cpp:859
 msgid "Memory:"
 msgstr "Память:"
 
-#: ../src/sysinfo.cpp:861
+#: ../src/sysinfo.cpp:863
 msgid "Processor:"
 msgstr "Процессор:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:869
+#: ../src/sysinfo.cpp:871
 msgid "System Status"
 msgstr "Состояние системы"
 
-#: ../src/sysinfo.cpp:874
+#: ../src/sysinfo.cpp:876
 msgid "Available disk space:"
 msgstr "Доступное дисковое пространство:"
 

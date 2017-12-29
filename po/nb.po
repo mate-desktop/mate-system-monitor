@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2016
+# Allan Nordhøy <epost@anotheragency.no>, 2016-2017
 # Kenneth Jenssen <kennethjenssen@yahoo.com>, 2016
 # Terance Edward Sola <terance@lyse.net>, 2005
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2017-09-19 13:40+0000\n"
+"POT-Creation-Date: 2017-11-06 12:28+0100\n"
+"PO-Revision-Date: 2017-11-12 00:32+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -39,13 +39,29 @@ msgid "MATE System Monitor"
 msgstr "MATE Systemovervåking"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:712 ../src/procman.cpp:713
+#: ../src/interface.cpp:680 ../src/procman.cpp:714
 msgid "System Monitor"
 msgstr "Systemovervåkning"
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
 msgstr "Vis aktive prosesser og overvåk systemets tilstand"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:1
+msgid "Kill process"
+msgstr "Drep prosess"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:2
+msgid "Privileges are required to control other users' processes"
+msgstr "Rettigheter kreves for å kontrollere andre brukeres prosesser"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:3
+msgid "Renice process"
+msgstr "Renice-prosess"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:4
+msgid "Privileges are required to change the priority of processes"
+msgstr "Rettigheter kreves for å endre prioriteten til prosesser"
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
@@ -208,7 +224,7 @@ msgstr "_Sett i gang prosess"
 msgid "Continue process if stopped"
 msgstr "Sett i gang prosess hvis stoppet"
 
-#: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
+#: ../src/interface.cpp:67 ../src/procdialogs.cpp:91
 msgid "_End Process"
 msgstr "_Avslutt prosess"
 
@@ -216,7 +232,7 @@ msgstr "_Avslutt prosess"
 msgid "Force process to finish normally"
 msgstr "Tving en prosess til å avslutte normalt"
 
-#: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
+#: ../src/interface.cpp:69 ../src/procdialogs.cpp:80
 msgid "_Kill Process"
 msgstr "_Drep prosess"
 
@@ -376,63 +392,63 @@ msgstr "Velg en farge for '%s'"
 msgid "CPU History"
 msgstr "Historikk for CPU-bruk"
 
-#: ../src/interface.cpp:341 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:343
+#: ../src/interface.cpp:339
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:368
+#: ../src/interface.cpp:364
 msgid "Memory and Swap History"
 msgstr "Historikk for minne- og swap-bruk"
 
-#: ../src/interface.cpp:402 ../src/proctable.cpp:256
+#: ../src/interface.cpp:398 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Minne"
 
-#: ../src/interface.cpp:437
+#: ../src/interface.cpp:426
 msgid "Swap"
 msgstr "Swap"
 
-#: ../src/interface.cpp:472
+#: ../src/interface.cpp:454
 msgid "Network History"
 msgstr "Nettverkshistorikk"
 
-#: ../src/interface.cpp:505
+#: ../src/interface.cpp:487
 msgid "Receiving"
 msgstr "Mottar"
 
-#: ../src/interface.cpp:537
+#: ../src/interface.cpp:519
 msgid "Total Received"
 msgstr "Totalt mottatt"
 
-#: ../src/interface.cpp:573
+#: ../src/interface.cpp:548
 msgid "Sending"
 msgstr "Sender"
 
-#: ../src/interface.cpp:605
+#: ../src/interface.cpp:580
 msgid "Total Sent"
 msgstr "Totalt sendt"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:792
+#: ../src/interface.cpp:760
 msgid "System"
 msgstr "System"
 
-#: ../src/interface.cpp:796 ../src/procdialogs.cpp:559
+#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
 msgid "Processes"
 msgstr "Prosesser"
 
-#: ../src/interface.cpp:800 ../src/procdialogs.cpp:684
+#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
 msgid "Resources"
 msgstr "Ressurser"
 
-#: ../src/interface.cpp:804 ../src/procdialogs.cpp:757
-#: ../src/procdialogs.cpp:761
+#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
+#: ../src/procdialogs.cpp:760
 msgid "File Systems"
 msgstr "Filsystemer"
 
@@ -462,37 +478,37 @@ msgstr "Feil"
 msgid "'%s' is not a valid Perl regular expression."
 msgstr "'%s' er ikke et gyldig regulært uttrykk i Perl."
 
-#: ../src/lsof.cpp:268
+#: ../src/lsof.cpp:270
 msgid "Process"
 msgstr "Prosess"
 
-#: ../src/lsof.cpp:280
+#: ../src/lsof.cpp:282
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:290 ../src/memmaps.cpp:305
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:305
 msgid "Filename"
 msgstr "Filnavn"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:307
+#: ../src/lsof.cpp:309
 msgid "Search for Open Files"
 msgstr "Søk etter åpne filer"
 
-#: ../src/lsof.cpp:334
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "_Navn inneholder:"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:343
+#: ../src/lsof.cpp:345
 msgid "C_lear"
 msgstr "_Tøm"
 
-#: ../src/lsof.cpp:347
+#: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
 msgstr "Treff på små/store bokstaver"
 
-#: ../src/lsof.cpp:355
+#: ../src/lsof.cpp:357
 msgid "S_earch results:"
 msgstr "S_økeresultater:"
 
@@ -998,117 +1014,117 @@ msgid ""
 msgstr "Kan ikke terminere prosess med PID %d med signal %d.\n%s"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:72
+#: ../src/procdialogs.cpp:73
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
 msgstr "Drep valgt prosess »%s« (proces-id: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:76
+#: ../src/procdialogs.cpp:77
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
 msgstr "Ved terminering av en prosess kan du ødelegge data, kjørende økt kan slutte å fungere eller du kan skape en sikkerhetsrisiko. Kun prosesser som ikke svarer bør termineres."
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:83
+#: ../src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
 msgstr "Avslutt valgt prosess »%s« (PID: %u)?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:87
+#: ../src/procdialogs.cpp:88
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
 msgstr "Ved å avslutte en prosess kan du ødelegge data, spolere ei fungerende økt eller skape en sikkerhetsrisiko. Kun prosesser som ikke svarer bør avsluttes."
 
-#: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:215
+#: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
 msgstr "(%s prioritet)"
 
-#: ../src/procdialogs.cpp:169
+#: ../src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
 msgstr "Endre prioritet for prosessen \"%s\" (PID: %u)"
 
-#: ../src/procdialogs.cpp:181
+#: ../src/procdialogs.cpp:182
 msgid "Change _Priority"
 msgstr "Endre _prioritet"
 
-#: ../src/procdialogs.cpp:204
+#: ../src/procdialogs.cpp:205
 msgid "_Nice value:"
 msgstr "_Nice-verdi:"
 
-#: ../src/procdialogs.cpp:221
+#: ../src/procdialogs.cpp:220
 msgid "Note:"
 msgstr "Merk:"
 
-#: ../src/procdialogs.cpp:222
+#: ../src/procdialogs.cpp:221
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "Prioriteten for en prosess gis av dens «nice»-verdi. En lavere verdi betyr høyere prioritet."
 
-#: ../src/procdialogs.cpp:477
+#: ../src/procdialogs.cpp:476
 msgid "Icon"
 msgstr "Ikon"
 
-#: ../src/procdialogs.cpp:536
+#: ../src/procdialogs.cpp:535
 msgid "System Monitor Preferences"
 msgstr "Brukervalg for systemovervåkning"
 
-#: ../src/procdialogs.cpp:566
+#: ../src/procdialogs.cpp:565
 msgid "Behavior"
 msgstr "Oppførsel"
 
-#: ../src/procdialogs.cpp:589 ../src/procdialogs.cpp:714
-#: ../src/procdialogs.cpp:784
+#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
+#: ../src/procdialogs.cpp:783
 msgid "_Update interval in seconds:"
 msgstr "_Oppdateringsintervall i sekunder:"
 
-#: ../src/procdialogs.cpp:618
+#: ../src/procdialogs.cpp:617
 msgid "Enable _smooth refresh"
 msgstr "Aktiver _myk oppfrisking"
 
-#: ../src/procdialogs.cpp:631
+#: ../src/procdialogs.cpp:630
 msgid "Alert before ending or _killing processes"
 msgstr "Vis advarsel ved avslutting eller _terminering av prosesser"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:643
 msgid "Divide CPU usage by CPU count"
 msgstr "Inndel CPU-forbruk i kjerner"
 
-#: ../src/procdialogs.cpp:645
+#: ../src/procdialogs.cpp:644
 msgid "Solaris mode"
 msgstr "Solaris-modus"
 
-#: ../src/procdialogs.cpp:662 ../src/procdialogs.cpp:822
+#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
 msgid "Information Fields"
 msgstr "Informasjonsfelt"
 
-#: ../src/procdialogs.cpp:679
+#: ../src/procdialogs.cpp:678
 msgid "Process i_nformation shown in list:"
 msgstr "I_nformasjon for prosesser som vises i listen:"
 
-#: ../src/procdialogs.cpp:691
+#: ../src/procdialogs.cpp:690
 msgid "Graphs"
 msgstr "Grafer"
 
-#: ../src/procdialogs.cpp:738
+#: ../src/procdialogs.cpp:737
 msgid "Show network speed in bits"
 msgstr "Vis nettverkshastighet i bits"
 
-#: ../src/procdialogs.cpp:808
+#: ../src/procdialogs.cpp:807
 msgid "Show _all file systems"
 msgstr "Vis _alle filsystemer"
 
-#: ../src/procdialogs.cpp:839
+#: ../src/procdialogs.cpp:838
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformasjon om filsystemer som vises i listen:"
 
-#: ../src/procman.cpp:662
+#: ../src/procman.cpp:663
 msgid "A simple process and system monitor."
 msgstr "Et enkelt program for overvåking av systemet og dets prosesser."
 
@@ -1245,30 +1261,30 @@ msgstr "%d-bit"
 msgid "Kernel %s"
 msgstr "Kernel %s"
 
-#: ../src/sysinfo.cpp:835
+#: ../src/sysinfo.cpp:836
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:852
+#: ../src/sysinfo.cpp:854
 msgid "Hardware"
 msgstr "Maskinvare"
 
-#: ../src/sysinfo.cpp:857
+#: ../src/sysinfo.cpp:859
 msgid "Memory:"
 msgstr "Minne:"
 
-#: ../src/sysinfo.cpp:861
+#: ../src/sysinfo.cpp:863
 msgid "Processor:"
 msgstr "Prosessor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:869
+#: ../src/sysinfo.cpp:871
 msgid "System Status"
 msgstr "Systemstatus"
 
-#: ../src/sysinfo.cpp:874
+#: ../src/sysinfo.cpp:876
 msgid "Available disk space:"
 msgstr "Tilgjengelig diskplass:"
 

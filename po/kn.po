@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-09 10:29+0300\n"
-"PO-Revision-Date: 2017-09-19 13:40+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"POT-Creation-Date: 2017-11-06 12:28+0100\n"
+"PO-Revision-Date: 2017-11-06 11:29+0000\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
 "Language-Team: Kannada (http://www.transifex.com/mate/MATE/language/kn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,13 +37,29 @@ msgid "MATE System Monitor"
 msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:712 ../src/procman.cpp:713
+#: ../src/interface.cpp:680 ../src/procman.cpp:714
 msgid "System Monitor"
 msgstr "ಗಣಕ ಮೇಲ್ವಿಚಾರಕ"
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
 msgstr "ಪ್ರಸಕ್ತ ಪ್ರಕ್ರಿಯೆಗಳು ಹಾಗು ಮೇಲ್ವಿಚಾರಣ ವ್ಯವಸ್ಥೆಯ ಸ್ಥಿತಿಯನ್ನು ನೋಡಿ"
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:1
+msgid "Kill process"
+msgstr ""
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:2
+msgid "Privileges are required to control other users' processes"
+msgstr ""
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:3
+msgid "Renice process"
+msgstr ""
+
+#: ../org.mate.mate-system-monitor.policy.in.in.h:4
+msgid "Privileges are required to change the priority of processes"
+msgstr ""
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
@@ -206,7 +222,7 @@ msgstr "ಮುಂದುವರೆಯುವ ಪ್ರಕ್ರಿಯೆ(_C)"
 msgid "Continue process if stopped"
 msgstr "ಪ್ರಕ್ರಿಯೆಯು ನಿಲ್ಲಲ್ಪಟ್ಟಲ್ಲಿ ಮುಂದುವರೆಸು"
 
-#: ../src/interface.cpp:67 ../src/procdialogs.cpp:90
+#: ../src/interface.cpp:67 ../src/procdialogs.cpp:91
 msgid "_End Process"
 msgstr "ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊನೆಗೊಳಿಸು(_E)"
 
@@ -214,7 +230,7 @@ msgstr "ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊನೆಗೊಳಿಸ�
 msgid "Force process to finish normally"
 msgstr "ಪ್ರಕ್ರಿಯೆಯು ಮಾಮೂಲಿಯಾಗಿ ಕೊನೆಗೊಳ್ಳುವಂತೆ ಒತ್ತಾಯಿಸು"
 
-#: ../src/interface.cpp:69 ../src/procdialogs.cpp:79
+#: ../src/interface.cpp:69 ../src/procdialogs.cpp:80
 msgid "_Kill Process"
 msgstr "ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿಲ್ಲಿಸು(_K)"
 
@@ -374,63 +390,63 @@ msgstr ""
 msgid "CPU History"
 msgstr "CPU ಇತಿಹಾಸ"
 
-#: ../src/interface.cpp:341 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:343
+#: ../src/interface.cpp:339
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:368
+#: ../src/interface.cpp:364
 msgid "Memory and Swap History"
 msgstr "ಮೆಮೊರಿ ಹಾಗು ಸ್ವಾಪ್ ಇತಿಹಾಸ"
 
-#: ../src/interface.cpp:402 ../src/proctable.cpp:256
+#: ../src/interface.cpp:398 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "ಮೆಮೊರಿ"
 
-#: ../src/interface.cpp:437
+#: ../src/interface.cpp:426
 msgid "Swap"
 msgstr "ಸ್ವಾಪ್"
 
-#: ../src/interface.cpp:472
+#: ../src/interface.cpp:454
 msgid "Network History"
 msgstr "ಜಾಲಬಂಧ ಇತಿಹಾಸ"
 
-#: ../src/interface.cpp:505
+#: ../src/interface.cpp:487
 msgid "Receiving"
 msgstr "ಪಡೆಯಲಾಗುತ್ತಿದೆ"
 
-#: ../src/interface.cpp:537
+#: ../src/interface.cpp:519
 msgid "Total Received"
 msgstr "ಒಟ್ಟು ಪಡೆಯಲಾದವು"
 
-#: ../src/interface.cpp:573
+#: ../src/interface.cpp:548
 msgid "Sending"
 msgstr "ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ"
 
-#: ../src/interface.cpp:605
+#: ../src/interface.cpp:580
 msgid "Total Sent"
 msgstr "ಒಟ್ಟು ಕಳುಹಿಸಲಾದವು"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:792
+#: ../src/interface.cpp:760
 msgid "System"
 msgstr "ಗಣಕ"
 
-#: ../src/interface.cpp:796 ../src/procdialogs.cpp:559
+#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
 msgid "Processes"
 msgstr "ಪ್ರಕ್ರಿಯೆಗಳು"
 
-#: ../src/interface.cpp:800 ../src/procdialogs.cpp:684
+#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
 msgid "Resources"
 msgstr "ಸಂಪನ್ಮೂಲಗಳು"
 
-#: ../src/interface.cpp:804 ../src/procdialogs.cpp:757
-#: ../src/procdialogs.cpp:761
+#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
+#: ../src/procdialogs.cpp:760
 msgid "File Systems"
 msgstr "ಕಡತ ವ್ಯವಸ್ಥೆಗಳು"
 
@@ -459,37 +475,37 @@ msgstr ""
 msgid "'%s' is not a valid Perl regular expression."
 msgstr ""
 
-#: ../src/lsof.cpp:268
+#: ../src/lsof.cpp:270
 msgid "Process"
 msgstr "ಪ್ರಕ್ರಿಯೆ"
 
-#: ../src/lsof.cpp:280
+#: ../src/lsof.cpp:282
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:290 ../src/memmaps.cpp:305
+#: ../src/lsof.cpp:292 ../src/memmaps.cpp:305
 msgid "Filename"
 msgstr "ಕಡತದ ಹೆಸರು"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:307
+#: ../src/lsof.cpp:309
 msgid "Search for Open Files"
 msgstr "ತೆರೆಯಲ್ಪಟ್ಟ ಕಡತಗಳಿಗಾಗು ಹುಡುಕು"
 
-#: ../src/lsof.cpp:334
+#: ../src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "ಇದನ್ನು ಹೊಂದಿರುವ ಹೆಸರು(_N):"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:343
+#: ../src/lsof.cpp:345
 msgid "C_lear"
 msgstr ""
 
-#: ../src/lsof.cpp:347
+#: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
 msgstr "ಕೇಸ್ ಸಂವೇದಿ ಹೊಂದಾಣಿಕೆ"
 
-#: ../src/lsof.cpp:355
+#: ../src/lsof.cpp:357
 msgid "S_earch results:"
 msgstr "ಹುಡುಕು ಫಲಿತಾಂಶಗಳು (_e):"
 
@@ -995,117 +1011,117 @@ msgid ""
 msgstr ""
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:72
+#: ../src/procdialogs.cpp:73
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
 msgstr ""
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:76
+#: ../src/procdialogs.cpp:77
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
 msgstr ""
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:83
+#: ../src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
 msgstr ""
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:87
+#: ../src/procdialogs.cpp:88
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
 msgstr ""
 
-#: ../src/procdialogs.cpp:125 ../src/procdialogs.cpp:215
+#: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
 msgstr ""
 
-#: ../src/procdialogs.cpp:169
+#: ../src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
 msgstr ""
 
-#: ../src/procdialogs.cpp:181
+#: ../src/procdialogs.cpp:182
 msgid "Change _Priority"
 msgstr "ಆದ್ಯತೆಯನ್ನು ಬದಲಾಯಿಸು(_P)"
 
-#: ../src/procdialogs.cpp:204
+#: ../src/procdialogs.cpp:205
 msgid "_Nice value:"
 msgstr "ನೈಸ್ ಮೌಲ್ಯ(_N):"
 
-#: ../src/procdialogs.cpp:221
+#: ../src/procdialogs.cpp:220
 msgid "Note:"
 msgstr "ಟಿಪ್ಪಣಿ:"
 
-#: ../src/procdialogs.cpp:222
+#: ../src/procdialogs.cpp:221
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr "ಒಂದು ಪ್ರಕ್ರಿಯೆಯ ಆದ್ಯತೆಯು ಅದರ ನೈಸ್ ಮೌಲ್ಯದಿಂದ ತಿಳಿಯಲ್ಪಡುತ್ತದೆ. ಕಡಿಮೆ ನೈಸ್ ಮೌಲ್ಯವು ಇದ್ದರೆ ಅದು ಹೆಚ್ಚಿನ ಆದ್ಯತೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ."
 
-#: ../src/procdialogs.cpp:477
+#: ../src/procdialogs.cpp:476
 msgid "Icon"
 msgstr "ಚಿಹ್ನೆ"
 
-#: ../src/procdialogs.cpp:536
+#: ../src/procdialogs.cpp:535
 msgid "System Monitor Preferences"
 msgstr "ಗಣಕ ಮೇಲ್ವಿಚಾರಣೆಯ ಆದ್ಯತೆಗಳು"
 
-#: ../src/procdialogs.cpp:566
+#: ../src/procdialogs.cpp:565
 msgid "Behavior"
 msgstr "ವರ್ತನೆ"
 
-#: ../src/procdialogs.cpp:589 ../src/procdialogs.cpp:714
-#: ../src/procdialogs.cpp:784
+#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
+#: ../src/procdialogs.cpp:783
 msgid "_Update interval in seconds:"
 msgstr "ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಅಪ್ಡೇಟ್ ಕಾಲಾವಧಿ(_U):"
 
-#: ../src/procdialogs.cpp:618
+#: ../src/procdialogs.cpp:617
 msgid "Enable _smooth refresh"
 msgstr "ಮೃದು ಪುನಶ್ಚೇತನಗೊಳಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_s)"
 
-#: ../src/procdialogs.cpp:631
+#: ../src/procdialogs.cpp:630
 msgid "Alert before ending or _killing processes"
 msgstr "ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊನೆಗೊಳಿಸುವಾದ ಅಥವ ನಿಲ್ಲಿಸುವಾಗ ಎಚ್ಚರಿಸು(_k)"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:643
 msgid "Divide CPU usage by CPU count"
 msgstr ""
 
-#: ../src/procdialogs.cpp:645
+#: ../src/procdialogs.cpp:644
 msgid "Solaris mode"
 msgstr "ಸೊಲಾರಿಸ್ ವಿಧಾನ"
 
-#: ../src/procdialogs.cpp:662 ../src/procdialogs.cpp:822
+#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
 msgid "Information Fields"
 msgstr "ಮಾಹಿತಿ ಕ್ಷೇತ್ರಗಳು"
 
-#: ../src/procdialogs.cpp:679
+#: ../src/procdialogs.cpp:678
 msgid "Process i_nformation shown in list:"
 msgstr "ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯ ಮಾಹಿತಿ(_n):"
 
-#: ../src/procdialogs.cpp:691
+#: ../src/procdialogs.cpp:690
 msgid "Graphs"
 msgstr "ನಕ್ಷೆಗಳು"
 
-#: ../src/procdialogs.cpp:738
+#: ../src/procdialogs.cpp:737
 msgid "Show network speed in bits"
 msgstr "ಜಾಲಬಂಧದ ವೇಗವನ್ನು ಬಿಟ್‌ಗಳಲ್ಲಿ ತೋರಿಸು"
 
-#: ../src/procdialogs.cpp:808
+#: ../src/procdialogs.cpp:807
 msgid "Show _all file systems"
 msgstr ""
 
-#: ../src/procdialogs.cpp:839
+#: ../src/procdialogs.cpp:838
 msgid "File system i_nformation shown in list:"
 msgstr "ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯ ಮಾಹಿತಿ(_n):"
 
-#: ../src/procman.cpp:662
+#: ../src/procman.cpp:663
 msgid "A simple process and system monitor."
 msgstr "ಒಂದು ಸರಳ ಪ್ರಕ್ರಿಯೆ ಹಾಗು ವ್ಯವಸ್ಥೆ ಮೇಲ್ವಿಚಾರಕ."
 
@@ -1242,30 +1258,30 @@ msgstr ""
 msgid "Kernel %s"
 msgstr "ಕರ್ನಲ್ %s"
 
-#: ../src/sysinfo.cpp:835
+#: ../src/sysinfo.cpp:836
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:852
+#: ../src/sysinfo.cpp:854
 msgid "Hardware"
 msgstr ""
 
-#: ../src/sysinfo.cpp:857
+#: ../src/sysinfo.cpp:859
 msgid "Memory:"
 msgstr "ಮೆಮೊರಿ:"
 
-#: ../src/sysinfo.cpp:861
+#: ../src/sysinfo.cpp:863
 msgid "Processor:"
 msgstr "ಸಂಸ್ಕಾರಕ:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:869
+#: ../src/sysinfo.cpp:871
 msgid "System Status"
 msgstr ""
 
-#: ../src/sysinfo.cpp:874
+#: ../src/sysinfo.cpp:876
 msgid "Available disk space:"
 msgstr "ಲಭ್ಯವಿರುವ ಡಿಸ್ಕ್‍ ಜಾಗ:"
 

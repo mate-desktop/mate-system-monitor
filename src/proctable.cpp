@@ -695,14 +695,14 @@ insert_info_to_tree (ProcInfo *info, ProcData *procdata, bool forced = false)
     else
         gtk_tree_store_insert (GTK_TREE_STORE (model), &info->node, NULL, 0);
 
-        gtk_tree_store_set (GTK_TREE_STORE (model), &info->node,
-                            COL_POINTER, info,
-                            COL_NAME, info->name,
-                            COL_ARGS, info->arguments,
-                            COL_TOOLTIP, info->tooltip,
-                            COL_PID, info->pid,
-                            COL_SECURITYCONTEXT, info->security_context,
-                            -1);
+    gtk_tree_store_set (GTK_TREE_STORE (model), &info->node,
+                        COL_POINTER, info,
+                        COL_NAME, info->name,
+                        COL_ARGS, info->arguments,
+                        COL_TOOLTIP, info->tooltip,
+                        COL_PID, info->pid,
+                        COL_SECURITYCONTEXT, info->security_context,
+                        -1);
 
     procdata->pretty_table.set_icon(*info);
 

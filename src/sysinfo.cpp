@@ -485,7 +485,7 @@ namespace {
             if (error)
                 g_error_free(error);
 
-                g_free(out);
+            g_free(out);
         }
 
     private:

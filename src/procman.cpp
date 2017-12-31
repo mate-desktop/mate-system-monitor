@@ -596,14 +596,10 @@ cb_server (const gchar *msg, gpointer user_data)
             procman_debug("Changing to PROCMAN_TAB_DISKS via bacon message");
             set_tab(GTK_NOTEBOOK(procdata->notebook), PROCMAN_TAB_DISKS, procdata);
         }
-    } else
-        timestamp = strtoul(msg, NULL, 0);
-
-    if (timestamp == 0)
-    {
-        /* fall back to rountripping to X */
-        timestamp = gdk_x11_get_server_time (window);
     }
+
+    /* fall back to rountripping to X */
+    timestamp = gdk_x11_get_server_time (window);
 
     gdk_x11_window_set_user_time (window, timestamp);
 

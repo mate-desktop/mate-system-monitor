@@ -1,7 +1,7 @@
 ### mate-system-monitor 1.19.1
 
     sync with transifex
-    Fix system logo aligment
+    Fix system logo alignment
     WidthOfScreen and HeightOfScreen implementation
     process table: make search case-insensitive
 

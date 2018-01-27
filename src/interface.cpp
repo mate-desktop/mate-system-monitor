@@ -251,11 +251,7 @@ make_title_label (const char *text)
     label = gtk_label_new (full);
     g_free (full);
 
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
     gtk_label_set_use_markup (GTK_LABEL (label), TRUE);
 
     return label;
@@ -346,11 +342,8 @@ create_sys_view (ProcData *procdata)
         g_free (label_text);
 
         cpu_label = gtk_label_new (NULL);
-#if GTK_CHECK_VERSION (3, 16, 0)
         gtk_label_set_xalign (GTK_LABEL (cpu_label), 0.0);
-#else
-        gtk_misc_set_alignment (GTK_MISC (cpu_label), 0.0, 0.5);
-#endif
+
         gtk_box_pack_start (GTK_BOX (temp_hbox), cpu_label, TRUE, TRUE, 0);
         load_graph_get_labels(cpu_graph)->cpu[i] = cpu_label;
 
@@ -406,11 +399,7 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 7, 1);
 
     gtk_grid_attach (GTK_GRID (grid),
@@ -434,11 +423,7 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 7, 1);
 
     gtk_grid_attach (GTK_GRID (grid),
@@ -497,40 +482,20 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 1, 1);
 
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in), 1.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_in),
-                            1.0,
-                            0.5);
-#endif
 
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_in), 100, -1);
     gtk_widget_set_hexpand (load_graph_get_labels(net_graph)->net_in, TRUE);
     gtk_grid_attach (GTK_GRID (grid), load_graph_get_labels(net_graph)->net_in, 2, 0, 1, 1);
 
     label = gtk_label_new (_("Total Received"));
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid), label, 1, 1, 1, 1);
 
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in_total), 1.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_in_total),
-                            1.0,
-                            0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid),
                      load_graph_get_labels(net_graph)->net_in_total,
                      2, 1, 1, 1);
@@ -558,40 +523,20 @@ create_sys_view (ProcData *procdata)
 
     label = gtk_label_new (label_text);
     g_free(label_text);
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 1, 1);
 
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out), 1.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_out),
-                            1.0,
-                            0.5);
-#endif
 
     gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_out), 100, -1);
     gtk_widget_set_hexpand (load_graph_get_labels(net_graph)->net_out, TRUE);
     gtk_grid_attach (GTK_GRID (grid), load_graph_get_labels(net_graph)->net_out, 2, 0, 1, 1);
 
     label = gtk_label_new (_("Total Sent"));
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid), label, 1, 1, 1, 1);
 
-#if GTK_CHECK_VERSION (3, 16, 0)
     gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out_total), 1.0);
-#else
-    gtk_misc_set_alignment (GTK_MISC (load_graph_get_labels(net_graph)->net_out_total),
-                            1.0,
-                            0.5);
-#endif
     gtk_grid_attach (GTK_GRID (grid),
                       load_graph_get_labels(net_graph)->net_out_total,
                       2, 1, 1, 1);

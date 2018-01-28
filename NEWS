@@ -1,9 +1,19 @@
+### mate-system-monitor 1.20.0
+
+  * Translations update
+  * require GTK+ 3.22 and GLib 2.50
+  * Fix typo in NEWS: alignment instead aligment
+  * update copyright year to 2018
+  * procman.cpp: Fix build warning: argument 1 null where non-null expected
+  * sysinfo.cpp: Fix build warning: this ‘if’ clause does not guard...
+  * proctable.cpp: Fix build warning: this ‘else’ clause does not guard...
+
 ### mate-system-monitor 1.19.1
 
-    sync with transifex
-    Fix system logo alignment
-    WidthOfScreen and HeightOfScreen implementation
-    process table: make search case-insensitive
+  * Translations update
+  * Fix system logo alignment
+  * WidthOfScreen and HeightOfScreen implementation
+  * process table: make search case-insensitive
 
 ### mate-system-monitor 1.19.0
 

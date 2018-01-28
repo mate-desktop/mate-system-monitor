@@ -10,15 +10,15 @@
 # Kostas Papadimas <pkst@gnome.org>, 2003, 2004, 2005, 2008
 # Nikos Charonitakis <frolix68@yahoo.gr>, 2004
 # Simos Xenitellis ,<simos74@gmx.net>, 2002
-# Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>, 2017
+# Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>, 2017-2018
 # Γιώργος Μηντζιλώνης, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-06 11:29+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
+"PO-Revision-Date: 2018-01-10 21:18+0000\n"
+"Last-Translator: Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>\n"
 "Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,19 +55,19 @@ msgstr "Προβολή τρεχουσών διεργασιών και παρακ
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:1
 msgid "Kill process"
-msgstr ""
+msgstr "Βίαιος τερματισμός διεργασίας"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:2
 msgid "Privileges are required to control other users' processes"
-msgstr ""
+msgstr "Απαιτούνται προνόμια για τον έλεγχο των διαδικασιών άλλων χρηστών"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:3
 msgid "Renice process"
-msgstr ""
+msgstr "Διαδικασία ανανέωσης"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:4
 msgid "Privileges are required to change the priority of processes"
-msgstr ""
+msgstr "Απαιτούνται προνόμια για την αλλαγή της προτεραιότητας των διαδικασιών"
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"

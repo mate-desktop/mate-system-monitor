@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ivar Smolin <okul@linux.ee>, 2014-2015
+# Ivar Smolin <okul@linux.ee>, 2014-2015,2018
 # Priit Laes <amd store20 com>, 2005, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-06 11:29+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
+"PO-Revision-Date: 2018-01-13 21:19+0000\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/mate/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -385,7 +385,7 @@ msgstr "_Lõpeta protsess"
 #: ../src/interface.cpp:283
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Värvuse valimine '%s' jaoks"
 
 #: ../src/interface.cpp:294
 msgid "CPU History"
@@ -492,7 +492,7 @@ msgstr "Failinimi"
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
 #: ../src/lsof.cpp:309
 msgid "Search for Open Files"
-msgstr "Avatud failide otsing"
+msgstr "Avatud failide otsimine"
 
 #: ../src/lsof.cpp:336
 msgid "_Name contains:"
@@ -505,7 +505,7 @@ msgstr "_Puhasta"
 
 #: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
-msgstr "Tõstutundetud vastavused"
+msgstr "Vastavused on tõstutundetud "
 
 #: ../src/lsof.cpp:357
 msgid "S_earch results:"
@@ -1041,12 +1041,12 @@ msgstr "Protsessi töö lõpetamine võib hävitada sinu andmed, lõhkuda töös
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(Tähtsus: %s)"
 
 #: ../src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr ""
+msgstr "Protsessi “%s” tähtsuse muutmine (PID: %u)"
 
 #: ../src/procdialogs.cpp:182
 msgid "Change _Priority"
@@ -1093,7 +1093,7 @@ msgstr "Hoiatus enne protsessi _kõrvaldamist"
 
 #: ../src/procdialogs.cpp:643
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "Protsessorite kasutus jagatakse protsessorite arvuga"
 
 #: ../src/procdialogs.cpp:644
 msgid "Solaris mode"
@@ -1113,11 +1113,11 @@ msgstr "Graafikud"
 
 #: ../src/procdialogs.cpp:737
 msgid "Show network speed in bits"
-msgstr "Võrgukiiruse kuvamine bittides"
+msgstr "Võrgukiirust kuvatakse bittides"
 
 #: ../src/procdialogs.cpp:807
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Näidatakse _kõiki failisüsteeme"
 
 #: ../src/procdialogs.cpp:838
 msgid "File system i_nformation shown in list:"
@@ -1196,7 +1196,7 @@ msgstr "Ootekanal"
 
 #: ../src/proctable.cpp:259 ../src/procproperties.cpp:134
 msgid "Control Group"
-msgstr ""
+msgstr "Juhtgrupp"
 
 #: ../src/proctable.cpp:260
 msgid "Unit"

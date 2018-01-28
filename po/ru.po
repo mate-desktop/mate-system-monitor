@@ -15,7 +15,7 @@
 # Sergey Volozhanin <svo@asplinux.ru>, 2001
 # theirix <theirix@gmail.com>, 2016
 # Valek Filippov  <frob@df.ru>, 2002
-# monsta <monsta@inbox.ru>, 2016
+# Vlad Orlov <monsta@inbox.ru>, 2016
 # Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2015
 msgid ""
 msgstr ""

@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-12-04 13:16+0000\n"
+"PO-Revision-Date: 2017-12-30 20:34+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -631,7 +631,7 @@ msgstr "Mida i posició de la finestra principal, en la forma (ample, alt, coord
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr "Si és TRUE, la finestra principal s'obrirà maximitzada, i els valors desats de la posició i de la mida s'ignoraran."
+msgstr "En cas que fos cert, la finestra principal s'obrirà maximitzada, i els valors desats de la posició i de la mida s'ignoraran."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"

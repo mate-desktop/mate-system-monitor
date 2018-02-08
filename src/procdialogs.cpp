@@ -104,7 +104,7 @@ procdialog_create_kill_dialog (ProcData *procdata, int signal)
                                               secondary);
 
     gtk_dialog_add_buttons (GTK_DIALOG (kill_alert_dialog),
-                            GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL,
+                            "gtk-cancel", GTK_RESPONSE_CANCEL,
                             button_text, GTK_RESPONSE_OK,
                             NULL);
 
@@ -171,7 +171,7 @@ procdialog_create_renice_dialog (ProcData *procdata)
                                     info->name, info->pid);
     dialog = gtk_dialog_new_with_buttons (dialog_title, NULL,
                                           GTK_DIALOG_DESTROY_WITH_PARENT,
-                                          GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL,
+                                          "gtk-cancel", GTK_RESPONSE_CANCEL,
                                           NULL);
     g_free (dialog_title);
 
@@ -182,7 +182,7 @@ procdialog_create_renice_dialog (ProcData *procdata)
     button = gtk_button_new_with_mnemonic (_("Change _Priority"));
     gtk_widget_set_can_default (button, TRUE);
 
-    icon = gtk_image_new_from_stock (GTK_STOCK_OK, GTK_ICON_SIZE_BUTTON);
+    icon = gtk_image_new_from_stock ("gtk-ok", GTK_ICON_SIZE_BUTTON);
     gtk_button_set_image (GTK_BUTTON (button), icon);
 
     gtk_dialog_add_action_widget (GTK_DIALOG (renice_dialog), button, 100);
@@ -531,8 +531,8 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     dialog = gtk_dialog_new_with_buttons (_("System Monitor Preferences"),
                                           GTK_WINDOW (procdata->app),
                                           GTK_DIALOG_DESTROY_WITH_PARENT,
-                                          GTK_STOCK_HELP, GTK_RESPONSE_HELP,
-                                          GTK_STOCK_CLOSE, GTK_RESPONSE_CLOSE,
+                                          "gtk-help", GTK_RESPONSE_HELP,
+                                          "gtk-close", GTK_RESPONSE_CLOSE,
                                           NULL);
     /* FIXME: we should not declare the window size, but let it's   */
     /* driven by window childs. The problem is that the fields list */

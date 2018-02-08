@@ -323,7 +323,7 @@ create_single_openfiles_dialog (GtkTreeModel *model, GtkTreePath *path,
 
     openfilesdialog = gtk_dialog_new_with_buttons (_("Open Files"), NULL,
                                                    GTK_DIALOG_DESTROY_WITH_PARENT,
-                                                   GTK_STOCK_CLOSE, GTK_RESPONSE_CLOSE,
+                                                   "gtk-close", GTK_RESPONSE_CLOSE,
                                                    NULL);
     gtk_window_set_resizable (GTK_WINDOW (openfilesdialog), TRUE);
     gtk_window_set_default_size (GTK_WINDOW (openfilesdialog), 575, 400);

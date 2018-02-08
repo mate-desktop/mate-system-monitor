@@ -53,9 +53,9 @@ static const GtkActionEntry menu_entries[] =
     { "View", NULL, N_("_View") },
     { "Help", NULL, N_("_Help") },
 
-    { "Lsof", GTK_STOCK_FIND, N_("Search for _Open Files"), "<control>O",
+    { "Lsof", "edit-find", N_("Search for _Open Files"), "<control>O",
       N_("Search for open files"), G_CALLBACK(cb_show_lsof) },
-    { "Quit", GTK_STOCK_QUIT, NULL, NULL,
+    { "Quit", "application-exit", N_("_Quit"), "<control>Q",
       N_("Quit the program"), G_CALLBACK (cb_app_exit) },
 
 
@@ -70,10 +70,10 @@ static const GtkActionEntry menu_entries[] =
       N_("Force process to finish immediately"), G_CALLBACK (cb_kill_process) },
     { "ChangePriority", NULL, N_("_Change Priority"), NULL,
       N_("Change the order of priority of process"), NULL },
-    { "Preferences", GTK_STOCK_PREFERENCES, NULL, NULL,
+    { "Preferences", "preferences-desktop", N_("_Preferences"), NULL,
       N_("Configure the application"), G_CALLBACK (cb_edit_preferences) },
 
-    { "Refresh", GTK_STOCK_REFRESH, N_("_Refresh"), "<control>R",
+    { "Refresh", "view-refresh", N_("_Refresh"), "<control>R",
       N_("Refresh the process list"), G_CALLBACK(cb_user_refresh) },
 
     { "MemoryMaps", NULL, N_("_Memory Maps"), "<control>M",
@@ -85,9 +85,9 @@ static const GtkActionEntry menu_entries[] =
       N_("View additional information about a process"), G_CALLBACK (cb_show_process_properties) },
 
 
-    { "HelpContents", GTK_STOCK_HELP, N_("_Contents"), "F1",
+    { "HelpContents", "help-browser", N_("_Contents"), "F1",
       N_("Open the manual"), G_CALLBACK (cb_help_contents) },
-    { "About", GTK_STOCK_ABOUT, NULL, NULL,
+    { "About", "help-about", N_("_About"), NULL,
       N_("About this application"), G_CALLBACK (cb_about) }
 };
 

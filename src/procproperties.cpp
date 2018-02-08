@@ -241,7 +241,7 @@ create_single_procproperties_dialog (GtkTreeModel *model, GtkTreePath *path,
 
     procpropdialog = gtk_dialog_new_with_buttons (_("Process Properties"), NULL,
                                                   GTK_DIALOG_DESTROY_WITH_PARENT,
-                                                  GTK_STOCK_CLOSE, GTK_RESPONSE_CLOSE,
+                                                  "gtk-close", GTK_RESPONSE_CLOSE,
                                                   NULL);
     gtk_window_set_resizable (GTK_WINDOW (procpropdialog), TRUE);
     gtk_window_set_default_size (GTK_WINDOW (procpropdialog), 575, 400);

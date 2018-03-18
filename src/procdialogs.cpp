@@ -690,7 +690,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
     gtk_box_pack_start (GTK_BOX (vbox2), hbox2, FALSE, FALSE, 0);
 
-    label = gtk_label_new_with_mnemonic (_("_Update interval in seconds:"));
+    label = gtk_label_new_with_mnemonic (_("_Update interval in 1/10 sec:"));
     gtk_label_set_xalign (GTK_LABEL (label), 0.0);
     gtk_box_pack_start (GTK_BOX (hbox2), label, FALSE, FALSE, 0);
     gtk_size_group_add_widget (size, label);

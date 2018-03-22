@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-17 15:46+0100\n"
+"POT-Creation-Date: 2018-03-22 12:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1087,8 +1087,7 @@ msgstr ""
 msgid "Behavior"
 msgstr ""
 
-#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:693
-#: ../src/procdialogs.cpp:755
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr ""
 
@@ -1118,6 +1117,10 @@ msgstr ""
 
 #: ../src/procdialogs.cpp:674
 msgid "Graphs"
+msgstr ""
+
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
 msgstr ""
 
 #: ../src/procdialogs.cpp:713

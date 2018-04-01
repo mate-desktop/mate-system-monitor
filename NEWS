@@ -1,3 +1,10 @@
+### mate-system-monitor 1.18.2
+
+  * Process table: make search case-insensitive
+  * Fix system logo alignment
+  * Fix potential segfault (build warning: argument 1 null where
+    non-null expected)
+
 ### mate-system-monitor 1.18.1
 
   * sysinfo: disable focus in all labels

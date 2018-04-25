@@ -375,11 +375,11 @@ get_memory (LoadGraph *graph)
 
     /* There's no swap on LiveCD : 0.0f is better than NaN :) */
     swappercent = (swap.total ? (float)swap.used / (float)swap.total : 0.0f);
-    mempercent  = (float)mem.user  / (float)mem.total;
+    mempercent  = (float)mem.used  / (float)mem.total;
 
     set_memory_label_and_picker(GTK_LABEL(graph->labels.memory),
                                 GSM_COLOR_BUTTON(graph->mem_color_picker),
-                                mem.user, mem.total, mempercent);
+                                mem.used, mem.total, mempercent);
 
     set_memory_label_and_picker(GTK_LABEL(graph->labels.swap),
                                 GSM_COLOR_BUTTON(graph->swap_color_picker),

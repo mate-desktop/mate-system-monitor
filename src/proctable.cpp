@@ -812,7 +812,15 @@ update_info (ProcData *procdata, ProcInfo *info)
 
     ProcInfo::cpu_times[info->pid] = info->cpu_time = proctime.rtime;
     info->nice = procuid.nice;
-    info->ppid = procuid.ppid;
+
+    // set the ppid only if one can exist
+    // i.e. pid=0 can never have a parent
+    if (info->pid > 0) {
+        info->ppid = procuid.ppid;
+    }
+
+    g_assert(info->pid != info->ppid);
+    g_assert(info->ppid != -1 || info->pid == 0);
 
     /* get cgroup data */
     get_process_cgroup_info(info);
@@ -822,11 +830,14 @@ update_info (ProcData *procdata, ProcInfo *info)
 
 
 ProcInfo::ProcInfo(pid_t pid)
-    : tooltip(NULL),
+    : node(),
+      pixbuf(),
+      tooltip(NULL),
       name(NULL),
       arguments(NULL),
       security_context(NULL),
       pid(pid),
+      ppid(-1),
       uid(-1)
 {
     ProcInfo * const info = this;
@@ -943,6 +954,8 @@ refresh_list (ProcData *procdata, const pid_t* pid_list, const guint n)
 
 
                 // inserts the process in the treeview if :
+                // - it has no parent (ppid = -1),
+                //   ie it is for example the [kernel] on FreeBSD
                 // - it is init
                 // - its parent is already in tree
                 // - its parent is unreachable
@@ -956,7 +969,7 @@ refresh_list (ProcData *procdata, const pid_t* pid_list, const guint n)
                 // see proctable_update_list (ProcData * const procdata)
 
 
-                if ((*it)->ppid == 0 or in_tree.find((*it)->ppid) != in_tree.end()) {
+                if ((*it)->ppid <= 0 or in_tree.find((*it)->ppid) != in_tree.end()) {
                     insert_info_to_tree(*it, procdata);
                     in_tree.insert((*it)->pid);
                     it = addition.erase(it);
@@ -1030,6 +1043,10 @@ proctable_update_list (ProcData * const procdata)
     glibtop_get_cpu (&cpu);
     procdata->cpu_total_time = MAX(cpu.total - procdata->cpu_total_time_last, 1);
     procdata->cpu_total_time_last = cpu.total;
+
+    // FIXME: not sure if glibtop always returns a sorted list of pid
+    // but it is important otherwise refresh_list won't find the parent
+    std::sort(pid_list, pid_list + proclist.number);
 
     refresh_list (procdata, pid_list, proclist.number);
 

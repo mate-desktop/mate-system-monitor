@@ -1,3 +1,7 @@
+### mate-system-monitor 1.18.3
+
+  * fix crash on systems with pid 0
+
 ### mate-system-monitor 1.18.2
 
   * Process table: make search case-insensitive

@@ -1,35 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# huskyviking <husky.viking@seznam.cz>, 2014
-# huskyviking <husky.viking@seznam.cz>, 2014
-# Jakub Friedl <jfriedl@suse.cz>, 2006
-# Jaroslav Lichtblau <dragonlord@seznam.cz>, 2016
-# LiberteCzech <liberte.czech@gmail.com>, 2015-2016
-# LiberteCzech <liberte.czech@gmail.com>, 2015
-# Miloslav Trmač <mitr@volny.cz>, 2002, 2003, 2004, 2005, 2006
-# Miloslav Trmač <mitr@volny.cz>, 2002-2006
-# Petr Kovar <pmkovar@gmail.com>, 2008, 2009
-# Petr Kovar <pmkovar@gmail.com>, 2008-2009
-# Petr Tomeš <ptomes@gmail.com>, 2006
-# Radek kohout <radekpv@seznam.cz>, 2015
-# Robin Kriebel <kriebel.robin@gmail.com>, 2016
-# Roman Horník <roman.hornik@debian-linux.cz>, 2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-10 18:28+0000\n"
-"Last-Translator: ToMáš Marný\n"
-"Language-Team: Czech (http://www.transifex.com/mate/MATE/language/cs/)\n"
+"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: huskyviking <husky.viking@seznam.cz>, 2018\n"
+"Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
@@ -43,14 +30,20 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> Sledování systému MATE umožňuje grafický náhled a změny spuštěných procesů ve vašem systému. Rovněž poskytuje přehled dostupných zdrojů jako jsou procesor nebo paměť. </p> <p> Sledování systému MATE je odnoží Sledování systému GNOME a je součástí prostředí plochy MATE. Pokud byste rádi věděli více o MATE a Sledování systému, navštivte prosím domovskou stránku projektu. </p>"
+msgstr ""
+"<p> Sledování systému MATE umožňuje grafický náhled a změny spuštěných "
+"procesů ve vašem systému. Rovněž poskytuje přehled dostupných zdrojů jako "
+"jsou procesor nebo paměť. </p> <p> Sledování systému MATE je odnoží "
+"Sledování systému GNOME a je součástí prostředí plochy MATE. Pokud byste "
+"rádi věděli více o MATE a Sledování systému, navštivte prosím domovskou "
+"stránku projektu. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
 msgstr "Sledování systému MATE"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "Sledování systému"
 
@@ -92,7 +85,15 @@ msgstr "Zobrazit kartu Systém souborů"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Miloslav Trmač <mitr@volny.cz>\nPetr Tomeš <ptomes@gmail.com>\nJakub Friedl <jfriedl@suse.cz>\nPetr Kovář <pknbe@volny.cz>"
+msgstr ""
+"Stanislav Brabec <utx@penguin.cz>\n"
+"Michal Bukovjan <bukm@centrum.cz>\n"
+"Miloslav Trmač <mitr@volny.cz>\n"
+"Petr Tomeš <ptomes@gmail.com>\n"
+"Jakub Friedl <jfriedl@suse.cz>\n"
+"Lucas Lommer <llommer@svn.gnome.org>\n"
+"Petr Kovář <pknbe@volny.cz>\n"
+"Roman Horník <roman.hornik@debian-linux.cz>"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -137,15 +138,15 @@ msgstr "Včera v %H:%M"
 
 #: ../src/e_date.c:183
 msgid "%a %l:%M %p"
-msgstr "%a, %H:%M"
+msgstr "%a %l:%M %p"
 
 #: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
-msgstr "%e. %B %H:%M"
+msgstr "%b %d %l:%M %p"
 
 #: ../src/e_date.c:193
 msgid "%b %d %Y"
-msgstr "%e. %B %Y"
+msgstr "%b %d %Y"
 
 #: ../src/gsm_color_button.c:195
 msgid "Fraction"
@@ -159,15 +160,15 @@ msgstr "Plný procentuální podíl výběrů barvy výsečového grafu"
 
 #: ../src/gsm_color_button.c:204
 msgid "Title"
-msgstr "Nadpis"
+msgstr "Název"
 
 #: ../src/gsm_color_button.c:205
 msgid "The title of the color selection dialog"
-msgstr "Nadpis dialogu výběru barvy"
+msgstr "Název dialogu pro výběr barvy"
 
 #: ../src/gsm_color_button.c:206 ../src/gsm_color_button.c:617
 msgid "Pick a Color"
-msgstr "Vybrat barvu"
+msgstr "Vyberte si barvu"
 
 #: ../src/gsm_color_button.c:212
 msgid "Current Color"
@@ -183,7 +184,7 @@ msgstr "Typ výběru barvy"
 
 #: ../src/gsm_color_button.c:539
 msgid "Received invalid color data\n"
-msgstr "Přijata neplatná data barvy\n"
+msgstr "Byly zadány neplatné hodnoty pro barvu\n"
 
 #: ../src/gsm_color_button.c:640
 msgid "Click to set graph colors"
@@ -340,7 +341,7 @@ msgstr "_Moje procesy"
 msgid "Show only user-owned processes"
 msgstr "Zobrazit pouze procesy, vlastněné uživatelem"
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr "Velmi vysoké"
 
@@ -348,7 +349,7 @@ msgstr "Velmi vysoké"
 msgid "Set process priority to very high"
 msgstr "Nastavit prioritu procesu na velmi vysoký"
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
 msgstr "Vysoká"
 
@@ -356,7 +357,7 @@ msgstr "Vysoká"
 msgid "Set process priority to high"
 msgstr "Nastavit prioritu procesu na vysoký"
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
 msgstr "Normální"
 
@@ -364,7 +365,7 @@ msgstr "Normální"
 msgid "Set process priority to normal"
 msgstr "Nastavit prioritu procesu na normální"
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
 msgstr "Nízká"
 
@@ -372,7 +373,7 @@ msgstr "Nízká"
 msgid "Set process priority to low"
 msgstr "Nastavit prioritu procesu na nízký"
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr "Velmi nízká"
 
@@ -394,72 +395,72 @@ msgstr "U_končit proces"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Vyberte si barvu pro '%s'"
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Historie CPU"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "Historie použití paměti a odkládacího prostoru"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Paměť"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "Odkládací prostor"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "Historie sítě"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "Příjem"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "Celkem přijato"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "Odesílání"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Celkem odesláno"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "Systém"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Procesy"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Zdroje"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Souborové systémy"
 
@@ -470,6 +471,7 @@ msgid_plural "%u seconds"
 msgstr[0] "%u sekunda"
 msgstr[1] "%u sekundy"
 msgstr[2] "%u sekund"
+msgstr[3] "%u sekund"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -637,7 +639,9 @@ msgstr "Hlavní velikost okna a pozice formou (šířka, výška, xpozice, ypozi
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr "Je-li POVOLENO, hlavní okno bude otevřeno maximalizované, čili uložené rozměry a pozice okna budou ignorovány."
+msgstr ""
+"Je-li POVOLENO, hlavní okno bude otevřeno maximalizované, čili uložené "
+"rozměry a pozice okna budou ignorovány."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -652,7 +656,10 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr "Je-li \"true\", system-monitor pracuje v \"režimu Solaris\", ve kterém je využití CPU u úlohy děleno celkovým počtem CPU. Jinak pracuje v \"režimu Irix\"."
+msgstr ""
+"Je-li \"true\", system-monitor pracuje v \"režimu Solaris\", ve kterém je "
+"využití CPU u úlohy děleno celkovým počtem CPU. Jinak pracuje v \"režimu "
+"Irix\"."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -679,7 +686,10 @@ msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr "Jestli se má zobrazovat informace o všech systémech souborů (včetně typů jako \"autofs\" a \"procfs\"). Užitečné pro získání seznamu všech připojených systémů souborů."
+msgstr ""
+"Jestli se má zobrazovat informace o všech systémech souborů (včetně typů "
+"jako \"autofs\" a \"procfs\"). Užitečné pro získání seznamu všech "
+"připojených systémů souborů."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -689,7 +699,9 @@ msgstr "Čas v milisekundách mezi aktualizacemi seznamu zařízení"
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Určuje, které procesy zobrazovat jako výchozí. 0 znamená všechny, 1 znamená uživatele a 2 znamená aktivní"
+msgstr ""
+"Určuje, které procesy zobrazovat jako výchozí. 0 znamená všechny, 1 znamená "
+"uživatele a 2 znamená aktivní"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -699,7 +711,9 @@ msgstr "Uloží aktuálně zobrazovanou kartu"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 značí informace o systému, 1 značí seznam procesů, 2 značí zdroje a 3 značí seznam disků"
+msgstr ""
+"0 značí informace o systému, 1 značí seznam procesů, 2 značí zdroje a 3 "
+"značí seznam disků"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1016,14 +1030,18 @@ msgstr "Otevírání souborů v pořadí"
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Nelze změnit prioritu procesu s PID %d na %d.\n %s"
+msgstr ""
+"Nelze změnit prioritu procesu s PID %d na %d.\n"
+" %s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr "Nelze zabít proces s PID %d se signálem %d.\n%s"
+msgstr ""
+"Nelze zabít proces s PID %d se signálem %d.\n"
+"%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:73
@@ -1036,7 +1054,9 @@ msgstr "Zabít vybraný proces “%s” (PID: %u)?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr "Zabití procesu může zničit data, přerušit sezení, nebo způsobit bezpečnostní riziko. Zabíjet by se měly jen neodpovídající procesy."
+msgstr ""
+"Zabití procesu může zničit data, přerušit sezení, nebo způsobit bezpečnostní"
+" riziko. Zabíjet by se měly jen neodpovídající procesy."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:84
@@ -1049,7 +1069,9 @@ msgstr "Ukončit vybraný proces “%s” (PID: %u)?"
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr "Ukončení procesu může zničit data, přerušit sezení, nebo způsobit bezpečnostní riziko. Ukončovat by se měly jen neodpovídající procesy."
+msgstr ""
+"Ukončení procesu může zničit data, přerušit sezení, nebo způsobit "
+"bezpečnostní riziko. Ukončovat by se měly jen neodpovídající procesy."
 
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
@@ -1077,66 +1099,71 @@ msgstr "Poznámka:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Priorita procesu je dána jeho hodnotou nice. Nižší hodnota nice odpovídá vyšší prioritě."
+msgstr ""
+"Priorita procesu je dána jeho hodnotou nice. Nižší hodnota nice odpovídá "
+"vyšší prioritě."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Ikona"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Předvolby sledování systému"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Chování"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "Interval _aktualizace v sekundách:"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "Povolit _hladké obnovování"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Upozornit před ukončením nebo za_bitím procesů"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr "Rozdělit využití procesoru podle počtu CPU"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Režim Solaris"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Informační pole"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "_Informace o procesech zobrazované v seznamu:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Grafy"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr "_Interval aktualizace v 1/10 s:"
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Zobrazovat rychlost připojení v bitech"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr "Zobrazovat _všechny systémy souborů"
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformace o systémech souborů zobrazované v seznamu:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "Jednoduché sledování procesů a systému."
 
@@ -1241,7 +1268,7 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Průměry zátěže za posledních 1, 5, 15 minut: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
 msgstr "Nic"
 
@@ -1268,35 +1295,35 @@ msgstr "Vydání %s %s"
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "Jádro %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "Paměť:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "Procesor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr "Stav systému"
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "Dostupné místo na disku:"
 
@@ -1344,64 +1371,66 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr "%.1f TiB"
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr "%.3g kbit"
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr "%.3g Mbit"
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr "%.3g Gbit"
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr "%.3g Tbit"
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
 msgstr[0] "%u bit"
 msgstr[1] "%u bity"
 msgstr[2] "%u bitů"
+msgstr[3] "%u bitů"
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "%u bajt"
 msgstr[1] "%u bajty"
 msgstr[2] "%u bajtů"
+msgstr[3] "%u bajtů"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Ani Peter <peter.ani@gmail.com>, 2006
-# FSF-India <locale@gnu.org.in>, 2003
-# Hari Vishnu <harivishnu@gmail.com>, 2008
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-06 11:29+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
-"Language-Team: Malayalam (http://www.transifex.com/mate/MATE/language/ml/)\n"
+"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Malayalam (https://www.transifex.com/mate/teams/13566/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,13 +37,15 @@ msgid "MATE System Monitor"
 msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "സിസ്റ്റം നിരീക്ഷകന്‍"
 
 #: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
 msgid "View current processes and monitor system state"
-msgstr "നിലവിലുളള പ്രക്രിയകള്‍ വീക്ഷിക്കുകയും സിസ്റ്റത്തിന്റെ അവസ്ഥ നിരീക്ഷിക്കുകയും ചെയ്യുന്നു"
+msgstr ""
+"നിലവിലുളള പ്രക്രിയകള്‍ വീക്ഷിക്കുകയും സിസ്റ്റത്തിന്റെ അവസ്ഥ നിരീക്ഷിക്കുകയും"
+" ചെയ്യുന്നു"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:1
 msgid "Kill process"
@@ -81,7 +81,9 @@ msgstr ""
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "എഫ്എസ്എഫ്-ഇന്ത്യ <locale@gnu.org.in>\nഅനി പീറ്റര്‍ <peter.ani@gmail.com>\nഹരി വിഷ്ണു <harivishnu@gmail.com>"
+msgstr ""
+"അനി പീറ്റര്‍ <peter.ani@gmail.com>\n"
+"പ്രവീണ്‍ അരിമ്പ്രത്തൊടിയില്‍ <pravi.a@gmail.com>"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -190,7 +192,7 @@ msgstr "_മാറ്റം വരുത്തുക"
 
 #: ../src/interface.cpp:53
 msgid "_View"
-msgstr "_കാണുക"
+msgstr "_കാഴ്ച"
 
 #: ../src/interface.cpp:54
 msgid "_Help"
@@ -279,7 +281,7 @@ msgstr "ഒരു പ്രക്രിയയാല്‍ തുറന്നി�
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "സവിശേഷതകള്‍ (_P)"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
@@ -329,7 +331,7 @@ msgstr "എ_ന്റെ പ്രക്രിയകള്‍"
 msgid "Show only user-owned processes"
 msgstr ""
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr ""
 
@@ -337,31 +339,31 @@ msgstr ""
 msgid "Set process priority to very high"
 msgstr ""
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "കൂടിയ"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
 msgstr ""
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "സാധാരണ"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
 msgstr ""
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "കുറഞ്ഞ"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
 msgstr ""
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr ""
 
@@ -371,7 +373,7 @@ msgstr ""
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "ഇച്ഛാനുസൃതം"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
@@ -383,72 +385,72 @@ msgstr "പ്രക്രിയ _അവസാനിപ്പിക്കുക"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr ""
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "സി.പി.യു ചരിത്രം"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "സി.പി.യു"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "സി.പി.യു%d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "മെമ്മറിയും Swap ചരിത്രവും"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "മെമ്മറി"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "സ്വാപ്"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "ശൃംഖലയുടെ ചരിത്രം"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "സ്വീകരിച്ചുകൊണ്ടിരിയ്ക്കുന്നു"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "മൊത്തത്തില്‍ സ്വീകരിച്ചതു്"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "അയയ്ക്കുന്നു"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "മൊത്തം അയച്ചതു്"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "സിസ്റ്റം"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "പ്രക്രിയകള്‍"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "വിഭവങ്ങള്‍"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "ഫയല്‍ സിസ്റ്റങ്ങള്‍"
 
@@ -456,8 +458,8 @@ msgstr "ഫയല്‍ സിസ്റ്റങ്ങള്‍"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u സെക്കന്റ്"
-msgstr[1] "%u സെക്കന്റുകള്‍"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -471,7 +473,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:123
 msgid "Error"
-msgstr ""
+msgstr "ടെറര്‍പിശക്"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -502,7 +504,7 @@ msgstr "_പേരില്‍ ഉള്‍ക്കൊള്ളുന്നു:
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:345
 msgid "C_lear"
-msgstr ""
+msgstr "വെടിപ്പാക്കുക"
 
 #: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
@@ -652,7 +654,8 @@ msgstr "പ്രക്രിയകള്‍ ഇല്ലാതാക്കു�
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:8
 msgid "Time in milliseconds between updates of the process view"
-msgstr "പ്രക്രിയയുടെ കാഴ്ചയുടെ പുതുക്കലിന് ഇടയിലുളള സമയം (മില്ലിസെക്കന്‍ഡ്സില്‍)"
+msgstr ""
+"പ്രക്രിയയുടെ കാഴ്ചയുടെ പുതുക്കലിന് ഇടയിലുളള സമയം (മില്ലിസെക്കന്‍ഡ്സില്‍)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:9
 msgid "Time in milliseconds between updates of the graphs"
@@ -671,13 +674,16 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
-msgstr "ഉപകരണം ലിസ്റ്റുകളുടെ പുതുക്കലിന് ഇടയിലുളള സമയം (മില്ലിസെക്കന്‍ഡ്സില്‍)"
+msgstr ""
+"ഉപകരണം ലിസ്റ്റുകളുടെ പുതുക്കലിന് ഇടയിലുളള സമയം (മില്ലിസെക്കന്‍ഡ്സില്‍)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:13
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "സഹജമായി ഏത് പ്രക്രിയ കാണിക്കണമെന്ന് തീരുമാനിക്കുന്നു. എല്ലാം കാണിക്കണമെങ്കില്‍ 0, ഉപയോക്താവ് 1 ആണ്, പ്രവര്‍ത്തിനുളളത് ആണെങ്കില്‍ 2"
+msgstr ""
+"സഹജമായി ഏത് പ്രക്രിയ കാണിക്കണമെന്ന് തീരുമാനിക്കുന്നു. എല്ലാം "
+"കാണിക്കണമെങ്കില്‍ 0, ഉപയോക്താവ് 1 ആണ്, പ്രവര്‍ത്തിനുളളത് ആണെങ്കില്‍ 2"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -687,7 +693,9 @@ msgstr "ഇപ്പോള്‍ വീക്ഷിച്ച കിളിവാ�
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 എന്നാല്‍ സിസ്റ്റം വിവരം, 1 എന്നാല്‍ പ്രക്രിയ പട്ടിക, 2 എന്നാല്‍ വിഭവങ്ങള്‍, 3 എന്നാല്‍ ഡിസ്കുകളുടെ പട്ടിക"
+msgstr ""
+"0 എന്നാല്‍ സിസ്റ്റം വിവരം, 1 എന്നാല്‍ പ്രക്രിയ പട്ടിക, 2 എന്നാല്‍ "
+"വിഭവങ്ങള്‍, 3 എന്നാല്‍ ഡിസ്കുകളുടെ പട്ടിക"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1065,66 +1073,73 @@ msgstr "കുറിപ്പ്:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "പ്രക്രിയയുടെ മുന്‍ഗണന ലഭ്യമാകുന്നത് അതിന്റെ നല്ല മൂല്യം കാരണമാണ്. ചെറിയ മൂല്ല്യത്തിന് മുന്‍ഗണന കൂടുതലാണ്."
+msgstr ""
+"പ്രക്രിയയുടെ മുന്‍ഗണന ലഭ്യമാകുന്നത് അതിന്റെ നല്ല മൂല്യം കാരണമാണ്. ചെറിയ "
+"മൂല്ല്യത്തിന് മുന്‍ഗണന കൂടുതലാണ്."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "ചിഹ്നം"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "സിസ്റ്റം നിരീക്ഷകന്റെ ഇഷ്ടാനിഷ്ടങ്ങള്‍"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "പെരുമാറ്റം"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "_പുതുക്കുന്നതിനുള്ള ഇടവേള സെക്കന്‍ഡുകളില്‍:"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "_മൃദുവായ പുതുക്കല്‍ പ്രവര്‍ത്തന സജ്ജമാക്കുക"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
-msgstr "പ്രക്രിയകള്‍ അവസാനിപ്പിക്കുകയോ _ഇല്ലാതാക്കുകയോ ചെയ്യുന്നതിന് മുമ്പ് അറിയിക്കുക"
+msgstr ""
+"പ്രക്രിയകള്‍ അവസാനിപ്പിക്കുകയോ _ഇല്ലാതാക്കുകയോ ചെയ്യുന്നതിന് മുമ്പ് "
+"അറിയിക്കുക"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr ""
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "സൊളാരിസ് ദശ"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "വിവരങ്ങള്‍ ഇടാനുള്ള വിഭാഗങ്ങള്‍ :"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "ലിസ്റ്റില്‍ കാണിച്ചിരിക്കുന്ന പ്രക്രിയകളുടെ വി_വരങ്ങള്‍:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "ഗ്രാഫുകള്‍"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "നെറ്റ്‌വര്‍ക്ക് വേഗത ബിറ്റ്സില്‍ കാണിക്കുക"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr ""
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "പട്ടികയില്‍ കാണിച്ചിരിക്കുന്ന ഫയലുകളുടെ വി_വരങ്ങള്‍:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "ഒരു ലളിതമായ പ്രക്രിയയുടേയും സിസ്റ്റത്തിന്റേയും നിരീക്ഷകന്‍."
 
@@ -1217,11 +1232,11 @@ msgstr ""
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
-msgstr ""
+msgstr "ഉടമസ്ഥന്‍ "
 
 #: ../src/proctable.cpp:266 ../src/procproperties.cpp:129
 msgid "Priority"
-msgstr ""
+msgstr "മുന്‍ഗണന"
 
 #: ../src/proctable.cpp:1091
 #, c-format
@@ -1229,9 +1244,9 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "കഴിഞ്ഞ 1,5,15 മിനിറ്റുകളിലുളള ലോഡ് ശരാശരി: %0.2f, %0.2f, %0.2f "
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "അസാധു"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
@@ -1256,35 +1271,35 @@ msgstr ""
 msgid "%d-bit"
 msgstr ""
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "കെര്‍ണല്‍ %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "ഗ്നോം %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
-msgstr ""
+msgstr "ഹാര്‍ഡ്‌വെയര്‍"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "മെമ്മറി:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "പ്രൊസസ്സര്‍:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr ""
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "ലഭ്യമായ ഡിസ്ക് സ്ഥലം:"
 
@@ -1332,62 +1347,62 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr ""
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr ""
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr ""
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr ""
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr ""
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u ബിറ്റ്"
-msgstr[1] "%u ബിറ്റ്സ്"
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u ബൈറ്റ്"
-msgstr[1] "%u ബൈറ്റ്സ്"
+msgstr[0] ""
+msgstr[1] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

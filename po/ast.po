@@ -1,20 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007
-# Ḷḷumex03 <tornes@opmbx.org>, 2014
-# Xose S. Puente <xspuente@gmail.com>, 2007
-# Xuacu Saturio <xuacusk8@gmail.com>, 2013
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-06 11:29+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
-"Language-Team: Asturian (http://www.transifex.com/mate/MATE/language/ast/)\n"
+"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ḷḷumex03 <tornes@opmbx.org>, 2018\n"
+"Language-Team: Asturian (https://www.transifex.com/mate/teams/13566/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +37,7 @@ msgid "MATE System Monitor"
 msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "Monitor del Sistema"
 
@@ -280,7 +277,7 @@ msgstr "Ver los ficheros abiertos por un procesu"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Propiedaes"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
@@ -288,7 +285,7 @@ msgstr ""
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
-msgstr "_Conteníos"
+msgstr "_Índiz"
 
 #: ../src/interface.cpp:89
 msgid "Open the manual"
@@ -330,39 +327,39 @@ msgstr "_Los mios procesos"
 msgid "Show only user-owned processes"
 msgstr ""
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Mui alta"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
 msgstr ""
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "Alta"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
 msgstr ""
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
 msgstr ""
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "Baxa"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
 msgstr ""
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr ""
 
@@ -372,7 +369,7 @@ msgstr ""
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Personalizar"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
@@ -384,72 +381,72 @@ msgstr "_Finar procesu"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr ""
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Historia de la CPU"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "CPU %d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "Historia de memoria ya intercambéu"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Memoria"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "Intercambéu"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "Historia de la rede"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "Recibiendo"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "Total recibíu"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "Unviando"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Total unviáu"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "Sistema"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Procesos"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Recursos"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Sistemes de ficheros"
 
@@ -457,8 +454,8 @@ msgstr "Sistemes de ficheros"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u segundu"
-msgstr[1] "%u segundos"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -472,7 +469,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:123
 msgid "Error"
-msgstr ""
+msgstr "Fallu"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -503,7 +500,7 @@ msgstr "El _nome contién:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:345
 msgid "C_lear"
-msgstr ""
+msgstr "L_limpiar"
 
 #: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
@@ -678,7 +675,9 @@ msgstr "Tiempu en milisegundos ente los anovamientos de la llista de preseos"
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Determina qué procesos s'amosarán por defeutu. 0 ye toos, 1 ye usuariu, y 2 ye activu"
+msgstr ""
+"Determina qué procesos s'amosarán por defeutu. 0 ye toos, 1 ye usuariu, y 2 "
+"ye activu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -688,7 +687,9 @@ msgstr "Guarda la llingüeta anguaño vista"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 pa la Información del Sistema, 1 pa la llista de procesos, 2 pa los recursos y 3 pa la llista de discos"
+msgstr ""
+"0 pa la Información del Sistema, 1 pa la llista de procesos, 2 pa los "
+"recursos y 3 pa la llista de discos"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1066,66 +1067,71 @@ msgstr "Nota:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "La prioridá d'un procesu vien dau pol so valor apropiáu. Un valor apropiáu baxu, correspuéndese a una prioridá más alta."
+msgstr ""
+"La prioridá d'un procesu vien dau pol so valor apropiáu. Un valor apropiáu "
+"baxu, correspuéndese a una prioridá más alta."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Iconu"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Preferencies del monitor del sistema"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Comportamientu"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "Intervalu d'anovamient_u en segundos:"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "Activar refre_scu nidiu"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Sollertar enantes de finar o _amortir procesos"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr ""
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Mou Solaris"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Campos d'información"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "Información de los procesos _amosaos na llista:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Gráficos"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Amosar la velocidá de rede en bits"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr ""
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformación de los procesos amosaos na llista:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "Un cenciellu monitor de procesos y del sistema."
 
@@ -1218,11 +1224,11 @@ msgstr ""
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
-msgstr ""
+msgstr "Dueñu"
 
 #: ../src/proctable.cpp:266 ../src/procproperties.cpp:129
 msgid "Priority"
-msgstr ""
+msgstr "Prioridá"
 
 #: ../src/proctable.cpp:1091
 #, c-format
@@ -1230,9 +1236,9 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Carga media pa los caberos 1, 5 y 15 minutos: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
@@ -1257,35 +1263,35 @@ msgstr ""
 msgid "%d-bit"
 msgstr ""
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "Nucleu %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
-msgstr ""
+msgstr "Hardware"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "Memoria:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "Procesador:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr ""
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "Espaciu disponible en discu:"
 
@@ -1333,62 +1339,62 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr ""
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr ""
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr ""
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr ""
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr ""
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u bit"
-msgstr[1] "%u bits"
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u byte"
-msgstr[1] "%u bytes"
+msgstr[0] ""
+msgstr[1] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

@@ -1,16 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-06 11:29+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
-"Language-Team: Dzongkha (http://www.transifex.com/mate/MATE/language/dz/)\n"
+"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Dzongkha (https://www.transifex.com/mate/teams/13566/dz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +37,7 @@ msgid "MATE System Monitor"
 msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "རིམ་ལུགས་ལྟ་རྟོག་པ།"
 
@@ -78,7 +79,10 @@ msgstr ""
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "\"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>\"།"
+msgstr ""
+"ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ "
+"སྐད་བསྒྱུར་འབད་ཡི། ཁ་གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: "
+"<pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>(_c)"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -276,7 +280,7 @@ msgstr "ལས་སྦྱོར་ཅིག་གིས་ ཁ་ཕྱེ་�
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "རྒྱུ་དངོས་ཚུ།(_P)"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
@@ -284,7 +288,7 @@ msgstr ""
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
-msgstr "ནང་དོན་ཚུ།(_C)"
+msgstr "ནང་དོན།(_C)"
 
 #: ../src/interface.cpp:89
 msgid "Open the manual"
@@ -326,7 +330,7 @@ msgstr "ངེད་ཀྱི་ལས་སྦྱོར་ཚུ།(_y)"
 msgid "Show only user-owned processes"
 msgstr ""
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr ""
 
@@ -334,7 +338,7 @@ msgstr ""
 msgid "Set process priority to very high"
 msgstr ""
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
 msgstr ""
 
@@ -342,15 +346,15 @@ msgstr ""
 msgid "Set process priority to high"
 msgstr ""
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "སྤྱིར་བཏང་"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
 msgstr ""
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
 msgstr ""
 
@@ -358,7 +362,7 @@ msgstr ""
 msgid "Set process priority to low"
 msgstr ""
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr ""
 
@@ -368,7 +372,7 @@ msgstr ""
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "སྲོལ་སྒྲིག"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
@@ -380,72 +384,72 @@ msgstr "ལས་སྦྱོར་མཇུག་བསྡུ།(_P)"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr ""
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "ལས་སྦྱོར་ལྟེ་བའི་ལོ་རྒྱུས།"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "སི་པུ་ཡུ་ "
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "སི་པི་ཡུ་ %d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "དྲན་ཚད་དང་ བརྗེ་སོར་ལོ་རྒྱུས།"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "དྲན་ཚད།"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "བརྗེ་སོར་ "
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "ཡོངས་འབྲེལ་ལོ་རྒྱུས།"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "ཐོབ་དོ་ "
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "ཐོབ་ཡོདཔ་ ཡོངས་བསྡོམས་ "
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "གཏང་དོ་ "
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "བསྡོམས་ གཏང་ཡོདཔ་ "
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "རིམ་ལུགས་"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "ལས་སྦྱོར་ཚུ།"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "ཐོན་ཁུངས་ཚུ།"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "ཡིག་སྣོད་རིམ་ལུགས།"
 
@@ -467,7 +471,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:123
 msgid "Error"
-msgstr ""
+msgstr "འཛོལ་བ།"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -498,7 +502,7 @@ msgstr "མིང་གི་ནང་ན:(_N)"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:345
 msgid "C_lear"
-msgstr ""
+msgstr "བསལ།(_l)"
 
 #: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
@@ -648,7 +652,8 @@ msgstr "ལས་སྦྱོར་ཚུ་གསད་པའི་སྐབས
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:8
 msgid "Time in milliseconds between updates of the process view"
-msgstr "ལས་སྦྱོར་མཐོང་སྣང་ དུས་མཐུན་བཟོ་བའི་བར་ནའི་དུས་ཚོད་ མི་ལི་སྐར་ཆའི་ནང་།"
+msgstr ""
+"ལས་སྦྱོར་མཐོང་སྣང་ དུས་མཐུན་བཟོ་བའི་བར་ནའི་དུས་ཚོད་ མི་ལི་སྐར་ཆའི་ནང་།"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:9
 msgid "Time in milliseconds between updates of the graphs"
@@ -667,13 +672,17 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
-msgstr "ཐབས་འཕྲུལ་ཚུ་གི་ཐོ་ཡིག་ཚུ་ དུས་མཐུན་བཟོ་བའི་བར་ནའི་དུས་ཚོད་ མི་ལི་སྐར་ཆའི་ནང་།"
+msgstr ""
+"ཐབས་འཕྲུལ་ཚུ་གི་ཐོ་ཡིག་ཚུ་ དུས་མཐུན་བཟོ་བའི་བར་ནའི་དུས་ཚོད་ "
+"མི་ལི་སྐར་ཆའི་ནང་།"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:13
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "སྔོན་སྒྲིག་ཐོག་ལུ་སྟོན་ནིའི་ ལས་སྦྱོར་ཚུ་ ངེས་འཛིན་འབདཝ་ཨིན། ༠ འདི་ཆ་མཉམ་དང་ ༡ འདི་ལག་ལེན་པ། ༢ ཤུགས་ལྡན་ཨིན།"
+msgstr ""
+"སྔོན་སྒྲིག་ཐོག་ལུ་སྟོན་ནིའི་ ལས་སྦྱོར་ཚུ་ ངེས་འཛིན་འབདཝ་ཨིན། ༠ འདི་ཆ་མཉམ་དང་"
+" ༡ འདི་ལག་ལེན་པ། ༢ ཤུགས་ལྡན་ཨིན།"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -683,7 +692,9 @@ msgstr "ད་ལྟོ་མཐོང་མི་མཆོང་ལྡེ་ད
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "རིམ་ལུགས་བརྡ་དོན་འདི་གི་དོན་ལུ་ ༠  ལས་སྦྱོར་ཐོ་ཡིག་འདི་གི་དོན་ལུ་ ༡   ཐོན་ཁུངས་འདི་གི་དོན་ལུ་ ༢   དང་ ཌིཀསི་ཐོ་ཡིག་འདི་གི་དོན་ལུ་ ༣"
+msgstr ""
+"རིམ་ལུགས་བརྡ་དོན་འདི་གི་དོན་ལུ་ ༠  ལས་སྦྱོར་ཐོ་ཡིག་འདི་གི་དོན་ལུ་ ༡   "
+"ཐོན་ཁུངས་འདི་གི་དོན་ལུ་ ༢   དང་ ཌིཀསི་ཐོ་ཡིག་འདི་གི་དོན་ལུ་ ༣"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1061,66 +1072,72 @@ msgstr "དྲན་འཛིན།"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "ལས་སྦྱོར་ཅིག་གི་གཙོ་རིམ་དེ་ ན་ཡིསི་བེ་ལུ་གིས་བྱིནམ་ཨིན། ན་ཡིསི་བེ་ལུ་ དམའ་མི་ཅིག་གིས་ གཙོ་རིམ་མཐོ་མི་དང་ ཆ་མཉམ་ཨིན།"
+msgstr ""
+"ལས་སྦྱོར་ཅིག་གི་གཙོ་རིམ་དེ་ ན་ཡིསི་བེ་ལུ་གིས་བྱིནམ་ཨིན། ན་ཡིསི་བེ་ལུ་ "
+"དམའ་མི་ཅིག་གིས་ གཙོ་རིམ་མཐོ་མི་དང་ ཆ་མཉམ་ཨིན།"
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "ངོས་དཔར།"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "རིམ་ལུགས་ལྟ་རྟོག་པའི་དགའ་གདམ་ཚུ།"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "སྤྱོད་ལམ།"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "སྐར་ཆ་ནང་ལུ་བར་མཚམས་དུས་མཐུན་བཟོ་:(_U)"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "ཧུམ་ཁྱུག་ཡང་སེལ་ ལྕོགས་ཅན་བཟོ།(_s)"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
-msgstr "ལས་སྦྱོར་ཚུ་ མཇུག་མ་བསྡུ་བའི་ཧེ་མར་ ཡང་ན་ མ་བསད་པའི་ཧེ་མར་ དྲན་བརྡ་བྱིན།(_k)"
+msgstr ""
+"ལས་སྦྱོར་ཚུ་ མཇུག་མ་བསྡུ་བའི་ཧེ་མར་ ཡང་ན་ མ་བསད་པའི་ཧེ་མར་ དྲན་བརྡ་བྱིན།(_k)"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr ""
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "སོ་ལ་རིསི་ ཐབས་ལམ་ "
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "བརྡ་དོན་ས་སྒོ་"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "ཐོ་ཡིག་ནང་སྟོན་ཡོད་མི་ ལས་སྦྱོར་བརྡ་དོན་:(_n)"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "ཚད་ཁྲམ་ཚུ།"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr ""
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr ""
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr ""
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr ""
 
@@ -1213,21 +1230,23 @@ msgstr ""
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
-msgstr ""
+msgstr "ཇོ་བདག"
 
 #: ../src/proctable.cpp:266 ../src/procproperties.cpp:129
 msgid "Priority"
-msgstr ""
+msgstr "གཙོ་རིམ།"
 
 #: ../src/proctable.cpp:1091
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr "འདས་པའི་སྐར་མ་ ༡, ༥, དང་ ༡༥ གི་དོན་ལུ་ ཆ་སྙོམས་ཚུ་ མངོན་གསལ་འབད་: %0.2f, %0.2f, %0.2f"
+msgstr ""
+"འདས་པའི་སྐར་མ་ ༡, ༥, དང་ ༡༥ གི་དོན་ལུ་ ཆ་སྙོམས་ཚུ་ མངོན་གསལ་འབད་: %0.2f, "
+"%0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "ཨེན་/ཨེ།"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
@@ -1252,35 +1271,35 @@ msgstr ""
 msgid "%d-bit"
 msgstr ""
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "ཀར་ནེལ་ %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "ཇི་ནོམ་ %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
-msgstr ""
+msgstr "སྲ་ཆས་"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "དྲན་ཚད་:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "ལས་སྦྱོར་འཕྲུལ་ཆས་:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr ""
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "ཐོབ་ཚུགས་པའི་ཌིཀསི་བར་སྟོང་:"
 
@@ -1328,60 +1347,60 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f ཀེ་ཨའི་བི།"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f ཨེམ་ཨའི་བི།"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f ཇི་ཨའི་བི།"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr ""
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr ""
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr ""
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr ""
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr ""
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
 msgstr[0] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

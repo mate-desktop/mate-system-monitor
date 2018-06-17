@@ -1,23 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# ABE Tsunehiko, 2015,2017
-# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
-# Kenzo Matsumoto <dicegeist@gmail.com>, 2016
-# Mika Kobayashi, 2015
-# Satoru SATOh <ss@gnome.gr.jp>, 2006
-# semicolon <mail@semicln.com>, 2016
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-23 04:09+0000\n"
-"Last-Translator: ABE Tsunehiko\n"
-"Language-Team: Japanese (http://www.transifex.com/mate/MATE/language/ja/)\n"
+"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2018\n"
+"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,14 +30,17 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> MATE システムモニターはシステム上のプロセスを可視化し、操作するプログラムです。また、CPU やメモリーなどのリソースを確認も行えます。 </p> <p> MATE システムモニターは GNOME システムモニターのフォークであり、MATE デスクトップ環境の一部です。もしMATE と MATE システムモニターについて興味があれば、ぜひプロジェクトのホームページをご覧ください。</p>"
+msgstr ""
+"<p> MATE システムモニターはシステム上のプロセスを可視化し、操作するプログラムです。また、CPU やメモリーなどのリソースを確認も行えます。 "
+"</p> <p> MATE システムモニターは GNOME システムモニターのフォークであり、MATE デスクトップ環境の一部です。もしMATE と "
+"MATE システムモニターについて興味があれば、ぜひプロジェクトのホームページをご覧ください。</p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
 msgstr "MATE システムモニター"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "システムモニター"
 
@@ -85,7 +82,18 @@ msgstr "ファイルシステムタブを表示する"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "相花 毅 <takeshi.aihana@gmail.com>\nKAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\nSatoru SATOH <ss@gnome.gr.jp>\n草野 貴之 <AE5T-KSN@asahi-net.or.jp>\n日本GNOMEユーザー会 <http://www.gnome.gr.jp/>"
+msgstr ""
+"相花 毅 <takeshi.aihana@gmail.com>\n"
+"佐藤 暁 <ss@gnome.gr.jp>\n"
+"KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
+"Akira TAGOH <tagoh@gnome.gr.jp>\n"
+"Yukihiro Nakai <nakai@gnome.gr.jp>\n"
+"Yuusuke Tahara <tahara@gnome.gr.jp>\n"
+"Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>\n"
+"やまね ひでき <henrich@debian.or.jp>\n"
+"草野 貴之 <AE5T-KSN@asahi-net.or.jp>\n"
+"松澤 二郎 <jmatsuzawa@gnome.org>\n"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp/"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -122,23 +130,23 @@ msgstr "?"
 
 #: ../src/e_date.c:162
 msgid "Today %l:%M %p"
-msgstr "今日の%p%l:%M"
+msgstr "本日 %p %l:%M"
 
 #: ../src/e_date.c:171
 msgid "Yesterday %l:%M %p"
-msgstr "昨日の%p%l:%M"
+msgstr "昨日 %p %l:%M"
 
 #: ../src/e_date.c:183
 msgid "%a %l:%M %p"
-msgstr "%Aの%p%l:%M"
+msgstr "%a %p %l:%M"
 
 #: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
-msgstr "%B%e日の%p%l:%M"
+msgstr "%b %p %d %l:%M"
 
 #: ../src/e_date.c:193
 msgid "%b %d %Y"
-msgstr "%Y年 %B%e日"
+msgstr "%Y %b %d"
 
 #: ../src/gsm_color_button.c:195
 msgid "Fraction"
@@ -160,7 +168,7 @@ msgstr "色の選択ダイアログのタイトル"
 
 #: ../src/gsm_color_button.c:206 ../src/gsm_color_button.c:617
 msgid "Pick a Color"
-msgstr "色の取得"
+msgstr "色の選択"
 
 #: ../src/gsm_color_button.c:212
 msgid "Current Color"
@@ -333,7 +341,7 @@ msgstr "ユーザーのプロセス(_Y)"
 msgid "Show only user-owned processes"
 msgstr "ユーザーが所有しているプロセスだけを表示します。"
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr "非常に高い"
 
@@ -341,7 +349,7 @@ msgstr "非常に高い"
 msgid "Set process priority to very high"
 msgstr "プロセスの優先度を「非常に高い」に設定します。"
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
 msgstr "高い"
 
@@ -349,7 +357,7 @@ msgstr "高い"
 msgid "Set process priority to high"
 msgstr "プロセスの優先度を「高い」に設定します。"
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
 msgstr "標準"
 
@@ -357,7 +365,7 @@ msgstr "標準"
 msgid "Set process priority to normal"
 msgstr "プロセスの優先度を「標準」に設定します。"
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
 msgstr "低い"
 
@@ -365,7 +373,7 @@ msgstr "低い"
 msgid "Set process priority to low"
 msgstr "プロセスの優先度を「低い」に設定します。"
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr "非常に低い"
 
@@ -387,72 +395,72 @@ msgstr "プロセスの終了(_P)"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "'%s' の色を選択します。"
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "CPU 使用率の履歴"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "メモリーとスワップの履歴"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "メモリー"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "スワップ"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "ネットワークの履歴"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "受信したデータ:"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "合計:"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "送信したデータ:"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "合計:"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "システム"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "プロセス"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "リソース"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "ファイルシステム"
 
@@ -460,7 +468,7 @@ msgstr "ファイルシステム"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u 秒"
+msgstr[0] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -643,7 +651,9 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr "TRUE にすると、システムモニターはタスクの CPU 使用率を CPU の個数で割る'Solaris モード' で表示します。FALSE の場合は 'Irix モード' で表示します。"
+msgstr ""
+"TRUE にすると、システムモニターはタスクの CPU 使用率を CPU の個数で割る'Solaris モード' で表示します。FALSE の場合は "
+"'Irix モード' で表示します。"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -670,7 +680,8 @@ msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr "全てのファイルシステム(autofs、procfsなどを含む)についての情報を表示するかどうかです。現在マウントされている全てのファイルシステムの一覧を見たい場合に便利です。"
+msgstr ""
+"全てのファイルシステム(autofs、procfsなどを含む)についての情報を表示するかどうかです。現在マウントされている全てのファイルシステムの一覧を見たい場合に便利です。"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -1007,14 +1018,18 @@ msgstr "開いているファイルのソート順"
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "PID %d のプロセスの優先度を %d に変更できませんでした。\n%s"
+msgstr ""
+"PID %d のプロセスの優先度を %d に変更できませんでした。\n"
+"%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr "PID %d のプロセスをシグナル %d で強制終了できませんでした。\n%s"
+msgstr ""
+"PID %d のプロセスをシグナル %d で強制終了できませんでした。\n"
+"%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:73
@@ -1027,7 +1042,8 @@ msgstr "選択したプロセス “%s” (PID: %u) を強制終了しますか
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr "プロセスを強制終了するとデータの破壊、セッションの終了、セキュリティ問題などを引き起こすことがあります。応答のないプロセスだけを強制終了してください。"
+msgstr ""
+"プロセスを強制終了するとデータの破壊、セッションの終了、セキュリティ問題などを引き起こすことがあります。応答のないプロセスだけを強制終了してください。"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:84
@@ -1040,7 +1056,8 @@ msgstr "選択したプロセス “%s”  (PID: %u) を終了しますか？"
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr "プロセスを終了するとデータの破壊、セッションの終了、セキュリティ問題などを引き起こすことがあります。応答のないプロセスだけを終了してください。"
+msgstr ""
+"プロセスを終了するとデータの破壊、セッションの終了、セキュリティ問題などを引き起こすことがあります。応答のないプロセスだけを終了してください。"
 
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
@@ -1070,64 +1087,67 @@ msgid ""
 "corresponds to a higher priority."
 msgstr "プロセスの優先度は Nice 値で設定します。Nice 値が小さいほど高優先度になります。"
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "アイコン"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "システムモニターの設定"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "動作"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "更新間隔(秒)(_U):"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "スムーズリフレッシュを有効にする(_S)"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "プロセスを終了または強制終了する前に警告する(_K)"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr "CPU 使用率を CPU の個数で割る"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Solaris モード"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "表示する項目"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "一覧に表示するプロセスの情報(_N):"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "グラフ"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "ネットワークの速度をビット単位で表示する"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr "すべてのファイルシステムを表示する(_A)"
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "一覧に表示するファイルシステムの情報(_N):"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "プロセスやシステムの状態を監視するシンプルなモニターです。"
 
@@ -1232,7 +1252,7 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "最近 1, 5, 15分間の平均負荷: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
 msgstr "無し"
 
@@ -1259,35 +1279,35 @@ msgstr "リリース %s %s"
 msgid "%d-bit"
 msgstr "%d ビット"
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "カーネル %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
 msgstr "ハードウェア"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "メモリー:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "プロセッサー:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr "システムステータス"
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "利用可能なディスク容量:"
 
@@ -1335,60 +1355,60 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr "%.1f TiB"
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr "%.3g kbit"
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr "%.3g Mbit"
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr "%.3g Gbit"
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr "%.3g Tbit"
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u ビット"
+msgstr[0] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u バイト"
+msgstr[0] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/秒"

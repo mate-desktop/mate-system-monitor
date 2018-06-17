@@ -1,23 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006
-# Dirgita <dirgitadevina@gmail.com>, 2010
-# Febrian Setianto <febrian.setianto@gmail.com>, 2017
-# Mohamad Hasan Al Banna <se7entime@openmailbox.org>, 2012
-# Mohamad Hasan Al Banna <se7entime@openmailbox.org>, 2012
-# Mohammad DAMT <mdamt@bisnisweb.com>, 2005
-# Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2014,2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-14 10:28+0000\n"
-"Last-Translator: Kukuh Syafaat <syafaatkukuh@gmail.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/mate/MATE/language/id/)\n"
+"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>, 2018\n"
+"Language-Team: Indonesian (https://www.transifex.com/mate/teams/13566/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,14 +30,21 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> MATE System Monitor memiliki kemampuan untuk melihat dan memanipulasi proses yang berjalan pada sistem Anda secara visual. Aplikasi ini juga menyediakan gambaran tentang sumber daya yang tersedia, seperti CPU dan memori. </p> <p> MATE System Monitor adalah fork dari GNOME System Monitor dan merupakan bagian dari Lingkungan Desktop MATE. Jika Anda hendak mengetahui lebih lanjut tentang MATE dan System Monitor, harap mengunjungi halaman home page proyek. </p>"
+msgstr ""
+"<p> MATE System Monitor memiliki kemampuan untuk melihat dan memanipulasi "
+"proses yang berjalan pada sistem Anda secara visual. Aplikasi ini juga "
+"menyediakan gambaran tentang sumber daya yang tersedia, seperti CPU dan "
+"memori. </p> <p> MATE System Monitor adalah fork dari GNOME System Monitor "
+"dan merupakan bagian dari Lingkungan Desktop MATE. Jika Anda hendak "
+"mengetahui lebih lanjut tentang MATE dan System Monitor, harap mengunjungi "
+"halaman home page proyek. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
 msgstr "MATE System Monitor"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "Monitor Sistem"
 
@@ -85,7 +86,12 @@ msgstr "Tampilkan tab Sistem Berkas"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Mohammad DAMT <mdamt@bisnisweb.com>\nAhmad Riza H Nst  <ari@160c.afraid.org>\nDirgita <dirgita@gmail.com>\nTim MATE Indonesia <http://id.mate.org>\nKukuh Syafaat <syafaatkukuh@gmail.com>, 2017."
+msgstr ""
+"Mohammad DAMT <mdamt@bisnisweb.com>\n"
+"Ahmad Riza H Nst  <ari@160c.afraid.org>\n"
+"Dirgita <dirgita@gmail.com>\n"
+"Tim MATE Indonesia <http://id.mate.org>\n"
+"Kukuh Syafaat <syafaatkukuh@gmail.com>, 2017."
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -97,7 +103,7 @@ msgstr "Direktori"
 
 #: ../src/disks.cpp:340 ../src/gsm_color_button.c:219 ../src/openfiles.cpp:252
 msgid "Type"
-msgstr "Jenis"
+msgstr "Tipe"
 
 #: ../src/disks.cpp:341
 msgid "Total"
@@ -190,11 +196,11 @@ msgstr "_Monitor"
 
 #: ../src/interface.cpp:52
 msgid "_Edit"
-msgstr "_Sunting"
+msgstr "_Edit"
 
 #: ../src/interface.cpp:53
 msgid "_View"
-msgstr "_Lihat"
+msgstr "_Tampilan"
 
 #: ../src/interface.cpp:54
 msgid "_Help"
@@ -333,7 +339,7 @@ msgstr "Proses Sa_ya"
 msgid "Show only user-owned processes"
 msgstr "Tampilkan hanya proses yan dimiliki pengguna"
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr "Sangat Tinggi"
 
@@ -341,7 +347,7 @@ msgstr "Sangat Tinggi"
 msgid "Set process priority to very high"
 msgstr "Ganti prioritas proses menjadi sangat tinggi"
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
 msgstr "Tinggi"
 
@@ -349,7 +355,7 @@ msgstr "Tinggi"
 msgid "Set process priority to high"
 msgstr "Ganti prioritas proses menjadi tinggi"
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
 msgstr "Normal"
 
@@ -357,7 +363,7 @@ msgstr "Normal"
 msgid "Set process priority to normal"
 msgstr "Ganti prioritas proses menjadi normal"
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
 msgstr "Rendah"
 
@@ -365,7 +371,7 @@ msgstr "Rendah"
 msgid "Set process priority to low"
 msgstr "Ganti prioritas proses menjadi rendah"
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr "Sangat Rendah"
 
@@ -387,72 +393,72 @@ msgstr "Akhiri _Proses"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Pilih Warna untuk '%s'"
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Riwayat CPU"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "Riwayat Memori dan Swap"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Memori"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "Swap"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "Riwayat Jaringan"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "Diterima"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "Total Diterima"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "Dikirim"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Total Dikirim"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "Sistem"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Proses"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Sumber Daya"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Sistem Berkas"
 
@@ -460,7 +466,7 @@ msgstr "Sistem Berkas"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u detik"
+msgstr[0] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -628,7 +634,9 @@ msgstr "Ukuran jendela utama dan posisi (lebar, tinggi, posisi x, posisi y)"
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr "Jika TRUE, jendela utama akan terbuka secara maksimal, dan nilai ukuran dan posisi yang tersimpan akan diabaikan."
+msgstr ""
+"Jika TRUE, jendela utama akan terbuka secara maksimal, dan nilai ukuran dan "
+"posisi yang tersimpan akan diabaikan."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -643,7 +651,10 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr "jika BENAR, system-monitor beroperasi pada 'mode Solaris' dimana penggunaan tugas sebuah CPU dibagi dengan jumlah CPU. Selain itu, akan bekerja pada 'mode Irix'."
+msgstr ""
+"jika BENAR, system-monitor beroperasi pada 'mode Solaris' dimana penggunaan "
+"tugas sebuah CPU dibagi dengan jumlah CPU. Selain itu, akan bekerja pada "
+"'mode Irix'."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -670,7 +681,10 @@ msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr "Apakah menampilkan informasi tentang semua sistem berkas (termasuk yang berjenis 'autofs' dan 'procfs'). Sangat berguna untuk melihat semua sistem berkas yang di-mount."
+msgstr ""
+"Apakah menampilkan informasi tentang semua sistem berkas (termasuk yang "
+"berjenis 'autofs' dan 'procfs'). Sangat berguna untuk melihat semua sistem "
+"berkas yang di-mount."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -680,7 +694,9 @@ msgstr "Jeda pembaharuan untuk daftar perangkat dalam milidetik"
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Menentukan proses yang diutamakan untuk tampil. 0 untuk Semua, 1 untuk pengguna, dan 2 untuk proses yang aktif"
+msgstr ""
+"Menentukan proses yang diutamakan untuk tampil. 0 untuk Semua, 1 untuk "
+"pengguna, dan 2 untuk proses yang aktif"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -690,7 +706,9 @@ msgstr "Simpan tab yang sekarang ditampilkan"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 untuk Informasi Sistem, 1 untuk daftar proses, 2 untuk sumber daya, dan 3 untuk daftar diska"
+msgstr ""
+"0 untuk Informasi Sistem, 1 untuk daftar proses, 2 untuk sumber daya, dan 3 "
+"untuk daftar diska"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1007,14 +1025,18 @@ msgstr "Urutan berkas yang dibuka"
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Tidak dapat mengganti prioritas proses dengan PID %d menjadi %d.\n%s"
+msgstr ""
+"Tidak dapat mengganti prioritas proses dengan PID %d menjadi %d.\n"
+"%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr "Tidak dapat menghentikan proses dengan PID %d dengan sinyal %d.\n%s"
+msgstr ""
+"Tidak dapat menghentikan proses dengan PID %d dengan sinyal %d.\n"
+"%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:73
@@ -1027,7 +1049,10 @@ msgstr "Matikan proses terpilih “%s” (PID: %u)?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr "Menghentikan suatu proses dapat mengakibatkan hilangnya data, merusak sesi yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses tidak responsif yang seharusnya dimatikan."
+msgstr ""
+"Menghentikan suatu proses dapat mengakibatkan hilangnya data, merusak sesi "
+"yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses "
+"tidak responsif yang seharusnya dimatikan."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:84
@@ -1040,7 +1065,10 @@ msgstr "Hentikan proses terpilih “%s” (PID: %u)?"
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr "Mengakhiri suatu proses dapat mengakibatkan hilangnya data, merusak sesi yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses tidak responsif yang seharusnya diakhiri."
+msgstr ""
+"Mengakhiri suatu proses dapat mengakibatkan hilangnya data, merusak sesi "
+"yang tengah berlangsung, atau menimbulkan resiko keamanan. Hanya proses "
+"tidak responsif yang seharusnya diakhiri."
 
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
@@ -1068,66 +1096,71 @@ msgstr "Catatan:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Prioritas suatu proses ditentukan oleh nilai angkatan (nice). Semakin rendah nilai angkatannya, maka semakin tinggi prioritasnya."
+msgstr ""
+"Prioritas suatu proses ditentukan oleh nilai angkatan (nice). Semakin rendah"
+" nilai angkatannya, maka semakin tinggi prioritasnya."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Ikon"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Preferensi Monitor Sistem"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Kelakuan"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "Jeda pembahar_uan dalam detik:"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "Penyegaran halu_s"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Beri peringatan bila menghenti_kan atau mematikan proses"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr "Bagi penggunaan CPU dengan jumlah CPU"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Modus Solaris"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Kolom Informasi"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "I_nformasi proses yang ditampilkan:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Grafik"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Kecepatan jaringan dalam bita"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr "Tampilkan semu_a sistem berkas"
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformasi sistem berkas yang ditampilkan:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "Monitor sederhana untuk proses dan sistem."
 
@@ -1229,10 +1262,11 @@ msgstr "Prioritas"
 #: ../src/proctable.cpp:1091
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr "Beban rata-rata untuk 1, 5, dan 15 menit terakhir: %0.2f, %0.2f, %0.2f"
+msgstr ""
+"Beban rata-rata untuk 1, 5, dan 15 menit terakhir: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
 msgstr "T/A"
 
@@ -1259,35 +1293,35 @@ msgstr "Rilis %s %s"
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
 msgstr "Perangkat keras"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "Memori:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "Prosesor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr "Status Sistem"
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "Ruang diska tersedia:"
 
@@ -1335,60 +1369,60 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr "%.1f TiB"
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr "%.3g kbit"
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr "%.3g Mbit"
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr "%.3g Gbit"
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr "%.3g Tbit"
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u bits"
+msgstr[0] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u bytes"
+msgstr[0] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

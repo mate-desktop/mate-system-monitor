@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Anh Phan <vietnamesel10n@gmail.com>, 2013
-# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-06 11:29+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/mate/MATE/language/vi/)\n"
+"POT-Creation-Date: 2018-03-22 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Meongu Ng. <meongu@gmail.com>, 2018\n"
+"Language-Team: Vietnamese (https://www.transifex.com/mate/teams/13566/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +37,7 @@ msgid "MATE System Monitor"
 msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "Bộ theo dõi hệ thống"
 
@@ -80,7 +79,7 @@ msgstr ""
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Nhóm Việt hóa MATE (http://matevi.sourceforge.net)"
+msgstr "giới thiệu-nhóm dịch"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -193,7 +192,7 @@ msgstr "_Xem"
 
 #: ../src/interface.cpp:54
 msgid "_Help"
-msgstr "Trợ g_iúp"
+msgstr "Trợ _giúp"
 
 #: ../src/interface.cpp:56
 msgid "Search for _Open Files"
@@ -278,7 +277,7 @@ msgstr "Xem các tập tin được mở bởi một tiến trình nào đó"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Thuộc tính"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
@@ -286,7 +285,7 @@ msgstr ""
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
-msgstr "Mục lụ_c"
+msgstr "Mụ_c lục"
 
 #: ../src/interface.cpp:89
 msgid "Open the manual"
@@ -328,7 +327,7 @@ msgstr "Tiến trình của _tôi"
 msgid "Show only user-owned processes"
 msgstr ""
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr ""
 
@@ -336,7 +335,7 @@ msgstr ""
 msgid "Set process priority to very high"
 msgstr ""
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
 msgstr ""
 
@@ -344,15 +343,15 @@ msgstr ""
 msgid "Set process priority to high"
 msgstr ""
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Chuẩn"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
 msgstr ""
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
 msgstr ""
 
@@ -360,7 +359,7 @@ msgstr ""
 msgid "Set process priority to low"
 msgstr ""
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr ""
 
@@ -370,7 +369,7 @@ msgstr ""
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Tự chọn"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
@@ -382,72 +381,72 @@ msgstr "Kết thúc tiến t_rình"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr ""
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Nhật ký CPU"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "CPU"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "Lược sử bộ nhớ và trao đổi"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Bộ nhớ"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "Trao đổi"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "Lược sử mạng"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "Nhận"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "Nhận tổng"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "Gửi"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Gửi tổng"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "Hệ thống"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Tiến trình"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Tài nguyên"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Hệ thống tập tin"
 
@@ -455,7 +454,7 @@ msgstr "Hệ thống tập tin"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u giây"
+msgstr[0] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -469,7 +468,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:123
 msgid "Error"
-msgstr ""
+msgstr "Lỗi"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -500,7 +499,7 @@ msgstr "Tê_n chứa:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:345
 msgid "C_lear"
-msgstr ""
+msgstr "_Xóa"
 
 #: ../src/lsof.cpp:349
 msgid "Case insensitive matching"
@@ -675,7 +674,9 @@ msgstr "Thời gian theo mili giây, giữa hai lần cập nhật danh sách th
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Quyết định hiển thị tiến trình nào theo mặc định: 0 là tất cả, 1 là người dùng và 2 là hoạt động"
+msgstr ""
+"Quyết định hiển thị tiến trình nào theo mặc định: 0 là tất cả, 1 là người "
+"dùng và 2 là hoạt động"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -685,7 +686,11 @@ msgstr "Lưu thanh đang xem hiện thời"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0\tthông tin hệ thống\n1\tdanh sách các tiến trình\n2\tcác tài nguyên\n3\tdanh sách các đĩa"
+msgstr ""
+"0\tthông tin hệ thống\n"
+"1\tdanh sách các tiến trình\n"
+"2\tcác tài nguyên\n"
+"3\tdanh sách các đĩa"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1063,68 +1068,74 @@ msgstr "Ghi chú:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Độ ưu tiên của tiến trình được thể hiện bởi giá trị « nice » (dễ thương). Giá trị thấp hơn tương ứng với độ ưu tiên cao hơn."
+msgstr ""
+"Độ ưu tiên của tiến trình được thể hiện bởi giá trị « nice » (dễ thương). "
+"Giá trị thấp hơn tương ứng với độ ưu tiên cao hơn."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Biểu tượng"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Tùy thích bộ theo dõi hệ thống"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Ứng xử"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "_Khoảng cập nhật, theo giây:"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "Bật cập nhật _mịn"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Cảnh giác trước khi buộc /_kết thúc tiến trình"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr ""
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Chế độ Solaris"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Trường thông tin"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "Thô_ng tin tiến trình được hiển thị trong danh sách:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Đồ thị"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Hiển thị tốc độ mạng bằng đơn vị bit"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr ""
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "Thô_ng tin hệ thống tập tin được hiển thị trong danh sách:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
-msgstr "Một công cụ đơn giản để theo dõi hệ thống và các tiến trình đang chạy."
+msgstr ""
+"Một công cụ đơn giản để theo dõi hệ thống và các tiến trình đang chạy."
 
 #: ../src/proctable.cpp:241 ../src/procproperties.cpp:116
 msgid "Process Name"
@@ -1215,21 +1226,22 @@ msgstr ""
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
-msgstr ""
+msgstr "Chủ"
 
 #: ../src/proctable.cpp:266 ../src/procproperties.cpp:129
 msgid "Priority"
-msgstr ""
+msgstr "Ưu tiên"
 
 #: ../src/proctable.cpp:1091
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr "Trọng tải trung bình trong vòng 1, 5, 15 phút trước: %0.2f, %0.2f, %0.2f"
+msgstr ""
+"Trọng tải trung bình trong vòng 1, 5, 15 phút trước: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "⌀ có"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
@@ -1254,35 +1266,35 @@ msgstr ""
 msgid "%d-bit"
 msgstr ""
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "Hạt nhân %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
-msgstr ""
+msgstr "Phần cứng"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "Bộ nhớ :"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "Bộ xử lý:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr ""
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "Chỗ trống trên đĩa:"
 
@@ -1330,60 +1342,60 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr ""
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr ""
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr ""
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr ""
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr ""
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u bits"
+msgstr[0] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u byte"
+msgstr[0] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/g"

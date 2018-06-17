@@ -1,3 +1,9 @@
+### mate-system-monitor 1.20.1
+
+  * Translations update
+  * fix crash on systems with pid 0
+  * Update interval text in resources tab corrected
+
 ### mate-system-monitor 1.20.0
 
   * Translations update

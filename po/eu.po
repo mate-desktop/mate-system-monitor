@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2004, 2006, 2007, 2008, 2009, 2010
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-06 11:29+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
-"Language-Team: Basque (http://www.transifex.com/mate/MATE/language/eu/)\n"
+"POT-Creation-Date: 2018-03-22 12:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Basque (https://www.transifex.com/mate/teams/13566/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,7 +37,7 @@ msgid "MATE System Monitor"
 msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "Sistemako monitorea"
 
@@ -80,7 +79,9 @@ msgstr ""
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>"
+msgstr ""
+"Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
+"Aritz Jorge Sánchez"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -147,11 +148,11 @@ msgstr ""
 
 #: ../src/gsm_color_button.c:204
 msgid "Title"
-msgstr "Titulua"
+msgstr "Izenburua"
 
 #: ../src/gsm_color_button.c:205
 msgid "The title of the color selection dialog"
-msgstr "Kolore-hautapenaren elkarrizketa-koadroko titulua"
+msgstr "Kolore-hautapenaren elkarrizketa-koadroaren izenburua"
 
 #: ../src/gsm_color_button.c:206 ../src/gsm_color_button.c:617
 msgid "Pick a Color"
@@ -203,6 +204,10 @@ msgstr "Bilatu _irekitako fitxategiak"
 msgid "Search for open files"
 msgstr "Bilatu irekitako fitxategiak"
 
+#: ../src/interface.cpp:58
+msgid "_Quit"
+msgstr "_Irten"
+
 #: ../src/interface.cpp:59
 msgid "Quit the program"
 msgstr "Irten programatik"
@@ -247,6 +252,10 @@ msgstr ""
 msgid "Change the order of priority of process"
 msgstr "Aldatu prozesu baten lehentasun ordena"
 
+#: ../src/interface.cpp:73
+msgid "_Preferences"
+msgstr "_Hobespenak"
+
 #: ../src/interface.cpp:74
 msgid "Configure the application"
 msgstr "Konfiguratu aplikazioa"
@@ -278,7 +287,7 @@ msgstr "Ikusi prozesu batek irekitako fitxategiak"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
-msgstr ""
+msgstr "_Propietateak"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
@@ -291,6 +300,10 @@ msgstr "_Edukia"
 #: ../src/interface.cpp:89
 msgid "Open the manual"
 msgstr "Ireki eskuliburua"
+
+#: ../src/interface.cpp:90
+msgid "_About"
+msgstr "Honi _buruz"
 
 #: ../src/interface.cpp:91
 msgid "About this application"
@@ -328,39 +341,39 @@ msgstr "_Nire prozesuak"
 msgid "Show only user-owned processes"
 msgstr ""
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Oso altua"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
 msgstr ""
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
-msgstr ""
+msgstr "Altua"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
 msgstr ""
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr ""
+msgstr "Arrunta"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
 msgstr ""
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "Baxua"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
 msgstr ""
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr ""
 
@@ -370,7 +383,7 @@ msgstr ""
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr ""
+msgstr "Pertsonalizatua"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
@@ -382,72 +395,72 @@ msgstr "Amaitu p_rozesua"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr ""
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "PUZen historia"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
 msgstr "PUZ"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "%d.PUZ"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "Memoriaren eta Swap-aren historia"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Memoria"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "Swap"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "Sareko historia"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "Jasotzen"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "Jasotakoak guztira"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "Bidaltzen"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Bidalitakoak guztira"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "Sistema"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Prozesuak"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Baliabideak"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Fitxategi-sistemak"
 
@@ -455,8 +468,8 @@ msgstr "Fitxategi-sistemak"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "segundo %u"
-msgstr[1] "%u segundo"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -470,7 +483,7 @@ msgstr ""
 
 #: ../src/lsof.cpp:123
 msgid "Error"
-msgstr ""
+msgstr "Errorea"
 
 #: ../src/lsof.cpp:124
 #, c-format
@@ -499,15 +512,15 @@ msgid "_Name contains:"
 msgstr "_Izenak dauka:"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:345
+#: ../src/lsof.cpp:357
 msgid "C_lear"
-msgstr ""
+msgstr "_Garbitu"
 
-#: ../src/lsof.cpp:349
+#: ../src/lsof.cpp:361
 msgid "Case insensitive matching"
 msgstr "Ez bereizi maiuskulak eta minuskulak"
 
-#: ../src/lsof.cpp:357
+#: ../src/lsof.cpp:369
 msgid "S_earch results:"
 msgstr "Bi_laketaren emaitzak:"
 
@@ -676,7 +689,9 @@ msgstr "Gailuen zerrendaren eguneratzeko tartearen denbora (milisegundotan)"
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Lehenetsi gisa zein prozesu erakutsiko diren zehazten du. 0 guztiak, 1 erabiltzailea eta 2 aktibatu"
+msgstr ""
+"Lehenetsi gisa zein prozesu erakutsiko diren zehazten du. 0 guztiak, 1 "
+"erabiltzailea eta 2 aktibatu"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -686,7 +701,9 @@ msgstr "Gorde unean fitxan ikusten dena"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 (sistemaren datuak), 1 (prozesuen zerrenda), 2 (baliabideak) eta 3 (diskoen zerrenda)"
+msgstr ""
+"0 (sistemaren datuak), 1 (prozesuen zerrenda), 2 (baliabideak) eta 3 "
+"(diskoen zerrenda)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1064,66 +1081,71 @@ msgstr "Oharra:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Prozesu baten lehentasuna bere 'nice' balioak ematen du. 'nice' balio baxu batek lehentasun altu bati dagokio."
+msgstr ""
+"Prozesu baten lehentasuna bere 'nice' balioak ematen du. 'nice' balio baxu "
+"batek lehentasun altu bati dagokio."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Ikonoa"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Sistemako monitorearen hobespenak"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Portaera"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "_Eguneratze-tartea (segundotan):"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "Gaitu freskatze _leuna"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Abisatu prozesuak amaitu edo hil aurretik"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr ""
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Solaris modua"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Informazioaren eremuak"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "Zerrendan erakutsitako prozesuen _datuak:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Grafikoak"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Erakutsi sareko abiadura bitetan"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr ""
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "Fitxategi-sistemako _informazioa zerrendan erakutsita:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "Prozesu eta sistemaren monitore bakuna."
 
@@ -1216,11 +1238,11 @@ msgstr ""
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
-msgstr ""
+msgstr "Jabea"
 
 #: ../src/proctable.cpp:266 ../src/procproperties.cpp:129
 msgid "Priority"
-msgstr ""
+msgstr "Lehentasuna"
 
 #: ../src/proctable.cpp:1091
 #, c-format
@@ -1228,9 +1250,9 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Batez besteko karga (azken 1, 5, 15 minututakoa): %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "E/E"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
@@ -1255,35 +1277,35 @@ msgstr ""
 msgid "%d-bit"
 msgstr ""
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "Nukleoa: %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
-msgstr ""
+msgstr "Hardwarea"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "Memoria:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "Prozesagailua:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr ""
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "Diskoan dagoen lekua:"
 
@@ -1331,62 +1353,62 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr ""
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr ""
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr ""
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr ""
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr ""
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "bit %u"
-msgstr[1] "%u bit"
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "byte %u"
-msgstr[1] "%u byte"
+msgstr[0] ""
+msgstr[1] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

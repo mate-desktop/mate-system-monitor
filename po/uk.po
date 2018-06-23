@@ -1,25 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Shahor <shahorr@gmail.com>, 2015
-# Yuriy Syrota <rasta@renome.rovno.ua>, 2001
-# Микола Ткач <znadibnyk@gmail.com>, 2013-2016
-# Микола Ткач <znadibnyk@gmail.com>, 2017
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2017-11-10 12:25+0000\n"
-"Last-Translator: Микола Ткач <znadibnyk@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
+"POT-Creation-Date: 2018-03-22 12:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Shahor <shahorr@gmail.com>, 2018\n"
+"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
@@ -33,14 +30,20 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> MATE System Monitor дозволяє графічно переглядати і керувати запущеними процесами на Вашій системі. Він також надає огляд доступних ресурсів таких як ЦПП і пам’ять. </p> <p> MATE System Monitor – відгалудження(форк) GNOME System Monitor і частина стільничного середовища MATE. Якщо Ви бажаєте знати більше про MATE і системний монітор, будь ласка, відвідайте домашню сторінку проєкту. </p>"
+msgstr ""
+"<p> MATE System Monitor дозволяє графічно переглядати і керувати запущеними "
+"процесами на Вашій системі. Він також надає огляд доступних ресурсів таких "
+"як ЦПП і пам’ять. </p> <p> MATE System Monitor – відгалудження(форк) GNOME "
+"System Monitor і частина стільничного середовища MATE. Якщо Ви бажаєте знати"
+" більше про MATE і системний монітор, будь ласка, відвідайте домашню "
+"сторінку проєкту. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
 msgstr "Системний монітор MATE"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "Системний монітор"
 
@@ -54,7 +57,8 @@ msgstr "Вбити процес"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:2
 msgid "Privileges are required to control other users' processes"
-msgstr "Для керування процесами инших користувачів потрібні додаткові привілеї"
+msgstr ""
+"Для керування процесами инших користувачів потрібні додаткові привілеї"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:3
 msgid "Renice process"
@@ -82,7 +86,10 @@ msgstr "Показати вкладку Файлові системи"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Юрій Сирота <yuri@beer.com>\nКирило Полежаєв <polezhajev@ukr.net>\nМаксим Дзюманенко <dziumanenko@gmail.com>\nМикола Ткач <Stuartlittle1970@gmail.com>"
+msgstr ""
+"Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
+"Микола Ткач <Stuartlittle1970@gmail.com>,\n"
+"Oleh Tsyupka <myr4yk@gmail.com>"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -119,23 +126,23 @@ msgstr "?"
 
 #: ../src/e_date.c:162
 msgid "Today %l:%M %p"
-msgstr "Сьогодні %H:%M"
+msgstr "Сьогодні %l:%M %p"
 
 #: ../src/e_date.c:171
 msgid "Yesterday %l:%M %p"
-msgstr "Вчора %H:%M"
+msgstr "Вчора %l:%M %p"
 
 #: ../src/e_date.c:183
 msgid "%a %l:%M %p"
-msgstr "%a %H:%M"
+msgstr "%a %l:%M %p"
 
 #: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
-msgstr "%d %b %H:%M"
+msgstr "%b %d %l:%M %p"
 
 #: ../src/e_date.c:193
 msgid "%b %d %Y"
-msgstr "%d %b %Y"
+msgstr "%b %d %Y"
 
 #: ../src/gsm_color_button.c:195
 msgid "Fraction"
@@ -191,11 +198,11 @@ msgstr "_Зміни"
 
 #: ../src/interface.cpp:53
 msgid "_View"
-msgstr "_Вигляд"
+msgstr "_Перегляд"
 
 #: ../src/interface.cpp:54
 msgid "_Help"
-msgstr "_Довідка"
+msgstr "_Допомога"
 
 #: ../src/interface.cpp:56
 msgid "Search for _Open Files"
@@ -204,6 +211,10 @@ msgstr "Знайти _відкриті файли"
 #: ../src/interface.cpp:57
 msgid "Search for open files"
 msgstr "Пошук відкритих файлів"
+
+#: ../src/interface.cpp:58
+msgid "_Quit"
+msgstr "_Вийти"
 
 #: ../src/interface.cpp:59
 msgid "Quit the program"
@@ -249,6 +260,10 @@ msgstr "_Змінити пріоритет"
 msgid "Change the order of priority of process"
 msgstr "Змінити пріоритет процесу"
 
+#: ../src/interface.cpp:73
+msgid "_Preferences"
+msgstr "_Налаштування"
+
 #: ../src/interface.cpp:74
 msgid "Configure the application"
 msgstr "Налаштувати проґраму"
@@ -288,11 +303,15 @@ msgstr "Переглянути додаткову інформацію про п
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
-msgstr "_Зміст"
+msgstr "_Вміст"
 
 #: ../src/interface.cpp:89
 msgid "Open the manual"
 msgstr "Відкрити довідку"
+
+#: ../src/interface.cpp:90
+msgid "_About"
+msgstr "_Про проґраму"
 
 #: ../src/interface.cpp:91
 msgid "About this application"
@@ -330,7 +349,7 @@ msgstr "_Мої процеси"
 msgid "Show only user-owned processes"
 msgstr "Показати лише власні процеси користувача"
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr "Дуже високий"
 
@@ -338,7 +357,7 @@ msgstr "Дуже високий"
 msgid "Set process priority to very high"
 msgstr "Встановити дуже високий пріоритет процесу"
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
 msgstr "Високий"
 
@@ -346,15 +365,15 @@ msgstr "Високий"
 msgid "Set process priority to high"
 msgstr "Встановити високий пріоритет процесу"
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
-msgstr "Звичайний"
+msgstr "Початковий"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
 msgstr "Встановити звичайний пріоритет процесу"
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
 msgstr "Низький"
 
@@ -362,7 +381,7 @@ msgstr "Низький"
 msgid "Set process priority to low"
 msgstr "Встановити низький пріоритет процесу"
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr "Дуже низький"
 
@@ -372,7 +391,7 @@ msgstr "Встановити дуже низький пріоритет проц
 
 #: ../src/interface.cpp:124
 msgid "Custom"
-msgstr "Иньше..."
+msgstr "Иньше"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
@@ -384,72 +403,72 @@ msgstr "_Завершити процес"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Вибрати колір для '%s'"
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Історія ЦПП"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
-msgstr "Процесор"
+msgstr "ЦПП"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "ЦПП%d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "Історія пам'яті та свопінгу"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Пам'ять"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "Своп"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "Історія мережі"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "Отримання"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "Усього отримано"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "Надсилання"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Усього надіслано"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "Система"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Процеси"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Ресурси"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Файлові системи"
 
@@ -457,9 +476,10 @@ msgstr "Файлові системи"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u секунда"
-msgstr[1] "%u секунди"
-msgstr[2] "%u секунд"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -502,15 +522,15 @@ msgid "_Name contains:"
 msgstr "_Назва містить:"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:345
+#: ../src/lsof.cpp:357
 msgid "C_lear"
 msgstr "О_чистити"
 
-#: ../src/lsof.cpp:349
+#: ../src/lsof.cpp:361
 msgid "Case insensitive matching"
 msgstr "Враховувати регістр"
 
-#: ../src/lsof.cpp:357
+#: ../src/lsof.cpp:369
 msgid "S_earch results:"
 msgstr "_Результати пошуку:"
 
@@ -612,7 +632,7 @@ msgstr "Об'єкт"
 
 #: ../src/openfiles.cpp:324
 msgid "Open Files"
-msgstr "Відкриті файли"
+msgstr "Відкрити файли"
 
 #: ../src/openfiles.cpp:345
 #, c-format
@@ -621,13 +641,17 @@ msgstr "_Файли, що відкриті процесом \"%s\" (PID %u):"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr "Розмір основного вікна та позиція у формі (ширина, висота, координати х, координати у)"
+msgstr ""
+"Розмір основного вікна та позиція у формі (ширина, висота, координати х, "
+"координати у)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
-msgstr "Якщо цей ключ має значення ІСТИНА, головне вікно відкривається розгорнутим, раніше збережений розмір та положення вікна нехтуються."
+msgstr ""
+"Якщо цей ключ має значення ІСТИНА, головне вікно відкривається розгорнутим, "
+"раніше збережений розмір та положення вікна нехтуються."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -642,7 +666,10 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr "Якщо значення TRUE, тоді системний монітор діє у \"режимі Solaris\", де використання ЦПП певною задачею розділено між загальною кількістю процесорів. У иньшому випадку він діє у \"режимі Irix\"."
+msgstr ""
+"Якщо значення TRUE, тоді системний монітор діє у \"режимі Solaris\", де "
+"використання ЦПП певною задачею розділено між загальною кількістю "
+"процесорів. У иньшому випадку він діє у \"режимі Irix\"."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -669,7 +696,10 @@ msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr "Чи відображати інформацію про усі файлові системи (включаючи такі типи, як 'autofs' і 'procfs'). Корисно для отримання переліку усіх встановлених на дану мить файлових систем."
+msgstr ""
+"Чи відображати інформацію про усі файлові системи (включаючи такі типи, як "
+"'autofs' і 'procfs'). Корисно для отримання переліку усіх встановлених на "
+"дану мить файлових систем."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -679,7 +709,9 @@ msgstr "Період оновлення переліку пристроїв (у 
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Визначає, які процеси типово показувати. 0 - усі, 1 - користувача, 2 - активні"
+msgstr ""
+"Визначає, які процеси типово показувати. 0 - усі, 1 - користувача, 2 - "
+"активні"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -689,7 +721,8 @@ msgstr "Зберігає поточну активну вкладку"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 — інформація про систему, 1 — перелік процесів, 2 — ресурсів, 3 — дисків"
+msgstr ""
+"0 — інформація про систему, 1 — перелік процесів, 2 — ресурсів, 3 — дисків"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1006,14 +1039,18 @@ msgstr "Порядок сортування відкритих файлів"
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Не вдається змінити пріоритет процесу з  PID %d на %d.\n%s"
+msgstr ""
+"Не вдається змінити пріоритет процесу з  PID %d на %d.\n"
+"%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr "Не вдається зняти процес PID %d за допомогою сигналу %d.\n%s"
+msgstr ""
+"Не вдається зняти процес PID %d за допомогою сигналу %d.\n"
+"%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:73
@@ -1026,7 +1063,10 @@ msgstr "Вбити вибраний процес «%s» (PID: %u)?"
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr "Завершення процесу може знищити дані, зламати сесію чи призвести до безпекового ризику. Лише процеси, що не відповідають, повинні бути завершені."
+msgstr ""
+"Завершення процесу може знищити дані, зламати сесію чи призвести до "
+"безпекового ризику. Лише процеси, що не відповідають, повинні бути "
+"завершені."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:84
@@ -1039,7 +1079,10 @@ msgstr "Завершити вибраний процес «%s» (PID: %u)?"
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr "Припинення процесу може знищити дані, зламати сесію чи призвести до безпекового ризику. Лише процеси, що не відповідають, повинні бути припинені."
+msgstr ""
+"Припинення процесу може знищити дані, зламати сесію чи призвести до "
+"безпекового ризику. Лише процеси, що не відповідають, повинні бути "
+"припинені."
 
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
@@ -1067,66 +1110,71 @@ msgstr "Нотатка:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Рівень nice пов'язаний з пріоритетом процесу. Менший рівень nice відповідає вищому рівню процесу."
+msgstr ""
+"Рівень nice пов'язаний з пріоритетом процесу. Менший рівень nice відповідає "
+"вищому рівню процесу."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Піктограма"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Параметри системного монітора"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Поведінка"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "Інтервал _оновлення у секундах:"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "Увімкнути _плявне оновлення"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Попереджувати перед за_вершенням чи зняттям процесу"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr "Розділити використання ЦПП за кількістю ЦПП"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Режим Solaris"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Інформаційні поля"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "_Інформація про процеси з переліку:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Графіки"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Показати швидкість мережі у бітах"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr "Показати _усі файлові системи"
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "Ін_формація про файлову систему із переліку:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "Простий монітор процесів та системи."
 
@@ -1231,7 +1279,7 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Середнє навантаження за останні 1, 5, 15 хвилин: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
 msgstr "Н/Д"
 
@@ -1258,35 +1306,35 @@ msgstr "Випуск %s %s"
 msgid "%d-bit"
 msgstr "%d-біт"
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "Ядро %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
 msgstr "Пристрої"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "Пам'ять:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "Процесор:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr "Стан системи"
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "Доступний дисковий простір:"
 
@@ -1334,64 +1382,66 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f КіБ"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f МіБ"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f ГіБ"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr "%.1f TiB"
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr "%.3g кбіт"
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr "%.3g Мбіт"
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr "%.3g Гбіт"
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr "%.3g Тбіт"
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u біт"
-msgstr[1] "%u біти"
-msgstr[2] "%u бітів"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u байт"
-msgstr[1] "%u байти"
-msgstr[2] "%u байтів"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

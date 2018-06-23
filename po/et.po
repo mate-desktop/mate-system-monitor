@@ -1,18 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Ivar Smolin <okul@linux.ee>, 2014-2015,2018
-# Priit Laes <amd store20 com>, 2005, 2006
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-06 12:28+0100\n"
-"PO-Revision-Date: 2018-01-13 21:19+0000\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
-"Language-Team: Estonian (http://www.transifex.com/mate/MATE/language/et/)\n"
+"POT-Creation-Date: 2018-03-22 12:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Rivo Zängov <eraser@eraser.ee>, 2018\n"
+"Language-Team: Estonian (https://www.transifex.com/mate/teams/13566/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,14 +30,19 @@ msgid ""
 " GNOME System Monitor and part of the MATE Desktop Environment. If you would"
 " like to know more about MATE and System Monitor, please visit the project's"
 " home page. </p>"
-msgstr "<p> MATE süsteemijälgija võimaldab arvuti protsesside graafilist vaadet ja haldamist. Samuti võimaldab see ülevaadet saadaolevatest ressurssidest nagu protsessor ja mälu. </p> <p> MATE süsteemijälgija põhineb GNOME süsteemijälgijal ja on osa MATE töölauakeskkonnast. Kui tahad MATEst ja süsteemijälgijast rohkem teada, siis külasta projekti kodulehte.</p>"
+msgstr ""
+"<p> MATE süsteemijälgija võimaldab arvuti protsesside graafilist vaadet ja "
+"haldamist. Samuti võimaldab see ülevaadet saadaolevatest ressurssidest nagu "
+"protsessor ja mälu. </p> <p> MATE süsteemijälgija põhineb GNOME "
+"süsteemijälgijal ja on osa MATE töölauakeskkonnast. Kui tahad MATEst ja "
+"süsteemijälgijast rohkem teada, siis külasta projekti kodulehte.</p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
 msgstr "MATE süsteemijälgija"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:680 ../src/procman.cpp:714
+#: ../src/interface.cpp:625 ../src/procman.cpp:709
 msgid "System Monitor"
 msgstr "Süsteemijälgija"
 
@@ -48,7 +52,7 @@ msgstr "Süsteemi oleku ja protsesside jälgimine"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:1
 msgid "Kill process"
-msgstr ""
+msgstr "Kõrvalda protsess"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:2
 msgid "Privileges are required to control other users' processes"
@@ -80,7 +84,12 @@ msgstr "Failisüsteemide kaardi näitamine"
 
 #: ../src/callbacks.cpp:196
 msgid "translator-credits"
-msgstr "Ivar Smolin <okul@linux.ee>, 2005-2009.\nPriit Laes <amd@store20.com>, 2005, 2006."
+msgstr ""
+"Lauris Kaplinski, 1999.\n"
+"Ilmar Kerm <ikerm hot ee>, 2001, 2002.\n"
+"Tõivo Leedjärv <toivo linux ee>, 2002, 2003.\n"
+"Priit Laes <plaes plaes org>, 2004–2006, 2008, 2009\n"
+"Ivar Smolin <okul linux ee>, 2005–2010, 2014–2015, 2018."
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -117,19 +126,19 @@ msgstr "?"
 
 #: ../src/e_date.c:162
 msgid "Today %l:%M %p"
-msgstr "Täna %k:%M"
+msgstr "Täna %I:%M"
 
 #: ../src/e_date.c:171
 msgid "Yesterday %l:%M %p"
-msgstr "Eile %k:%M"
+msgstr "Eile %I:%M"
 
 #: ../src/e_date.c:183
 msgid "%a %l:%M %p"
-msgstr "%a, %k:%M"
+msgstr "%a, %I:%M"
 
 #: ../src/e_date.c:191
 msgid "%b %d %l:%M %p"
-msgstr "%d. %b %k:%M"
+msgstr "%d. %b %I:%M"
 
 #: ../src/e_date.c:193
 msgid "%b %d %Y"
@@ -203,6 +212,10 @@ msgstr "_Otsi avatud faile"
 msgid "Search for open files"
 msgstr "Avatud failide otsimine"
 
+#: ../src/interface.cpp:58
+msgid "_Quit"
+msgstr "_Lõpeta"
+
 #: ../src/interface.cpp:59
 msgid "Quit the program"
 msgstr "Programmist väljumine"
@@ -246,6 +259,10 @@ msgstr "Muuda _tähtsust"
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
 msgstr "Protsessi tähtsuse muutmine"
+
+#: ../src/interface.cpp:73
+msgid "_Preferences"
+msgstr "_Eelistused"
 
 #: ../src/interface.cpp:74
 msgid "Configure the application"
@@ -292,6 +309,10 @@ msgstr "_Sisukord"
 msgid "Open the manual"
 msgstr "Käsiraamatu avamine"
 
+#: ../src/interface.cpp:90
+msgid "_About"
+msgstr "_Lähemalt"
+
 #: ../src/interface.cpp:91
 msgid "About this application"
 msgstr "Teave programmi kohta"
@@ -328,7 +349,7 @@ msgstr "_Minu protsessid"
 msgid "Show only user-owned processes"
 msgstr "Kuva ainult kasutaja enda protsesse"
 
-#: ../src/interface.cpp:114 ../src/util.cpp:221
+#: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
 msgstr "Väga kõrge"
 
@@ -336,7 +357,7 @@ msgstr "Väga kõrge"
 msgid "Set process priority to very high"
 msgstr "Protsessi tähtsuse määramine väga kõrgeks"
 
-#: ../src/interface.cpp:116 ../src/util.cpp:223
+#: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
 msgstr "Kõrge"
 
@@ -344,7 +365,7 @@ msgstr "Kõrge"
 msgid "Set process priority to high"
 msgstr "Protsessi tähtsuse määramine kõrgeks"
 
-#: ../src/interface.cpp:118 ../src/util.cpp:225
+#: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
 msgstr "Tavaline"
 
@@ -352,7 +373,7 @@ msgstr "Tavaline"
 msgid "Set process priority to normal"
 msgstr "Protsessi tähtsuse määramine tavaliseks"
 
-#: ../src/interface.cpp:120 ../src/util.cpp:227
+#: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
 msgstr "Madal"
 
@@ -360,7 +381,7 @@ msgstr "Madal"
 msgid "Set process priority to low"
 msgstr "Protsessi tähtsuse määramine madalaks"
 
-#: ../src/interface.cpp:122 ../src/util.cpp:229
+#: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
 msgstr "Väga madal"
 
@@ -382,72 +403,72 @@ msgstr "_Lõpeta protsess"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:283
+#: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Värvuse valimine '%s' jaoks"
 
-#: ../src/interface.cpp:294
+#: ../src/interface.cpp:290
 msgid "CPU History"
 msgstr "Protsessori koormuse ajalugu"
 
-#: ../src/interface.cpp:337 ../src/procproperties.cpp:125
+#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
-msgstr "Protsessor"
+msgstr "CPU"
 
-#: ../src/interface.cpp:339
+#: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "Protsessor%d"
 
-#: ../src/interface.cpp:364
+#: ../src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr "Mälu ja saaleala kasutuse ajalugu"
 
-#: ../src/interface.cpp:398 ../src/proctable.cpp:256
+#: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
 msgid "Memory"
 msgstr "Mälu"
 
-#: ../src/interface.cpp:426
+#: ../src/interface.cpp:415
 msgid "Swap"
 msgstr "Saaleala"
 
-#: ../src/interface.cpp:454
+#: ../src/interface.cpp:439
 msgid "Network History"
 msgstr "Võrguliikluse ajalugu"
 
-#: ../src/interface.cpp:487
+#: ../src/interface.cpp:472
 msgid "Receiving"
 msgstr "Vastuvõtmine"
 
-#: ../src/interface.cpp:519
+#: ../src/interface.cpp:494
 msgid "Total Received"
 msgstr "Kokku vastu võetud"
 
-#: ../src/interface.cpp:548
+#: ../src/interface.cpp:513
 msgid "Sending"
 msgstr "Saatmine"
 
-#: ../src/interface.cpp:580
+#: ../src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Kokku saadetud"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:760
+#: ../src/interface.cpp:705
 msgid "System"
 msgstr "Süsteem"
 
-#: ../src/interface.cpp:764 ../src/procdialogs.cpp:558
+#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Protsessid"
 
-#: ../src/interface.cpp:768 ../src/procdialogs.cpp:683
+#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Vahendid"
 
-#: ../src/interface.cpp:772 ../src/procdialogs.cpp:756
-#: ../src/procdialogs.cpp:760
+#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
+#: ../src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Failisüsteemid"
 
@@ -455,8 +476,8 @@ msgstr "Failisüsteemid"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u sekund"
-msgstr[1] "%u sekundit"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -499,15 +520,15 @@ msgid "_Name contains:"
 msgstr "_Nimi sisaldab:"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:345
+#: ../src/lsof.cpp:357
 msgid "C_lear"
 msgstr "_Puhasta"
 
-#: ../src/lsof.cpp:349
+#: ../src/lsof.cpp:361
 msgid "Case insensitive matching"
 msgstr "Vastavused on tõstutundetud "
 
-#: ../src/lsof.cpp:357
+#: ../src/lsof.cpp:369
 msgid "S_earch results:"
 msgstr "O_tsingutulemused:"
 
@@ -618,7 +639,8 @@ msgstr "_Protsessi \"%s\" (PID %u) poolt avatud failid:"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
-msgstr "Põhiakna suurus ja asukoht vormil (laius, kõrgus, x-asukoht, y-asukoht)"
+msgstr ""
+"Põhiakna suurus ja asukoht vormil (laius, kõrgus, x-asukoht, y-asukoht)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid ""
@@ -639,7 +661,10 @@ msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
-msgstr "Kui märgitud, siis süsteemijälgija tegutseb \"Solarise režiimis\", kus protsessi protsessorikasutus on jagatuid protsessorite koguarvuga. Vastasel juhul tegutsetakse \"Irixi režiimis\"."
+msgstr ""
+"Kui märgitud, siis süsteemijälgija tegutseb \"Solarise režiimis\", kus "
+"protsessi protsessorikasutus on jagatuid protsessorite koguarvuga. Vastasel "
+"juhul tegutsetakse \"Irixi režiimis\"."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -666,7 +691,9 @@ msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
-msgstr "Kas näidata kõikide failisüsteemide (nende hulgas ka 'autofs' ja 'procfs') andmeid. See on kasulik kõigi ühendatud failisüsteemide loetelu saamiseks."
+msgstr ""
+"Kas näidata kõikide failisüsteemide (nende hulgas ka 'autofs' ja 'procfs') "
+"andmeid. See on kasulik kõigi ühendatud failisüsteemide loetelu saamiseks."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -676,7 +703,9 @@ msgstr "Seadmete loetelu värskendamise sagedus millisekundites"
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "Määrab milliseid protsesse vaikimisi kuvatakse. 0 - kõik, 1 - kasutaja omad ja 2 - kõik aktiivsed"
+msgstr ""
+"Määrab milliseid protsesse vaikimisi kuvatakse. 0 - kõik, 1 - kasutaja omad "
+"ja 2 - kõik aktiivsed"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -686,7 +715,9 @@ msgstr "Hetkel kuvatava kaardi salvestamine"
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
-msgstr "0 süsteemse teabe jaoks, 1 protsesside loetelu jaoks, 2 ressurside jaoks ja 3 ketaste loetelu jaoks"
+msgstr ""
+"0 süsteemse teabe jaoks, 1 protsesside loetelu jaoks, 2 ressurside jaoks ja "
+"3 ketaste loetelu jaoks"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
@@ -1003,14 +1034,18 @@ msgstr ""
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
-msgstr "Protsessi PID-iga %d tähtsust pole võimalik %d-ks muuta.\n%s"
+msgstr ""
+"Protsessi PID-iga %d tähtsust pole võimalik %d-ks muuta.\n"
+"%s"
 
 #: ../src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
-msgstr "Protsessi PID-iga %d pole signaali %d abil võimalik kõrvaldada.\n%s"
+msgstr ""
+"Protsessi PID-iga %d pole signaali %d abil võimalik kõrvaldada.\n"
+"%s"
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:73
@@ -1023,7 +1058,10 @@ msgstr ""
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
-msgstr "Protsessi kõrvaldamine võib hävitada sinu andmed, lõhkuda tööseansi või põhjustada turvariski. Kõrvaldama peaks ainult protsesse, mis ei käitu õigesti."
+msgstr ""
+"Protsessi kõrvaldamine võib hävitada sinu andmed, lõhkuda tööseansi või "
+"põhjustada turvariski. Kõrvaldama peaks ainult protsesse, mis ei käitu "
+"õigesti."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:84
@@ -1036,7 +1074,10 @@ msgstr ""
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
-msgstr "Protsessi töö lõpetamine võib hävitada sinu andmed, lõhkuda tööseansi või põhjustada turvariski. Lõpetama peaks ainult protsesse, mis ei käitu õigesti."
+msgstr ""
+"Protsessi töö lõpetamine võib hävitada sinu andmed, lõhkuda tööseansi või "
+"põhjustada turvariski. Lõpetama peaks ainult protsesse, mis ei käitu "
+"õigesti."
 
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
@@ -1064,66 +1105,71 @@ msgstr "Märkus:"
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
-msgstr "Protsessi prioriteet on antud tema nice väärtusega. Madalam nice väärtus tähendab suuremat prioriteeti."
+msgstr ""
+"Protsessi prioriteet on antud tema nice väärtusega. Madalam nice väärtus "
+"tähendab suuremat prioriteeti."
 
-#: ../src/procdialogs.cpp:476
+#: ../src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Ikoon"
 
-#: ../src/procdialogs.cpp:535
+#: ../src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Süsteemijälgija eelistused"
 
-#: ../src/procdialogs.cpp:565
+#: ../src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Käitumine"
 
-#: ../src/procdialogs.cpp:588 ../src/procdialogs.cpp:713
-#: ../src/procdialogs.cpp:783
+#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "_Värskendamise vahemik sekundites:"
 
-#: ../src/procdialogs.cpp:617
+#: ../src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "_Sujuv värskendus on lubatud"
 
-#: ../src/procdialogs.cpp:630
+#: ../src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Hoiatus enne protsessi _kõrvaldamist"
 
-#: ../src/procdialogs.cpp:643
+#: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr "Protsessorite kasutus jagatakse protsessorite arvuga"
 
-#: ../src/procdialogs.cpp:644
+#: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Solarise režiim"
 
-#: ../src/procdialogs.cpp:661 ../src/procdialogs.cpp:821
+#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Andmeväljad"
 
-#: ../src/procdialogs.cpp:678
+#: ../src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "Loetelus näidatavad pro_tsessi andmed:"
 
-#: ../src/procdialogs.cpp:690
+#: ../src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Graafikud"
 
-#: ../src/procdialogs.cpp:737
+#: ../src/procdialogs.cpp:693
+msgid "_Update interval in 1/10 sec:"
+msgstr ""
+
+#: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Võrgukiirust kuvatakse bittides"
 
-#: ../src/procdialogs.cpp:807
+#: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr "Näidatakse _kõiki failisüsteeme"
 
-#: ../src/procdialogs.cpp:838
+#: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "Loetelus näidatavad pro_tsessi andmed:"
 
-#: ../src/procman.cpp:663
+#: ../src/procman.cpp:658
 msgid "A simple process and system monitor."
 msgstr "Lihtne protsesside ja süsteemi monitor."
 
@@ -1228,9 +1274,9 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Koormuse näit viimase 1, 5 ja 15 minuti kohta: %0.2f, %0.2f, %0.2f"
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:424
+#: ../src/procproperties.cpp:134 ../src/util.cpp:420
 msgid "N/A"
-msgstr ""
+msgstr "Puudub"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
@@ -1255,35 +1301,35 @@ msgstr ""
 msgid "%d-bit"
 msgstr "%d-bitine"
 
-#: ../src/sysinfo.cpp:819
+#: ../src/sysinfo.cpp:807
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel %s"
 
-#: ../src/sysinfo.cpp:836
+#: ../src/sysinfo.cpp:820
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:854
+#: ../src/sysinfo.cpp:834
 msgid "Hardware"
 msgstr "Riistvara"
 
-#: ../src/sysinfo.cpp:859
+#: ../src/sysinfo.cpp:839
 msgid "Memory:"
 msgstr "Mälu:"
 
-#: ../src/sysinfo.cpp:863
+#: ../src/sysinfo.cpp:843
 msgid "Processor:"
 msgstr "Protsessor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:871
+#: ../src/sysinfo.cpp:851
 msgid "System Status"
 msgstr "Süsteemi olek"
 
-#: ../src/sysinfo.cpp:876
+#: ../src/sysinfo.cpp:856
 msgid "Available disk space:"
 msgstr "Vaba kettaruum:"
 
@@ -1331,62 +1377,62 @@ msgstr "%u:%02u:%02u"
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
 
-#: ../src/util.cpp:170
+#: ../src/util.cpp:166
 #, c-format
 msgid "%.1f KiB"
 msgstr "%.1f KiB"
 
-#: ../src/util.cpp:171
+#: ../src/util.cpp:167
 #, c-format
 msgid "%.1f MiB"
 msgstr "%.1f MiB"
 
-#: ../src/util.cpp:172
+#: ../src/util.cpp:168
 #, c-format
 msgid "%.1f GiB"
 msgstr "%.1f GiB"
 
-#: ../src/util.cpp:173
+#: ../src/util.cpp:169
 #, c-format
 msgid "%.1f TiB"
 msgstr "%.1f TiB"
 
-#: ../src/util.cpp:174
+#: ../src/util.cpp:170
 #, c-format
 msgid "%.3g kbit"
 msgstr "%.3g kbit"
 
-#: ../src/util.cpp:175
+#: ../src/util.cpp:171
 #, c-format
 msgid "%.3g Mbit"
 msgstr "%.3g Mbit"
 
-#: ../src/util.cpp:176
+#: ../src/util.cpp:172
 #, c-format
 msgid "%.3g Gbit"
 msgstr "%.3g Gbit"
 
-#: ../src/util.cpp:177
+#: ../src/util.cpp:173
 #, c-format
 msgid "%.3g Tbit"
 msgstr "%.3g Tbit"
 
-#: ../src/util.cpp:192
+#: ../src/util.cpp:188
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u bitt"
-msgstr[1] "%u bitti"
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../src/util.cpp:193
+#: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u bait"
-msgstr[1] "%u baiti"
+msgstr[0] ""
+msgstr[1] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:587
+#: ../src/util.cpp:583
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"

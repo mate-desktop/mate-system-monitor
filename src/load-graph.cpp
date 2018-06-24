@@ -557,16 +557,18 @@ get_net (LoadGraph *graph)
 
         /* Skip tun and tap interfaces */
         int ifnamelen = strlen(ifnames[i]);
-        if(ifnamelen >= 4) {
+        if (ifnamelen >= 4)
+        {
             char sub[4];
             memcpy(sub, ifnames[i], 3);
             sub[3] = '\0';
-            if(strcmp(sub, "tun") || strcmp(sub, "tap")) {
+            if (strcmp(sub, "tun") || strcmp(sub, "tap"))
+            {
                 bool cont = false;
-                for(int j = 3; j < ifnamelen - 1; ++j)
-                    if(!isdigit((int)((ifnames[i])[j])))
+                for (int j = 3; j < ifnamelen - 1; ++j)
+                    if (!isdigit((int)((ifnames[i])[j])))
                         cont = true;
-                if(!cont)
+                if (!cont)
                     continue;
             }
         }

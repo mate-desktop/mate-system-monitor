@@ -565,7 +565,7 @@ get_net (LoadGraph *graph)
         int ifnamelen = strlen(ifnames[i]);
         if (ifnamelen >= 4)
         {
-            if (strncmp(ifnames[i], "tun", 3) || strncmp(ifnames[i], "tap", 3))
+            if (!strncmp(ifnames[i], "tun", 3) || !strncmp(ifnames[i], "tap", 3))
             {
                 bool cont = false;
                 for (int j = 3; j < ifnamelen - 1; ++j)

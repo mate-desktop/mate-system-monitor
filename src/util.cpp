@@ -588,7 +588,7 @@ namespace procman
 
     std::string format_network(guint64 rate, guint64 max_rate)
     {
-        char* bytes = procman::format_size(rate, max_rate, ProcData::get_instance()->config.network_in_bits);
+        char* bytes = procman::format_size(rate, max_rate, false);
         std::string formatted(bytes);
         g_free(bytes);
         return formatted;

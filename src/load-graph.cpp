@@ -1,5 +1,7 @@
 #include <config.h>
 
+#include <chrono> // TEMPORARY
+
 #include <gdkmm/pixbuf.h>
 
 #include <stdio.h>
@@ -557,10 +559,14 @@ get_net (LoadGraph *graph)
 
         /* Skip tun and tap interfaces */
 #ifdef __linux__
-        char path[strlen(ifnames[i]) + 25];
+        auto start = std::chrono::high_resolution_clock::now();
+        char path[strlen(ifnames[i]) + 26];
         sprintf(path, "/sys/class/net/%s/tun_flags", ifnames[i]);
         if (!access(path, F_OK))
             continue;
+        auto finish = std::chrono::high_resolution_clock::now();
+        std::chrono::duration<double> elapsed = finish - start;
+        printf("Time elapsed: %f\n", elapsed.count());
 #else
         int ifnamelen = strlen(ifnames[i]);
         if (ifnamelen >= 4)

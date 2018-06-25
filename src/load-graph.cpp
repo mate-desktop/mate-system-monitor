@@ -563,17 +563,14 @@ get_net (LoadGraph *graph)
             continue;
 #else
         int ifnamelen = strlen(ifnames[i]);
-        if (ifnamelen >= 4)
+        if (!strncmp(ifnames[i], "tun", 3) || !strncmp(ifnames[i], "tap", 3))
         {
-            if (!strncmp(ifnames[i], "tun", 3) || !strncmp(ifnames[i], "tap", 3))
-            {
-                bool cont = false;
-                for (int j = 3; j < ifnamelen - 1; ++j)
-                    if (!isdigit((int)((ifnames[i])[j])))
-                        cont = true;
-                if (!cont)
-                    continue;
-            }
+            bool cont = false;
+            for (int j = 3; j < ifnamelen; ++j)
+                if (!isdigit((int)((ifnames[i])[j])))
+                    cont = true;
+            if (!cont)
+                continue;
         }
 #endif
 

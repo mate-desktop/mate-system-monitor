@@ -556,6 +556,12 @@ get_net (LoadGraph *graph)
             continue;
 
         /* Skip tun and tap interfaces */
+#ifdef __linux__
+        char path[strlen(ifnames[i]) + 25];
+        sprintf(path, "/sys/class/net/%s/tun_flags", ifnames[i]);
+        if (!access(path, F_OK))
+            continue;
+#else
         int ifnamelen = strlen(ifnames[i]);
         if (ifnamelen >= 4)
         {
@@ -569,6 +575,7 @@ get_net (LoadGraph *graph)
                     continue;
             }
         }
+#endif
 
         /* Don't skip interfaces that are down (GLIBTOP_IF_FLAGS_UP)
            to avoid spikes when they are brought up */

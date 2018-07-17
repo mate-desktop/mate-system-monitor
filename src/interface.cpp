@@ -66,6 +66,8 @@ static const GtkActionEntry menu_entries[] =
 
     { "EndProcess", NULL, N_("_End Process"), "<control>E",
       N_("Force process to finish normally"), G_CALLBACK (cb_end_process) },
+    { "EndProcess_Del", NULL, N_("_End Process"), "Delete",
+      N_("Force process to finish normally"), G_CALLBACK (cb_end_process) },
     { "KillProcess", NULL, N_("_Kill Process"), "<control>K",
       N_("Force process to finish immediately"), G_CALLBACK (cb_kill_process) },
     { "ChangePriority", NULL, N_("_Change Priority"), NULL,
@@ -136,6 +138,7 @@ static const char ui_info[] =
     "      <menuitem name=\"EditStopProcessMenu\" action=\"StopProcess\" />"
     "      <menuitem name=\"EditContProcessMenu\" action=\"ContProcess\" />"
     "      <separator />"
+    "      <menuitem name=\"EditEndProcessMenu\" action=\"EndProcess_Del\" />"
     "      <menuitem name=\"EditEndProcessMenu\" action=\"EndProcess\" />"
     "      <menuitem name=\"EditKillProcessMenu\" action=\"KillProcess\" />"
     "      <separator />"
@@ -175,6 +178,7 @@ static const char ui_info[] =
     "    <menuitem action=\"ContProcess\" />"
     "    <separator />"
     "    <menuitem action=\"EndProcess\" />"
+    "    <menuitem action=\"EndProcess_Del\" />"
     "    <menuitem action=\"KillProcess\" />"
     "    <separator />"
     "    <menu name=\"ChangePriorityMenu\" action=\"ChangePriority\" >"
@@ -780,6 +784,7 @@ update_sensitivity(ProcData *data)
     const char * const selected_actions[] = { "StopProcess",
                                               "ContProcess",
                                               "EndProcess",
+                                              "EndProcess_Del",
                                               "KillProcess",
                                               "ChangePriority",
                                               "MemoryMaps",

@@ -352,7 +352,7 @@
           <term>Menubar</term> 
           <listitem> 
             <para>
-              The menus on the menubar contain all of the commands that you need to work with <application>&app;</application>.
+              The menus on the menubar contain all the commands that you need to work with <application>&app;</application>.
             </para>
           </listitem>
         </varlistentry>
@@ -1458,7 +1458,7 @@
                 </listitem>
                 <listitem>
                   <para>
-                    <guilabel>Show all filesystems</guilabel>
+                    <guilabel>Show all file systems</guilabel>
                   </para>
                   <para>
                     Select this option to show all file systems, including temporary and system ones.

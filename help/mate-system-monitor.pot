@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2018-10-05 18:33+0200\n"
+"POT-Creation-Date: 2018-10-08 10:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -397,7 +397,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:354
-msgid "The menus on the menubar contain all of the commands that you need to work with <application>System Monitor</application>."
+msgid "The menus on the menubar contain all the commands that you need to work with <application>System Monitor</application>."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
@@ -1503,7 +1503,7 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1460
-msgid "<guilabel>Show all filesystems</guilabel>"
+msgid "<guilabel>Show all file systems</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para

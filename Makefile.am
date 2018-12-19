@@ -7,7 +7,7 @@ SUBDIRS = pixmaps po src tools help
 man_MANS = mate-system-monitor.1
 
 @INTLTOOL_XML_RULE@
-appdatadir = $(datadir)/appdata
+appdatadir = $(datadir)/metainfo
 appdata_in_files = mate-system-monitor.appdata.xml.in
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 

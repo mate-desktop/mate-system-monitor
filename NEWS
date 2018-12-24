@@ -1,3 +1,14 @@
+### mate-system-monitor 1.21.1
+
+  * Translations update
+  * disable deprecation warnings for distcheck
+  * move appdata to metainfo directory
+  * interface: avoid deprecated gtk_menu_popup
+  * Avoid compile warning for g_type_class_add_private
+  * Fix grammar mistake & gui label
+  * Use make functions for HELP_LINGUAS
+  * add help to transifex config
+
 ### mate-system-monitor 1.21.0
 
   * Translations update

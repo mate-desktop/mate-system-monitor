@@ -14,6 +14,9 @@ appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 org.mate.mate-system-monitor.policy.in: org.mate.mate-system-monitor.policy.in.in Makefile
 	$(AM_V_GEN) sed -e "s|\@pkglibexecdir\@|$(pkglibexecdir)|" $< > $@
 
+DISTCHECK_CONFIGURE_FLAGS = \
+	CFLAGS='-Wno-deprecated-declarations'
+
 EXTRA_DIST = \
 	autogen.sh \
 	$(man_MANS) \

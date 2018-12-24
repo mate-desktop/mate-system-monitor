@@ -3,14 +3,29 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Dmitry Mandryk <dmandryk@gmail.com>, 2018
+# theirix <theirix@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Alexei Sorokin <sor.alexei@meowr.ru>, 2018
+# Дмитрий Михирев, 2018
+# Aleksandr <pc01.alex@yandex.ru>, 2018
+# Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2018
+# AlexL <loginov.alex.valer@gmail.com>, 2018
+# Eugene V. Samusev <inactive+bitlz@transifex.com>, 2018
+# monsta <monsta@inbox.ru>, 2018
+# Andreï Victorovitch Kostyrka, 2018
+# Dmitriy Kulikov <kulikov@dima.perm.ru>, 2018
+# Alex Putz, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-22 12:38+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Eugene V. Samusev <inactive+bitlz@transifex.com>, 2018\n"
+"PO-Revision-Date: 2018-03-12 08:22+0000\n"
+"Last-Translator: Alex Putz, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -495,10 +510,10 @@ msgstr "Файловые системы"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u секунда"
+msgstr[1] "%u секунд"
+msgstr[2] "%u секунд"
+msgstr[3] "%u секунд"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -1177,7 +1192,7 @@ msgstr "Графики"
 
 #: ../src/procdialogs.cpp:693
 msgid "_Update interval in 1/10 sec:"
-msgstr ""
+msgstr "_Интервал обновления в десятых секунды:"
 
 #: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
@@ -1443,19 +1458,19 @@ msgstr "%.3g Тбит"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u бит"
+msgstr[1] "%u бит"
+msgstr[2] "%u бит"
+msgstr[3] "%u бит"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u байт"
+msgstr[1] "%u байт"
+msgstr[2] "%u байт"
+msgstr[3] "%u байт"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

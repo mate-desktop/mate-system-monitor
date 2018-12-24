@@ -1,1718 +1,105 @@
-# Danish translation of documentation for mate-system-monitor.
-# Copyright (C) 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-system-monitor package.
-#
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2009.
-#
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Joe Hansen <joedalton2@yahoo.dk>, 2018
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor master\n"
-"POT-Creation-Date: 2009-09-21 00:26+0200\n"
-"PO-Revision-Date: 2009-09-20 21:03+0200\n"
-"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
-"Language-Team: Dansk <dansk@dansk-gruppen.dk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"POT-Creation-Date: 2018-10-08 10:20+0200\n"
+"PO-Revision-Date: 2018-10-05 17:12+0000\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2018\n"
+"Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/mate-system-monitor.xml:320(None)
-msgid ""
-"@@image: 'figures/mate-system-monitor_window.png'; "
-"md5=0a938d7d8c6910fdc96cb845f6e2af74"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
 msgstr ""
-"@@image: 'figures/mate-system-monitor_window.png'; "
-"md5=0a938d7d8c6910fdc96cb845f6e2af74"
+"Ask Hjorth Larsen, 2009\n"
+"Joe Hansen <joedalton2@yahoo.dk>, 2018\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
 
-#: ../C/mate-system-monitor.xml:23(title)
-#: ../C/mate-system-monitor.xml:97(revnumber)
-msgid "System Monitor Manual V2.2"
-msgstr "Manual til Systemovervågning, V2.2"
+#. (itstool) path: articleinfo/title
+#: C/index.docbook:23
+msgid "System Monitor Manual V2.3"
+msgstr "Manual til Systemovervågning version 2.2"
 
-#: ../C/mate-system-monitor.xml:26(year)
-msgid "2009"
-msgstr "2009"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:25
+msgid "<year>2015</year> <holder>MATE Documentation Project</holder>"
+msgstr "<year>2015</year> <holder>MATE-dokumentationsprojektet</holder>"
 
-#: ../C/mate-system-monitor.xml:27(holder)
-msgid "Paul Cutler"
-msgstr "Paul Cutler"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:28
+msgid "<year>2009</year> <holder>Paul Cutler</holder>"
+msgstr "<year>2009</year> <holder>Paul Cutler</holder>"
 
-#: ../C/mate-system-monitor.xml:30(year)
-#: ../C/mate-system-monitor.xml:36(year)
-msgid "2004"
-msgstr "2004"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:32
+msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
 
-#: ../C/mate-system-monitor.xml:31(holder)
-#: ../C/mate-system-monitor.xml:60(orgname)
-msgid "Sun Microsystems"
-msgstr "Sun Microsystems"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:36
+msgid ""
+"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
+"Day</holder>"
+msgstr ""
+"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
+"Day</holder>"
 
-#: ../C/mate-system-monitor.xml:34(year)
-msgid "2001"
-msgstr "2001"
-
-#: ../C/mate-system-monitor.xml:35(year)
-msgid "2002"
-msgstr "2002"
-
-#: ../C/mate-system-monitor.xml:37(holder)
-msgid "Bill Day"
-msgstr "Bill Day"
-
-#: ../C/mate-system-monitor.xml:48(publishername)
-#: ../C/mate-system-monitor.xml:71(orgname)
-#: ../C/mate-system-monitor.xml:103(para)
-#: ../C/mate-system-monitor.xml:111(para)
-#: ../C/mate-system-monitor.xml:120(para)
-#: ../C/mate-system-monitor.xml:130(para)
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
 msgstr "MATE-dokumentationsprojektet"
 
-#: ../C/mate-system-monitor.xml:58(firstname)
-msgid "Sun"
-msgstr "Sun"
-
-#: ../C/mate-system-monitor.xml:59(surname)
-msgid "MATE Documentation Team"
-msgstr "MATE-dokumentationsholdet"
-
-#: ../C/mate-system-monitor.xml:63(firstname)
-msgid "Bill"
-msgstr "Bill"
-
-#: ../C/mate-system-monitor.xml:64(surname)
-msgid "Day"
-msgstr "Day"
-
-#: ../C/mate-system-monitor.xml:65(email)
-msgid "billday@bellatlantic.net"
-msgstr "billday@bellatlantic.net"
-
-#: ../C/mate-system-monitor.xml:68(firstname)
-msgid "Paul"
-msgstr "Paul"
-
-#: ../C/mate-system-monitor.xml:69(surname)
-msgid "Cutler"
-msgstr "Cutler"
-
-#: ../C/mate-system-monitor.xml:72(email)
-msgid "pcutler@foresightlinux.org"
-msgstr "pcutler@foresightlinux.org"
-
-#: ../C/mate-system-monitor.xml:98(date)
-msgid "March 2009"
-msgstr "March 2009"
-
-#: ../C/mate-system-monitor.xml:100(para)
-msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
-msgstr "Paul Cutler <email>pcutler@foresightlinux.org</email>"
-
-#: ../C/mate-system-monitor.xml:107(revnumber)
-msgid "System Monitor Manual V2.1"
-msgstr "Manual til Systemovervågning, V2.1"
-
-#: ../C/mate-system-monitor.xml:108(date)
-msgid "February 2004"
-msgstr "February 2004"
-
-#: ../C/mate-system-monitor.xml:110(para)
-msgid "Sun MATE Documentation Team"
-msgstr "Suns MATE-dokumentationshold"
-
-#: ../C/mate-system-monitor.xml:115(revnumber)
-msgid "System Monitor Manual V2.0"
-msgstr "Manual til Systemovervågning, V2.0"
-
-#: ../C/mate-system-monitor.xml:116(date)
-msgid "November 2002"
-msgstr "November 2002"
-
-#: ../C/mate-system-monitor.xml:118(para)
-#: ../C/mate-system-monitor.xml:127(para)
-msgid "Bill Day <email>billday@bellatlantic.net</email>"
-msgstr "Bill Day <email>billday@bellatlantic.net</email>"
-
-#: ../C/mate-system-monitor.xml:124(revnumber)
-msgid "Procman Manual V0.11"
-msgstr "Manual til Procman, V0.11"
-
-#: ../C/mate-system-monitor.xml:125(date)
-msgid "January 2002"
-msgstr "January 2002"
-
-#: ../C/mate-system-monitor.xml:135(releaseinfo)
-msgid "This manual describes version 2.24.4 of System Monitor."
-msgstr "Denne manual beskriver version 2.24.4 af Systemovervågning."
-
-#: ../C/mate-system-monitor.xml:140(title)
-msgid "Feedback"
-msgstr "Tilbagemelding"
-
-#: ../C/mate-system-monitor.xml:141(para)
-msgid ""
-"To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help:"
-"mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr ""
-"Følg vejledningen på <ulink url=\"help:mate-feedback\" type=\"help\">MATE-"
-"feedbacksiden</ulink> for at rapportere fejl eller indsende forslag til "
-"programmet Systemovervågning eller denne manual."
-
-#: ../C/mate-system-monitor.xml:149(para)
-msgid ""
-"System Monitor gives users a graphical user interface for monitoring CPU, "
-"network, and memory activities as well as a way for viewing and stopping "
-"system processes."
-msgstr ""
-"Systemovervågning giver brugere en grafisk brugergrænseflade til at overvåge "
-"CPU, netværk og hukommelsesaktivitet, såvel som funktioner til at gennemse "
-"og stoppe systemprocesser."
-
-#: ../C/mate-system-monitor.xml:158(primary)
-msgid "System Monitor"
-msgstr "Systemovervågning"
-
-#: ../C/mate-system-monitor.xml:161(primary)
-msgid "mate-system-monitor"
-msgstr "mate-system-monitor"
-
-#: ../C/mate-system-monitor.xml:164(primary)
-msgid "procman"
-msgstr "procman"
-
-#: ../C/mate-system-monitor.xml:170(title)
-msgid "Introduction"
-msgstr "Introduktion"
-
-#: ../C/mate-system-monitor.xml:171(para)
-msgid ""
-"The <application>System Monitor</application> application enables you to "
-"display basic system information and monitor system processes, usage of "
-"system resources, and file systems. You can also use <application>System "
-"Monitor</application> to modify the behavior of your system."
-msgstr ""
-"Programmet <application>Systemovervågning</application> lader dig vise "
-"grundlæggende systeminformation og overvåge systemprocesser, brug af "
-"systemressourcer, samt filsystemer. Du kan også bruge "
-"<application>Systemovervågning</application> til at ændre opførslen af dit "
-"system."
-
-#: ../C/mate-system-monitor.xml:174(para)
-msgid ""
-"The <application>System Monitor</application> window contains four tabbed "
-"sections:"
-msgstr ""
-"Programvinduet for <application>Systemovervågning</application> indeholder "
-"fire afsnit inddelt i faneblade:"
-
-#: ../C/mate-system-monitor.xml:180(guilabel)
-#: ../C/mate-system-monitor.xml:348(guilabel)
-msgid "System"
-msgstr "System"
-
-#: ../C/mate-system-monitor.xml:183(para)
-msgid ""
-"Displays various basic information about the computer's hardware and "
-"software."
-msgstr ""
-"Viser diverse grundlæggende informationer om computerens hardware og "
-"software."
-
-#: ../C/mate-system-monitor.xml:186(term)
-msgid "Distribution"
-msgstr "Distribution"
-
-#: ../C/mate-system-monitor.xml:192(para)
-msgid "Distribution version"
-msgstr "Distributionsversion"
-
-#: ../C/mate-system-monitor.xml:195(para)
-msgid "Linux Kernel version"
-msgstr "Linux-kerneversion"
-
-#: ../C/mate-system-monitor.xml:198(para)
-msgid "MATE version"
-msgstr "MATE-version"
-
-#: ../C/mate-system-monitor.xml:204(term)
-#: ../C/mate-system-monitor.xml:415(para)
-msgid "Hardware"
-msgstr "Hardware"
-
-#: ../C/mate-system-monitor.xml:210(para)
-msgid "Installed memory"
-msgstr "Installeret hukommelse"
-
-#: ../C/mate-system-monitor.xml:213(para)
-msgid "Processors and speeds"
-msgstr "Processorer og hastigheder"
-
-#: ../C/mate-system-monitor.xml:219(term)
-#: ../C/mate-system-monitor.xml:420(para)
-msgid "System Status"
-msgstr "Systemstatus"
-
-#: ../C/mate-system-monitor.xml:225(para)
-msgid "Currently available disk space"
-msgstr "Aktuel tilgængelig diskplads"
-
-#: ../C/mate-system-monitor.xml:235(guilabel)
-#: ../C/mate-system-monitor.xml:356(guilabel)
-#: ../C/mate-system-monitor.xml:1207(title)
-msgid "Processes"
-msgstr "Processer"
-
-#: ../C/mate-system-monitor.xml:238(para)
-msgid ""
-"Shows active processes, and how processes are related to each other. "
-"Provides detailed information about individual processes, and enables you to "
-"control active processes."
-msgstr ""
-"Viser de aktive processer og deres indbyrdes relationer. Giver detaljeret "
-"information om hver enkelt proces, og lader dig styre aktive processer."
-
-#: ../C/mate-system-monitor.xml:245(guilabel)
-#: ../C/mate-system-monitor.xml:364(guilabel)
-#: ../C/mate-system-monitor.xml:1394(title)
-msgid "Resources"
-msgstr "Ressourcer"
-
-#: ../C/mate-system-monitor.xml:248(para)
-msgid "Displays the current usage of the following system resources:"
-msgstr "Viser det aktuelle forbrug af følgende systemressourcer:"
-
-#: ../C/mate-system-monitor.xml:253(para)
-msgid "CPU (central processing unit) time"
-msgstr "CPU-tid (processortidsforbrug)"
-
-#: ../C/mate-system-monitor.xml:258(para)
-msgid "Memory and swap space"
-msgstr "Hukommelse og swap-plads"
-
-#: ../C/mate-system-monitor.xml:263(para)
-msgid "Network usage"
-msgstr "Netværksaktivitet"
-
-#: ../C/mate-system-monitor.xml:272(guilabel)
-#: ../C/mate-system-monitor.xml:372(guilabel)
-#: ../C/mate-system-monitor.xml:1428(guilabel)
-msgid "File Systems"
-msgstr "Filsystemer"
-
-#: ../C/mate-system-monitor.xml:275(para)
-msgid "Lists all mounted file systems along with basic information about each."
-msgstr ""
-"Opskriver alle monterede filsystemer samt grundlæggende information om hvert "
-"af dem."
-
-#: ../C/mate-system-monitor.xml:285(title)
-msgid "Getting Started"
-msgstr "Kom godt i gang"
-
-#: ../C/mate-system-monitor.xml:289(title)
-msgid "To Start System Monitor"
-msgstr "Start af Systemovervågning"
-
-#: ../C/mate-system-monitor.xml:290(para)
-msgid ""
-"You can start <application>System Monitor</application> in the following "
-"ways:"
-msgstr ""
-"Du kan starte <application>Systemovervågning</application> på følgende måder:"
-
-#: ../C/mate-system-monitor.xml:293(term)
-msgid "<guimenu>System</guimenu> menu"
-msgstr "Menuen <guimenu>System</guimenu>"
-
-#: ../C/mate-system-monitor.xml:295(para)
-msgid ""
-"Choose <menuchoice><guimenu>Administration</guimenu><guimenuitem>System "
-"Monitor</guimenuitem></menuchoice>."
-msgstr ""
-"Vælg <menuchoice><guimenu>Administration</"
-"guimenu><guimenuitem>Systemovervågning</guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:301(term)
-msgid "Command line"
-msgstr "Kommandolinje"
-
-#: ../C/mate-system-monitor.xml:303(para)
-msgid "Execute the following command: <command>mate-system-monitor</command>"
-msgstr "Kør følgende kommando: <command>mate-system-monitor</command>"
-
-#: ../C/mate-system-monitor.xml:311(title)
-msgid "When You Start System Monitor"
-msgstr "Når du starter Systemovervågning"
-
-#: ../C/mate-system-monitor.xml:312(para)
-msgid ""
-"When you start <application>System Monitor</application>, the following "
-"window is displayed:"
-msgstr ""
-"Når du starter <application>Systemovervågning</application>, vil følgende "
-"vinduer blive vist:"
-
-#: ../C/mate-system-monitor.xml:316(title)
-msgid "System Monitor Window"
-msgstr "Vinduet for Systemovervågning"
-
-#: ../C/mate-system-monitor.xml:322(phrase)
-msgid "Shows System Monitor main window."
-msgstr "Viser hovedvinduet for Systemovervågning."
-
-#: ../C/mate-system-monitor.xml:327(para)
-msgid ""
-"The <application>System Monitor</application> window contains the following "
-"elements:"
-msgstr ""
-"Vinduet for <application>Systemovervågning</application> indeholder følgende "
-"elementer:"
-
-#: ../C/mate-system-monitor.xml:332(term)
-msgid "Menubar"
-msgstr "Menubjælke"
-
-#: ../C/mate-system-monitor.xml:334(para)
-msgid ""
-"The menus on the menubar contain all of the commands that you need to work "
-"with <application>System Monitor</application>."
-msgstr ""
-"Menuerne i menubjælken indeholder alle de kommandoer, du behøver for at "
-"bruge <application>Systemovervågning</application>."
-
-#: ../C/mate-system-monitor.xml:340(term)
-msgid "Display area"
-msgstr "Visningsområde"
-
-#: ../C/mate-system-monitor.xml:342(para)
-msgid ""
-"The display area contains the system monitor information. The display area "
-"contains the following tabbed sections:"
-msgstr ""
-"Visningsområdet indeholder systemovervågningsinformationerne. "
-"Visningsområdet består af følgende afsnit, inddelt i faneblade:"
-
-#: ../C/mate-system-monitor.xml:350(para)
-msgid ""
-"Contains a list of basic system properties, such as system software versions "
-"and hardware specifications and status."
-msgstr ""
-"Indeholder en liste af grundlæggende systemegenskaber, såsom versioner af "
-"systemsoftware, hardwarespecifikationer og status."
-
-#: ../C/mate-system-monitor.xml:358(para)
-msgid ""
-"Contains a list of processes organized as a table, a list of load averages "
-"over the past few minutes, and an <guibutton>End Process</guibutton> button."
-msgstr ""
-"Indeholder en liste af processer, organiseret som en tabel, en liste af "
-"gennemsnitsbelastninger over de sidste minutter, samt en <guibutton>Afbryd "
-"proces</guibutton>-knap."
-
-#: ../C/mate-system-monitor.xml:366(para)
-msgid ""
-"Contains a <guilabel>CPU History</guilabel> graph, a <guilabel>Memory and "
-"Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
-"graph."
-msgstr ""
-"Indeholder en graf over <guilabel>Processorforbrug</guilabel>, "
-"<guilabel>Hukommelsesforbrug</guilabel> og swap, samt "
-"<guilabel>Netværkshistorik</guilabel>."
-
-#: ../C/mate-system-monitor.xml:374(para)
-msgid "Contains a table of currently mounted file systems."
-msgstr "Indeholder en tabel over de filsystemer, der i øjeblikket er monteret."
-
-#: ../C/mate-system-monitor.xml:382(term)
-msgid "Statusbar"
-msgstr "Statusbjælke"
-
-#: ../C/mate-system-monitor.xml:384(para)
-msgid ""
-"The statusbar displays information about current <application>System "
-"Monitor</application> activity and contextual information about the menu "
-"items."
-msgstr ""
-"Statusbjælken viser informationer om de <application>Systemovervågning</"
-"application>s nuværende aktivitet samt kontekstinformation om "
-"menuelementerne."
-
-#: ../C/mate-system-monitor.xml:398(title)
-msgid "Usage"
-msgstr "Brug"
-
-#: ../C/mate-system-monitor.xml:401(title)
-msgid "To Display Basic System Information"
-msgstr "Vis grundlæggende systeminformationer"
-
-#: ../C/mate-system-monitor.xml:402(para)
-msgid ""
-"To display basic system information, select the <guilabel>System</guilabel> "
-"tab."
-msgstr ""
-"Vælg fanebladet <guilabel>System</guilabel> for at vise grundlæggende "
-"systeminformation."
-
-#: ../C/mate-system-monitor.xml:405(para)
-msgid ""
-"In the <guilabel>System</guilabel> tab, information is organized into three "
-"groups:"
-msgstr ""
-"I fanebladet <guilabel>System</guilabel>, organiseres informationerne i tre "
-"grupper:"
-
-#: ../C/mate-system-monitor.xml:410(para)
-msgid "System Information"
-msgstr "Systeminformation"
-
-#: ../C/mate-system-monitor.xml:428(title)
-msgid "To Display the Process List"
-msgstr "Vis proceslisten"
-
-#: ../C/mate-system-monitor.xml:429(para)
-msgid ""
-"To display the process list, select the <guilabel>Processes</guilabel> tab."
-msgstr ""
-"Vælg fanebladet <guilabel>Processer</guilabel> for at vise proceslisten."
-
-#: ../C/mate-system-monitor.xml:432(para)
-msgid ""
-"In the <guilabel>Processes</guilabel> tab, the processes are organized as a "
-"table. The rows of the table display information about the processes. The "
-"columns represent information fields for the processes, such as the name of "
-"the user who owns the process, the amount of memory currently being used by "
-"the process, and so on. From left to right, the <guilabel>Processes</"
-"guilabel> tab displays the following columns by default:"
-msgstr ""
-"I fanebladet <guilabel>Processer</guilabel> organiseres processerne som en "
-"tabel. Rækkerne i tabellen viser information om processerne. Kolonnerne "
-"repræsenterer informationsfelter for hver proces, såsom navnet på brugeren, "
-"der ejer processen, mængden af hukommelse som processen bruger, og så "
-"videre. Fra venstre til højre viser <guilabel>Processer</guilabel>-"
-"fanebladet som standard følgende kolonner:"
-
-#: ../C/mate-system-monitor.xml:437(para)
-#: ../C/mate-system-monitor.xml:1261(guilabel)
-msgid "Process Name"
-msgstr "Procesnavn"
-
-#: ../C/mate-system-monitor.xml:440(para)
-#: ../C/mate-system-monitor.xml:1277(guilabel)
-msgid "Status"
-msgstr "Status"
-
-#: ../C/mate-system-monitor.xml:443(para)
-msgid "%CPU"
-msgstr "%CPU"
-
-#: ../C/mate-system-monitor.xml:446(para)
-#: ../C/mate-system-monitor.xml:1349(guilabel)
-msgid "Nice"
-msgstr "Prioritet"
-
-#: ../C/mate-system-monitor.xml:449(para)
-#: ../C/mate-system-monitor.xml:1357(guilabel)
-msgid "ID"
-msgstr "Id"
-
-#: ../C/mate-system-monitor.xml:452(para)
-#: ../C/mate-system-monitor.xml:1365(guilabel)
-msgid "Memory"
-msgstr "Hukommelse"
-
-#: ../C/mate-system-monitor.xml:455(para)
-msgid ""
-"For information about how to change the columns displayed in the process "
-"list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
-msgstr ""
-"Se <xref linkend=\"mate-system-monitor-prefs-proclist\"/> for information "
-"om hvordan de viste kolonner i proceslisten ændres."
-
-#: ../C/mate-system-monitor.xml:460(title)
-msgid "Parent Processes and Child Processes"
-msgstr "Ophavsprocesser og underprocesser"
-
-#: ../C/mate-system-monitor.xml:461(para)
-msgid ""
-"A parent process is a process that spawns another process. The spawned "
-"process is a child process of the original parent process. By default, "
-"<application>System Monitor</application> does not show process "
-"dependencies. For information about how to change the default display "
-"behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-"
-"viewdeps\"/>."
-msgstr ""
-"En ophavsproces er en proces, der har startet en anden proces. Den startede "
-"proces er en underproces af ophavsprocessen. Som standard viser "
-"<application>Systemovervågning</application> ikke procesafhængigheder. "
-"Information om hvordan standardopførslen ændres kan ses på <xref linkend="
-"\"mate-system-monitor-modify-processlist-viewdeps\"/>."
-
-#: ../C/mate-system-monitor.xml:467(title)
-msgid "Process Priority and Nice Values"
-msgstr "Procesprioritet og nice-værdier"
-
-#: ../C/mate-system-monitor.xml:468(para)
-msgid ""
-"Processes run in order of priority: high-priority processes run before low-"
-"priority processes. Child processes generally inherit their priority from "
-"their parent process."
-msgstr ""
-"Processer køres i prioriteret rækkefølge: Højprioritetsprocesser køres før "
-"lavprioritetsprocesser. Underprocesser nedarver generelt deres prioritet fra "
-"ophavsprocessen."
-
-#: ../C/mate-system-monitor.xml:471(para)
-msgid ""
-"The priority of a process is set by the nice value of the process, as "
-"follows:"
-msgstr ""
-"Prioriteten af en proces indstilles gennem processens nice-værdi på følgende "
-"vis:"
-
-#: ../C/mate-system-monitor.xml:476(para)
-msgid "A nice value of 0 means that the process has normal priority."
-msgstr "En nice-værdi på 0 betyder, at processen har normal prioritet."
-
-#: ../C/mate-system-monitor.xml:481(para)
-msgid "The higher the nice value, the lower the priority."
-msgstr "Højere nice-værdi betyder lavere prioritet."
-
-#: ../C/mate-system-monitor.xml:486(para)
-msgid "The lower the nice value, the higher the priority."
-msgstr "Lavere nice-værdi betyder højere prioritet."
-
-#: ../C/mate-system-monitor.xml:491(para)
-msgid ""
-"For information about how to change the priority of a process, see <xref "
-"linkend=\"mate-system-monitor-change-priority\"/>."
-msgstr ""
-"Information om ændring af procesprioritet kan findes på <xref linkend="
-"\"mate-system-monitor-change-priority\"/>."
-
-#: ../C/mate-system-monitor.xml:499(title)
-msgid "To Sort the Process List"
-msgstr "Sortér proceslisten"
-
-#: ../C/mate-system-monitor.xml:500(para)
-msgid "To sort the process list, perform the following steps:"
-msgstr "Gør som følger for at sortere proceslisten:"
-
-#: ../C/mate-system-monitor.xml:505(para)
-#: ../C/mate-system-monitor.xml:540(para)
-#: ../C/mate-system-monitor.xml:563(para)
-#: ../C/mate-system-monitor.xml:586(para)
-#: ../C/mate-system-monitor.xml:609(para)
-#: ../C/mate-system-monitor.xml:660(para)
-#: ../C/mate-system-monitor.xml:801(para)
-#: ../C/mate-system-monitor.xml:842(para)
-#: ../C/mate-system-monitor.xml:877(para)
-msgid ""
-"Select the <guilabel>Processes</guilabel> tab to display the process list."
-msgstr ""
-"Vælg fanebladet <guilabel>Processer</guilabel> for at få vist proceslisten."
-
-#: ../C/mate-system-monitor.xml:510(para)
-msgid ""
-"By default, the processes are listed by name, in alphabetical order. To list "
-"the processes in reverse alphabetical order, click on the <guilabel>Process "
-"Name</guilabel> column header."
-msgstr ""
-"Som standard sorteres processer efter navn, i alfabetisk rækkefølge. Klik på "
-"kolonneoverskriften <guilabel>Procesnavn</guilabel> for at få dem vist i "
-"omvendt alfabetisk rækkefølge."
-
-#: ../C/mate-system-monitor.xml:515(para)
-msgid ""
-"Click on any column header to sort the processes by the information in that "
-"column, in alphabetical or numerical order."
-msgstr ""
-"Klik på en kolonneoverskrift for at sortere processerne efter den "
-"information, der fremgår i kolonnen, i alfabetisk eller numerisk orden."
-
-#: ../C/mate-system-monitor.xml:520(para)
-msgid ""
-"Click again on the column header to sort the data in reverse alphabetical or "
-"reverse numerical order."
-msgstr ""
-"Klik på kolonneoverskriften igen for at sortere dataene i omvendt alfabetisk "
-"eller omvendt numerisk rækkefølge."
-
-#: ../C/mate-system-monitor.xml:528(title)
-msgid "To Modify the Contents of the Process List"
-msgstr "Ændr indholdet af proceslisten"
-
-#: ../C/mate-system-monitor.xml:529(para)
-msgid "You can modify the contents of the process list in several ways."
-msgstr "Du kan ændre indholdet af proceslisten på adskillige måder."
-
-#: ../C/mate-system-monitor.xml:534(title)
-msgid "To Show All Processes"
-msgstr "Vis alle processer"
-
-#: ../C/mate-system-monitor.xml:535(para)
-msgid "To show all processes in the process list, perform the following steps:"
-msgstr "Gør som følger for at få vist alle processer i proceslisten:"
-
-#: ../C/mate-system-monitor.xml:545(para)
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>All Processes</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Alle processer</"
-"guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:557(title)
-msgid "To Show Only Processes Owned by the Current User"
-msgstr "Vis kun processer, der ejes af den aktuelle bruger"
-
-#: ../C/mate-system-monitor.xml:558(para)
-msgid ""
-"To show only the processes that are owned by the current user, perform the "
-"following steps:"
-msgstr ""
-"Gør som følger for, kun at få vist processer, der ejes af den aktuelle "
-"bruger:"
-
-#: ../C/mate-system-monitor.xml:568(para)
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>My Processes</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Mine processer</"
-"guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:580(title)
-msgid "To Show Only Active Processes"
-msgstr "Vis kun aktive processer"
-
-#: ../C/mate-system-monitor.xml:581(para)
-msgid ""
-"To show only the active processes in the process list, perform the following "
-"steps:"
-msgstr "Gør som følger for, kun at få vist de aktive processer i proceslisten:"
-
-#: ../C/mate-system-monitor.xml:591(para)
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Active Processes</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Aktive processer</"
-"guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:603(title)
-msgid "To Show Dependencies"
-msgstr "Vis afhængigheder"
-
-#: ../C/mate-system-monitor.xml:604(para)
-msgid ""
-"To show process dependencies in the process list, perform the following "
-"steps:"
-msgstr "Gør som følger for at få vist procesafhængigheder i proceslisten:"
-
-#: ../C/mate-system-monitor.xml:614(para)
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Afhængigheder</"
-"guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:619(para)
-msgid ""
-"If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the "
-"processes are listed as follows:"
-msgstr ""
-"Hvis menupunktet <guimenuitem>Afhængigheder</guimenuitem> er valgt, vil "
-"processerne blive vist således:"
-
-#: ../C/mate-system-monitor.xml:624(para)
-msgid ""
-"Parent processes are indicated by a triangle symbol to the left of the "
-"process name. Click on the triangle symbol to show or hide the associated "
-"child processes."
-msgstr ""
-"Ophavsprocesser angives ved at trekantsymbol til venstre for procesnavnet. "
-"Klik på et trekantsymbol for at få vist eller skjult de tilhørende "
-"underprocesser."
-
-#: ../C/mate-system-monitor.xml:629(para)
-msgid "Child processes are indented, and listed with their parent process."
-msgstr "Underprocesser anføres indrykket sammen med deres ophavsprocesser."
-
-#: ../C/mate-system-monitor.xml:634(para)
-msgid ""
-"If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
-msgstr ""
-"Hvis menupunktet <guimenuitem>Afhængigheder</guimenuitem> ikke er valgt:"
-
-#: ../C/mate-system-monitor.xml:639(para)
-msgid "Parent processes and child processes are not distinguishable."
-msgstr "Ophavsprocesser og underprocesser kan ikke skelnes."
-
-#: ../C/mate-system-monitor.xml:644(para)
-msgid "All processes are listed in alphabetical order."
-msgstr "Alle processer anføres i alfabetisk rækkefølge."
-
-#: ../C/mate-system-monitor.xml:654(title)
-msgid "To Display Memory Maps for a Process"
-msgstr "Vis hukommelsesområder for en proces"
-
-#: ../C/mate-system-monitor.xml:655(para)
-msgid "To display memory maps for a process, perform the following steps:"
-msgstr "Gør som følger for at få vist hukommelsesområderne for en proces:"
-
-#: ../C/mate-system-monitor.xml:665(para)
-msgid "Select the process in the process list."
-msgstr "Vælg processen i proceslisten."
-
-#: ../C/mate-system-monitor.xml:670(para)
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory Maps</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Hukommelsesområder</"
-"guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:675(para)
-msgid ""
-"The <guilabel>Memory Maps</guilabel> dialog displays the information in "
-"tabular format. The name of the process is displayed above the memory-map "
-"table. From left to right, the <guilabel>Memory Maps</guilabel> dialog "
-"displays the following columns:"
-msgstr ""
-"Dialogvinduet <guilabel>Hukommelsesområder</guilabel> viser informationerne "
-"som en tabel. Navnet på processen vises over hukommelsesområdetabellen. Fra "
-"venstre til højre, viser <guilabel>Hukommelsesområder</guilabel>-"
-"dialogvinduet følgende kolonner:"
-
-#: ../C/mate-system-monitor.xml:680(guilabel)
-msgid "Filename"
-msgstr "Filnavn"
-
-#: ../C/mate-system-monitor.xml:682(para)
-msgid ""
-"The location of a shared library that is currently used by the process. If "
-"this field is blank, the memory information in this row describes memory "
-"that is owned by the process whose name is displayed above the memory-map "
-"table."
-msgstr ""
-"Placeringen af et delt bibliotek, som i øjeblikket bruges af processen. Hvis "
-"dette felt står tomt, beskriver hukommelsesinformationen i denne række et "
-"hukommelsesområde, der ejes af processen hvis navn vises over tabellen."
-
-#: ../C/mate-system-monitor.xml:688(guilabel)
-msgid "VM Start"
-msgstr "V. huk. start"
-
-#: ../C/mate-system-monitor.xml:690(para)
-msgid "The address at which the memory segment begins."
-msgstr "Adressen hvorpå hukommelsessegmentet begynder."
-
-#: ../C/mate-system-monitor.xml:696(guilabel)
-msgid "VM End"
-msgstr "V. huk. slut"
-
-#: ../C/mate-system-monitor.xml:698(para)
-msgid "The address at which the memory segment ends."
-msgstr "Adressen hvorpå hukommelsessegmentet slutter."
-
-#: ../C/mate-system-monitor.xml:704(guilabel)
-msgid "VM Size"
-msgstr "V. huk.-stør."
-
-#: ../C/mate-system-monitor.xml:706(para)
-msgid "The size of the memory segment."
-msgstr "Størrelsen af hukommelsessegmentet."
-
-#: ../C/mate-system-monitor.xml:712(guilabel)
-msgid "Flags"
-msgstr "Flag"
-
-#: ../C/mate-system-monitor.xml:714(para)
-msgid ""
-"The following flags describe the different types of memory-segment access "
-"that the process can have:"
-msgstr ""
-"Følgende flag beskriver de forskellige typer af hukommelsessegment, "
-"processen kan tilgå:"
-
-#: ../C/mate-system-monitor.xml:719(term)
-msgid "p"
-msgstr "p"
-
-#: ../C/mate-system-monitor.xml:721(para)
-msgid ""
-"The memory segment is private to the process, and is not accessible to other "
-"processes."
-msgstr ""
-"Hukommelsessegmentet er privat for processen, og kan ikke tilgås af andre "
-"processer."
-
-#: ../C/mate-system-monitor.xml:727(term)
-msgid "r"
-msgstr "r"
-
-#: ../C/mate-system-monitor.xml:729(para)
-msgid "The process has permission to read from the memory segment."
-msgstr "Processen har rettigheder til at læse fra hukommelsessegmentet."
-
-#: ../C/mate-system-monitor.xml:735(term)
-msgid "s"
-msgstr "s"
-
-#: ../C/mate-system-monitor.xml:737(para)
-msgid "The memory segment is shared with other processes."
-msgstr "Hukommelsessegmentet deles med andre processer."
-
-#: ../C/mate-system-monitor.xml:743(term)
-msgid "w"
-msgstr "w"
-
-#: ../C/mate-system-monitor.xml:745(para)
-msgid "The process has permission to write into the memory segment."
-msgstr "Processen har rettigheder til at skrive til hukommelsessegmentet."
-
-#: ../C/mate-system-monitor.xml:751(term)
-msgid "x"
-msgstr "x"
-
-#: ../C/mate-system-monitor.xml:753(para)
-msgid ""
-"The process has permission to execute instructions that are contained within "
-"the memory segment."
-msgstr ""
-"Processen har rettigheder til at køre instruktioner, der indeholdes i "
-"hukommelsessegmentet."
-
-#: ../C/mate-system-monitor.xml:762(guilabel)
-msgid "VM Offset"
-msgstr "V. huk.-afsæt"
-
-#: ../C/mate-system-monitor.xml:764(para)
-msgid "The virtual memory offset of the memory segment."
-msgstr "Hukommelsessegmentets afsæt for virtuel hukommelse."
-
-#: ../C/mate-system-monitor.xml:770(guilabel)
-#: ../C/mate-system-monitor.xml:971(term)
-msgid "Device"
-msgstr "Enhed"
-
-#: ../C/mate-system-monitor.xml:772(para)
-msgid ""
-"The major and minor device numbers of the device on which the shared library "
-"filename is located."
-msgstr ""
-"Over- og underenhedsnummer for enheden hvorpå den delte biblioteksfil er "
-"placeret."
-
-#: ../C/mate-system-monitor.xml:778(guilabel)
-msgid "Inode"
-msgstr "Inode"
-
-#: ../C/mate-system-monitor.xml:780(para)
-msgid ""
-"The inode on the device from which the shared library location is loaded "
-"into memory."
-msgstr ""
-"Inoden på enheden, hvorfra det delte biblioteks placering er indlæst i "
-"hukommelsen."
-
-#: ../C/mate-system-monitor.xml:786(para)
-msgid ""
-"Click on any column header to sort the data by the information in that "
-"column, in alphabetical or numerical order. Click again on the column header "
-"to sort the data in reverse alphabetical or reverse numerical order."
-msgstr ""
-"Klik på en kolonneoverskrift for at sortere data efter informationen i den "
-"pågældende kolonne i alfabetisk eller numerisk rækkefølge. Klik på "
-"overskriften igen for at sortere i omvendt rækkefølge."
-
-#: ../C/mate-system-monitor.xml:789(para)
-msgid ""
-"Click <guibutton>Close</guibutton> to close the <guilabel>Memory Maps</"
-"guilabel> dialog."
-msgstr ""
-"Klik på <guibutton>Luk</guibutton> for at lukke "
-"<guilabel>Hukommelsesområder</guilabel>-dialogvinduet."
-
-#: ../C/mate-system-monitor.xml:795(title)
-msgid "To Change the Priority of a Process"
-msgstr "Ændr prioriteten for en proces"
-
-#: ../C/mate-system-monitor.xml:796(para)
-msgid "To change the priority of a process, perform the following steps:"
-msgstr "Gør som følger for at ændre prioriteten for en proces:"
-
-#: ../C/mate-system-monitor.xml:806(para)
-msgid "Select the process for which you want to change the priority."
-msgstr "Vælg processen, hvis prioritet du vil ændre."
-
-#: ../C/mate-system-monitor.xml:811(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</"
-"guimenuitem></menuchoice>. The <guilabel>Change Priority</guilabel> dialog "
-"is displayed."
-msgstr ""
-"Vælg <menuchoice><guimenu>Redigér</guimenu><guimenuitem>Skift prioritet</"
-"guimenuitem></menuchoice>. Dialogvinduet <guilabel>Skift prioritet</"
-"guilabel> bliver dermed vist."
-
-#: ../C/mate-system-monitor.xml:816(para)
-msgid "Use the slider to set the nice value of the process."
-msgstr "Brug skydeknappen til at indstille processens nice-værdi."
-
-#: ../C/mate-system-monitor.xml:819(para)
-msgid ""
-"The nice value sets the priority of the process: the lower the nice value, "
-"the higher the priority."
-msgstr ""
-"Nice-værdien angiver processens prioritet: lavere nice-værdi betyder højere "
-"prioritet."
-
-#: ../C/mate-system-monitor.xml:822(para)
-msgid ""
-"To specify a nice value lower than zero, non-root users must enter the root "
-"password."
-msgstr ""
-"Brugere, der ikke er root, skal indtaste root-adgangskoden for at angive en "
-"nice-værdi, der er lavere end nul."
-
-#: ../C/mate-system-monitor.xml:827(para)
-msgid "Click on the <guibutton>Change Priority</guibutton> button."
-msgstr "Klik på knappen <guibutton>Skift prioritet</guibutton>."
-
-#: ../C/mate-system-monitor.xml:836(title)
-msgid "To End a Process"
-msgstr "Afslut en proces"
-
-#: ../C/mate-system-monitor.xml:837(para)
-msgid "To end a process, perform the following steps:"
-msgstr "Gør som følger for at afslutte en proces:"
-
-#: ../C/mate-system-monitor.xml:847(para)
-msgid "Select the process that you want to end."
-msgstr "Vælg processen, du vil afslutte."
-
-#: ../C/mate-system-monitor.xml:852(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End Process</"
-"guimenuitem></menuchoice>, or click on the <guibutton>End Process</"
-"guibutton> button."
-msgstr ""
-"Vælg <menuchoice><guimenu>Redigér</guimenu><guimenuitem>Afslut proces</"
-"guimenuitem></menuchoice>, eller klik på knappen <guibutton>Afslut proces</"
-"guibutton>."
-
-#: ../C/mate-system-monitor.xml:855(para)
-#: ../C/mate-system-monitor.xml:890(para)
-msgid ""
-"By default, a confirmation alert is displayed. For information about how to "
-"display or hide the confirmation alert, see <xref linkend=\"mate-system-"
-"monitor-prefs-proclist\"/>."
-msgstr ""
-"Som standard vil der blive spurgt om bekræftelse. Information om hvordan "
-"bekræftelsesforespørgslen indstilles til at blive eller ikke blive vist, kan "
-"findes på <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
-
-#: ../C/mate-system-monitor.xml:860(para)
-msgid ""
-"Click on the <guibutton>End Process</guibutton> button to confirm that you "
-"want to end the process. <application>System Monitor</application> forces "
-"the process to finish normally."
-msgstr ""
-"Klik på knappen <guibutton>Afslut proces</guibutton> for at bekræfte at du "
-"vil afslutte processen. <application>Systemovervågning</application> tvinger "
-"processen til at afslutte normalt."
-
-#: ../C/mate-system-monitor.xml:865(para)
-msgid "This is the preferred way to stop a process."
-msgstr "Dette er den foretrukne måde at stoppe en proces."
-
-#: ../C/mate-system-monitor.xml:871(title)
-msgid "To Terminate a Process"
-msgstr "Terminér en proces"
-
-#: ../C/mate-system-monitor.xml:872(para)
-msgid "To terminate a process, perform the following steps:"
-msgstr "Gør som følger for at terminere en proces:"
-
-#: ../C/mate-system-monitor.xml:882(para)
-msgid "Select the process that you want to terminate."
-msgstr "Vælg processen, du vil terminere."
-
-#: ../C/mate-system-monitor.xml:887(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill Process</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Vælg <menuchoice><guimenu>Redigér</guimenu><guimenuitem>Terminér proces</"
-"guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:895(para)
-msgid ""
-"Click on the <guibutton>Kill Process</guibutton> button to confirm that you "
-"want to terminate the process. <application>System Monitor</application> "
-"forces the process to finish immediately."
-msgstr ""
-"Klik på knappen <guibutton>Terminér proces</guibutton> for at bekræfte at du "
-"vil terminere processen. <application>Systemovervågning</application> "
-"tvinger processen til at slutte omgående."
-
-#: ../C/mate-system-monitor.xml:900(para)
-msgid ""
-"You usually terminate a process only if you cannot end the process normally "
-"as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
-msgstr ""
-"En proces bør normalt kun termineres hvis du ikke kan afslutte processen på "
-"normal vis, som beskrevet i <xref linkend=\"mate-system-monitor-end-process"
-"\"/>."
-
-#: ../C/mate-system-monitor.xml:906(title)
-msgid "To Monitor CPU Usage"
-msgstr "Overvåg processorforbrug"
-
-#: ../C/mate-system-monitor.xml:907(para)
-msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
-msgstr ""
-"Vælg fanebladet <guilabel>Ressourcer</guilabel> for at overvåge "
-"processorforbruget."
-
-#: ../C/mate-system-monitor.xml:910(para)
-msgid ""
-"<application>System Monitor</application> displays the CPU usage history in "
-"graphical format. Underneath the graph, <application>System Monitor</"
-"application> also displays the current CPU usage, as a percentage."
-msgstr ""
-"<application>Systemovervågning</application> viser historikken for "
-"processorforbruget i grafisk format. Under grafen vises i øvrigt også det "
-"øjeblikkelige processorforbrug i procent."
-
-#: ../C/mate-system-monitor.xml:917(title)
-msgid "To Monitor Memory and Swap Usage"
-msgstr "Overvåg hukommelses- og swapforbrug"
-
-#: ../C/mate-system-monitor.xml:918(para)
-msgid ""
-"To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
-"tab."
-msgstr ""
-"Vælg fanebladet <guilabel>Ressourcer</guilabel> for at overvåge hukommelses- "
-"og swapforbrug."
-
-#: ../C/mate-system-monitor.xml:921(para)
-msgid ""
-"<application>System Monitor</application> displays the memory usage history "
-"and the swap usage history in graphical format. Underneath the graph, "
-"<application>System Monitor</application> also displays the following "
-"numerical values:"
-msgstr ""
-"<application>Systemovervågning</application> viser historikken for "
-"hukommelses- og swappladsforbrug i grafisk format. Under grafen vises i "
-"øvrigt følgende talværdier:"
-
-#: ../C/mate-system-monitor.xml:926(para)
-msgid "Used memory out of total memory"
-msgstr "Brugt hukommelse ud af samlet hukommelse"
-
-#: ../C/mate-system-monitor.xml:931(para)
-msgid "Used swap out of total swap"
-msgstr "Brugt swapplads ud af samlet swapplads"
-
-#: ../C/mate-system-monitor.xml:940(title)
-msgid "To Monitor Network Activity"
-msgstr "Overvåg netværksaktivitet"
-
-#: ../C/mate-system-monitor.xml:941(para)
-msgid ""
-"To monitor network activity, select the <guilabel>Resources</guilabel> tab."
-msgstr ""
-"Vælg fanebladet <guilabel>Ressourcer</guilabel> for at overvåge "
-"netværksaktivitet."
-
-#: ../C/mate-system-monitor.xml:944(para)
-msgid ""
-"<application>System Monitor</application> displays the network history in "
-"graphical format. Underneath the graph, <application>System Monitor</"
-"application> also displays the following numerical values:"
-msgstr ""
-"<application>Systemovervågning</application> viser netværkshistorikken i "
-"grafisk format. Under grafen vises i øvrigt følgende talværdier:"
-
-#: ../C/mate-system-monitor.xml:949(para)
-msgid "Received data per second and total"
-msgstr "Modtaget data per sekund og samlet"
-
-#: ../C/mate-system-monitor.xml:954(para)
-msgid "Sent data per second and total"
-msgstr "Sendt data per sekund og samlet"
-
-#: ../C/mate-system-monitor.xml:962(title)
-msgid "To Monitor File Systems"
-msgstr "Overvåg filsystemer"
-
-#: ../C/mate-system-monitor.xml:963(para)
-msgid ""
-"To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
-msgstr ""
-"Vælg fanebladet <guilabel>Filsystemer</guilabel> for at overvåge filsystemer."
-
-#: ../C/mate-system-monitor.xml:966(para)
-msgid ""
-"<application>System Monitor</application> displays mounted file systems in "
-"tabular format. From left to right, the table displays the following columns:"
-msgstr ""
-"<application>Systemovervågning</application> viser monterede filsystemer i "
-"et tabelformat. Fra venstre til højre, indeholder tabellen følgende kolonner:"
-
-#: ../C/mate-system-monitor.xml:975(para)
-msgid "Location of block file"
-msgstr "Placering af blokfil"
-
-#: ../C/mate-system-monitor.xml:979(term)
-msgid "Directory"
-msgstr "Mappe"
-
-#: ../C/mate-system-monitor.xml:983(para)
-msgid "Mount point (directory to access) of device"
-msgstr "Monteringspunkt (mappe der tilgås) for enheden"
-
-#: ../C/mate-system-monitor.xml:987(term)
-msgid "Type"
-msgstr "Type"
-
-#: ../C/mate-system-monitor.xml:991(para)
-msgid "File system type"
-msgstr "Filsystemtype"
-
-#: ../C/mate-system-monitor.xml:995(term)
-msgid "Total"
-msgstr "Total"
-
-#: ../C/mate-system-monitor.xml:999(para)
-msgid "Total capacity"
-msgstr "Total kapacitet"
-
-#: ../C/mate-system-monitor.xml:1003(term)
-msgid "Free"
-msgstr "Fri"
-
-#: ../C/mate-system-monitor.xml:1007(para)
-msgid "Amount of space not in use"
-msgstr "Mængden af plads, der ikke bruges"
-
-#: ../C/mate-system-monitor.xml:1011(term)
-msgid "Available"
-msgstr "Tilgængelig"
-
-#: ../C/mate-system-monitor.xml:1015(para)
-msgid "Amount of space which can be used"
-msgstr "Mængden af plads, der kan bruges"
-
-#: ../C/mate-system-monitor.xml:1019(term)
-msgid "Used"
-msgstr "Brugt"
-
-#: ../C/mate-system-monitor.xml:1023(para)
-msgid "Amount of space which is used (and percentage of Total)"
-msgstr "Mængden af plads, der er brugt (og procentdel af Total)"
-
-#: ../C/mate-system-monitor.xml:1030(title)
-msgid "To Customize the Resources Tabbed Section"
-msgstr "Tilpas fanebladsafsnittet Ressourcer"
-
-#: ../C/mate-system-monitor.xml:1031(para)
-msgid ""
-"You can customize the <guilabel>Resources</guilabel> tabbed section in the "
-"following ways:"
-msgstr ""
-"Du kan tilpasse fanebladsafsnittet <guilabel>Ressourcer</guilabel> på "
-"følgende måder:"
-
-#: ../C/mate-system-monitor.xml:1054(title)
-msgid "To Change the Background Color of Graphs"
-msgstr "Ændr baggrundsfarve for grafer"
-
-#: ../C/mate-system-monitor.xml:1055(para)
-msgid ""
-"To change the background color of the <application>System Monitor</"
-"application> graphs, perform the following steps:"
-msgstr ""
-"Gør som følger for at ændre baggrundsfarve for graferne i "
-"<application>Systemovervågning</application>:"
-
-#: ../C/mate-system-monitor.xml:1060(para)
-#: ../C/mate-system-monitor.xml:1099(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
-"guimenuitem></menuchoice>. The <guilabel>Preferences</guilabel> dialog is "
-"displayed."
-msgstr ""
-"Vælg <menuchoice><guimenu>Redigér</guimenu><guimenuitem>Indstillinger</"
-"guimenuitem></menuchoice>. Dialogvinduet <guilabel>Indstillinger</guilabel> "
-"vil dermed blive vist."
-
-#: ../C/mate-system-monitor.xml:1065(para)
-#: ../C/mate-system-monitor.xml:1104(para)
-msgid ""
-"Select the <guilabel>Resources</guilabel> tab in the <guilabel>Preferences</"
-"guilabel> dialog."
-msgstr ""
-"Vælg fanebladet <guilabel>Ressourcer</guilabel> i dialogvinduet "
-"<guilabel>Indstillinger</guilabel>."
-
-#: ../C/mate-system-monitor.xml:1070(para)
-msgid ""
-"Click on the <guilabel>Background color</guilabel> button. The "
-"<guilabel>Pick a color</guilabel> dialog is displayed."
-msgstr ""
-"Klik på knappen <guilabel>Baggrundsfarve</guilabel>. Dialogvinduet "
-"<guilabel>Vælg en farve</guilabel> bliver dermed vist."
-
-#: ../C/mate-system-monitor.xml:1075(para)
-#: ../C/mate-system-monitor.xml:1114(para)
-#: ../C/mate-system-monitor.xml:1148(para)
-#: ../C/mate-system-monitor.xml:1177(para)
-msgid ""
-"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel "
-"or the spin boxes to customize the color."
-msgstr ""
-"Vælg en farve fra <guilabel>Paletten</guilabel>, eller brug farvehjulet "
-"eller rulleboksene til at tilpasse farven."
-
-#: ../C/mate-system-monitor.xml:1080(para)
-#: ../C/mate-system-monitor.xml:1119(para)
-#: ../C/mate-system-monitor.xml:1153(para)
-#: ../C/mate-system-monitor.xml:1182(para)
-msgid ""
-"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a color</"
-"guilabel> dialog."
-msgstr ""
-"Klik på <guibutton>O.k.</guibutton> for at lukke dialogvinduet "
-"<guilabel>Vælg en farve</guilabel>."
-
-#: ../C/mate-system-monitor.xml:1085(para)
-#: ../C/mate-system-monitor.xml:1124(para)
-msgid ""
-"Click <guibutton>Close</guibutton> to close the <guilabel>Preferences</"
-"guilabel> dialog."
-msgstr ""
-"Klik på <guibutton>Luk</guibutton> for at lukke dialogvinduet "
-"<guilabel>Indstillinger</guilabel>."
-
-#: ../C/mate-system-monitor.xml:1093(title)
-msgid "To Change the Grid Color of Graphs"
-msgstr "Ændr gitterfarven i graferne"
-
-#: ../C/mate-system-monitor.xml:1094(para)
-msgid ""
-"To change the grid color of the <application>System Monitor</application> "
-"graphs, perform the following steps:"
-msgstr ""
-"Gør som følger for at ændre gitterfarverne for graferne i "
-"<application>Systemovervågning</application>:"
-
-# Det passer vist ikke, det de skriver.  Ordet 'grid' indgår slet ikke i program-po-filen
-#: ../C/mate-system-monitor.xml:1109(para)
-msgid ""
-"Click on the <guilabel>Grid color</guilabel> button. The <guilabel>Pick a "
-"color</guilabel> dialog is displayed."
-msgstr ""
-"Klik på knappen <guilabel>Gitterfarve</guilabel>. Dialogvinduet "
-"<guilabel>Vælg en farve</guilabel> bliver dermed vist."
-
-#: ../C/mate-system-monitor.xml:1132(title)
-msgid "To Change the Line Color of the CPU Graph"
-msgstr "Ændr linjefarven for processorgrafen"
-
-#: ../C/mate-system-monitor.xml:1133(para)
-msgid ""
-"To change the color of the line that represents CPU usage in the "
-"<guilabel>CPU History</guilabel> graph, perform the following steps:"
-msgstr ""
-"Gør som følger for at ændre farven af linjen, der repræsenterer "
-"processorforbruget i <guilabel>Processorforbrug</guilabel>-grafen:"
-
-#: ../C/mate-system-monitor.xml:1138(para)
-#: ../C/mate-system-monitor.xml:1167(para)
-msgid ""
-"Select the <guilabel>Resources</guilabel> tab in the <guilabel>System "
-"Monitor</guilabel> window, to display the graphs and table that provide "
-"information about the usage of system resources."
-msgstr ""
-"Vælg fanebladet <guilabel>Ressourcer</guilabel> i "
-"<guilabel>Systemovervågning</guilabel>-vinduet, for at vise graferne og "
-"tallene, der giver information om forbrug af systemressourcer."
-
-#: ../C/mate-system-monitor.xml:1143(para)
-msgid ""
-"Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a "
-"color</guilabel> dialog is displayed."
-msgstr ""
-"Klik på <guibutton>CPU</guibutton>-farveknappen. Dialogvinduet "
-"<guilabel>Vælg en farve</guilabel> vil dermed blive vist."
-
-#: ../C/mate-system-monitor.xml:1161(title)
-msgid "To Change the Line Colors of the Memory and Swap Graph"
-msgstr "Ændr linjefarverne for hukommelses- og swapgrafen"
-
-#: ../C/mate-system-monitor.xml:1162(para)
-msgid ""
-"To change the color of the lines that represent memory and swap usage in the "
-"graph, perform the following steps:"
-msgstr ""
-"Gør som følger for at ændre farve på linjerne, der repræsenterer "
-"hukommelses- og swapforbrug i grafen:"
-
-#: ../C/mate-system-monitor.xml:1172(para)
-msgid ""
-"Click on the <guibutton>User memory</guibutton> or <guibutton>Used swap</"
-"guibutton> button. The <guilabel>Pick a color</guilabel> dialog is displayed."
-msgstr ""
-"Klik på <guibutton>Hukommelse</guibutton>- eller <guibutton>Swap</guibutton>-"
-"knappen. Dialogvinduet <guilabel>Vælg en farve</guilabel> vil dermed blive "
-"vist."
-
-#: ../C/mate-system-monitor.xml:1194(title)
-msgid "Preferences"
-msgstr "Indstillinger"
-
-#: ../C/mate-system-monitor.xml:1195(para)
-msgid ""
-"To configure <application>System Monitor</application>, choose "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></"
-"menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
-"following tabbed sections:"
-msgstr ""
-"Vælg <menuchoice><guimenu>Redigér</guimenu><guimenuitem>Indstillinger</"
-"guimenuitem></menuchoice> for at ændre indstillinger for "
-"<application>Systemovervågning</application>. Dialogvinduet "
-"<guilabel>Indstillinger</guilabel> indeholder følgende fanebladsafsnit:"
-
-#: ../C/mate-system-monitor.xml:1211(guilabel)
-msgid "Behavior"
-msgstr "Opførsel"
-
-#: ../C/mate-system-monitor.xml:1217(guilabel)
-#: ../C/mate-system-monitor.xml:1402(guilabel)
-#: ../C/mate-system-monitor.xml:1433(guilabel)
-msgid "Update interval in seconds"
-msgstr "Opdateringsinterval i sekunder"
-
-#: ../C/mate-system-monitor.xml:1219(para)
-msgid ""
-"Use this spin box to specify the interval at which you want to update the "
-"process list."
-msgstr ""
-"Brug denne drejeboks til at angive intervallet mellem opdateringer af "
-"proceslisten."
-
-#: ../C/mate-system-monitor.xml:1225(guilabel)
-msgid "Enable smooth refresh"
-msgstr "Aktivér blød opdatering"
-
-#: ../C/mate-system-monitor.xml:1227(para)
-msgid "Select this option to refresh smoothly."
-msgstr "Vælg denne indstilling for at opdatere blødt."
-
-#: ../C/mate-system-monitor.xml:1233(guilabel)
-msgid "Alert before ending or killing processes"
-msgstr "Advar før afslutning eller terminering af processer"
-
-#: ../C/mate-system-monitor.xml:1235(para)
-msgid ""
-"Select this option to display a confirmation alert when you end a process or "
-"terminate a process."
-msgstr ""
-"Vælg denne indstilling for at få bedt om bekræftelse, når en proces "
-"afsluttes eller termineres."
-
-#: ../C/mate-system-monitor.xml:1241(guilabel)
-msgid "Solaris mode"
-msgstr "Solaris-tilstand"
-
-#: ../C/mate-system-monitor.xml:1243(para)
-msgid ""
-"Select this to divide each process' CPU% in the Processes table by the "
-"number of CPUs."
-msgstr ""
-"Vælg denne for at dividere hver proces' CPU% i procestabellen med antallet "
-"af CPU'er."
-
-#: ../C/mate-system-monitor.xml:1252(guilabel)
-msgid "Information Fields"
-msgstr "Informationsfelter"
-
-#: ../C/mate-system-monitor.xml:1255(para)
-msgid ""
-"Use the following options to select which fields are displayed in the "
-"process list:"
-msgstr ""
-"Brug følgende indstillinger til at væge de felter, der vises i proceslisten:"
-
-#: ../C/mate-system-monitor.xml:1263(para)
-msgid ""
-"Select this option to display the name of the process. This column may also "
-"contain an icon to indicate the application that is associated with the "
-"process."
-msgstr ""
-"Vælg denne indstilling for at vise procesnavnet. Denne kolonne kan også "
-"indeholde et ikon, der viser programmet, der er tilknyttet processen."
-
-#: ../C/mate-system-monitor.xml:1269(guilabel)
-msgid "User"
-msgstr "Bruger"
-
-#: ../C/mate-system-monitor.xml:1271(para)
-msgid ""
-"Select this option to display the name of the user who owns the process."
-msgstr ""
-"Vælg denne indstilling for at få vist navnet på den bruger, der ejer "
-"processen."
-
-#: ../C/mate-system-monitor.xml:1279(para)
-msgid ""
-"Select this option to display the current status of the process: sleeping or "
-"running."
-msgstr ""
-"Vælg denne indstilling for at få vist den aktuelle status af processen: "
-"sover eller kører."
-
-#: ../C/mate-system-monitor.xml:1285(guilabel)
-msgid "Virtual Memory"
-msgstr "Virtuel hukommelse"
-
-#: ../C/mate-system-monitor.xml:1287(para)
-msgid ""
-"Select this option to display the amount of virtual memory that is allocated "
-"to the process."
-msgstr ""
-"Vælg denne indstilling for at få vist mængden af virtuel hukommelse, der er "
-"allokeret til processen."
-
-#: ../C/mate-system-monitor.xml:1293(guilabel)
-msgid "Resident Memory"
-msgstr "Resident hukommelse"
-
-#: ../C/mate-system-monitor.xml:1295(para)
-msgid ""
-"Select this option to display the amount of physical memory that is "
-"allocated to the process."
-msgstr ""
-"Vælg denne indstilling for at få vist mængden af fysisk hukommelse, der er "
-"allokeret til processen."
-
-#: ../C/mate-system-monitor.xml:1301(guilabel)
-msgid "Writable Memory"
-msgstr "Skrivbar hukommelse"
-
-#: ../C/mate-system-monitor.xml:1303(para)
-msgid ""
-"Select this option to display the amount of memory that can be written by "
-"the process."
-msgstr ""
-"Vælg denne indstilling for at få vist mængden af hukommelse, processen kan "
-"skrive til."
-
-#: ../C/mate-system-monitor.xml:1309(guilabel)
-msgid "Shared Memory"
-msgstr "Delt hukommelse"
-
-#: ../C/mate-system-monitor.xml:1311(para)
-msgid ""
-"Select this option to display the amount of shared memory that is allocated "
-"to the process. Shared memory is memory that can be accessed by another "
-"process."
-msgstr ""
-"Vælg denne indstilling for at få vist mængden af delt hukommelse, der er "
-"allokeret til processen. Delt hukommelse er hukommelse, der kan tilgås af "
-"andre processer."
-
-#: ../C/mate-system-monitor.xml:1317(guilabel)
-msgid "X Server Memory"
-msgstr "X-serverhukommelse"
-
-#: ../C/mate-system-monitor.xml:1319(para)
-msgid ""
-"Select this option to display the amount of X server memory that is used by "
-"the process."
-msgstr ""
-"Vælg denne indstilling for at få vist mængden af X-serverhukommelse, der "
-"bruges af processen."
-
-#: ../C/mate-system-monitor.xml:1325(guilabel)
-msgid "% CPU"
-msgstr "% CPU"
-
-#: ../C/mate-system-monitor.xml:1327(para)
-msgid ""
-"Select this option to display the percentage of CPU time currently being "
-"used by the process."
-msgstr ""
-"Vælg denne indstilling for at få vist processens aktuelle processorforbrug i "
-"procent."
-
-#: ../C/mate-system-monitor.xml:1333(guilabel)
-msgid "CPU Time"
-msgstr "CPU-tid"
-
-#: ../C/mate-system-monitor.xml:1335(para)
-msgid ""
-"Select this option to display the amount of CPU time that has been used by "
-"the process."
-msgstr ""
-"Vælg denne indstilling for at få vist mængden af processortid, processen har "
-"brugt."
-
-#: ../C/mate-system-monitor.xml:1341(guilabel)
-msgid "Started"
-msgstr "Startet"
-
-#: ../C/mate-system-monitor.xml:1343(para)
-msgid "Select this option to display when the process began running."
-msgstr "Vælg denne indstilling for at få vist processens starttidspunkt."
-
-#: ../C/mate-system-monitor.xml:1351(para)
-msgid ""
-"Select this option to display the nice value of the process. The nice value "
-"sets the priority of the process: the lower the nice value, the higher the "
-"priority."
-msgstr ""
-"Vælg denne indstilling for at vise processens nice-værdi. Nice-værdien "
-"angiver processens prioritet: lavere nice-værdi svarer til højere prioritet."
-
-#: ../C/mate-system-monitor.xml:1359(para)
-msgid ""
-"Select this option to display the process identifier, also known as the pid. "
-"The pid is a number that uniquely identifies the process. You can use the "
-"pid to manipulate the process on the command line."
-msgstr ""
-"Vælg denne indstilling for at få vist procesidentifikationsnummeret, også "
-"kaldet pid. Pid'en er et tal, der entydigt identificerer processen. Du kan "
-"bruge pid'en til at manipulere processen på kommandolinjen."
-
-#: ../C/mate-system-monitor.xml:1367(para)
-msgid ""
-"Select this option to display the amount of system memory that is currently "
-"being used by the process."
-msgstr ""
-"Vælg denne indstilling for at få vist mængden af systemhukommelse, der i "
-"øjeblikket bruges af processen."
-
-#: ../C/mate-system-monitor.xml:1373(guilabel)
-msgid "Security Context"
-msgstr "Sikkerhedskontekst"
-
-#: ../C/mate-system-monitor.xml:1375(para)
-msgid ""
-"Select this option to display the security context in which the process is "
-"running."
-msgstr ""
-"Vælg denne indstilling for at få vist sikkerhedskonteksten, hvori processen "
-"kører."
-
-#: ../C/mate-system-monitor.xml:1381(guilabel)
-msgid "Command Line"
-msgstr "Kommandolinje"
-
-#: ../C/mate-system-monitor.xml:1383(para)
-msgid ""
-"Select this option to display the command line that was used to start the "
-"process, including arguments."
-msgstr ""
-"Vælg denne indstilling for at få vist kommandolinjen, der blev brugt til at "
-"starte processen, inklusive argumenter."
-
-#: ../C/mate-system-monitor.xml:1397(guilabel)
-msgid "Graphs"
-msgstr "Grafer"
-
-#: ../C/mate-system-monitor.xml:1404(para)
-msgid ""
-"Use this spin box to specify how often you want to update the "
-"<application>System Monitor</application> graphs."
-msgstr ""
-"Brug denne drejeboks til at angive, hvor ofte du vil have graferne i "
-"<application>Systemovervågning</application> opdateret."
-
-#: ../C/mate-system-monitor.xml:1410(guilabel)
-msgid "Background color"
-msgstr "Baggrundsfarve"
-
-#: ../C/mate-system-monitor.xml:1412(para)
-msgid ""
-"Use this button to customize the background color of the <application>System "
-"Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
-"monitor-customize-background\"/>."
-msgstr ""
-"Brug denne knap til at tilpasse baggrundsfarven for graferne i "
-"<application>Systemovervågning</application>, som beskrevet i <xref linkend="
-"\"mate-system-monitor-customize-background\"/>."
-
-#: ../C/mate-system-monitor.xml:1418(guilabel)
-msgid "Grid color"
-msgstr "Gitterfarve"
-
-#: ../C/mate-system-monitor.xml:1420(para)
-msgid ""
-"Use this button to customize the grid color of the <application>System "
-"Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
-"monitor-customize-grid\"/>."
-msgstr ""
-"Brug denne knap til at tilpasse gitterfarven for graferne i "
-"<application>Systemovervågning</application>, som beskrevet i <xref linkend="
-"\"mate-system-monitor-customize-grid\"/>."
-
-#: ../C/mate-system-monitor.xml:1435(para)
-msgid ""
-"Use this spin box to specify how often you want to update the <guilabel>File "
-"Systems</guilabel> table."
-msgstr ""
-"Brug denne drejeboks til at angive, hvor ofte du vil have tabellen "
-"<guilabel>Filsystemer</guilabel> opdateret."
-
-#: ../C/mate-system-monitor.xml:1441(guilabel)
-msgid "Show all filesystems"
-msgstr "Vis alle filsystemer"
-
-#: ../C/mate-system-monitor.xml:1443(para)
-msgid ""
-"Select this option to show all file systems, including temporary and system "
-"ones."
-msgstr ""
-"Vælg denne indstilling for at få vist alle filsystemer, inklusive "
-"midlertidige og systemfilsystemer."
-
-#: ../C/legal.xml:2(para)
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
+#: C/index.docbook:140 C/index.docbook:150
+msgid "GNOME Documentation Project"
+msgstr "GNOME-dokumentationsprojektet"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
+" of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
 "Der gives tilladelse til at kopiere, distribuere og/eller ændre dette "
 "dokument under betingelserne i GNU Free Documentation License (GFDL), "
 "version 1.1 eller enhver nyere version, udgivet af Free Software Foundation "
 "uden invariante afsnit, uden forsidetekster, og uden bagsidetekster. Du kan "
-"finde en kopi af GFDL'en her: <ulink type=\"help\" url=\"help:fdl\">link</"
-"ulink>, eller i filen COPYING-DOCS der distribueres med denne manual."
+"finde en kopi af GFDL'en her: <ulink type=\"help\" "
+"url=\"help:fdl\">link</ulink>, eller i filen COPYING-DOCS der distribueres "
+"med denne manual."
 
-#: ../C/legal.xml:12(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:12 C/legal.xml:12
 msgid ""
 "This manual is part of a collection of MATE manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
-"you can do so by adding a copy of the license to the manual, as described in "
-"section 6 of the license."
+"you can do so by adding a copy of the license to the manual, as described in"
+" section 6 of the license."
 msgstr ""
-"Denne manual er en del af MATE-manualsamlingen distribueret under GFDL. "
-"Hvis du vil distribuere denne manual separat fra denne samling, kan du gøre "
-"det ved at tilføje en kopi af licensen til manualen, som beskrevet i sektion "
-"6 af licensen."
+"Denne manual er en del af MATE-manualsamlingen distribueret under GFDL. Hvis"
+" du vil distribuere denne manual separat fra denne samling, kan du gøre det "
+"ved at tilføje en kopi af licensen til manualen, som beskrevet i sektion 6 "
+"af licensen."
 
-#: ../C/legal.xml:19(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:19 C/legal.xml:19
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any MATE "
@@ -1720,13 +107,14 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
-"Mange af navnene brugt af firmaer til at skelne deres produkter og tjenester "
-"er registrerede varemærker. Der hvor disse navne optræder i MATE-"
+"Mange af navnene brugt af firmaer til at skelne deres produkter og tjenester"
+" er registrerede varemærker. Der hvor disse navne optræder i MATE-"
 "dokumentationen, og medlemmerne af MATE-dokumentationsprojektet er blevet "
 "gjort opmærksomme på disse varemærker, er navnene skrevet med store "
 "bogstaver eller store forbogstaver."
 
-#: ../C/legal.xml:35(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:35 C/legal.xml:35
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -1742,8 +130,8 @@ msgid ""
 msgstr ""
 "DETTE DOKUMENT GØRES TILGÆNGELIGT SÅDAN SOM DET ER, UDEN NOGEN FORM FOR "
 "GARANTI, HVERKEN UDTALT ELLER ANTYDET, DERIBLANDT, UDEN BEGRÆNSNINGER, "
-"GARANTIER OM AT DOKUMENTET ELLER ÆNDREDE VERSIONER AF DOKUMENTET ER FRIT FOR "
-"DEFEKTER, PASSENDE TIL ET BESTEMT FORMÅL ELLER IKKE-KRÆNKENDE. DU HÆFTER "
+"GARANTIER OM AT DOKUMENTET ELLER ÆNDREDE VERSIONER AF DOKUMENTET ER FRIT FOR"
+" DEFEKTER, PASSENDE TIL ET BESTEMT FORMÅL ELLER IKKE-KRÆNKENDE. DU HÆFTER "
 "SELV FOR HELE RISIKOEN VEDRØRENDE KVALITET, KORREKTHED OG YDELSE FOR "
 "DOKUMENTET ELLER ÆNDREDE VERSIONER AF DOKUMENTET. SKULLE ET DOKUMENT, ELLER "
 "EN ÆNDRET VERSION AF ET DOKUMENT VISE SIG AT VÆRE DEFEKT PÅ EN HVILKEN SOM "
@@ -1754,45 +142,2004 @@ msgstr ""
 "ÆNDRET VERSION AF DOKUMENTET ER AUTORISERET HERUNDER BORTSET FRA DENNE "
 "FORBEHOLDSERKLÆRING; OG"
 
-#: ../C/legal.xml:55(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:55 C/legal.xml:55
 msgid ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
+" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
 "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
 "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
 "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
 "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
-"POSSIBILITY OF SUCH DAMAGES."
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
+" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
+" POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
 "UNDER INGEN OMSTÆNDIGHEDER OG UNDER INGEN JURIDISK TEORI, UANSET OM DET ER "
-"EN BEVIDST SKADENDE HANDLING (INKLUSIVE UFORSVARLIGHED) ELLER PÅ HVILKEN SOM "
-"HELST ANDEN MÅDE, KAN FORFATTEREN, SKRIBENT, BIDRAGYDERE, DISTRIBUTØRER "
+"EN BEVIDST SKADENDE HANDLING (INKLUSIVE UFORSVARLIGHED) ELLER PÅ HVILKEN SOM"
+" HELST ANDEN MÅDE, KAN FORFATTEREN, SKRIBENT, BIDRAGYDERE, DISTRIBUTØRER "
 "ELLER FORSYNER AF DETTE DOKUMENT ELLER MODIFICEREDE VERSIONER GØRES "
 "ANSVARLIG OVERFOR NOGEN PERSON FOR NOGEN DIREKTE, INDIREKTE, SPECIEL, "
 "TILFÆLDIG ELLER FØLGENDE SKADE PÅFØRT NOGEN INKLUSIVE, UDEN BEGRÆNSNING, "
 "SKADE SOM FØLGE AF TAB AF RYGTE, ARBEJDSSTOP, COMPUTER-FEJL ELLER -SVIGT, "
-"ELLER ENHVER ANDEN FORM FOR SKADE ELLER TAB SOM ER OPSTÅET I FORBINDELSE MED "
-"BRUG AF DETTE DOKUMENT ELLER MODIFICEREDE VERSIONER HERAF, SELV HVIS EN "
+"ELLER ENHVER ANDEN FORM FOR SKADE ELLER TAB SOM ER OPSTÅET I FORBINDELSE MED"
+" BRUG AF DETTE DOKUMENT ELLER MODIFICEREDE VERSIONER HERAF, SELV HVIS EN "
 "SÅDAN PART HAR VÆRET INFORMERET OM MULIGHEDEN FOR SÅDANNE SKADER."
 
-#: ../C/legal.xml:28(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:28 C/legal.xml:28
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<placeholder-1/>"
+"<_:orderedlist-1/>"
 msgstr ""
 "DETTE DOKUMENT OG MODIFICEREDE VERSIONER GØRES TILGÆNGELIGT UNDER "
 "BETINGELSERNE I GNU FREE DOCUMENTATION LICENSE UNDER DEN FORUDSÆTNING AT: "
-"<placeholder-1/>"
+"<_:orderedlist-1/>"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: ../C/legal.xml:0(None)
-msgid "translator-credits"
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:63
+msgid ""
+"<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
+"<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
-"Ask Hjorth Larsen\n"
-"\n"
-"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
-"Mere info: http://www.dansk-gruppen.dk"
+"<firstname>MATE-dokumentationsprojektet</firstname> <surname/> <affiliation>"
+" <orgname>MATE-skrivebordet</orgname> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:70
+msgid ""
+"<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
+msgstr ""
+"<firstname>Sun</firstname> <surname>GNOME-dokumentationsholdet</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:75
+msgid ""
+"<firstname>Bill</firstname> <surname>Day</surname> "
+"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
+msgstr ""
+"<firstname>Bill</firstname> <surname>Day</surname> "
+"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:80
+msgid ""
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> "
+"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
+msgstr ""
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> <orgname"
+">GNOME-dokumentationsprojektet</orgname> "
+"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:112
+msgid "MATE Documentation Team"
+msgstr "MATE-dokumentationsholdet"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:108
+msgid ""
+"<revnumber>System Monitor Manual V2.3</revnumber> <date>July 2015</date> "
+"<_:revdescription-1/>"
+msgstr ""
+"<revnumber>Manual for Systemovervågning version 2.3</revnumber> <date>Juli "
+"2015</date> <_:revdescription-1/>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:120
+msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
+msgstr "Paul Cutler <email>pcutler@foresightlinux.org</email>"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:116
+msgid ""
+"<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
+"<_:revdescription-1/>"
+msgstr ""
+"<revnumber>Manual for Systemovervågning version 2.2</revnumber> <date>Marts "
+"2009</date> <_:revdescription-1/>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:130
+msgid "Sun GNOME Documentation Team"
+msgstr "Suns GNOME-dokumentationshold"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:126
+msgid ""
+"<revnumber>System Monitor Manual V2.1</revnumber> <date>February 2004</date>"
+" <_:revdescription-1/>"
+msgstr ""
+"<revnumber>Manual for Systemovervågning version 2.1</revnumber> "
+"<date>Februar 2004</date> <_:revdescription-1/>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:138 C/index.docbook:147
+msgid "Bill Day <email>billday@bellatlantic.net</email>"
+msgstr "Bill Day <email>billday@bellatlantic.net</email>"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:134
+msgid ""
+"<revnumber>System Monitor Manual V2.0</revnumber> <date>November 2002</date>"
+" <_:revdescription-1/>"
+msgstr ""
+"<revnumber>Manual for Systemovervågning version 2.0</revnumber> "
+"<date>November 2002</date> <_:revdescription-1/>"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:143
+msgid ""
+"<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
+"<_:revdescription-1/>"
+msgstr ""
+"<revnumber>Manual for Procman version 0.11</revnumber> <date>Januar "
+"2002</date> <_:revdescription-1/>"
+
+#. (itstool) path: articleinfo/releaseinfo
+#: C/index.docbook:155
+msgid "This manual describes version 1.10.0 of System Monitor."
+msgstr "Denne manual beskriver version 1.10.0 af Systemovervågning."
+
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:160
+msgid "Feedback"
+msgstr "Tilbagemelding"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:161
+msgid ""
+"To report a bug or make a suggestion regarding the System Monitor "
+"application or this manual, follow the directions in the <ulink url=\"help"
+":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr ""
+"For at rapportere en fejl eller komme med et forslag jævnfør programmet "
+"Systemovervågning eller denne manual, så følg retningslinjerne i <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE's side for "
+"tilbagemeldinger</ulink>."
+
+#. (itstool) path: abstract/para
+#: C/index.docbook:169
+msgid ""
+"System Monitor gives users a graphical user interface for monitoring CPU, "
+"network, and memory activities as well as a way for viewing and stopping "
+"system processes."
+msgstr ""
+"Systemovervågning giver brugere en grafisk brugergrænseflade til at overvåge"
+" CPU, netværk og hukommelsesaktivitet, såvel som funktioner til at gennemse "
+"og stoppe systemprocesser."
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:177
+msgid "<primary>System Monitor</primary>"
+msgstr "<primary>Systemovervågning</primary>"
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:180
+msgid "<primary>mate-system-monitor</primary>"
+msgstr "<primary>mate-system-monitor</primary>"
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:183
+msgid "<primary>procman</primary>"
+msgstr "<primary>procman</primary>"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:190
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:191
+msgid ""
+"The <application>System Monitor</application> application enables you to "
+"display basic system information and monitor system processes, usage of "
+"system resources, and file systems. You can also use <application>System "
+"Monitor</application> to modify the behavior of your system."
+msgstr ""
+"Programmet <application>Systemovervågning</application> lader dig vise "
+"grundlæggende systeminformation og overvåge systemprocesser, brug af "
+"systemressourcer samt filsystemer. Du kan også bruge "
+"<application>Systemovervågning</application> til at ændre opførslen af dit "
+"system."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:194
+msgid ""
+"The <application>System Monitor</application> window contains four tabbed "
+"sections:"
+msgstr ""
+"Programvinduet for <application>Systemovervågning</application> indeholder "
+"fire afsnit inddelt i faneblade:"
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:199 C/index.docbook:367
+msgid "<guilabel>System</guilabel>"
+msgstr "<guilabel>System</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:203
+msgid ""
+"Displays various basic information about the computer's hardware and "
+"software."
+msgstr ""
+"Viser diverse grundlæggende informationer om computerens udstyr og "
+"programmer."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:206
+msgid "Distribution"
+msgstr "Distribution"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:212
+msgid "Distribution version"
+msgstr "Distributionsversion"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:215
+msgid "Linux Kernel version"
+msgstr "Linux-kerneversion"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:218
+msgid "MATE version"
+msgstr "MATE-version"
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:224 C/index.docbook:435
+msgid "Hardware"
+msgstr "Hardware"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:230
+msgid "Installed memory"
+msgstr "Installeret hukommelse"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:233
+msgid "Processors and speeds"
+msgstr "Processorer og hastigheder"
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:239 C/index.docbook:440
+msgid "System Status"
+msgstr "Systemstatus"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:245
+msgid "Currently available disk space"
+msgstr "Aktuel tilgængelig diskplads"
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:254 C/index.docbook:375
+msgid "<guilabel>Processes</guilabel>"
+msgstr "<guilabel>Processer</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:258
+msgid ""
+"Shows active processes, and how processes are related to each other. "
+"Provides detailed information about individual processes, and enables you to"
+" control active processes."
+msgstr ""
+"Viser de aktive processer og deres indbyrdes relationer. Giver detaljeret "
+"information om hver enkelt proces, og lader dig styre aktive processer."
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:264 C/index.docbook:383
+msgid "<guilabel>Resources</guilabel>"
+msgstr "<guilabel>Ressourcer</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:268
+msgid "Displays the current usage of the following system resources:"
+msgstr "Viser det aktuelle forbrug af følgende systemressourcer:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:273
+msgid "CPU (central processing unit) time"
+msgstr "CPU-tid (processortidsforbrug)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:278
+msgid "Memory and swap space"
+msgstr "Hukommelse og swap-plads"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:283
+msgid "Network usage"
+msgstr "Netværksaktivitet"
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1448
+msgid "<guilabel>File Systems</guilabel>"
+msgstr "<guilabel>Filsystemer</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:295
+msgid ""
+"Lists all mounted file systems along with basic information about each."
+msgstr ""
+"Opskriver alle monterede filsystemer samt grundlæggende information om hvert"
+" af dem."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:305
+msgid "Getting Started"
+msgstr "Kom godt i gang"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:309
+msgid "To Start System Monitor"
+msgstr "Start af Systemovervågning"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:310
+msgid ""
+"You can start <application>System Monitor</application> in the following "
+"ways:"
+msgstr ""
+"Du kan starte <application>Systemovervågning</application> på følgende "
+"måder:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:313
+msgid "<guimenu>System</guimenu> menu"
+msgstr "Menuen <guimenu>System</guimenu>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:315
+msgid ""
+"Choose <menuchoice><guimenu>Administration</guimenu> <guimenuitem>System "
+"Monitor</guimenuitem></menuchoice>."
+msgstr ""
+"Vælg <menuchoice><guimenu>Administration</guimenu> "
+"<guimenuitem>Systemovervågning</guimenuitem></menuchoice>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:321
+msgid "Command line"
+msgstr "Kommandolinje"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:323
+msgid "Execute the following command: <command>mate-system-monitor</command>"
+msgstr "Kør følgende kommando: <command>mate-system-monitor</command>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:331
+msgid "When You Start System Monitor"
+msgstr "Når du starter Systemovervågning"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:332
+msgid ""
+"When you start <application>System Monitor</application>, the following "
+"window is displayed:"
+msgstr ""
+"Når du starter <application>Systemovervågning</application>, vil følgende "
+"vinduer blive vist:"
+
+#. (itstool) path: figure/title
+#: C/index.docbook:336
+msgid "System Monitor Window"
+msgstr "Vinduet for Systemovervågning"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:340
+msgctxt "_"
+msgid ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
+msgstr ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
+
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:338
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/mate-system-monitor_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows System Monitor "
+"main window.</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/mate-system-monitor_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Viser "
+"systemovervågningens hovedvindue.</phrase> </textobject>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:347
+msgid ""
+"The <application>System Monitor</application> window contains the following "
+"elements:"
+msgstr ""
+"Vinduet for <application>Systemovervågning</application> indeholder følgende"
+" elementer:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:352
+msgid "Menubar"
+msgstr "Menubjælke"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:354
+msgid ""
+"The menus on the menubar contain all the commands that you need to work with"
+" <application>System Monitor</application>."
+msgstr ""
+"Menuerne i menulinjen indeholder alle de kommandoer, du behøver for at bruge"
+" <application>Systemovervågning</application>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:360
+msgid "Display area"
+msgstr "Visningsområde"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:362
+msgid ""
+"The display area contains the system monitor information. The display area "
+"contains the following tabbed sections:"
+msgstr ""
+"Visningsområdet indeholder systemovervågningsinformationerne. "
+"Visningsområdet består af følgende afsnit, inddelt i faneblade:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:370
+msgid ""
+"Contains a list of basic system properties, such as system software versions"
+" and hardware specifications and status."
+msgstr ""
+"Indeholder en liste af grundlæggende systemegenskaber, såsom versioner af "
+"systemsoftware, hardwarespecifikationer og status."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:378
+msgid ""
+"Contains a list of processes organized as a table, a list of load averages "
+"over the past few minutes, and an <guibutton>End Process</guibutton> button."
+msgstr ""
+"Indeholder en liste af processer, organiseret som en tabel, en liste af "
+"gennemsnitsbelastninger over de sidste minutter, samt en <guibutton>Afbryd "
+"proces</guibutton>-knap."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:386
+msgid ""
+"Contains a <guilabel>CPU History</guilabel> graph, a <guilabel>Memory and "
+"Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
+"graph."
+msgstr ""
+"Indeholder en graf over <guilabel>Processorforbrug</guilabel>, "
+"<guilabel>Hukommelsesforbrug</guilabel> og swap, samt "
+"<guilabel>Netværkshistorik</guilabel>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:394
+msgid "Contains a table of currently mounted file systems."
+msgstr ""
+"Indeholder en tabel over de filsystemer, der i øjeblikket er monteret."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:402
+msgid "Statusbar"
+msgstr "Statusbjælke"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:404
+msgid ""
+"The statusbar displays information about current <application>System "
+"Monitor</application> activity and contextual information about the menu "
+"items."
+msgstr ""
+"Statusbjælken viser informationer om de "
+"<application>Systemovervågning</application>s nuværende aktivitet samt "
+"kontekstinformation om menuelementerne."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:418
+msgid "Usage"
+msgstr "Brug"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:421
+msgid "To Display Basic System Information"
+msgstr "Vis grundlæggende systeminformationer"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:422
+msgid ""
+"To display basic system information, select the <guilabel>System</guilabel> "
+"tab."
+msgstr ""
+"Vælg fanebladet <guilabel>System</guilabel> for at vise grundlæggende "
+"systeminformation."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:425
+msgid ""
+"In the <guilabel>System</guilabel> tab, information is organized into three "
+"groups:"
+msgstr ""
+"I fanebladet <guilabel>System</guilabel>, organiseres informationerne i tre "
+"grupper:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:430
+msgid "System Information"
+msgstr "Systeminformation"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:448
+msgid "To Display the Process List"
+msgstr "Vis proceslisten"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:449
+msgid ""
+"To display the process list, select the <guilabel>Processes</guilabel> tab."
+msgstr ""
+"Vælg fanebladet <guilabel>Processer</guilabel> for at vise proceslisten."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:452
+msgid ""
+"In the <guilabel>Processes</guilabel> tab, the processes are organized as a "
+"table. The rows of the table display information about the processes. The "
+"columns represent information fields for the processes, such as the name of "
+"the user who owns the process, the amount of memory currently being used by "
+"the process, and so on. From left to right, the "
+"<guilabel>Processes</guilabel> tab displays the following columns by "
+"default:"
+msgstr ""
+"I fanebladet <guilabel>Processer</guilabel> organiseres processerne som en "
+"tabel. Rækkerne i tabellen viser information om processerne. Kolonnerne "
+"repræsenterer informationsfelter for hver proces, såsom navnet på brugeren, "
+"der ejer processen, mængden af hukommelse som processen bruger, og så "
+"videre. Fra venstre til højre viser "
+"<guilabel>Processer</guilabel>-fanebladet som standard følgende kolonner:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:457
+msgid "Process Name"
+msgstr "Procesnavn"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
+msgid "Status"
+msgstr "Status"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:463
+msgid "%CPU"
+msgstr "%CPU"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:466
+msgid "Nice"
+msgstr "Prioritet"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:469
+msgid "ID"
+msgstr "Id"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:472
+msgid "Memory"
+msgstr "Hukommelse"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:475
+msgid ""
+"For information about how to change the columns displayed in the process "
+"list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
+msgstr ""
+"Se <xref linkend=\"mate-system-monitor-prefs-proclist\"/> for information om"
+" hvordan de viste kolonner i proceslisten ændres."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:480
+msgid "Parent Processes and Child Processes"
+msgstr "Ophavsprocesser og underprocesser"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:481
+msgid ""
+"A parent process is a process that spawns another process. The spawned "
+"process is a child process of the original parent process. By default, "
+"<application>System Monitor</application> does not show process "
+"dependencies. For information about how to change the default display "
+"behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-"
+"viewdeps\"/>."
+msgstr ""
+"En overproces er en proces, der har startet en anden proces. Den startede "
+"proces er en underproces af overprocessen. Som standard viser "
+"<application>Systemovervågning</application> ikke procesafhængigheder. "
+"Information om hvordan standardopførslen ændres kan ses på <xref linkend"
+"=\"mate-system-monitor-modify-processlist-viewdeps\"/>."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:487
+msgid "Process Priority and Nice Values"
+msgstr "Procesprioritet og nice-værdier"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:488
+msgid ""
+"Processes run in order of priority: high-priority processes run before low-"
+"priority processes. Child processes generally inherit their priority from "
+"their parent process."
+msgstr ""
+"Processer køres i prioriteret rækkefølge: Højprioritetsprocesser køres før "
+"lavprioritetsprocesser. Underprocesser nedarver generelt deres prioritet fra"
+" ophavsprocessen."
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:491
+msgid ""
+"The priority of a process is set by the nice value of the process, as "
+"follows:"
+msgstr ""
+"Prioriteten af en proces indstilles gennem processens nice-værdi på følgende"
+" vis:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:496
+msgid "A nice value of 0 means that the process has normal priority."
+msgstr "En nice-værdi på 0 betyder, at processen har normal prioritet."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:501
+msgid "The higher the nice value, the lower the priority."
+msgstr "Højere nice-værdi betyder lavere prioritet."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:506
+msgid "The lower the nice value, the higher the priority."
+msgstr "Lavere nice-værdi betyder højere prioritet."
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:511
+msgid ""
+"For information about how to change the priority of a process, see <xref "
+"linkend=\"mate-system-monitor-change-priority\"/>."
+msgstr ""
+"Information om ændring af procesprioritet kan findes på <xref linkend"
+"=\"mate-system-monitor-change-priority\"/>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:519
+msgid "To Sort the Process List"
+msgstr "Sorter proceslisten"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:520
+msgid "To sort the process list, perform the following steps:"
+msgstr "Gør som følger for at sortere proceslisten:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:525 C/index.docbook:560 C/index.docbook:583
+#: C/index.docbook:606 C/index.docbook:629 C/index.docbook:680
+#: C/index.docbook:821 C/index.docbook:862 C/index.docbook:897
+msgid ""
+"Select the <guilabel>Processes</guilabel> tab to display the process list."
+msgstr ""
+"Vælg fanebladet <guilabel>Processer</guilabel> for at få vist proceslisten."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:530
+msgid ""
+"By default, the processes are listed by name, in alphabetical order. To list"
+" the processes in reverse alphabetical order, click on the <guilabel>Process"
+" Name</guilabel> column header."
+msgstr ""
+"Som standard sorteres processer efter navn, i alfabetisk rækkefølge. Klik på"
+" kolonneoverskriften <guilabel>Procesnavn</guilabel> for at få dem vist i "
+"omvendt alfabetisk rækkefølge."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:535
+msgid ""
+"Click on any column header to sort the processes by the information in that "
+"column, in alphabetical or numerical order."
+msgstr ""
+"Klik på en kolonneoverskrift for at sortere processerne efter den "
+"information, der fremgår i kolonnen, i alfabetisk eller numerisk orden."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:540
+msgid ""
+"Click again on the column header to sort the data in reverse alphabetical or"
+" reverse numerical order."
+msgstr ""
+"Klik på kolonneoverskriften igen for at sortere dataene i omvendt alfabetisk"
+" eller omvendt numerisk rækkefølge."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:548
+msgid "To Modify the Contents of the Process List"
+msgstr "Ændr indholdet af proceslisten"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:549
+msgid "You can modify the contents of the process list in several ways."
+msgstr "Du kan ændre indholdet af proceslisten på adskillige måder."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:554
+msgid "To Show All Processes"
+msgstr "Vis alle processer"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:555
+msgid ""
+"To show all processes in the process list, perform the following steps:"
+msgstr "Gør som følger for at få vist alle processer i proceslisten:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:565
+msgid ""
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All "
+"Processes</guimenuitem> </menuchoice>."
+msgstr ""
+"Vælg <menuchoice><guimenu>Vis</guimenu><guimenuitem>Alle "
+"processer</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:577
+msgid "To Show Only Processes Owned by the Current User"
+msgstr "Vis kun processer, der ejes af den aktuelle bruger"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:578
+msgid ""
+"To show only the processes that are owned by the current user, perform the "
+"following steps:"
+msgstr ""
+"Gør som følger for, kun at få vist processer, der ejes af den aktuelle "
+"bruger:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:588
+msgid ""
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My "
+"Processes</guimenuitem> </menuchoice>."
+msgstr ""
+"Vælg <menuchoice> <guimenu>Vis</guimenu> <guimenuitem>Mine "
+"processer</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:600
+msgid "To Show Only Active Processes"
+msgstr "Vis kun aktive processer"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:601
+msgid ""
+"To show only the active processes in the process list, perform the following"
+" steps:"
+msgstr ""
+"Gør som følger for, kun at få vist de aktive processer i proceslisten:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:611
+msgid ""
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active "
+"Processes</guimenuitem> </menuchoice>."
+msgstr ""
+"Vælg <menuchoice> <guimenu>Vis</guimenu> <guimenuitem>Aktive "
+"processer</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:623
+msgid "To Show Dependencies"
+msgstr "Vis afhængigheder"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:624
+msgid ""
+"To show process dependencies in the process list, perform the following "
+"steps:"
+msgstr "Gør som følger for at få vist procesafhængigheder i proceslisten:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:634
+msgid ""
+"Choose "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
+msgstr ""
+"Vælg "
+"<menuchoice><guimenu>Vis</guimenu><guimenuitem>Afhængigheder</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:639
+msgid ""
+"If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the "
+"processes are listed as follows:"
+msgstr ""
+"Hvis menupunktet <guimenuitem>Afhængigheder</guimenuitem> er valgt, vil "
+"processerne blive vist således:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:644
+msgid ""
+"Parent processes are indicated by a triangle symbol to the left of the "
+"process name. Click on the triangle symbol to show or hide the associated "
+"child processes."
+msgstr ""
+"Ophavsprocesser angives ved at trekantsymbol til venstre for procesnavnet. "
+"Klik på et trekantsymbol for at få vist eller skjult de tilhørende "
+"underprocesser."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:649
+msgid "Child processes are indented, and listed with their parent process."
+msgstr "Underprocesser anføres indrykket sammen med deres ophavsprocesser."
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:654
+msgid ""
+"If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
+msgstr ""
+"Hvis menupunktet <guimenuitem>Afhængigheder</guimenuitem> ikke er valgt:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:659
+msgid "Parent processes and child processes are not distinguishable."
+msgstr "Ophavsprocesser og underprocesser kan ikke skelnes."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:664
+msgid "All processes are listed in alphabetical order."
+msgstr "Alle processer anføres i alfabetisk rækkefølge."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:674
+msgid "To Display Memory Maps for a Process"
+msgstr "Vis hukommelsesområder for en proces"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:675
+msgid "To display memory maps for a process, perform the following steps:"
+msgstr "Gør som følger for at få vist hukommelsesområderne for en proces:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:685
+msgid "Select the process in the process list."
+msgstr "Vælg processen i proceslisten."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:690
+msgid ""
+"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory "
+"Maps</guimenuitem></menuchoice>."
+msgstr ""
+"Vælg "
+"<menuchoice><guimenu>Vis</guimenu><guimenuitem>Hukommelsesområder</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:695
+msgid ""
+"The <guilabel>Memory Maps</guilabel> dialog displays the information in "
+"tabular format. The name of the process is displayed above the memory-map "
+"table. From left to right, the <guilabel>Memory Maps</guilabel> dialog "
+"displays the following columns:"
+msgstr ""
+"Dialogvinduet <guilabel>Hukommelsesområder</guilabel> viser informationerne "
+"som en tabel. Navnet på processen vises over hukommelsesområdetabellen. Fra "
+"venstre til højre, viser "
+"<guilabel>Hukommelsesområder</guilabel>-dialogvinduet følgende kolonner:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:700
+msgid "<guilabel>Filename</guilabel>"
+msgstr "<guilabel>Filnavn</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:702
+msgid ""
+"The location of a shared library that is currently used by the process. If "
+"this field is blank, the memory information in this row describes memory "
+"that is owned by the process whose name is displayed above the memory-map "
+"table."
+msgstr ""
+"Placeringen af et delt bibliotek, som i øjeblikket bruges af processen. Hvis"
+" dette felt står tomt, beskriver hukommelsesinformationen i denne række et "
+"hukommelsesområde, der ejes af processen hvis navn vises over tabellen."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:708
+msgid "<guilabel>VM Start</guilabel>"
+msgstr "<guilabel>VM - start</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:710
+msgid "The address at which the memory segment begins."
+msgstr "Adressen hvorpå hukommelsessegmentet begynder."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:716
+msgid "<guilabel>VM End</guilabel>"
+msgstr "<guilabel>VM - slut</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:718
+msgid "The address at which the memory segment ends."
+msgstr "Adressen hvorpå hukommelsessegmentet slutter."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:724
+msgid "<guilabel>VM Size</guilabel>"
+msgstr "<guilabel>VM-størrelse</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:726
+msgid "The size of the memory segment."
+msgstr "Størrelsen af hukommelsessegmentet."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:732
+msgid "<guilabel>Flags</guilabel>"
+msgstr "<guilabel>Flag</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:734
+msgid ""
+"The following flags describe the different types of memory-segment access "
+"that the process can have:"
+msgstr ""
+"Følgende flag beskriver de forskellige typer af hukommelsessegment, "
+"processen kan tilgå:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:739
+msgid "p"
+msgstr "p"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:741
+msgid ""
+"The memory segment is private to the process, and is not accessible to other"
+" processes."
+msgstr ""
+"Hukommelsessegmentet er privat for processen, og kan ikke tilgås af andre "
+"processer."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:747
+msgid "r"
+msgstr "r"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:749
+msgid "The process has permission to read from the memory segment."
+msgstr "Processen har rettigheder til at læse fra hukommelsessegmentet."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:755
+msgid "s"
+msgstr "s"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:757
+msgid "The memory segment is shared with other processes."
+msgstr "Hukommelsessegmentet deles med andre processer."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:763
+msgid "w"
+msgstr "w"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:765
+msgid "The process has permission to write into the memory segment."
+msgstr "Processen har rettigheder til at skrive til hukommelsessegmentet."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:771
+msgid "x"
+msgstr "x"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:773
+msgid ""
+"The process has permission to execute instructions that are contained within"
+" the memory segment."
+msgstr ""
+"Processen har rettigheder til at køre instruktioner, der indeholdes i "
+"hukommelsessegmentet."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:782
+msgid "<guilabel>VM Offset</guilabel>"
+msgstr "<guilabel>VM-forskydning</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:784
+msgid "The virtual memory offset of the memory segment."
+msgstr "Hukommelsessegmentets afsæt for virtuel hukommelse."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:790
+msgid "<guilabel>Device</guilabel>"
+msgstr "<guilabel>Enhed</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:792
+msgid ""
+"The major and minor device numbers of the device on which the shared library"
+" filename is located."
+msgstr ""
+"Over- og underenhedsnummer for enheden hvorpå den delte biblioteksfil er "
+"placeret."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:798
+msgid "<guilabel>Inode</guilabel>"
+msgstr "<guilabel>Iknude</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:800
+msgid ""
+"The inode on the device from which the shared library location is loaded "
+"into memory."
+msgstr ""
+"Iknuden på enheden, hvorfra det delte biblioteks placering er indlæst i "
+"hukommelsen."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:806
+msgid ""
+"Click on any column header to sort the data by the information in that "
+"column, in alphabetical or numerical order. Click again on the column header"
+" to sort the data in reverse alphabetical or reverse numerical order."
+msgstr ""
+"Klik på en kolonneoverskrift for at sortere data efter informationen i den "
+"pågældende kolonne i alfabetisk eller numerisk rækkefølge. Klik på "
+"overskriften igen for at sortere i omvendt rækkefølge."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:809
+msgid ""
+"Click <guibutton>Close</guibutton> to close the <guilabel>Memory "
+"Maps</guilabel> dialog."
+msgstr ""
+"Klik på <guibutton>Luk</guibutton> for at lukke "
+"<guilabel>Hukommelsesområder</guilabel>-dialogvinduet."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:815
+msgid "To Change the Priority of a Process"
+msgstr "Ændr prioriteten for en proces"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:816
+msgid "To change the priority of a process, perform the following steps:"
+msgstr "Gør som følger for at ændre prioriteten for en proces:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:826
+msgid "Select the process for which you want to change the priority."
+msgstr "Vælg processen, hvis prioritet du vil ændre."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:831
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
+"Priority</guimenuitem></menuchoice>. The <guilabel>Change "
+"Priority</guilabel> dialog is displayed."
+msgstr ""
+"Vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Skift "
+"prioritet</guimenuitem></menuchoice>. Dialogvinduet <guilabel>Skift "
+"prioritet</guilabel> bliver dermed vist."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:836
+msgid "Use the slider to set the nice value of the process."
+msgstr "Brug skydeknappen til at indstille processens nice-værdi."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:839
+msgid ""
+"The nice value sets the priority of the process: the lower the nice value, "
+"the higher the priority."
+msgstr ""
+"Nice-værdien angiver processens prioritet: lavere nice-værdi betyder højere "
+"prioritet."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:842
+msgid ""
+"To specify a nice value lower than zero, non-root users must enter the root "
+"password."
+msgstr ""
+"Brugere, der ikke er root, skal indtaste root-adgangskoden for at angive en "
+"nice-værdi, der er lavere end nul."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:847
+msgid "Click on the <guibutton>Change Priority</guibutton> button."
+msgstr "Klik på knappen <guibutton>Skift prioritet</guibutton>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:856
+msgid "To End a Process"
+msgstr "Afslut en proces"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:857
+msgid "To end a process, perform the following steps:"
+msgstr "Gør som følger for at afslutte en proces:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:867
+msgid "Select the process that you want to end."
+msgstr "Vælg processen, du vil afslutte."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:872
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End "
+"Process</guimenuitem></menuchoice>, or click on the <guibutton>End "
+"Process</guibutton> button."
+msgstr ""
+"Vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Afslut "
+"proces</guimenuitem></menuchoice>, eller klik på knappen <guibutton>Afslut "
+"proces</guibutton>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:875 C/index.docbook:910
+msgid ""
+"By default, a confirmation alert is displayed. For information about how to "
+"display or hide the confirmation alert, see <xref linkend=\"mate-system-"
+"monitor-prefs-proclist\"/>."
+msgstr ""
+"Som standard vil der blive spurgt om bekræftelse. Information om hvordan "
+"bekræftelsesforespørgslen indstilles til at blive eller ikke blive vist, kan"
+" findes på <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:880
+msgid ""
+"Click on the <guibutton>End Process</guibutton> button to confirm that you "
+"want to end the process. <application>System Monitor</application> forces "
+"the process to finish normally."
+msgstr ""
+"Klik på knappen <guibutton>Afslut proces</guibutton> for at bekræfte at du "
+"vil afslutte processen. <application>Systemovervågning</application> tvinger"
+" processen til at afslutte normalt."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:885
+msgid "This is the preferred way to stop a process."
+msgstr "Dette er den foretrukne måde at stoppe en proces."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:891
+msgid "To Terminate a Process"
+msgstr "For at afslutte en proces"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:892
+msgid "To terminate a process, perform the following steps:"
+msgstr "Gør som følger for at afslutte en proces:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:902
+msgid "Select the process that you want to terminate."
+msgstr "Vælg processen, du vil afslutte."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:907
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill "
+"Process</guimenuitem></menuchoice>."
+msgstr ""
+"Vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Afslut "
+"proces</guimenuitem></menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:915
+msgid ""
+"Click on the <guibutton>Kill Process</guibutton> button to confirm that you "
+"want to terminate the process. <application>System Monitor</application> "
+"forces the process to finish immediately."
+msgstr ""
+"Klik på knappen <guibutton>Afslut proces</guibutton> for at bekræfte at du "
+"vil afslutte processen. <application>Systemovervågning</application> tvinger"
+" processen til at slutte omgående."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:920
+msgid ""
+"You usually terminate a process only if you cannot end the process normally "
+"as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
+msgstr ""
+"En proces bør normalt kun termineres hvis du ikke kan afslutte processen på "
+"normal vis, som beskrevet i <xref linkend=\"mate-system-monitor-end-"
+"process\"/>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:926
+msgid "To Monitor CPU Usage"
+msgstr "Overvåg processorforbrug"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:927
+msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
+msgstr ""
+"Vælg fanebladet <guilabel>Ressourcer</guilabel> for at overvåge "
+"processorforbruget."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:930
+msgid ""
+"<application>System Monitor</application> displays the CPU usage history in "
+"graphical format. Underneath the graph, <application>System "
+"Monitor</application> also displays the current CPU usage, as a percentage."
+msgstr ""
+"<application>Systemovervågning</application> viser historikken for "
+"processorforbruget i grafisk format. Under grafen vises i øvrigt også det "
+"øjeblikkelige processorforbrug i procent."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:937
+msgid "To Monitor Memory and Swap Usage"
+msgstr "Overvåg hukommelses- og swapforbrug"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:938
+msgid ""
+"To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
+"tab."
+msgstr ""
+"Vælg fanebladet <guilabel>Ressourcer</guilabel> for at overvåge hukommelses-"
+" og swapforbrug."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:941
+msgid ""
+"<application>System Monitor</application> displays the memory usage history "
+"and the swap usage history in graphical format. Underneath the graph, "
+"<application>System Monitor</application> also displays the following "
+"numerical values:"
+msgstr ""
+"<application>Systemovervågning</application> viser historikken for "
+"hukommelses- og swappladsforbrug i grafisk format. Under grafen vises i "
+"øvrigt følgende talværdier:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:946
+msgid "Used memory out of total memory"
+msgstr "Brugt hukommelse ud af samlet hukommelse"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:951
+msgid "Used swap out of total swap"
+msgstr "Brugt swapplads ud af samlet swapplads"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:960
+msgid "To Monitor Network Activity"
+msgstr "Overvåg netværksaktivitet"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:961
+msgid ""
+"To monitor network activity, select the <guilabel>Resources</guilabel> tab."
+msgstr ""
+"Vælg fanebladet <guilabel>Ressourcer</guilabel> for at overvåge "
+"netværksaktivitet."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:964
+msgid ""
+"<application>System Monitor</application> displays the network history in "
+"graphical format. Underneath the graph, <application>System "
+"Monitor</application> also displays the following numerical values:"
+msgstr ""
+"<application>Systemovervågning</application> viser netværkshistorikken i "
+"grafisk format. Under grafen vises i øvrigt følgende talværdier:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:969
+msgid "Received data per second and total"
+msgstr "Modtaget data per sekund og samlet"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:974
+msgid "Sent data per second and total"
+msgstr "Sendt data per sekund og samlet"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:982
+msgid "To Monitor File Systems"
+msgstr "Overvåg filsystemer"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:983
+msgid ""
+"To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
+msgstr ""
+"Vælg fanebladet <guilabel>Filsystemer</guilabel> for at overvåge "
+"filsystemer."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:986
+msgid ""
+"<application>System Monitor</application> displays mounted file systems in "
+"tabular format. From left to right, the table displays the following "
+"columns:"
+msgstr ""
+"<application>Systemovervågning</application> viser monterede filsystemer i "
+"et tabelformat. Fra venstre til højre, indeholder tabellen følgende "
+"kolonner:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:991
+msgid "Device"
+msgstr "Enhed"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:995
+msgid "Location of block file"
+msgstr "Placering af blokfil"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:999
+msgid "Directory"
+msgstr "Mappe"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1003
+msgid "Mount point (directory to access) of device"
+msgstr "Monteringspunkt (mappe der tilgås) for enheden"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1007
+msgid "Type"
+msgstr "Type"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1011
+msgid "File system type"
+msgstr "Filsystemtype"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1015
+msgid "Total"
+msgstr "Total"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1019
+msgid "Total capacity"
+msgstr "Total kapacitet"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1023
+msgid "Free"
+msgstr "Fri"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1027
+msgid "Amount of space not in use"
+msgstr "Mængden af plads, der ikke bruges"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1031
+msgid "Available"
+msgstr "Tilgængelig"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1035
+msgid "Amount of space which can be used"
+msgstr "Mængden af plads, der kan bruges"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1039
+msgid "Used"
+msgstr "Brugt"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1043
+msgid "Amount of space which is used (and percentage of Total)"
+msgstr "Mængden af plads, der er brugt (og procentdel af Total)"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:1050
+msgid "To Customize the Resources Tabbed Section"
+msgstr "Tilpas fanebladsafsnittet Ressourcer"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:1051
+msgid ""
+"You can customize the <guilabel>Resources</guilabel> tabbed section in the "
+"following ways:"
+msgstr ""
+"Du kan tilpasse fanebladsafsnittet <guilabel>Ressourcer</guilabel> på "
+"følgende måder:"
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:1074
+msgid "To Change the Background Color of Graphs"
+msgstr "Ændr baggrundsfarve for grafer"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:1075
+msgid ""
+"To change the background color of the <application>System "
+"Monitor</application> graphs, perform the following steps:"
+msgstr ""
+"Gør som følger for at ændre baggrundsfarve for graferne i "
+"<application>Systemovervågning</application>:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1080 C/index.docbook:1119
+msgid ""
+"Choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+" The <guilabel>Preferences</guilabel> dialog is displayed."
+msgstr ""
+"Vælg "
+"<menuchoice><guimenu>Rediger</guimenu><guimenuitem>Indstillinger</guimenuitem></menuchoice>."
+" Dialogvinduet <guilabel>Indstillinger</guilabel> vil dermed blive vist."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1085 C/index.docbook:1124
+msgid ""
+"Select the <guilabel>Resources</guilabel> tab in the "
+"<guilabel>Preferences</guilabel> dialog."
+msgstr ""
+"Vælg fanebladet <guilabel>Ressourcer</guilabel> i dialogvinduet "
+"<guilabel>Indstillinger</guilabel>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1090
+msgid ""
+"Click on the <guilabel>Background color</guilabel> button. The "
+"<guilabel>Pick a color</guilabel> dialog is displayed."
+msgstr ""
+"Klik på knappen <guilabel>Baggrundsfarve</guilabel>. Dialogvinduet "
+"<guilabel>Vælg en farve</guilabel> bliver dermed vist."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1095 C/index.docbook:1134 C/index.docbook:1168
+#: C/index.docbook:1197
+msgid ""
+"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel"
+" or the spin boxes to customize the color."
+msgstr ""
+"Vælg en farve fra <guilabel>Paletten</guilabel>, eller brug farvehjulet "
+"eller rulleboksene til at tilpasse farven."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1100 C/index.docbook:1139 C/index.docbook:1173
+#: C/index.docbook:1202
+msgid ""
+"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a "
+"color</guilabel> dialog."
+msgstr ""
+"Klik på <guibutton>O.k.</guibutton> for at lukke dialogvinduet "
+"<guilabel>Vælg en farve</guilabel>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1105 C/index.docbook:1144
+msgid ""
+"Click <guibutton>Close</guibutton> to close the "
+"<guilabel>Preferences</guilabel> dialog."
+msgstr ""
+"Klik på <guibutton>Luk</guibutton> for at lukke dialogvinduet "
+"<guilabel>Indstillinger</guilabel>."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:1113
+msgid "To Change the Grid Color of Graphs"
+msgstr "Ændr gitterfarven i graferne"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:1114
+msgid ""
+"To change the grid color of the <application>System Monitor</application> "
+"graphs, perform the following steps:"
+msgstr ""
+"Gør som følger for at ændre gitterfarverne for graferne i "
+"<application>Systemovervågning</application>:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1129
+msgid ""
+"Click on the <guilabel>Grid color</guilabel> button. The <guilabel>Pick a "
+"color</guilabel> dialog is displayed."
+msgstr ""
+"Klik på knappen <guilabel>Gitterfarve</guilabel>. Dialogvinduet "
+"<guilabel>Vælg en farve</guilabel> bliver dermed vist."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:1152
+msgid "To Change the Line Color of the CPU Graph"
+msgstr "Ændr linjefarven for processorgrafen"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:1153
+msgid ""
+"To change the color of the line that represents CPU usage in the "
+"<guilabel>CPU History</guilabel> graph, perform the following steps:"
+msgstr ""
+"Gør som følger for at ændre farven af linjen, der repræsenterer "
+"processorforbruget i <guilabel>Processorforbrug</guilabel>-grafen:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1158 C/index.docbook:1187
+msgid ""
+"Select the <guilabel>Resources</guilabel> tab in the <guilabel>System "
+"Monitor</guilabel> window, to display the graphs and table that provide "
+"information about the usage of system resources."
+msgstr ""
+"Vælg fanebladet <guilabel>Ressourcer</guilabel> i "
+"<guilabel>Systemovervågning</guilabel>-vinduet, for at vise graferne og "
+"tallene, der giver information om forbrug af systemressourcer."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1163
+msgid ""
+"Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a "
+"color</guilabel> dialog is displayed."
+msgstr ""
+"Klik på <guibutton>CPU</guibutton>-farveknappen. Dialogvinduet "
+"<guilabel>Vælg en farve</guilabel> vil dermed blive vist."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:1181
+msgid "To Change the Line Colors of the Memory and Swap Graph"
+msgstr "Ændr linjefarverne for hukommelses- og swapgrafen"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:1182
+msgid ""
+"To change the color of the lines that represent memory and swap usage in the"
+" graph, perform the following steps:"
+msgstr ""
+"Gør som følger for at ændre farve på linjerne, der repræsenterer "
+"hukommelses- og swapforbrug i grafen:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1192
+msgid ""
+"Click on the <guibutton>User memory</guibutton> or <guibutton>Used "
+"swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is "
+"displayed."
+msgstr ""
+"Klik på <guibutton>Hukommelse</guibutton>- eller "
+"<guibutton>Swap</guibutton>-knappen. Dialogvinduet <guilabel>Vælg en "
+"farve</guilabel> vil dermed blive vist."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:1214
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:1215
+msgid ""
+"To configure <application>System Monitor</application>, choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+" The <guilabel>Preferences</guilabel> dialog contains the following tabbed "
+"sections:"
+msgstr ""
+"Vælg "
+"<menuchoice><guimenu>Rediger</guimenu><guimenuitem>Indstillinger</guimenuitem></menuchoice>"
+" for at ændre indstillinger for "
+"<application>Systemovervågning</application>. Dialogvinduet "
+"<guilabel>Indstillinger</guilabel> indeholder følgende fanebladsafsnit:"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:1227
+msgid "Processes"
+msgstr "Processer"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1230
+msgid "<guilabel>Behavior</guilabel>"
+msgstr "<guilabel>Opførsel</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1236 C/index.docbook:1421 C/index.docbook:1452
+msgid "<guilabel>Update interval in seconds</guilabel>"
+msgstr "<guilabel>Opdateringsinterval i sekunder</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1239
+msgid ""
+"Use this spin box to specify the interval at which you want to update the "
+"process list."
+msgstr ""
+"Brug denne drejeboks til at angive intervallet mellem opdateringer af "
+"proceslisten."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1244
+msgid "<guilabel>Enable smooth refresh</guilabel>"
+msgstr "<guilabel>Aktiver blød opdatering</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1247
+msgid "Select this option to refresh smoothly."
+msgstr "Vælg denne indstilling for at opdatere blødt."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1252
+msgid "<guilabel>Alert before ending or killing processes</guilabel>"
+msgstr "<guilabel>Advar før processer afsluttes</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1255
+msgid ""
+"Select this option to display a confirmation alert when you end a process or"
+" terminate a process."
+msgstr ""
+"Vælg denne indstilling for at få bedt om bekræftelse, når en proces "
+"afsluttes."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1260
+msgid "<guilabel>Solaris mode</guilabel>"
+msgstr "<guilabel>Solaris-tilstand</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1263
+msgid ""
+"Select this to divide each process' CPU% in the Processes table by the "
+"number of CPUs."
+msgstr ""
+"Vælg denne for at dividere hver proces' CPU% i procestabellen med antallet "
+"af CPU'er."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1271
+msgid "<guilabel>Information Fields</guilabel>"
+msgstr "<guilabel>Informationsfelter</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1275
+msgid ""
+"Use the following options to select which fields are displayed in the "
+"process list:"
+msgstr ""
+"Brug følgende indstillinger til at væge de felter, der vises i proceslisten:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1280
+msgid "<guilabel>Process Name</guilabel>"
+msgstr "<guilabel>Procesnavn</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1283
+msgid ""
+"Select this option to display the name of the process. This column may also "
+"contain an icon to indicate the application that is associated with the "
+"process."
+msgstr ""
+"Vælg denne indstilling for at vise procesnavnet. Denne kolonne kan også "
+"indeholde et ikon, der viser programmet, der er tilknyttet processen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1288
+msgid "<guilabel>User</guilabel>"
+msgstr "<guilabel>Bruger</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1291
+msgid ""
+"Select this option to display the name of the user who owns the process."
+msgstr ""
+"Vælg denne indstilling for at få vist navnet på den bruger, der ejer "
+"processen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1296
+msgid "<guilabel>Status</guilabel>"
+msgstr "<guilabel>Status</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1299
+msgid ""
+"Select this option to display the current status of the process: sleeping or"
+" running."
+msgstr ""
+"Vælg denne indstilling for at få vist den aktuelle status af processen: "
+"sover eller kører."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1304
+msgid "<guilabel>Virtual Memory</guilabel>"
+msgstr "<guilabel>Virtuel hukommelse</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1307
+msgid ""
+"Select this option to display the amount of virtual memory that is allocated"
+" to the process."
+msgstr ""
+"Vælg denne indstilling for at få vist mængden af virtuel hukommelse, der er "
+"allokeret til processen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1312
+msgid "<guilabel>Resident Memory</guilabel>"
+msgstr "<guilabel>Fysisk hukommelse</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1315
+msgid ""
+"Select this option to display the amount of physical memory that is "
+"allocated to the process."
+msgstr ""
+"Vælg denne indstilling for at få vist mængden af fysisk hukommelse, der er "
+"allokeret til processen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1320
+msgid "<guilabel>Writable Memory</guilabel>"
+msgstr "<guilabel>Skrivbar hukommelse</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1323
+msgid ""
+"Select this option to display the amount of memory that can be written by "
+"the process."
+msgstr ""
+"Vælg denne indstilling for at få vist mængden af hukommelse, processen kan "
+"skrive til."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1328
+msgid "<guilabel>Shared Memory</guilabel>"
+msgstr "<guilabel>Delt hukommelse</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1331
+msgid ""
+"Select this option to display the amount of shared memory that is allocated "
+"to the process. Shared memory is memory that can be accessed by another "
+"process."
+msgstr ""
+"Vælg denne indstilling for at få vist mængden af delt hukommelse, der er "
+"allokeret til processen. Delt hukommelse er hukommelse, der kan tilgås af "
+"andre processer."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1336
+msgid "<guilabel>X Server Memory</guilabel>"
+msgstr "<guilabel>X-serverhukommelse</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1339
+msgid ""
+"Select this option to display the amount of X server memory that is used by "
+"the process."
+msgstr ""
+"Vælg denne indstilling for at få vist mængden af X-serverhukommelse, der "
+"bruges af processen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1344
+msgid "<guilabel>% CPU</guilabel>"
+msgstr "<guilabel>% CPU</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1347
+msgid ""
+"Select this option to display the percentage of CPU time currently being "
+"used by the process."
+msgstr ""
+"Vælg denne indstilling for at få vist processens aktuelle processorforbrug i"
+" procent."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1352
+msgid "<guilabel>CPU Time</guilabel>"
+msgstr "<guilabel>CPU-tid</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1355
+msgid ""
+"Select this option to display the amount of CPU time that has been used by "
+"the process."
+msgstr ""
+"Vælg denne indstilling for at få vist mængden af processortid, processen har"
+" brugt."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1360
+msgid "<guilabel>Started</guilabel>"
+msgstr "<guilabel>Started</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1363
+msgid "Select this option to display when the process began running."
+msgstr "Vælg denne indstilling for at få vist processens starttidspunkt."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1368
+msgid "<guilabel>Nice</guilabel>"
+msgstr "<guilabel>Nice</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1371
+msgid ""
+"Select this option to display the nice value of the process. The nice value "
+"sets the priority of the process: the lower the nice value, the higher the "
+"priority."
+msgstr ""
+"Vælg denne indstilling for at vise processens nice-værdi. Nice-værdien "
+"angiver processens prioritet: lavere nice-værdi svarer til højere prioritet."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1376
+msgid "<guilabel>ID</guilabel>"
+msgstr "<guilabel>Id</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1379
+msgid ""
+"Select this option to display the process identifier, also known as the pid."
+" The pid is a number that uniquely identifies the process. You can use the "
+"pid to manipulate the process on the command line."
+msgstr ""
+"Vælg denne indstilling for at få vist procesidentifikationsnummeret, også "
+"kaldet pid. Pid'en er et tal, der entydigt identificerer processen. Du kan "
+"bruge pid'en til at manipulere processen på kommandolinjen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1384
+msgid "<guilabel>Memory</guilabel>"
+msgstr "<guilabel>Hukommelse</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1387
+msgid ""
+"Select this option to display the amount of system memory that is currently "
+"being used by the process."
+msgstr ""
+"Vælg denne indstilling for at få vist mængden af systemhukommelse, der i "
+"øjeblikket bruges af processen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1392
+msgid "<guilabel>Security Context</guilabel>"
+msgstr "<guilabel>Sikkerhedskontekst</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1395
+msgid ""
+"Select this option to display the security context in which the process is "
+"running."
+msgstr ""
+"Vælg denne indstilling for at få vist sikkerhedskonteksten, hvori processen "
+"kører."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1400
+msgid "<guilabel>Command Line</guilabel>"
+msgstr "<guilabel>Kommandolinje</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1403
+msgid ""
+"Select this option to display the command line that was used to start the "
+"process, including arguments."
+msgstr ""
+"Vælg denne indstilling for at få vist kommandolinjen, der blev brugt til at "
+"starte processen, inklusive argumenter."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:1414
+msgid "Resources"
+msgstr "Ressourcer"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1417
+msgid "<guilabel>Graphs</guilabel>"
+msgstr "<guilabel>Grafer</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1424
+msgid ""
+"Use this spin box to specify how often you want to update the "
+"<application>System Monitor</application> graphs."
+msgstr ""
+"Brug denne drejeboks til at angive, hvor ofte du vil have graferne i "
+"<application>Systemovervågning</application> opdateret."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1429
+msgid "<guilabel>Background color</guilabel>"
+msgstr "<guilabel>Baggrundsfarve</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1432
+msgid ""
+"Use this button to customize the background color of the <application>System"
+" Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
+"monitor-customize-background\"/>."
+msgstr ""
+"Brug denne knap til at tilpasse baggrundsfarven for graferne i "
+"<application>Systemovervågning</application>, som beskrevet i <xref linkend"
+"=\"mate-system-monitor-customize-background\"/>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1437
+msgid "<guilabel>Grid color</guilabel>"
+msgstr "<guilabel>Gitterfarve</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1440
+msgid ""
+"Use this button to customize the grid color of the <application>System "
+"Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
+"monitor-customize-grid\"/>."
+msgstr ""
+"Brug denne knap til at tilpasse gitterfarven for graferne i "
+"<application>Systemovervågning</application>, som beskrevet i <xref linkend"
+"=\"mate-system-monitor-customize-grid\"/>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1455
+msgid ""
+"Use this spin box to specify how often you want to update the <guilabel>File"
+" Systems</guilabel> table."
+msgstr ""
+"Brug denne drejeboks til at angive, hvor ofte du vil have tabellen "
+"<guilabel>Filsystemer</guilabel> opdateret."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1460
+msgid "<guilabel>Show all file systems</guilabel>"
+msgstr "<guilabel>Vis alle filsystemer</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1463
+msgid ""
+"Select this option to show all file systems, including temporary and system "
+"ones."
+msgstr ""
+"Vælg denne indstilling for at få vist alle filsystemer, inklusive "
+"midlertidige og systemfilsystemer."
+
+#. (itstool) path: para/ulink
+#: C/legal.xml:9
+msgid "link"
+msgstr "henvisning"
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
+" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""
+"Der gives tilladelse til at kopiere, distribuere og/eller ændre dette "
+"dokument under betingelserne i GNU Free Documentation License (GFDL), "
+"version 1.1 eller enhver nyere version, udgivet af Free Software Foundation "
+"uden invariante afsnit, uden forsidetekster, og uden bagsidetekster. Du kan "
+"finde en kopi af GFDL'en her <_:ulink-1/> eller i filen COPYING-DOCS, der "
+"distribueres med denne manual."

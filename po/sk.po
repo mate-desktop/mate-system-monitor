@@ -3,14 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Pavol Šimo <palo.simo@gmail.com>, 2018
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2018
+# Dušan Kazik <prescott66@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Juraj Oravec, 2018
+# Tibor Kaputa <tibbbi2@gmail.com>, 2018
+# Erik Bročko <erik.brocko@letemsvetemapplem.eu>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-22 12:38+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Tibor Kaputa <tibbbi2@gmail.com>, 2018\n"
+"PO-Revision-Date: 2018-03-12 08:22+0000\n"
+"Last-Translator: Erik Bročko <erik.brocko@letemsvetemapplem.eu>, 2018\n"
 "Language-Team: Slovak (https://www.transifex.com/mate/teams/13566/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -464,10 +473,10 @@ msgstr "Súborové systémy"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u sekunda"
+msgstr[1] "%u sekundy"
+msgstr[2] "%u sekundy"
+msgstr[3] "%u sekúnd"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -1147,7 +1156,7 @@ msgstr "Grafy"
 
 #: ../src/procdialogs.cpp:693
 msgid "_Update interval in 1/10 sec:"
-msgstr ""
+msgstr "_Interval aktualizácie v 1/10 sekundy:"
 
 #: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
@@ -1413,19 +1422,19 @@ msgstr "%.3g Tbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u bit"
+msgstr[1] "%u bity"
+msgstr[2] "%u bitu"
+msgstr[3] "%u bitov"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u bajt"
+msgstr[1] "%u bajty"
+msgstr[2] "%u bajtu"
+msgstr[3] "%u bajtov"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

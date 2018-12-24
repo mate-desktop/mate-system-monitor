@@ -1,47 +1,97 @@
-# Bulgarian translation for procman doc.
-# Copyright (C) 2002 Free Software Foundation, Inc.
-#
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Любомир Василев, 2018
+# Wolfgang Ulbrich <mate@raveit.de>, 2018
+# Замфир Йончев <zamfir.yonchev@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: procman doc bg\n"
-"POT-Creation-Date: 2007-05-08 08:01+0300\n"
-"PO-Revision-Date: 2007-05-08 07:55+0300\n"
-"Last-Translator: Rostislav Raykov <zbrox@i-space.org>\n"
-"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"POT-Creation-Date: 2018-10-08 10:20+0200\n"
+"PO-Revision-Date: 2018-10-05 17:12+0000\n"
+"Last-Translator: Замфир Йончев <zamfir.yonchev@gmail.com>, 2018\n"
+"Language-Team: Bulgarian (https://www.transifex.com/mate/teams/13566/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../C/legal.xml:2(para)
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Владимир „Kaladan“ Петков <vpetkov@i-space.org>\n"
+"Борислав Александров <B.Aleksandrov@cnsys.bg>\n"
+"Александър Шопов <ash@contact.bg>\n"
+"Любомир Василев <lyubomirv@abv.bg>\n"
+"\n"
+"Проектът за превод на MATE има нужда от подкрепа.\n"
+"Научете повече за нас на http://mate.cult.bg\n"
+"Докладвайте за грешки на http://mate.cult.bg/bugs"
+
+#. (itstool) path: articleinfo/title
+#: C/index.docbook:23
+msgid "System Monitor Manual V2.3"
+msgstr ""
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:25
+msgid "<year>2015</year> <holder>MATE Documentation Project</holder>"
+msgstr ""
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:28
+msgid "<year>2009</year> <holder>Paul Cutler</holder>"
+msgstr ""
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:32
+msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr ""
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:36
+msgid ""
+"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
+"Day</holder>"
+msgstr ""
+
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:51 C/index.docbook:113
+msgid "MATE Documentation Project"
+msgstr "Проектът за документация на MATE"
+
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
+#: C/index.docbook:140 C/index.docbook:150
+msgid "GNOME Documentation Project"
+msgstr ""
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
+" of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
-"Предоставя се разрешение за копиране, разпространение и/или промяна на този "
-"документ, съгласно условията на „Лиценза за свободна документация на GNU“, "
-"версия 1.1 или всяка следваща версия, издадена от Фондация „Свободен "
-"софтуер“; без „Непроменливи раздели“, „Текстове на предната корица“, както и "
-"„Текстове на задната корица“. Копие на лиценза може да бъде намерено <ulink "
-"type=\"help\" url=\"help:fdl\">тук</ulink> или във файла COPYING-DOCS, "
-"разпространяван с това ръководство."
 
-#: ../C/legal.xml:12(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:12 C/legal.xml:12
 msgid ""
 "This manual is part of a collection of MATE manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
-"you can do so by adding a copy of the license to the manual, as described in "
-"section 6 of the license."
+"you can do so by adding a copy of the license to the manual, as described in"
+" section 6 of the license."
 msgstr ""
-"Това ръководство е част от колекция ръководства за MATE, разпространявани "
-"под GFDL. Ако искате да разпространявате това ръководство отделно, можете да "
-"го направите, като включите копие на лиценза към ръководството, както е "
-"описано в раздел 6 от лиценза."
 
-#: ../C/legal.xml:19(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:19 C/legal.xml:19
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any MATE "
@@ -49,13 +99,9 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
-"Много от имената, използвани от компании, за да отличават собствените си "
-"продукти и услуги, са регистрирани търговски марки. Когато такива имена "
-"присъстват в която и да е документация за MATE и членовете на проекта за "
-"документация на MATE са осведомени за съответните търговски марки, тогава "
-"имената са с главни букви или начални главни букви."
 
-#: ../C/legal.xml:35(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:35 C/legal.xml:35
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -69,1763 +115,1712 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
-"ДОКУМЕНТЪТ СЕ ПРЕДОСТАВЯ НА БАЗА „КАКТО Е“, БЕЗ КАКВАТО И ДА Е ГАРАНЦИЯ, "
-"ПРЯКА ИЛИ КОСВЕНА, ВКЛЮЧИТЕЛНО БЕЗ ОГРАНИЧЕНИЯ И ГАРАНЦИИ, ЧЕ ДОКУМЕНТЪТ ИЛИ "
-"ПРОМЕНЕНАТА МУ ВЕРСИЯ СА БЕЗ ДЕФЕКТИ, ГОДНИ ЗА КОНКРЕТНА УПОТРЕБА ИЛИ "
-"НЕНАРУШАВАЩИ. ЦЕЛИЯТ РИСК ОТНОСНО КАЧЕСТВОТО, ТОЧНОСТТА И ХАРАКТЕРИСТИКИТЕ "
-"НА ДОКУМЕНТА ИЛИ ПРОМЕНЕНАТА МУ ВЕРСИЯ Е ЗА ВАША СМЕТКА. АКО НЯКОЙ ДОКУМЕНТ "
-"ИЛИ ПРОМЕНЕНАТА МУ ВЕРСИЯ СЕ ОКАЖЕ ДЕФЕКТЕН В КАКВОТО И ДА Е ОТНОШЕНИЕ, ВИЕ "
-"(НЕ ПЪРВОНАЧАЛНИЯ АВТОР ИЛИ КОЙТО И ДА Е ДОПРИНЕСЪЛ ЗА РАЗРАБОТКАТА) ПОЕМАТЕ "
-"РАЗХОДИТЕ ЗА ВСЯКАКВО НЕОБХОДИМО ОБСЛУЖВАНЕ, ПОПРАВКА ИЛИ КОРЕКЦИИ. ТОВА "
-"ОТКАЗВАНЕ ОТ ГАРАНЦИЯТА ПРЕДСТАВЛЯВА СЪЩЕСТВЕНА ЧАСТ ОТ ТОЗИ ЛИЦЕНЗ. НЕ Е "
-"РАЗРЕШЕНА УПОТРЕБАТА НА КОЙТО И ДА Е ДОКУМЕНТ ИЛИ ПРОМЕНЕНАТА ВЕРСИЯ НА "
-"ДОКУМЕНТА, ОСВЕН ПРИ СПАЗВАНЕ НА ТОЗИ ОТКАЗ ОТ ГАРАНЦИЯ; И"
 
-#: ../C/legal.xml:55(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:55 C/legal.xml:55
 msgid ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
+" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
 "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
 "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
 "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
 "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
-"POSSIBILITY OF SUCH DAMAGES."
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
+" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
+" POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
-"ПРИ НИКАКВИ ОБСТОЯТЕЛСТВА И ПОД НИКАКВА ЮРИДИЧЕСКА ОСНОВА, НЕЗАВИСИМО ДАЛИ Е "
-"В НАРУШЕНИЕ (ВКЛЮЧИТЕЛНО ПРИЧИНЕНО ОТ НЕБРЕЖНОСТ), ДОГОВОР ИЛИ ДРУГО, "
-"АВТОРЪТ, ПЪРВОНАЧАЛНИЯТ АВТОР ИЛИ КОЙТО И ДА Е ДОПРИНЕСЪЛ ЗА РАЗРАБОТКАТА, "
-"ИЛИ КОЙТО И ДА Е ДИСТРИБУТОР НА ДОКУМЕНТА ИЛИ ПРОМЕНЕНАТА МУ ВЕРСИЯ, ИЛИ "
-"КОЙТО И ДА Е ДОСТАВЧИК НА КОЯТО И ДА Е ОТ ИЗБРОЕНИТЕ СТРАНИ, НЯМА ДА БЪДЕ "
-"ОТГОВОРЕН ПРЕД НИКОГО ЗА ВСИЧКИ ПРЕКИ, КОСВЕНИ, СПЕЦИАЛНИ, СЛУЧАЙНИ ИЛИ "
-"ПОСЛЕДСТВЕНИ ЩЕТИ ОТ КАКЪВТО И ДА Е ХАРАКТЕР, ВКЛЮЧИТЕЛНО, БЕЗ ОГРАНИЧЕНИЯ, "
-"ЩЕТИ ЗА ЗАГУБА НА ДОБРОЖЕЛАТЕЛНОСТ, СПИРАНЕ НА РАБОТАТА, КОМПЮТЪРНА ПОВРЕДА "
-"ИЛИ НЕИЗПРАВНОСТ, ИЛИ ВСЯКАКВИ ДРУГИ ЩЕТИ ИЛИ ЗАГУБИ, ВЪЗНИКНАЛИ ИЛИ "
-"СВЪРЗАНИ С УПОТРЕБАТА НА ДОКУМЕНТА ИЛИ ПРОМЕНЕНИТЕ МУ ВЕРСИИ, ДОРИ И КОГАТО "
-"ТАЗИ СТРАНА Е БИЛА ИНФОРМИРАНА ЗА ВЪЗМОЖНОСТТА ОТ ТАКИВА ЩЕТИ."
 
-#: ../C/legal.xml:28(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:28 C/legal.xml:28
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<placeholder-1/>"
+"<_:orderedlist-1/>"
 msgstr ""
-"ДОКУМЕНТЪТ И ПРОМЕНЕНИТЕ МУ ВЕРСИИ СЕ ПРЕДОСТАВЯТ ПОД УСЛОВИЯТА НА ЛИЦЕНЗА "
-"ЗА СВОБОДНА ДОКУМЕНТАЦИЯ НА GNU, С ДОПЪЛНИТЕЛНОТО ПОЯСНЕНИЕ, ЧЕ: "
-"<placeholder-1/>"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ../C/mate-system-monitor.xml:225(None)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:63
 msgid ""
-"@@image: 'figures/mate-system-monitor_window.png'; "
-"md5=fc30e1acb4715e9e9e00edee053c02cd"
+"<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
+"<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
-"@@image: 'figures/mate-system-monitor_window.png'; "
-"md5=fc30e1acb4715e9e9e00edee053c02cd"
 
-#: ../C/mate-system-monitor.xml:23(title)
-#: ../C/mate-system-monitor.xml:81(revnumber)
-msgid "System Monitor Manual V2.1"
-msgstr "Ръководство за „Наблюдение на системата“, версия 2.1"
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:70
+msgid ""
+"<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:26(year)
-#: ../C/mate-system-monitor.xml:32(year)
-msgid "2004"
-msgstr "2004"
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:75
+msgid ""
+"<firstname>Bill</firstname> <surname>Day</surname> "
+"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:27(holder)
-#: ../C/mate-system-monitor.xml:56(orgname)
-msgid "Sun Microsystems"
-msgstr "Sun Microsystems"
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:80
+msgid ""
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> "
+"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:30(year)
-msgid "2001"
-msgstr "2001"
-
-#: ../C/mate-system-monitor.xml:31(year)
-msgid "2002"
-msgstr "2002"
-
-#: ../C/mate-system-monitor.xml:33(holder)
-msgid "Bill Day"
-msgstr "Bill Day"
-
-#: ../C/mate-system-monitor.xml:44(publishername)
-#: ../C/mate-system-monitor.xml:85(para)
-#: ../C/mate-system-monitor.xml:95(para)
-#: ../C/mate-system-monitor.xml:105(para)
-msgid "MATE Documentation Project"
-msgstr "Проект за документация на MATE"
-
-#: ../C/mate-system-monitor.xml:54(firstname)
-msgid "Sun"
-msgstr "Екип на Sun"
-
-#: ../C/mate-system-monitor.xml:55(surname)
+#. (itstool) path: revdescription/para
+#: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "за документация на MATE"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:59(firstname)
-msgid "Bill"
-msgstr "Bill"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:108
+msgid ""
+"<revnumber>System Monitor Manual V2.3</revnumber> <date>July 2015</date> "
+"<_:revdescription-1/>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:60(surname)
-msgid "Day"
-msgstr "Day"
+#. (itstool) path: revdescription/para
+#: C/index.docbook:120
+msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:61(email)
-msgid "billday@bellatlantic.net"
-msgstr "billday@bellatlantic.net"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:116
+msgid ""
+"<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
+"<_:revdescription-1/>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:84(para)
-msgid "Sun MATE Documentation Team"
-msgstr "Екип на Sun за документация на MATE"
+#. (itstool) path: revdescription/para
+#: C/index.docbook:130
+msgid "Sun GNOME Documentation Team"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:89(revnumber)
-msgid "System Monitor Manual V2.0"
-msgstr "Ръководство за „Наблюдение на системата“, версия 2.0"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:126
+msgid ""
+"<revnumber>System Monitor Manual V2.1</revnumber> <date>February 2004</date>"
+" <_:revdescription-1/>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:90(date)
-msgid "November 2002"
-msgstr "ноември, 2002"
-
-#: ../C/mate-system-monitor.xml:92(para)
-#: ../C/mate-system-monitor.xml:102(para)
+#. (itstool) path: revdescription/para
+#: C/index.docbook:138 C/index.docbook:147
 msgid "Bill Day <email>billday@bellatlantic.net</email>"
-msgstr "Bill Day <email>billday@bellatlantic.net</email>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:99(revnumber)
-msgid "Procman Manual V0.11"
-msgstr "Ръководство за Procman, версия 0.11"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:134
+msgid ""
+"<revnumber>System Monitor Manual V2.0</revnumber> <date>November 2002</date>"
+" <_:revdescription-1/>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:100(date)
-msgid "January 2002"
-msgstr "януари, 2002"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:143
+msgid ""
+"<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
+"<_:revdescription-1/>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:110(releaseinfo)
-msgid "This manual describes version 2.5.2 of System Monitor."
-msgstr "Това ръководство описва версия 2.5.2 на „Наблюдение на системата“"
+#. (itstool) path: articleinfo/releaseinfo
+#: C/index.docbook:155
+msgid "This manual describes version 1.10.0 of System Monitor."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:114(title)
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:160
 msgid "Feedback"
 msgstr "Обратна връзка"
 
-#: ../C/mate-system-monitor.xml:115(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help:"
-"mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink url=\"help"
+":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
-"За да докладвате за грешка или да направите предложение относно „Наблюдение "
-"на системата“ или това ръководство, следвайте указанията, описани в <ulink "
-"url=\"help:mate-feedback\" type=\"help\">Страницата за обратна връзка на "
-"MATE</ulink>."
 
-#: ../C/mate-system-monitor.xml:123(para)
-msgid "User manual for System Monitor"
-msgstr "Потребитеско ръководство за „Наблюдение на системата“"
+#. (itstool) path: abstract/para
+#: C/index.docbook:169
+msgid ""
+"System Monitor gives users a graphical user interface for monitoring CPU, "
+"network, and memory activities as well as a way for viewing and stopping "
+"system processes."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:128(primary)
-msgid "System Monitor"
-msgstr "Наблюдение на системата"
+#. (itstool) path: article/indexterm
+#: C/index.docbook:177
+msgid "<primary>System Monitor</primary>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:131(primary)
-msgid "mate-system-monitor"
-msgstr "mate-system-monitor"
+#. (itstool) path: article/indexterm
+#: C/index.docbook:180
+msgid "<primary>mate-system-monitor</primary>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:134(primary)
-msgid "procman"
-msgstr "procman"
+#. (itstool) path: article/indexterm
+#: C/index.docbook:183
+msgid "<primary>procman</primary>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:140(title)
+#. (itstool) path: sect1/title
+#: C/index.docbook:190
 msgid "Introduction"
 msgstr "Въведение"
 
-#: ../C/mate-system-monitor.xml:141(para)
+#. (itstool) path: sect1/para
+#: C/index.docbook:191
 msgid ""
 "The <application>System Monitor</application> application enables you to "
-"monitor system processes and usage of system resources. You can also use "
-"<application>System Monitor</application> to modify the behavior of your "
-"system."
+"display basic system information and monitor system processes, usage of "
+"system resources, and file systems. You can also use <application>System "
+"Monitor</application> to modify the behavior of your system."
 msgstr ""
-"Програмата <application>Наблюдение на системата</application> позволява да "
-"наблюдявате системните процеси и употребата на системни ресурси. Може също "
-"да използвате <application>Наблюдение на системата</application>, за да "
-"променяте поведението на системата Ви."
 
-#: ../C/mate-system-monitor.xml:144(para)
+#. (itstool) path: sect1/para
+#: C/index.docbook:194
 msgid ""
-"The <application>System Monitor</application> window contains two tabbed "
+"The <application>System Monitor</application> window contains four tabbed "
 "sections:"
 msgstr ""
-"Прозорецът на <application>Наблюдение на системата</application> съдържа два "
-"раздела:"
 
-#: ../C/mate-system-monitor.xml:150(guilabel)
-#: ../C/mate-system-monitor.xml:253(guilabel)
-#: ../C/mate-system-monitor.xml:1246(title)
-msgid "Process Listing"
-msgstr "Процеси"
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:199 C/index.docbook:367
+msgid "<guilabel>System</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:153(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:203
+msgid ""
+"Displays various basic information about the computer's hardware and "
+"software."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:206
+msgid "Distribution"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:212
+msgid "Distribution version"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:215
+msgid "Linux Kernel version"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:218
+msgid "MATE version"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:224 C/index.docbook:435
+msgid "Hardware"
+msgstr "Хардуер"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:230
+msgid "Installed memory"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:233
+msgid "Processors and speeds"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:239 C/index.docbook:440
+msgid "System Status"
+msgstr "Състояние на системата"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:245
+msgid "Currently available disk space"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:254 C/index.docbook:375
+msgid "<guilabel>Processes</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:258
 msgid ""
 "Shows active processes, and how processes are related to each other. "
-"Provides detailed information about individual processes, and enables you to "
-"control active processes."
+"Provides detailed information about individual processes, and enables you to"
+" control active processes."
 msgstr ""
-"Показва активните процеси и как те са свързани помежду си. Предоставя "
-"подробна информация относно индивидуалните процеси и Ви позволява да "
-"контролирате активните."
 
-#: ../C/mate-system-monitor.xml:160(guilabel)
-#: ../C/mate-system-monitor.xml:266(guilabel)
-#: ../C/mate-system-monitor.xml:1401(title)
-msgid "Resource Monitor"
-msgstr "Ресурси"
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:264 C/index.docbook:383
+msgid "<guilabel>Resources</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:163(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:268
 msgid "Displays the current usage of the following system resources:"
-msgstr "Показва текущата употреба на следните системни ресурси:"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:168(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:273
 msgid "CPU (central processing unit) time"
-msgstr "Използване на процесорно време"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:173(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:278
 msgid "Memory and swap space"
-msgstr "Използване на паметта/страницирането"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:178(para)
-msgid "Disk space on each device"
-msgstr "Свободно пространство на всяко устройство"
+#. (itstool) path: listitem/para
+#: C/index.docbook:283
+msgid "Network usage"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:190(title)
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1448
+msgid "<guilabel>File Systems</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:295
+msgid ""
+"Lists all mounted file systems along with basic information about each."
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:305
 msgid "Getting Started"
-msgstr "Първи стъпки"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:194(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:309
 msgid "To Start System Monitor"
-msgstr "Стартиране на „Наблюдение на системата“"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:195(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:310
 msgid ""
 "You can start <application>System Monitor</application> in the following "
 "ways:"
 msgstr ""
-"Може да стартирате <application>Наблюдение на системата</application> по "
-"следните начини:"
 
-#: ../C/mate-system-monitor.xml:198(term)
-msgid "<guimenu>Applications</guimenu> menu"
-msgstr "От менюто <guimenu>Програми</guimenu>"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:313
+msgid "<guimenu>System</guimenu> menu"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:200(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:315
 msgid ""
-"Choose <menuchoice><guimenu>System Tools</guimenu><guimenuitem>System "
+"Choose <menuchoice><guimenu>Administration</guimenu> <guimenuitem>System "
 "Monitor</guimenuitem></menuchoice>."
 msgstr ""
-"Изберете <menuchoice><guimenu>Системни инструменти</"
-"guimenu><guimenuitem>Наблюдение на системата</guimenuitem></menuchoice>."
 
-#: ../C/mate-system-monitor.xml:206(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:321
 msgid "Command line"
-msgstr "От командния ред"
+msgstr "Команден ред"
 
-#: ../C/mate-system-monitor.xml:208(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:323
 msgid "Execute the following command: <command>mate-system-monitor</command>"
-msgstr "Изпълнете следната команда: <command>mate-system-monitor</command>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:216(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:331
 msgid "When You Start System Monitor"
-msgstr "Когато стартирате „Наблюдение на системата“"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:217(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:332
 msgid ""
 "When you start <application>System Monitor</application>, the following "
 "window is displayed:"
 msgstr ""
-"Когато стартирате <application>Наблюдение на системата</application>, се "
-"появява следният прозорец:"
 
-#: ../C/mate-system-monitor.xml:221(title)
+#. (itstool) path: figure/title
+#: C/index.docbook:336
 msgid "System Monitor Window"
-msgstr "Прозорецът на „Наблюдение на системата“"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:227(phrase)
-msgid "Shows System Monitor main window."
-msgstr "Показва главния прозорец на „Наблюдение на системата“"
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:340
+msgctxt "_"
+msgid ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:232(para)
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:338
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/mate-system-monitor_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows System Monitor "
+"main window.</phrase> </textobject>"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:347
 msgid ""
 "The <application>System Monitor</application> window contains the following "
 "elements:"
 msgstr ""
-"Прозорецът на <application>Наблюдение на системата</application> съдържа "
-"следните елементи:"
 
-#: ../C/mate-system-monitor.xml:237(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:352
 msgid "Menubar"
 msgstr "Лента с менюта"
 
-#: ../C/mate-system-monitor.xml:239(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:354
 msgid ""
-"The menus on the menubar contain all of the commands that you need to work "
-"with <application>System Monitor</application>."
+"The menus on the menubar contain all the commands that you need to work with"
+" <application>System Monitor</application>."
 msgstr ""
-"Менютата на лентата с менюта съдържа всички команди, нужни за работа с "
-"<application>Наблюдение на системата</application>."
 
-#: ../C/mate-system-monitor.xml:245(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:360
 msgid "Display area"
-msgstr "Район на преглед"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:247(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:362
 msgid ""
 "The display area contains the system monitor information. The display area "
 "contains the following tabbed sections:"
 msgstr ""
-"Района на преглед съдържа информацията от следенето на системата. Съдържа "
-"следните раздели:"
 
-#: ../C/mate-system-monitor.xml:255(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:370
 msgid ""
-"Contains a <guilabel>Search</guilabel> text box, a <guilabel>View</guilabel> "
-"drop-down list, a list of processes organized as a table, a <guilabel>More "
-"Info</guilabel> button, and an <guilabel>End Process</guilabel> button."
+"Contains a list of basic system properties, such as system software versions"
+" and hardware specifications and status."
 msgstr ""
-"Съдържа поле за <guilabel>Търсене</guilabel>, падащ списък за "
-"<guilabel>Изглед</guilabel>, табличен списък на процесите, бутон за "
-"<guilabel>Повече информация</guilabel> и бутон за <guilabel>Прекратяване на "
-"процес</guilabel>."
 
-#: ../C/mate-system-monitor.xml:259(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:378
 msgid ""
-"Do not confuse the <guilabel>View</guilabel> drop-down list on the "
-"<guilabel>Process Listing</guilabel> tabbed section with the <guilabel>View</"
-"guilabel> menu in the menubar."
+"Contains a list of processes organized as a table, a list of load averages "
+"over the past few minutes, and an <guibutton>End Process</guibutton> button."
 msgstr ""
-"Не бъркайте падащия списък <guilabel>Изглед</guilabel> при раздела "
-"<guilabel>Процеси</guilabel> с менюто от лентата с менюта."
 
-#: ../C/mate-system-monitor.xml:268(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:386
 msgid ""
 "Contains a <guilabel>CPU History</guilabel> graph, a <guilabel>Memory and "
-"Swap History</guilabel> graph, and a list of <guilabel>Devices</guilabel> "
-"organized as a table."
+"Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
+"graph."
 msgstr ""
-"Съдържа <guilabel>История за използването на процесора</guilabel>, "
-"<guilabel>История за използването на паметта/страницирането</guilabel> и "
-"списък с <guilabel>Устройства</guilabel>, организиран като таблица."
 
-#: ../C/mate-system-monitor.xml:276(term)
+#. (itstool) path: listitem/para
+#: C/index.docbook:394
+msgid "Contains a table of currently mounted file systems."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:402
 msgid "Statusbar"
 msgstr "Лента за състоянието"
 
-#: ../C/mate-system-monitor.xml:278(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:404
 msgid ""
 "The statusbar displays information about current <application>System "
 "Monitor</application> activity and contextual information about the menu "
 "items."
 msgstr ""
-"Лентата за състояние показва информация относно текущата дейност на "
-"<application>Наблюдение на системата</application> и контекстна информация "
-"за елементите на менютата."
 
-#: ../C/mate-system-monitor.xml:292(title)
+#. (itstool) path: sect1/title
+#: C/index.docbook:418
 msgid "Usage"
 msgstr "Употреба"
 
-#: ../C/mate-system-monitor.xml:295(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:421
+msgid "To Display Basic System Information"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:422
+msgid ""
+"To display basic system information, select the <guilabel>System</guilabel> "
+"tab."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:425
+msgid ""
+"In the <guilabel>System</guilabel> tab, information is organized into three "
+"groups:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:430
+msgid "System Information"
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:448
 msgid "To Display the Process List"
-msgstr "Показване на списъка с процесите"
-
-#: ../C/mate-system-monitor.xml:296(para)
-msgid ""
-"To display the process list, select the <guilabel>Process Listing</guilabel> "
-"tab. The <guilabel>Process Listing</guilabel> tab is displayed by default "
-"when you start <application>System Monitor</application>."
 msgstr ""
-"За да покажете списъка с процесите, изберете раздела <guilabel>Процеси</"
-"guilabel>. Разделът <guilabel>Процеси</guilabel> се показва по подразбиране "
-"при стартирането на <application>Наблюдение на системата</application>."
 
-#: ../C/mate-system-monitor.xml:299(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:449
 msgid ""
-"In the <guilabel>Process Listing</guilabel> tab, the processes are organized "
-"as a table. The rows of the table display information about the processes. "
-"The columns represent information fields for the processes, such as the name "
-"of the user who owns the process, the amount of memory currently being used "
-"by the process, and so on. From left to right, the <guilabel>Process "
-"Listing</guilabel> tab displays the following columns by default:"
+"To display the process list, select the <guilabel>Processes</guilabel> tab."
 msgstr ""
-"В раздела <guilabel>Процеси</guilabel>, процесите са организирани като "
-"таблица. Редовете на таблицата показват информация за процесите. Колоните "
-"представляват информационните полета за процесите, като например името на "
-"потребителя, който е собственик на процеса, заетата от него памет и т.н. От "
-"лявно на дясно, разделът <guilabel>Процеси</guilabel> показва следните "
-"колони по подразбиране:"
 
-#: ../C/mate-system-monitor.xml:304(para)
-#: ../C/mate-system-monitor.xml:1292(guilabel)
+#. (itstool) path: sect2/para
+#: C/index.docbook:452
+msgid ""
+"In the <guilabel>Processes</guilabel> tab, the processes are organized as a "
+"table. The rows of the table display information about the processes. The "
+"columns represent information fields for the processes, such as the name of "
+"the user who owns the process, the amount of memory currently being used by "
+"the process, and so on. From left to right, the "
+"<guilabel>Processes</guilabel> tab displays the following columns by "
+"default:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:457
 msgid "Process Name"
 msgstr "Име на процес"
 
-#: ../C/mate-system-monitor.xml:307(para)
-#: ../C/mate-system-monitor.xml:1308(guilabel)
-msgid "User"
-msgstr "Потребител"
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
+msgid "Status"
+msgstr "Състояние"
 
-#: ../C/mate-system-monitor.xml:310(para)
-#: ../C/mate-system-monitor.xml:1324(guilabel)
+#. (itstool) path: listitem/para
+#: C/index.docbook:463
+msgid "%CPU"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:466
+msgid "Nice"
+msgstr "Приоритет (nice)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:469
+msgid "ID"
+msgstr "ИдПр"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:472
 msgid "Memory"
 msgstr "Памет"
 
-#: ../C/mate-system-monitor.xml:313(para)
-#: ../C/mate-system-monitor.xml:1364(guilabel)
-msgid "X Server Memory"
-msgstr "Памет на X сървъра"
-
-#: ../C/mate-system-monitor.xml:316(para)
-#: ../C/mate-system-monitor.xml:1380(guilabel)
-msgid "Nice"
-msgstr "Стойност на nice"
-
-#: ../C/mate-system-monitor.xml:319(para)
-#: ../C/mate-system-monitor.xml:1388(guilabel)
-msgid "ID"
-msgstr "ID"
-
-#: ../C/mate-system-monitor.xml:322(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:475
 msgid ""
 "For information about how to change the columns displayed in the process "
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
-"За информация как да променяте показаните колони в списъка с процеси, вижте "
-"<xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 
-#: ../C/mate-system-monitor.xml:327(title)
-msgid "Parent Processes, Child Processes, and Threads"
-msgstr "Подчинени процеси и нишки"
+#. (itstool) path: sect3/title
+#: C/index.docbook:480
+msgid "Parent Processes and Child Processes"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:328(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:481
 msgid ""
 "A parent process is a process that spawns another process. The spawned "
 "process is a child process of the original parent process. By default, "
-"<application>System Monitor</application> shows process dependencies. For "
-"information about how to change the default display behavior, see <xref "
-"linkend=\"mate-system-monitor-modify-processlist-viewdeps\"/>."
+"<application>System Monitor</application> does not show process "
+"dependencies. For information about how to change the default display "
+"behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-"
+"viewdeps\"/>."
 msgstr ""
-"Родителски процес е този, който създава друг процес. Създаденият процес е "
-"дете на оригиналния родителски процес. По подразбиране "
-"<application>Наблюдаване на системата</application> показва зависимостите "
-"между процесите. За информацяи относно как да променяте стандартното "
-"поведение на преглед, вижте <xref linkend=\"mate-system-monitor-modify-"
-"processlist-viewdeps\"/>."
 
-#: ../C/mate-system-monitor.xml:331(para)
-msgid ""
-"A thread is a portion of a process that can run independently of and "
-"concurrently with other portions of the process. By default, "
-"<application>System Monitor</application> does not show threads. For "
-"information about how to change the default display behavior, see <xref "
-"linkend=\"mate-system-monitor-modify-processlist-viewthreads\"/>."
-msgstr ""
-"Нишката е част от процес, която може да върви независимо от и съвместно с "
-"други части от процеса. По подразбиране <application>Наблюдение на "
-"системата</application> не показва нишките. За информация относно как да "
-"промените стандартното поведение на преглед, вижте <xref linkend=\"mate-"
-"system-monitor-modify-processlist-viewthreads\"/>."
-
-#: ../C/mate-system-monitor.xml:337(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:487
 msgid "Process Priority and Nice Values"
-msgstr "Приоритети на процесите и стойности на nice"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:338(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:488
 msgid ""
 "Processes run in order of priority: high-priority processes run before low-"
 "priority processes. Child processes generally inherit their priority from "
 "their parent process."
 msgstr ""
-"Процесите вървят по ред на приоритета: процесите с висок приоритет се "
-"обработват преди тези с нисък приоритет. Процесите деца обикновено "
-"наследяват приоритета от родителските процеси."
 
-#: ../C/mate-system-monitor.xml:341(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:491
 msgid ""
 "The priority of a process is set by the nice value of the process, as "
 "follows:"
 msgstr ""
-"Приоритета на процеса е настроен от стойността на nice на процеса, както "
-"следва:"
 
-#: ../C/mate-system-monitor.xml:346(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:496
 msgid "A nice value of 0 means that the process has normal priority."
-msgstr "Стойност на nice от 0, означава, че процеса има нормален приоритет."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:351(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:501
 msgid "The higher the nice value, the lower the priority."
 msgstr ""
-"Колкото по-висока е стойността на nice, толкова по-нисък е приоритетът."
 
-#: ../C/mate-system-monitor.xml:356(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:506
 msgid "The lower the nice value, the higher the priority."
-msgstr "Колкото по-ниска е стойността на nice, толкова по-висок е приоритетът."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:361(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:511
 msgid ""
 "For information about how to change the priority of a process, see <xref "
 "linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
-"За информация относно как да променяте приоритета на процес, вижте <xref "
-"linkend=\"mate-system-monitor-change-priority\"/>."
 
-#: ../C/mate-system-monitor.xml:369(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:519
 msgid "To Sort the Process List"
-msgstr "Сортиране на списъка с процесите"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:370(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:520
 msgid "To sort the process list, perform the following steps:"
-msgstr "За да сортирате списъка с процесите, следвайте следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:375(para)
-#: ../C/mate-system-monitor.xml:410(para)
-#: ../C/mate-system-monitor.xml:429(para)
-#: ../C/mate-system-monitor.xml:448(para)
-#: ../C/mate-system-monitor.xml:467(para)
-#: ../C/mate-system-monitor.xml:516(para)
-#: ../C/mate-system-monitor.xml:535(para)
-#: ../C/mate-system-monitor.xml:598(para)
-#: ../C/mate-system-monitor.xml:628(para)
-#: ../C/mate-system-monitor.xml:727(para)
-#: ../C/mate-system-monitor.xml:868(para)
-#: ../C/mate-system-monitor.xml:909(para)
-#: ../C/mate-system-monitor.xml:944(para)
-msgid ""
-"Select the <guilabel>Process Listing</guilabel> tab to display the process "
-"list."
 msgstr ""
-"Изберете раздела <guilabel>Процеси</guilabel>, за да се покаже списъка с "
-"процеси."
 
-#: ../C/mate-system-monitor.xml:380(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:525 C/index.docbook:560 C/index.docbook:583
+#: C/index.docbook:606 C/index.docbook:629 C/index.docbook:680
+#: C/index.docbook:821 C/index.docbook:862 C/index.docbook:897
 msgid ""
-"By default, the processes are listed by name, in alphabetical order. To list "
-"the processes in reverse alphabetical order, click on the <guilabel>Process "
-"Name</guilabel> column header."
+"Select the <guilabel>Processes</guilabel> tab to display the process list."
 msgstr ""
-"По подразбиране процесите са изредени по име, по азбучен ред. За да обърнете "
-"азбучния ред, натиснете на горната част на колоната <guilabel>Име на процес</"
-"guilabel>."
 
-#: ../C/mate-system-monitor.xml:385(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:530
+msgid ""
+"By default, the processes are listed by name, in alphabetical order. To list"
+" the processes in reverse alphabetical order, click on the <guilabel>Process"
+" Name</guilabel> column header."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:535
 msgid ""
 "Click on any column header to sort the processes by the information in that "
 "column, in alphabetical or numerical order."
 msgstr ""
-"Натиснете на коя да е горна част на колона, за да сортирате процесите по "
-"информацията, представлявана от тази колона, в азбучен ред или цифров ред."
 
-#: ../C/mate-system-monitor.xml:390(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:540
 msgid ""
-"Click again on the column header to sort the data in reverse alphabetical or "
-"reverse numerical order."
+"Click again on the column header to sort the data in reverse alphabetical or"
+" reverse numerical order."
 msgstr ""
-"Натиснете пак върху горната част на колоната, за да обърнете реда на "
-"подреждане."
 
-#: ../C/mate-system-monitor.xml:398(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:548
 msgid "To Modify the Contents of the Process List"
-msgstr "Промяна съдържанието на списъка с процесите"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:399(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:549
 msgid "You can modify the contents of the process list in several ways."
 msgstr ""
-"Може да променяте съдържанието на списъка с процесите по няколко начина."
 
-#: ../C/mate-system-monitor.xml:404(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:554
 msgid "To Show All Processes"
-msgstr "Показване на всички процеси"
-
-#: ../C/mate-system-monitor.xml:405(para)
-msgid "To show all processes in the process list, perform the following steps:"
 msgstr ""
-"За да видите всички процеси в списъка с процесите, следвайте следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:415(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:555
 msgid ""
-"Click on the <guilabel>View</guilabel> drop-down list, then select "
-"<guilabel>All Processes</guilabel>."
+"To show all processes in the process list, perform the following steps:"
 msgstr ""
-"Натиснете върху падащия списък <guilabel>Изглед</guilabel>, после изберете "
-"<guilabel>Всички процеси</guilabel>."
 
-#: ../C/mate-system-monitor.xml:423(title)
+#. (itstool) path: listitem/para
+#: C/index.docbook:565
+msgid ""
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All "
+"Processes</guimenuitem> </menuchoice>."
+msgstr ""
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:577
 msgid "To Show Only Processes Owned by the Current User"
-msgstr "Показване само на процесите, собственост на текущия потребител"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:424(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:578
 msgid ""
 "To show only the processes that are owned by the current user, perform the "
 "following steps:"
 msgstr ""
-"За да видите процесите, собственост само на текущия потребител, следвайте "
-"следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:434(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:588
 msgid ""
-"Click on the <guilabel>View</guilabel> drop-down list, then select "
-"<guilabel>My Processes</guilabel>."
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My "
+"Processes</guimenuitem> </menuchoice>."
 msgstr ""
-"Натиснете върху падащия списък <guilabel>Изглед</guilabel> и после изберете "
-"<guilabel>Мои процеси</guilabel>."
 
-#: ../C/mate-system-monitor.xml:442(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:600
 msgid "To Show Only Active Processes"
-msgstr "Показване само на активните процеси"
-
-#: ../C/mate-system-monitor.xml:443(para)
-msgid ""
-"To show only the active processes in the process list, perform the following "
-"steps:"
 msgstr ""
-"За да покажете само активните процеси в списъка с процеси, следвайте "
-"следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:453(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:601
 msgid ""
-"Click on the <guilabel>View</guilabel> drop-down list, then select "
-"<guilabel>Active Processes</guilabel>."
+"To show only the active processes in the process list, perform the following"
+" steps:"
 msgstr ""
-"Натиснете върху падащия списък <guilabel>Изглед</guilabel> и после изберете "
-"<guilabel>Активни процеси</guilabel>."
 
-#: ../C/mate-system-monitor.xml:461(title)
-msgid "To Show Process Dependencies"
-msgstr "Показване на процесните зависимости"
+#. (itstool) path: listitem/para
+#: C/index.docbook:611
+msgid ""
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active "
+"Processes</guimenuitem> </menuchoice>."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:462(para)
+#. (itstool) path: sect3/title
+#: C/index.docbook:623
+msgid "To Show Dependencies"
+msgstr ""
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:624
 msgid ""
 "To show process dependencies in the process list, perform the following "
 "steps:"
 msgstr ""
-"За да видите зависимостите между процесите в списъка с процесите, следвайте "
-"следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:472(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:634
 msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Process Dependencies</"
-"guimenuitem></menuchoice>."
+"Choose "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
 msgstr ""
-"Изберете <menuchoice><guimenu>Изглед</guimenu><guimenuitem>Зависимости</"
-"guimenuitem></menuchoice>."
 
-#: ../C/mate-system-monitor.xml:477(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:639
 msgid ""
-"If the <guimenuitem>Process Dependencies</guimenuitem> menu item is "
-"selected, the processes are listed as follows:"
+"If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the "
+"processes are listed as follows:"
 msgstr ""
-"Ако елементът <guimenuitem>Зависимости</guimenuitem> е избран, процесите са "
-"изписани както следва:"
 
-#: ../C/mate-system-monitor.xml:482(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:644
 msgid ""
 "Parent processes are indicated by a triangle symbol to the left of the "
 "process name. Click on the triangle symbol to show or hide the associated "
 "child processes."
 msgstr ""
-"Родителските процеси се индикират с триъгълен символ в ляво от името на "
-"процеса. Натиснете върху тригълния символ, за да покажете или скриете "
-"асоциираните процеси деца."
 
-#: ../C/mate-system-monitor.xml:487(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:649
 msgid "Child processes are indented, and listed with their parent process."
-msgstr "Процесите деца са изписани при техните родителски процеси."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:492(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:654
 msgid ""
-"If the <guimenuitem>Process Dependencies</guimenuitem> menu item is not "
-"selected:"
-msgstr "Ако елементът <guimenuitem>Зависимости</guimenuitem> не е избран:"
+"If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:497(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:659
 msgid "Parent processes and child processes are not distinguishable."
-msgstr "Родителските процеси и процесите деца не са различими."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:502(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:664
 msgid "All processes are listed in alphabetical order."
-msgstr "Всички процеси са изредени в азбучен ред."
-
-#: ../C/mate-system-monitor.xml:510(title)
-msgid "To Show Threads"
-msgstr "Показване на нишки"
-
-#: ../C/mate-system-monitor.xml:511(para)
-msgid "To show threads in the process list, perform the following steps:"
 msgstr ""
-"За да покажете нишките в списъка с процесите, следвайте следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:521(para)
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Threads</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Изберете <menuchoice><guimenu>Изглед</guimenu><guimenuitem>Нишки</"
-"guimenuitem></menuchoice>."
-
-#: ../C/mate-system-monitor.xml:529(title)
-msgid "To Hide a Process"
-msgstr "Скриване на процес"
-
-#: ../C/mate-system-monitor.xml:530(para)
-msgid "To hide a process, perform the following steps:"
-msgstr "За да скриете процес, следвайте следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:540(para)
-msgid "Select the process that you want to hide."
-msgstr "Изберете процеса, който искате да скриете."
-
-#: ../C/mate-system-monitor.xml:545(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Hide Process</"
-"guimenuitem></menuchoice>."
-msgstr ""
-"Изберете <menuchoice><guimenu>Редактиране</guimenu><guimenuitem>Скриване на "
-"процес</guimenuitem></menuchoice>"
-
-#: ../C/mate-system-monitor.xml:548(para)
-#: ../C/mate-system-monitor.xml:922(para)
-#: ../C/mate-system-monitor.xml:957(para)
-msgid ""
-"By default, a confirmation alert is displayed. For information about how to "
-"display or hide the confirmation alert, see <xref linkend=\"mate-system-"
-"monitor-prefs-proclist\"/>."
-msgstr ""
-"По подразбиране се появява прозорец за подтвърждение. За информация относно "
-"как да показвате и скривате това уведомяване, вижте <xref linkend=\"mate-"
-"system-monitor-prefs-proclist\"/>."
-
-#: ../C/mate-system-monitor.xml:553(para)
-msgid ""
-"Click on the <guibutton>Hide Process</guibutton> button to confirm that you "
-"want to hide the process."
-msgstr ""
-"Натиснете бутона <guibutton>Скриване на процес</guibutton>, за да "
-"подтвърдите, че искате да скриете процеса."
-
-#: ../C/mate-system-monitor.xml:561(title)
-msgid "To Re-Display Hidden Processes"
-msgstr "Махане на скриването от процес"
-
-#: ../C/mate-system-monitor.xml:562(para)
-msgid ""
-"To re-display hidden processes in the process list, perform the following "
-"steps:"
-msgstr ""
-"За да покажете отново скрит процес в списъка с процесите, следвайте следните "
-"стъпки:"
-
-#: ../C/mate-system-monitor.xml:567(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Hidden Processes</"
-"guimenuitem></menuchoice>. If no processes are currently hidden, an "
-"information alert is displayed. If any processes are currently hidden, the "
-"<guilabel>Manage Hidden Processes</guilabel> dialog is displayed."
-msgstr ""
-"Изберете <menuchoice><guimenu>Редактиране</guimenu><guimenuitem>Скрити "
-"процеси</guimenuitem></menuchoice>. Ако на момента няма скрити процеси се "
-"показва предупредителна информация. Ако някой процес на момента е скрит, се "
-"показва прозореца <guilabel>Управление на скрити процеси</guilabel>."
-
-#: ../C/mate-system-monitor.xml:572(para)
-msgid "Select the processes that you want to re-display in the process list."
-msgstr ""
-"Изберете процесите, които искате отново да се показват в списъка с процесите."
-
-#: ../C/mate-system-monitor.xml:577(para)
-msgid ""
-"Click on the <guibutton>Remove From List</guibutton> button. The processes "
-"are no longer hidden, and are displayed in the process list."
-msgstr ""
-"Натиснете бутона <guibutton>Премахване от списъка</guibutton>. Процесите "
-"вече не са скрити и се показват отново в списъка с процесите."
-
-#: ../C/mate-system-monitor.xml:582(para)
-msgid ""
-"Click <guibutton>Close</guibutton> to close the <guilabel>Manage Hidden "
-"Processes</guilabel> dialog."
-msgstr ""
-"Натиснете <guibutton>Затваряне</guibutton>, за да затворите прозореца за "
-"<guilabel>Управление на скрити процеси</guilabel>."
-
-#: ../C/mate-system-monitor.xml:592(title)
-msgid "To Find a Process"
-msgstr "Търсене за процес"
-
-#: ../C/mate-system-monitor.xml:593(para)
-msgid "To find a process in the process list, perform the following steps:"
-msgstr "За да откриете процес в списъка с процеси, следвайте следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:603(para)
-msgid ""
-"Type the name of the process in the <guilabel>Search</guilabel> text box. "
-"Wildcards are not supported."
-msgstr ""
-"Въведете името на процеса в полето за <guilabel>Търсене</guilabel>. Не се "
-"поддържат wildcard символи."
-
-#: ../C/mate-system-monitor.xml:608(para)
-msgid "Press <keycap>Return</keycap>."
-msgstr "Натиснете <keycap>Enter</keycap>."
-
-#: ../C/mate-system-monitor.xml:611(para)
-msgid ""
-"If the process exists, <application>System Monitor</application> highlights "
-"the process name in the process list. Press <keycap>Return</keycap> "
-"repeatedly to highlight other occurrences of the process name in the process "
-"list."
-msgstr ""
-"Ако процесът съществува, <application>Наблюдение на системата</application> "
-"осветява името на процеса в списъка с процесите. Натиснете продължително "
-"<keycap>Enter</keycap>, за да осветите други срещания на името на процеса в "
-"списъка с процесите."
-
-#: ../C/mate-system-monitor.xml:614(para)
-msgid ""
-"If the process does not exist, <application>System Monitor</application> "
-"displays an error dialog."
-msgstr ""
-"Ако процесът не съществува, <application>Наблюдение на системата</"
-"application> показва съобщение за грешка."
-
-#: ../C/mate-system-monitor.xml:622(title)
-msgid "To Show or Hide Additional Process Information"
-msgstr "Показване и скриване на допълнителна процесна информация"
-
-#: ../C/mate-system-monitor.xml:623(para)
-msgid ""
-"To show additional information about a process, perform the following steps:"
-msgstr ""
-"За да видите допълнителна процесна информация относно процес, следвайте "
-"следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:633(para)
-#: ../C/mate-system-monitor.xml:732(para)
-msgid "Select the process in the process list."
-msgstr "Изберете процеса от списъка с процесите."
-
-#: ../C/mate-system-monitor.xml:638(para)
-msgid "Click on the <guibutton>More Info</guibutton> button."
-msgstr "Натиснете бутона <guibutton>Повече информация</guibutton>."
-
-#: ../C/mate-system-monitor.xml:643(para)
-msgid ""
-"<application>System Monitor</application> displays the following additional "
-"process information:"
-msgstr ""
-"<application>Наблюдение на системата</application> показва следната "
-"допълнителна процесна информация:"
-
-#: ../C/mate-system-monitor.xml:648(guilabel)
-msgid "Process Info"
-msgstr "Информация за процес"
-
-#: ../C/mate-system-monitor.xml:653(guilabel)
-msgid "Command"
-msgstr "Команда"
-
-#: ../C/mate-system-monitor.xml:655(para)
-msgid "The name of the command that started the process."
-msgstr "Името на командата, която е стартирала процеса"
-
-#: ../C/mate-system-monitor.xml:661(guilabel)
-#: ../C/mate-system-monitor.xml:1316(guilabel)
-msgid "Status"
-msgstr "Състояние"
-
-#: ../C/mate-system-monitor.xml:663(para)
-msgid "The current status of the process: sleeping or running."
-msgstr "Текущият статус на процеса: заспал или стартиран"
-
-#: ../C/mate-system-monitor.xml:669(guilabel)
-msgid "Priority"
-msgstr "Приоритет"
-
-#: ../C/mate-system-monitor.xml:671(para)
-msgid "The priority of the process, and the associated nice value."
-msgstr "Приоритетът на процеса и асоциираната стойност на nice."
-
-#: ../C/mate-system-monitor.xml:679(guilabel)
-msgid "Memory Usage"
-msgstr "Използвана памет"
-
-#: ../C/mate-system-monitor.xml:684(guilabel)
-#: ../C/mate-system-monitor.xml:1050(guilabel)
-msgid "Total"
-msgstr "Общо"
-
-#: ../C/mate-system-monitor.xml:686(para)
-msgid "The total amount of memory used by the process."
-msgstr "Общото количество на използваната от процеса памет"
-
-#: ../C/mate-system-monitor.xml:692(guilabel)
-msgid "RSS"
-msgstr "RSS"
-
-#: ../C/mate-system-monitor.xml:694(para)
-msgid "The amount of RSS or physical memory used by the process."
-msgstr "Количеството RSS или физическа памет използвана от процеса"
-
-#: ../C/mate-system-monitor.xml:700(guilabel)
-msgid "Shared"
-msgstr "Споделени"
-
-#: ../C/mate-system-monitor.xml:702(para)
-msgid "The amount of shared memory used by the process."
-msgstr "Количеството на споделената памет използвана от процеса"
-
-#: ../C/mate-system-monitor.xml:710(para)
-msgid ""
-"To hide the additional process information, click on the <guibutton>Less "
-"Info</guibutton> button."
-msgstr ""
-"За да скриете допълнителната процесна информация, натиснете на бутона "
-"<guibutton>По-малко информация</guibutton>."
-
-#: ../C/mate-system-monitor.xml:714(para)
-msgid ""
-"You can also double-click on the process in the process list, to show or "
-"hide the additional process information."
-msgstr ""
-"Можете също така да натиснете два пъти върху процес от списъка, за да "
-"показвате и скривате допълнителната процесна информация."
-
-#: ../C/mate-system-monitor.xml:721(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:674
 msgid "To Display Memory Maps for a Process"
-msgstr "Показване на карти на паметта за процес"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:722(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:675
 msgid "To display memory maps for a process, perform the following steps:"
 msgstr ""
-"За да показвате картите на паметта за процес, следвайте следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:737(para)
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory Maps</"
-"guimenuitem></menuchoice>."
+#. (itstool) path: listitem/para
+#: C/index.docbook:685
+msgid "Select the process in the process list."
 msgstr ""
-"Изберете <menuchoice><guimenu>Изглед</guimenu><guimenuitem>Карти на паметта</"
-"guimenuitem></menuchoice>."
 
-#: ../C/mate-system-monitor.xml:742(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:690
+msgid ""
+"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory "
+"Maps</guimenuitem></menuchoice>."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:695
 msgid ""
 "The <guilabel>Memory Maps</guilabel> dialog displays the information in "
 "tabular format. The name of the process is displayed above the memory-map "
 "table. From left to right, the <guilabel>Memory Maps</guilabel> dialog "
 "displays the following columns:"
 msgstr ""
-"Прозорецът за <guilabel>Карти на паметта</guilabel> показва информацията в "
-"табуларен формат. Името на процеса е показано над таблицата за картите на "
-"паметта. От ляво на дясно, прозорецът показва следните колони:"
 
-#: ../C/mate-system-monitor.xml:747(guilabel)
-msgid "Filename"
-msgstr "Име на файл"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:700
+msgid "<guilabel>Filename</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:749(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:702
 msgid ""
 "The location of a shared library that is currently used by the process. If "
 "this field is blank, the memory information in this row describes memory "
 "that is owned by the process whose name is displayed above the memory-map "
 "table."
 msgstr ""
-"Местоположението на споделената библиотека, която в момента се използва от "
-"процеса. Ако това поле е празно, информацията за паметта на този ред описва "
-"паметта, която е собственост на процеса, чието име е показано над таблицата."
 
-#: ../C/mate-system-monitor.xml:755(guilabel)
-msgid "VM Start"
-msgstr "Начало на ВП"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:708
+msgid "<guilabel>VM Start</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:757(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:710
 msgid "The address at which the memory segment begins."
-msgstr "Адресът, на който започва сегментът от паметта."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:763(guilabel)
-msgid "VM End"
-msgstr "Край на ВП"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:716
+msgid "<guilabel>VM End</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:765(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:718
 msgid "The address at which the memory segment ends."
-msgstr "Адресът, на който завършва сегментът от паметта."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:771(guilabel)
-#: ../C/mate-system-monitor.xml:1332(guilabel)
-msgid "VM Size"
-msgstr "Размер на ВП"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:724
+msgid "<guilabel>VM Size</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:773(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:726
 msgid "The size of the memory segment."
-msgstr "Размерът на сегмента от паметта."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:779(guilabel)
-msgid "Flags"
-msgstr "Флагове"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:732
+msgid "<guilabel>Flags</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:781(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:734
 msgid ""
 "The following flags describe the different types of memory-segment access "
 "that the process can have:"
 msgstr ""
-"Следните флагове описват различни видове достъпи до паметови сегменти, които "
-"процесите могат да имат:"
 
-#: ../C/mate-system-monitor.xml:786(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:739
 msgid "p"
-msgstr "p"
-
-#: ../C/mate-system-monitor.xml:788(para)
-msgid ""
-"The memory segment is private to the process, and is not accessible to other "
-"processes."
 msgstr ""
-"Паметовия сегмент е частен за процеса и не е достъпен от други процеси."
 
-#: ../C/mate-system-monitor.xml:794(term)
+#. (itstool) path: listitem/para
+#: C/index.docbook:741
+msgid ""
+"The memory segment is private to the process, and is not accessible to other"
+" processes."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:747
 msgid "r"
-msgstr "r"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:796(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:749
 msgid "The process has permission to read from the memory segment."
-msgstr "Процесът има разрешение да чете от паметовия сегмент."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:802(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:755
 msgid "s"
-msgstr "s"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:804(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:757
 msgid "The memory segment is shared with other processes."
-msgstr "Паметовият сегмент е споделен с други процеси."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:810(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:763
 msgid "w"
-msgstr "w"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:812(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:765
 msgid "The process has permission to write into the memory segment."
-msgstr "Процесът има разрешение да пише в паметовия сегмент."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:818(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:771
 msgid "x"
-msgstr "x"
+msgstr "памет"
 
-#: ../C/mate-system-monitor.xml:820(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:773
 msgid ""
-"The process has permission to execute instructions that are contained within "
-"the memory segment."
+"The process has permission to execute instructions that are contained within"
+" the memory segment."
 msgstr ""
-"Процесът има разрешение да изпълнява инструкции, които се съдържат в "
-"паметовия сегмент."
 
-#: ../C/mate-system-monitor.xml:829(guilabel)
-msgid "VM offset"
-msgstr "Отместване на ВП"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:782
+msgid "<guilabel>VM Offset</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:831(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:784
 msgid "The virtual memory offset of the memory segment."
-msgstr "Отместването на виртуалната памет на паметовия сегмент"
-
-#: ../C/mate-system-monitor.xml:837(guilabel)
-msgid "Device"
-msgstr "Устройство"
-
-#: ../C/mate-system-monitor.xml:839(para)
-msgid ""
-"The major and minor device numbers of the device on which the shared library "
-"filename is located."
 msgstr ""
-"Главния и второстепенния номер на устройството, на което е разположена "
-"споделената библиотека."
 
-#: ../C/mate-system-monitor.xml:845(guilabel)
-msgid "Inode"
-msgstr "I-възел"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:790
+msgid "<guilabel>Device</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:847(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:792
+msgid ""
+"The major and minor device numbers of the device on which the shared library"
+" filename is located."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:798
+msgid "<guilabel>Inode</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:800
 msgid ""
 "The inode on the device from which the shared library location is loaded "
 "into memory."
 msgstr ""
-"I-възелът на устройството, от което споделената библиотека се зарежда в "
-"паметта."
 
-#: ../C/mate-system-monitor.xml:853(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:806
 msgid ""
 "Click on any column header to sort the data by the information in that "
-"column, in alphabetical or numerical order. Click again on the column header "
-"to sort the data in reverse alphabetical or reverse numerical order."
+"column, in alphabetical or numerical order. Click again on the column header"
+" to sort the data in reverse alphabetical or reverse numerical order."
 msgstr ""
-"Натиснете върху която и да е горна част на колона, за да сортирате данните "
-"по информацията от тази колона, в азбучен и цифров ред. Натиснете отново, за "
-"да сортирате данните в обратен ред."
 
-#: ../C/mate-system-monitor.xml:856(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:809
 msgid ""
-"Click <guibutton>Close</guibutton> to close the <guilabel>Memory Maps</"
-"guilabel> dialog."
+"Click <guibutton>Close</guibutton> to close the <guilabel>Memory "
+"Maps</guilabel> dialog."
 msgstr ""
-"Натиснете <guibutton>Затваряне</guibutton>, за да затворите прозореца "
-"<guilabel>Карти на паметта</guilabel>."
 
-#: ../C/mate-system-monitor.xml:862(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:815
 msgid "To Change the Priority of a Process"
-msgstr "Променяне на приоритета на процеса"
-
-#: ../C/mate-system-monitor.xml:863(para)
-msgid "To change the priority of a process, perform the following steps:"
-msgstr "За да промените приоритета на процеса, следвайте следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:873(para)
-msgid "Select the process for which you want to change the priority."
-msgstr "Изберете процеса, за който искате да промените приоритета."
-
-#: ../C/mate-system-monitor.xml:878(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</"
-"guimenuitem></menuchoice>. The <guilabel>Change Priority</guilabel> dialog "
-"is displayed."
 msgstr ""
-"Изберете <menuchoice><guimenu>Редактиране</guimenu><guimenuitem>Промяна на "
-"приоритет</guimenuitem></menuchoice>. Прозорецът <guilabel>Промяна на "
-"приоритет</guilabel> се появява."
 
-#: ../C/mate-system-monitor.xml:883(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:816
+msgid "To change the priority of a process, perform the following steps:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:826
+msgid "Select the process for which you want to change the priority."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:831
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
+"Priority</guimenuitem></menuchoice>. The <guilabel>Change "
+"Priority</guilabel> dialog is displayed."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:836
 msgid "Use the slider to set the nice value of the process."
-msgstr "Използвайте плъзгача, за да настроите стойността на nice за процеса."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:886(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:839
 msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
 msgstr ""
-"Стойността на nice определя приоритета на процеса: колкото по-ниска е тя, "
-"толкова по-висок е приоритетът."
 
-#: ../C/mate-system-monitor.xml:889(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:842
 msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
 msgstr ""
-"За да се определи стойност на nice по-ниска от нула, всички освен root "
-"потребителя, трябва да въведат администраторската парола."
 
-#: ../C/mate-system-monitor.xml:894(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:847
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
-msgstr "Натиснете бутона <guibutton>Промяна на приоритет</guibutton>."
-
-#: ../C/mate-system-monitor.xml:903(title)
-msgid "To End a Process"
-msgstr "Прекратяване на процес"
-
-#: ../C/mate-system-monitor.xml:904(para)
-msgid "To end a process, perform the following steps:"
-msgstr "За да прекратите процес, следвайте следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:914(para)
-msgid "Select the process that you want to end."
-msgstr "Изберете процеса, който искате да прекратите."
-
-#: ../C/mate-system-monitor.xml:919(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End Process</"
-"guimenuitem></menuchoice>, or click on the <guibutton>End Process</"
-"guibutton> button."
 msgstr ""
-"Изберете <menuchoice><guimenu>Редактиране</guimenu><guimenuitem>Прекратяване "
-"на процес</guimenuitem></menuchoice> или натиснете на бутона "
-"<guibutton>Прекратяване на процес</guibutton>."
 
-#: ../C/mate-system-monitor.xml:927(para)
+#. (itstool) path: sect2/title
+#: C/index.docbook:856
+msgid "To End a Process"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:857
+msgid "To end a process, perform the following steps:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:867
+msgid "Select the process that you want to end."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:872
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End "
+"Process</guimenuitem></menuchoice>, or click on the <guibutton>End "
+"Process</guibutton> button."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:875 C/index.docbook:910
+msgid ""
+"By default, a confirmation alert is displayed. For information about how to "
+"display or hide the confirmation alert, see <xref linkend=\"mate-system-"
+"monitor-prefs-proclist\"/>."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:880
 msgid ""
 "Click on the <guibutton>End Process</guibutton> button to confirm that you "
 "want to end the process. <application>System Monitor</application> forces "
 "the process to finish normally."
 msgstr ""
-"Натиснете бутона <guibutton>Прекратяване на процес</guibutton> за да "
-"подтвърдите, че искате да прекратите процеса. <application>Наблюдение на "
-"системата</application> принуждава процеса да приключи нормално."
 
-#: ../C/mate-system-monitor.xml:932(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:885
 msgid "This is the preferred way to stop a process."
-msgstr "Това е предпочитания начин да се спират процеси."
-
-#: ../C/mate-system-monitor.xml:938(title)
-msgid "To Terminate a Process"
-msgstr "Убиване на процес"
-
-#: ../C/mate-system-monitor.xml:939(para)
-msgid "To terminate a process, perform the following steps:"
-msgstr "За да прекратите процес, следвайте следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:949(para)
-msgid "Select the process that you want to terminate."
-msgstr "Изберете процеса, който искате да терминирате."
-
-#: ../C/mate-system-monitor.xml:954(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill Process</"
-"guimenuitem></menuchoice>."
 msgstr ""
-"Изберете <menuchoice><guimenu>Редактиране</guimenu><guimenuitem>Убиване на "
-"процес</guimenuitem></menuchoice>."
 
-#: ../C/mate-system-monitor.xml:962(para)
+#. (itstool) path: sect2/title
+#: C/index.docbook:891
+msgid "To Terminate a Process"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:892
+msgid "To terminate a process, perform the following steps:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:902
+msgid "Select the process that you want to terminate."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:907
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill "
+"Process</guimenuitem></menuchoice>."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:915
 msgid ""
 "Click on the <guibutton>Kill Process</guibutton> button to confirm that you "
 "want to terminate the process. <application>System Monitor</application> "
 "forces the process to finish immediately."
 msgstr ""
-"Натиснете бутона <guibutton>Убиване на процес</guibutton> за да подтвърдите, "
-"че искате да прекратите процеса. <application>Наблюдение на системата</"
-"application> принуждава програмата да спре незабавно."
 
-#: ../C/mate-system-monitor.xml:967(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:920
 msgid ""
 "You usually terminate a process only if you cannot end the process normally "
 "as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
 msgstr ""
-"Обикновено убивате процес, само ако не може да се прекрати по нормалния "
-"начин, описан в <xref linkend=\"mate-system-monitor-end-process\"/>."
 
-#: ../C/mate-system-monitor.xml:973(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:926
 msgid "To Monitor CPU Usage"
-msgstr "Наблюдение на натоварването на процесора"
-
-#: ../C/mate-system-monitor.xml:974(para)
-msgid ""
-"To monitor CPU usage, select the <guilabel>Resource Monitor</guilabel> tab."
 msgstr ""
-"За да наблюдавате натоварването на процесора, изберете раздела "
-"<guilabel>Ресурси</guilabel>."
 
-#: ../C/mate-system-monitor.xml:977(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:927
+msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:930
 msgid ""
 "<application>System Monitor</application> displays the CPU usage history in "
-"graphical format. Underneath the graph, <application>System Monitor</"
-"application> also displays the current CPU usage, as a percentage."
+"graphical format. Underneath the graph, <application>System "
+"Monitor</application> also displays the current CPU usage, as a percentage."
 msgstr ""
-"<application>Наблюдение на системата</application> показва историята на "
-"използването на процесора в графичен формат. Под графиката, "
-"<application>Наблюдение на системата</application> показва също така "
-"текущото използване на процесора, като процентна стойност."
 
-#: ../C/mate-system-monitor.xml:984(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:937
 msgid "To Monitor Memory and Swap Usage"
-msgstr "Наблюдение на използването на паметта/страницирането"
-
-#: ../C/mate-system-monitor.xml:985(para)
-msgid ""
-"To monitor memory and swap usage, select the <guilabel>Resource Monitor</"
-"guilabel> tab."
 msgstr ""
-"За да наблюдавате използването на паметта и страницирането, изберете раздела "
-"<guilabel>Ресурси</guilabel>."
 
-#: ../C/mate-system-monitor.xml:988(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:938
+msgid ""
+"To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
+"tab."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:941
 msgid ""
 "<application>System Monitor</application> displays the memory usage history "
 "and the swap usage history in graphical format. Underneath the graph, "
 "<application>System Monitor</application> also displays the following "
 "numerical values:"
 msgstr ""
-"<application>Наблюдение на системата</application> показва истроията на "
-"заетостта на паметта и страницирането в графичен формат. Под графиката, "
-"<application>Наблюдение на системата</application> показва също така и "
-"следните числови стойности:"
 
-#: ../C/mate-system-monitor.xml:993(para)
-msgid "Used memory"
-msgstr "Използвана памет"
-
-#: ../C/mate-system-monitor.xml:998(para)
-msgid "Total memory"
-msgstr "Общо памет"
-
-#: ../C/mate-system-monitor.xml:1003(para)
-msgid "Used swap"
-msgstr "Използвано място за странициране"
-
-#: ../C/mate-system-monitor.xml:1008(para)
-msgid "Total swap"
-msgstr "Общо място за странициране"
-
-#: ../C/mate-system-monitor.xml:1017(title)
-msgid "To Monitor Disk Space Usage"
-msgstr "Наблюдение използването на дисковото пространство"
-
-#: ../C/mate-system-monitor.xml:1018(para)
-msgid ""
-"To monitor disk space usage, select the <guilabel>Resource Monitor</"
-"guilabel> tab."
+#. (itstool) path: listitem/para
+#: C/index.docbook:946
+msgid "Used memory out of total memory"
 msgstr ""
-"За да наблюдавате използването на дисковото пространство, изберете раздела "
-"<guilabel>Ресурси</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1021(para)
-msgid ""
-"<application>System Monitor</application> displays the disk space usage "
-"information in tabular format. From left to right, the <guilabel>Devices</"
-"guilabel> table displays the following columns:"
+#. (itstool) path: listitem/para
+#: C/index.docbook:951
+msgid "Used swap out of total swap"
 msgstr ""
-"<application>Наблюдение на системата</application> показва информацията за "
-"дисковото пространство в табуларна форма. От ляво на дясно, таблицата "
-"<guilabel>Устройства</guilabel> показва следните колони:"
 
-#: ../C/mate-system-monitor.xml:1026(guilabel)
-msgid "Name"
-msgstr "Име"
+#. (itstool) path: sect2/title
+#: C/index.docbook:960
+msgid "To Monitor Network Activity"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1028(para)
-msgid "The name of the device."
-msgstr "Името на устройството"
+#. (itstool) path: sect2/para
+#: C/index.docbook:961
+msgid ""
+"To monitor network activity, select the <guilabel>Resources</guilabel> tab."
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1034(guilabel)
+#. (itstool) path: sect2/para
+#: C/index.docbook:964
+msgid ""
+"<application>System Monitor</application> displays the network history in "
+"graphical format. Underneath the graph, <application>System "
+"Monitor</application> also displays the following numerical values:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:969
+msgid "Received data per second and total"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:974
+msgid "Sent data per second and total"
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:982
+msgid "To Monitor File Systems"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:983
+msgid ""
+"To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:986
+msgid ""
+"<application>System Monitor</application> displays mounted file systems in "
+"tabular format. From left to right, the table displays the following "
+"columns:"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:991
+msgid "Device"
+msgstr "Устройство"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:995
+msgid "Location of block file"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:999
 msgid "Directory"
 msgstr "Папка"
 
-#: ../C/mate-system-monitor.xml:1036(para)
-msgid "The location of the device."
-msgstr "Местоположението на устройството"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1003
+msgid "Mount point (directory to access) of device"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1042(guilabel)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1007
 msgid "Type"
-msgstr "Тип"
+msgstr "Вид"
 
-#: ../C/mate-system-monitor.xml:1044(para)
-msgid "The type of the device."
-msgstr "Видът на устройството"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1011
+msgid "File system type"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1052(para)
-msgid "The total amount of disk space available on the device."
-msgstr "Общото количество дисково пространство, налично на устройството"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1015
+msgid "Total"
+msgstr "Общо"
 
-#: ../C/mate-system-monitor.xml:1058(guilabel)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1019
+msgid "Total capacity"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1023
+msgid "Free"
+msgstr "Свободно"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1027
+msgid "Amount of space not in use"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1031
+msgid "Available"
+msgstr "Налично"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1035
+msgid "Amount of space which can be used"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1039
 msgid "Used"
 msgstr "Използвано"
 
-#: ../C/mate-system-monitor.xml:1060(para)
-msgid ""
-"The amount of disk space currently used on the device, expressed in bytes "
-"and as a percentage."
+#. (itstool) path: listitem/para
+#: C/index.docbook:1043
+msgid "Amount of space which is used (and percentage of Total)"
 msgstr ""
-"Количеството дисково пространство, което в момента е заедно на устройството, "
-"изразено в байтове и като процентна стойност."
 
-#: ../C/mate-system-monitor.xml:1069(title)
-msgid "To Customize the Resource Monitor Tabbed Section"
-msgstr "Персонализиране на раздела за ресурси"
-
-#: ../C/mate-system-monitor.xml:1070(para)
-msgid ""
-"You can customize the <guilabel>Resource Monitor</guilabel> tabbed section "
-"in the following ways:"
+#. (itstool) path: sect2/title
+#: C/index.docbook:1050
+msgid "To Customize the Resources Tabbed Section"
 msgstr ""
-"Може да персонализирате раздела <guilabel>Ресурси</guilabel> по следните "
-"начини:"
 
-#: ../C/mate-system-monitor.xml:1093(title)
+#. (itstool) path: sect2/para
+#: C/index.docbook:1051
+msgid ""
+"You can customize the <guilabel>Resources</guilabel> tabbed section in the "
+"following ways:"
+msgstr ""
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:1074
 msgid "To Change the Background Color of Graphs"
-msgstr "Промяна на фона на графиките"
-
-#: ../C/mate-system-monitor.xml:1094(para)
-msgid ""
-"To change the background color of the <application>System Monitor</"
-"application> graphs, perform the following steps:"
-msgstr "За да смените фоновия цвят на графиките, следвайте следните стъпки:"
-
-#: ../C/mate-system-monitor.xml:1099(para)
-#: ../C/mate-system-monitor.xml:1138(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
-"guimenuitem></menuchoice>. The <guilabel>Preferences</guilabel> dialog is "
-"displayed."
 msgstr ""
-"Изберете <menuchoice><guimenu>Редактиране</guimenu><guimenuitem>Настройки</"
-"guimenuitem></menuchoice>. Появява се прозорецът <guilabel>Настройки</"
-"guilabel>."
 
-#: ../C/mate-system-monitor.xml:1104(para)
-#: ../C/mate-system-monitor.xml:1143(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:1075
 msgid ""
-"Select the <guilabel>Resource Monitor</guilabel> tab in the "
+"To change the background color of the <application>System "
+"Monitor</application> graphs, perform the following steps:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1080 C/index.docbook:1119
+msgid ""
+"Choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+" The <guilabel>Preferences</guilabel> dialog is displayed."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1085 C/index.docbook:1124
+msgid ""
+"Select the <guilabel>Resources</guilabel> tab in the "
 "<guilabel>Preferences</guilabel> dialog."
 msgstr ""
-"Изберете раздела <guilabel>Ресурси</guilabel> в прозореца "
-"<guilabel>Настройки</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1109(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1090
 msgid ""
 "Click on the <guilabel>Background color</guilabel> button. The "
 "<guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
-"Натиснете бутона <guilabel>Фонов цвят</guilabel>. Появява се прозореца "
-"<guilabel>Избор на цвят</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1114(para)
-#: ../C/mate-system-monitor.xml:1153(para)
-#: ../C/mate-system-monitor.xml:1187(para)
-#: ../C/mate-system-monitor.xml:1216(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1095 C/index.docbook:1134 C/index.docbook:1168
+#: C/index.docbook:1197
 msgid ""
-"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel "
-"or the spin boxes to customize the color."
+"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel"
+" or the spin boxes to customize the color."
 msgstr ""
-"Изберете цвят от <guilabel>Палитрата</guilabel> или използвайте полетата, за "
-"да персонализирате цвета."
 
-#: ../C/mate-system-monitor.xml:1119(para)
-#: ../C/mate-system-monitor.xml:1158(para)
-#: ../C/mate-system-monitor.xml:1192(para)
-#: ../C/mate-system-monitor.xml:1221(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1100 C/index.docbook:1139 C/index.docbook:1173
+#: C/index.docbook:1202
 msgid ""
-"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a color</"
-"guilabel> dialog."
+"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a "
+"color</guilabel> dialog."
 msgstr ""
-"Натиснете <guibutton>Добре</guibutton>, за да затворите прозореца "
-"<guilabel>Избор на цвят</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1124(para)
-#: ../C/mate-system-monitor.xml:1163(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1105 C/index.docbook:1144
 msgid ""
-"Click <guibutton>Close</guibutton> to close the <guilabel>Preferences</"
-"guilabel> dialog."
+"Click <guibutton>Close</guibutton> to close the "
+"<guilabel>Preferences</guilabel> dialog."
 msgstr ""
-"Натиснете <guibutton>Затваряне</guibutton>, за да затворите прозореца "
-"<guilabel>Настройки</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1132(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:1113
 msgid "To Change the Grid Color of Graphs"
-msgstr "Промяна цвета на мрежата на графиките"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1133(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:1114
 msgid ""
 "To change the grid color of the <application>System Monitor</application> "
 "graphs, perform the following steps:"
 msgstr ""
-"За да промените цвета на мрежата на графиките, следвайте следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:1148(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1129
 msgid ""
 "Click on the <guilabel>Grid color</guilabel> button. The <guilabel>Pick a "
 "color</guilabel> dialog is displayed."
 msgstr ""
-"Натиснете бутона <guilabel>Цвят на мрежа</guilabel>. Появява се прозорецът "
-"<guilabel>Избор на цвят</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1171(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:1152
 msgid "To Change the Line Color of the CPU Graph"
-msgstr "Промяна на цвета на линията в графиката за процесора"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1172(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:1153
 msgid ""
 "To change the color of the line that represents CPU usage in the "
 "<guilabel>CPU History</guilabel> graph, perform the following steps:"
 msgstr ""
-"За да промените цвета на линията, която представя използването на процесора "
-"в графиката за процесорната история, следвайте следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:1177(para)
-#: ../C/mate-system-monitor.xml:1206(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1158 C/index.docbook:1187
 msgid ""
-"Select the <guilabel>Resource Monitor</guilabel> tab in the <guilabel>System "
+"Select the <guilabel>Resources</guilabel> tab in the <guilabel>System "
 "Monitor</guilabel> window, to display the graphs and table that provide "
 "information about the usage of system resources."
 msgstr ""
-"Изберете раздела <guilabel>Ресурси</guilabel> в прозореца на "
-"<guilabel>Наблюдение на системата</guilabel>, за да покажете графиките и "
-"таблицата, които предоставят информация за използването на системните "
-"ресурси."
 
-#: ../C/mate-system-monitor.xml:1182(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1163
 msgid ""
 "Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a "
 "color</guilabel> dialog is displayed."
 msgstr ""
-"Натиснете цветния бутон за <guibutton>Процесора</guibutton>. Появява се "
-"прозорецът <guilabel>Избор на цвят</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1200(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:1181
 msgid "To Change the Line Colors of the Memory and Swap Graph"
-msgstr "Промяна на цвета на линията в графиката за паметта"
-
-#: ../C/mate-system-monitor.xml:1201(para)
-msgid ""
-"To change the color of the lines that represent memory and swap usage in the "
-"graph, perform the following steps:"
 msgstr ""
-"За да промените цвета на линиите представящи паметта и страницирането в "
-"графиката, следвайте следните стъпки:"
 
-#: ../C/mate-system-monitor.xml:1211(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:1182
 msgid ""
-"Click on the <guibutton>Used memory</guibutton> or <guibutton>Used swap</"
-"guibutton> button. The <guilabel>Pick a color</guilabel> dialog is displayed."
+"To change the color of the lines that represent memory and swap usage in the"
+" graph, perform the following steps:"
 msgstr ""
-"Натиснете бутона <guibutton>Използвана памет</guibutton> или "
-"<guibutton>Използвано място за странициране</guibutton>. Появява се "
-"прозорецът <guilabel>Избор на цвят</guilabel>."
 
-#: ../C/mate-system-monitor.xml:1233(title)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1192
+msgid ""
+"Click on the <guibutton>User memory</guibutton> or <guibutton>Used "
+"swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is "
+"displayed."
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:1214
 msgid "Preferences"
 msgstr "Настройки"
 
-#: ../C/mate-system-monitor.xml:1234(para)
+#. (itstool) path: sect1/para
+#: C/index.docbook:1215
 msgid ""
 "To configure <application>System Monitor</application>, choose "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></"
-"menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
-"following tabbed sections:"
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+" The <guilabel>Preferences</guilabel> dialog contains the following tabbed "
+"sections:"
 msgstr ""
-"За да настроите <application>Наблюдение на системата</application>, изберете "
-"<menuchoice><guimenu>Редактиране</guimenu><guimenuitem>Настройки</"
-"guimenuitem></menuchoice>. Прозорецът <guilabel>Настройки</guilabel> съдържа "
-"следните раздели:"
 
-#: ../C/mate-system-monitor.xml:1250(guilabel)
-msgid "Behavior"
-msgstr "Поведение"
+#. (itstool) path: sect2/title
+#: C/index.docbook:1227
+msgid "Processes"
+msgstr "Процеси"
 
-#: ../C/mate-system-monitor.xml:1256(guilabel)
-#: ../C/mate-system-monitor.xml:1409(guilabel)
-#: ../C/mate-system-monitor.xml:1440(guilabel)
-msgid "Update interval ... seconds"
-msgstr "Интервал на обновяване ... секунди"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1230
+msgid "<guilabel>Behavior</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1258(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1236 C/index.docbook:1421 C/index.docbook:1452
+msgid "<guilabel>Update interval in seconds</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1239
 msgid ""
 "Use this spin box to specify the interval at which you want to update the "
 "process list."
 msgstr ""
-"Използвайте това поле, за да определите интервала, на който искате да се "
-"обновява списъка с процеси."
 
-#: ../C/mate-system-monitor.xml:1264(guilabel)
-msgid "Show warning dialog when ending or killing processes"
-msgstr "Показване на предупредителен прозорец при спиране на процес"
-
-#: ../C/mate-system-monitor.xml:1266(para)
-msgid ""
-"Select this option to display a confirmation alert when you end a process or "
-"terminate a process."
+#. (itstool) path: listitem/para
+#: C/index.docbook:1244
+msgid "<guilabel>Enable smooth refresh</guilabel>"
 msgstr ""
-"Изберете тази опция, за да се показва подтвърждение, когато прекратявате "
-"процес."
 
-#: ../C/mate-system-monitor.xml:1272(guilabel)
-msgid "Show warning dialog when hiding processes"
-msgstr "Показване на предупредителен прозорец при скриване на процес"
-
-#: ../C/mate-system-monitor.xml:1274(para)
-msgid ""
-"Select this option to display a confirmation alert when you hide a process."
+#. (itstool) path: listitem/para
+#: C/index.docbook:1247
+msgid "Select this option to refresh smoothly."
 msgstr ""
-"Изберете тази опция, за да се появява подтвърждение, когато скривате процес."
 
-#: ../C/mate-system-monitor.xml:1283(guilabel)
-msgid "Information Fields"
-msgstr "Информативни полета"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1252
+msgid "<guilabel>Alert before ending or killing processes</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1286(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1255
+msgid ""
+"Select this option to display a confirmation alert when you end a process or"
+" terminate a process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1260
+msgid "<guilabel>Solaris mode</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1263
+msgid ""
+"Select this to divide each process' CPU% in the Processes table by the "
+"number of CPUs."
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1271
+msgid "<guilabel>Information Fields</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1275
 msgid ""
 "Use the following options to select which fields are displayed in the "
 "process list:"
 msgstr ""
-"Използвайте следните опции, за да изберете кои полета да се показват в "
-"списъка с процесите."
 
-#: ../C/mate-system-monitor.xml:1294(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1280
+msgid "<guilabel>Process Name</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1283
 msgid ""
 "Select this option to display the name of the process. This column may also "
 "contain an icon to indicate the application that is associated with the "
 "process."
 msgstr ""
-"Изберете тази опция, за да покажете имената на процесите. Тази колона може "
-"също да съдържа икона, която индикира програмата, асоциирана с процеса."
 
-#: ../C/mate-system-monitor.xml:1300(guilabel)
-msgid "Arguments"
-msgstr "Аргументи"
-
-#: ../C/mate-system-monitor.xml:1302(para)
-msgid ""
-"Select this option to display the name of the command, including arguments, "
-"that started the process."
+#. (itstool) path: listitem/para
+#: C/index.docbook:1288
+msgid "<guilabel>User</guilabel>"
 msgstr ""
-"Изберете тази опция, за да покажете името на командата, включително "
-"аргументите, която е стартирала процеса."
 
-#: ../C/mate-system-monitor.xml:1310(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1291
 msgid ""
 "Select this option to display the name of the user who owns the process."
 msgstr ""
-"Изберете тази опция, за да се показва името на потребителя, който е "
-"собственик на процеса."
 
-#: ../C/mate-system-monitor.xml:1318(para)
-msgid ""
-"Select this option to display the current status of the process: sleeping or "
-"running."
+#. (itstool) path: listitem/para
+#: C/index.docbook:1296
+msgid "<guilabel>Status</guilabel>"
 msgstr ""
-"Изберете тази опция, за да се показва текущото състояние на процеса: спящ "
-"или стартиран."
 
-#: ../C/mate-system-monitor.xml:1326(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1299
 msgid ""
-"Select this option to display the amount of system memory that is currently "
-"being used by the process."
+"Select this option to display the current status of the process: sleeping or"
+" running."
 msgstr ""
-"Изберете тази опция, за да се показва количеството системна памет, което е "
-"заето от процеса."
 
-#: ../C/mate-system-monitor.xml:1334(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1304
+msgid "<guilabel>Virtual Memory</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1307
 msgid ""
-"Select this option to display the amount of virtual memory that is allocated "
-"to the process."
+"Select this option to display the amount of virtual memory that is allocated"
+" to the process."
 msgstr ""
-"Изберете тази опция, за да се показва количеството виртуална памет, което е "
-"алокирано към процеса."
 
-#: ../C/mate-system-monitor.xml:1340(guilabel)
-msgid "Resident Memory"
-msgstr "Постоянна памет"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1312
+msgid "<guilabel>Resident Memory</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1342(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1315
 msgid ""
 "Select this option to display the amount of physical memory that is "
 "allocated to the process."
 msgstr ""
-"Изберете тази опция, за да се показва количеството физическа памет, което е "
-"алокирано към процеса."
 
-#: ../C/mate-system-monitor.xml:1348(guilabel)
-msgid "Shared Memory"
-msgstr "Споделена памет"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1320
+msgid "<guilabel>Writable Memory</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1350(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1323
+msgid ""
+"Select this option to display the amount of memory that can be written by "
+"the process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1328
+msgid "<guilabel>Shared Memory</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1331
 msgid ""
 "Select this option to display the amount of shared memory that is allocated "
 "to the process. Shared memory is memory that can be accessed by another "
 "process."
 msgstr ""
-"Изберете тази опция, за да се показва количеството споделена памет, което е "
-"алокирано към процеса. Споделената памет е памет, която може да бъде "
-"достъпвана и от друг процес."
 
-#: ../C/mate-system-monitor.xml:1356(guilabel)
-msgid "RSS Memory"
-msgstr "RSS памет"
-
-#: ../C/mate-system-monitor.xml:1358(para)
-msgid ""
-"Select this option to display the amount of physical memory, excluding "
-"swapped-out pages, that is used by the process."
+#. (itstool) path: listitem/para
+#: C/index.docbook:1336
+msgid "<guilabel>X Server Memory</guilabel>"
 msgstr ""
-"Изберете тази опция, за да се показва количеството физическа памет (без "
-"страницирането), което се използва от процеса."
 
-#: ../C/mate-system-monitor.xml:1366(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1339
 msgid ""
 "Select this option to display the amount of X server memory that is used by "
 "the process."
 msgstr ""
-"Изберете тази опция, за да се показва количеството памет на X сървъра, което "
-"се използва от процеса."
 
-#: ../C/mate-system-monitor.xml:1372(guilabel)
-msgid "% CPU"
-msgstr "% CPU"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1344
+msgid "<guilabel>% CPU</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1374(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1347
 msgid ""
 "Select this option to display the percentage of CPU time currently being "
 "used by the process."
 msgstr ""
-"Изберете тази опция, за да се показва процента от процесорното време, което "
-"в момента се използва от процеса."
 
-#: ../C/mate-system-monitor.xml:1382(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1352
+msgid "<guilabel>CPU Time</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1355
+msgid ""
+"Select this option to display the amount of CPU time that has been used by "
+"the process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1360
+msgid "<guilabel>Started</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1363
+msgid "Select this option to display when the process began running."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1368
+msgid "<guilabel>Nice</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1371
 msgid ""
 "Select this option to display the nice value of the process. The nice value "
 "sets the priority of the process: the lower the nice value, the higher the "
 "priority."
 msgstr ""
-"Изберете тази опция, за да се показва стойността на nice за процеса. "
-"Стойността на nice определя приоритета на процеса: колкото по-ниска е тя, "
-"толкова по-висок е приоритетът."
 
-#: ../C/mate-system-monitor.xml:1390(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1376
+msgid "<guilabel>ID</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1379
 msgid ""
-"Select this option to display the process identifier, also known as the pid. "
-"The pid is a number that uniquely identifies the process. You can use the "
+"Select this option to display the process identifier, also known as the pid."
+" The pid is a number that uniquely identifies the process. You can use the "
 "pid to manipulate the process on the command line."
 msgstr ""
-"Изберете тази опция, за да се показва идентификатора за процеса, също познат "
-"и като pid. PID е номер, който идентифицира по уникален начин процеса. Може "
-"да използвате pid номера, за да манипулирате процеса от командния ред."
 
-#: ../C/mate-system-monitor.xml:1404(guilabel)
-msgid "Graphs"
-msgstr "Графики"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1384
+msgid "<guilabel>Memory</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1411(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1387
+msgid ""
+"Select this option to display the amount of system memory that is currently "
+"being used by the process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1392
+msgid "<guilabel>Security Context</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1395
+msgid ""
+"Select this option to display the security context in which the process is "
+"running."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1400
+msgid "<guilabel>Command Line</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1403
+msgid ""
+"Select this option to display the command line that was used to start the "
+"process, including arguments."
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:1414
+msgid "Resources"
+msgstr "Ресурси"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1417
+msgid "<guilabel>Graphs</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1424
 msgid ""
 "Use this spin box to specify how often you want to update the "
 "<application>System Monitor</application> graphs."
 msgstr ""
-"Използвайте полето, за да определите колко често да се опресняват графиките."
 
-#: ../C/mate-system-monitor.xml:1417(guilabel)
-msgid "Background color"
-msgstr "Фонов цвят"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1429
+msgid "<guilabel>Background color</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1419(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1432
 msgid ""
-"Use this button to customize the background color of the <application>System "
-"Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
+"Use this button to customize the background color of the <application>System"
+" Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
 "monitor-customize-background\"/>."
 msgstr ""
-"Използвайте този бутон, за да персонализирате фоновия цвят на графиките на "
-"<application>Наблюдение на системата</application>, както е описано в <xref "
-"linkend=\"mate-system-monitor-customize-background\"/>."
 
-#: ../C/mate-system-monitor.xml:1425(guilabel)
-msgid "Grid color"
-msgstr "Цвят на мрежата"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1437
+msgid "<guilabel>Grid color</guilabel>"
+msgstr ""
 
-#: ../C/mate-system-monitor.xml:1427(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1440
 msgid ""
 "Use this button to customize the grid color of the <application>System "
 "Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
 "monitor-customize-grid\"/>."
 msgstr ""
-"Използвайте този бутон, за да персонализирате цвета на мрежата в графиките "
-"на <application>Наблюдение на системата</application>, както е описано в "
-"<xref linkend=\"mate-system-monitor-customize-grid\"/>."
 
-#: ../C/mate-system-monitor.xml:1435(guilabel)
-msgid "Devices"
-msgstr "Устройства"
-
-#: ../C/mate-system-monitor.xml:1442(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1455
 msgid ""
-"Use this spin box to specify how often you want to update the "
-"<guilabel>Devices</guilabel> table."
+"Use this spin box to specify how often you want to update the <guilabel>File"
+" Systems</guilabel> table."
 msgstr ""
-"Използвайте това поле, за да определите колко често искате да се опреснява "
-"таблицата <guilabel>Устройства</guilabel>."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: ../C/mate-system-monitor.xml:0(None)
-msgid "translator-credits"
-msgstr "Rostislav Raykov <zbrox@i-space.org>, 2005"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1460
+msgid "<guilabel>Show all file systems</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1463
+msgid ""
+"Select this option to show all file systems, including temporary and system "
+"ones."
+msgstr ""
+
+#. (itstool) path: para/ulink
+#: C/legal.xml:9
+msgid "link"
+msgstr "връзка"
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
+" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""

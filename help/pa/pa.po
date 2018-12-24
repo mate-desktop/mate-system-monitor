@@ -1,88 +1,101 @@
-# translation of mate-system-monitor-help.HEAD.po to Punjabi
-# A S Alam <aalam@users.sf.net>, 2007.
-# Amanpreet Singh Alam <aalam@users.sf.net>, 2009.
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Wolfgang Ulbrich <mate@raveit.de>, 2018
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor-help.HEAD\n"
-"POT-Creation-Date: 2008-11-07 13:26+0100\n"
-"PO-Revision-Date: 2009-03-09 22:27+0530\n"
-"Last-Translator: Amanpreet Singh Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"POT-Creation-Date: 2018-10-08 10:20+0200\n"
+"PO-Revision-Date: 2018-10-05 17:12+0000\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2018\n"
+"Language-Team: Panjabi (Punjabi) (https://www.transifex.com/mate/teams/13566/pa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: pa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/mate-system-monitor.xml:290(None)
-msgid ""
-"@@image: 'figures/mate-system-monitor_window.png'; "
-"md5=0a938d7d8c6910fdc96cb845f6e2af74"
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
 msgstr ""
-"@@image: 'figures/mate-system-monitor_window.png'; "
-"md5=0a938d7d8c6910fdc96cb845f6e2af74"
+"ਜਸਵਿੰਦਰ ਸਿੰਘ ਫੂਲੇਵਾਲਾ ੨੦੦੪\n"
+"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮਵਾਲਾ ੨੦੦੪-੨੦੧੦\n"
+"ਪੰਜਾਬੀ ਓਪਨ ਸੋਰਸ ਟੀਮ (POST)\n"
+"http://www.satluj.com"
 
-#: C/mate-system-monitor.xml:23(title)
-#: C/mate-system-monitor.xml:81(revnumber)
-msgid "System Monitor Manual V2.1"
-msgstr "ਸਿਸਟਮ ਮਾਨੀਟਰ ਦਸਤਾਵੇਜ਼ V2.1"
+#. (itstool) path: articleinfo/title
+#: C/index.docbook:23
+msgid "System Monitor Manual V2.3"
+msgstr ""
 
-#: C/mate-system-monitor.xml:26(year) C/mate-system-monitor.xml:32(year)
-msgid "2004"
-msgstr "2004"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:25
+msgid "<year>2015</year> <holder>MATE Documentation Project</holder>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:27(holder)
-#: C/mate-system-monitor.xml:56(orgname)
-msgid "Sun Microsystems"
-msgstr "ਸਨ ਮਾਈਕਰੋਸਿਸਟਮ"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:28
+msgid "<year>2009</year> <holder>Paul Cutler</holder>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:30(year)
-msgid "2001"
-msgstr "2001"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:32
+msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:31(year)
-msgid "2002"
-msgstr "2002"
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:36
+msgid ""
+"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
+"Day</holder>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:33(holder)
-msgid "Bill Day"
-msgstr "ਬਿਲ ਡੇਅ"
-
-#: C/mate-system-monitor.xml:44(publishername)
-#: C/mate-system-monitor.xml:85(para) C/mate-system-monitor.xml:95(para)
-#: C/mate-system-monitor.xml:105(para)
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
 msgstr "ਗਨੋਮ ਦਸਤਾਵੇਜ਼ ਪ੍ਰੋਜੈਕਟ"
 
-#: C/mate-system-monitor.xml:2(para)
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
+#: C/index.docbook:140 C/index.docbook:150
+msgid "GNOME Documentation Project"
+msgstr ""
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
+" of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
-"ਇਹ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਗਨੂ ਮੁਕਤ ਦਸਤਾਵੇਜ਼ ਲਾਈਸੈਂਸ (GFDL), ਵਰਜਨ 1.1 ਜਾਂ ਨਵੇਂ, ਜੋ ਕਿ ਫਰੀ ਸਾਫਟਵੇਅਰ "
-"ਫਾਊਡੇਸ਼ਨ ਵਲੋਂ ਬਦਲਵੇਂ ਭਾਗ, ਨਾ ਮੁੱਢਲੇ-ਢੱਕਣ ਪਾਠ ਅਤੇ ਨਾ ਹੀ ਪਿੱਛੇ-ਢੱਕਣ ਪਾਠ ਨਾਲ ਜਾਰੀ ਹੈ, ਦੀਆਂ ਸ਼ਰਤਾਂ "
-"ਅਧੀਨ ਨਕਲ ਕਰਨ, ਵੰਡਣ ਅਤੇ/ਜਾਂ ਸੋਧਣ ਦਾ ਅਧਿਕਾਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਤੁਸੀਂ GFDL ਦੀ ਨਕਲ <ulink "
-"type=\"help\" url=\"help:fdl\"> ਸਬੰਧ</ulink> ਉੱਤੇ ਜਾਂ ਇਹ ਦਸਤਾਵੇਜ਼ 'ਚ COPYING-DOCS "
-"ਫਾਇਲ ਵਿੱਚੋਂ ਲੈ ਸਕਦੇ ਹੋ।"
+"ਇਹ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਗਨੂ ਮੁਕਤ ਦਸਤਾਵੇਜ਼ ਲਾਈਸੈਂਸ (GFDL), ਵਰਜਨ 1.1 ਜਾਂ ਨਵੇਂ, ਜੋ ਕਿ "
+"ਫਰੀ ਸਾਫਟਵੇਅਰ ਫਾਊਡੇਸ਼ਨ ਵਲੋਂ ਬਦਲਵੇਂ ਭਾਗ, ਨਾ ਮੁੱਢਲੇ-ਢੱਕਣ ਪਾਠ ਅਤੇ ਨਾ ਹੀ "
+"ਪਿੱਛੇ-ਢੱਕਣ ਪਾਠ ਨਾਲ ਜਾਰੀ ਹੈ, ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਧੀਨ ਨਕਲ ਕਰਨ, ਵੰਡਣ ਅਤੇ/ਜਾਂ ਸੋਧਣ ਦਾ "
+"ਅਧਿਕਾਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਤੁਸੀਂ GFDL ਦੀ ਨਕਲ <ulink type=\"help\" "
+"url=\"help:fdl\"> ਸਬੰਧ</ulink> ਉੱਤੇ ਜਾਂ ਇਹ ਦਸਤਾਵੇਜ਼ 'ਚ COPYING-DOCS ਫਾਇਲ "
+"ਵਿੱਚੋਂ ਲੈ ਸਕਦੇ ਹੋ।"
 
-#: C/mate-system-monitor.xml:12(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:12 C/legal.xml:12
 msgid ""
 "This manual is part of a collection of MATE manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
-"you can do so by adding a copy of the license to the manual, as described in "
-"section 6 of the license."
+"you can do so by adding a copy of the license to the manual, as described in"
+" section 6 of the license."
 msgstr ""
-"ਇਹ ਦਸਤਾਵੇਜ਼ ਗਨੋਮ ਦਸਤਾਵੇਜ਼ ਭੰਡਾਰ ਦਾ ਭਾਗ ਹੈ, ਜੋ ਕਿ GFDL ਦੇ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ ਹੈ। ਜੇ ਤੁਸੀਂ "
-"ਇਹ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਭੰਡਾਰ ਤੋਂ ਬਿਨਾਂ ਵੰਡਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਇਹ ਲਾਈਸੈਂਸ ਦੇ ਭਾਗ 6 ਵਿੱਚ ਦੱਸੇ ਮੁਤਾਬਕ "
-"ਦਸਤਾਵੇਜ਼ ਨਾਲ ਲਾਈਸੈਂਸ ਦੀ ਇੱਕ ਨਕਲ ਜੋੜ ਕੇ ਕਰ ਸਕਦੇ ਹੋ।"
+"ਇਹ ਦਸਤਾਵੇਜ਼ ਗਨੋਮ ਦਸਤਾਵੇਜ਼ ਭੰਡਾਰ ਦਾ ਭਾਗ ਹੈ, ਜੋ ਕਿ GFDL ਦੇ ਅਧੀਨ ਜਾਰੀ ਕੀਤਾ ਗਿਆ "
+"ਹੈ। ਜੇ ਤੁਸੀਂ ਇਹ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਭੰਡਾਰ ਤੋਂ ਬਿਨਾਂ ਵੰਡਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਇਹ "
+"ਲਾਈਸੈਂਸ ਦੇ ਭਾਗ 6 ਵਿੱਚ ਦੱਸੇ ਮੁਤਾਬਕ ਦਸਤਾਵੇਜ਼ ਨਾਲ ਲਾਈਸੈਂਸ ਦੀ ਇੱਕ ਨਕਲ ਜੋੜ ਕੇ ਕਰ "
+"ਸਕਦੇ ਹੋ।"
 
-#: C/mate-system-monitor.xml:19(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:19 C/legal.xml:19
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any MATE "
@@ -90,11 +103,13 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
-"ਕੰਪਨੀਆਂ ਵਲੋਂ ਆਪਣੇ ਉਤਪਾਦਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਲਈ ਵਰਤੇ ਗਏ ਕਈ ਨਾਂ ਮਾਰਕੇ ਹਨ। ਜਦੋਂ ਵੀ ਉਹ ਨਾਂ ਕਿਸੇ ਗਨੋਮ "
-"ਦਸਤਾਵੇਜ਼ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਆਉਦੇ ਹਨ ਅਤੇ ਗਨੋਮ ਦਸਤਾਵੇਜ਼ ਪ੍ਰੋਜੈਕਟ ਦੇ ਮੈਂਬਰ ਹਨ ਤਾਂ ਉਨ੍ਹਾਂ ਮਾਰਕਿਆਂ ਬਾਰੇ "
-"ਜਾਣਕਾਰੀ ਦੇਣ ਲਈ, ਉਹਨਾਂ ਨੇ ਦੇ ਨਾਂ ਵੱਡੇ ਅੱਖਰਾਂ ਵਿੱਚ ਜਾਂ ਪਹਿਲੇਂ ਅੱਖਰ ਵੱਡੇ ਰੱਖੇ ਗਏ ਹਨ।"
+"ਕੰਪਨੀਆਂ ਵਲੋਂ ਆਪਣੇ ਉਤਪਾਦਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਲਈ ਵਰਤੇ ਗਏ ਕਈ ਨਾਂ ਮਾਰਕੇ ਹਨ। ਜਦੋਂ ਵੀ ਉਹ"
+" ਨਾਂ ਕਿਸੇ ਗਨੋਮ ਦਸਤਾਵੇਜ਼ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਆਉਦੇ ਹਨ ਅਤੇ ਗਨੋਮ ਦਸਤਾਵੇਜ਼ ਪ੍ਰੋਜੈਕਟ ਦੇ "
+"ਮੈਂਬਰ ਹਨ ਤਾਂ ਉਨ੍ਹਾਂ ਮਾਰਕਿਆਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦੇਣ ਲਈ, ਉਹਨਾਂ ਨੇ ਦੇ ਨਾਂ ਵੱਡੇ ਅੱਖਰਾਂ"
+" ਵਿੱਚ ਜਾਂ ਪਹਿਲੇਂ ਅੱਖਰ ਵੱਡੇ ਰੱਖੇ ਗਏ ਹਨ।"
 
-#: C/mate-system-monitor.xml:35(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:35 C/legal.xml:35
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -120,127 +135,171 @@ msgstr ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 
-#: C/mate-system-monitor.xml:55(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:55 C/legal.xml:55
 msgid ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
+" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
 "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
 "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
 "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
 "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
-"POSSIBILITY OF SUCH DAMAGES."
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
+" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
+" POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
+" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
 "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
 "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
 "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
 "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
-"POSSIBILITY OF SUCH DAMAGES."
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
+" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
+" POSSIBILITY OF SUCH DAMAGES."
 
-#: C/mate-system-monitor.xml:28(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:28 C/legal.xml:28
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<placeholder-1/>"
+"<_:orderedlist-1/>"
 msgstr ""
-"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
-"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<placeholder-1/>"
 
-#: C/mate-system-monitor.xml:54(firstname)
-msgid "Sun"
-msgstr "ਸੂਰਜ"
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:63
+msgid ""
+"<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
+"<orgname>MATE Desktop</orgname> </affiliation>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:55(surname)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:70
+msgid ""
+"<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
+msgstr ""
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:75
+msgid ""
+"<firstname>Bill</firstname> <surname>Day</surname> "
+"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
+msgstr ""
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:80
+msgid ""
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> "
+"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
+msgstr ""
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "MATE ਦਸਤਾਵੇਜ਼ ਟੀਮ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:59(firstname)
-msgid "Bill"
-msgstr "ਬਿਲ"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:108
+msgid ""
+"<revnumber>System Monitor Manual V2.3</revnumber> <date>July 2015</date> "
+"<_:revdescription-1/>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:60(surname)
-msgid "Day"
-msgstr "ਡੇਅ"
+#. (itstool) path: revdescription/para
+#: C/index.docbook:120
+msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:61(email)
-msgid "billday@bellatlantic.net"
-msgstr "billday@bellatlantic.net"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:116
+msgid ""
+"<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
+"<_:revdescription-1/>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:82(date)
-msgid "February 2004"
-msgstr "ਫਰਵਰੀ 2004"
+#. (itstool) path: revdescription/para
+#: C/index.docbook:130
+msgid "Sun GNOME Documentation Team"
+msgstr ""
 
-#: C/mate-system-monitor.xml:84(para)
-msgid "Sun MATE Documentation Team"
-msgstr "ਸਨ ਗਨੋਮ ਦਸਤਾਵੇਜ਼ ਟੀਮ"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:126
+msgid ""
+"<revnumber>System Monitor Manual V2.1</revnumber> <date>February 2004</date>"
+" <_:revdescription-1/>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:89(revnumber)
-msgid "System Monitor Manual V2.0"
-msgstr "ਸਿਸਟਮ ਮਾਨੀਟਰ ਦਸਤਾਵੇਜ਼ V2.0"
-
-#: C/mate-system-monitor.xml:90(date)
-msgid "November 2002"
-msgstr "ਨਵੰਬਰ 2002"
-
-#: C/mate-system-monitor.xml:92(para) C/mate-system-monitor.xml:102(para)
+#. (itstool) path: revdescription/para
+#: C/index.docbook:138 C/index.docbook:147
 msgid "Bill Day <email>billday@bellatlantic.net</email>"
-msgstr "Bill Day <email>billday@bellatlantic.net</email>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:99(revnumber)
-msgid "Procman Manual V0.11"
-msgstr "ਪਰੋਸਮੈਨ ਦਸਤਾਵੇਜ਼ V0.11"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:134
+msgid ""
+"<revnumber>System Monitor Manual V2.0</revnumber> <date>November 2002</date>"
+" <_:revdescription-1/>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:100(date)
-msgid "January 2002"
-msgstr "ਜਨਵਰੀ 2002"
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:143
+msgid ""
+"<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
+"<_:revdescription-1/>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:110(releaseinfo)
-msgid "This manual describes version 2.5.2 of System Monitor."
-msgstr "ਇਹ ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਸਿਸਟਮ ਮਾਨੀਟਰ ਦੇ ਵਰਜਨ 2.5.2 ਬਾਰੇ ਜਾਣਕਾਰੀ ਹੈ।"
+#. (itstool) path: articleinfo/releaseinfo
+#: C/index.docbook:155
+msgid "This manual describes version 1.10.0 of System Monitor."
+msgstr ""
 
-#: C/mate-system-monitor.xml:114(title)
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:160
 msgid "Feedback"
 msgstr "ਸੁਝਾਅ"
 
-#: C/mate-system-monitor.xml:115(para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help:"
-"mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink url=\"help"
+":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
-"ਸਿਸਟਮ ਮਾਨੀਟਰ ਕਾਰਜ ਜਾਂ ਇਹ ਦਸਤਾਵੇਜ਼ ਬਾਰੇ ਬੱਗ ਰਿਪੋਰਟ ਦੇਣ ਜਾਂ ਸੁਝਾਅ ਲਈ, <ulink url="
-"\"help:mate-feedback\" type=\"help\">ਗਨੋਮ ਸੁਝਾਅ ਸਫ਼ਾ</ulink> ਦੀਆਂ ਹਦਾਇਤਾਂ ਦੀ "
-"ਪਾਲਨਾ ਕਰੋ।"
 
-#: C/mate-system-monitor.xml:123(para)
-msgid "User manual for System Monitor"
-msgstr "ਸਿਸਟਮ ਮਾਨੀਟਰ ਲਈ ਉਪਭੋਗੀ ਦਸਤਾਵੇਜ਼"
+#. (itstool) path: abstract/para
+#: C/index.docbook:169
+msgid ""
+"System Monitor gives users a graphical user interface for monitoring CPU, "
+"network, and memory activities as well as a way for viewing and stopping "
+"system processes."
+msgstr ""
 
-#: C/mate-system-monitor.xml:128(primary)
-msgid "System Monitor"
-msgstr "ਸਿਸਟਮ ਮਾਨੀਟਰ"
+#. (itstool) path: article/indexterm
+#: C/index.docbook:177
+msgid "<primary>System Monitor</primary>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:131(primary)
-msgid "mate-system-monitor"
-msgstr "mate-system-monitor"
+#. (itstool) path: article/indexterm
+#: C/index.docbook:180
+msgid "<primary>mate-system-monitor</primary>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:134(primary)
-msgid "procman"
-msgstr "procman"
+#. (itstool) path: article/indexterm
+#: C/index.docbook:183
+msgid "<primary>procman</primary>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:140(title)
+#. (itstool) path: sect1/title
+#: C/index.docbook:190
 msgid "Introduction"
 msgstr "ਜਾਣ ਪਛਾਣ"
 
-#: C/mate-system-monitor.xml:141(para)
+#. (itstool) path: sect1/para
+#: C/index.docbook:191
 msgid ""
 "The <application>System Monitor</application> application enables you to "
 "display basic system information and monitor system processes, usage of "
@@ -248,294 +307,368 @@ msgid ""
 "Monitor</application> to modify the behavior of your system."
 msgstr ""
 
-#: C/mate-system-monitor.xml:144(para)
+#. (itstool) path: sect1/para
+#: C/index.docbook:194
 msgid ""
 "The <application>System Monitor</application> window contains four tabbed "
 "sections:"
-msgstr "<application>ਸਿਸਟਮ ਮਾਨੀਟਰ</application> ਵਿੰਡੋ ਦੇ ਚਾਰ ਟੈਬ ਭਾਗ ਹਨ:"
+msgstr ""
 
-#: C/mate-system-monitor.xml:150(guilabel)
-#: C/mate-system-monitor.xml:318(guilabel)
-msgid "System"
-msgstr "ਸਿਸਟਮ"
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:199 C/index.docbook:367
+msgid "<guilabel>System</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:153(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:203
 msgid ""
 "Displays various basic information about the computer's hardware and "
 "software."
 msgstr ""
 
-#: C/mate-system-monitor.xml:156(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:206
 msgid "Distribution"
-msgstr "ਡਿਸਟਰੀਬਿਊਸ਼ਨ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:162(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:212
 msgid "Distribution version"
-msgstr "ਡਿਸਟਰੀਬਿਊਸ਼ਨ ਵਰਜਨ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:165(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:215
 msgid "Linux Kernel version"
-msgstr "ਲੀਨਕਸ ਕਰਨਲ ਵਰਜਨ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:168(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:218
 msgid "MATE version"
-msgstr "ਗਨੋਮ ਵਰਜਨ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:174(term)
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:224 C/index.docbook:435
 msgid "Hardware"
-msgstr "ਹਾਰਡਵੇਅਰ"
+msgstr "ਜੰਤਰ"
 
-#: C/mate-system-monitor.xml:180(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:230
 msgid "Installed memory"
-msgstr "ਇੰਸਟਾਲ ਹੋਈ ਮੈਮੋਰੀ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:183(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:233
 msgid "Processors and speeds"
-msgstr "ਪਰੋਸੈਸਰ ਅਤੇ ਸਪੀਡ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:189(term)
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:239 C/index.docbook:440
 msgid "System Status"
-msgstr "ਸਿਸਟਮ ਹਾਲਤ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:195(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:245
 msgid "Currently available disk space"
-msgstr "ਮੌਜੂਦਾ ਉਪਲੱਬਧ ਡਿਸਕ ਥਾਂ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:205(guilabel)
-#: C/mate-system-monitor.xml:326(guilabel)
-#: C/mate-system-monitor.xml:1148(title)
-msgid "Processes"
-msgstr "ਪਰੋਸੈੱਸ"
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:254 C/index.docbook:375
+msgid "<guilabel>Processes</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:208(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:258
 msgid ""
 "Shows active processes, and how processes are related to each other. "
-"Provides detailed information about individual processes, and enables you to "
-"control active processes."
+"Provides detailed information about individual processes, and enables you to"
+" control active processes."
 msgstr ""
 
-#: C/mate-system-monitor.xml:215(guilabel)
-#: C/mate-system-monitor.xml:334(guilabel)
-#: C/mate-system-monitor.xml:1335(title)
-msgid "Resources"
-msgstr "ਸਰੋਤ (ਰੀਸੋਰਸ)"
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:264 C/index.docbook:383
+msgid "<guilabel>Resources</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:218(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:268
 msgid "Displays the current usage of the following system resources:"
-msgstr "ਅੱਗੇ ਦਿੱਤੇ ਸਿਸਟਮ ਸਰੋਤਾਂ ਦੀ ਮੌਕੇ ਦੀ ਵਰਤੋਂ ਵੇਖਾਉਦਾ ਹੈ:"
-
-#: C/mate-system-monitor.xml:223(para)
-msgid "CPU (central processing unit) time"
-msgstr "CPU (ਸੈਂਟਰਲ ਪ੍ਰੋਸੈਸਿੰਗ ਯੂਨਿਟ) ਸਮਾਂ"
-
-#: C/mate-system-monitor.xml:228(para)
-msgid "Memory and swap space"
-msgstr "ਮੈਮੋਰੀ ਅਤੇ ਸਵੈਪ ਥਾਂ"
-
-#: C/mate-system-monitor.xml:233(para)
-msgid "Network usage"
-msgstr "ਨੈੱਟਵਰਕ ਵਰਤੋਂ"
-
-#: C/mate-system-monitor.xml:242(guilabel)
-#: C/mate-system-monitor.xml:342(guilabel)
-#: C/mate-system-monitor.xml:1369(guilabel)
-msgid "File Systems"
-msgstr "ਫਾਇਲ ਸਿਸਟਮ"
-
-#: C/mate-system-monitor.xml:245(para)
-msgid "Lists all mounted filesystems along with basic information about each."
 msgstr ""
 
-#: C/mate-system-monitor.xml:255(title)
+#. (itstool) path: listitem/para
+#: C/index.docbook:273
+msgid "CPU (central processing unit) time"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:278
+msgid "Memory and swap space"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:283
+msgid "Network usage"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1448
+msgid "<guilabel>File Systems</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:295
+msgid ""
+"Lists all mounted file systems along with basic information about each."
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:305
 msgid "Getting Started"
-msgstr "ਸ਼ੁਰੂ ਕਰੋ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:259(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:309
 msgid "To Start System Monitor"
-msgstr "ਸਿਸਟਮ ਮਾਨੀਟਰ ਚਲਾਉਣ ਲਈ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:260(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:310
 msgid ""
 "You can start <application>System Monitor</application> in the following "
 "ways:"
-msgstr "ਹੇਠ ਦਿੱਤੇ ਢੰਗਾਂ ਨਾਲ <application>ਸਿਸਟਮ ਮਾਨੀਟਰ</application> ਸ਼ੁਰੂ ਕਰੋ:"
+msgstr ""
 
-#: C/mate-system-monitor.xml:263(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:313
 msgid "<guimenu>System</guimenu> menu"
-msgstr "<guimenu>ਸਿਸਟਮ</guimenu> ਮੇਨੂ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:265(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:315
 msgid ""
-"Choose <menuchoice><guimenu>Administration</guimenu><guimenuitem>System "
+"Choose <menuchoice><guimenu>Administration</guimenu> <guimenuitem>System "
 "Monitor</guimenuitem></menuchoice>."
-msgstr "<menuchoice><guimenu>ਪਰਸ਼ਾਸ਼ਨ</guimenu><guimenuitem>ਸਿਸਟਮ</guimenuitem></menuchoice> ਚੁਣੋ।"
+msgstr ""
 
-#: C/mate-system-monitor.xml:271(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:321
 msgid "Command line"
-msgstr "ਕਮਾਂਡ ਲਾਇਨ"
+msgstr "ਕਮਾਂਡ ਲਾਈਨ"
 
-#: C/mate-system-monitor.xml:273(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:323
 msgid "Execute the following command: <command>mate-system-monitor</command>"
-msgstr "ਅੱਗੇ ਦਿੱਤੀ ਕਮਾਂਡ ਚਲਾਓ: <command>mate-system-monitor</command>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:281(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:331
 msgid "When You Start System Monitor"
-msgstr "ਜਦੋਂ ਤੁਸੀਂ ਸਿਸਟਮ ਮਾਨੀਟਰ ਚਲਾ ਲਵੋ ਤਾਂ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:282(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:332
 msgid ""
 "When you start <application>System Monitor</application>, the following "
 "window is displayed:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:286(title)
+#. (itstool) path: figure/title
+#: C/index.docbook:336
 msgid "System Monitor Window"
-msgstr "ਸਿਸਟਮ ਮਾਨੀਟਰ ਝਰੋਖਾ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:292(phrase)
-msgid "Shows System Monitor main window."
-msgstr "ਸਿਸਟਮ ਮਾਨੀਟਰ ਮੁੱਖ ਝਰੋਖਾ ਵੇਖਾਉਦਾ ਹੈ।"
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:340
+msgctxt "_"
+msgid ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
+msgstr ""
 
-#: C/mate-system-monitor.xml:297(para)
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:338
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/mate-system-monitor_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows System Monitor "
+"main window.</phrase> </textobject>"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:347
 msgid ""
 "The <application>System Monitor</application> window contains the following "
 "elements:"
-msgstr "<application>ਸਿਸਟਮ ਮਾਨੀਟਰ</application> ਝਰੋਖੇ ਵਿੱਚ ਹੇਠ ਦਿੱਤੇ ਭਾਗ ਹਨ:"
+msgstr ""
 
-#: C/mate-system-monitor.xml:302(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:352
 msgid "Menubar"
 msgstr "ਮੇਨੂ-ਪੱਟੀ"
 
-#: C/mate-system-monitor.xml:304(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:354
 msgid ""
-"The menus on the menubar contain all of the commands that you need to work "
-"with <application>System Monitor</application>."
+"The menus on the menubar contain all the commands that you need to work with"
+" <application>System Monitor</application>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:310(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:360
 msgid "Display area"
-msgstr "ਵੇਖਾਉਣ ਖੇਤਰ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:312(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:362
 msgid ""
 "The display area contains the system monitor information. The display area "
 "contains the following tabbed sections:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:320(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:370
 msgid ""
-"Contains a list of basic system properties, such as system software versions "
-"and hardware specifications and status."
+"Contains a list of basic system properties, such as system software versions"
+" and hardware specifications and status."
 msgstr ""
 
-#: C/mate-system-monitor.xml:328(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:378
 msgid ""
 "Contains a list of processes organized as a table, a list of load averages "
-"over the past few minutes, and an \"End Process\" button."
+"over the past few minutes, and an <guibutton>End Process</guibutton> button."
 msgstr ""
 
-#: C/mate-system-monitor.xml:336(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:386
 msgid ""
 "Contains a <guilabel>CPU History</guilabel> graph, a <guilabel>Memory and "
 "Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
 "graph."
 msgstr ""
 
-#: C/mate-system-monitor.xml:344(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:394
 msgid "Contains a table of currently mounted file systems."
 msgstr ""
 
-#: C/mate-system-monitor.xml:352(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:402
 msgid "Statusbar"
 msgstr "ਹਾਲਤ-ਪੱਟੀ"
 
-#: C/mate-system-monitor.xml:354(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:404
 msgid ""
 "The statusbar displays information about current <application>System "
 "Monitor</application> activity and contextual information about the menu "
 "items."
 msgstr ""
 
-#: C/mate-system-monitor.xml:368(title)
+#. (itstool) path: sect1/title
+#: C/index.docbook:418
 msgid "Usage"
 msgstr "ਵਰਤੋਂ"
 
-#: C/mate-system-monitor.xml:371(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:421
 msgid "To Display Basic System Information"
-msgstr "ਮੁੱਢਲੀ ਸਿਸਟਮ ਜਾਣਕਾਰੀ ਵੇਖਣੀ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:372(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:422
 msgid ""
 "To display basic system information, select the <guilabel>System</guilabel> "
 "tab."
 msgstr ""
 
-#: C/mate-system-monitor.xml:375(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:425
 msgid ""
 "In the <guilabel>System</guilabel> tab, information is organized into three "
-"groups,"
+"groups:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:381(title)
+#. (itstool) path: listitem/para
+#: C/index.docbook:430
+msgid "System Information"
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:448
 msgid "To Display the Process List"
-msgstr "ਪ੍ਰੋਸੈੱਸ ਲਿਸਟ ਵੇਖਣ ਲਈ"
-
-#: C/mate-system-monitor.xml:382(para)
-msgid "To display the process list, select the <guilabel>Processes</guilabel> tab."
 msgstr ""
 
-#: C/mate-system-monitor.xml:385(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:449
+msgid ""
+"To display the process list, select the <guilabel>Processes</guilabel> tab."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:452
 msgid ""
 "In the <guilabel>Processes</guilabel> tab, the processes are organized as a "
 "table. The rows of the table display information about the processes. The "
 "columns represent information fields for the processes, such as the name of "
 "the user who owns the process, the amount of memory currently being used by "
-"the process, and so on. From left to right, the <guilabel>Processes</"
-"guilabel> tab displays the following columns by default:"
+"the process, and so on. From left to right, the "
+"<guilabel>Processes</guilabel> tab displays the following columns by "
+"default:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:390(para)
-#: C/mate-system-monitor.xml:1202(guilabel)
+#. (itstool) path: listitem/para
+#: C/index.docbook:457
 msgid "Process Name"
-msgstr "ਪ੍ਰੋਸੈੱਸ ਨਾਂ"
+msgstr "ਪਰੋਸੈੱਸ ਨਾਂ"
 
-#: C/mate-system-monitor.xml:393(para)
-#: C/mate-system-monitor.xml:1218(guilabel)
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
 msgid "Status"
 msgstr "ਹਾਲਤ"
 
-#: C/mate-system-monitor.xml:396(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:463
 msgid "%CPU"
-msgstr "%CPU"
+msgstr ""
 
-#: C/mate-system-monitor.xml:399(para)
-#: C/mate-system-monitor.xml:1290(guilabel)
+#. (itstool) path: listitem/para
+#: C/index.docbook:466
 msgid "Nice"
-msgstr "ਨਾਈਸ"
+msgstr "ਨਾਇਸ"
 
-#: C/mate-system-monitor.xml:402(para)
-#: C/mate-system-monitor.xml:1298(guilabel)
+#. (itstool) path: listitem/para
+#: C/index.docbook:469
 msgid "ID"
 msgstr "ID"
 
-#: C/mate-system-monitor.xml:405(para)
-#: C/mate-system-monitor.xml:1306(guilabel)
+#. (itstool) path: listitem/para
+#: C/index.docbook:472
 msgid "Memory"
 msgstr "ਮੈਮੋਰੀ"
 
-#: C/mate-system-monitor.xml:408(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:475
 msgid ""
 "For information about how to change the columns displayed in the process "
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
-"ਪ੍ਰੋਸੈੱਸ ਲਿਸਟ 'ਚ ਕਾਲਮ ਵੇਖਣੇ ਕਿੰਝ ਬਦਲਣ ਹਨ, ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ <xref linkend=\"mate-"
-"system-monitor-prefs-proclist\"/> ਵੇਖੋ।"
 
-#: C/mate-system-monitor.xml:413(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:480
 msgid "Parent Processes and Child Processes"
-msgstr "ਮੁੱਢਲਾ (ਪੇਰੈੱਟ) ਪ੍ਰੋਸੈੱਸ ਅਤੇ ਚਾਲਈਡ ਪ੍ਰੋਸੈੱਸ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:414(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:481
 msgid ""
 "A parent process is a process that spawns another process. The spawned "
 "process is a child process of the original parent process. By default, "
@@ -545,188 +678,233 @@ msgid ""
 "viewdeps\"/>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:420(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:487
 msgid "Process Priority and Nice Values"
-msgstr "ਪ੍ਰੋਸੈੱਸ ਤਰਜੀਹ ਅਤੇ ਨਾਈਸ ਮੁੱਲ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:421(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:488
 msgid ""
 "Processes run in order of priority: high-priority processes run before low-"
 "priority processes. Child processes generally inherit their priority from "
 "their parent process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:424(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:491
 msgid ""
 "The priority of a process is set by the nice value of the process, as "
 "follows:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:429(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:496
 msgid "A nice value of 0 means that the process has normal priority."
 msgstr ""
 
-#: C/mate-system-monitor.xml:434(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:501
 msgid "The higher the nice value, the lower the priority."
 msgstr ""
 
-#: C/mate-system-monitor.xml:439(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:506
 msgid "The lower the nice value, the higher the priority."
 msgstr ""
 
-#: C/mate-system-monitor.xml:444(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:511
 msgid ""
 "For information about how to change the priority of a process, see <xref "
 "linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:452(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:519
 msgid "To Sort the Process List"
-msgstr "ਪ੍ਰੋਸੈੱਸ ਲਿਸਟ ਲੜੀਬੱਧ ਕਰਨ ਲਈ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:453(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:520
 msgid "To sort the process list, perform the following steps:"
-msgstr "ਪ੍ਰੋਸੈੱਸ ਲਿਸਟ ਲੜੀਬੱਧ ਕਰਨ ਲਈ, ਹੇਠ ਦਿੱਤੇ ਪਗ਼ ਹਨ:"
-
-#: C/mate-system-monitor.xml:458(para) C/mate-system-monitor.xml:493(para)
-#: C/mate-system-monitor.xml:512(para) C/mate-system-monitor.xml:531(para)
-#: C/mate-system-monitor.xml:550(para) C/mate-system-monitor.xml:601(para)
-#: C/mate-system-monitor.xml:742(para) C/mate-system-monitor.xml:783(para)
-#: C/mate-system-monitor.xml:818(para)
-msgid "Select the <guilabel>Processes</guilabel> tab to display the process list."
 msgstr ""
 
-#: C/mate-system-monitor.xml:463(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:525 C/index.docbook:560 C/index.docbook:583
+#: C/index.docbook:606 C/index.docbook:629 C/index.docbook:680
+#: C/index.docbook:821 C/index.docbook:862 C/index.docbook:897
 msgid ""
-"By default, the processes are listed by name, in alphabetical order. To list "
-"the processes in reverse alphabetical order, click on the <guilabel>Process "
-"Name</guilabel> column header."
+"Select the <guilabel>Processes</guilabel> tab to display the process list."
 msgstr ""
 
-#: C/mate-system-monitor.xml:468(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:530
+msgid ""
+"By default, the processes are listed by name, in alphabetical order. To list"
+" the processes in reverse alphabetical order, click on the <guilabel>Process"
+" Name</guilabel> column header."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:535
 msgid ""
 "Click on any column header to sort the processes by the information in that "
 "column, in alphabetical or numerical order."
 msgstr ""
 
-#: C/mate-system-monitor.xml:473(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:540
 msgid ""
-"Click again on the column header to sort the data in reverse alphabetical or "
-"reverse numerical order."
+"Click again on the column header to sort the data in reverse alphabetical or"
+" reverse numerical order."
 msgstr ""
 
-#: C/mate-system-monitor.xml:481(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:548
 msgid "To Modify the Contents of the Process List"
 msgstr ""
 
-#: C/mate-system-monitor.xml:482(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:549
 msgid "You can modify the contents of the process list in several ways."
 msgstr ""
 
-#: C/mate-system-monitor.xml:487(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:554
 msgid "To Show All Processes"
-msgstr "ਸਭ ਪ੍ਰੋਸੈੱਸ ਵੇਖਣੇ"
-
-#: C/mate-system-monitor.xml:488(para)
-msgid "To show all processes in the process list, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:498(para)
-msgid "Choose <guimenu>View</guimenu><guimenuitem>All Processes</guimenuitem>."
-msgstr "<guimenu>ਵੇਖੋ</guimenu><guimenuitem>ਸਭ ਪਰੋਸੈੱਸ</guimenuitem> ਚੁਣੋ।"
+#. (itstool) path: sect3/para
+#: C/index.docbook:555
+msgid ""
+"To show all processes in the process list, perform the following steps:"
+msgstr ""
 
-#: C/mate-system-monitor.xml:506(title)
+#. (itstool) path: listitem/para
+#: C/index.docbook:565
+msgid ""
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All "
+"Processes</guimenuitem> </menuchoice>."
+msgstr ""
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:577
 msgid "To Show Only Processes Owned by the Current User"
 msgstr ""
 
-#: C/mate-system-monitor.xml:507(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:578
 msgid ""
 "To show only the processes that are owned by the current user, perform the "
 "following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:517(para)
-msgid "Choose <guimenu>View</guimenu><guimenuitem>My Processes</guimenuitem>."
-msgstr "<guimenu>ਵੇਖੋ</guimenu><guimenuitem>ਮੇਰੇ ਪਰੋਸੈੱਸ</guimenuitem> ਚੁਣੋ"
-
-#: C/mate-system-monitor.xml:525(title)
-msgid "To Show Only Active Processes"
-msgstr "ਸਿਰਫ਼ ਸਰਗਰਮ ਪ੍ਰੋਸੈੱਸ ਵੇਖਣ ਲਈ"
-
-#: C/mate-system-monitor.xml:526(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:588
 msgid ""
-"To show only the active processes in the process list, perform the following "
-"steps:"
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My "
+"Processes</guimenuitem> </menuchoice>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:536(para)
-msgid "Choose <guimenu>View</guimenu><guimenuitem>Active Processes</guimenuitem>."
-msgstr "<guimenu>ਵੇਖੋ</guimenu><guimenuitem>ਐਕਟਿਵ ਪਰੋਸੈਸ</guimenuitem> ਚੁਣੋ।"
+#. (itstool) path: sect3/title
+#: C/index.docbook:600
+msgid "To Show Only Active Processes"
+msgstr ""
 
-#: C/mate-system-monitor.xml:544(title)
+#. (itstool) path: sect3/para
+#: C/index.docbook:601
+msgid ""
+"To show only the active processes in the process list, perform the following"
+" steps:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:611
+msgid ""
+"Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active "
+"Processes</guimenuitem> </menuchoice>."
+msgstr ""
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:623
 msgid "To Show Dependencies"
-msgstr "ਨਿਰਭਰਤਾ ਵੇਖਣ ਲਈ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:545(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:624
 msgid ""
 "To show process dependencies in the process list, perform the following "
 "steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:555(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:634
 msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</"
-"guimenuitem></menuchoice>."
-msgstr "<menuchoice><guimenu>ਵੇਖੋ</guimenu><guimenuitem>ਨਿਰਭਰਤਾ</guimenuitem></menuchoice> ਚੁਣੋ।"
+"Choose "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
+msgstr ""
 
-#: C/mate-system-monitor.xml:560(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:639
 msgid ""
 "If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the "
 "processes are listed as follows:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:565(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:644
 msgid ""
 "Parent processes are indicated by a triangle symbol to the left of the "
 "process name. Click on the triangle symbol to show or hide the associated "
 "child processes."
 msgstr ""
 
-#: C/mate-system-monitor.xml:570(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:649
 msgid "Child processes are indented, and listed with their parent process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:575(para)
-msgid "If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
+#. (itstool) path: sect3/para
+#: C/index.docbook:654
+msgid ""
+"If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:580(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:659
 msgid "Parent processes and child processes are not distinguishable."
 msgstr ""
 
-#: C/mate-system-monitor.xml:585(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:664
 msgid "All processes are listed in alphabetical order."
 msgstr ""
 
-#: C/mate-system-monitor.xml:595(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:674
 msgid "To Display Memory Maps for a Process"
-msgstr "ਇੱਕ ਪ੍ਰੋਸੈੱਸ ਦਾ ਮੈਮੋਰੀ ਨਕਸ਼ਾ ਵੇਖਣਾ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:596(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:675
 msgid "To display memory maps for a process, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:606(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:685
 msgid "Select the process in the process list."
 msgstr ""
 
-#: C/mate-system-monitor.xml:611(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:690
 msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory Maps</"
-"guimenuitem></menuchoice>."
-msgstr "<menuchoice><guimenu>ਵੇਖੋ</guimenu><guimenuitem>ਮੈਮੋਰੀ ਨਕਸ਼ਾ</guimenuitem></menuchoice> ਚੁਣੋ।"
+"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory "
+"Maps</guimenuitem></menuchoice>."
+msgstr ""
 
-#: C/mate-system-monitor.xml:616(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:695
 msgid ""
 "The <guilabel>Memory Maps</guilabel> dialog displays the information in "
 "tabular format. The name of the process is displayed above the memory-map "
@@ -734,11 +912,13 @@ msgid ""
 "displays the following columns:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:621(guilabel)
-msgid "Filename"
-msgstr "ਫਾਇਲ ਨਾਂ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:700
+msgid "<guilabel>Filename</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:623(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:702
 msgid ""
 "The location of a shared library that is currently used by the process. If "
 "this field is blank, the memory information in this row describes memory "
@@ -746,259 +926,311 @@ msgid ""
 "table."
 msgstr ""
 
-#: C/mate-system-monitor.xml:629(guilabel)
-msgid "VM Start"
-msgstr "VM ਸ਼ੁਰੂ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:708
+msgid "<guilabel>VM Start</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:631(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:710
 msgid "The address at which the memory segment begins."
 msgstr ""
 
-#: C/mate-system-monitor.xml:637(guilabel)
-msgid "VM End"
-msgstr "VM ਅੰਤ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:716
+msgid "<guilabel>VM End</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:639(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:718
 msgid "The address at which the memory segment ends."
 msgstr ""
 
-#: C/mate-system-monitor.xml:645(guilabel)
-msgid "VM Size"
-msgstr "VM ਆਕਾਰ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:724
+msgid "<guilabel>VM Size</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:647(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:726
 msgid "The size of the memory segment."
-msgstr "ਮੈਮੋਰੀ ਸਿਗਮਿੰਟ ਦਾ ਆਕਾਰ ਹੈ।"
+msgstr ""
 
-#: C/mate-system-monitor.xml:653(guilabel)
-msgid "Flags"
-msgstr "ਨਿਸ਼ਾਨ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:732
+msgid "<guilabel>Flags</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:655(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:734
 msgid ""
 "The following flags describe the different types of memory-segment access "
 "that the process can have:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:660(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:739
 msgid "p"
-msgstr "p"
-
-#: C/mate-system-monitor.xml:662(para)
-msgid ""
-"The memory segment is private to the process, and is not accessible to other "
-"processes."
 msgstr ""
 
-#: C/mate-system-monitor.xml:668(term)
-msgid "r"
-msgstr "r"
+#. (itstool) path: listitem/para
+#: C/index.docbook:741
+msgid ""
+"The memory segment is private to the process, and is not accessible to other"
+" processes."
+msgstr ""
 
-#: C/mate-system-monitor.xml:670(para)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:747
+msgid "r"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:749
 msgid "The process has permission to read from the memory segment."
 msgstr ""
 
-#: C/mate-system-monitor.xml:676(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:755
 msgid "s"
-msgstr "s"
+msgstr ""
 
-#: C/mate-system-monitor.xml:678(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:757
 msgid "The memory segment is shared with other processes."
 msgstr ""
 
-#: C/mate-system-monitor.xml:684(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:763
 msgid "w"
-msgstr "w"
+msgstr ""
 
-#: C/mate-system-monitor.xml:686(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:765
 msgid "The process has permission to write into the memory segment."
 msgstr ""
 
-#: C/mate-system-monitor.xml:692(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:771
 msgid "x"
 msgstr "x"
 
-#: C/mate-system-monitor.xml:694(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:773
 msgid ""
-"The process has permission to execute instructions that are contained within "
-"the memory segment."
+"The process has permission to execute instructions that are contained within"
+" the memory segment."
 msgstr ""
 
-#: C/mate-system-monitor.xml:703(guilabel)
-msgid "VM offset"
-msgstr "VM ਆਫਸੈੱਟ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:782
+msgid "<guilabel>VM Offset</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:705(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:784
 msgid "The virtual memory offset of the memory segment."
 msgstr ""
 
-#: C/mate-system-monitor.xml:711(guilabel)
-#: C/mate-system-monitor.xml:912(term)
-msgid "Device"
-msgstr "ਜੰਤਰ"
-
-#: C/mate-system-monitor.xml:713(para)
-msgid ""
-"The major and minor device numbers of the device on which the shared library "
-"filename is located."
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:790
+msgid "<guilabel>Device</guilabel>"
 msgstr ""
 
-#: C/mate-system-monitor.xml:719(guilabel)
-msgid "Inode"
-msgstr "Inode"
+#. (itstool) path: listitem/para
+#: C/index.docbook:792
+msgid ""
+"The major and minor device numbers of the device on which the shared library"
+" filename is located."
+msgstr ""
 
-#: C/mate-system-monitor.xml:721(para)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:798
+msgid "<guilabel>Inode</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:800
 msgid ""
 "The inode on the device from which the shared library location is loaded "
 "into memory."
 msgstr ""
 
-#: C/mate-system-monitor.xml:727(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:806
 msgid ""
 "Click on any column header to sort the data by the information in that "
-"column, in alphabetical or numerical order. Click again on the column header "
-"to sort the data in reverse alphabetical or reverse numerical order."
+"column, in alphabetical or numerical order. Click again on the column header"
+" to sort the data in reverse alphabetical or reverse numerical order."
 msgstr ""
 
-#: C/mate-system-monitor.xml:730(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:809
 msgid ""
-"Click <guibutton>Close</guibutton> to close the <guilabel>Memory Maps</"
-"guilabel> dialog."
+"Click <guibutton>Close</guibutton> to close the <guilabel>Memory "
+"Maps</guilabel> dialog."
 msgstr ""
 
-#: C/mate-system-monitor.xml:736(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:815
 msgid "To Change the Priority of a Process"
-msgstr "ਇੱਕ ਪ੍ਰੋਸੈੱਸ ਦੀ ਤਰਜੀਹ ਬਦਲਣੀ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:737(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:816
 msgid "To change the priority of a process, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:747(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:826
 msgid "Select the process for which you want to change the priority."
 msgstr ""
 
-#: C/mate-system-monitor.xml:752(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:831
 msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</"
-"guimenuitem></menuchoice>. The <guilabel>Change Priority</guilabel> dialog "
-"is displayed."
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
+"Priority</guimenuitem></menuchoice>. The <guilabel>Change "
+"Priority</guilabel> dialog is displayed."
 msgstr ""
 
-#: C/mate-system-monitor.xml:757(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:836
 msgid "Use the slider to set the nice value of the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:760(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:839
 msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
 msgstr ""
 
-#: C/mate-system-monitor.xml:763(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:842
 msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
 msgstr ""
 
-#: C/mate-system-monitor.xml:768(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:847
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
 msgstr ""
 
-#: C/mate-system-monitor.xml:777(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:856
 msgid "To End a Process"
-msgstr "ਇੱਕ ਪ੍ਰੋਸੈੱਸ ਸਮਾਪਤ ਕਰਨਾ"
-
-#: C/mate-system-monitor.xml:778(para)
-msgid "To end a process, perform the following steps:"
-msgstr "ਇੱਕ ਪ੍ਰੋਸੈੱਸ ਨੂੰ ਸਮਾਪਤ ਕਰਨ ਲਈ ਹੇਠ ਦਿੱਤੇ ਪਗ਼ ਹਨ:"
-
-#: C/mate-system-monitor.xml:788(para)
-msgid "Select the process that you want to end."
-msgstr "ਪ੍ਰੋਸੈੱਸ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਸਮਾਪਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਚੁਣੋ।"
-
-#: C/mate-system-monitor.xml:793(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End Process</"
-"guimenuitem></menuchoice>, or click on the <guibutton>End Process</"
-"guibutton> button."
 msgstr ""
 
-#: C/mate-system-monitor.xml:796(para) C/mate-system-monitor.xml:831(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:857
+msgid "To end a process, perform the following steps:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:867
+msgid "Select the process that you want to end."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:872
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End "
+"Process</guimenuitem></menuchoice>, or click on the <guibutton>End "
+"Process</guibutton> button."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:875 C/index.docbook:910
 msgid ""
 "By default, a confirmation alert is displayed. For information about how to "
 "display or hide the confirmation alert, see <xref linkend=\"mate-system-"
 "monitor-prefs-proclist\"/>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:801(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:880
 msgid ""
 "Click on the <guibutton>End Process</guibutton> button to confirm that you "
 "want to end the process. <application>System Monitor</application> forces "
 "the process to finish normally."
 msgstr ""
 
-#: C/mate-system-monitor.xml:806(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:885
 msgid "This is the preferred way to stop a process."
-msgstr "ਇੱਕ ਪ੍ਰੋਸੈੱਸ ਨੂੰ ਰੋਕਣਾ ਦਾ ਇਹ ਸਿਫਾਰਸ਼ੀ ਢੰਗ ਹੈ।"
-
-#: C/mate-system-monitor.xml:812(title)
-msgid "To Terminate a Process"
-msgstr "ਇੱਕ ਪ੍ਰੋਸੈੱਸ ਨੂੰ ਖਤਮ ਕਰਨਾ"
-
-#: C/mate-system-monitor.xml:813(para)
-msgid "To terminate a process, perform the following steps:"
-msgstr "ਇੱਕ ਪ੍ਰੋਸੈੱਸ ਨੂੰ ਮਕਾਉਣ (ਖਤਮ ਕਰਨ) ਲਈ ਪਗ਼ ਅੱਗੇ ਦਿੱਤੇ ਹਨ:"
-
-#: C/mate-system-monitor.xml:823(para)
-msgid "Select the process that you want to terminate."
-msgstr "ਪ੍ਰੋਸੈੱਸ ਚੁਣੋ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਖਤਮ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।"
-
-#: C/mate-system-monitor.xml:828(para)
-msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill Process</"
-"guimenuitem></menuchoice>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:836(para)
+#. (itstool) path: sect2/title
+#: C/index.docbook:891
+msgid "To Terminate a Process"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:892
+msgid "To terminate a process, perform the following steps:"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:902
+msgid "Select the process that you want to terminate."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:907
+msgid ""
+"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill "
+"Process</guimenuitem></menuchoice>."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:915
 msgid ""
 "Click on the <guibutton>Kill Process</guibutton> button to confirm that you "
 "want to terminate the process. <application>System Monitor</application> "
 "forces the process to finish immediately."
 msgstr ""
 
-#: C/mate-system-monitor.xml:841(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:920
 msgid ""
 "You usually terminate a process only if you cannot end the process normally "
 "as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:847(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:926
 msgid "To Monitor CPU Usage"
-msgstr "CPU ਵਰਤੋਂ ਮਾਨੀਟਰੀ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:848(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:927
 msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
 
-#: C/mate-system-monitor.xml:851(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:930
 msgid ""
 "<application>System Monitor</application> displays the CPU usage history in "
-"graphical format. Underneath the graph, <application>System Monitor</"
-"application> also displays the current CPU usage, as a percentage."
+"graphical format. Underneath the graph, <application>System "
+"Monitor</application> also displays the current CPU usage, as a percentage."
 msgstr ""
 
-#: C/mate-system-monitor.xml:858(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:937
 msgid "To Monitor Memory and Swap Usage"
-msgstr "ਮੈਮੋਰੀ ਅਤੇ ਸਵੈਪ ਵਰਤੋਂ ਮਾਨੀਟਰੀ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:859(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:938
 msgid ""
 "To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
 "tab."
 msgstr ""
 
-#: C/mate-system-monitor.xml:862(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:941
 msgid ""
 "<application>System Monitor</application> displays the memory usage history "
 "and the swap usage history in graphical format. Underneath the graph, "
@@ -1006,487 +1238,618 @@ msgid ""
 "numerical values:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:867(para)
-msgid "User memory out of total memory"
-msgstr "ਕੁੱਲ ਮੈਮੋਰੀ ਵਿੱਚੋਂ ਯੂਜ਼ਰ ਮੈਮੋਰੀ"
-
-#: C/mate-system-monitor.xml:872(para)
-msgid "Used swap out of total swap"
-msgstr "ਕੁੱਲ ਸਵੈਪ ਵਿੱਚੋਂ ਵਰਤੀ ਸਵੈਪ"
-
-#: C/mate-system-monitor.xml:881(title)
-msgid "To Monitor Network Activity"
-msgstr "ਨੈੱਟਵਰਕ ਸਰਗਰਮੀ ਦੀ ਨਿਗਰਾਨੀ ਕਰਨੀ"
-
-#: C/mate-system-monitor.xml:882(para)
-msgid "To monitor network activity, select the <guilabel>Resources</guilabel> tab."
+#. (itstool) path: listitem/para
+#: C/index.docbook:946
+msgid "Used memory out of total memory"
 msgstr ""
 
-#: C/mate-system-monitor.xml:885(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:951
+msgid "Used swap out of total swap"
+msgstr ""
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:960
+msgid "To Monitor Network Activity"
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:961
+msgid ""
+"To monitor network activity, select the <guilabel>Resources</guilabel> tab."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:964
 msgid ""
 "<application>System Monitor</application> displays the network history in "
-"graphical format. Underneath the graph, <application>System Monitor</"
-"application> also displays the following numerical values:"
+"graphical format. Underneath the graph, <application>System "
+"Monitor</application> also displays the following numerical values:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:890(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:969
 msgid "Received data per second and total"
 msgstr ""
 
-#: C/mate-system-monitor.xml:895(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:974
 msgid "Sent data per second and total"
 msgstr ""
 
-#: C/mate-system-monitor.xml:903(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:982
 msgid "To Monitor File Systems"
-msgstr "ਫਾਇਲ ਸਿਸਟਮ ਮਾਨੀਟਰ ਕਰਨ ਲਈ"
-
-#: C/mate-system-monitor.xml:904(para)
-msgid "To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
 msgstr ""
 
-#: C/mate-system-monitor.xml:907(para)
+#. (itstool) path: sect2/para
+#: C/index.docbook:983
+msgid ""
+"To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
+msgstr ""
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:986
 msgid ""
 "<application>System Monitor</application> displays mounted file systems in "
-"tabular format. From left to right, the table displays the following columns:"
+"tabular format. From left to right, the table displays the following "
+"columns:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:916(para)
-msgid "Location of block file"
-msgstr "ਬਲਾਕ ਫਾਇਲ ਦਾ ਟਿਕਾਣਾ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:991
+msgid "Device"
+msgstr "ਜੰਤਰ"
 
-#: C/mate-system-monitor.xml:920(term)
+#. (itstool) path: listitem/para
+#: C/index.docbook:995
+msgid "Location of block file"
+msgstr ""
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:999
 msgid "Directory"
 msgstr "ਡਾਇਰੈਕਟਰੀ"
 
-#: C/mate-system-monitor.xml:924(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1003
 msgid "Mount point (directory to access) of device"
 msgstr ""
 
-#: C/mate-system-monitor.xml:928(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1007
 msgid "Type"
 msgstr "ਕਿਸਮ"
 
-#: C/mate-system-monitor.xml:932(para)
-msgid "Filesystem type"
-msgstr "ਫਾਇਲ ਸਿਸਟਮ ਟਾਈਪ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1011
+msgid "File system type"
+msgstr ""
 
-#: C/mate-system-monitor.xml:936(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1015
 msgid "Total"
 msgstr "ਕੁੱਲ"
 
-#: C/mate-system-monitor.xml:940(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1019
 msgid "Total capacity"
-msgstr "ਕੁੱਲ ਸਮੱਰਥਾ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:944(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1023
 msgid "Free"
 msgstr "ਖਾਲੀ"
 
-#: C/mate-system-monitor.xml:948(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1027
 msgid "Amount of space not in use"
 msgstr ""
 
-#: C/mate-system-monitor.xml:952(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1031
 msgid "Available"
 msgstr "ਉਪਲੱਬਧ"
 
-#: C/mate-system-monitor.xml:956(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1035
 msgid "Amount of space which can be used"
 msgstr ""
 
-#: C/mate-system-monitor.xml:960(term)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1039
 msgid "Used"
-msgstr "ਵਰਤੀ"
+msgstr "ਵਰਤੋਂ"
 
-#: C/mate-system-monitor.xml:964(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1043
 msgid "Amount of space which is used (and percentage of Total)"
 msgstr ""
 
-#: C/mate-system-monitor.xml:971(title)
+#. (itstool) path: sect2/title
+#: C/index.docbook:1050
 msgid "To Customize the Resources Tabbed Section"
 msgstr ""
 
-#: C/mate-system-monitor.xml:972(para)
-#, fuzzy
+#. (itstool) path: sect2/para
+#: C/index.docbook:1051
 msgid ""
 "You can customize the <guilabel>Resources</guilabel> tabbed section in the "
 "following ways:"
-msgstr "ਹੇਠ ਦਿੱਤੇ ਢੰਗਾਂ ਨਾਲ <application>ਸਿਸਟਮ ਮਾਨੀਟਰ</application> ਸ਼ੁਰੂ ਕਰੋ:"
+msgstr ""
 
-#: C/mate-system-monitor.xml:995(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:1074
 msgid "To Change the Background Color of Graphs"
-msgstr "ਗਰਾਫ਼ ਦੇ ਬੈਕਗਰਾਊਂਡ ਰੰਗ ਬਦਲਣੇ"
-
-#: C/mate-system-monitor.xml:996(para)
-msgid ""
-"To change the background color of the <application>System Monitor</"
-"application> graphs, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1001(para) C/mate-system-monitor.xml:1040(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:1075
 msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
-"guimenuitem></menuchoice>. The <guilabel>Preferences</guilabel> dialog is "
-"displayed."
+"To change the background color of the <application>System "
+"Monitor</application> graphs, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1006(para) C/mate-system-monitor.xml:1045(para)
-#, fuzzy
+#. (itstool) path: listitem/para
+#: C/index.docbook:1080 C/index.docbook:1119
 msgid ""
-"Select the <guilabel>Resources</guilabel> tab in the <guilabel>Preferences</"
-"guilabel> dialog."
+"Choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+" The <guilabel>Preferences</guilabel> dialog is displayed."
 msgstr ""
-"<guibutton>ਪਸੰਦ</guibutton> ਵਾਰਤਾਲਾਪ ਨੂੰ ਬੰਦ ਕਰਨ ਵਾਸਤੇ <guilabel>ਬੰਦ ਕਰੋ</guilabel> "
-"ਦੱਬੋ।"
 
-#: C/mate-system-monitor.xml:1011(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1085 C/index.docbook:1124
+msgid ""
+"Select the <guilabel>Resources</guilabel> tab in the "
+"<guilabel>Preferences</guilabel> dialog."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1090
 msgid ""
 "Click on the <guilabel>Background color</guilabel> button. The "
 "<guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1016(para) C/mate-system-monitor.xml:1055(para)
-#: C/mate-system-monitor.xml:1089(para) C/mate-system-monitor.xml:1118(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1095 C/index.docbook:1134 C/index.docbook:1168
+#: C/index.docbook:1197
 msgid ""
-"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel "
-"or the spin boxes to customize the color."
+"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel"
+" or the spin boxes to customize the color."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1021(para) C/mate-system-monitor.xml:1060(para)
-#: C/mate-system-monitor.xml:1094(para) C/mate-system-monitor.xml:1123(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1100 C/index.docbook:1139 C/index.docbook:1173
+#: C/index.docbook:1202
 msgid ""
-"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a color</"
-"guilabel> dialog."
+"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a "
+"color</guilabel> dialog."
 msgstr ""
-"<guibutton>ਇੱਕ ਰੰਗ ਚੁਣੋ</guibutton> ਵਾਰਤਾਲਾਪ ਨੂੰ ਬੰਦ ਕਰਨ ਵਾਸਤੇ <guilabel>ਠੀਕ ਹੈ</"
-"guilabel> ਦੱਬੋ।"
 
-#: C/mate-system-monitor.xml:1026(para) C/mate-system-monitor.xml:1065(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1105 C/index.docbook:1144
 msgid ""
-"Click <guibutton>Close</guibutton> to close the <guilabel>Preferences</"
-"guilabel> dialog."
+"Click <guibutton>Close</guibutton> to close the "
+"<guilabel>Preferences</guilabel> dialog."
 msgstr ""
-"<guibutton>ਪਸੰਦ</guibutton> ਵਾਰਤਾਲਾਪ ਨੂੰ ਬੰਦ ਕਰਨ ਵਾਸਤੇ <guilabel>ਬੰਦ ਕਰੋ</guilabel> "
-"ਦੱਬੋ।"
 
-#: C/mate-system-monitor.xml:1034(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:1113
 msgid "To Change the Grid Color of Graphs"
-msgstr "ਗਰਾਫ਼ ਦੇ ਗਰਿੱਡ ਰੰਗ ਬਦਲਣੇ"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1035(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:1114
 msgid ""
 "To change the grid color of the <application>System Monitor</application> "
 "graphs, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1050(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1129
 msgid ""
 "Click on the <guilabel>Grid color</guilabel> button. The <guilabel>Pick a "
 "color</guilabel> dialog is displayed."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1073(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:1152
 msgid "To Change the Line Color of the CPU Graph"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1074(para)
+#. (itstool) path: sect3/para
+#: C/index.docbook:1153
 msgid ""
 "To change the color of the line that represents CPU usage in the "
 "<guilabel>CPU History</guilabel> graph, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1079(para) C/mate-system-monitor.xml:1108(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1158 C/index.docbook:1187
 msgid ""
 "Select the <guilabel>Resources</guilabel> tab in the <guilabel>System "
 "Monitor</guilabel> window, to display the graphs and table that provide "
 "information about the usage of system resources."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1084(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1163
 msgid ""
 "Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a "
 "color</guilabel> dialog is displayed."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1102(title)
+#. (itstool) path: sect3/title
+#: C/index.docbook:1181
 msgid "To Change the Line Colors of the Memory and Swap Graph"
-msgstr "ਮੈਮੋਰੀ ਅਤੇ ਸਵੈਪ ਗਰਾਫ਼ ਵਿੱਚ ਲਾਇਨ ਰੰਗ ਬਦਲਣੇ"
-
-#: C/mate-system-monitor.xml:1103(para)
-msgid ""
-"To change the color of the lines that represent memory and swap usage in the "
-"graph, perform the following steps:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1113(para)
-#, fuzzy
+#. (itstool) path: sect3/para
+#: C/index.docbook:1182
 msgid ""
-"Click on the <guibutton>User memory</guibutton> or <guibutton>Used swap</"
-"guibutton> button. The <guilabel>Pick a color</guilabel> dialog is displayed."
+"To change the color of the lines that represent memory and swap usage in the"
+" graph, perform the following steps:"
 msgstr ""
-"<guibutton>ਇੱਕ ਰੰਗ ਚੁਣੋ</guibutton> ਵਾਰਤਾਲਾਪ ਨੂੰ ਬੰਦ ਕਰਨ ਵਾਸਤੇ <guilabel>ਠੀਕ ਹੈ</"
-"guilabel> ਦੱਬੋ।"
 
-#: C/mate-system-monitor.xml:1135(title)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1192
+msgid ""
+"Click on the <guibutton>User memory</guibutton> or <guibutton>Used "
+"swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is "
+"displayed."
+msgstr ""
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:1214
 msgid "Preferences"
 msgstr "ਮੇਰੀ ਪਸੰਦ"
 
-#: C/mate-system-monitor.xml:1136(para)
+#. (itstool) path: sect1/para
+#: C/index.docbook:1215
 msgid ""
 "To configure <application>System Monitor</application>, choose "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></"
-"menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
-"following tabbed sections:"
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+" The <guilabel>Preferences</guilabel> dialog contains the following tabbed "
+"sections:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1152(guilabel)
-msgid "Behavior"
-msgstr "ਰਵੱਈਆ"
+#. (itstool) path: sect2/title
+#: C/index.docbook:1227
+msgid "Processes"
+msgstr "ਪਰੋਸੈੱਸ"
 
-#: C/mate-system-monitor.xml:1158(guilabel)
-#: C/mate-system-monitor.xml:1343(guilabel)
-#: C/mate-system-monitor.xml:1374(guilabel)
-msgid "Update interval in seconds"
-msgstr "ਸਕਿੰਟਾਂ ਵਿੱਚ ਅੱਪਡੇਟ ਇੰਟਰਵਲ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1230
+msgid "<guilabel>Behavior</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1160(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1236 C/index.docbook:1421 C/index.docbook:1452
+msgid "<guilabel>Update interval in seconds</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1239
 msgid ""
 "Use this spin box to specify the interval at which you want to update the "
 "process list."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1166(guilabel)
-msgid "Enable smooth refresh"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1244
+msgid "<guilabel>Enable smooth refresh</guilabel>"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1168(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1247
 msgid "Select this option to refresh smoothly."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1174(guilabel)
-msgid "Alert before ending or killing processes"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1252
+msgid "<guilabel>Alert before ending or killing processes</guilabel>"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1176(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1255
 msgid ""
-"Select this option to display a confirmation alert when you end a process or "
-"terminate a process."
+"Select this option to display a confirmation alert when you end a process or"
+" terminate a process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1182(guilabel)
-msgid "Solaris mode"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1260
+msgid "<guilabel>Solaris mode</guilabel>"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1184(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1263
 msgid ""
 "Select this to divide each process' CPU% in the Processes table by the "
 "number of CPUs."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1193(guilabel)
-msgid "Information Fields"
-msgstr "ਜਾਣਕਾਰੀ ਖੇਤਰ"
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1271
+msgid "<guilabel>Information Fields</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1196(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1275
 msgid ""
 "Use the following options to select which fields are displayed in the "
 "process list:"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1204(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1280
+msgid "<guilabel>Process Name</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1283
 msgid ""
 "Select this option to display the name of the process. This column may also "
 "contain an icon to indicate the application that is associated with the "
 "process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1210(guilabel)
-msgid "User"
-msgstr "ਉਪਭੋਗੀ"
-
-#: C/mate-system-monitor.xml:1212(para)
-msgid "Select this option to display the name of the user who owns the process."
+#. (itstool) path: listitem/para
+#: C/index.docbook:1288
+msgid "<guilabel>User</guilabel>"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1220(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1291
 msgid ""
-"Select this option to display the current status of the process: sleeping or "
-"running."
+"Select this option to display the name of the user who owns the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1226(guilabel)
-msgid "Virtual Memory"
-msgstr "ਵੁਰਚੁਅਲ ਮੈਮੋਰੀ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1296
+msgid "<guilabel>Status</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1228(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1299
 msgid ""
-"Select this option to display the amount of virtual memory that is allocated "
-"to the process."
+"Select this option to display the current status of the process: sleeping or"
+" running."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1234(guilabel)
-msgid "Resident Memory"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1304
+msgid "<guilabel>Virtual Memory</guilabel>"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1236(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1307
+msgid ""
+"Select this option to display the amount of virtual memory that is allocated"
+" to the process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1312
+msgid "<guilabel>Resident Memory</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1315
 msgid ""
 "Select this option to display the amount of physical memory that is "
 "allocated to the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1242(guilabel)
-msgid "Writable Memory"
-msgstr "ਲਿਖਣਯੋਗ ਮੈਮੋਰੀ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1320
+msgid "<guilabel>Writable Memory</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1244(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1323
 msgid ""
 "Select this option to display the amount of memory that can be written by "
 "the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1250(guilabel)
-msgid "Shared Memory"
-msgstr "ਸਾਂਝੀ ਮੈਮੋਰੀ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1328
+msgid "<guilabel>Shared Memory</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1252(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1331
 msgid ""
 "Select this option to display the amount of shared memory that is allocated "
 "to the process. Shared memory is memory that can be accessed by another "
 "process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1258(guilabel)
-msgid "X Server Memory"
-msgstr "X ਸਰਵਰ ਮੈਮੋਰੀ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1336
+msgid "<guilabel>X Server Memory</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1260(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1339
 msgid ""
 "Select this option to display the amount of X server memory that is used by "
 "the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1266(guilabel)
-msgid "% CPU"
-msgstr "% CPU"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1344
+msgid "<guilabel>% CPU</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1268(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1347
 msgid ""
 "Select this option to display the percentage of CPU time currently being "
 "used by the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1274(guilabel)
-msgid "CPU Time"
-msgstr "CPU ਟਾਈਪ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1352
+msgid "<guilabel>CPU Time</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1276(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1355
 msgid ""
 "Select this option to display the amount of CPU time that has been used by "
 "the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1282(guilabel)
-msgid "Started"
-msgstr "ਸ਼ੁਰੂ ਹੋਏ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1360
+msgid "<guilabel>Started</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1284(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1363
 msgid "Select this option to display when the process began running."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1292(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1368
+msgid "<guilabel>Nice</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1371
 msgid ""
 "Select this option to display the nice value of the process. The nice value "
 "sets the priority of the process: the lower the nice value, the higher the "
 "priority."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1300(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1376
+msgid "<guilabel>ID</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1379
 msgid ""
-"Select this option to display the process identifier, also known as the pid. "
-"The pid is a number that uniquely identifies the process. You can use the "
+"Select this option to display the process identifier, also known as the pid."
+" The pid is a number that uniquely identifies the process. You can use the "
 "pid to manipulate the process on the command line."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1308(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1384
+msgid "<guilabel>Memory</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1387
 msgid ""
 "Select this option to display the amount of system memory that is currently "
 "being used by the process."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1314(guilabel)
-msgid "Security Context"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1392
+msgid "<guilabel>Security Context</guilabel>"
 msgstr ""
 
-#: C/mate-system-monitor.xml:1316(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1395
 msgid ""
 "Select this option to display the security context in which the process is "
 "running."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1322(guilabel)
-msgid "Command Line"
-msgstr "ਕਮਾਂਡ ਲਾਇਨ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1400
+msgid "<guilabel>Command Line</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1324(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1403
 msgid ""
 "Select this option to display the command line that was used to start the "
 "process, including arguments."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1338(guilabel)
-msgid "Graphs"
-msgstr "ਗਰਾਫ਼"
+#. (itstool) path: sect2/title
+#: C/index.docbook:1414
+msgid "Resources"
+msgstr "ਸਰੋਤ"
 
-#: C/mate-system-monitor.xml:1345(para)
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:1417
+msgid "<guilabel>Graphs</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1424
 msgid ""
 "Use this spin box to specify how often you want to update the "
 "<application>System Monitor</application> graphs."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1351(guilabel)
-msgid "Background color"
-msgstr "ਬੈਕਗਰਾਊਂਡ ਰੰਗ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1429
+msgid "<guilabel>Background color</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1353(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1432
 msgid ""
-"Use this button to customize the background color of the <application>System "
-"Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
+"Use this button to customize the background color of the <application>System"
+" Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
 "monitor-customize-background\"/>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1359(guilabel)
-msgid "Grid color"
-msgstr "ਗਰਿੱਡ ਰੰਗ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1437
+msgid "<guilabel>Grid color</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1361(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1440
 msgid ""
 "Use this button to customize the grid color of the <application>System "
 "Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
 "monitor-customize-grid\"/>."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1376(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1455
 msgid ""
-"Use this spin box to specify how often you want to update the <guilabel>File "
-"Systems</guilabel> table."
+"Use this spin box to specify how often you want to update the <guilabel>File"
+" Systems</guilabel> table."
 msgstr ""
 
-#: C/mate-system-monitor.xml:1382(guilabel)
-msgid "Show all filesystems"
-msgstr "ਸਭ ਫਾਇਲ ਸਿਸਟਮ ਵੇਖੋ"
+#. (itstool) path: listitem/para
+#: C/index.docbook:1460
+msgid "<guilabel>Show all file systems</guilabel>"
+msgstr ""
 
-#: C/mate-system-monitor.xml:1384(para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1463
 msgid ""
-"Select this option to show all filesystems, including temporary and system "
+"Select this option to show all file systems, including temporary and system "
 "ones."
 msgstr ""
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: C/mate-system-monitor.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ\n"
-"Punjabi Open Source Team\n"
-"http://punjabi.sf.net"
+#. (itstool) path: para/ulink
+#: C/legal.xml:9
+msgid "link"
+msgstr "ਲਿੰਕ"
 
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
+" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""

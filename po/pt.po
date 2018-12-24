@@ -3,14 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Luis Filipe Teixeira <lufilte@gmail.com>, 2018
+# Manel Tinoco <maneltinoco@gmail.com>, 2018
+# Sérgio Marques <smarquespt@gmail.com>, 2018
+# Carlos Moreira, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# alfalb_mansil, 2018
+# ogalho Carlos Dias Martins <ogalho@gmail.com>, 2018
+# Diogo Oliveira <diogodesigns@gmail.com>, 2018
+# MS <manuelarodsilva@gmail.com>, 2018
+# José Vieira <jvieira33@sapo.pt>, 2018
+# Rui <xymarior@yandex.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-22 12:34+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: José Vieira <jvieira33@sapo.pt>, 2018\n"
+"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"Last-Translator: Rui <xymarior@yandex.com>, 2018\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -472,8 +485,8 @@ msgstr "Sistemas de Ficheiros"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u segundo"
+msgstr[1] "%u segundos"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -578,7 +591,7 @@ msgstr "Partilhada suja"
 
 #: ../src/memmaps.cpp:328
 msgid "Inode"
-msgstr "Inode"
+msgstr "Nó de índice"
 
 #: ../src/memmaps.cpp:432
 msgid "Memory Maps"
@@ -967,11 +980,11 @@ msgstr "Exibir coluna de visualização de disco 'Dispositivo' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Width of disk view 'Directory' column"
-msgstr "Largura da coluna de visualização de disco 'Directório'"
+msgstr "Largura da coluna de visualização de disco 'Diretório'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:80
 msgid "Show disk view 'Directory' column on startup"
-msgstr "Exibir coluna de visualização de disco 'Directório' no arranque"
+msgstr "Exibir coluna de visualização de disco 'Diretório' no arranque"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:81
 msgid "Width of disk view 'Type' column"
@@ -1051,7 +1064,7 @@ msgstr ""
 #: ../src/procdialogs.cpp:73
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
-msgstr "Terminar o processo “%s” (PID: %u) seleccionado?"
+msgstr "Terminar o processo “%s” (PID: %u) selecionado?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:77
@@ -1066,7 +1079,7 @@ msgstr ""
 #: ../src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
-msgstr "Finalizar o processo “%s” (PID: %u) seleccionado?"
+msgstr "Finalizar o processo “%s” (PID: %u) selecionado?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:88
@@ -1153,7 +1166,7 @@ msgstr "Gráfico"
 
 #: ../src/procdialogs.cpp:693
 msgid "_Update interval in 1/10 sec:"
-msgstr "_Actualizar intervalo em 1/10 seg:"
+msgstr "_Atualizar intervalo em 1/10 seg:"
 
 #: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
@@ -1419,15 +1432,15 @@ msgstr "%.3g Tbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u bit"
+msgstr[1] "%u bits"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u byte"
+msgstr[1] "%u bytes"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

@@ -3,13 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Alan Lee <bkrhlim@aol.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2018
+# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-22 12:34+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-03-12 08:25+0000\n"
 "Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2018\n"
 "Language-Team: Korean (https://www.transifex.com/mate/teams/13566/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -475,7 +481,7 @@ msgstr "파일시스템"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
+msgstr[0] "%u초"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -1408,13 +1414,13 @@ msgstr "%.3g Tbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
+msgstr[0] "%u비트"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
+msgstr[0] "%u바이트"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

@@ -717,8 +717,12 @@ LoadGraph::LoadGraph(guint type)
 
     switch (type) {
     case LOAD_GRAPH_CPU:
-        memcpy(&colors[0], ProcData::get_instance()->config.cpu_color,
-               n * sizeof colors[0]);
+        for (guint i = 0; i < n; ++i) {
+            GdkRGBA tmp_cpu_color;
+            gtk_hsv_to_rgb(gdouble(i) / gdouble(n), 1, 1, &tmp_cpu_color.red, &tmp_cpu_color.blue, &tmp_cpu_color.green);
+            tmp_cpu_color.alpha = 1;
+            colors[i] = tmp_cpu_color;
+        }
         break;
     case LOAD_GRAPH_MEM:
         colors[0] = ProcData::get_instance()->config.mem_color;

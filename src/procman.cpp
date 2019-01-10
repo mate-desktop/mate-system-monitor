@@ -241,6 +241,7 @@ show_all_fs_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 static ProcData *
 procman_data_new (GSettings *settings)
 {
+    GSettingsSchema *schema;
     ProcData *pd;
     gchar *color;
     gchar **keys;
@@ -292,7 +293,10 @@ procman_data_new (GSettings *settings)
 
     pd->config.num_cpus = glibtop_get_sysinfo()->ncpu; // or server->ncpu + 1
 
-    keys = g_settings_list_keys (settings);
+    g_object_get (settings, "settings-schema", &schema, NULL);
+    keys = g_settings_schema_list_keys (schema);
+    g_settings_schema_unref (schema);
+
     for (int i = 0; i < pd->config.num_cpus; i++) {
         gchar *key;
         key = g_strdup_printf ("cpu-color%d", i);

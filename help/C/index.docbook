@@ -829,7 +829,7 @@
         </listitem>
         <listitem>
           <para>
-            Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</guimenuitem></menuchoice>. The <guilabel>Change Priority</guilabel> dialog is displayed. 
+            Select the priority in <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</guimenuitem></menuchoice>. If the <guimenuitem>Custom</guimenuitem> menu item is selected, the <guilabel>Change Priority</guilabel> dialog is displayed, and continue as follows.
           </para>
         </listitem>
         <listitem>

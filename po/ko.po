@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 12:34+0100\n"
+"POT-Creation-Date: 2018-12-24 11:27+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
 "Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2018\n"
 "Language-Team: Korean (https://www.transifex.com/mate/teams/13566/ko/)\n"
@@ -104,7 +104,7 @@ msgstr "장치"
 msgid "Directory"
 msgstr "디렉터리"
 
-#: ../src/disks.cpp:340 ../src/gsm_color_button.c:219 ../src/openfiles.cpp:252
+#: ../src/disks.cpp:340 ../src/gsm_color_button.c:182 ../src/openfiles.cpp:252
 msgid "Type"
 msgstr "형식"
 
@@ -149,45 +149,45 @@ msgstr "%b %d일 %p %l:%M "
 msgid "%b %d %Y"
 msgstr "%Y년 %b %d일"
 
-#: ../src/gsm_color_button.c:195
+#: ../src/gsm_color_button.c:158
 msgid "Fraction"
 msgstr "조각"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: ../src/gsm_color_button.c:197
+#: ../src/gsm_color_button.c:160
 msgid "Percentage full for pie color pickers"
 msgstr "파이 색상 선택기에 대한 전체 비율"
 
-#: ../src/gsm_color_button.c:204
+#: ../src/gsm_color_button.c:167
 msgid "Title"
 msgstr "제목"
 
-#: ../src/gsm_color_button.c:205
+#: ../src/gsm_color_button.c:168
 msgid "The title of the color selection dialog"
 msgstr "색상 선택 대화 상자 제목"
 
-#: ../src/gsm_color_button.c:206 ../src/gsm_color_button.c:617
+#: ../src/gsm_color_button.c:169 ../src/gsm_color_button.c:593
 msgid "Pick a Color"
 msgstr "색상 선택"
 
-#: ../src/gsm_color_button.c:212
+#: ../src/gsm_color_button.c:175
 msgid "Current Color"
 msgstr "현재 색상"
 
-#: ../src/gsm_color_button.c:213
+#: ../src/gsm_color_button.c:176
 msgid "The selected color"
 msgstr "선택한 색상"
 
-#: ../src/gsm_color_button.c:220
+#: ../src/gsm_color_button.c:183
 msgid "Type of color picker"
 msgstr "색 선택 창의 종류"
 
-#: ../src/gsm_color_button.c:539
+#: ../src/gsm_color_button.c:507
 msgid "Received invalid color data\n"
 msgstr "잘못된 색상 데이터를 받았습니다\n"
 
-#: ../src/gsm_color_button.c:640
+#: ../src/gsm_color_button.c:616
 msgid "Click to set graph colors"
 msgstr "그래프 색을 설정하려면 누르십시오"
 
@@ -1261,7 +1261,7 @@ msgstr "소유자"
 msgid "Priority"
 msgstr "우선순위"
 
-#: ../src/proctable.cpp:1091
+#: ../src/proctable.cpp:1108
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "최근 1분, 5분, 15분 사이의 평균 부하: %0.2f, %0.2f, %0.2f"

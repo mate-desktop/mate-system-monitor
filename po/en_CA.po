@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 12:34+0100\n"
+"POT-Creation-Date: 2018-12-24 11:27+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: English (Canada) (https://www.transifex.com/mate/teams/13566/en_CA/)\n"
@@ -92,7 +92,7 @@ msgstr "Device"
 msgid "Directory"
 msgstr "Directory"
 
-#: ../src/disks.cpp:340 ../src/gsm_color_button.c:219 ../src/openfiles.cpp:252
+#: ../src/disks.cpp:340 ../src/gsm_color_button.c:182 ../src/openfiles.cpp:252
 msgid "Type"
 msgstr "Type"
 
@@ -137,45 +137,45 @@ msgstr "%d %b %H:%M"
 msgid "%b %d %Y"
 msgstr "%d %b %Y"
 
-#: ../src/gsm_color_button.c:195
+#: ../src/gsm_color_button.c:158
 msgid "Fraction"
 msgstr ""
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: ../src/gsm_color_button.c:197
+#: ../src/gsm_color_button.c:160
 msgid "Percentage full for pie color pickers"
 msgstr ""
 
-#: ../src/gsm_color_button.c:204
+#: ../src/gsm_color_button.c:167
 msgid "Title"
 msgstr "Title"
 
-#: ../src/gsm_color_button.c:205
+#: ../src/gsm_color_button.c:168
 msgid "The title of the color selection dialog"
 msgstr ""
 
-#: ../src/gsm_color_button.c:206 ../src/gsm_color_button.c:617
+#: ../src/gsm_color_button.c:169 ../src/gsm_color_button.c:593
 msgid "Pick a Color"
 msgstr ""
 
-#: ../src/gsm_color_button.c:212
+#: ../src/gsm_color_button.c:175
 msgid "Current Color"
 msgstr ""
 
-#: ../src/gsm_color_button.c:213
+#: ../src/gsm_color_button.c:176
 msgid "The selected color"
 msgstr ""
 
-#: ../src/gsm_color_button.c:220
+#: ../src/gsm_color_button.c:183
 msgid "Type of color picker"
 msgstr ""
 
-#: ../src/gsm_color_button.c:539
+#: ../src/gsm_color_button.c:507
 msgid "Received invalid color data\n"
 msgstr "Received invalid colour data\n"
 
-#: ../src/gsm_color_button.c:640
+#: ../src/gsm_color_button.c:616
 msgid "Click to set graph colors"
 msgstr ""
 
@@ -1243,7 +1243,7 @@ msgstr "Owner"
 msgid "Priority"
 msgstr ""
 
-#: ../src/proctable.cpp:1091
+#: ../src/proctable.cpp:1108
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"

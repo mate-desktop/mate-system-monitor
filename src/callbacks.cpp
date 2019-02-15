@@ -181,24 +181,43 @@ cb_about (GtkAction *action, gpointer data)
         NULL
     };
 
+    const gchar * license[] = {
+        N_("System Monitor is free software; you can redistribute it and/or modify "
+        "it under the terms of the GNU General Public License as published by "
+        "the Free Software Foundation; either version 2 of the License, or "
+        "(at your option) any later version."),
+        N_("System Monitor is distributed in the hope that it will be useful, "
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of "
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the "
+        "GNU General Public License for more details."),
+        N_("You should have received a copy of the GNU General Public License "
+        "along with System Monitor; if not, write to the Free Software Foundation, Inc., "
+        "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA")
+    };
+
+    gchar *license_trans;
+    license_trans = g_strjoin ("\n\n", _(license[0]), _(license[1]), _(license[2]), NULL);
+
     gtk_show_about_dialog (
         GTK_WINDOW (procdata->app),
         "name",               _("System Monitor"),
         "comments",           _("View current processes and monitor system state"),
         "version",            VERSION,
-        "copyright",          "Copyright \xc2\xa9 2001-2004 Kevin Vandersloot\n"
-                              "Copyright \xc2\xa9 2005-2007 Benoît Dejean\n"
-                              "Copyright \xc2\xa9 2011-2018 MATE developers",
+        "copyright",          _("Copyright \xc2\xa9 2001-2004 Kevin Vandersloot\n"
+                                "Copyright \xc2\xa9 2005-2007 Benoît Dejean\n"
+                                "Copyright \xc2\xa9 2011-2019 MATE developers"),
         "logo-icon-name",     "utilities-system-monitor",
         "authors",            authors,
         "artists",            artists,
         "documenters",        documenters,
         "translator-credits", _("translator-credits"),
-        "license",            "GPL 2+",
+        "license",            license_trans,
         "wrap-license",       TRUE,
         "website",            "http://www.mate-desktop.org",
         NULL
         );
+
+    g_free (license_trans);
 }
 
 

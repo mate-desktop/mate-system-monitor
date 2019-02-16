@@ -201,6 +201,7 @@ cb_about (GtkAction *action, gpointer data)
     gtk_show_about_dialog (
         GTK_WINDOW (procdata->app),
         "name",               _("System Monitor"),
+        "title",              _("About System Monitor"),
         "comments",           _("View current processes and monitor system state"),
         "version",            VERSION,
         "copyright",          _("Copyright \xc2\xa9 2001-2004 Kevin Vandersloot\n"

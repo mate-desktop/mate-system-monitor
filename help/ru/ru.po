@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2018-10-08 10:33+0200\n"
+"POT-Creation-Date: 2019-02-10 17:51+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
 "Last-Translator: Aleksey Kabanov <ak099@mail.ru>, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
@@ -1255,13 +1255,13 @@ msgstr "Выберите процесс, приоритет которого в�
 #. (itstool) path: listitem/para
 #: C/index.docbook:831
 msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
-"Priority</guimenuitem></menuchoice>. The <guilabel>Change "
-"Priority</guilabel> dialog is displayed."
+"Select the priority in "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
+"Priority</guimenuitem></menuchoice>. If the "
+"<guimenuitem>Custom</guimenuitem> menu item is selected, the "
+"<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
+"follows."
 msgstr ""
-"Выберите <menuchoice><guimenu>Правка</guimenu><guimenuitem>Изменить "
-"приоритет</guimenuitem></menuchoice>. Откроется диалог <guilabel>Изменить "
-"приоритет</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:836

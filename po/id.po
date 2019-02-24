@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-24 11:27+0100\n"
+"POT-Creation-Date: 2019-02-16 10:44+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>, 2018\n"
 "Language-Team: Indonesian (https://www.transifex.com/mate/teams/13566/id/)\n"
@@ -54,12 +54,12 @@ msgstr ""
 msgid "MATE System Monitor"
 msgstr "MATE System Monitor"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:186
-#: ../src/interface.cpp:625 ../src/procman.cpp:709
+#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:203
+#: ../src/interface.cpp:625 ../src/procman.cpp:713
 msgid "System Monitor"
 msgstr "Monitor Sistem"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:187
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
 msgid "View current processes and monitor system state"
 msgstr "Melihat proses yang sedang berjalan serta memonitor kinerja sistem"
 
@@ -95,7 +95,41 @@ msgstr "Tampilkan tab Sumber Daya"
 msgid "Show the File Systems tab"
 msgstr "Tampilkan tab Sistem Berkas"
 
-#: ../src/callbacks.cpp:196
+#: ../src/callbacks.cpp:185
+msgid ""
+"System Monitor is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+
+#: ../src/callbacks.cpp:189
+msgid ""
+"System Monitor is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
+" more details."
+msgstr ""
+
+#: ../src/callbacks.cpp:193
+msgid ""
+"You should have received a copy of the GNU General Public License along with"
+" System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+
+#: ../src/callbacks.cpp:204
+msgid "About System Monitor"
+msgstr ""
+
+#: ../src/callbacks.cpp:207
+msgid ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2019 MATE developers"
+msgstr ""
+
+#: ../src/callbacks.cpp:214
 msgid "translator-credits"
 msgstr ""
 "Mohammad DAMT <mdamt@bisnisweb.com>\n"
@@ -1183,7 +1217,7 @@ msgstr "Tampilkan semu_a sistem berkas"
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformasi sistem berkas yang ditampilkan:"
 
-#: ../src/procman.cpp:658
+#: ../src/procman.cpp:662
 msgid "A simple process and system monitor."
 msgstr "Monitor sederhana untuk proses dan sistem."
 

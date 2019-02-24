@@ -1,12 +1,13 @@
 # Translators:
 # Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019
 # Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2018-10-08 10:33+0200\n"
+"POT-Creation-Date: 2019-02-10 17:51+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019\n"
 "Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
@@ -36,7 +37,7 @@ msgstr "<year>2015</year> <holder>Proxecto de documentación do MATE</holder>"
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
 msgid "<year>2009</year> <holder>Paul Cutler</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Paul Cutler</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
@@ -171,7 +172,8 @@ msgid ""
 "<_:orderedlist-1/>"
 msgstr ""
 "O DOCUMENTO E AS VERSIÓNS MODIFICADAS DO DOCUMENTO FORNÉCENSE BAIXO OS "
-"TERMOS DA LICENZA LIBRE DE DOCUMENTACIÓN DE GNU CO ACORDO ADICIONAL DE:"
+"TERMOS DA LICENZA LIBRE DE DOCUMENTACIÓN DE GNU CO ACORDO ADICIONAL "
+"DE:<_:orderedlist-1/>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -1099,9 +1101,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:831
 msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
-"Priority</guimenuitem></menuchoice>. The <guilabel>Change "
-"Priority</guilabel> dialog is displayed."
+"Select the priority in "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
+"Priority</guimenuitem></menuchoice>. If the "
+"<guimenuitem>Custom</guimenuitem> menu item is selected, the "
+"<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
+"follows."
 msgstr ""
 
 #. (itstool) path: listitem/para

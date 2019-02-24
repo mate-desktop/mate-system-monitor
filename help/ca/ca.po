@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2018-10-08 10:33+0200\n"
+"POT-Creation-Date: 2019-02-10 17:51+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
@@ -19,7 +19,10 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018-2019."
+msgstr ""
+"Joan Duran <jodufi@gmail.com>, 2008\n"
+"Francesc Famadas <kiski97@gmail.com>, 2018\n"
+"Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018, 2019"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -273,6 +276,8 @@ msgid ""
 "<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Versió 0.11 del manual de Procman</revnumber> <date>Gener de "
+"2002</date> <_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:155
@@ -1252,15 +1257,23 @@ msgstr "Seleccioneu el procés per al qual voleu canviar la prioritat."
 #. (itstool) path: listitem/para
 #: C/index.docbook:831
 msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
-"Priority</guimenuitem></menuchoice>. The <guilabel>Change "
-"Priority</guilabel> dialog is displayed."
+"Select the priority in "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
+"Priority</guimenuitem></menuchoice>. If the "
+"<guimenuitem>Custom</guimenuitem> menu item is selected, the "
+"<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
+"follows."
 msgstr ""
+"Seleccioneu la prioritat a "
+"<menuchoice><guimenu>Edita</guimenu><guimenuitem>Canvia la "
+"prioritat</guimenuitem></menuchoice>. Si se selecciona l'element de menú "
+"<guimenuitem>Personalitza</guimenuitem>, es mostra el diàleg "
+"<guilabel>Canvia la prioritat</guilabel>, i continueu com s'indica."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:836
 msgid "Use the slider to set the nice value of the process."
-msgstr ""
+msgstr "Utilitzeu la barra lliscant per establir el valor de nice del procés."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:839
@@ -1268,6 +1281,8 @@ msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
 msgstr ""
+"El valor de nice estableix la prioritat del procés: com més baix sigui el "
+"valor, més alta serà la prioritat."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:842
@@ -1275,26 +1290,28 @@ msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
 msgstr ""
+"Per especificar un valor de nice inferior a zero, els usuaris que no siguin "
+"de root han d'introduir la contrasenya de root."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:847
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
-msgstr ""
+msgstr "Feu clic al botó <guibutton>Canvia la prioritat</guibutton>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:856
 msgid "To End a Process"
-msgstr ""
+msgstr "Com finalitzar un procés"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:857
 msgid "To end a process, perform the following steps:"
-msgstr ""
+msgstr "Per finalitzar un procés, realitzeu els passos següents:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:867
 msgid "Select the process that you want to end."
-msgstr ""
+msgstr "Seleccioneu el procés que voleu finalitzar."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:872
@@ -1303,6 +1320,9 @@ msgid ""
 "Process</guimenuitem></menuchoice>, or click on the <guibutton>End "
 "Process</guibutton> button."
 msgstr ""
+"Trieu <menuchoice><guimenu>Edita</guimenu><guimenuitem>Finalitza el "
+"procés</guimenuitem></menuchoice>, o feu clic al botó <guibutton>Finalitza "
+"el procés</guibutton>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:875 C/index.docbook:910
@@ -1365,12 +1385,14 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:926
 msgid "To Monitor CPU Usage"
-msgstr ""
+msgstr "Com monitorar l'ús de la CPU"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:927
 msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
+"Per monitorar l'ús de la CPU, seleccioneu la pestanya "
+"<guilabel>Recursos</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:930
@@ -1383,7 +1405,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:937
 msgid "To Monitor Memory and Swap Usage"
-msgstr ""
+msgstr "Com monitorar la memòria i l'espai d'intercanvi"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:938
@@ -1391,6 +1413,8 @@ msgid ""
 "To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
 "tab."
 msgstr ""
+"Per monitorar la memòria i l'espai d'intercanvi, seleccioneu la pestanya "
+"<guilabel>Recursos</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:941
@@ -1414,13 +1438,15 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:960
 msgid "To Monitor Network Activity"
-msgstr ""
+msgstr "Com monitorar l'activitat de la xarxa"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:961
 msgid ""
 "To monitor network activity, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
+"Per monitorar l'activitat de la xarxa, seleccioneu la pestanya "
+"<guilabel>Recursos</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:964
@@ -1433,23 +1459,25 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:969
 msgid "Received data per second and total"
-msgstr ""
+msgstr "Dades rebudes per segon i en total"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:974
 msgid "Sent data per second and total"
-msgstr ""
+msgstr "Dades enviades per segon i en total"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:982
 msgid "To Monitor File Systems"
-msgstr ""
+msgstr "Com monitorar els sistemes de fitxers"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:983
 msgid ""
 "To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
 msgstr ""
+"Per monitorar els sistemes de fitxers, seleccioneu la pestanya "
+"<guilabel>Sistemes de fitxers</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:986
@@ -1467,7 +1495,7 @@ msgstr "Dispositiu"
 #. (itstool) path: listitem/para
 #: C/index.docbook:995
 msgid "Location of block file"
-msgstr ""
+msgstr "Ubicació del fitxer de bloc"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:999
@@ -1918,7 +1946,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1392
 msgid "<guilabel>Security Context</guilabel>"
-msgstr ""
+msgstr "<guilabel>Context de seguretat</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1395

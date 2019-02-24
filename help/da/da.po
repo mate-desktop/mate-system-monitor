@@ -1,13 +1,13 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Joe Hansen <joedalton2@yahoo.dk>, 2018
+# Joe Hansen <joedalton2@yahoo.dk>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2018-10-08 10:33+0200\n"
+"POT-Creation-Date: 2019-02-10 17:51+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2018\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2019\n"
 "Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1238,13 +1238,17 @@ msgstr "Vælg processen, hvis prioritet du vil ændre."
 #. (itstool) path: listitem/para
 #: C/index.docbook:831
 msgid ""
-"Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
-"Priority</guimenuitem></menuchoice>. The <guilabel>Change "
-"Priority</guilabel> dialog is displayed."
+"Select the priority in "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
+"Priority</guimenuitem></menuchoice>. If the "
+"<guimenuitem>Custom</guimenuitem> menu item is selected, the "
+"<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
+"follows."
 msgstr ""
-"Vælg <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Skift "
-"prioritet</guimenuitem></menuchoice>. Dialogvinduet <guilabel>Skift "
-"prioritet</guilabel> bliver dermed vist."
+"Vælg prioritet i <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Skift "
+"prioritet</guimenuitem></menuchoice>. Hvis menuelementet  "
+"<guimenuitem>Tilpasset</guimenuitem> vælges vises dialogen <guilabel>Skift "
+"prioritet</guilabel>, og fortsætter som i det følgende."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:836

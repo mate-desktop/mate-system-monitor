@@ -1,3 +1,14 @@
+### mate-system-monitor 1.22.0
+
+  * Translations update
+    Initialize Travis CI support
+    Ensure proper translation of the about dialog title
+    License text in About dialog
+    Make translatable the copyright in about dialog
+    Update Catalan screenshot
+    Help - Priority preset values, including custom value
+    procman: avoid deprecated 'g_settings_list_keys'
+
 ### mate-system-monitor 1.21.1
 
   * Translations update

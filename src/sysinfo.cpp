@@ -532,16 +532,24 @@ namespace {
             if (input) {
                 while (!input.eof()) {
                     string s;
-                    int len;
+                    int start;
                     std::getline(input, s);
                     if (s.find("NAME=") == 0) {
-                        len = strlen("NAME=");
-                        this->distro_name = s.substr(len);
+                        start = strlen("NAME=");
+                        if ((s.at(start) == '\"') && (s.at(s.size() - 1) == '\"')) {
+                            this->distro_name = s.substr(start + 1, s.size() - start - 2);
+                        } else {
+                            this->distro_name = s.substr(start);
+                        }
                     } else if (s.find("VERSION=") == 0) {
-                        len = strlen("VERSION=");
+                        start = strlen("VERSION=");
                         // also strip the surrounding quotes
-                       this->distro_release = s.substr(len + 1, s.size() - len - 2);
-                   }
+                        this->distro_release = s.substr(start + 1, s.size() - start - 2);
+                    } else if (s.find("# VERSION=") == 0) {
+                        start = strlen("# VERSION=");
+                        // also strip the surrounding quotes
+                        this->distro_release = s.substr(start + 1, s.size() - start - 2);
+                    }
                 }
             }
         }

@@ -298,8 +298,10 @@ namespace {
         void load_uname_info()
         {
             this->hostname = uname().nodename;
-#ifdef __linux__
+#if defined(__linux__)
             this->kernel = string(uname().sysname) + ' ' + uname().release + ' ' + uname().machine;
+#elif defined(__sun) && defined(__SVR4)
+            this->kernel = string(uname().sysname) + ' ' + uname().release + ' ' + uname().version + ' ' + uname().machine;
 #else
             this->kernel = string(uname().version) + ' ' + uname().machine;
 #endif
@@ -369,12 +371,23 @@ namespace {
     private:
         void load_solaris_info()
         {
-            this->distro_name = "Solaris";
-
             std::ifstream input("/etc/release");
 
-            if (input)
-                std::getline(input, this->distro_release);
+            if (input) {
+                std::string s;
+                std::getline(input, s);
+                std::size_t found = s.find("OpenIndiana ");
+                if (found!=std::string::npos) {
+                    this->distro_name = "OpenIndiana";
+                    this->distro_release = s.substr(found + strlen("OpenIndiana "));
+                } else if (!s.empty()) {
+                    this->distro_release = s;
+                }
+            }
+
+            if (this->distro_release.empty()) {
+                this->distro_name = "Solaris";
+            }
         }
     };
 

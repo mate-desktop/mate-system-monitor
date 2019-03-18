@@ -75,15 +75,26 @@ namespace {
 
             /* Translators: The first string parameter is release version (codename),
              * the second one is the architecture, 32 or 64-bit */
+#ifdef __linux__
             char* markup = g_strdup_printf(_("Release %s %s"),
                                            this->distro_release.c_str(),
                                            this->get_os_type().c_str());
+#else
+            char* markup = g_strdup_printf(_("Release %s"),
+                                           this->distro_release.c_str());
+#endif
+
             g_object_set(G_OBJECT(release),
                          "label",
                          markup,
                          NULL);
 
             g_free(markup);
+        }
+
+        static string release()
+        {
+            return uname().release;
         }
 
         static string system()
@@ -287,7 +298,11 @@ namespace {
         void load_uname_info()
         {
             this->hostname = uname().nodename;
+#ifdef __linux__
             this->kernel = string(uname().sysname) + ' ' + uname().release + ' ' + uname().machine;
+#else
+            this->kernel = string(uname().version) + ' ' + uname().machine;
+#endif
         }
 
 
@@ -325,7 +340,22 @@ namespace {
         }
     };
 
+    class FreeBSDSysInfo
+        : public SysInfo
+    {
+    public:
+	FreeBSDSysInfo()
+        {
+            this->load_freebsd_info();
+        }
 
+    private:
+        void load_freebsd_info()
+        {
+            this->distro_name = "FreeBSD";
+            this->distro_release = release();
+        }
+    };
 
     class SolarisSysInfo
         : public SysInfo
@@ -617,6 +647,9 @@ namespace {
         else if (char *p = g_find_program_in_path("lsb_release")) {
             g_free(p);
             return new LSBSysInfo;
+        }
+        else if (SysInfo::system() == "FreeBSD") {
+            return new FreeBSDSysInfo;
         }
         else if (SysInfo::system() == "SunOS") {
             return new SolarisSysInfo;

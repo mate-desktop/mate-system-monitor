@@ -310,10 +310,10 @@
       <para>You can start <application>&app;</application> in the following ways:</para>
       <variablelist>
         <varlistentry>
-          <term><guimenu>System</guimenu> menu</term>
+          <term><guimenu>Applications</guimenu> menu</term>
           <listitem>
             <para>
-              Choose <menuchoice><guimenu>Administration</guimenu> <guimenuitem>System Monitor</guimenuitem></menuchoice>.
+              Choose <menuchoice><guimenu>System Tools</guimenu> <guimenuitem>MATE System Monitor</guimenuitem></menuchoice>.
             </para>
           </listitem>
         </varlistentry>
@@ -470,6 +470,15 @@
           </listitem>
           <listitem>
             <para>Memory</para>
+          </listitem>
+          <listitem>
+            <para>Waiting Channel</para>
+          </listitem>
+          <listitem>
+            <para>Unit</para>
+          </listitem>
+          <listitem>
+            <para>Priority</para>
           </listitem>
       </itemizedlist>
         <para>
@@ -688,7 +697,7 @@
         </listitem>
         <listitem>
           <para>
-            Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory Maps</guimenuitem></menuchoice>.
+            Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory Maps</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>Memory Maps</guimenu></menuchoice>.
           </para>
         </listitem>
       </orderedlist>
@@ -787,6 +796,38 @@
           </listitem>
         </varlistentry>
         <varlistentry>
+          <term><guilabel>Private clean</guilabel></term>
+          <listitem>
+            <para>
+              Unmodified pages since they were mapped that belong only to a specific process.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term><guilabel>Private dirty</guilabel></term>
+          <listitem>
+            <para>
+              Pages that have been modified since they were mapped that belong only to a specific process.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term><guilabel>Shared clean</guilabel></term>
+          <listitem>
+            <para>
+              Unmodified pages that are shared by multiple processes.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term><guilabel>Shared dirty</guilabel></term>
+          <listitem>
+            <para>
+              Modified pages that are shared by multiple processes.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
           <term><guilabel>Device</guilabel></term>
           <listitem>
             <para>
@@ -829,7 +870,7 @@
         </listitem>
         <listitem>
           <para>
-            Select the priority in <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</guimenuitem></menuchoice>. If the <guimenuitem>Custom</guimenuitem> menu item is selected, the <guilabel>Change Priority</guilabel> dialog is displayed, and continue as follows.
+            Select the priority in <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>Change Priority</guimenu></menuchoice>. If the <guimenuitem>Custom</guimenuitem> menu item is selected, the <guilabel>Change Priority</guilabel> dialog is displayed, and continue as follows.
           </para>
         </listitem>
         <listitem>
@@ -870,7 +911,7 @@
         </listitem>
         <listitem>
           <para>
-            Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End Process</guimenuitem></menuchoice>, or click on the <guibutton>End Process</guibutton> button.
+            Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End Process</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>End Process</guimenu></menuchoice>, or click on the <guibutton>End Process</guibutton> button.
           </para>
           <para>
             By default, a confirmation alert is displayed. For information about how to display or hide the confirmation alert, see <xref linkend="mate-system-monitor-prefs-proclist"/>.
@@ -905,7 +946,7 @@
         </listitem>
         <listitem>
           <para>
-            Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill Process</guimenuitem></menuchoice>.
+            Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill Process</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>Kill Process</guimenu></menuchoice>.
           </para>
           <para>
             By default, a confirmation alert is displayed. For information about how to display or hide the confirmation alert, see <xref linkend="mate-system-monitor-prefs-proclist"/>.
@@ -986,64 +1027,32 @@
       <para>
         <application>&app;</application> displays mounted file systems in tabular format. From left to right, the table displays the following columns:
       </para>
-      <variablelist>
-        <varlistentry>
-          <term>
-            Device
-          </term>
-          <listitem>
-            <para>Location of block file</para>
-          </listitem>
-        </varlistentry>
-        <varlistentry>
-          <term>
-            Directory
-          </term>
-          <listitem>
-            <para>Mount point (directory to access) of device</para>
-          </listitem>
-        </varlistentry>
-        <varlistentry>
-          <term>
-            Type
-          </term>
-          <listitem>
-            <para>File system type</para>
-          </listitem>
-        </varlistentry>
-        <varlistentry>
-          <term>
-            Total
-          </term>
-          <listitem>
-            <para>Total capacity</para>
-          </listitem>
-        </varlistentry>
-        <varlistentry>
-          <term>
-            Free
-          </term>
-          <listitem>
-            <para>Amount of space not in use</para>
-          </listitem>
-        </varlistentry>
-        <varlistentry>
-          <term>
-            Available
-          </term>
-          <listitem>
-            <para>Amount of space which can be used</para>
-          </listitem>
-        </varlistentry>
-        <varlistentry>
-          <term>
-            Used
-          </term>
-          <listitem>
-            <para>Amount of space which is used (and percentage of Total)</para>
-          </listitem>
-        </varlistentry>
-      </variablelist>
+      <itemizedlist>
+        <listitem>
+          <para>Device</para>
+        </listitem>
+        <listitem>
+          <para>Directory</para>
+        </listitem>
+        <listitem>
+          <para>Type</para>
+        </listitem>
+        <listitem>
+          <para>Total</para>
+        </listitem>
+        <listitem>
+          <para>Free</para>
+        </listitem>
+        <listitem>
+          <para>Available</para>
+        </listitem>
+        <listitem>
+          <para>Used</para>
+        </listitem>
+      </itemizedlist>
+      <para>
+        For information about how to change the columns displayed in the file systems list, see <xref linkend="mate-system-monitor-prefs-fs"/>.
+      </para>
     </sect2>
 
     <sect2 id="mate-system-monitor-customize">
@@ -1053,14 +1062,6 @@
       </para>
       <itemizedlist>
         <listitem>
-          <para><xref linkend="mate-system-monitor-customize-background"/>
-          </para>
-        </listitem>
-        <listitem>
-          <para><xref linkend="mate-system-monitor-customize-grid"/>
-          </para>
-        </listitem>
-        <listitem>
           <para><xref linkend="mate-system-monitor-customize-cpu"/>
           </para>
         </listitem>
@@ -1068,88 +1069,14 @@
           <para><xref linkend="mate-system-monitor-customize-mem"/>
           </para>
         </listitem>
+        <listitem>
+          <para><xref linkend="mate-system-monitor-customize-network"/>
+          </para>
+        </listitem>
       </itemizedlist>
 
-      <sect3 id="mate-system-monitor-customize-background">
-        <title>To Change the Background Color of Graphs</title>
-        <para>
-          To change the background color of the <application>&app;</application> graphs, perform the following steps:
-        </para>
-        <orderedlist>
-          <listitem>
-            <para>
-              Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>. The <guilabel>Preferences</guilabel> dialog is displayed. 
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Select the <guilabel>Resources</guilabel> tab in the <guilabel>Preferences</guilabel> dialog.
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Click on the <guilabel>Background color</guilabel> button. The <guilabel>Pick a color</guilabel> dialog is displayed. 
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel or the spin boxes to customize the color. 
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Click <guibutton>OK</guibutton> to close the <guilabel>Pick a color</guilabel> dialog.
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Click <guibutton>Close</guibutton> to close the <guilabel>Preferences</guilabel> dialog.
-            </para>
-          </listitem>
-        </orderedlist>
-      </sect3>
-
-      <sect3 id="mate-system-monitor-customize-grid">
-        <title>To Change the Grid Color of Graphs</title>
-        <para>
-          To change the grid color of the <application>&app;</application> graphs, perform the following steps:
-        </para>
-        <orderedlist>
-          <listitem>
-            <para>
-              Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>. The <guilabel>Preferences</guilabel> dialog is displayed. 
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Select the <guilabel>Resources</guilabel> tab in the <guilabel>Preferences</guilabel> dialog.
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Click on the <guilabel>Grid color</guilabel> button. The <guilabel>Pick a color</guilabel> dialog is displayed. 
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel or the spin boxes to customize the color. 
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Click <guibutton>OK</guibutton> to close the <guilabel>Pick a color</guilabel> dialog.
-            </para>
-          </listitem>
-          <listitem>
-            <para>
-              Click <guibutton>Close</guibutton> to close the <guilabel>Preferences</guilabel> dialog.
-            </para>
-          </listitem>
-        </orderedlist>
-      </sect3>
-
       <sect3 id="mate-system-monitor-customize-cpu">
-        <title>To Change the Line Color of the CPU Graph</title>
+        <title>To Change the Line Colors of the CPU Graph</title>
         <para>
           To change the color of the line that represents CPU usage in the <guilabel>CPU History</guilabel> graph, perform the following steps:
         </para>
@@ -1190,7 +1117,36 @@
           </listitem>
           <listitem>
             <para>
-              Click on the <guibutton>User memory</guibutton> or <guibutton>Used swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is displayed. 
+              Click on the <guibutton>Memory</guibutton> or <guibutton>Swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is displayed. 
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel or the spin boxes to customize the color. 
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Click <guibutton>OK</guibutton> to close the <guilabel>Pick a color</guilabel> dialog.
+            </para>
+          </listitem>
+        </orderedlist>
+      </sect3>
+
+      <sect3 id="mate-system-monitor-customize-network">
+        <title>To Change the Line Colors of the Network Graph</title>
+        <para>
+          To change the background color of the <application>&app;</application> graphs, perform the following steps:
+        </para>
+        <orderedlist>
+          <listitem>
+            <para>
+              Select the <guilabel>Resources</guilabel> tab in the <guilabel>System Monitor</guilabel> window, to display the graphs and table that provide information about the usage of system resources. 
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Click on the <guilabel>Receiving</guilabel> or <guilabel>Sending</guilabel> button. The <guilabel>Pick a color</guilabel> dialog is displayed. 
             </para>
           </listitem>
           <listitem>
@@ -1220,6 +1176,9 @@
       </listitem>
       <listitem>
         <para><xref linkend="mate-system-monitor-prefs-resmon"/></para>
+      </listitem>
+      <listitem>
+        <para><xref linkend="mate-system-monitor-prefs-fs"/></para>
       </listitem>
     </itemizedlist>
 
@@ -1258,7 +1217,7 @@
                 </listitem>
                 <listitem>
                   <para>
-                    <guilabel>Solaris mode</guilabel>
+                    <guilabel>Divide CPU usage by CPU count</guilabel>
                   </para>
                   <para>
                     Select this to divide each process' CPU% in the Processes table by the number of CPUs.
@@ -1404,6 +1363,62 @@
                     Select this option to display the command line that was used to start the process, including arguments.
                   </para>
                 </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Waiting Channel</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the waiting channel of a process where it is waiting for a resource.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Control Group</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the control group a process belongs to.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Unit</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the systemd unit for a process.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Session</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the session under which the process is running.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Seat</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the "seat" a process is assigned to. The special default seat called "seat0" always exists.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Owner</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the owner of a process. 
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Priority</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the priority of a process- how much CPU it is allowed to use. A process running with higher priority can use more of the CPU compared to the one with a lower priority.
+                  </para>
+                </listitem>
               </itemizedlist>
             </listitem>
           </varlistentry>
@@ -1427,23 +1442,21 @@
                 </listitem>
                 <listitem>
                   <para>
-                    <guilabel>Background color</guilabel>
+                    <guilabel>Show network speed in bits</guilabel>
                   </para>
                   <para>
-                    Use this button to customize the background color of the <application>&app;</application> graphs, as described in <xref linkend="mate-system-monitor-customize-background"/>.
-                  </para>
-                </listitem>
-                <listitem>
-                  <para>
-                    <guilabel>Grid color</guilabel>
-                  </para>
-                  <para>
-                    Use this button to customize the grid color of the <application>&app;</application> graphs, as described in <xref linkend="mate-system-monitor-customize-grid"/>.
+                    Select this option to show your network speed in bits/s instead of the default bytes/s.
                   </para>
                 </listitem>
               </itemizedlist>
             </listitem>
           </varlistentry>
+        </variablelist>
+    </sect2>
+    
+    <sect2 id="mate-system-monitor-prefs-fs">
+      <title>File Systems</title>
+        <variablelist>
           <varlistentry>
             <term><guilabel>File Systems</guilabel></term>
             <listitem>
@@ -1462,6 +1475,74 @@
                   </para>
                   <para>
                     Select this option to show all file systems, including temporary and system ones.
+                  </para>
+                </listitem>
+              </itemizedlist>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>
+              <guilabel>Information Fields</guilabel>
+            </term>
+            <listitem>
+              <para>
+                Use the following options to select which fields are displayed in the file system list:
+              </para>
+              <itemizedlist>
+                <listitem>
+                  <para>
+                    <guilabel>Device</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the location of the block file for the device.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Directory</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the mount point (directory to access) of a device.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Type</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the file system type. Linux supports numerous file system types like NTFS, FAT32, ext4, ext3 ext2 etc. If the file system is of any supported type, it will be shown if this option is selected.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Total</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the total capacity of a file system.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Free</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the amount of space not used by the file system.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Available</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the amount of space left for use.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Used</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the amount of used space.
                   </para>
                 </listitem>
               </itemizedlist>

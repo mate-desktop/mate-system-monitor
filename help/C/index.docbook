@@ -1078,7 +1078,7 @@
       <sect3 id="mate-system-monitor-customize-cpu">
         <title>To Change the Line Colors of the CPU Graph</title>
         <para>
-          To change the color of the line that represents CPU usage in the <guilabel>CPU History</guilabel> graph, perform the following steps:
+          To change the color of the lines that represents CPU usage in the <guilabel>CPU History</guilabel> graph, perform the following steps:
         </para>
         <orderedlist>
           <listitem>
@@ -1107,7 +1107,7 @@
       <sect3 id="mate-system-monitor-customize-mem">
         <title>To Change the Line Colors of the Memory and Swap Graph</title>
         <para>
-          To change the color of the lines that represent memory and swap usage in the graph, perform the following steps:
+          To change the color of the lines that represent memory and swap usage in the <guilabel>Memory and Swap History</guilabel> graph, perform the following steps:
         </para>
         <orderedlist>
           <listitem>
@@ -1136,7 +1136,7 @@
       <sect3 id="mate-system-monitor-customize-network">
         <title>To Change the Line Colors of the Network Graph</title>
         <para>
-          To change the background color of the <application>&app;</application> graphs, perform the following steps:
+          To change the color of the lines that represent network usage in the <guilabel>Network History</guilabel> graph, perform the following steps:
         </para>
         <orderedlist>
           <listitem>
@@ -1368,7 +1368,7 @@
                     <guilabel>Waiting Channel</guilabel>
                   </para>
                   <para>
-                    Select this option to display the waiting channel of a process where it is waiting for a resource.
+                    Select this option to display the waiting channel, whereby a process waits for a resource.
                   </para>
                 </listitem>
                 <listitem>
@@ -1376,7 +1376,7 @@
                     <guilabel>Control Group</guilabel>
                   </para>
                   <para>
-                    Select this option to display the control group a process belongs to.
+                    Select this option to display the control group that a process belongs to.
                   </para>
                 </listitem>
                 <listitem>
@@ -1510,7 +1510,7 @@
                     <guilabel>Type</guilabel>
                   </para>
                   <para>
-                    Select this option to display the file system type. Linux supports numerous file system types like NTFS, FAT32, ext4, ext3 ext2 etc. If the file system is of any supported type, it will be shown if this option is selected.
+                    Select this option to display the file system type. In most distributions of GNU/Linux and other Unix-like operating systems, there are numerous file system types which are supported by the kernel, like NTFS, FAT32, ext4, ext3 ext2 etc. The file system type will be shown if this option is selected in case it's a supported type.
                   </para>
                 </listitem>
                 <listitem>

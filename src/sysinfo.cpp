@@ -72,16 +72,26 @@ namespace {
                         ("<big><big><b>" + this->distro_name + "</b></big></big>").c_str(),
                         NULL);
 
-
-            /* Translators: The first string parameter is release version (codename),
-             * the second one is the architecture, 32 or 64-bit */
+            char* markup;
 #ifdef __linux__
-            char* markup = g_strdup_printf(_("Release %s %s"),
-                                           this->distro_release.c_str(),
-                                           this->get_os_type().c_str());
+            if (this->distro_release != "")
+            {
+                /* Translators: The first string parameter is release version (codename),
+                 * the second one is the architecture, 32 or 64-bit */
+                markup = g_strdup_printf(_("Release %s %s"),
+                                         this->distro_release.c_str(),
+                                         this->get_os_type().c_str());
+            }
+            else
+            {
+                /* Translators: The string parameter is the architecture, 32 or 64-bit */
+                markup = g_strdup_printf(_("%s Version"),
+                                         this->get_os_type().c_str());
+            }
 #else
-            char* markup = g_strdup_printf(_("Release %s"),
-                                           this->distro_release.c_str());
+            /* Translators: The string parameter is release version (codename) */
+            markup = g_strdup_printf(_("Release %s"),
+                                     this->distro_release.c_str());
 #endif
 
             g_object_set(G_OBJECT(release),

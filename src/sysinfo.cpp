@@ -279,6 +279,14 @@ namespace {
             this->free_space_bytes = 0;
 
             for (guint i = 0; i != mountlist.number; ++i) {
+                if ((string(entries[i].mountdir).compare("/") == 0) && \
+                    (string(entries[i].type).compare("zfs") == 0)) {
+                    // Root filesystem is ZFS based: Calculate usage based on "/".
+                    glibtop_fsusage usage;
+                    glibtop_get_fsusage(&usage, "/");
+                    this->free_space_bytes = usage.bavail * usage.block_size;
+                    break;
+                }
 
                 if (string(entries[i].devname).find("/dev/") != 0)
                     continue;

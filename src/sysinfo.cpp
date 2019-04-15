@@ -915,7 +915,7 @@ procman_create_sysinfo_view(void)
     hardware_table = add_section(GTK_BOX(vbox), markup, 1, 2, NULL);
     g_free(markup);
 
-    markup = procman::format_size(data->memory_bytes);
+    markup = g_format_size_full(data->memory_bytes, G_FORMAT_SIZE_IEC_UNITS);
     add_row(GTK_GRID(hardware_table), _("Memory:"), markup, 0);
     g_free(markup);
 
@@ -932,7 +932,7 @@ procman_create_sysinfo_view(void)
     disk_space_table = add_section(GTK_BOX(vbox), markup, 1, 2, NULL);
     g_free(markup);
 
-    markup = procman::format_size(data->free_space_bytes);
+    markup = g_format_size(data->free_space_bytes);
     add_row(GTK_GRID(disk_space_table), _("Available disk space:"), markup, 0);
     g_free(markup);
 

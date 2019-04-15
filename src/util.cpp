@@ -133,83 +133,6 @@ procman_make_label_for_mmaps_or_ofiles(const char *format,
     return label;
 }
 
-
-
-/**
- * procman::format_size:
- * @size:
- *
- * Formats the file size passed in @bytes in a way that is easy for
- * the user to read. Gives the size in bytes, kibibytes, mebibytes or
- * gibibytes, choosing whatever is appropriate.
- *
- * Returns: a newly allocated string with the size ready to be shown.
- **/
-
-gchar*
-procman::format_size(guint64 size, guint64 max_size, bool want_bits)
-{
-
-    enum {
-        K_INDEX,
-        M_INDEX,
-        G_INDEX,
-                T_INDEX
-    };
-
-    struct Format {
-        guint64 factor;
-        const char* string;
-    };
-
-    const Format all_formats[2][4] = {
-        { { G_GUINT64_CONSTANT(1) << 10,       N_("%.1f KiB")  },
-          { G_GUINT64_CONSTANT(1) << 20,       N_("%.1f MiB")  },
-          { G_GUINT64_CONSTANT(1) << 30,       N_("%.1f GiB")  },
-          { G_GUINT64_CONSTANT(1) << 40,       N_("%.1f TiB")  } },
-        { { G_GUINT64_CONSTANT(1000),          N_("%.3g kbit") },
-          { G_GUINT64_CONSTANT(1000000),       N_("%.3g Mbit") },
-          { G_GUINT64_CONSTANT(1000000000),    N_("%.3g Gbit") },
-          { G_GUINT64_CONSTANT(1000000000000), N_("%.3g Tbit") } }
-    };
-
-    const Format (&formats)[4] = all_formats[want_bits ? 1 : 0];
-
-    if (want_bits) {
-        size *= 8;
-        max_size *= 8;
-    }
-
-    if (max_size == 0)
-        max_size = size;
-
-    if (max_size < formats[K_INDEX].factor) {
-        const char *format = (want_bits
-                              ? dngettext(GETTEXT_PACKAGE, "%u bit", "%u bits", (guint) size)
-                              : dngettext(GETTEXT_PACKAGE, "%u byte", "%u bytes",(guint) size));
-        return g_strdup_printf (format, (guint) size);
-    } else {
-        guint64 factor;
-        const char* format = NULL;
-
-        if (max_size < formats[M_INDEX].factor) {
-            factor = formats[K_INDEX].factor;
-            format = formats[K_INDEX].string;
-        } else if (max_size < formats[G_INDEX].factor) {
-            factor = formats[M_INDEX].factor;
-            format = formats[M_INDEX].string;
-        } else if (max_size < formats[T_INDEX].factor) {
-            factor = formats[G_INDEX].factor;
-            format = formats[G_INDEX].string;
-        } else {
-            factor = formats[T_INDEX].factor;
-            format = formats[T_INDEX].string;
-        }
-
-        return g_strdup_printf(_(format), size / (double)factor);
-    }
-}
-
 gchar *
 procman::get_nice_level (gint nice)
 {
@@ -355,9 +278,9 @@ procman_debug_real(const char *file, int line, const char *func,
 
 namespace procman
 {
-    void size_cell_data_func(GtkTreeViewColumn *, GtkCellRenderer *renderer,
-                             GtkTreeModel *model, GtkTreeIter *iter,
-                             gpointer user_data)
+    void memory_size_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                    GtkTreeModel *model, GtkTreeIter *iter,
+                                    gpointer user_data)
     {
         const guint index = GPOINTER_TO_UINT(user_data);
 
@@ -381,20 +304,19 @@ namespace procman
 
         g_value_unset(&value);
 
-        char *str = procman::format_size(size);
+        char *str = g_format_size_full(size, G_FORMAT_SIZE_IEC_UNITS);
         g_object_set(renderer, "text", str, NULL);
         g_free(str);
     }
 
-
     /*
       Same as above but handles size == 0 as not available
      */
-    void size_na_cell_data_func(GtkTreeViewColumn *, GtkCellRenderer *renderer,
-                                GtkTreeModel *model, GtkTreeIter *iter,
-                                gpointer user_data)
+    void memory_size_na_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                       GtkTreeModel *model, GtkTreeIter *iter,
+                                       gpointer user_data)
     {
-        const guint index = GPOINTER_TO_UINT(user_data);
+     	const guint index = GPOINTER_TO_UINT(user_data);
 
         guint64 size;
         GValue value = { 0 };
@@ -414,15 +336,87 @@ namespace procman
               g_assert_not_reached();
         }
 
-        g_value_unset(&value);
+	g_value_unset(&value);
 
         if (size == 0) {
             char *str = g_strdup_printf ("<i>%s</i>", _("N/A"));
             g_object_set(renderer, "markup", str, NULL);
             g_free(str);
         }
-        else {
-            char *str = procman::format_size(size);
+	else {
+            char *str = g_format_size_full(size, G_FORMAT_SIZE_IEC_UNITS);
+            g_object_set(renderer, "text", str, NULL);
+            g_free(str);
+        }
+    }
+
+    void storage_size_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                     GtkTreeModel *model, GtkTreeIter *iter,
+                                     gpointer user_data)
+    {
+        const guint index = GPOINTER_TO_UINT(user_data);
+
+        guint64 size;
+        GValue value = { 0 };
+
+        gtk_tree_model_get_value(model, iter, index, &value);
+
+        switch (G_VALUE_TYPE(&value)) {
+            case G_TYPE_ULONG:
+                size = g_value_get_ulong(&value);
+                break;
+
+            case G_TYPE_UINT64:
+                size = g_value_get_uint64(&value);
+                break;
+
+            default:
+                g_assert_not_reached();
+        }
+
+        g_value_unset(&value);
+
+        char *str = g_format_size(size);
+        g_object_set(renderer, "text", str, NULL);
+        g_free(str);
+    }
+
+    /*
+      Same as above but handles size == 0 as not available
+     */
+    void storage_size_na_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                        GtkTreeModel *model, GtkTreeIter *iter,
+                                        gpointer user_data)
+    {
+     	const guint index = GPOINTER_TO_UINT(user_data);
+
+        guint64 size;
+        GValue value = { 0 };
+
+        gtk_tree_model_get_value(model, iter, index, &value);
+
+        switch (G_VALUE_TYPE(&value)) {
+            case G_TYPE_ULONG:
+                size = g_value_get_ulong(&value);
+                break;
+
+          case G_TYPE_UINT64:
+              size = g_value_get_uint64(&value);
+              break;
+
+          default:
+              g_assert_not_reached();
+        }
+
+	g_value_unset(&value);
+
+        if (size == 0) {
+            char *str = g_strdup_printf ("<i>%s</i>", _("N/A"));
+            g_object_set(renderer, "markup", str, NULL);
+            g_free(str);
+        }
+	else {
+            char *str = g_format_size(size);
             g_object_set(renderer, "text", str, NULL);
             g_free(str);
         }
@@ -574,33 +568,4 @@ namespace procman
 
         g_free(current_value);
     }
-
-
-    std::string format_rate(guint64 rate, guint64 max_rate, bool want_bits)
-    {
-        char* bytes = procman::format_size(rate, max_rate, want_bits);
-        // xgettext: rate, 10MiB/s or 10Mbit/s
-        std::string formatted_rate(make_string(g_strdup_printf(_("%s/s"), bytes)));
-        g_free(bytes);
-        return formatted_rate;
-    }
-
-
-    std::string format_network(guint64 rate, guint64 max_rate)
-    {
-        char* bytes = procman::format_size(rate, max_rate, ProcData::get_instance()->config.network_in_bits);
-        std::string formatted(bytes);
-        g_free(bytes);
-        return formatted;
-    }
-
-
-    std::string format_network_rate(guint64 rate, guint64 max_rate)
-    {
-        return procman::format_rate(rate, max_rate, ProcData::get_instance()->config.network_in_bits);
-    }
-
 }
-
-
-

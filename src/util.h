@@ -46,13 +46,21 @@ namespace procman
 {
     gchar* format_duration_for_display(unsigned centiseconds);
 
-    void size_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
-                             GtkTreeModel *model, GtkTreeIter *iter,
-                             gpointer user_data);
+    void memory_size_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                    GtkTreeModel *model, GtkTreeIter *iter,
+                                    gpointer user_data);
 
-    void size_na_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
-                                GtkTreeModel *model, GtkTreeIter *iter,
-                                gpointer user_data);
+    void memory_size_na_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                       GtkTreeModel *model, GtkTreeIter *iter,
+                                       gpointer user_data);
+
+    void storage_size_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                     GtkTreeModel *model, GtkTreeIter *iter,
+                                     gpointer user_data);
+
+    void storage_size_na_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                        GtkTreeModel *model, GtkTreeIter *iter,
+                                        gpointer user_data);
 
     void duration_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
                    GtkTreeModel *model, GtkTreeIter *iter,
@@ -113,14 +121,7 @@ namespace procman
          tree_store_update<const char>(model, iter, column, new_value);
     }
 
-    gchar* format_size(guint64 size, guint64 max = 0, bool want_bits = false);
-
     gchar* get_nice_level (gint nice);
-
-    std::string format_rate(guint64 rate, guint64 max_rate = 0, bool want_bits = false);
-
-    std::string format_network(guint64 rate, guint64 max_rate = 0);
-    std::string format_network_rate(guint64 rate, guint64 max_rate = 0);
 }
 
 

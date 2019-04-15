@@ -612,6 +612,14 @@ namespace {
                         this->distro_release = s.substr(start + 1, s.size() - start - 2);
                     }
                 }
+                input.close();
+                input.clear();
+            }
+            if (this->distro_release.empty()) {
+                input.open("/etc/debian_version");
+                if (input) {
+                    getline(input, this->distro_release);
+                }
             }
         }
     };

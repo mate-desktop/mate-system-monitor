@@ -362,7 +362,7 @@ proctable_new (ProcData * const procdata)
         switch (i) {
             case COL_MEMXSERVER:
                 gtk_tree_view_column_set_cell_data_func(col, cell,
-                                                        &procman::size_cell_data_func,
+                                                        &procman::memory_size_cell_data_func,
                                                         GUINT_TO_POINTER(i),
                                                         NULL);
                 break;
@@ -372,7 +372,7 @@ proctable_new (ProcData * const procdata)
             case COL_MEM:
             case COL_MEMWRITABLE:
                 gtk_tree_view_column_set_cell_data_func(col, cell,
-                                                        &procman::size_na_cell_data_func,
+                                                        &procman::memory_size_na_cell_data_func,
                                                         GUINT_TO_POINTER(i),
                                                         NULL);
                 break;

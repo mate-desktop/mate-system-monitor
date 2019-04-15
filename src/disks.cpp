@@ -417,7 +417,7 @@ create_disk_view(ProcData *procdata)
             case DISK_AVAIL:
                 g_object_set(cell, "xalign", 1.0f, NULL);
                 gtk_tree_view_column_set_cell_data_func(col, cell,
-                                                        &procman::size_cell_data_func,
+                                                        &procman::storage_size_cell_data_func,
                                                         GUINT_TO_POINTER(i),
                                                         NULL);
                 break;
@@ -437,7 +437,7 @@ create_disk_view(ProcData *procdata)
     g_object_set(cell, "xalign", 1.0f, NULL);
     gtk_tree_view_column_pack_start(col, cell, FALSE);
     gtk_tree_view_column_set_cell_data_func(col, cell,
-                                            &procman::size_cell_data_func,
+                                            &procman::storage_size_cell_data_func,
                                             GUINT_TO_POINTER(DISK_USED),
                                             NULL);
 

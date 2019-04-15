@@ -69,7 +69,7 @@ static void draw_background(LoadGraph *graph) {
     cairo_t *cr;
     guint i;
     unsigned num_bars;
-    char *caption;
+    g_autofree gchar *caption;
     PangoLayout* layout;
     PangoFontDescription* font_desc;
     PangoRectangle extents;
@@ -135,8 +135,8 @@ static void draw_background(LoadGraph *graph) {
         if (graph->type == LOAD_GRAPH_NET) {
             // operation orders matters so it's 0 if i == num_bars
             guint64 rate = graph->net.max - (i * graph->net.max / num_bars);
-            const std::string caption(procman::format_network_rate(rate, graph->net.max));
-            pango_layout_set_text (layout, caption.c_str(), -1);
+            caption = g_format_size_full (rate, ProcData::get_instance()->config.network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+            pango_layout_set_text (layout, caption, -1);
             pango_layout_get_extents (layout, NULL, &extents);
             cairo_move_to (cr, graph->indent - 1.0 * extents.width / PANGO_SCALE + 20, y - 1.0 * extents.height / PANGO_SCALE / 2);
             pango_cairo_show_layout (cr, layout);
@@ -147,7 +147,6 @@ static void draw_background(LoadGraph *graph) {
             pango_layout_get_extents (layout, NULL, &extents);
             cairo_move_to (cr, graph->indent - 1.0 * extents.width / PANGO_SCALE + 20, y - 1.0 * extents.height / PANGO_SCALE / 2);
             pango_cairo_show_layout (cr, layout);
-            g_free (caption);
         }
 
         if (i==0 || i==num_bars)
@@ -182,7 +181,6 @@ static void draw_background(LoadGraph *graph) {
         cairo_move_to (cr, ((ceil(x) + 0.5) + graph->rmargin + graph->indent) - (1.0 * extents.width / PANGO_SCALE/2), graph->draw_height - 1.0 * extents.height / PANGO_SCALE);
         gdk_cairo_set_source_rgba (cr, &fg);
         pango_cairo_show_layout (cr, layout);
-        g_free (caption);
     }
     g_object_unref(layout);
     cairo_stroke (cr);
@@ -344,8 +342,8 @@ namespace
         char* total_text;
         char* text;
 
-        used_text = procman::format_size(used);
-        total_text = procman::format_size(total);
+        used_text = g_format_size_full(used, G_FORMAT_SIZE_IEC_UNITS);
+        total_text = g_format_size_full(total, G_FORMAT_SIZE_IEC_UNITS);
         if (total == 0) {
             text = g_strdup(_("not available"));
         } else {
@@ -586,12 +584,24 @@ get_net (LoadGraph *graph)
 
     net_scale(graph, din, dout);
 
+    bool network_in_bits = ProcData::get_instance()->config.network_in_bits;
+    g_autofree gchar *str=NULL, *formatted_str=NULL;
 
-    gtk_label_set_text (GTK_LABEL (graph->labels.net_in), procman::format_network_rate(din).c_str());
-    gtk_label_set_text (GTK_LABEL (graph->labels.net_in_total), procman::format_network(in).c_str());
+    str = g_format_size_full (din, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    formatted_str = g_strdup_printf(_("%s/s"), str);
+    gtk_label_set_text (GTK_LABEL (graph->labels.net_in), formatted_str);
 
-    gtk_label_set_text (GTK_LABEL (graph->labels.net_out), procman::format_network_rate(dout).c_str());
-    gtk_label_set_text (GTK_LABEL (graph->labels.net_out_total), procman::format_network(out).c_str());
+    str = g_format_size_full (in, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    formatted_str = g_strdup_printf(_("%s/s"), str);
+    gtk_label_set_text (GTK_LABEL (graph->labels.net_in_total), formatted_str);
+
+    str = g_format_size_full (dout, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    formatted_str = g_strdup_printf(_("%s/s"), str);
+    gtk_label_set_text (GTK_LABEL (graph->labels.net_out), formatted_str);
+
+    str = g_format_size_full (out, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    formatted_str = g_strdup_printf(_("%s/s"), str);
+    gtk_label_set_text (GTK_LABEL (graph->labels.net_out_total), formatted_str);
 }
 
 

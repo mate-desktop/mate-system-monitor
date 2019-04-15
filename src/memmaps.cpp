@@ -366,7 +366,7 @@ create_memmapsdata (ProcData *procdata)
             case MMAP_COL_SHARED_DIRTY:
             case MMAP_COL_VMSZ:
                 gtk_tree_view_column_set_cell_data_func(col, cell,
-                                                         &procman::size_cell_data_func,
+                                                         &procman::memory_size_cell_data_func,
                                                         GUINT_TO_POINTER(i),
                                                         NULL);
 

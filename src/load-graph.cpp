@@ -121,6 +121,7 @@ static void draw_background(LoadGraph *graph) {
     cairo_set_line_width (cr, 1.0);
     cairo_set_source_rgba (cr, 0.89, 0.89, 0.89, 1.0);
 
+    bool network_in_bits = ProcData::get_instance()->config.network_in_bits;
     for (i = 0; i <= num_bars; ++i) {
         double y;
 
@@ -135,7 +136,7 @@ static void draw_background(LoadGraph *graph) {
         if (graph->type == LOAD_GRAPH_NET) {
             // operation orders matters so it's 0 if i == num_bars
             guint64 rate = graph->net.max - (i * graph->net.max / num_bars);
-            caption = g_format_size_full (rate, ProcData::get_instance()->config.network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+            caption = g_format_size_full (network_in_bits ? rate*8 : rate, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
             pango_layout_set_text (layout, caption, -1);
             pango_layout_get_extents (layout, NULL, &extents);
             cairo_move_to (cr, graph->indent - 1.0 * extents.width / PANGO_SCALE + 20, y - 1.0 * extents.height / PANGO_SCALE / 2);
@@ -587,21 +588,19 @@ get_net (LoadGraph *graph)
     bool network_in_bits = ProcData::get_instance()->config.network_in_bits;
     g_autofree gchar *str=NULL, *formatted_str=NULL;
 
-    str = g_format_size_full (din, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    str = g_format_size_full (network_in_bits ? din*8 : din, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
     formatted_str = g_strdup_printf(_("%s/s"), str);
     gtk_label_set_text (GTK_LABEL (graph->labels.net_in), formatted_str);
 
-    str = g_format_size_full (in, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
-    formatted_str = g_strdup_printf(_("%s/s"), str);
-    gtk_label_set_text (GTK_LABEL (graph->labels.net_in_total), formatted_str);
+    str = g_format_size_full (network_in_bits ? in*8 : in, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    gtk_label_set_text (GTK_LABEL (graph->labels.net_in_total), str);
 
-    str = g_format_size_full (dout, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    str = g_format_size_full (network_in_bits ? dout*8 : dout, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
     formatted_str = g_strdup_printf(_("%s/s"), str);
     gtk_label_set_text (GTK_LABEL (graph->labels.net_out), formatted_str);
 
-    str = g_format_size_full (out, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
-    formatted_str = g_strdup_printf(_("%s/s"), str);
-    gtk_label_set_text (GTK_LABEL (graph->labels.net_out_total), formatted_str);
+    str = g_format_size_full (network_in_bits ? out*8 : out, network_in_bits ? G_FORMAT_SIZE_BITS : G_FORMAT_SIZE_DEFAULT);
+    gtk_label_set_text (GTK_LABEL (graph->labels.net_out_total), str);
 }
 
 

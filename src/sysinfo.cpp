@@ -21,6 +21,7 @@
 #include <math.h>
 #include <errno.h>
 
+#include <exception>
 #include <string>
 #include <vector>
 #include <fstream>
@@ -38,7 +39,6 @@ using std::vector;
 
 namespace {
 
-
     class SysInfo
     {
     public:
@@ -50,12 +50,13 @@ namespace {
         guint64 memory_bytes;
         guint64 free_space_bytes;
 
+        string graphics;
         string processors;
-
 
         SysInfo()
         {
             this->load_processors_info();
+            this->load_graphics_info();
             this->load_memory_info();
             this->load_disk_info();
             this->load_uname_info();
@@ -213,6 +214,89 @@ namespace {
             }
 
             return pretty;
+        }
+
+        static char* get_renderer_from_helper (gboolean discrete_gpu)
+        {
+            int status;
+            const char *argv[] = { LIBEXECDIR "/mate-session-check-accelerated", NULL };
+            g_auto(GStrv) envp = NULL;
+            g_autofree char *renderer = NULL;
+            g_autoptr(GError) error = NULL;
+
+            if (discrete_gpu)
+            {
+                envp = g_get_environ ();
+                envp = g_environ_setenv (envp, "DRI_PRIME", "1", TRUE);
+            }
+
+            if (!g_spawn_sync (NULL, (char **) argv, envp, G_SPAWN_DEFAULT, NULL, NULL, &renderer, NULL, &status, &error))
+            {
+                g_debug ("Failed to get %s GPU: %s",
+                         discrete_gpu ? "discrete" : "integrated",
+                         error->message);
+                return NULL;
+            }
+
+            if (!g_spawn_check_exit_status (status, NULL))
+                return NULL;
+
+            if (renderer == NULL || *renderer == '\0')
+                return NULL;
+
+            return prettify_info (renderer);
+        }
+
+
+        void load_graphics_info()
+        {
+            g_autofree char *renderer = NULL;
+
+            try
+            {
+                g_autoptr(GDBusProxy) session_proxy = NULL;
+                g_autoptr(GVariant) renderer_variant = NULL;
+                g_autoptr(GError) error = NULL;
+
+                session_proxy = g_dbus_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
+                                                               G_DBUS_PROXY_FLAGS_NONE,
+                                                               NULL,
+                                                               "org.gnome.SessionManager",
+                                                               "/org/gnome/SessionManager",
+                                                               "org.gnome.SessionManager",
+                                                               NULL, &error);
+                if (error != NULL)
+                {
+                    throw std::runtime_error ("Unable to connect to create a proxy for org.gnome.SessionManager");
+                }
+
+                renderer_variant = g_dbus_proxy_get_cached_property (session_proxy, "Renderer");
+                if (!renderer_variant)
+                {
+                    throw std::runtime_error ("Unable to retrieve org.gnome.SessionManager.Renderer property.");
+                }
+
+                renderer = prettify_info (g_variant_get_string (renderer_variant, NULL));
+            }
+            catch (std::exception& e)
+            {
+                g_warning ("%s", e.what());
+            }
+
+            if (renderer == NULL)
+                renderer = get_renderer_from_helper (FALSE);
+
+            if (renderer == NULL)
+                renderer = get_renderer_from_helper (TRUE);
+
+            if (renderer)
+            {
+                this->graphics = g_strdup (renderer);
+            }
+            else
+            {
+                this->graphics = _("Unknown");
+            }
         }
 
         void load_processors_info()
@@ -912,7 +996,7 @@ procman_create_sysinfo_view(void)
     /* hardware section */
 
     markup = g_strdup_printf("<b>%s</b>", _("Hardware"));
-    hardware_table = add_section(GTK_BOX(vbox), markup, 1, 2, NULL);
+    hardware_table = add_section(GTK_BOX(vbox), markup, 1, 3, NULL);
     g_free(markup);
 
     markup = g_format_size_full(data->memory_bytes, G_FORMAT_SIZE_IEC_UNITS);
@@ -922,6 +1006,8 @@ procman_create_sysinfo_view(void)
     markup = NULL;
     add_row(GTK_GRID(hardware_table), _("Processor:"),
             data->processors.c_str(), 1);
+    add_row(GTK_GRID(hardware_table), _("Graphics:"),
+            data->graphics.c_str(), 2);
 
     if(markup)
         g_free(markup);

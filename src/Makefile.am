@@ -4,7 +4,8 @@ AM_CPPFLAGS = \
 	-DPROCMAN_DATADIR=\""$(datadir)/procman/"\" \
 	-DMATELOCALEDIR=\""$(datadir)/locale"\" \
 	-DDATADIR=\""$(datadir)"\" \
-	-DLIBEXEC_DIR=\""$(pkglibexecdir)"\" \
+	-DPKGLIBEXECDIR=\""$(pkglibexecdir)"\" \
+	-DLIBEXECDIR=\""$(libexecdir)"\" \
 	@PROCMAN_CFLAGS@ \
 	@SYSTEMD_CFLAGS@
 

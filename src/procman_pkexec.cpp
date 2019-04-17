@@ -10,7 +10,7 @@ procman_pkexec_create_root_password_dialog (const char *command)
     GError *error = NULL;
 
     command_line = g_strdup_printf ("pkexec --disable-internal-agent %s/msm-%s",
-                                    LIBEXEC_DIR, command);
+                                    PKGLIBEXECDIR, command);
     success = g_spawn_command_line_sync (command_line, NULL, NULL, NULL, &error);
     g_free (command_line);
 

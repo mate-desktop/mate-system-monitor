@@ -5,6 +5,7 @@
 
 #include <glib.h>
 #include <gtk/gtk.h>
+#include <time.h>
 #include <string>
 
 using std::string;
@@ -19,6 +20,9 @@ procman_make_label_for_mmaps_or_ofiles(const char *format,
 
 gboolean
 load_symbols(const char *module, ...) G_GNUC_NULL_TERMINATED;
+
+gchar *
+procman_format_date_for_display(time_t time_raw);
 
 const char*
 format_process_state(guint state);

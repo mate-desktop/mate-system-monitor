@@ -38,7 +38,6 @@ mate_system_monitor_cpp_files = \
 	iconthemewrapper.cpp
 
 mate_system_monitor_c_files = \
-	e_date.c \
 	gsm_color_button.c
 
 mate_system_monitor_h_files = \

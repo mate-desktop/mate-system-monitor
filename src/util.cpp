@@ -1,5 +1,6 @@
 #include <config.h>
 
+#include <glib/gprintf.h>
 #include <glib/gi18n.h>
 #include <glib.h>
 #include <gtk/gtk.h>
@@ -14,10 +15,36 @@
 #include "util.h"
 #include "procman.h"
 
-extern "C" {
-#include "e_date.h"
-}
+gchar *
+procman_format_date_for_display(time_t time_raw)
+{
+    gchar *result = NULL;
+    const char *format;
+    GDateTime *date_time, *today;
+    GTimeSpan date_age;
 
+    date_time = g_date_time_new_from_unix_local (time_raw);
+    today = g_date_time_new_now_local ();
+
+    date_age = g_date_time_difference (today, date_time);
+    if (date_age < G_TIME_SPAN_DAY) {
+        format = _("Today %l:%M %p");
+    } else if (date_age < 2 * G_TIME_SPAN_DAY) {
+        format = _("Yesterday %l:%M %p");
+    } else if (date_age < 7 * G_TIME_SPAN_DAY) {
+        format = _("%a %l:%M %p");
+    } else if (g_date_time_get_year (date_time) == g_date_time_get_year (today)) {
+        format = _("%b %d %l:%M %p");
+    } else {
+	format = _("%b %d %Y");
+    }
+
+    g_date_time_unref (today);
+    result = g_date_time_format (date_time, format);
+    g_date_time_unref (date_time);
+
+    return result;
+}
 
 const char*
 format_process_state(guint state)
@@ -518,7 +545,7 @@ namespace procman
 
         g_value_unset(&value);
 
-        char *str = procman_format_date_for_display(time);
+        gchar *str = procman_format_date_for_display(time);
         g_object_set(renderer, "text", str, NULL);
         g_free(str);
     }

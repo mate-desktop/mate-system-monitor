@@ -28,6 +28,7 @@
 #include <glibtop.h>
 #include <glibtop/loadavg.h>
 #include <glibtop/proclist.h>
+#include <glibtop/procio.h>
 #include <glibtop/procstate.h>
 #include <glibtop/procmem.h>
 #include <glibtop/procmap.h>
@@ -263,6 +264,10 @@ proctable_new (ProcData * const procdata)
 	for multi-seat environments. See http://en.wikipedia.org/wiki/Multiseat_configuration */
         N_("Seat"),
         N_("Owner"),
+        N_("Disk Read Total"),
+        N_("Disk Write Total"),
+        N_("Disk Read"),
+        N_("Disk Write"),
         N_("Priority"),
         NULL,
         "POINTER"
@@ -298,6 +303,10 @@ proctable_new (ProcData * const procdata)
                                 G_TYPE_STRING,      /* Session      */
                                 G_TYPE_STRING,      /* Seat         */
                                 G_TYPE_STRING,      /* Owner        */
+                                G_TYPE_UINT64,      /* Disk read total */
+                                G_TYPE_UINT64,      /* Disk write total*/
+                                G_TYPE_UINT64,      /* Disk read    */
+                                G_TYPE_UINT64,      /* Disk write   */
                                 G_TYPE_STRING,      /* Priority     */
                                 GDK_TYPE_PIXBUF,    /* Icon         */
                                 G_TYPE_POINTER,     /* ProcInfo     */
@@ -397,15 +406,32 @@ proctable_new (ProcData * const procdata)
                                                         GUINT_TO_POINTER(i),
                                                         NULL);
                 break;
+
+            case COL_DISK_READ_TOTAL:
+            case COL_DISK_WRITE_TOTAL:
+                gtk_tree_view_column_set_cell_data_func(col, cell,
+                                                        &procman::storage_size_na_cell_data_func,
+                                                        GUINT_TO_POINTER(i),
+                                                        NULL);
+                break;
+
+            case COL_DISK_READ_CURRENT:
+            case COL_DISK_WRITE_CURRENT:
+                gtk_tree_view_column_set_cell_data_func(col, cell,
+                                                        &procman::io_rate_cell_data_func,
+                                                        GUINT_TO_POINTER(i),
+                                                        NULL);
+                break;
+
             case COL_PRIORITY:
                 gtk_tree_view_column_set_cell_data_func(col, cell,
                                                         &procman::priority_cell_data_func,
                                                         GUINT_TO_POINTER(COL_NICE),
                                                         NULL);
                 break;
+
             default:
                 gtk_tree_view_column_set_attributes(col, cell, "text", i, NULL);
-                break;
         }
 
         // sorting
@@ -418,6 +444,10 @@ proctable_new (ProcData * const procdata)
             case COL_MEMWRITABLE:
             case COL_CPU:
             case COL_CPU_TIME:
+            case COL_DISK_READ_TOTAL:
+            case COL_DISK_WRITE_TOTAL:
+            case COL_DISK_READ_CURRENT:
+            case COL_DISK_WRITE_CURRENT:
             case COL_START_TIME:
                 gtk_tree_sortable_set_sort_func(GTK_TREE_SORTABLE(model), i,
                                                 procman::number_compare_func, GUINT_TO_POINTER(i),
@@ -443,6 +473,10 @@ proctable_new (ProcData * const procdata)
             case COL_CPU:
             case COL_NICE:
             case COL_PID:
+            case COL_DISK_READ_TOTAL:
+            case COL_DISK_WRITE_TOTAL:
+            case COL_DISK_READ_CURRENT:
+            case COL_DISK_WRITE_CURRENT:
             case COL_CPU_TIME:
             case COL_MEM:
                 g_object_set(G_OBJECT(cell), "xalign", 1.0f, NULL);
@@ -650,6 +684,10 @@ update_info_mutable_cols(ProcInfo *info)
     tree_store_update(model, &info->node, COL_MEMXSERVER, info->memxserver);
     tree_store_update(model, &info->node, COL_CPU, info->pcpu);
     tree_store_update(model, &info->node, COL_CPU_TIME, info->cpu_time);
+    tree_store_update(model, &info->node, COL_DISK_READ_TOTAL, info->disk_read_bytes_total);
+    tree_store_update(model, &info->node, COL_DISK_WRITE_TOTAL, info->disk_write_bytes_total);
+    tree_store_update(model, &info->node, COL_DISK_READ_CURRENT, info->disk_read_bytes_current);
+    tree_store_update(model, &info->node, COL_DISK_WRITE_CURRENT, info->disk_write_bytes_current);
     tree_store_update(model, &info->node, COL_START_TIME, info->start_time);
     tree_store_update(model, &info->node, COL_NICE, info->nice);
     tree_store_update(model, &info->node, COL_MEM, info->mem);
@@ -785,6 +823,7 @@ update_info (ProcData *procdata, ProcInfo *info)
     glibtop_proc_uid procuid;
     glibtop_proc_time proctime;
     glibtop_proc_kernel prockernel;
+    glibtop_proc_io procio;
 
     glibtop_get_proc_kernel(&prockernel, info->pid);
     g_strlcpy(info->wchan, prockernel.wchan, sizeof info->wchan);
@@ -794,6 +833,7 @@ update_info (ProcData *procdata, ProcInfo *info)
 
     glibtop_get_proc_uid (&procuid, info->pid);
     glibtop_get_proc_time (&proctime, info->pid);
+    glibtop_get_proc_io (&procio, info->pid);
 
     get_process_memory_info(info);
 
@@ -812,6 +852,15 @@ update_info (ProcData *procdata, ProcInfo *info)
 
     ProcInfo::cpu_times[info->pid] = info->cpu_time = proctime.rtime;
     info->nice = procuid.nice;
+
+    gdouble update_interval_seconds = procdata->config.update_interval / 1000.0;
+    difference = procio.disk_wbytes - info->disk_write_bytes_total;
+    info->disk_write_bytes_current = difference > update_interval_seconds ? difference/update_interval_seconds : 0ULL;
+    difference = procio.disk_rbytes - info->disk_read_bytes_total;
+    info->disk_read_bytes_current = difference > update_interval_seconds ? difference/update_interval_seconds : 0ULL;
+
+    info->disk_write_bytes_total = procio.disk_wbytes;
+    info->disk_read_bytes_total = procio.disk_rbytes;
 
     // set the ppid only if one can exist
     // i.e. pid=0 can never have a parent

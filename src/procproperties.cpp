@@ -101,6 +101,15 @@ format_memsize(guint64 size)
         return g_format_size_full(size, G_FORMAT_SIZE_IEC_UNITS);
 }
 
+static gchar*
+format_size(guint64 size)
+{
+    if (size == 0)
+        return g_strdup(_("N/A"));
+    else
+        return g_format_size(size);
+}
+
 static void
 fill_proc_properties (GtkWidget *tree, ProcInfo *info)
 {
@@ -122,6 +131,8 @@ fill_proc_properties (GtkWidget *tree, ProcInfo *info)
         { N_("Writable Memory"), format_memsize(info->memwritable)},
         { N_("Shared Memory"), format_memsize(info->memshared)},
         { N_("X Server Memory"), format_memsize(info->memxserver)},
+        { N_("Disk Read Total"), format_size(info->disk_read_bytes_total)},
+        { N_("Disk Write Total"), format_size(info->disk_write_bytes_total)},
         { N_("CPU"), g_strdup_printf("%d%%", info->pcpu)},
         { N_("CPU Time"), procman::format_duration_for_display(100 * info->cpu_time / ProcData::get_instance()->frequency) },
         { N_("Started"), procman_format_date_for_display(info->start_time) },

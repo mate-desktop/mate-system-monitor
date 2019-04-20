@@ -50,6 +50,10 @@ namespace procman
                                     GtkTreeModel *model, GtkTreeIter *iter,
                                     gpointer user_data);
 
+    void io_rate_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
+                                GtkTreeModel *model, GtkTreeIter *iter,
+                                gpointer user_data);
+
     void memory_size_na_cell_data_func(GtkTreeViewColumn *col, GtkCellRenderer *renderer,
                                        GtkTreeModel *model, GtkTreeIter *iter,
                                        gpointer user_data);

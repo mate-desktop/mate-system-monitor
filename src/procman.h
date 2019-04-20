@@ -114,7 +114,11 @@ struct ProcConfig
 struct MutableProcInfo
 {
 MutableProcInfo()
-: status(0)
+  : disk_write_bytes_current(0ULL),
+    disk_read_bytes_current(0ULL),
+    disk_write_bytes_total(0ULL),
+    disk_read_bytes_total(0ULL),
+    status(0U)
     { }
 
     std::string user;
@@ -136,6 +140,10 @@ MutableProcInfo()
 
     gulong start_time;
     guint64 cpu_time;
+    guint64 disk_write_bytes_current;
+    guint64 disk_read_bytes_current;
+    guint64 disk_write_bytes_total;
+    guint64 disk_read_bytes_total;
     guint status;
     guint pcpu;
     gint nice;

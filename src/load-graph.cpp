@@ -7,6 +7,8 @@
 #include <unistd.h>
 #include <signal.h>
 #include <dirent.h>
+#include <fstream>
+#include <sstream>
 #include <string.h>
 #include <time.h>
 
@@ -14,8 +16,10 @@
 
 #include <glibtop.h>
 #include <glibtop/cpu.h>
+#ifndef __linux__
 #include <glibtop/mem.h>
 #include <glibtop/swap.h>
+#endif
 #include <glibtop/netload.h>
 #include <glibtop/netlist.h>
 #include <math.h>
@@ -365,24 +369,67 @@ static void
 get_memory (LoadGraph *graph)
 {
     float mempercent, swappercent;
+    guint64 memused = 0ULL, memtotal = 0ULL, swapused = 0ULL, swaptotal = 0ULL;
 
+#ifdef __linux__
+    guint64 memfree = 0ULL, memcached = 0ULL, membuffers = 0ULL, swapfree = 0ULL, slab_reclaimable = 0ULL;
+    signed long mem_used;
+    std::ifstream ifs("/proc/meminfo");
+    std::stringstream buffer;
+    std::string line;
+    buffer << ifs.rdbuf();
+    while (std::getline(buffer, line)) {
+        std::istringstream iss(line);
+        guint64 meminfo_value;
+        string meminfo_label, meminfo_unit;
+        iss >> meminfo_label >> meminfo_value >> meminfo_unit;
+        if (meminfo_label == "MemTotal:") {
+            memtotal = meminfo_value;
+        } else if (meminfo_label == "MemFree:") {
+            memfree = meminfo_value;
+        } else if (meminfo_label == "Cached:") {
+            memcached = meminfo_value;
+        } else if (meminfo_label == "Buffers:") {
+            membuffers = meminfo_value;
+        } else if (meminfo_label == "SReclaimable:") {
+            slab_reclaimable = meminfo_value;
+        } else if (meminfo_label == "SwapTotal:") {
+            swaptotal = meminfo_value;
+        } else if (meminfo_label == "SwapFree:") {
+            swapfree = meminfo_value;
+        }
+    }
+    mem_used = memtotal - memfree - memcached - slab_reclaimable - membuffers;
+    if (mem_used < 0)
+        mem_used = memtotal - memfree;
+    memused = (guint64) mem_used * 1024;
+    memtotal *= 1024;
+    swapused = (swaptotal - swapfree) * 1024;
+    swaptotal *= 1024;
+#else
     glibtop_mem mem;
     glibtop_swap swap;
 
     glibtop_get_mem (&mem);
     glibtop_get_swap (&swap);
 
+    memused = mem.used;
+    memtotal = mem.total;
+    swaptotal = swap.total;
+    swapused = swap.used;
+#endif
+
     /* There's no swap on LiveCD : 0.0f is better than NaN :) */
-    swappercent = (swap.total ? (float)swap.used / (float)swap.total : 0.0f);
-    mempercent  = (float)mem.user  / (float)mem.total;
+    swappercent = (swaptotal ? (float)swapused / (float)swaptotal : 0.0f);
+    mempercent  = (float) (memused)  / (float)memtotal;
 
     set_memory_label_and_picker(GTK_LABEL(graph->labels.memory),
                                 GSM_COLOR_BUTTON(graph->mem_color_picker),
-                                mem.user, mem.total, mempercent);
+                                memused, memtotal, mempercent);
 
     set_memory_label_and_picker(GTK_LABEL(graph->labels.swap),
                                 GSM_COLOR_BUTTON(graph->swap_color_picker),
-                                swap.used, swap.total, swappercent);
+                                swapused, swaptotal, swappercent);
 
     graph->data[0][0] = mempercent;
     graph->data[0][1] = swappercent;

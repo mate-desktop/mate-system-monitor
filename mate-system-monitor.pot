@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "System Monitor"
 msgstr ""
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr ""
 
@@ -100,7 +100,7 @@ msgid ""
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr ""
 msgid "Show only user-owned processes"
 msgstr ""
 
-#: ../src/interface.cpp:114 ../src/util.cpp:217
+#: ../src/interface.cpp:114 ../src/util.cpp:140
 msgid "Very High"
 msgstr ""
 
@@ -380,7 +380,7 @@ msgstr ""
 msgid "Set process priority to very high"
 msgstr ""
 
-#: ../src/interface.cpp:116 ../src/util.cpp:219
+#: ../src/interface.cpp:116 ../src/util.cpp:142
 msgid "High"
 msgstr ""
 
@@ -388,7 +388,7 @@ msgstr ""
 msgid "Set process priority to high"
 msgstr ""
 
-#: ../src/interface.cpp:118 ../src/util.cpp:221
+#: ../src/interface.cpp:118 ../src/util.cpp:144
 msgid "Normal"
 msgstr ""
 
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Set process priority to normal"
 msgstr ""
 
-#: ../src/interface.cpp:120 ../src/util.cpp:223
+#: ../src/interface.cpp:120 ../src/util.cpp:146
 msgid "Low"
 msgstr ""
 
@@ -404,7 +404,7 @@ msgstr ""
 msgid "Set process priority to low"
 msgstr ""
 
-#: ../src/interface.cpp:122 ../src/util.cpp:225
+#: ../src/interface.cpp:122 ../src/util.cpp:148
 msgid "Very Low"
 msgstr ""
 
@@ -501,14 +501,19 @@ msgid_plural "%u seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../src/load-graph.cpp:350
+#: ../src/load-graph.cpp:349
 msgid "not available"
 msgstr ""
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:353
+#: ../src/load-graph.cpp:352
 #, c-format
 msgid "%s (%.1f%%) of %s"
+msgstr ""
+
+#: ../src/load-graph.cpp:592 ../src/load-graph.cpp:599
+#, c-format
+msgid "%s/s"
 msgstr ""
 
 #: ../src/lsof.cpp:123
@@ -1271,7 +1276,7 @@ msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr ""
 
 #: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:420
+#: ../src/procproperties.cpp:134 ../src/util.cpp:342 ../src/util.cpp:414
 msgid "N/A"
 msgstr ""
 
@@ -1286,47 +1291,67 @@ msgstr ""
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:82
 #, c-format
 msgid "Release %s %s"
 msgstr ""
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:89
+#, c-format
+msgid "%s Version"
+msgstr ""
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:94
+#, c-format
+msgid "Release %s"
+msgstr ""
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
 msgstr ""
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:298
+msgid "Unknown"
+msgstr ""
+
+#: ../src/sysinfo.cpp:971
 #, c-format
 msgid "Kernel %s"
 msgstr ""
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:984
 #, c-format
 msgid "MATE %s"
 msgstr ""
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:998
 msgid "Hardware"
 msgstr ""
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:1003
 msgid "Memory:"
 msgstr ""
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:1007
 msgid "Processor:"
 msgstr ""
 
+#: ../src/sysinfo.cpp:1009
+msgid "Graphics:"
+msgstr ""
+
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:1017
 msgid "System Status"
 msgstr ""
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:1022
 msgid "Available disk space:"
 msgstr ""
 
@@ -1372,64 +1397,4 @@ msgstr ""
 #: ../src/util.cpp:112
 #, c-format
 msgid "%u:%02u.%02u"
-msgstr ""
-
-#: ../src/util.cpp:166
-#, c-format
-msgid "%.1f KiB"
-msgstr ""
-
-#: ../src/util.cpp:167
-#, c-format
-msgid "%.1f MiB"
-msgstr ""
-
-#: ../src/util.cpp:168
-#, c-format
-msgid "%.1f GiB"
-msgstr ""
-
-#: ../src/util.cpp:169
-#, c-format
-msgid "%.1f TiB"
-msgstr ""
-
-#: ../src/util.cpp:170
-#, c-format
-msgid "%.3g kbit"
-msgstr ""
-
-#: ../src/util.cpp:171
-#, c-format
-msgid "%.3g Mbit"
-msgstr ""
-
-#: ../src/util.cpp:172
-#, c-format
-msgid "%.3g Gbit"
-msgstr ""
-
-#: ../src/util.cpp:173
-#, c-format
-msgid "%.3g Tbit"
-msgstr ""
-
-#: ../src/util.cpp:188
-#, c-format
-msgid "%u bit"
-msgid_plural "%u bits"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../src/util.cpp:189
-#, c-format
-msgid "%u byte"
-msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
-
-#. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:583
-#, c-format
-msgid "%s/s"
 msgstr ""

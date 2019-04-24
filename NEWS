@@ -1,13 +1,26 @@
+### mate-system-monitor 1.22.1
+
+  * Translations update
+  * support 32 cpus
+  * sysinfo: show debian version
+  * Show available disk space in ZFS
+  * Show 32/64-bit Version intead of release for Arch Linux in System tab
+  * Show OpenIndiana release and kernel info in System tab
+  * Show FreeBSD sysname, release, version in System tab
+  * Fix openSUSE Tumbleweed rolling release info
+  * gtk3: use “program-name” property in gtk_show_about_dialog
+  * help: update copyright
+
 ### mate-system-monitor 1.22.0
 
   * Translations update
-    Initialize Travis CI support
-    Ensure proper translation of the about dialog title
-    License text in About dialog
-    Make translatable the copyright in about dialog
-    Update Catalan screenshot
-    Help - Priority preset values, including custom value
-    procman: avoid deprecated 'g_settings_list_keys'
+  * Initialize Travis CI support
+  * Ensure proper translation of the about dialog title
+  * License text in About dialog
+  * Make translatable the copyright in about dialog
+  * Update Catalan screenshot
+  * Help - Priority preset values, including custom value
+  * procman: avoid deprecated 'g_settings_list_keys'
 
 ### mate-system-monitor 1.21.1
 

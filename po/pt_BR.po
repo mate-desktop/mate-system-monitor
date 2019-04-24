@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Matheus Macabu <mkbu95@gmail.com>, 2018
-# Marcio Andre Padula <padula1000@gmail.com>, 2018
-# 642cf48d39bca7f9ad9d185d4bcea8c8, 2018
-# Roger Araújo <roger.rf@gmail.com>, 2018
-# Herick Vinicius <herick.gustavo@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Aldo Oliveira <america103@gmail.com>, 2018
-# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2018
-# Marcus Vinícius Marques, 2018
-# Lucas Dias <lucasdiaas@outlook.com>, 2018
-# 710a500dd1d5560bb05c8b24814b8c26, 2018
-# jose, 2018
-# Halan Germano Bacca <halangermano@hotmail.com.br>, 2018
+# Matheus Macabu <mkbu95@gmail.com>, 2019
+# Marcio Andre Padula <padula1000@gmail.com>, 2019
+# Roger Araújo <roger.rf@gmail.com>, 2019
+# Herick Vinicius <herick.gustavo@gmail.com>, 2019
+# Italo Penaforte <italo.penaforte@gmail.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Aldo Oliveira <america103@gmail.com>, 2019
+# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2019
+# Marcus Vinícius Marques, 2019
+# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Halan Germano Bacca <halangermano@hotmail.com.br>, 2019
+# Lucas Dias <lucasdiaas@outlook.com>, 2019
+# 710a500dd1d5560bb05c8b24814b8c26, 2019
 # 
 #, fuzzy
 msgid ""
@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 10:44+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Halan Germano Bacca <halangermano@hotmail.com.br>, 2018\n"
+"PO-Revision-Date: 2019-03-15 20:38+0000\n"
+"Last-Translator: 710a500dd1d5560bb05c8b24814b8c26, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../src/callbacks.cpp:204
 msgid "About System Monitor"
-msgstr ""
+msgstr "Sobre o System Monitor"
 
 #: ../src/callbacks.cpp:207
 msgid ""
@@ -132,6 +132,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2019 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2019 desenvolvedores do MATE"
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"
@@ -156,7 +159,8 @@ msgstr ""
 "Matheus Martins https://www.transifex.com/accounts/profile/Matheus_Martins\n"
 "Michele dos Santos da Silva https://www.transifex.com/accounts/profile/mchelem\n"
 "Thiago Cangussu https://www.transifex.com/accounts/profile/cangussu.thg\n"
-"vitorgatti https://www.transifex.com/accounts/profile/vitorgatti"
+"vitorgatti https://www.transifex.com/accounts/profile/vitorgatti\n"
+"Ítalo Rangel Penaforte https://www.transifex.com/accounts/profile/italo.penaforte"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -543,8 +547,8 @@ msgstr "Sistemas de arquivos"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u segundo"
-msgstr[1] "%u segundos"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -1302,7 +1306,7 @@ msgstr "Contexto de segurança"
 
 #: ../src/proctable.cpp:255 ../src/procproperties.cpp:132
 msgid "Command Line"
-msgstr "Linha de comando"
+msgstr "Linha de Comando"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1491,15 +1495,15 @@ msgstr "%.3g Tbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] "%u bit"
-msgstr[1] "%u bits"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u byte"
-msgstr[1] "%u bytes"
+msgstr[0] ""
+msgstr[1] ""
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

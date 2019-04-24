@@ -4,11 +4,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 玉堂白鹤 <yjwork@qq.com>, 2018
-# Wylmer Wang, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# liushuyu011 <liushuyu011@gmail.com>, 2018
-# Mingcong Bai <jeffbai@aosc.xyz>, 2018
+# 玉堂白鹤 <yjwork@qq.com>, 2019
+# CNAmira <forucial@icloud.com>, 2019
+# Wylmer Wang, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# liushuyu011 <liushuyu011@gmail.com>, 2019
+# Mingcong Bai <jeffbai@aosc.xyz>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -16,8 +17,8 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 10:44+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>, 2018\n"
+"PO-Revision-Date: 2019-03-15 20:38+0000\n"
+"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,6 +95,8 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"系统监视器是自由软件；您可以按照自由软件基金会所发布的 GNU GPL（GNU "
+"通用公共许可）对其再发放和/或修改该软件；您可以使用第二版或任何更新的版本。"
 
 #: ../src/callbacks.cpp:189
 msgid ""
@@ -101,7 +104,7 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
-msgstr ""
+msgstr "系统监视器发行的目的是希望它对您有用，但没有任何担保；包含针对商业或其它特定应用目的。请查阅 GNU 公共许可证以获得更多细节。"
 
 #: ../src/callbacks.cpp:193
 msgid ""
@@ -109,10 +112,12 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"你应该已经随系统监视器收到一份 GNU 通用公共许可证副本；如果没有，你可以写信给 The Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 
 #: ../src/callbacks.cpp:204
 msgid "About System Monitor"
-msgstr ""
+msgstr "关于系统监视器"
 
 #: ../src/callbacks.cpp:207
 msgid ""
@@ -120,6 +125,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2019 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2019 MATE 开发者"
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"
@@ -133,7 +141,9 @@ msgstr ""
 "玉堂白鹤 <yjwork@qq.com>, 2015\n"
 "Mingye Wang <arthur200126@gmail.com>, 2015-2016\n"
 "白铭骢 <jeffbai@aosc.xyz>, 2015-2016\n"
-"刘子兴 <liushuyu@aosc.xyz>, 2015-2016"
+"刘子兴 <liushuyu@aosc.xyz>, 2015-2016\n"
+"比丘<shenshuaiwen@gmail.com>,2018-2019\n"
+"李克卿<auroracloud4096@gmail.com>,2018"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"

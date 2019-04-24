@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019
 # 
 #, fuzzy
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 10:44+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2019-03-15 20:38+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -139,14 +139,7 @@ msgstr ""
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"
-msgstr ""
-"Gil Forcada <gilforcada@guifi.net>\n"
-"Jesús Moreno <jmmolas@wanadoo.es>\n"
-"Jordi Mallach <jordi@sindominio.net>\n"
-"Josep Puigdemont <josep.puigdemont@gmail.com>\n"
-"Pere O. <gotrunks@gmail.com>\n"
-"Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
-"Xavi Ivars <xavi.ivars@gmail.com>"
+msgstr "Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018, 2019"
 
 #: ../src/disks.cpp:338 ../src/memmaps.cpp:327
 msgid "Device"
@@ -241,7 +234,7 @@ msgstr "S'han rebut dades no vàlides del color\n"
 
 #: ../src/gsm_color_button.c:616
 msgid "Click to set graph colors"
-msgstr "Feu clic per a establir els colors de la gràfica"
+msgstr "Feu clic per establir els colors de la gràfica"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
@@ -687,7 +680,7 @@ msgstr "Objecte"
 
 #: ../src/openfiles.cpp:324
 msgid "Open Files"
-msgstr "Fitxers oberts"
+msgstr "Obertura de fitxers"
 
 #: ../src/openfiles.cpp:345
 #, c-format

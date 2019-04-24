@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019
 # 
 #, fuzzy
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 10:44+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2019-03-15 20:38+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019\n"
 "Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -96,8 +96,8 @@ msgid ""
 "any later version."
 msgstr ""
 "O Monitor do sistema é software libre, pode redistribuílo ou modificalo "
-"baixo as condicións da Licenza pública xeral GNU tal como a publica a Free "
-"Software Foundation; tanto na versión 2 da Licenza como (segundo o seu "
+"baixo as condicións da Licenza Pública Xeral de GNU tal como a publica a "
+"Free Software Foundation; tanto na versión 2 da Licenza como (segundo o seu "
 "criterio) en calquera versión posterior."
 
 #: ../src/callbacks.cpp:189
@@ -109,8 +109,8 @@ msgid ""
 msgstr ""
 "O Monitor do sistema distribúese esperando que sexa útil, mais SEN NINGUNHA "
 "GARANTÍA; mesmo sen a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN "
-"PARA UN PROPÓSITO PARTICULAR. Para máis detalles vexa a Licenza pública "
-"xeral GNU."
+"PARA UN PROPÓSITO PARTICULAR. Para máis detalles vexa a Licenza Pública "
+"Xeral de GNU."
 
 #: ../src/callbacks.cpp:193
 msgid ""
@@ -118,9 +118,9 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
-"Debeu de recibir unha copia da Licenza pública xeral GNU xunto co Monitor do"
-" sistema; en caso contrario, escriba á Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA"
+"Debeu de recibir unha copia da Licenza Pública Xeral de GNU xunto co Monitor"
+" do sistema; en caso contrario, escriba á Free Software Foundation, Inc., 51"
+" Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA"
 
 #: ../src/callbacks.cpp:204
 msgid "About System Monitor"

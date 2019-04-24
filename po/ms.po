@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# abuyop <abuyop@gmail.com>, 2018
+# abuyop <abuyop@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 10:44+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>, 2018\n"
+"Last-Translator: abuyop <abuyop@gmail.com>, 2019\n"
 "Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -94,6 +94,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Pemantau Sistem merupakan perisian bebas; anda boleh mengedarkannya dan/atau"
+" mengubahsuainya dibawah terma GNU General Public License sebagaimana yang "
+"telah dikeluarkan oleh Free Software Foundation; sama ada versi ke-2 lesen, "
+"atau (mengikut pilihan anda) sebarang versi terkemudian."
 
 #: ../src/callbacks.cpp:189
 msgid ""
@@ -102,6 +106,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"Pemantau Sistem diedarkan dengan harapan ianya berguna tetapi TANPA SEBARANG"
+" JAMINAN; tanpa sebarang implakasi jaminan KEBOLEHDAGANGAN atau KESESUAIAN "
+"UNTUK SESUATU TUJUAN. Sila rujuk GNU General Public License untuk keterangan"
+" lanjut."
 
 #: ../src/callbacks.cpp:193
 msgid ""
@@ -109,10 +117,13 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Anda seharusnya menerima salinan GNU General Public License bersama-sama "
+"Pemantau Sistem; jika tiada, laporkan ke Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 
 #: ../src/callbacks.cpp:204
 msgid "About System Monitor"
-msgstr ""
+msgstr "Perihal Pemantau Sistem"
 
 #: ../src/callbacks.cpp:207
 msgid ""
@@ -120,6 +131,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2019 MATE developers"
 msgstr ""
+"Hakcipta © 2001-2004 Kevin Vandersloot\n"
+"Hakcipta © 2005-2007 Benoît Dejean\n"
+"Hakcipta © 2011-2019 Pembangun MATE"
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"

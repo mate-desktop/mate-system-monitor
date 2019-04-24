@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr ""
+msgstr "Een Uppasser över Prozessen un Resourcen för de MATE Schrievdisk"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "MATE System-Uppasser"
 
 #: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:203
 #: ../src/interface.cpp:625 ../src/procman.cpp:713
@@ -51,11 +51,11 @@ msgstr "Aktuelle Prozesse un Systemtostandsmonitor opwiesen"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:1
 msgid "Kill process"
-msgstr ""
+msgstr "Prozess ofbreken"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:2
 msgid "Privileges are required to control other users' processes"
-msgstr ""
+msgstr "Du bruukst mehr Rechten, um de Prozessen vun anner Brukers to stüren"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:3
 msgid "Renice process"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:4
 msgid "Privileges are required to change the priority of processes"
-msgstr ""
+msgstr "Du bruukst mehr Rechten, um de Wichtigheid vun Prozessen to ännern"
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
@@ -71,15 +71,15 @@ msgstr "Systemregisterkoort opwiesen"
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr ""
+msgstr "De Prozessen-Registerkaart wiesen"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "De Resourcen-Registerkaart wiesen"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "De Dateisystemen-Registerkaart wiesen"
 
 #: ../src/callbacks.cpp:185
 msgid ""
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../src/callbacks.cpp:204
 msgid "About System Monitor"
-msgstr ""
+msgstr "Över de System-Uppasser"
 
 #: ../src/callbacks.cpp:207
 msgid ""
@@ -177,7 +177,7 @@ msgstr "%b %d %Y"
 
 #: ../src/gsm_color_button.c:158
 msgid "Fraction"
-msgstr ""
+msgstr "Bröök"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
@@ -207,7 +207,7 @@ msgstr "De utköört Farv"
 
 #: ../src/gsm_color_button.c:183
 msgid "Type of color picker"
-msgstr ""
+msgstr "Farvkörer-Aard"
 
 #: ../src/gsm_color_button.c:507
 msgid "Received invalid color data\n"
@@ -215,7 +215,7 @@ msgstr "Ungültige Farvweerten kregen\n"
 
 #: ../src/gsm_color_button.c:616
 msgid "Click to set graph colors"
-msgstr ""
+msgstr "Klick, um Graphenfarven to setten"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
@@ -237,11 +237,11 @@ msgstr "_Hölp"
 
 #: ../src/interface.cpp:56
 msgid "Search for _Open Files"
-msgstr ""
+msgstr "Na _openen Dateien söken"
 
 #: ../src/interface.cpp:57
 msgid "Search for open files"
-msgstr ""
+msgstr "Na openen Dateien söken"
 
 #: ../src/interface.cpp:58
 msgid "_Quit"
@@ -261,35 +261,35 @@ msgstr "Prozess stoppen"
 
 #: ../src/interface.cpp:64
 msgid "_Continue Process"
-msgstr ""
+msgstr "Prozess _wiederlöpen laten"
 
 #: ../src/interface.cpp:65
 msgid "Continue process if stopped"
-msgstr ""
+msgstr "De Prozess wiederlöpen laten, wenn he anhollt is"
 
 #: ../src/interface.cpp:67 ../src/procdialogs.cpp:91
 msgid "_End Process"
-msgstr ""
+msgstr "Prozess _ennen"
 
 #: ../src/interface.cpp:68
 msgid "Force process to finish normally"
-msgstr ""
+msgstr "De Prozess twingen, normaal to ennen"
 
 #: ../src/interface.cpp:69 ../src/procdialogs.cpp:80
 msgid "_Kill Process"
-msgstr ""
+msgstr "Prozess of_breken"
 
 #: ../src/interface.cpp:70
 msgid "Force process to finish immediately"
-msgstr ""
+msgstr "De Prozess twingen, stracks to ennen"
 
 #: ../src/interface.cpp:71
 msgid "_Change Priority"
-msgstr ""
+msgstr "Wichtig_heid ännern"
 
 #: ../src/interface.cpp:72
 msgid "Change the order of priority of process"
-msgstr ""
+msgstr "De Reeg an Wichtigheid vun Prozessen ännern"
 
 #: ../src/interface.cpp:73
 msgid "_Preferences"
@@ -301,28 +301,28 @@ msgstr "Dat Programm instellen"
 
 #: ../src/interface.cpp:76
 msgid "_Refresh"
-msgstr ""
+msgstr "_Vernejen"
 
 #: ../src/interface.cpp:77
 msgid "Refresh the process list"
-msgstr ""
+msgstr "De List vun Prozessen neei laden"
 
 #: ../src/interface.cpp:79
 msgid "_Memory Maps"
-msgstr ""
+msgstr "Spieker_kaarten"
 
 #: ../src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
-msgstr ""
+msgstr "De Spiekerkaarten, wat to eenem Prozess tohören, opmaken"
 
 #. Translators: this means 'Files that are open' (open is no verb here
 #: ../src/interface.cpp:82
 msgid "Open _Files"
-msgstr ""
+msgstr "Opene _Dateien"
 
 #: ../src/interface.cpp:83
 msgid "View the files opened by a process"
-msgstr ""
+msgstr "De Dateien wiesen, wat een Prozess opmaakt hett"
 
 #: ../src/interface.cpp:84
 msgid "_Properties"
@@ -330,7 +330,7 @@ msgstr "_Eegenschapten"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Mehr Informatioon över eenen Prozess wiesen"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -354,39 +354,39 @@ msgstr "_Avhangens"
 
 #: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
-msgstr ""
+msgstr "Ollen-Kind-Betreck tüsken Prozessen wiesen"
 
 #: ../src/interface.cpp:104
 msgid "_Active Processes"
-msgstr ""
+msgstr "_Aktive Prozessen"
 
 #: ../src/interface.cpp:105
 msgid "Show active processes"
-msgstr ""
+msgstr "Aktive Prozessen wiesen"
 
 #: ../src/interface.cpp:106
 msgid "A_ll Processes"
-msgstr ""
+msgstr "A_ll Prozessen"
 
 #: ../src/interface.cpp:107
 msgid "Show all processes"
-msgstr ""
+msgstr "All Prozessen wiesen"
 
 #: ../src/interface.cpp:108
 msgid "M_y Processes"
-msgstr ""
+msgstr "_Miene Prozessen"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Blot Prozessen wiesen, wat to de Bruker hören"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
-msgstr ""
+msgstr "Bannig hoog"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "De Prozess-Wichtigheid bannig hoog setten"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
@@ -394,7 +394,7 @@ msgstr "Hoch"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "De Prozess-Wichtigheid hoog setten"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
@@ -402,23 +402,23 @@ msgstr "Normal"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "De Prozess-Wichtigheid normaal setten"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
-msgstr ""
+msgstr "Minn"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "De Prozess-Wichtigheid minn setten"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "Bannig minn"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "De Prozess-Wichtigheid bannig minn setten"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
@@ -426,18 +426,18 @@ msgstr "Anpasst"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "De Prozess-Wichtigheid sülvst setten"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
-msgstr ""
+msgstr "Prozess _ennen"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Eene Farv för »%s« utkören"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -450,11 +450,11 @@ msgstr "CPU"
 #: ../src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
-msgstr ""
+msgstr "CPU%d"
 
 #: ../src/interface.cpp:357
 msgid "Memory and Swap History"
-msgstr ""
+msgstr "Histoorje för Spieker un Utlagernspieker"
 
 #: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
@@ -471,11 +471,11 @@ msgstr "Netwarkhistorie"
 
 #: ../src/interface.cpp:472
 msgid "Receiving"
-msgstr ""
+msgstr "Ankomen"
 
 #: ../src/interface.cpp:494
 msgid "Total Received"
-msgstr ""
+msgstr "All ankomen"
 
 #: ../src/interface.cpp:513
 msgid "Sending"
@@ -496,7 +496,7 @@ msgstr "Prozesse"
 
 #: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
 msgid "Resources"
-msgstr ""
+msgstr "Resourcen"
 
 #: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
 #: ../src/procdialogs.cpp:736
@@ -507,12 +507,12 @@ msgstr "Dateisysteme"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u Sekünn"
+msgstr[1] "%u Sekünnen"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
-msgstr ""
+msgstr "nich verfögbar"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:353

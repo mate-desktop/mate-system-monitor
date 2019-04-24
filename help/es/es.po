@@ -7,14 +7,15 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Joel Barrios <darkshram@gmail.com>, 2018
-# Adolfo Jayme-Barrientos, 2018
+# Fito JB, 2018
+# Luis Zárate <luisza@visualcon.net>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "POT-Creation-Date: 2019-02-10 17:51+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Adolfo Jayme-Barrientos, 2018\n"
+"Last-Translator: Luis Zárate <luisza@visualcon.net>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -195,7 +196,7 @@ msgstr ""
 msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
-msgstr ""
+msgstr "1"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75

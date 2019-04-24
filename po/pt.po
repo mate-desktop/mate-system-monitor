@@ -14,7 +14,7 @@
 # Diogo Oliveira <diogodesigns@gmail.com>, 2018
 # MS <manuelarodsilva@gmail.com>, 2018
 # José Vieira <jvieira33@sapo.pt>, 2018
-# Rui <xymarior@yandex.com>, 2018
+# Rui <xymarior@yandex.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -23,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-16 10:44+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Rui <xymarior@yandex.com>, 2018\n"
+"Last-Translator: Rui <xymarior@yandex.com>, 2019\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,6 +103,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"O Monitor do Sistema é um programa livre; pode redistribuí-lo e/ou alterá-lo"
+" nos termos da Licença Pública Genérica GNU, tal como publicada pela Free "
+"Software Foundation; ou a versão 2 da licença ou (por opção) qualquer versão"
+" posterior."
 
 #: ../src/callbacks.cpp:189
 msgid ""
@@ -111,6 +115,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"O Monitor do Sistema é distribuído na expetativa de que possa ser útil, mas "
+"SEM QUALQUER GARANTIA; nem mesmo a garantia implícita de COMERCIALIZAÇÃO ou "
+"ADEQUAÇÃO A UM DETERMINADO FIM. Consulte a Licença Pública Genérica GNU para"
+" mais detalhes."
 
 #: ../src/callbacks.cpp:193
 msgid ""
@@ -118,10 +126,13 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Deve ter recebido uma cópia da Licença Pública Genérica GNU juntamente com a"
+" Consola MATE; caso contrário, escreva para a Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/callbacks.cpp:204
 msgid "About System Monitor"
-msgstr ""
+msgstr "Sobre o Monitor do Sistema"
 
 #: ../src/callbacks.cpp:207
 msgid ""
@@ -129,6 +140,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2019 MATE developers"
 msgstr ""
+"Direitos de Autor © 2001-2004 Kevin Vandersloot\n"
+"Direitos de Autor © 2005-2007 Benoît Dejean\n"
+"Direitos de Autor © 2011-2019 programadores do MATE"
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"

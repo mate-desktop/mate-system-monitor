@@ -5,13 +5,14 @@
 # Tobias Bannert <tobannert@gmail.com>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Julian Rüger <jr98@gmx.net>, 2018
+# Marcel Artz <mail@marcel-artz.de>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "POT-Creation-Date: 2019-02-10 17:51+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Julian Rüger <jr98@gmx.net>, 2018\n"
+"Last-Translator: Marcel Artz <mail@marcel-artz.de>, 2019\n"
 "Language-Team: German (https://www.transifex.com/mate/teams/13566/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -193,6 +194,9 @@ msgid ""
 "<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
+"<firstname>MATE-Dokumentations-"
+"Projekt</firstname><surname/><affiliation><orgname>MATE-"
+"Desktop</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70

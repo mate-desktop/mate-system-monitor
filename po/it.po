@@ -12,7 +12,7 @@
 # Marco Z. <minaz666@gmail.com>, 2018
 # Flavio D'Uffizi <twin.flavio@gmail.com>, 2018
 # l3nn4rt, 2018
-# Giuseppe Pignataro (Fastbyte01) <rogepix@gmail.com>, 2018
+# Giuseppe Pignataro <rogepix@gmail.com>, 2018
 # Enrico B. <enricobe@hotmail.com>, 2019
 # 
 #, fuzzy

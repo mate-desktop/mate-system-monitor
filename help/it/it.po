@@ -2,7 +2,7 @@
 # talorno <giovanni.talorno@gmail.com>, 2018
 # Dario Di Nucci <linkin88mail@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Giuseppe Pignataro (Fastbyte01) <rogepix@gmail.com>, 2018
+# Giuseppe Pignataro <rogepix@gmail.com>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Marco Z. <minaz666@gmail.com>, 2018
 # 

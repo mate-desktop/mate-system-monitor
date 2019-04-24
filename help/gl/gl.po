@@ -458,7 +458,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>System</guimenu> menu"
-msgstr ""
+msgstr "Menú <guimenu>Sistema</guimenu>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -505,6 +505,8 @@ msgid ""
 "external ref='figures/mate-system-monitor_window.png' "
 "md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 msgstr ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:338
@@ -536,7 +538,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:360
 msgid "Display area"
-msgstr ""
+msgstr "Amosar a área"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:362
@@ -575,7 +577,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:402
 msgid "Statusbar"
-msgstr ""
+msgstr "Barra de estado"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:404

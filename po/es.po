@@ -8,7 +8,7 @@
 # Lluís Tusquellas <lutusq@gmail.com>, 2018
 # Naresu Tenshi <naresutenshi@gmail.com>, 2018
 # seacat <seacat.linux@gmail.com>, 2018
-# Adolfo Jayme-Barrientos, 2018
+# Fito JB, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # ebray187 <ebray187@gmail.com>, 2018
 # Emiliano Fascetti, 2018

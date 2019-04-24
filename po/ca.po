@@ -241,7 +241,7 @@ msgstr "S'han rebut dades no vàlides del color\n"
 
 #: ../src/gsm_color_button.c:616
 msgid "Click to set graph colors"
-msgstr "Feu clic per a establir els colors de la gràfica"
+msgstr "Feu clic per establir els colors de la gràfica"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor

@@ -490,19 +490,16 @@ procman_save_tree_state (GSettings *settings, GtkWidget *tree, const gchar *chil
     {
         GSList *order;
         GSList *order_node;
-        GVariantBuilder *builder;
-        GVariant *order_variant;
+        GVariantBuilder builder;
 
         order = proctable_get_columns_order(GTK_TREE_VIEW(tree));
 
-        builder = g_variant_builder_new (G_VARIANT_TYPE_ARRAY);
+        g_variant_builder_init (&builder, G_VARIANT_TYPE_ARRAY);
 
         for (order_node = order; order_node; order_node = order_node->next)
-            g_variant_builder_add(builder, "i", GPOINTER_TO_INT(order_node->data));
+            g_variant_builder_add (&builder, "i", GPOINTER_TO_INT (order_node->data));
 
-        order_variant = g_variant_new("ai", builder);
-        g_settings_set_value(pt_settings, "columns-order", order_variant);
-
+        g_settings_set_value (pt_settings, "columns-order", g_variant_builder_end (&builder));
 
         g_slist_free(order);
     }

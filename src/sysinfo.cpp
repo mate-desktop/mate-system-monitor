@@ -81,13 +81,13 @@ namespace {
                  * the second one is the architecture, 32 or 64-bit */
                 markup = g_strdup_printf(_("Release %s %s"),
                                          this->distro_release.c_str(),
-                                         this->get_os_type().c_str());
+                                         SysInfo::get_os_type().c_str());
             }
             else
             {
                 /* Translators: The string parameter is the architecture, 32 or 64-bit */
                 markup = g_strdup_printf(_("%s Version"),
-                                         this->get_os_type().c_str());
+                                         SysInfo::get_os_type().c_str());
             }
 #else
             /* Translators: The string parameter is release version (codename) */
@@ -123,7 +123,7 @@ namespace {
             this->memory_bytes = mem.total;
         }
 
-        string get_os_type ()
+        static string get_os_type ()
         {
             int bits;
 

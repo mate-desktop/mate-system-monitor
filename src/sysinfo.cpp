@@ -1003,14 +1003,10 @@ procman_create_sysinfo_view(void)
     add_row(GTK_GRID(hardware_table), _("Memory:"), markup, 0);
     g_free(markup);
 
-    markup = NULL;
     add_row(GTK_GRID(hardware_table), _("Processor:"),
             data->processors.c_str(), 1);
     add_row(GTK_GRID(hardware_table), _("Graphics:"),
             data->graphics.c_str(), 2);
-
-    if(markup)
-        g_free(markup);
 
     /* disk space section */
 

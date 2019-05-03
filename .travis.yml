@@ -105,6 +105,7 @@ requires:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/mate-system-monitor.git
     - clang
     - clang-analyzer
+    - cppcheck-htmlreport
     - gcc
     - gcc-c++
     - dbus-glib-devel
@@ -179,7 +180,9 @@ build_scripts:
 
 after_scripts:
   - if [ ${DISTRO_NAME} == "fedora" ];then
-  -   ./gen-index
+  -   cppcheck --xml --output-file=cppcheck.xml --enable=warning,style,performance,portability,information,missingInclude .
+  -   cppcheck-htmlreport --title=${REPO_NAME} --file=cppcheck.xml --report-dir=cppcheck-htmlreport
+  -   ./gen-index -l 20
   - fi
   - make distcheck
 

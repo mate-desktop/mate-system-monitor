@@ -475,6 +475,18 @@
             <para>Waiting Channel</para>
           </listitem>
           <listitem>
+            <para>Disk Read Total</para>
+          </listitem>
+          <listitem>
+            <para>Disk Write Total</para>
+          </listitem>
+          <listitem>
+            <para>Disk Read</para>
+          </listitem>
+          <listitem>
+            <para>Disk Write</para>
+          </listitem>
+          <listitem>
             <para>Unit</para>
           </listitem>
           <listitem>
@@ -1377,6 +1389,38 @@
                   </para>
                   <para>
                     Select this option to display the control group that a process belongs to.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Disk Read Total</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the total amount of data read from the disk by a process.
+                  </para>
+                </listitem>
+                <listitem>
+                  <para>
+                    <guilabel>Disk Write Total</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the total amount of data written to the disk by a process.
+                  </para>
+                </listitem>
+                <listitem>
+                <para>
+                    <guilabel>Disk Read</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the speed at which data is being read from the disk by a process.
+                  </para>
+                </listitem>
+                <listitem>
+                <para>
+                    <guilabel>Disk Write</guilabel>
+                  </para>
+                  <para>
+                    Select this option to display the speed at which data is being written to the disk by a process.
                   </para>
                 </listitem>
                 <listitem>

@@ -502,14 +502,11 @@ proctable_new (ProcData * const procdata)
 
     /* Override column settings by hiding this column if it's meaningless: */
     if (!can_show_security_context_column ()) {
-        GtkTreeViewColumn *column;
         column = my_gtk_tree_view_get_column_with_sort_column_id (GTK_TREE_VIEW (proctree), COL_SECURITYCONTEXT);
         gtk_tree_view_column_set_visible (column, FALSE);
     }
 
     if (!cgroups_enabled()) {
-        GtkTreeViewColumn *column;
-
         column = my_gtk_tree_view_get_column_with_sort_column_id(GTK_TREE_VIEW(proctree), COL_CGROUP);
         gtk_tree_view_column_set_visible(column, FALSE);
     }
@@ -518,8 +515,6 @@ proctable_new (ProcData * const procdata)
     if (!LOGIND_RUNNING())
 #endif
     {
-        GtkTreeViewColumn *column;
-
         for (i = COL_UNIT; i <= COL_OWNER; i++) {
             column = my_gtk_tree_view_get_column_with_sort_column_id(GTK_TREE_VIEW(proctree), i);
             gtk_tree_view_column_set_visible(column, FALSE);

@@ -4,7 +4,7 @@
  "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
 <policyconfig>
   <vendor>MATE Desktop</vendor>
-  <vendor_url>http://www.mate-desktop.org/</vendor_url>
+  <vendor_url>https://mate-desktop.org/</vendor_url>
   <icon_name>utilities-system-monitor</icon_name>
 
   <action id="org.mate.mate-system-monitor.kill">

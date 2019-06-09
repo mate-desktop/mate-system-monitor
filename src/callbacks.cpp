@@ -214,7 +214,7 @@ cb_about (GtkAction *action, gpointer data)
         "translator-credits", _("translator-credits"),
         "license",            license_trans,
         "wrap-license",       TRUE,
-        "website",            "http://www.mate-desktop.org",
+        "website",            "https://mate-desktop.org",
         NULL
         );
 

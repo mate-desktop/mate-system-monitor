@@ -546,6 +546,11 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_box_set_spacing (GTK_BOX (main_vbox), 2);
 
     notebook = gtk_notebook_new ();
+
+    gtk_widget_add_events (notebook, GDK_SCROLL_MASK);
+    g_signal_connect (notebook, "scroll-event",
+                      G_CALLBACK (cb_dialog_page_scroll_event), GTK_WINDOW (dialog));
+
     gtk_container_set_border_width (GTK_CONTAINER (notebook), 5);
     gtk_box_pack_start (GTK_BOX (main_vbox), notebook, TRUE, TRUE, 0);
 

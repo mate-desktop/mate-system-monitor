@@ -80,4 +80,8 @@ void            cb_kill_sigstop(GtkAction *action,
 void            cb_kill_sigcont(GtkAction *action,
                                 gpointer data);
 
+gboolean        cb_dialog_page_scroll_event(GtkWidget *widget,
+                                            GdkEventScroll *event,
+                                            GtkWindow *window);
+
 #endif /* _PROCMAN_CALLBACKS_H_ */

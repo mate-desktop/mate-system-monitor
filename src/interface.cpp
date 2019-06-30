@@ -698,6 +698,11 @@ create_main_window (ProcData *procdata)
 
     /* create the main notebook */
     procdata->notebook = notebook = gtk_notebook_new ();
+
+    gtk_widget_add_events (procdata->notebook, GDK_SCROLL_MASK);
+    g_signal_connect (procdata->notebook, "scroll-event",
+                      G_CALLBACK (cb_dialog_page_scroll_event), GTK_WINDOW (app));
+
     gtk_box_pack_start (GTK_BOX (main_box), notebook, TRUE, TRUE, 0);
     gtk_container_set_border_width (GTK_CONTAINER (notebook), 12);
 

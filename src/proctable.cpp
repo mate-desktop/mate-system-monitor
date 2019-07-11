@@ -20,7 +20,7 @@
 
 #include <config.h>
 
-
+#include <cairo-gobject.h>
 #include <string.h>
 #include <math.h>
 #include <glib/gi18n.h>
@@ -276,32 +276,32 @@ proctable_new (ProcData * const procdata)
                                     GTK_POLICY_AUTOMATIC);
 
     model = gtk_tree_store_new (NUM_COLUMNS,
-                                G_TYPE_STRING,      /* Process Name */
-                                G_TYPE_STRING,      /* User         */
-                                G_TYPE_UINT,        /* Status       */
-                                G_TYPE_ULONG,       /* VM Size      */
-                                G_TYPE_ULONG,       /* Resident Memory */
-                                G_TYPE_ULONG,       /* Writable Memory */
-                                G_TYPE_ULONG,       /* Shared Memory */
-                                G_TYPE_ULONG,       /* X Server Memory */
-                                G_TYPE_UINT,        /* % CPU        */
-                                G_TYPE_UINT64,      /* CPU time     */
-                                G_TYPE_ULONG,       /* Started      */
-                                G_TYPE_INT,         /* Nice         */
-                                G_TYPE_UINT,        /* ID           */
-                                G_TYPE_STRING,      /* Security Context */
-                                G_TYPE_STRING,      /* Arguments    */
-                                G_TYPE_ULONG,       /* Memory       */
-                                G_TYPE_STRING,      /* wchan        */
-                                G_TYPE_STRING,      /* Cgroup       */
-                                G_TYPE_STRING,      /* Unit         */
-                                G_TYPE_STRING,      /* Session      */
-                                G_TYPE_STRING,      /* Seat         */
-                                G_TYPE_STRING,      /* Owner        */
-                                G_TYPE_STRING,      /* Priority     */
-                                GDK_TYPE_PIXBUF,    /* Icon         */
-                                G_TYPE_POINTER,     /* ProcInfo     */
-                                G_TYPE_STRING       /* Sexy tooltip */
+                                G_TYPE_STRING,              /* Process Name */
+                                G_TYPE_STRING,              /* User         */
+                                G_TYPE_UINT,                /* Status       */
+                                G_TYPE_ULONG,               /* VM Size      */
+                                G_TYPE_ULONG,               /* Resident Memory */
+                                G_TYPE_ULONG,               /* Writable Memory */
+                                G_TYPE_ULONG,               /* Shared Memory */
+                                G_TYPE_ULONG,               /* X Server Memory */
+                                G_TYPE_UINT,                /* % CPU        */
+                                G_TYPE_UINT64,              /* CPU time     */
+                                G_TYPE_ULONG,               /* Started      */
+                                G_TYPE_INT,                 /* Nice         */
+                                G_TYPE_UINT,                /* ID           */
+                                G_TYPE_STRING,              /* Security Context */
+                                G_TYPE_STRING,              /* Arguments    */
+                                G_TYPE_ULONG,               /* Memory       */
+                                G_TYPE_STRING,              /* wchan        */
+                                G_TYPE_STRING,              /* Cgroup       */
+                                G_TYPE_STRING,              /* Unit         */
+                                G_TYPE_STRING,              /* Session      */
+                                G_TYPE_STRING,              /* Seat         */
+                                G_TYPE_STRING,              /* Owner        */
+                                G_TYPE_STRING,              /* Priority     */
+                                CAIRO_GOBJECT_TYPE_SURFACE, /* Icon         */
+                                G_TYPE_POINTER,             /* ProcInfo     */
+                                G_TYPE_STRING               /* Sexy tooltip */
         );
 
     proctree = gtk_tree_view_new_with_model (GTK_TREE_MODEL (model));
@@ -323,7 +323,7 @@ proctable_new (ProcData * const procdata)
     cell_renderer = gtk_cell_renderer_pixbuf_new ();
     gtk_tree_view_column_pack_start (column, cell_renderer, FALSE);
     gtk_tree_view_column_set_attributes (column, cell_renderer,
-                                         "pixbuf", COL_PIXBUF,
+                                         "surface", COL_SURFACE,
                                          NULL);
 
     cell_renderer = gtk_cell_renderer_text_new ();
@@ -520,6 +520,7 @@ ProcInfo::~ProcInfo()
     g_free(this->unit);
     g_free(this->session);
     g_free(this->seat);
+    cairo_surface_destroy(this->surface);
 }
 
 
@@ -831,7 +832,7 @@ update_info (ProcData *procdata, ProcInfo *info)
 
 ProcInfo::ProcInfo(pid_t pid)
     : node(),
-      pixbuf(),
+      surface(),
       tooltip(NULL),
       name(NULL),
       arguments(NULL),
@@ -1117,11 +1118,11 @@ make_loadavg_string(void)
 void
 ProcInfo::set_icon(Glib::RefPtr<Gdk::Pixbuf> icon)
 {
-  this->pixbuf = icon;
+  this->surface = gdk_cairo_surface_create_from_pixbuf (icon->gobj(), 0, NULL);
 
   GtkTreeModel *model;
   model = gtk_tree_view_get_model(GTK_TREE_VIEW(ProcData::get_instance()->tree));
   gtk_tree_store_set(GTK_TREE_STORE(model), &this->node,
-                     COL_PIXBUF, (this->pixbuf ? this->pixbuf->gobj() : NULL),
+                     COL_SURFACE, this->surface,
                     -1);
 }

@@ -13,6 +13,11 @@
 #include "interface.h"
 #include "iconthemewrapper.h"
 
+namespace
+{
+  const unsigned DISK_ICON_SIZE = 24;
+}
+
 enum DiskColumns
 {
     /* string columns* */
@@ -25,7 +30,7 @@ enum DiskColumns
     /* USED has to be the last column */
     DISK_USED,
     // then unvisible columns
-    /* PixBuf column */
+    /* Surface column */
     DISK_ICON,
     /* numeric columns */
     DISK_USED_PERCENTAGE,
@@ -99,7 +104,7 @@ get_icon_for_device(const char *mountpoint)
     if (icon_name == "")
         // FIXME: defaults to a safe value
         icon_name = "drive-harddisk"; // get_icon_for_path("/");
-    return icon_theme->load_icon(icon_name, 24, Gtk::ICON_LOOKUP_USE_BUILTIN);
+    return icon_theme->load_icon(icon_name, DISK_ICON_SIZE);
 }
 
 
@@ -177,6 +182,7 @@ static void
 add_disk(GtkListStore *list, const glibtop_mountentry *entry, bool show_all_fs)
 {
     Glib::RefPtr<Gdk::Pixbuf> pixbuf;
+    cairo_surface_t *surface;
     GtkTreeIter iter;
     glibtop_fsusage usage;
     guint64 bused, bfree, bavail, btotal;
@@ -192,6 +198,7 @@ add_disk(GtkListStore *list, const glibtop_mountentry *entry, bool show_all_fs)
 
     fsusage_stats(&usage, &bused, &bfree, &bavail, &btotal, &percentage);
     pixbuf = get_icon_for_device(entry->mountdir);
+    surface = gdk_cairo_surface_create_from_pixbuf (pixbuf->gobj(), 0, NULL);
 
     /* if we can find a row with the same mountpoint, we get it but we
        still need to update all the fields.
@@ -201,7 +208,7 @@ add_disk(GtkListStore *list, const glibtop_mountentry *entry, bool show_all_fs)
         gtk_list_store_append(list, &iter);
 
     gtk_list_store_set(list, &iter,
-                       DISK_ICON, pixbuf->gobj(),
+                       DISK_ICON, surface,
                        DISK_DEVICE, entry->devname,
                        DISK_DIR, entry->mountdir,
                        DISK_TYPE, entry->type,
@@ -357,16 +364,16 @@ create_disk_view(ProcData *procdata)
 
     gtk_box_pack_start(GTK_BOX(disk_box), scrolled, TRUE, TRUE, 0);
 
-    model = gtk_list_store_new(DISK_N_COLUMNS,      /* n columns */
-                               G_TYPE_STRING,       /* DISK_DEVICE */
-                               G_TYPE_STRING,       /* DISK_DIR */
-                               G_TYPE_STRING,       /* DISK_TYPE */
-                               G_TYPE_UINT64,       /* DISK_TOTAL */
-                               G_TYPE_UINT64,       /* DISK_FREE */
-                               G_TYPE_UINT64,       /* DISK_AVAIL */
-                               G_TYPE_UINT64,       /* DISK_USED */
-                               GDK_TYPE_PIXBUF,     /* DISK_ICON */
-                               G_TYPE_INT           /* DISK_USED_PERCENTAGE */
+    model = gtk_list_store_new(DISK_N_COLUMNS,             /* n columns */
+                               G_TYPE_STRING,              /* DISK_DEVICE */
+                               G_TYPE_STRING,              /* DISK_DIR */
+                               G_TYPE_STRING,              /* DISK_TYPE */
+                               G_TYPE_UINT64,              /* DISK_TOTAL */
+                               G_TYPE_UINT64,              /* DISK_FREE */
+                               G_TYPE_UINT64,              /* DISK_AVAIL */
+                               G_TYPE_UINT64,              /* DISK_USED */
+                               CAIRO_GOBJECT_TYPE_SURFACE, /* DISK_ICON */
+                               G_TYPE_INT                  /* DISK_USED_PERCENTAGE */
         );
 
     disk_tree = gtk_tree_view_new_with_model(GTK_TREE_MODEL(model));
@@ -380,7 +387,7 @@ create_disk_view(ProcData *procdata)
     col = gtk_tree_view_column_new();
     cell = gtk_cell_renderer_pixbuf_new();
     gtk_tree_view_column_pack_start(col, cell, FALSE);
-    gtk_tree_view_column_set_attributes(col, cell, "pixbuf", DISK_ICON,
+    gtk_tree_view_column_set_attributes(col, cell, "surface", DISK_ICON,
                                         NULL);
 
     cell = gtk_cell_renderer_text_new();

@@ -73,7 +73,7 @@ namespace
 
 
     enum ProcmanLsof {
-        PROCMAN_LSOF_COL_PIXBUF,
+        PROCMAN_LSOF_COL_SURFACE,
         PROCMAN_LSOF_COL_PROCESS,
         PROCMAN_LSOF_COL_PID,
         PROCMAN_LSOF_COL_FILENAME,
@@ -174,7 +174,7 @@ namespace
                         GtkTreeIter file;
                         gtk_list_store_append(this->model, &file);
                         gtk_list_store_set(this->model, &file,
-                                           PROCMAN_LSOF_COL_PIXBUF, info.pixbuf->gobj(),
+                                           PROCMAN_LSOF_COL_SURFACE, info.surface,
                                            PROCMAN_LSOF_COL_PROCESS, info.name,
                                            PROCMAN_LSOF_COL_PID, info.pid,
                                            PROCMAN_LSOF_COL_FILENAME, it->c_str(),
@@ -239,10 +239,10 @@ void procman_lsof(ProcData *procdata)
 {
     GtkListStore *model = \
         gtk_list_store_new(PROCMAN_LSOF_NCOLS,
-                           GDK_TYPE_PIXBUF,    // PROCMAN_LSOF_COL_PIXBUF
-                           G_TYPE_STRING,    // PROCMAN_LSOF_COL_PROCESS
-                           G_TYPE_UINT,    // PROCMAN_LSOF_COL_PID
-                           G_TYPE_STRING    // PROCMAN_LSOF_COL_FILENAME
+                           CAIRO_GOBJECT_TYPE_SURFACE, // PROCMAN_LSOF_COL_SURFACE
+                           G_TYPE_STRING,              // PROCMAN_LSOF_COL_PROCESS
+                           G_TYPE_UINT,                // PROCMAN_LSOF_COL_PID
+                           G_TYPE_STRING               // PROCMAN_LSOF_COL_FILENAME
         );
 
     GtkWidget *tree = gtk_tree_view_new_with_model(GTK_TREE_MODEL(model));
@@ -251,14 +251,14 @@ void procman_lsof(ProcData *procdata)
     GtkTreeViewColumn *column;
     GtkCellRenderer *renderer;
 
-    // PIXBUF / PROCESS
+    // SURFACE / PROCESS
 
     column = gtk_tree_view_column_new();
 
     renderer = gtk_cell_renderer_pixbuf_new();
     gtk_tree_view_column_pack_start(column, renderer, FALSE);
     gtk_tree_view_column_set_attributes(column, renderer,
-                                        "pixbuf", PROCMAN_LSOF_COL_PIXBUF,
+                                        "surface", PROCMAN_LSOF_COL_SURFACE,
                                         NULL);
 
     renderer = gtk_cell_renderer_text_new();

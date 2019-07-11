@@ -7,12 +7,12 @@
 
 
 Glib::RefPtr<Gdk::Pixbuf>
-procman::IconThemeWrapper::load_icon(const Glib::ustring& icon_name,
-                                     int size, Gtk::IconLookupFlags flags) const
+procman::IconThemeWrapper::load_icon(const Glib::ustring& icon_name, int size) const
 {
+    gint scale = gdk_window_get_scale_factor (gdk_get_default_root_window ());
     try
     {
-      return Gtk::IconTheme::get_default()->load_icon(icon_name, size, flags);
+      return Gtk::IconTheme::get_default()->load_icon(icon_name, size, scale, Gtk::ICON_LOOKUP_USE_BUILTIN | Gtk::ICON_LOOKUP_FORCE_SIZE);
     }
     catch (Gtk::IconThemeError &error)
     {

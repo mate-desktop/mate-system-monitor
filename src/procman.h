@@ -21,6 +21,7 @@
 
 
 #include <glibmm/refptr.h>
+#include <cairo-gobject.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <glib.h>
 #include <gio/gio.h>
@@ -190,17 +191,16 @@ class ProcInfo
     void set_user(guint uid);
     std::string lookup_user(guint uid);
 
-    GtkTreeIter    node;
-    Glib::RefPtr<Gdk::Pixbuf> pixbuf;
-    gchar        *tooltip;
-    gchar        *name;
-    gchar        *arguments;
+    GtkTreeIter      node;
+    cairo_surface_t *surface;
+    gchar           *tooltip;
+    gchar           *name;
+    gchar           *arguments;
+    gchar           *security_context;
 
-    gchar        *security_context;
-
-    const pid_t    pid;
-    pid_t        ppid;
-    guint        uid;
+    const pid_t      pid;
+    pid_t            ppid;
+    guint            uid;
 
 // private:
     // tracks cpu time per process keeps growing because if a

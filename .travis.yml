@@ -183,7 +183,7 @@ after_scripts:
   - if [ ${DISTRO_NAME} == "fedora" ];then
   -   cppcheck --xml --output-file=cppcheck.xml --enable=warning,style,performance,portability,information,missingInclude .
   -   cppcheck-htmlreport --title=${REPO_NAME} --file=cppcheck.xml --report-dir=cppcheck-htmlreport
-  -   ./gen-index -l 20
+  -   ./gen-index -l 20 -i https://github.com/${OWNER_NAME}/mate-icon-theme/raw/master/mate/16x16/apps/utilities-system-monitor.png
   - fi
   - make distcheck
 

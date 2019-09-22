@@ -1,3 +1,9 @@
+### mate-system-monitor 1.22.2
+
+  * Translations update
+  * Render icons as cairo surfaces for HiDPI support
+  * msm_execute_helper: fix memory leak
+
 ### mate-system-monitor 1.22.1
 
   * Translations update

@@ -5,18 +5,18 @@
 # 
 # Translators:
 # Walter Cheuk <wwycheuk@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 趙惟倫 <bluebat@member.fsf.org>, 2019
-# Jeff Huang <s8321414@gmail.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# 黃柏諺 <s8321414@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>, 2019\n"
+"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2019\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/mate/teams/13566/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +50,7 @@ msgstr "MATE 系統監控程式"
 msgid "System Monitor"
 msgstr "系統監控"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "顯示目前的程序並監控系統的狀態"
 
@@ -93,6 +93,8 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"系統監控為自由軟體；您可依據自由軟體基金會所發表的 GNU "
+"通用公共授權條款規定，就本程式再為散布與／或修改；無論您依據的是本授權的第二版或（您自行選擇的）任一日後發行的版本。"
 
 #: ../src/callbacks.cpp:189
 msgid ""
@@ -100,7 +102,7 @@ msgid ""
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
-msgstr ""
+msgstr "系統監控係基於使用目的而加以散布，然而不負任何擔保責任；亦無對適售性或特定目的適用性所為的默示性擔保。詳情請參照 GNU 通用公共授權。"
 
 #: ../src/callbacks.cpp:193
 msgid ""
@@ -108,8 +110,10 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"您應該已收到附於系統監控的 GNU 通用公共授權的副本。如果沒有，請寫信至：Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr "關於系統監控程式"
 
@@ -119,6 +123,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2019 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2019 MATE 開發者"
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"
@@ -515,7 +522,7 @@ msgstr "檔案系統"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
+msgstr[0] "%u 秒"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -1312,47 +1319,59 @@ msgstr "行程 “%s” (PID %u) 的屬性："
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "版本 %s %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr "%s 版本"
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "版本 %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr "%d-位元"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "核心 %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "硬體"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "記憶體："
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "處理器："
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "系統狀態"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "磁碟可用空間："
 
@@ -1444,13 +1463,13 @@ msgstr "%.3g Tbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
+msgstr[0] "%u 位元"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
+msgstr[0] "%u 位元組"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

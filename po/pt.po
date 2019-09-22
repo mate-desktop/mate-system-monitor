@@ -7,24 +7,24 @@
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
 # ogalho Carlos Dias Martins <ogalho@gmail.com>, 2019
 # Manel Tinoco <maneltinoco@gmail.com>, 2019
-# Sérgio Marques <smarquespt@gmail.com>, 2019
 # Carlos Moreira, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # alfalb_mansil, 2019
 # Diogo Oliveira <diogodesigns@gmail.com>, 2019
 # Luis Filipe Teixeira <lufilte@gmail.com>, 2019
-# MS <manuelarodsilva@gmail.com>, 2019
+# Manuela Silva <manuelarodsilva@gmail.com>, 2019
 # José Vieira <jvieira33@sapo.pt>, 2019
 # Rui <xymarior@yandex.com>, 2019
+# Sérgio Marques <smarquespt@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
-"Last-Translator: Rui <xymarior@yandex.com>, 2019\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>, 2019\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,7 +60,7 @@ msgstr "Monitor do Sistema MATE"
 msgid "System Monitor"
 msgstr "Monitor do Sistema"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "Ver os processos atuais e monitorizar o estado do sistema"
 
@@ -131,7 +131,7 @@ msgstr ""
 " Consola MATE; caso contrário, escreva para a Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr "Sobre o Monitor do Sistema"
 
@@ -1355,47 +1355,59 @@ msgstr "Propriedade do processo  \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "Versão %s  %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr ""
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "Versão %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Equipamento"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Memória:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Processador:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "Estado do Sistema"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Espaço disponível em disco:"
 

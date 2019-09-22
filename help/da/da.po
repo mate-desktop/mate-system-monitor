@@ -1,13 +1,13 @@
 # Translators:
-# Joe Hansen <joedalton2@yahoo.dk>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Joe Hansen <joedalton2@yahoo.dk>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2019-02-10 17:51+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:43+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2019\n"
 "Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,8 +31,8 @@ msgstr "Manual til Systemovervågning version 2.2"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
-msgid "<year>2015</year> <holder>MATE Documentation Project</holder>"
-msgstr "<year>2015</year> <holder>MATE-dokumentationsprojektet</holder>"
+msgid "<year>2019</year> <holder>MATE Documentation Project</holder>"
+msgstr "<year>2019</year> <holder>MATE-dokumentationsprojektet</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28

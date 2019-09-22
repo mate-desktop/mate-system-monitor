@@ -6,21 +6,21 @@
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2019
 # Christian Kopp <christiankopp79@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Moritz Bruder <muesli4@gmail.com>, 2019
 # Tobias Bannert <tobannert@gmail.com>, 2019
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Xpistian <xpistianbecker2@web.de>, 2019
 # nautilusx, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
-"Last-Translator: nautilusx, 2019\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/mate/teams/13566/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,7 +58,7 @@ msgstr "MATE-Systemüberwachung"
 msgid "System Monitor"
 msgstr "Systemüberwachung"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr ""
 "Momentan laufende Prozesse betrachten und den Systemzustand überwachen"
@@ -120,7 +120,7 @@ msgid ""
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr ""
 
@@ -1347,47 +1347,59 @@ msgstr "Prozesseigenschaften von »%s« (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "Version %s %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr ""
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "Version %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Speicher:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Prozessor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "Systemstatus"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Verfügbarer Speicherplatz"
 

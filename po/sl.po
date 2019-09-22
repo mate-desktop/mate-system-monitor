@@ -5,19 +5,19 @@
 # 
 # Translators:
 # Damir Mevkić <damir.mevkic@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Damir Jerovšek <jierro@windowslive.com>, 2019
 # worm <thewormhole@gmail.com>, 2019
 # Helena S <ele@tutamail.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
-"Last-Translator: Helena S <ele@tutamail.com>, 2019\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +54,7 @@ msgstr "MATE Sistemski Nadzornik"
 msgid "System Monitor"
 msgstr "Nadzornik sistema"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "Ogled trenutnih opravil in nadzor stanja sistema"
 
@@ -113,7 +113,7 @@ msgid ""
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr ""
 
@@ -1331,47 +1331,59 @@ msgstr "Lastnosti opravila \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "Izdaja %s %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr ""
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "Izdaja %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr "%d biti"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Jedro %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Strojna oprema"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Pomnilnik:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Procesor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "Stanje sistema"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Prostor na disku:"
 

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2019\n"
 "Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
@@ -52,7 +52,7 @@ msgstr "Monitor do sistema do MATE"
 msgid "System Monitor"
 msgstr "Monitor do sistema"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "Ver os procesos actuais e monitorizar o estado do sistema"
 
@@ -122,7 +122,7 @@ msgstr ""
 " do sistema; en caso contrario, escriba á Free Software Foundation, Inc., 51"
 " Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA"
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr "Sobre o Monitor do sistema"
 
@@ -457,7 +457,7 @@ msgstr "Rematar o _proceso"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr "Seleccionar unha cor para «%s»"
+msgstr "Seleccione unha cor para «%s»"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -1347,47 +1347,59 @@ msgstr "Propiedades do proceso «%s» (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "Versión %s %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr "Versión %s"
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "Versión %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Núcleo %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Memoria:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Procesador:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "Estado do sistema"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Espazo dispoñíbel no disco:"
 

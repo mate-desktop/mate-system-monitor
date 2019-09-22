@@ -7,12 +7,12 @@
 # Csaba Székely <szekelycsaba76@gmail.com>, 2019
 # KAMI KAMI <kami911@gmail.com>, 2019
 # Rezső Páder <rezso@rezso.net>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Ferenc Teknős <teknos.ferenc@gmail.com>, 2019
 # Nagy Gábor <jackson.gabor@gmail.com>, 2019
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Takler Tamás <taklertamas@gmail.com>, 2019
-# Falu <info@falu.me>, 2019
+# Zoltán Faludi <info@falu.me>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Balázs Meskó <meskobalazs@gmail.com>, 2019
 # 
 #, fuzzy
@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Egy folyamat és erőforrás figyelő a MATE asztali környezethez"
+msgstr "Egy folyamat- és erőforrásfigyelő a MATE asztali környezethez"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -59,7 +59,7 @@ msgstr "MATE rendszerfigyelő"
 msgid "System Monitor"
 msgstr "Rendszerfigyelő"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "A jelenlegi folyamatok megtekintése és a rendszerállapot figyelése"
 
@@ -131,7 +131,7 @@ msgstr ""
 "Software Foundationnak küldött levélben jelezze (cím: Free Software "
 "Foundation Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.)"
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr "A Rendszerfigyelő névjegye"
 
@@ -1129,9 +1129,9 @@ msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
 msgstr ""
-"Egy folyamat kilövésével megsemmisítheti adatait, tönkreteheti a "
-"munkamenetét vagy biztonsági kockázatot okozhat. Csak a nem válaszoló "
-"folyamatokat szabad kilőni."
+"Egy folyamat befejezése adatvesztést okozhat, tönkreteheti a munkamenetét "
+"vagy biztonsági kockázatot okozhat. Csak a nem válaszoló folyamatokat szabad"
+" kilőni."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:84
@@ -1145,9 +1145,9 @@ msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
 msgstr ""
-"Egy folyamat befejeztetésével megsemmisítheti adatait, tönkreteheti a "
-"munkamenetét vagy biztonsági kockázatot okozhat. Csak a nem válaszoló "
-"folyamatokat szabad befejeztetni."
+"Egy folyamat befejezése adatvesztést okozhat, tönkreteheti a munkamenetét "
+"vagy biztonsági kockázatot okozhat. Csak a nem válaszoló folyamatokat szabad"
+" kilőni."
 
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
@@ -1361,47 +1361,59 @@ msgstr "„%s” folyamat (PID: %u) folyamat tulajdonságai:"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "Kiadás: %s %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr "%s verzió"
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "%s kiadás"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
-msgstr "%d-bit"
+msgstr "%d bites"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel: %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Hardver"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Memória:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Processzor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "Rendszerállapot"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Elérhető lemezterület:"
 

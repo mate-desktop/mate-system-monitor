@@ -6,15 +6,16 @@
 # Translators:
 # Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Alexander Gabilondo <alexgabilondo@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
+"Last-Translator: Alexander Gabilondo <alexgabilondo@gmail.com>, 2019\n"
 "Language-Team: Basque (https://www.transifex.com/mate/teams/13566/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../mate-system-monitor.appdata.xml.in.h:1
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr ""
+msgstr "Prozesu eta baliabideen erabileraren monitorea MATE mahaigainerako"
 
 #: ../mate-system-monitor.appdata.xml.in.h:2
 msgid ""
@@ -45,17 +46,17 @@ msgstr ""
 msgid "System Monitor"
 msgstr "Sistemako monitorea"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "Ikusi uneko prozesuak eta monitorizatu sistemako egoera"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:1
 msgid "Kill process"
-msgstr ""
+msgstr "Akabatu prozesua"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:2
 msgid "Privileges are required to control other users' processes"
-msgstr ""
+msgstr "Beste erabiltzaileen prozesuak kontrolatzeko behar dira pribilegioak"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:3
 msgid "Renice process"
@@ -63,7 +64,7 @@ msgstr ""
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:4
 msgid "Privileges are required to change the priority of processes"
-msgstr ""
+msgstr "Prozesuen lehentasunak aldatzeko behar dira pribilegioak"
 
 #: ../src/argv.cpp:21
 msgid "Show the System tab"
@@ -71,15 +72,15 @@ msgstr "Erakutsi sistemako fitxa"
 
 #: ../src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr ""
+msgstr "Erakutsi prozesuen fitxa"
 
 #: ../src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr ""
+msgstr "Erakutsi baliabideen fitxa"
 
 #: ../src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr ""
+msgstr "Erakutsi sistemaren fitxategien fitxa"
 
 #: ../src/callbacks.cpp:185
 msgid ""
@@ -104,7 +105,7 @@ msgid ""
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr ""
 
@@ -182,7 +183,7 @@ msgstr "Frakzioa"
 #. percentage property
 #: ../src/gsm_color_button.c:160
 msgid "Percentage full for pie color pickers"
-msgstr ""
+msgstr "Tartaren kolore hautatzaileen ehuneko osoa"
 
 #: ../src/gsm_color_button.c:167
 msgid "Title"
@@ -329,7 +330,7 @@ msgstr "_Propietateak"
 
 #: ../src/interface.cpp:85
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Ikusi prozesu baten gaineko informazio gehigarria"
 
 #: ../src/interface.cpp:88
 msgid "_Contents"
@@ -377,7 +378,7 @@ msgstr "_Nire prozesuak"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Erakutsi bakarrik erabiltzailearen jabetzako prozesuak"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
@@ -385,7 +386,7 @@ msgstr "Oso altua"
 
 #: ../src/interface.cpp:115
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Ezarri prozesuaren lehentasuna oso altua"
 
 #: ../src/interface.cpp:116 ../src/util.cpp:219
 msgid "High"
@@ -393,7 +394,7 @@ msgstr "Altua"
 
 #: ../src/interface.cpp:117
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Ezarri prozesuaren lehentasuna altua"
 
 #: ../src/interface.cpp:118 ../src/util.cpp:221
 msgid "Normal"
@@ -401,7 +402,7 @@ msgstr "Arrunta"
 
 #: ../src/interface.cpp:119
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Ezarri prozesuaren lehentasuna normala"
 
 #: ../src/interface.cpp:120 ../src/util.cpp:223
 msgid "Low"
@@ -409,15 +410,15 @@ msgstr "Baxua"
 
 #: ../src/interface.cpp:121
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Ezarri prozesuaren lehentasuna baxua"
 
 #: ../src/interface.cpp:122 ../src/util.cpp:225
 msgid "Very Low"
-msgstr ""
+msgstr "Oso baxua"
 
 #: ../src/interface.cpp:123
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Ezarri prozesuaren lehentasuna oso baxua"
 
 #: ../src/interface.cpp:124
 msgid "Custom"
@@ -425,7 +426,7 @@ msgstr "Pertsonalizatua"
 
 #: ../src/interface.cpp:125
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Ezarri prozesuaren lehentasuna eskuz"
 
 #: ../src/interface.cpp:231
 msgid "End _Process"
@@ -436,7 +437,7 @@ msgstr "Amaitu p_rozesua"
 #: ../src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr ""
+msgstr "Hautatu kolorea '%s'-(r)entzat"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
@@ -511,13 +512,13 @@ msgstr[1] ""
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
-msgstr ""
+msgstr "ez dago eskuragarri"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
 #: ../src/load-graph.cpp:353
 #, c-format
 msgid "%s (%.1f%%) of %s"
-msgstr ""
+msgstr "%s (%.1f%%) / %s"
 
 #: ../src/lsof.cpp:123
 msgid "Error"
@@ -526,7 +527,7 @@ msgstr "Errorea"
 #: ../src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr ""
+msgstr "'%s' ez da baliozko Perl-en adierazpen erregularra."
 
 #: ../src/lsof.cpp:270
 msgid "Process"
@@ -670,12 +671,16 @@ msgstr "\"%s\" prozesuak (PID %u) irekitako fitxategiak:"
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:1
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
 msgstr ""
+"Leiho nagusiaren tamaina eta kokapena inprimakian (zabalera, altuera, xkok.,"
+" ykok.)"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:2
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
 msgstr ""
+"EGIA bada, leiho nagusia maximizatua irekiko da, eta gordetako kokapen "
+"balioak baztertzen dira."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
 msgid "Show process dependencies in tree form"
@@ -691,6 +696,9 @@ msgid ""
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
 msgstr ""
+"TRUE (egia) bada, sistemako monitorea 'Solaris modua'n funtzionatuko du, non"
+" atazen PUZ erabilpena PUZ kopuru osoaren artean zatitzen den. Bestela 'Irix"
+" modua'n funtzionatzen du."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:6
 msgid "Enable/Disable smooth refresh"
@@ -711,6 +719,7 @@ msgstr "Grafikoak eguneratzeko tartearen denbora (milisegundotan)"
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:10
 msgid "Whether information about all file systems should be displayed"
 msgstr ""
+"Fitxategi-sistema guztiei buruzko informazioa bistaratu behar den ala ez"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:11
 msgid ""
@@ -718,6 +727,9 @@ msgid ""
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
 msgstr ""
+"Fitxategi-sistema guztiei buruzko informazioa bistaratu ala ez ('autofs' eta"
+" 'procfs' motak bezalakoak barne). Erabilgarria unean muntatuta dauden "
+"fitxategi-sistema guztiak zerrendatzeko."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:12
 msgid "Time in milliseconds between updates of the devices list"
@@ -745,7 +757,7 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
-msgstr ""
+msgstr "PUZ grafikoaren kolore lehenetsia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:17
 msgid "Default graph cpu color"
@@ -753,7 +765,7 @@ msgstr "PUZ grafikoaren kolore lehenetsia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:18
 msgid "Default graph memory color"
-msgstr ""
+msgstr "Memoria grafikoaren kolore lehenetsia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:19
 msgid "Default graph swap color"
@@ -769,7 +781,7 @@ msgstr "Sareko irteerako grafikoaren kolore lehenetsia"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:22
 msgid "Show network traffic in bits"
-msgstr ""
+msgstr "Erakutsi sareko trafikoa bitetan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:23
 msgid "Process view sort column"
@@ -785,133 +797,133 @@ msgstr "Prozesuen ikuspegiaren ordena"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:26
 msgid "Width of process 'Name' column"
-msgstr ""
+msgstr "Prozesuaren 'Izena' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:27
 msgid "Show process 'Name' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Izena' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:28
 msgid "Width of process 'User' column"
-msgstr ""
+msgstr "Prozesuaren 'Erabiltzailea' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:29
 msgid "Show process 'User' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Erabiltzailea' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:30
 msgid "Width of process 'Status' column"
-msgstr ""
+msgstr "Prozesuaren 'Egoera' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:31
 msgid "Show process 'Status' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Egoera' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:32
 msgid "Width of process 'Virtual Memory' column"
-msgstr ""
+msgstr "Prozesuaren 'Memoria birtuala' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:33
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Memoria birtuala' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:34
 msgid "Width of process 'Resident Memory' column"
-msgstr ""
+msgstr "Prozesuaren 'Memoria egoiliarra' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:35
 msgid "Show process 'Resident Memory' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Memoria egoiliarra' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:36
 msgid "Width of process 'Writable Memory' column"
-msgstr ""
+msgstr "Prozesuaren 'Memoria idazgarria' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:37
 msgid "Show process 'Writable Memory' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Memoria idazgarria' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:38
 msgid "Width of process 'Shared Memory' column"
-msgstr ""
+msgstr "Prozesuaren 'Memoria partekatua' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:39
 msgid "Show process 'Shared Memory' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Memoria partekatua' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:40
 msgid "Width of process 'X Server Memory' column"
-msgstr ""
+msgstr "Prozesuaren 'X zerbitzari-memoria' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:41
 msgid "Show process 'X Server Memory' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'X zerbitzari-memoria' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:43
 #, no-c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Prozesuaren '% PUZ' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:45
 #, no-c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'PID' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:46
 msgid "Width of process 'CPU Time' column"
-msgstr ""
+msgstr "Prozesuaren 'PUZ denbora' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:47
 msgid "Show process 'CPU Time' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'PUZ denbora' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:48
 msgid "Width of process 'Started' column"
-msgstr ""
+msgstr "Prozesuaren 'Abioan' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:49
 msgid "Show process 'Started' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Martxan' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
-msgstr ""
+msgstr "Prozesuaren 'Lehentasuna' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Lehentasuna' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
-msgstr ""
+msgstr "Prozesuaren 'ID' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:53
 msgid "Show process 'ID' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'ID' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:54
 msgid "Width of process 'Security Context' column"
-msgstr ""
+msgstr "Prozesuaren 'Segurtasun testuingurua' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:55
 msgid "Show process 'Security Context' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Segurtasun testuingurua' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Width of process 'Command Line' column"
-msgstr ""
+msgstr "Prozesuaren 'Komando lerroa' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Show process 'Command Line' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Komando lerroa' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Width of process 'Memory' column"
-msgstr ""
+msgstr "Prozesuaren 'Memoria' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:59
 msgid "Show process 'Memory' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Memoria' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:60
 msgid "Width of process 'Waiting Channel' column"
@@ -923,59 +935,59 @@ msgstr "Erakutsi prozesuaren 'Kanala zain' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:62
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "Prozesuaren 'Kontrol taldea' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:63
 msgid "Show process 'Control Group' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Kontrol taldea' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:64
 msgid "Width of process 'Unit' column"
-msgstr ""
+msgstr "Prozesuaren 'Unitatea' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:65
 msgid "Show process 'Unit' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Unitatea' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:66
 msgid "Width of process 'Session' column"
-msgstr ""
+msgstr "Prozesuaren 'Saioa' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:67
 msgid "Show process 'Session' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Saioa' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:68
 msgid "Width of process 'Seat' column"
-msgstr ""
+msgstr "Prozesuaren 'Eserlekua' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:69
 msgid "Show process 'Seat' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Eserlekua' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:70
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Prozesuaren 'Jabea' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:71
 msgid "Show process 'Owner' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Jabea' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:72
 msgid "Width of process 'Priority' column"
-msgstr ""
+msgstr "Prozesuaren 'Lehentasuna' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:73
 msgid "Show process 'Priority' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'Lehentasuna' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:74
 msgid "Disk view sort column"
-msgstr ""
+msgstr "Diskoaren ikuspegia ordenatzeko zutabea"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:75
 msgid "Disk view sort order"
-msgstr ""
+msgstr "Diskoaren ikuspegia ordena"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:76
 msgid "Disk view columns order"
@@ -983,75 +995,75 @@ msgstr "Disko-ikuspegiko zutabeak"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:77
 msgid "Width of disk view 'Device' column"
-msgstr ""
+msgstr "Disko-ikuspegiko 'Gailua' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:78
 msgid "Show disk view 'Device' column on startup"
-msgstr ""
+msgstr "Erakutsi disko-ikuspegiko 'Gailua' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Width of disk view 'Directory' column"
-msgstr ""
+msgstr "Disko-ikuspegiko 'Direktorioa' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:80
 msgid "Show disk view 'Directory' column on startup"
-msgstr ""
+msgstr "Erakutsi disko-ikuspegiko 'Direktorioa' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:81
 msgid "Width of disk view 'Type' column"
-msgstr ""
+msgstr "Disko-ikuspegiko 'Mota' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:82
 msgid "Show disk view 'Type' column on startup"
-msgstr ""
+msgstr "Erakutsi disko-ikuspegiko 'Mota' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:83
 msgid "Width of disk view 'Total' column"
-msgstr ""
+msgstr "Disko-ikuspegiko 'Denetara' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:84
 msgid "Show disk view 'Total' column on startup"
-msgstr ""
+msgstr "Erakutsi disko-ikuspegiko 'Denetara' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:85
 msgid "Width of disk view 'Free' column"
-msgstr ""
+msgstr "Disko-ikuspegiko 'Libre' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:86
 msgid "Show disk view 'Free' column on startup"
-msgstr ""
+msgstr "Erakutsi disko-ikuspegiko 'Libre' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:87
 msgid "Width of disk view 'Available' column"
-msgstr ""
+msgstr "Disko-ikuspegiko 'Eskuragarri' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:88
 msgid "Show disk view 'Available' column on startup"
-msgstr ""
+msgstr "Erakutsi disko-ikuspegiko 'Eskuragarri' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:89
 msgid "Width of disk view 'Used' column"
-msgstr ""
+msgstr "Disko-ikuspegiko 'Erabilita' zutabearen zabalera"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:90
 msgid "Show disk view 'Used' column on startup"
-msgstr ""
+msgstr "Erakutsi disko-ikuspegiko 'Erabilita' zutabea abioan"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:91
 msgid "Memory map sort column"
-msgstr ""
+msgstr "Memoriaren mapa ordenatzeko zutabea"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:92
 msgid "Memory map sort order"
-msgstr ""
+msgstr "Memoria maparen ordena"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:93
 msgid "Open files sort column"
-msgstr ""
+msgstr "Ireki fitxategiak ordenatzeko zutabea"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:94
 msgid "Open files sort order"
-msgstr ""
+msgstr "Ireki fitxategiak ordenatzeko"
 
 #: ../src/procactions.cpp:76
 #, c-format
@@ -1084,7 +1096,7 @@ msgstr ""
 #: ../src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Bukatu hautatutako prozesua “%s” (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:88
@@ -1096,12 +1108,12 @@ msgstr ""
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(Lehentasun %s)"
 
 #: ../src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr ""
+msgstr "Aldatu prozesuaren lehentasuna “%s” (PID: %u)"
 
 #: ../src/procdialogs.cpp:182
 msgid "Change _Priority"
@@ -1149,7 +1161,7 @@ msgstr "Abisatu prozesuak amaitu edo hil aurretik"
 
 #: ../src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
-msgstr ""
+msgstr "Zatitu PUZ erabilera PUZ kopuruaren artean"
 
 #: ../src/procdialogs.cpp:632
 msgid "Solaris mode"
@@ -1177,7 +1189,7 @@ msgstr "Erakutsi sareko abiadura bitetan"
 
 #: ../src/procdialogs.cpp:775
 msgid "Show _all file systems"
-msgstr ""
+msgstr "Erakutsi fitxategi sistema guztiak"
 
 #: ../src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
@@ -1256,15 +1268,15 @@ msgstr "Kanala zain"
 
 #: ../src/proctable.cpp:259 ../src/procproperties.cpp:134
 msgid "Control Group"
-msgstr ""
+msgstr "Kontrol-taldea"
 
 #: ../src/proctable.cpp:260
 msgid "Unit"
-msgstr ""
+msgstr "Unitatea"
 
 #: ../src/proctable.cpp:261
 msgid "Session"
-msgstr ""
+msgstr "Saioa"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1272,7 +1284,7 @@ msgstr ""
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
 #: ../src/proctable.cpp:264
 msgid "Seat"
-msgstr ""
+msgstr "Eserlekua"
 
 #: ../src/proctable.cpp:265
 msgid "Owner"
@@ -1294,56 +1306,68 @@ msgstr "E/E"
 
 #: ../src/procproperties.cpp:242
 msgid "Process Properties"
-msgstr ""
+msgstr "Prozesuaren ezaugarriak"
 
 #: ../src/procproperties.cpp:262
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "Prozesuaren ezaugarriak \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
-msgstr ""
+msgstr "Argitaratu %s %s"
+
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr "%s bertsioa"
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "%s bertsioa"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr ""
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Nukleoa: %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Hardwarea"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Memoria:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Prozesagailua:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
-msgstr ""
+msgstr "Sistemaren egoera"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Diskoan dagoen lekua:"
 

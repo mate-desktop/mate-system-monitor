@@ -4,18 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Allan Nordhøy <epost@anotheragency.no>, 2019
 # Kenneth Jenssen <kennethjenssen@yahoo.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Kim Malmo <berencamlost@msn.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
-"Last-Translator: Kenneth Jenssen <kennethjenssen@yahoo.com>, 2019\n"
+"Last-Translator: Kim Malmo <berencamlost@msn.com>, 2019\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "MATE Systemovervåking"
 msgid "System Monitor"
 msgstr "Systemovervåkning"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "Vis aktive prosesser og overvåk systemets tilstand"
 
@@ -95,6 +96,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Systemovervåkning er fri programvare; du kan redistribuere programmet og "
+"eller endre det i henhold til betingelsene gitt i GNU General Public License"
+" som publisert av Free Software Foundation; enten versjon 2 av lisensen, "
+"eller (hvis du ønsker) enhver senere versjon."
 
 #: ../src/callbacks.cpp:189
 msgid ""
@@ -103,6 +108,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"Systemovervåkning distribueres i håp om at programmet vil være nyttig, men "
+"UTEN NOEN GARANTI; selv ikke en implisitt garanti for at det er SALGBART "
+"eller PASSER ET SPESIELT FORMÅL. Se Gnu General Public License for flere "
+"detaljer."
 
 #: ../src/callbacks.cpp:193
 msgid ""
@@ -110,10 +119,14 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Du skal ha mottatt en kopi av GNU General Public License sammen med "
+"Systemovervåkning. Hvis dette ikke er tilfelle, kan du skrive til Free "
+"Software Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301 USA"
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
-msgstr ""
+msgstr "Om Systemovervåkning"
 
 #: ../src/callbacks.cpp:207
 msgid ""
@@ -121,6 +134,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2019 MATE developers"
 msgstr ""
+"Opphavsrett © 2001-2004 Kevin Vandersloot\n"
+"Opphavsrett © 2005-2007 Benoît Dejean\n"
+"Opphavsrett © 2011-2019 MATE-utviklerne"
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"
@@ -521,8 +537,8 @@ msgstr "Filsystemer"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u sekund"
+msgstr[1] "%u sekunder"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -1203,7 +1219,7 @@ msgstr "Grafer"
 
 #: ../src/procdialogs.cpp:693
 msgid "_Update interval in 1/10 sec:"
-msgstr ""
+msgstr "_Oppdateringsintervall i 1/10 sekunder:"
 
 #: ../src/procdialogs.cpp:713
 msgid "Show network speed in bits"
@@ -1337,47 +1353,59 @@ msgstr "Egenskaper for prosessen \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "Utgave %s %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr "%s versjon"
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "Versjon %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Kernel %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Maskinvare"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Minne:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Prosessor:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "Systemstatus"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Tilgjengelig diskplass:"
 
@@ -1469,15 +1497,15 @@ msgstr "%.3g Tbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u bit"
+msgstr[1] "%u bit"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u byte"
+msgstr[1] "%u byte"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

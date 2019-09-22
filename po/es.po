@@ -5,26 +5,26 @@
 # 
 # Translators:
 # seacat <seacat.linux@gmail.com>, 2019
-# Fito JB, 2019
 # Fabian Rodriguez, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Lluís Tusquellas <lutusq@gmail.com>, 2019
 # ebray187 <ebray187@gmail.com>, 2019
 # Naresu Tenshi <naresutenshi@gmail.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Emiliano Fascetti, 2019
 # Joel Barrios <darkshram@gmail.com>, 2019
 # Alberto Vicente Sánchez <odintdh@gmail.com>, 2019
 # Ivan Nieto <ivan.n.s@tuta.io>, 2019
+# Adolfo Jayme-Barrientos, 2019
+# Toni Estévez <toni.estevez@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:38+0000\n"
-"Last-Translator: Ivan Nieto <ivan.n.s@tuta.io>, 2019\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,12 +46,12 @@ msgid ""
 " home page. </p>"
 msgstr ""
 "<p> Monitor del sistema de MATE permite visualizar y manipular gráficamente "
-"los procesos que se están ejecutando en el sistema. También ofrece una vista"
-" general de los recursos disponibles, como el procesador y la memoria del "
-"equipo. </p> <p> Monitor del sistema de MATE es una bifurcación de Monitor "
-"del sistema de GNOME y es parte del entorno de escritorio MATE. Si desea "
-"saber más acerca de MATE y Monitor del sistema, visite la página principal "
-"del proyecto. </p>"
+"los procesos que se están ejecutando en el sistema. También proporciona una "
+"vista general de los recursos disponibles, como el procesador y la memoria "
+"del equipo. </p> <p> Monitor del sistema de MATE es una bifurcación de "
+"Monitor del sistema de GNOME y es parte del entorno de escritorio MATE. Si "
+"quiere saber más sobre MATE y Monitor del sistema, visite la página "
+"principal del proyecto. </p>"
 
 #: ../mate-system-monitor.desktop.in.in.h:1
 msgid "MATE System Monitor"
@@ -62,9 +62,9 @@ msgstr "Monitor del sistema de MATE"
 msgid "System Monitor"
 msgstr "Monitor del sistema"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
-msgstr "Vea los procesos actuales y monitorice el estado del sistema"
+msgstr "Vea los procesos actuales y monitoree el estado del sistema"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:1
 msgid "Kill process"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:3
 msgid "Renice process"
-msgstr "Reiniciar proceso"
+msgstr "Cambiar el valor de prioridad del proceso"
 
 #: ../org.mate.mate-system-monitor.policy.in.in.h:4
 msgid "Privileges are required to change the priority of processes"
@@ -106,6 +106,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Monitor del sistema es software libre: puede redistribuirlo y/o modificarlo "
+"bajo los términos de la Licencia Pública General de GNU publicada por la "
+"Free Software Foundation, ya sea la versión 2 de la Licencia como (a su "
+"elección) cualquier versión posterior."
 
 #: ../src/callbacks.cpp:189
 msgid ""
@@ -114,6 +118,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"Monitor del sistema se distribuye con la esperanza de que sea útil, pero SIN"
+" NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIABILIDAD o "
+"IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Consulte la Licencia Pública General"
+" de GNU para más detalles."
 
 #: ../src/callbacks.cpp:193
 msgid ""
@@ -121,10 +129,14 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Debería haber recibido una copia de la Licencia Pública General de GNU junto"
+" con Monitor de Sistema; si no es así, escriba a la Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
 
-#: ../src/callbacks.cpp:204
+#: ../src/callbacks.cpp:205
 msgid "About System Monitor"
-msgstr ""
+msgstr "Acerca de Monitor del sistema"
 
 #: ../src/callbacks.cpp:207
 msgid ""
@@ -132,6 +144,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2019 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2019 Los desarrolladores de MATE"
 
 #: ../src/callbacks.cpp:214
 msgid "translator-credits"
@@ -210,7 +225,7 @@ msgstr "Título"
 
 #: ../src/gsm_color_button.c:168
 msgid "The title of the color selection dialog"
-msgstr "Título de el dialogo de selección de color"
+msgstr "Título del dialogo de selección de color"
 
 #: ../src/gsm_color_button.c:169 ../src/gsm_color_button.c:593
 msgid "Pick a Color"
@@ -230,11 +245,11 @@ msgstr "Tipo de selector de color"
 
 #: ../src/gsm_color_button.c:507
 msgid "Received invalid color data\n"
-msgstr "Datos inválidos de color recibidos\n"
+msgstr "Datos no válidos de color recibidos\n"
 
 #: ../src/gsm_color_button.c:616
 msgid "Click to set graph colors"
-msgstr "Pulse para establecer los colores de las gráficas"
+msgstr "Haga clic para establecer los colores de las gráficas"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
@@ -373,7 +388,7 @@ msgstr "_Dependencias"
 
 #: ../src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
-msgstr "Mostrar las relaciones de ascendencia entre los procesos"
+msgstr "Mostrar las dependencias entre procesos"
 
 #: ../src/interface.cpp:104
 msgid "_Active Processes"
@@ -397,7 +412,7 @@ msgstr "M_is procesos"
 
 #: ../src/interface.cpp:109
 msgid "Show only user-owned processes"
-msgstr "Mostrar sólo los procesos pertenecientes al usuario"
+msgstr "Mostrar solo los procesos pertenecientes al usuario"
 
 #: ../src/interface.cpp:114 ../src/util.cpp:217
 msgid "Very High"
@@ -460,7 +475,7 @@ msgstr "Coger un color de «%s»"
 
 #: ../src/interface.cpp:290
 msgid "CPU History"
-msgstr "Histórico de la CPU"
+msgstr "Historial de la CPU"
 
 #: ../src/interface.cpp:333 ../src/procproperties.cpp:125
 msgid "CPU"
@@ -473,7 +488,7 @@ msgstr "CPU %d"
 
 #: ../src/interface.cpp:357
 msgid "Memory and Swap History"
-msgstr "Histórico de memoria e intercambio"
+msgstr "Historial de la memoria y del espacio de intercambio"
 
 #: ../src/interface.cpp:391 ../src/proctable.cpp:256
 #: ../src/procproperties.cpp:119
@@ -486,7 +501,7 @@ msgstr "Intercambio"
 
 #: ../src/interface.cpp:439
 msgid "Network History"
-msgstr "Histórico de la red"
+msgstr "Historial de la red"
 
 #: ../src/interface.cpp:472
 msgid "Receiving"
@@ -526,8 +541,8 @@ msgstr "Sistemas de archivos"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u segundo"
+msgstr[1] "%u segundos"
 
 #: ../src/load-graph.cpp:350
 msgid "not available"
@@ -572,7 +587,7 @@ msgstr "El _nombre contiene:"
 #. The default accelerator collides with the default close accelerator.
 #: ../src/lsof.cpp:357
 msgid "C_lear"
-msgstr "_Limpiar"
+msgstr "_Borrar"
 
 #: ../src/lsof.cpp:361
 msgid "Case insensitive matching"
@@ -590,7 +605,7 @@ msgstr "Inicio MV"
 #. xgettext: virtual memory end
 #: ../src/memmaps.cpp:309
 msgid "VM End"
-msgstr "Fin MV"
+msgstr "Final de MV"
 
 #. xgettext: virtual memory syze
 #: ../src/memmaps.cpp:311
@@ -649,7 +664,7 @@ msgstr "archivo"
 
 #: ../src/openfiles.cpp:40
 msgid "pipe"
-msgstr "cauce"
+msgstr "tubería"
 
 #: ../src/openfiles.cpp:42
 msgid "IPv6 network connection"
@@ -698,7 +713,7 @@ msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
 msgstr ""
-"Si es CIERTO, la ventana principal permanecerá maximizada, y los valores de "
+"Si se activa, la ventana principal permanecerá maximizada y los valores de "
 "tamaño y posición serán ignorados."
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:3
@@ -715,7 +730,7 @@ msgid ""
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
 msgstr ""
-"Si es cierto, el monitor del sistema opera en el «Modo Solaris» donde el uso"
+"Si se activa, el monitor del sistema opera en el «Modo Solaris» donde el uso"
 " de CPU de una tarea se divide entre el número total de CPU. De otra forma "
 "opera en el «Modo Irix»."
 
@@ -761,8 +776,8 @@ msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
 msgstr ""
-"Determina qué procesos se mostrarán por omisión. 0 es todos, 1 es usuario, y"
-" 2 es activo"
+"Determina qué procesos se mostrarán por defecto. 0 es todos, 1 es usuario y "
+"2 es activo"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:14
 msgid "Saves the currently viewed tab"
@@ -778,27 +793,27 @@ msgstr ""
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:16
 msgid "Default graph CPU color"
-msgstr "Color predeterminado de la gráfica de la CPU"
+msgstr "Color predeterminado del gráfico de la CPU"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:17
 msgid "Default graph cpu color"
-msgstr "Color predeterminado de la gráfica de la CPU"
+msgstr "Color predeterminado del gráfico de la CPU"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:18
 msgid "Default graph memory color"
-msgstr "Color predeterminado de la gráfica de memoria"
+msgstr "Color predeterminado del gráfico de memoria"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:19
 msgid "Default graph swap color"
-msgstr "Color predeterminado de la gráfica de intercambio"
+msgstr "Color predeterminado del gráfico del espacio de intercambio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:20
 msgid "Default graph incoming network traffic color"
-msgstr "Color predeterminado de la gráfica de tráfico entrante"
+msgstr "Color predeterminado del gráfico de tráfico entrante"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:21
 msgid "Default graph outgoing network traffic color"
-msgstr "Color predeterminado de la gráfica de tráfico saliente"
+msgstr "Color predeterminado del gráfico del tráfico de red saliente"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:22
 msgid "Show network traffic in bits"
@@ -908,11 +923,11 @@ msgstr "Muestra la columna del proceso 'Comenzado' al inicio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:50
 msgid "Width of process 'Nice' column"
-msgstr "Ancho de columna del proceso 'Nice'"
+msgstr "Ancho de la columna «Prioridad» del proceso"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:51
 msgid "Show process 'Nice' column on startup"
-msgstr "Muestra la columna del proceso 'Nice' al inicio"
+msgstr "Muestra la columna «Prioridad» del proceso al inicio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:52
 msgid "Width of process 'ID' column"
@@ -932,11 +947,11 @@ msgstr "Muestra la columna del proceso 'Contexto de Seguridad' al inicio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:56
 msgid "Width of process 'Command Line' column"
-msgstr "Ancho de columna del proceso 'Línea de Comandos'"
+msgstr "Ancho de columna «Línea de órdenes» de los procesos"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:57
 msgid "Show process 'Command Line' column on startup"
-msgstr "Muestra la columna del proceso 'Línea de Comandos' al inicio"
+msgstr "Muestra la columna «Línea de órdenes» de los procesos al inicio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:58
 msgid "Width of process 'Memory' column"
@@ -1024,11 +1039,11 @@ msgstr "Muestra la columna de vista de disco 'Dispositivo' al inicio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:79
 msgid "Width of disk view 'Directory' column"
-msgstr "Ancho de columna de la vista de disco 'Directorio'"
+msgstr "Anchura de la columna «Carpeta» de la vista de disco"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:80
 msgid "Show disk view 'Directory' column on startup"
-msgstr "Muestra la columna de vista de disco 'Directorio' al inicio"
+msgstr "Muestra al inicio la columna «Carpeta» de la vista de disco"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:81
 msgid "Width of disk view 'Type' column"
@@ -1064,11 +1079,11 @@ msgstr "Muestra la columna de vista de disco 'Disponible' al inicio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:89
 msgid "Width of disk view 'Used' column"
-msgstr "Ancho de columna de la vista de disco 'Utilizado'"
+msgstr "Ancho de columna de la vista de disco 'Usado'"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:90
 msgid "Show disk view 'Used' column on startup"
-msgstr "Muestra la columna de vista de disco 'Utilizado' al inicio"
+msgstr "Muestra la columna de vista de disco 'Usado' al inicio"
 
 #: ../src/org.mate.system-monitor.gschema.xml.in.h:91
 msgid "Memory map sort column"
@@ -1108,7 +1123,7 @@ msgstr ""
 #: ../src/procdialogs.cpp:73
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
-msgstr "¿Matar el proceso seleccionado \"%s\" (PID: %u)?"
+msgstr "¿Matar el proceso seleccionado «%s» (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:77
@@ -1116,14 +1131,14 @@ msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
 msgstr ""
-"Matar un proceso puede destruir datos, romper la sesión de trabajo o crear "
-"un riesgo de seguridad. Sólo deberían matarse los procesos que no respondan."
+"Matar un proceso puede destruir datos, romper la sesión o introducir un "
+"riesgo de seguridad. Solo se deben matar los procesos que no respondan."
 
 #. xgettext: primary alert message
 #: ../src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
-msgstr "¿Terminar el proceso seleccionado \"%s\" (PID: %u)?"
+msgstr "¿Finalizar el proceso seleccionado «%s» (PID: %u)?"
 
 #. xgettext: secondary alert message
 #: ../src/procdialogs.cpp:88
@@ -1131,9 +1146,9 @@ msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
 msgstr ""
-"Finalizar un proceso puede destruir los datos, romper la sesión de trabajo o"
-" crear un riesgo de seguridad. Sólo deberían finalizarse los procesos que no"
-" respondan."
+"Finalizar un proceso puede destruir los datos, romper la sesión o introducir"
+" un riesgo de seguridad. Solo se deben finalizar los procesos que no "
+"respondan."
 
 #: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
 #, c-format
@@ -1143,7 +1158,7 @@ msgstr "(Prioridad %s)"
 #: ../src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr "Cambiar la Prioridad del Proceso \"%s\" (PID: %u)"
+msgstr "Cambiar la Prioridad del Proceso «%s» (PID: %u)"
 
 #: ../src/procdialogs.cpp:182
 msgid "Change _Priority"
@@ -1151,7 +1166,7 @@ msgstr "Cambiar la _prioridad"
 
 #: ../src/procdialogs.cpp:205
 msgid "_Nice value:"
-msgstr "Valor _nice:"
+msgstr "Valor de _prioridad:"
 
 #: ../src/procdialogs.cpp:220
 msgid "Note:"
@@ -1162,8 +1177,8 @@ msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr ""
-"La prioridad de un proceso está dada por su valor nice. Un valor nice bajo "
-"corresponde a una prioridad más alta."
+"La prioridad de un proceso viene dada por su valor de prioridad. Un valor de"
+" prioridad más bajo corresponde a una prioridad más alta."
 
 #: ../src/procdialogs.cpp:472
 msgid "Icon"
@@ -1276,7 +1291,7 @@ msgstr "Iniciado"
 
 #: ../src/proctable.cpp:252 ../src/procproperties.cpp:128
 msgid "Nice"
-msgstr "Nice"
+msgstr "Prioridad"
 
 #: ../src/proctable.cpp:253 ../src/procproperties.cpp:130
 msgid "ID"
@@ -1288,7 +1303,7 @@ msgstr "Contexto de seguridad"
 
 #: ../src/proctable.cpp:255 ../src/procproperties.cpp:132
 msgid "Command Line"
-msgstr "Línea de comandos"
+msgstr "Línea de órdenes"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1345,47 +1360,59 @@ msgstr "Propiedades del proceso «%s» (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: ../src/sysinfo.cpp:81
 #, c-format
 msgid "Release %s %s"
 msgstr "Versión %s de %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: ../src/sysinfo.cpp:88
+#, c-format
+msgid "%s Version"
+msgstr "Versión %s"
+
+#. Translators: The string parameter is release version (codename)
+#: ../src/sysinfo.cpp:93
+#, c-format
+msgid "Release %s"
+msgstr "Versión %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: ../src/sysinfo.cpp:136
 #, c-format
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:807
+#: ../src/sysinfo.cpp:887
 #, c-format
 msgid "Kernel %s"
 msgstr "Núcleo %s"
 
-#: ../src/sysinfo.cpp:820
+#: ../src/sysinfo.cpp:900
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: ../src/sysinfo.cpp:914
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../src/sysinfo.cpp:839
+#: ../src/sysinfo.cpp:919
 msgid "Memory:"
 msgstr "Memoria:"
 
-#: ../src/sysinfo.cpp:843
+#: ../src/sysinfo.cpp:923
 msgid "Processor:"
 msgstr "Procesador:"
 
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: ../src/sysinfo.cpp:931
 msgid "System Status"
 msgstr "Estado del sistema"
 
-#: ../src/sysinfo.cpp:856
+#: ../src/sysinfo.cpp:936
 msgid "Available disk space:"
 msgstr "Espacio en disco disponible:"
 
@@ -1399,7 +1426,7 @@ msgstr "Parado"
 
 #: ../src/util.cpp:38
 msgid "Zombie"
-msgstr "Zombie"
+msgstr "Zombi"
 
 #: ../src/util.cpp:42
 msgid "Uninterruptible"
@@ -1477,15 +1504,15 @@ msgstr "%.3g Tbit"
 #, c-format
 msgid "%u bit"
 msgid_plural "%u bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u bit"
+msgstr[1] "%u bits"
 
 #: ../src/util.cpp:189
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u byte"
+msgstr[1] "%u bytes"
 
 #. xgettext: rate, 10MiB/s or 10Mbit/s
 #: ../src/util.cpp:583

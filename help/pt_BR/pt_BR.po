@@ -9,13 +9,14 @@
 # Italo Penaforte <italo.penaforte@gmail.com>, 2019
 # b36c7cf4cf669a51ae00d04c19629819, 2019
 # Alceu Nogueira <alceunogueira@gmail.com>, 2019
+# George salu da silva <algoritmo.linux@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2019-02-10 17:51+0100\n"
+"POT-Creation-Date: 2019-04-24 16:35+0200\n"
 "PO-Revision-Date: 2019-03-15 20:43+0000\n"
-"Last-Translator: Alceu Nogueira <alceunogueira@gmail.com>, 2019\n"
+"Last-Translator: George salu da silva <algoritmo.linux@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,22 +49,23 @@ msgstr ""
 "Michele dos Santos da Silva https://www.transifex.com/accounts/profile/mchelem\n"
 "Thiago Cangussu https://www.transifex.com/accounts/profile/cangussu.thg\n"
 "vitorgatti https://www.transifex.com/accounts/profile/vitorgatti\n"
-"Ítalo Rangel Penaforte https://www.transifex.com/accounts/profile/italo.penaforte"
+"Ítalo Rangel Penaforte https://www.transifex.com/accounts/profile/italo.penaforte\n"
+"George Salu da Silva https://www.transifex.com/user/profile/George_salu_da_silva/"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
 msgid "System Monitor Manual V2.3"
-msgstr ""
+msgstr "Monitor do sistema Manual V2.3"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
-msgid "<year>2015</year> <holder>MATE Documentation Project</holder>"
-msgstr "<year>2015</year> <holder>Documentação Projeto MATE</holder>"
+msgid "<year>2019</year> <holder>MATE Documentation Project</holder>"
+msgstr "<year>2019</year> <holder>MATE Projeto de Documentação</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
 msgid "<year>2009</year> <holder>Paul Cutler</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Paul Cutler</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
@@ -76,6 +78,8 @@ msgid ""
 "<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
 "Day</holder>"
 msgstr ""
+"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
+"Day</holder>"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
@@ -207,6 +211,8 @@ msgid ""
 "<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
+"<firstname>MATE Projeto de documentação</firstname> <surname/> <affiliation>"
+" <orgname>MATE Desktop</orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70
@@ -214,6 +220,8 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
+"<firstname>Sun</firstname> <surname>GNOME Equipe de Documentação</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -221,6 +229,8 @@ msgid ""
 "<firstname>Bill</firstname> <surname>Day</surname> "
 "<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 msgstr ""
+"<firstname>Bill</firstname> <surname>Day</surname> "
+"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:80
@@ -229,6 +239,9 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> "
 "<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 msgstr ""
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
+"<orgname>GNOME Projeto de documentação</orgname> "
+"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
@@ -241,11 +254,13 @@ msgid ""
 "<revnumber>System Monitor Manual V2.3</revnumber> <date>July 2015</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Monitor do sistema Manual V2.3</revnumber> <date>July 2015</date>"
+" <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:120
 msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
-msgstr ""
+msgstr "Paul Cutler <email>pcutler@foresightlinux.org</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:116
@@ -253,6 +268,8 @@ msgid ""
 "<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Monitor do sistema Manual V2.2;</revnumber> <date>Março "
+"2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
@@ -265,11 +282,13 @@ msgid ""
 "<revnumber>System Monitor Manual V2.1</revnumber> <date>February 2004</date>"
 " <_:revdescription-1/>"
 msgstr ""
+"<revnumber>Monitor do sistema Manual V2.1</revnumber> <date>Fevereiro "
+"2004</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:138 C/index.docbook:147
 msgid "Bill Day <email>billday@bellatlantic.net</email>"
-msgstr ""
+msgstr "Bill Day <email>billday@bellatlantic.net</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:134
@@ -277,6 +296,8 @@ msgid ""
 "<revnumber>System Monitor Manual V2.0</revnumber> <date>November 2002</date>"
 " <_:revdescription-1/>"
 msgstr ""
+"<revnumber>Monitor do sistema Manual V2.0</revnumber> <date>Novembro "
+"2002</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:143
@@ -284,6 +305,8 @@ msgid ""
 "<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Procman Manual V0.11</revnumber> <date>Janeiro 2002</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:155
@@ -329,7 +352,7 @@ msgstr "Monitor do sistema do Mate"
 #. (itstool) path: article/indexterm
 #: C/index.docbook:183
 msgid "<primary>procman</primary>"
-msgstr ""
+msgstr "<primary>procman</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:190
@@ -356,7 +379,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:199 C/index.docbook:367
 msgid "<guilabel>System</guilabel>"
-msgstr ""
+msgstr "<guilabel>Sistema</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:203
@@ -368,22 +391,22 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:206
 msgid "Distribution"
-msgstr ""
+msgstr "Distribuição"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:212
 msgid "Distribution version"
-msgstr ""
+msgstr "Versão de distribuição"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:215
 msgid "Linux Kernel version"
-msgstr ""
+msgstr "Linux Kernel versão"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:218
 msgid "MATE version"
-msgstr ""
+msgstr "MATE versão"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -394,7 +417,7 @@ msgstr "Hardware"
 #. (itstool) path: listitem/para
 #: C/index.docbook:230
 msgid "Installed memory"
-msgstr ""
+msgstr "Memória instalada"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:233
@@ -453,7 +476,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:283
 msgid "Network usage"
-msgstr ""
+msgstr "Uso de rede"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -487,7 +510,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>System</guimenu> menu"
-msgstr ""
+msgstr "<guimenu>Sistema</guimenu> menu"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -534,6 +557,8 @@ msgid ""
 "external ref='figures/mate-system-monitor_window.png' "
 "md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 msgstr ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:338
@@ -681,7 +706,7 @@ msgstr "Estado"
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
 msgid "%CPU"
-msgstr ""
+msgstr "%CPU"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
@@ -872,7 +897,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:623
 msgid "To Show Dependencies"
-msgstr ""
+msgstr "Para mostrar dependências"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:624
@@ -972,7 +997,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:708
 msgid "<guilabel>VM Start</guilabel>"
-msgstr ""
+msgstr "<guilabel>VM Start</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:710
@@ -982,7 +1007,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:716
 msgid "<guilabel>VM End</guilabel>"
-msgstr ""
+msgstr "<guilabel>VM End</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:718
@@ -992,7 +1017,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:724
 msgid "<guilabel>VM Size</guilabel>"
-msgstr ""
+msgstr "<guilabel>VM Tamanho</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:726
@@ -1014,7 +1039,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:739
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:741
@@ -1026,7 +1051,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:747
 msgid "r"
-msgstr ""
+msgstr "r"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:749
@@ -1036,7 +1061,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:755
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:757
@@ -1046,7 +1071,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:763
 msgid "w"
-msgstr ""
+msgstr "w"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:765
@@ -1078,7 +1103,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:790
 msgid "<guilabel>Device</guilabel>"
-msgstr ""
+msgstr "<guilabel>Dispositivo</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:792
@@ -1167,7 +1192,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:856
 msgid "To End a Process"
-msgstr ""
+msgstr "Para finalizar um processo"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:857
@@ -1211,7 +1236,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:891
 msgid "To Terminate a Process"
-msgstr ""
+msgstr "Para finalizar um processo"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:892
@@ -1248,7 +1273,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:926
 msgid "To Monitor CPU Usage"
-msgstr ""
+msgstr "Para monitorar o uso da CPU"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:927
@@ -1326,7 +1351,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:982
 msgid "To Monitor File Systems"
-msgstr ""
+msgstr "Para monitorar sistemas de arquivos"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:983
@@ -1370,7 +1395,7 @@ msgstr "Tipo"
 #. (itstool) path: listitem/para
 #: C/index.docbook:1011
 msgid "File system type"
-msgstr ""
+msgstr "Tipo de sistema de arquivos"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1015
@@ -1380,7 +1405,7 @@ msgstr "Total"
 #. (itstool) path: listitem/para
 #: C/index.docbook:1019
 msgid "Total capacity"
-msgstr ""
+msgstr "Capacidade total"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1023
@@ -1569,7 +1594,7 @@ msgstr "Processos"
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1230
 msgid "<guilabel>Behavior</guilabel>"
-msgstr ""
+msgstr "<guilabel>Comportamento</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1236 C/index.docbook:1421 C/index.docbook:1452
@@ -1632,7 +1657,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1280
 msgid "<guilabel>Process Name</guilabel>"
-msgstr ""
+msgstr "<guilabel>Nome do processo</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1283
@@ -1645,7 +1670,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1288
 msgid "<guilabel>User</guilabel>"
-msgstr ""
+msgstr "<guilabel>Usuario</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1291
@@ -1656,7 +1681,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1296
 msgid "<guilabel>Status</guilabel>"
-msgstr ""
+msgstr "<guilabel>Status</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1299
@@ -1668,7 +1693,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1304
 msgid "<guilabel>Virtual Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Virtual Memoria</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1307
@@ -1729,7 +1754,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1344
 msgid "<guilabel>% CPU</guilabel>"
-msgstr ""
+msgstr "<guilabel>% CPU</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1347
@@ -1741,7 +1766,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1352
 msgid "<guilabel>CPU Time</guilabel>"
-msgstr ""
+msgstr "<guilabel>CPU Tempo</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1355
@@ -1753,7 +1778,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1360
 msgid "<guilabel>Started</guilabel>"
-msgstr ""
+msgstr "<guilabel>Iniciando</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1363
@@ -1776,7 +1801,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1376
 msgid "<guilabel>ID</guilabel>"
-msgstr ""
+msgstr "<guilabel>ID</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1379
@@ -1789,7 +1814,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1384
 msgid "<guilabel>Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Memoria</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1387

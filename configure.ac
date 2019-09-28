@@ -60,27 +60,8 @@ fi
 AM_CONDITIONAL(HAVE_SYSTEMD, [test "$have_systemd" = "yes"])
 
 # Compiler warnings
-MATE_COMPILE_WARNINGS([maximum])
-
-AC_ARG_ENABLE(more-warnings,
-[AC_HELP_STRING([--enable-more-warnings],[Maximum compiler warnings])],
-set_more_warnings="$enableval",[
-    set_more_warnings=yes
-])
-AC_MSG_CHECKING(for more warnings, including -Werror)
-if test "$GCC" = "yes" -a "$set_more_warnings" != "no"; then
-    AC_MSG_RESULT(yes)
-    CFLAGS="\
-    -Wall \
-    -Winline \
-    -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes \
-    -Wnested-externs -Wpointer-arith \
-    -Wcast-align -Wsign-compare \
-    $CFLAGS"
-    CXXFLAGS="-Wall $CXXFLAGS"
-else
-    AC_MSG_RESULT(no)
-fi
+MATE_COMPILE_WARNINGS([yes])
+MATE_CXX_WARNINGS([yes])
 
 dnl CXXFLAGS="-fvisibility=hidden -fvisibility-inlines-hidden $CXXFLAGS"
 dnl CXXFLAGS="-fvisibility-inlines-hidden $CXXFLAGS"
@@ -117,9 +98,11 @@ Configuration:
 
         Source code location:   ${srcdir}
         C Compiler:             ${CC}
-        C++ Compiler:           ${CXX}
         CFLAGS:                 ${CFLAGS}
+        WARN_CFLAGS:            ${WARN_CFLAGS}
+        C++ Compiler:           ${CXX}
         CXXFLAGS:               ${CXXFLAGS}
+        WARN_CXXFLAGS:          ${WARN_CXXFLAGS}
         Maintainer mode:        ${USE_MAINTAINER_MODE}
         Systemd support:        ${have_systemd}
 "

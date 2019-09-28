@@ -64,6 +64,7 @@ env:
 requires:
   archlinux:
     # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/mate-system-monitor
+    - autoconf-archive
     - clang
     - gcc
     - git
@@ -80,6 +81,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/mate-system-monitor
+    - autoconf-archive
     - clang
     - clang-tools
     - cppcheck
@@ -103,6 +105,7 @@ requires:
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/mate-system-monitor.git
+    - autoconf-archive
     - clang
     - clang-analyzer
     - cppcheck-htmlreport
@@ -123,6 +126,7 @@ requires:
     - systemd-devel
 
   ubuntu:
+    - autoconf-archive
     - clang
     - clang-tools
     - g++

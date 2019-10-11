@@ -69,7 +69,6 @@ requires:
     - gcc
     - git
     - gtkmm3
-    - intltool
     - libgtop
     - libwnck3
     - make
@@ -81,6 +80,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/mate-system-monitor
+    - autopoint
     - autoconf-archive
     - clang
     - clang-tools
@@ -88,7 +88,6 @@ requires:
     - gcc
     - g++
     - git
-    - intltool
     - libglib2.0-dev
     - libglibmm-2.4-dev
     - libgtk-3-dev
@@ -100,6 +99,7 @@ requires:
     - libxml2-dev
     - make
     - mate-common
+    - policykit-1
     - quilt
     - yelp-tools
 
@@ -122,16 +122,17 @@ requires:
     - libxml2-devel
     - make
     - mate-common
+    - polkit-devel
     - redhat-rpm-config
     - systemd-devel
 
   ubuntu:
+    - autopoint
     - autoconf-archive
     - clang
     - clang-tools
     - g++
     - git
-    - intltool
     - libglib2.0-dev
     - libglibmm-2.4-dev
     - libgtk-3-dev
@@ -143,6 +144,7 @@ requires:
     - libxml2-dev
     - make
     - mate-common
+    - policykit-1
     - quilt
     - yelp-tools
 

@@ -2,14 +2,16 @@
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-SUBDIRS = pixmaps po src tools help
+SUBDIRS = po pixmaps src tools help
 
 man_MANS = mate-system-monitor.1
 
-@INTLTOOL_XML_RULE@
 appdatadir = $(datadir)/metainfo
 appdata_in_files = mate-system-monitor.appdata.xml.in
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+
+$(appdata_DATA): $(appdata_in_files)
+	$(AM_V_GEN) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
 
 org.mate.mate-system-monitor.policy.in: org.mate.mate-system-monitor.policy.in.in Makefile
 	$(AM_V_GEN) sed -e "s|\@pkglibexecdir\@|$(pkglibexecdir)|" $< > $@
@@ -23,30 +25,28 @@ EXTRA_DIST = \
 	$(appdata_in_files) \
 	org.mate.mate-system-monitor.policy.in.in \
 	mate-system-monitor.desktop.in \
-	intltool-extract.in \
-	intltool-merge.in \
-	intltool-update.in \
 	omf.make \
 	xmldocs.make
 
-@INTLTOOL_POLICY_RULE@
 polkit_policydir = $(datadir)/polkit-1/actions
 polkit_policy_in_files = org.mate.mate-system-monitor.policy.in
 polkit_policy_DATA = $(polkit_policy_in_files:.policy.in=.policy)
 
+$(polkit_policy_DATA): $(polkit_policy_in_files)
+	$(AM_V_GEN) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
+
 Applicationsdir = $(datadir)/applications
 Applications_in_files = mate-system-monitor.desktop.in
 Applications_DATA = $(Applications_in_files:.desktop.in=.desktop)
-@INTLTOOL_DESKTOP_RULE@
+
+$(Applications_DATA): $(Applications_in_files)
+	$(AM_V_GEN) $(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 distuninstallcheck_listfiles = find . -type f -print
 
 CLEANFILES = mate-system-monitor.appdata.xml
 
 DISTCLEANFILES = \
-  intltool-extract \
-  intltool-merge \
-  intltool-update \
   mate-system-monitor.desktop \
   org.mate.mate-system-monitor.policy \
   org.mate.mate-system-monitor.policy.in

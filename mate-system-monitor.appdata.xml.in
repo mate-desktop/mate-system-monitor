@@ -5,8 +5,8 @@
  <metadata_license>CC0-1.0</metadata_license>
  <project_license>GPL-2.0+</project_license>
  <name>MATE System Monitor</name>
- <_summary>A Process and resource monitor for MATE Desktop</_summary>
- <_description>
+ <summary>A Process and resource monitor for MATE Desktop</summary>
+ <description>
   <p>
    MATE System Monitor allows to graphically view and manipulate the running
    processes on your system. It also provides an overview of available resources,
@@ -17,7 +17,7 @@
    Desktop Environment. If you would like to know more about MATE and System Monitor,
    please visit the project's home page.
   </p>
- </_description>
+ </description>
  <screenshots>
   <screenshot type="default">
    <image width="960" height="540">

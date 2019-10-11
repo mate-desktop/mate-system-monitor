@@ -69,8 +69,8 @@ dnl CXXFLAGS="-fvisibility-inlines-hidden $CXXFLAGS"
 
 GLIB_GSETTINGS
 
-# i18n stuff
-IT_PROG_INTLTOOL([0.50.1])
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT([external])
 
 GETTEXT_PACKAGE=mate-system-monitor
 AC_SUBST(GETTEXT_PACKAGE)

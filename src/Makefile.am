@@ -76,7 +76,6 @@ gsettingsschema_in_files = org.mate.system-monitor.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 
 @GSETTINGS_RULES@
-@INTLTOOL_XML_NOMERGE_RULE@
 
 dist_noinst_DATA = \
 	$(gsettings_in_file)

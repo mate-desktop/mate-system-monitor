@@ -1,4 +1,3 @@
-[encoding: UTF-8]
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 mate-system-monitor.appdata.xml.in
@@ -15,7 +14,7 @@ src/load-graph.cpp
 src/lsof.cpp
 src/memmaps.cpp
 src/openfiles.cpp
-[type: gettext/gsettings]src/org.mate.system-monitor.gschema.xml.in
+src/org.mate.system-monitor.gschema.xml.in
 src/procactions.cpp
 src/procdialogs.cpp
 src/procman.cpp

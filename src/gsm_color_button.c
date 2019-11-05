@@ -72,9 +72,6 @@ enum
 #define GSMCP_MIN_WIDTH 15
 #define GSMCP_MIN_HEIGHT 15
 
-static void gsm_color_button_class_intern_init (gpointer);
-static void gsm_color_button_class_init (GSMColorButtonClass * klass);
-static void gsm_color_button_init (GSMColorButton * color_button);
 static void gsm_color_button_finalize (GObject * object);
 static void gsm_color_button_set_property (GObject * object, guint param_id,
                                            const GValue * value,

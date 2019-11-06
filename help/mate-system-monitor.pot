@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2019-04-24 17:24+0200\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-11-06 12:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,7 +311,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:291
 #: C/index.docbook:391
-#: C/index.docbook:1461
+#: C/index.docbook:1505
 msgid "<guilabel>File Systems</guilabel>"
 msgstr ""
 
@@ -517,1126 +517,1186 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
-msgid "Unit"
+msgid "Disk Read Total"
 msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
+msgid "Disk Write Total"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:484
+msgid "Disk Read"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:487
+msgid "Disk Write"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:490
+msgid "Unit"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:493
 msgid "Priority"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:484
+#: C/index.docbook:496
 msgid "For information about how to change the columns displayed in the process list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:489
+#: C/index.docbook:501
 msgid "Parent Processes and Child Processes"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:490
+#: C/index.docbook:502
 msgid "A parent process is a process that spawns another process. The spawned process is a child process of the original parent process. By default, <application>System Monitor</application> does not show process dependencies. For information about how to change the default display behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-viewdeps\"/>."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:496
+#: C/index.docbook:508
 msgid "Process Priority and Nice Values"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:497
+#: C/index.docbook:509
 msgid "Processes run in order of priority: high-priority processes run before low-priority processes. Child processes generally inherit their priority from their parent process."
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:500
+#: C/index.docbook:512
 msgid "The priority of a process is set by the nice value of the process, as follows:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:505
+#: C/index.docbook:517
 msgid "A nice value of 0 means that the process has normal priority."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:510
+#: C/index.docbook:522
 msgid "The higher the nice value, the lower the priority."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:515
+#: C/index.docbook:527
 msgid "The lower the nice value, the higher the priority."
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:520
+#: C/index.docbook:532
 msgid "For information about how to change the priority of a process, see <xref linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:528
+#: C/index.docbook:540
 msgid "To Sort the Process List"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:529
+#: C/index.docbook:541
 msgid "To sort the process list, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:534
-#: C/index.docbook:569
-#: C/index.docbook:592
-#: C/index.docbook:615
-#: C/index.docbook:638
-#: C/index.docbook:689
-#: C/index.docbook:862
-#: C/index.docbook:903
-#: C/index.docbook:938
+#: C/index.docbook:546
+#: C/index.docbook:581
+#: C/index.docbook:604
+#: C/index.docbook:627
+#: C/index.docbook:650
+#: C/index.docbook:701
+#: C/index.docbook:874
+#: C/index.docbook:915
+#: C/index.docbook:950
 msgid "Select the <guilabel>Processes</guilabel> tab to display the process list."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:539
+#: C/index.docbook:551
 msgid "By default, the processes are listed by name, in alphabetical order. To list the processes in reverse alphabetical order, click on the <guilabel>Process Name</guilabel> column header."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:544
+#: C/index.docbook:556
 msgid "Click on any column header to sort the processes by the information in that column, in alphabetical or numerical order."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:549
+#: C/index.docbook:561
 msgid "Click again on the column header to sort the data in reverse alphabetical or reverse numerical order."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:557
+#: C/index.docbook:569
 msgid "To Modify the Contents of the Process List"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:558
+#: C/index.docbook:570
 msgid "You can modify the contents of the process list in several ways."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:563
+#: C/index.docbook:575
 msgid "To Show All Processes"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:564
+#: C/index.docbook:576
 msgid "To show all processes in the process list, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:574
+#: C/index.docbook:586
 msgid "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All Processes</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:586
+#: C/index.docbook:598
 msgid "To Show Only Processes Owned by the Current User"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:587
+#: C/index.docbook:599
 msgid "To show only the processes that are owned by the current user, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:597
+#: C/index.docbook:609
 msgid "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My Processes</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:609
+#: C/index.docbook:621
 msgid "To Show Only Active Processes"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:610
+#: C/index.docbook:622
 msgid "To show only the active processes in the process list, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:620
+#: C/index.docbook:632
 msgid "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active Processes</guimenuitem> </menuchoice>."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:632
+#: C/index.docbook:644
 msgid "To Show Dependencies"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:633
+#: C/index.docbook:645
 msgid "To show process dependencies in the process list, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:643
+#: C/index.docbook:655
 msgid "Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:648
+#: C/index.docbook:660
 msgid "If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the processes are listed as follows:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:653
+#: C/index.docbook:665
 msgid "Parent processes are indicated by a triangle symbol to the left of the process name. Click on the triangle symbol to show or hide the associated child processes."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:658
+#: C/index.docbook:670
 msgid "Child processes are indented, and listed with their parent process."
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:663
+#: C/index.docbook:675
 msgid "If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:668
+#: C/index.docbook:680
 msgid "Parent processes and child processes are not distinguishable."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:673
+#: C/index.docbook:685
 msgid "All processes are listed in alphabetical order."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:683
+#: C/index.docbook:695
 msgid "To Display Memory Maps for a Process"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:684
+#: C/index.docbook:696
 msgid "To display memory maps for a process, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:694
+#: C/index.docbook:706
 msgid "Select the process in the process list."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:699
+#: C/index.docbook:711
 msgid "Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory Maps</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>Memory Maps</guimenu></menuchoice>."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:704
+#: C/index.docbook:716
 msgid "The <guilabel>Memory Maps</guilabel> dialog displays the information in tabular format. The name of the process is displayed above the memory-map table. From left to right, the <guilabel>Memory Maps</guilabel> dialog displays the following columns:"
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:709
+#: C/index.docbook:721
 msgid "<guilabel>Filename</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:711
+#: C/index.docbook:723
 msgid "The location of a shared library that is currently used by the process. If this field is blank, the memory information in this row describes memory that is owned by the process whose name is displayed above the memory-map table."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:717
+#: C/index.docbook:729
 msgid "<guilabel>VM Start</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:719
+#: C/index.docbook:731
 msgid "The address at which the memory segment begins."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:725
+#: C/index.docbook:737
 msgid "<guilabel>VM End</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:727
+#: C/index.docbook:739
 msgid "The address at which the memory segment ends."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:733
+#: C/index.docbook:745
 msgid "<guilabel>VM Size</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:735
+#: C/index.docbook:747
 msgid "The size of the memory segment."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:741
+#: C/index.docbook:753
 msgid "<guilabel>Flags</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:743
+#: C/index.docbook:755
 msgid "The following flags describe the different types of memory-segment access that the process can have:"
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:748
+#: C/index.docbook:760
 msgid "p"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:750
+#: C/index.docbook:762
 msgid "The memory segment is private to the process, and is not accessible to other processes."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:756
+#: C/index.docbook:768
 msgid "r"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:758
+#: C/index.docbook:770
 msgid "The process has permission to read from the memory segment."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:764
+#: C/index.docbook:776
 msgid "s"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:766
+#: C/index.docbook:778
 msgid "The memory segment is shared with other processes."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:772
+#: C/index.docbook:784
 msgid "w"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:774
+#: C/index.docbook:786
 msgid "The process has permission to write into the memory segment."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:780
+#: C/index.docbook:792
 msgid "x"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:782
+#: C/index.docbook:794
 msgid "The process has permission to execute instructions that are contained within the memory segment."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:791
+#: C/index.docbook:803
 msgid "<guilabel>VM Offset</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:793
+#: C/index.docbook:805
 msgid "The virtual memory offset of the memory segment."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:799
+#: C/index.docbook:811
 msgid "<guilabel>Private clean</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:801
+#: C/index.docbook:813
 msgid "Unmodified pages since they were mapped that belong only to a specific process."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:807
+#: C/index.docbook:819
 msgid "<guilabel>Private dirty</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:809
+#: C/index.docbook:821
 msgid "Pages that have been modified since they were mapped that belong only to a specific process."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:815
+#: C/index.docbook:827
 msgid "<guilabel>Shared clean</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:817
+#: C/index.docbook:829
 msgid "Unmodified pages that are shared by multiple processes."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:823
+#: C/index.docbook:835
 msgid "<guilabel>Shared dirty</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:825
+#: C/index.docbook:837
 msgid "Modified pages that are shared by multiple processes."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
-#: C/index.docbook:831
-#: C/index.docbook:1493
+#: C/index.docbook:843
+#: C/index.docbook:1537
 msgid "<guilabel>Device</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:833
+#: C/index.docbook:845
 msgid "The major and minor device numbers of the device on which the shared library filename is located."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:839
+#: C/index.docbook:851
 msgid "<guilabel>Inode</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:841
+#: C/index.docbook:853
 msgid "The inode on the device from which the shared library location is loaded into memory."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:847
+#: C/index.docbook:859
 msgid "Click on any column header to sort the data by the information in that column, in alphabetical or numerical order. Click again on the column header to sort the data in reverse alphabetical or reverse numerical order."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:850
+#: C/index.docbook:862
 msgid "Click <guibutton>Close</guibutton> to close the <guilabel>Memory Maps</guilabel> dialog."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:856
+#: C/index.docbook:868
 msgid "To Change the Priority of a Process"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:857
+#: C/index.docbook:869
 msgid "To change the priority of a process, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:867
+#: C/index.docbook:879
 msgid "Select the process for which you want to change the priority."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:872
+#: C/index.docbook:884
 msgid "Select the priority in <menuchoice><guimenu>Edit</guimenu><guimenuitem>Change Priority</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>Change Priority</guimenu></menuchoice>. If the <guimenuitem>Custom</guimenuitem> menu item is selected, the <guilabel>Change Priority</guilabel> dialog is displayed, and continue as follows."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:877
+#: C/index.docbook:889
 msgid "Use the slider to set the nice value of the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:880
+#: C/index.docbook:892
 msgid "The nice value sets the priority of the process: the lower the nice value, the higher the priority."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:883
+#: C/index.docbook:895
 msgid "To specify a nice value lower than zero, non-root users must enter the root password."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:888
+#: C/index.docbook:900
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:897
+#: C/index.docbook:909
 msgid "To End a Process"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:898
+#: C/index.docbook:910
 msgid "To end a process, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:908
+#: C/index.docbook:920
 msgid "Select the process that you want to end."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:913
+#: C/index.docbook:925
 msgid "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End Process</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>End Process</guimenu></menuchoice>, or click on the <guibutton>End Process</guibutton> button."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:916
-#: C/index.docbook:951
+#: C/index.docbook:928
+#: C/index.docbook:963
 msgid "By default, a confirmation alert is displayed. For information about how to display or hide the confirmation alert, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:921
+#: C/index.docbook:933
 msgid "Click on the <guibutton>End Process</guibutton> button to confirm that you want to end the process. <application>System Monitor</application> forces the process to finish normally."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:926
+#: C/index.docbook:938
 msgid "This is the preferred way to stop a process."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:932
+#: C/index.docbook:944
 msgid "To Terminate a Process"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:933
+#: C/index.docbook:945
 msgid "To terminate a process, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:943
+#: C/index.docbook:955
 msgid "Select the process that you want to terminate."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:948
+#: C/index.docbook:960
 msgid "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill Process</guimenuitem></menuchoice>, or perform a right-click and choose <menuchoice><guimenu>Kill Process</guimenu></menuchoice>."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:956
+#: C/index.docbook:968
 msgid "Click on the <guibutton>Kill Process</guibutton> button to confirm that you want to terminate the process. <application>System Monitor</application> forces the process to finish immediately."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:961
+#: C/index.docbook:973
 msgid "You usually terminate a process only if you cannot end the process normally as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:967
+#: C/index.docbook:979
 msgid "To Monitor CPU Usage"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:968
+#: C/index.docbook:980
 msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:971
+#: C/index.docbook:983
 msgid "<application>System Monitor</application> displays the CPU usage history in graphical format. Underneath the graph, <application>System Monitor</application> also displays the current CPU usage, as a percentage."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:978
+#: C/index.docbook:990
 msgid "To Monitor Memory and Swap Usage"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:979
+#: C/index.docbook:991
 msgid "To monitor memory and swap usage, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:982
+#: C/index.docbook:994
 msgid "<application>System Monitor</application> displays the memory usage history and the swap usage history in graphical format. Underneath the graph, <application>System Monitor</application> also displays the following numerical values:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:987
+#: C/index.docbook:999
 msgid "Used memory out of total memory"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:992
+#: C/index.docbook:1004
 msgid "Used swap out of total swap"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1001
+#: C/index.docbook:1013
 msgid "To Monitor Network Activity"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:1002
+#: C/index.docbook:1014
 msgid "To monitor network activity, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:1005
+#: C/index.docbook:1017
 msgid "<application>System Monitor</application> displays the network history in graphical format. Underneath the graph, <application>System Monitor</application> also displays the following numerical values:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1010
+#: C/index.docbook:1022
 msgid "Received data per second and total"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1015
+#: C/index.docbook:1027
 msgid "Sent data per second and total"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1023
+#: C/index.docbook:1035
 msgid "To Monitor File Systems"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:1024
+#: C/index.docbook:1036
 msgid "To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:1027
+#: C/index.docbook:1039
 msgid "<application>System Monitor</application> displays mounted file systems in tabular format. From left to right, the table displays the following columns:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1032
+#: C/index.docbook:1044
 msgid "Device"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1035
+#: C/index.docbook:1047
 msgid "Directory"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1038
+#: C/index.docbook:1050
 msgid "Type"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1041
+#: C/index.docbook:1053
 msgid "Total"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1044
+#: C/index.docbook:1056
 msgid "Free"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1047
+#: C/index.docbook:1059
 msgid "Available"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1050
+#: C/index.docbook:1062
 msgid "Used"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:1053
+#: C/index.docbook:1065
 msgid "For information about how to change the columns displayed in the file systems list, see <xref linkend=\"mate-system-monitor-prefs-fs\"/>."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1059
+#: C/index.docbook:1071
 msgid "To Customize the Resources Tabbed Section"
 msgstr ""
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:1060
+#: C/index.docbook:1072
 msgid "You can customize the <guilabel>Resources</guilabel> tabbed section in the following ways:"
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:1079
+#: C/index.docbook:1091
 msgid "To Change the Line Colors of the CPU Graph"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:1080
+#: C/index.docbook:1092
 msgid "To change the color of the lines that represents CPU usage in the <guilabel>CPU History</guilabel> graph, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1085
-#: C/index.docbook:1114
-#: C/index.docbook:1143
+#: C/index.docbook:1097
+#: C/index.docbook:1126
+#: C/index.docbook:1155
 msgid "Select the <guilabel>Resources</guilabel> tab in the <guilabel>System Monitor</guilabel> window, to display the graphs and table that provide information about the usage of system resources."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1090
+#: C/index.docbook:1102
 msgid "Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1095
-#: C/index.docbook:1124
-#: C/index.docbook:1153
+#: C/index.docbook:1107
+#: C/index.docbook:1136
+#: C/index.docbook:1165
 msgid "Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel or the spin boxes to customize the color."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1100
-#: C/index.docbook:1129
-#: C/index.docbook:1158
+#: C/index.docbook:1112
+#: C/index.docbook:1141
+#: C/index.docbook:1170
 msgid "Click <guibutton>OK</guibutton> to close the <guilabel>Pick a color</guilabel> dialog."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:1108
+#: C/index.docbook:1120
 msgid "To Change the Line Colors of the Memory and Swap Graph"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:1109
+#: C/index.docbook:1121
 msgid "To change the color of the lines that represent memory and swap usage in the <guilabel>Memory and Swap History</guilabel> graph, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1119
+#: C/index.docbook:1131
 msgid "Click on the <guibutton>Memory</guibutton> or <guibutton>Swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:1137
+#: C/index.docbook:1149
 msgid "To Change the Line Colors of the Network Graph"
 msgstr ""
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:1138
+#: C/index.docbook:1150
 msgid "To change the color of the lines that represent network usage in the <guilabel>Network History</guilabel> graph, perform the following steps:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1148
+#: C/index.docbook:1160
 msgid "Click on the <guilabel>Receiving</guilabel> or <guilabel>Sending</guilabel> button. The <guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
 
 #. (itstool) path: sect1/title
-#: C/index.docbook:1170
+#: C/index.docbook:1182
 msgid "Preferences"
 msgstr ""
 
 #. (itstool) path: sect1/para
-#: C/index.docbook:1171
+#: C/index.docbook:1183
 msgid "To configure <application>System Monitor</application>, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the following tabbed sections:"
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1186
+#: C/index.docbook:1198
 msgid "Processes"
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:1189
+#: C/index.docbook:1201
 msgid "<guilabel>Behavior</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1195
-#: C/index.docbook:1436
-#: C/index.docbook:1465
+#: C/index.docbook:1207
+#: C/index.docbook:1480
+#: C/index.docbook:1509
 msgid "<guilabel>Update interval in seconds</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1198
+#: C/index.docbook:1210
 msgid "Use this spin box to specify the interval at which you want to update the process list."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1203
+#: C/index.docbook:1215
 msgid "<guilabel>Enable smooth refresh</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1206
+#: C/index.docbook:1218
 msgid "Select this option to refresh smoothly."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1211
+#: C/index.docbook:1223
 msgid "<guilabel>Alert before ending or killing processes</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1214
+#: C/index.docbook:1226
 msgid "Select this option to display a confirmation alert when you end a process or terminate a process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1219
+#: C/index.docbook:1231
 msgid "<guilabel>Divide CPU usage by CPU count</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1222
+#: C/index.docbook:1234
 msgid "Select this to divide each process' CPU% in the Processes table by the number of CPUs."
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:1230
-#: C/index.docbook:1484
+#: C/index.docbook:1242
+#: C/index.docbook:1528
 msgid "<guilabel>Information Fields</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1234
+#: C/index.docbook:1246
 msgid "Use the following options to select which fields are displayed in the process list:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1239
+#: C/index.docbook:1251
 msgid "<guilabel>Process Name</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1242
+#: C/index.docbook:1254
 msgid "Select this option to display the name of the process. This column may also contain an icon to indicate the application that is associated with the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1247
+#: C/index.docbook:1259
 msgid "<guilabel>User</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1250
+#: C/index.docbook:1262
 msgid "Select this option to display the name of the user who owns the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1255
+#: C/index.docbook:1267
 msgid "<guilabel>Status</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1258
+#: C/index.docbook:1270
 msgid "Select this option to display the current status of the process: sleeping or running."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1263
+#: C/index.docbook:1275
 msgid "<guilabel>Virtual Memory</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1266
+#: C/index.docbook:1278
 msgid "Select this option to display the amount of virtual memory that is allocated to the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1271
+#: C/index.docbook:1283
 msgid "<guilabel>Resident Memory</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1274
+#: C/index.docbook:1286
 msgid "Select this option to display the amount of physical memory that is allocated to the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1279
+#: C/index.docbook:1291
 msgid "<guilabel>Writable Memory</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1282
+#: C/index.docbook:1294
 msgid "Select this option to display the amount of memory that can be written by the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1287
+#: C/index.docbook:1299
 msgid "<guilabel>Shared Memory</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1290
+#: C/index.docbook:1302
 msgid "Select this option to display the amount of shared memory that is allocated to the process. Shared memory is memory that can be accessed by another process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1295
+#: C/index.docbook:1307
 msgid "<guilabel>X Server Memory</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1298
+#: C/index.docbook:1310
 msgid "Select this option to display the amount of X server memory that is used by the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1303
+#: C/index.docbook:1315
 msgid "<guilabel>% CPU</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1306
+#: C/index.docbook:1318
 msgid "Select this option to display the percentage of CPU time currently being used by the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1311
+#: C/index.docbook:1323
 msgid "<guilabel>CPU Time</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1314
+#: C/index.docbook:1326
 msgid "Select this option to display the amount of CPU time that has been used by the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1319
+#: C/index.docbook:1331
 msgid "<guilabel>Started</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1322
+#: C/index.docbook:1334
 msgid "Select this option to display when the process began running."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1327
+#: C/index.docbook:1339
 msgid "<guilabel>Nice</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1330
+#: C/index.docbook:1342
 msgid "Select this option to display the nice value of the process. The nice value sets the priority of the process: the lower the nice value, the higher the priority."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1335
+#: C/index.docbook:1347
 msgid "<guilabel>ID</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1338
+#: C/index.docbook:1350
 msgid "Select this option to display the process identifier, also known as the pid. The pid is a number that uniquely identifies the process. You can use the pid to manipulate the process on the command line."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1343
+#: C/index.docbook:1355
 msgid "<guilabel>Memory</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1346
+#: C/index.docbook:1358
 msgid "Select this option to display the amount of system memory that is currently being used by the process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1351
+#: C/index.docbook:1363
 msgid "<guilabel>Security Context</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1354
+#: C/index.docbook:1366
 msgid "Select this option to display the security context in which the process is running."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1359
+#: C/index.docbook:1371
 msgid "<guilabel>Command Line</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1362
+#: C/index.docbook:1374
 msgid "Select this option to display the command line that was used to start the process, including arguments."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1367
+#: C/index.docbook:1379
 msgid "<guilabel>Waiting Channel</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1370
+#: C/index.docbook:1382
 msgid "Select this option to display the waiting channel, whereby a process waits for a resource."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1375
+#: C/index.docbook:1387
 msgid "<guilabel>Control Group</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1378
+#: C/index.docbook:1390
 msgid "Select this option to display the control group that a process belongs to."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1383
+#: C/index.docbook:1395
+msgid "<guilabel>Disk Read Total</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1398
+msgid "Select this option to display the total amount of data read from the disk by a process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1403
+msgid "<guilabel>Disk Write Total</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1406
+msgid "Select this option to display the total amount of data written to the disk by a process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1411
+msgid "<guilabel>Disk Read</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1414
+msgid "Select this option to display the speed at which data is being read from the disk by a process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1419
+msgid "<guilabel>Disk Write</guilabel>"
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1422
+msgid "Select this option to display the speed at which data is being written to the disk by a process."
+msgstr ""
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1427
 msgid "<guilabel>Unit</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1386
+#: C/index.docbook:1430
 msgid "Select this option to display the systemd unit for a process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1391
+#: C/index.docbook:1435
 msgid "<guilabel>Session</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1394
+#: C/index.docbook:1438
 msgid "Select this option to display the session under which the process is running."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1399
+#: C/index.docbook:1443
 msgid "<guilabel>Seat</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1402
+#: C/index.docbook:1446
 msgid "Select this option to display the \"seat\" a process is assigned to. The special default seat called \"seat0\" always exists."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1407
+#: C/index.docbook:1451
 msgid "<guilabel>Owner</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1410
+#: C/index.docbook:1454
 msgid "Select this option to display the owner of a process."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1415
+#: C/index.docbook:1459
 msgid "<guilabel>Priority</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1418
+#: C/index.docbook:1462
 msgid "Select this option to display the priority of a process- how much CPU it is allowed to use. A process running with higher priority can use more of the CPU compared to the one with a lower priority."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1429
+#: C/index.docbook:1473
 msgid "Resources"
 msgstr ""
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:1432
+#: C/index.docbook:1476
 msgid "<guilabel>Graphs</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1439
+#: C/index.docbook:1483
 msgid "Use this spin box to specify how often you want to update the <application>System Monitor</application> graphs."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1444
+#: C/index.docbook:1488
 msgid "<guilabel>Show network speed in bits</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1447
+#: C/index.docbook:1491
 msgid "Select this option to show your network speed in bits/s instead of the default bytes/s."
 msgstr ""
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1458
+#: C/index.docbook:1502
 msgid "File Systems"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1468
+#: C/index.docbook:1512
 msgid "Use this spin box to specify how often you want to update the <guilabel>File Systems</guilabel> table."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1473
+#: C/index.docbook:1517
 msgid "<guilabel>Show all file systems</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1476
+#: C/index.docbook:1520
 msgid "Select this option to show all file systems, including temporary and system ones."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1488
+#: C/index.docbook:1532
 msgid "Use the following options to select which fields are displayed in the file system list:"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1496
+#: C/index.docbook:1540
 msgid "Select this option to display the location of the block file for the device."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1501
+#: C/index.docbook:1545
 msgid "<guilabel>Directory</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1504
+#: C/index.docbook:1548
 msgid "Select this option to display the mount point (directory to access) of a device."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1509
+#: C/index.docbook:1553
 msgid "<guilabel>Type</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1512
+#: C/index.docbook:1556
 msgid "Select this option to display the file system type. In most distributions of GNU/Linux and other Unix-like operating systems, there are numerous file system types which are supported by the kernel, like NTFS, FAT32, ext4, ext3 ext2 etc. The file system type will be shown if this option is selected in case it's a supported type."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1517
+#: C/index.docbook:1561
 msgid "<guilabel>Total</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1520
+#: C/index.docbook:1564
 msgid "Select this option to display the total capacity of a file system."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1525
+#: C/index.docbook:1569
 msgid "<guilabel>Free</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1528
+#: C/index.docbook:1572
 msgid "Select this option to display the amount of space not used by the file system."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1533
+#: C/index.docbook:1577
 msgid "<guilabel>Available</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1536
+#: C/index.docbook:1580
 msgid "Select this option to display the amount of space left for use."
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1541
+#: C/index.docbook:1585
 msgid "<guilabel>Used</guilabel>"
 msgstr ""
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1544
+#: C/index.docbook:1588
 msgid "Select this option to display the amount of used space."
 msgstr ""
 

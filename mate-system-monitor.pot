@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2019-11-06 12:13+0100\n"
+"POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,7 @@ msgstr ""
 msgid ""
 "Copyright © 2001-2004 Kevin Vandersloot\n"
 "Copyright © 2005-2007 Benoît Dejean\n"
-"Copyright © 2011-2019 MATE developers"
+"Copyright © 2011-2020 MATE developers"
 msgstr ""
 
 #: src/callbacks.cpp:214
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Directory"
 msgstr ""
 
-#: src/disks.cpp:347 src/gsm_color_button.c:182 src/openfiles.cpp:252
+#: src/disks.cpp:347 src/gsm_color_button.c:179 src/openfiles.cpp:252
 msgid "Type"
 msgstr ""
 
@@ -156,44 +156,44 @@ msgstr ""
 msgid "Used"
 msgstr ""
 
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr ""
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled percentage property
-#: src/gsm_color_button.c:160
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr ""
 
-#: src/gsm_color_button.c:167
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr ""
 
-#: src/gsm_color_button.c:168
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr ""
 
-#: src/gsm_color_button.c:169 src/gsm_color_button.c:593
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:590
 msgid "Pick a Color"
 msgstr ""
 
-#: src/gsm_color_button.c:175
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr ""
 
-#: src/gsm_color_button.c:176
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr ""
 
-#: src/gsm_color_button.c:183
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr ""
 
-#: src/gsm_color_button.c:507
+#: src/gsm_color_button.c:504
 msgid "Received invalid color data\n"
 msgstr ""
 
-#: src/gsm_color_button.c:616
+#: src/gsm_color_button.c:613
 msgid "Click to set graph colors"
 msgstr ""
 

@@ -206,7 +206,7 @@ cb_about (GtkAction *action, gpointer data)
         "comments",           _("View current processes and monitor system state"),
         "copyright",          _("Copyright \xc2\xa9 2001-2004 Kevin Vandersloot\n"
                                 "Copyright \xc2\xa9 2005-2007 Benoît Dejean\n"
-                                "Copyright \xc2\xa9 2011-2019 MATE developers"),
+                                "Copyright \xc2\xa9 2011-2020 MATE developers"),
         "logo-icon-name",     "utilities-system-monitor",
         "authors",            authors,
         "artists",            artists,

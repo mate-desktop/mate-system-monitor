@@ -74,8 +74,8 @@ gsettings_ENUM_FILES = $(top_srcdir)/src/*.h
 
 gsettingsschema_in_files = org.mate.system-monitor.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
-
-@GSETTINGS_RULES@
+$(gsettings_SCHEMAS): $(gsettingsschema_in_files)
+	$(AM_V_GEN) $(MSGFMT) --xml  --template $< -d $(top_srcdir)/po -o $@
 
 dist_noinst_DATA = \
 	$(gsettings_in_file)

@@ -285,11 +285,11 @@
     </key>
     <key name="col-8-width" type="i">
       <default>0</default>
-      <summary>Width of process '% CPU' column</summary>
+      <summary>Width of process '%% CPU' column</summary>
     </key>
     <key name="col-8-visible" type="b">
       <default>true</default>
-      <summary>Show process '% CPU' column on startup</summary>
+      <summary>Show process '%% CPU' column on startup</summary>
     </key>
     <key name="col-9-width" type="i">
       <default>50</default>

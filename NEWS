@@ -1,6 +1,27 @@
+### mate-system-monitor 1.23.1
+
+  * Translations update
+  * Update copyright to 2020
+  * gsm_color_button: avoid redundant redeclarations
+  * Add translator notes for desktop file
+  * migrate from intltool to gettext
+  * Use MATE_DEBUG_CHECK for setting compiler debug flags
+  * Use MATE_COMPILE_WARNINGS and MATE_CXX_WARNINGS macros
+  * require GLib >= 2.56.0
+  * Render icons as cairo surfaces for HiDPI support
+  * Change url project's website
+  * proctable: cppcheck: Local variable 'column' shadows outer variable
+  * add disk I/O info on usage and prefs section
+  * Make SysInfo::get_os_type a static function
+  * msm_execute_helper: fix memory leak
+  * sysinfo: Condition 'markup' is always false
+  * procman: Use G_VARIANT_TYPE ("ai") instead of G_VARIANT_TYPE_ARRAY
+  * smooth_refresh: Assigned value is garbage or undefined
+  * Add disk IO on process info
+
 ### mate-system-monitor 1.23.0
 
-  * tx: sync with transifex
+  * Translations update
   * Network History: Fix labels
   * Show GPU info on the System tab
   * Use g_format_size or g_format_size_full

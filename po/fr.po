@@ -1,26 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-system-monitor package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Xorg, 2018
 # jeremy shields <jeremy.shields@orange.fr>, 2018
 # mauron, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Tubuntu <tubuntu@testimonium.be>, 2018
 # clefebvre <clement.lefebvre@linuxmint.com>, 2018
 # Charles Monzat <c.monzat@laposte.net>, 2018
 # Louis-Martin Carrière <louismc@gmail.com>, 2018
 # Étienne Deparis <etienne@depar.is>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Benjamin Teissier <enatheme@enatheme.org>, 2019
 # David D, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-16 10:44+0100\n"
+"Project-Id-Version: mate-system-monitor 1.23.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
 "Last-Translator: David D, 2019\n"
 "Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
@@ -30,84 +30,98 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../mate-system-monitor.appdata.xml.in.h:1
-msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Un moniteur de processus et ressources pour le bureau MATE"
-
-#: ../mate-system-monitor.appdata.xml.in.h:2
-msgid ""
-"<p> MATE System Monitor allows to graphically view and manipulate the "
-"running processes on your system. It also provides an overview of available "
-"resources, such as CPU and memory. </p> <p> MATE System Monitor is a fork of"
-" GNOME System Monitor and part of the MATE Desktop Environment. If you would"
-" like to know more about MATE and System Monitor, please visit the project's"
-" home page. </p>"
-msgstr ""
-"<p>Le Moniteur système MATE permet d'afficher et de manipuler graphiquement "
-"des processus en cours du système. Il fournit aussi un aperçu des ressources"
-" disponibles, tels le CPU et la mémoire</p><p>Le Moniteur système MATE est "
-"un fork du Moniteur système GNOME et fait partie de l'environnement de "
-"bureau MATE. Si vous désirez en savoir plus au sujet de MATE et du Moniteur "
-"système, veuillez visiter les pages du projet.</p>"
-
-#: ../mate-system-monitor.desktop.in.in.h:1
+#: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
 msgstr "Moniteur système MATE"
 
-#: ../mate-system-monitor.desktop.in.in.h:2 ../src/callbacks.cpp:203
-#: ../src/interface.cpp:625 ../src/procman.cpp:713
+#: mate-system-monitor.appdata.xml.in:8
+msgid "A Process and resource monitor for MATE Desktop"
+msgstr "Un moniteur de processus et ressources pour le bureau MATE"
+
+#: mate-system-monitor.appdata.xml.in:10
+msgid ""
+"MATE System Monitor allows to graphically view and manipulate the running "
+"processes on your system. It also provides an overview of available "
+"resources, such as CPU and memory."
+msgstr ""
+
+#: mate-system-monitor.appdata.xml.in:15
+msgid ""
+"MATE System Monitor is a fork of GNOME System Monitor and part of the MATE "
+"Desktop Environment. If you would like to know more about MATE and System "
+"Monitor, please visit the project's home page."
+msgstr ""
+
+#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
+#: src/interface.cpp:625 src/procman.cpp:713
 msgid "System Monitor"
 msgstr "Moniteur système"
 
-#: ../mate-system-monitor.desktop.in.in.h:3 ../src/callbacks.cpp:205
+#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:206
 msgid "View current processes and monitor system state"
 msgstr "Afficher les processus en cours et surveiller l'état du système"
 
-#: ../org.mate.mate-system-monitor.policy.in.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
+#: mate-system-monitor.desktop.in.in:9
+msgid "utilities-system-monitor"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: mate-system-monitor.desktop.in.in:15
+msgid "MATE;system;monitor;process;list;view;current;resources;"
+msgstr ""
+
+#: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
 msgstr "Tuer le processus"
 
-#: ../org.mate.mate-system-monitor.policy.in.in.h:2
+#: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
 msgstr ""
 "Des permissions supplémentaires sont nécessaires pour gérer les processus "
 "des autres utilisateurs"
 
-#: ../org.mate.mate-system-monitor.policy.in.in.h:3
+#: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
 msgstr "Changer la priorité du processus"
 
-#: ../org.mate.mate-system-monitor.policy.in.in.h:4
+#: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
 msgstr ""
 "Des permissions supplémentaires sont nécessaires pour modifier la priorité "
 "des processus"
 
-#: ../src/argv.cpp:21
+#: src/argv.cpp:21
 msgid "Show the System tab"
 msgstr "Afficher l'onglet Système"
 
-#: ../src/argv.cpp:26
+#: src/argv.cpp:26
 msgid "Show the Processes tab"
 msgstr "Afficher l'onglet Processus"
 
-#: ../src/argv.cpp:31
+#: src/argv.cpp:31
 msgid "Show the Resources tab"
 msgstr "Afficher l'onglet Ressources"
 
-#: ../src/argv.cpp:36
+#: src/argv.cpp:36
 msgid "Show the File Systems tab"
 msgstr "Afficher l'onglet Systèmes de fichiers"
 
-#: ../src/callbacks.cpp:185
+#: src/callbacks.cpp:185
 msgid ""
 "System Monitor is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Moniteur Système est un logiciel libre ; vous pouvez le redistribuer et/ou "
+"le modifier selon les termes de la Licence Publique Générale GNU, telle que "
+"publiée par la Free Software Foundation ; version 2 de la licence, ou (à "
+"votre discrétion) toute version ultérieure."
 
-#: ../src/callbacks.cpp:189
+#: src/callbacks.cpp:189
 msgid ""
 "System Monitor is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -115,25 +129,25 @@ msgid ""
 " more details."
 msgstr ""
 
-#: ../src/callbacks.cpp:193
+#: src/callbacks.cpp:193
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
 
-#: ../src/callbacks.cpp:204
+#: src/callbacks.cpp:205
 msgid "About System Monitor"
 msgstr "À propos de Moniteur système"
 
-#: ../src/callbacks.cpp:207
+#: src/callbacks.cpp:207
 msgid ""
 "Copyright © 2001-2004 Kevin Vandersloot\n"
 "Copyright © 2005-2007 Benoît Dejean\n"
-"Copyright © 2011-2019 MATE developers"
+"Copyright © 2011-2020 MATE developers"
 msgstr ""
 
-#: ../src/callbacks.cpp:214
+#: src/callbacks.cpp:214
 msgid "translator-credits"
 msgstr ""
 "Contributeurs au projet MATE :\n"
@@ -151,560 +165,538 @@ msgstr ""
 "Claude Paroz <claude@2xlibre.net>, 2008-2010.\n"
 "Gérard Baylard <gerard dot b at bbox dot fr>, 2010"
 
-#: ../src/disks.cpp:338 ../src/memmaps.cpp:327
+#: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Périphérique"
 
-#: ../src/disks.cpp:339
+#: src/disks.cpp:346
 msgid "Directory"
 msgstr "Répertoire"
 
-#: ../src/disks.cpp:340 ../src/gsm_color_button.c:182 ../src/openfiles.cpp:252
+#: src/disks.cpp:347 src/gsm_color_button.c:179 src/openfiles.cpp:252
 msgid "Type"
 msgstr "Type"
 
-#: ../src/disks.cpp:341
+#: src/disks.cpp:348
 msgid "Total"
 msgstr "Total"
 
-#: ../src/disks.cpp:342
+#: src/disks.cpp:349
 msgid "Free"
 msgstr "Libre"
 
-#: ../src/disks.cpp:343
+#: src/disks.cpp:350
 msgid "Available"
 msgstr "Disponible"
 
-#: ../src/disks.cpp:344
+#: src/disks.cpp:351
 msgid "Used"
 msgstr "Utilisé"
 
-#. xgettext: ? stands for unknown
-#: ../src/e_date.c:155
-msgid "?"
-msgstr "?"
-
-#: ../src/e_date.c:162
-msgid "Today %l:%M %p"
-msgstr "Aujourd'hui %H:%M"
-
-#: ../src/e_date.c:171
-msgid "Yesterday %l:%M %p"
-msgstr "Hier %H:%M"
-
-#: ../src/e_date.c:183
-msgid "%a %l:%M %p"
-msgstr "%a %H:%M"
-
-#: ../src/e_date.c:191
-msgid "%b %d %l:%M %p"
-msgstr "%d %b %H:%M"
-
-#: ../src/e_date.c:193
-msgid "%b %d %Y"
-msgstr "%d %b %Y"
-
-#: ../src/gsm_color_button.c:158
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "Fraction"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: ../src/gsm_color_button.c:160
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "Taux de remplissage du camembert du sélecteur de couleur"
 
-#: ../src/gsm_color_button.c:167
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "Titre"
 
-#: ../src/gsm_color_button.c:168
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "Le titre pour le dialogue de sélection de couleur"
 
-#: ../src/gsm_color_button.c:169 ../src/gsm_color_button.c:593
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:590
 msgid "Pick a Color"
 msgstr "Choisir une couleur"
 
-#: ../src/gsm_color_button.c:175
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr "Couleur actuelle"
 
-#: ../src/gsm_color_button.c:176
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr "La couleur sélectionnée"
 
-#: ../src/gsm_color_button.c:183
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr "Type du sélecteur de couleur"
 
-#: ../src/gsm_color_button.c:507
+#: src/gsm_color_button.c:504
 msgid "Received invalid color data\n"
 msgstr "Donnée de couleur reçue non valable\n"
 
-#: ../src/gsm_color_button.c:616
+#: src/gsm_color_button.c:613
 msgid "Click to set graph colors"
 msgstr "Cliquez pour définir les couleurs du graphique"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
-#: ../src/interface.cpp:51
+#: src/interface.cpp:51
 msgid "_Monitor"
 msgstr "_Moniteur"
 
-#: ../src/interface.cpp:52
+#: src/interface.cpp:52
 msgid "_Edit"
 msgstr "_Editer"
 
-#: ../src/interface.cpp:53
+#: src/interface.cpp:53
 msgid "_View"
 msgstr "_Affichage"
 
-#: ../src/interface.cpp:54
+#: src/interface.cpp:54
 msgid "_Help"
 msgstr "_Aide"
 
-#: ../src/interface.cpp:56
+#: src/interface.cpp:56
 msgid "Search for _Open Files"
 msgstr "Rechercher des fichiers _ouverts"
 
-#: ../src/interface.cpp:57
+#: src/interface.cpp:57
 msgid "Search for open files"
 msgstr "Rechercher des fichiers ouverts"
 
-#: ../src/interface.cpp:58
+#: src/interface.cpp:58
 msgid "_Quit"
 msgstr "_Quitter"
 
-#: ../src/interface.cpp:59
+#: src/interface.cpp:59
 msgid "Quit the program"
 msgstr "Quitte le programme"
 
-#: ../src/interface.cpp:62
+#: src/interface.cpp:62
 msgid "_Stop Process"
 msgstr "_Stopper le processus"
 
-#: ../src/interface.cpp:63
+#: src/interface.cpp:63
 msgid "Stop process"
 msgstr "Stoppe le processus"
 
-#: ../src/interface.cpp:64
+#: src/interface.cpp:64
 msgid "_Continue Process"
 msgstr "_Continuer le processus"
 
-#: ../src/interface.cpp:65
+#: src/interface.cpp:65
 msgid "Continue process if stopped"
 msgstr "Continue le processus s'il a été stoppé"
 
-#: ../src/interface.cpp:67 ../src/procdialogs.cpp:91
+#: src/interface.cpp:67 src/procdialogs.cpp:91
 msgid "_End Process"
 msgstr "_Terminer le processus"
 
-#: ../src/interface.cpp:68
+#: src/interface.cpp:68
 msgid "Force process to finish normally"
 msgstr "Force un processus à terminer"
 
-#: ../src/interface.cpp:69 ../src/procdialogs.cpp:80
+#: src/interface.cpp:69 src/procdialogs.cpp:80
 msgid "_Kill Process"
 msgstr "T_uer le processus"
 
-#: ../src/interface.cpp:70
+#: src/interface.cpp:70
 msgid "Force process to finish immediately"
 msgstr "Force un processus à terminer immédiatement"
 
-#: ../src/interface.cpp:71
+#: src/interface.cpp:71
 msgid "_Change Priority"
 msgstr "_Changer la priorité"
 
-#: ../src/interface.cpp:72
+#: src/interface.cpp:72
 msgid "Change the order of priority of process"
 msgstr "Modifie la priorité d'un processus"
 
-#: ../src/interface.cpp:73
+#: src/interface.cpp:73
 msgid "_Preferences"
 msgstr "_Préférences"
 
-#: ../src/interface.cpp:74
+#: src/interface.cpp:74
 msgid "Configure the application"
 msgstr "Configure l'application"
 
-#: ../src/interface.cpp:76
+#: src/interface.cpp:76
 msgid "_Refresh"
 msgstr "A_ctualiser"
 
-#: ../src/interface.cpp:77
+#: src/interface.cpp:77
 msgid "Refresh the process list"
 msgstr "Actualise la liste des processus"
 
-#: ../src/interface.cpp:79
+#: src/interface.cpp:79
 msgid "_Memory Maps"
 msgstr "Car_tes de la mémoire"
 
-#: ../src/interface.cpp:80
+#: src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
 msgstr "Affiche les cartes de la mémoire associées à un processus"
 
 #. Translators: this means 'Files that are open' (open is no verb here
-#: ../src/interface.cpp:82
+#: src/interface.cpp:82
 msgid "Open _Files"
 msgstr "Fichiers _ouverts"
 
-#: ../src/interface.cpp:83
+#: src/interface.cpp:83
 msgid "View the files opened by a process"
 msgstr "Affiche les fichiers ouverts par un processus"
 
-#: ../src/interface.cpp:84
+#: src/interface.cpp:84
 msgid "_Properties"
 msgstr "_Propriétés"
 
-#: ../src/interface.cpp:85
+#: src/interface.cpp:85
 msgid "View additional information about a process"
 msgstr "Visualiser les informations supplémentaires concernant un processus"
 
-#: ../src/interface.cpp:88
+#: src/interface.cpp:88
 msgid "_Contents"
 msgstr "_Sommaire"
 
-#: ../src/interface.cpp:89
+#: src/interface.cpp:89
 msgid "Open the manual"
 msgstr "Ouvre le manuel"
 
-#: ../src/interface.cpp:90
+#: src/interface.cpp:90
 msgid "_About"
 msgstr "_À propos"
 
-#: ../src/interface.cpp:91
+#: src/interface.cpp:91
 msgid "About this application"
 msgstr "À propos de cette application"
 
-#: ../src/interface.cpp:96
+#: src/interface.cpp:96
 msgid "_Dependencies"
 msgstr "_Dépendances"
 
-#: ../src/interface.cpp:97
+#: src/interface.cpp:97
 msgid "Show parent/child relationship between processes"
 msgstr "Affiche les relations père/fils entre les processus"
 
-#: ../src/interface.cpp:104
+#: src/interface.cpp:104
 msgid "_Active Processes"
 msgstr "Processus _actifs"
 
-#: ../src/interface.cpp:105
+#: src/interface.cpp:105
 msgid "Show active processes"
 msgstr "Affiche les processus actifs"
 
-#: ../src/interface.cpp:106
+#: src/interface.cpp:106
 msgid "A_ll Processes"
 msgstr "_Tous les processus"
 
-#: ../src/interface.cpp:107
+#: src/interface.cpp:107
 msgid "Show all processes"
 msgstr "Affiche tous les processus"
 
-#: ../src/interface.cpp:108
+#: src/interface.cpp:108
 msgid "M_y Processes"
 msgstr "_Mes processus"
 
-#: ../src/interface.cpp:109
+#: src/interface.cpp:109
 msgid "Show only user-owned processes"
 msgstr "N'afficher que les processus appartenant à l'utilisateur"
 
-#: ../src/interface.cpp:114 ../src/util.cpp:217
+#: src/interface.cpp:114 src/util.cpp:167
 msgid "Very High"
 msgstr "Très haute"
 
-#: ../src/interface.cpp:115
+#: src/interface.cpp:115
 msgid "Set process priority to very high"
 msgstr "Fixer la priorité du processus à très haute"
 
-#: ../src/interface.cpp:116 ../src/util.cpp:219
+#: src/interface.cpp:116 src/util.cpp:169
 msgid "High"
 msgstr "Élevée"
 
-#: ../src/interface.cpp:117
+#: src/interface.cpp:117
 msgid "Set process priority to high"
 msgstr "Fixer la priorité du processus à élevée"
 
-#: ../src/interface.cpp:118 ../src/util.cpp:221
+#: src/interface.cpp:118 src/util.cpp:171
 msgid "Normal"
 msgstr "Normale"
 
-#: ../src/interface.cpp:119
+#: src/interface.cpp:119
 msgid "Set process priority to normal"
 msgstr "Fixer la priorité du processus à normale"
 
-#: ../src/interface.cpp:120 ../src/util.cpp:223
+#: src/interface.cpp:120 src/util.cpp:173
 msgid "Low"
 msgstr "Basse"
 
-#: ../src/interface.cpp:121
+#: src/interface.cpp:121
 msgid "Set process priority to low"
 msgstr "Fixer la priorité du processus à basse"
 
-#: ../src/interface.cpp:122 ../src/util.cpp:225
+#: src/interface.cpp:122 src/util.cpp:175
 msgid "Very Low"
 msgstr "Très basse"
 
-#: ../src/interface.cpp:123
+#: src/interface.cpp:123
 msgid "Set process priority to very low"
 msgstr "Fixer la priorité du processus à très basse"
 
-#: ../src/interface.cpp:124
+#: src/interface.cpp:124
 msgid "Custom"
 msgstr "Personnalisée"
 
-#: ../src/interface.cpp:125
+#: src/interface.cpp:125
 msgid "Set process priority manually"
 msgstr "Fixer la priorité du processus manuellement"
 
-#: ../src/interface.cpp:231
+#: src/interface.cpp:231
 msgid "End _Process"
 msgstr "_Terminer le processus"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: ../src/interface.cpp:279
+#: src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Choisissez une couleur pour '%s'"
 
-#: ../src/interface.cpp:290
+#: src/interface.cpp:290
 msgid "CPU History"
 msgstr "Historique d'utilisation du CPU"
 
-#: ../src/interface.cpp:333 ../src/procproperties.cpp:125
+#: src/interface.cpp:333 src/procproperties.cpp:135
 msgid "CPU"
 msgstr "µP"
 
-#: ../src/interface.cpp:335
+#: src/interface.cpp:335
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: ../src/interface.cpp:357
+#: src/interface.cpp:357
 msgid "Memory and Swap History"
 msgstr ""
 "Historique d'utilisation de la mémoire physique et du fichier d'échange"
 
-#: ../src/interface.cpp:391 ../src/proctable.cpp:256
-#: ../src/procproperties.cpp:119
+#: src/interface.cpp:391 src/proctable.cpp:257 src/procproperties.cpp:127
 msgid "Memory"
 msgstr "Mémoire"
 
-#: ../src/interface.cpp:415
+#: src/interface.cpp:415
 msgid "Swap"
 msgstr "Swap"
 
-#: ../src/interface.cpp:439
+#: src/interface.cpp:439
 msgid "Network History"
 msgstr "Historique du trafic réseau"
 
-#: ../src/interface.cpp:472
+#: src/interface.cpp:472
 msgid "Receiving"
 msgstr "Réception"
 
-#: ../src/interface.cpp:494
+#: src/interface.cpp:494
 msgid "Total Received"
 msgstr "Total reçu"
 
-#: ../src/interface.cpp:513
+#: src/interface.cpp:513
 msgid "Sending"
 msgstr "Envoi"
 
-#: ../src/interface.cpp:535
+#: src/interface.cpp:535
 msgid "Total Sent"
 msgstr "Total envoyé"
 
 #. procman_create_sysinfo_view();
-#: ../src/interface.cpp:705
+#: src/interface.cpp:705
 msgid "System"
 msgstr "Système"
 
-#: ../src/interface.cpp:709 ../src/procdialogs.cpp:554
+#: src/interface.cpp:709 src/procdialogs.cpp:554
 msgid "Processes"
 msgstr "Processus"
 
-#: ../src/interface.cpp:713 ../src/procdialogs.cpp:667
+#: src/interface.cpp:713 src/procdialogs.cpp:667
 msgid "Resources"
 msgstr "Ressources"
 
-#: ../src/interface.cpp:717 ../src/procdialogs.cpp:732
-#: ../src/procdialogs.cpp:736
+#: src/interface.cpp:717 src/procdialogs.cpp:732 src/procdialogs.cpp:736
 msgid "File Systems"
 msgstr "Systèmes de fichiers"
 
-#: ../src/load-graph.cpp:176
+#: src/load-graph.cpp:176
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] "%u seconde"
 msgstr[1] "%u secondes"
 
-#: ../src/load-graph.cpp:350
+#: src/load-graph.cpp:349
 msgid "not available"
 msgstr "non disponible"
 
 #. xgettext: 540MiB (53 %) of 1.0 GiB
-#: ../src/load-graph.cpp:353
+#: src/load-graph.cpp:352
 #, c-format
 msgid "%s (%.1f%%) of %s"
 msgstr "%s (%.1f%%) de %s"
 
-#: ../src/lsof.cpp:123
+#: src/load-graph.cpp:592 src/load-graph.cpp:599 src/util.cpp:485
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: src/lsof.cpp:123
 msgid "Error"
 msgstr "Erreur"
 
-#: ../src/lsof.cpp:124
+#: src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
 msgstr "'%s' n'est pas une expression régulière valide en Perl."
 
-#: ../src/lsof.cpp:270
+#: src/lsof.cpp:270
 msgid "Process"
 msgstr "Processus"
 
-#: ../src/lsof.cpp:282
+#: src/lsof.cpp:282
 msgid "PID"
 msgstr "PID"
 
-#: ../src/lsof.cpp:292 ../src/memmaps.cpp:305
+#: src/lsof.cpp:292 src/memmaps.cpp:305
 msgid "Filename"
 msgstr "Nom de fichier"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
-#: ../src/lsof.cpp:309
+#: src/lsof.cpp:309
 msgid "Search for Open Files"
 msgstr "Rechercher des fichiers ouverts"
 
-#: ../src/lsof.cpp:336
+#: src/lsof.cpp:336
 msgid "_Name contains:"
 msgstr "Le _nom contient :"
 
 #. The default accelerator collides with the default close accelerator.
-#: ../src/lsof.cpp:357
+#: src/lsof.cpp:357
 msgid "C_lear"
 msgstr "_Vider"
 
-#: ../src/lsof.cpp:361
+#: src/lsof.cpp:361
 msgid "Case insensitive matching"
 msgstr "Ne pas respecter la casse"
 
-#: ../src/lsof.cpp:369
+#: src/lsof.cpp:369
 msgid "S_earch results:"
 msgstr "Résultats de la recherche :"
 
 #. xgettext: virtual memory start
-#: ../src/memmaps.cpp:307
+#: src/memmaps.cpp:307
 msgid "VM Start"
 msgstr "Début VM"
 
 #. xgettext: virtual memory end
-#: ../src/memmaps.cpp:309
+#: src/memmaps.cpp:309
 msgid "VM End"
 msgstr "Fin VM"
 
 #. xgettext: virtual memory syze
-#: ../src/memmaps.cpp:311
+#: src/memmaps.cpp:311
 msgid "VM Size"
 msgstr "Taille VM"
 
-#: ../src/memmaps.cpp:312
+#: src/memmaps.cpp:312
 msgid "Flags"
 msgstr "Attributs"
 
 #. xgettext: virtual memory offset
-#: ../src/memmaps.cpp:314
+#: src/memmaps.cpp:314
 msgid "VM Offset"
 msgstr "Décalage VM"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
-#: ../src/memmaps.cpp:317
+#: src/memmaps.cpp:317
 msgid "Private clean"
 msgstr "Mém. privée propre"
 
 #. xgettext: memory that has been modified since it
 #. has been allocated
-#: ../src/memmaps.cpp:320
+#: src/memmaps.cpp:320
 msgid "Private dirty"
 msgstr "Mém. privée modifiée"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:323
+#: src/memmaps.cpp:323
 msgid "Shared clean"
 msgstr "Mém. partagée propre"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
-#: ../src/memmaps.cpp:326
+#: src/memmaps.cpp:326
 msgid "Shared dirty"
 msgstr "Mém. partagée modifiée"
 
-#: ../src/memmaps.cpp:328
+#: src/memmaps.cpp:328
 msgid "Inode"
 msgstr "Inœud"
 
-#: ../src/memmaps.cpp:432
+#: src/memmaps.cpp:432
 msgid "Memory Maps"
 msgstr "Cartes de la mémoire"
 
-#: ../src/memmaps.cpp:444
+#: src/memmaps.cpp:444
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
 msgstr "Cartes de la _mémoire du processus « %s » (PID %u) :"
 
-#: ../src/openfiles.cpp:38
+#: src/openfiles.cpp:38
 msgid "file"
 msgstr "fichier"
 
-#: ../src/openfiles.cpp:40
+#: src/openfiles.cpp:40
 msgid "pipe"
 msgstr "tube"
 
-#: ../src/openfiles.cpp:42
+#: src/openfiles.cpp:42
 msgid "IPv6 network connection"
 msgstr "connexion réseau IPv6"
 
-#: ../src/openfiles.cpp:44
+#: src/openfiles.cpp:44
 msgid "IPv4 network connection"
 msgstr "connexion réseau IPv4"
 
-#: ../src/openfiles.cpp:46
+#: src/openfiles.cpp:46
 msgid "local socket"
 msgstr "socket local"
 
-#: ../src/openfiles.cpp:48
+#: src/openfiles.cpp:48
 msgid "unknown type"
 msgstr "type inconnu"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
-#: ../src/openfiles.cpp:251
+#: src/openfiles.cpp:251
 msgid "FD"
 msgstr "FD"
 
-#: ../src/openfiles.cpp:253
+#: src/openfiles.cpp:253
 msgid "Object"
 msgstr "Objet"
 
-#: ../src/openfiles.cpp:324
+#: src/openfiles.cpp:324
 msgid "Open Files"
 msgstr "Fichiers ouverts"
 
-#: ../src/openfiles.cpp:345
+#: src/openfiles.cpp:345
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "_Fichiers ouverts par le processus « %s » (PID %u) :"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:1
+#: src/org.mate.system-monitor.gschema.xml.in:6
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
 msgstr ""
 "Taille et position de la fenêtre principale sous la forme (largeur, hauteur,"
 " posx, posy)"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:2
+#: src/org.mate.system-monitor.gschema.xml.in:10
 msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
@@ -712,15 +704,15 @@ msgstr ""
 "Si VRAI, la fenêtre principale s'ouvrira en étant maximisée et les valeurs "
 "enregistrées de taille et de position seront ignorées."
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:3
+#: src/org.mate.system-monitor.gschema.xml.in:14
 msgid "Show process dependencies in tree form"
 msgstr "Afficher les dépendances du processus sous forme arborescente"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:4
+#: src/org.mate.system-monitor.gschema.xml.in:18
 msgid "Solaris mode for CPU percentage"
 msgstr "Mode Solaris pour le pourcentage de CPU"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:5
+#: src/org.mate.system-monitor.gschema.xml.in:19
 msgid ""
 "If TRUE, system-monitor operates in 'Solaris mode' where a task's CPU usage "
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
@@ -730,30 +722,30 @@ msgstr ""
 "d'une tâche est divisée par le nombre total de CPU. Sinon, il fonctionne en "
 "mode Irix."
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:6
+#: src/org.mate.system-monitor.gschema.xml.in:23
 msgid "Enable/Disable smooth refresh"
 msgstr "Active/Désactive le rafraîchissement lissé"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:7
+#: src/org.mate.system-monitor.gschema.xml.in:27
 msgid "Show warning dialog when killing processes"
 msgstr "Afficher un avertissement avant de tuer un processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:8
+#: src/org.mate.system-monitor.gschema.xml.in:31
 msgid "Time in milliseconds between updates of the process view"
 msgstr ""
 "Durée en millisecondes entre les rafraîchissements de la liste des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:9
+#: src/org.mate.system-monitor.gschema.xml.in:35
 msgid "Time in milliseconds between updates of the graphs"
 msgstr "Durée en millisecondes entre les rafraîchissements des graphiques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:10
+#: src/org.mate.system-monitor.gschema.xml.in:39
 msgid "Whether information about all file systems should be displayed"
 msgstr ""
 "Indique s'il faut afficher les informations pour tous les systèmes de "
 "fichiers"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:11
+#: src/org.mate.system-monitor.gschema.xml.in:40
 msgid ""
 "Whether to display information about all file systems (including types like "
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
@@ -764,13 +756,13 @@ msgstr ""
 "procfs ». Cette option permet d'obtenir la liste de tous les systèmes de "
 "fichiers actuellement montés."
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:12
+#: src/org.mate.system-monitor.gschema.xml.in:44
 msgid "Time in milliseconds between updates of the devices list"
 msgstr ""
 "Durée en millisecondes entre les rafraîchissements de la liste des "
 "périphériques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:13
+#: src/org.mate.system-monitor.gschema.xml.in:48
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
@@ -778,11 +770,11 @@ msgstr ""
 "Détermine les processus à afficher par défaut. 0 pour tous, 1 pour les "
 "processus de l'utilisateur, et 2 pour les processus actifs"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:14
+#: src/org.mate.system-monitor.gschema.xml.in:52
 msgid "Saves the currently viewed tab"
 msgstr "Enregistre l'onglet actuellement visible"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:15
+#: src/org.mate.system-monitor.gschema.xml.in:53
 msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
@@ -790,328 +782,390 @@ msgstr ""
 "0 pour les informations système, 1 pour la liste de processus, 2 pour les "
 "ressources et 3 pour la liste des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:16
+#: src/org.mate.system-monitor.gschema.xml.in:57
+#: src/org.mate.system-monitor.gschema.xml.in:61
+#: src/org.mate.system-monitor.gschema.xml.in:65
+#: src/org.mate.system-monitor.gschema.xml.in:69
+#: src/org.mate.system-monitor.gschema.xml.in:73
+#: src/org.mate.system-monitor.gschema.xml.in:77
+#: src/org.mate.system-monitor.gschema.xml.in:85
+#: src/org.mate.system-monitor.gschema.xml.in:89
+#: src/org.mate.system-monitor.gschema.xml.in:93
+#: src/org.mate.system-monitor.gschema.xml.in:97
+#: src/org.mate.system-monitor.gschema.xml.in:101
+#: src/org.mate.system-monitor.gschema.xml.in:105
+#: src/org.mate.system-monitor.gschema.xml.in:109
+#: src/org.mate.system-monitor.gschema.xml.in:113
+#: src/org.mate.system-monitor.gschema.xml.in:117
+#: src/org.mate.system-monitor.gschema.xml.in:121
+#: src/org.mate.system-monitor.gschema.xml.in:125
+#: src/org.mate.system-monitor.gschema.xml.in:129
+#: src/org.mate.system-monitor.gschema.xml.in:133
+#: src/org.mate.system-monitor.gschema.xml.in:137
+#: src/org.mate.system-monitor.gschema.xml.in:141
+#: src/org.mate.system-monitor.gschema.xml.in:145
+#: src/org.mate.system-monitor.gschema.xml.in:149
+#: src/org.mate.system-monitor.gschema.xml.in:153
+#: src/org.mate.system-monitor.gschema.xml.in:157
+#: src/org.mate.system-monitor.gschema.xml.in:161
+#: src/org.mate.system-monitor.gschema.xml.in:165
+#: src/org.mate.system-monitor.gschema.xml.in:169
+#: src/org.mate.system-monitor.gschema.xml.in:173
+#: src/org.mate.system-monitor.gschema.xml.in:177
+#: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
 msgstr "Couleur par défaut du CPU sur le graphe"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:17
+#: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
 msgstr "Couleur par défaut du graphique CPU"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:18
+#: src/org.mate.system-monitor.gschema.xml.in:185
 msgid "Default graph memory color"
 msgstr "Couleur par défaut de la mémoire sur le graphe"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:19
+#: src/org.mate.system-monitor.gschema.xml.in:189
 msgid "Default graph swap color"
 msgstr "Couleur par défaut du graphique du fichier d'échange"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:20
+#: src/org.mate.system-monitor.gschema.xml.in:193
 msgid "Default graph incoming network traffic color"
 msgstr "Couleur par défaut du graphique pour le trafic réseau entrant"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:21
+#: src/org.mate.system-monitor.gschema.xml.in:197
 msgid "Default graph outgoing network traffic color"
 msgstr "Couleur par défaut du graphique pour le trafic réseau sortant"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:22
+#: src/org.mate.system-monitor.gschema.xml.in:202
 msgid "Show network traffic in bits"
 msgstr "Afficher le trafic réseau en bits"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:23
+#: src/org.mate.system-monitor.gschema.xml.in:212
 msgid "Process view sort column"
 msgstr "Colonne de tri du processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:24
+#: src/org.mate.system-monitor.gschema.xml.in:216
 msgid "Process view columns order"
 msgstr "Ordre des colonnes de la vue du processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:25
+#: src/org.mate.system-monitor.gschema.xml.in:220
 msgid "Process view sort order"
 msgstr "Ordre de tri de vue du processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:26
+#: src/org.mate.system-monitor.gschema.xml.in:224
 msgid "Width of process 'Name' column"
 msgstr "Largeur de la colonne du nom des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:27
+#: src/org.mate.system-monitor.gschema.xml.in:228
 msgid "Show process 'Name' column on startup"
 msgstr "Afficher la colonne du nom des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:28
+#: src/org.mate.system-monitor.gschema.xml.in:232
 msgid "Width of process 'User' column"
 msgstr "Largeur de la colonne « Utilisateur » des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:29
+#: src/org.mate.system-monitor.gschema.xml.in:236
 msgid "Show process 'User' column on startup"
 msgstr "Afficher la colonne « Utilisateur » des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:30
+#: src/org.mate.system-monitor.gschema.xml.in:240
 msgid "Width of process 'Status' column"
 msgstr "Largeur de la colonne « État » des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:31
+#: src/org.mate.system-monitor.gschema.xml.in:244
 msgid "Show process 'Status' column on startup"
 msgstr "Afficher la colonne « État » des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:32
+#: src/org.mate.system-monitor.gschema.xml.in:248
 msgid "Width of process 'Virtual Memory' column"
 msgstr "Largeur de la colonne de la mémoire virtuelle des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:33
+#: src/org.mate.system-monitor.gschema.xml.in:252
 msgid "Show process 'Virtual Memory' column on startup"
 msgstr ""
 "Afficher la colonne de la mémoire virtuelle des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:34
+#: src/org.mate.system-monitor.gschema.xml.in:256
 msgid "Width of process 'Resident Memory' column"
 msgstr "Largeur de la colonne de la mémoire résidente des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:35
+#: src/org.mate.system-monitor.gschema.xml.in:260
 msgid "Show process 'Resident Memory' column on startup"
 msgstr ""
 "Afficher la colonne de la mémoire résidente des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:36
+#: src/org.mate.system-monitor.gschema.xml.in:264
 msgid "Width of process 'Writable Memory' column"
 msgstr "Largeur de la colonne de la mémoire inscriptible des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:37
+#: src/org.mate.system-monitor.gschema.xml.in:268
 msgid "Show process 'Writable Memory' column on startup"
 msgstr ""
 "Afficher la colonne de la mémoire inscriptible des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:38
+#: src/org.mate.system-monitor.gschema.xml.in:272
 msgid "Width of process 'Shared Memory' column"
 msgstr "Largeur de la colonne de mémoire partagée des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:39
+#: src/org.mate.system-monitor.gschema.xml.in:276
 msgid "Show process 'Shared Memory' column on startup"
 msgstr "Afficher la colonne de la mémoire partagée des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:40
+#: src/org.mate.system-monitor.gschema.xml.in:280
 msgid "Width of process 'X Server Memory' column"
 msgstr "Largeur de la colonne de la mémoire du serveur X des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:41
+#: src/org.mate.system-monitor.gschema.xml.in:284
 msgid "Show process 'X Server Memory' column on startup"
 msgstr ""
 "Afficher la colonne de la mémoire du serveur X des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:43
-#, no-c-format
+#: src/org.mate.system-monitor.gschema.xml.in:288
+#, c-format
 msgid "Width of process '% CPU' column"
 msgstr "Largeur de la colonne du % CPU des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:45
-#, no-c-format
+#: src/org.mate.system-monitor.gschema.xml.in:292
+#, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr ""
 "Afficher la colonne du % de CPU utilisé par les processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:46
+#: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"
 msgstr "Largeur de la colonne du temps CPU des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:47
+#: src/org.mate.system-monitor.gschema.xml.in:300
 msgid "Show process 'CPU Time' column on startup"
 msgstr "Afficher la colonne de temps CPU des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:48
+#: src/org.mate.system-monitor.gschema.xml.in:304
 msgid "Width of process 'Started' column"
 msgstr "Largeur de la colonne de l'heure de démarrage des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:49
+#: src/org.mate.system-monitor.gschema.xml.in:308
 msgid "Show process 'Started' column on startup"
 msgstr ""
 "Afficher la colonne de l'heure de démarrage des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:50
+#: src/org.mate.system-monitor.gschema.xml.in:312
 msgid "Width of process 'Nice' column"
 msgstr "Largeur de la colonne de la priorité des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:51
+#: src/org.mate.system-monitor.gschema.xml.in:316
 msgid "Show process 'Nice' column on startup"
 msgstr "Afficher la colonne de la priorité des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:52
+#: src/org.mate.system-monitor.gschema.xml.in:320
 msgid "Width of process 'ID' column"
 msgstr "Largeur de la colonne de l'ID des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:53
+#: src/org.mate.system-monitor.gschema.xml.in:324
 msgid "Show process 'ID' column on startup"
 msgstr "Afficher la colonne « ID » des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:54
+#: src/org.mate.system-monitor.gschema.xml.in:328
 msgid "Width of process 'Security Context' column"
 msgstr "Largeur de la colonne du contexte de sécurité des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:55
+#: src/org.mate.system-monitor.gschema.xml.in:332
 msgid "Show process 'Security Context' column on startup"
 msgstr ""
 "Afficher la colonne du contexte de sécurité des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:56
+#: src/org.mate.system-monitor.gschema.xml.in:336
 msgid "Width of process 'Command Line' column"
 msgstr "Largeur de la colonne « ligne de commande » des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:57
+#: src/org.mate.system-monitor.gschema.xml.in:340
 msgid "Show process 'Command Line' column on startup"
 msgstr "Afficher la colonne « ligne de commande » des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:58
+#: src/org.mate.system-monitor.gschema.xml.in:344
 msgid "Width of process 'Memory' column"
 msgstr "Largeur de la colonne de la mémoire des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:59
+#: src/org.mate.system-monitor.gschema.xml.in:348
 msgid "Show process 'Memory' column on startup"
 msgstr "Afficher la colonne de la mémoire des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:60
+#: src/org.mate.system-monitor.gschema.xml.in:352
 msgid "Width of process 'Waiting Channel' column"
 msgstr "Largeur de la colonne du canal d'attente des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:61
+#: src/org.mate.system-monitor.gschema.xml.in:356
 msgid "Show process 'Waiting Channel' column on startup"
 msgstr "Afficher la colonne du canal d'attente des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:62
+#: src/org.mate.system-monitor.gschema.xml.in:360
 msgid "Width of process 'Control Group' column"
 msgstr "Largeur de la colonne du groupe de contrôle des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:63
+#: src/org.mate.system-monitor.gschema.xml.in:364
 msgid "Show process 'Control Group' column on startup"
 msgstr "Afficher le groupe de contrôle des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:64
+#: src/org.mate.system-monitor.gschema.xml.in:368
 msgid "Width of process 'Unit' column"
 msgstr "Largeur de la colonne de l'unité des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:65
+#: src/org.mate.system-monitor.gschema.xml.in:372
 msgid "Show process 'Unit' column on startup"
 msgstr "Afficher la colonne de l'unité des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:66
+#: src/org.mate.system-monitor.gschema.xml.in:376
 msgid "Width of process 'Session' column"
 msgstr "Largeur de la colonne de la session des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:67
+#: src/org.mate.system-monitor.gschema.xml.in:380
 msgid "Show process 'Session' column on startup"
 msgstr "Afficher la colonne de la session des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:68
+#: src/org.mate.system-monitor.gschema.xml.in:384
 msgid "Width of process 'Seat' column"
 msgstr "Largeur de la colonne « siège » des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:69
+#: src/org.mate.system-monitor.gschema.xml.in:388
 msgid "Show process 'Seat' column on startup"
 msgstr "Afficher la colonne « siège » des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:70
+#: src/org.mate.system-monitor.gschema.xml.in:392
 msgid "Width of process 'Owner' column"
 msgstr "Largeur de la colonne du propriétaire des processus"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:71
+#: src/org.mate.system-monitor.gschema.xml.in:396
 msgid "Show process 'Owner' column on startup"
 msgstr "Afficher la colonne du propriétaire des processus au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:72
-msgid "Width of process 'Priority' column"
-msgstr "Largeur de la colonne de la priorité des processus"
+#: src/org.mate.system-monitor.gschema.xml.in:400
+msgid "Width of process “Disk Write Total” column"
+msgstr ""
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:73
-msgid "Show process 'Priority' column on startup"
-msgstr "Afficher la colonne de la priorité des processus au démarrage"
+#: src/org.mate.system-monitor.gschema.xml.in:404
+msgid "Show process “Disk Write Total” column on startup"
+msgstr ""
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:74
+#: src/org.mate.system-monitor.gschema.xml.in:408
+msgid "Width of process “Disk Read Total” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:412
+msgid "Show process “Disk Read Total” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:416
+msgid "Width of process “Disk Read” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:420
+msgid "Show process “Disk Read” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:424
+msgid "Width of process “Disk Write” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:428
+msgid "Show process “Disk Write” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:432
+msgid "Width of process “Priority” column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:436
+msgid "Show process “Priority” column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:442
 msgid "Disk view sort column"
 msgstr "Colonne de tri de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:75
+#: src/org.mate.system-monitor.gschema.xml.in:446
 msgid "Disk view sort order"
 msgstr "Ordre de tri de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:76
+#: src/org.mate.system-monitor.gschema.xml.in:450
 msgid "Disk view columns order"
 msgstr "Colonne de tri des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:77
+#: src/org.mate.system-monitor.gschema.xml.in:454
 msgid "Width of disk view 'Device' column"
 msgstr "Largeur de la colonne « Appareil » de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:78
+#: src/org.mate.system-monitor.gschema.xml.in:458
 msgid "Show disk view 'Device' column on startup"
 msgstr ""
 "Afficher la colonne « Appareil » de l'affichage des disques au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:79
+#: src/org.mate.system-monitor.gschema.xml.in:462
 msgid "Width of disk view 'Directory' column"
 msgstr "Largeur de la colonne « Répertoire » de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:80
+#: src/org.mate.system-monitor.gschema.xml.in:466
 msgid "Show disk view 'Directory' column on startup"
 msgstr ""
 "Afficher la colonne « Répertoire » de l'affichage des disques au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:81
+#: src/org.mate.system-monitor.gschema.xml.in:470
 msgid "Width of disk view 'Type' column"
 msgstr "Largeur de la colonne « Type » de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:82
+#: src/org.mate.system-monitor.gschema.xml.in:474
 msgid "Show disk view 'Type' column on startup"
 msgstr "Afficher la colonne « Type » de l'affichage des disques au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:83
+#: src/org.mate.system-monitor.gschema.xml.in:478
 msgid "Width of disk view 'Total' column"
 msgstr "Largeur de la colonne « Total » de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:84
+#: src/org.mate.system-monitor.gschema.xml.in:482
 msgid "Show disk view 'Total' column on startup"
 msgstr "Afficher la colonne « Total » de l'affichage des disques au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:85
+#: src/org.mate.system-monitor.gschema.xml.in:486
 msgid "Width of disk view 'Free' column"
 msgstr "Largeur de la colonne « Libre » de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:86
+#: src/org.mate.system-monitor.gschema.xml.in:490
 msgid "Show disk view 'Free' column on startup"
 msgstr "Afficher la colonne « Libre » de l'affichage des disques au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:87
+#: src/org.mate.system-monitor.gschema.xml.in:494
 msgid "Width of disk view 'Available' column"
 msgstr "Largeur de la colonne « Disponible » de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:88
+#: src/org.mate.system-monitor.gschema.xml.in:498
 msgid "Show disk view 'Available' column on startup"
 msgstr ""
 "Afficher la colonne « Disponible » de l'affichage des disques au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:89
+#: src/org.mate.system-monitor.gschema.xml.in:502
 msgid "Width of disk view 'Used' column"
 msgstr "Largeur de la colonne « Utilisé » de l'affichage des disques"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:90
+#: src/org.mate.system-monitor.gschema.xml.in:506
 msgid "Show disk view 'Used' column on startup"
 msgstr ""
 "Afficher la colonne « Utilisé » de l'affichage des disques au démarrage"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:91
+#: src/org.mate.system-monitor.gschema.xml.in:512
 msgid "Memory map sort column"
 msgstr "Colonne de tri de la carte de mémoire"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:92
+#: src/org.mate.system-monitor.gschema.xml.in:516
 msgid "Memory map sort order"
 msgstr "Ordre de tri de la carte de mémoire"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:93
+#: src/org.mate.system-monitor.gschema.xml.in:522
 msgid "Open files sort column"
 msgstr "Colonne de tri des fichiers ouverts"
 
-#: ../src/org.mate.system-monitor.gschema.xml.in.h:94
+#: src/org.mate.system-monitor.gschema.xml.in:526
 msgid "Open files sort order"
 msgstr "Ordre de tri des fichiers ouverts"
 
-#: ../src/procactions.cpp:76
+#: src/procactions.cpp:76
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
@@ -1120,7 +1174,7 @@ msgstr ""
 "Impossible de changer la priorité du processus du PID %d vers %d.\n"
 "%s"
 
-#: ../src/procactions.cpp:156
+#: src/procactions.cpp:156
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
@@ -1130,13 +1184,13 @@ msgstr ""
 "%s"
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:73
+#: src/procdialogs.cpp:73
 #, c-format
 msgid "Kill the selected process “%s” (PID: %u)?"
 msgstr "Tuer le processus sélectionné « %s » (PID : %u) ?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:77
+#: src/procdialogs.cpp:77
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
@@ -1146,13 +1200,13 @@ msgstr ""
 "processus ne répondant plus devraient être tués."
 
 #. xgettext: primary alert message
-#: ../src/procdialogs.cpp:84
+#: src/procdialogs.cpp:84
 #, c-format
 msgid "End the selected process “%s” (PID: %u)?"
 msgstr "Terminer le processus sélectionné « %s » (PID : %u) ?"
 
 #. xgettext: secondary alert message
-#: ../src/procdialogs.cpp:88
+#: src/procdialogs.cpp:88
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
@@ -1161,29 +1215,29 @@ msgstr ""
 "votre session de travail ou bien introduire une faille de sécurité. Seuls "
 "les processus ne répondant plus devraient être terminés."
 
-#: ../src/procdialogs.cpp:126 ../src/procdialogs.cpp:215
+#: src/procdialogs.cpp:126 src/procdialogs.cpp:215
 #, c-format
 msgid "(%s Priority)"
 msgstr "(Priorité %s)"
 
-#: ../src/procdialogs.cpp:170
+#: src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
 msgstr "Changer la priorité du processus « %s » (PID : %u) ?"
 
-#: ../src/procdialogs.cpp:182
+#: src/procdialogs.cpp:182
 msgid "Change _Priority"
 msgstr "_Modifier la priorité"
 
-#: ../src/procdialogs.cpp:205
+#: src/procdialogs.cpp:205
 msgid "_Nice value:"
 msgstr "Valeur « _nice » :"
 
-#: ../src/procdialogs.cpp:220
+#: src/procdialogs.cpp:220
 msgid "Note:"
 msgstr "Note :"
 
-#: ../src/procdialogs.cpp:221
+#: src/procdialogs.cpp:221
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
@@ -1191,146 +1245,146 @@ msgstr ""
 "La priorité d'un processus est attribuée au moyen de sa valeur « nice ». Une"
 " valeur nice plus basse correspond à une plus haute priorité."
 
-#: ../src/procdialogs.cpp:472
+#: src/procdialogs.cpp:472
 msgid "Icon"
 msgstr "Icône"
 
-#: ../src/procdialogs.cpp:531
+#: src/procdialogs.cpp:531
 msgid "System Monitor Preferences"
 msgstr "Préférences du moniteur système"
 
-#: ../src/procdialogs.cpp:561
+#: src/procdialogs.cpp:561
 msgid "Behavior"
 msgstr "Comportement"
 
-#: ../src/procdialogs.cpp:580 ../src/procdialogs.cpp:755
+#: src/procdialogs.cpp:580 src/procdialogs.cpp:755
 msgid "_Update interval in seconds:"
 msgstr "_Fréquence de mise à jour en secondes :"
 
-#: ../src/procdialogs.cpp:605
+#: src/procdialogs.cpp:605
 msgid "Enable _smooth refresh"
 msgstr "Activer le rafraîchissement _lissé"
 
-#: ../src/procdialogs.cpp:618
+#: src/procdialogs.cpp:618
 msgid "Alert before ending or _killing processes"
 msgstr "Afficher un avertissement avant de _terminer ou de tuer des processus"
 
-#: ../src/procdialogs.cpp:631
+#: src/procdialogs.cpp:631
 msgid "Divide CPU usage by CPU count"
 msgstr "Diviser l'utilisation des CPU par le nombre de CPU"
 
-#: ../src/procdialogs.cpp:632
+#: src/procdialogs.cpp:632
 msgid "Solaris mode"
 msgstr "Mode Solaris"
 
-#: ../src/procdialogs.cpp:649 ../src/procdialogs.cpp:789
+#: src/procdialogs.cpp:649 src/procdialogs.cpp:789
 msgid "Information Fields"
 msgstr "Champs d'informations"
 
-#: ../src/procdialogs.cpp:662
+#: src/procdialogs.cpp:662
 msgid "Process i_nformation shown in list:"
 msgstr "I_nformations sur les processus affichés dans la liste :"
 
-#: ../src/procdialogs.cpp:674
+#: src/procdialogs.cpp:674
 msgid "Graphs"
 msgstr "Graphiques"
 
-#: ../src/procdialogs.cpp:693
+#: src/procdialogs.cpp:693
 msgid "_Update interval in 1/10 sec:"
 msgstr "_Fréquence de mise à jour en 10e de seconde :"
 
-#: ../src/procdialogs.cpp:713
+#: src/procdialogs.cpp:713
 msgid "Show network speed in bits"
 msgstr "Afficher la vitesse du réseau en bits"
 
-#: ../src/procdialogs.cpp:775
+#: src/procdialogs.cpp:775
 msgid "Show _all file systems"
 msgstr "Afficher _tous les systèmes de fichiers"
 
-#: ../src/procdialogs.cpp:802
+#: src/procdialogs.cpp:802
 msgid "File system i_nformation shown in list:"
 msgstr "I_nformations sur les systèmes de fichiers affichés dans la liste :"
 
-#: ../src/procman.cpp:662
+#: src/procman.cpp:662
 msgid "A simple process and system monitor."
 msgstr "Surveillance simple des processus et du système."
 
-#: ../src/proctable.cpp:241 ../src/procproperties.cpp:116
+#: src/proctable.cpp:242 src/procproperties.cpp:124
 msgid "Process Name"
 msgstr "Nom du processus"
 
-#: ../src/proctable.cpp:242 ../src/procproperties.cpp:117
+#: src/proctable.cpp:243 src/procproperties.cpp:125
 msgid "User"
 msgstr "Utilisateur"
 
-#: ../src/proctable.cpp:243 ../src/procproperties.cpp:118
+#: src/proctable.cpp:244 src/procproperties.cpp:126
 msgid "Status"
 msgstr "État"
 
-#: ../src/proctable.cpp:244 ../src/procproperties.cpp:120
+#: src/proctable.cpp:245 src/procproperties.cpp:128
 msgid "Virtual Memory"
 msgstr "Mém. virtuelle"
 
-#: ../src/proctable.cpp:245 ../src/procproperties.cpp:121
+#: src/proctable.cpp:246 src/procproperties.cpp:129
 msgid "Resident Memory"
 msgstr "Mém. résidente"
 
-#: ../src/proctable.cpp:246 ../src/procproperties.cpp:122
+#: src/proctable.cpp:247 src/procproperties.cpp:130
 msgid "Writable Memory"
 msgstr "Mém. en écriture"
 
-#: ../src/proctable.cpp:247 ../src/procproperties.cpp:123
+#: src/proctable.cpp:248 src/procproperties.cpp:131
 msgid "Shared Memory"
 msgstr "Mém. partagée"
 
-#: ../src/proctable.cpp:248 ../src/procproperties.cpp:124
+#: src/proctable.cpp:249 src/procproperties.cpp:132
 msgid "X Server Memory"
 msgstr "Mém. du serveur X"
 
-#: ../src/proctable.cpp:249
+#: src/proctable.cpp:250
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: ../src/proctable.cpp:250 ../src/procproperties.cpp:126
+#: src/proctable.cpp:251 src/procproperties.cpp:136
 msgid "CPU Time"
 msgstr "Temps CPU"
 
-#: ../src/proctable.cpp:251 ../src/procproperties.cpp:127
+#: src/proctable.cpp:252 src/procproperties.cpp:137
 msgid "Started"
 msgstr "Démarré"
 
-#: ../src/proctable.cpp:252 ../src/procproperties.cpp:128
+#: src/proctable.cpp:253 src/procproperties.cpp:138
 msgid "Nice"
 msgstr "Priorité"
 
-#: ../src/proctable.cpp:253 ../src/procproperties.cpp:130
+#: src/proctable.cpp:254 src/procproperties.cpp:140
 msgid "ID"
 msgstr "ID"
 
-#: ../src/proctable.cpp:254 ../src/procproperties.cpp:131
+#: src/proctable.cpp:255 src/procproperties.cpp:141
 msgid "Security Context"
 msgstr "Contexte de sécurité"
 
-#: ../src/proctable.cpp:255 ../src/procproperties.cpp:132
+#: src/proctable.cpp:256 src/procproperties.cpp:142
 msgid "Command Line"
 msgstr "Ligne de commande"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: ../src/proctable.cpp:258 ../src/procproperties.cpp:133
+#: src/proctable.cpp:259 src/procproperties.cpp:143
 msgid "Waiting Channel"
 msgstr "Canal d'attente"
 
-#: ../src/proctable.cpp:259 ../src/procproperties.cpp:134
+#: src/proctable.cpp:260 src/procproperties.cpp:144
 msgid "Control Group"
 msgstr "Groupe de contrôle"
 
-#: ../src/proctable.cpp:260
+#: src/proctable.cpp:261
 msgid "Unit"
 msgstr "Unité"
 
-#: ../src/proctable.cpp:261
+#: src/proctable.cpp:262
 msgid "Session"
 msgstr "Session"
 
@@ -1338,184 +1392,181 @@ msgstr "Session"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: ../src/proctable.cpp:264
+#: src/proctable.cpp:265
 msgid "Seat"
 msgstr "Siège"
 
-#: ../src/proctable.cpp:265
+#: src/proctable.cpp:266
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: ../src/proctable.cpp:266 ../src/procproperties.cpp:129
+#: src/proctable.cpp:267 src/procproperties.cpp:133
+msgid "Disk Read Total"
+msgstr ""
+
+#: src/proctable.cpp:268 src/procproperties.cpp:134
+msgid "Disk Write Total"
+msgstr ""
+
+#: src/proctable.cpp:269
+msgid "Disk Read"
+msgstr ""
+
+#: src/proctable.cpp:270
+msgid "Disk Write"
+msgstr ""
+
+#: src/proctable.cpp:271 src/procproperties.cpp:139
 msgid "Priority"
 msgstr "Priorité"
 
-#: ../src/proctable.cpp:1108
+#: src/proctable.cpp:1153
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr ""
 "Charge système pour les 1, 5, 15 dernières minutes : %0.2f; %0.2f; %0.2f"
 
-#: ../src/procproperties.cpp:99 ../src/procproperties.cpp:131
-#: ../src/procproperties.cpp:134 ../src/util.cpp:420
+#: src/procproperties.cpp:98 src/procproperties.cpp:107
+#: src/procproperties.cpp:141 src/procproperties.cpp:144 src/util.cpp:369
+#: src/util.cpp:441 src/util.cpp:479
 msgid "N/A"
 msgstr "N/D"
 
-#: ../src/procproperties.cpp:242
+#: src/procproperties.cpp:252
 msgid "Process Properties"
 msgstr "Propriétés du processus"
 
-#: ../src/procproperties.cpp:262
+#: src/procproperties.cpp:272
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
 msgstr "Propriétés du processus « %s » (PID %u) :"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
-#: ../src/sysinfo.cpp:78
+#: src/sysinfo.cpp:82
 #, c-format
 msgid "Release %s %s"
 msgstr "Version %s %s"
 
+#. Translators: The string parameter is the architecture, 32 or 64-bit
+#: src/sysinfo.cpp:89
+#, c-format
+msgid "%s Version"
+msgstr "Version %s"
+
+#. Translators: The string parameter is release version (codename)
+#: src/sysinfo.cpp:94
+#, c-format
+msgid "Release %s"
+msgstr "Version %s"
+
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
-#: ../src/sysinfo.cpp:115
+#: src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
 msgstr "%d-bit"
 
-#: ../src/sysinfo.cpp:807
+#: src/sysinfo.cpp:298
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: src/sysinfo.cpp:971
 #, c-format
 msgid "Kernel %s"
 msgstr "Noyau %s"
 
-#: ../src/sysinfo.cpp:820
+#: src/sysinfo.cpp:984
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: ../src/sysinfo.cpp:834
+#: src/sysinfo.cpp:998
 msgid "Hardware"
 msgstr "Matériel"
 
-#: ../src/sysinfo.cpp:839
+#: src/sysinfo.cpp:1003
 msgid "Memory:"
 msgstr "Mémoire :"
 
-#: ../src/sysinfo.cpp:843
+#: src/sysinfo.cpp:1006
 msgid "Processor:"
 msgstr "Processeur :"
 
+#: src/sysinfo.cpp:1008
+msgid "Graphics:"
+msgstr "Graphismes :"
+
 #. disk space section
-#: ../src/sysinfo.cpp:851
+#: src/sysinfo.cpp:1013
 msgid "System Status"
 msgstr "État du système"
 
-#: ../src/sysinfo.cpp:856
+#: src/sysinfo.cpp:1018
 msgid "Available disk space:"
 msgstr "Espace disque disponible :"
 
-#: ../src/util.cpp:30
+#: src/util.cpp:31
+msgid "Today %l:%M %p"
+msgstr "Aujourd'hui %H:%M"
+
+#: src/util.cpp:33
+msgid "Yesterday %l:%M %p"
+msgstr "Hier %H:%M"
+
+#: src/util.cpp:35
+msgid "%a %l:%M %p"
+msgstr "%a %H:%M"
+
+#: src/util.cpp:37
+msgid "%b %d %l:%M %p"
+msgstr "%d %b %H:%M"
+
+#: src/util.cpp:39
+msgid "%b %d %Y"
+msgstr "%d %b %Y"
+
+#: src/util.cpp:57
 msgid "Running"
 msgstr "En cours"
 
-#: ../src/util.cpp:34
+#: src/util.cpp:61
 msgid "Stopped"
 msgstr "Stoppé"
 
-#: ../src/util.cpp:38
+#: src/util.cpp:65
 msgid "Zombie"
 msgstr "Zombie"
 
-#: ../src/util.cpp:42
+#: src/util.cpp:69
 msgid "Uninterruptible"
 msgstr "Ininterruptible"
 
-#: ../src/util.cpp:46
+#: src/util.cpp:73
 msgid "Sleeping"
 msgstr "Au repos"
 
 #. xgettext: weeks, days
-#: ../src/util.cpp:101
+#: src/util.cpp:128
 #, c-format
 msgid "%uw%ud"
 msgstr "%usem.%uj"
 
 #. xgettext: days, hours (0 -> 23)
-#: ../src/util.cpp:105
+#: src/util.cpp:132
 #, c-format
 msgid "%ud%02uh"
 msgstr "%uj%02uh"
 
 #. xgettext: hours (0 -> 23), minutes, seconds
-#: ../src/util.cpp:109
+#: src/util.cpp:136
 #, c-format
 msgid "%u:%02u:%02u"
 msgstr "%u:%02u:%02u"
 
 #. xgettext: minutes, seconds, centiseconds
-#: ../src/util.cpp:112
+#: src/util.cpp:139
 #, c-format
 msgid "%u:%02u.%02u"
 msgstr "%u:%02u.%02u"
-
-#: ../src/util.cpp:166
-#, c-format
-msgid "%.1f KiB"
-msgstr "%.1f Kio"
-
-#: ../src/util.cpp:167
-#, c-format
-msgid "%.1f MiB"
-msgstr "%.1f Mio"
-
-#: ../src/util.cpp:168
-#, c-format
-msgid "%.1f GiB"
-msgstr "%.1f Gio"
-
-#: ../src/util.cpp:169
-#, c-format
-msgid "%.1f TiB"
-msgstr "%.1f TiB"
-
-#: ../src/util.cpp:170
-#, c-format
-msgid "%.3g kbit"
-msgstr "%.3g Kbit"
-
-#: ../src/util.cpp:171
-#, c-format
-msgid "%.3g Mbit"
-msgstr "%.3g Mbit"
-
-#: ../src/util.cpp:172
-#, c-format
-msgid "%.3g Gbit"
-msgstr "%.3g Gbit"
-
-#: ../src/util.cpp:173
-#, c-format
-msgid "%.3g Tbit"
-msgstr "%.3g Tbit"
-
-#: ../src/util.cpp:188
-#, c-format
-msgid "%u bit"
-msgid_plural "%u bits"
-msgstr[0] "%u bit"
-msgstr[1] "%u bits"
-
-#: ../src/util.cpp:189
-#, c-format
-msgid "%u byte"
-msgid_plural "%u bytes"
-msgstr[0] "%u octet"
-msgstr[1] "%u octets"
-
-#. xgettext: rate, 10MiB/s or 10Mbit/s
-#: ../src/util.cpp:583
-#, c-format
-msgid "%s/s"
-msgstr "%s/s"

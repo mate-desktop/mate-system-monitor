@@ -1,29 +1,28 @@
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# abuyop <abuyop@gmail.com>, 2019
+# Caarmi, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>, 2019\n"
-"Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
+"Last-Translator: Caarmi, 2019\n"
+"Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ms\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ie\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Abuyop"
+msgstr "OIS <mistresssilvara@hotmail.com>, 2019"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
 msgid "System Monitor Manual V2.3"
-msgstr "Panduan Pemantau Sistem V2.3"
+msgstr ""
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
@@ -33,12 +32,12 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
 msgid "<year>2009</year> <holder>Paul Cutler</holder>"
-msgstr "<year>2009</year> <holder>Paul Cutler</holder>"
+msgstr ""
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
 msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
-msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr ""
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:36
@@ -46,21 +45,19 @@ msgid ""
 "<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
 "Day</holder>"
 msgstr ""
-"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
-"Day</holder>"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr "Projek Dokumentasi MATE"
+msgstr ""
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr "Projek Dokumentasi GNOME"
+msgstr ""
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:2
@@ -72,13 +69,6 @@ msgid ""
 " of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
-"Keizinan diberi untuk menyalin, mengedar dan/atau mengubahsuai dokumen ini "
-"bawah terma Lesen Dokumentasi Bebas GNU (GDFL), bagi Versi 1.1 atau mana-"
-"mana versi terkemudian yang telah diterbitkan oleh Free Software Foundation "
-"tanpa Seksyen Tak Varian, tanpa Teks Muka-Hadapan, dan tanpa Teks Muka "
-"Belakang. Anda boleh temui satu salinan GFDL dalam <ulink type=\"help\" "
-"url=\"help:fdl\">pautan</ulink> ini atau di dalam fail COPYING-DOCS yang "
-"disertakan bersama-sama panduan ini."
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:12 C/legal.xml:12
@@ -88,10 +78,6 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
-"Panduan ini adalah sebahagian dari koleksi panduan MATE yang diedar bawah "
-"GFDL. Jika anda mahu edar panduan ini secara berasingan dari koleksi "
-"asalnya, anda boleh membuat sedemikian dengan menambah satu salinan lesen ke"
-" dalam panduan sepertimana yang dijelaskan dalam seksyen 6 lesen tersebut."
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:19 C/legal.xml:19
@@ -102,11 +88,6 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
-"Kebanyakan nama digunakan oleh syarikat untuk membezakan produk dan "
-"perkhidmatan mereka dituntut sebagai tanda dagangan. Jika nama tersebut ada "
-"di dalam dokumentasi MATE, dan ahli-ahli Projek Dokumentasi MATE sedar akan "
-"tanda dagangan tersebut, kerana nama-nama tersebut telah di huruf besarkan "
-"atau huruf awalnya telah dihuruf besarkan."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:35 C/legal.xml:35
@@ -123,18 +104,6 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
-"DOKUMEN DISEDIAKAN SEBAGAI DASAR \"SEBAGAIMANA ADANYA\", TANPA JAMINAN ATAS "
-"APA JUA, SAMA ADA DIUNGKAP ATAU DILAKSANA, TERMASUKLAH, TANPA HAD, JAMINAN "
-"TERHADAP DOKUMEN ATAU VERSI UBAHSUAI DOKUMEN ADALAH BEBAS MASALAH "
-"KEBOLEHNIAGAAN. SESUAI ATAS TUJUAN TERTENTU ATAU BUKAN-PELANGGARAN. "
-"KESELURUHAN RISIKO ATAS KUALITI, KETEPATAN, DAN PRESTASI DOKUMEN ATAU VERSI "
-"UBAHSUAI DOKUMEN TERLETAK PADA DIRI ANDA. SEKIRANYA TERDAPAT MANA-MANA "
-"DOKUMEN ATAU VERSI UBAHSUAI DOKUMEN YANG BERMASALAH DALAM APA JUA BENTUK, "
-"ANDA (BUKAN PENULIS, PENGARANG ATAU MANA-MANA PENYUMBANG ASAL) MENANGGUNG "
-"KOS APA JUA PERKHIDMATAN, PEMBAIKAN ATAU PEMBETULAN YANG DIPERLUKAN. "
-"PENAFIAN JAMINAN INI TERBENTUK SEBAGAI BAHAGIAN PENTING LESEN INI. MAKA "
-"TIDAK PENGGUNAAN MANA-MANA DOKUMEN ATAU VERSI UBAHSUAI DOKUMEN DIIZINKAN "
-"KECUALI TERTAKLUK DI BAWAH PENAFIAN INI; DAN"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:55 C/legal.xml:55
@@ -150,17 +119,6 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
-"TANPA DI BAWAH APA-APA KEADAAN DAN TEORI PERUNDANGAN, SAMA ADA DALAM TORT "
-"(TERMASUKLAH KECUAIAN), KONTRAK, ATAU SEUMPAMA DENGANNYA, SI PENGARANG, "
-"PENULIS ASAL, MANA-MANA PENYUMBANG, ATAU MANA-MANA PENGEDAR DOKUMEN ATAU "
-"VERSI UBAHSUAI DOKUMEN, ATAU MANA-MANA PEMBEKAL ATAS APA JUA KUMPULAN, JUGA "
-"PADA MANA-MANA INDIVIDU ATAS KEROSAKAN SECARA LANGSUNG ATAU TIDAK LANGSUNG, "
-"SECARA KHUSUS, TIDAK SENGAJA ATAU, KEROSAKAN LANJUTAN TERHADAP SESIAPA "
-"SAHAJA, TERMASUKLAH TANPA HAD BAGI KEROSAKAN NAMA BAIK, GANGGUAN KERJA, "
-"KEGAGALAN ATAU KEROSAKAN KOMPUTER, ATAU MANA-MANA  MAHUPUN SEMUA KEROSAKAN "
-"LAIN BERKAITAN PENGGUNAAN DOKUMEN DAN VERSI UBAHSUAI DOKUMEN, WALAUPUN PIHAK"
-" TERSEBUT TELAH DIMAKLUMKAN ADANYA KEBARANGKALIAN KEROSAKAN SEBEGITU BOLEH "
-"BERLAKU."
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:28 C/legal.xml:28
@@ -169,8 +127,6 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
-"DOKUMEN DAN VERSI UBAHSUAI DOKUMEN DISEDIAKAN BAWAH TERMA LESEN DOKUMENTASI "
-"BEBAS GNU DENGAN PERKARA BERIKUT: <_:orderedlist-1/>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -178,8 +134,6 @@ msgid ""
 "<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
-"<firstname>Projek Dokumentasi MATE</firstname><surname/><affiliation> "
-"<orgname>Desktop MATE </orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70
@@ -187,8 +141,6 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
-"<firstname>Sun</firstname> <surname>Pasukan Dokumentasi GNOME</surname> "
-"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -196,8 +148,6 @@ msgid ""
 "<firstname>Bill</firstname> <surname>Day</surname> "
 "<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 msgstr ""
-"<firstname>Bill</firstname> <surname>Day</surname> "
-"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:80
@@ -206,14 +156,11 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> "
 "<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 msgstr ""
-"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
-"<orgname>Projek Dokumentasi GNOME</orgname> "
-"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "Pasukan Dokumentasi MATE"
+msgstr ""
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -221,13 +168,11 @@ msgid ""
 "<revnumber>System Monitor Manual V2.3</revnumber> <date>July 2015</date> "
 "<_:revdescription-1/>"
 msgstr ""
-"<revnumber>Panduan Pemantau Sistem V2.3</revnumber> <date>Julai 2015</date> "
-"<_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:120
 msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
-msgstr "Paul Cutler <email>pcutler@foresightlinux.org</email>"
+msgstr ""
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:116
@@ -235,13 +180,11 @@ msgid ""
 "<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
 "<_:revdescription-1/>"
 msgstr ""
-"<revnumber>Panduan Pemantau Sistem V2.2;</revnumber> <date>March 2009</date>"
-" <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr "Pasukan Dokumentasi Sun GNOME"
+msgstr ""
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -249,13 +192,11 @@ msgid ""
 "<revnumber>System Monitor Manual V2.1</revnumber> <date>February 2004</date>"
 " <_:revdescription-1/>"
 msgstr ""
-"<revnumber>Panduan Pemantau Sistem V2.1</revnumber> <date>Februari "
-"2004</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:138 C/index.docbook:147
 msgid "Bill Day <email>billday@bellatlantic.net</email>"
-msgstr "Bill Day <email>billday@bellatlantic.net</email>"
+msgstr ""
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:134
@@ -263,8 +204,6 @@ msgid ""
 "<revnumber>System Monitor Manual V2.0</revnumber> <date>November 2002</date>"
 " <_:revdescription-1/>"
 msgstr ""
-"<revnumber>Panduan Pemantau Sistem V2.0</revnumber> <date>November "
-"2002</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:143
@@ -272,18 +211,16 @@ msgid ""
 "<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
-"<revnumber>Panduan Procman V0.11</revnumber> <date>Januari 2002</date> "
-"<_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:155
 msgid "This manual describes version 1.10.0 of System Monitor."
-msgstr "Panduan ini menerangkan versi 1.10.0 bagi Pemantau Sistem."
+msgstr ""
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:160
 msgid "Feedback"
-msgstr "Maklumbalas"
+msgstr ""
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:161
@@ -292,9 +229,6 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
-"Untuk melaporkan pepijat atau membuat saranan berkenaan aplikasi Pemantau "
-"Sistem atau panduan ini, ikuti arahan di dalam <ulink url=\"help:mate-user-"
-"guide/feedback\" type=\"help\">Halaman Maklumbalas MATE</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:169
@@ -303,29 +237,26 @@ msgid ""
 "network, and memory activities as well as a way for viewing and stopping "
 "system processes."
 msgstr ""
-"Pemantau Sistem menawarkan kepada pengguna satu antaramuka pengguna "
-"bergrafik untuk pemantauan CPU, rangkaian, dan aktiviti-aktiviti ingatan "
-"serta satu cara melihat dan menghentikan proses-proses sistem."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:177
 msgid "<primary>System Monitor</primary>"
-msgstr "<primary>Pemantau Sistem</primary>"
+msgstr ""
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:180
 msgid "<primary>mate-system-monitor</primary>"
-msgstr "<primary>mate-system-monitor</primary>"
+msgstr ""
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:183
 msgid "<primary>procman</primary>"
-msgstr "<primary>procman</primary>"
+msgstr ""
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:190
 msgid "Introduction"
-msgstr "Pengenalan"
+msgstr "Introduction"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:191
@@ -335,11 +266,6 @@ msgid ""
 "system resources, and file systems. You can also use <application>System "
 "Monitor</application> to modify the behavior of your system."
 msgstr ""
-"Aplikasi <application>Pemantau Sistem</application> membolehkan anda "
-"paparkan maklumat sistem asas dan pantau proses-proses sistem, penggunaan "
-"sumber-sumber sistem dan sistem-sistem fail. Anda boleh guna "
-"<application>Pemantau Sistem</application> untuk mengubahsuai kelakukan "
-"sistem anda."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:194
@@ -347,14 +273,12 @@ msgid ""
 "The <application>System Monitor</application> window contains four tabbed "
 "sections:"
 msgstr ""
-"Tetingkap <application>Pemantau Sistem</application> mengandungi empat "
-"seksyen bertab:"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:199 C/index.docbook:367
 msgid "<guilabel>System</guilabel>"
-msgstr "<guilabel>Sistem</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:203
@@ -362,60 +286,59 @@ msgid ""
 "Displays various basic information about the computer's hardware and "
 "software."
 msgstr ""
-"Papar pelbagai maklumat asas berkenaan perkakasan dan perisian komputer."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:206
 msgid "Distribution"
-msgstr "Distribusi"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:212
 msgid "Distribution version"
-msgstr "Versi distribusi"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:215
 msgid "Linux Kernel version"
-msgstr "Versi Kernel Linux"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:218
 msgid "MATE version"
-msgstr "Versi MATE"
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:224 C/index.docbook:435
 msgid "Hardware"
-msgstr "Perkakasan"
+msgstr "Hardware"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:230
 msgid "Installed memory"
-msgstr "Ingatan dipasang"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:233
 msgid "Processors and speeds"
-msgstr "Pemproses dan kelajuan"
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:239 C/index.docbook:440
 msgid "System Status"
-msgstr "Status Sistem"
+msgstr "Statu del sistema:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:245
 msgid "Currently available disk space"
-msgstr "Ruang cakera semasa yang ada"
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:254 C/index.docbook:375
 msgid "<guilabel>Processes</guilabel>"
-msgstr "<guilabel>Proses-Proses</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:258
@@ -424,59 +347,54 @@ msgid ""
 "Provides detailed information about individual processes, and enables you to"
 " control active processes."
 msgstr ""
-"Menunjukkan proses-proses aktif, dan bagaimana proses-proses berkaitan "
-"antara satu sama yang lain. Menyediakan maklumat terperinci berkenaan proses"
-" secara individu, dan membolehkan anda kawal proses-proses aktif."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:264 C/index.docbook:383
 msgid "<guilabel>Resources</guilabel>"
-msgstr "<guilabel>Sumber-Sumber</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:268
 msgid "Displays the current usage of the following system resources:"
-msgstr "Papar penggunaan semasa sumber-sumber sistem berikut:"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:273
 msgid "CPU (central processing unit) time"
-msgstr "Masa (unit pemprosesan pusat) CPU"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:278
 msgid "Memory and swap space"
-msgstr "Ingatan dan ruang silih"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:283
 msgid "Network usage"
-msgstr "Penggunaan rangkaian"
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1505
 msgid "<guilabel>File Systems</guilabel>"
-msgstr "<guilabel>Sistem Fail</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:295
 msgid ""
 "Lists all mounted file systems along with basic information about each."
 msgstr ""
-"Senaraikan semua sistem-sistem fail bersama-sama maklumat asas setiap "
-"darinya."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr "Membiasakan Diri"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
 msgid "To Start System Monitor"
-msgstr "Memulakan Pemantau Sistem"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:310
@@ -484,13 +402,11 @@ msgid ""
 "You can start <application>System Monitor</application> in the following "
 "ways:"
 msgstr ""
-"Anda boleh memulakan <application>Pemantau Sistem</application> dengan cara "
-"berikut:"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr "Menu <guimenu>Aplikasi</guimenu>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -498,23 +414,21 @@ msgid ""
 "Choose <menuchoice><guimenu>System Tools</guimenu> <guimenuitem>MATE System "
 "Monitor</guimenuitem></menuchoice>."
 msgstr ""
-"Pilih <menuchoice><guimenu>Alatan Sistem</guimenu> <guimenuitem>Pemantau "
-"Sistem MATE</guimenuitem></menuchoice>."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:321
 msgid "Command line"
-msgstr "Baris perintah"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:323
 msgid "Execute the following command: <command>mate-system-monitor</command>"
-msgstr "Lakukan perintah berikut: <command>mate-system-monitor</command>"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:331
 msgid "When You Start System Monitor"
-msgstr "Ketika Anda Memulakan Pemantau Sistem"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:332
@@ -522,13 +436,11 @@ msgid ""
 "When you start <application>System Monitor</application>, the following "
 "window is displayed:"
 msgstr ""
-"Ketika anda memulakan <application>Pemantau Sistem</application>, tetingkap "
-"berikut dipaparkan:"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:336
 msgid "System Monitor Window"
-msgstr "Tetingkap Pemantau Sistem"
+msgstr ""
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -541,8 +453,6 @@ msgid ""
 "external ref='figures/mate-system-monitor_window.png' "
 "md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 msgstr ""
-"external ref='figures/mate-system-monitor_window.png' "
-"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:338
@@ -551,9 +461,6 @@ msgid ""
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows System Monitor "
 "main window.</phrase> </textobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/mate-system-monitor_window.png\" "
-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Menunjukkan tetingkap "
-"utama Pemantau Sistem.</phrase> </textobject>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:347
@@ -561,13 +468,11 @@ msgid ""
 "The <application>System Monitor</application> window contains the following "
 "elements:"
 msgstr ""
-"Tetingkap <application>Pemantau Sistem</application> mengandungi unsur-unsur"
-" berikut:"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:352
 msgid "Menubar"
-msgstr "Palang Menu"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:354
@@ -575,13 +480,11 @@ msgid ""
 "The menus on the menubar contain all the commands that you need to work with"
 " <application>System Monitor</application>."
 msgstr ""
-"Menu pada palang menu mengandungi semua perintah yang anda perlu kendalikan "
-"dengan <application>Pemantau Sistem</application>."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:360
 msgid "Display area"
-msgstr "Kawasan paparan"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:362
@@ -589,8 +492,6 @@ msgid ""
 "The display area contains the system monitor information. The display area "
 "contains the following tabbed sections:"
 msgstr ""
-"Kawasan paparan mengandungi maklumat pemantau sistem. Kawasan paparan "
-"mengandungi seksyen-seksyen bertab seperti berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:370
@@ -598,8 +499,6 @@ msgid ""
 "Contains a list of basic system properties, such as system software versions"
 " and hardware specifications and status."
 msgstr ""
-"Mengandungi satu senarai sifat-sifat sistem asas, seperti versi perisian "
-"sistem dan spesifikasi perkakasan serta statusnya."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:378
@@ -607,9 +506,6 @@ msgid ""
 "Contains a list of processes organized as a table, a list of load averages "
 "over the past few minutes, and an <guibutton>End Process</guibutton> button."
 msgstr ""
-"Mengandungi satu senarai proses-proses yang disusun dalam bentuk jadual, "
-"satu senarai purata muatan atau beban merentasi tempoh beberapa minit, dan "
-"juga butang <guibutton>Tamat Proses</guibutton>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:386
@@ -618,19 +514,16 @@ msgid ""
 "Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
 "graph."
 msgstr ""
-"Mengandungi satu graf <guilabel>Sejarah CPU</guilabel>, satu graf "
-"<guilabel>Sejarah Ingatan dan Silih</guilabel>, dan satu graf "
-"<guilabel>Sejarah Rangkaian</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:394
 msgid "Contains a table of currently mounted file systems."
-msgstr "Mengandungi satu jadual sistem-sistem fail semasa yang terlekap."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:402
 msgid "Statusbar"
-msgstr "Palang Status"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:404
@@ -639,19 +532,16 @@ msgid ""
 "Monitor</application> activity and contextual information about the menu "
 "items."
 msgstr ""
-"Palang status memaparkan maklumat berkenaan aktiviti <application>Pemantau "
-"Sistem</application> semasa dan maklumat konteksual berkenaan item-item "
-"menu."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:418
 msgid "Usage"
-msgstr "Penggunaan"
+msgstr "Usage"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:421
 msgid "To Display Basic System Information"
-msgstr "Papar Maklumat Sistem Asas"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:422
@@ -659,8 +549,6 @@ msgid ""
 "To display basic system information, select the <guilabel>System</guilabel> "
 "tab."
 msgstr ""
-"Untuk memaparkan maklumat sistem asas, pilih tab "
-"<guilabel>Sistem</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:425
@@ -668,25 +556,22 @@ msgid ""
 "In the <guilabel>System</guilabel> tab, information is organized into three "
 "groups:"
 msgstr ""
-"Dala tab <guilabel>Sistem</guilabel>, maklumat disusun kepada tiga kumpulan:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:430
 msgid "System Information"
-msgstr "Maklumat Sistem"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:448
 msgid "To Display the Process List"
-msgstr "Papar Senarai Proses"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:449
 msgid ""
 "To display the process list, select the <guilabel>Processes</guilabel> tab."
 msgstr ""
-"Untuk memaparkan senarai proses, pilih tab <guilabel>Proses-"
-"Proses</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:452
@@ -699,32 +584,26 @@ msgid ""
 "<guilabel>Processes</guilabel> tab displays the following columns by "
 "default:"
 msgstr ""
-"Dalam tab <guilabel>Proses-Proses</guilabel>, proses disusun dalam bentuk "
-"jadual. Baris jadual memaparkan maklumat berkenaan proses. Lajur mewakili "
-"medan maklumat untuk proses, seperti nama pengguna yang memiliki proses, "
-"amaun ingatan semasa yang digunakan oleh proses, dan seterusnya. Dari arah "
-"kiri ke kanan, tab <guilabel>Proses-Proses</guilabel> memaparkan lajur "
-"berikut secara lalai:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:457
 msgid "Process Name"
-msgstr "Nama Proses"
+msgstr "Nómine de processu"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:460
 msgid "Status"
-msgstr "Status"
+msgstr "Statu"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
 msgid "%CPU"
-msgstr "%CPU"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
 msgid "Nice"
-msgstr "Elok"
+msgstr "Nice"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:469
@@ -734,42 +613,42 @@ msgstr "ID"
 #. (itstool) path: listitem/para
 #: C/index.docbook:472
 msgid "Memory"
-msgstr "Ingatan"
+msgstr "Memorie"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:475
 msgid "Waiting Channel"
-msgstr "Menunggu Saluran"
+msgstr "Canal de atende"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr "Jumlah Baca Cakera"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr "Jumlah Tulis Cakera"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr "Baca Cakera"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr "Tulis Cakera"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490
 msgid "Unit"
-msgstr "Unit"
+msgstr "Unité"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:493
 msgid "Priority"
-msgstr "Keutamaan"
+msgstr "Prioritá"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:496
@@ -777,14 +656,11 @@ msgid ""
 "For information about how to change the columns displayed in the process "
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
-"Maklumat berkenaan cara mengubah lajur yang terpapar di dalam senarai "
-"proses, bolehlah rujuk <xref linkend=\"mate-system-monitor-prefs-"
-"proclist\"/>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:501
 msgid "Parent Processes and Child Processes"
-msgstr "Proses Induk dan Proses Anak"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:502
@@ -796,17 +672,11 @@ msgid ""
 "behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-"
 "viewdeps\"/>."
 msgstr ""
-"Proses induk ialah proses yang membiakkan proses-proses lain. Proses "
-"terhasil ialah proses anak dariapda proses induk asal. Secara lalai, "
-"<application>Pemantau Sistem</application> tidak menunjukkan dependensi-"
-"dependensi proses. Maklumat bagaimana hendak mengubah kelakuan paparan "
-"lalai, bolehlah rujuk <xref linkend=\"mate-system-monitor-modify-"
-"processlist-viewdeps\"/>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:508
 msgid "Process Priority and Nice Values"
-msgstr "Keutamaan Proses dan Nilai-Nilai Elok"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:509
@@ -815,9 +685,6 @@ msgid ""
 "priority processes. Child processes generally inherit their priority from "
 "their parent process."
 msgstr ""
-"Proses-proses yang dijalankan mengikut keutamaan: proses keutamaan-tinggi "
-"dijalankan dahulu sebelum proses-proses keutamaan-rendah. Proses anak biasa "
-"mewarisi keutamaan mereka daripada proses induk."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:512
@@ -825,23 +692,21 @@ msgid ""
 "The priority of a process is set by the nice value of the process, as "
 "follows:"
 msgstr ""
-"Keutamaan proses ditetapkan oleh nilai elok sesebuah proses, seperti "
-"berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:517
 msgid "A nice value of 0 means that the process has normal priority."
-msgstr "Satu nilai elok 0 bermaksud proses mempunyai keutamaan biasa."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:522
 msgid "The higher the nice value, the lower the priority."
-msgstr "Lebih tinggi nilai elok, lebih rendah keutamaannya."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:527
 msgid "The lower the nice value, the higher the priority."
-msgstr "Lebih rendah nilai elok, lebih tinggi keutamaannya."
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:532
@@ -849,18 +714,16 @@ msgid ""
 "For information about how to change the priority of a process, see <xref "
 "linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
-"Maklumat berkenaan cara mengubah keutamaan sesebuah proses, bolehlah merujuk"
-" <xref linkend=\"mate-system-monitor-change-priority\"/>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:540
 msgid "To Sort the Process List"
-msgstr "Mengisih Senarai Proses"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:541
 msgid "To sort the process list, perform the following steps:"
-msgstr "Untuk mengisih senarai proses, buat langkah-langkah berikut:"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:546 C/index.docbook:581 C/index.docbook:604
@@ -869,8 +732,6 @@ msgstr "Untuk mengisih senarai proses, buat langkah-langkah berikut:"
 msgid ""
 "Select the <guilabel>Processes</guilabel> tab to display the process list."
 msgstr ""
-"Pilih tab <guilabel>Proses-Proses</guilabel> untuk memaparkan senarai "
-"proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:551
@@ -879,9 +740,6 @@ msgid ""
 " the processes in reverse alphabetical order, click on the <guilabel>Process"
 " Name</guilabel> column header."
 msgstr ""
-"Secara lalai, proses tersenarai mengikut nama, dalam tertib berabjad. Untuk "
-"menyenaraikan proses dalam tertib abjad songsang, klik pada pengepala lajur "
-"<guilabel>Nama Proses</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:556
@@ -889,9 +747,6 @@ msgid ""
 "Click on any column header to sort the processes by the information in that "
 "column, in alphabetical or numerical order."
 msgstr ""
-"Klik pada mana-mana pengepala lajur untuk mengisih proses-proses mengikut "
-"maklumat di dalam lajur tersebut, sama ada dalam tertib berabjad atau "
-"berangka."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:561
@@ -899,31 +754,27 @@ msgid ""
 "Click again on the column header to sort the data in reverse alphabetical or"
 " reverse numerical order."
 msgstr ""
-"Klik sekali lagi pada pengepala lajur untuk mengisih data dalam tertib "
-"berabjad songsang atau berangka songsang."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:569
 msgid "To Modify the Contents of the Process List"
-msgstr "Mengubahsuai Kandungan Senarai Proses"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:570
 msgid "You can modify the contents of the process list in several ways."
-msgstr "Anda boleh mengubahsuai kandungan senarai proses dalam beberapa cara."
+msgstr ""
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:575
 msgid "To Show All Processes"
-msgstr "Menunjukkan Semua Proses"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:576
 msgid ""
 "To show all processes in the process list, perform the following steps:"
 msgstr ""
-"Untuk menunjukkan semua proses di dalam senarai proses, buat langkah-langkah"
-" berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:586
@@ -931,13 +782,11 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
-"Pilih <menuchoice> <guimenu>Lihat</guimenu> <guimenuitem>Semua "
-"Proses</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:598
 msgid "To Show Only Processes Owned by the Current User"
-msgstr "Hanya Menunjukkan Proses Milik Pengguna Semasa"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:599
@@ -945,8 +794,6 @@ msgid ""
 "To show only the processes that are owned by the current user, perform the "
 "following steps:"
 msgstr ""
-"Untuk hanya menunjukkan proses milik pengguna semasa, buat langkah-langkah "
-"berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:609
@@ -954,13 +801,11 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
-"Pilih <menuchoice> <guimenu>Lihat</guimenu> <guimenuitem>Proses "
-"Saya</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:621
 msgid "To Show Only Active Processes"
-msgstr "Hanya Menunjukkan Proses Aktif"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:622
@@ -968,8 +813,6 @@ msgid ""
 "To show only the active processes in the process list, perform the following"
 " steps:"
 msgstr ""
-"Untuk hanya menunjukkan proses aktif di dalam senarai proses, buat langkah-"
-"langkah berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:632
@@ -977,13 +820,11 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
-"Pilih <menuchoice> <guimenu>Lihat</guimenu> <guimenuitem>Proses "
-"Aktif</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:644
 msgid "To Show Dependencies"
-msgstr "Menunjukkan Dependensi"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:645
@@ -991,8 +832,6 @@ msgid ""
 "To show process dependencies in the process list, perform the following "
 "steps:"
 msgstr ""
-"Untuk hanya menunjukkan dependensi proses di dalam senarai proses, buat "
-"langkah-langkah berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:655
@@ -1000,8 +839,6 @@ msgid ""
 "Choose "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
 msgstr ""
-"Pilih "
-"<menuchoice><guimenu>Lihat</guimenu><guimenuitem>Dependensi</guimenuitem></menuchoice>."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:660
@@ -1009,8 +846,6 @@ msgid ""
 "If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the "
 "processes are listed as follows:"
 msgstr ""
-"Jika item menu <guimenuitem>Dependensi</guimenuitem> dipilih, proses-proses "
-"yang tersenarai seperti berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:665
@@ -1019,49 +854,42 @@ msgid ""
 "process name. Click on the triangle symbol to show or hide the associated "
 "child processes."
 msgstr ""
-"Proses induk ditunjukkan dengan simbol segitiga di sebelah kiri nama proses."
-" Klik pada simbol segitiga untuk tunjuk atau sembunyikan proses-proses anak "
-"berkaitan dengannya."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:670
 msgid "Child processes are indented, and listed with their parent process."
 msgstr ""
-"Proses-proses anak telah diindenkan, dan tersenarai bersama-sama proses "
-"induk mereka."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:675
 msgid ""
 "If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
-msgstr "Jika item menu <guimenuitem>Dependensi</guimenuitem> tidak terpilih:"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:680
 msgid "Parent processes and child processes are not distinguishable."
-msgstr "Proses induk dan proses anak tidak boleh dibezakan."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:685
 msgid "All processes are listed in alphabetical order."
-msgstr "Semua proses yang tersenarai dalam tertib berabjad."
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:695
 msgid "To Display Memory Maps for a Process"
-msgstr "Papar Peta-Peta Ingatan bagi sesebuah Proses"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:696
 msgid "To display memory maps for a process, perform the following steps:"
 msgstr ""
-"Untuk memaparkan peta-peta ingatan untuk sesebuah proses, buat langkah-"
-"langkah berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:706
 msgid "Select the process in the process list."
-msgstr "Pilih proses di dalam senarai proses."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:711
@@ -1070,9 +898,6 @@ msgid ""
 "Maps</guimenuitem></menuchoice>, or perform a right-click and choose "
 "<menuchoice><guimenu>Memory Maps</guimenu></menuchoice>."
 msgstr ""
-"Pilih <menuchoice><guimenu>Lihat</guimenu><guimenuitem>Peta "
-"Ingatan</guimenuitem></menuchoice>, atau klik-kanan dan pilih "
-"<menuchoice><guimenu>Peta Ingatan</guimenu></menuchoice>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:716
@@ -1082,15 +907,11 @@ msgid ""
 "table. From left to right, the <guilabel>Memory Maps</guilabel> dialog "
 "displays the following columns:"
 msgstr ""
-"Dialog <guilabel>Peta Ingatan</guilabel> memaparkan maklumat dalam format "
-"jadual. Nama proses terpapar di atas jadual peta-ingatan. Dari arah kiri ke "
-"kanan, dialog <guilabel>Peta Ingatan</guilabel> memaparkan lajur-lajur "
-"berikut:"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:721
 msgid "<guilabel>Filename</guilabel>"
-msgstr "<guilabel>Nama Fail</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:723
@@ -1100,44 +921,41 @@ msgid ""
 "that is owned by the process whose name is displayed above the memory-map "
 "table."
 msgstr ""
-"Loaksi pustaka terkongsi yang kini digunakan oleh proses. Jika medan ini "
-"kosong, maklumat ingatan dalam baris ini menjelaskan ingatan itu milik "
-"proses yang namanya terpapar di atas jadual peta-ingatan."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:729
 msgid "<guilabel>VM Start</guilabel>"
-msgstr "<guilabel>Mula VM</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:731
 msgid "The address at which the memory segment begins."
-msgstr "Alamat yang mana segmen ingatan bermula."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:737
 msgid "<guilabel>VM End</guilabel>"
-msgstr "<guilabel>Tamat VM</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:739
 msgid "The address at which the memory segment ends."
-msgstr "Alamat yang mana segmen ingatan tamat."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:745
 msgid "<guilabel>VM Size</guilabel>"
-msgstr "<guilabel>Saiz VM</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:747
 msgid "The size of the memory segment."
-msgstr "Saiz bagi segment ingatan."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:753
 msgid "<guilabel>Flags</guilabel>"
-msgstr "<guilabel>Bendera</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:755
@@ -1145,13 +963,11 @@ msgid ""
 "The following flags describe the different types of memory-segment access "
 "that the process can have:"
 msgstr ""
-"Bendera berikut menjelaskan jenis capaian segmen-ingatan berbeza yang mana "
-"proses boleh miliki:"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:760
 msgid "p"
-msgstr "p"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:762
@@ -1159,38 +975,36 @@ msgid ""
 "The memory segment is private to the process, and is not accessible to other"
 " processes."
 msgstr ""
-"Segmen ingatan adalah persendirian pada proses tersebut, dan tidak boleh "
-"dicapai oleh proses lain."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:768
 msgid "r"
-msgstr "r"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:770
 msgid "The process has permission to read from the memory segment."
-msgstr "Proses mempunyai keizinan untuk baca dari segmen ingatan."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:776
 msgid "s"
-msgstr "s"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:778
 msgid "The memory segment is shared with other processes."
-msgstr "Segmen ingatan dikongsi dengan proses lain."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:784
 msgid "w"
-msgstr "w"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:786
 msgid "The process has permission to write into the memory segment."
-msgstr "Proses mempunyai keizinan untuk tulis ke dalam segmen ingatan."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:792
@@ -1203,23 +1017,21 @@ msgid ""
 "The process has permission to execute instructions that are contained within"
 " the memory segment."
 msgstr ""
-"Proses mempunyai keizinan untuk melakukan arahan yang terkandung di dalam "
-"segmen ingatan."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:803
 msgid "<guilabel>VM Offset</guilabel>"
-msgstr "<guilabel>Ofset VM</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:805
 msgid "The virtual memory offset of the memory segment."
-msgstr "Ofset ingatan maya bagi segmen ingatan."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:811
 msgid "<guilabel>Private clean</guilabel>"
-msgstr "<guilabel>Persendirian bersih</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:813
@@ -1227,13 +1039,11 @@ msgid ""
 "Unmodified pages since they were mapped that belong only to a specific "
 "process."
 msgstr ""
-"Halaman-halaman tidak diubahsuai semenjak ia dipetakan hanya pada proses "
-"khusus."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:819
 msgid "<guilabel>Private dirty</guilabel>"
-msgstr "<guilabel>Persendirian tercemar</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:821
@@ -1241,35 +1051,32 @@ msgid ""
 "Pages that have been modified since they were mapped that belong only to a "
 "specific process."
 msgstr ""
-"Halaman-halaman yang diubahsuai semenjak ia dipetakan hanya pada proses "
-"khusus."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:827
 msgid "<guilabel>Shared clean</guilabel>"
-msgstr "<guilabel>Terkongsi bersih</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:829
 msgid "Unmodified pages that are shared by multiple processes."
 msgstr ""
-"Halaman-halaman tidak diubahsuai  yang dikongsi oleh berbilang proses."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:835
 msgid "<guilabel>Shared dirty</guilabel>"
-msgstr "<guilabel>Terkongsi tercemar</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:837
 msgid "Modified pages that are shared by multiple processes."
-msgstr "Halaman-halaman yang diubahsuai yang dikongsi oleh berbilang proses."
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:843 C/index.docbook:1537
 msgid "<guilabel>Device</guilabel>"
-msgstr "<guilabel>Peranti</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:845
@@ -1277,13 +1084,11 @@ msgid ""
 "The major and minor device numbers of the device on which the shared library"
 " filename is located."
 msgstr ""
-"Bilangan peranti major dan minor bagi peranti yang nama fail terkongsinya "
-"berada."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:851
 msgid "<guilabel>Inode</guilabel>"
-msgstr "<guilabel>Inode</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:853
@@ -1291,8 +1096,6 @@ msgid ""
 "The inode on the device from which the shared library location is loaded "
 "into memory."
 msgstr ""
-"Inode pada peranti yang mana lokasi pustaka terkongsi dimuatkan ke dalam "
-"ingatan."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:859
@@ -1301,10 +1104,6 @@ msgid ""
 "column, in alphabetical or numerical order. Click again on the column header"
 " to sort the data in reverse alphabetical or reverse numerical order."
 msgstr ""
-"Klik pada mana-mana pengepala lajur untuk mengisih data berdasarkan maklumat"
-" di dalam lajur tersebut, dalam tertib berabjad atau angka. Klik sekali lagi"
-" pada pengepala lajur untuk mengisih data dalam tertib berabjad atau angka "
-"secara songsang."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:862
@@ -1312,24 +1111,21 @@ msgid ""
 "Click <guibutton>Close</guibutton> to close the <guilabel>Memory "
 "Maps</guilabel> dialog."
 msgstr ""
-"Klik <guibutton>Tutup</guibutton> untuk menutup dialog <guilabel>Peta "
-"Ingatan</guilabel>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:868
 msgid "To Change the Priority of a Process"
-msgstr "Mengubah Keutamaan sesebuah Proses"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:869
 msgid "To change the priority of a process, perform the following steps:"
 msgstr ""
-"Untuk mengubah keutamaan sesebuah proses, buat langkah-langkah berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:879
 msgid "Select the process for which you want to change the priority."
-msgstr "Pilih proses yang anda mahu mengubah keutamaannya."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:884
@@ -1342,17 +1138,11 @@ msgid ""
 "<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
 "follows."
 msgstr ""
-"Pilih keutamaan dalam "
-"<menuchoice><guimenu>Sunting</guimenu><guimenuitem>Ubah "
-"Keutamaan</guimenuitem></menuchoice>, atau klik-kanan dan pilih "
-"<menuchoice><guimenu>Ubah Keutamaan</guimenu></menuchoice>. Jika item menu "
-"<guimenuitem>Suai</guimenuitem> dipilih, dialog <guilabel>Ubah "
-"Keutamaan</guilabel> dipaparkan, dan teruskan seperti berikut."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:889
 msgid "Use the slider to set the nice value of the process."
-msgstr "Guna pelungsur untuk tetapkan nilai elok bagi proses."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:892
@@ -1360,8 +1150,6 @@ msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
 msgstr ""
-"Nilai elok tetapkan keutamaan sesebuah proses: lebih rendah nilai, lebih "
-"tinggi keutamaannya."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:895
@@ -1369,28 +1157,26 @@ msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
 msgstr ""
-"Untuk menyatakan satu nilai lebih rendah dari sifar, pengguna bukan-root "
-"perlu masukkan kata laluan root."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:900
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
-msgstr "Klik pada butang <guibutton>Ubah Keutamaan</guibutton>."
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:909
 msgid "To End a Process"
-msgstr "Menamatkan sesebuah Proses"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:910
 msgid "To end a process, perform the following steps:"
-msgstr "Untuk menamatkan sesebuah proses, buat langkah-langkah berikut:"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:920
 msgid "Select the process that you want to end."
-msgstr "Pilih proses yang anda mahu tamatkan."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:925
@@ -1400,9 +1186,6 @@ msgid ""
 "<menuchoice><guimenu>End Process</guimenu></menuchoice>, or click on the "
 "<guibutton>End Process</guibutton> button."
 msgstr ""
-"Pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Tamat "
-"Proses</guimenuitem> </menuchoice>, atau klik-kanan dan pilih Tamat Proses, "
-"atau klik pada butang <guibutton>Tamat Proses</guibutton>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:928 C/index.docbook:963
@@ -1411,9 +1194,6 @@ msgid ""
 "display or hide the confirmation alert, see <xref linkend=\"mate-system-"
 "monitor-prefs-proclist\"/>."
 msgstr ""
-"Secara lalai, satu amaran pengesahan dipaparkan. Bagi maklumat berkenaan "
-"cara memaparkan atau menyembunyikan amaran pengesahan, bolehlah rujuk <xref "
-"linkend=\"mate-system-monitor-prefs-proclist\"/>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:933
@@ -1422,30 +1202,26 @@ msgid ""
 "want to end the process. <application>System Monitor</application> forces "
 "the process to finish normally."
 msgstr ""
-"Klik pada butang <guibutton>Tamat Proses</guibutton> untuk mengesahkan anda "
-"mahu tamatkan proses tersebut. <application>Pemantau Sistem</application> "
-"akan memaksa proses itu ditamatkan seperti biasa."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:938
 msgid "This is the preferred way to stop a process."
 msgstr ""
-"Tindakan ini adalah cara yang disarankan untuk menghentikan sesebuah proses."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:944
 msgid "To Terminate a Process"
-msgstr "Menghentikan Proses"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:945
 msgid "To terminate a process, perform the following steps:"
-msgstr "Untuk menghentikan sesebuah proses, buat langkah-langkah berikut:"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:955
 msgid "Select the process that you want to terminate."
-msgstr "Pilih proses yang anda mahu hentikan."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:960
@@ -1454,9 +1230,6 @@ msgid ""
 "Process</guimenuitem></menuchoice>, or perform a right-click and choose "
 "<menuchoice><guimenu>Kill Process</guimenu></menuchoice>."
 msgstr ""
-"Pilih <menuchoice><guimenu>Sunting</guimenu><guimenuitem>Matikan "
-"Proses</guimenuitem></menuchoice>, atau klik-kanan dan pilih "
-"<menuchoice><guimenu>Matikan Proses</guimenu></menuchoice>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:968
@@ -1465,9 +1238,6 @@ msgid ""
 "want to terminate the process. <application>System Monitor</application> "
 "forces the process to finish immediately."
 msgstr ""
-"Klik pada butang <guibutton>Matikan Proses</guibutton> untuk mengesahkan "
-"anda mahu hentikan proses tersebut. <application>Pemantau "
-"Sistem</application> akan memaksa proses dihentikan serta-merta."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:973
@@ -1475,19 +1245,16 @@ msgid ""
 "You usually terminate a process only if you cannot end the process normally "
 "as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
 msgstr ""
-"Anda biasanya menghentikan sesebuah proses sekiranya ia tidak dapat "
-"ditamatkan secara biasa seperti di dalam <xref linkend=\"mate-system-"
-"monitor-end-process\"/>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:979
 msgid "To Monitor CPU Usage"
-msgstr "Memantau Penggunaan CPU"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:980
 msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
-msgstr "Untuk memantau penggunaan CPU, pilih tab <guilabel>Sumber</guilabel>."
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:983
@@ -1496,14 +1263,11 @@ msgid ""
 "graphical format. Underneath the graph, <application>System "
 "Monitor</application> also displays the current CPU usage, as a percentage."
 msgstr ""
-"<application>Pemantau Sistem</application> memaparkan sejarah penggunaan CPU"
-" dalam format bergrafik. Di bawah graf, <application>Pemantau "
-"Sistem</application> juga memaparkan pengguna CPU semasa, dalam peratus."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:990
 msgid "To Monitor Memory and Swap Usage"
-msgstr "Memantau Penggunaan Ingatan dan Silih"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:991
@@ -1511,8 +1275,6 @@ msgid ""
 "To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
 "tab."
 msgstr ""
-"Untuk memantau penggunaan ingatan dan silih, pilih tab "
-"<guilabel>Sumber</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:994
@@ -1522,32 +1284,27 @@ msgid ""
 "<application>System Monitor</application> also displays the following "
 "numerical values:"
 msgstr ""
-"<application>Pemantau Sistem</application> memaparkan sejarah penggunaan "
-"ingatan dan sejarah penggunaan silih dalam format bergrafik. Di bawah graf, "
-"<application>Pemantau Sistem</application> juga memaparkan nilai-nilai "
-"berangka, dalam peratus."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:999
 msgid "Used memory out of total memory"
-msgstr "Ingatan digunakan dari sejumlah ingatan"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1004
 msgid "Used swap out of total swap"
-msgstr "Silih digunakan dari sejumlah ingatan"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1013
 msgid "To Monitor Network Activity"
-msgstr "Memantau Aktiviti Rangkaian"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1014
 msgid ""
 "To monitor network activity, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
-"Untuk memantau aktiviti rangkaian, pilih tab <guilabel>Sumber</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1017
@@ -1556,32 +1313,27 @@ msgid ""
 "graphical format. Underneath the graph, <application>System "
 "Monitor</application> also displays the following numerical values:"
 msgstr ""
-"<application>Pemantau Sistem</application> memaparkan sejarah rangkaian "
-"dalam format bergrafik. Di bawah graf, <application>Pemantau "
-"Sistem</application> juga memaparkan nilai-nilai berangka:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1022
 msgid "Received data per second and total"
-msgstr "Data diterima sesaat dan jumlah"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1027
 msgid "Sent data per second and total"
-msgstr "Data dihantar sesaat dan jumlah"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1035
 msgid "To Monitor File Systems"
-msgstr "Memantau Sistem Fail"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1036
 msgid ""
 "To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
 msgstr ""
-"Untuk memantau sistem-sistem fail, pilih tab <guilabel>Sistem "
-"Fail</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1039
@@ -1590,44 +1342,41 @@ msgid ""
 "tabular format. From left to right, the table displays the following "
 "columns:"
 msgstr ""
-"<application>Pemantau Sistem</application> memaparkan sistem-sistem fail "
-"terlekap dalam format jadual. Dari arah kiri ke kanan, jadual memaparkan "
-"lajur-lajur berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1044
 msgid "Device"
-msgstr "Peranti"
+msgstr "Aparate"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1047
 msgid "Directory"
-msgstr "Direktori"
+msgstr "Directoria"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1050
 msgid "Type"
-msgstr "Jenis"
+msgstr "Tip"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1053
 msgid "Total"
-msgstr "Jumlah"
+msgstr "Total"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1056
 msgid "Free"
-msgstr "Bebas"
+msgstr "Líber"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1059
 msgid "Available"
-msgstr "Tersedia"
+msgstr "Disponibil"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1062
 msgid "Used"
-msgstr "Digunakan"
+msgstr "Ocupat"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1065
@@ -1635,14 +1384,11 @@ msgid ""
 "For information about how to change the columns displayed in the file "
 "systems list, see <xref linkend=\"mate-system-monitor-prefs-fs\"/>."
 msgstr ""
-"Maklumat berkenaan cara mengubah lajur yang terpapar di dalam senarai sistem"
-" fail, bolehlah merujuk <xref linkend=\"mate-system-monitor-prefs-"
-"proclist\"/>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1071
 msgid "To Customize the Resources Tabbed Section"
-msgstr "Suaikan Seksyen Bertab Sumber"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1072
@@ -1650,13 +1396,11 @@ msgid ""
 "You can customize the <guilabel>Resources</guilabel> tabbed section in the "
 "following ways:"
 msgstr ""
-"Anda boleh menyuaikan seksyen bertab <guilabel>Sumber</guilabel> dengan cara"
-" berikut:"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1091
 msgid "To Change the Line Colors of the CPU Graph"
-msgstr "Mengubah Warna Garisan bagi Graf CPU"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:1092
@@ -1664,8 +1408,6 @@ msgid ""
 "To change the color of the lines that represents CPU usage in the "
 "<guilabel>CPU History</guilabel> graph, perform the following steps:"
 msgstr ""
-"Untuk mengubah warna garisan yang mewakili penggunaan CPU di dalam graf "
-"<application>Sejarah CPU</application>, buat langkah-langkah berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1097 C/index.docbook:1126 C/index.docbook:1155
@@ -1674,9 +1416,6 @@ msgid ""
 "Monitor</guilabel> window, to display the graphs and table that provide "
 "information about the usage of system resources."
 msgstr ""
-"Pilih tab <guilabel>Sumber</guilabel> dalam tetingkap <guilabel>Pemantau "
-"Sistem</guilabel>, untuk memaparkan graf dan jadual yang menunjukkan "
-"maklumat berkenaan penggunaan sumber-sumber sistem."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1102
@@ -1684,8 +1423,6 @@ msgid ""
 "Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a "
 "color</guilabel> dialog is displayed."
 msgstr ""
-"Klik pada butang warna <guibutton>CPU</guibutton>. Dialog <guilabel>Pilih "
-"satu warna</guilabel> dipaparkan."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1107 C/index.docbook:1136 C/index.docbook:1165
@@ -1693,8 +1430,6 @@ msgid ""
 "Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel"
 " or the spin boxes to customize the color."
 msgstr ""
-"Pada satu warna daripada <guilabel>Palet</guilabel>,  atau guna roda warna "
-"atau kotak angka untuk menyuaikan warna."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1112 C/index.docbook:1141 C/index.docbook:1170
@@ -1702,13 +1437,11 @@ msgid ""
 "Click <guibutton>OK</guibutton> to close the <guilabel>Pick a "
 "color</guilabel> dialog."
 msgstr ""
-"Klik <guibutton>OK</guibutton> untuk menutup dialog <guilabel>Pilih satu "
-"warna</guilabel>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1120
 msgid "To Change the Line Colors of the Memory and Swap Graph"
-msgstr "Mengubah Warna Garisan bagi Graf Ingatan dan Graf Silih"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:1121
@@ -1717,9 +1450,6 @@ msgid ""
 " <guilabel>Memory and Swap History</guilabel> graph, perform the following "
 "steps:"
 msgstr ""
-"Untuk mengubah warna garisan yang mewakili penggunaan ingatan dan silih di "
-"dalam graf <application>Sejarah Ingatan dan Silih</application>, buat "
-"langkah-langkah berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1131
@@ -1727,14 +1457,11 @@ msgid ""
 "Click on the <guibutton>Memory</guibutton> or <guibutton>Swap</guibutton> "
 "button. The <guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
-"Klik pada butang <guibutton>Ingatan</guibutton> atau "
-"<guibutton>Silih</guibutton>. Dialog <guilabel>Pilih satu warna</guilabel> "
-"dipaparkan."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1149
 msgid "To Change the Line Colors of the Network Graph"
-msgstr "Mengubah Warna Garisan bagi Graf Rangkaian"
+msgstr ""
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:1150
@@ -1742,9 +1469,6 @@ msgid ""
 "To change the color of the lines that represent network usage in the "
 "<guilabel>Network History</guilabel> graph, perform the following steps:"
 msgstr ""
-"Untuk mengubah warna garisan yang mewakili penggunaan rangkaian di dalam "
-"graf <application>Sejarah Rangkaian</application>, buat langkah-langkah "
-"berikut:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1160
@@ -1752,14 +1476,11 @@ msgid ""
 "Click on the <guilabel>Receiving</guilabel> or <guilabel>Sending</guilabel> "
 "button. The <guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
-"Klik pada butang <guilabel>Penerimaan</guilabel> atau "
-"<guilabel>Penghantaran</guilabel>. Dialog <guilabel>Pilih satu "
-"warna</guilabel> dipaparkan."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:1182
 msgid "Preferences"
-msgstr "Keutamaan"
+msgstr "Preferenties"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:1183
@@ -1769,25 +1490,21 @@ msgid ""
 " The <guilabel>Preferences</guilabel> dialog contains the following tabbed "
 "sections:"
 msgstr ""
-"Untuk mengkonfigur <application>Pemantau Sistem</application>, pilih "
-"<menuchoice><guimenu>Sunting</guimenu><guimenuitem>Keutamaan</guimenuitem></menuchoice>."
-" Dialog <guilabel>Keutamaan</guilabel> mengandungi seksyen-seksyen bertab "
-"seperti berikut:"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1198
 msgid "Processes"
-msgstr "Proses"
+msgstr "Processus"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1201
 msgid "<guilabel>Behavior</guilabel>"
-msgstr "<guilabel>Kelakuan</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1207 C/index.docbook:1480 C/index.docbook:1509
 msgid "<guilabel>Update interval in seconds</guilabel>"
-msgstr "<guilabel>Kemaskini sela dalam saat</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1210
@@ -1795,24 +1512,21 @@ msgid ""
 "Use this spin box to specify the interval at which you want to update the "
 "process list."
 msgstr ""
-"Guna kotak angka untuk menentukan sela yang dikehendaki untuk mengemaskini "
-"senarai proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1215
 msgid "<guilabel>Enable smooth refresh</guilabel>"
-msgstr "<guilabel>Benarkan segar semula licin</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1218
 msgid "Select this option to refresh smoothly."
-msgstr "Pilih pilihan ini untuk segarkan semula secara lancar."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1223
 msgid "<guilabel>Alert before ending or killing processes</guilabel>"
 msgstr ""
-"<guilabel>Beri amaran sebelum proses ditamatkan atau dimatikan</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1226
@@ -1820,13 +1534,11 @@ msgid ""
 "Select this option to display a confirmation alert when you end a process or"
 " terminate a process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan satu amaran pengesahan ketika anda "
-"menamatkan satu proses atau menghentikan satu proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1231
 msgid "<guilabel>Divide CPU usage by CPU count</guilabel>"
-msgstr "<guilabel>Bahagi penggunaan CPU mengikut kiraan CPU</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1234
@@ -1834,13 +1546,11 @@ msgid ""
 "Select this to divide each process' CPU% in the Processes table by the "
 "number of CPUs."
 msgstr ""
-"Pilih ini untuk bahagikan setiap proses CPU% di dalam jadual Proses mengikut"
-" bilangan CPU."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1242 C/index.docbook:1528
 msgid "<guilabel>Information Fields</guilabel>"
-msgstr "<guilabel>Medan Maklumat</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1246
@@ -1848,13 +1558,11 @@ msgid ""
 "Use the following options to select which fields are displayed in the "
 "process list:"
 msgstr ""
-"Guna pilihan berikut untuk memilih medan yang dipaparkan dalam senarai "
-"proses:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1251
 msgid "<guilabel>Process Name</guilabel>"
-msgstr "<guilabel>Nama Proses</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1254
@@ -1863,24 +1571,22 @@ msgid ""
 "contain an icon to indicate the application that is associated with the "
 "process."
 msgstr ""
-"Pilih pilihan ini untuk paparkan nama proses. Lajur ini mungkin mengandungi "
-"satu ikon yang menunjukkan aplikasi dikaitkan dengan proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1259
 msgid "<guilabel>User</guilabel>"
-msgstr "<guilabel>Pengguna</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1262
 msgid ""
 "Select this option to display the name of the user who owns the process."
-msgstr "Pilih pilihan ini untuk paparkan nama pengguna yang memiliki proses."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1267
 msgid "<guilabel>Status</guilabel>"
-msgstr "<guilabel>Status</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1270
@@ -1888,13 +1594,11 @@ msgid ""
 "Select this option to display the current status of the process: sleeping or"
 " running."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan status semasa proses: tidur atau "
-"berjalan."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1275
 msgid "<guilabel>Virtual Memory</guilabel>"
-msgstr "<guilabel>Ingatan Maya</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1278
@@ -1902,13 +1606,11 @@ msgid ""
 "Select this option to display the amount of virtual memory that is allocated"
 " to the process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun ingatan maya yang teruntuk ke dalam"
-" proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1283
 msgid "<guilabel>Resident Memory</guilabel>"
-msgstr "<guilabel>Ingatan Residen</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1286
@@ -1916,13 +1618,11 @@ msgid ""
 "Select this option to display the amount of physical memory that is "
 "allocated to the process."
 msgstr ""
-"Pilih pilihan ini untuk paparkan amaun ingatan fizikal yang teruntuk ke "
-"dalam proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1291
 msgid "<guilabel>Writable Memory</guilabel>"
-msgstr "<guilabel>Ingatan Boleh Tulis</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1294
@@ -1930,13 +1630,11 @@ msgid ""
 "Select this option to display the amount of memory that can be written by "
 "the process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun ingatan maya yang boleh ditulis "
-"oleh proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1299
 msgid "<guilabel>Shared Memory</guilabel>"
-msgstr "<guilabel>Ingatan Terkongsi</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1302
@@ -1945,14 +1643,11 @@ msgid ""
 "to the process. Shared memory is memory that can be accessed by another "
 "process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun ingatan terkongsi yang teruntuk ke "
-"dalam proses. Ingatan terkongsi ialah ingatan yang boleh dicapai oleh proses"
-" lain."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1307
 msgid "<guilabel>X Server Memory</guilabel>"
-msgstr "<guilabel>Ingatan X Server</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1310
@@ -1960,13 +1655,11 @@ msgid ""
 "Select this option to display the amount of X server memory that is used by "
 "the process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun ingatan X server yang digunakan "
-"oleh proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1315
 msgid "<guilabel>% CPU</guilabel>"
-msgstr "<guilabel>% CPU</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1318
@@ -1974,13 +1667,11 @@ msgid ""
 "Select this option to display the percentage of CPU time currently being "
 "used by the process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan peratus masa CPU semasa yang digunakan "
-"oleh proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1323
 msgid "<guilabel>CPU Time</guilabel>"
-msgstr "<guilabel>Masa CPU</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1326
@@ -1988,23 +1679,21 @@ msgid ""
 "Select this option to display the amount of CPU time that has been used by "
 "the process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun masa CPU yang telah digunakan oleh "
-"proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1331
 msgid "<guilabel>Started</guilabel>"
-msgstr "<guilabel>Mula</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1334
 msgid "Select this option to display when the process began running."
-msgstr "Pilih pilihan ini untuk dipaparkan ketika proses bermula."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1339
 msgid "<guilabel>Nice</guilabel>"
-msgstr "<guilabel>Elok</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1342
@@ -2013,14 +1702,11 @@ msgid ""
 "sets the priority of the process: the lower the nice value, the higher the "
 "priority."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan nilai elok sesebuah proses. Nilai elok "
-"tetapkan keutamaan sesebuah proses: lebih rendah nilai, lebih tinggi "
-"keutamaannya."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1347
 msgid "<guilabel>ID</guilabel>"
-msgstr "<guilabel>ID</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1350
@@ -2029,14 +1715,11 @@ msgid ""
 " The pid is a number that uniquely identifies the process. You can use the "
 "pid to manipulate the process on the command line."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan pengecam proses, juga dikenali sebagai "
-"pid. Pid ialah sebuah nombor yang secara uniknya mengenalpasti proses. Anda "
-"boleh guna pid untuk memanipilasi proses di dalam baris perintah."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1355
 msgid "<guilabel>Memory</guilabel>"
-msgstr "<guilabel>Ingatan</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1358
@@ -2044,13 +1727,11 @@ msgid ""
 "Select this option to display the amount of system memory that is currently "
 "being used by the process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun ingatan sistem semasa yang "
-"digunakan oleh proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1363
 msgid "<guilabel>Security Context</guilabel>"
-msgstr "<guilabel>Konteks Keselamatan</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1366
@@ -2058,13 +1739,11 @@ msgid ""
 "Select this option to display the security context in which the process is "
 "running."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan konteks keselamatan bagi proses yang "
-"sedang berjalan."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1371
 msgid "<guilabel>Command Line</guilabel>"
-msgstr "<guilabel>Baris Perintah</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1374
@@ -2072,13 +1751,11 @@ msgid ""
 "Select this option to display the command line that was used to start the "
 "process, including arguments."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan baris perintah yang digunakan untuk "
-"memulakan proses, termasuklah argumen-argumennya."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1379
 msgid "<guilabel>Waiting Channel</guilabel>"
-msgstr "<guilabel>Saluran Menunggu</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1382
@@ -2086,25 +1763,22 @@ msgid ""
 "Select this option to display the waiting channel, whereby a process waits "
 "for a resource."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan saluran menunggu, iaitu proses menunggu "
-"satu sumber."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1387
 msgid "<guilabel>Control Group</guilabel>"
-msgstr "<guilabel>Kumpulan Kawalan</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1390
 msgid ""
 "Select this option to display the control group that a process belongs to."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan kumpulan kawalan milik sesebuah proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1395
 msgid "<guilabel>Disk Read Total</guilabel>"
-msgstr "<guilabel>Jumlah Baca Cakera</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1398
@@ -2112,13 +1786,11 @@ msgid ""
 "Select this option to display the total amount of data read from the disk by"
 " a process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan jumlah amaun baca data melalui cakera "
-"oleh satu proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1403
 msgid "<guilabel>Disk Write Total</guilabel>"
-msgstr "<guilabel>Jumlah Tulis Cakera</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1406
@@ -2126,13 +1798,11 @@ msgid ""
 "Select this option to display the total amount of data written to the disk "
 "by a process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan jumlah amaun baca ditulis ke dalam cakera"
-" oleh satu proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1411
 msgid "<guilabel>Disk Read</guilabel>"
-msgstr "<guilabel>Baca Cakera</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1414
@@ -2140,13 +1810,11 @@ msgid ""
 "Select this option to display the speed at which data is being read from the"
 " disk by a process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan kelajuan data dibaca melalui cakera oleh "
-"satu proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1419
 msgid "<guilabel>Disk Write</guilabel>"
-msgstr "<guilabel>Tulis Cakera</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1422
@@ -2154,23 +1822,21 @@ msgid ""
 "Select this option to display the speed at which data is being written to "
 "the disk by a process."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan kelajuan data ditulis melalui cakera oleh"
-" satu proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1427
 msgid "<guilabel>Unit</guilabel>"
-msgstr "<guilabel>Unit</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1430
 msgid "Select this option to display the systemd unit for a process."
-msgstr "Pilih pilihan ini untuk memaparkan unit systemd bagi sesebuah proses."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1435
 msgid "<guilabel>Session</guilabel>"
-msgstr "<guilabel>Sesi</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1438
@@ -2178,13 +1844,11 @@ msgid ""
 "Select this option to display the session under which the process is "
 "running."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan sesi di bawah proses yang sedang "
-"berjalan."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1443
 msgid "<guilabel>Seat</guilabel>"
-msgstr "<guilabel>Tempat</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1446
@@ -2192,23 +1856,21 @@ msgid ""
 "Select this option to display the \"seat\" a process is assigned to. The "
 "special default seat called \"seat0\" always exists."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan \"tempat\" sebuah proses diperuntukan. "
-"tempat lalai khas dikenali sebagai \"seat0\" sentiasa wujud."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1451
 msgid "<guilabel>Owner</guilabel>"
-msgstr "<guilabel>Pemilik</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1454
 msgid "Select this option to display the owner of a process."
-msgstr "Pilih pilihan ini untuk memaparkan pemilik sesebuah proses."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1459
 msgid "<guilabel>Priority</guilabel>"
-msgstr "<guilabel>Keutamaan</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1462
@@ -2217,19 +1879,16 @@ msgid ""
 "allowed to use. A process running with higher priority can use more of the "
 "CPU compared to the one with a lower priority."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan keutamaan sesebuah proses - bagaimanakah "
-"CPU digunakan Sebuah proses yang berjalan dengan keutamaan lebih tinggi "
-"dapat menggunakan lebih CPU berbanding yang rendah keutamaannya."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1473
 msgid "Resources"
-msgstr "Sumber"
+msgstr "Ressurses"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1476
 msgid "<guilabel>Graphs</guilabel>"
-msgstr "<guilabel>Graf</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1483
@@ -2237,13 +1896,11 @@ msgid ""
 "Use this spin box to specify how often you want to update the "
 "<application>System Monitor</application> graphs."
 msgstr ""
-"Guna kotak angka untuk menentukan berapa kerapkah kemaskini  graf "
-"<application>Pemantau Sistem</application> yang dikehendaki."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1488
 msgid "<guilabel>Show network speed in bits</guilabel>"
-msgstr "<guilabel>Tunjuk kelajuan rangkaian dalam bit</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1491
@@ -2251,13 +1908,11 @@ msgid ""
 "Select this option to show your network speed in bits/s instead of the "
 "default bytes/s."
 msgstr ""
-"Pilih pilihan ini untuk menunjukkan kelajuan rangkaian anda dalam bit/s "
-"selain dari lalai iaitu bait/s."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1502
 msgid "File Systems"
-msgstr "Sistem Fail"
+msgstr "Sistemas de file"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1512
@@ -2265,13 +1920,11 @@ msgid ""
 "Use this spin box to specify how often you want to update the <guilabel>File"
 " Systems</guilabel> table."
 msgstr ""
-"Guna kotak angka untuk menentukan berapa kerapkah kemaskini  jadual "
-"<application>Pemantau Sistem</application> yang dikehendaki."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1517
 msgid "<guilabel>Show all file systems</guilabel>"
-msgstr "<guilabel>Tunjuk semua sistem fail</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1520
@@ -2279,8 +1932,6 @@ msgid ""
 "Select this option to show all file systems, including temporary and system "
 "ones."
 msgstr ""
-"Pilih pilihan ini untuk menunjukkan semua sistem-sistem fail, termasuklah "
-"sistem dan sementara."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1532
@@ -2288,19 +1939,17 @@ msgid ""
 "Use the following options to select which fields are displayed in the file "
 "system list:"
 msgstr ""
-"Guna pilihan berikut untuk memilih medan manakah yang dipaparkan dalam "
-"senarai sistem fail:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1540
 msgid ""
 "Select this option to display the location of the block file for the device."
-msgstr "Pilih pilihan ini untuk memaparkan lokasi fail blok untuk peranti."
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1545
 msgid "<guilabel>Directory</guilabel>"
-msgstr "<guilabel>Direktori</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1548
@@ -2308,13 +1957,11 @@ msgid ""
 "Select this option to display the mount point (directory to access) of a "
 "device."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan titik lekap (direktori untuk dicapai) "
-"bagi sesebuah peranti."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1553
 msgid "<guilabel>Type</guilabel>"
-msgstr "<guilabel>Jenis</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1556
@@ -2325,27 +1972,21 @@ msgid ""
 " ext2 etc. The file system type will be shown if this option is selected in "
 "case it's a supported type."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan jenis sitsem fail. Dalam kebanyakan "
-"distribusi GNU/Linux dan lain-lain sistem pengoperasian seakan-Unix, "
-"terdapat banyak jenis sistem fail yang disokong oleh kernel, seperti NTFS, "
-"FAT32, ext4, ext3, ext2, dan lain-lain. Jenis sistem fail akan ditunjukkan "
-"jika pilihan ini dipilih sekiranya ia jenis disokong."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1561
 msgid "<guilabel>Total</guilabel>"
-msgstr "<guilabel>Jumlah</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1564
 msgid "Select this option to display the total capacity of a file system."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan jumlah kapasiti sesebuah sistem fail."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1569
 msgid "<guilabel>Free</guilabel>"
-msgstr "<guilabel>Bebas</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1572
@@ -2353,34 +1994,31 @@ msgid ""
 "Select this option to display the amount of space not used by the file "
 "system."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun ruang yang tidak digunakan oleh "
-"sistem fail."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1577
 msgid "<guilabel>Available</guilabel>"
-msgstr "<guilabel>Ketersediaan</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1580
 msgid "Select this option to display the amount of space left for use."
 msgstr ""
-"Pilih pilihan ini untuk memaparkan amaun ruang berbaki yang boleh digunakan."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1585
 msgid "<guilabel>Used</guilabel>"
-msgstr "<guilabel>Digunakan</guilabel>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1588
 msgid "Select this option to display the amount of used space."
-msgstr "Pilih pilihan ini untuk memaparkan amaun ruang yang telah digunakan."
+msgstr ""
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
 msgid "link"
-msgstr "pautan"
+msgstr "ligament"
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:2
@@ -2392,9 +2030,3 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
-"Keizinan diberi untuk menyalin, mengedar dan/atau mengubahsuai dokumen ini "
-"bawah terma Lesen Dokumentasi Bebas GNU (GDFL), bagi Versi 1.1 atau mana-"
-"mana versi terkemudian yang telah diterbitkan oleh Free Software Foundation "
-"tanpa Seksyen Tak Varian, tanpa Teks Muka-Hadapan, dan tanpa Teks Muka "
-"Belakang. Anda boleh temui satu salinan GFDL di dalam <_:ulink-1/> atau di "
-"dalam fail COPYING-DOCS yang disertakan bersama-sama panduan ini."

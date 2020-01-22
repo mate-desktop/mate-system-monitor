@@ -1,17 +1,19 @@
 # Translators:
 # talorno <giovanni.talorno@gmail.com>, 2018
-# Dario Di Nucci <linkin88mail@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Giuseppe Pignataro <rogepix@gmail.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Marco Z. <minaz666@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Dario Di Nucci <linkin88mail@gmail.com>, 2019
+# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Giuseppe Pignataro <rogepix@gmail.com>, 2019
+# Enrico B. <enricobe@hotmail.com>, 2019
+# Alessandro Volturno <alelvb@inwind.it>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"POT-Creation-Date: 2019-02-10 17:51+0100\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Marco Z. <minaz666@gmail.com>, 2018\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,17 +29,18 @@ msgstr "riconoscimenti-traduttore"
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
 msgid "System Monitor Manual V2.3"
-msgstr ""
+msgstr "Manuale di Monitor di Sistema V2.3"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
-msgid "<year>2015</year> <holder>MATE Documentation Project</holder>"
-msgstr "<year>2015</year> <holder>MATE Documentation Project</holder>"
+msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
+msgstr ""
+"<year>2015-2020</year> <holder>Progetto Documentazione di MATE</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
 msgid "<year>2009</year> <holder>Paul Cutler</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Paul Cutler</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
@@ -50,19 +53,21 @@ msgid ""
 "<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
 "Day</holder>"
 msgstr ""
+"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
+"Day</holder>"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr "Documentazione del progetto MATE"
+msgstr "progetto Documentazione di  MATE"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr "Documentazione del Progetto GNOME"
+msgstr "Progetto Documentazione di GNOME"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:2
@@ -182,6 +187,8 @@ msgid ""
 "<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
+"<firstname>Progetto documentazione di MATE</firstname> <surname/> "
+"<affiliation> <orgname>MATE Desktop</orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70
@@ -198,6 +205,8 @@ msgid ""
 "<firstname>Bill</firstname> <surname>Day</surname> "
 "<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 msgstr ""
+"<firstname>Bill</firstname> <surname>Day</surname> "
+"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:80
@@ -206,6 +215,9 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> "
 "<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 msgstr ""
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> "
+"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
@@ -218,11 +230,13 @@ msgid ""
 "<revnumber>System Monitor Manual V2.3</revnumber> <date>July 2015</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuale del Monitor di Sistema V2.3</revnumber> <date>Luglio "
+"2015</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:120
 msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
-msgstr ""
+msgstr "Paul Cutler <email>pcutler@foresightlinux.org</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:116
@@ -230,6 +244,8 @@ msgid ""
 "<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuale del Monitor di Sistema V2.2;</revnumber> <date>Marzo "
+"2009</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
@@ -242,11 +258,13 @@ msgid ""
 "<revnumber>System Monitor Manual V2.1</revnumber> <date>February 2004</date>"
 " <_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuale del Monitor di Sistema V2.1</revnumber> <date>Febbraio "
+"2004</date> <_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:138 C/index.docbook:147
 msgid "Bill Day <email>billday@bellatlantic.net</email>"
-msgstr ""
+msgstr "Bill Day <email>billday@bellatlantic.net</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:134
@@ -254,6 +272,8 @@ msgid ""
 "<revnumber>System Monitor Manual V2.0</revnumber> <date>November 2002</date>"
 " <_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuale del Monitor di Sistema  V2.0</revnumber> <date>Novembre "
+"2002</date> <_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:143
@@ -261,11 +281,13 @@ msgid ""
 "<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Manuale Procman V0.11</revnumber> <date>Gennaio 2002</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:155
 msgid "This manual describes version 1.10.0 of System Monitor."
-msgstr ""
+msgstr "Questa guida descrive la versione 1.10.0 del Monitor di Sistema."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:160
@@ -279,6 +301,9 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
+"Per segnalare un malfunzionamento o un suggerimento sul Monitor di Sistema o"
+" su questo manuale, segui le istruzioni nella <ulink url=\"help:mate-user-"
+"guide/feedback\" type=\"help\">pagina di feedback di MATE</ulink>"
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:169
@@ -287,21 +312,24 @@ msgid ""
 "network, and memory activities as well as a way for viewing and stopping "
 "system processes."
 msgstr ""
+"Monitor di Sistema fornisce agli utenti un'interfaccia grafica per "
+"controllare le attività di CPU, rete e memoria, oltre a fornire la "
+"possibilità di osservare e arrestare i processi di sistema in esecuzione."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:177
 msgid "<primary>System Monitor</primary>"
-msgstr ""
+msgstr "<primary>System Monitor</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:180
 msgid "<primary>mate-system-monitor</primary>"
-msgstr ""
+msgstr "<primary>mate-system-monitor</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:183
 msgid "<primary>procman</primary>"
-msgstr ""
+msgstr "<primary>procman</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:190
@@ -316,6 +344,11 @@ msgid ""
 "system resources, and file systems. You can also use <application>System "
 "Monitor</application> to modify the behavior of your system."
 msgstr ""
+"L'applicazione <application>Monitor di Sistema</application> permette di "
+"mostrare informazioni base sul sistema e di monitorare processi di sustema, "
+"l'uso delle risorse di sistema e del file system. È Possibile utilizzare "
+"<application>Monitor di Sistema</application> per modificare il "
+"comportamento del vostro sistema."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:194
@@ -323,39 +356,41 @@ msgid ""
 "The <application>System Monitor</application> window contains four tabbed "
 "sections:"
 msgstr ""
+"La finestra del <application>Monitor di Sistema</application> contiene "
+"quattro sezioni a scheda:"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:199 C/index.docbook:367
 msgid "<guilabel>System</guilabel>"
-msgstr ""
+msgstr "<guilabel>Sistema</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:203
 msgid ""
 "Displays various basic information about the computer's hardware and "
 "software."
-msgstr ""
+msgstr "Mostra diverse informazioni su hardware e software del computer."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:206
 msgid "Distribution"
-msgstr ""
+msgstr "Distribuzione"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:212
 msgid "Distribution version"
-msgstr ""
+msgstr "Versione della distribuzione"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:215
 msgid "Linux Kernel version"
-msgstr ""
+msgstr "Versione del Kernel Linux"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:218
 msgid "MATE version"
-msgstr ""
+msgstr "Versione di MATE"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -366,12 +401,12 @@ msgstr "Hardware"
 #. (itstool) path: listitem/para
 #: C/index.docbook:230
 msgid "Installed memory"
-msgstr ""
+msgstr "Memoria installata"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:233
 msgid "Processors and speeds"
-msgstr ""
+msgstr "Processori e velocità"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -382,13 +417,13 @@ msgstr "Stato del sistema"
 #. (itstool) path: listitem/para
 #: C/index.docbook:245
 msgid "Currently available disk space"
-msgstr ""
+msgstr "Spazio su disco attualmente disponibile"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:254 C/index.docbook:375
 msgid "<guilabel>Processes</guilabel>"
-msgstr ""
+msgstr "<guilabel>Processesi</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:258
@@ -397,44 +432,48 @@ msgid ""
 "Provides detailed information about individual processes, and enables you to"
 " control active processes."
 msgstr ""
+"Mostra i processi attivi e come essi sono in relazione gli uni con gli "
+"altri."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:264 C/index.docbook:383
 msgid "<guilabel>Resources</guilabel>"
-msgstr ""
+msgstr "<guilabel>Risorse</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:268
 msgid "Displays the current usage of the following system resources:"
-msgstr ""
+msgstr "Mostra l'utilizzo corrente delle seguenti risorse del sistema:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:273
 msgid "CPU (central processing unit) time"
-msgstr ""
+msgstr "Tempo della CPU (central processing unit)"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:278
 msgid "Memory and swap space"
-msgstr ""
+msgstr "Memoria e spazio di swap"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:283
 msgid "Network usage"
-msgstr ""
+msgstr "Uilizzo della rete"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
-#: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1448
+#: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1505
 msgid "<guilabel>File Systems</guilabel>"
-msgstr ""
+msgstr "<guilabel>File Sistems</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:295
 msgid ""
 "Lists all mounted file systems along with basic information about each."
 msgstr ""
+"Elenca tutti i file system montati assieme alle informazioni di basilari su "
+"ciascuno di essi."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
@@ -444,7 +483,7 @@ msgstr "Per iniziare"
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
 msgid "To Start System Monitor"
-msgstr ""
+msgstr "Avviare Monitor di Sistema"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:310
@@ -452,18 +491,22 @@ msgid ""
 "You can start <application>System Monitor</application> in the following "
 "ways:"
 msgstr ""
+"è possibile avviare <application>Monitor di Sistema</application> nei "
+"seguenti modi"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
-msgid "<guimenu>System</guimenu> menu"
-msgstr ""
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "menù <guimenu>Applicazioni</guimenu>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
 msgid ""
-"Choose <menuchoice><guimenu>Administration</guimenu> <guimenuitem>System "
+"Choose <menuchoice><guimenu>System Tools</guimenu> <guimenuitem>MATE System "
 "Monitor</guimenuitem></menuchoice>."
 msgstr ""
+"Selezionare <menuchoice><guimenu>Strumenti di Sistema</guimenu> "
+"<guimenuitem>Monitor di Sistema MATE</guimenuitem></menuchoice>."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:321
@@ -473,12 +516,12 @@ msgstr "Riga di comando"
 #. (itstool) path: listitem/para
 #: C/index.docbook:323
 msgid "Execute the following command: <command>mate-system-monitor</command>"
-msgstr ""
+msgstr "Eseguire il seguente comando: <command>mate-system-monitor</command>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:331
 msgid "When You Start System Monitor"
-msgstr ""
+msgstr "Quando si avvia Monitor di Sistema"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:332
@@ -486,11 +529,13 @@ msgid ""
 "When you start <application>System Monitor</application>, the following "
 "window is displayed:"
 msgstr ""
+"Quando si avvia <application>Monitor di Sistema</application>, viene "
+"visualizzata la seguente finestra:"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:336
 msgid "System Monitor Window"
-msgstr ""
+msgstr "Finestra del Monitor di Sistema"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -503,6 +548,8 @@ msgid ""
 "external ref='figures/mate-system-monitor_window.png' "
 "md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 msgstr ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:338
@@ -511,6 +558,9 @@ msgid ""
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows System Monitor "
 "main window.</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/mate-system-monitor_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Mostra la finestra "
+"principale di Monitor di Sistema</phrase> </textobject>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:347
@@ -518,6 +568,8 @@ msgid ""
 "The <application>System Monitor</application> window contains the following "
 "elements:"
 msgstr ""
+"La finestra di <application>Monitor di Sistema</application> contiene i "
+"seguenti elementi:"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:352
@@ -530,11 +582,13 @@ msgid ""
 "The menus on the menubar contain all the commands that you need to work with"
 " <application>System Monitor</application>."
 msgstr ""
+"I menu sulla barra dei menu contengono tutti gli strumenti necessari per "
+"lavorare con <application>Monitor di Sistema</application>."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:360
 msgid "Display area"
-msgstr ""
+msgstr "Area di visualizzazione"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:362
@@ -542,6 +596,8 @@ msgid ""
 "The display area contains the system monitor information. The display area "
 "contains the following tabbed sections:"
 msgstr ""
+"L'area di visualizzazione le informazioni del monitor di sistema. L'area di "
+"visualiazzazione contiene le sezioni seguenti:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:370
@@ -549,6 +605,8 @@ msgid ""
 "Contains a list of basic system properties, such as system software versions"
 " and hardware specifications and status."
 msgstr ""
+"Contiene un elenco delle proprietà base del sistema, come la versione del "
+"software di sistema e lo stato e le specifiche dell'hardware."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:378
@@ -556,6 +614,9 @@ msgid ""
 "Contains a list of processes organized as a table, a list of load averages "
 "over the past few minutes, and an <guibutton>End Process</guibutton> button."
 msgstr ""
+"Contiene un elenco dei processi organizzati in tabella, un elenco del carico"
+" medio degli ultimi minuti e un pulsante <guibutton>Termina "
+"Processo</guibutton>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:386
@@ -564,11 +625,14 @@ msgid ""
 "Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
 "graph."
 msgstr ""
+"Contiene un grafico sulla <guilabel>Storia della CPU</guilabel>, un grafico "
+"sulla <guilabel>Storia della Memorie e dello Swap</guilabel>, ed un grafico "
+"sulla <guilabel>Storia della Rete</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:394
 msgid "Contains a table of currently mounted file systems."
-msgstr ""
+msgstr "Contiene una lista dei file system attualmente montati."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:402
@@ -582,16 +646,19 @@ msgid ""
 "Monitor</application> activity and contextual information about the menu "
 "items."
 msgstr ""
+"La barra di stato mostra informazioni sull'attività corrente di "
+"<application>Monitor di Sistema</application> e le informazioni contestuali "
+"sugli oggetti dei menu"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:418
 msgid "Usage"
-msgstr "Uso"
+msgstr "Utilizzo"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:421
 msgid "To Display Basic System Information"
-msgstr ""
+msgstr "Mostrare le Informazioni di Base sul Sistema"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:422
@@ -599,6 +666,8 @@ msgid ""
 "To display basic system information, select the <guilabel>System</guilabel> "
 "tab."
 msgstr ""
+"Per mostrare le informazioni di base del sistema, selezionare la scheda "
+"<guilabel>Sistema</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:425
@@ -606,22 +675,26 @@ msgid ""
 "In the <guilabel>System</guilabel> tab, information is organized into three "
 "groups:"
 msgstr ""
+"Nella scheda <guilabel>Sistema</guilabel>, l'informazione è organizzata in "
+"tre gruppi:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:430
 msgid "System Information"
-msgstr ""
+msgstr "Informazioni di Sistema"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:448
 msgid "To Display the Process List"
-msgstr ""
+msgstr "Mostrare l'Elenco dei Processi"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:449
 msgid ""
 "To display the process list, select the <guilabel>Processes</guilabel> tab."
 msgstr ""
+"Per mostrare l'elenco dei processi attivi selezionare la "
+"scheda<guilabel>Processi</guilabel>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:452
@@ -634,6 +707,12 @@ msgid ""
 "<guilabel>Processes</guilabel> tab displays the following columns by "
 "default:"
 msgstr ""
+"Nella scheda <guilabel>Processi</guilabel>, questi sono organizzati in una "
+"tabella. Le righe della tabella mostrano le informazioni sui processi. Le "
+"colonne rappresentano campi di informazione come il nome dell'utente che ha "
+"lanciato il processo, il quantitativo di memoria attualmente utilizzato dal "
+"processo, eccetera. Da sinistra a destra la scheda "
+"<guilabel>Processi</guilabel> mostra di default le seguenti colonne:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:457
@@ -648,7 +727,7 @@ msgstr "Stato"
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
 msgid "%CPU"
-msgstr ""
+msgstr "%CPU"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
@@ -665,20 +744,57 @@ msgstr "ID"
 msgid "Memory"
 msgstr "Memoria"
 
-#. (itstool) path: sect2/para
+#. (itstool) path: listitem/para
 #: C/index.docbook:475
+msgid "Waiting Channel"
+msgstr "WCHAN"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:478
+msgid "Disk Read Total"
+msgstr "Lettura disco totale"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:481
+msgid "Disk Write Total"
+msgstr "Scrittura disco totale"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:484
+msgid "Disk Read"
+msgstr "Lettura disco"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:487
+msgid "Disk Write"
+msgstr "Scrittura disco"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:490
+msgid "Unit"
+msgstr "Unità"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:493
+msgid "Priority"
+msgstr "Priorità"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:496
 msgid ""
 "For information about how to change the columns displayed in the process "
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
+"Pe informazioni su come cambiare le colonne mostrate nella lista dei "
+"processi, vedi <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:480
+#: C/index.docbook:501
 msgid "Parent Processes and Child Processes"
-msgstr ""
+msgstr "Processi Genitore e Processi Figlio"
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:481
+#: C/index.docbook:502
 msgid ""
 "A parent process is a process that spawns another process. The spawned "
 "process is a child process of the original parent process. By default, "
@@ -687,1169 +803,1602 @@ msgid ""
 "behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-"
 "viewdeps\"/>."
 msgstr ""
+"Un processo genitore è un processo che lancia un altro processo. Il rocesso "
+"lanciato è il processo figlio del processo genitore originario. Come "
+"impostazione predefinita, <application>Monitor di Sistema</application> non "
+"mostra le dipendenze dei processi. Per informazioni su come modificare il "
+"comportamento di visualizzazione predefinito, vedi <xref linkend=\"mate-"
+"system-monitor-modify-processlist-viewdeps\"/>."
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:487
+#: C/index.docbook:508
 msgid "Process Priority and Nice Values"
-msgstr ""
+msgstr "Priorità di un Processo e Valori Nice"
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:488
+#: C/index.docbook:509
 msgid ""
 "Processes run in order of priority: high-priority processes run before low-"
 "priority processes. Child processes generally inherit their priority from "
 "their parent process."
 msgstr ""
+"I processi sono eseguiti in ordine di priorità: processi a priorità elevata "
+"sono eseguiti prima di quelli a priorità più bassa. I processi figlio "
+"ereditano la loro priorità dal processo genitore."
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:491
+#: C/index.docbook:512
 msgid ""
 "The priority of a process is set by the nice value of the process, as "
 "follows:"
 msgstr ""
+"La priorità di un processo è impostata dal valore nice del processo, come "
+"segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:496
+#: C/index.docbook:517
 msgid "A nice value of 0 means that the process has normal priority."
-msgstr ""
+msgstr "Un valore nice di 0 significa che il processo ha priorità normale."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:501
+#: C/index.docbook:522
 msgid "The higher the nice value, the lower the priority."
-msgstr ""
+msgstr "Più è alto il valore nice, minore è la priorità del processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:506
+#: C/index.docbook:527
 msgid "The lower the nice value, the higher the priority."
-msgstr ""
+msgstr "Più basso il valore nice, più alta è la priorità"
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:511
+#: C/index.docbook:532
 msgid ""
 "For information about how to change the priority of a process, see <xref "
 "linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
+"Per informazioni su come modificare la priorità di un processo, vedi <xref "
+"linkend=\"mate-system-monitor-change-priority\"/>."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:519
+#: C/index.docbook:540
 msgid "To Sort the Process List"
-msgstr ""
+msgstr "Ordinare l'Elenco dei Processi"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:520
+#: C/index.docbook:541
 msgid "To sort the process list, perform the following steps:"
-msgstr ""
+msgstr "Per ordinare l'elenco dei processi, procedere come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:525 C/index.docbook:560 C/index.docbook:583
-#: C/index.docbook:606 C/index.docbook:629 C/index.docbook:680
-#: C/index.docbook:821 C/index.docbook:862 C/index.docbook:897
+#: C/index.docbook:546 C/index.docbook:581 C/index.docbook:604
+#: C/index.docbook:627 C/index.docbook:650 C/index.docbook:701
+#: C/index.docbook:874 C/index.docbook:915 C/index.docbook:950
 msgid ""
 "Select the <guilabel>Processes</guilabel> tab to display the process list."
 msgstr ""
+"Selezionare la scheda <guilabel>Processi</guilabel> per mostrare l'elenco "
+"dei processi."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:530
+#: C/index.docbook:551
 msgid ""
 "By default, the processes are listed by name, in alphabetical order. To list"
 " the processes in reverse alphabetical order, click on the <guilabel>Process"
 " Name</guilabel> column header."
 msgstr ""
+"Per default i processi sono elencati per nome, in ordine alfabetico. Per "
+"ordinarli in ordine alfabetico inverso, fare click sull'intestazione della "
+"colonna <guilabel>Nome del Processo</guilabel>."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:535
+#: C/index.docbook:556
 msgid ""
 "Click on any column header to sort the processes by the information in that "
 "column, in alphabetical or numerical order."
 msgstr ""
+"Fare click su una qualsiasi intestazione di colonna, per ordinare i processi"
+" secondo le informazioni di quella colonna, in ordine alfabetico o numerico."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:540
+#: C/index.docbook:561
 msgid ""
 "Click again on the column header to sort the data in reverse alphabetical or"
 " reverse numerical order."
 msgstr ""
+"Fare nuovamente click sull'intestazione della colonna per ordinare i "
+"processi in ordine alfabetico o numerico inverso."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:548
+#: C/index.docbook:569
 msgid "To Modify the Contents of the Process List"
-msgstr ""
+msgstr "Modificare il Contenuto dell'Elenco dei Processi"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:549
+#: C/index.docbook:570
 msgid "You can modify the contents of the process list in several ways."
 msgstr ""
+"È possibile modificare il contenuto dell'elenco dei processi in diversi "
+"modi."
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:554
+#: C/index.docbook:575
 msgid "To Show All Processes"
-msgstr ""
+msgstr "Mostrare Tutti i Processi"
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:555
+#: C/index.docbook:576
 msgid ""
 "To show all processes in the process list, perform the following steps:"
 msgstr ""
+"Per mostrare tutti i processi nell'elenco dei processi, procedere come "
+"segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:565
+#: C/index.docbook:586
 msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"Selezionare <menuchoice> <guimenu>Visualizza</guimenu> <guimenuitem>Tutti i "
+"Processi</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:577
+#: C/index.docbook:598
 msgid "To Show Only Processes Owned by the Current User"
-msgstr ""
+msgstr "Mostrare Solo i Processi Relativi all'Utente Corrente."
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:578
+#: C/index.docbook:599
 msgid ""
 "To show only the processes that are owned by the current user, perform the "
 "following steps:"
 msgstr ""
+"Per mostrare solo i processi relativi all'utente corrente, procedere come "
+"segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:588
+#: C/index.docbook:609
 msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"Selezionare <menuchoice> <guimenu>Visualizza</guimenu> <guimenuitem>Processi"
+" personali</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:600
+#: C/index.docbook:621
 msgid "To Show Only Active Processes"
-msgstr ""
+msgstr "Mostrare Solo i Processi Attivi"
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:601
+#: C/index.docbook:622
 msgid ""
 "To show only the active processes in the process list, perform the following"
 " steps:"
 msgstr ""
+"Per mostrare solo i processi attivi nella finestra dei processi, procedere "
+"come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:611
+#: C/index.docbook:632
 msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"Selezianare <menuchoice> <guimenu>viualizza</guimenu> <guimenuitem>Processi "
+"attivi</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:623
+#: C/index.docbook:644
 msgid "To Show Dependencies"
-msgstr ""
+msgstr "Mostrare le Dipendenze"
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:624
+#: C/index.docbook:645
 msgid ""
 "To show process dependencies in the process list, perform the following "
 "steps:"
 msgstr ""
+"Per mostrare le dipendenze tra processi nell'elenco dei processi, procedere "
+"come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:634
+#: C/index.docbook:655
 msgid ""
 "Choose "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
 msgstr ""
+"Selezionare <menuchoice> <guimenu>Visualizza</guimenu> "
+"<guimenuitem>Dipendenze</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:639
+#: C/index.docbook:660
 msgid ""
 "If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the "
 "processes are listed as follows:"
 msgstr ""
+"Se l'elemento del menu <guimenuitem>Dipendenze</guimenuitem> è selezionato, "
+"i processi vengono elencati come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:644
+#: C/index.docbook:665
 msgid ""
 "Parent processes are indicated by a triangle symbol to the left of the "
 "process name. Click on the triangle symbol to show or hide the associated "
 "child processes."
 msgstr ""
+"I processi genitori sono indicati dal simbolo di un triangolo alla sinistra "
+"del nome del processo. Fate clic sul triangolo per mostrare o nascondere i "
+"processi figli associati."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:649
+#: C/index.docbook:670
 msgid "Child processes are indented, and listed with their parent process."
 msgstr ""
+"I processi figlio sono leggermente spostati sulla destra ed elencati assieme"
+" al loro processo genitore."
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:654
+#: C/index.docbook:675
 msgid ""
 "If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
 msgstr ""
+"Se l'oggetto menu <guimenuitem>Dipendenze</guimenuitem> non è selezionato:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:659
+#: C/index.docbook:680
 msgid "Parent processes and child processes are not distinguishable."
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:664
-msgid "All processes are listed in alphabetical order."
-msgstr ""
-
-#. (itstool) path: sect2/title
-#: C/index.docbook:674
-msgid "To Display Memory Maps for a Process"
-msgstr ""
-
-#. (itstool) path: sect2/para
-#: C/index.docbook:675
-msgid "To display memory maps for a process, perform the following steps:"
-msgstr ""
+msgstr "Processi genitori e processi figlio non sono distinguibili."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:685
-msgid "Select the process in the process list."
-msgstr ""
+msgid "All processes are listed in alphabetical order."
+msgstr "I processi sono elencati in ordine alfabetico."
 
-#. (itstool) path: listitem/para
-#: C/index.docbook:690
-msgid ""
-"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory "
-"Maps</guimenuitem></menuchoice>."
-msgstr ""
+#. (itstool) path: sect2/title
+#: C/index.docbook:695
+msgid "To Display Memory Maps for a Process"
+msgstr "Mostrare le Mappe della Memoria di un Processo"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:695
+#: C/index.docbook:696
+msgid "To display memory maps for a process, perform the following steps:"
+msgstr ""
+"Per mostrare le mappe di memoria di un processo, procedere come segue:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:706
+msgid "Select the process in the process list."
+msgstr "Selezionare il processo dall'elenco dei processi."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:711
+msgid ""
+"Choose <menuchoice><guimenu>View</guimenu><guimenuitem>Memory "
+"Maps</guimenuitem></menuchoice>, or perform a right-click and choose "
+"<menuchoice><guimenu>Memory Maps</guimenu></menuchoice>."
+msgstr ""
+"Selezionare <menuchoice> <guimenu>Vista</guimenu> <guimenuitem>Mappe "
+"memoria</guimenuitem> </menuchoice>, o fare click con il pulsante destro del"
+" mouse e scegliere <menuchoice><guimenu>Mappe della "
+"Memoria</guimenu></menuchoice>."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:716
 msgid ""
 "The <guilabel>Memory Maps</guilabel> dialog displays the information in "
 "tabular format. The name of the process is displayed above the memory-map "
 "table. From left to right, the <guilabel>Memory Maps</guilabel> dialog "
 "displays the following columns:"
 msgstr ""
+"la finestra di dialogo <guilabel>Mappe della Memoria</guilabel> mostra le "
+"informazioni in formato di tabella. Il nome del processo è mostrato sopra la"
+" tabella della mappa di memoria. Da sinistra a destra, il dialogo "
+"<guilabel>Mappe della Memoria</guilabel> mostra le seguenti colonne:"
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:700
+#: C/index.docbook:721
 msgid "<guilabel>Filename</guilabel>"
-msgstr ""
+msgstr "<guilabel>Nome file</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:702
+#: C/index.docbook:723
 msgid ""
 "The location of a shared library that is currently used by the process. If "
 "this field is blank, the memory information in this row describes memory "
 "that is owned by the process whose name is displayed above the memory-map "
 "table."
 msgstr ""
+"La posizione di una libreria condivisa che è attualmente in uso dal "
+"processo. Se questo campo è vuoto, l'informazione di memoria in questa riga "
+"descrive la memoria posseduta dal processo il cui nome è mostrato sopra la "
+"mappa di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:708
+#: C/index.docbook:729
 msgid "<guilabel>VM Start</guilabel>"
-msgstr ""
+msgstr "<guilabel>Inizio VM</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:710
+#: C/index.docbook:731
 msgid "The address at which the memory segment begins."
-msgstr ""
+msgstr "L'indirizzo al quale inizia il segmento di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:716
+#: C/index.docbook:737
 msgid "<guilabel>VM End</guilabel>"
-msgstr ""
+msgstr "<guilabel>Fine VM</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:718
+#: C/index.docbook:739
 msgid "The address at which the memory segment ends."
-msgstr ""
+msgstr "L'indirizzo al quale termina il segmento di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:724
+#: C/index.docbook:745
 msgid "<guilabel>VM Size</guilabel>"
-msgstr ""
+msgstr "<guilabel>Dimensione VM</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:726
+#: C/index.docbook:747
 msgid "The size of the memory segment."
-msgstr ""
+msgstr "La dimensione del segmento di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:732
+#: C/index.docbook:753
 msgid "<guilabel>Flags</guilabel>"
-msgstr ""
+msgstr "<guilabel>Flag</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:734
+#: C/index.docbook:755
 msgid ""
 "The following flags describe the different types of memory-segment access "
 "that the process can have:"
 msgstr ""
+"I flag seguenti descrivono i diversi tipi di accesso che il processo può "
+"avere al segmento di memoria:"
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:739
+#: C/index.docbook:760
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:741
+#: C/index.docbook:762
 msgid ""
 "The memory segment is private to the process, and is not accessible to other"
 " processes."
 msgstr ""
+"Il segmento di memoria è riservato al processo, e non è accessibile da altri"
+" processi"
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:747
+#: C/index.docbook:768
 msgid "r"
-msgstr ""
+msgstr "r"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:749
+#: C/index.docbook:770
 msgid "The process has permission to read from the memory segment."
-msgstr ""
+msgstr "Il processo ha il permesso di leggere dal segmento di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:755
+#: C/index.docbook:776
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:757
+#: C/index.docbook:778
 msgid "The memory segment is shared with other processes."
-msgstr ""
+msgstr "Il segmento di memoria è condiviso con altri processi."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:763
+#: C/index.docbook:784
 msgid "w"
-msgstr ""
+msgstr "w"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:765
+#: C/index.docbook:786
 msgid "The process has permission to write into the memory segment."
-msgstr ""
+msgstr "Il processo ha il permesso di scrivere sul segmento di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:771
+#: C/index.docbook:792
 msgid "x"
 msgstr "x"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:773
+#: C/index.docbook:794
 msgid ""
 "The process has permission to execute instructions that are contained within"
 " the memory segment."
 msgstr ""
+"Il processo ha il permesso di eseguire istruzioni che sono contenute nel "
+"segmento di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:782
+#: C/index.docbook:803
 msgid "<guilabel>VM Offset</guilabel>"
-msgstr ""
+msgstr "<guilabel>Offset VM</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:784
+#: C/index.docbook:805
 msgid "The virtual memory offset of the memory segment."
-msgstr ""
+msgstr "L'offset della memoria virtuale del segmento di memoria."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:790
-msgid "<guilabel>Device</guilabel>"
-msgstr ""
+#: C/index.docbook:811
+msgid "<guilabel>Private clean</guilabel>"
+msgstr "<guilabel>Private clean</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:792
+#: C/index.docbook:813
+msgid ""
+"Unmodified pages since they were mapped that belong only to a specific "
+"process."
+msgstr ""
+"Pagine immutate da quando sono state mappate appartenenti solo allo "
+"specifico processo."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:819
+msgid "<guilabel>Private dirty</guilabel>"
+msgstr "<guilabel>Private dirty</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:821
+msgid ""
+"Pages that have been modified since they were mapped that belong only to a "
+"specific process."
+msgstr ""
+"Pagine che sojo state modificate da quando sono state mappate che "
+"appartengono solo allo specifico processo."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:827
+msgid "<guilabel>Shared clean</guilabel>"
+msgstr "<guilabel>Shared clean</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:829
+msgid "Unmodified pages that are shared by multiple processes."
+msgstr "Pagine immutate che sono condivise tra più processi."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:835
+msgid "<guilabel>Shared dirty</guilabel>"
+msgstr "<guilabel>Shared dirty</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:837
+msgid "Modified pages that are shared by multiple processes."
+msgstr "Pagine modificate che sono condivise tra più processi."
+
+#. (itstool) path: varlistentry/term
+#. (itstool) path: listitem/para
+#: C/index.docbook:843 C/index.docbook:1537
+msgid "<guilabel>Device</guilabel>"
+msgstr "<guilabel>Dispositivo</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:845
 msgid ""
 "The major and minor device numbers of the device on which the shared library"
 " filename is located."
 msgstr ""
+"I numeri di dispositivo maggiore e minore del dispositivo su cui è "
+"localizzato il file di libreria condivisa."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:798
+#: C/index.docbook:851
 msgid "<guilabel>Inode</guilabel>"
-msgstr ""
+msgstr "<guilabel>Inode</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:800
+#: C/index.docbook:853
 msgid ""
 "The inode on the device from which the shared library location is loaded "
 "into memory."
 msgstr ""
+"L'inode sul dispositivo da cui la libreria condivisa è caricata in memoria."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:806
+#: C/index.docbook:859
 msgid ""
 "Click on any column header to sort the data by the information in that "
 "column, in alphabetical or numerical order. Click again on the column header"
 " to sort the data in reverse alphabetical or reverse numerical order."
 msgstr ""
+"Fate click su una qualsiasi intestazione di colonna per ordinare i dati in "
+"base alle informazioni di quella colonna, in ordine alfabetico o numerico. "
+"Fare nuovamente click sulla colonna per ordinare i dati in ordine alfabetico"
+" o numerico inverso."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:809
+#: C/index.docbook:862
 msgid ""
 "Click <guibutton>Close</guibutton> to close the <guilabel>Memory "
 "Maps</guilabel> dialog."
 msgstr ""
+"Fare click su <guibutton>Chiudi</guibutton> per chiudere il dialogo "
+"<guilabel>Mappe della Memoria</guilabel>."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:815
+#: C/index.docbook:868
 msgid "To Change the Priority of a Process"
-msgstr ""
+msgstr "Cambiare Priorità ad un Processo"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:816
+#: C/index.docbook:869
 msgid "To change the priority of a process, perform the following steps:"
-msgstr ""
+msgstr "Per cambiare la priorità di un processo, procedere come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:826
+#: C/index.docbook:879
 msgid "Select the process for which you want to change the priority."
-msgstr ""
+msgstr "Selezionare il processo di cui si vuole modificare la priorità."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:831
+#: C/index.docbook:884
 msgid ""
 "Select the priority in "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Change "
-"Priority</guimenuitem></menuchoice>. If the "
+"Priority</guimenuitem></menuchoice>, or perform a right-click and choose "
+"<menuchoice><guimenu>Change Priority</guimenu></menuchoice>. If the "
 "<guimenuitem>Custom</guimenuitem> menu item is selected, the "
 "<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
 "follows."
 msgstr ""
+"Selezionare la priorità in <menuchoice><guimenu>Modifica</guimenu> "
+"<guimenuitem>Cambia Priorità</guimenuitem></menuchoice>, o fare click col "
+"pulsante destro del mouse e scegliere <menuchoice><guimenu>Cambia "
+"Priorità</guimenu></menuchoice>. Se l'oggetto menu "
+"<guimenuitem>Personalizzata</guimenuitem> è selezionato, verrà mostrato il "
+"dialogo <guilabel>Cambia Priorità</guilabel>, quindi procedete come segue."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:836
+#: C/index.docbook:889
 msgid "Use the slider to set the nice value of the process."
-msgstr ""
+msgstr "Utilizzare il regolo per impostare il valore di nice del processo ."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:839
+#: C/index.docbook:892
 msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
-msgstr ""
+msgstr "Il valore di nice imposta la priorità del processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:842
+#: C/index.docbook:895
 msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
-msgstr ""
+msgstr "Il valore di nice imposta la priorità del processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:847
+#: C/index.docbook:900
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
-msgstr ""
+msgstr "Fare clic sul pulsante <guibutton>Cambia priorità</guibutton>."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:856
+#: C/index.docbook:909
 msgid "To End a Process"
-msgstr ""
+msgstr "Terminare un Processo"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:857
+#: C/index.docbook:910
 msgid "To end a process, perform the following steps:"
-msgstr ""
+msgstr "Per terminare un processo, procedere come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:867
+#: C/index.docbook:920
 msgid "Select the process that you want to end."
-msgstr ""
+msgstr "Selezionare il processo che si vuole terminare."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:872
+#: C/index.docbook:925
 msgid ""
 "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>End "
-"Process</guimenuitem></menuchoice>, or click on the <guibutton>End "
-"Process</guibutton> button."
+"Process</guimenuitem></menuchoice>, or perform a right-click and choose "
+"<menuchoice><guimenu>End Process</guimenu></menuchoice>, or click on the "
+"<guibutton>End Process</guibutton> button."
 msgstr ""
+"Selezionare <menuchoice><guimenu>Modifica</guimenu><guimenuitem>Termina "
+"processo</guimenuitem></menuchoice>, o fare click col pulsante destro del "
+"mouse e scegliere <menuchoice><guimenu>Termina "
+"processo</guimenu></menuchoice>, o fare click sul pulsante "
+"<guibutton>Termina processo</guibutton>."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:875 C/index.docbook:910
+#: C/index.docbook:928 C/index.docbook:963
 msgid ""
 "By default, a confirmation alert is displayed. For information about how to "
 "display or hide the confirmation alert, see <xref linkend=\"mate-system-"
 "monitor-prefs-proclist\"/>."
 msgstr ""
+"Per impostazione predefinita, verrà mostrato un avviso di conferma. Per "
+"informazioni su come mostrare o nascondere l'avviso di conferma, vedere "
+"<xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:880
+#: C/index.docbook:933
 msgid ""
 "Click on the <guibutton>End Process</guibutton> button to confirm that you "
 "want to end the process. <application>System Monitor</application> forces "
 "the process to finish normally."
 msgstr ""
+"Fare click sul pulsante <guibutton>Termina processo</guibutton> per "
+"confermare che si vuole terminare il processo. <application>Monitor di "
+"Sistema</application> forza il processo di terminare normalmente."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:885
+#: C/index.docbook:938
 msgid "This is the preferred way to stop a process."
-msgstr ""
+msgstr "Questo è il modo migliore per interrompere un processo."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:891
+#: C/index.docbook:944
 msgid "To Terminate a Process"
-msgstr ""
+msgstr "Terminare un Processo"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:892
+#: C/index.docbook:945
 msgid "To terminate a process, perform the following steps:"
-msgstr ""
+msgstr "Per terminare un processo , procedere come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:902
+#: C/index.docbook:955
 msgid "Select the process that you want to terminate."
-msgstr ""
+msgstr "Selezionare il processo che si vuole interrompere."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:907
+#: C/index.docbook:960
 msgid ""
 "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Kill "
-"Process</guimenuitem></menuchoice>."
+"Process</guimenuitem></menuchoice>, or perform a right-click and choose "
+"<menuchoice><guimenu>Kill Process</guimenu></menuchoice>."
 msgstr ""
+"Selezionare <menuchoice><guimenu>Modifica</guimenu> <guimenuitem>Uccidi "
+"Processo</guimenuitem></menuchoice>, o fare click con il pulsante destro del"
+" mouse e scegliere<menuchoice><guimenu>Uccidi "
+"Processo</guimenu></menuchoice>."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:915
+#: C/index.docbook:968
 msgid ""
 "Click on the <guibutton>Kill Process</guibutton> button to confirm that you "
 "want to terminate the process. <application>System Monitor</application> "
 "forces the process to finish immediately."
 msgstr ""
+"Fare click sul pulsante <guibutton>Uccidi processo</guibutton> per "
+"confermare che si vuole terminare il processo. <application>Monitor di "
+"Sistema</application> forza il processo ad interrompersi immediatamente."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:920
+#: C/index.docbook:973
 msgid ""
 "You usually terminate a process only if you cannot end the process normally "
 "as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
 msgstr ""
+"Si procede alla terminazione di un processo solo se non è possibile "
+"chiuderlo normalmente come descritto in <xref linkend=\"mate-system-monitor-"
+"end-process\"/>."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:926
+#: C/index.docbook:979
 msgid "To Monitor CPU Usage"
-msgstr ""
+msgstr "Monitorare l'Utilizzo del CPU"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:927
+#: C/index.docbook:980
 msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
+"Per monitorare l'utilizzo del CPU, selezionare la scheda "
+"<guilabel>Risorse</guilabel>."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:930
+#: C/index.docbook:983
 msgid ""
 "<application>System Monitor</application> displays the CPU usage history in "
 "graphical format. Underneath the graph, <application>System "
 "Monitor</application> also displays the current CPU usage, as a percentage."
 msgstr ""
+"<application>Monitor di Sistema</application> mostra la cronologia di "
+"utilizzo del CPU in formato grafico. <application>Monitor di "
+"Sistema</application> mostra inoltre l'utilizzo corrente del CPU, in "
+"percentuale."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:937
+#: C/index.docbook:990
 msgid "To Monitor Memory and Swap Usage"
-msgstr ""
+msgstr "Monitorare la Memoria e l'Utilizzo dello Swap"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:938
+#: C/index.docbook:991
 msgid ""
 "To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
 "tab."
 msgstr ""
+"Per verificare l'utilizzo della memoria e dello swap, selezionare la scheda "
+"<guilabel>Risorse</guilabel>."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:941
+#: C/index.docbook:994
 msgid ""
 "<application>System Monitor</application> displays the memory usage history "
 "and the swap usage history in graphical format. Underneath the graph, "
 "<application>System Monitor</application> also displays the following "
 "numerical values:"
 msgstr ""
+"<application>Monitor di Sistema</application> mostra la cronologia "
+"dell'utilizzo della memoria in modalità grafica. Al di sotto del grafico, "
+"<application>Monitor di Sistema</application> mostra anche i seguenti valori"
+" numerici:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:946
+#: C/index.docbook:999
 msgid "Used memory out of total memory"
-msgstr ""
+msgstr "Memoria utilizzata su memoria totale"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:951
+#: C/index.docbook:1004
 msgid "Used swap out of total swap"
-msgstr ""
+msgstr "Area di swap utilizzata su area di swap totale"
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:960
+#: C/index.docbook:1013
 msgid "To Monitor Network Activity"
-msgstr ""
+msgstr "Monitorare l'Attività di Rete"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:961
+#: C/index.docbook:1014
 msgid ""
 "To monitor network activity, select the <guilabel>Resources</guilabel> tab."
 msgstr ""
+"Per monitorare l'utilizzo della rete, selezionare la scheda "
+"<guilabel>Risorse</guilabel>."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:964
+#: C/index.docbook:1017
 msgid ""
 "<application>System Monitor</application> displays the network history in "
 "graphical format. Underneath the graph, <application>System "
 "Monitor</application> also displays the following numerical values:"
 msgstr ""
+"<application>Monitor di Sistema</application> mostra la cronologia "
+"dell'utilizzo della rete in modalità grafica, <application>Monitor di "
+"Sistema</application>visualizza anche i seguenti valori numerici:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:969
+#: C/index.docbook:1022
 msgid "Received data per second and total"
-msgstr ""
+msgstr "Dati ricevuti per secondo e dati ricevuti totali"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:974
+#: C/index.docbook:1027
 msgid "Sent data per second and total"
-msgstr ""
+msgstr "Dati inviati per secondo e dati inviati totali"
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:982
+#: C/index.docbook:1035
 msgid "To Monitor File Systems"
-msgstr ""
+msgstr "Monitorare il File System"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:983
+#: C/index.docbook:1036
 msgid ""
 "To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
 msgstr ""
+"Per controllare il file di sistema, selezionare la scheda <guilabel>File "
+"System</guilabel>."
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:986
+#: C/index.docbook:1039
 msgid ""
 "<application>System Monitor</application> displays mounted file systems in "
 "tabular format. From left to right, the table displays the following "
 "columns:"
 msgstr ""
+"<application>Monitor di Sistema</application> mostra i file system montati "
+"in modalità di tabella. Da sinistra a destra, la tabella mostra le seguenti "
+"colonne:"
 
-#. (itstool) path: varlistentry/term
-#: C/index.docbook:991
+#. (itstool) path: listitem/para
+#: C/index.docbook:1044
 msgid "Device"
 msgstr "Dispositivo"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:995
-msgid "Location of block file"
-msgstr ""
-
-#. (itstool) path: varlistentry/term
-#: C/index.docbook:999
+#: C/index.docbook:1047
 msgid "Directory"
 msgstr "Directory"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1003
-msgid "Mount point (directory to access) of device"
-msgstr ""
-
-#. (itstool) path: varlistentry/term
-#: C/index.docbook:1007
+#: C/index.docbook:1050
 msgid "Type"
 msgstr "Tipo"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1011
-msgid "File system type"
-msgstr ""
-
-#. (itstool) path: varlistentry/term
-#: C/index.docbook:1015
+#: C/index.docbook:1053
 msgid "Total"
 msgstr "Totale"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1019
-msgid "Total capacity"
-msgstr ""
-
-#. (itstool) path: varlistentry/term
-#: C/index.docbook:1023
+#: C/index.docbook:1056
 msgid "Free"
 msgstr "Libero"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1027
-msgid "Amount of space not in use"
-msgstr ""
-
-#. (itstool) path: varlistentry/term
-#: C/index.docbook:1031
+#: C/index.docbook:1059
 msgid "Available"
 msgstr "Disponibile"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1035
-msgid "Amount of space which can be used"
-msgstr ""
-
-#. (itstool) path: varlistentry/term
-#: C/index.docbook:1039
+#: C/index.docbook:1062
 msgid "Used"
 msgstr "Usato"
 
-#. (itstool) path: listitem/para
-#: C/index.docbook:1043
-msgid "Amount of space which is used (and percentage of Total)"
+#. (itstool) path: sect2/para
+#: C/index.docbook:1065
+msgid ""
+"For information about how to change the columns displayed in the file "
+"systems list, see <xref linkend=\"mate-system-monitor-prefs-fs\"/>."
 msgstr ""
+"Per informazioni su come modificare le colonne visualizzate nell'elenco dei "
+"file system, vedi <xref linkend=\"mate-system-monitor-prefs-fs\"/>."
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1050
+#: C/index.docbook:1071
 msgid "To Customize the Resources Tabbed Section"
-msgstr ""
+msgstr "Personalizzare la scheda Risorse"
 
 #. (itstool) path: sect2/para
-#: C/index.docbook:1051
+#: C/index.docbook:1072
 msgid ""
 "You can customize the <guilabel>Resources</guilabel> tabbed section in the "
 "following ways:"
 msgstr ""
+"È possibile personalizzare la sezione scheda <guilabel>Risorse</guilabel> "
+"nei seguenti modi:"
 
 #. (itstool) path: sect3/title
-#: C/index.docbook:1074
-msgid "To Change the Background Color of Graphs"
-msgstr ""
+#: C/index.docbook:1091
+msgid "To Change the Line Colors of the CPU Graph"
+msgstr "Modificare I Colori delle Linee del grafico CPU"
 
 #. (itstool) path: sect3/para
-#: C/index.docbook:1075
+#: C/index.docbook:1092
 msgid ""
-"To change the background color of the <application>System "
-"Monitor</application> graphs, perform the following steps:"
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1080 C/index.docbook:1119
-msgid ""
-"Choose "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
-" The <guilabel>Preferences</guilabel> dialog is displayed."
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1085 C/index.docbook:1124
-msgid ""
-"Select the <guilabel>Resources</guilabel> tab in the "
-"<guilabel>Preferences</guilabel> dialog."
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1090
-msgid ""
-"Click on the <guilabel>Background color</guilabel> button. The "
-"<guilabel>Pick a color</guilabel> dialog is displayed."
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1095 C/index.docbook:1134 C/index.docbook:1168
-#: C/index.docbook:1197
-msgid ""
-"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel"
-" or the spin boxes to customize the color."
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1100 C/index.docbook:1139 C/index.docbook:1173
-#: C/index.docbook:1202
-msgid ""
-"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a "
-"color</guilabel> dialog."
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1105 C/index.docbook:1144
-msgid ""
-"Click <guibutton>Close</guibutton> to close the "
-"<guilabel>Preferences</guilabel> dialog."
-msgstr ""
-
-#. (itstool) path: sect3/title
-#: C/index.docbook:1113
-msgid "To Change the Grid Color of Graphs"
-msgstr ""
-
-#. (itstool) path: sect3/para
-#: C/index.docbook:1114
-msgid ""
-"To change the grid color of the <application>System Monitor</application> "
-"graphs, perform the following steps:"
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1129
-msgid ""
-"Click on the <guilabel>Grid color</guilabel> button. The <guilabel>Pick a "
-"color</guilabel> dialog is displayed."
-msgstr ""
-
-#. (itstool) path: sect3/title
-#: C/index.docbook:1152
-msgid "To Change the Line Color of the CPU Graph"
-msgstr ""
-
-#. (itstool) path: sect3/para
-#: C/index.docbook:1153
-msgid ""
-"To change the color of the line that represents CPU usage in the "
+"To change the color of the lines that represents CPU usage in the "
 "<guilabel>CPU History</guilabel> graph, perform the following steps:"
 msgstr ""
+"Per modificare il colore delle linee che rappresentano l'utilizzo del CPU "
+"nel grafico della <guilabel>Cronologia CPU</guilabel>, procedere come segue:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1158 C/index.docbook:1187
+#: C/index.docbook:1097 C/index.docbook:1126 C/index.docbook:1155
 msgid ""
 "Select the <guilabel>Resources</guilabel> tab in the <guilabel>System "
 "Monitor</guilabel> window, to display the graphs and table that provide "
 "information about the usage of system resources."
 msgstr ""
+"Selezionare la scheda <guilabel>Risorse</guilabel>della finestra di "
+"<guilabel>Monitor di Sistema</guilabel>, per mostrare i grafici e la tabella"
+" che forniscono informazioni sulle risorse del sistema."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1163
+#: C/index.docbook:1102
 msgid ""
 "Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a "
 "color</guilabel> dialog is displayed."
 msgstr ""
-
-#. (itstool) path: sect3/title
-#: C/index.docbook:1181
-msgid "To Change the Line Colors of the Memory and Swap Graph"
-msgstr ""
-
-#. (itstool) path: sect3/para
-#: C/index.docbook:1182
-msgid ""
-"To change the color of the lines that represent memory and swap usage in the"
-" graph, perform the following steps:"
-msgstr ""
+"Fare click sul pulsante del colore <guibutton>CPU</guibutton>. Verrà "
+"visualizzata la finestra <guilabel>Seleziona un colore</guilabel>."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1192
+#: C/index.docbook:1107 C/index.docbook:1136 C/index.docbook:1165
 msgid ""
-"Click on the <guibutton>User memory</guibutton> or <guibutton>Used "
-"swap</guibutton> button. The <guilabel>Pick a color</guilabel> dialog is "
-"displayed."
+"Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel"
+" or the spin boxes to customize the color."
 msgstr ""
+"Selezionare un colore dalla <guilabel>Tavolozza</guilabel>, o utilizzare la "
+"ruota dei colori o le frecce per modificare il colore."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1112 C/index.docbook:1141 C/index.docbook:1170
+msgid ""
+"Click <guibutton>OK</guibutton> to close the <guilabel>Pick a "
+"color</guilabel> dialog."
+msgstr ""
+"Fare click su <guibutton>OK</guibutton> per chiudere la finestra "
+"<guilabel>Seleziona colore</guilabel>."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:1120
+msgid "To Change the Line Colors of the Memory and Swap Graph"
+msgstr "Modificare il Colore dei Grafici della Memoria e dello Swap"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:1121
+msgid ""
+"To change the color of the lines that represent memory and swap usage in the"
+" <guilabel>Memory and Swap History</guilabel> graph, perform the following "
+"steps:"
+msgstr ""
+"Per modificare il colore delle linee che rappresentano l'utilizzo della "
+"memoria e dello spazio di swap nel grafico della <guilabel>Cronologia "
+"Memoria e Swap</guilabel>, procedere come segue:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1131
+msgid ""
+"Click on the <guibutton>Memory</guibutton> or <guibutton>Swap</guibutton> "
+"button. The <guilabel>Pick a color</guilabel> dialog is displayed."
+msgstr ""
+"Fare click sul pulsante <guibutton>Memoria</guibutton> o "
+"<guibutton>Swap</guibutton>. Verrà visualizzata la finestra di dialogo "
+"<guilabel>Seleziona un colore</guilabel>."
+
+#. (itstool) path: sect3/title
+#: C/index.docbook:1149
+msgid "To Change the Line Colors of the Network Graph"
+msgstr "Modificare i Colori delle Linee del Grafico di Rete"
+
+#. (itstool) path: sect3/para
+#: C/index.docbook:1150
+msgid ""
+"To change the color of the lines that represent network usage in the "
+"<guilabel>Network History</guilabel> graph, perform the following steps:"
+msgstr ""
+"Per modificare il colore delle linee che rappresentano l'utilizzo della rete"
+" nel grafico <guilabel>Cronologia di Rete</guilabel>, procedere come segue:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1160
+msgid ""
+"Click on the <guilabel>Receiving</guilabel> or <guilabel>Sending</guilabel> "
+"button. The <guilabel>Pick a color</guilabel> dialog is displayed."
+msgstr ""
+"Fare click sui pulsanti <guilabel>Ricezionei</guilabel> o "
+"<guilabel>Invio</guilabel>.Verrà visualizzata a finestra <guilabel>Selezione"
+" un colore</guilabel>. "
 
 #. (itstool) path: sect1/title
-#: C/index.docbook:1214
+#: C/index.docbook:1182
 msgid "Preferences"
 msgstr "Preferenze"
 
 #. (itstool) path: sect1/para
-#: C/index.docbook:1215
+#: C/index.docbook:1183
 msgid ""
 "To configure <application>System Monitor</application>, choose "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
 " The <guilabel>Preferences</guilabel> dialog contains the following tabbed "
 "sections:"
 msgstr ""
+"Per configurare <application>Monitor di Sistema</application>, selezionare "
+"<menuchoice><guimenu>Modifica</guimenu> "
+"<guimenuitem>Preferenze</guimenuitem></menuchoice>. Il dialogo "
+"<guilabel>Preferenze</guilabel> contiene le seguenti sezioni a scheda:"
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1227
+#: C/index.docbook:1198
 msgid "Processes"
 msgstr "Processi"
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:1230
+#: C/index.docbook:1201
 msgid "<guilabel>Behavior</guilabel>"
-msgstr ""
+msgstr "<guilabel>Comportamento</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1236 C/index.docbook:1421 C/index.docbook:1452
+#: C/index.docbook:1207 C/index.docbook:1480 C/index.docbook:1509
 msgid "<guilabel>Update interval in seconds</guilabel>"
-msgstr ""
+msgstr "<guilabel>Intervallo di aggiornamento in secondi</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1239
+#: C/index.docbook:1210
 msgid ""
 "Use this spin box to specify the interval at which you want to update the "
 "process list."
 msgstr ""
+"Utilizzare questi pulsanti per specificare l'intervallo di tempo con cui si "
+"vuole aggiornare l'elenco dei processi."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1244
+#: C/index.docbook:1215
 msgid "<guilabel>Enable smooth refresh</guilabel>"
-msgstr ""
+msgstr "<guilabel>Abilitare l'aggiornamento fluido</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1247
+#: C/index.docbook:1218
 msgid "Select this option to refresh smoothly."
-msgstr ""
+msgstr "Selezionare questa opzione per aggiornare in modo fluido."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1252
+#: C/index.docbook:1223
 msgid "<guilabel>Alert before ending or killing processes</guilabel>"
 msgstr ""
+"<guilabel>Avvertire prima di terminare o uccidere i processi</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1255
+#: C/index.docbook:1226
 msgid ""
 "Select this option to display a confirmation alert when you end a process or"
 " terminate a process."
 msgstr ""
+"Selezionare questa opzione per mostrare un avviso di conferma quando si "
+"termina o si uccide un processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1260
-msgid "<guilabel>Solaris mode</guilabel>"
-msgstr ""
+#: C/index.docbook:1231
+msgid "<guilabel>Divide CPU usage by CPU count</guilabel>"
+msgstr "Dividi l'uso della CPU per il numero di CPU"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1263
+#: C/index.docbook:1234
 msgid ""
 "Select this to divide each process' CPU% in the Processes table by the "
 "number of CPUs."
 msgstr ""
+"Selezionare questa opzione per dividere la percentuale CPU di ciascun "
+"processo nella tabella dei Processi per il numero di CPU."
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:1271
+#: C/index.docbook:1242 C/index.docbook:1528
 msgid "<guilabel>Information Fields</guilabel>"
-msgstr ""
+msgstr "<guilabel>Campi di informazione</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1275
+#: C/index.docbook:1246
 msgid ""
 "Use the following options to select which fields are displayed in the "
 "process list:"
 msgstr ""
+"Utilizzare le seguenti opzioni per selezionare quali campi saranno "
+"visualizzati nell'elenco dei processi:"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1280
+#: C/index.docbook:1251
 msgid "<guilabel>Process Name</guilabel>"
-msgstr ""
+msgstr "<guilabel>Nome del Processo</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1283
+#: C/index.docbook:1254
 msgid ""
 "Select this option to display the name of the process. This column may also "
 "contain an icon to indicate the application that is associated with the "
 "process."
 msgstr ""
+"Selezionare questa opzione per visualizzare il nome del processo. Questa "
+"colonna può contenere un'icona per indicare l'applicazione che è associata "
+"al processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1288
+#: C/index.docbook:1259
 msgid "<guilabel>User</guilabel>"
-msgstr ""
+msgstr "<guilabel>Utente</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1291
+#: C/index.docbook:1262
 msgid ""
 "Select this option to display the name of the user who owns the process."
 msgstr ""
+"Selezionare questa opzione per mostrare il nome dell'utente che possiede il "
+"processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1296
+#: C/index.docbook:1267
 msgid "<guilabel>Status</guilabel>"
-msgstr ""
+msgstr "<guilabel>Stato</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1299
+#: C/index.docbook:1270
 msgid ""
 "Select this option to display the current status of the process: sleeping or"
 " running."
 msgstr ""
+"Selezionare questa opzione per visualizzare lo stato attuale del processo: "
+"sleeping o in esecuzione.."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1304
+#: C/index.docbook:1275
 msgid "<guilabel>Virtual Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Memoria virtuale</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1307
+#: C/index.docbook:1278
 msgid ""
 "Select this option to display the amount of virtual memory that is allocated"
 " to the process."
 msgstr ""
+"Scegliere questa opzione per mostrare il nome dell'utente che possiede il "
+"processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1312
+#: C/index.docbook:1283
 msgid "<guilabel>Resident Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Memoria residente</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1315
+#: C/index.docbook:1286
 msgid ""
 "Select this option to display the amount of physical memory that is "
 "allocated to the process."
 msgstr ""
+"Selezionare questa opzione per visualizzare la quantità di memoria fisica "
+"che è allocata per il processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1320
+#: C/index.docbook:1291
 msgid "<guilabel>Writable Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Memoria scrivibile</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1323
+#: C/index.docbook:1294
 msgid ""
 "Select this option to display the amount of memory that can be written by "
 "the process."
 msgstr ""
+"Selezionare questa opzione per mostrare la quantità di memoria che può "
+"essere scritta dal processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1328
+#: C/index.docbook:1299
 msgid "<guilabel>Shared Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Memoria condivisa</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1331
+#: C/index.docbook:1302
 msgid ""
 "Select this option to display the amount of shared memory that is allocated "
 "to the process. Shared memory is memory that can be accessed by another "
 "process."
 msgstr ""
+"Selezionare la quantità di memoria condivisa che è allocata per il processo."
+" La memoria condivisa è la memoria a cui può accedere un altro processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1336
+#: C/index.docbook:1307
 msgid "<guilabel>X Server Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Memoria Server X</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1339
+#: C/index.docbook:1310
 msgid ""
 "Select this option to display the amount of X server memory that is used by "
 "the process."
 msgstr ""
+"Selezionare questa opzione per visualizzare la quantità di memoria di server"
+" X utilizzata dal processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1344
+#: C/index.docbook:1315
 msgid "<guilabel>% CPU</guilabel>"
-msgstr ""
+msgstr "<guilabel>% CPU</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1347
+#: C/index.docbook:1318
 msgid ""
 "Select this option to display the percentage of CPU time currently being "
 "used by the process."
 msgstr ""
+"Selezionare questa opzione per visualizzare la percentuale di tempo di "
+"utilizzo CPU attualmente usata dal processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1352
+#: C/index.docbook:1323
 msgid "<guilabel>CPU Time</guilabel>"
-msgstr ""
+msgstr "<guilabel>Tempo CPU</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1355
+#: C/index.docbook:1326
 msgid ""
 "Select this option to display the amount of CPU time that has been used by "
 "the process."
 msgstr ""
+"Selezionare questa opzione per visualizzare la quantità di tempo di utilizzo"
+" del CPU che è stata impiegata dal processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1360
+#: C/index.docbook:1331
 msgid "<guilabel>Started</guilabel>"
-msgstr ""
+msgstr "<guilabel>Avviato</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1363
+#: C/index.docbook:1334
 msgid "Select this option to display when the process began running."
 msgstr ""
+"Selezionare questa opzione per visualizzare quando è stato avviato il "
+"processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1368
+#: C/index.docbook:1339
 msgid "<guilabel>Nice</guilabel>"
-msgstr ""
+msgstr "<guilabel>Nice</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1371
+#: C/index.docbook:1342
 msgid ""
 "Select this option to display the nice value of the process. The nice value "
 "sets the priority of the process: the lower the nice value, the higher the "
 "priority."
 msgstr ""
+"Selezionare questa opzione per visualizzare il valore di nice del processo. "
+"Il valore di nice imposta la priorità del processo:  più basso è il valore "
+"di nice, più alta è la priorità "
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1376
+#: C/index.docbook:1347
 msgid "<guilabel>ID</guilabel>"
-msgstr ""
+msgstr "<guilabel>ID</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1379
+#: C/index.docbook:1350
 msgid ""
 "Select this option to display the process identifier, also known as the pid."
 " The pid is a number that uniquely identifies the process. You can use the "
 "pid to manipulate the process on the command line."
 msgstr ""
+"Selezionare questa opzione per visualizzare l'identificativo del processo, "
+"noto anche come pid. Il pid è un numero che identifica univocamente il "
+"processo. Può essere utilizzato per manipolare il processo dalla riga dei "
+"comandi."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1384
+#: C/index.docbook:1355
 msgid "<guilabel>Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Memoria</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1387
+#: C/index.docbook:1358
 msgid ""
 "Select this option to display the amount of system memory that is currently "
 "being used by the process."
 msgstr ""
+"Selezionare questa opzione per visualizzare la quantità di memoria di "
+"sistema che è attualmente in uso dal processo."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1392
+#: C/index.docbook:1363
 msgid "<guilabel>Security Context</guilabel>"
-msgstr ""
+msgstr "<guilabel>Security Context</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1395
+#: C/index.docbook:1366
 msgid ""
 "Select this option to display the security context in which the process is "
 "running."
 msgstr ""
+"Selezionare questa opzione per visualizzare il contesto di sicurezza in cui "
+"il processo è in esecuzione."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1400
+#: C/index.docbook:1371
 msgid "<guilabel>Command Line</guilabel>"
-msgstr ""
+msgstr "<guilabel>Riga di comando</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1403
+#: C/index.docbook:1374
 msgid ""
 "Select this option to display the command line that was used to start the "
 "process, including arguments."
 msgstr ""
+"Selezionare questa opzione per visualizzare la riga di comando impiegata per"
+" avviare il processo, includendo gli argomenti."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1379
+msgid "<guilabel>Waiting Channel</guilabel>"
+msgstr "<guilabel>Canale di Attesa</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1382
+msgid ""
+"Select this option to display the waiting channel, whereby a process waits "
+"for a resource."
+msgstr ""
+"Selezionare questa opzione per mostrare il canale di attesa, in cui un "
+"processo attende per una risorsa."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1387
+msgid "<guilabel>Control Group</guilabel>"
+msgstr "<guilabel>Gruppo di Controllo</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1390
+msgid ""
+"Select this option to display the control group that a process belongs to."
+msgstr ""
+"Selezionare questa opzione per visualizzare il gruppo di controllo a cui "
+"appartiene un processo. "
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1395
+msgid "<guilabel>Disk Read Total</guilabel>"
+msgstr "Totale Lettura del Disco"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1398
+msgid ""
+"Select this option to display the total amount of data read from the disk by"
+" a process."
+msgstr ""
+"Selezionare questa opzione per visualizzare la quantità totale di dati letti"
+" da un processo dal disco."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1403
+msgid "<guilabel>Disk Write Total</guilabel>"
+msgstr "Totale Scrittura del Disco"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1406
+msgid ""
+"Select this option to display the total amount of data written to the disk "
+"by a process."
+msgstr ""
+"Selezionare questa opzione per visualizzare la quantità totale di dati "
+"scritti da un processo sul disco."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1411
+msgid "<guilabel>Disk Read</guilabel>"
+msgstr "<guilabel>Lettura Disco</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1414
+msgid ""
+"Select this option to display the speed at which data is being read from the"
+" disk by a process."
+msgstr ""
+"Selezionare questa opzione per visualizzare la velocità alla quale i dati "
+"sono letti dal disco da un processo.."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1419
+msgid "<guilabel>Disk Write</guilabel>"
+msgstr "<guilabel>scrittura Disco</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1422
+msgid ""
+"Select this option to display the speed at which data is being written to "
+"the disk by a process."
+msgstr ""
+"Selezionare questa opzione per visualizzare la velocità alla quale i dati "
+"sono scritti sull disco da un processo.."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1427
+msgid "<guilabel>Unit</guilabel>"
+msgstr "<guilabel>Unità</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1430
+msgid "Select this option to display the systemd unit for a process."
+msgstr ""
+"Selezionare questa opzione per visualizzare l'unità systemd per un processo."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1435
+msgid "<guilabel>Session</guilabel>"
+msgstr "<guilabel>Sessione</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1438
+msgid ""
+"Select this option to display the session under which the process is "
+"running."
+msgstr ""
+"Selezionare questa opzione per visualizzare la sessione sotto la quale il "
+"processo è in esecuzione."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1443
+msgid "<guilabel>Seat</guilabel>"
+msgstr "<guilabel>Postazione</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1446
+msgid ""
+"Select this option to display the \"seat\" a process is assigned to. The "
+"special default seat called \"seat0\" always exists."
+msgstr ""
+"Selezionare questa opzione per visualizzare la \"postazione\" alla quale "
+"viene assegnato un processo. La postazione speciale predefinita chiamata "
+"\"Seat0\" esiste sempre. "
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1451
+msgid "<guilabel>Owner</guilabel>"
+msgstr "<guilabel>Proprietario</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1454
+msgid "Select this option to display the owner of a process."
+msgstr ""
+"Selezionare questa opzione per visualizzare il proprietario di un processo."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1459
+msgid "<guilabel>Priority</guilabel>"
+msgstr "<guilabel>Priorità</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1462
+msgid ""
+"Select this option to display the priority of a process- how much CPU it is "
+"allowed to use. A process running with higher priority can use more of the "
+"CPU compared to the one with a lower priority."
+msgstr ""
+"Selezionare questa opzione per visualizzare la priorità di un processo "
+"ovvero quanta CPU gli è consentito di impiegare. Un processo che è in "
+"esecuzione con una priorità più alta può utilizzare più CPU rispetto ad un "
+"processo con priorità più bassa. "
 
 #. (itstool) path: sect2/title
-#: C/index.docbook:1414
+#: C/index.docbook:1473
 msgid "Resources"
 msgstr "Risorse"
 
 #. (itstool) path: varlistentry/term
-#: C/index.docbook:1417
+#: C/index.docbook:1476
 msgid "<guilabel>Graphs</guilabel>"
-msgstr ""
+msgstr "<guilabel>Grafici</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1424
+#: C/index.docbook:1483
 msgid ""
 "Use this spin box to specify how often you want to update the "
 "<application>System Monitor</application> graphs."
 msgstr ""
+"Utilizzare questa opzione per specificare quanto spesso si desidera "
+"aggiornare i grafici di <application>Monitor di Sistema</application>."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1429
-msgid "<guilabel>Background color</guilabel>"
-msgstr ""
+#: C/index.docbook:1488
+msgid "<guilabel>Show network speed in bits</guilabel>"
+msgstr "<guilabel>Mostrare la velocità della rete in bits</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1432
+#: C/index.docbook:1491
 msgid ""
-"Use this button to customize the background color of the <application>System"
-" Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
-"monitor-customize-background\"/>."
+"Select this option to show your network speed in bits/s instead of the "
+"default bytes/s."
 msgstr ""
+"Selezionare questa opzione per visualizzare la velocità della vostra rete in"
+" bits/s invece che nella predefinita bytes/s."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:1502
+msgid "File Systems"
+msgstr "File system"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1437
-msgid "<guilabel>Grid color</guilabel>"
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1440
-msgid ""
-"Use this button to customize the grid color of the <application>System "
-"Monitor</application> graphs, as described in <xref linkend=\"mate-system-"
-"monitor-customize-grid\"/>."
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:1455
+#: C/index.docbook:1512
 msgid ""
 "Use this spin box to specify how often you want to update the <guilabel>File"
 " Systems</guilabel> table."
 msgstr ""
+"utilizzare questi comandi per specificare quanto spesso si desidera "
+"aggiornare la tabella <guilabel>File system</guilabel>."
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1460
+#: C/index.docbook:1517
 msgid "<guilabel>Show all file systems</guilabel>"
-msgstr ""
+msgstr "<guilabel>Mostra tutti i file system</guilabel>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:1463
+#: C/index.docbook:1520
 msgid ""
 "Select this option to show all file systems, including temporary and system "
 "ones."
 msgstr ""
+"Selezionare questa opzione per visualizzare tutti i file system, inclussi "
+"quelli temporanei e di sistema."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1532
+msgid ""
+"Use the following options to select which fields are displayed in the file "
+"system list:"
+msgstr ""
+"Utilizzare le seguenti opzioni per selezionare quali campi saranno "
+"visualizzati nell'elenco dei file system:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1540
+msgid ""
+"Select this option to display the location of the block file for the device."
+msgstr ""
+"Scegliere questa opzione per visualizzare la posizione del blocco file per "
+"il dispositivo."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1545
+msgid "<guilabel>Directory</guilabel>"
+msgstr "<guilabel>Directory</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1548
+msgid ""
+"Select this option to display the mount point (directory to access) of a "
+"device."
+msgstr ""
+"Scegliere questa opzione per visualizzare il punto di montaggio (directory "
+"di accesso) di un dispositivo."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1553
+msgid "<guilabel>Type</guilabel>"
+msgstr "<guilabel>Tipo</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1556
+msgid ""
+"Select this option to display the file system type. In most distributions of"
+" GNU/Linux and other Unix-like operating systems, there are numerous file "
+"system types which are supported by the kernel, like NTFS, FAT32, ext4, ext3"
+" ext2 etc. The file system type will be shown if this option is selected in "
+"case it's a supported type."
+msgstr ""
+"Selezionare questa opzione per visualizzare il tipo di file system. In molte"
+" distribuzioni di GNU/Linux e altri sistemi operativi Unix-like, ci sono "
+"diversi tipi di file system supportati dal kernel, come NTFS, FAT32, ext4, "
+"ext3, ext2 etc. Il tipo di file system, se supportato, verrà mostrato se "
+"questa opzione è selezionata."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1561
+msgid "<guilabel>Total</guilabel>"
+msgstr "<guilabel>Totale</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1564
+msgid "Select this option to display the total capacity of a file system."
+msgstr ""
+"Selezionare questa opzione per visualizzare la capacità totale di un file "
+"system."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1569
+msgid "<guilabel>Free</guilabel>"
+msgstr "<guilabel>Libero</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1572
+msgid ""
+"Select this option to display the amount of space not used by the file "
+"system."
+msgstr ""
+"Selezionare questa opzione per visualizzare la quantità di spazio non "
+"utilizzato dal file system."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1577
+msgid "<guilabel>Available</guilabel>"
+msgstr "<guilabel>Disponibile</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1580
+msgid "Select this option to display the amount of space left for use."
+msgstr ""
+"Selezionare questa opzione per visualizzare la quantità di spazio rimasto a "
+"disposizione per l'uso."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1585
+msgid "<guilabel>Used</guilabel>"
+msgstr "<guilabel>Utilizzato</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1588
+msgid "Select this option to display the amount of used space."
+msgstr ""
+"Selezionare questa opzione per visualizzare la quantità di spazio "
+"utilizzato.."
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9

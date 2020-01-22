@@ -928,12 +928,12 @@ msgstr "Показывать столбец памяти X-сервера для
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Ширина столбца процесса процентной загрузки ЦПУ"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Показывать столбец процесса процентной загрузки ЦПУ при запуске"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

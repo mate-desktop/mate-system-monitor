@@ -885,12 +885,12 @@ msgstr "시작할 때 프로세스 'X 서버 메모리' 열 표시"
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "프로세스 'CPU %' 열 너비"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "시작할 때 프로세스 'CPU' 열 표시"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

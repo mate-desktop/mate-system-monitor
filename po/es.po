@@ -918,12 +918,12 @@ msgstr "Mostrar al inicio la columna «Memoria del servidor X» del proceso"
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Ancho de la columna «% de CPU» del proceso"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Mostrar al inicio la columna «% de CPU» del proceso"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

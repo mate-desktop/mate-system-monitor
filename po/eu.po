@@ -885,12 +885,12 @@ msgstr "Erakutsi prozesuaren 'X zerbitzari-memoria' zutabea abioan"
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Prozesuaren '% PUZ' zutabearen zabalera"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Erakutsi prozesuaren 'PID' zutabea abioan"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

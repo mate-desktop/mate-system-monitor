@@ -887,12 +887,12 @@ msgstr "Visa processkolumnen 'X-serverminne' vid uppstart"
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Bredd på processkolumnen 'CPU %'"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Visa processkolumnen \"CPU %\" vid uppstart"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

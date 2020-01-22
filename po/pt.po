@@ -903,12 +903,12 @@ msgstr "Exibir coluna do processo 'Memória do Servidor X' no arranque"
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Largura da coluna do processo \"CPU %\""
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Mostrar coluna do processo \"CPU %\" no arranque"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

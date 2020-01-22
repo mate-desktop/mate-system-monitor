@@ -914,12 +914,12 @@ msgstr "Vis kolonnen for prosessen 'X-tjener-minne' ved oppstart"
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Bredde på kolonnen for prosentvis CPU"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Vis kolonnen for prosentvis CPU ved oppstart"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

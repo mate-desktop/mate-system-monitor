@@ -881,7 +881,7 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Գործընթացի 'ԿՄՀ %' սյունակի լայնությունը"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format

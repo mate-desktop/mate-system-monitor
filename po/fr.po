@@ -923,13 +923,12 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Largeur de la colonne du % CPU des processus"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr ""
-"Afficher la colonne du % de CPU utilisé par les processus au démarrage"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

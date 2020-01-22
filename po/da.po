@@ -908,12 +908,12 @@ msgstr "Vis kolonnen procesvis x-serverhukommelse ved opstart"
 #: src/org.mate.system-monitor.gschema.xml.in:288
 #, c-format
 msgid "Width of process '% CPU' column"
-msgstr "Bredde af kolonnen procesvis %-CPU"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
 #, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr "Vis kolonnen procesvis %s CPU ved opstart"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

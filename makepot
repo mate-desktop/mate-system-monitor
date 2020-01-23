@@ -5,7 +5,8 @@ PACKAGE=mate-system-monitor;
 # normal translations for the package
 make -C po $PACKAGE.pot && mv po/$PACKAGE.pot .
 sed -i "/#, fuzzy/d" $PACKAGE.pot
-
+perl -0777 -i.001 -p -e 's/#. makepot: remove comment\n#\: src\/org\.mate\.system\-monitor\.gschema\.xml\.in\:([0-9]*)\n#, c-format\n/#\: src\/org\.mate\.system\-monitor\.gschema\.xml\.in\:\1\n/s' mate-system-monitor.pot
+perl -0777 -i.002 -p -e 's/#. makepot: remove comment\n#\: src\/org\.mate\.system\-monitor\.gschema\.xml\.in\:([0-9]*)\n#, c-format\n/#\: src\/org\.mate\.system\-monitor\.gschema\.xml\.in\:\1\n/s' mate-system-monitor.pot
 # translations for user-quide
 rm -f help/$PACKAGE.pot &&
 make -C help $PACKAGE.pot

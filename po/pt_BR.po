@@ -14,7 +14,7 @@
 # Lucas Dias <lucasdiaas@outlook.com>, 2018
 # 710a500dd1d5560bb05c8b24814b8c26, 2018
 # jose, 2018
-# Halan Germano Bacca <halangermano@hotmail.com.br>, 2018
+# 18ab4449a00621534598e84a949423ea, 2018
 # Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2019
@@ -913,12 +913,10 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Exibir coluna de processos 'Memória do servidor X' ao iniciar"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
 msgstr "Largura da coluna de processos '% CPU'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr "Exibir coluna de processos '% CPU' ao iniciar"
 

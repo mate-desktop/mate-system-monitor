@@ -894,12 +894,10 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Tunjuk lajur proses 'X Server Memory' semasa permulaan"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
 msgstr "Lebar lajur proses '% CPU'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr "Tunjuk lajur proses '% CPU' semasa permulaan"
 

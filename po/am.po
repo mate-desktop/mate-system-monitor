@@ -869,12 +869,10 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "የ ሂደት 'X Server Memory' አምድ ማስጀመሪያ ማሳያ"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
 msgstr "የ ሂደት '% CPU' አምድ ስፋት"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr "የ ሂደት '% CPU' አምድ ማስጀመሪያ ማሳያ"
 

@@ -867,14 +867,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Үрдістің \"X серверінің жадысы\" бағанын іске қосылғанда көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Үрдістің \"Процессор %\" бағанының ені"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Үрдістің \"Процессор %\" бағанын іске қосылғанда көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

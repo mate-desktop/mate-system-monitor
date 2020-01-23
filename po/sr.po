@@ -880,14 +880,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Приказује колону са меморијом Икс сервера процеса по покретању"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Ширина колоне заузећа процесора процеса"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Приказује колону са заузећем процесора у % по покретању"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

@@ -905,14 +905,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "A folyamat „X kiszolgáló memória” oszlopának mutatása indításkor"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "A folyamat „CPU %” oszlopának szélessége"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "A folyamat „CPU %” oszlopának mutatása indításkor"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

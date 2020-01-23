@@ -913,14 +913,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Wyświetlanie kolumny \"Pamięć serwera X\" podczas uruchomienia"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Szerokość kolumny \"% procesora\""
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Wyświetlanie kolumny \"% procesora\" podczas uruchomienia"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

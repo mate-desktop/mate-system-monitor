@@ -885,14 +885,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Паказваць слупок 'Памяць X-сервера' у картцы 'Працэсы' падчас запуску"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Шырыня слупка '% ЦП' у картцы 'Працэсы'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Паказваць слупок '% ЦП' у картцы 'Працэсы' падчас запуску"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

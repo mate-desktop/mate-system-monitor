@@ -883,14 +883,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Erakutsi prozesuaren 'X zerbitzari-memoria' zutabea abioan"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Prozesuaren '% PUZ' zutabearen zabalera"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Erakutsi prozesuaren 'PID' zutabea abioan"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

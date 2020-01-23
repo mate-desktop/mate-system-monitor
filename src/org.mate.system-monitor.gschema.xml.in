@@ -285,10 +285,12 @@
     </key>
     <key name="col-8-width" type="i">
       <default>0</default>
+      <!-- makepot: remove comment -->
       <summary>Width of process '% CPU' column</summary>
     </key>
     <key name="col-8-visible" type="b">
       <default>true</default>
+      <!-- makepot: remove comment -->
       <summary>Show process '% CPU' column on startup</summary>
     </key>
     <key name="col-9-width" type="i">

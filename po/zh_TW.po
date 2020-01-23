@@ -884,14 +884,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "啟動時在處理程序欄位中顯示「X 伺服器記憶體」"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "處理程序欄中「CPU 百分比」的寬度"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "啟動時在處理程序欄位中顯示「CPU 百分比」"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

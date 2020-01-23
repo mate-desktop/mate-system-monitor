@@ -888,14 +888,12 @@ msgstr ""
 "Afichar la colomna de la memòria del servidor X dels processus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Largor de la colomna del % CPU dels processus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Afichar la colomna del % de CPU utilizat per los processus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

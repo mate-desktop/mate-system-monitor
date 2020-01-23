@@ -882,14 +882,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "起動時に 'X サーバーメモリー' の項目を表示するか"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "'CPU 使用率' の項目の幅"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "起動時に 'CPU 使用率' の項目を表示する"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

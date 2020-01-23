@@ -883,14 +883,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Ob zagonu pokaži stolpec opravila 'pomnilnika X strežnika'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'CPE v %' "
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec opravila 'CPE %' "
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

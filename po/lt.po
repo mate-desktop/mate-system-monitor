@@ -906,12 +906,10 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Rodyti proceso \"X serverio atmintis\" stulpelį, paleidus programą"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
 msgstr "Proceso \"% CPU\" stulpelio plotis"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr "Rodyti proceso \"% CPU\" stulpelį, paleidus programą"
 

@@ -896,12 +896,10 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Spalte von Prozess »X-Server-Speicher« beim Start anzeigen"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
 msgstr "Spaltenbreite von Prozess »% CPU«"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr "Spalte von Prozess »% CPU« beim Start anzeigen"
 

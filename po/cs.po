@@ -916,12 +916,10 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Zobrazovat po spuštění sloupec 'Paměť severu X'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
 msgstr "Šířka sloupce '% CPU'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
 msgstr "Zobrazovat po spuštění sloupec '% CPU'"
 

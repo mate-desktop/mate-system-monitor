@@ -884,14 +884,12 @@ msgid "Show process 'X Server Memory' column on startup"
 msgstr "Arată la pornire coloana „Memorie servitor X” a procesului"
 
 #: src/org.mate.system-monitor.gschema.xml.in:288
-#, c-format
 msgid "Width of process '% CPU' column"
-msgstr ""
+msgstr "Lățimea coloanei „Utilizare procesor” a procesului"
 
 #: src/org.mate.system-monitor.gschema.xml.in:292
-#, c-format
 msgid "Show process '% CPU' column on startup"
-msgstr ""
+msgstr "Arată la pornire coloana „Utilizare procesor” a procesului"
 
 #: src/org.mate.system-monitor.gschema.xml.in:296
 msgid "Width of process 'CPU Time' column"

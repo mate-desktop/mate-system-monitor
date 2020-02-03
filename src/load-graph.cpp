@@ -529,7 +529,11 @@ get_net (LoadGraph *graph)
     char **ifnames;
     guint32 i;
     guint64 in = 0, out = 0;
+#if GLIB_CHECK_VERSION(2,61,2)
+    gint64 time;
+#else
     GTimeVal time;
+#endif
     guint64 din, dout;
 
     ifnames = glibtop_get_netlist(&netlist);
@@ -563,13 +567,20 @@ get_net (LoadGraph *graph)
 
     g_strfreev(ifnames);
 
-    g_get_current_time (&time);
+#if GLIB_CHECK_VERSION(2,61,2)
+    time = g_get_real_time ();
 
+    if (in >= graph->net.last_in && out >= graph->net.last_out &&
+        graph->net.time != 0) {
+        float dtime = (double) (time - graph->net.time) / G_USEC_PER_SEC;
+#else
+    g_get_current_time (&time);
     if (in >= graph->net.last_in && out >= graph->net.last_out &&
         graph->net.time.tv_sec != 0) {
         float dtime;
         dtime = time.tv_sec - graph->net.time.tv_sec +
             (double) (time.tv_usec - graph->net.time.tv_usec) / G_USEC_PER_SEC;
+#endif
         din   = static_cast<guint64>((in  - graph->net.last_in)  / dtime);
         dout  = static_cast<guint64>((out - graph->net.last_out) / dtime);
     } else {

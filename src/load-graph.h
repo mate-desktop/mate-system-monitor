@@ -86,7 +86,11 @@ struct LoadGraph {
 
         struct {
             guint64 last_in, last_out;
+#if GLIB_CHECK_VERSION(2,61,2)
+            gint64 time;
+#else
             GTimeVal time;
+#endif
             guint64 max;
             unsigned values[NUM_POINTS];
             size_t cur;

@@ -1,14 +1,14 @@
 [main]
 host = https://www.transifex.com
  
-[MATE.master--mate-system-monitor]
+[MATE.1-24--mate-system-monitor]
 file_filter = po/<lang>.po
 source_file = mate-system-monitor.pot
 source_lang = en
 type = PO
 minimum_perc = 2
 
-[MATE.master--mate-system-monitor-user-guide]
+[MATE.1-24--mate-system-monitor-user-guide]
 file_filter = help/<lang>/<lang>.po
 source_file = help/mate-system-monitor.pot
 source_lang = en

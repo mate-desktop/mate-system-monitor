@@ -785,7 +785,7 @@ update_sensitivity(ProcData *data)
     GtkAction *action;
 
     processes_sensitivity = (data->config.current_tab == PROCMAN_TAB_PROCESSES);
-    selected_sensitivity = (processes_sensitivity && data->selected_process != NULL);
+    selected_sensitivity = (processes_sensitivity && data->selection && gtk_tree_selection_count_selected_rows (data->selection) > 0);
 
     if(data->endprocessbutton) {
         /* avoid error on startup if endprocessbutton

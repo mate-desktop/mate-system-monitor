@@ -71,6 +71,14 @@ ProcInfo* ProcInfo::find(pid_t pid)
     return (it == ProcInfo::all.end() ? NULL : it->second);
 }
 
+void
+get_last_selected (GtkTreeModel *model, GtkTreePath *path,
+           GtkTreeIter *iter, gpointer data)
+{
+    ProcInfo **info = static_cast<ProcInfo**>(data);
+
+    gtk_tree_model_get (model, iter, COL_POINTER, info, -1);
+}
 
 static void
 cb_columns_changed(GtkTreeView *treeview, gpointer user_data)

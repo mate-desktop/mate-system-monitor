@@ -346,16 +346,6 @@ cb_net_out_color_changed (GSMColorButton *cp, gpointer data)
     change_settings_color(procdata->settings, "net-out-color", cp);
 }
 
-static void
-get_last_selected (GtkTreeModel *model, GtkTreePath *path,
-           GtkTreeIter *iter, gpointer data)
-{
-    ProcInfo **info = static_cast<ProcInfo**>(data);
-
-    gtk_tree_model_get (model, iter, COL_POINTER, info, -1);
-}
-
-
 void
 cb_row_selected (GtkTreeSelection *selection, gpointer data)
 {

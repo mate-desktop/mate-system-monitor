@@ -66,29 +66,49 @@ procdialog_create_kill_dialog (ProcData *procdata, int signal)
     kargs = g_new(KillArgs, 1);
     kargs->procdata = procdata;
     kargs->signal = signal;
+    gint selected_count = gtk_tree_selection_count_selected_rows (procdata->selection);
 
+    if ( selected_count == 1 ) {
+        ProcInfo *selected_process = NULL;
+        // get the last selected row
+        gtk_tree_selection_selected_foreach (procdata->selection, get_last_selected,
+                                         &selected_process);
+        if (signal == SIGKILL) {
+            /*xgettext: primary alert message for killing single process*/
+            primary = g_strdup_printf (_("Are you sure you want to kill the selected process “%s” (PID: %u)?"),
+                                       selected_process->name,
+                                       selected_process->pid);
+        } else {
+            /*xgettext: primary alert message for ending single process*/
+            primary = g_strdup_printf (_("Are you sure you want to end the selected process “%s” (PID: %u)?"),
+                                       selected_process->name,
+                                       selected_process->pid);
+        }
+    } else {
+        if (signal == SIGKILL) {
+            /*xgettext: primary alert message for killing multiple processes*/
+            primary = g_strdup_printf (_("Are you sure you want to kill the %d selected processes?"),
+                                       selected_count);
+        } else {
+            /*xgettext: primary alert message for ending multiple processes*/
+            primary = g_strdup_printf (_("Are you sure you want to end the %d selected processes?"),
+                                       selected_count);
+  
+        }
+    }
 
-    if (signal == SIGKILL) {
-        /*xgettext: primary alert message*/
-        primary = g_strdup_printf (_("Kill the selected process “%s” (PID: %u)?"),
-                                   procdata->selected_process->name,
-                                   procdata->selected_process->pid);
+    if ( signal == SIGKILL ) {
         /*xgettext: secondary alert message*/
         secondary = _("Killing a process may destroy data, break the "
                     "session or introduce a security risk. "
                     "Only unresponsive processes should be killed.");
-        button_text = _("_Kill Process");
-    }
-    else {
-        /*xgettext: primary alert message*/
-        primary = g_strdup_printf (_("End the selected process “%s” (PID: %u)?"),
-                                   procdata->selected_process->name,
-                                   procdata->selected_process->pid);
+        button_text = ngettext("_Kill Process", "_Kill Processes", selected_count);
+    } else {
         /*xgettext: secondary alert message*/
         secondary = _("Ending a process may destroy data, break the "
                     "session or introduce a security risk. "
                     "Only unresponsive processes should be ended.");
-        button_text = _("_End Process");
+        button_text = ngettext("_End Process", "_End Processes", selected_count);
     }
 
     kill_alert_dialog = gtk_message_dialog_new (GTK_WINDOW (procdata->app),
@@ -147,7 +167,7 @@ renice_dialog_button_pressed (GtkDialog *dialog, gint id, gpointer data)
 void
 procdialog_create_renice_dialog (ProcData *procdata)
 {
-    ProcInfo  *info = procdata->selected_process;
+    ProcInfo  *info;
     GtkWidget *dialog = NULL;
     GtkWidget *dialog_vbox;
     GtkWidget *vbox;
@@ -164,11 +184,21 @@ procdialog_create_renice_dialog (ProcData *procdata)
     if (renice_dialog)
         return;
 
+    gtk_tree_selection_selected_foreach (procdata->selection, get_last_selected,
+                                         &info);
+    gint selected_count = gtk_tree_selection_count_selected_rows (procdata->selection);
+
     if (!info)
         return;
 
-    dialog_title = g_strdup_printf (_("Change Priority of Process “%s” (PID: %u)"),
-                                    info->name, info->pid);
+    if ( selected_count == 1 ) {
+        dialog_title = g_strdup_printf (_("Change Priority of Process “%s” (PID: %u)"),
+                                        info->name, info->pid);
+    } else {
+        dialog_title = g_strdup_printf (_("Change Priority of %d Selected Processes"),
+                                        selected_count);
+    }
+
     dialog = gtk_dialog_new_with_buttons (dialog_title, NULL,
                                           GTK_DIALOG_DESTROY_WITH_PARENT,
                                           "gtk-cancel", GTK_RESPONSE_CANCEL,

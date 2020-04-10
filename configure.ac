@@ -61,8 +61,8 @@ fi
 AM_CONDITIONAL(HAVE_SYSTEMD, [test "$have_systemd" = "yes"])
 
 # Compiler warnings
-MATE_COMPILE_WARNINGS([yes])
-MATE_CXX_WARNINGS([yes])
+MATE_COMPILE_WARNINGS
+MATE_CXX_WARNINGS
 
 dnl CXXFLAGS="-fvisibility=hidden -fvisibility-inlines-hidden $CXXFLAGS"
 dnl CXXFLAGS="-fvisibility-inlines-hidden $CXXFLAGS"

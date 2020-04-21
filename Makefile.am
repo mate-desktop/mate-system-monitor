@@ -17,6 +17,7 @@ org.mate.mate-system-monitor.policy.in: org.mate.mate-system-monitor.policy.in.i
 	$(AM_V_GEN) sed -e "s|\@pkglibexecdir\@|$(pkglibexecdir)|" $< > $@
 
 DISTCHECK_CONFIGURE_FLAGS = \
+	--enable-compile-warnings=no \
 	CFLAGS='-Wno-deprecated-declarations'
 
 EXTRA_DIST = \

@@ -10,3 +10,4 @@ msm_kill_SOURCES = msm_execute_helper.c
 msm_kill_LDADD = $(TOOLS_LIBS)
 msm_kill_CFLAGS = -DCOMMAND=\"kill\" $(WARN_CFLAGS)
 
+-include $(top_srcdir)/git.mk

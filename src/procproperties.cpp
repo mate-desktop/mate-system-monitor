@@ -30,6 +30,12 @@
 #include "proctable.h"
 #include "util.h"
 
+#ifdef GDK_WINDOWING_X11
+#include <gdk/gdkx.h>
+#else
+#define GDK_IS_X11_DISPLAY(x) 0
+#endif
+
 enum
 {
     COL_PROP = 0,
@@ -71,19 +77,23 @@ static void
 get_process_memory_info (ProcInfo *info)
 {
     glibtop_proc_mem procmem;
-    WnckResourceUsage xresources;
 
-    wnck_pid_read_resource_usage (gdk_screen_get_display (gdk_screen_get_default ()),
-                                  info->pid,
-                                  &xresources);
+    if (GDK_IS_X11_DISPLAY(gdk_display_get_default())) {
+        WnckResourceUsage xresources;
+        wnck_pid_read_resource_usage (gdk_screen_get_display (gdk_screen_get_default ()),
+                                      info->pid,
+                                      &xresources);
+        info->memxserver = xresources.total_bytes_estimate;
+    } else {
+        info->memxserver = 0;
+    }
+
 
     glibtop_get_proc_mem(&procmem, info->pid);
 
     info->vmsize	= procmem.vsize;
     info->memres	= procmem.resident;
     info->memshared	= procmem.share;
-
-    info->memxserver = xresources.total_bytes_estimate;
 
     get_process_memory_writable(info);
 

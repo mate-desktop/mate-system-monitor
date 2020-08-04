@@ -93,7 +93,7 @@ procdialog_create_kill_dialog (ProcData *procdata, int signal)
             /*xgettext: primary alert message for ending multiple processes*/
             primary = g_strdup_printf (_("Are you sure you want to end the %d selected processes?"),
                                        selected_count);
-  
+
         }
     }
 

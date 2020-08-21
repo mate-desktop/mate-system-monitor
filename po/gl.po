@@ -753,8 +753,8 @@ msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
 msgstr ""
-"Determina os procesos que se amosarán de xeito predeterminado. 0 é todos, 1 "
-"é usuario e 2 é activo"
+"Determina os procesos que se amosarán por omisión. 0 é todos, 1 é usuario e "
+"2 é activo"
 
 #: src/org.mate.system-monitor.gschema.xml.in:52
 msgid "Saves the currently viewed tab"

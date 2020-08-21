@@ -5,10 +5,10 @@
 # 
 # Translators:
 # brennus <jonas.ska@gmail.com>, 2018
-# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Audrius Meskauskas, 2019
 # Moo, 2020
+# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Moo, 2020\n"
+"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2020\n"
 "Language-Team: Lithuanian (https://www.transifex.com/mate/teams/13566/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +38,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"MATE sistemos monitorius leidžia matyti ir valdyti jūsų sistemoje vykdomus "
+"procesus. Jis taip pat pateikia prieinamų išteklių, tokių kaip centrinis "
+"procesorius ir atmintis, apžvalgą. "
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -45,6 +48,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+" MATE sistemos monitorius yra GNOME sistemos monitoriaus atšaka ir MATE "
+"dabalaukio aplinkos dalis. Jei norite sužinoti daugiau apie MATE ir MATE "
+"sistemos monitorių, prašom apsilankyti projekto tinklalapyje. "
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
 #: src/interface.cpp:625 src/procman.cpp:713
@@ -66,6 +72,7 @@ msgstr "utilities-system-monitor"
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
 msgstr ""
+"MATE;sistemos;monitorius;sistema;procesai;sąrašas/rodyti;dabar;ištekliai"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -1019,43 +1026,43 @@ msgstr "Rodyti proceso \"Savininkas“ stulpelį paleidus programą"
 
 #: src/org.mate.system-monitor.gschema.xml.in:400
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Proceso „Visas disko įrašymas“ plotis "
 
 #: src/org.mate.system-monitor.gschema.xml.in:404
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Rodyti proceso „Visas disko įrašymas“ stulpelį paleidus programą"
 
 #: src/org.mate.system-monitor.gschema.xml.in:408
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Proceso „Visas disko skaitymas“ plotis "
 
 #: src/org.mate.system-monitor.gschema.xml.in:412
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Rodyti proceso „Visas disko skaitymas“ stulpelį paleidus programą"
 
 #: src/org.mate.system-monitor.gschema.xml.in:416
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Proceso „Disko skaitymas“ plotis "
 
 #: src/org.mate.system-monitor.gschema.xml.in:420
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "Rodyti proceso „disko skaitymas“ stulpelį paleidus programą"
 
 #: src/org.mate.system-monitor.gschema.xml.in:424
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Proceso „Disko įrašymas“ plotis "
 
 #: src/org.mate.system-monitor.gschema.xml.in:428
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "Rodyti proceso „Disko įrašymas“ stulpelį įjungiant"
 
 #: src/org.mate.system-monitor.gschema.xml.in:432
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Proceso „Prioritetas“ stulpelio plotis"
 
 #: src/org.mate.system-monitor.gschema.xml.in:436
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Rodyti proceso „Prioritetas“ stulpelį paleidus programą"
 
 #: src/org.mate.system-monitor.gschema.xml.in:442
 msgid "Disk view sort column"
@@ -1379,19 +1386,19 @@ msgstr "Savininkas"
 
 #: src/proctable.cpp:267 src/procproperties.cpp:133
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Visas disko skaitymas"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:134
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Visas disko įrašymas"
 
 #: src/proctable.cpp:269
 msgid "Disk Read"
-msgstr ""
+msgstr "Disko skaitymas"
 
 #: src/proctable.cpp:270
 msgid "Disk Write"
-msgstr ""
+msgstr "Disko įrašymas"
 
 #: src/proctable.cpp:271 src/procproperties.cpp:139
 msgid "Priority"

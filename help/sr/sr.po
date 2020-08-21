@@ -1,13 +1,14 @@
+# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2019
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2019\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,6 +30,7 @@ msgstr ""
 #: C/index.docbook:25
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
 msgstr ""
+"<year>2015-2020</year> <holder>Пројекат Мејтове документације</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
@@ -51,14 +53,14 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr ""
+msgstr "Пројекат Мејтове документације"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "Пројекат Гномове документације"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:2
@@ -221,7 +223,7 @@ msgstr ""
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:160
 msgid "Feedback"
-msgstr ""
+msgstr "Примедбе"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:161
@@ -390,7 +392,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr ""
+msgstr "Први кораци"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
@@ -407,7 +409,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr ""
+msgstr "Изборник <guimenu>„Програми“</guimenu>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -473,7 +475,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:352
 msgid "Menubar"
-msgstr ""
+msgstr "Трака изборника"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:354
@@ -524,7 +526,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:402
 msgid "Statusbar"
-msgstr ""
+msgstr "Трака стања"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:404
@@ -624,22 +626,22 @@ msgstr "Канал чекања"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Укупно читање диска"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Укупно писање диска"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "Читање диска"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "Писање диска"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490

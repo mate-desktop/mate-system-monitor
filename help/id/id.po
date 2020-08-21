@@ -1,8 +1,10 @@
+# 
 # Translators:
 # Kukuh Syafaat <syafaatkukuh@gmail.com>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2019
+# Chotibul Studio <chotibulstudio@gmail.com>, 2020
 # Andika Triwidada <andika@gmail.com>, 2020
 # 
 msgid ""
@@ -190,6 +192,8 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
+"<firstname>Sun</firstname> <surname>Tim Dokumentasi GNOME</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -209,7 +213,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr ""
+msgstr "Tim Dokumentasi MATE"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -233,7 +237,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr ""
+msgstr "Tim Dokumentasi Sun GNOME"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -438,7 +442,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr ""
+msgstr "Mulai"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
@@ -672,22 +676,22 @@ msgstr "Kanal Tunggu"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Total Baca Diska"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Total Tulis Diska"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "Baca Diska"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "Tulis Diska"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490

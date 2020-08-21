@@ -1,33 +1,27 @@
 # 
 # Translators:
-# Empar Montoro <emontra2018@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2019
-# Pilar Embid <embid.mar@gmail.com>, 2019
+# Slimane Selyan AMIRI <selyan.kab@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Pilar Embid <embid.mar@gmail.com>, 2019\n"
-"Language-Team: Catalan (Valencian) (https://www.transifex.com/mate/teams/13566/ca@valencia/)\n"
+"Last-Translator: Slimane Selyan AMIRI <selyan.kab@gmail.com>, 2020\n"
+"Language-Team: Kabyle (https://www.transifex.com/mate/teams/13566/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca@valencia\n"
+"Language: kab\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Quico Llach <quico@softcatala.org>\n"
-"Jordi Mallach <jordi@sindominio.net>\n"
-"Jordi Mas <jmas@softcatala.org>\n"
-"Aleix Badia i Bosch <abadia@ica.es>\n"
-"Josep Puigdemont <josep.puigdemont@gmail.com>\n"
-"Equip LliureX: Pilar Embid <embid_mar@gva.es>"
+"Launchpad Contributions:\n"
+"  Belkacem Mohammed https://launchpad.net/~belkacem77\n"
+"  Slimane Amiri https://launchpad.net/~slimaneamiri"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -47,7 +41,7 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
 msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
-msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr ""
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:36
@@ -60,14 +54,14 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr "Projecte de documentació del MATE"
+msgstr "Asenfaṛ n tsemlit n MATE"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr "Projecte de documentació de GNOME"
+msgstr "Asenfaṛ n tsemlit n GNOME"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:2
@@ -79,13 +73,6 @@ msgid ""
 " of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
-"Es concedeix el permís per a copiar, distribuir i / o modificar aquest "
-"document sota els termes de la GFDL (GNU Free Documentation License), versió"
-" 1.1 o qualsevol versió posterior publicada per la Free Software Foundation "
-"que tinguen les seccions invariants, i sense cap text a la portada. Podeu "
-"trobar una còpia de la GFDL en aquest<ulink type=\"help\" "
-"url=\"help:fdl\">enllaç</ulink> o bé al fitxer COPYING-DOCS que es "
-"distribueix amb aquest manual."
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:12 C/legal.xml:12
@@ -95,10 +82,6 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
-"Aquest manual forma part d'una col·lecció de manuals del MATE que estan "
-"distribuïts sota la GFDL. Si voleu distribuir aquest manual per separat de "
-"la col·lecció, podeu fer-ho afegint una còpia de la llicència al manual, tal"
-" com es descriu a la secció 6 de la llicència."
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:19 C/legal.xml:19
@@ -109,11 +92,6 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
-"Molts dels noms utilitzats per les empreses per a distingir els seus "
-"productes i serveis es consideren marques comercials. Quan aquests noms "
-"apareixen en qualsevol documentació del MATE, i els membres del projecte de "
-"documentació del MATE en són conscients, els noms tenen lletres majúscules o"
-" bé comencen amb majúscula."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:35 C/legal.xml:35
@@ -130,18 +108,6 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
-"EL DOCUMENT S'OFEREIX «TAL COM ÉS», SENSE CAP TIPUS DE GARANTIA, NI "
-"EXPLÍCITA NI IMPLÍCITA; AIXÒ INCLOU, SENSE LIMITACIÓ, LES GARANTIES QUE EL "
-"DOCUMENT O LA VERSIÓ MODIFICADA DEL DOCUMENT NO TINGA DEFECTES, SIGA "
-"COMERCIALITZABLE, SIGA ADEQUAT PER A UN ÚS CONCRET O NO INFRINGISCA CAP "
-"LLEI. TOT EL RISC PEL QUE FA A LA QUALITAT, EXACTITUD I RENDIMENT DEL "
-"DOCUMENT O LA VERSIÓ MODIFICADA DEL DOCUMENT ÉS VOSTRE. EN CAS QUE EL "
-"DOCUMENT RESULTARA DEFECTUÓS EN QUALSEVOL ASPECTE, VÓS (NO L'ESCRIPTOR "
-"INICIAL, L'AUTOR O CAP ALTRE COL·LABORADOR) ASSUMIU TOT EL COST DE "
-"MANTENIMENT, REPARACIÓ O CORRECCIÓ. AQUESTA RENÚNCIA DE GARANTIA CONSTITUEIX"
-" UNA PART ESSENCIAL D'AQUESTA LLICÈNCIA. NO S'AUTORITZA L'ÚS DE CAP DOCUMENT"
-" O VERSIÓ MODIFICADA DEL DOCUMENT EXCEPTE SOTA AQUESTA RENÚNCIA DE GARANTIA;"
-" I"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:55 C/legal.xml:55
@@ -157,16 +123,6 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
-"EN CAP CAS I SOTA CAP INTERPRETACIÓ LEGAL, JA SIGA PER AGREUJAMENT "
-"(INCLOENT-HI LA NEGLIGÈNCIA), CONTRACTE O ALTRE CAS, L'AUTOR, L'ESCRIPTOR "
-"ORIGINAL, QUALSEVOL DELS COL·LABORADORS O DISTRIBUÏDORS DEL DOCUMENT O UNA "
-"VERSIÓ MODIFICADA DEL DOCUMENT NI CAP PROVEÏDOR D'AQUESTES PARTS NO SERAN "
-"RESPONSABLES DAVANT DE NINGÚ PER CAP DANY DIRECTE, INDIRECTE, ESPECIAL, "
-"ACCIDENTAL O CONSECUTIU DE QUALSEVOL TIPUS; AIXÒ INCLOU, SENSE LIMITACIÓ, "
-"ELS DANYS PER PÈRDUA DE CLIENTS, INTERRUPCIONS DE LA FAENA, FALLADA O MAL "
-"FUNCIONAMENT DE L'ORDINADOR, O QUALSEVOL ALTRA PÈRDUA O DANY RELACIONAT AMB "
-"L'ÚS DEL DOCUMENT I LES VERSIONS MODIFICADES DEL DOCUMENT, FINS I TOT SI "
-"S'HA INFORMAT AQUESTA PART DE LA POSSIBILITAT D'AQUESTS DANYS."
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:28 C/legal.xml:28
@@ -175,9 +131,6 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
-"EL DOCUMENT I LES VERSIONS MODIFICADES DEL DOCUMENT S'OFEREIXEN SOTA ELS "
-"TERMES DE LA LLICÈNCIA DE DOCUMENTACIÓ LLIURE DE GNU, TENINT EN COMPTE QUE: "
-"<_:orderedlist-1/>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -192,8 +145,6 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
-"<firstname>Sun</firstname> <surname>Equip de documentació de GNOME</surname>"
-" <affiliation> <orgname>Sun Microsystems</orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -213,7 +164,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "Equip de documentació del MATE"
+msgstr ""
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -273,7 +224,7 @@ msgstr ""
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:160
 msgid "Feedback"
-msgstr "Comentaris"
+msgstr ""
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:161
@@ -309,7 +260,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:190
 msgid "Introduction"
-msgstr "Introducció"
+msgstr "Tazwart"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:191
@@ -364,7 +315,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:224 C/index.docbook:435
 msgid "Hardware"
-msgstr "Maquinari"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:230
@@ -380,7 +331,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:239 C/index.docbook:440
 msgid "System Status"
-msgstr "Estat del sistema"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:245
@@ -442,7 +393,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr "Com començar"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
@@ -459,7 +410,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr "Menú <guimenu>Aplicacions</guimenu>"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -471,7 +422,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:321
 msgid "Command line"
-msgstr "Línia d'ordes"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:323
@@ -589,7 +540,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:418
 msgid "Usage"
-msgstr "Ús"
+msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:421
@@ -641,12 +592,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:457
 msgid "Process Name"
-msgstr "Nom del procés"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:460
 msgid "Status"
-msgstr "Estat"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
@@ -656,7 +607,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
 msgid "Nice"
-msgstr "Prioritat"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:469
@@ -666,12 +617,12 @@ msgstr "ID"
 #. (itstool) path: listitem/para
 #: C/index.docbook:472
 msgid "Memory"
-msgstr "Memòria"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:475
 msgid "Waiting Channel"
-msgstr "Canal d'espera"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
@@ -696,12 +647,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:490
 msgid "Unit"
-msgstr "Unitat"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:493
 msgid "Priority"
-msgstr "Prioritat"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:496
@@ -1399,37 +1350,37 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1044
 msgid "Device"
-msgstr "Dispositiu"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1047
 msgid "Directory"
-msgstr "Directori"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1050
 msgid "Type"
-msgstr "Tipus"
+msgstr "Anaw"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1053
 msgid "Total"
-msgstr "Total"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1056
 msgid "Free"
-msgstr "Lliure"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1059
 msgid "Available"
-msgstr "Disponible"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1062
 msgid "Used"
-msgstr "Utilitzat"
+msgstr ""
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1065
@@ -1533,7 +1484,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:1182
 msgid "Preferences"
-msgstr "Preferències"
+msgstr "Ismenyifen"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:1183
@@ -1547,7 +1498,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:1198
 msgid "Processes"
-msgstr "Processos"
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1201
@@ -1936,7 +1887,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:1473
 msgid "Resources"
-msgstr "Recursos"
+msgstr ""
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1476
@@ -1965,7 +1916,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:1502
 msgid "File Systems"
-msgstr "Sistemes de fitxers"
+msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1512
@@ -2071,7 +2022,7 @@ msgstr ""
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
 msgid "link"
-msgstr "enllaç"
+msgstr "aseɣwen"
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:2
@@ -2083,9 +2034,3 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
-"Es concedeix el permís per a copiar, distribuir i / o modificar aquest "
-"document sota els termes de la GFDL (GNU Free Documentation License), versió"
-" 1.1 o qualsevol versió posterior publicada per la Free Software Foundation "
-"que tinguen les seccions invariants, i sense cap text a la portada. Podeu "
-"trobar una còpia de la GFDL en aquest <_:ulink-1/> o bé al fitxer COPYING-"
-"DOCS que es distribueix amb aquest manual."

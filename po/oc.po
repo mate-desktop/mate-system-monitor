@@ -5,8 +5,9 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Cfpo Miègjorn-Pirenèus <inactive+cfpomp@transifex.com>, 2018
+# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2018
 # Cédric Valmary <cvalmary@yahoo.fr>, 2019
+# Quentin PAGÈS, 2020
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Cédric Valmary <cvalmary@yahoo.fr>, 2019\n"
+"Last-Translator: Quentin PAGÈS, 2020\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +37,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"Lo Monitor sistèma MATE permet d'afichar e de manipular graficament de "
+"processús en cors del sistèma. Provesís tanben un apercebut de las ressorsas"
+" disponiblas, coma lo CPU e la memòria."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -43,6 +47,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"Lo Monitor Sistèma de MATE es una derivacion de GNOME System Monitor e fa "
+"part de l’environament de burèu MATE. Se volètz ne saber mai a prepaus de "
+"MATE e del Monitor Sistèma MATE, consultatz lo site del projècte."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
 #: src/interface.cpp:625 src/procman.cpp:713
@@ -57,21 +64,24 @@ msgstr "Afichar los processus en cors e survelhar l'estat del sistèma"
 #. file name)!
 #: mate-system-monitor.desktop.in.in:9
 msgid "utilities-system-monitor"
-msgstr ""
+msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
 msgstr ""
+"MATE;system;monitor;process;list;view;current;resources;sistèma;ressorsas;potencia;ordi;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
-msgstr ""
+msgstr "Tuar lo processús"
 
 #: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
 msgstr ""
+"De permissions necessàrias per modificar los processús dels autres "
+"utilizaires"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
@@ -79,7 +89,7 @@ msgstr ""
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
-msgstr ""
+msgstr "De permissions necessàrias per modificar la prioritat dels processús"
 
 #: src/argv.cpp:21
 msgid "Show the System tab"
@@ -104,6 +114,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Monitor Sistèma es un logicial liure ; lo podètz tornar distribuir e/o lo "
+"modificar segon los tèrmes de la licéncia publica generala GNU, coma es "
+"publicada per la Free Software Foundation ; version 2 de la licéncia, o (se "
+"volètz) tota version seguenta."
 
 #: src/callbacks.cpp:189
 msgid ""
@@ -112,6 +126,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"Lo Monitor sistèma es distribuch dins l'esper que serà utile, mas SENS CAP "
+"DE GARANTIA ; sens la quita garantia implicita de COMERCIABILITAT o DE "
+"CONFORMITAT A UNA UTILIZACION PARTICULARA. Vejatz la Licéncia Publica "
+"Generala GNU per mai de detalhs."
 
 #: src/callbacks.cpp:193
 msgid ""
@@ -119,10 +137,13 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Debètz aver recebuda una còpia de la licéncia generala publica GNU amb lo "
+"Monitor Sistèma ; s'es pas lo cas, escribètz a la Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 
 #: src/callbacks.cpp:205
 msgid "About System Monitor"
-msgstr ""
+msgstr "A prepaus del Monitor sistèma"
 
 #: src/callbacks.cpp:207
 msgid ""
@@ -130,6 +151,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 los desvolopaires MATE"
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
@@ -243,11 +267,11 @@ msgstr "Sortir del programa"
 
 #: src/interface.cpp:62
 msgid "_Stop Process"
-msgstr "_Stopper lo processus"
+msgstr "_Acabar lo processus"
 
 #: src/interface.cpp:63
 msgid "Stop process"
-msgstr "Stoppe lo processus"
+msgstr "Acabar lo processus"
 
 #: src/interface.cpp:64
 msgid "_Continue Process"
@@ -259,11 +283,11 @@ msgstr "Contunha lo processus se es estat arrestat"
 
 #: src/interface.cpp:67 src/procdialogs.cpp:91
 msgid "_End Process"
-msgstr "_Acabar lo processus"
+msgstr "_Terminar lo processus"
 
 #: src/interface.cpp:68
 msgid "Force process to finish normally"
-msgstr "Fòrça un processus a acabar"
+msgstr "Fòrça un processus a terminar"
 
 #: src/interface.cpp:69 src/procdialogs.cpp:80
 msgid "_Kill Process"
@@ -299,7 +323,7 @@ msgstr "Actualiza la lista dels processus"
 
 #: src/interface.cpp:79
 msgid "_Memory Maps"
-msgstr "Car_tes de la memòria"
+msgstr "Car_tas de la memòria"
 
 #: src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
@@ -452,7 +476,7 @@ msgstr "Memòria"
 
 #: src/interface.cpp:415
 msgid "Swap"
-msgstr "Swap"
+msgstr "Escambi"
 
 #: src/interface.cpp:439
 msgid "Network History"
@@ -495,8 +519,8 @@ msgstr "Sistèmas de fichièrs"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u segonda"
+msgstr[1] "%u segondas"
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1414,13 +1438,13 @@ msgstr "Version %s %s"
 #: src/sysinfo.cpp:89
 #, c-format
 msgid "%s Version"
-msgstr ""
+msgstr "Version %s"
 
 #. Translators: The string parameter is release version (codename)
 #: src/sysinfo.cpp:94
 #, c-format
 msgid "Release %s"
-msgstr ""
+msgstr "Publicacion %s"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
@@ -1458,7 +1482,7 @@ msgstr "Processor :"
 
 #: src/sysinfo.cpp:1008
 msgid "Graphics:"
-msgstr ""
+msgstr "Grafics :"
 
 #. disk space section
 #: src/sysinfo.cpp:1013
@@ -1507,7 +1531,7 @@ msgstr "Ininterruptible"
 
 #: src/util.cpp:73
 msgid "Sleeping"
-msgstr "Al repaus"
+msgstr "al repaus"
 
 #. xgettext: weeks, days
 #: src/util.cpp:128

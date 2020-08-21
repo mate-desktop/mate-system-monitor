@@ -162,7 +162,7 @@ msgstr ""
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
-msgstr "Riconoscimenti-traduzione"
+msgstr "Alessandro Volturno, 2020"
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -326,7 +326,7 @@ msgstr "Aggiorna l'elenco dei processi"
 
 #: src/interface.cpp:79
 msgid "_Memory Maps"
-msgstr "_Mappe memoria"
+msgstr "_Mappe della memoria"
 
 #: src/interface.cpp:80
 msgid "Open the memory maps associated with a process"
@@ -642,7 +642,7 @@ msgstr "Mappe della memoria"
 #: src/memmaps.cpp:444
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr "_Mappe di memoria per il processo «%s» (PID %u):"
+msgstr "_Mappe della memoria per il processo «%s» (PID %u):"
 
 #: src/openfiles.cpp:38
 msgid "file"
@@ -979,7 +979,7 @@ msgstr "Larghezza della colonna WCHAN"
 
 #: src/org.mate.system-monitor.gschema.xml.in:356
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Mostra la colonna WCHAN all'avvio"
+msgstr "Mostra la colonna \"Canale di Attesa\" all'avvio"
 
 #: src/org.mate.system-monitor.gschema.xml.in:360
 msgid "Width of process 'Control Group' column"
@@ -1354,7 +1354,7 @@ msgstr "Riga di comando"
 #. ps(1)
 #: src/proctable.cpp:259 src/procproperties.cpp:143
 msgid "Waiting Channel"
-msgstr "WCHAN"
+msgstr "Canale di Attesa"
 
 #: src/proctable.cpp:260 src/procproperties.cpp:144
 msgid "Control Group"

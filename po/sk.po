@@ -5,12 +5,12 @@
 # 
 # Translators:
 # Pavol Šimo <palo.simo@gmail.com>, 2018
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2018
-# Juraj Oravec, 2018
+# 32442f8bc5cc500b59f161d95078a28a_525ed04, 2018
 # Tibor Kaputa <tibbbi2@gmail.com>, 2018
 # Erik Bročko <erik.brocko@letemsvetemapplem.eu>, 2018
-# Dušan Kazik <prescott66@gmail.com>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2020
+# Dušan Kazik <prescott66@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>, 2020\n"
 "Language-Team: Slovak (https://www.transifex.com/mate/teams/13566/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,13 +61,14 @@ msgstr "Zobrazuje aktuálne procesy a monitoruje stav systému"
 #. file name)!
 #: mate-system-monitor.desktop.in.in:9
 msgid "utilities-system-monitor"
-msgstr ""
+msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
 msgstr ""
+"MATE;systém;monitor;proces;zoznam;zobrazenie;aktuálny;aktuálne;prostriedky;zdroje;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -126,7 +127,7 @@ msgstr ""
 
 #: src/callbacks.cpp:205
 msgid "About System Monitor"
-msgstr ""
+msgstr "O programe Monitor systému"
 
 #: src/callbacks.cpp:207
 msgid ""
@@ -134,6 +135,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Autorské práva © 2001-2004 Kevin Vandersloot\n"
+"Autorské práva © 2005-2007 Benoît Dejean\n"
+"Autorské práva © 2011-2020 Vývojári prostredia MATE"
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
@@ -141,7 +145,8 @@ msgstr ""
 "Stanislav Višňovský\n"
 "Marcel Telka <marcel@telka.sk>\n"
 "Tibor Kaputa <tibbbi2@gmail.com>\n"
-"Dušan Kazik <prescott66@gmail.com>"
+"Dušan Kazik <prescott66@gmail.com>\n"
+"Ján Ďanovský <dagsoftware@yahoo.com>"
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -225,11 +230,11 @@ msgstr "_Upraviť"
 
 #: src/interface.cpp:53
 msgid "_View"
-msgstr "Z_obrazenie"
+msgstr "_Zobraziť"
 
 #: src/interface.cpp:54
 msgid "_Help"
-msgstr "_Pomocník"
+msgstr "_Nápoveda"
 
 #: src/interface.cpp:56
 msgid "Search for _Open Files"
@@ -330,7 +335,7 @@ msgstr "Zobraziť dodatočné informácie o procese"
 
 #: src/interface.cpp:88
 msgid "_Contents"
-msgstr "Ob_sah"
+msgstr "_Pomocník"
 
 #: src/interface.cpp:89
 msgid "Open the manual"
@@ -1360,19 +1365,19 @@ msgstr "Vlastník"
 
 #: src/proctable.cpp:267 src/procproperties.cpp:133
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Čítanie disku celkom"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:134
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Zápis na disk celkom"
 
 #: src/proctable.cpp:269
 msgid "Disk Read"
-msgstr ""
+msgstr "Čítanie disku"
 
 #: src/proctable.cpp:270
 msgid "Disk Write"
-msgstr ""
+msgstr "Zápis na disk"
 
 #: src/proctable.cpp:271 src/procproperties.cpp:139
 msgid "Priority"
@@ -1409,7 +1414,7 @@ msgstr "Vydanie %s %s"
 #: src/sysinfo.cpp:89
 #, c-format
 msgid "%s Version"
-msgstr ""
+msgstr "%s verzia"
 
 #. Translators: The string parameter is release version (codename)
 #: src/sysinfo.cpp:94
@@ -1453,12 +1458,12 @@ msgstr "Procesor:"
 
 #: src/sysinfo.cpp:1008
 msgid "Graphics:"
-msgstr ""
+msgstr "Grafika:"
 
 #. disk space section
 #: src/sysinfo.cpp:1013
 msgid "System Status"
-msgstr "Status systému"
+msgstr "Stav systému"
 
 #: src/sysinfo.cpp:1018
 msgid "Available disk space:"

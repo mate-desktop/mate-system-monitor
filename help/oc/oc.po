@@ -1,15 +1,17 @@
+# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Cédric Valmary <cvalmary@yahoo.fr>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Cfpo Miègjorn-Pirenèus <inactive+cfpomp@transifex.com>, 2019
+# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2019
+# Quentin PAGÈS, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Cfpo Miègjorn-Pirenèus <inactive+cfpomp@transifex.com>, 2019\n"
+"Last-Translator: Quentin PAGÈS, 2020\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,17 +34,17 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
 msgid "<year>2009</year> <holder>Paul Cutler</holder>"
-msgstr ""
+msgstr "<year>2009</year> <holder>Paul Cutler</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
 msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
-msgstr ""
+msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:36
@@ -50,6 +52,8 @@ msgid ""
 "<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
 "Day</holder>"
 msgstr ""
+"<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
+"Day</holder>"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
@@ -62,7 +66,7 @@ msgstr "Projècte de documentacion de MATE"
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "GNOME Documentation Project"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:2
@@ -132,6 +136,8 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"LOS DOCUMENTS E LAS VERSIONS MODIFICADAS D’AQUESTE DOCUMENT SON FORNITS JOLS"
+" TÈRMES DE LA LICÉNCIA DE DOCUMENTACION LIURA GNU ESTANT QUE :"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -139,6 +145,8 @@ msgid ""
 "<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
+"<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
+"<orgname>MATE Desktop</orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70
@@ -146,6 +154,8 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
+"<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -165,7 +175,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr ""
+msgstr "MATE Documentation Team"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -189,7 +199,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr ""
+msgstr "Sun GNOME Documentation Team"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -225,7 +235,7 @@ msgstr ""
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:160
 msgid "Feedback"
-msgstr ""
+msgstr "Comentaris"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:161
@@ -283,7 +293,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:199 C/index.docbook:367
 msgid "<guilabel>System</guilabel>"
-msgstr ""
+msgstr "<guilabel>Sistèma</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:203
@@ -310,7 +320,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:218
 msgid "MATE version"
-msgstr ""
+msgstr "Version MATE"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -321,12 +331,12 @@ msgstr "Material"
 #. (itstool) path: listitem/para
 #: C/index.docbook:230
 msgid "Installed memory"
-msgstr ""
+msgstr "Memòria installada"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:233
 msgid "Processors and speeds"
-msgstr ""
+msgstr "Processors e velocitat"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -337,7 +347,7 @@ msgstr "Estat del sistèma"
 #. (itstool) path: listitem/para
 #: C/index.docbook:245
 msgid "Currently available disk space"
-msgstr ""
+msgstr "Espaci disc actualament disponible"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -377,7 +387,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:283
 msgid "Network usage"
-msgstr ""
+msgstr "Utilizacion ret"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -394,7 +404,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr ""
+msgstr "Començar"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
@@ -1966,7 +1976,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1553
 msgid "<guilabel>Type</guilabel>"
-msgstr ""
+msgstr "<guilabel>Tipe</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1556

@@ -1,14 +1,16 @@
+# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Микола Ткач <chistomov@gmail.com>, 2019
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Микола Ткач <chistomov@gmail.com>, 2020
+# Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2019\n"
+"Last-Translator: Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -752,12 +754,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "Читання диска"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "Запис на диск"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490
@@ -793,7 +795,7 @@ msgid ""
 "behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-"
 "viewdeps\"/>."
 msgstr ""
-"Батьківський процес — це процес, який породжує инші процеси. Породжені "
+"Батьківський процес — це процес, який породжує інші процеси. Породжені "
 "процеси є процесами-нащадками їх батьківського процесу. Типово "
 "<application>Системний монітор</application> не показує залежності процесів."
 " Про те, як змінити типову поведінку, дивіться у розділі <xref linkend"

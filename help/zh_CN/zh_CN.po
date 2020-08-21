@@ -1,18 +1,23 @@
+# 
 # Translators:
-# liushuyu011 <liushuyu011@gmail.com>, 2018
-# biqiu-ssw <shenshuaiwen@gmail.com>, 2018
-# CNAmira <forucial@icloud.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Mingcong Bai <jeffbai@aosc.xyz>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# zhineng404 <zhinengge@gmail.com>, 2019
+# Mingtian Yang <i@skylee.xyz>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Mingcong Bai <jeffbai@aosc.xyz>, 2020
+# liushuyu011 <liushuyu011@gmail.com>, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2020
+# CNAmira <forucial@icloud.com>, 2020
+# biqiu-ssw <shenshuaiwen@gmail.com>, 2020
+# Wenbin Lv <wenbin816@gmail.com>, 2020
+# zhineng404 <zhinengge@gmail.com>, 2020
+# 邢家朋 <xingjiapeng10@163.com>, 2020
+# liulitchi <xingzuo88@qq.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: zhineng404 <zhinengge@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:04+0000\n"
+"Last-Translator: liulitchi <xingzuo88@qq.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +39,7 @@ msgstr ""
 "Mingye Wang <arthur200126@gmail.com>, 2015-2016\n"
 "白铭骢 <jeffbai@aosc.xyz>, 2015-2016\n"
 "刘子兴 <liushuyu@aosc.xyz>, 2015-2016\n"
-"比丘<shenshuaiwen@gmail.com>,2018-2019"
+"Mingtian Yang <i@skylee.xyz>, 2020"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -44,7 +49,7 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>MATE 文档项目</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
@@ -54,7 +59,7 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
 msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
-msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr "<year>2004</year> <holder>Sun 微系统</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:36
@@ -214,7 +219,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr "Sun GNOME 开发团队"
+msgstr "Sun GNOME 文档团队"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -643,7 +648,7 @@ msgstr "ID"
 #. (itstool) path: listitem/para
 #: C/index.docbook:472
 msgid "Memory"
-msgstr "记忆"
+msgstr "内存"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:475
@@ -653,22 +658,22 @@ msgstr "等候频道"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "磁盘总读取"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "磁盘总写入"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "磁盘读取"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "磁盘写入"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490

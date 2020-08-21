@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2020
 # 
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -155,13 +155,9 @@ msgstr ""
 #: src/callbacks.cpp:214
 msgid "translator-credits"
 msgstr ""
-"Gil Forcada <gilforcada@guifi.net>\n"
-"Jesús Moreno <jmmolas@wanadoo.es>\n"
-"Jordi Mallach <jordi@sindominio.net>\n"
-"Josep Puigdemont <josep.puigdemont@gmail.com>\n"
-"Pere O. <gotrunks@gmail.com>\n"
-"Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
-"Xavi Ivars <xavi.ivars@gmail.com>"
+"Joan Duran <jodufi@gmail.com>, 2007\n"
+"Pere O. <gotrunks@gmail.com>, 2018\n"
+"Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018, 2019, 2020"
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -317,7 +313,7 @@ msgstr "Configura l'aplicació"
 
 #: src/interface.cpp:76
 msgid "_Refresh"
-msgstr "_Actualitza"
+msgstr "_Refresca"
 
 #: src/interface.cpp:77
 msgid "Refresh the process list"
@@ -680,7 +676,7 @@ msgstr "Objecte"
 
 #: src/openfiles.cpp:324
 msgid "Open Files"
-msgstr "Fitxers oberts"
+msgstr "Obertura de fitxers"
 
 #: src/openfiles.cpp:345
 #, c-format

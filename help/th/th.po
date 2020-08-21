@@ -1,15 +1,16 @@
+# 
 # Translators:
-# Akom <knight2000@gmail.com>, 2018
-# Aefgh Threenine <aefgh3962@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2020
+# Aefgh Threenine <aefgh3962@gmail.com>, 2020
+# Akom <knight2000@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:04+0000\n"
+"Last-Translator: Akom <knight2000@gmail.com>, 2020\n"
 "Language-Team: Thai (https://www.transifex.com/mate/teams/13566/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -369,7 +370,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:239 C/index.docbook:440
 msgid "System Status"
-msgstr ""
+msgstr "สถานะระบบ"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:245
@@ -665,27 +666,27 @@ msgstr "ช่องที่คอย"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "อ่านดิสก์ทั้งหมด"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "เขียนดิสก์ทั้งหมด"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "อ่านดิสก์"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "เขียนดิสก์"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490
 msgid "Unit"
-msgstr ""
+msgstr "ยูนิต"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:493

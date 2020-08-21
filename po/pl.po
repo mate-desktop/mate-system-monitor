@@ -4,25 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Marcin Kralka <marcink96@gmail.com>, 2018
-# Krzysztof Kokot <kokot300@gmail.com>, 2018
-# emariusek <wisniowy@g.pl>, 2018
-# Kajetan Rosiak <roskaj@gmail.com>, 2018
-# Paweł Bandura <gawelx@gmail.com>, 2018
-# Wiktor Jezioro <wikjezioro@op.pl>, 2018
-# Darek Witkowski, 2018
-# Piotr Drąg <piotrdrag@gmail.com>, 2018
-# Piotr Strębski <strebski@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# pietrasagh <pietrasagh@gmail.com>, 2019
+# clefebvre <clement.lefebvre@linuxmint.com>, 2020
+# Wiktor Jezioro <wikjezioro@op.pl>, 2020
+# Piotr Drąg <piotrdrag@gmail.com>, 2020
+# Piotr Strębski <strebski@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Marcin Kralka <marcink96@gmail.com>, 2020
+# emariusek <wisniowy@g.pl>, 2020
+# Kajetan Rosiak <roskaj@gmail.com>, 2020
+# Paweł Bandura <gawelx@gmail.com>, 2020
+# Krzysztof Kokot <kokot300@gmail.com>, 2020
+# Darek Witkowski, 2020
+# Sir Polskacafe, 2020
+# pietrasagh <pietrasagh@gmail.com>, 2020
+# Daniel Tokarzewski <bezimo@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: pietrasagh <pietrasagh@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: Daniel Tokarzewski <bezimo@gmail.com>, 2020\n"
 "Language-Team: Polish (https://www.transifex.com/mate/teams/13566/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +68,7 @@ msgstr "Wyświetlanie istniejących procesów i monitorowanie stanu systemu"
 #. file name)!
 #: mate-system-monitor.desktop.in.in:9
 msgid "utilities-system-monitor"
-msgstr ""
+msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -156,7 +159,7 @@ msgstr ""
 #: src/callbacks.cpp:214
 msgid "translator-credits"
 msgstr ""
-"Tłumacze środowiska MATE, 2014-2018\n"
+"Tłumacze środowiska MATE, 2014-2020\n"
 "\n"
 "Zbigniew Chyla, 2002-2003\n"
 "Artur Flinta, 2003-2005\n"
@@ -164,7 +167,8 @@ msgstr ""
 "Tomasz Dominikowski, 2008-2009\n"
 "Joanna Mazgaj, 2009\n"
 "Piotr Drąg, 2010\n"
-"Aviary.pl, 2007-2010"
+"Aviary.pl, 2007-2010\n"
+"Daniel Tokarzewski, 2020"
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -252,7 +256,7 @@ msgstr "_Widok"
 
 #: src/interface.cpp:54
 msgid "_Help"
-msgstr "P_omoc"
+msgstr "_Pomoc"
 
 #: src/interface.cpp:56
 msgid "Search for _Open Files"
@@ -312,7 +316,7 @@ msgstr "Zmienia ważność procesu"
 
 #: src/interface.cpp:73
 msgid "_Preferences"
-msgstr "P_referencje"
+msgstr "_Preferencje"
 
 #: src/interface.cpp:74
 msgid "Configure the application"
@@ -524,10 +528,10 @@ msgstr "Systemy plików"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u sekunda"
-msgstr[1] "%u sekundy"
-msgstr[2] "%u sekund"
-msgstr[3] "%u sekund"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1448,7 +1452,7 @@ msgstr "Wydanie %s"
 #: src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
-msgstr "%d-bitowe"
+msgstr "%d-bitowa"
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"

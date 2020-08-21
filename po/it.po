@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Simone Centonze <mypythonit@gmail.com>, 2018
-# Dario Di Nucci <linkin88mail@gmail.com>, 2018
-# Marco Bartolucci <nap.84@live.it>, 2018
-# Karoly Nagy <karoly.nagy17@protonmail.com>, 2018
-# Marco Z. <minaz666@gmail.com>, 2018
-# Flavio D'Uffizi <twin.flavio@gmail.com>, 2018
-# l3nn4rt, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Giuseppe Pignataro <rogepix@gmail.com>, 2019
-# Enrico B. <enricobe@hotmail.com>, 2019
+# l3nn4rt, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2020
+# Dario Di Nucci <linkin88mail@gmail.com>, 2020
+# Giuseppe Pignataro <rogepix@gmail.com>, 2020
+# Enrico B. <enricobe@hotmail.com>, 2020
+# Marco Bartolucci <nap.84@live.it>, 2020
+# Karoly Nagy <karoly.nagy17@protonmail.com>, 2020
+# Marco Z. <minaz666@gmail.com>, 2020
+# Flavio D'Uffizi <twin.flavio@gmail.com>, 2020
+# Simone Centonze <mypythonit@gmail.com>, 2020
 # Alessandro Volturno <alelvb@inwind.it>, 2020
 # 
 msgid ""
@@ -21,7 +22,7 @@ msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
 "Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
@@ -162,7 +163,7 @@ msgstr ""
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
-msgstr "Riconoscimenti-traduzione"
+msgstr " "
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -559,7 +560,7 @@ msgstr "PID"
 
 #: src/lsof.cpp:292 src/memmaps.cpp:305
 msgid "Filename"
-msgstr "Nome file"
+msgstr "Nome del file"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
 #: src/lsof.cpp:309
@@ -1291,7 +1292,7 @@ msgstr "Un semplice monitor dei processi e del sistema."
 
 #: src/proctable.cpp:242 src/procproperties.cpp:124
 msgid "Process Name"
-msgstr "Nome del processo"
+msgstr "Nome del Processo"
 
 #: src/proctable.cpp:243 src/procproperties.cpp:125
 msgid "User"

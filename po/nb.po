@@ -4,10 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2019
-# Kim Malmo <berencamlost@msn.com>, 2019
+# 87d96f43665dd9fb55eba4603e184cae, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Allan Nordhøy <epost@anotheragency.no>, 2020
+# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2020
+# Kim Malmo <berencamlost@msn.com>, 2020
 # Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2020
 # 
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
 "Last-Translator: Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -363,7 +364,7 @@ msgstr "Åpne brukermanualen"
 
 #: src/interface.cpp:90
 msgid "_About"
-msgstr "Om"
+msgstr "_Om"
 
 #: src/interface.cpp:91
 msgid "About this application"
@@ -1205,7 +1206,7 @@ msgstr "(%s prioritet)"
 #: src/procdialogs.cpp:170
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr "Endre prioritet for prosessen \"%s\" (PID: %u)"
+msgstr "Endre prioritet for prosessen «%s» (PID: %u)"
 
 #: src/procdialogs.cpp:182
 msgid "Change _Priority"
@@ -1420,7 +1421,7 @@ msgstr "Prosessegenskaper"
 #: src/procproperties.cpp:272
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr "Egenskaper for prosessen \"%s\" (PID %u):"
+msgstr "Egenskaper for prosessen «%s» (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit

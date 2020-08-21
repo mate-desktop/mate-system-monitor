@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,6 +35,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"Мејтов пратилац система омогућава да видите и да управљате покренутим "
+"процесима на вашем систему. Такође обезбеђује преглед доступних ресурса, као"
+" што је процесор и меморија."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -42,6 +45,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"Мејтов пратилац система је исцепак Гномовог пратиоца система и део Мејтовог "
+"окружења радне површи. Ако желите да сазнате више о Мејту и о Пратиоцу "
+"система, посетите матичну страницу пројекта."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
 #: src/interface.cpp:625 src/procman.cpp:713
@@ -56,13 +62,13 @@ msgstr "Прегледајте текуће процесе и пратите с�
 #. file name)!
 #: mate-system-monitor.desktop.in.in:9
 msgid "utilities-system-monitor"
-msgstr ""
+msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr ""
+msgstr "Мејт;систем;прати;процес;списак;преглед;текући;ресурси;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -103,6 +109,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Пратилац система је слободан софтвер; можете га расподељивати и/или мењати "
+"под условима Гнуове опште јавне дозволе како је објављује Задужбина "
+"слободног софтвера; било издања 2 те дозволе, или (према вашем нахођењу) "
+"било којег новијег издања."
 
 #: src/callbacks.cpp:189
 msgid ""
@@ -111,6 +121,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"Пратилац система се расподељује у нади да ће бити од користи, али БЕЗ "
+"ИКАКВИХ ГАРАНЦИЈА; чак и без подразумеване гаранције ТРЖИШНЕ ВРЕДНОСТИ или "
+"ПРИЛАГОЂЕНОСТИ ОДРЕЂЕНОЈ НАМЕНИ.  Погледајте Гнуову општу јавну дозволу за "
+"више детаља."
 
 #: src/callbacks.cpp:193
 msgid ""
@@ -118,6 +132,10 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Требало је да примите примерак Гнуове опште јавне дозволе уз Пратиоца "
+"система; ако нисте, пишите Задужбини слободног софтвера на адресу: „Free "
+"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301 USA“"
 
 #: src/callbacks.cpp:205
 msgid "About System Monitor"
@@ -129,6 +147,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Ауторска права © 2001-2004 Кевин Вандерслот\n"
+"Ауторска права © 2005-2007 Бенуа Дејан\n"
+"Ауторска права © 2011-2020 Програмери Мејта"
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
@@ -492,9 +513,9 @@ msgstr "Системи датотека"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%u секунда"
+msgstr[1] "%u секунде"
+msgstr[2] "%u секунди"
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -993,43 +1014,43 @@ msgstr "Приказује колону власника процеса по п�
 
 #: src/org.mate.system-monitor.gschema.xml.in:400
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Ширина колоне укупног писања диска за процес"
 
 #: src/org.mate.system-monitor.gschema.xml.in:404
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Приказује колону укупног писања диска за процес по покретању"
 
 #: src/org.mate.system-monitor.gschema.xml.in:408
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Ширина колоне укупног читања диска за процес"
 
 #: src/org.mate.system-monitor.gschema.xml.in:412
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Приказује колону укупног читања диска за процес по покретању"
 
 #: src/org.mate.system-monitor.gschema.xml.in:416
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Ширина колоне читања диска за процес"
 
 #: src/org.mate.system-monitor.gschema.xml.in:420
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "Приказује колону читања диска за процес по покретању"
 
 #: src/org.mate.system-monitor.gschema.xml.in:424
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Ширина ступца писања диска за процес"
 
 #: src/org.mate.system-monitor.gschema.xml.in:428
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "Приказује колону писања диска за процес по покретању"
 
 #: src/org.mate.system-monitor.gschema.xml.in:432
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Ширина колоне приоритета процеса"
 
 #: src/org.mate.system-monitor.gschema.xml.in:436
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Приказује колону приоритета процеса по покретању"
 
 #: src/org.mate.system-monitor.gschema.xml.in:442
 msgid "Disk view sort column"
@@ -1239,7 +1260,7 @@ msgstr "Графици"
 
 #: src/procdialogs.cpp:693
 msgid "_Update interval in 1/10 sec:"
-msgstr ""
+msgstr "Период _освежавања у 1/10 секунде:"
 
 #: src/procdialogs.cpp:713
 msgid "Show network speed in bits"
@@ -1350,19 +1371,19 @@ msgstr "Власник"
 
 #: src/proctable.cpp:267 src/procproperties.cpp:133
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Укупно читање диска"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:134
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Укупно писање диска"
 
 #: src/proctable.cpp:269
 msgid "Disk Read"
-msgstr ""
+msgstr "Читање диска"
 
 #: src/proctable.cpp:270
 msgid "Disk Write"
-msgstr ""
+msgstr "Писање диска"
 
 #: src/proctable.cpp:271 src/procproperties.cpp:139
 msgid "Priority"
@@ -1399,7 +1420,7 @@ msgstr "Издање %s %s"
 #: src/sysinfo.cpp:89
 #, c-format
 msgid "%s Version"
-msgstr ""
+msgstr "издање %s"
 
 #. Translators: The string parameter is release version (codename)
 #: src/sysinfo.cpp:94
@@ -1443,7 +1464,7 @@ msgstr "Процесор:"
 
 #: src/sysinfo.cpp:1008
 msgid "Graphics:"
-msgstr ""
+msgstr "Графике:"
 
 #. disk space section
 #: src/sysinfo.cpp:1013

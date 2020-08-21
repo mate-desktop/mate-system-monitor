@@ -4,15 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Wolfgang Ulbrich <mate@raveit.de>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: clefebvre <clement.lefebvre@linuxmint.com>, 2020\n"
 "Language-Team: Panjabi (Punjabi) (https://www.transifex.com/mate/teams/13566/pa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1299,7 +1301,7 @@ msgstr "ਸੁਰੱਖਿਆ ਜਾਣਕਾਰੀ"
 
 #: src/proctable.cpp:256 src/procproperties.cpp:142
 msgid "Command Line"
-msgstr "ਕਮਾਂਡ ਲਾਈਨ"
+msgstr "ਕਮਾਂਡ ਲਾਇਨ"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)

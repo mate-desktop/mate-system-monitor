@@ -4,17 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Fabian Rodriguez, 2018
-# Lluís Tusquellas <lutusq@gmail.com>, 2018
-# Naresu Tenshi <naresutenshi@gmail.com>, 2018
-# seacat <seacat.linux@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# ebray187 <ebray187@gmail.com>, 2018
-# Emiliano Fascetti, 2018
-# Alberto Vicente Sánchez <odintdh@gmail.com>, 2018
-# Joel Barrios <darkshram@gmail.com>, 2018
-# Adolfo Jayme-Barrientos, 2019
-# Arcenio Cid <gusty.miliki@gmail.com>, 2019
+# Arcenio Cid <gusty.miliki@gmail.com>, 2020
+# seacat <seacat.linux@gmail.com>, 2020
+# Adolfo Jayme-Barrientos, 2020
+# Fabian Rodriguez, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# ebray187 <ebray187@gmail.com>, 2020
+# Naresu Tenshi <naresutenshi@gmail.com>, 2020
+# Emiliano Fascetti, 2020
+# Alberto Vicente Sánchez <odintdh@gmail.com>, 2020
 # Toni Estévez <toni.estevez@gmail.com>, 2020
 # 
 msgid ""
@@ -22,7 +20,7 @@ msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
 "Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
@@ -164,7 +162,7 @@ msgstr ""
 #: src/callbacks.cpp:214
 msgid "translator-credits"
 msgstr ""
-"Toni Estevez <toni.estevez@gmail.com>, 2019\n"
+"Toni Estevez <toni.estevez@gmail.com>, 2020\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2007-2010\n"
 "Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003-2006\n"
 "Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002-2003"
@@ -315,7 +313,7 @@ msgstr "Cambia el orden de prioridad del proceso"
 
 #: src/interface.cpp:73
 msgid "_Preferences"
-msgstr "Preferencias"
+msgstr "_Preferencias"
 
 #: src/interface.cpp:74
 msgid "Configure the application"

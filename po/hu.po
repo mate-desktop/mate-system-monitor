@@ -4,22 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nagy Gábor <jackson.gabor@gmail.com>, 2018
-# Rezső Páder <rezso@rezso.net>, 2018
-# Takler Tamás <taklertamas@gmail.com>, 2018
-# Ferenc Teknős <teknos.ferenc@gmail.com>, 2018
-# KAMI KAMI <kami911@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Falu <info@falu.me>, 2019
-# Balázs Meskó <meskobalazs@gmail.com>, 2019
+# Ferenc Teknős <teknos.ferenc@gmail.com>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2020
+# KAMI KAMI <kami911@gmail.com>, 2020
+# Rezső Páder <rezso@rezso.net>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Nagy Gábor <jackson.gabor@gmail.com>, 2020
+# Takler Tamás <taklertamas@gmail.com>, 2020
+# Falu <info@falu.me>, 2020
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +35,7 @@ msgstr "MATE rendszerfigyelő"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Egy folyamat és erőforrás figyelő a MATE asztali környezethez"
+msgstr "Egy folyamat- és erőforrásfigyelő a MATE asztali környezethez"
 
 #: mate-system-monitor.appdata.xml.in:10
 msgid ""
@@ -154,12 +156,12 @@ msgid "translator-credits"
 msgstr ""
 "Dvornik László<dvornik at mate dot hu>\n"
 "Kelemen Gábor<kelemeng at mate dot hu>\n"
-"Tímár András<timar at mate dot hu>\n"
-"Rezső Páder<rezso at rezso dot net>\n"
 "Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
 "Falu<info at falu dot me>\n"
+"Rezső Páder<rezso at rezso dot net>\n"
 "Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko dot balazs at fsf dot hu>"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>\n"
+"Tímár András<timar at mate dot hu>"
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -519,8 +521,8 @@ msgstr "Fájlrendszerek"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u másodperc"
-msgstr[1] "%u másodperc"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1345,7 +1347,7 @@ msgstr "Biztonsági környezet"
 
 #: src/proctable.cpp:256 src/procproperties.cpp:142
 msgid "Command Line"
-msgstr "Parancssor"
+msgstr "Parancssorból"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1441,7 +1443,7 @@ msgstr "%s kiadás"
 #: src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
-msgstr "%d-bit"
+msgstr "%d bites"
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"

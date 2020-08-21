@@ -4,21 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Edward Sawyer <saoded@gmail.com>, 2018
-# Dave Save <davesave@gmail.com>, 2018
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018
-# בר בוכובזה <bokovzabox@gmail.com>, 2018
-# haxoc c11 <haxoc112@disroot.org>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# shy tzedaka <shaytzedaka123@gmail.com>, 2019
+# Edward Sawyer <saoded@gmail.com>, 2020
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# בר בוכובזה <bokovzabox@gmail.com>, 2020
+# Dave Save <davesave@gmail.com>, 2020
+# haxoc c11 <haxoc112@disroot.org>, 2020
+# shy tzedaka <shaytzedaka123@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: shy tzedaka <shaytzedaka123@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: shy tzedaka <shaytzedaka123@gmail.com>, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
-msgstr ""
+msgstr "מנטר המערכת של MATE"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
@@ -126,7 +126,7 @@ msgstr ""
 
 #: src/callbacks.cpp:205
 msgid "About System Monitor"
-msgstr ""
+msgstr "אודות מנטר המערכת"
 
 #: src/callbacks.cpp:207
 msgid ""
@@ -1367,12 +1367,12 @@ msgstr "לא זמין"
 
 #: src/procproperties.cpp:252
 msgid "Process Properties"
-msgstr ""
+msgstr "הגדרות התהליך"
 
 #: src/procproperties.cpp:272
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "הגדרות התהליך \"%s\" (%uPID):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
@@ -1429,12 +1429,12 @@ msgstr "מעבד:"
 
 #: src/sysinfo.cpp:1008
 msgid "Graphics:"
-msgstr ""
+msgstr "גרפיקה"
 
 #. disk space section
 #: src/sysinfo.cpp:1013
 msgid "System Status"
-msgstr ""
+msgstr "מצב מערכת"
 
 #: src/sysinfo.cpp:1018
 msgid "Available disk space:"

@@ -1,18 +1,19 @@
+# 
 # Translators:
-# talorno <giovanni.talorno@gmail.com>, 2018
-# Marco Z. <minaz666@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Dario Di Nucci <linkin88mail@gmail.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Giuseppe Pignataro <rogepix@gmail.com>, 2019
-# Enrico B. <enricobe@hotmail.com>, 2019
+# talorno <giovanni.talorno@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Dario Di Nucci <linkin88mail@gmail.com>, 2020
+# Giuseppe Pignataro <rogepix@gmail.com>, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2020
+# Enrico B. <enricobe@hotmail.com>, 2020
+# Marco Z. <minaz666@gmail.com>, 2020
 # Alessandro Volturno <alelvb@inwind.it>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
+"PO-Revision-Date: 2020-02-16 16:04+0000\n"
 "Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2020\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +25,7 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "riconoscimenti-traduttore"
+msgstr " "
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -67,7 +68,7 @@ msgstr "progetto Documentazione di  MATE"
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr "Progetto Documentazione di GNOME"
+msgstr "Progetto della Documentazione di GNOME "
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:2
@@ -110,10 +111,10 @@ msgid ""
 "capital letters."
 msgstr ""
 "Molti dei nomi usati dalle aziende per distinguere i propri prodotti e "
-"servizi sono rivendicati come marchi. Quando questi nomi compaiono nella "
-"documentazione di MATE, e i partecipanti al MATE Documentation Project sono "
-"consapevoli del loro utilizzo, essi vengono scritti in lettere maiuscole o "
-"con l'iniziale maiuscola."
+"servizi sono rivendicati come marchi registrati. Quando questi nomi "
+"compaiono nella documentazione di MATE, e i partecipanti al MATE "
+"Documentation Project sono consapevoli del loro utilizzo, essi vengono "
+"scritti in lettere maiuscole o con l'iniziale maiuscola."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:35 C/legal.xml:35
@@ -142,7 +143,7 @@ msgstr ""
 "REDATTORE INIZIALE, DELL'AUTORE O DI ALTRI COLLABORATORI). QUESTA "
 "LIMITAZIONE DELLA GARANZIA COSTITUISCE PARTE ESSENZIALE DELLA LICENZA. L'USO"
 " DEL DOCUMENTO O DELLE SUE VERSIONI MODIFICATE È CONSENTITO SOLO ENTRO I "
-"TERMINI DI QUESTA LIMITAZIONE DELLA GARANZIA;"
+"TERMINI DI QUESTA LIMITAZIONE DELLA GARANZIA; E"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:55 C/legal.xml:55
@@ -216,13 +217,13 @@ msgid ""
 "<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 msgstr ""
 "<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
-"<orgname>GNOME Documentation Project</orgname> "
+"<orgname>Progetto Documentazione GNOME</orgname> "
 "<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "Team Documentazione MATE"
+msgstr "Team Documentazione di MATE"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -423,7 +424,7 @@ msgstr "Spazio su disco attualmente disponibile"
 #. (itstool) path: listitem/para
 #: C/index.docbook:254 C/index.docbook:375
 msgid "<guilabel>Processes</guilabel>"
-msgstr "<guilabel>Processesi</guilabel>"
+msgstr "<guilabel>Processi</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:258
@@ -465,7 +466,7 @@ msgstr "Uilizzo della rete"
 #. (itstool) path: listitem/para
 #: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1505
 msgid "<guilabel>File Systems</guilabel>"
-msgstr "<guilabel>File Sistems</guilabel>"
+msgstr "<guilabel>File Sistem</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:295
@@ -478,7 +479,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr "Per iniziare"
+msgstr "Per Iniziare"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
@@ -497,7 +498,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr "menù <guimenu>Applicazioni</guimenu>"
+msgstr "menu <guimenu>Applicazioni</guimenu>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -574,7 +575,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:352
 msgid "Menubar"
-msgstr "Barra dei menù"
+msgstr "Barra dei menu"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:354
@@ -597,7 +598,7 @@ msgid ""
 "contains the following tabbed sections:"
 msgstr ""
 "L'area di visualizzazione le informazioni del monitor di sistema. L'area di "
-"visualiazzazione contiene le sezioni seguenti:"
+"visualizzazione contiene le sezioni seguenti:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:370
@@ -625,9 +626,9 @@ msgid ""
 "Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
 "graph."
 msgstr ""
-"Contiene un grafico sulla <guilabel>Storia della CPU</guilabel>, un grafico "
-"sulla <guilabel>Storia della Memorie e dello Swap</guilabel>, ed un grafico "
-"sulla <guilabel>Storia della Rete</guilabel>."
+"Contiene un grafico sulla <guilabel>Cromologia della CPU</guilabel>, un "
+"grafico sulla <guilabel>Cronologia della Memorie e dello Swap</guilabel>, ed"
+" un grafico sulla <guilabel>Cromologia della Rete</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:394
@@ -653,7 +654,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:418
 msgid "Usage"
-msgstr "Utilizzo"
+msgstr "UsoUtilizzo"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:421
@@ -693,7 +694,7 @@ msgstr "Mostrare l'Elenco dei Processi"
 msgid ""
 "To display the process list, select the <guilabel>Processes</guilabel> tab."
 msgstr ""
-"Per mostrare l'elenco dei processi attivi selezionare la "
+"Per mostrare l'elenco dei processi selezionare la "
 "scheda<guilabel>Processi</guilabel>."
 
 #. (itstool) path: sect2/para
@@ -717,7 +718,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:457
 msgid "Process Name"
-msgstr "Nome del processo"
+msgstr "Nome del Processo"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:460
@@ -848,7 +849,7 @@ msgstr "Più è alto il valore nice, minore è la priorità del processo."
 #. (itstool) path: listitem/para
 #: C/index.docbook:527
 msgid "The lower the nice value, the higher the priority."
-msgstr "Più basso il valore nice, più alta è la priorità"
+msgstr "Più basso il valore nice, più alta è la priorità."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:532
@@ -1170,7 +1171,7 @@ msgid ""
 " processes."
 msgstr ""
 "Il segmento di memoria è riservato al processo, e non è accessibile da altri"
-" processi"
+" processi."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:768
@@ -1366,14 +1367,18 @@ msgstr "Utilizzare il regolo per impostare il valore di nice del processo ."
 msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
-msgstr "Il valore di nice imposta la priorità del processo."
+msgstr ""
+"Il valore di nice imposta la priorità del processo: più basso è il valore di"
+" nice, più alta è la priorità"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:895
 msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
-msgstr "Il valore di nice imposta la priorità del processo."
+msgstr ""
+"Per impostare un valore di nice inferiore allo 0, gli utenti non root "
+"dovranno inserire la password di root."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:900
@@ -1444,7 +1449,7 @@ msgstr "Terminare un Processo"
 #. (itstool) path: sect2/para
 #: C/index.docbook:945
 msgid "To terminate a process, perform the following steps:"
-msgstr "Per terminare un processo , procedere come segue:"
+msgstr "Per terminare un processo, procedere come segue:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:955
@@ -1505,13 +1510,13 @@ msgid ""
 msgstr ""
 "<application>Monitor di Sistema</application> mostra la cronologia di "
 "utilizzo del CPU in formato grafico. <application>Monitor di "
-"Sistema</application> mostra inoltre l'utilizzo corrente del CPU, in "
-"percentuale."
+"Sistema</application> mostra inoltre l'utilizzo corrente del CPU, in forma "
+"di percentuale."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:990
 msgid "To Monitor Memory and Swap Usage"
-msgstr "Monitorare la Memoria e l'Utilizzo dello Swap"
+msgstr "Monitorare l'Utilizzo  della Memoria e dello Swap"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:991
@@ -1683,8 +1688,8 @@ msgid ""
 "information about the usage of system resources."
 msgstr ""
 "Selezionare la scheda <guilabel>Risorse</guilabel>della finestra di "
-"<guilabel>Monitor di Sistema</guilabel>, per mostrare i grafici e la tabella"
-" che forniscono informazioni sulle risorse del sistema."
+"<guilabel>Monitor di Sistema</guilabel> per visualizzare i grafici e la "
+"tabella che forniscono informazioni sulle risorse del sistema."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1102
@@ -1711,7 +1716,7 @@ msgid ""
 "color</guilabel> dialog."
 msgstr ""
 "Fare click su <guibutton>OK</guibutton> per chiudere la finestra "
-"<guilabel>Seleziona colore</guilabel>."
+"<guilabel>Seleziona un colore</guilabel>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1120
@@ -1912,8 +1917,8 @@ msgid ""
 "Select this option to display the amount of virtual memory that is allocated"
 " to the process."
 msgstr ""
-"Scegliere questa opzione per mostrare il nome dell'utente che possiede il "
-"processo."
+"Scegliere questa opzione per mostrare la quantità di memoria virtuale che è "
+"allocata per il processo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1283
@@ -2419,5 +2424,5 @@ msgstr ""
 "documento in base ai termini della GNU Free Documentation License (GFDL), "
 "Versione 1.1 o qualsiasi versione successiva pubblicata dalla Free Software "
 "Foundation senza sezioni invarianti, senza testi di copertina e nessun testo"
-" di retro copertina. Puoi trovare una copia del GFDL qui <_:ulink-1/> o nel "
-"file COPYING-DOCS distribuito con questo manuale."
+" di retro copertina. Potete trovare una copia del GFDL qui <_:ulink-1/> o "
+"nel file COPYING-DOCS distribuito con questo manuale."

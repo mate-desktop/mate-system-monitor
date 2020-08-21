@@ -4,20 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 玉堂白鹤 <yjwork@qq.com>, 2018
-# Wylmer Wang, 2018
-# Mingcong Bai <jeffbai@aosc.xyz>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# liushuyu011 <liushuyu011@gmail.com>, 2019
-# zhineng404 <zhinengge@gmail.com>, 2019
+# Wenbin Lv <wenbin816@gmail.com>, 2020
+# Mingtian Yang <i@skylee.xyz>, 2020
+# e0c668032ced196bd60f2b6a070d982d_8f72ae0, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Mingcong Bai <jeffbai@aosc.xyz>, 2020
+# liushuyu011 <liushuyu011@gmail.com>, 2020
+# zhineng404 <zhinengge@gmail.com>, 2020
+# 玉堂白鹤 <yjwork@qq.com>, 2020
+# liulitchi <xingzuo88@qq.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: zhineng404 <zhinengge@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: liulitchi <xingzuo88@qq.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +41,7 @@ msgid ""
 "MATE System Monitor allows to graphically view and manipulate the running "
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
-msgstr ""
+msgstr " MATE 系统监视器，以图形化的方式来让用户浏览或操作当前进程。还提供了可用资源的概览, 如 CPU 和 内存状况。"
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -46,6 +49,8 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"MATE 系统监视器是 MATE 桌面环境的一部分，为 GNOME 系统监视器的复刻。想了解更多有关 MATE 及 MATE "
+"系统监视器的信息，可访问项目主页。"
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
 #: src/interface.cpp:625 src/procman.cpp:713
@@ -60,7 +65,7 @@ msgstr "查看当前进程及监视系统状态"
 #. file name)!
 #: mate-system-monitor.desktop.in.in:9
 msgid "utilities-system-monitor"
-msgstr ""
+msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -107,8 +112,8 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"系统监视器是自由软件；您可以按照自由软件基金会所发布的 GNU GPL（GNU 通用公共许可） "
-"许可对其再发放和/或修改该软件；您可以使用第二版或任何更新的版本。"
+"系统监视器是自由软件；您可以按照自由软件基金会所发布的 GNU GPL（GNU "
+"通用公共许可）对其再发放和/或修改该软件；您可以使用第二版或任何更新的版本。"
 
 #: src/callbacks.cpp:189
 msgid ""
@@ -150,7 +155,8 @@ msgstr ""
 "玉堂白鹤 <yjwork@qq.com>, 2015\n"
 "Mingye Wang <arthur200126@gmail.com>, 2015-2016\n"
 "白铭骢 <jeffbai@aosc.xyz>, 2015-2016\n"
-"刘子兴 <liushuyu@aosc.xyz>, 2015-2016"
+"刘子兴 <liushuyu@aosc.xyz>, 2015-2016\n"
+"Mingtian Yang <i@skylee.xyz>, 2020"
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -997,43 +1003,43 @@ msgstr "启动时显示进程“所有者”列"
 
 #: src/org.mate.system-monitor.gschema.xml.in:400
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "“磁盘总写入”卷的进程宽度"
 
 #: src/org.mate.system-monitor.gschema.xml.in:404
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "启动时显示“磁盘总写入”卷进程"
 
 #: src/org.mate.system-monitor.gschema.xml.in:408
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "“磁盘总读取”卷的进程宽度"
 
 #: src/org.mate.system-monitor.gschema.xml.in:412
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "启动时显示“磁盘总读取”卷进程"
 
 #: src/org.mate.system-monitor.gschema.xml.in:416
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "“磁盘读取”卷的进程宽度"
 
 #: src/org.mate.system-monitor.gschema.xml.in:420
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "启动时显示“磁盘读取”卷进程"
 
 #: src/org.mate.system-monitor.gschema.xml.in:424
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "“磁盘写入”卷的进程宽度"
 
 #: src/org.mate.system-monitor.gschema.xml.in:428
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "启动时显示“磁盘写入”卷进程"
 
 #: src/org.mate.system-monitor.gschema.xml.in:432
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "”优先“磁盘卷的进程宽度"
 
 #: src/org.mate.system-monitor.gschema.xml.in:436
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "启动时显示“优先级”进程"
 
 #: src/org.mate.system-monitor.gschema.xml.in:442
 msgid "Disk view sort column"
@@ -1348,19 +1354,19 @@ msgstr "所有者"
 
 #: src/proctable.cpp:267 src/procproperties.cpp:133
 msgid "Disk Read Total"
-msgstr ""
+msgstr "磁盘总读取"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:134
 msgid "Disk Write Total"
-msgstr ""
+msgstr "磁盘总写入"
 
 #: src/proctable.cpp:269
 msgid "Disk Read"
-msgstr ""
+msgstr "读取磁盘"
 
 #: src/proctable.cpp:270
 msgid "Disk Write"
-msgstr ""
+msgstr "写入磁盘"
 
 #: src/proctable.cpp:271 src/procproperties.cpp:139
 msgid "Priority"

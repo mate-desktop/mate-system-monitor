@@ -4,19 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Elvis M. Lukšić <meluksic@yahoo.com>, 2018
-# Ivica  Kolić <ikoli@yahoo.com>, 2019
-# Ivan Branimir Škorić <ivanskrc123@gmail.com>, 2019
+# Ivan Branimir Škorić <ivanskrc123@gmail.com>, 2020
+# Ivica  Kolić <ikoli@yahoo.com>, 2020
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# gogo <trebelnik2@gmail.com>, 2020
+# Elvis M. Lukšić <meluksic@yahoo.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Ivan Branimir Škorić <ivanskrc123@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: Elvis M. Lukšić <meluksic@yahoo.com>, 2020\n"
 "Language-Team: Croatian (https://www.transifex.com/mate/teams/13566/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -397,7 +398,7 @@ msgstr ""
 
 #: src/interface.cpp:114 src/util.cpp:167
 msgid "Very High"
-msgstr "Vrlo visoko"
+msgstr "Vrlo visoka"
 
 #: src/interface.cpp:115
 msgid "Set process priority to very high"
@@ -405,7 +406,7 @@ msgstr "Postavi prioritet procesa vrlo visoko"
 
 #: src/interface.cpp:116 src/util.cpp:169
 msgid "High"
-msgstr "Visoko"
+msgstr "Visoka"
 
 #: src/interface.cpp:117
 msgid "Set process priority to high"
@@ -421,7 +422,7 @@ msgstr "Postavi prioritet procesa normalno"
 
 #: src/interface.cpp:120 src/util.cpp:173
 msgid "Low"
-msgstr "NIsko"
+msgstr "Niska"
 
 #: src/interface.cpp:121
 msgid "Set process priority to low"

@@ -4,25 +4,27 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Xorg, 2018
-# jeremy shields <jeremy.shields@orange.fr>, 2018
-# mauron, 2018
-# Tubuntu <tubuntu@testimonium.be>, 2018
-# clefebvre <clement.lefebvre@linuxmint.com>, 2018
-# Charles Monzat <c.monzat@laposte.net>, 2018
-# Louis-Martin Carrière <louismc@gmail.com>, 2018
-# Étienne Deparis <etienne@depar.is>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Benjamin Teissier <enatheme@enatheme.org>, 2019
-# David D, 2019
+# Xorg, 2020
+# jeremy shields <jeremy.shields@orange.fr>, 2020
+# Colomban Wendling <cwendling@hypra.fr>, 2020
+# mauron, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Tubuntu <tubuntu@testimonium.be>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2020
+# Charles Monzat <c.monzat@laposte.net>, 2020
+# Étienne Deparis <etienne@depar.is>, 2020
+# Louis-Martin Carrière <louismc@gmail.com>, 2020
+# David D, 2020
+# Laurent Napias, 2020
+# Jerom Turible <jeromet9208@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: David D, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: Jerom Turible <jeromet9208@gmail.com>, 2020\n"
 "Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +67,7 @@ msgstr "Afficher les processus en cours et surveiller l'état du système"
 #. file name)!
 #: mate-system-monitor.desktop.in.in:9
 msgid "utilities-system-monitor"
-msgstr ""
+msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -128,6 +130,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"System Monitor est distribué dans l'espoir qu'il sera utile, mais SANS "
+"AUCUNE GARANTIE; sans même la garantie implicite de QUALITÉ MARCHANDE ou "
+"D'ADÉQUATION À UN USAGE PARTICULIER. Voir la Licence Publique Générale GNU "
+"pour plus de détails."
 
 #: src/callbacks.cpp:193
 msgid ""
@@ -135,6 +141,9 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Vous devriez avoir reçu une copie de la licence publique générale GNU avec "
+"System Monitor; sinon, écrivez à la Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 
 #: src/callbacks.cpp:205
 msgid "About System Monitor"
@@ -146,6 +155,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 Les développeurs de MATE"
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
@@ -683,7 +695,7 @@ msgstr "Objet"
 
 #: src/openfiles.cpp:324
 msgid "Open Files"
-msgstr "Fichiers ouverts"
+msgstr "Ouvrir des fichiers"
 
 #: src/openfiles.cpp:345
 #, c-format

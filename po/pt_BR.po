@@ -4,28 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Matheus Macabu <mkbu95@gmail.com>, 2018
-# Marcio Andre Padula <padula1000@gmail.com>, 2018
-# 642cf48d39bca7f9ad9d185d4bcea8c8, 2018
-# Roger Araújo <roger.rf@gmail.com>, 2018
-# Herick Vinicius <herick.gustavo@gmail.com>, 2018
-# Aldo Oliveira <america103@gmail.com>, 2018
-# Marcus Vinícius Marques, 2018
-# Lucas Dias <lucasdiaas@outlook.com>, 2018
-# 710a500dd1d5560bb05c8b24814b8c26, 2018
-# jose, 2018
-# 18ab4449a00621534598e84a949423ea, 2018
-# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2019
+# Wolfgang Ulbrich <mate@raveit.de>, 2020
+# Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2020
+# Herick Vinicius <herick.gustavo@gmail.com>, 2020
+# Lucas Dias <lucasdiaas@outlook.com>, 2020
+# George Silva <algoritmo.linux@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Matheus Macabu <mkbu95@gmail.com>, 2020
+# Aldo Oliveira <america103@gmail.com>, 2020
+# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2020
+# 3f37d448649cd548fa5a733e33387c2a_dee4ccf, 2020
+# 65f2af3cfa184c075942a0418b98d2de_d688669, 2020
+# 18ab4449a00621534598e84a949423ea, 2020
+# Roger Araújo <roger.rf@gmail.com>, 2020
+# 710a500dd1d5560bb05c8b24814b8c26, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: 710a500dd1d5560bb05c8b24814b8c26, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -149,6 +149,7 @@ msgstr ""
 "Equipe de tradução no Transifex:\n"
 "Fabrizzio Alphonsus Soares https://www.transifex.com/accounts/profile/fabrizzio\n"
 "Alberto Federman Neto https://www.transifex.com/accounts/profile/albfneto\n"
+"Aldo Oliveira https://www.transifex.com/user/profile/AldoBR/\n"
 "Appes https://www.transifex.com/accounts/profile/apps\n"
 "arm332 https://www.transifex.com/accounts/profile/arm332\n"
 "augusteiner https://www.transifex.com/accounts/profile/augusteiner\n"
@@ -166,7 +167,8 @@ msgstr ""
 "Matheus Martins https://www.transifex.com/accounts/profile/Matheus_Martins\n"
 "Michele dos Santos da Silva https://www.transifex.com/accounts/profile/mchelem\n"
 "Thiago Cangussu https://www.transifex.com/accounts/profile/cangussu.thg\n"
-"vitorgatti https://www.transifex.com/accounts/profile/vitorgatti"
+"vitorgatti https://www.transifex.com/accounts/profile/vitorgatti\n"
+"George Salu da Silva https://www.transifex.com/user/profile/George_salu_da_silva/"
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -526,8 +528,8 @@ msgstr "Sistemas de arquivos"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u segundo"
-msgstr[1] "%u segundos"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1350,7 +1352,7 @@ msgstr "Contexto de segurança"
 
 #: src/proctable.cpp:256 src/procproperties.cpp:142
 msgid "Command Line"
-msgstr "Linha de comando"
+msgstr "Linha de Comando"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)

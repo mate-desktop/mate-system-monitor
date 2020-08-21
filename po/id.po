@@ -4,23 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2018
-# hpiece 8 <hpiece8@gmail.com>, 2018
-# Muhammad Herdiansyah <herdiansyah@openmailbox.org>, 2018
-# Rizki Aulia Rachman <rizkiaulia.r@gmail.com>, 2018
-# Febrian Setianto (Feber) <febrian.setianto@gmail.com>, 2018
-# Kukuh Syafaat <syafaatkukuh@gmail.com>, 2018
-# Andika Triwidada <andika@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2019
+# hpiece 8 <hpiece8@gmail.com>, 2020
+# Kukuh Syafaat <syafaatkukuh@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# Rizki Aulia Rachman <rizkiaulia.r@gmail.com>, 2020
+# Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2020
+# La Ode Muh. Fadlun Akbar <fadlun.net@gmail.com>, 2020
+# Febrian Setianto (Feber) <febrian.setianto@gmail.com>, 2020
+# Muhammad Herdiansyah <herdiansyah@openmailbox.org>, 2020
+# Andika Triwidada <andika@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/mate/teams/13566/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,6 +43,10 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"Pemantau Sistem MATE memiliki kemampuan untuk melihat dan memanipulasi "
+"proses yang berjalan pada sistem Anda secara visual. Aplikasi ini juga "
+"menyediakan gambaran tentang sumber daya yang tersedia, seperti CPU dan "
+"memori."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -49,6 +54,10 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"Pemantau Sistem MATE adalah fork dari GNOME System Monitor dan merupakan "
+"bagian dari Lingkungan Desktop MATE. Jika Anda hendak mengetahui lebih "
+"lanjut tentang MATE dan System Monitor, harap mengunjungi halaman home page "
+"proyek."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
 #: src/interface.cpp:625 src/procman.cpp:713
@@ -63,13 +72,13 @@ msgstr "Melihat proses yang sedang berjalan serta memonitor kinerja sistem"
 #. file name)!
 #: mate-system-monitor.desktop.in.in:9
 msgid "utilities-system-monitor"
-msgstr ""
+msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr ""
+msgstr "MATE;sistem;pemantau;proses;daftar;tilikan;saat ini;sumber daya;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -110,6 +119,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Pemantau Sistem adalah perangkat lunak bebas; Anda dapat mendistribusikan "
+"ulang dan/atau mengubahnya di bawah ketentuan GNU General Public License "
+"sebagaimana dipublikasikan oleh Free Software Foundation; Lisensi versi 2, "
+"atau (sesuai pilihan Anda) menggunakan versi selanjutnya."
 
 #: src/callbacks.cpp:189
 msgid ""
@@ -118,6 +131,9 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"Pemantau Sistem didistribusikan dengan harapan dapat berguna, tetapi TANPA "
+"ADANYA JAMINAN; termasuk tanpa jaminan DAYA JUAL atau KELAIKAN UNTUK TUJUAN "
+"TERTENTU. Lihat GNU General Public License untuk rincian lebih lanjut."
 
 #: src/callbacks.cpp:193
 msgid ""
@@ -125,10 +141,14 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Anda seharusnya menerima salinan dari GNU General Public License bersama "
+"Pemantau Sistem; jika tidak, kirimkan surat Anda ke Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
 
 #: src/callbacks.cpp:205
 msgid "About System Monitor"
-msgstr ""
+msgstr "Tentang Pemantau Sistem"
 
 #: src/callbacks.cpp:207
 msgid ""
@@ -136,6 +156,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Hak Cipta © 2001-2004 Kevin Vandersloot\n"
+"Hak Cipta © 2005-2007 Benoît Dejean\n"
+"Hak Cipta © 2011-2020 pengembang MATE"
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
@@ -144,7 +167,8 @@ msgstr ""
 "Ahmad Riza H Nst  <ari@160c.afraid.org>\n"
 "Dirgita <dirgita@gmail.com>\n"
 "Tim MATE Indonesia <http://id.mate.org>\n"
-"Kukuh Syafaat <syafaatkukuh@gmail.com>, 2017."
+"Kukuh Syafaat <syafaatkukuh@gmail.com>, 2017.\n"
+"Andika Triwidada <andika@gmail.com>, 2020."
 
 #: src/disks.cpp:345 src/memmaps.cpp:327
 msgid "Device"
@@ -1001,43 +1025,43 @@ msgstr "Tampilkan kolom proses 'Pemilik' pada saat mulai"
 
 #: src/org.mate.system-monitor.gschema.xml.in:400
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Lebar kolom \"Total Tulis Diska\" proses"
 
 #: src/org.mate.system-monitor.gschema.xml.in:404
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Tampilkan kolom \"Total Tulis Diska\" proses pada awal mula"
 
 #: src/org.mate.system-monitor.gschema.xml.in:408
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Lebar kolom \"Total Baca Diska\" proses"
 
 #: src/org.mate.system-monitor.gschema.xml.in:412
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Tampilkan kolom \"Total Baca Diska\" proses pada awal mula"
 
 #: src/org.mate.system-monitor.gschema.xml.in:416
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Lebar kolom \"Baca Diska\" proses"
 
 #: src/org.mate.system-monitor.gschema.xml.in:420
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "Tampilkan kolom \"Baca Diska\" proses pada awal mula"
 
 #: src/org.mate.system-monitor.gschema.xml.in:424
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Lebar kolom \"Tulis Diska\" proses"
 
 #: src/org.mate.system-monitor.gschema.xml.in:428
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "Tampilkan kolom \"Tulis Diska\" proses pada awal mula"
 
 #: src/org.mate.system-monitor.gschema.xml.in:432
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Lebar kolom \"Prioritas\" proses"
 
 #: src/org.mate.system-monitor.gschema.xml.in:436
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Tampilkan kolom \"Prioritas\" proses pada saat mulai"
 
 #: src/org.mate.system-monitor.gschema.xml.in:442
 msgid "Disk view sort column"
@@ -1360,19 +1384,19 @@ msgstr "Pemilik"
 
 #: src/proctable.cpp:267 src/procproperties.cpp:133
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Total Baca Diska"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:134
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Total Tulis Diska"
 
 #: src/proctable.cpp:269
 msgid "Disk Read"
-msgstr ""
+msgstr "Baca Diska"
 
 #: src/proctable.cpp:270
 msgid "Disk Write"
-msgstr ""
+msgstr "Tulis Diska"
 
 #: src/proctable.cpp:271 src/procproperties.cpp:139
 msgid "Priority"
@@ -1410,7 +1434,7 @@ msgstr "Rilis %s %s"
 #: src/sysinfo.cpp:89
 #, c-format
 msgid "%s Version"
-msgstr ""
+msgstr "Versi %s"
 
 #. Translators: The string parameter is release version (codename)
 #: src/sysinfo.cpp:94
@@ -1454,7 +1478,7 @@ msgstr "Prosesor:"
 
 #: src/sysinfo.cpp:1008
 msgid "Graphics:"
-msgstr ""
+msgstr "Grafis:"
 
 #. disk space section
 #: src/sysinfo.cpp:1013

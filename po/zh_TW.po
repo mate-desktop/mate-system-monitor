@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Walter Cheuk <wwycheuk@gmail.com>, 2018
-# 趙惟倫 <bluebat@member.fsf.org>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Walter Cheuk <wwycheuk@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# 趙惟倫 <bluebat@member.fsf.org>, 2020
 # 黃柏諺 <s8321414@gmail.com>, 2020
 # 
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
 "Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2020\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/mate/teams/13566/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -509,7 +509,7 @@ msgstr "檔案系統"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u 秒"
+msgstr[0] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"

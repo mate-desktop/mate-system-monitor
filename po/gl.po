@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020
 # 
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020\n"
 "Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -446,7 +446,7 @@ msgstr "Rematar o _proceso"
 #: src/interface.cpp:279
 #, c-format
 msgid "Pick a Color for '%s'"
-msgstr "Seleccionar unha cor para «%s»"
+msgstr "Seleccione unha cor para «%s»"
 
 #: src/interface.cpp:290
 msgid "CPU History"

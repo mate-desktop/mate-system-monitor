@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# abuyop <abuyop@gmail.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
+# abuyop <abuyop@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.23.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>, 2019\n"
+"PO-Revision-Date: 2020-02-16 16:03+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>, 2020\n"
 "Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -146,6 +146,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Hak Cipta © 2001-2004 Kevin Vandersloot\n"
+"Hak Cipta © 2005-2007 Benoît Dejean\n"
+"Hak Cipta © 2011-2020 Pembangun MATE"
 
 #: src/callbacks.cpp:214
 msgid "translator-credits"
@@ -1373,7 +1376,7 @@ msgstr "Jumlah Tulis Cakera"
 
 #: src/proctable.cpp:269
 msgid "Disk Read"
-msgstr "Baca Calkera"
+msgstr "Baca Cakera"
 
 #: src/proctable.cpp:270
 msgid "Disk Write"

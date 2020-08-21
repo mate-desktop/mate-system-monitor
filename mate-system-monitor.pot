@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.23.0\n"
+"Project-Id-Version: mate-system-monitor 1.25.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2020-01-13 13:07+0100\n"
+"POT-Creation-Date: 2020-08-21 15:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,18 +39,13 @@ msgid ""
 "Monitor, please visit the project's home page."
 msgstr ""
 
-#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
+#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:228
 #: src/interface.cpp:625 src/procman.cpp:713
 msgid "System Monitor"
 msgstr ""
 
-#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:206
+#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:231
 msgid "View current processes and monitor system state"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: mate-system-monitor.desktop.in.in:9
-msgid "utilities-system-monitor"
 msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
@@ -90,7 +85,7 @@ msgstr ""
 msgid "Show the File Systems tab"
 msgstr ""
 
-#: src/callbacks.cpp:185
+#: src/callbacks.cpp:210
 msgid ""
 "System Monitor is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -98,7 +93,7 @@ msgid ""
 "any later version."
 msgstr ""
 
-#: src/callbacks.cpp:189
+#: src/callbacks.cpp:214
 msgid ""
 "System Monitor is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -106,25 +101,25 @@ msgid ""
 "more details."
 msgstr ""
 
-#: src/callbacks.cpp:193
+#: src/callbacks.cpp:218
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
 
-#: src/callbacks.cpp:205
+#: src/callbacks.cpp:230
 msgid "About System Monitor"
 msgstr ""
 
-#: src/callbacks.cpp:207
+#: src/callbacks.cpp:232
 msgid ""
 "Copyright © 2001-2004 Kevin Vandersloot\n"
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
 
-#: src/callbacks.cpp:214
+#: src/callbacks.cpp:239
 msgid "translator-credits"
 msgstr ""
 
@@ -247,17 +242,21 @@ msgstr ""
 msgid "Continue process if stopped"
 msgstr ""
 
-#: src/interface.cpp:67 src/procdialogs.cpp:91
+#: src/interface.cpp:67 src/procdialogs.cpp:111
 msgid "_End Process"
-msgstr ""
+msgid_plural "_End Processes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/interface.cpp:68
 msgid "Force process to finish normally"
 msgstr ""
 
-#: src/interface.cpp:69 src/procdialogs.cpp:80
+#: src/interface.cpp:69 src/procdialogs.cpp:105
 msgid "_Kill Process"
-msgstr ""
+msgid_plural "_Kill Processes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/interface.cpp:70
 msgid "Force process to finish immediately"
@@ -435,7 +434,7 @@ msgstr ""
 msgid "Memory and Swap History"
 msgstr ""
 
-#: src/interface.cpp:391 src/proctable.cpp:257 src/procproperties.cpp:127
+#: src/interface.cpp:391 src/proctable.cpp:265 src/procproperties.cpp:127
 msgid "Memory"
 msgstr ""
 
@@ -468,15 +467,15 @@ msgstr ""
 msgid "System"
 msgstr ""
 
-#: src/interface.cpp:709 src/procdialogs.cpp:554
+#: src/interface.cpp:709 src/procdialogs.cpp:584
 msgid "Processes"
 msgstr ""
 
-#: src/interface.cpp:713 src/procdialogs.cpp:667
+#: src/interface.cpp:713 src/procdialogs.cpp:697
 msgid "Resources"
 msgstr ""
 
-#: src/interface.cpp:717 src/procdialogs.cpp:732 src/procdialogs.cpp:736
+#: src/interface.cpp:717 src/procdialogs.cpp:762 src/procdialogs.cpp:766
 msgid "File Systems"
 msgstr ""
 
@@ -497,7 +496,7 @@ msgstr ""
 msgid "%s (%.1f%%) of %s"
 msgstr ""
 
-#: src/load-graph.cpp:592 src/load-graph.cpp:599 src/util.cpp:485
+#: src/load-graph.cpp:603 src/load-graph.cpp:610 src/util.cpp:506
 #, c-format
 msgid "%s/s"
 msgstr ""
@@ -856,239 +855,239 @@ msgstr ""
 msgid "Show process 'X Server Memory' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:288
+#: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:292
+#: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:296
+#: src/org.mate.system-monitor.gschema.xml.in:298
 msgid "Width of process 'CPU Time' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:300
+#: src/org.mate.system-monitor.gschema.xml.in:302
 msgid "Show process 'CPU Time' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:304
+#: src/org.mate.system-monitor.gschema.xml.in:306
 msgid "Width of process 'Started' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:308
+#: src/org.mate.system-monitor.gschema.xml.in:310
 msgid "Show process 'Started' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:312
+#: src/org.mate.system-monitor.gschema.xml.in:314
 msgid "Width of process 'Nice' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:316
+#: src/org.mate.system-monitor.gschema.xml.in:318
 msgid "Show process 'Nice' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:320
+#: src/org.mate.system-monitor.gschema.xml.in:322
 msgid "Width of process 'ID' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:324
+#: src/org.mate.system-monitor.gschema.xml.in:326
 msgid "Show process 'ID' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:328
+#: src/org.mate.system-monitor.gschema.xml.in:330
 msgid "Width of process 'Security Context' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:332
+#: src/org.mate.system-monitor.gschema.xml.in:334
 msgid "Show process 'Security Context' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:336
+#: src/org.mate.system-monitor.gschema.xml.in:338
 msgid "Width of process 'Command Line' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:340
+#: src/org.mate.system-monitor.gschema.xml.in:342
 msgid "Show process 'Command Line' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:344
+#: src/org.mate.system-monitor.gschema.xml.in:346
 msgid "Width of process 'Memory' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:348
+#: src/org.mate.system-monitor.gschema.xml.in:350
 msgid "Show process 'Memory' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:352
+#: src/org.mate.system-monitor.gschema.xml.in:354
 msgid "Width of process 'Waiting Channel' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:356
+#: src/org.mate.system-monitor.gschema.xml.in:358
 msgid "Show process 'Waiting Channel' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:360
+#: src/org.mate.system-monitor.gschema.xml.in:362
 msgid "Width of process 'Control Group' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:364
+#: src/org.mate.system-monitor.gschema.xml.in:366
 msgid "Show process 'Control Group' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:368
+#: src/org.mate.system-monitor.gschema.xml.in:370
 msgid "Width of process 'Unit' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:372
+#: src/org.mate.system-monitor.gschema.xml.in:374
 msgid "Show process 'Unit' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:376
+#: src/org.mate.system-monitor.gschema.xml.in:378
 msgid "Width of process 'Session' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:380
+#: src/org.mate.system-monitor.gschema.xml.in:382
 msgid "Show process 'Session' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:384
+#: src/org.mate.system-monitor.gschema.xml.in:386
 msgid "Width of process 'Seat' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:388
+#: src/org.mate.system-monitor.gschema.xml.in:390
 msgid "Show process 'Seat' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:392
+#: src/org.mate.system-monitor.gschema.xml.in:394
 msgid "Width of process 'Owner' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:396
+#: src/org.mate.system-monitor.gschema.xml.in:398
 msgid "Show process 'Owner' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:400
+#: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:404
+#: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:408
+#: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:412
+#: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:416
+#: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:420
+#: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:424
+#: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:428
+#: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:432
+#: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:436
+#: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:442
+#: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:446
+#: src/org.mate.system-monitor.gschema.xml.in:448
 msgid "Disk view sort order"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:450
+#: src/org.mate.system-monitor.gschema.xml.in:452
 msgid "Disk view columns order"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:454
+#: src/org.mate.system-monitor.gschema.xml.in:456
 msgid "Width of disk view 'Device' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:458
+#: src/org.mate.system-monitor.gschema.xml.in:460
 msgid "Show disk view 'Device' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:462
+#: src/org.mate.system-monitor.gschema.xml.in:464
 msgid "Width of disk view 'Directory' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:466
+#: src/org.mate.system-monitor.gschema.xml.in:468
 msgid "Show disk view 'Directory' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:470
+#: src/org.mate.system-monitor.gschema.xml.in:472
 msgid "Width of disk view 'Type' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:474
+#: src/org.mate.system-monitor.gschema.xml.in:476
 msgid "Show disk view 'Type' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:478
+#: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'Total' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:482
+#: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'Total' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:486
+#: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Free' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:490
+#: src/org.mate.system-monitor.gschema.xml.in:492
 msgid "Show disk view 'Free' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:494
+#: src/org.mate.system-monitor.gschema.xml.in:496
 msgid "Width of disk view 'Available' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:498
+#: src/org.mate.system-monitor.gschema.xml.in:500
 msgid "Show disk view 'Available' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:502
+#: src/org.mate.system-monitor.gschema.xml.in:504
 msgid "Width of disk view 'Used' column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:506
+#: src/org.mate.system-monitor.gschema.xml.in:508
 msgid "Show disk view 'Used' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:512
+#: src/org.mate.system-monitor.gschema.xml.in:514
 msgid "Memory map sort column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:516
+#: src/org.mate.system-monitor.gschema.xml.in:518
 msgid "Memory map sort order"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:522
+#: src/org.mate.system-monitor.gschema.xml.in:524
 msgid "Open files sort column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:526
+#: src/org.mate.system-monitor.gschema.xml.in:528
 msgid "Open files sort order"
 msgstr ""
 
@@ -1106,117 +1105,134 @@ msgid ""
 "%s"
 msgstr ""
 
-#. xgettext: primary alert message
-#: src/procdialogs.cpp:73
+#. xgettext: primary alert message for killing single process
+#: src/procdialogs.cpp:78
 #, c-format
-msgid "Kill the selected process “%s” (PID: %u)?"
+msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
+msgstr ""
+
+#. xgettext: primary alert message for ending single process
+#: src/procdialogs.cpp:83
+#, c-format
+msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
+msgstr ""
+
+#. xgettext: primary alert message for killing multiple processes
+#: src/procdialogs.cpp:90
+#, c-format
+msgid "Are you sure you want to kill the %d selected processes?"
+msgstr ""
+
+#. xgettext: primary alert message for ending multiple processes
+#: src/procdialogs.cpp:94
+#, c-format
+msgid "Are you sure you want to end the %d selected processes?"
 msgstr ""
 
 #. xgettext: secondary alert message
-#: src/procdialogs.cpp:77
+#: src/procdialogs.cpp:102
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
 msgstr ""
 
-#. xgettext: primary alert message
-#: src/procdialogs.cpp:84
-#, c-format
-msgid "End the selected process “%s” (PID: %u)?"
-msgstr ""
-
 #. xgettext: secondary alert message
-#: src/procdialogs.cpp:88
+#: src/procdialogs.cpp:108
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security "
 "risk. Only unresponsive processes should be ended."
 msgstr ""
 
-#: src/procdialogs.cpp:126 src/procdialogs.cpp:215
+#: src/procdialogs.cpp:146 src/procdialogs.cpp:245
 #, c-format
 msgid "(%s Priority)"
 msgstr ""
 
-#: src/procdialogs.cpp:170
+#: src/procdialogs.cpp:195
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
 msgstr ""
 
-#: src/procdialogs.cpp:182
+#: src/procdialogs.cpp:198
+#, c-format
+msgid "Change Priority of %d Selected Processes"
+msgstr ""
+
+#: src/procdialogs.cpp:212
 msgid "Change _Priority"
 msgstr ""
 
-#: src/procdialogs.cpp:205
+#: src/procdialogs.cpp:235
 msgid "_Nice value:"
 msgstr ""
 
-#: src/procdialogs.cpp:220
+#: src/procdialogs.cpp:250
 msgid "Note:"
 msgstr ""
 
-#: src/procdialogs.cpp:221
+#: src/procdialogs.cpp:251
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr ""
 
-#: src/procdialogs.cpp:472
+#: src/procdialogs.cpp:502
 msgid "Icon"
 msgstr ""
 
-#: src/procdialogs.cpp:531
+#: src/procdialogs.cpp:561
 msgid "System Monitor Preferences"
 msgstr ""
 
-#: src/procdialogs.cpp:561
+#: src/procdialogs.cpp:591
 msgid "Behavior"
 msgstr ""
 
-#: src/procdialogs.cpp:580 src/procdialogs.cpp:755
+#: src/procdialogs.cpp:610 src/procdialogs.cpp:785
 msgid "_Update interval in seconds:"
 msgstr ""
 
-#: src/procdialogs.cpp:605
+#: src/procdialogs.cpp:635
 msgid "Enable _smooth refresh"
 msgstr ""
 
-#: src/procdialogs.cpp:618
+#: src/procdialogs.cpp:648
 msgid "Alert before ending or _killing processes"
 msgstr ""
 
-#: src/procdialogs.cpp:631
+#: src/procdialogs.cpp:661
 msgid "Divide CPU usage by CPU count"
 msgstr ""
 
-#: src/procdialogs.cpp:632
+#: src/procdialogs.cpp:662
 msgid "Solaris mode"
 msgstr ""
 
-#: src/procdialogs.cpp:649 src/procdialogs.cpp:789
+#: src/procdialogs.cpp:679 src/procdialogs.cpp:819
 msgid "Information Fields"
 msgstr ""
 
-#: src/procdialogs.cpp:662
+#: src/procdialogs.cpp:692
 msgid "Process i_nformation shown in list:"
 msgstr ""
 
-#: src/procdialogs.cpp:674
+#: src/procdialogs.cpp:704
 msgid "Graphs"
 msgstr ""
 
-#: src/procdialogs.cpp:693
+#: src/procdialogs.cpp:723
 msgid "_Update interval in 1/10 sec:"
 msgstr ""
 
-#: src/procdialogs.cpp:713
+#: src/procdialogs.cpp:743
 msgid "Show network speed in bits"
 msgstr ""
 
-#: src/procdialogs.cpp:775
+#: src/procdialogs.cpp:805
 msgid "Show _all file systems"
 msgstr ""
 
-#: src/procdialogs.cpp:802
+#: src/procdialogs.cpp:832
 msgid "File system i_nformation shown in list:"
 msgstr ""
 
@@ -1224,122 +1240,122 @@ msgstr ""
 msgid "A simple process and system monitor."
 msgstr ""
 
-#: src/proctable.cpp:242 src/procproperties.cpp:124
+#: src/proctable.cpp:250 src/procproperties.cpp:124
 msgid "Process Name"
 msgstr ""
 
-#: src/proctable.cpp:243 src/procproperties.cpp:125
+#: src/proctable.cpp:251 src/procproperties.cpp:125
 msgid "User"
 msgstr ""
 
-#: src/proctable.cpp:244 src/procproperties.cpp:126
+#: src/proctable.cpp:252 src/procproperties.cpp:126
 msgid "Status"
 msgstr ""
 
-#: src/proctable.cpp:245 src/procproperties.cpp:128
+#: src/proctable.cpp:253 src/procproperties.cpp:128
 msgid "Virtual Memory"
 msgstr ""
 
-#: src/proctable.cpp:246 src/procproperties.cpp:129
+#: src/proctable.cpp:254 src/procproperties.cpp:129
 msgid "Resident Memory"
 msgstr ""
 
-#: src/proctable.cpp:247 src/procproperties.cpp:130
+#: src/proctable.cpp:255 src/procproperties.cpp:130
 msgid "Writable Memory"
 msgstr ""
 
-#: src/proctable.cpp:248 src/procproperties.cpp:131
+#: src/proctable.cpp:256 src/procproperties.cpp:131
 msgid "Shared Memory"
 msgstr ""
 
-#: src/proctable.cpp:249 src/procproperties.cpp:132
+#: src/proctable.cpp:257 src/procproperties.cpp:132
 msgid "X Server Memory"
 msgstr ""
 
-#: src/proctable.cpp:250
+#: src/proctable.cpp:258
 #, no-c-format
 msgid "% CPU"
 msgstr ""
 
-#: src/proctable.cpp:251 src/procproperties.cpp:136
+#: src/proctable.cpp:259 src/procproperties.cpp:136
 msgid "CPU Time"
 msgstr ""
 
-#: src/proctable.cpp:252 src/procproperties.cpp:137
+#: src/proctable.cpp:260 src/procproperties.cpp:137
 msgid "Started"
 msgstr ""
 
-#: src/proctable.cpp:253 src/procproperties.cpp:138
+#: src/proctable.cpp:261 src/procproperties.cpp:138
 msgid "Nice"
 msgstr ""
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:262 src/procproperties.cpp:140
 msgid "ID"
 msgstr ""
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:263 src/procproperties.cpp:141
 msgid "Security Context"
 msgstr ""
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:264 src/procproperties.cpp:142
 msgid "Command Line"
 msgstr ""
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan ps(1)
-#: src/proctable.cpp:259 src/procproperties.cpp:143
+#: src/proctable.cpp:267 src/procproperties.cpp:143
 msgid "Waiting Channel"
 msgstr ""
 
-#: src/proctable.cpp:260 src/procproperties.cpp:144
+#: src/proctable.cpp:268 src/procproperties.cpp:144
 msgid "Control Group"
 msgstr ""
 
-#: src/proctable.cpp:261
+#: src/proctable.cpp:269
 msgid "Unit"
 msgstr ""
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:270
 msgid "Session"
 msgstr ""
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process belongs to, only
 #. for multi-seat environments. See http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:265
+#: src/proctable.cpp:273
 msgid "Seat"
 msgstr ""
 
-#: src/proctable.cpp:266
+#: src/proctable.cpp:274
 msgid "Owner"
 msgstr ""
 
-#: src/proctable.cpp:267 src/procproperties.cpp:133
+#: src/proctable.cpp:275 src/procproperties.cpp:133
 msgid "Disk Read Total"
 msgstr ""
 
-#: src/proctable.cpp:268 src/procproperties.cpp:134
+#: src/proctable.cpp:276 src/procproperties.cpp:134
 msgid "Disk Write Total"
 msgstr ""
 
-#: src/proctable.cpp:269
+#: src/proctable.cpp:277
 msgid "Disk Read"
 msgstr ""
 
-#: src/proctable.cpp:270
+#: src/proctable.cpp:278
 msgid "Disk Write"
 msgstr ""
 
-#: src/proctable.cpp:271 src/procproperties.cpp:139
+#: src/proctable.cpp:279 src/procproperties.cpp:139
 msgid "Priority"
 msgstr ""
 
-#: src/proctable.cpp:1153
+#: src/proctable.cpp:1161
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr ""
 
 #: src/procproperties.cpp:98 src/procproperties.cpp:107
-#: src/procproperties.cpp:141 src/procproperties.cpp:144 src/util.cpp:369
-#: src/util.cpp:441 src/util.cpp:479
+#: src/procproperties.cpp:141 src/procproperties.cpp:144 src/util.cpp:390
+#: src/util.cpp:462 src/util.cpp:500
 msgid "N/A"
 msgstr ""
 

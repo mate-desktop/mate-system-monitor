@@ -1,3 +1,15 @@
+### mate-system-monitor 1.25.0
+
+  * Translations update
+  * procdialogs: Remove trailing spaces
+  * add git.mk to generate .gitignore
+  * Added support for actions on multiple processes
+  * build: silent build warnings for distcheck
+  * build: do not override the default value for MATE_x_WARNINGS
+  * Use user page on github when user email is private
+  * Update authors
+  * Remove GTimeVal deprecation warning for GLib 2.61.2+
+
 ### mate-system-monitor 1.24.0
 
   * filter-out conflictive c-format comments

@@ -24,6 +24,8 @@
 #include <locale.h>
 
 #include <gtkmm/main.h>
+#include <gtkmm/widget.h>
+#include <gdkmm/monitor.h>
 #include <giomm/volumemonitor.h>
 #include <giomm/init.h>
 #include <glib.h>
@@ -347,12 +349,13 @@ procman_data_new (GSettings *settings)
     g_free (color);
 
     /* Sanity checks */
-    GdkMonitor *monitor = gdk_display_get_monitor_at_window(gdk_display_get_default(), gtk_widget_get_window(pd->app));
-    GdkRectangle srect;
-    gdk_monitor_get_workarea(monitor, &srect);
+    Gdk::Rectangle srect;
+    Gtk::Widget *app = Glib::wrap(pd->app);
+    Glib::RefPtr<Gdk::Window> window = app ? app->get_window() : Glib::RefPtr<Gdk::Window>();
+    Gdk::Display::get_default()->get_monitor_at_window(window)->get_workarea(srect);
 
-    swidth = srect.width;
-    sheight = srect.height;
+    swidth = srect.get_width();
+    sheight = srect.get_height();
     pd->config.width = CLAMP (pd->config.width, 50, swidth);
     pd->config.height = CLAMP (pd->config.height, 50, sheight);
     pd->config.update_interval = MAX (pd->config.update_interval, 1000);

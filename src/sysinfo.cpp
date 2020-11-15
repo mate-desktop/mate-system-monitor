@@ -355,11 +355,12 @@ namespace {
 
         void load_disk_info()
         {
+            GHashTable *devices;
             glibtop_mountentry *entries;
             glibtop_mountlist mountlist;
 
             entries = glibtop_get_mountlist(&mountlist, 0);
-
+            devices = g_hash_table_new(g_str_hash, g_str_equal);
             this->free_space_bytes = 0;
 
             for (guint i = 0; i != mountlist.number; ++i) {
@@ -378,11 +379,18 @@ namespace {
                 if (string(entries[i].mountdir).find("/media/") == 0)
                     continue;
 
+                /* avoid adding a device more than once such as for btrfs filesystem */
+                if (g_hash_table_contains (devices, entries[i].devname))
+                    continue;
+                else
+                    g_hash_table_insert (devices, entries[i].devname, entries[i].mountdir);
+
                 glibtop_fsusage usage;
                 glibtop_get_fsusage(&usage, entries[i].mountdir);
                 this->free_space_bytes += usage.bavail * usage.block_size;
             }
 
+            g_hash_table_destroy (devices);
             g_free(entries);
         }
 

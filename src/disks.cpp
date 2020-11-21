@@ -1,5 +1,9 @@
 #include <config.h>
 
+#ifdef __linux__
+#include <mntent.h>
+#endif // __linux__
+
 #include <giomm.h>
 #include <giomm/themedicon.h>
 #include <gtk/gtk.h>
@@ -24,6 +28,7 @@ enum DiskColumns
     DISK_DEVICE,
     DISK_DIR,
     DISK_TYPE,
+    DISK_SUBVOLUME,
     DISK_TOTAL,
     DISK_FREE,
     DISK_AVAIL,
@@ -176,6 +181,46 @@ remove_old_disks(GtkTreeModel *model, const glibtop_mountentry *entries, guint n
     }
 }
 
+#ifdef __linux__
+static char *
+get_mount_opt(const glibtop_mountentry *entry, const char* opt)
+{
+    char *opt_value = NULL;
+    const struct mntent *mnt;
+    FILE *fp;
+
+    if (!(fp = setmntent(MOUNTED, "r"))) {
+        goto out;
+    }
+
+    while ((mnt = getmntent(fp))) {
+        if ((g_strcmp0(entry->mountdir, mnt->mnt_dir) == 0) &&
+            (g_strcmp0(entry->devname, mnt->mnt_fsname) == 0)) {
+            char *res;
+
+            res = hasmntopt(mnt, "subvol");
+            if ((res = hasmntopt(mnt, "subvol")) != NULL) {
+                char **strs = g_strsplit_set(res, "=", 2);
+
+                if (g_strv_length(strs) == 2) {
+                    char *value = strs[1];
+                    if (g_strcmp0 (value,"/root") == 0)
+                       opt_value = g_strdup("/");
+                    else
+                        opt_value = g_strdup(strs[1]);
+                    g_strfreev(strs);
+                }
+            }
+            break;
+        }
+    }
+
+    endmntent(fp);
+
+  out:
+     return opt_value;
+}
+#endif // __linux__
 
 
 static void
@@ -187,6 +232,9 @@ add_disk(GtkListStore *list, const glibtop_mountentry *entry, bool show_all_fs)
     glibtop_fsusage usage;
     guint64 bused, bfree, bavail, btotal;
     gint percentage;
+#ifdef __linux__
+    char *subvol = NULL;
+#endif // __linux__
 
     glibtop_get_fsusage(&usage, entry->mountdir);
 
@@ -197,6 +245,9 @@ add_disk(GtkListStore *list, const glibtop_mountentry *entry, bool show_all_fs)
     }
 
     fsusage_stats(&usage, &bused, &bfree, &bavail, &btotal, &percentage);
+#ifdef __linux__
+    subvol = get_mount_opt(entry, "subvol");
+#endif // __linux__
     pixbuf = get_icon_for_device(entry->mountdir);
     surface = gdk_cairo_surface_create_from_pixbuf (pixbuf->gobj(), 0, NULL);
 
@@ -212,12 +263,21 @@ add_disk(GtkListStore *list, const glibtop_mountentry *entry, bool show_all_fs)
                        DISK_DEVICE, entry->devname,
                        DISK_DIR, entry->mountdir,
                        DISK_TYPE, entry->type,
+#ifdef __linux__
+
+                       DISK_SUBVOLUME, subvol != NULL ? subvol : "",
+#else
+                       DISK_SUBVOLUME, "",
+#endif // __linux__
                        DISK_USED_PERCENTAGE, percentage,
                        DISK_TOTAL, btotal,
                        DISK_FREE, bfree,
                        DISK_AVAIL, bavail,
                        DISK_USED, bused,
                        -1);
+#ifdef __linux__
+    g_free (subvol);
+#endif // __linux__
 }
 
 
@@ -345,6 +405,7 @@ create_disk_view(ProcData *procdata)
         N_("Device"),
         N_("Directory"),
         N_("Type"),
+        N_("SubVolume"),
         N_("Total"),
         N_("Free"),
         N_("Available"),
@@ -368,13 +429,13 @@ create_disk_view(ProcData *procdata)
                                G_TYPE_STRING,              /* DISK_DEVICE */
                                G_TYPE_STRING,              /* DISK_DIR */
                                G_TYPE_STRING,              /* DISK_TYPE */
+                               G_TYPE_STRING,              /* DISK_SUBVOLUME */
                                G_TYPE_UINT64,              /* DISK_TOTAL */
                                G_TYPE_UINT64,              /* DISK_FREE */
                                G_TYPE_UINT64,              /* DISK_AVAIL */
                                G_TYPE_UINT64,              /* DISK_USED */
                                CAIRO_GOBJECT_TYPE_SURFACE, /* DISK_ICON */
-                               G_TYPE_INT                  /* DISK_USED_PERCENTAGE */
-        );
+                               G_TYPE_INT);                /* DISK_USED_PERCENTAGE */
 
     disk_tree = gtk_tree_view_new_with_model(GTK_TREE_MODEL(model));
     g_signal_connect(G_OBJECT(disk_tree), "row-activated", G_CALLBACK(open_dir), NULL);

@@ -212,7 +212,7 @@ procdialog_create_renice_dialog (ProcData *procdata)
     button = gtk_button_new_with_mnemonic (_("Change _Priority"));
     gtk_widget_set_can_default (button, TRUE);
 
-    icon = gtk_image_new_from_stock ("gtk-ok", GTK_ICON_SIZE_BUTTON);
+    icon = gtk_image_new_from_icon_name ("gtk-ok", GTK_ICON_SIZE_BUTTON);
     gtk_button_set_image (GTK_BUTTON (button), icon);
 
     gtk_dialog_add_action_widget (GTK_DIALOG (renice_dialog), button, 100);

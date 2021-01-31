@@ -41,7 +41,7 @@ Applications_in_files = mate-system-monitor.desktop.in
 Applications_DATA = $(Applications_in_files:.desktop.in=.desktop)
 
 $(Applications_DATA): $(Applications_in_files)
-	$(AM_V_GEN) $(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
+	$(AM_V_GEN) $(MSGFMT) --desktop --keyword= --keyword=Name --keyword=Comment --keyword=Keywords --template $< -d $(top_srcdir)/po -o $@
 
 distuninstallcheck_listfiles = find . -type f -print
 

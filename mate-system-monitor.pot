@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.25.0\n"
-"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2020-08-21 15:46+0200\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/"
+"issues\n"
+"POT-Creation-Date: 2021-02-09 18:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,31 +124,35 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 
-#: src/disks.cpp:345 src/memmaps.cpp:327
+#: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
 msgstr ""
 
-#: src/disks.cpp:346
+#: src/disks.cpp:406
 msgid "Directory"
 msgstr ""
 
-#: src/disks.cpp:347 src/gsm_color_button.c:179 src/openfiles.cpp:252
+#: src/disks.cpp:407 src/gsm_color_button.c:179 src/openfiles.cpp:252
 msgid "Type"
 msgstr ""
 
-#: src/disks.cpp:348
+#: src/disks.cpp:408
+msgid "SubVolume"
+msgstr ""
+
+#: src/disks.cpp:409
 msgid "Total"
 msgstr ""
 
-#: src/disks.cpp:349
+#: src/disks.cpp:410
 msgid "Free"
 msgstr ""
 
-#: src/disks.cpp:350
+#: src/disks.cpp:411
 msgid "Available"
 msgstr ""
 
-#: src/disks.cpp:351
+#: src/disks.cpp:412
 msgid "Used"
 msgstr ""
 
@@ -1044,50 +1049,58 @@ msgid "Show disk view 'Type' column on startup"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
-msgid "Width of disk view 'Total' column"
+msgid "Width of disk view 'SubVol' column"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
-msgid "Show disk view 'Total' column on startup"
+msgid "Show disk view 'SubVol' column on startup"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
-msgid "Width of disk view 'Free' column"
+msgid "Width of disk view 'Total' column"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:492
-msgid "Show disk view 'Free' column on startup"
+msgid "Show disk view 'Total' column on startup"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:496
-msgid "Width of disk view 'Available' column"
+msgid "Width of disk view 'Free' column"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:500
-msgid "Show disk view 'Available' column on startup"
+msgid "Show disk view 'Free' column on startup"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:504
-msgid "Width of disk view 'Used' column"
+msgid "Width of disk view 'Available' column"
 msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:508
+msgid "Show disk view 'Available' column on startup"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:512
+msgid "Width of disk view 'Used' column"
+msgstr ""
+
+#: src/org.mate.system-monitor.gschema.xml.in:516
 msgid "Show disk view 'Used' column on startup"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:514
+#: src/org.mate.system-monitor.gschema.xml.in:522
 msgid "Memory map sort column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:518
+#: src/org.mate.system-monitor.gschema.xml.in:526
 msgid "Memory map sort order"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:524
+#: src/org.mate.system-monitor.gschema.xml.in:532
 msgid "Open files sort column"
 msgstr ""
 
-#: src/org.mate.system-monitor.gschema.xml.in:528
+#: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr ""
 
@@ -1398,39 +1411,39 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/sysinfo.cpp:971
+#: src/sysinfo.cpp:979
 #, c-format
 msgid "Kernel %s"
 msgstr ""
 
-#: src/sysinfo.cpp:984
+#: src/sysinfo.cpp:992
 #, c-format
 msgid "MATE %s"
 msgstr ""
 
 #. hardware section
-#: src/sysinfo.cpp:998
+#: src/sysinfo.cpp:1006
 msgid "Hardware"
 msgstr ""
 
-#: src/sysinfo.cpp:1003
+#: src/sysinfo.cpp:1011
 msgid "Memory:"
 msgstr ""
 
-#: src/sysinfo.cpp:1006
+#: src/sysinfo.cpp:1014
 msgid "Processor:"
 msgstr ""
 
-#: src/sysinfo.cpp:1008
+#: src/sysinfo.cpp:1016
 msgid "Graphics:"
 msgstr ""
 
 #. disk space section
-#: src/sysinfo.cpp:1013
+#: src/sysinfo.cpp:1021
 msgid "System Status"
 msgstr ""
 
-#: src/sysinfo.cpp:1018
+#: src/sysinfo.cpp:1026
 msgid "Available disk space:"
 msgstr ""
 

@@ -151,7 +151,7 @@ fill_proc_properties (GtkWidget *tree, ProcInfo *info)
 
         if (!gtk_tree_model_iter_nth_child (GTK_TREE_MODEL(store), &iter, NULL, i)) {
             gtk_list_store_append(store, &iter);
-            gtk_list_store_set(store, &iter, COL_PROP, gettext(proc_props[i].prop), -1);
+            gtk_list_store_set(store, &iter, COL_PROP, _(proc_props[i].prop), -1);
         }
 
         gtk_list_store_set(store, &iter, COL_VAL, g_strstrip(proc_props[i].val), -1);

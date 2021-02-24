@@ -1125,6 +1125,16 @@ proctable_update (ProcData * const procdata)
 
 
 void
+proctable_free_table (ProcData * const procdata)
+{
+    for (ProcInfo::Iterator it(ProcInfo::begin()); it != ProcInfo::end(); ++it)
+        delete it->second;
+
+    ProcInfo::all.clear();
+}
+
+
+void
 proctable_clear_tree (ProcData * const procdata)
 {
     GtkTreeModel *model;
@@ -1137,17 +1147,6 @@ proctable_clear_tree (ProcData * const procdata)
 
     update_sensitivity(procdata);
 }
-
-
-void
-proctable_free_table (ProcData * const procdata)
-{
-    for (ProcInfo::Iterator it(ProcInfo::begin()); it != ProcInfo::end(); ++it)
-        delete it->second;
-
-    ProcInfo::all.clear();
-}
-
 
 
 char*

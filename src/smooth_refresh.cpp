@@ -34,7 +34,7 @@ unsigned SmoothRefresh::get_own_cpu_usage()
         this->last_cpu_time = proctime.rtime;
     }
 
-    usage = CLAMP(usage, 0, 100);
+    usage = MIN (usage, 100);
 
     this->last_total_time = cpu.total;
 

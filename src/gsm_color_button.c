@@ -950,5 +950,3 @@ gsm_color_button_get_property (GObject * object,
             break;
     }
 }
-
-#define __GSM_COLOR_BUTTON_C__

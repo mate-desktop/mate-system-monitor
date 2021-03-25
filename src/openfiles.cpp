@@ -119,7 +119,11 @@ add_new_files (gpointer key, gpointer value, gpointer data)
                         COL_FD, openfiles->fd,
                         COL_TYPE, get_type_name(static_cast<glibtop_file_type>(openfiles->type)),
                         COL_OBJECT, object,
+#if GLIB_CHECK_VERSION (2, 68, 0)
+                        COL_OPENFILE_STRUCT, g_memdup2(openfiles, sizeof(*openfiles)),
+#else
                         COL_OPENFILE_STRUCT, g_memdup(openfiles, sizeof(*openfiles)),
+#endif
                         -1);
 
     g_free(object);

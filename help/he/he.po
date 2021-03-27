@@ -4,14 +4,14 @@
 # בר בוכובזה <bokovzabox@gmail.com>, 2020
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2020
 # shy tzedaka <shaytzedaka123@gmail.com>, 2020
-# Omer I.S., 2020
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2020-02-16 16:04+0000\n"
-"Last-Translator: Omer I.S., 2020\n"
+"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1368,7 +1368,7 @@ msgstr "סוג"
 #. (itstool) path: listitem/para
 #: C/index.docbook:1053
 msgid "Total"
-msgstr "סך־הכל"
+msgstr "סך הכול"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1056

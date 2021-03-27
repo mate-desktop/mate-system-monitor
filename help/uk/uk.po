@@ -3,15 +3,15 @@
 # clefebvre <clement.lefebvre@linuxmint.com>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Wolfgang Ulbrich <mate@raveit.de>, 2020
-# Микола Ткач <chistomov@gmail.com>, 2020
 # Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020
+# Микола Ткач <chistomov@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2020-02-16 16:04+0000\n"
-"Last-Translator: Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020\n"
+"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgstr "Керівництво по Системному монітору V2.3"
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>Проєкт документування MATE</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
@@ -745,12 +745,12 @@ msgstr "Канал очікування"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Загальна кількість прочитаних дисків"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Загальний обсяг запису на диск"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
@@ -1086,6 +1086,10 @@ msgid ""
 "that is owned by the process whose name is displayed above the memory-map "
 "table."
 msgstr ""
+"Розташування спільної бібліотеки, яка на даний час використовується "
+"процесом. Якщо це поле порожнє, інформація про пам'ять у цьому рядку описує "
+"пам'ять, якою володіє процес, ім'я якого відображається над таблицею карти "
+"пам'яти."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:729
@@ -1208,6 +1212,8 @@ msgid ""
 "Unmodified pages since they were mapped that belong only to a specific "
 "process."
 msgstr ""
+"Немодифіковані сторінки, оскільки вони були зіставлені, що належать лише до "
+"певного процесу."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:819
@@ -1239,7 +1245,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:837
 msgid "Modified pages that are shared by multiple processes."
-msgstr ""
+msgstr "Модифіковані сторінки, якими користуються декілька процесів."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -1253,6 +1259,8 @@ msgid ""
 "The major and minor device numbers of the device on which the shared library"
 " filename is located."
 msgstr ""
+"Головні та другорядні номери пристроїв, на яких розташовано ім'я файлу "
+"спільної бібліотеки."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:851
@@ -1265,6 +1273,8 @@ msgid ""
 "The inode on the device from which the shared library location is loaded "
 "into memory."
 msgstr ""
+"Інод на пристрої, з якого місцезнаходження спільної бібліотеки "
+"завантажується в пам’ять."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:859

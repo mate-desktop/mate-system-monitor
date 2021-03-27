@@ -6,13 +6,14 @@
 # Kenneth Jenssen <kennethjenssen@yahoo.com>, 2020
 # Imre Kristoffer Eilertsen <imreeil42@gmail.com>, 2020
 # Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2020
+# Jan Sherdahl, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2020-02-16 16:04+0000\n"
-"Last-Translator: Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2020\n"
+"Last-Translator: Jan Sherdahl, 2021\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,14 +69,14 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr ""
+msgstr "MATE dokumentasjonsprosjekt"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "GNOME dokumentasjonsprosjekt"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:2
@@ -1979,7 +1980,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1553
 msgid "<guilabel>Type</guilabel>"
-msgstr ""
+msgstr "<guilabel>Type</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1556

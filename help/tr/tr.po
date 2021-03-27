@@ -7,13 +7,14 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2020
 # Butterfly <gokhanlnx@gmail.com>, 2020
+# hilalis <hilalis@outlook.com.tr>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-01-13 13:07+0100\n"
 "PO-Revision-Date: 2020-02-16 16:04+0000\n"
-"Last-Translator: Butterfly <gokhanlnx@gmail.com>, 2020\n"
+"Last-Translator: hilalis <hilalis@outlook.com.tr>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +35,8 @@ msgstr ""
 "hsngrms <dead-bodies-everywhere@hotmail.com>, 2012\n"
 "mauron, 2012, 2013, 2014, 2015, 2016, 2017, 2018\n"
 "Atilla Öntaş <tarakbumba@gmail.com>, 2014\n"
-"Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015"
+"Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015\n"
+"Hilalis Birds <hilalis@outlook.com.tr>, 2020"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -608,7 +610,7 @@ msgstr "Kullanım"
 #. (itstool) path: sect2/title
 #: C/index.docbook:421
 msgid "To Display Basic System Information"
-msgstr ""
+msgstr "Temel Sistem Bilgilerini Görüntülemek İçin"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:422
@@ -825,7 +827,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:569
 msgid "To Modify the Contents of the Process List"
-msgstr ""
+msgstr "İşlem Listesinin İçerikleri Modifiye Etmek İçin"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:570
@@ -835,7 +837,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:575
 msgid "To Show All Processes"
-msgstr ""
+msgstr "Bütün İşlemleri Görüntülemek İçin"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:576
@@ -853,7 +855,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:598
 msgid "To Show Only Processes Owned by the Current User"
-msgstr ""
+msgstr "Sadece Şimdiki Kullanıcının İşlemlerini Görüntülemek İçin"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:599
@@ -872,7 +874,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:621
 msgid "To Show Only Active Processes"
-msgstr ""
+msgstr "Sadece Aktif İşlemleri Göstermek İçin"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:622

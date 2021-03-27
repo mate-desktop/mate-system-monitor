@@ -3,13 +3,13 @@
 # Mingtian Yang <i@skylee.xyz>, 2020
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Mingcong Bai <jeffbai@aosc.xyz>, 2020
-# liushuyu011 <liushuyu011@gmail.com>, 2020
+# shuyu liu <liushuyu011@gmail.com>, 2020
 # Wolfgang Ulbrich <mate@raveit.de>, 2020
 # CNAmira <forucial@icloud.com>, 2020
 # biqiu-ssw <shenshuaiwen@gmail.com>, 2020
 # Wenbin Lv <wenbin816@gmail.com>, 2020
 # zhineng404 <zhinengge@gmail.com>, 2020
-# 邢家朋 <xingjiapeng10@163.com>, 2020
+# a73a47e368cc011d8f94528bd9d5d3f1_91fccdf <1b07f49e2a323989c85dd26d526f7bb9_871526>, 2020
 # liulitchi <xingzuo88@qq.com>, 2020
 # 
 msgid ""

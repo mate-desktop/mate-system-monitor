@@ -1,3 +1,11 @@
+### mate-system-monitor 1.24.2
+
+  * Translations update
+  * i18n: Do not collect the translation for Icon
+  * Show subvol mount option on GNU/Linux
+  * sysinfo: avoid adding a device more than once such as for brtfs
+  * pretty-table: prefer GIO to get application icons
+
 ### mate-system-monitor 1.24.1
 
   * Translations update

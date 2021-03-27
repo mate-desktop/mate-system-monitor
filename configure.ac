@@ -2,9 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.63])
 
-AC_INIT([mate-system-monitor],
-	[1.24.1],
-        [https://mate-desktop.org/])
+AC_INIT([mate-system-monitor], [1.24.2], [https://mate-desktop.org/])
 AC_CONFIG_SRCDIR(configure.ac)
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])

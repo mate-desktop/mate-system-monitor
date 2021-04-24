@@ -30,6 +30,10 @@
 #include "proctable.h"
 #include "util.h"
 
+#ifdef GDK_WINDOWING_X11
+#include <gdk/gdkx.h>
+#endif
+
 enum
 {
     COL_PROP = 0,
@@ -71,24 +75,35 @@ static void
 get_process_memory_info (ProcInfo *info)
 {
     glibtop_proc_mem procmem;
-    WnckResourceUsage xresources;
 
-    wnck_pid_read_resource_usage (gdk_screen_get_display (gdk_screen_get_default ()),
-                                  info->pid,
-                                  &xresources);
+#ifdef HAVE_WNCK
+    info->memxserver = 0;
+#ifdef GDK_WINDOWING_X11
+    if (GDK_IS_X11_DISPLAY (gdk_display_get_default ())) {
+        WnckResourceUsage xresources;
+
+        wnck_pid_read_resource_usage (gdk_screen_get_display (gdk_screen_get_default ()),
+                                      info->pid,
+                                      &xresources);
+
+        info->memxserver = xresources.total_bytes_estimate;
+    }
+#endif // GDK_WINDOWING_X11
+#endif // HAVE_WNCK
 
     glibtop_get_proc_mem(&procmem, info->pid);
 
-    info->vmsize	= procmem.vsize;
-    info->memres	= procmem.resident;
-    info->memshared	= procmem.share;
-
-    info->memxserver = xresources.total_bytes_estimate;
+    info->vmsize    = procmem.vsize;
+    info->memres    = procmem.resident;
+    info->memshared = procmem.share;
 
     get_process_memory_writable(info);
 
     // fake the smart memory column if writable is not available
-    info->mem = info->memxserver + (info->memwritable ? info->memwritable : info->memres);
+    info->mem = info->memwritable ? info->memwritable : info->memres;
+#ifdef HAVE_WNCK
+    info->mem += info->memxserver;
+#endif
 }
 
 static gchar*
@@ -129,7 +144,9 @@ fill_proc_properties (GtkWidget *tree, ProcInfo *info)
         { N_("Resident Memory"), format_memsize(info->memres)},
         { N_("Writable Memory"), format_memsize(info->memwritable)},
         { N_("Shared Memory"), format_memsize(info->memshared)},
+#ifdef HAVE_WNCK
         { N_("X Server Memory"), format_memsize(info->memxserver)},
+#endif
         { N_("Disk Read Total"), format_size(info->disk_read_bytes_total)},
         { N_("Disk Write Total"), format_size(info->disk_write_bytes_total)},
         { N_("CPU"), g_strdup_printf("%d%%", info->pcpu)},

@@ -207,7 +207,6 @@ procman_data_new (GSettings *settings)
     ProcData *pd;
     gchar *color;
     gchar **keys;
-    gint swidth, sheight;
     glibtop_cpu cpu;
 
     pd = ProcData::get_instance();
@@ -308,10 +307,19 @@ procman_data_new (GSettings *settings)
     g_free (color);
 
     /* Sanity checks */
-    swidth = WidthOfScreen (gdk_x11_screen_get_xscreen (gdk_screen_get_default ()));
-    sheight = HeightOfScreen (gdk_x11_screen_get_xscreen (gdk_screen_get_default ()));
-    pd->config.width = CLAMP (pd->config.width, 50, swidth);
-    pd->config.height = CLAMP (pd->config.height, 50, sheight);
+    GdkDisplay *display;
+    GdkMonitor *monitor;
+    GdkRectangle monitor_geometry;
+
+    display = gdk_display_get_default ();
+    monitor = gdk_display_get_monitor_at_point (display, pd->config.xpos, pd->config.ypos);
+    if (monitor == NULL) {
+        monitor = gdk_display_get_monitor (display, 0);
+    }
+    gdk_monitor_get_geometry (monitor, &monitor_geometry);
+
+    pd->config.width = CLAMP (pd->config.width, 50, monitor_geometry.width);
+    pd->config.height = CLAMP (pd->config.height, 50, monitor_geometry.height);
     pd->config.update_interval = MAX (pd->config.update_interval, 1000);
     pd->config.graph_update_interval = MAX (pd->config.graph_update_interval, 250);
     pd->config.disks_update_interval = MAX (pd->config.disks_update_interval, 1000);

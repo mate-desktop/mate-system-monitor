@@ -7,7 +7,8 @@ AM_CPPFLAGS = \
 	-DPKGLIBEXECDIR=\""$(pkglibexecdir)"\" \
 	-DLIBEXECDIR=\""$(libexecdir)"\" \
 	@PROCMAN_CFLAGS@ \
-	@SYSTEMD_CFLAGS@
+	@SYSTEMD_CFLAGS@ \
+	@WNCK_CFLAGS@
 
 bin_PROGRAMS = mate-system-monitor
 
@@ -60,7 +61,7 @@ mate_system_monitor_CXXFLAGS = \
 mate_system_monitor_CFLAGS = \
 	$(WARN_CFLAGS)
 
-mate_system_monitor_LDADD = @PROCMAN_LIBS@ @SYSTEMD_LIBS@
+mate_system_monitor_LDADD = @PROCMAN_LIBS@ @SYSTEMD_LIBS@ @WNCK_LIBS@
 
 specdir = $(datadir)/procman
 

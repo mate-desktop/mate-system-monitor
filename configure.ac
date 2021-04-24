@@ -42,8 +42,24 @@ LIBXML_REQUIRED=2.0
 RSVG_REQUIRED=2.35
 SYSTEMD_REQUIRED=44
 
-PKG_CHECK_MODULES(GMODULE,gmodule-2.0,[GMODULE_ADD="gmodule-2.0"],[GMODULE_ADD=""])
-PKG_CHECK_MODULES(PROCMAN,$GMODULE_ADD glib-2.0 >= $GLIB_REQUIRED libgtop-2.0 >= $LIBGTOP_REQUIRED libwnck-3.0 >= $LIBWNCK_REQUIRED gtk+-3.0 >= $GTK_REQUIRED gtkmm-3.0 >= $GTKMM_REQUIRED libxml-2.0 >= $LIBXML_REQUIRED librsvg-2.0 >= $RSVG_REQUIRED glibmm-2.4 >= $GLIBMM_REQUIRED giomm-2.4 >= $GIOMM_REQUIRED)
+PKG_CHECK_MODULES(PROCMAN, [
+    glib-2.0 >= $GLIB_REQUIRED
+    libgtop-2.0 >= $LIBGTOP_REQUIRED
+    gtk+-3.0 >= $GTK_REQUIRED
+    gtkmm-3.0 >= $GTKMM_REQUIRED
+    libxml-2.0 >= $LIBXML_REQUIRED
+    librsvg-2.0 >= $RSVG_REQUIRED
+    glibmm-2.4 >= $GLIBMM_REQUIRED
+    giomm-2.4 >= $GIOMM_REQUIRED
+    gmodule-2.0
+])
+
+AC_ARG_ENABLE(wnck, AS_HELP_STRING([--enable-wnck], [enable wnck support]), enable_wnck="$enableval", enable_wnck=no)
+if test "x$enable_wnck" != "xno"; then
+        PKG_CHECK_MODULES(WNCK, libwnck-3.0 >= $LIBWNCK_REQUIRED gdk-x11-3.0)
+        AC_DEFINE(HAVE_WNCK, 1, [Define if libwnck is available])
+fi
+AM_CONDITIONAL(HAVE_WNCK, [test "enable_wnck" = "yes"])
 
 PKG_CHECK_MODULES(TOOLS, glib-2.0 >= $GLIB_REQUIRED)
 
@@ -128,4 +144,5 @@ Configure summary:
         WARN_CXXFLAGS:          ${WARN_CXXFLAGS}
         Maintainer mode:        ${USE_MAINTAINER_MODE}
         Systemd support:        ${have_systemd}
+        wnck support:           ${enable_wnck}
 "

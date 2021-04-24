@@ -126,8 +126,10 @@ MutableProcInfo()
     gulong memwritable;
     gulong mem;
 
+#ifdef HAVE_WNCK
     // wnck gives an unsigned long
     gulong memxserver;
+#endif
 
     gulong start_time;
     guint64 cpu_time;

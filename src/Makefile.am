@@ -11,6 +11,8 @@ AM_CPPFLAGS = \
 
 bin_PROGRAMS = mate-system-monitor
 
+BUILT_SOURCES = msm-resources.c
+
 mate_system_monitor_cpp_files = \
 	argv.cpp \
 	procman.cpp \
@@ -46,6 +48,7 @@ mate_system_monitor_h_files = \
 	defaulttable.h
 
 mate_system_monitor_SOURCES = \
+	$(BUILT_SOURCES) \
 	$(mate_system_monitor_h_files) \
 	$(mate_system_monitor_cpp_files) \
 	$(mate_system_monitor_c_files)
@@ -68,6 +71,9 @@ libbacon_la_CFLAGS = \
 
 specdir = $(datadir)/procman
 
+# Generate resources
+msm-resources.c: msm.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --sourcedir=$(srcdir) --generate-dependencies $(srcdir)/msm.gresource.xml)
+	$(AM_V_GEN)$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name msm $<
 
 gsettings_ENUM_NAMESPACE = org.mate.system-monitor
 gsettings_ENUM_FILES = $(top_srcdir)/src/*.h
@@ -81,9 +87,12 @@ dist_noinst_DATA = \
 	$(gsettings_in_file)
 
 CLEANFILES = \
+	$(BUILT_SOURCES) \
 	$(gsettings_SCHEMAS)
 
 EXTRA_DIST = \
+	msm.gresource.xml \
+	preferences.ui \
 	$(gsettingsschema_in_files)
 
 MAINTAINERCLEANFILES = $(gsettings_SCHEMAS:.xml=.valid)

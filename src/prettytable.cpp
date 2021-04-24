@@ -1,6 +1,10 @@
 #include <config.h>
+
+#ifdef HAVE_WNCK
 #define WNCK_I_KNOW_THIS_IS_UNSTABLE
 #include <libwnck/libwnck.h>
+#endif
+
 #include <dirent.h>
 #include <sys/stat.h>
 #include <stdio.h>
@@ -19,6 +23,9 @@
 #include "proctable.h"
 #include "util.h"
 
+#ifdef GDK_WINDOWING_X11
+#include <gdk/gdkx.h>
+#endif
 
 namespace
 {
@@ -28,11 +35,17 @@ namespace
 
 PrettyTable::PrettyTable()
 {
-    WnckScreen* screen = wnck_screen_get_default();
-    g_signal_connect(G_OBJECT(screen), "application_opened",
-                     G_CALLBACK(PrettyTable::on_application_opened), this);
-    g_signal_connect(G_OBJECT(screen), "application_closed",
-                     G_CALLBACK(PrettyTable::on_application_closed), this);
+#ifdef HAVE_WNCK
+#ifdef GDK_WINDOWING_X11
+  if (GDK_IS_X11_DISPLAY (gdk_display_get_default ())) {
+      WnckScreen* screen = wnck_screen_get_default();
+      g_signal_connect(G_OBJECT(screen), "application_opened",
+		       G_CALLBACK(PrettyTable::on_application_opened), this);
+      g_signal_connect(G_OBJECT(screen), "application_closed",
+	               G_CALLBACK(PrettyTable::on_application_closed), this);
+  }
+#endif // GDK_WINDOWING_X11
+#endif // HAVE_WNCK
 
     // init GIO apps cache
     std::vector<std::string> dirs = Glib::get_system_data_dirs();
@@ -54,7 +67,7 @@ PrettyTable::~PrettyTable()
 {
 }
 
-
+#ifdef HAVE_WNCK
 void
 PrettyTable::on_application_opened(WnckScreen* screen, WnckApplication* app, gpointer data)
 {
@@ -89,8 +102,6 @@ PrettyTable::on_application_opened(WnckScreen* screen, WnckApplication* app, gpo
     that->register_application(pid, icon);
 }
 
-
-
 void
 PrettyTable::register_application(pid_t pid, Glib::RefPtr<Gdk::Pixbuf> icon)
 {
@@ -116,6 +127,16 @@ PrettyTable::on_application_closed(WnckScreen* screen, WnckApplication* app, gpo
     static_cast<PrettyTable*>(data)->unregister_application(pid);
 }
 
+void
+PrettyTable::unregister_application(pid_t pid)
+{
+    IconsForPID::iterator it(this->apps.find(pid));
+
+    if (it != this->apps.end())
+        this->apps.erase(it);
+}
+#endif // HAVE_WNCK
+
 void PrettyTable::init_gio_app_cache ()
 {
     this->gio_apps.clear();
@@ -135,16 +156,6 @@ void PrettyTable::file_monitor_event(Glib::RefPtr<Gio::File>,
 {
   this->init_gio_app_cache();
 }
-
-void
-PrettyTable::unregister_application(pid_t pid)
-{
-    IconsForPID::iterator it(this->apps.find(pid));
-
-    if (it != this->apps.end())
-        this->apps.erase(it);
-}
-
 
 
 Glib::RefPtr<Gdk::Pixbuf>
@@ -215,6 +226,7 @@ PrettyTable::get_icon_from_gio(const ProcInfo &info)
     return icon;
 }
 
+#ifdef HAVE_WNCK
 Glib::RefPtr<Gdk::Pixbuf>
 PrettyTable::get_icon_from_wnck(const ProcInfo &info)
 {
@@ -227,7 +239,7 @@ PrettyTable::get_icon_from_wnck(const ProcInfo &info)
 
     return icon;
 }
-
+#endif
 
 
 Glib::RefPtr<Gdk::Pixbuf>
@@ -284,7 +296,9 @@ PrettyTable::set_icon(ProcInfo &info)
     if (getters.empty())
     {
         getters.push_back(&PrettyTable::get_icon_from_gio);
+#ifdef HAVE_WNCK
         getters.push_back(&PrettyTable::get_icon_from_wnck);
+#endif
         getters.push_back(&PrettyTable::get_icon_from_theme);
         getters.push_back(&PrettyTable::get_icon_from_default);
         getters.push_back(&PrettyTable::get_icon_from_name);

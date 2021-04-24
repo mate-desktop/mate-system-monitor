@@ -59,6 +59,9 @@
 #include "selinux.h"
 #include "cgroups.h"
 
+#ifdef GDK_WINDOWING_X11
+#include <gdk/gdkx.h>
+#endif
 
 ProcInfo::UserMap ProcInfo::users;
 ProcInfo::List ProcInfo::all;
@@ -364,6 +367,12 @@ proctable_new (ProcData * const procdata)
         GtkCellRenderer *cell;
         GtkTreeViewColumn *col;
 
+#ifndef HAVE_WNCK
+        if (i == COL_MEMXSERVER) {
+          continue;
+        }
+#endif
+
         cell = gtk_cell_renderer_text_new();
         col = gtk_tree_view_column_new();
         gtk_tree_view_column_pack_start(col, cell, TRUE);
@@ -377,12 +386,14 @@ proctable_new (ProcData * const procdata)
 
         // type
         switch (i) {
+#ifdef HAVE_WNCK
             case COL_MEMXSERVER:
                 gtk_tree_view_column_set_cell_data_func(col, cell,
                                                         &procman::memory_size_cell_data_func,
                                                         GUINT_TO_POINTER(i),
                                                         NULL);
                 break;
+#endif
             case COL_VMSIZE:
             case COL_MEMRES:
             case COL_MEMSHARED:
@@ -444,7 +455,9 @@ proctable_new (ProcData * const procdata)
 
         // sorting
         switch (i) {
+#ifdef HAVE_WNCK
             case COL_MEMXSERVER:
+#endif
             case COL_VMSIZE:
             case COL_MEMRES:
             case COL_MEMSHARED:
@@ -477,7 +490,9 @@ proctable_new (ProcData * const procdata)
             case COL_MEMRES:
             case COL_MEMWRITABLE:
             case COL_MEMSHARED:
+#ifdef HAVE_WNCK
             case COL_MEMXSERVER:
+#endif
             case COL_CPU:
             case COL_NICE:
             case COL_PID:
@@ -648,11 +663,21 @@ static void
 get_process_memory_info(ProcInfo *info)
 {
     glibtop_proc_mem procmem;
-    WnckResourceUsage xresources;
 
-    wnck_pid_read_resource_usage (gdk_screen_get_display (gdk_screen_get_default ()),
-                                  info->pid,
-                                  &xresources);
+#ifdef HAVE_WNCK
+    info->memxserver = 0;
+#ifdef GDK_WINDOWING_X11
+    if (GDK_IS_X11_DISPLAY (gdk_display_get_default ())) {
+        WnckResourceUsage xresources;
+
+        wnck_pid_read_resource_usage (gdk_screen_get_display (gdk_screen_get_default ()),
+                                      info->pid,
+                                      &xresources);
+
+        info->memxserver = xresources.total_bytes_estimate;
+    }
+#endif // GDK_WINDOWING_X11
+#endif // HAVE_WNCK
 
     glibtop_get_proc_mem(&procmem, info->pid);
 
@@ -660,14 +685,14 @@ get_process_memory_info(ProcInfo *info)
     info->memres    = procmem.resident;
     info->memshared = procmem.share;
 
-    info->memxserver = xresources.total_bytes_estimate;
-
     get_process_memory_writable(info);
 
     // fake the smart memory column if writable is not available
-    info->mem = info->memxserver + (info->memwritable ? info->memwritable : info->memres);
+    info->mem = info->memwritable ? info->memwritable : info->memres;
+#ifdef HAVE_WNCK
+    info->mem += info->memxserver;
+#endif
 }
-
 
 
 static void
@@ -685,7 +710,9 @@ update_info_mutable_cols(ProcInfo *info)
     tree_store_update(model, &info->node, COL_MEMRES, info->memres);
     tree_store_update(model, &info->node, COL_MEMWRITABLE, info->memwritable);
     tree_store_update(model, &info->node, COL_MEMSHARED, info->memshared);
+#ifdef HAVE_WNCK
     tree_store_update(model, &info->node, COL_MEMXSERVER, info->memxserver);
+#endif
     tree_store_update(model, &info->node, COL_CPU, info->pcpu);
     tree_store_update(model, &info->node, COL_CPU_TIME, info->cpu_time);
     tree_store_update(model, &info->node, COL_DISK_READ_TOTAL, info->disk_read_bytes_total);

@@ -264,6 +264,7 @@ cb_app_exit (GtkAction *action, gpointer data)
     ProcData * const procdata = static_cast<ProcData*>(data);
 
     cb_app_delete (NULL, NULL, procdata);
+    gtk_widget_destroy (procdata->app);
 }
 
 
@@ -278,9 +279,9 @@ cb_app_delete (GtkWidget *window, GdkEventAny *event, gpointer data)
     if (procdata->disk_timeout)
         g_source_remove (procdata->disk_timeout);
 
-    gtk_main_quit ();
+    procdata->terminating = TRUE;
 
-    return TRUE;
+    return FALSE;
 }
 
 
@@ -497,16 +498,17 @@ cb_timeout (gpointer data)
     ProcData * const procdata = static_cast<ProcData*>(data);
     guint new_interval;
 
-    proctable_update (procdata);
+    if (!procdata->terminating) {
+        proctable_update (procdata);
 
-    if (procdata->smooth_refresh->get(new_interval))
-    {
-        procdata->timeout = g_timeout_add(new_interval,
-                          cb_timeout,
-                          procdata);
-        return FALSE;
+        if (procdata->smooth_refresh->get(new_interval))
+        {
+            procdata->timeout = g_timeout_add(new_interval,
+                                              cb_timeout,
+                                              procdata);
+            return FALSE;
+        }
     }
-
     return TRUE;
 }
 

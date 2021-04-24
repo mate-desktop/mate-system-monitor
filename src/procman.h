@@ -64,16 +64,6 @@ static const unsigned MIN_UPDATE_INTERVAL =   1 * 1000;
 static const unsigned MAX_UPDATE_INTERVAL = 100 * 1000;
 
 
-namespace procman
-{
-    extern const std::string SHOW_SYSTEM_TAB_CMD;
-    extern const std::string SHOW_PROCESSES_TAB_CMD;
-    extern const std::string SHOW_RESOURCES_TAB_CMD;
-    extern const std::string SHOW_FILE_SYSTEMS_TAB_CMD;
-}
-
-
-
 enum ProcmanTab
 {
     PROCMAN_TAB_SYSINFO,
@@ -249,6 +239,8 @@ struct ProcData
 
     guint64 cpu_total_time;
     guint64 cpu_total_time_last;
+
+    gboolean terminating;
 
 private:
     ProcData();

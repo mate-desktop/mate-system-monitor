@@ -37,7 +37,8 @@ mate_system_monitor_cpp_files = \
 	lsof.cpp \
 	selection.cpp \
 	settings-keys.cpp \
-	iconthemewrapper.cpp
+	iconthemewrapper.cpp \
+	procman-app.cpp
 
 mate_system_monitor_c_files = \
 	gsm_color_button.c
@@ -59,15 +60,7 @@ mate_system_monitor_CXXFLAGS = \
 mate_system_monitor_CFLAGS = \
 	$(WARN_CFLAGS)
 
-mate_system_monitor_LDADD = @PROCMAN_LIBS@ @SYSTEMD_LIBS@ libbacon.la
-
-
-noinst_LTLIBRARIES = libbacon.la
-libbacon_la_SOURCES = \
-	bacon-message-connection.c \
-	bacon-message-connection.h
-libbacon_la_CFLAGS = \
-	$(WARN_CFLAGS)
+mate_system_monitor_LDADD = @PROCMAN_LIBS@ @SYSTEMD_LIBS@
 
 specdir = $(datadir)/procman
 

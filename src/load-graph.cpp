@@ -558,6 +558,25 @@ get_net (LoadGraph *graph)
             and not (netload.flags & (1 << GLIBTOP_NETLOAD_ADDRESS)))
             continue;
 
+        /* Skip tun and tap interfaces */
+#ifdef __linux__
+        char path[strlen(ifnames[i]) + 26];
+        sprintf(path, "/sys/class/net/%s/tun_flags", ifnames[i]);
+        if (!access(path, F_OK))
+            continue;
+#else
+        int ifnamelen = strlen(ifnames[i]);
+        if (!strncmp(ifnames[i], "tun", 3) || !strncmp(ifnames[i], "tap", 3))
+        {
+            bool cont = false;
+            for (int j = 3; j < ifnamelen; ++j)
+                if (!isdigit((int)((ifnames[i])[j])))
+                    cont = true;
+            if (!cont)
+                continue;
+        }
+#endif
+
         /* Don't skip interfaces that are down (GLIBTOP_IF_FLAGS_UP)
            to avoid spikes when they are brought up */
 

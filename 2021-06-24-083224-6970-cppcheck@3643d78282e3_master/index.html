@@ -1,0 +1,334 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cppcheck - HTML report - mate-system-monitor</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    <script>
+      function getStyle(el, styleProp) {
+        var y;
+
+        if (el.currentStyle) {
+          y = el.currentStyle[styleProp];
+        } else if (window.getComputedStyle) {
+          y = document.defaultView.getComputedStyle(el, null).getPropertyValue(styleProp);
+        }
+
+        return y;
+      }
+
+      function toggle() {
+        var el = this.expandable_content;
+        var mark = this.expandable_marker;
+
+        if (el.style.display === "block") {
+          el.style.display = "none";
+          mark.textContent = "[+]";
+        } else {
+          el.style.display = "block";
+          mark.textContent = "[-]";
+        }
+      }
+
+      function initExpandables() {
+        var elements = document.querySelectorAll(".expandable");
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          var el = elements[i];
+          var clickable = el.querySelector("span");
+          var marker = clickable.querySelector(".marker");
+          var content = el.querySelector(".content");
+          var width = clickable.clientWidth - parseInt(getStyle(content, "padding-left")) - parseInt(getStyle(content, "padding-right"));
+          content.style.width = width + "px";
+          clickable.expandable_content = content;
+          clickable.expandable_marker = marker;
+          clickable.addEventListener("click", toggle);
+        }
+      }
+
+      function toggleDisplay(id) {
+        var elements = document.querySelectorAll("." + id);
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+          elements[i].classList.toggle("d-none");
+        }
+      }
+
+      function toggleAll() {
+        var elements = document.querySelectorAll("input");
+
+        // starting from 1 since 0 is the "toggle all" input
+        for (var i = 1, len = elements.length; i < len; i++) {
+          var el = elements[i];
+
+          if (el.checked) {
+            el.checked = false;
+          } else {
+            el.checked = true;
+          }
+
+          toggleDisplay(el.id);
+        }
+      }
+      window.addEventListener("load", initExpandables);
+    </script>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <h1>Cppcheck report - mate-system-monitor: </h1>
+    </div>
+    <div class="wrapper">
+      <div id="menu_index">
+       <p id="filename"><a href="index.html">Defect summary;</a> </p>
+
+       <label><input type="checkbox" onclick="toggleAll()" checked> Toggle all</label>
+       <table>
+           <tr><th>Show</th><th>#</th><th>Defect ID</th></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="uninitMemberVar" name="uninitMemberVar" checked></td><td>88</td><td>uninitMemberVar</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="noExplicitConstructor" name="noExplicitConstructor" checked></td><td>48</td><td>noExplicitConstructor</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="uninitMemberVarPrivate" name="uninitMemberVarPrivate" checked></td><td>15</td><td>uninitMemberVarPrivate</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="shadowVariable" name="shadowVariable" checked></td><td>13</td><td>shadowVariable</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="variableScope" name="variableScope" checked></td><td>9</td><td>variableScope</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="stlIfStrFind" name="stlIfStrFind" checked></td><td>4</td><td>stlIfStrFind</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="unusedPrivateFunction" name="unusedPrivateFunction" checked></td><td>4</td><td>unusedPrivateFunction</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="unusedStructMember" name="unusedStructMember" checked></td><td>4</td><td>unusedStructMember</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="missingIncludeSystem" name="missingIncludeSystem" checked></td><td>1</td><td>missingIncludeSystem</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="missingOverride" name="missingOverride" checked></td><td>1</td><td>missingOverride</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="nullPointerRedundantCheck" name="nullPointerRedundantCheck" checked></td><td>1</td><td>nullPointerRedundantCheck</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="redundantAssignment" name="redundantAssignment" checked></td><td>1</td><td>redundantAssignment</td></tr>
+            <tr><td><input type="checkbox" onclick="toggleDisplay(this.id)" id="varFuncNullUB" name="varFuncNullUB" checked></td><td>1</td><td>varFuncNullUB</td></tr>
+           <tr><td></td><td>190</td><td>total</td></tr>
+       </table>
+       <p><a href="stats.html">Statistics</a></p>
+    </div>
+    <div id="content_index">
+
+       <table>
+       <tr><th>Line</th><th>Id</th><th>CWE</th><th>Severity</th><th>Message</th></tr>
+       <tr><td colspan="5"><a href="19.html"></a></td></tr>
+       <tr class="missingIncludeSystem"><td><a href="19.html#line-0">0</a></td><td>missingIncludeSystem</td><td></td><td>information</td><td >Cppcheck cannot find all the include files (use --check-config for details)</td></tr>
+       <tr><td colspan="5"><a href="3.html">src/cgroups.cpp</a></td></tr>
+       <tr class="variableScope"><td><a href="3.html#line-27">27</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;paren_offset&apos; can be reduced.</td></tr>
+       <tr class="variableScope"><td><a href="3.html#line-27">27</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;off&apos; can be reduced.</td></tr>
+       <tr class="variableScope"><td><a href="3.html#line-27">27</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;tmp_size&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="4.html">src/disks.cpp</a></td></tr>
+       <tr class="redundantAssignment"><td><a href="4.html#line-202">202</a></td><td>redundantAssignment</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >Variable &apos;res&apos; is reassigned a value before the old one has been used.</td></tr>
+       <tr><td colspan="5"><a href="5.html">src/gsm_color_button.c</a></td></tr>
+       <tr class="variableScope"><td><a href="5.html#line-654">654</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;color_chooser&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="6.html">src/load-graph.cpp</a></td></tr>
+       <tr class="shadowVariable"><td><a href="6.html#line-164">164</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;i&apos; shadows outer variable</td></tr>
+       <tr><td colspan="5"><a href="2.html">src/load-graph.h</a></td></tr>
+       <tr class="noExplicitConstructor"><td><a href="2.html#line-40">40</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Struct &apos;LoadGraph&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="2.html#line-40">40</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Struct &apos;LoadGraph&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="2.html#line-40">40</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Struct &apos;LoadGraph&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="2.html#line-40">40</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Struct &apos;LoadGraph&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="2.html#line-40">40</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Struct &apos;LoadGraph&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr><td colspan="5"><a href="7.html">src/lsof.cpp</a></td></tr>
+       <tr class="shadowVariable"><td><a href="7.html#line-164">164</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;count&apos; shadows outer variable</td></tr>
+       <tr><td colspan="5"><a href="8.html">src/memmaps.cpp</a></td></tr>
+       <tr class="shadowVariable"><td><a href="8.html#line-269">269</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;iter&apos; shadows outer variable</td></tr>
+       <tr><td colspan="5"><a href="9.html">src/msm-resources.c</a></td></tr>
+       <tr class="unusedStructMember"><td><a href="9.html#line-10">10</a></td><td>unusedStructMember</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >union member &apos;Anonymous0::alignment&apos; is never used.</td></tr>
+       <tr class="unusedStructMember"><td><a href="9.html#line-10">10</a></td><td>unusedStructMember</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >union member &apos;Anonymous0::ptr&apos; is never used.</td></tr>
+       <tr class="unusedStructMember"><td><a href="9.html#line-138">138</a></td><td>unusedStructMember</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >union member &apos;Anonymous0::alignment&apos; is never used.</td></tr>
+       <tr class="unusedStructMember"><td><a href="9.html#line-138">138</a></td><td>unusedStructMember</td><td><a href="https://cwe.mitre.org/data/definitions/563.html">563</a></td><td>style</td><td >union member &apos;Anonymous0::ptr&apos; is never used.</td></tr>
+       <tr><td colspan="5"><a href="10.html">src/openfiles.cpp</a></td></tr>
+       <tr class="nullPointerRedundantCheck"><td><a href="10.html#line-73">73</a></td><td>nullPointerRedundantCheck</td><td><a href="https://cwe.mitre.org/data/definitions/476.html">476</a></td><td>warning</td><td >Either the condition &apos;if(res)&apos; is redundant or there is possible null pointer dereference: res.</td></tr>
+       <tr class="shadowVariable"><td><a href="10.html#line-205">205</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;openfiles&apos; shadows outer variable</td></tr>
+       <tr class="variableScope"><td><a href="10.html#line-247">247</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;column&apos; can be reduced.</td></tr>
+       <tr class="variableScope"><td><a href="10.html#line-248">248</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;cell&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="11.html">src/prettytable.h</a></td></tr>
+       <tr class="unusedPrivateFunction"><td><a href="11.html#line-41">41</a></td><td>unusedPrivateFunction</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Unused private function: &apos;PrettyTable::on_application_opened&apos;</td></tr>
+       <tr class="unusedPrivateFunction"><td><a href="11.html#line-42">42</a></td><td>unusedPrivateFunction</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Unused private function: &apos;PrettyTable::on_application_closed&apos;</td></tr>
+       <tr><td colspan="5"><a href="12.html">src/procdialogs.cpp</a></td></tr>
+       <tr class="noExplicitConstructor"><td><a href="12.html#line-294">294</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SpinButtonUpdater&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="shadowVariable"><td><a href="12.html#line-415">415</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;column&apos; shadows outer variable</td></tr>
+       <tr><td colspan="5"><a href="13.html">src/procman-app.cpp</a></td></tr>
+       <tr class="uninitMemberVar"><td><a href="13.html#line-348">348</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcmanApp::procdata&apos; is not initialized in the constructor.</td></tr>
+       <tr><td colspan="5"><a href="14.html">src/procman.cpp</a></td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::uimanager&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::action_group&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::statusbar&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::loadavg&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::endprocessbutton&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::popup_menu&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::disk_list&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::notebook&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::config&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::selection&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::settings&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::app&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::menu&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::frequency&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVarPrivate"><td><a href="14.html#line-34">34</a></td><td>uninitMemberVarPrivate</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;ProcData::smooth_refresh&apos; is not initialized in the constructor.</td></tr>
+       <tr class="shadowVariable"><td><a href="14.html#line-116">116</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;order&apos; shadows outer variable</td></tr>
+       <tr class="shadowVariable"><td><a href="14.html#line-166">166</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;order&apos; shadows outer variable</td></tr>
+       <tr><td colspan="5"><a href="0.html">src/procman.h</a></td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::cgroup_name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::unit&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::session&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="0.html#line-108">108</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;MutableProcInfo::seat&apos; is not initialized in the constructor.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="0.html#line-180">180</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;ProcInfo&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr><td colspan="5"><a href="15.html">src/procproperties.cpp</a></td></tr>
+       <tr class="variableScope"><td><a href="15.html#line-208">208</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;column&apos; can be reduced.</td></tr>
+       <tr class="variableScope"><td><a href="15.html#line-209">209</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;cell&apos; can be reduced.</td></tr>
+       <tr><td colspan="5"><a href="16.html">src/proctable.cpp</a></td></tr>
+       <tr class="shadowVariable"><td><a href="16.html#line-1024">1024</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;it&apos; shadows outer variable</td></tr>
+       <tr class="shadowVariable"><td><a href="16.html#line-1030">1030</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;it&apos; shadows outer variable</td></tr>
+       <tr class="shadowVariable"><td><a href="16.html#line-1076">1076</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;it&apos; shadows outer variable</td></tr>
+       <tr class="shadowVariable"><td><a href="16.html#line-1081">1081</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;it&apos; shadows outer variable</td></tr>
+       <tr><td colspan="5"><a href="17.html">src/selinux.cpp</a></td></tr>
+       <tr class="varFuncNullUB"><td><a href="17.html#line-21">21</a></td><td>varFuncNullUB</td><td><a href="https://cwe.mitre.org/data/definitions/475.html">475</a></td><td>portability</td><td >Passing NULL after the last typed argument to a variadic function leads to undefined behaviour.</td></tr>
+       <tr><td colspan="5"><a href="1.html">src/smooth_refresh.h</a></td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr class="noExplicitConstructor"><td><a href="1.html#line-24">24</a></td><td>noExplicitConstructor</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Class &apos;SmoothRefresh&apos; has a constructor with 1 argument that is not explicit.</td></tr>
+       <tr><td colspan="5"><a href="18.html">src/sysinfo.cpp</a></td></tr>
+       <tr class="unusedPrivateFunction"><td><a href="18.html#line-126">126</a></td><td>unusedPrivateFunction</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Unused private function: &apos;SysInfo::get_os_type&apos;</td></tr>
+       <tr class="uninitMemberVar"><td><a href="18.html#line-509">509</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;LSBSysInfo::lsb_fd&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="18.html#line-509">509</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;LSBSysInfo::name&apos; is not initialized in the constructor.</td></tr>
+       <tr class="uninitMemberVar"><td><a href="18.html#line-509">509</a></td><td>uninitMemberVar</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>warning</td><td >Member variable &apos;LSBSysInfo::release&apos; is not initialized in the constructor.</td></tr>
+       <tr class="missingOverride"><td><a href="18.html#line-515">515</a></td><td>missingOverride</td><td></td><td>style</td><td >The function &apos;set_distro_labels&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.</td></tr>
+       <tr class="shadowVariable"><td><a href="18.html#line-570">570</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;release&apos; shadows outer variable</td></tr>
+       <tr class="unusedPrivateFunction"><td><a href="18.html#line-615">615</a></td><td>unusedPrivateFunction</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Unused private function: &apos;LSBSysInfo::sync_lsb_release&apos;</td></tr>
+       <tr class="shadowVariable"><td><a href="18.html#line-626">626</a></td><td>shadowVariable</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >Local variable &apos;release&apos; shadows outer variable</td></tr>
+       <tr class="stlIfStrFind"><td><a href="18.html#line-690">690</a></td><td>stlIfStrFind</td><td><a href="https://cwe.mitre.org/data/definitions/597.html">597</a></td><td>performance</td><td >Inefficient usage of string::find() in condition; string::starts_with() could be faster.</td></tr>
+       <tr class="stlIfStrFind"><td><a href="18.html#line-697">697</a></td><td>stlIfStrFind</td><td><a href="https://cwe.mitre.org/data/definitions/597.html">597</a></td><td>performance</td><td >Inefficient usage of string::find() in condition; string::starts_with() could be faster.</td></tr>
+       <tr class="stlIfStrFind"><td><a href="18.html#line-701">701</a></td><td>stlIfStrFind</td><td><a href="https://cwe.mitre.org/data/definitions/597.html">597</a></td><td>performance</td><td >Inefficient usage of string::find() in condition; string::starts_with() could be faster.</td></tr>
+       <tr class="variableScope"><td><a href="18.html#line-736">736</a></td><td>variableScope</td><td><a href="https://cwe.mitre.org/data/definitions/398.html">398</a></td><td>style</td><td >The scope of the variable &apos;len&apos; can be reduced.</td></tr>
+       <tr class="stlIfStrFind"><td><a href="18.html#line-738">738</a></td><td>stlIfStrFind</td><td><a href="https://cwe.mitre.org/data/definitions/597.html">597</a></td><td>performance</td><td >Inefficient usage of string::find() in condition; string::starts_with() could be faster.</td></tr>
+       </table>
+      </div> <!-- /.wrapper -->
+    </div>
+    <div id="footer" class="footer">
+      <p>
+        Cppcheck 2.3 - a tool for static C/C++ code analysis<br>
+        <br>
+        Internet: <a href="http://cppcheck.net">http://cppcheck.net</a><br>
+        IRC: <a href="irc://irc.freenode.net/cppcheck">irc://irc.freenode.net/cppcheck</a><br>
+      </p>
+    </div>
+  </body>
+</html>

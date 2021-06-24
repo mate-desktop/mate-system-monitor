@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>rootdir - scan-build results</title>
+<link type="text/css" rel="stylesheet" href="scanview.css"/>
+<script src="sorttable.js"></script>
+<script language='javascript' type="text/javascript">
+function SetDisplay(RowClass, DisplayVal)
+{
+  var Rows = document.getElementsByTagName("tr");
+  for ( var i = 0 ; i < Rows.length; ++i ) {
+    if (Rows[i].className == RowClass) {
+      Rows[i].style.display = DisplayVal;
+    }
+  }
+}
+
+function CopyCheckedStateToCheckButtons(SummaryCheckButton) {
+  var Inputs = document.getElementsByTagName("input");
+  for ( var i = 0 ; i < Inputs.length; ++i ) {
+    if (Inputs[i].type == "checkbox") {
+      if(Inputs[i] != SummaryCheckButton) {
+        Inputs[i].checked = SummaryCheckButton.checked;
+        Inputs[i].onclick();
+      }
+    }
+  }
+}
+
+function returnObjById( id ) {
+    if (document.getElementById)
+        var returnVar = document.getElementById(id);
+    else if (document.all)
+        var returnVar = document.all[id];
+    else if (document.layers)
+        var returnVar = document.layers[id];
+    return returnVar;
+}
+
+var NumUnchecked = 0;
+
+function ToggleDisplay(CheckButton, ClassName) {
+  if (CheckButton.checked) {
+    SetDisplay(ClassName, "");
+    if (--NumUnchecked == 0) {
+      returnObjById("AllBugsCheck").checked = true;
+    }
+  }
+  else {
+    SetDisplay(ClassName, "none");
+    NumUnchecked++;
+    returnObjById("AllBugsCheck").checked = false;
+  }
+}
+</script>
+<!-- SUMMARYENDHEAD -->
+</head>
+<body>
+<h1>rootdir - scan-build results</h1>
+
+<table>
+<tr><th>User:</th><td>root@ccad7763d4ba</td></tr>
+<tr><th>Working Directory:</th><td>/rootdir</td></tr>
+<tr><th>Command Line:</th><td>make -j 2</td></tr>
+<tr><th>Clang Version:</th><td>clang version 11.0.0 (Fedora 11.0.0-2.fc33)
+</td></tr>
+<tr><th>Date:</th><td>Sun Apr 25 13:38:12 2021</td></tr>
+</table>
+<h2>Bug Summary</h2><table>
+<thead><tr><td>Bug Type</td><td>Quantity</td><td class="sorttable_nosort">Display?</td></tr></thead>
+<tr style="font-weight:bold"><td class="SUMM_DESC">All Bugs</td><td class="Q">19</td><td><center><input type="checkbox" id="AllBugsCheck" onClick="CopyCheckedStateToCheckButtons(this);" checked/></center></td></tr>
+<tr><th>Dead code</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Unreachable code</td><td class="Q">11</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_dead_code_unreachable_code');" checked/></center></td></tr>
+<tr><th>Dead store</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Dead assignment</td><td class="Q">1</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_dead_store_dead_assignment');" checked/></center></td></tr>
+<tr><th>Logic error</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Out-of-bound access</td><td class="Q">4</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_out-of-bound_access');" checked/></center></td></tr>
+<tr><td class="SUMM_DESC">Use of identical expressions</td><td class="Q">3</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_use_of_identical_expressions');" checked/></center></td></tr>
+</table>
+<h2>Reports</h2>
+
+<table class="sortable" style="table-layout:automatic">
+<thead><tr>
+  <td>Bug Group</td>
+  <td class="sorttable_sorted">Bug Type<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></td>
+  <td>File</td>
+  <td>Function/Method</td>
+  <td class="Q">Line</td>
+  <td class="Q">Path Length</td>
+  <td class="sorttable_nosort"></td>
+  <!-- REPORTBUGCOL -->
+</tr></thead>
+<tbody>
+<tr class="bt_dead_store_dead_assignment"><td class="DESC">Dead store</td><td class="DESC">Dead assignment</td><td>rootdir/src/disks.cpp</td><td class="DESC">get_mount_opt</td><td class="Q">201</td><td class="Q">1</td><td><a href="report-f2a014.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-f2a014.html" -->
+</tr>
+<tr class="bt_logic_error_out-of-bound_access"><td class="DESC">Logic error</td><td class="DESC">Out-of-bound access</td><td>rootdir/src/bacon-message-connection.c</td><td class="DESC">server_cb</td><td class="Q">168</td><td class="Q">23</td><td><a href="report-1f145b.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1f145b.html" -->
+</tr>
+<tr class="bt_logic_error_out-of-bound_access"><td class="DESC">Logic error</td><td class="DESC">Out-of-bound access</td><td>rootdir/src/bacon-message-connection.c</td><td class="DESC">server_cb</td><td class="Q">168</td><td class="Q">26</td><td><a href="report-63cc31.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-63cc31.html" -->
+</tr>
+<tr class="bt_logic_error_out-of-bound_access"><td class="DESC">Logic error</td><td class="DESC">Out-of-bound access</td><td>rootdir/src/bacon-message-connection.c</td><td class="DESC">server_cb</td><td class="Q">168</td><td class="Q">23</td><td><a href="report-7960dc.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-7960dc.html" -->
+</tr>
+<tr class="bt_logic_error_out-of-bound_access"><td class="DESC">Logic error</td><td class="DESC">Out-of-bound access</td><td>rootdir/src/bacon-message-connection.c</td><td class="DESC">server_cb</td><td class="Q">168</td><td class="Q">26</td><td><a href="report-e57c3f.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-e57c3f.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/iconthemewrapper.cpp</td><td class="DESC">load_gicon</td><td class="Q">42</td><td class="Q">1</td><td><a href="report-00cbdc.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-00cbdc.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">duration_cell_data_func</td><td class="Q">535</td><td class="Q">1</td><td><a href="report-03669d.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-03669d.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">storage_size_cell_data_func</td><td class="Q">422</td><td class="Q">1</td><td><a href="report-0f0e69.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-0f0e69.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">io_rate_cell_data_func</td><td class="Q">494</td><td class="Q">1</td><td><a href="report-45c55c.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-45c55c.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">memory_size_na_cell_data_func</td><td class="Q">384</td><td class="Q">1</td><td><a href="report-5b6210.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-5b6210.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">time_cell_data_func</td><td class="Q">564</td><td class="Q">1</td><td><a href="report-6e8c09.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-6e8c09.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/iconthemewrapper.cpp</td><td class="DESC">load_icon</td><td class="Q">13</td><td class="Q">1</td><td><a href="report-7e0598.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-7e0598.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/procman.cpp</td><td class="DESC">timeouts_changed_cb</td><td class="Q">186</td><td class="Q">1</td><td><a href="report-9d6774.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-9d6774.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">storage_size_na_cell_data_func</td><td class="Q">456</td><td class="Q">1</td><td><a href="report-ae2cb5.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-ae2cb5.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">status_cell_data_func</td><td class="Q">591</td><td class="Q">1</td><td><a href="report-d08dee.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-d08dee.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">memory_size_cell_data_func</td><td class="Q">350</td><td class="Q">1</td><td><a href="report-da5670.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-da5670.html" -->
+</tr>
+<tr class="bt_logic_error_use_of_identical_expressions"><td class="DESC">Logic error</td><td class="DESC">Use of identical expressions</td><td>usr/include/sigc++-2.0/sigc++/visit_each.h</td><td class="DESC">operator()</td><td class="Q">98</td><td class="Q">1</td><td><a href="report-0293c9.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-0293c9.html" -->
+</tr>
+<tr class="bt_logic_error_use_of_identical_expressions"><td class="DESC">Logic error</td><td class="DESC">Use of identical expressions</td><td>usr/include/sigc++-2.0/sigc++/visit_each.h</td><td class="DESC">operator()</td><td class="Q">98</td><td class="Q">1</td><td><a href="report-1a615e.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1a615e.html" -->
+</tr>
+<tr class="bt_logic_error_use_of_identical_expressions"><td class="DESC">Logic error</td><td class="DESC">Use of identical expressions</td><td>usr/include/sigc++-2.0/sigc++/visit_each.h</td><td class="DESC">operator()</td><td class="Q">98</td><td class="Q">1</td><td><a href="report-e70982.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-e70982.html" -->
+</tr>
+</tbody>
+</table>
+
+</body></html>

@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>rootdir - scan-build results</title>
+<link type="text/css" rel="stylesheet" href="scanview.css"/>
+<script src="sorttable.js"></script>
+<script language='javascript' type="text/javascript">
+function SetDisplay(RowClass, DisplayVal)
+{
+  var Rows = document.getElementsByTagName("tr");
+  for ( var i = 0 ; i < Rows.length; ++i ) {
+    if (Rows[i].className == RowClass) {
+      Rows[i].style.display = DisplayVal;
+    }
+  }
+}
+
+function CopyCheckedStateToCheckButtons(SummaryCheckButton) {
+  var Inputs = document.getElementsByTagName("input");
+  for ( var i = 0 ; i < Inputs.length; ++i ) {
+    if (Inputs[i].type == "checkbox") {
+      if(Inputs[i] != SummaryCheckButton) {
+        Inputs[i].checked = SummaryCheckButton.checked;
+        Inputs[i].onclick();
+      }
+    }
+  }
+}
+
+function returnObjById( id ) {
+    if (document.getElementById)
+        var returnVar = document.getElementById(id);
+    else if (document.all)
+        var returnVar = document.all[id];
+    else if (document.layers)
+        var returnVar = document.layers[id];
+    return returnVar;
+}
+
+var NumUnchecked = 0;
+
+function ToggleDisplay(CheckButton, ClassName) {
+  if (CheckButton.checked) {
+    SetDisplay(ClassName, "");
+    if (--NumUnchecked == 0) {
+      returnObjById("AllBugsCheck").checked = true;
+    }
+  }
+  else {
+    SetDisplay(ClassName, "none");
+    NumUnchecked++;
+    returnObjById("AllBugsCheck").checked = false;
+  }
+}
+</script>
+<!-- SUMMARYENDHEAD -->
+</head>
+<body>
+<h1>rootdir - scan-build results</h1>
+
+<table>
+<tr><th>User:</th><td>root@3fe23294ef5d</td></tr>
+<tr><th>Working Directory:</th><td>/rootdir</td></tr>
+<tr><th>Command Line:</th><td>make -j 2</td></tr>
+<tr><th>Clang Version:</th><td>clang version 11.0.0 (Fedora 11.0.0-2.fc33)
+</td></tr>
+<tr><th>Date:</th><td>Sat Apr 24 17:51:29 2021</td></tr>
+</table>
+<h2>Bug Summary</h2><table>
+<thead><tr><td>Bug Type</td><td>Quantity</td><td class="sorttable_nosort">Display?</td></tr></thead>
+<tr style="font-weight:bold"><td class="SUMM_DESC">All Bugs</td><td class="Q">19</td><td><center><input type="checkbox" id="AllBugsCheck" onClick="CopyCheckedStateToCheckButtons(this);" checked/></center></td></tr>
+<tr><th>Dead code</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Unreachable code</td><td class="Q">12</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_dead_code_unreachable_code');" checked/></center></td></tr>
+<tr><th>Dead store</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Dead assignment</td><td class="Q">1</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_dead_store_dead_assignment');" checked/></center></td></tr>
+<tr><th>Logic error</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Cast from non-struct type to struct type</td><td class="Q">2</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_cast_from_non-struct_type_to_struct_type');" checked/></center></td></tr>
+<tr><td class="SUMM_DESC">Use of identical expressions</td><td class="Q">4</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_use_of_identical_expressions');" checked/></center></td></tr>
+</table>
+<h2>Reports</h2>
+
+<table class="sortable" style="table-layout:automatic">
+<thead><tr>
+  <td>Bug Group</td>
+  <td class="sorttable_sorted">Bug Type<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></td>
+  <td>File</td>
+  <td>Function/Method</td>
+  <td class="Q">Line</td>
+  <td class="Q">Path Length</td>
+  <td class="sorttable_nosort"></td>
+  <!-- REPORTBUGCOL -->
+</tr></thead>
+<tbody>
+<tr class="bt_logic_error_cast_from_non-struct_type_to_struct_type"><td class="DESC">Logic error</td><td class="DESC">Cast from non-struct type to struct type</td><td>rootdir/src/procman-app.cpp</td><td class="DESC">apply_cpu_color_settings</td><td class="Q">154</td><td class="Q">1</td><td><a href="report-cf8c5e.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-cf8c5e.html" -->
+</tr>
+<tr class="bt_logic_error_cast_from_non-struct_type_to_struct_type"><td class="DESC">Logic error</td><td class="DESC">Cast from non-struct type to struct type</td><td>rootdir/src/procman.cpp</td><td class="DESC">procman_save_tree_state</td><td class="Q">172</td><td class="Q">1</td><td><a href="report-f32ec5.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-f32ec5.html" -->
+</tr>
+<tr class="bt_dead_store_dead_assignment"><td class="DESC">Dead store</td><td class="DESC">Dead assignment</td><td>rootdir/src/disks.cpp</td><td class="DESC">get_mount_opt</td><td class="Q">201</td><td class="Q">1</td><td><a href="report-8801a8.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-8801a8.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">time_cell_data_func</td><td class="Q">564</td><td class="Q">1</td><td><a href="report-03a824.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-03a824.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">status_cell_data_func</td><td class="Q">591</td><td class="Q">1</td><td><a href="report-0ab2c4.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-0ab2c4.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">memory_size_cell_data_func</td><td class="Q">350</td><td class="Q">1</td><td><a href="report-1e9733.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1e9733.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">duration_cell_data_func</td><td class="Q">535</td><td class="Q">1</td><td><a href="report-323c96.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-323c96.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/iconthemewrapper.cpp</td><td class="DESC">load_icon</td><td class="Q">13</td><td class="Q">1</td><td><a href="report-458333.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-458333.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/procman-app.cpp</td><td class="DESC">on_command_line</td><td class="Q">384</td><td class="Q">1</td><td><a href="report-5a3f3a.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-5a3f3a.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">storage_size_cell_data_func</td><td class="Q">422</td><td class="Q">1</td><td><a href="report-86129c.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-86129c.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">memory_size_na_cell_data_func</td><td class="Q">384</td><td class="Q">1</td><td><a href="report-a48ea8.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a48ea8.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">storage_size_na_cell_data_func</td><td class="Q">456</td><td class="Q">1</td><td><a href="report-aa6081.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-aa6081.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/procman-app.cpp</td><td class="DESC">timeouts_changed_cb</td><td class="Q">137</td><td class="Q">1</td><td><a href="report-d5b7b8.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-d5b7b8.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/iconthemewrapper.cpp</td><td class="DESC">load_gicon</td><td class="Q">42</td><td class="Q">1</td><td><a href="report-edaf50.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-edaf50.html" -->
+</tr>
+<tr class="bt_dead_code_unreachable_code"><td class="DESC">Dead code</td><td class="DESC">Unreachable code</td><td>rootdir/src/util.cpp</td><td class="DESC">io_rate_cell_data_func</td><td class="Q">494</td><td class="Q">1</td><td><a href="report-f90f05.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-f90f05.html" -->
+</tr>
+<tr class="bt_logic_error_use_of_identical_expressions"><td class="DESC">Logic error</td><td class="DESC">Use of identical expressions</td><td>usr/include/sigc++-2.0/sigc++/visit_each.h</td><td class="DESC">operator()</td><td class="Q">98</td><td class="Q">1</td><td><a href="report-a3e815.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a3e815.html" -->
+</tr>
+<tr class="bt_logic_error_use_of_identical_expressions"><td class="DESC">Logic error</td><td class="DESC">Use of identical expressions</td><td>usr/include/sigc++-2.0/sigc++/visit_each.h</td><td class="DESC">operator()</td><td class="Q">98</td><td class="Q">1</td><td><a href="report-a94a24.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a94a24.html" -->
+</tr>
+<tr class="bt_logic_error_use_of_identical_expressions"><td class="DESC">Logic error</td><td class="DESC">Use of identical expressions</td><td>usr/include/sigc++-2.0/sigc++/visit_each.h</td><td class="DESC">operator()</td><td class="Q">98</td><td class="Q">1</td><td><a href="report-c18fc1.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-c18fc1.html" -->
+</tr>
+<tr class="bt_logic_error_use_of_identical_expressions"><td class="DESC">Logic error</td><td class="DESC">Use of identical expressions</td><td>usr/include/sigc++-2.0/sigc++/visit_each.h</td><td class="DESC">operator()</td><td class="Q">98</td><td class="Q">1</td><td><a href="report-cec6b2.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-cec6b2.html" -->
+</tr>
+</tbody>
+</table>
+
+</body></html>

@@ -1,6 +1,7 @@
 /*
  * Mate system monitor color pickers
  * Copyright (C) 2007 Karl Lattimer <karl@qdh.org.uk>
+ * Copyright (C) 2012-2021 MATE Developers
  * All rights reserved.
  *
  * This Library is free software; you can redistribute it and/or

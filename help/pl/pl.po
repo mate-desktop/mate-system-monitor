@@ -2,7 +2,7 @@
 # Translators:
 # Piotr Drąg <piotrdrag@gmail.com>, 2018
 # Kajetan Rosiak <roskaj@gmail.com>, 2018
-# pietrasagh <pietrasagh@gmail.com>, 2018
+# pietrasagh <kowalik.piotr@pm.me>, 2018
 # Przemek P <ppjg@dami.pl>, 2018
 # Dominik Adrian Grzywak, 2018
 # Marcin GTriderXC <gtriderxc@yahoo.com>, 2019
@@ -10,14 +10,15 @@
 # Piotr Strębski <strebski@gmail.com>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Wiktor Jezioro <wikjezioro@op.pl>, 2019
-# Daniel Tokarzewski <bezimo@gmail.com>, 2020
+# No Ne, 2020
+# Daniel Tokarzewski <bezimo@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-01-13 13:07+0100\n"
+"POT-Creation-Date: 2021-06-24 10:25+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Daniel Tokarzewski <bezimo@gmail.com>, 2020\n"
+"Last-Translator: Daniel Tokarzewski <bezimo@gmail.com>, 2021\n"
 "Language-Team: Polish (https://www.transifex.com/mate/teams/13566/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,91 +74,6 @@ msgstr "Projekt dokumentacji MATE"
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
 msgstr "GNOME Documentation Project"
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:2
-msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
-"later version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
-" of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
-"in the file COPYING-DOCS distributed with this manual."
-msgstr ""
-"Udziela się zgody na kopiowanie, dystrybucję i/lub modyfikację tego tekstu "
-"na warunkach licencji GNU Free Documentation License (GFDL) w wersji 1.1 lub"
-" nowszej, opublikowanej przez Free Software Foundation bez Sekcji "
-"Niezmiennych, bez Strony Tytułowej i bez Treści Okładki. Kopia tekstu "
-"licencji GFDL umieszczona została  pod tym <ulink type=\"help\" "
-"url=\"help:fdl\">odnośnikiem</ulink> lub w pliku COPYING-DOCS "
-"rozpowszechnianym razem z tą instrukcją."
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:12 C/legal.xml:12
-msgid ""
-"This manual is part of a collection of MATE manuals distributed under the "
-"GFDL. If you want to distribute this manual separately from the collection, "
-"you can do so by adding a copy of the license to the manual, as described in"
-" section 6 of the license."
-msgstr ""
-"Ten podręcznik jest częścią zestawu podręczników MATE rozpowszechnianych na "
-"licencji GFDL. Jeżeli chcesz rozpowszechnić tą instrukcję osobno od zestawu,"
-" możesz to zrobić dodając kopię licencji do podręcznika, jak opisano w "
-"dziale 6 tej licencji."
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:19 C/legal.xml:19
-msgid ""
-"Many of the names used by companies to distinguish their products and "
-"services are claimed as trademarks. Where those names appear in any MATE "
-"documentation, and the members of the MATE Documentation Project are made "
-"aware of those trademarks, then the names are in capital letters or initial "
-"capital letters."
-msgstr ""
-"Wiele nazw używanych przez firmy do rozróżnienia ich produktów i usług jest "
-"zgłoszonych jako znaki towarowe. W przypadku pojawienia się tych nazw w "
-"dowolnej dokumentacji MATE, a członkowie Projektu Dokumentacji MATE są "
-"świadomi tych znaków towarowych, wówczas nazwy są pisane wielkimi literami "
-"lub pierwszymi wielkimi literami."
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:35 C/legal.xml:35
-msgid ""
-"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
-"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
-"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
-"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
-"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
-"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
-"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
-"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
-"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
-"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
-"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-msgstr ""
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:55 C/legal.xml:55
-msgid ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
-" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
-"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
-"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
-"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
-"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
-" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
-" POSSIBILITY OF SUCH DAMAGES."
-msgstr ""
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:28 C/legal.xml:28
-msgid ""
-"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
-"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<_:orderedlist-1/>"
-msgstr ""
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -656,22 +572,22 @@ msgstr "Kanał oczekujący"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Całkowita odczyt dysku"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Całkowity zapis dysku"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "Odczyt dysku"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "Zapis dysku"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490
@@ -2069,3 +1985,95 @@ msgstr ""
 "Niezmiennych, bez Strony Tytułowej i bez Treści Okładki. Kopia tekstu "
 "licencji GFDL umieszczona została  pod tym <_:ulink-1/> lub w pliku COPYING-"
 "DOCS rozpowszechnianym razem z tą instrukcją."
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:12
+msgid ""
+"This manual is part of a collection of MATE manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in"
+" section 6 of the license."
+msgstr ""
+"Ten podręcznik jest częścią zestawu podręczników MATE rozpowszechnianych na "
+"licencji GFDL. Jeżeli chcesz rozpowszechnić tą instrukcję osobno od zestawu,"
+" możesz to zrobić dodając kopię licencji do podręcznika, jak opisano w "
+"dziale 6 tej licencji."
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:19
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any MATE "
+"documentation, and the members of the MATE Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Wiele nazw używanych przez firmy do rozróżnienia ich produktów i usług jest "
+"zgłoszonych jako znaki towarowe. W przypadku pojawienia się tych nazw w "
+"dowolnej dokumentacji MATE, a członkowie Projektu Dokumentacji MATE są "
+"świadomi tych znaków towarowych, wówczas nazwy są pisane wielkimi literami "
+"lub pierwszymi wielkimi literami."
+
+#. (itstool) path: listitem/para
+#: C/legal.xml:35
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOKUMENT JEST DOSTARCZANY W STANIE „TAK JAK JEST”, BEZ JAKIEGOKOLWIEK "
+"WYRAŻENIA,  DOMNIEMANIA GWARANCJI, W TYM MIĘDZY INNYMI GWARANCJI, ŻE "
+"DOKUMENT LUB ZMODYFIKOWANA WERSJA DOKUMENTU JEST WOLNA OD WAD HANDLOWYCH LUB"
+" DO OKREŚLONEGO CELU -NARUSZENIE. CAŁKOWITE RYZYKO DOTYCZĄCE JAKOŚCI, "
+"DOKŁADNOŚCI I WYDAJNOŚCI DOKUMENTU LUB ZMODYFIKOWANEJ WERSJI DOKUMENTU "
+"SPOCZYWA NA UŻYTKOWNIKU. JEŻELI JAKIKOLWIEK DOKUMENT LUB ZMODYFIKOWANA "
+"WERSJA OKAŻE SIĘ WADLIWA POD JAKIMKOLWIEK WZGLĘGEM, UŻYTKOWNIK (NIE WSTĘPNY "
+"PISARZ, AUTOR CZY ŻADEN WSPÓŁPRACOWNIK) PONOSI KOSZTY WSZELKICH NIEZBĘDNYCH "
+"SERWISÓW, NAPRAW LUB POPRAWEK. NINIEJSZE WYŁĄCZENIE GWARANCJI STANOWI "
+"ISTOTNĄ CZĘŚĆ LICENCJI. ZGODNIE Z NINIEJSZYM WYŁĄCZENIEM ODPOWIEDZIALNOŚCI "
+"NIE JEST ZEZWOLONE NA KORZYSTANIE Z JAKICHKOLWIEK DOKUMENTÓW LUB "
+"ZMODYFIKOWANYCH WERSJI DOKUMENTU; ORAZ "
+
+#. (itstool) path: listitem/para
+#: C/legal.xml:55
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
+" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
+" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
+" POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"W ŻADNYM PRZYPADKU I W ŻADNEJ TEORII PRAWNEJ, CZY W DZIAŁANIU CZYNNYM (W TYM"
+" ZANIEDBANIA), UMOWY LUB W INNY SPOSÓB, AUTOR, PISARZ WSTĘPNY, "
+"WSPÓŁPRACOWNIK ANI DYSTRYBUTOR DOKUMENTU LUB ZMODYFIKOWANA WERSJA DOKUMENTU "
+"TAKICH STRON NIE PONOSI ODPOWIEDZIALNOŚCI WOBEC JAKICHKOLWIEK OSÓB ZA "
+"JAKIEKOLWIEK BEZPOŚREDNIE, POŚREDNIE, SZCZEGÓLNE, PRZYPADKOWE LUB WTÓRNE "
+"SZKODY JAKIEGOKOLWIEK CHARAKTERU, W TYM MIĘDZY INNYMI USZKODZENIA ZA UTRATĘ "
+"WŁAŚCIWOŚCI, PRZERWY W PRACY, AWARIE LUB INNE USZKODZENIA KOMPUTERA LUB "
+"STRATY WYNIKAJĄCE Z KORZYSTANIA Z DOKUMENTU I ZMODYFIKOWANYCH WERSJI "
+"DOKUMENTU, NAWET JEŚLI STRONA ZOSTAŁA POINFORMOWANA O MOŻLIWOŚCI WYSTĄPIENIA"
+" TAKICH SZKÓD."
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:28
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+msgstr ""
+"DOKUMENT I ZMODYFIKOWANE WERSJE DOKUMENTU SĄ DOSTARCZANE NA WARUNKACH "
+"LICENCJI WOLNEJ DOKUMENTACJI GNU Z DALSZYM ZROZUMIENIEM, "
+"ŻE:<_:orderedlist-1/>"

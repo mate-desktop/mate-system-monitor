@@ -1,19 +1,17 @@
 # 
 # Translators:
-# あわしろいくや <ikunya@gmail.com>, 2018
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # ABE Tsunehiko, 2019
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
-# 323484, 2019
-# Aefgh Threenine <aefgh3962@gmail.com>, 2019
+# c7a0a66e0476db158663636124cfb54f_370a183, 2019
+# Green, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-01-13 13:07+0100\n"
+"POT-Creation-Date: 2021-06-24 10:25+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Aefgh Threenine <aefgh3962@gmail.com>, 2019\n"
+"Last-Translator: Green, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,37 +23,39 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"相花 毅 <takeshi.aihana@gmail.com>\n"
-"佐藤 暁 <ss@gnome.gr.jp>\n"
-"KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
-"Akira TAGOH <tagoh@gnome.gr.jp>\n"
-"Yukihiro Nakai <nakai@gnome.gr.jp>\n"
-"Yuusuke Tahara <tahara@gnome.gr.jp>\n"
-"Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>\n"
-"やまね ひでき <henrich@debian.or.jp>\n"
-"草野 貴之 <AE5T-KSN@asahi-net.or.jp>\n"
-"松澤 二郎 <jmatsuzawa@gnome.org>\n"
-"日本GNOMEユーザー会 http://www.gnome.gr.jp/"
+"相花 毅 \n"
+"佐藤 暁 \n"
+"KAMAGASAKO Masatoshi \n"
+"Akira TAGOH \n"
+"Yukihiro Nakai \n"
+"Yuusuke Tahara \n"
+"Akira Higuchi \n"
+"やまね ひでき \n"
+"草野 貴之 \n"
+"松澤 二郎 \n"
+"Green, alias usergreen\n"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp/\n"
+"MATE 文書化チーム https://www.transifex.com/mate/ "
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
 msgid "System Monitor Manual V2.3"
-msgstr ""
+msgstr "システム・モニター・マニュアル 2.3 版"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>MATE 文書化プロジェクト</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
 msgid "<year>2009</year> <holder>Paul Cutler</holder>"
-msgstr ""
+msgstr "<year>2009年</year> <holder>Paul Cutler</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
 msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
-msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr "<year>2004年</year> <holder>サン・マイクロシステムズ</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:36
@@ -63,119 +63,21 @@ msgid ""
 "<year>2001</year> <year>2002</year> <year>2004</year> <holder>Bill "
 "Day</holder>"
 msgstr ""
+"<year>2001年</year> <year>2002年</year> <year>2004年</year> <holder>Bill "
+"Day</holder>"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr "MATE ドキュメンテーション・プロジェクト"
+msgstr "MATE 文書化プロジェクト"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr "GNOME ドキュメンテーション・プロジェクト"
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:2
-msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
-"later version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
-" of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
-"in the file COPYING-DOCS distributed with this manual."
-msgstr ""
-"このドキュメントをフリーソフトウェア財団発行の GNU フリー文書利用許諾契約書 (バージョン 1.1 かそれ以降から一つを選択) "
-"が定める条件の下で複製、頒布、あるいは改変することを許可する。変更不可部分、表カバーテキスト、裏カバーテキストは存在しない。この利用許諾契約書の複製物は<ulink"
-" type=\"help\" url=\"help:fdl\">このリンク</ulink>、またはこの文書と共に配布されている COPYING-DOCS"
-" というファイルに中に記載されている。"
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:12 C/legal.xml:12
-msgid ""
-"This manual is part of a collection of MATE manuals distributed under the "
-"GFDL. If you want to distribute this manual separately from the collection, "
-"you can do so by adding a copy of the license to the manual, as described in"
-" section 6 of the license."
-msgstr ""
-"本ドキュメントは GFDL の下で配布されているその他の MATE "
-"マニュアル集の一部である。これらのマニュアルとは別に本ドキュメントを別個に配布する場合は、GFDL "
-"のセクション6で説明しているように、そのマニュアル集に対するライセンスの複製を添付することで実現できる。"
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:19 C/legal.xml:19
-msgid ""
-"Many of the names used by companies to distinguish their products and "
-"services are claimed as trademarks. Where those names appear in any MATE "
-"documentation, and the members of the MATE Documentation Project are made "
-"aware of those trademarks, then the names are in capital letters or initial "
-"capital letters."
-msgstr ""
-"企業は自分達の製品とサービスを区別するために使用する多くの名称が登録商標であると主張している。これらの名称が MATE "
-"のドキュメントの中に表記されていたり、これらの登録商標が MATE "
-"ドキュメンテーション・プロジェクトのメンバに提示している箇所は全部を大文字または最初の文字を大文字にしている。"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:35 C/legal.xml:35
-msgid ""
-"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
-"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
-"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
-"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
-"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
-"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
-"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
-"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
-"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
-"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
-"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-msgstr ""
-"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
-"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
-"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
-"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
-"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
-"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
-"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
-"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
-"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
-"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
-"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:55 C/legal.xml:55
-msgid ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
-" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
-"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
-"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
-"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
-"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
-" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
-" POSSIBILITY OF SUCH DAMAGES."
-msgstr ""
-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
-" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
-"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
-"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
-"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
-"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
-" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
-" POSSIBILITY OF SUCH DAMAGES."
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:28 C/legal.xml:28
-msgid ""
-"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
-"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<_:orderedlist-1/>"
-msgstr ""
+msgstr "GNOME 文書化プロジェクト"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -183,6 +85,8 @@ msgid ""
 "<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
+"<firstname>MATE 文書化プロジェクト</firstname> <surname/> <affiliation><orgname>MATE "
+"デスクトップ</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70
@@ -190,6 +94,8 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
+"<personname> <firstname>Sun</firstname> <surname>GNOME 文書化チーム </personname> "
+"<affiliation> <orgname>サン・マイクロシステムズ</orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -197,6 +103,8 @@ msgid ""
 "<firstname>Bill</firstname> <surname>Day</surname> "
 "<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 msgstr ""
+"<firstname>Bill</firstname> <surname>Day</surname> "
+"<affiliation><address><email>billday@bellatlantic.net</email></address></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:80
@@ -205,11 +113,14 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> "
 "<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 msgstr ""
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
+"<orgname>GNOME 文書化プロジェクト</orgname> "
+"<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "MATE ドキュメンテーション・チーム"
+msgstr "MATE 文書化チーム"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -217,11 +128,13 @@ msgid ""
 "<revnumber>System Monitor Manual V2.3</revnumber> <date>July 2015</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>システム・モニター・マニュアル 2.3 版</revnumber> <date>2015年7月</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:120
 msgid "Paul Cutler <email>pcutler@foresightlinux.org</email>"
-msgstr ""
+msgstr "Paul Cutler <email>pcutler@foresightlinux.org</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:116
@@ -229,11 +142,13 @@ msgid ""
 "<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>システム・モニター・マニュアル 2.2 版</revnumber> <date>2009年3月</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr "Sun GNOME ドキュメンテーション・チーム"
+msgstr "Sun GNOME 文書化チーム"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -241,11 +156,13 @@ msgid ""
 "<revnumber>System Monitor Manual V2.1</revnumber> <date>February 2004</date>"
 " <_:revdescription-1/>"
 msgstr ""
+"<revnumber>システム・モニター・マニュアル 2.1 版</revnumber> <date>2004年</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:138 C/index.docbook:147
 msgid "Bill Day <email>billday@bellatlantic.net</email>"
-msgstr ""
+msgstr "Bill Day <email>billday@bellatlantic.net</email>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:134
@@ -253,6 +170,8 @@ msgid ""
 "<revnumber>System Monitor Manual V2.0</revnumber> <date>November 2002</date>"
 " <_:revdescription-1/>"
 msgstr ""
+"<revnumber>システム・モニター・マニュアル 2.0 版</revnumber> <date>2002年11月</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:143
@@ -260,11 +179,13 @@ msgid ""
 "<revnumber>Procman Manual V0.11</revnumber> <date>January 2002</date> "
 "<_:revdescription-1/>"
 msgstr ""
+"<revnumber>Procman マニュアル 0.11 版</revnumber> <date>2002年1月</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/index.docbook:155
 msgid "This manual describes version 1.10.0 of System Monitor."
-msgstr ""
+msgstr "本マニュアルは、システム・モニター 1.10.0 版について説明しています。"
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:160
@@ -278,6 +199,8 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"help"
 ":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr ""
+"システム・モニター・アプリケーションやこのマニュアルに関する不具合や提案を報告するには、<ulink url=\"help:mate-user-"
+"guide/feedback\" type=\"help\">MATE フィードバック・ページ</ulink>の指示に従ってください。"
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:169
@@ -286,21 +209,22 @@ msgid ""
 "network, and memory activities as well as a way for viewing and stopping "
 "system processes."
 msgstr ""
+"システムモニターは、CPU、ネットワーク、メモリの動作を監視し、システムプロセスを表示・停止するためのグラフィカルなユーザ・インタフェースを提供します。"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:177
 msgid "<primary>System Monitor</primary>"
-msgstr ""
+msgstr "<primary>システム・モニター</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:180
 msgid "<primary>mate-system-monitor</primary>"
-msgstr ""
+msgstr "<primary>mate-system-monitor</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:183
 msgid "<primary>procman</primary>"
-msgstr ""
+msgstr "<primary>procman</primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:190
@@ -315,46 +239,47 @@ msgid ""
 "system resources, and file systems. You can also use <application>System "
 "Monitor</application> to modify the behavior of your system."
 msgstr ""
+"<application>システム・モニター</application>アプリケーションでは、システムの基本的な情報を表示し、システムプロセス、システムリソースの使用状況、ファイルシステムなどを監視することができます。また、<application>システム・モニター</application>を使って、システムの動作を変更することもできます。"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:194
 msgid ""
 "The <application>System Monitor</application> window contains four tabbed "
 "sections:"
-msgstr ""
+msgstr "<application>システム・モニター</application>のウィンドウには、次の4個のタブ項目があります。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:199 C/index.docbook:367
 msgid "<guilabel>System</guilabel>"
-msgstr ""
+msgstr "<guilabel>システム</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:203
 msgid ""
 "Displays various basic information about the computer's hardware and "
 "software."
-msgstr ""
+msgstr "コンピューターのハードウェアおよびソフトウェアに関する、さまざまな基本情報を表示します。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:206
 msgid "Distribution"
-msgstr ""
+msgstr "ディストリビューション"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:212
 msgid "Distribution version"
-msgstr ""
+msgstr "ディストリビューションのバージョン"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:215
 msgid "Linux Kernel version"
-msgstr ""
+msgstr "Linux カーネルのバージョン"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:218
 msgid "MATE version"
-msgstr ""
+msgstr "MATE バージョン"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -365,12 +290,12 @@ msgstr "ハードウェア"
 #. (itstool) path: listitem/para
 #: C/index.docbook:230
 msgid "Installed memory"
-msgstr ""
+msgstr "インストール済みメモリ"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:233
 msgid "Processors and speeds"
-msgstr ""
+msgstr "プロセッサと速度"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -381,13 +306,13 @@ msgstr "システムステータス"
 #. (itstool) path: listitem/para
 #: C/index.docbook:245
 msgid "Currently available disk space"
-msgstr ""
+msgstr "現在利用可能なディスク容量"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:254 C/index.docbook:375
 msgid "<guilabel>Processes</guilabel>"
-msgstr ""
+msgstr "<guilabel>プロセス</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:258
@@ -395,62 +320,62 @@ msgid ""
 "Shows active processes, and how processes are related to each other. "
 "Provides detailed information about individual processes, and enables you to"
 " control active processes."
-msgstr ""
+msgstr "アクティブなプロセスや、プロセス同士の関連性を表示します。個々のプロセスの詳細情報を提供し、アクティブなプロセスを制御することができます。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:264 C/index.docbook:383
 msgid "<guilabel>Resources</guilabel>"
-msgstr ""
+msgstr "<guilabel>リソース</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:268
 msgid "Displays the current usage of the following system resources:"
-msgstr ""
+msgstr "以下のシステムリソースの現在の使用状況を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:273
 msgid "CPU (central processing unit) time"
-msgstr ""
+msgstr "CPU (中央演算処理装置) 時間"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:278
 msgid "Memory and swap space"
-msgstr ""
+msgstr "メモリとスワップ領域"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:283
 msgid "Network usage"
-msgstr ""
+msgstr "ネットワーク使用量"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1505
 msgid "<guilabel>File Systems</guilabel>"
-msgstr ""
+msgstr "<guilabel>ファイルシステム</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:295
 msgid ""
 "Lists all mounted file systems along with basic information about each."
-msgstr ""
+msgstr "マウントされているファイルシステムと、それぞれについて基本的な情報が表示されます。"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr ""
+msgstr "はじめましょう"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
 msgid "To Start System Monitor"
-msgstr ""
+msgstr "システムモニターを起動するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:310
 msgid ""
 "You can start <application>System Monitor</application> in the following "
 "ways:"
-msgstr ""
+msgstr "次の方法で<application>システムモニター</application>を起動します。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
@@ -463,6 +388,8 @@ msgid ""
 "Choose <menuchoice><guimenu>System Tools</guimenu> <guimenuitem>MATE System "
 "Monitor</guimenuitem></menuchoice>."
 msgstr ""
+"<menuchoice><guimenu>システムツール</guimenu> <guimenuitem>MATE "
+"システムモニター</guimenuitem></menuchoice>を選択します。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:321
@@ -472,24 +399,24 @@ msgstr "コマンドライン"
 #. (itstool) path: listitem/para
 #: C/index.docbook:323
 msgid "Execute the following command: <command>mate-system-monitor</command>"
-msgstr ""
+msgstr "次のコマンドを実行します。<command>mate-system-monitor</command>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:331
 msgid "When You Start System Monitor"
-msgstr ""
+msgstr "システムモニターを起動したら"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:332
 msgid ""
 "When you start <application>System Monitor</application>, the following "
 "window is displayed:"
-msgstr ""
+msgstr "システムモニターを起動したら、次のウィンドウが表示されます。"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:336
 msgid "System Monitor Window"
-msgstr ""
+msgstr "システムモニター・ウィンドウ"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -502,6 +429,8 @@ msgid ""
 "external ref='figures/mate-system-monitor_window.png' "
 "md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 msgstr ""
+"external ref='figures/mate-system-monitor_window.png' "
+"md5='0a938d7d8c6910fdc96cb845f6e2af74'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:338
@@ -510,13 +439,16 @@ msgid ""
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows System Monitor "
 "main window.</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/mate-system-monitor_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> "
+"<phrase>はシステムモニターのメイン・ウィンドウを表示します。</phrase> </textobject>"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:347
 msgid ""
 "The <application>System Monitor</application> window contains the following "
 "elements:"
-msgstr ""
+msgstr "<application>システムモニター</application>には次の項目があります。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:352
@@ -529,25 +461,26 @@ msgid ""
 "The menus on the menubar contain all the commands that you need to work with"
 " <application>System Monitor</application>."
 msgstr ""
+"メニューバーのメニューには、<application>システムモニター</application>を操作するために必要なコマンドが全部含まれています。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:360
 msgid "Display area"
-msgstr ""
+msgstr "表示領域"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:362
 msgid ""
 "The display area contains the system monitor information. The display area "
 "contains the following tabbed sections:"
-msgstr ""
+msgstr "表示領域には、システムモニターの情報が表示されます。この領域には、次のタブ項目があります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:370
 msgid ""
 "Contains a list of basic system properties, such as system software versions"
 " and hardware specifications and status."
-msgstr ""
+msgstr "システムソフトウェアのバージョン、ハードウェアの仕様や状態など、システムの基本的なプロパティ一覧が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:378
@@ -555,6 +488,7 @@ msgid ""
 "Contains a list of processes organized as a table, a list of load averages "
 "over the past few minutes, and an <guibutton>End Process</guibutton> button."
 msgstr ""
+"表形式で整理されたプロセスの一覧、過去数分間の負荷平均値の一覧、プ<guibutton>ロセスの終了</guibutton>というボタンがあります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:386
@@ -563,11 +497,13 @@ msgid ""
 "Swap History</guilabel> graph, and a <guilabel>Network History</guilabel> "
 "graph."
 msgstr ""
+"<guilabel>CPU "
+"使用率の履歴</guilabel>グラフ、<guilabel>メモリとスワップの履歴</guilabel>グラフ、<guilabel>ネットワークの履歴</guilabel>グラフがあります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:394
 msgid "Contains a table of currently mounted file systems."
-msgstr ""
+msgstr "現在マウントされているファイルシステムのテーブルが表示されます。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:402
@@ -581,6 +517,7 @@ msgid ""
 "Monitor</application> activity and contextual information about the menu "
 "items."
 msgstr ""
+"ステータスバーには、<application>システムモニター</application>の現在の実行状況に関する情報や、メニュー項目のコンテキスト情報が表示されます。"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:418
@@ -590,37 +527,37 @@ msgstr "使い方"
 #. (itstool) path: sect2/title
 #: C/index.docbook:421
 msgid "To Display Basic System Information"
-msgstr ""
+msgstr "ステータスの基本情報を表示するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:422
 msgid ""
 "To display basic system information, select the <guilabel>System</guilabel> "
 "tab."
-msgstr ""
+msgstr "ステータスの基本情報を表示するには、<guilabel>システム</guilabel>タブを選択します。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:425
 msgid ""
 "In the <guilabel>System</guilabel> tab, information is organized into three "
 "groups:"
-msgstr ""
+msgstr "<guilabel>システム</guilabel>タブでは、情報が3つのグループに分類されています。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:430
 msgid "System Information"
-msgstr ""
+msgstr "システム情報"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:448
 msgid "To Display the Process List"
-msgstr ""
+msgstr "プロセスの一覧を表示するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:449
 msgid ""
 "To display the process list, select the <guilabel>Processes</guilabel> tab."
-msgstr ""
+msgstr "プロセスの一覧を表示するには、<guilabel>プロセス</guilabel>タブを選択します。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:452
@@ -633,6 +570,7 @@ msgid ""
 "<guilabel>Processes</guilabel> tab displays the following columns by "
 "default:"
 msgstr ""
+"<guilabel>プロセス</guilabel>タブでは、プロセスが表として整理されています。表の各行には、プロセスに関する情報が表示されます。各列には、プロセスを所有するユーザーの名前、プロセスが現在使用しているメモリの量などを、情報フィールドに表示します。<guilabel>プロセス</guilabel>タブには、左から右に向かって、標準で次の項目が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:457
@@ -647,7 +585,7 @@ msgstr "状態"
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
 msgid "%CPU"
-msgstr ""
+msgstr "CPU 使用率"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
@@ -662,7 +600,7 @@ msgstr "ID"
 #. (itstool) path: listitem/para
 #: C/index.docbook:472
 msgid "Memory"
-msgstr "メモリー"
+msgstr "メモリ"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:475
@@ -672,22 +610,22 @@ msgstr "待機中のチャンネル"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "ディクスの読み出し合計"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "ディクスの書き込み合計"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "ディクスの読み込み"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "ディクスの書き込み"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490
@@ -705,11 +643,13 @@ msgid ""
 "For information about how to change the columns displayed in the process "
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
+"プロセス一覧で表示される各列の順序を変更するには、<xref linkend=\"mate-system-monitor-prefs-"
+"proclist\"/>を参照してください。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:501
 msgid "Parent Processes and Child Processes"
-msgstr ""
+msgstr "親プロセスと子プロセス"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:502
@@ -721,11 +661,13 @@ msgid ""
 "behavior, see <xref linkend=\"mate-system-monitor-modify-processlist-"
 "viewdeps\"/>."
 msgstr ""
+"親プロセスは、別のプロセスを産み出します。産み出されたプロセスは、元の親プロセスの子プロセスになります。デフォルトでは、<application>システムモニター</application>はプロセスの依存関係を表示しません。デフォルトの表示を変更する方法は<xref"
+" linkend=\"mate-system-monitor-modify-processlist-viewdeps\"/>をご覧ください。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:508
 msgid "Process Priority and Nice Values"
-msgstr ""
+msgstr "プロセスの優先度と Nice 値"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:509
@@ -734,28 +676,29 @@ msgid ""
 "priority processes. Child processes generally inherit their priority from "
 "their parent process."
 msgstr ""
+"プロセスは優先度の順に実行されるので、優先度の高いプロセスが低いプロセスよりも先に実行されます。子プロセスは通常、親プロセスから優先度を受け継ぎます。"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:512
 msgid ""
 "The priority of a process is set by the nice value of the process, as "
 "follows:"
-msgstr ""
+msgstr "プロセスの優先度は、Nice 値によって次のように設定されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:517
 msgid "A nice value of 0 means that the process has normal priority."
-msgstr ""
+msgstr "Nice 値 0 は、そのプロセスが通常の優先順位であることを意味します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:522
 msgid "The higher the nice value, the lower the priority."
-msgstr ""
+msgstr "Nice 値が高くなればなるほど、優先順位は低くなります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:527
 msgid "The lower the nice value, the higher the priority."
-msgstr ""
+msgstr "Nice 値が低くなればなるほど、優先順位は高くなります。"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:532
@@ -763,16 +706,18 @@ msgid ""
 "For information about how to change the priority of a process, see <xref "
 "linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
+"プロセスの優先度を変更する方法については、<xref linkend=\"mate-system-monitor-change-"
+"priority\"/>をご覧ください。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:540
 msgid "To Sort the Process List"
-msgstr ""
+msgstr "プロセス一覧を並べ替えるには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:541
 msgid "To sort the process list, perform the following steps:"
-msgstr ""
+msgstr "プロセスリストを並べ替える手順は、次のとおりです。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:546 C/index.docbook:581 C/index.docbook:604
@@ -780,7 +725,7 @@ msgstr ""
 #: C/index.docbook:874 C/index.docbook:915 C/index.docbook:950
 msgid ""
 "Select the <guilabel>Processes</guilabel> tab to display the process list."
-msgstr ""
+msgstr "<guilabel>プロセス</guilabel>タブを選択して、プロセスの一覧を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:551
@@ -789,41 +734,42 @@ msgid ""
 " the processes in reverse alphabetical order, click on the <guilabel>Process"
 " Name</guilabel> column header."
 msgstr ""
+"デフォルトでは、プロセスは名前のアルファベット順で表示されます。プロセスを逆アルファベット順で表示するには、<guilabel>プロセス名</guilabel>の項目ヘッダーをクリックしてください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:556
 msgid ""
 "Click on any column header to sort the processes by the information in that "
 "column, in alphabetical or numerical order."
-msgstr ""
+msgstr "どの列のヘッダーをクリックしても、その列のプロセス情報はアルファベット順、または数字順に並べ替えることができます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:561
 msgid ""
 "Click again on the column header to sort the data in reverse alphabetical or"
 " reverse numerical order."
-msgstr ""
+msgstr "もう一度、その列のヘッダーをクリックすると、アルファベットの逆順または数字の逆順で並び替えできます。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:569
 msgid "To Modify the Contents of the Process List"
-msgstr ""
+msgstr "プロセス一覧の内容を変更するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:570
 msgid "You can modify the contents of the process list in several ways."
-msgstr ""
+msgstr "プロセス一覧の内容を変更するには、いくつかの方法があります。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:575
 msgid "To Show All Processes"
-msgstr ""
+msgstr "すべてのプロセスを表示するには"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:576
 msgid ""
 "To show all processes in the process list, perform the following steps:"
-msgstr ""
+msgstr "実行中のプロセス全部を表示する手順は、次のとおりです。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:586
@@ -831,18 +777,19 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"<menuchoice><guimenu>表示</guimenu><guimenuitem>すべてのプロセス</guimenuitem></menuchoice>を選択します。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:598
 msgid "To Show Only Processes Owned by the Current User"
-msgstr ""
+msgstr "現在のユーザーが所有するプロセスだけを表示するには"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:599
 msgid ""
 "To show only the processes that are owned by the current user, perform the "
 "following steps:"
-msgstr ""
+msgstr "現在のユーザーが所有するプロセスだけを表示するには、次の手順のとおりです。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:609
@@ -850,18 +797,19 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"<menuchoice><guimenu>表示</guimenu><guimenuitem>ユーザーのプロセス</guimenuitem></menuchoice>を選択します。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:621
 msgid "To Show Only Active Processes"
-msgstr ""
+msgstr "実行中のプロセスだけを表示するには"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:622
 msgid ""
 "To show only the active processes in the process list, perform the following"
 " steps:"
-msgstr ""
+msgstr "プロセス一覧に実行中のプロセスだけを表示するには、次の手順を実行します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:632
@@ -869,18 +817,19 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"<menuchoice><guimenu>表示</guimenu><guimenuitem>実行中のプロセス</guimenuitem></menuchoice>を選択します。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:644
 msgid "To Show Dependencies"
-msgstr ""
+msgstr "依存関係を表示するには"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:645
 msgid ""
 "To show process dependencies in the process list, perform the following "
 "steps:"
-msgstr ""
+msgstr "プロセス一覧にその依存関係を表示するには、次の手順を実行します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:655
@@ -888,13 +837,14 @@ msgid ""
 "Choose "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
 msgstr ""
+"<menuchoice><guimenu>表示</guimenu><guimenuitem>依存関係</guimenuitem></menuchoice>をします。"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:660
 msgid ""
 "If the <guimenuitem>Dependencies</guimenuitem> menu item is selected, the "
 "processes are listed as follows:"
-msgstr ""
+msgstr "<guimenuitem>依存関係</guimenuitem>というメニューを選択した場合、プロセスは次のように一覧表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:665
@@ -903,42 +853,43 @@ msgid ""
 "process name. Click on the triangle symbol to show or hide the associated "
 "child processes."
 msgstr ""
+"親プロセスは、プロセス名の左に三角マークが表示されます。三角マークをクリックすると、関連する子プロセスの表示・非表示を切り替えることができます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:670
 msgid "Child processes are indented, and listed with their parent process."
-msgstr ""
+msgstr "子プロセスは字下げされて、親プロセスと一緒に表示されます。"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:675
 msgid ""
 "If the <guimenuitem>Dependencies</guimenuitem> menu item is not selected:"
-msgstr ""
+msgstr "もし<guimenuitem>依存関係</guimenuitem>メニューが選択されていない場合は"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:680
 msgid "Parent processes and child processes are not distinguishable."
-msgstr ""
+msgstr "親プロセスと子プロセスは区別されていません。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:685
 msgid "All processes are listed in alphabetical order."
-msgstr ""
+msgstr "すべてのプロセスが、アルファベット順に表示されています。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:695
 msgid "To Display Memory Maps for a Process"
-msgstr ""
+msgstr "プロセスのメモリマップを表示するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:696
 msgid "To display memory maps for a process, perform the following steps:"
-msgstr ""
+msgstr "プロセスのメモリマップを表示するには、次のとおり行ってください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:706
 msgid "Select the process in the process list."
-msgstr ""
+msgstr "プロセス一覧でプロセスを選択します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:711
@@ -947,6 +898,7 @@ msgid ""
 "Maps</guimenuitem></menuchoice>, or perform a right-click and choose "
 "<menuchoice><guimenu>Memory Maps</guimenu></menuchoice>."
 msgstr ""
+"<menuchoice><guimenu>表示</guimenu><guimenuitem>メモリマップ</guimenuitem></menuchoice>を選択するか、右クリックして<menuchoice><guimenu>メモリマップ</guimenu></menuchoice>を選択します。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:716
@@ -956,11 +908,12 @@ msgid ""
 "table. From left to right, the <guilabel>Memory Maps</guilabel> dialog "
 "displays the following columns:"
 msgstr ""
+"<guilabel>メモリマップ</guilabel>ダイアログでは、情報を表形式で表示します。メモリマップの表の上部に、プロセスの名前が表示されます。左から右に向かって、<guilabel>メモリマップ</guilabel>ダイアログには次のような各列が表示されます。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:721
 msgid "<guilabel>Filename</guilabel>"
-msgstr ""
+msgstr "<guilabel>フルネーム</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:723
@@ -970,41 +923,42 @@ msgid ""
 "that is owned by the process whose name is displayed above the memory-map "
 "table."
 msgstr ""
+"プロセスが現在使用している共有ライブラリの場所です。このフィールドが空白の場合、この行のメモリ情報は、メモリマップ・テーブルの上に表示された名前が所有する、プロセスのメモリを表示しています。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:729
 msgid "<guilabel>VM Start</guilabel>"
-msgstr ""
+msgstr "<guilabel>VM 開始</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:731
 msgid "The address at which the memory segment begins."
-msgstr ""
+msgstr "メモリセグメントの開始点となるアドレスです。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:737
 msgid "<guilabel>VM End</guilabel>"
-msgstr ""
+msgstr "<guilabel>VM 終了</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:739
 msgid "The address at which the memory segment ends."
-msgstr ""
+msgstr "メモリセグメントの終了点となるアドレスです。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:745
 msgid "<guilabel>VM Size</guilabel>"
-msgstr ""
+msgstr "<guilabel>VM サイズ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:747
 msgid "The size of the memory segment."
-msgstr ""
+msgstr "メモリセグメントのサイズです。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:753
 msgid "<guilabel>Flags</guilabel>"
-msgstr ""
+msgstr "<guilabel>フラッグ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:755
@@ -1012,48 +966,50 @@ msgid ""
 "The following flags describe the different types of memory-segment access "
 "that the process can have:"
 msgstr ""
+"The following flags describe the different types of memory-segment access "
+"that the process can have:"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:760
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:762
 msgid ""
 "The memory segment is private to the process, and is not accessible to other"
 " processes."
-msgstr ""
+msgstr "このメモリセグメントは、プロセスにとってプライベートなものであり、他のプロセスからはアクセスできません。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:768
 msgid "r"
-msgstr ""
+msgstr "r"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:770
 msgid "The process has permission to read from the memory segment."
-msgstr ""
+msgstr "プロセスは、メモリセグメントからの読み取りを許可されています。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:776
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:778
 msgid "The memory segment is shared with other processes."
-msgstr ""
+msgstr "メモリセグメントは、他のプロセスと共有されています。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:784
 msgid "w"
-msgstr ""
+msgstr "w"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:786
 msgid "The process has permission to write into the memory segment."
-msgstr ""
+msgstr "プロセスには、メモリセグメントへの書き込み許可があります。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:792
@@ -1065,86 +1021,86 @@ msgstr "x"
 msgid ""
 "The process has permission to execute instructions that are contained within"
 " the memory segment."
-msgstr ""
+msgstr "プロセスは、メモリセグメント内に含まれる命令を実行する権限を持っています。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:803
 msgid "<guilabel>VM Offset</guilabel>"
-msgstr ""
+msgstr "<guilabel>VM オフセット</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:805
 msgid "The virtual memory offset of the memory segment."
-msgstr ""
+msgstr "メモリセグメントの仮想メモリのオフセットです。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:811
 msgid "<guilabel>Private clean</guilabel>"
-msgstr ""
+msgstr "<guilabel>プライベートクリーン</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:813
 msgid ""
 "Unmodified pages since they were mapped that belong only to a specific "
 "process."
-msgstr ""
+msgstr "特定のプロセスのみに属するようにマッピングされているため、修正されていないページです。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:819
 msgid "<guilabel>Private dirty</guilabel>"
-msgstr ""
+msgstr "<guilabel>プライベートダーティ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:821
 msgid ""
 "Pages that have been modified since they were mapped that belong only to a "
 "specific process."
-msgstr ""
+msgstr "特定のプロセスにのみ属するようにマッッピングされていたので、変更されたページです。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:827
 msgid "<guilabel>Shared clean</guilabel>"
-msgstr ""
+msgstr "<guilabel>共有クリーン</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:829
 msgid "Unmodified pages that are shared by multiple processes."
-msgstr ""
+msgstr "複数のプロセスで共有されている、無修正のページです。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:835
 msgid "<guilabel>Shared dirty</guilabel>"
-msgstr ""
+msgstr "<guilabel>共有ダーティ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:837
 msgid "Modified pages that are shared by multiple processes."
-msgstr ""
+msgstr "複数のプロセスで共有されている、修正済みのページです。"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:843 C/index.docbook:1537
 msgid "<guilabel>Device</guilabel>"
-msgstr ""
+msgstr "<guilabel>デバイス</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:845
 msgid ""
 "The major and minor device numbers of the device on which the shared library"
 " filename is located."
-msgstr ""
+msgstr "共有ライブラリのファイル名が置かれているデバイスの、メジャーとマイナーのデバイス番号。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:851
 msgid "<guilabel>Inode</guilabel>"
-msgstr ""
+msgstr "<guilabel>inode</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:853
 msgid ""
 "The inode on the device from which the shared library location is loaded "
 "into memory."
-msgstr ""
+msgstr "共有ライブラリの場所がメモリにロードされる、デバイス上の inode です。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:859
@@ -1153,6 +1109,7 @@ msgid ""
 "column, in alphabetical or numerical order. Click again on the column header"
 " to sort the data in reverse alphabetical or reverse numerical order."
 msgstr ""
+"任意の列のヘッダをクリックすると、アルファベット順または数値順にその列の情報を並び替えます。再びヘッダをクリックすると、反対順で並び替えます。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:862
@@ -1160,21 +1117,22 @@ msgid ""
 "Click <guibutton>Close</guibutton> to close the <guilabel>Memory "
 "Maps</guilabel> dialog."
 msgstr ""
+"<guibutton>閉じる</guibutton>を選択すると、<guilabel>メモリマップ</guilabel>ダイアログが閉じます。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:868
 msgid "To Change the Priority of a Process"
-msgstr ""
+msgstr "プロセスの優先度を変更するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:869
 msgid "To change the priority of a process, perform the following steps:"
-msgstr ""
+msgstr "プロセスの優先度を変更するには、次の手順を実行します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:879
 msgid "Select the process for which you want to change the priority."
-msgstr ""
+msgstr "優先度を変更したいプロセスを選択します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:884
@@ -1187,45 +1145,46 @@ msgid ""
 "<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
 "follows."
 msgstr ""
+"<menuchoice><guimenu>編集</guimenu><guimenuitem>優先度の変更</guimenuitem></menuchoice>で優先順位を選択するか、右クリックして<menuchoice><guimenu>優先度の変更</guimenu></menuchoice>を選択します。<guimenuitem>カスタム</guimenuitem>メニューを選択した場合は、<guilabel>優先度の変更</guilabel>ダイアログが表示されるので、次のとおり続行してください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:889
 msgid "Use the slider to set the nice value of the process."
-msgstr ""
+msgstr "スライダーを使って、プロセスの Nice 値を設定します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:892
 msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
-msgstr ""
+msgstr "Nice 値がプロセスの優先度を決定します。Nice 値が低くなればなるほど、優先順位は高くなります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:895
 msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
-msgstr ""
+msgstr "Nice 値をゼロ以下に指定するには、非管理者はルートパスワードを入力する必要があります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:900
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
-msgstr ""
+msgstr "<guibutton>優先度の変更</guibutton>ボタンをクリックしてください。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:909
 msgid "To End a Process"
-msgstr ""
+msgstr "プロセスを終了するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:910
 msgid "To end a process, perform the following steps:"
-msgstr ""
+msgstr "プロセスを終了するには、次の手順で行います。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:920
 msgid "Select the process that you want to end."
-msgstr ""
+msgstr "終了したいプロセスを選択してください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:925
@@ -1235,6 +1194,7 @@ msgid ""
 "<menuchoice><guimenu>End Process</guimenu></menuchoice>, or click on the "
 "<guibutton>End Process</guibutton> button."
 msgstr ""
+"<menuchoice><guimenu>編集</guimenu><guimenuitem>プロセスの終了</guimenuitem></menuchoice>を選択するか、右クリックして<menuchoice><guimenu>プロセスの終了</guimenu></menuchoice>を選択するか、あるいは<guibutton>プロセスの終了</guibutton>ボタンをクリックします。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:928 C/index.docbook:963
@@ -1243,6 +1203,8 @@ msgid ""
 "display or hide the confirmation alert, see <xref linkend=\"mate-system-"
 "monitor-prefs-proclist\"/>."
 msgstr ""
+"既定では、確認のための警告が表示されます。確認警告の表示／非表示を切り替える方法については、<xref linkend=\"mate-system-"
+"monitor-prefs-proclist\"/>をご参照ください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:933
@@ -1251,26 +1213,27 @@ msgid ""
 "want to end the process. <application>System Monitor</application> forces "
 "the process to finish normally."
 msgstr ""
+"<guibutton>プロセスの終了</guibutton>ボタンをクリックして、プロセスが終了することを確認してください。<application>システムモニター</application>は、プロセスを強制的に正常終了させます。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:938
 msgid "This is the preferred way to stop a process."
-msgstr ""
+msgstr "プロセスを停止するには、この方法が望ましいです。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:944
 msgid "To Terminate a Process"
-msgstr ""
+msgstr "プロセスを中止するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:945
 msgid "To terminate a process, perform the following steps:"
-msgstr ""
+msgstr "プロセスを中止するには、次の手順で行います。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:955
 msgid "Select the process that you want to terminate."
-msgstr ""
+msgstr "中止したいプロセスを選択してください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:960
@@ -1279,6 +1242,7 @@ msgid ""
 "Process</guimenuitem></menuchoice>, or perform a right-click and choose "
 "<menuchoice><guimenu>Kill Process</guimenu></menuchoice>."
 msgstr ""
+"<menuchoice><guimenu>編集</guimenu><guimenuitem>プロセスの強制終了</guimenuitem></menuchoice>を選択するか、右クリックして<menuchoice><guimenu>プロセスの強制終了</guimenu></menuchoice>を選択します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:968
@@ -1287,6 +1251,7 @@ msgid ""
 "want to terminate the process. <application>System Monitor</application> "
 "forces the process to finish immediately."
 msgstr ""
+"<guibutton>プロセスの強制終了</guibutton>ボタンをクリックして、プロセスが中止することを確認してください。<application>システムモニター</application>は、プロセスを直ちに強制的に終了させます。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:973
@@ -1294,16 +1259,18 @@ msgid ""
 "You usually terminate a process only if you cannot end the process normally "
 "as described in <xref linkend=\"mate-system-monitor-end-process\"/>."
 msgstr ""
+"通常、プロセスの中止は、<xref linkend=\"mate-system-monitor-end-"
+"process\"/>で説明されているように、プロセスを正常に終了できない場合にのみ行います。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:979
 msgid "To Monitor CPU Usage"
-msgstr ""
+msgstr "CPU 使用率を監視するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:980
 msgid "To monitor CPU usage, select the <guilabel>Resources</guilabel> tab."
-msgstr ""
+msgstr "CPU 使用率を監視するには、<guilabel>リソース</guilabel>タブを選択します。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:983
@@ -1312,18 +1279,21 @@ msgid ""
 "graphical format. Underneath the graph, <application>System "
 "Monitor</application> also displays the current CPU usage, as a percentage."
 msgstr ""
+"<application>システムモニター</application>は、CPU "
+"使用率の履歴をグラフで表示します。<application>システムモニター</application>はまた、グラフの下に現在の CPU "
+"使用率をパーセンテージでも表示されます。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:990
 msgid "To Monitor Memory and Swap Usage"
-msgstr ""
+msgstr "メモリとスワップの使用状況を監視するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:991
 msgid ""
 "To monitor memory and swap usage, select the <guilabel>Resources</guilabel> "
 "tab."
-msgstr ""
+msgstr "メモリとスワップの使用状況を監視するには、<guilabel>リソースタブ</guilabel>を選択してください。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:994
@@ -1333,27 +1303,28 @@ msgid ""
 "<application>System Monitor</application> also displays the following "
 "numerical values:"
 msgstr ""
+"<application>システムモニター</application>は、メモリの履歴とスワップの履歴をグラフで表示します。<application>システムモニター</application>はまた、グラフの下に次の数値も表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:999
 msgid "Used memory out of total memory"
-msgstr ""
+msgstr "総メモリのうち、使用中のメモリ"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1004
 msgid "Used swap out of total swap"
-msgstr ""
+msgstr "総スワップのうち、使用中のスワップ"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1013
 msgid "To Monitor Network Activity"
-msgstr ""
+msgstr "ネットワークの活動状況を監視するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1014
 msgid ""
 "To monitor network activity, select the <guilabel>Resources</guilabel> tab."
-msgstr ""
+msgstr "ネットワークの活動状況を監視するには、<guilabel>リソース</guilabel>タブを選択してください。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1017
@@ -1362,27 +1333,28 @@ msgid ""
 "graphical format. Underneath the graph, <application>System "
 "Monitor</application> also displays the following numerical values:"
 msgstr ""
+"<application>システムモニター</application>は、ネットワークの履歴をグラフで表示します。また<application>システムモニター</application>は、グラフの下に、次の数値も表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1022
 msgid "Received data per second and total"
-msgstr ""
+msgstr "1秒あたりの受信データと合計"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1027
 msgid "Sent data per second and total"
-msgstr ""
+msgstr "1秒あたりの送信データと合計"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1035
 msgid "To Monitor File Systems"
-msgstr ""
+msgstr "ファイルシステムを監視するには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1036
 msgid ""
 "To monitor file systems, select the <guilabel>File Systems</guilabel> tab."
-msgstr ""
+msgstr "ファイルシステムを監視するには、<guilabel>ファイルシステム</guilabel>タブを選択します。"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1039
@@ -1391,6 +1363,7 @@ msgid ""
 "tabular format. From left to right, the table displays the following "
 "columns:"
 msgstr ""
+"<application>システムモニター</application>は、マウントされたファイルシステムを表形式で表示します。表には、左から右に向かって次の各列が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1044
@@ -1433,30 +1406,32 @@ msgid ""
 "For information about how to change the columns displayed in the file "
 "systems list, see <xref linkend=\"mate-system-monitor-prefs-fs\"/>."
 msgstr ""
+"ファイルシステム一覧で表示される各列の順序を変更するには、<xref linkend=\"mate-system-monitor-prefs-"
+"proclist\"/>を参照してください。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1071
 msgid "To Customize the Resources Tabbed Section"
-msgstr ""
+msgstr "リソースタブの項目をカスタマイズするには"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1072
 msgid ""
 "You can customize the <guilabel>Resources</guilabel> tabbed section in the "
 "following ways:"
-msgstr ""
+msgstr "<guilabel>リソース</guilabel>タブの項目をカスタマイズするには、次の方法があります:"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1091
 msgid "To Change the Line Colors of the CPU Graph"
-msgstr ""
+msgstr "CPU グラフの線の色を変えるには"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:1092
 msgid ""
 "To change the color of the lines that represents CPU usage in the "
 "<guilabel>CPU History</guilabel> graph, perform the following steps:"
-msgstr ""
+msgstr "<guilabel>CPU の履歴</guilabel>中のCPU 使用率グラフの線の色を変更するには、次のとおり行ってください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1097 C/index.docbook:1126 C/index.docbook:1155
@@ -1465,6 +1440,7 @@ msgid ""
 "Monitor</guilabel> window, to display the graphs and table that provide "
 "information about the usage of system resources."
 msgstr ""
+"<guilabel>システムモニター</guilabel>・ウィンドウの<guilabel>リソース</guilabel>タブを選択すると、システムリソースの使用状況を示すグラフや表が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1102
@@ -1472,25 +1448,26 @@ msgid ""
 "Click on the <guibutton>CPU</guibutton> color button. The <guilabel>Pick a "
 "color</guilabel> dialog is displayed."
 msgstr ""
+"<guibutton>CPU</guibutton>の色ボタンをクリックします。<guilabel>色の選択</guilabel>ダイアログが表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1107 C/index.docbook:1136 C/index.docbook:1165
 msgid ""
 "Choose a color from the <guilabel>Palette</guilabel>, or use the color wheel"
 " or the spin boxes to customize the color."
-msgstr ""
+msgstr "<guilabel>パレット</guilabel>から色を選ぶか、色相環やスピンボックスを使って、色をカスタマイズすることができます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1112 C/index.docbook:1141 C/index.docbook:1170
 msgid ""
 "Click <guibutton>OK</guibutton> to close the <guilabel>Pick a "
 "color</guilabel> dialog."
-msgstr ""
+msgstr "<guibutton>OK</guibutton> を選択すると、<guilabel>色の選択</guilabel>ダイアログが閉じます。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1120
 msgid "To Change the Line Colors of the Memory and Swap Graph"
-msgstr ""
+msgstr "メモリとスワップグラフの線の色を変えるには"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:1121
@@ -1498,7 +1475,7 @@ msgid ""
 "To change the color of the lines that represent memory and swap usage in the"
 " <guilabel>Memory and Swap History</guilabel> graph, perform the following "
 "steps:"
-msgstr ""
+msgstr "<guilabel>メモリとスワップの履歴</guilabel>で、使用率グラフの線の色を変えるには、次のとおり行ってください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1131
@@ -1506,18 +1483,19 @@ msgid ""
 "Click on the <guibutton>Memory</guibutton> or <guibutton>Swap</guibutton> "
 "button. The <guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
+"<guibutton>メモリ</guibutton>または<guibutton>スワップ</guibutton>のボタンをクリックします。<guilabel>色の選択</guilabel>ダイアログが表示されます。"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1149
 msgid "To Change the Line Colors of the Network Graph"
-msgstr ""
+msgstr "ネットワークのグラフの線の色を変えるには"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:1150
 msgid ""
 "To change the color of the lines that represent network usage in the "
 "<guilabel>Network History</guilabel> graph, perform the following steps:"
-msgstr ""
+msgstr "<guilabel>ネットワークの履歴</guilabel>で、通信量グラフの線の色を変更するには、次のとおり行ってください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1160
@@ -1525,6 +1503,7 @@ msgid ""
 "Click on the <guilabel>Receiving</guilabel> or <guilabel>Sending</guilabel> "
 "button. The <guilabel>Pick a color</guilabel> dialog is displayed."
 msgstr ""
+"<guibutton>受信</guibutton>または<guibutton>送信</guibutton>のボタンをクリックします。<guilabel>色の選択</guilabel>ダイアログが表示されます。"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:1182
@@ -1539,6 +1518,7 @@ msgid ""
 " The <guilabel>Preferences</guilabel> dialog contains the following tabbed "
 "sections:"
 msgstr ""
+"<application>システムモニター</application>を設定するには、<menuchoice><guimenu>編集</guimenu><guimenuitem>設定</guimenuitem></menuchoice>を選択します。<guilabel>設定</guilabel>ダイアログには、次のタブ項目があります。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1198
@@ -1548,70 +1528,70 @@ msgstr "プロセス"
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1201
 msgid "<guilabel>Behavior</guilabel>"
-msgstr ""
+msgstr "<guilabel>動作</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1207 C/index.docbook:1480 C/index.docbook:1509
 msgid "<guilabel>Update interval in seconds</guilabel>"
-msgstr ""
+msgstr "<guilabel>更新間隔：秒</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1210
 msgid ""
 "Use this spin box to specify the interval at which you want to update the "
 "process list."
-msgstr ""
+msgstr "このスピンボックスを使って、プロセス表を更新する時間間隔を指定します"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1215
 msgid "<guilabel>Enable smooth refresh</guilabel>"
-msgstr ""
+msgstr "<guilabel>スムーズ・リフレッシュを有効にする</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1218
 msgid "Select this option to refresh smoothly."
-msgstr ""
+msgstr "このオプションを有効にすると、スムーズにリフレッシュできます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1223
 msgid "<guilabel>Alert before ending or killing processes</guilabel>"
-msgstr ""
+msgstr "<guilabel>プロセスを終了または強制終了する前に警告する</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1226
 msgid ""
 "Select this option to display a confirmation alert when you end a process or"
 " terminate a process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスの終了や中止するときに確認の警告を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1231
 msgid "<guilabel>Divide CPU usage by CPU count</guilabel>"
-msgstr ""
+msgstr "CPU 使用率を CPU の個数で割る"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1234
 msgid ""
 "Select this to divide each process' CPU% in the Processes table by the "
 "number of CPUs."
-msgstr ""
+msgstr "これを選択すると、プロセス・テーブルの各プロセスの CPU 使用率を、CPU の個数で割ります。"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1242 C/index.docbook:1528
 msgid "<guilabel>Information Fields</guilabel>"
-msgstr ""
+msgstr "<guilabel>情報フィールド</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1246
 msgid ""
 "Use the following options to select which fields are displayed in the "
 "process list:"
-msgstr ""
+msgstr "次のオプションを使用して、プロセスリストに表示するフィールドを選択します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1251
 msgid "<guilabel>Process Name</guilabel>"
-msgstr ""
+msgstr "<guilabel>プロセス名</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1254
@@ -1620,70 +1600,71 @@ msgid ""
 "contain an icon to indicate the application that is associated with the "
 "process."
 msgstr ""
+"このオプションを選択すると、プロセスの名前が表示されます。この欄には、プロセスに関連するアプリケーションを示すアイコンが表示されることもあります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1259
 msgid "<guilabel>User</guilabel>"
-msgstr ""
+msgstr "<guilabel>ユーザー</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1262
 msgid ""
 "Select this option to display the name of the user who owns the process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスを所有するユーザーの名前を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1267
 msgid "<guilabel>Status</guilabel>"
-msgstr ""
+msgstr "<guilabel>状態</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1270
 msgid ""
 "Select this option to display the current status of the process: sleeping or"
 " running."
-msgstr ""
+msgstr "このオプションを選択すると、現在のプロセスを表示します。スリープや実行中などです。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1275
 msgid "<guilabel>Virtual Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>仮想メモリ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1278
 msgid ""
 "Select this option to display the amount of virtual memory that is allocated"
 " to the process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスに割り当てらてた仮想メモリの量が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1283
 msgid "<guilabel>Resident Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>常駐メモリ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1286
 msgid ""
 "Select this option to display the amount of physical memory that is "
 "allocated to the process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスに割り当てられた物理メモリーの量を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1291
 msgid "<guilabel>Writable Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>書き込み可能なメモリ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1294
 msgid ""
 "Select this option to display the amount of memory that can be written by "
 "the process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによって書き込まれるメモリの量を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1299
 msgid "<guilabel>Shared Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>共有メモリ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1302
@@ -1691,58 +1672,58 @@ msgid ""
 "Select this option to display the amount of shared memory that is allocated "
 "to the process. Shared memory is memory that can be accessed by another "
 "process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスに割り当てらた共有メモリの量が表示されます。共有メモリは、別プロセスがアクセス可能なメモリーです。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1307
 msgid "<guilabel>X Server Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>X サーバメモリ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1310
 msgid ""
 "Select this option to display the amount of X server memory that is used by "
 "the process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによって使用されている X サーバのメモリ容量を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1315
 msgid "<guilabel>% CPU</guilabel>"
-msgstr ""
+msgstr "<guilabel>CPU 使用率</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1318
 msgid ""
 "Select this option to display the percentage of CPU time currently being "
 "used by the process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによって現在使用されている CPU 時間の割合を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1323
 msgid "<guilabel>CPU Time</guilabel>"
-msgstr ""
+msgstr "<guilabel>CPU 時間</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1326
 msgid ""
 "Select this option to display the amount of CPU time that has been used by "
 "the process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによって使用された CPU 時間が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1331
 msgid "<guilabel>Started</guilabel>"
-msgstr ""
+msgstr "<guilabel>開始時刻</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1334
 msgid "Select this option to display when the process began running."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスの実行開始時刻を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1339
 msgid "<guilabel>Nice</guilabel>"
-msgstr ""
+msgstr "<guilabel>優先度</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1342
@@ -1751,11 +1732,13 @@ msgid ""
 "sets the priority of the process: the lower the nice value, the higher the "
 "priority."
 msgstr ""
+"このオプションを選択すると、プロセスの nice 値を表示します。Nice 値がプロセスの優先度を決定します。Nice "
+"値が低くなればなるほど、優先順位は高くなります。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1347
 msgid "<guilabel>ID</guilabel>"
-msgstr ""
+msgstr "<guilabel>ID</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1350
@@ -1764,162 +1747,164 @@ msgid ""
 " The pid is a number that uniquely identifies the process. You can use the "
 "pid to manipulate the process on the command line."
 msgstr ""
+"このオプションを選択すると、pid と呼ばれるプロセス識別子を表示します。pid はプロセスを独自に識別する番号です。pid "
+"を使用すれば、コマンドラインでプロセスを操作できます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1355
 msgid "<guilabel>Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>メモリ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1358
 msgid ""
 "Select this option to display the amount of system memory that is currently "
 "being used by the process."
-msgstr ""
+msgstr "このオプションを選択すると、現在プロセスによって使用されているシステムメモリの量を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1363
 msgid "<guilabel>Security Context</guilabel>"
-msgstr ""
+msgstr "<guilabel>セキュリティコンテキスト</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1366
 msgid ""
 "Select this option to display the security context in which the process is "
 "running."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスが実行されているセキュリティ・コンテキストを表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1371
 msgid "<guilabel>Command Line</guilabel>"
-msgstr ""
+msgstr "<guilabel>コマンドライン</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1374
 msgid ""
 "Select this option to display the command line that was used to start the "
 "process, including arguments."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスの開始に使用されたコマンドラインが引数を含めて表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1379
 msgid "<guilabel>Waiting Channel</guilabel>"
-msgstr ""
+msgstr "<guilabel>待機中のチャンネル</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1382
 msgid ""
 "Select this option to display the waiting channel, whereby a process waits "
 "for a resource."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスのリソース待機用の待機チャネルが表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1387
 msgid "<guilabel>Control Group</guilabel>"
-msgstr ""
+msgstr "<guilabel>コントロールグループ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1390
 msgid ""
 "Select this option to display the control group that a process belongs to."
-msgstr ""
+msgstr "プロセスが属する制御グループを表示するには、このオプションを選択します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1395
 msgid "<guilabel>Disk Read Total</guilabel>"
-msgstr ""
+msgstr "<guilabel>ディスクの読み込み合計</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1398
 msgid ""
 "Select this option to display the total amount of data read from the disk by"
 " a process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによってディスクから読み取られたデータの総量を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1403
 msgid "<guilabel>Disk Write Total</guilabel>"
-msgstr ""
+msgstr "<guilabel>ディスク書き込み合計</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1406
 msgid ""
 "Select this option to display the total amount of data written to the disk "
 "by a process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによってディスクへ書き込まれたデータの総量を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1411
 msgid "<guilabel>Disk Read</guilabel>"
-msgstr ""
+msgstr "<guilabel>ディスクの読み取り</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1414
 msgid ""
 "Select this option to display the speed at which data is being read from the"
 " disk by a process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによってディスクからデータが読み取られる速度が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1419
 msgid "<guilabel>Disk Write</guilabel>"
-msgstr ""
+msgstr "<guilabel>ディスクの書き込み</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1422
 msgid ""
 "Select this option to display the speed at which data is being written to "
 "the disk by a process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスによってデータがディスクへ書き込まれる速度が表示されます。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1427
 msgid "<guilabel>Unit</guilabel>"
-msgstr ""
+msgstr "<guilabel>ユニット</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1430
 msgid "Select this option to display the systemd unit for a process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスの systemd unit を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1435
 msgid "<guilabel>Session</guilabel>"
-msgstr ""
+msgstr "<guilabel>セッション</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1438
 msgid ""
 "Select this option to display the session under which the process is "
 "running."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスが実行されているセッションを表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1443
 msgid "<guilabel>Seat</guilabel>"
-msgstr ""
+msgstr "<guilabel>シート</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1446
 msgid ""
 "Select this option to display the \"seat\" a process is assigned to. The "
 "special default seat called \"seat0\" always exists."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスが割り当てられている「シート」が表示されます。「seat0」という特別な既定シートが常に存在します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1451
 msgid "<guilabel>Owner</guilabel>"
-msgstr ""
+msgstr "<guilabel>所有者</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1454
 msgid "Select this option to display the owner of a process."
-msgstr ""
+msgstr "このオプションを選択すると、プロセスの所有者を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1459
 msgid "<guilabel>Priority</guilabel>"
-msgstr ""
+msgstr "<guilabel>優先度</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1462
@@ -1928,6 +1913,8 @@ msgid ""
 "allowed to use. A process running with higher priority can use more of the "
 "CPU compared to the one with a lower priority."
 msgstr ""
+"このオプションを選択すると、プロセスの優先度、つまり使用許可される CPU 量が表示されます。優先度が高いプロセスは、優先度が低いプロセスよりも CPU"
+" を多く使用できます。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1473
@@ -1937,26 +1924,26 @@ msgstr "リソース"
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1476
 msgid "<guilabel>Graphs</guilabel>"
-msgstr ""
+msgstr "<guilabel>グラフ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1483
 msgid ""
 "Use this spin box to specify how often you want to update the "
 "<application>System Monitor</application> graphs."
-msgstr ""
+msgstr "このスピンボックスを使用して、<application>システムモニタ</application>のグラフを更新する頻度を指定します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1488
 msgid "<guilabel>Show network speed in bits</guilabel>"
-msgstr ""
+msgstr "<guilabel>ネットワーク速度をビット単位で表示する</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1491
 msgid ""
 "Select this option to show your network speed in bits/s instead of the "
 "default bytes/s."
-msgstr ""
+msgstr "このオプションを選択すると、ネットワーク速度が既定の Byte/秒ではなく bit/秒で表示されます。"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1502
@@ -1968,44 +1955,44 @@ msgstr "ファイルシステム"
 msgid ""
 "Use this spin box to specify how often you want to update the <guilabel>File"
 " Systems</guilabel> table."
-msgstr ""
+msgstr "このスピンボックスを使用して、<guilabel>ファイルシステム</guilabel>・テーブルを更新する頻度を指定します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1517
 msgid "<guilabel>Show all file systems</guilabel>"
-msgstr ""
+msgstr "<guilabel>すべてのファイルシステムを表示</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1520
 msgid ""
 "Select this option to show all file systems, including temporary and system "
 "ones."
-msgstr ""
+msgstr "このオプションを選択すると、一時ファイルシステムおよびシステムファイルシステムを含む、すべてのファイルシステムを表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1532
 msgid ""
 "Use the following options to select which fields are displayed in the file "
 "system list:"
-msgstr ""
+msgstr "次のオプションを使用して、ファイルシステムの一覧に表示するフィールドを選択してください。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1540
 msgid ""
 "Select this option to display the location of the block file for the device."
-msgstr ""
+msgstr "このオプションを選択すると、デバイスのブロックファイルの場所を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1545
 msgid "<guilabel>Directory</guilabel>"
-msgstr ""
+msgstr "<guilabel>ディレクトリ</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1548
 msgid ""
 "Select this option to display the mount point (directory to access) of a "
 "device."
-msgstr ""
+msgstr "このオプションを選択すると、デバイスのマウントポイント (アクセスするディレクトリ) を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1553
@@ -2021,48 +2008,51 @@ msgid ""
 " ext2 etc. The file system type will be shown if this option is selected in "
 "case it's a supported type."
 msgstr ""
+"ファイルシステムの種類を表示するには、このオプションを選択します。GNU/Linux やその他多数の Unix 系 OS "
+"のディストリビューションでは、多くの種類のファイルシステムがカーネルでサポートおり、例えば NTFS、FAT32、ext4、ext3、ext2 "
+"などがあります。このオプションが選択された場合、対応しているときはファイルシステムの種類を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1561
 msgid "<guilabel>Total</guilabel>"
-msgstr ""
+msgstr "<guilabel>合計</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1564
 msgid "Select this option to display the total capacity of a file system."
-msgstr ""
+msgstr "ファイルシステムの合計容量を表示するには、このオプションを選択します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1569
 msgid "<guilabel>Free</guilabel>"
-msgstr ""
+msgstr "<guilabel>フリー</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1572
 msgid ""
 "Select this option to display the amount of space not used by the file "
 "system."
-msgstr ""
+msgstr "ファイルシステムで未使用の容量を表示するには、このオプションを選択します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1577
 msgid "<guilabel>Available</guilabel>"
-msgstr ""
+msgstr "<guilabel>利用可能</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1580
 msgid "Select this option to display the amount of space left for use."
-msgstr ""
+msgstr "このオプションを選択すると、利用可能な空き容量を表示します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1585
 msgid "<guilabel>Used</guilabel>"
-msgstr ""
+msgstr "<guilabel>使用済み</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1588
 msgid "Select this option to display the amount of used space."
-msgstr ""
+msgstr "このオプションを選択すると、使用中の容量を表示します。"
 
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
@@ -2079,3 +2069,92 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"この文書をフリーソフトウェア財団発行の GNU フリー文書利用許諾契約 (第 1.1 版かそれ以降から１つを選択) "
+"が定める条件の下で複製、頒布、あるいは改変することを許可します。変更不可部分、表カバーテキスト、裏カバーテキストは存在しません。この利用許諾契約の複製物は<_:ulink-1/>、またはこの文書と共に配布されている"
+" COPYING-DOCS というファイルに中に記載されています。"
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:12
+msgid ""
+"This manual is part of a collection of MATE manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in"
+" section 6 of the license."
+msgstr ""
+"本文書は GFDL の下で配布されているその他の MATE マニュアル集の一部でです。これらのマニュアルとは別に本文書を別個に配布する場合は、GFDL "
+"の第6節で説明しているように、そのマニュアル集に対してライセンスの複製を添付してください。"
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:19
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any MATE "
+"documentation, and the members of the MATE Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"企業が自らの製品とサービスを区別する目的で使用する名称の多くは、登録商標であると主張しています。こうした名称が MATE "
+"の文書の中に記載されていて、この登録商標が MATE "
+"文書化プロジェクトのメンバーによって了解されている箇所については、名称を大文字または頭文字を大文字で表示しています。"
+
+#. (itstool) path: listitem/para
+#: C/legal.xml:35
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+
+#. (itstool) path: listitem/para
+#: C/legal.xml:55
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
+" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
+" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
+" POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
+" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
+" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
+" POSSIBILITY OF SUCH DAMAGES."
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:28
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+msgstr ""
+"この文書およびその修正版は、以下の点を理解したという前提で、GNU 自由文書ライセンス "
+"の条件の下で配布されています：<_:orderedlist-1/>"

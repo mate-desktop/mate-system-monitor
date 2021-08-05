@@ -11,15 +11,15 @@
 # Erik Bent <hj.bent.60@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # 8c3c560621f92e66455793da7b85eff0_8989672 <0e181aafae430e5c919398b6a7bba462_109266>, 2019
-# Pjotr <pjotrvertaalt@gmail.com>, 2020
+# Pjotr <pjotrvertaalt@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.23.0\n"
-"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2020-01-13 13:07+0100\n"
+"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
+"POT-Creation-Date: 2021-06-24 10:25+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2020\n"
+"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/mate/teams/13566/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,20 +55,14 @@ msgstr ""
 "van de werkomgeving MATE. Als u meer wilt weten over MATE en Systeembewaker,"
 " bezoek dan a.u.b. de thuispagina van het project."
 
-#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:203
-#: src/interface.cpp:625 src/procman.cpp:713
+#: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
+#: src/interface.cpp:626
 msgid "System Monitor"
 msgstr "Systeembewaking"
 
-#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:206
+#: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
 msgid "View current processes and monitor system state"
 msgstr "Bekijk de huidige processen en bewaak de systeemtoestand"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: mate-system-monitor.desktop.in.in:9
-msgid "utilities-system-monitor"
-msgstr "utilities-system-monitor"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -109,7 +103,7 @@ msgstr "Toon het tabblad Bronnen"
 msgid "Show the File Systems tab"
 msgstr "Toon het tabblad Bestandssystemen"
 
-#: src/callbacks.cpp:185
+#: src/callbacks.cpp:211
 msgid ""
 "System Monitor is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -121,7 +115,7 @@ msgstr ""
 "licentie), zoals gepubliceerd door de Free Software Foundation; hetzij "
 "versie 2 van die licentie of (naar uw keuze) enige nieuwere versie ervan."
 
-#: src/callbacks.cpp:189
+#: src/callbacks.cpp:215
 msgid ""
 "System Monitor is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
@@ -133,7 +127,7 @@ msgstr ""
 "verkoopbaarheid of geschiktheid voor een bepaald doel. Zie de GNU General "
 "Public License (algemene publieke licentie) voor meer bijzonderheden."
 
-#: src/callbacks.cpp:193
+#: src/callbacks.cpp:219
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
@@ -144,11 +138,11 @@ msgstr ""
 "een brief naar de Free Software Foundation, Inc., 51 Franklin Street, Fifth "
 "Floor, Boston, MA 02110-1301 Verenigde Staten van Amerika."
 
-#: src/callbacks.cpp:205
+#: src/callbacks.cpp:231
 msgid "About System Monitor"
 msgstr "Over Systeembewaker"
 
-#: src/callbacks.cpp:207
+#: src/callbacks.cpp:233
 msgid ""
 "Copyright © 2001-2004 Kevin Vandersloot\n"
 "Copyright © 2005-2007 Benoît Dejean\n"
@@ -158,7 +152,7 @@ msgstr ""
 "Auteursrecht © 2005-2007 Benoît Dejean\n"
 "Auteursrecht © 2011-2020 MATE-ontwikkelaars"
 
-#: src/callbacks.cpp:214
+#: src/callbacks.cpp:240
 msgid "translator-credits"
 msgstr ""
 "Launchpad-bijdragers:\n"
@@ -173,357 +167,365 @@ msgstr ""
 "Andere bijdragers:\n"
 "Pjotr"
 
-#: src/disks.cpp:345 src/memmaps.cpp:327
+#: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Apparaat"
 
-#: src/disks.cpp:346
+#: src/disks.cpp:406
 msgid "Directory"
 msgstr "Map"
 
-#: src/disks.cpp:347 src/gsm_color_button.c:179 src/openfiles.cpp:252
+#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
 msgid "Type"
 msgstr "Soort"
 
-#: src/disks.cpp:348
+#: src/disks.cpp:408
+msgid "SubVolume"
+msgstr "SubVolume"
+
+#: src/disks.cpp:409
 msgid "Total"
 msgstr "Totaal"
 
-#: src/disks.cpp:349
+#: src/disks.cpp:410
 msgid "Free"
 msgstr "Vrij"
 
-#: src/disks.cpp:350
+#: src/disks.cpp:411
 msgid "Available"
 msgstr "Beschikbaar"
 
-#: src/disks.cpp:351
+#: src/disks.cpp:412
 msgid "Used"
 msgstr "Gebruikt"
 
-#: src/gsm_color_button.c:155
+#: src/gsm_color_button.c:156
 msgid "Fraction"
 msgstr "Fractie"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:157
+#: src/gsm_color_button.c:158
 msgid "Percentage full for pie color pickers"
 msgstr "Percentage 'vol' voor taartkleurkiezers"
 
-#: src/gsm_color_button.c:164
+#: src/gsm_color_button.c:165
 msgid "Title"
 msgstr "Titel"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:166
 msgid "The title of the color selection dialog"
 msgstr "De titel van de kleurkiezerdialoog"
 
-#: src/gsm_color_button.c:166 src/gsm_color_button.c:590
+#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
 msgid "Pick a Color"
 msgstr "Kies een kleur"
 
-#: src/gsm_color_button.c:172
+#: src/gsm_color_button.c:173
 msgid "Current Color"
 msgstr "Huidige kleur"
 
-#: src/gsm_color_button.c:173
+#: src/gsm_color_button.c:174
 msgid "The selected color"
 msgstr "De geselecteerde kleur"
 
-#: src/gsm_color_button.c:180
+#: src/gsm_color_button.c:181
 msgid "Type of color picker"
 msgstr "Type kleurenkiezer"
 
-#: src/gsm_color_button.c:504
+#: src/gsm_color_button.c:505
 msgid "Received invalid color data\n"
 msgstr "Ongeldige kleurgegevens ontvangen \n"
 
-#: src/gsm_color_button.c:613
+#: src/gsm_color_button.c:614
 msgid "Click to set graph colors"
 msgstr "Klik om grafiekkleuren in te stellen"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
-#: src/interface.cpp:51
+#: src/interface.cpp:52
 msgid "_Monitor"
 msgstr "_Bewaken"
 
-#: src/interface.cpp:52
+#: src/interface.cpp:53
 msgid "_Edit"
 msgstr "_Bewerken"
 
-#: src/interface.cpp:53
+#: src/interface.cpp:54
 msgid "_View"
 msgstr "Venster"
 
-#: src/interface.cpp:54
+#: src/interface.cpp:55
 msgid "_Help"
 msgstr "_Hulp"
 
-#: src/interface.cpp:56
+#: src/interface.cpp:57
 msgid "Search for _Open Files"
 msgstr "Zoeken naar ge_opende bestanden"
 
-#: src/interface.cpp:57
+#: src/interface.cpp:58
 msgid "Search for open files"
 msgstr "Zoeken naar geopende bestanden"
 
-#: src/interface.cpp:58
+#: src/interface.cpp:59
 msgid "_Quit"
 msgstr "A_fsluiten"
 
-#: src/interface.cpp:59
+#: src/interface.cpp:60
 msgid "Quit the program"
 msgstr "Sluit het programma af"
 
-#: src/interface.cpp:62
+#: src/interface.cpp:63
 msgid "_Stop Process"
 msgstr "Proces _staken"
 
-#: src/interface.cpp:63
+#: src/interface.cpp:64
 msgid "Stop process"
 msgstr "Proces staken"
 
-#: src/interface.cpp:64
+#: src/interface.cpp:65
 msgid "_Continue Process"
 msgstr "Pro_ces voortzetten"
 
-#: src/interface.cpp:65
+#: src/interface.cpp:66
 msgid "Continue process if stopped"
 msgstr "Proces voortzetten indien gestaakt"
 
-#: src/interface.cpp:67 src/procdialogs.cpp:91
+#: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
-msgstr "_Proces beëindigen"
+msgid_plural "_End Processes"
+msgstr[0] "Proces beëindigen"
+msgstr[1] "Processen _beëindigen"
 
-#: src/interface.cpp:68
+#: src/interface.cpp:69
 msgid "Force process to finish normally"
 msgstr "Dwing het proces om normaal af te sluiten"
 
-#: src/interface.cpp:69 src/procdialogs.cpp:80
+#: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
-msgstr "_Proces vernietigen"
+msgid_plural "_Kill Processes"
+msgstr[0] "Proces _afbreken"
+msgstr[1] "Processen _afbreken"
 
-#: src/interface.cpp:70
+#: src/interface.cpp:71
 msgid "Force process to finish immediately"
 msgstr "Dwing het proces om onmiddellijk af te sluiten"
 
-#: src/interface.cpp:71
+#: src/interface.cpp:72
 msgid "_Change Priority"
 msgstr "P_rioriteit wijzigen"
 
-#: src/interface.cpp:72
+#: src/interface.cpp:73
 msgid "Change the order of priority of process"
 msgstr "Wijzig de prioriteit (de 'nice'-waarde) van dit proces"
 
-#: src/interface.cpp:73
+#: src/interface.cpp:74
 msgid "_Preferences"
 msgstr "Voorkeuren"
 
-#: src/interface.cpp:74
+#: src/interface.cpp:75
 msgid "Configure the application"
 msgstr "De toepassing instellen"
 
-#: src/interface.cpp:76
+#: src/interface.cpp:77
 msgid "_Refresh"
 msgstr "Ve_rversen"
 
-#: src/interface.cpp:77
+#: src/interface.cpp:78
 msgid "Refresh the process list"
 msgstr "Ververs de lijst met processen"
 
-#: src/interface.cpp:79
+#: src/interface.cpp:80
 msgid "_Memory Maps"
 msgstr "_Geheugentoedeling"
 
-#: src/interface.cpp:80
+#: src/interface.cpp:81
 msgid "Open the memory maps associated with a process"
 msgstr "Toon de geheugentoedeling behorend bij een proces"
 
 #. Translators: this means 'Files that are open' (open is no verb here
-#: src/interface.cpp:82
+#: src/interface.cpp:83
 msgid "Open _Files"
 msgstr "Ge_opende bestanden"
 
-#: src/interface.cpp:83
+#: src/interface.cpp:84
 msgid "View the files opened by a process"
 msgstr "Toon de bestanden die door een proces zijn geopend"
 
-#: src/interface.cpp:84
+#: src/interface.cpp:85
 msgid "_Properties"
 msgstr "_Eigenschappen"
 
-#: src/interface.cpp:85
+#: src/interface.cpp:86
 msgid "View additional information about a process"
 msgstr "Bekijk extra informatie over een proces"
 
-#: src/interface.cpp:88
+#: src/interface.cpp:89
 msgid "_Contents"
 msgstr "In_houd"
 
-#: src/interface.cpp:89
+#: src/interface.cpp:90
 msgid "Open the manual"
 msgstr "De handleiding openen"
 
-#: src/interface.cpp:90
+#: src/interface.cpp:91
 msgid "_About"
 msgstr "_Info"
 
-#: src/interface.cpp:91
+#: src/interface.cpp:92
 msgid "About this application"
 msgstr "Over deze toepassing"
 
-#: src/interface.cpp:96
+#: src/interface.cpp:97
 msgid "_Dependencies"
 msgstr "Af_hankelijkheden"
 
-#: src/interface.cpp:97
+#: src/interface.cpp:98
 msgid "Show parent/child relationship between processes"
 msgstr "Toon moeder/dochter-relaties tussen processen"
 
-#: src/interface.cpp:104
+#: src/interface.cpp:105
 msgid "_Active Processes"
 msgstr "_Actieve processen"
 
-#: src/interface.cpp:105
+#: src/interface.cpp:106
 msgid "Show active processes"
 msgstr "Actieve processen tonen"
 
-#: src/interface.cpp:106
+#: src/interface.cpp:107
 msgid "A_ll Processes"
 msgstr "All_e processen"
 
-#: src/interface.cpp:107
+#: src/interface.cpp:108
 msgid "Show all processes"
 msgstr "Alle processen tonen"
 
-#: src/interface.cpp:108
+#: src/interface.cpp:109
 msgid "M_y Processes"
 msgstr "_Mijn processen"
 
-#: src/interface.cpp:109
+#: src/interface.cpp:110
 msgid "Show only user-owned processes"
 msgstr "Alleen processen met gebruikersrechten tonen"
 
-#: src/interface.cpp:114 src/util.cpp:167
+#: src/interface.cpp:115 src/util.cpp:167
 msgid "Very High"
 msgstr "Zeer hoog"
 
-#: src/interface.cpp:115
+#: src/interface.cpp:116
 msgid "Set process priority to very high"
 msgstr "Stel procesprioriteit in op zeer hoog"
 
-#: src/interface.cpp:116 src/util.cpp:169
+#: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
 msgstr "Hoog"
 
-#: src/interface.cpp:117
+#: src/interface.cpp:118
 msgid "Set process priority to high"
 msgstr "Stel procesprioriteit in op hoog"
 
-#: src/interface.cpp:118 src/util.cpp:171
+#: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
 msgstr "Normaal"
 
-#: src/interface.cpp:119
+#: src/interface.cpp:120
 msgid "Set process priority to normal"
 msgstr "Stel procesprioriteit in op normaal"
 
-#: src/interface.cpp:120 src/util.cpp:173
+#: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
 msgstr "Laag"
 
-#: src/interface.cpp:121
+#: src/interface.cpp:122
 msgid "Set process priority to low"
 msgstr "Stel procesprioriteit in op laag"
 
-#: src/interface.cpp:122 src/util.cpp:175
+#: src/interface.cpp:123 src/util.cpp:175
 msgid "Very Low"
 msgstr "Zeer laag"
 
-#: src/interface.cpp:123
+#: src/interface.cpp:124
 msgid "Set process priority to very low"
 msgstr "Stel procesprioriteit in op zeer laag"
 
-#: src/interface.cpp:124
+#: src/interface.cpp:125
 msgid "Custom"
 msgstr "Aangepast"
 
-#: src/interface.cpp:125
+#: src/interface.cpp:126
 msgid "Set process priority manually"
 msgstr "Stel procesprioriteit handmatig in"
 
-#: src/interface.cpp:231
+#: src/interface.cpp:232
 msgid "End _Process"
 msgstr "Proces b_eëindigen"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:279
+#: src/interface.cpp:280
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Kies een kleur voor '%s'"
 
-#: src/interface.cpp:290
+#: src/interface.cpp:291
 msgid "CPU History"
 msgstr "CPU-geschiedenis"
 
-#: src/interface.cpp:333 src/procproperties.cpp:135
+#: src/interface.cpp:334 src/procproperties.cpp:153
 msgid "CPU"
 msgstr "CPU"
 
-#: src/interface.cpp:335
+#: src/interface.cpp:336
 #, c-format
 msgid "CPU%d"
 msgstr "CPU %d"
 
-#: src/interface.cpp:357
+#: src/interface.cpp:358
 msgid "Memory and Swap History"
 msgstr "Geschiedenis van geheugen en wisselgeheugen"
 
-#: src/interface.cpp:391 src/proctable.cpp:257 src/procproperties.cpp:127
+#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
 msgid "Memory"
 msgstr "Geheugen"
 
-#: src/interface.cpp:415
+#: src/interface.cpp:416
 msgid "Swap"
 msgstr "Wisselgeheugen"
 
-#: src/interface.cpp:439
+#: src/interface.cpp:440
 msgid "Network History"
 msgstr "Netwerkgeschiedenis"
 
-#: src/interface.cpp:472
+#: src/interface.cpp:473
 msgid "Receiving"
 msgstr "Ontvangen..."
 
-#: src/interface.cpp:494
+#: src/interface.cpp:495
 msgid "Total Received"
 msgstr "Totaal ontvangen"
 
-#: src/interface.cpp:513
+#: src/interface.cpp:514
 msgid "Sending"
 msgstr "Versturen..."
 
-#: src/interface.cpp:535
+#: src/interface.cpp:536
 msgid "Total Sent"
 msgstr "Totaal verstuurd"
 
 #. procman_create_sysinfo_view();
-#: src/interface.cpp:705
+#: src/interface.cpp:706
 msgid "System"
 msgstr "Systeem"
 
-#: src/interface.cpp:709 src/procdialogs.cpp:554
+#: src/interface.cpp:710
 msgid "Processes"
 msgstr "Processen"
 
-#: src/interface.cpp:713 src/procdialogs.cpp:667
+#: src/interface.cpp:714
 msgid "Resources"
 msgstr "Bronnen"
 
-#: src/interface.cpp:717 src/procdialogs.cpp:732 src/procdialogs.cpp:736
+#: src/interface.cpp:718
 msgid "File Systems"
 msgstr "Bestandssystemen"
 
@@ -544,7 +546,7 @@ msgstr "niet beschikbaar"
 msgid "%s (%.1f%%) of %s"
 msgstr "%s (%.1f%%) van %s"
 
-#: src/load-graph.cpp:592 src/load-graph.cpp:599 src/util.cpp:485
+#: src/load-graph.cpp:603 src/load-graph.cpp:610 src/util.cpp:506
 #, c-format
 msgid "%s/s"
 msgstr "%s/s"
@@ -680,19 +682,19 @@ msgstr "onbekend soort"
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most
 #. 2-3 characters for it to be able to fit in the UI.
-#: src/openfiles.cpp:251
+#: src/openfiles.cpp:255
 msgid "FD"
 msgstr "BB"
 
-#: src/openfiles.cpp:253
+#: src/openfiles.cpp:257
 msgid "Object"
 msgstr "Object"
 
-#: src/openfiles.cpp:324
+#: src/openfiles.cpp:328
 msgid "Open Files"
 msgstr "Geopende bestanden"
 
-#: src/openfiles.cpp:345
+#: src/openfiles.cpp:349
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
 msgstr "_Door proces '%s' (PID %u) geopende bestanden:"
@@ -917,243 +919,251 @@ msgstr "Breedte van proceskolom 'X-server Geheugen'"
 msgid "Show process 'X Server Memory' column on startup"
 msgstr "Toon proceskolom 'X-server Geheugen' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:288
+#: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
 msgstr "Breedte van proceskolom '% CPU'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:292
+#: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
 msgstr "Toon proceskolom '% CPU' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:296
+#: src/org.mate.system-monitor.gschema.xml.in:298
 msgid "Width of process 'CPU Time' column"
 msgstr "Breedte van proceskolom 'CPU Tijd'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:300
+#: src/org.mate.system-monitor.gschema.xml.in:302
 msgid "Show process 'CPU Time' column on startup"
 msgstr "Toon proceskolom 'CPU Tijd' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:304
+#: src/org.mate.system-monitor.gschema.xml.in:306
 msgid "Width of process 'Started' column"
 msgstr "Breedte van proceskolom 'Gestart'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:308
+#: src/org.mate.system-monitor.gschema.xml.in:310
 msgid "Show process 'Started' column on startup"
 msgstr "Toon proceskolom 'Gestart' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:312
+#: src/org.mate.system-monitor.gschema.xml.in:314
 msgid "Width of process 'Nice' column"
 msgstr "Breedte van proceskolom 'Nice'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:316
+#: src/org.mate.system-monitor.gschema.xml.in:318
 msgid "Show process 'Nice' column on startup"
 msgstr "Toon proceskolom 'Nice' (prioriteit) bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:320
+#: src/org.mate.system-monitor.gschema.xml.in:322
 msgid "Width of process 'ID' column"
 msgstr "Breedte van proceskolom 'ID'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:324
+#: src/org.mate.system-monitor.gschema.xml.in:326
 msgid "Show process 'ID' column on startup"
 msgstr "Toon proceskolom 'ID' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:328
+#: src/org.mate.system-monitor.gschema.xml.in:330
 msgid "Width of process 'Security Context' column"
 msgstr "Breedte van proceskolom 'Beveiligingscontext'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:332
+#: src/org.mate.system-monitor.gschema.xml.in:334
 msgid "Show process 'Security Context' column on startup"
 msgstr "Toon proceskolom 'Beveiligingscontext' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:336
+#: src/org.mate.system-monitor.gschema.xml.in:338
 msgid "Width of process 'Command Line' column"
 msgstr "Breedte van proceskolom 'Opdrachtregel'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:340
+#: src/org.mate.system-monitor.gschema.xml.in:342
 msgid "Show process 'Command Line' column on startup"
 msgstr "Toon proceskolom 'Opdrachtregel' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:344
+#: src/org.mate.system-monitor.gschema.xml.in:346
 msgid "Width of process 'Memory' column"
 msgstr "Breedte van proceskolom 'Geheugen'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:348
+#: src/org.mate.system-monitor.gschema.xml.in:350
 msgid "Show process 'Memory' column on startup"
 msgstr "Toon proceskolom 'Geheugen' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:352
+#: src/org.mate.system-monitor.gschema.xml.in:354
 msgid "Width of process 'Waiting Channel' column"
 msgstr "Breedte van proceskolom ‘Wachtkanaal’"
 
-#: src/org.mate.system-monitor.gschema.xml.in:356
+#: src/org.mate.system-monitor.gschema.xml.in:358
 msgid "Show process 'Waiting Channel' column on startup"
 msgstr "Toon proceskolom ‘Wachtkanaal’ bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:360
+#: src/org.mate.system-monitor.gschema.xml.in:362
 msgid "Width of process 'Control Group' column"
 msgstr "Breedte van proceskolom 'Beheergroep'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:364
+#: src/org.mate.system-monitor.gschema.xml.in:366
 msgid "Show process 'Control Group' column on startup"
 msgstr "Toon proceskolom 'Beheergroep' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:368
+#: src/org.mate.system-monitor.gschema.xml.in:370
 msgid "Width of process 'Unit' column"
 msgstr "Breedte van proceskolom 'Eenheid'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:372
+#: src/org.mate.system-monitor.gschema.xml.in:374
 msgid "Show process 'Unit' column on startup"
 msgstr "Toon proceskolom 'Eenheid' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:376
+#: src/org.mate.system-monitor.gschema.xml.in:378
 msgid "Width of process 'Session' column"
 msgstr "Breedte van proceskolom 'Sessie'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:380
+#: src/org.mate.system-monitor.gschema.xml.in:382
 msgid "Show process 'Session' column on startup"
 msgstr "Toon proceskolom 'Sessie' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:384
+#: src/org.mate.system-monitor.gschema.xml.in:386
 msgid "Width of process 'Seat' column"
 msgstr "Breedte van proceskolom 'Zetel'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:388
+#: src/org.mate.system-monitor.gschema.xml.in:390
 msgid "Show process 'Seat' column on startup"
 msgstr "Toon proceskolom 'Zetel' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:392
+#: src/org.mate.system-monitor.gschema.xml.in:394
 msgid "Width of process 'Owner' column"
 msgstr "Breedte van proceskolom 'Eigenaar'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:396
+#: src/org.mate.system-monitor.gschema.xml.in:398
 msgid "Show process 'Owner' column on startup"
 msgstr "Toon proceskolom 'Eigenaar' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:400
+#: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
 msgstr "Kolombreedte van proces 'Totaal schrijfacties schijf'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:404
+#: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
 msgstr "Toon kolom van proces 'Totaal schrijfacties schijf' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:408
+#: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
 msgstr "Kolombreedte van proces 'Totaal leesacties schijf'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:412
+#: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
 msgstr "Toon kolom van proces 'Totaal leesacties schijf' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:416
+#: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
 msgstr "Kolombreedte van proces 'Leesacties schijf'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:420
+#: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
 msgstr "Toon kolom van proces 'Leesacties schijf' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:424
+#: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
 msgstr "Kolombreedte van 'Schrijfacties schijf'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:428
+#: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
 msgstr "Toon kolom van proces 'Schrijfacties schijf' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:432
+#: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
 msgstr "Kolombreedte van proces 'Prioriteit'"
 
-#: src/org.mate.system-monitor.gschema.xml.in:436
+#: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
 msgstr "Toon kolom van proces 'Prioriteit' bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:442
+#: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
 msgstr "Schijfweergave kolomsortering"
 
-#: src/org.mate.system-monitor.gschema.xml.in:446
+#: src/org.mate.system-monitor.gschema.xml.in:448
 msgid "Disk view sort order"
 msgstr "Schijfweergave sorteervolgorde"
 
-#: src/org.mate.system-monitor.gschema.xml.in:450
+#: src/org.mate.system-monitor.gschema.xml.in:452
 msgid "Disk view columns order"
 msgstr "Kolomvolgorde bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:454
+#: src/org.mate.system-monitor.gschema.xml.in:456
 msgid "Width of disk view 'Device' column"
 msgstr "Breedte van kolom 'Apparaat' bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:458
+#: src/org.mate.system-monitor.gschema.xml.in:460
 msgid "Show disk view 'Device' column on startup"
 msgstr "Toon 'Apparaat'-kolom voor schijfweergave bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:462
+#: src/org.mate.system-monitor.gschema.xml.in:464
 msgid "Width of disk view 'Directory' column"
 msgstr "Breedte van 'Map'-kolom bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:466
+#: src/org.mate.system-monitor.gschema.xml.in:468
 msgid "Show disk view 'Directory' column on startup"
 msgstr "Toon 'Map'-kolom voor schijfweergave bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:470
+#: src/org.mate.system-monitor.gschema.xml.in:472
 msgid "Width of disk view 'Type' column"
 msgstr "Breedte van 'Type'-kolom bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:474
+#: src/org.mate.system-monitor.gschema.xml.in:476
 msgid "Show disk view 'Type' column on startup"
 msgstr "Toon 'Type'-kolom voor schijfweergave bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:478
+#: src/org.mate.system-monitor.gschema.xml.in:480
+msgid "Width of disk view 'SubVol' column"
+msgstr "Breedte van schijfweergavekolom 'SubVol'"
+
+#: src/org.mate.system-monitor.gschema.xml.in:484
+msgid "Show disk view 'SubVol' column on startup"
+msgstr "Toon schijfweergavekolom 'SubVol' bij opstarten"
+
+#: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
 msgstr "Breedte van 'Totaal'-kolom bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:482
+#: src/org.mate.system-monitor.gschema.xml.in:492
 msgid "Show disk view 'Total' column on startup"
 msgstr "Toon 'Totaal'-kolom voor schijfweergave bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:486
+#: src/org.mate.system-monitor.gschema.xml.in:496
 msgid "Width of disk view 'Free' column"
 msgstr "Breedte van 'Vrij'-kolom bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:490
+#: src/org.mate.system-monitor.gschema.xml.in:500
 msgid "Show disk view 'Free' column on startup"
 msgstr "Toon 'Vrij'-kolom voor schijfweergave bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:494
+#: src/org.mate.system-monitor.gschema.xml.in:504
 msgid "Width of disk view 'Available' column"
 msgstr "Breedte van 'Beschikbaar'-kolom bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:498
+#: src/org.mate.system-monitor.gschema.xml.in:508
 msgid "Show disk view 'Available' column on startup"
 msgstr "Toon 'Beschikbaar'-kolom voor schijfweergave bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:502
+#: src/org.mate.system-monitor.gschema.xml.in:512
 msgid "Width of disk view 'Used' column"
 msgstr "Breedte van 'Gebruikt'-kolom bij schijfweergave"
 
-#: src/org.mate.system-monitor.gschema.xml.in:506
+#: src/org.mate.system-monitor.gschema.xml.in:516
 msgid "Show disk view 'Used' column on startup"
 msgstr "Toon 'Gebruikt'-kolom voor schijfweergave bij opstarten"
 
-#: src/org.mate.system-monitor.gschema.xml.in:512
+#: src/org.mate.system-monitor.gschema.xml.in:522
 msgid "Memory map sort column"
 msgstr "Geheugentoedeling kolomsortering"
 
-#: src/org.mate.system-monitor.gschema.xml.in:516
+#: src/org.mate.system-monitor.gschema.xml.in:526
 msgid "Memory map sort order"
 msgstr "Geheugentoedeling sorteervolgorde"
 
-#: src/org.mate.system-monitor.gschema.xml.in:522
+#: src/org.mate.system-monitor.gschema.xml.in:532
 msgid "Open files sort column"
 msgstr "Geopende bestanden kolomsortering"
 
-#: src/org.mate.system-monitor.gschema.xml.in:526
+#: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Geopende bestanden sorteervolgorde"
 
-#: src/procactions.cpp:76
+#: src/procactions.cpp:77
 #, c-format
 msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
@@ -1162,7 +1172,7 @@ msgstr ""
 "Kan de prioriteit van het proces met PID %d niet wijzigen in %d.\n"
 "%s"
 
-#: src/procactions.cpp:156
+#: src/procactions.cpp:157
 #, c-format
 msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
@@ -1171,14 +1181,32 @@ msgstr ""
 "Kan het proces met PID %d niet met signaal %d vernietigen.\n"
 "%s"
 
-#. xgettext: primary alert message
-#: src/procdialogs.cpp:73
+#. xgettext: primary alert message for killing single process
+#: src/procdialogs.cpp:80
 #, c-format
-msgid "Kill the selected process “%s” (PID: %u)?"
-msgstr "Vernietig het geselecteerde proces “%s” (PID: %u)?"
+msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
+msgstr "Weet u zeker dat u het gekozen proces '%s' (PID: %u) wilt afbreken?"
+
+#. xgettext: primary alert message for ending single process
+#: src/procdialogs.cpp:85
+#, c-format
+msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
+msgstr "Weet u zeker dat u het gekozen proces '%s' (PID: %u) wilt beëindigen?"
+
+#. xgettext: primary alert message for killing multiple processes
+#: src/procdialogs.cpp:92
+#, c-format
+msgid "Are you sure you want to kill the %d selected processes?"
+msgstr "Weet u zeker dat u de %d gekozen processen wilt afbreken?"
+
+#. xgettext: primary alert message for ending multiple processes
+#: src/procdialogs.cpp:96
+#, c-format
+msgid "Are you sure you want to end the %d selected processes?"
+msgstr "Weet u zeker dat u de %d gekozen processen wilt beëindigen?"
 
 #. xgettext: secondary alert message
-#: src/procdialogs.cpp:77
+#: src/procdialogs.cpp:104
 msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
@@ -1187,14 +1215,8 @@ msgstr ""
 "sessie onderbroken worden en kan er een veiligheidsrisico ontstaan. U zou "
 "alleen niet-reagerende processen moeten vernietigen."
 
-#. xgettext: primary alert message
-#: src/procdialogs.cpp:84
-#, c-format
-msgid "End the selected process “%s” (PID: %u)?"
-msgstr "Beëindig het geselecteerde proces '%s' (PID: %u)?"
-
 #. xgettext: secondary alert message
-#: src/procdialogs.cpp:88
+#: src/procdialogs.cpp:110
 msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
@@ -1203,29 +1225,34 @@ msgstr ""
 "sessie onderbroken worden en kan er een veiligheidsrisico ontstaan. "
 "Eigenlijk zouden alleen niet-reagerende processen moeten worden beëindigd."
 
-#: src/procdialogs.cpp:126 src/procdialogs.cpp:215
+#: src/procdialogs.cpp:148 src/procdialogs.cpp:247
 #, c-format
 msgid "(%s Priority)"
 msgstr "(%s Prioriteit)"
 
-#: src/procdialogs.cpp:170
+#: src/procdialogs.cpp:197
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
 msgstr "Wijzig prioriteit van proces '%s' (PID: %u)"
 
-#: src/procdialogs.cpp:182
+#: src/procdialogs.cpp:200
+#, c-format
+msgid "Change Priority of %d Selected Processes"
+msgstr "Prioriteit van %d gekozen processen wijzigen"
+
+#: src/procdialogs.cpp:214
 msgid "Change _Priority"
 msgstr "Prioriteit _wijzigen"
 
-#: src/procdialogs.cpp:205
+#: src/procdialogs.cpp:237
 msgid "_Nice value:"
 msgstr "'_Nice'-waarde:"
 
-#: src/procdialogs.cpp:220
+#: src/procdialogs.cpp:252
 msgid "Note:"
 msgstr "Opmerking:"
 
-#: src/procdialogs.cpp:221
+#: src/procdialogs.cpp:253
 msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
@@ -1233,146 +1260,86 @@ msgstr ""
 "De prioriteit van een proces wordt aangegeven door een 'nice'-waarde. Een "
 "lagere 'nice'-waarde komt overeen met een hogere prioriteit."
 
-#: src/procdialogs.cpp:472
+#: src/procdialogs.cpp:423
 msgid "Icon"
 msgstr "Pictogram"
 
-#: src/procdialogs.cpp:531
-msgid "System Monitor Preferences"
-msgstr "Voorkeuren Systeembewaking"
-
-#: src/procdialogs.cpp:561
-msgid "Behavior"
-msgstr "Gedrag"
-
-#: src/procdialogs.cpp:580 src/procdialogs.cpp:755
-msgid "_Update interval in seconds:"
-msgstr "_Bijwerktussenpoze in seconden:"
-
-#: src/procdialogs.cpp:605
-msgid "Enable _smooth refresh"
-msgstr "_Vloeiend verversen inschakelen"
-
-#: src/procdialogs.cpp:618
-msgid "Alert before ending or _killing processes"
-msgstr "_Waarschuwen bij het beëindigen of vernietigen van processen"
-
-#: src/procdialogs.cpp:631
-msgid "Divide CPU usage by CPU count"
-msgstr "Deel CPU-gebruik door aantal CPU's"
-
-#: src/procdialogs.cpp:632
-msgid "Solaris mode"
-msgstr "Solaris-stand"
-
-#: src/procdialogs.cpp:649 src/procdialogs.cpp:789
-msgid "Information Fields"
-msgstr "Informatievelden"
-
-#: src/procdialogs.cpp:662
-msgid "Process i_nformation shown in list:"
-msgstr "_Procesinformatie die in de lijst getoond wordt:"
-
-#: src/procdialogs.cpp:674
-msgid "Graphs"
-msgstr "Grafieken"
-
-#: src/procdialogs.cpp:693
-msgid "_Update interval in 1/10 sec:"
-msgstr "Bijwerktussenpoze in tienden van seconden:"
-
-#: src/procdialogs.cpp:713
-msgid "Show network speed in bits"
-msgstr "Netwerksnelheid in bits weergeven"
-
-#: src/procdialogs.cpp:775
-msgid "Show _all file systems"
-msgstr "_Alle bestandssystemen tonen"
-
-#: src/procdialogs.cpp:802
-msgid "File system i_nformation shown in list:"
-msgstr "_Bestandssysteeminformatie die in de lijst getoond wordt:"
-
-#: src/procman.cpp:662
-msgid "A simple process and system monitor."
-msgstr "Een eenvoudige proces- en systeembewaker."
-
-#: src/proctable.cpp:242 src/procproperties.cpp:124
+#: src/proctable.cpp:254 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "Procesnaam"
 
-#: src/proctable.cpp:243 src/procproperties.cpp:125
+#: src/proctable.cpp:255 src/procproperties.cpp:141
 msgid "User"
 msgstr "Gebruiker"
 
-#: src/proctable.cpp:244 src/procproperties.cpp:126
+#: src/proctable.cpp:256 src/procproperties.cpp:142
 msgid "Status"
 msgstr "Status"
 
-#: src/proctable.cpp:245 src/procproperties.cpp:128
+#: src/proctable.cpp:257 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "Virtueel geheugen"
 
-#: src/proctable.cpp:246 src/procproperties.cpp:129
+#: src/proctable.cpp:258 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Vast geheugen"
 
-#: src/proctable.cpp:247 src/procproperties.cpp:130
+#: src/proctable.cpp:259 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "Beschrijfbaar geheugen"
 
-#: src/proctable.cpp:248 src/procproperties.cpp:131
+#: src/proctable.cpp:260 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "Gedeeld geheugen"
 
-#: src/proctable.cpp:249 src/procproperties.cpp:132
+#: src/proctable.cpp:261 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "X-server geheugen"
 
-#: src/proctable.cpp:250
+#: src/proctable.cpp:262
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: src/proctable.cpp:251 src/procproperties.cpp:136
+#: src/proctable.cpp:263 src/procproperties.cpp:154
 msgid "CPU Time"
 msgstr "CPU-tijd"
 
-#: src/proctable.cpp:252 src/procproperties.cpp:137
+#: src/proctable.cpp:264 src/procproperties.cpp:155
 msgid "Started"
 msgstr "Gestart"
 
-#: src/proctable.cpp:253 src/procproperties.cpp:138
+#: src/proctable.cpp:265 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Nice"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:266 src/procproperties.cpp:158
 msgid "ID"
 msgstr "ID"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:267 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "Beveiligingscontext"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:268 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "Opdrachtregel"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:259 src/procproperties.cpp:143
+#: src/proctable.cpp:271 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "Wachtkanaal"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:144
+#: src/proctable.cpp:272 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "Beheergroep"
 
-#: src/proctable.cpp:261
+#: src/proctable.cpp:273
 msgid "Unit"
 msgstr "Eenheid"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:274
 msgid "Session"
 msgstr "Sessie"
 
@@ -1380,52 +1347,52 @@ msgstr "Sessie"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:265
+#: src/proctable.cpp:277
 msgid "Seat"
 msgstr "Zetel"
 
-#: src/proctable.cpp:266
+#: src/proctable.cpp:278
 msgid "Owner"
 msgstr "Eigenaar"
 
-#: src/proctable.cpp:267 src/procproperties.cpp:133
+#: src/proctable.cpp:279 src/procproperties.cpp:151
 msgid "Disk Read Total"
 msgstr "Leesacties schijf totaal"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:134
+#: src/proctable.cpp:280 src/procproperties.cpp:152
 msgid "Disk Write Total"
 msgstr "Schrijfacties schijf totaal"
 
-#: src/proctable.cpp:269
+#: src/proctable.cpp:281
 msgid "Disk Read"
 msgstr "Leesacties schijf"
 
-#: src/proctable.cpp:270
+#: src/proctable.cpp:282
 msgid "Disk Write"
 msgstr "Schrijfacties schijf"
 
-#: src/proctable.cpp:271 src/procproperties.cpp:139
+#: src/proctable.cpp:283 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "Prioriteit"
 
-#: src/proctable.cpp:1153
+#: src/proctable.cpp:1188
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr ""
 "Gemiddelde belasting gedurende de laatste 1, 5, 15 minuten: %0.2f, %0.2f, "
 "%0.2f"
 
-#: src/procproperties.cpp:98 src/procproperties.cpp:107
-#: src/procproperties.cpp:141 src/procproperties.cpp:144 src/util.cpp:369
-#: src/util.cpp:441 src/util.cpp:479
+#: src/procproperties.cpp:114 src/procproperties.cpp:123
+#: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
+#: src/util.cpp:462 src/util.cpp:500
 msgid "N/A"
 msgstr "N/B"
 
-#: src/procproperties.cpp:252
+#: src/procproperties.cpp:270
 msgid "Process Properties"
 msgstr "Proceseigenschappen"
 
-#: src/procproperties.cpp:272
+#: src/procproperties.cpp:290
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
 msgstr "Eigenschappen van proces '%s' (PID %u):"
@@ -1460,39 +1427,39 @@ msgstr "%d bit"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: src/sysinfo.cpp:971
+#: src/sysinfo.cpp:979
 #, c-format
 msgid "Kernel %s"
 msgstr "Systeemkern %s"
 
-#: src/sysinfo.cpp:984
+#: src/sysinfo.cpp:992
 #, c-format
 msgid "MATE %s"
 msgstr "MATE %s"
 
 #. hardware section
-#: src/sysinfo.cpp:998
+#: src/sysinfo.cpp:1006
 msgid "Hardware"
 msgstr "Apparatuur"
 
-#: src/sysinfo.cpp:1003
+#: src/sysinfo.cpp:1011
 msgid "Memory:"
 msgstr "Geheugen:"
 
-#: src/sysinfo.cpp:1006
+#: src/sysinfo.cpp:1014
 msgid "Processor:"
 msgstr "Processor:"
 
-#: src/sysinfo.cpp:1008
+#: src/sysinfo.cpp:1016
 msgid "Graphics:"
 msgstr "Grafisch systeem:"
 
 #. disk space section
-#: src/sysinfo.cpp:1013
+#: src/sysinfo.cpp:1021
 msgid "System Status"
 msgstr "Systeemstatus"
 
-#: src/sysinfo.cpp:1018
+#: src/sysinfo.cpp:1026
 msgid "Available disk space:"
 msgstr "Beschikbare schijfruimte:"
 

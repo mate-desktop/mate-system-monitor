@@ -1,3 +1,24 @@
+### mate-system-monitor 1.26.0
+
+  * Translations update
+  * travis-Ci: use libera.chat as notification server
+  * update copyright to 2021
+  * add wayland support
+  * port to GtkApplication
+  * Use GtkBuilder for preferences dialog
+  * openfiles: g_memdup is dreprecated from glib 2.68
+  * smooth_refresh: comparison of unsigned expression in '< 0' is always false
+  * gsm_color_button: macro "__GSM_COLOR_BUTTON_C__" is not used
+  * proctable: Function 'proctable_free_table' used prior to declaration
+  * i18n: use _() macro instead of gettext
+  * i18n: Do not collect the translation for Icon
+  * build: display package name and version in configure summary
+  * build: Use PACKAGE_URL variable
+  * procdialogs: Do not use deprecated gtk_image_new_from_stock
+  * Show subvol mount option on GNU/Linux
+  * sysinfo: avoid adding a device more than once such as for brtfs
+  * pretty-table: prefer GIO to get application icons
+
 ### mate-system-monitor 1.25.0
 
   * Translations update

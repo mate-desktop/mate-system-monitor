@@ -97,10 +97,6 @@ procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *child
             visible = g_settings_get_boolean (pt_settings, key);
             g_free (key);
 
-            column = gtk_tree_view_get_column (GTK_TREE_VIEW (tree), id);
-            if (column == NULL)
-                continue;
-
             gtk_tree_view_column_set_visible (column, visible);
             if (visible) {
                 /* ensure column is really visible */

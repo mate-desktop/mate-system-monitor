@@ -8,6 +8,7 @@
 #include <glibmm/refptr.h>
 #include <gdkmm/pixbuf.h>
 #include <giomm/filemonitor.h>
+#include <giomm/appinfo.h>
 
 #include <map>
 #include <string>

@@ -1,6 +1,5 @@
 #include <config.h>
 
-#include <gtkmm/messagedialog.h>
 #include <glibmm/regex.h>
 #include <glib/gi18n.h>
 #include <glibtop/procopenfiles.h>
@@ -123,15 +122,11 @@ namespace
                                           _("Error"),
                                           _("'%s' is not a valid Perl regular expression."),
                                           "%s");
-            std::string message = make_string(g_strdup_printf(msg, this->pattern().c_str(), error.what().c_str()));
-            g_free(msg);
 
-            Gtk::MessageDialog dialog(message,
-                                      true, // use markup
-                                      Gtk::MESSAGE_ERROR,
-                                      Gtk::BUTTONS_OK,
-                                      true); // modal
-            dialog.run();
+            GtkWidget * dialog = gtk_message_dialog_new_with_markup (NULL, GTK_DIALOG_MODAL, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK, msg, this->pattern().c_str(), error.what().c_str());
+            gtk_dialog_run (GTK_DIALOG(dialog));
+            gtk_widget_destroy (dialog);
+            g_free (msg);
         }
 
 

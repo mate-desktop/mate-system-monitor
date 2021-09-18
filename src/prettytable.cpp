@@ -219,7 +219,7 @@ PrettyTable::get_icon_from_gio(const ProcInfo &info)
           gicon = app->get_icon();
 
         if (gicon)
-          icon = this->theme->load_gicon(gicon, APP_ICON_SIZE, Gtk::ICON_LOOKUP_USE_BUILTIN | Gtk::ICON_LOOKUP_FORCE_SIZE);
+          icon = this->theme->load_gicon(gicon, APP_ICON_SIZE, static_cast<GtkIconLookupFlags>(GTK_ICON_LOOKUP_USE_BUILTIN | GTK_ICON_LOOKUP_FORCE_SIZE));
     }
 
     g_strfreev(cmdline);

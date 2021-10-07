@@ -1,0 +1,21 @@
+gnome.yelp(meson.project_name(),
+  sources: [
+    'index.docbook',
+    'legal.xml',
+  ],
+  media: [
+    'figures/addColumn.png',
+    'figures/changePriority.png',
+    'figures/colorPanel.png',
+    'figures/columnContextMenu.png',
+    'figures/mate-system-monitor_window.png',
+    'figures/memoryMaps.png',
+    'figures/moreInfo.png',
+    'figures/processListing.png',
+    'figures/sortButton.png',
+    'figures/sortMenu2.png',
+    'figures/sortMenu.png',
+    'figures/systemMonitor.png',
+    'figures/viewMenu.png',
+  ],
+)

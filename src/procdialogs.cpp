@@ -465,7 +465,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     if (prefs_dialog)
         return;
 
-    builder = gtk_builder_new_from_resource("/org/mate/system-monitor/preferences.ui");
+    builder = gtk_builder_new_from_resource("/org/mate/mate-system-monitor/preferences.ui");
 
     prefs_dialog = GET_WIDGET("preferences_dialog");
     notebook = GET_WIDGET("notebook");

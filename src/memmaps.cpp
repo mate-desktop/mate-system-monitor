@@ -95,24 +95,24 @@ namespace
             if (dev != dev64)
                 g_warning("weird device %" G_GINT64_MODIFIER "x", dev64);
 
-                Map::iterator it(this->devices.find(dev));
+            Map::iterator it(this->devices.find(dev));
 
-                if (it != this->devices.end())
-                    return it->second;
+            if (it != this->devices.end())
+                return it->second;
 
-                guint8 major, minor;
-                major = dev >> 8;
-                minor = dev;
+            guint8 major, minor;
+            major = dev >> 8;
+            minor = dev;
 
-                std::ostringstream out;
-                out << std::hex
-                    << std::setfill('0')
-                    << std::setw(2) << unsigned(major)
-                    << ':'
-                    << std::setw(2) << unsigned(minor);
+            std::ostringstream out;
+            out << std::hex
+                << std::setfill('0')
+                << std::setw(2) << unsigned(major)
+                << ':'
+                << std::setw(2) << unsigned(minor);
 
-                this->devices[dev] = out.str();
-                return out.str();
+            this->devices[dev] = out.str();
+            return out.str();
         }
     };
 

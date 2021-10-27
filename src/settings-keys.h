@@ -3,7 +3,6 @@
 
 #include <string>
 
-
 namespace procman
 {
     namespace settings
@@ -14,6 +13,5 @@ namespace procman
         extern const std::string network_in_bits;
     }
 }
-
 
 #endif //  H_PROCMAN_SETTINGS_KEYS_1177430397

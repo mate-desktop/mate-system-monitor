@@ -119,7 +119,6 @@ static void gsm_color_button_drag_data_received (GtkWidget * widget,
                                                  GSMColorButton *
                                                  color_button);
 
-
 static guint color_button_signals[LAST_SIGNAL] = { 0 };
 
 static const GtkTargetEntry drop_types[] = { {"application/x-color", 0, 0} };
@@ -194,7 +193,6 @@ gsm_color_button_class_init (GSMColorButtonClass * klass)
 
 }
 
-
 static cairo_surface_t *
 fill_image_buffer_from_file (cairo_t *cr, const char *filePath)
 {
@@ -222,7 +220,6 @@ fill_image_buffer_from_file (cairo_t *cr, const char *filePath)
     g_object_unref (handle);
     return tmp_surface;
 }
-
 
 static void
 render (GtkWidget * widget)
@@ -506,7 +503,6 @@ gsm_color_button_drag_data_received (GtkWidget * widget,
         return;
     }
 
-
     dropped = (guint16 *) gtk_selection_data_get_data (selection_data);
 
     priv->color.red = dropped[0];
@@ -521,7 +517,6 @@ gsm_color_button_drag_data_received (GtkWidget * widget,
     g_object_notify (G_OBJECT (color_button), "color");
     g_object_thaw_notify (G_OBJECT (color_button));
 }
-
 
 static void
 set_color_icon (GdkDragContext * context, GdkRGBA * color)
@@ -573,7 +568,6 @@ gsm_color_button_drag_data_get (GtkWidget * widget,
     gtk_selection_data_set (selection_data, gtk_selection_data_get_target (selection_data),
                             16, (guchar *) dropped, 8);
 }
-
 
 static void
 gsm_color_button_init (GSMColorButton * color_button)
@@ -750,7 +744,6 @@ gsm_color_button_released (GtkWidget * widget, GdkEventButton * event)
     priv->button_down = FALSE;
     return 0;
 }
-
 
 static gboolean
 gsm_color_button_enter_notify (GtkWidget * widget, GdkEventCrossing * event)

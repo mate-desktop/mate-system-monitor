@@ -18,14 +18,12 @@
  *
  */
 
-
 #ifndef _PROCMAN_CALLBACKS_H_
 #define _PROCMAN_CALLBACKS_H_
 
 #include <gtk/gtk.h>
 #include "procman.h"
 #include "gsm_color_button.h"
-
 
 void            cb_show_memory_maps (GtkAction *action, gpointer data);
 void            cb_show_open_files (GtkAction *action, gpointer data);
@@ -59,7 +57,6 @@ gboolean        cb_tree_popup_menu (GtkWidget *widget, gpointer data);
 gboolean        cb_tree_button_pressed (GtkWidget *widget, GdkEventButton *event,
                                         gpointer data);
 
-
 void            cb_change_current_page (GtkNotebook *nb,
                                         gint num, gpointer data);
 void            cb_switch_page (GtkNotebook *nb, GtkWidget *page,
@@ -72,8 +69,6 @@ gint            cb_timeout (gpointer data);
 void            cb_radio_processes(GtkAction *action,
                                    GtkRadioAction *current,
                                    gpointer data);
-
-
 
 void            cb_kill_sigstop(GtkAction *action,
                                 gpointer data);

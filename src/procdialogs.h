@@ -20,7 +20,6 @@
 #ifndef _PROCDIALOGS_H_
 #define _PROCDIALOGS_H_
 
-
 #include <glib.h>
 #include "procman.h"
 
@@ -35,13 +34,11 @@
 #define RENICE_VAL_MAX 20
 #endif
 
-
 typedef enum
 {
     PROCMAN_ACTION_RENICE,
     PROCMAN_ACTION_KILL
 } ProcmanActionType;
-
 
 void                    procdialog_create_kill_dialog (ProcData *data, int signal);
 void                    procdialog_create_renice_dialog (ProcData *data);

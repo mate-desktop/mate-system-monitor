@@ -11,13 +11,11 @@ enum
     LOAD_GRAPH_NET
 };
 
-
 enum {
     CPU_TOTAL,
     CPU_USED,
     N_CPU_STATES
 };
-
 
 struct LoadGraphLabels
 {
@@ -29,8 +27,6 @@ struct LoadGraphLabels
     GtkWidget *net_out;
     GtkWidget *net_out_total;
 };
-
-
 
 struct LoadGraph {
 
@@ -98,8 +94,6 @@ struct LoadGraph {
     /* }; */
 };
 
-
-
 /* Force a drawing update */
 void
 load_graph_queue_draw (LoadGraph *g);
@@ -120,7 +114,6 @@ load_graph_change_speed (LoadGraph *g,
 LoadGraphLabels*
 load_graph_get_labels (LoadGraph *g) G_GNUC_CONST;
 
-
 GtkWidget*
 load_graph_get_widget (LoadGraph *g) G_GNUC_CONST;
 
@@ -129,6 +122,5 @@ load_graph_get_mem_color_picker(LoadGraph *g) G_GNUC_CONST;
 
 GtkWidget*
 load_graph_get_swap_color_picker(LoadGraph *g) G_GNUC_CONST;
-
 
 #endif /* _PROCMAN_LOAD_GRAPH_H_ */

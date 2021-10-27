@@ -45,7 +45,6 @@ inline string make_string(char *c_str)
     return s;
 }
 
-
 namespace procman
 {
     gchar* format_duration_for_display(unsigned centiseconds);
@@ -89,14 +88,11 @@ namespace procman
     gint number_compare_func(GtkTreeModel* model, GtkTreeIter* first,
                             GtkTreeIter* second, gpointer user_data);
 
-
     template<typename T>
     void poison(T &t, char c)
     {
         memset(&t, c, sizeof t);
     }
-
-
 
     //
     // Stuff to update a tree_store in a smart way
@@ -131,6 +127,5 @@ namespace procman
 
     gchar* get_nice_level (gint nice);
 }
-
 
 #endif /* H_MATE_SYSTEM_MONITOR_UTIL_1123178725 */

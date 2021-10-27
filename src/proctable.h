@@ -60,7 +60,6 @@ enum
     NUM_COLUMNS
 };
 
-
 GtkWidget*      proctable_new (ProcData *data);
 void            proctable_update_table (ProcData *data);
 void            proctable_update (ProcData *data);

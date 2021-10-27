@@ -20,7 +20,6 @@
 #ifndef _PROCMAN_PROCMAN_H_
 #define _PROCMAN_PROCMAN_H_
 
-
 #include <glibmm/refptr.h>
 #include <cairo-gobject.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
@@ -64,7 +63,6 @@ enum
 static const unsigned MIN_UPDATE_INTERVAL =   1 * 1000;
 static const unsigned MAX_UPDATE_INTERVAL = 100 * 1000;
 
-
 enum ProcmanTab
 {
     PROCMAN_TAB_SYSINFO,
@@ -72,7 +70,6 @@ enum ProcmanTab
     PROCMAN_TAB_RESOURCES,
     PROCMAN_TAB_DISKS
 };
-
 
 struct ProcConfig
 {
@@ -100,8 +97,6 @@ struct ProcConfig
     bool solaris_mode;
     bool network_in_bits;
 };
-
-
 
 struct MutableProcInfo
 {
@@ -150,7 +145,6 @@ MutableProcInfo()
     std::string owner;
 };
 
-
 class ProcInfo
 : public MutableProcInfo
 {
@@ -175,7 +169,6 @@ class ProcInfo
     static ProcInfo* find(pid_t pid);
     static Iterator begin() { return ProcInfo::all.begin(); }
     static Iterator end() { return ProcInfo::all.end(); }
-
 
     ProcInfo(pid_t pid);
     ~ProcInfo();
@@ -255,16 +248,11 @@ void        procman_save_config (ProcData *data);
 void        procman_save_tree_state (GSettings *settings, GtkWidget *tree, const gchar *prefix);
 gboolean    procman_get_tree_state (GSettings *settings, GtkWidget *tree, const gchar *prefix);
 
-
-
-
-
 struct ReniceArgs
 {
     ProcData *procdata;
     int nice_value;
 };
-
 
 struct KillArgs
 {

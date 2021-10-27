@@ -7,8 +7,6 @@
 
 using std::string;
 
-
-
 class SmoothRefresh
 {
   public:
@@ -44,7 +42,6 @@ class SmoothRefresh
       is stored in @new_interval. Else FALSE;
     */
     bool get(guint &new_interval);
-
 
     static const string KEY;
     static const bool KEY_DEFAULT_VALUE;
@@ -98,6 +95,5 @@ class SmoothRefresh
     guint64 last_total_time;
     guint64 last_cpu_time;
 };
-
 
 #endif /* _PROCMAN_SMOOTH_REFRESH */

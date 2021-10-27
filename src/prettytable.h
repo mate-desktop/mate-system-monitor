@@ -25,8 +25,6 @@ class ProcInfo;
 
 using std::string;
 
-
-
 class PrettyTable
 {
  public:
@@ -61,7 +59,6 @@ private:
                              Gio::FileMonitorEvent);
     void init_gio_app_cache ();
 
-
     typedef std::map<string, Glib::RefPtr<Gdk::Pixbuf> > IconCache;
     typedef std::map<pid_t, Glib::RefPtr<Gdk::Pixbuf> > IconsForPID;
     typedef std::map<string, Glib::RefPtr<Gio::AppInfo> > AppCache;
@@ -73,6 +70,5 @@ private:
     AppCache gio_apps;
     procman::IconThemeWrapper theme;
 };
-
 
 #endif /* _PROCMAN_PRETTYTABLE_H_ */

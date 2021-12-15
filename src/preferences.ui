@@ -12,6 +12,13 @@
     <property name="can-focus">False</property>
     <property name="icon-name">help-browser</property>
   </object>
+  <object class="GtkAdjustment" id="num_cpu_columns_adjustment">
+    <property name="lower">3</property>
+    <property name="upper">12</property>
+    <property name="value">4</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">4</property>
+  </object>
   <object class="GtkDialog" id="preferences_dialog">
     <property name="can-focus">False</property>
     <property name="border-width">5</property>
@@ -359,16 +366,18 @@
                             <property name="vexpand">True</property>
                             <property name="row-spacing">6</property>
                             <child>
-                              <!-- n-columns=2 n-rows=1 -->
+                              <!-- n-columns=2 n-rows=2 -->
                               <object class="GtkGrid" id="resources_update_interval">
                                 <property name="visible">True</property>
                                 <property name="can-focus">False</property>
                                 <property name="hexpand">True</property>
+                                <property name="row-spacing">6</property>
                                 <property name="column-spacing">12</property>
                                 <child>
                                   <object class="GtkLabel" id="resources_interval_label">
                                     <property name="visible">True</property>
                                     <property name="can-focus">False</property>
+                                    <property name="halign">start</property>
                                     <property name="label" translatable="yes">_Update interval in seconds:</property>
                                     <property name="use-underline">True</property>
                                     <property name="mnemonic-widget">resources_interval_spinner</property>
@@ -391,6 +400,32 @@
                                     <property name="top-attach">0</property>
                                   </packing>
                                 </child>
+                                <child>
+                                  <object class="GtkLabel" id="num_cpu_columns_label">
+                                    <property name="visible">True</property>
+                                    <property name="can-focus">False</property>
+                                    <property name="halign">start</property>
+                                    <property name="label" translatable="yes">_Number of CPU columns:</property>
+                                    <property name="use-underline">True</property>
+                                    <property name="mnemonic-widget">num_cpu_columns_spinner</property>
+                                  </object>
+                                  <packing>
+                                    <property name="left-attach">0</property>
+                                    <property name="top-attach">1</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkSpinButton" id="num_cpu_columns_spinner">
+                                    <property name="visible">True</property>
+                                    <property name="can-focus">True</property>
+                                    <property name="adjustment">num_cpu_columns_adjustment</property>
+                                    <property name="numeric">True</property>
+                                  </object>
+                                  <packing>
+                                    <property name="left-attach">1</property>
+                                    <property name="top-attach">1</property>
+                                  </packing>
+                                </child>
                               </object>
                               <packing>
                                 <property name="left-attach">0</property>
@@ -404,6 +439,7 @@
                                 <property name="visible">True</property>
                                 <property name="can-focus">True</property>
                                 <property name="receives-default">False</property>
+                                <property name="halign">start</property>
                                 <property name="hexpand">True</property>
                                 <property name="use-underline">True</property>
                                 <property name="draw-indicator">True</property>

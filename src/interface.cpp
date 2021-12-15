@@ -323,7 +323,9 @@ create_sys_view (ProcData *procdata)
         temp_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
         gtk_widget_set_hexpand (temp_hbox, TRUE);
         gtk_grid_attach(GTK_GRID(cpu_grid), temp_hbox,
-                        i % 4, i / 4, 1, 1);
+                        i % procdata->config.num_cpu_columns,
+                        i / procdata->config.num_cpu_columns,
+                        1, 1);
 
         color_picker = gsm_color_button_new (&cpu_graph->colors.at(i), GSMCP_TYPE_CPU);
         g_signal_connect (G_OBJECT (color_picker), "color_set",

@@ -14,6 +14,9 @@
 #include "argv.h"
 #include "util.h"
 
+#define MIN_CPU_COLUMNS 3
+#define MAX_CPU_COLUMNS 12
+
 static void
 mount_changed(const Glib::RefPtr<Gio::Mount>&)
 {
@@ -153,6 +156,25 @@ timeouts_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 }
 
 static void
+num_cpu_columns_changed_cb (GSettings *settings, const gchar *key, gpointer data)
+{
+    ProcData *procdata = static_cast<ProcData*>(data);
+
+    if (g_str_equal (key, "num-cpu-columns")) {
+        int num_cpu_columns;
+
+        num_cpu_columns = CLAMP (g_settings_get_int (settings, key),
+                                 MIN_CPU_COLUMNS,
+                                 MIN (MAX_CPU_COLUMNS, procdata->config.num_cpus));
+
+        if (num_cpu_columns != procdata->config.num_cpu_columns) {
+            procdata->config.num_cpu_columns = num_cpu_columns;
+            // TODO: redraw columns
+        }
+    }
+}
+
+static void
 color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
 {
     ProcData * const procdata = static_cast<ProcData*>(data);
@@ -256,6 +278,13 @@ procman_data_new (GSettings *settings)
     g_object_get (settings, "settings-schema", &schema, NULL);
     keys = g_settings_schema_list_keys (schema);
     g_settings_schema_unref (schema);
+
+    pd->config.num_cpu_columns = CLAMP (g_settings_get_int (settings, "num-cpu-columns"),
+                                        MIN_CPU_COLUMNS,
+                                        MIN (MAX_CPU_COLUMNS, pd->config.num_cpus));
+    g_signal_connect (settings, "changed::num-cpu-columns",
+                      G_CALLBACK (num_cpu_columns_changed_cb),
+                      pd);
 
     for (int i = 0; i < pd->config.num_cpus; i++) {
         gchar *key;

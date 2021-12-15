@@ -298,23 +298,43 @@ public:
     static gboolean callback(GtkWidget *widget, GdkEventFocus *event, gpointer data)
     {
         SpinButtonUpdater* updater = static_cast<SpinButtonUpdater*>(data);
-        gtk_spin_button_update(GTK_SPIN_BUTTON(widget));
-        updater->update(GTK_SPIN_BUTTON(widget));
+        GtkSpinButton* spin = GTK_SPIN_BUTTON(widget);
+        int new_value = gtk_spin_button_get_value_as_int(spin);
+        gtk_spin_button_update(spin);
+        updater->update(spin, new_value);
         return FALSE;
     }
 
-private:
-
-    void update(GtkSpinButton* spin)
+protected:
+    void update(GtkSpinButton* spin, int new_value)
     {
-        int new_value = int(1000 * gtk_spin_button_get_value(spin));
         g_settings_set_int(ProcData::get_instance()->settings,
                            this->key.c_str(), new_value);
 
         procman_debug("set %s to %d", this->key.c_str(), new_value);
     }
 
+private:
     const string key;
+};
+
+
+class IntervalSpinButtonUpdater : public SpinButtonUpdater
+{
+public:
+    IntervalSpinButtonUpdater(const string& key)
+        : SpinButtonUpdater(key)
+    { }
+
+    static gboolean callback(GtkWidget *widget, GdkEventFocus *event, gpointer data)
+    {
+        IntervalSpinButtonUpdater* updater = static_cast<IntervalSpinButtonUpdater*>(data);
+        GtkSpinButton* spin = GTK_SPIN_BUTTON(widget);
+        int new_value = (int)(gtk_spin_button_get_value(spin) * 1000.0);
+        gtk_spin_button_update(spin);
+        updater->update(spin, new_value);
+        return FALSE;
+    }
 };
 
 
@@ -449,10 +469,12 @@ void
 procdialog_create_preferences_dialog (ProcData *procdata)
 {
     typedef SpinButtonUpdater SBU;
+    typedef IntervalSpinButtonUpdater ISBU;
 
-    static SBU interval_updater("update-interval");
-    static SBU graph_interval_updater("graph-update-interval");
-    static SBU disks_interval_updater("disks-interval");
+    static ISBU interval_updater("update-interval");
+    static ISBU graph_interval_updater("graph-update-interval");
+    static SBU num_cpu_columns_updater("num-cpu-columns");
+    static ISBU disks_interval_updater("disks-interval");
 
     GtkWidget *notebook;
     GtkAdjustment *adjustment;
@@ -481,7 +503,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
 
     gtk_spin_button_set_adjustment (GTK_SPIN_BUTTON(spin_button), adjustment);
     g_signal_connect (G_OBJECT (spin_button), "focus_out_event",
-                      G_CALLBACK (SBU::callback), &interval_updater);
+                      G_CALLBACK (ISBU::callback), &interval_updater);
 
     smooth_button = GET_WIDGET("smooth_button");
     g_settings_bind(procdata->settings, SmoothRefresh::KEY.c_str(), smooth_button, "active", G_SETTINGS_BIND_DEFAULT);
@@ -502,7 +524,7 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     gtk_spin_button_set_adjustment (GTK_SPIN_BUTTON(spin_button), adjustment);
 
     g_signal_connect (G_OBJECT (spin_button), "focus_out_event",
-                      G_CALLBACK(SBU::callback),
+                      G_CALLBACK(ISBU::callback),
                       &graph_interval_updater);
 
     GtkWidget *bits_button = GET_WIDGET("bits_button");
@@ -516,8 +538,15 @@ procdialog_create_preferences_dialog (ProcData *procdata)
     spin_button = GET_WIDGET("devices_interval_spinner");
     gtk_spin_button_set_adjustment (GTK_SPIN_BUTTON(spin_button), adjustment);
     g_signal_connect (G_OBJECT (spin_button), "focus_out_event",
-                      G_CALLBACK(SBU::callback),
+                      G_CALLBACK(ISBU::callback),
                       &disks_interval_updater);
+
+    spin_button = GET_WIDGET("num_cpu_columns_spinner");
+    update = (gfloat) procdata->config.num_cpu_columns;
+    gtk_spin_button_set_value (GTK_SPIN_BUTTON (spin_button), update);
+    g_signal_connect (spin_button, "focus_out_event",
+                      G_CALLBACK (SBU::callback),
+                      &num_cpu_columns_updater);
 
     check_button = GET_WIDGET("all_devices_check");
     g_settings_bind(procdata->settings, "show-all-fs", check_button, "active", G_SETTINGS_BIND_DEFAULT);

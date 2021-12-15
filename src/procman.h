@@ -86,6 +86,7 @@ struct ProcConfig
     int         disks_update_interval;
     gint        whose_process;
     gint        current_tab;
+    gint        num_cpu_columns;
     GdkRGBA     cpu_color[GLIBTOP_NCPU];
     GdkRGBA     mem_color;
     GdkRGBA     swap_color;

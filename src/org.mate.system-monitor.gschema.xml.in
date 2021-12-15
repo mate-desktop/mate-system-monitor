@@ -52,6 +52,11 @@
       <summary>Saves the currently viewed tab</summary>
       <description>0 for the System Info, 1 for the processes list, 2 for the resources and 3 for the disks list</description>
     </key>
+    <key name="num-cpu-columns" type="i">
+      <range min="3" max="12"/>
+      <default>4</default>
+      <summary>Number of columns in CPU History graph</summary>
+    </key>
     <key name="cpu-color0" type="s">
       <default>'#FF6E00'</default>
       <summary>Default graph CPU color</summary>

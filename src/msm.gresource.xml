@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/org/mate/mate-system-monitor">
+    <file compressed="true" preprocess="xml-stripblanks">interface.ui</file>
     <file compressed="true" preprocess="xml-stripblanks">preferences.ui</file>
   </gresource>
 </gresources>

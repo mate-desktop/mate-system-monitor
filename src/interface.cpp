@@ -42,11 +42,6 @@
 #include "sysinfo.h"
 #include "gsm_color_button.h"
 
-#define INITIAL_MINIMUM_LENGTH   3
-#define INITIAL_MAXIMUM_LENGTH  12
-#define INITIAL_CSPACING         2
-#define INITIAL_RSPACING         2
-
 static void    cb_toggle_tree (GtkAction *action, gpointer data);
 static void    cb_proc_goto_tab (gint tab);
 
@@ -201,49 +196,30 @@ static const char ui_info[] =
     "  </popup>";
 
 
-static GtkWidget *
-create_proc_view (ProcData *procdata)
+static void
+create_proc_view(ProcData *procdata, GtkBuilder * builder)
 {
-    GtkWidget *vbox1;
-    GtkWidget *hbox1;
+    GtkWidget *proctree;
     GtkWidget *scrolled;
-    GtkWidget *hbox2;
     char* string;
 
-    vbox1 = gtk_box_new (GTK_ORIENTATION_VERTICAL, 18);
-    gtk_container_set_border_width (GTK_CONTAINER (vbox1), 12);
-
-    hbox1 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
-    gtk_box_pack_start (GTK_BOX (vbox1), hbox1, FALSE, FALSE, 0);
-
+    /* create the processes tab */
     string = make_loadavg_string ();
-    procdata->loadavg = gtk_label_new (string);
+    procdata->loadavg = GTK_WIDGET (gtk_builder_get_object (builder, "load_avg_label"));
+    gtk_label_set_text (GTK_LABEL (procdata->loadavg), string);
     g_free (string);
-    gtk_box_pack_start (GTK_BOX (hbox1), procdata->loadavg, FALSE, FALSE, 0);
 
+    proctree = proctable_new (procdata);
+    scrolled = GTK_WIDGET (gtk_builder_get_object (builder, "processes_scrolled"));
 
-    scrolled = proctable_new (procdata);
-    if (!scrolled)
-        return NULL;
-    gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (scrolled),
-                                         GTK_SHADOW_IN);
+    gtk_container_add (GTK_CONTAINER (scrolled), proctree);
 
-    gtk_box_pack_start (GTK_BOX (vbox1), scrolled, TRUE, TRUE, 0);
-
-
-    hbox2 = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
-    gtk_box_pack_start (GTK_BOX (vbox1), hbox2, FALSE, FALSE, 0);
-
-    procdata->endprocessbutton = gtk_button_new_with_mnemonic (_("End _Process"));
-    gtk_box_pack_end (GTK_BOX (hbox2), procdata->endprocessbutton, FALSE, FALSE, 0);
+    procdata->endprocessbutton = GTK_WIDGET (gtk_builder_get_object (builder, "endprocessbutton"));
     g_signal_connect (G_OBJECT (procdata->endprocessbutton), "clicked",
                       G_CALLBACK (cb_end_process_button_pressed), procdata);
 
-
-    /* create popup_menu */
-     procdata->popup_menu = gtk_ui_manager_get_widget (procdata->uimanager, "/PopupMenu");
-
-    return vbox1;
+    /* create popup_menu for the processes tab */
+    procdata->popup_menu = gtk_ui_manager_get_widget (procdata->uimanager, "/PopupMenu");
 }
 
 
@@ -264,16 +240,14 @@ make_title_label (const char *text)
 }
 
 
-static GtkWidget *
-create_sys_view (ProcData *procdata)
+static void
+create_sys_view (ProcData *procdata, GtkBuilder * builder)
 {
-    GtkWidget *vbox, *hbox;
-    GtkWidget *cpu_box, *mem_box, *net_box;
     GtkWidget *cpu_graph_box, *mem_graph_box, *net_graph_box;
-    GtkWidget *label,*cpu_label, *spacer;
-    GtkWidget *grid;
+    GtkWidget *label,*cpu_label;
+    GtkWidget *table;
     GtkWidget *color_picker;
-    GtkWidget *mem_legend_box, *net_legend_box;
+    GtkWidget *picker_alignment;
     LoadGraph *cpu_graph, *mem_graph, *net_graph;
 
     gint i;
@@ -284,20 +258,9 @@ create_sys_view (ProcData *procdata)
     // Translators: color picker title, %s is CPU, Memory, Swap, Receiving, Sending
     title_template = g_strdup(_("Pick a Color for '%s'"));
 
-    vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 18);
-
-    gtk_container_set_border_width (GTK_CONTAINER (vbox), 12);
-
     /* The CPU BOX */
 
-    cpu_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
-    gtk_box_pack_start (GTK_BOX (vbox), cpu_box, TRUE, TRUE, 0);
-
-    label = make_title_label (_("CPU History"));
-    gtk_box_pack_start (GTK_BOX (cpu_box), label, FALSE, FALSE, 0);
-
-    cpu_graph_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
-    gtk_box_pack_start (GTK_BOX (cpu_box), cpu_graph_box, TRUE, TRUE, 0);
+    cpu_graph_box = GTK_WIDGET (gtk_builder_get_object (builder, "cpu_graph_box"));
 
     cpu_graph = new LoadGraph(LOAD_GRAPH_CPU);
     gtk_box_pack_start (GTK_BOX (cpu_graph_box),
@@ -306,29 +269,13 @@ create_sys_view (ProcData *procdata)
                         TRUE,
                          0);
 
-    hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
-    spacer = gtk_label_new ("");
-    gtk_widget_set_size_request(GTK_WIDGET(spacer), 57, -1);
-    gtk_box_pack_start (GTK_BOX (hbox), spacer,
-                        FALSE, FALSE, 0);
-
-
-    gtk_box_pack_start (GTK_BOX (cpu_graph_box), hbox,
-                        FALSE, FALSE, 0);
-
-    GtkWidget* flowbox = gtk_flow_box_new ();
-    gtk_widget_set_halign (flowbox, GTK_ALIGN_FILL);
-    gtk_widget_set_valign (flowbox, GTK_ALIGN_START);
-    gtk_flow_box_set_column_spacing (GTK_FLOW_BOX (flowbox), INITIAL_CSPACING);
-    gtk_flow_box_set_row_spacing (GTK_FLOW_BOX (flowbox), INITIAL_RSPACING);
-    gtk_flow_box_set_min_children_per_line (GTK_FLOW_BOX (flowbox), INITIAL_MINIMUM_LENGTH);
-    gtk_flow_box_set_max_children_per_line (GTK_FLOW_BOX (flowbox), INITIAL_MAXIMUM_LENGTH);
-    gtk_box_pack_start(GTK_BOX(hbox), flowbox, TRUE, TRUE, 0);
-
+    GtkWidget* flowbox = GTK_WIDGET (gtk_builder_get_object (builder, "cpu_flow_box"));
+    gtk_box_reorder_child (GTK_BOX (cpu_graph_box), flowbox, 1);
     for (i=0;i<procdata->config.num_cpus; i++) {
         GtkWidget *temp_hbox;
 
         temp_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
+
         gtk_container_add (GTK_CONTAINER (flowbox), temp_hbox);
 
         color_picker = gsm_color_button_new (&cpu_graph->colors.at(i), GSMCP_TYPE_CPU);
@@ -359,15 +306,8 @@ create_sys_view (ProcData *procdata)
 
     procdata->cpu_graph = cpu_graph;
 
-    mem_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
-    gtk_box_pack_start (GTK_BOX (vbox), mem_box, TRUE, TRUE, 0);
-
-    label = make_title_label (_("Memory and Swap History"));
-    gtk_box_pack_start (GTK_BOX (mem_box), label, FALSE, FALSE, 0);
-
-    mem_graph_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
-    gtk_box_pack_start (GTK_BOX (mem_box), mem_graph_box, TRUE, TRUE, 0);
-
+    /** The memory box */
+    mem_graph_box = GTK_WIDGET (gtk_builder_get_object (builder, "mem_graph_box"));
 
     mem_graph = new LoadGraph(LOAD_GRAPH_MEM);
     gtk_box_pack_start (GTK_BOX (mem_graph_box),
@@ -376,79 +316,38 @@ create_sys_view (ProcData *procdata)
                         TRUE,
                         0);
 
-    hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
-    spacer = gtk_label_new ("");
-    gtk_widget_set_size_request(GTK_WIDGET(spacer), 54, -1);
-    gtk_box_pack_start (GTK_BOX (hbox), spacer,
-                        FALSE, FALSE, 0);
+    table = GTK_WIDGET (gtk_builder_get_object (builder, "mem_table"));
 
-
-    gtk_box_pack_start (GTK_BOX (mem_graph_box), hbox,
-                        FALSE, FALSE, 0);
-
-    mem_legend_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 10);
-    gtk_box_pack_start (GTK_BOX (hbox), mem_legend_box,
-                        TRUE, TRUE, 0);
-
-    grid = gtk_grid_new ();
-    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
-    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
-    gtk_box_pack_start (GTK_BOX (mem_legend_box), grid,
-                        TRUE, TRUE, 0);
-
-    label_text = g_strdup(_("Memory"));
     color_picker = load_graph_get_mem_color_picker(mem_graph);
     g_signal_connect (G_OBJECT (color_picker), "color_set",
                       G_CALLBACK (cb_mem_color_changed), procdata);
-    title_text = g_strdup_printf(title_template, label_text);
+    title_text = g_strdup_printf(title_template, _("Memory"));
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
-    label = gtk_label_new (label_text);
-    g_free(label_text);
-    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 7, 1);
+    gtk_grid_attach (GTK_GRID (table), color_picker, 0, 0, 1, 2);
 
-    gtk_grid_attach (GTK_GRID (grid),
-                      load_graph_get_labels(mem_graph)->memory,
-                      1, 1, 1, 1);
+    label = load_graph_get_labels(mem_graph)->memory;
+    gtk_label_set_xalign(GTK_LABEL(label), 0);
+    gtk_grid_attach (GTK_GRID (table), label, 1, 1, 1, 1);
 
-    grid = gtk_grid_new ();
-    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
-    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
-    gtk_box_pack_start (GTK_BOX (mem_legend_box), grid,
-                        TRUE, TRUE, 0);
-
-    label_text = g_strdup(_("Swap"));
     color_picker = load_graph_get_swap_color_picker(mem_graph);
     g_signal_connect (G_OBJECT (color_picker), "color_set",
                       G_CALLBACK (cb_swap_color_changed), procdata);
-    title_text = g_strdup_printf(title_template, label_text);
+    title_text = g_strdup_printf(title_template, _("Swap"));
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
-    label = gtk_label_new (label_text);
-    g_free(label_text);
-    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 7, 1);
+    gtk_grid_attach (GTK_GRID (table), color_picker, 2, 0, 1, 2);
 
-    gtk_grid_attach (GTK_GRID (grid),
-                      load_graph_get_labels(mem_graph)->swap,
-                      1, 1, 1, 1);
+    label = load_graph_get_labels(mem_graph)->swap;
+    gtk_label_set_xalign(GTK_LABEL(label), 0);
+    gtk_grid_attach (GTK_GRID (table), label, 3, 1, 1, 1);
 
     procdata->mem_graph = mem_graph;
 
     /* The net box */
-    net_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
-    gtk_box_pack_start (GTK_BOX (vbox), net_box, TRUE, TRUE, 0);
-
-    label = make_title_label (_("Network History"));
-    gtk_box_pack_start (GTK_BOX (net_box), label, FALSE, FALSE, 0);
-
-    net_graph_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 6);
-    gtk_box_pack_start (GTK_BOX (net_box), net_graph_box, TRUE, TRUE, 0);
+    net_graph_box = GTK_WIDGET (gtk_builder_get_object (builder, "net_graph_box"));
 
     net_graph = new LoadGraph(LOAD_GRAPH_NET);
     gtk_box_pack_start (GTK_BOX (net_graph_box),
@@ -457,106 +356,48 @@ create_sys_view (ProcData *procdata)
                         TRUE,
                         0);
 
-    hbox = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);
-    spacer = gtk_label_new ("");
-    gtk_widget_set_size_request(GTK_WIDGET(spacer), 54, -1);
-    gtk_box_pack_start (GTK_BOX (hbox), spacer,
-                        FALSE, FALSE, 0);
-
-
-    gtk_box_pack_start (GTK_BOX (net_graph_box), hbox,
-                        FALSE, FALSE, 0);
-
-    net_legend_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 10);
-    gtk_box_pack_start (GTK_BOX (hbox), net_legend_box,
-                        TRUE, TRUE, 0);
-
-    grid = gtk_grid_new ();
-    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
-    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
-    gtk_box_pack_start (GTK_BOX (net_legend_box), grid,
-                        TRUE, TRUE, 0);
-
-    label_text = g_strdup(_("Receiving"));
+    table = GTK_WIDGET (gtk_builder_get_object (builder, "net_table"));
 
     color_picker = gsm_color_button_new (
         &net_graph->colors.at(0), GSMCP_TYPE_NETWORK_IN);
     g_signal_connect (G_OBJECT (color_picker), "color_set",
                 G_CALLBACK (cb_net_in_color_changed), procdata);
-    title_text = g_strdup_printf(title_template, label_text);
+    title_text = g_strdup_printf(title_template, _("Receiving"));
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
-    label = gtk_label_new (label_text);
-    g_free(label_text);
-    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 1, 1);
+    picker_alignment = GTK_WIDGET (gtk_builder_get_object (builder, "receiving_picker_alignment"));
+    gtk_container_add (GTK_CONTAINER (picker_alignment), color_picker);
 
-    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in), 1.0);
+    label = load_graph_get_labels(net_graph)->net_in;
+    gtk_label_set_xalign(GTK_LABEL(label), 1);
+    gtk_grid_attach (GTK_GRID (table), label, 2, 0, 1, 1);
 
-    gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_in), 100, -1);
-    gtk_widget_set_hexpand (load_graph_get_labels(net_graph)->net_in, TRUE);
-    gtk_grid_attach (GTK_GRID (grid), load_graph_get_labels(net_graph)->net_in, 2, 0, 1, 1);
-
-    label = gtk_label_new (_("Total Received"));
-    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-    gtk_grid_attach (GTK_GRID (grid), label, 1, 1, 1, 1);
-
-    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_in_total), 1.0);
-    gtk_grid_attach (GTK_GRID (grid),
-                     load_graph_get_labels(net_graph)->net_in_total,
-                     2, 1, 1, 1);
-
-    spacer = gtk_label_new ("");
-    gtk_widget_set_size_request(GTK_WIDGET(spacer), 38, -1);
-    gtk_grid_attach (GTK_GRID (grid), spacer, 3, 0, 1, 1);
-
-    grid = gtk_grid_new ();
-    gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
-    gtk_grid_set_column_spacing (GTK_GRID (grid), 6);
-    gtk_box_pack_start (GTK_BOX (net_legend_box), grid,
-                        TRUE, TRUE, 0);
-
-    label_text = g_strdup(_("Sending"));
+    label = load_graph_get_labels(net_graph)->net_in_total;
+    gtk_label_set_xalign(GTK_LABEL(label), 1);
+    gtk_grid_attach (GTK_GRID (table), label, 2, 1, 1, 1);
 
     color_picker = gsm_color_button_new (
         &net_graph->colors.at(1), GSMCP_TYPE_NETWORK_OUT);
     g_signal_connect (G_OBJECT (color_picker), "color_set",
                 G_CALLBACK (cb_net_out_color_changed), procdata);
-    title_text = g_strdup_printf(title_template, label_text);
+    title_text = g_strdup_printf(title_template, _("Sending"));
     gsm_color_button_set_title(GSM_COLOR_BUTTON(color_picker), title_text);
     g_free(title_text);
-    gtk_grid_attach (GTK_GRID (grid), color_picker, 0, 0, 1, 2);
 
-    label = gtk_label_new (label_text);
-    g_free(label_text);
-    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-    gtk_grid_attach (GTK_GRID (grid), label, 1, 0, 1, 1);
+    picker_alignment = GTK_WIDGET (gtk_builder_get_object (builder, "sending_picker_alignment"));
+    gtk_container_add (GTK_CONTAINER (picker_alignment), color_picker);
 
-    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out), 1.0);
+    label = load_graph_get_labels(net_graph)->net_out;
+    gtk_label_set_xalign(GTK_LABEL(label), 0);
+    gtk_grid_attach (GTK_GRID (table), label, 6, 0, 1, 1);
 
-    gtk_widget_set_size_request(GTK_WIDGET(load_graph_get_labels(net_graph)->net_out), 100, -1);
-    gtk_widget_set_hexpand (load_graph_get_labels(net_graph)->net_out, TRUE);
-    gtk_grid_attach (GTK_GRID (grid), load_graph_get_labels(net_graph)->net_out, 2, 0, 1, 1);
-
-    label = gtk_label_new (_("Total Sent"));
-    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
-    gtk_grid_attach (GTK_GRID (grid), label, 1, 1, 1, 1);
-
-    gtk_label_set_xalign (GTK_LABEL (load_graph_get_labels(net_graph)->net_out_total), 1.0);
-    gtk_grid_attach (GTK_GRID (grid),
-                      load_graph_get_labels(net_graph)->net_out_total,
-                      2, 1, 1, 1);
-
-    spacer = gtk_label_new ("");
-    gtk_widget_set_size_request(GTK_WIDGET(spacer), 38, -1);
-    gtk_grid_attach (GTK_GRID (grid), spacer, 3, 0, 1, 1);
+    label = load_graph_get_labels(net_graph)->net_out_total;
+    gtk_label_set_xalign(GTK_LABEL(label), 1);
+    gtk_grid_attach (GTK_GRID (table), label, 6, 1, 1, 1);
 
     procdata->net_graph = net_graph;
     g_free(title_template);
-
-    return vbox;
 }
 
 static void
@@ -624,13 +465,12 @@ create_main_window (ProcData *procdata)
     GtkWidget *menubar;
     GtkWidget *main_box;
     GtkWidget *notebook;
-    GtkWidget *tab_label1, *tab_label2, *tab_label3;
-    GtkWidget *vbox1;
-    GtkWidget *sys_box, *devices_box;
-    GtkWidget *sysinfo_box, *sysinfo_label;
+    GtkBuilder *builder;
 
-    app = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-    gtk_window_set_title(GTK_WINDOW(app), _("System Monitor"));
+    builder = gtk_builder_new_from_resource("/org/mate/mate-system-monitor/interface.ui");
+
+    app = GTK_WIDGET (gtk_builder_get_object (builder, "main_window"));
+    main_box = GTK_WIDGET (gtk_builder_get_object (builder, "main_box"));
 
     GdkScreen* screen = gtk_widget_get_screen(app);
     /* use visual, if available */
@@ -638,16 +478,13 @@ create_main_window (ProcData *procdata)
     if (visual)
         gtk_widget_set_visual(app, visual);
 
-    main_box = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
-    gtk_container_add(GTK_CONTAINER(app), main_box);
-
     width = procdata->config.width;
     height = procdata->config.height;
     xpos = procdata->config.xpos;
     ypos = procdata->config.ypos;
     gtk_window_set_default_size (GTK_WINDOW (app), width, height);
     gtk_window_move(GTK_WINDOW (app), xpos, ypos);
-    gtk_window_set_resizable (GTK_WINDOW (app), TRUE);
+
     if (procdata->config.maximized) {
         gtk_window_maximize(GTK_WINDOW(app));
     }
@@ -702,28 +539,14 @@ create_main_window (ProcData *procdata)
 
     menubar = gtk_ui_manager_get_widget (procdata->uimanager, "/MenuBar");
     gtk_box_pack_start (GTK_BOX (main_box), menubar, FALSE, FALSE, 0);
-
+    gtk_box_reorder_child (GTK_BOX (main_box), menubar, 0);
 
     /* create the main notebook */
-    procdata->notebook = notebook = gtk_notebook_new ();
-    gtk_box_pack_start (GTK_BOX (main_box), notebook, TRUE, TRUE, 0);
-    gtk_container_set_border_width (GTK_CONTAINER (notebook), 12);
+    procdata->notebook = notebook = GTK_WIDGET (gtk_builder_get_object (builder, "notebook"));
 
-    sysinfo_box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0); // procman_create_sysinfo_view();
-    sysinfo_label = gtk_label_new(_("System"));
-    gtk_notebook_append_page(GTK_NOTEBOOK(notebook), sysinfo_box, sysinfo_label);
-
-    vbox1 = create_proc_view (procdata);
-    tab_label1 = gtk_label_new (_("Processes"));
-    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox1, tab_label1);
-
-    sys_box = create_sys_view (procdata);
-    tab_label2 = gtk_label_new (_("Resources"));
-    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), sys_box, tab_label2);
-
-    devices_box = create_disk_view (procdata);
-    tab_label3 = gtk_label_new (_("File Systems"));
-    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), devices_box, tab_label3);
+    create_proc_view(procdata, builder);
+    create_sys_view (procdata, builder);
+    create_disk_view (procdata, builder);
 
     g_signal_connect (G_OBJECT (notebook), "switch-page",
               G_CALLBACK (cb_switch_page), procdata);
@@ -750,8 +573,7 @@ create_main_window (ProcData *procdata)
     }
 
     /* create the statusbar */
-    procdata->statusbar = gtk_statusbar_new();
-    gtk_box_pack_start(GTK_BOX(main_box), procdata->statusbar, FALSE, FALSE, 0);
+    procdata->statusbar = GTK_WIDGET (gtk_builder_get_object (builder, "statusbar"));
     procdata->tip_message_cid = gtk_statusbar_get_context_id
         (GTK_STATUSBAR (procdata->statusbar), "tip_message");
 
@@ -759,8 +581,12 @@ create_main_window (ProcData *procdata)
     gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (action),
                       procdata->config.show_tree);
 
+    gtk_builder_connect_signals (builder, NULL);
+
     gtk_widget_show_all(app);
     procdata->app = app;
+
+    g_object_unref (G_OBJECT (builder));
 }
 
 void

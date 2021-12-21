@@ -86,6 +86,7 @@ CLEANFILES = \
 
 EXTRA_DIST = \
 	msm.gresource.xml \
+	interface.ui \
 	preferences.ui \
 	$(gsettingsschema_in_files)
 

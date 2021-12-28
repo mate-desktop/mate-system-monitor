@@ -42,6 +42,11 @@
 #include "sysinfo.h"
 #include "gsm_color_button.h"
 
+#define INITIAL_MINIMUM_LENGTH   3
+#define INITIAL_MAXIMUM_LENGTH  12
+#define INITIAL_CSPACING         2
+#define INITIAL_RSPACING         2
+
 static void    cb_toggle_tree (GtkAction *action, gpointer data);
 static void    cb_proc_goto_tab (gint tab);
 
@@ -311,19 +316,20 @@ create_sys_view (ProcData *procdata)
     gtk_box_pack_start (GTK_BOX (cpu_graph_box), hbox,
                         FALSE, FALSE, 0);
 
-    GtkWidget* cpu_grid = gtk_grid_new();
-    gtk_grid_set_row_spacing(GTK_GRID(cpu_grid), 6);
-    gtk_grid_set_column_spacing(GTK_GRID(cpu_grid), 6);
-    gtk_grid_set_column_homogeneous(GTK_GRID(cpu_grid), TRUE);
-    gtk_box_pack_start(GTK_BOX(hbox), cpu_grid, TRUE, TRUE, 0);
+    GtkWidget* flowbox = gtk_flow_box_new ();
+    gtk_widget_set_halign (flowbox, GTK_ALIGN_FILL);
+    gtk_widget_set_valign (flowbox, GTK_ALIGN_START);
+    gtk_flow_box_set_column_spacing (GTK_FLOW_BOX (flowbox), INITIAL_CSPACING);
+    gtk_flow_box_set_row_spacing (GTK_FLOW_BOX (flowbox), INITIAL_RSPACING);
+    gtk_flow_box_set_min_children_per_line (GTK_FLOW_BOX (flowbox), INITIAL_MINIMUM_LENGTH);
+    gtk_flow_box_set_max_children_per_line (GTK_FLOW_BOX (flowbox), INITIAL_MAXIMUM_LENGTH);
+    gtk_box_pack_start(GTK_BOX(hbox), flowbox, TRUE, TRUE, 0);
 
     for (i=0;i<procdata->config.num_cpus; i++) {
         GtkWidget *temp_hbox;
 
         temp_hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 0);
-        gtk_widget_set_hexpand (temp_hbox, TRUE);
-        gtk_grid_attach(GTK_GRID(cpu_grid), temp_hbox,
-                        i % 4, i / 4, 1, 1);
+        gtk_container_add (GTK_CONTAINER (flowbox), temp_hbox);
 
         color_picker = gsm_color_button_new (&cpu_graph->colors.at(i), GSMCP_TYPE_CPU);
         g_signal_connect (G_OBJECT (color_picker), "color_set",
@@ -343,6 +349,7 @@ create_sys_view (ProcData *procdata)
         g_free (label_text);
 
         cpu_label = gtk_label_new (NULL);
+        gtk_label_set_width_chars (GTK_LABEL (cpu_label), 7);
         gtk_label_set_xalign (GTK_LABEL (cpu_label), 0.0);
 
         gtk_box_pack_start (GTK_BOX (temp_hbox), cpu_label, TRUE, TRUE, 0);

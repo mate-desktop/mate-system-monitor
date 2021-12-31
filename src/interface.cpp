@@ -323,6 +323,7 @@ create_sys_view (ProcData *procdata)
     gtk_flow_box_set_row_spacing (GTK_FLOW_BOX (flowbox), INITIAL_RSPACING);
     gtk_flow_box_set_min_children_per_line (GTK_FLOW_BOX (flowbox), INITIAL_MINIMUM_LENGTH);
     gtk_flow_box_set_max_children_per_line (GTK_FLOW_BOX (flowbox), INITIAL_MAXIMUM_LENGTH);
+    gtk_flow_box_set_selection_mode (GTK_FLOW_BOX (flowbox), GTK_SELECTION_NONE);
     gtk_box_pack_start(GTK_BOX(hbox), flowbox, TRUE, TRUE, 0);
 
     for (i=0;i<procdata->config.num_cpus; i++) {

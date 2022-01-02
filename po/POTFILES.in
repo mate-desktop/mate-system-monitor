@@ -15,6 +15,7 @@ src/lsof.cpp
 src/memmaps.cpp
 src/openfiles.cpp
 src/org.mate.system-monitor.gschema.xml.in
+src/preferences.ui
 src/procactions.cpp
 src/procdialogs.cpp
 src/procman.cpp

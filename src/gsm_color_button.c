@@ -505,9 +505,9 @@ gsm_color_button_drag_data_received (GtkWidget * widget,
 
     dropped = (guint16 *) gtk_selection_data_get_data (selection_data);
 
-    priv->color.red = dropped[0];
-    priv->color.green = dropped[1];
-    priv->color.blue = dropped[2];
+    priv->color.red =   ((double) dropped[0]) / 65535.0;
+    priv->color.green = ((double) dropped[1]) / 65535.0;
+    priv->color.blue =  ((double) dropped[2]) / 65535.0;
 
     gtk_widget_queue_draw (GTK_WIDGET(color_button));
 
@@ -560,9 +560,9 @@ gsm_color_button_drag_data_get (GtkWidget * widget,
 
     priv = gsm_color_button_get_instance_private (color_button);
 
-    dropped[0] = priv->color.red;
-    dropped[1] = priv->color.green;
-    dropped[2] = priv->color.blue;
+    dropped[0] = (guint16) (65535.0 * priv->color.red);
+    dropped[1] = (guint16) (65535.0 * priv->color.green);
+    dropped[2] = (guint16) (65535.0 * priv->color.blue);
     dropped[3] = 65535;        // This widget doesn't care about alpha
 
     gtk_selection_data_set (selection_data, gtk_selection_data_get_target (selection_data),

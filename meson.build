@@ -3,7 +3,7 @@ project('mate-system-monitor',
   default_options : [
     'c_std=c11', 'cpp_std=c++11', 'warning_level=3'
   ],
-  version: '1.26.0',
+  version: '1.27.0',
   url: 'https://mate-desktop.org',
   meson_version: '>=0.50.0',
 )

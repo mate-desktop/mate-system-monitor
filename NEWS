@@ -1,3 +1,20 @@
+### mate-system-monitor 1.27.0
+
+  * tx: sync with transifex
+  * tx: update resource
+  * tx: migrate config file
+  * gsm_color_button: Fix -Wfloat-conversion warning
+  * msm_execute_helper: Fix -Wsign-conversion warning
+  * ci: drop -Wunused-parameter compiler cflag from debian build
+  * tx: update resource
+  * Add ui files in POTFILES.in
+  * port interface to ui files
+  * interface: use a flowbox instead of a grid for CPUs usage container
+  * memmaps: fix warning -Wmisleading-indentation
+  * Use a blank line at most
+  * Add meson build support
+  * Fix Information Fields not being saved
+
 ### mate-system-monitor 1.26.0
 
   * Translations update

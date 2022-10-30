@@ -6,31 +6,31 @@
 # Translators:
 # Luis Filipe Teixeira <lufilte@gmail.com>, 2018
 # Manel Tinoco <maneltinoco@gmail.com>, 2018
-# Carlos Moreira, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# fc2d9c36d73e741383fbbf46a4aac49f_013445b, 2018
 # ogalho Carlos Dias Martins <ogalho@gmail.com>, 2018
 # Diogo Oliveira <diogodesigns@gmail.com>, 2018
 # Rui <xymarior@yandex.com>, 2019
-# Sérgio Marques <smarquespt@gmail.com>, 2019
 # Manuela Silva <mmsrs@sky.com>, 2019
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2019
 # Guilherme Campos <guilhermemiguel97@hotmail.com>, 2020
-# José Vieira <jvieira33@sapo.pt>, 2021
+# Sérgio Marques <smarquespt@gmail.com>, 2022
+# fc2d9c36d73e741383fbbf46a4aac49f_013445b, 2022
+# Carlos Moreira, 2022
+# José Vieira <jvieira33@sapo.pt>, 2022
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: José Vieira <jvieira33@sapo.pt>, 2021\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2022\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -38,7 +38,7 @@ msgstr "Monitor do Sistema MATE"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Um processo e monitor de recursos do Ambiente de Trabalho MATE"
+msgstr "Um monitor de processos e recursos para o Ambiente de trabalho MATE"
 
 #: mate-system-monitor.appdata.xml.in:10
 msgid ""
@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 "O Monitor de Sistema do MATE permite a visualização gráfica e a manipulação "
 "dos processos em execução no sistema. Também dá uma panorâmica dos recursos "
-"de CPU e de memória disponíveis. "
+"da CPU e de memória disponíveis. "
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -57,11 +57,11 @@ msgid ""
 "Monitor, please visit the project's home page."
 msgstr ""
 "O Monitor de Sistema do MATE é um derivado do Monitor de Sistema do GNOME e "
-"faz parte do Ambiente de Trabalho MATE. Para saber mais sobre o MATE e sobre"
-" o Monitor de Sistema, visitar o sítio web do projecto."
+"faz parte do Ambiente de trabalho MATE. Para saber mais sobre o MATE e sobre"
+" o Monitor de Sistema, visite o sítio web do projecto."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
-#: src/interface.cpp:626
+#: src/interface.ui:7
 msgid "System Monitor"
 msgstr "Monitor do Sistema"
 
@@ -73,7 +73,7 @@ msgstr "Ver os processos atuais e monitorizar o estado do sistema"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr "MATE;sistema;monitor;processo;lisat;panorâmica;atual;recursos;"
+msgstr "MATE;sistema;monitor;processo;lista;panorâmica;atual;recursos;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -106,7 +106,7 @@ msgstr "Mostrar o separador dos Recursos"
 
 #: src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr "Mostrar o separador dos Sistemas de Ficheiro"
+msgstr "Mostrar o separador dos Sistemas de Ficheiros"
 
 #: src/callbacks.cpp:211
 msgid ""
@@ -154,83 +154,83 @@ msgid ""
 msgstr ""
 "Direitos de Autor © 2001-2004 Kevin Vandersloot\n"
 "Direitos de Autor © 2005-2007 Benoît Dejean\n"
-"Direitos de Autor © 2011-2020 Desenvolvedores do MATE"
+"Direitos de Autor © 2011-2020 Programadores do MATE"
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
-msgstr "Hugo Carvalho <hugokarvalho@gmail.com>"
+msgstr "Hugo Carvalho <hugokarvalho@hotmail.com>"
 
-#: src/disks.cpp:405 src/memmaps.cpp:327
+#: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Dispositivo"
 
-#: src/disks.cpp:406
+#: src/disks.cpp:405
 msgid "Directory"
-msgstr "Diretoria"
+msgstr "Diretório"
 
-#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
 msgstr "Tipo"
 
-#: src/disks.cpp:408
+#: src/disks.cpp:407
 msgid "SubVolume"
 msgstr "SubVolume"
 
-#: src/disks.cpp:409
+#: src/disks.cpp:408
 msgid "Total"
 msgstr "Total"
 
-#: src/disks.cpp:410
+#: src/disks.cpp:409
 msgid "Free"
 msgstr "Livre"
 
-#: src/disks.cpp:411
+#: src/disks.cpp:410
 msgid "Available"
 msgstr "Disponível"
 
-#: src/disks.cpp:412
+#: src/disks.cpp:411
 msgid "Used"
 msgstr "Utilizado"
 
-#: src/gsm_color_button.c:156
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "Fração"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "Percentagem cheia para os seletores de cor circulares"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "Título"
 
-#: src/gsm_color_button.c:166
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "O título do diálogo de seleção da cor"
 
-#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
-msgstr "Escolha uma Cor"
+msgstr "Escolha uma cor"
+
+#: src/gsm_color_button.c:172
+msgid "Current Color"
+msgstr "Cor atual"
 
 #: src/gsm_color_button.c:173
-msgid "Current Color"
-msgstr "Cor Atual"
-
-#: src/gsm_color_button.c:174
 msgid "The selected color"
 msgstr "A cor selecionada"
 
-#: src/gsm_color_button.c:181
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr "Tipo de seletor de cores"
 
-#: src/gsm_color_button.c:505
+#: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
 msgstr "Dados inválidos de cor recebidos\n"
 
-#: src/gsm_color_button.c:614
+#: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
 msgstr "Clique para definir as cores do gráfico"
 
@@ -289,6 +289,7 @@ msgid "_End Process"
 msgid_plural "_End Processes"
 msgstr[0] "_Terminar Processo"
 msgstr[1] "_Terminar Processos"
+msgstr[2] "_Terminar Processos"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -299,6 +300,7 @@ msgid "_Kill Process"
 msgid_plural "_Kill Processes"
 msgstr[0] "_Aniquilar Processo"
 msgstr[1] "_Aniquilar Processos"
+msgstr[2] "_Aniquilar Processos"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -449,76 +451,80 @@ msgstr "Personalizado"
 msgid "Set process priority manually"
 msgstr "Define a prioridade do processo manualmente"
 
-#: src/interface.cpp:232
-msgid "End _Process"
-msgstr "Finalizar _processo"
-
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:280
+#: src/interface.cpp:259
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Escolhe uma cor para '%s'"
 
-#: src/interface.cpp:291
-msgid "CPU History"
-msgstr "Histórico do CPU"
-
-#: src/interface.cpp:334 src/procproperties.cpp:153
+#: src/interface.cpp:287 src/procproperties.cpp:153
 msgid "CPU"
-msgstr "UCP"
+msgstr "CPU"
 
-#: src/interface.cpp:336
+#: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
 msgstr "CPU %d"
 
-#: src/interface.cpp:358
-msgid "Memory and Swap History"
-msgstr "Histórico de Memória e Troca"
-
-#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
 msgid "Memory"
 msgstr "Memória"
 
-#: src/interface.cpp:416
+#: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
 msgstr "Swap"
 
-#: src/interface.cpp:440
-msgid "Network History"
-msgstr "Histórico de rede"
-
-#: src/interface.cpp:473
+#: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
 msgstr "Recebidos"
 
-#: src/interface.cpp:495
-msgid "Total Received"
-msgstr "Total recebido"
-
-#: src/interface.cpp:514
+#: src/interface.cpp:384
 msgid "Sending"
 msgstr "Enviados"
 
-#: src/interface.cpp:536
-msgid "Total Sent"
-msgstr "Total enviado"
-
-#. procman_create_sysinfo_view();
-#: src/interface.cpp:706
+#: src/interface.ui:45
 msgid "System"
 msgstr "Sistema"
 
-#: src/interface.cpp:710
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "Finalizar _processo"
+
+#: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
 msgstr "Processos"
 
-#: src/interface.cpp:714
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "Histórico da CPU"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "Histórico de Memória e Swap"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "Histórico de Rede"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "Total recebido"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr "Enviado"
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "Total enviado"
+
+#: src/interface.ui:482 src/preferences.ui:437
 msgid "Resources"
 msgstr "Recursos"
 
-#: src/interface.cpp:718
+#: src/interface.ui:522 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Sistemas de Ficheiros"
 
@@ -528,6 +534,7 @@ msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] "%u segundo"
 msgstr[1] "%u segundos"
+msgstr[2] "%u segundos"
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -711,7 +718,7 @@ msgstr "Mostrar processos dependentes em árvore"
 
 #: src/org.mate.system-monitor.gschema.xml.in:18
 msgid "Solaris mode for CPU percentage"
-msgstr "Modo Solaris para percentagem do CPU"
+msgstr "Modo Solaris para percentagem da CPU"
 
 #: src/org.mate.system-monitor.gschema.xml.in:19
 msgid ""
@@ -720,7 +727,7 @@ msgid ""
 "mode'."
 msgstr ""
 "Se VERDADEIRO, o monitor de sistema age em 'modo Solaris' onde um uso de "
-"processo do CPU é dividido pelo total de número de CPU's. Por outro lado, "
+"processo da CPU é dividido pelo total de número de CPU's. Por outro lado, "
 "ele age em 'modo Irix'."
 
 #: src/org.mate.system-monitor.gschema.xml.in:23
@@ -810,11 +817,11 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:177
 #: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
-msgstr "Cor padrão do gráfico do CPU"
+msgstr "Cor padrão do gráfico da CPU"
 
 #: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
-msgstr "Cor CPU do gráfico padrão"
+msgstr "Cor padrão do gráfico da CPU"
 
 #: src/org.mate.system-monitor.gschema.xml.in:185
 msgid "Default graph memory color"
@@ -822,7 +829,7 @@ msgstr "Cor padrão do gráfico de memória"
 
 #: src/org.mate.system-monitor.gschema.xml.in:189
 msgid "Default graph swap color"
-msgstr "Cor Swap do gráfico padrão"
+msgstr "Cor padrão do gráfico Swap"
 
 #: src/org.mate.system-monitor.gschema.xml.in:193
 msgid "Default graph incoming network traffic color"
@@ -1156,6 +1163,54 @@ msgstr "Coluna de classificação de ficheiros abertos"
 msgid "Open files sort order"
 msgstr "Ordem de classificação de ficheiros abertos"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Preferências do Monitor de Sistema"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Intervalo de atualização em segundos:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Ativar atualização _suave"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Alerta antes de fechar ou _terminar os processos"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Dividir a utilização da CPU pelas unidades da CPU"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Campos de informação"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformação do processo mostrada na lista:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Gráfico"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Mostrar a velocidade da rede em bits"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Mostrar _todos os sistemas de ficheiros"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformação do sistema de ficheiros mostrada na lista:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1255,82 +1310,82 @@ msgstr ""
 msgid "Icon"
 msgstr "Ícone"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "Nome do Processo"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
 msgstr "Utilizador"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
 msgstr "Estado"
 
-#: src/proctable.cpp:257 src/procproperties.cpp:144
+#: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "Memória virtual"
 
-#: src/proctable.cpp:258 src/procproperties.cpp:145
+#: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Memória residente"
 
-#: src/proctable.cpp:259 src/procproperties.cpp:146
+#: src/proctable.cpp:258 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "Memória para Escrita"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:147
+#: src/proctable.cpp:259 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "Memória partilhada"
 
-#: src/proctable.cpp:261 src/procproperties.cpp:149
+#: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "Memória do servidor X"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:261
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: src/proctable.cpp:263 src/procproperties.cpp:154
+#: src/proctable.cpp:262 src/procproperties.cpp:154
 msgid "CPU Time"
-msgstr "Hora do CPU"
+msgstr "Hora da CPU"
 
-#: src/proctable.cpp:264 src/procproperties.cpp:155
+#: src/proctable.cpp:263 src/procproperties.cpp:155
 msgid "Started"
 msgstr "Iniciado"
 
-#: src/proctable.cpp:265 src/procproperties.cpp:156
+#: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Prioridade"
 
-#: src/proctable.cpp:266 src/procproperties.cpp:158
+#: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
 msgstr "ID."
 
-#: src/proctable.cpp:267 src/procproperties.cpp:159
+#: src/proctable.cpp:266 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "Segurança"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:160
+#: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "Linha de Comando"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:271 src/procproperties.cpp:161
+#: src/proctable.cpp:270 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "À espera do canal"
 
-#: src/proctable.cpp:272 src/procproperties.cpp:162
+#: src/proctable.cpp:271 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "Grupo de Controlo"
 
-#: src/proctable.cpp:273
+#: src/proctable.cpp:272
 msgid "Unit"
 msgstr "Unidade"
 
-#: src/proctable.cpp:274
+#: src/proctable.cpp:273
 msgid "Session"
 msgstr "Sessão"
 
@@ -1338,35 +1393,35 @@ msgstr "Sessão"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:277
+#: src/proctable.cpp:276
 msgid "Seat"
 msgstr "Seat"
 
-#: src/proctable.cpp:278
+#: src/proctable.cpp:277
 msgid "Owner"
 msgstr "Proprietário"
 
-#: src/proctable.cpp:279 src/procproperties.cpp:151
+#: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
 msgstr "Leitura de Disco, Total"
 
-#: src/proctable.cpp:280 src/procproperties.cpp:152
+#: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
 msgstr "Escrita no Disco, Total"
 
-#: src/proctable.cpp:281
+#: src/proctable.cpp:280
 msgid "Disk Read"
 msgstr "Leitura de Disco"
 
-#: src/proctable.cpp:282
+#: src/proctable.cpp:281
 msgid "Disk Write"
 msgstr "Escrita no Disco"
 
-#: src/proctable.cpp:283 src/procproperties.cpp:157
+#: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "Prioridade"
 
-#: src/proctable.cpp:1188
+#: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Médias de carga dos últimos 1, 5, 15 minutos: %0.2f, %0.2f, %0.2f"

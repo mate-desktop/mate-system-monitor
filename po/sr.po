@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2022\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +50,7 @@ msgstr ""
 "система, посетите матичну страницу пројекта."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
-#: src/interface.cpp:626
+#: src/interface.ui:7
 msgid "System Monitor"
 msgstr "Праћење система"
 
@@ -149,77 +149,77 @@ msgstr ""
 msgid "translator-credits"
 msgstr "Мирослав Николић <miroslavnikolic@rocketmail.com>"
 
-#: src/disks.cpp:405 src/memmaps.cpp:327
+#: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Уређај"
 
-#: src/disks.cpp:406
+#: src/disks.cpp:405
 msgid "Directory"
 msgstr "Директоријум"
 
-#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
 msgstr "Врста"
 
-#: src/disks.cpp:408
+#: src/disks.cpp:407
 msgid "SubVolume"
 msgstr "Садржани волумен"
 
-#: src/disks.cpp:409
+#: src/disks.cpp:408
 msgid "Total"
 msgstr "Укупно"
 
-#: src/disks.cpp:410
+#: src/disks.cpp:409
 msgid "Free"
 msgstr "Слободно"
 
-#: src/disks.cpp:411
+#: src/disks.cpp:410
 msgid "Available"
 msgstr "Расположиво"
 
-#: src/disks.cpp:412
+#: src/disks.cpp:411
 msgid "Used"
 msgstr "Заузето"
 
-#: src/gsm_color_button.c:156
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "Део"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "Проценат испуњености за бираче боја пите"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "Наслов"
 
-#: src/gsm_color_button.c:166
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "Наслов прозорчета за избор боје"
 
-#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
 msgstr "Изаберите боју"
 
-#: src/gsm_color_button.c:173
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr "Тренутна боја"
 
-#: src/gsm_color_button.c:174
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr "Изабрана боја"
 
-#: src/gsm_color_button.c:181
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr "Врста изборника боје"
 
-#: src/gsm_color_button.c:505
+#: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
 msgstr "Примио сам неисправне податке боје\n"
 
-#: src/gsm_color_button.c:614
+#: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
 msgstr "Кликните да поставите боје графика"
 
@@ -440,76 +440,80 @@ msgstr "Произвољна"
 msgid "Set process priority manually"
 msgstr "Поставите важност процеса на произвољну"
 
-#: src/interface.cpp:232
-msgid "End _Process"
-msgstr "_Окончај процес"
-
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:280
+#: src/interface.cpp:259
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Изаберите боју за „%s“"
 
-#: src/interface.cpp:291
-msgid "CPU History"
-msgstr "Временски дијаграм процесора"
-
-#: src/interface.cpp:334 src/procproperties.cpp:153
+#: src/interface.cpp:287 src/procproperties.cpp:153
 msgid "CPU"
 msgstr "Процесор"
 
-#: src/interface.cpp:336
+#: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
 msgstr "Процесор %d"
 
-#: src/interface.cpp:358
-msgid "Memory and Swap History"
-msgstr "Временски дијаграм оперативне и виртуелне меморије"
-
-#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
 msgid "Memory"
 msgstr "Оперативна меморија"
 
-#: src/interface.cpp:416
+#: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
 msgstr "Виртуелна меморија"
 
-#: src/interface.cpp:440
-msgid "Network History"
-msgstr "Временски дијаграм мрежног саобраћаја"
-
-#: src/interface.cpp:473
+#: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
 msgstr "Брзина примања"
 
-#: src/interface.cpp:495
-msgid "Total Received"
-msgstr "Укупно је примљено"
-
-#: src/interface.cpp:514
+#: src/interface.cpp:384
 msgid "Sending"
 msgstr "Брзина слања"
 
-#: src/interface.cpp:536
-msgid "Total Sent"
-msgstr "Укупно је послато"
-
-#. procman_create_sysinfo_view();
-#: src/interface.cpp:706
+#: src/interface.ui:45
 msgid "System"
 msgstr "Систем"
 
-#: src/interface.cpp:710
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "_Окончај процес"
+
+#: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
 msgstr "Процеси"
 
-#: src/interface.cpp:714
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "Временски дијаграм процесора"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "Временски дијаграм оперативне и виртуелне меморије"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "Временски дијаграм мрежног саобраћаја"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "Укупно је примљено"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr "Послато"
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "Укупно је послато"
+
+#: src/interface.ui:482 src/preferences.ui:437
 msgid "Resources"
 msgstr "Ресурси"
 
-#: src/interface.cpp:718
+#: src/interface.ui:522 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Системи датотека"
 
@@ -1148,6 +1152,54 @@ msgstr "Колона поретка отворених датотека"
 msgid "Open files sort order"
 msgstr "Редослед ређања отворених датотека"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Поставке праћења система"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Понашање"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Период _освежавања (у секундама):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Укључи прецизно, _меко освежавање"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Прикажи упозорење пре _окончавања или убијања процеса"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Подели искоришћење процесора бројем процесора"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Поља са подацима"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Подаци о _процесима приказани у списку:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Графици"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Прикажи брзину мреже у битима"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Прикажи _све системе датотека"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Подаци о систему _датотека приказани на списку:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1249,82 +1301,82 @@ msgstr ""
 msgid "Icon"
 msgstr "Иконица"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "Назив процеса"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
 msgstr "Корисник"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
 msgstr "Стање"
 
-#: src/proctable.cpp:257 src/procproperties.cpp:144
+#: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "Виртуелна меморија"
 
-#: src/proctable.cpp:258 src/procproperties.cpp:145
+#: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Преостала меморија"
 
-#: src/proctable.cpp:259 src/procproperties.cpp:146
+#: src/proctable.cpp:258 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "Уписива меморија"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:147
+#: src/proctable.cpp:259 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "Дељена меморија"
 
-#: src/proctable.cpp:261 src/procproperties.cpp:149
+#: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "Меморија Икс сервера"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:261
 #, no-c-format
 msgid "% CPU"
 msgstr "Заузеће процесора — %"
 
-#: src/proctable.cpp:263 src/procproperties.cpp:154
+#: src/proctable.cpp:262 src/procproperties.cpp:154
 msgid "CPU Time"
 msgstr "Време рада"
 
-#: src/proctable.cpp:264 src/procproperties.cpp:155
+#: src/proctable.cpp:263 src/procproperties.cpp:155
 msgid "Started"
 msgstr "Покренут"
 
-#: src/proctable.cpp:265 src/procproperties.cpp:156
+#: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Важност"
 
-#: src/proctable.cpp:266 src/procproperties.cpp:158
+#: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
 msgstr "ИБ"
 
-#: src/proctable.cpp:267 src/procproperties.cpp:159
+#: src/proctable.cpp:266 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "Безбедносни контекст"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:160
+#: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "Линија наредби"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:271 src/procproperties.cpp:161
+#: src/proctable.cpp:270 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "Канал чекања"
 
-#: src/proctable.cpp:272 src/procproperties.cpp:162
+#: src/proctable.cpp:271 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "Управљачка група"
 
-#: src/proctable.cpp:273
+#: src/proctable.cpp:272
 msgid "Unit"
 msgstr "Јединица"
 
-#: src/proctable.cpp:274
+#: src/proctable.cpp:273
 msgid "Session"
 msgstr "Сесија"
 
@@ -1332,35 +1384,35 @@ msgstr "Сесија"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:277
+#: src/proctable.cpp:276
 msgid "Seat"
 msgstr "Смештај"
 
-#: src/proctable.cpp:278
+#: src/proctable.cpp:277
 msgid "Owner"
 msgstr "Власник"
 
-#: src/proctable.cpp:279 src/procproperties.cpp:151
+#: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
 msgstr "Укупно читање диска"
 
-#: src/proctable.cpp:280 src/procproperties.cpp:152
+#: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
 msgstr "Укупно писање диска"
 
-#: src/proctable.cpp:281
+#: src/proctable.cpp:280
 msgid "Disk Read"
 msgstr "Читање диска"
 
-#: src/proctable.cpp:282
+#: src/proctable.cpp:281
 msgid "Disk Write"
 msgstr "Писање диска"
 
-#: src/proctable.cpp:283 src/procproperties.cpp:157
+#: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "Важност"
 
-#: src/proctable.cpp:1188
+#: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Просечно оптерећење у последњих 1, 5 и 15 минута: %0.2f, %0.2f, %0.2f"

@@ -4,21 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pavol Šimo <palo.simo@gmail.com>, 2018
 # 32442f8bc5cc500b59f161d95078a28a_525ed04, 2018
 # Tibor Kaputa <tibbbi2@gmail.com>, 2018
 # Erik Bročko <erik.brocko@letemsvetemapplem.eu>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2020
 # Dušan Kazik <prescott66@gmail.com>, 2020
+# Pavol Šimo <palo.simo@gmail.com>, 2022
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Dušan Kazik <prescott66@gmail.com>, 2020\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
 "Language-Team: Slovak (https://www.transifex.com/mate/teams/13566/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
-#: src/interface.cpp:626
+#: src/interface.ui:7
 msgid "System Monitor"
 msgstr "Monitor systému"
 
@@ -142,77 +142,77 @@ msgstr ""
 "Dušan Kazik <prescott66@gmail.com>\n"
 "Ján Ďanovský <dagsoftware@yahoo.com>"
 
-#: src/disks.cpp:405 src/memmaps.cpp:327
+#: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Zariadenie"
 
-#: src/disks.cpp:406
+#: src/disks.cpp:405
 msgid "Directory"
 msgstr "Priečinok"
 
-#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
 msgstr "Typ"
 
-#: src/disks.cpp:408
+#: src/disks.cpp:407
 msgid "SubVolume"
 msgstr ""
 
-#: src/disks.cpp:409
+#: src/disks.cpp:408
 msgid "Total"
 msgstr "Celkom"
 
-#: src/disks.cpp:410
+#: src/disks.cpp:409
 msgid "Free"
 msgstr "Voľné"
 
-#: src/disks.cpp:411
+#: src/disks.cpp:410
 msgid "Available"
 msgstr "Dostupné"
 
-#: src/disks.cpp:412
+#: src/disks.cpp:411
 msgid "Used"
 msgstr "Využité"
 
-#: src/gsm_color_button.c:156
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "Podiel"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "Farba položky v koláči"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "Názov"
 
-#: src/gsm_color_button.c:166
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "Titulok dialógu „Výber farby“"
 
-#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
 msgstr "Zvoľte farbu"
 
-#: src/gsm_color_button.c:173
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr "Súčasná farba"
 
-#: src/gsm_color_button.c:174
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr "Vybraná farba"
 
-#: src/gsm_color_button.c:181
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr "Typ výberu farby"
 
-#: src/gsm_color_button.c:505
+#: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
 msgstr "Bol prijatý neplatný údaj o farbe\n"
 
-#: src/gsm_color_button.c:614
+#: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
 msgstr "Kliknite pre nastavenie farby grafov"
 
@@ -435,76 +435,80 @@ msgstr "Vlastná"
 msgid "Set process priority manually"
 msgstr "Nastaviť prioritu procesu ručne"
 
-#: src/interface.cpp:232
-msgid "End _Process"
-msgstr "U_končiť proces"
-
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:280
+#: src/interface.cpp:259
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Vyberte farbu pre „%s“"
 
-#: src/interface.cpp:291
-msgid "CPU History"
-msgstr "História využitia procesora"
-
-#: src/interface.cpp:334 src/procproperties.cpp:153
+#: src/interface.cpp:287 src/procproperties.cpp:153
 msgid "CPU"
 msgstr "Procesor"
 
-#: src/interface.cpp:336
+#: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
 msgstr "Procesor č. %d"
 
-#: src/interface.cpp:358
-msgid "Memory and Swap History"
-msgstr "História využitia pamäte a odkladacieho priestoru"
-
-#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
 msgid "Memory"
 msgstr "Pamäť"
 
-#: src/interface.cpp:416
+#: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
 msgstr "Odkladací priestor"
 
-#: src/interface.cpp:440
-msgid "Network History"
-msgstr "História siete"
-
-#: src/interface.cpp:473
+#: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
 msgstr "Prijímanie"
 
-#: src/interface.cpp:495
-msgid "Total Received"
-msgstr "Spolu prijatých"
-
-#: src/interface.cpp:514
+#: src/interface.cpp:384
 msgid "Sending"
 msgstr "Posielanie"
 
-#: src/interface.cpp:536
-msgid "Total Sent"
-msgstr "Spolu poslaných"
-
-#. procman_create_sysinfo_view();
-#: src/interface.cpp:706
+#: src/interface.ui:45
 msgid "System"
 msgstr "Systém"
 
-#: src/interface.cpp:710
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "U_končiť proces"
+
+#: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
 msgstr "Procesy"
 
-#: src/interface.cpp:714
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "História využitia procesora"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "História využitia pamäte a odkladacieho priestoru"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "História siete"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "Spolu prijatých"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr ""
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "Spolu poslaných"
+
+#: src/interface.ui:482 src/preferences.ui:437
 msgid "Resources"
 msgstr "Prostriedky"
 
-#: src/interface.cpp:718
+#: src/interface.ui:522 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Súborové systémy"
 
@@ -1143,6 +1147,54 @@ msgstr "Zoradenie stĺpca s otvorenými súbormi"
 msgid "Open files sort order"
 msgstr "Zoradenie otvorených súborov"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Nastavenia monitora systému"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Správanie"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Interval aktualizácie v sekundách:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Povoliť _vyhladené obnovovanie"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Varovať pred ukončením alebo za_bitím procesov"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Polia s informáciami"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformácie o procesoch zobrazené v zozname:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafy"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "_Zobraziť všetky súborové systémy"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformácie o súborových systémoch zobrazené v zozname:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1243,82 +1295,82 @@ msgstr ""
 msgid "Icon"
 msgstr "Ikona"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "Názov procesu"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
 msgstr "Používateľ"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
 msgstr "Stav"
 
-#: src/proctable.cpp:257 src/procproperties.cpp:144
+#: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "Virtuálna pamäť"
 
-#: src/proctable.cpp:258 src/procproperties.cpp:145
+#: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Rezidentná pamäť"
 
-#: src/proctable.cpp:259 src/procproperties.cpp:146
+#: src/proctable.cpp:258 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "Zapisovateľná pamäť"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:147
+#: src/proctable.cpp:259 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "Zdieľaná pamäť"
 
-#: src/proctable.cpp:261 src/procproperties.cpp:149
+#: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "Pamäť X servera"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:261
 #, no-c-format
 msgid "% CPU"
 msgstr "% procesora"
 
-#: src/proctable.cpp:263 src/procproperties.cpp:154
+#: src/proctable.cpp:262 src/procproperties.cpp:154
 msgid "CPU Time"
 msgstr "Čas procesora"
 
-#: src/proctable.cpp:264 src/procproperties.cpp:155
+#: src/proctable.cpp:263 src/procproperties.cpp:155
 msgid "Started"
 msgstr "Začaté"
 
-#: src/proctable.cpp:265 src/procproperties.cpp:156
+#: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Priorita"
 
-#: src/proctable.cpp:266 src/procproperties.cpp:158
+#: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
 msgstr "ID"
 
-#: src/proctable.cpp:267 src/procproperties.cpp:159
+#: src/proctable.cpp:266 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "Bezpečnostný kontext"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:160
+#: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "Príkazový riadok"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:271 src/procproperties.cpp:161
+#: src/proctable.cpp:270 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "Čakací kanál"
 
-#: src/proctable.cpp:272 src/procproperties.cpp:162
+#: src/proctable.cpp:271 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "Kontrolná skupina"
 
-#: src/proctable.cpp:273
+#: src/proctable.cpp:272
 msgid "Unit"
 msgstr "Jednotka"
 
-#: src/proctable.cpp:274
+#: src/proctable.cpp:273
 msgid "Session"
 msgstr "Relácia"
 
@@ -1326,35 +1378,35 @@ msgstr "Relácia"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:277
+#: src/proctable.cpp:276
 msgid "Seat"
 msgstr "Sedadlo"
 
-#: src/proctable.cpp:278
+#: src/proctable.cpp:277
 msgid "Owner"
 msgstr "Vlastník"
 
-#: src/proctable.cpp:279 src/procproperties.cpp:151
+#: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
 msgstr "Čítanie disku celkom"
 
-#: src/proctable.cpp:280 src/procproperties.cpp:152
+#: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
 msgstr "Zápis na disk celkom"
 
-#: src/proctable.cpp:281
+#: src/proctable.cpp:280
 msgid "Disk Read"
 msgstr "Čítanie disku"
 
-#: src/proctable.cpp:282
+#: src/proctable.cpp:281
 msgid "Disk Write"
 msgstr "Zápis na disk"
 
-#: src/proctable.cpp:283 src/procproperties.cpp:157
+#: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "Priorita"
 
-#: src/proctable.cpp:1188
+#: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Priemery záťaže pre posledných 1, 5, 15 minút: %0.2f, %0.2f, %0.2f"

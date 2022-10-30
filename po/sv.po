@@ -7,22 +7,22 @@
 # 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
 # Patrik Nilsson <asavartzeth@gmail.com>, 2018
 # Daniel Gullbransen, 2018
-# Kristoffer Grundström <lovaren@gmail.com>, 2018
 # cb445fb3dfd1fe3c2b9f58ac5638f478, 2018
 # efef6ec5b435a041fce803c7f8af77d2_2341d43, 2018
 # Tobias Lekare <lekare@linux.com>, 2018
 # Philip Andersen <renegadevi@codeofmagi.net>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Henrik Mattsson-Mårn <h@reglage.net>, 2019
 # Luna Jernberg <bittin@cafe8bitar.se>, 2021
+# Kristoffer Grundström <lovaren@gmail.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>, 2021\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
 "Language-Team: Swedish (https://www.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,7 +53,7 @@ msgid ""
 msgstr ""
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
-#: src/interface.cpp:626
+#: src/interface.ui:7
 msgid "System Monitor"
 msgstr "Systemövervakare"
 
@@ -137,77 +137,77 @@ msgstr ""
 msgid "translator-credits"
 msgstr "Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
 
-#: src/disks.cpp:405 src/memmaps.cpp:327
+#: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Enhet"
 
-#: src/disks.cpp:406
+#: src/disks.cpp:405
 msgid "Directory"
 msgstr "Katalog"
 
-#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
 msgstr "Typ"
 
-#: src/disks.cpp:408
+#: src/disks.cpp:407
 msgid "SubVolume"
 msgstr ""
 
-#: src/disks.cpp:409
+#: src/disks.cpp:408
 msgid "Total"
 msgstr "Totalt"
 
-#: src/disks.cpp:410
+#: src/disks.cpp:409
 msgid "Free"
 msgstr "Ledigt"
 
-#: src/disks.cpp:411
+#: src/disks.cpp:410
 msgid "Available"
 msgstr "Tillgängligt"
 
-#: src/disks.cpp:412
+#: src/disks.cpp:411
 msgid "Used"
 msgstr "Använt"
 
-#: src/gsm_color_button.c:156
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "Del"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "Procentandel full för pajfärgväljare"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "Titel"
 
-#: src/gsm_color_button.c:166
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "Titel på dialogrutan för färgval"
 
-#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
 msgstr "Välj en färg"
 
-#: src/gsm_color_button.c:173
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr "Nuvarande färg"
 
-#: src/gsm_color_button.c:174
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr "Vald färg"
 
-#: src/gsm_color_button.c:181
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr "Typ av färgväljare"
 
-#: src/gsm_color_button.c:505
+#: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
 msgstr "Tog emot ogiltig färgdata\n"
 
-#: src/gsm_color_button.c:614
+#: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
 msgstr "Klicka för att ange diagramfärger"
 
@@ -426,76 +426,80 @@ msgstr "Anpassad"
 msgid "Set process priority manually"
 msgstr "Ställ in process-prioriteten manuellt"
 
-#: src/interface.cpp:232
-msgid "End _Process"
-msgstr "Avsluta _process"
-
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:280
+#: src/interface.cpp:259
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Välj en färg för '%s'"
 
-#: src/interface.cpp:291
-msgid "CPU History"
-msgstr "Processorhistorik"
-
-#: src/interface.cpp:334 src/procproperties.cpp:153
+#: src/interface.cpp:287 src/procproperties.cpp:153
 msgid "CPU"
 msgstr "Processor"
 
-#: src/interface.cpp:336
+#: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
 msgstr "Processor%d"
 
-#: src/interface.cpp:358
-msgid "Memory and Swap History"
-msgstr "Historik över användning av minne och växlingsutrymme"
-
-#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
 msgid "Memory"
 msgstr "Minne"
 
-#: src/interface.cpp:416
+#: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
 msgstr "Växlingsutrymme"
 
-#: src/interface.cpp:440
-msgid "Network History"
-msgstr "Nätverkshistorik"
-
-#: src/interface.cpp:473
+#: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
 msgstr "Mottaget"
 
-#: src/interface.cpp:495
-msgid "Total Received"
-msgstr "Totalt mottaget"
-
-#: src/interface.cpp:514
+#: src/interface.cpp:384
 msgid "Sending"
 msgstr "Sänt"
 
-#: src/interface.cpp:536
-msgid "Total Sent"
-msgstr "Totalt sänt"
-
-#. procman_create_sysinfo_view();
-#: src/interface.cpp:706
+#: src/interface.ui:45
 msgid "System"
 msgstr "System"
 
-#: src/interface.cpp:710
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "Avsluta _process"
+
+#: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
 msgstr "Processer"
 
-#: src/interface.cpp:714
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "Processorhistorik"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "Historik över användning av minne och växlingsutrymme"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "Nätverkshistorik"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "Totalt mottaget"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr ""
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "Totalt sänt"
+
+#: src/interface.ui:482 src/preferences.ui:437
 msgid "Resources"
 msgstr "Resurser"
 
-#: src/interface.cpp:718
+#: src/interface.ui:522 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Filsystem"
 
@@ -1131,6 +1135,54 @@ msgstr "Sorteringskolumnen för Öppna filer"
 msgid "Open files sort order"
 msgstr "Sorteringsorder för Öppna filer"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Inställningar för systemövervakaren"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Beteende"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Uppdateringsintervall i sekunder:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Aktivera _mjuk uppdatering"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Varna innan processer avslutas eller _dödas"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Informationsfält"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Processi_nformation visad i listan:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Diagram"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Visa _alla filsystem"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Filsystemsi_nformation visad i listan:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1230,82 +1282,82 @@ msgstr ""
 msgid "Icon"
 msgstr "Ikon"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "Processnamn"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
 msgstr "Användare"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
 msgstr "Status"
 
-#: src/proctable.cpp:257 src/procproperties.cpp:144
+#: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "Virtuellt minne"
 
-#: src/proctable.cpp:258 src/procproperties.cpp:145
+#: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Beständigt minne"
 
-#: src/proctable.cpp:259 src/procproperties.cpp:146
+#: src/proctable.cpp:258 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "Skrivbart minne"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:147
+#: src/proctable.cpp:259 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "Delat minne"
 
-#: src/proctable.cpp:261 src/procproperties.cpp:149
+#: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "X-serverminne"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:261
 #, no-c-format
 msgid "% CPU"
 msgstr "Processor %"
 
-#: src/proctable.cpp:263 src/procproperties.cpp:154
+#: src/proctable.cpp:262 src/procproperties.cpp:154
 msgid "CPU Time"
 msgstr "Processortid"
 
-#: src/proctable.cpp:264 src/procproperties.cpp:155
+#: src/proctable.cpp:263 src/procproperties.cpp:155
 msgid "Started"
 msgstr "Startad"
 
-#: src/proctable.cpp:265 src/procproperties.cpp:156
+#: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Processprioritet"
 
-#: src/proctable.cpp:266 src/procproperties.cpp:158
+#: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
 msgstr "ID"
 
-#: src/proctable.cpp:267 src/procproperties.cpp:159
+#: src/proctable.cpp:266 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "Säkerhetskontext"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:160
+#: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "Kommandorad"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:271 src/procproperties.cpp:161
+#: src/proctable.cpp:270 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "Väntande kanal"
 
-#: src/proctable.cpp:272 src/procproperties.cpp:162
+#: src/proctable.cpp:271 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "Kontrollgrupp"
 
-#: src/proctable.cpp:273
+#: src/proctable.cpp:272
 msgid "Unit"
 msgstr "Enhet"
 
-#: src/proctable.cpp:274
+#: src/proctable.cpp:273
 msgid "Session"
 msgstr "Session"
 
@@ -1313,35 +1365,35 @@ msgstr "Session"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:277
+#: src/proctable.cpp:276
 msgid "Seat"
 msgstr "Säte"
 
-#: src/proctable.cpp:278
+#: src/proctable.cpp:277
 msgid "Owner"
 msgstr "Ägare"
 
-#: src/proctable.cpp:279 src/procproperties.cpp:151
+#: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
 msgstr ""
 
-#: src/proctable.cpp:280 src/procproperties.cpp:152
+#: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
 msgstr ""
 
-#: src/proctable.cpp:281
+#: src/proctable.cpp:280
 msgid "Disk Read"
 msgstr ""
 
-#: src/proctable.cpp:282
+#: src/proctable.cpp:281
 msgid "Disk Write"
 msgstr ""
 
-#: src/proctable.cpp:283 src/procproperties.cpp:157
+#: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "Prioritet"
 
-#: src/proctable.cpp:1188
+#: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr ""

@@ -4,13 +4,14 @@
 # Wolfgang Ulbrich <mate@raveit.de>, 2019
 # Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020
 # Микола Ткач <chistomov@gmail.com>, 2021
+# Sergiy <sergiy@gorichenko.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
+"Last-Translator: Sergiy <sergiy@gorichenko.com>, 2022\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -185,13 +186,14 @@ msgstr "Зворотній зв'язок"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 "Щоб повідомити про помилку й внести пропозицію стосовно застосунку Системний"
-" монітор або цього керівництва, Дотримуйтеся вказівок на <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">Сторінці зворотнього зв'язку "
-"MATE</ulink>."
+" монітор або цього керівництва, Дотримуйтеся вказівок на <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">Сторінці зворотнього "
+"зв'язку MATE</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:169
@@ -306,7 +308,7 @@ msgstr "Стан системи"
 #. (itstool) path: listitem/para
 #: C/index.docbook:245
 msgid "Currently available disk space"
-msgstr "Наразі доступний дисковий простір"
+msgstr "Доступний зараз дисковий простір"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -517,7 +519,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:394
 msgid "Contains a table of currently mounted file systems."
-msgstr "Містить таблицю наразі встановлених файлових систем."
+msgstr "Містить таблицю під'єднаних зараз файлових систем."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:402
@@ -610,7 +612,7 @@ msgstr "Статус"
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
 msgid "%CPU"
-msgstr "%ЦПП"
+msgstr "%ЦП"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
@@ -668,8 +670,8 @@ msgid ""
 "For information about how to change the columns displayed in the process "
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
-"Про те, як змінити показувані у таблиці стовпці, дивіться <xref linkend"
-"=\"mate-system-monitor-prefs-proclist\"/>."
+"Про те, як змінити показувані у таблиці стовпці, дивіться <xref "
+"linkend=\"mate-system-monitor-prefs-proclist\"/>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:501
@@ -689,8 +691,8 @@ msgstr ""
 "Батьківський процес — це процес, який породжує інші процеси. Породжені "
 "процеси є процесами-нащадками їх батьківського процесу. Типово "
 "<application>Системний монітор</application> не показує залежності процесів."
-" Про те, як змінити типову поведінку, дивіться у розділі <xref linkend"
-"=\"mate-system-monitor-modify-processlist-viewdeps\"/>."
+" Про те, як змінити типову поведінку, дивіться у розділі <xref "
+"linkend=\"mate-system-monitor-modify-processlist-viewdeps\"/>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:508
@@ -738,8 +740,8 @@ msgid ""
 "For information about how to change the priority of a process, see <xref "
 "linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
-"Про те, як змінити пріоритет процесу, дивіться у розділі <xref linkend"
-"=\"mate-system-monitor-change-priority\"/>."
+"Про те, як змінити пріоритет процесу, дивіться у розділі <xref "
+"linkend=\"mate-system-monitor-change-priority\"/>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:540
@@ -1782,7 +1784,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1315
 msgid "<guilabel>% CPU</guilabel>"
-msgstr "<guilabel>% ЦПП</guilabel>"
+msgstr "<guilabel>% ЦП</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1318
@@ -1855,8 +1857,8 @@ msgid ""
 "Select this option to display the amount of system memory that is currently "
 "being used by the process."
 msgstr ""
-"Виберіть цей параметр для показу кількости системної пам'яті, що наразі "
-"використовується процесом."
+"Виберіть цей параметр для відображення кількости системної пам'яті, зайнятої"
+" зараз процесом."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1363

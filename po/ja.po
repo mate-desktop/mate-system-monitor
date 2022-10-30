@@ -4,22 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mika Kobayashi, 2018
-# ふうせん Fu-sen. | BALLOON a.k.a. Fu-sen., 2018
-# ABE Tsunehiko, 2018
+# fbc955180bc2b956cb4ef52d00eb80a0_91487f8, 2018
+# BALLOON | FU-SEN, 2018
 # あわしろいくや <ikunya@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Ikuru K <kanumaiku@gmail.com>, 2019
-# Green, 2021
 # Wolfgang Ulbrich <mate@raveit.de>, 2021
+# ABE Tsunehiko, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Green, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2021\n"
+"Last-Translator: Green, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,7 +54,7 @@ msgstr ""
 "とシステムモニターの詳細について知りたい場合は、プロジェクトのウェブページをご覧ください。"
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
-#: src/interface.cpp:626
+#: src/interface.ui:7
 msgid "System Monitor"
 msgstr "システムモニター"
 
@@ -161,77 +161,77 @@ msgstr ""
 "日本GNOMEユーザー会 http://www.gnome.gr.jp/\n"
 "MATE 文書化チーム https://www.transifex.com/mate/ "
 
-#: src/disks.cpp:405 src/memmaps.cpp:327
+#: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
 msgstr "デバイス"
 
-#: src/disks.cpp:406
+#: src/disks.cpp:405
 msgid "Directory"
 msgstr "ディレクトリー"
 
-#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
 msgstr "種類"
 
-#: src/disks.cpp:408
+#: src/disks.cpp:407
 msgid "SubVolume"
 msgstr "サブボリューム"
 
-#: src/disks.cpp:409
+#: src/disks.cpp:408
 msgid "Total"
 msgstr "合計"
 
-#: src/disks.cpp:410
+#: src/disks.cpp:409
 msgid "Free"
 msgstr "空き"
 
-#: src/disks.cpp:411
+#: src/disks.cpp:410
 msgid "Available"
 msgstr "使用可能"
 
-#: src/disks.cpp:412
+#: src/disks.cpp:411
 msgid "Used"
 msgstr "使用中"
 
-#: src/gsm_color_button.c:156
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "一部分"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "パイ型の部分の色を取得します"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "タイトル"
 
-#: src/gsm_color_button.c:166
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "色の選択ダイアログのタイトル"
 
-#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
 msgstr "色の選択"
 
-#: src/gsm_color_button.c:173
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr "現在の色"
 
-#: src/gsm_color_button.c:174
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr "選択した色"
 
-#: src/gsm_color_button.c:181
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr "色の取得ダイアログの種類"
 
-#: src/gsm_color_button.c:505
+#: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
 msgstr "不正な色データを受け取りました\n"
 
-#: src/gsm_color_button.c:614
+#: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
 msgstr "クリックしてグラフの色を指定します"
 
@@ -448,76 +448,80 @@ msgstr "カスタム"
 msgid "Set process priority manually"
 msgstr "プロセスの優先度を手動で設定します。"
 
-#: src/interface.cpp:232
-msgid "End _Process"
-msgstr "プロセスの終了(_P)"
-
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:280
+#: src/interface.cpp:259
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "'%s' の色を選択します。"
 
-#: src/interface.cpp:291
-msgid "CPU History"
-msgstr "CPU 使用率の履歴"
-
-#: src/interface.cpp:334 src/procproperties.cpp:153
+#: src/interface.cpp:287 src/procproperties.cpp:153
 msgid "CPU"
 msgstr "CPU"
 
-#: src/interface.cpp:336
+#: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: src/interface.cpp:358
-msgid "Memory and Swap History"
-msgstr "メモリーとスワップの履歴"
-
-#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
 msgid "Memory"
 msgstr "メモリー"
 
-#: src/interface.cpp:416
+#: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
 msgstr "スワップ"
 
-#: src/interface.cpp:440
-msgid "Network History"
-msgstr "ネットワークの履歴"
-
-#: src/interface.cpp:473
+#: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
 msgstr "受信したデータ:"
 
-#: src/interface.cpp:495
-msgid "Total Received"
-msgstr "合計:"
-
-#: src/interface.cpp:514
+#: src/interface.cpp:384
 msgid "Sending"
 msgstr "送信したデータ:"
 
-#: src/interface.cpp:536
-msgid "Total Sent"
-msgstr "合計:"
-
-#. procman_create_sysinfo_view();
-#: src/interface.cpp:706
+#: src/interface.ui:45
 msgid "System"
 msgstr "システム"
 
-#: src/interface.cpp:710
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "プロセスの終了(_P)"
+
+#: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
 msgstr "プロセス"
 
-#: src/interface.cpp:714
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "CPU 使用率の履歴"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "メモリーとスワップの履歴"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "ネットワークの履歴"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "合計:"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr "送信"
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "合計:"
+
+#: src/interface.ui:482 src/preferences.ui:437
 msgid "Resources"
 msgstr "リソース"
 
-#: src/interface.cpp:718
+#: src/interface.ui:522 src/preferences.ui:649
 msgid "File Systems"
 msgstr "ファイルシステム"
 
@@ -1143,6 +1147,54 @@ msgstr "開いているファイルのソートを行う項目"
 msgid "Open files sort order"
 msgstr "開いているファイルのソート順"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "システムモニターの設定"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "動作"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "更新間隔(秒)(_U):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "スムーズリフレッシュを有効にする(_S)"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "プロセスを終了または強制終了する前に警告する(_K)"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "CPU 使用率を CPU の個数で割る(_D)"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "表示する項目"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "一覧に表示するプロセスの情報(_N):"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "グラフ"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "ネットワークの速度をビット単位で表示する(_S)"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "すべてのファイルシステムを表示する(_A)"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "一覧に表示するファイルシステムの情報(_N):"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1238,82 +1290,82 @@ msgstr "プロセスの優先度は Nice 値で設定します。Nice 値が小�
 msgid "Icon"
 msgstr "アイコン"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "プロセス名"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
 msgstr "ユーザー名"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
 msgstr "状態"
 
-#: src/proctable.cpp:257 src/procproperties.cpp:144
+#: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "仮想メモリー"
 
-#: src/proctable.cpp:258 src/procproperties.cpp:145
+#: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Resident メモリー"
 
-#: src/proctable.cpp:259 src/procproperties.cpp:146
+#: src/proctable.cpp:258 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "書き込み可能なメモリー"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:147
+#: src/proctable.cpp:259 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "共有メモリー"
 
-#: src/proctable.cpp:261 src/procproperties.cpp:149
+#: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "X サーバーメモリー"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:261
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: src/proctable.cpp:263 src/procproperties.cpp:154
+#: src/proctable.cpp:262 src/procproperties.cpp:154
 msgid "CPU Time"
 msgstr "CPU 時間"
 
-#: src/proctable.cpp:264 src/procproperties.cpp:155
+#: src/proctable.cpp:263 src/procproperties.cpp:155
 msgid "Started"
 msgstr "起動日時"
 
-#: src/proctable.cpp:265 src/procproperties.cpp:156
+#: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Nice 値"
 
-#: src/proctable.cpp:266 src/procproperties.cpp:158
+#: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
 msgstr "ID"
 
-#: src/proctable.cpp:267 src/procproperties.cpp:159
+#: src/proctable.cpp:266 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "セキュリティコンテキスト"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:160
+#: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "コマンドライン"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:271 src/procproperties.cpp:161
+#: src/proctable.cpp:270 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "待機中のチャンネル"
 
-#: src/proctable.cpp:272 src/procproperties.cpp:162
+#: src/proctable.cpp:271 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "コントロールグループ"
 
-#: src/proctable.cpp:273
+#: src/proctable.cpp:272
 msgid "Unit"
 msgstr "ユニット"
 
-#: src/proctable.cpp:274
+#: src/proctable.cpp:273
 msgid "Session"
 msgstr "セッション"
 
@@ -1321,35 +1373,35 @@ msgstr "セッション"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:277
+#: src/proctable.cpp:276
 msgid "Seat"
 msgstr "シート"
 
-#: src/proctable.cpp:278
+#: src/proctable.cpp:277
 msgid "Owner"
 msgstr "所有者"
 
-#: src/proctable.cpp:279 src/procproperties.cpp:151
+#: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
 msgstr "ディクスの読み出し合計"
 
-#: src/proctable.cpp:280 src/procproperties.cpp:152
+#: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
 msgstr "ディクスの書き込み合計"
 
-#: src/proctable.cpp:281
+#: src/proctable.cpp:280
 msgid "Disk Read"
 msgstr "ディクスの読み込み"
 
-#: src/proctable.cpp:282
+#: src/proctable.cpp:281
 msgid "Disk Write"
 msgstr "ディクスの書き込み"
 
-#: src/proctable.cpp:283 src/procproperties.cpp:157
+#: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "優先度"
 
-#: src/proctable.cpp:1188
+#: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "最近 1, 5, 15分間の平均負荷: %0.2f, %0.2f, %0.2f"

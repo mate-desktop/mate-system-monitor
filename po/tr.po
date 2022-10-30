@@ -4,22 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# tarakbumba <tarakbumba@gmail.com>, 2018
 # Emre FIRAT <emrefirat93@gmail.com>, 2018
 # mauron, 2018
 # Sabri Ünal <yakushabb@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Umut Barış GÖKMEN <umtbrsgkmn@gmail.com>, 2019
 # 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2019
 # Butterfly <gokhanlnx@gmail.com>, 2020
+# tarakbumba <tarakbumba@gmail.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Mehmet, 2022
+# Sabri Ünal <libreajans@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Butterfly <gokhanlnx@gmail.com>, 2020\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,6 +43,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"MATE Sistem Gözlemcisi sisteminizde çalışan süreçleri grafiksel olarak "
+"görüntülemenize ve onları idare etmenize imkan verir. Ayrıca MİB ve bellek "
+"gibi sistem kaynaklarına genel bir bakış sağlar."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -48,9 +53,13 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"Mate Sistem Gözlemcisi, GNOME Sistem Gözlemcisi'nden çatallanmıştır ve MATE "
+"Masaüstü Ortamı'nın bir parçasıdır. Eğer MATE ve Sistem Gözlemcisi hakkında "
+"daha fazla bilgi edinmek isterseniz lütfen projenin anasayfasını ziyaret "
+"ediniz."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
-#: src/interface.cpp:626
+#: src/interface.ui:7
 msgid "System Monitor"
 msgstr "Sistem Gözlemcisi"
 
@@ -62,11 +71,11 @@ msgstr "Çalışan süreçleri ve sistem durumunu gösterir"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr ""
+msgstr "MATE;sistem;gözlemci;süreç;liste;görünüm;geçerli; kaynak;kaynaklar;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
-msgstr "Süreci Öldür"
+msgstr "Süreci öldür"
 
 #: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
@@ -74,7 +83,7 @@ msgstr "Diğer kullanıcıların süreçlerini kontrol etmek için izin gereklid
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
-msgstr "Renice Süreci"
+msgstr "Süreci yeniden önceliklendir"
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
@@ -140,6 +149,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Telif hakkı © 2001-2004 Kevin Vandersloot\n"
+"Telif hakkı © 2005-2007 Benoît Dejean\n"
+"Telif hakkı © 2011-2020 MATE geliştiricileri"
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
@@ -155,77 +167,77 @@ msgstr ""
 "Atilla Öntaş <tarakbumba@gmail.com>, 2014\n"
 "Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015"
 
-#: src/disks.cpp:405 src/memmaps.cpp:327
+#: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Aygıt"
 
-#: src/disks.cpp:406
+#: src/disks.cpp:405
 msgid "Directory"
 msgstr "Dizin"
 
-#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
 msgstr "Tür"
 
-#: src/disks.cpp:408
+#: src/disks.cpp:407
 msgid "SubVolume"
-msgstr ""
+msgstr "Alt Birim"
 
-#: src/disks.cpp:409
+#: src/disks.cpp:408
 msgid "Total"
 msgstr "Toplam"
 
-#: src/disks.cpp:410
+#: src/disks.cpp:409
 msgid "Free"
 msgstr "Boş"
 
-#: src/disks.cpp:411
+#: src/disks.cpp:410
 msgid "Available"
 msgstr "Ulaşılabilir"
 
-#: src/disks.cpp:412
+#: src/disks.cpp:411
 msgid "Used"
 msgstr "Kullanılan"
 
-#: src/gsm_color_button.c:156
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "Şimdiki Renk"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "Pasta dilimi yüzdeleri dolu"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "Başlık"
 
-#: src/gsm_color_button.c:166
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "Renk seçme penceresinin başlığı"
 
-#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
 msgstr "Bir Renk Seçin"
 
-#: src/gsm_color_button.c:173
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr "Şimdiki Renk"
 
-#: src/gsm_color_button.c:174
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr "Seçili renk"
 
-#: src/gsm_color_button.c:181
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
-msgstr "Renk seçinin tipi"
+msgstr "Renk seçicinin tipi"
 
-#: src/gsm_color_button.c:505
+#: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
 msgstr "Geçersiz renk verisi alındı\n"
 
-#: src/gsm_color_button.c:614
+#: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
 msgstr "Grafik renklerini atamak için tıklayın"
 
@@ -282,8 +294,8 @@ msgstr "Süreç durmuşsa devam ettir"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_Süreci Sonlandır"
+msgstr[1] "_Süreçleri Sonlandır"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -292,8 +304,8 @@ msgstr "Süreci normal olarak sonlandırmaya zorla"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Süreci _Öldür"
+msgstr[1] "Süreçleri _Öldür"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -338,7 +350,7 @@ msgstr "_Dosyaları Aç"
 
 #: src/interface.cpp:84
 msgid "View the files opened by a process"
-msgstr "Bir süreç tarafından açılmış dosyaları göster"
+msgstr "Bir süreç tarafından açılmış dosyaları görüntüle"
 
 #: src/interface.cpp:85
 msgid "_Properties"
@@ -438,82 +450,86 @@ msgstr "Süreç önceliğini çok düşük olarak ayarla"
 
 #: src/interface.cpp:125
 msgid "Custom"
-msgstr "Kişisel"
+msgstr "Özel"
 
 #: src/interface.cpp:126
 msgid "Set process priority manually"
-msgstr "Süreç önceliğini kişisel olarak ayarla"
-
-#: src/interface.cpp:232
-msgid "End _Process"
-msgstr "Süreci _Sonlandır"
+msgstr "Süreç önceliğini özel olarak ayarla"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:280
+#: src/interface.cpp:259
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "'%s' için bir renk seçin"
 
-#: src/interface.cpp:291
-msgid "CPU History"
-msgstr "MİB Kullanım Geçmişi"
-
-#: src/interface.cpp:334 src/procproperties.cpp:153
+#: src/interface.cpp:287 src/procproperties.cpp:153
 msgid "CPU"
-msgstr "MİKROİŞLEMCİ"
+msgstr "MİB"
 
-#: src/interface.cpp:336
+#: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
 msgstr "MİB%d"
 
-#: src/interface.cpp:358
-msgid "Memory and Swap History"
-msgstr "Bellek ve Takas Kullanım Geçmişi"
-
-#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
 msgid "Memory"
-msgstr "Hafıza"
+msgstr "Bellek"
 
-#: src/interface.cpp:416
+#: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
 msgstr "Takas Alanı"
 
-#: src/interface.cpp:440
-msgid "Network History"
-msgstr "Ağ Geçmişi"
-
-#: src/interface.cpp:473
+#: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
 msgstr "Alınıyor"
 
-#: src/interface.cpp:495
-msgid "Total Received"
-msgstr "Toplam Alınan:"
-
-#: src/interface.cpp:514
+#: src/interface.cpp:384
 msgid "Sending"
 msgstr "Gönderiliyor"
 
-#: src/interface.cpp:536
-msgid "Total Sent"
-msgstr "Toplam Gönderilen"
-
-#. procman_create_sysinfo_view();
-#: src/interface.cpp:706
+#: src/interface.ui:45
 msgid "System"
 msgstr "Sistem"
 
-#: src/interface.cpp:710
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "Süreci _Sonlandır"
+
+#: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
 msgstr "Süreçler"
 
-#: src/interface.cpp:714
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "MİB Kullanım Geçmişi"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "Bellek ve Takas Kullanım Geçmişi"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "Ağ Geçmişi"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "Toplam Alınan:"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr "Gönder"
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "Toplam Gönderilen"
+
+#: src/interface.ui:482 src/preferences.ui:437
 msgid "Resources"
 msgstr "Kaynaklar"
 
-#: src/interface.cpp:718
+#: src/interface.ui:522 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Dosya Sistemleri"
 
@@ -714,9 +730,8 @@ msgid ""
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
 msgstr ""
-"DOĞRU ise, sistem-monitörü 'Solaris kipi'nde çalışır; ki bir görevin işlemci"
-" kullanımı işlemcilerin toplam sayısına bölünür. Aksi halde 'Irix kipi'nde "
-"çalışır."
+"DOĞRU ise, sistem-monitörü 'Solaris kipi'nde çalışır; ki bir görevin MİB "
+"kullanımı MİB toplam sayısına bölünür. Aksi halde 'Irix kipi'nde çalışır."
 
 #: src/org.mate.system-monitor.gschema.xml.in:23
 msgid "Enable/Disable smooth refresh"
@@ -728,8 +743,7 @@ msgstr "Süreçler öldürülürken uyarı mesajı göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:31
 msgid "Time in milliseconds between updates of the process view"
-msgstr ""
-"Milisaniye olarak süreç görüntüleme güncellemeleri arasında geçen zaman"
+msgstr "Milisaniye olarak süreç gösterim güncellemeleri arasında geçen zaman"
 
 #: src/org.mate.system-monitor.gschema.xml.in:35
 msgid "Time in milliseconds between updates of the graphs"
@@ -807,7 +821,7 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:177
 #: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
-msgstr "Öntanımlı işlemci grafik rengi"
+msgstr "Öntanımlı MİB grafik rengi"
 
 #: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
@@ -839,7 +853,7 @@ msgstr "Süreç gösterim sıra sütunu"
 
 #: src/org.mate.system-monitor.gschema.xml.in:216
 msgid "Process view columns order"
-msgstr "Süreç görüntüleme sütun sırası"
+msgstr "Süreç gösterim sütun sırası"
 
 #: src/org.mate.system-monitor.gschema.xml.in:220
 msgid "Process view sort order"
@@ -911,19 +925,19 @@ msgstr "Başlangıçta 'X Sunucusu Belleği' süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
-msgstr "Süreç 'İşlemci %' sütununun genişliği"
+msgstr "Süreç 'MİB %' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
-msgstr "Başlangıçta 'İşlemci %' sütununu göster"
+msgstr "Başlangıçta 'MİB %' sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:298
 msgid "Width of process 'CPU Time' column"
-msgstr "Süreç 'İşlemci Zamanı' sütununun genişliği"
+msgstr "Süreç 'MİB Zamanı' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:302
 msgid "Show process 'CPU Time' column on startup"
-msgstr "Başlangıçta 'İşlemci Zamanı' süreç sütununu göster"
+msgstr "Başlangıçta 'MİB Zamanı' süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:306
 msgid "Width of process 'Started' column"
@@ -955,7 +969,7 @@ msgstr "Süreç 'Güvenlik Bağlamı' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:334
 msgid "Show process 'Security Context' column on startup"
-msgstr "Başlangıçta 'Güvenlik Bağlamı' sütununu göster"
+msgstr "Başlangıçta 'Güvenlik Bağlamı' süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:338
 msgid "Width of process 'Command Line' column"
@@ -987,7 +1001,7 @@ msgstr "Süreç 'Kontrol Grubu' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:366
 msgid "Show process 'Control Group' column on startup"
-msgstr "Başlangıçta 'Kontrol Grubu' sütununu göster"
+msgstr "Başlangıçta 'Kontrol Grubu' süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:370
 msgid "Width of process 'Unit' column"
@@ -1023,43 +1037,43 @@ msgstr "Başlangıçta 'Sahip' süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Süreç “Disk Toplam Yazma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Başlangıçta “Disk Toplam Yazma” süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Süreç “Disk Toplam Okuma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Başlangıçta “Disk Toplam Okuma” süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Süreç “Disk Okuma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "Başlangıçta “Disk Okuma” süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Süreç “Disk Yazma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "Başlangıçta “Disk Yazma” süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Süreç “Öncelik” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Başlangıçta “Öncelik” süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
@@ -1067,11 +1081,11 @@ msgstr "Disk görünümü sıralama sütunu"
 
 #: src/org.mate.system-monitor.gschema.xml.in:448
 msgid "Disk view sort order"
-msgstr "Disk gösterim sıra düzeni"
+msgstr "Disk görünümü sıra düzeni"
 
 #: src/org.mate.system-monitor.gschema.xml.in:452
 msgid "Disk view columns order"
-msgstr "Disk görüntüleme sütun sırası"
+msgstr "Disk görünümü sütun sırası"
 
 #: src/org.mate.system-monitor.gschema.xml.in:456
 msgid "Width of disk view 'Device' column"
@@ -1079,7 +1093,7 @@ msgstr "Disk görünümü 'Cihaz' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:460
 msgid "Show disk view 'Device' column on startup"
-msgstr "Başlangıçta disk görünümü 'Cihaz' sütununu göster"
+msgstr "Başlangıçta 'Cihaz' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:464
 msgid "Width of disk view 'Directory' column"
@@ -1087,7 +1101,7 @@ msgstr "Disk görünümü 'Klasör' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:468
 msgid "Show disk view 'Directory' column on startup"
-msgstr "Başlangıçta disk görünümü 'Klasör' sütununu göster"
+msgstr "Başlangıçta 'Dizin' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:472
 msgid "Width of disk view 'Type' column"
@@ -1095,15 +1109,15 @@ msgstr "Disk görünümü 'Tür' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:476
 msgid "Show disk view 'Type' column on startup"
-msgstr "Başlangıçta disk görünümü 'Tür' sütununu göster"
+msgstr "Başlangıçta 'Tür' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'SubVol' column"
-msgstr ""
+msgstr "Disk görünümü 'Alt Birim' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'SubVol' column on startup"
-msgstr ""
+msgstr "Başlangıçta 'Alt Birim' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
@@ -1111,7 +1125,7 @@ msgstr "Disk görünümü 'Toplam' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:492
 msgid "Show disk view 'Total' column on startup"
-msgstr "Başlangıçta disk görünümü 'Toplam' sütununu göster"
+msgstr "Başlangıçta 'Toplam' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:496
 msgid "Width of disk view 'Free' column"
@@ -1119,7 +1133,7 @@ msgstr "Disk görünümü 'Boş' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:500
 msgid "Show disk view 'Free' column on startup"
-msgstr "Başlangıçta disk görünümü 'Boş' sütununu göster"
+msgstr "Başlangıçta 'Boş' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:504
 msgid "Width of disk view 'Available' column"
@@ -1127,7 +1141,7 @@ msgstr "Disk görünümü 'Kullanılabilir' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:508
 msgid "Show disk view 'Available' column on startup"
-msgstr "Başlangıçta disk görünümü 'Kullanılabilir' sütununu göster"
+msgstr "Başlangıçta 'Kullanılabilir' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:512
 msgid "Width of disk view 'Used' column"
@@ -1135,7 +1149,7 @@ msgstr "Disk görünümü 'Kullanılan' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:516
 msgid "Show disk view 'Used' column on startup"
-msgstr "Başlangıçta disk görünümü 'Kullanılan' sütununu göster"
+msgstr "Başlangıçta 'Kullanılan' disk görünümü sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:522
 msgid "Memory map sort column"
@@ -1152,6 +1166,54 @@ msgstr "Dosya açma sıra sütunu"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Dosya açma sıra düzeni"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Sistem Gözlemcisi Tercihleri"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Davranış"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Saniye olarak _güncelleme aralığı:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "_Yumuşak tazelemeyi etkinleştir"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Süreçler _sonlandırılmadan ya da öldürülmeden önce uyar"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_MİB kullanımını MİB sayısına böl"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Bilgi Alanları"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Listede gösterilen süreç b_ilgisi:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafikler"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Ağ hızını bit cinsinden göster"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "_Tüm dosya sistemlerini göster"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Listede gösterilen dosya sistemi b_ilgisi:"
 
 #: src/procactions.cpp:77
 #, c-format
@@ -1175,25 +1237,25 @@ msgstr ""
 #: src/procdialogs.cpp:80
 #, c-format
 msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Seçili süreci öldürmek istediğine emin misin “%s” (PID: %u)?"
 
 #. xgettext: primary alert message for ending single process
 #: src/procdialogs.cpp:85
 #, c-format
 msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Seçili süreci sonlandırmak istediğine emin misin “%s” (PID: %u)?"
 
 #. xgettext: primary alert message for killing multiple processes
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr ""
+msgstr "Seçili %d süreci öldürmek istediğinize emin misin?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr ""
+msgstr "Seçili %d süreci sonlandırmak istediğinizden emin misiniz?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1226,7 +1288,7 @@ msgstr "\"%s\" (PID: %u) Sürecinin Önceliğini Değiştir"
 #: src/procdialogs.cpp:200
 #, c-format
 msgid "Change Priority of %d Selected Processes"
-msgstr ""
+msgstr "Seçili %d Sürecin Önceliğini Değiştir"
 
 #: src/procdialogs.cpp:214
 msgid "Change _Priority"
@@ -1252,82 +1314,82 @@ msgstr ""
 msgid "Icon"
 msgstr "İkon"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "Süreç İsmi"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
 msgstr "Kullanıcı"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
 msgstr "Durum"
 
-#: src/proctable.cpp:257 src/procproperties.cpp:144
+#: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "Sanal Bellek"
 
-#: src/proctable.cpp:258 src/procproperties.cpp:145
+#: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Yerleşik Bellek"
 
-#: src/proctable.cpp:259 src/procproperties.cpp:146
+#: src/proctable.cpp:258 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "Yazılabilir Bellek"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:147
+#: src/proctable.cpp:259 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "Paylaşılmış Bellek"
 
-#: src/proctable.cpp:261 src/procproperties.cpp:149
+#: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "X Sunucusu Belleği"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:261
 #, no-c-format
 msgid "% CPU"
 msgstr "% MİB"
 
-#: src/proctable.cpp:263 src/procproperties.cpp:154
+#: src/proctable.cpp:262 src/procproperties.cpp:154
 msgid "CPU Time"
-msgstr "MİB zamanı"
+msgstr "MİB Zamanı"
 
-#: src/proctable.cpp:264 src/procproperties.cpp:155
+#: src/proctable.cpp:263 src/procproperties.cpp:155
 msgid "Started"
 msgstr "Başlamış"
 
-#: src/proctable.cpp:265 src/procproperties.cpp:156
+#: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Öncelik"
 
-#: src/proctable.cpp:266 src/procproperties.cpp:158
+#: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
 msgstr "No"
 
-#: src/proctable.cpp:267 src/procproperties.cpp:159
+#: src/proctable.cpp:266 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "Güvenlik Bağlamı"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:160
+#: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "Komut Satırı"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:271 src/procproperties.cpp:161
+#: src/proctable.cpp:270 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "Bekleyen Kanal"
 
-#: src/proctable.cpp:272 src/procproperties.cpp:162
+#: src/proctable.cpp:271 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "Kontrol Grubu"
 
-#: src/proctable.cpp:273
+#: src/proctable.cpp:272
 msgid "Unit"
 msgstr "Birim"
 
-#: src/proctable.cpp:274
+#: src/proctable.cpp:273
 msgid "Session"
 msgstr "Oturum"
 
@@ -1335,35 +1397,35 @@ msgstr "Oturum"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:277
+#: src/proctable.cpp:276
 msgid "Seat"
 msgstr "Koltuk"
 
-#: src/proctable.cpp:278
+#: src/proctable.cpp:277
 msgid "Owner"
 msgstr "Sahip"
 
-#: src/proctable.cpp:279 src/procproperties.cpp:151
+#: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
 msgstr "Disk Toplam Okuma"
 
-#: src/proctable.cpp:280 src/procproperties.cpp:152
+#: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
 msgstr "Disk Toplam Yazma"
 
-#: src/proctable.cpp:281
+#: src/proctable.cpp:280
 msgid "Disk Read"
 msgstr "Disk Okuma"
 
-#: src/proctable.cpp:282
+#: src/proctable.cpp:281
 msgid "Disk Write"
 msgstr "Disk Okuma"
 
-#: src/proctable.cpp:283 src/procproperties.cpp:157
+#: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "Öncelik"
 
-#: src/proctable.cpp:1188
+#: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr "Son 1, 5, 15 dakika için yük ortalamaları: %0.2f, %0.2f, %0.2f"

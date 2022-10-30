@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
 "Last-Translator: Michael Hartmann, 2020\n"
 "Language-Team: German (https://www.transifex.com/mate/teams/13566/de/)\n"
@@ -108,8 +108,8 @@ msgid ""
 "<orgname>GNOME Documentation Project</orgname> "
 "<address><email>pcutler@foresightlinux.org</email></address> </affiliation>"
 msgstr ""
-"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> <orgname"
-">GNOME-Dokumentationsprojekt</orgname> <address> "
+"<firstname>Paul</firstname> <surname>Cutler</surname> <affiliation> "
+"<orgname>GNOME-Dokumentationsprojekt</orgname> <address> "
 "<email>pcutler@foresightlinux.org</email> </address> </affiliation>"
 
 #. (itstool) path: revdescription/para
@@ -181,8 +181,9 @@ msgstr "Rückmeldungen"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para

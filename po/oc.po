@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2018
 # Cédric Valmary <cvalmary@yahoo.fr>, 2019
-# Quentin PAGÈS, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2022
+# Quentin PAGÈS, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Quentin PAGÈS, 2021\n"
+"Last-Translator: Quentin PAGÈS, 2022\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +52,7 @@ msgstr ""
 "MATE e del Monitor Sistèma MATE, consultatz lo site del projècte."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
-#: src/interface.cpp:626
+#: src/interface.ui:7
 msgid "System Monitor"
 msgstr "Monitor sistèma"
 
@@ -79,7 +79,7 @@ msgstr ""
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
-msgstr ""
+msgstr "Modificar la valor de prioritat del processus"
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
@@ -155,77 +155,77 @@ msgstr ""
 "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org> & Cédric Valmary "
 "(totenoc.eu) <cvalmary@yahoo.fr>"
 
-#: src/disks.cpp:405 src/memmaps.cpp:327
+#: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
 msgstr "Periferic"
 
-#: src/disks.cpp:406
+#: src/disks.cpp:405
 msgid "Directory"
 msgstr "Repertòri"
 
-#: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
+#: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
 msgstr "Tipe"
 
-#: src/disks.cpp:408
+#: src/disks.cpp:407
 msgid "SubVolume"
-msgstr ""
+msgstr "SubVolum"
 
-#: src/disks.cpp:409
+#: src/disks.cpp:408
 msgid "Total"
 msgstr "Total"
 
-#: src/disks.cpp:410
+#: src/disks.cpp:409
 msgid "Free"
 msgstr "Liure"
 
-#: src/disks.cpp:411
+#: src/disks.cpp:410
 msgid "Available"
 msgstr "Disponible"
 
-#: src/disks.cpp:412
+#: src/disks.cpp:411
 msgid "Used"
 msgstr "Utilizat"
 
-#: src/gsm_color_button.c:156
+#: src/gsm_color_button.c:155
 msgid "Fraction"
 msgstr "Fraccion"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
-#: src/gsm_color_button.c:158
+#: src/gsm_color_button.c:157
 msgid "Percentage full for pie color pickers"
 msgstr "Taus d'emplenatge del camembèrt del selector de color"
 
-#: src/gsm_color_button.c:165
+#: src/gsm_color_button.c:164
 msgid "Title"
 msgstr "Títol"
 
-#: src/gsm_color_button.c:166
+#: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
 msgstr "Lo títol de la bóstia de seleccion de color"
 
-#: src/gsm_color_button.c:167 src/gsm_color_button.c:591
+#: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
 msgstr "Causissètz una color"
 
-#: src/gsm_color_button.c:173
+#: src/gsm_color_button.c:172
 msgid "Current Color"
 msgstr "Color actuala"
 
-#: src/gsm_color_button.c:174
+#: src/gsm_color_button.c:173
 msgid "The selected color"
 msgstr "La color seleccionada"
 
-#: src/gsm_color_button.c:181
+#: src/gsm_color_button.c:180
 msgid "Type of color picker"
 msgstr "Tipe del selector de color"
 
-#: src/gsm_color_button.c:505
+#: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
 msgstr "Donadas de color invalidas recebudas\n"
 
-#: src/gsm_color_button.c:614
+#: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
 msgstr "Clicatz per definir las colors del grafic"
 
@@ -282,8 +282,8 @@ msgstr "Contunha lo processus se es estat arrestat"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_Acabar lo processus"
+msgstr[1] "_Acabar los processus"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -292,8 +292,8 @@ msgstr "Fòrça un processus a terminar"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_Tuar lo processus"
+msgstr[1] "_Tuar los processus"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -444,76 +444,80 @@ msgstr "Personalizada"
 msgid "Set process priority manually"
 msgstr "Fixar la prioritat del processus manualament"
 
-#: src/interface.cpp:232
-msgid "End _Process"
-msgstr "_Acabar lo processus"
-
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
-#: src/interface.cpp:280
+#: src/interface.cpp:259
 #, c-format
 msgid "Pick a Color for '%s'"
 msgstr "Causissètz una color per « %s » "
 
-#: src/interface.cpp:291
-msgid "CPU History"
-msgstr "Istoric d'utilizacion del CPU"
-
-#: src/interface.cpp:334 src/procproperties.cpp:153
+#: src/interface.cpp:287 src/procproperties.cpp:153
 msgid "CPU"
 msgstr "CPU"
 
-#: src/interface.cpp:336
+#: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
 msgstr "CPU%d"
 
-#: src/interface.cpp:358
-msgid "Memory and Swap History"
-msgstr "Istoric d'utilizacion de la memòria fisica e del fichièr d'escambi"
-
-#: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
+#: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
+#: src/procproperties.cpp:143
 msgid "Memory"
 msgstr "Memòria"
 
-#: src/interface.cpp:416
+#: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
 msgstr "Escambi"
 
-#: src/interface.cpp:440
-msgid "Network History"
-msgstr "Istoric del trafic ret"
-
-#: src/interface.cpp:473
+#: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
 msgstr "Recepcion"
 
-#: src/interface.cpp:495
-msgid "Total Received"
-msgstr "Total recebut"
-
-#: src/interface.cpp:514
+#: src/interface.cpp:384
 msgid "Sending"
 msgstr "Mandadís"
 
-#: src/interface.cpp:536
-msgid "Total Sent"
-msgstr "Total mandat"
-
-#. procman_create_sysinfo_view();
-#: src/interface.cpp:706
+#: src/interface.ui:45
 msgid "System"
 msgstr "Sistèma"
 
-#: src/interface.cpp:710
+#: src/interface.ui:91
+msgid "End _Process"
+msgstr "_Acabar lo processus"
+
+#: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
 msgstr "Processus"
 
-#: src/interface.cpp:714
+#: src/interface.ui:140
+msgid "CPU History"
+msgstr "Istoric d'utilizacion del CPU"
+
+#: src/interface.ui:206
+msgid "Memory and Swap History"
+msgstr "Istoric d'utilizacion de la memòria fisica e del fichièr d'escambi"
+
+#: src/interface.ui:315
+msgid "Network History"
+msgstr "Istoric del trafic ret"
+
+#: src/interface.ui:364
+msgid "Total Received"
+msgstr "Total recebut"
+
+#: src/interface.ui:377
+msgid "Sent"
+msgstr "Enviat"
+
+#: src/interface.ui:390
+msgid "Total Sent"
+msgstr "Total mandat"
+
+#: src/interface.ui:482 src/preferences.ui:437
 msgid "Resources"
 msgstr "Ressorsas"
 
-#: src/interface.cpp:718
+#: src/interface.ui:522 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Sistèmas de fichièrs"
 
@@ -748,9 +752,9 @@ msgid ""
 "file systems."
 msgstr ""
 "Indica se cal afichar las informacions relativas a totes los sistèmas de "
-"fichièrs : aquò inclutz los sistèmas de fichièrs tals coma « autofs » e « "
-"procfs ». Aquesta opcion permet d'obténer la lista de totes los sistèmas de "
-"fichièrs actualament montés."
+"fichièrs : aquò inclutz los sistèmas de fichièrs tals coma « autofs » e "
+"« procfs ». Aquesta opcion permet d'obténer la lista de totes los sistèmas "
+"de fichièrs actualament montés."
 
 #: src/org.mate.system-monitor.gschema.xml.in:44
 msgid "Time in milliseconds between updates of the devices list"
@@ -1028,43 +1032,43 @@ msgstr "Afichar la colomna del proprietari dels processus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Largor de la colomna « Total escritura disc » del processus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Afichar la colomna « Total escritura disc » del processus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Largor de la colomna « Total lectura disc » del processus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Afichar la colomna « Total lectura disc » del processus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Largor de la colomna « Lectura disc » del processus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "Afichar la colomna « Lectura disc » del processus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Largor de la colomna « Escritura disc » del processus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "Afichar la colomna « Escritura disc » del processus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Largor de la colomna « Prioritat » del processus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Afichar la colomna « Prioritat » del processus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
@@ -1105,11 +1109,11 @@ msgstr "Afichar la colomna « Tipe » de l'afichatge dels disques a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'SubVol' column"
-msgstr ""
+msgstr "Largor de la colomna de la vista disc « SubVol »"
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'SubVol' column on startup"
-msgstr ""
+msgstr "Afichar la colomna de vista disc « SubVol » a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
@@ -1161,6 +1165,54 @@ msgstr "Colomna de triada dels fichièrs dobèrts"
 msgid "Open files sort order"
 msgstr "Òrdre de triada dels fichièrs dobèrts"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Preferéncias del monitor sistèma"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Compòrtament"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Frequéncia de mesa a jorn en segondas :"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Activar lo refrescament _lissat"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Afichar un avertiment abans de _acabar o de tuar dels processus"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Devesir l'utilizacion des CPU pel nombre de CPU"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Camps d'informacions"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformacions suls processus afichats dins la lista :"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafics"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Afichar la velocitat de la ret en bits"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Afichar _totes los sistèmas de fichièrs"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformacions suls sistèmas de fichièrs afichats dins la lista :"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1184,24 +1236,26 @@ msgstr ""
 #, c-format
 msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
 msgstr ""
+"Volètz vertadièrament tuar lo processus seleccionat « %s » (PID : %u) ?"
 
 #. xgettext: primary alert message for ending single process
 #: src/procdialogs.cpp:85
 #, c-format
 msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
 msgstr ""
+"Volètz vertadièrament acabar lo processus seleccionat « %s » (PID : %u) ?"
 
 #. xgettext: primary alert message for killing multiple processes
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr ""
+msgstr "Volètz vertadièrament tuar los %d processus seleccionats ?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr ""
+msgstr "Volètz vertadièrament acabar los %d processus seleccionats ?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1236,7 +1290,7 @@ msgstr "Cambiar la prioritat del processus « %s » (PID : %u)"
 #: src/procdialogs.cpp:200
 #, c-format
 msgid "Change Priority of %d Selected Processes"
-msgstr ""
+msgstr "Cambiar la prioritat dels %d processus seleccionats"
 
 #: src/procdialogs.cpp:214
 msgid "Change _Priority"
@@ -1262,82 +1316,82 @@ msgstr ""
 msgid "Icon"
 msgstr "Icòna"
 
-#: src/proctable.cpp:254 src/procproperties.cpp:140
+#: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
 msgstr "Nom del processus"
 
-#: src/proctable.cpp:255 src/procproperties.cpp:141
+#: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
 msgstr "Utilizaire"
 
-#: src/proctable.cpp:256 src/procproperties.cpp:142
+#: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
 msgstr "Estatut"
 
-#: src/proctable.cpp:257 src/procproperties.cpp:144
+#: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
 msgstr "Memòria virtuala"
 
-#: src/proctable.cpp:258 src/procproperties.cpp:145
+#: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
 msgstr "Mem. residenta"
 
-#: src/proctable.cpp:259 src/procproperties.cpp:146
+#: src/proctable.cpp:258 src/procproperties.cpp:146
 msgid "Writable Memory"
 msgstr "Mem. en escritura"
 
-#: src/proctable.cpp:260 src/procproperties.cpp:147
+#: src/proctable.cpp:259 src/procproperties.cpp:147
 msgid "Shared Memory"
 msgstr "Mem. partejada"
 
-#: src/proctable.cpp:261 src/procproperties.cpp:149
+#: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
 msgstr "Mem. del servidor X"
 
-#: src/proctable.cpp:262
+#: src/proctable.cpp:261
 #, no-c-format
 msgid "% CPU"
 msgstr "% CPU"
 
-#: src/proctable.cpp:263 src/procproperties.cpp:154
+#: src/proctable.cpp:262 src/procproperties.cpp:154
 msgid "CPU Time"
 msgstr "Temps CPU"
 
-#: src/proctable.cpp:264 src/procproperties.cpp:155
+#: src/proctable.cpp:263 src/procproperties.cpp:155
 msgid "Started"
 msgstr "Aviat"
 
-#: src/proctable.cpp:265 src/procproperties.cpp:156
+#: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
 msgstr "Prioritat"
 
-#: src/proctable.cpp:266 src/procproperties.cpp:158
+#: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
 msgstr "Identificador"
 
-#: src/proctable.cpp:267 src/procproperties.cpp:159
+#: src/proctable.cpp:266 src/procproperties.cpp:159
 msgid "Security Context"
 msgstr "Contèxte de seguretat"
 
-#: src/proctable.cpp:268 src/procproperties.cpp:160
+#: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
 msgstr "Linha de comanda"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
-#: src/proctable.cpp:271 src/procproperties.cpp:161
+#: src/proctable.cpp:270 src/procproperties.cpp:161
 msgid "Waiting Channel"
 msgstr "Canal d'espèra"
 
-#: src/proctable.cpp:272 src/procproperties.cpp:162
+#: src/proctable.cpp:271 src/procproperties.cpp:162
 msgid "Control Group"
 msgstr "Grop de contraròtle"
 
-#: src/proctable.cpp:273
+#: src/proctable.cpp:272
 msgid "Unit"
 msgstr "Unitat"
 
-#: src/proctable.cpp:274
+#: src/proctable.cpp:273
 msgid "Session"
 msgstr "Session"
 
@@ -1345,35 +1399,35 @@ msgstr "Session"
 #. belongs to, only
 #. for multi-seat environments. See
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
-#: src/proctable.cpp:277
+#: src/proctable.cpp:276
 msgid "Seat"
 msgstr "Sèti"
 
-#: src/proctable.cpp:278
+#: src/proctable.cpp:277
 msgid "Owner"
 msgstr "Proprietari"
 
-#: src/proctable.cpp:279 src/procproperties.cpp:151
+#: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Total lectura disc"
 
-#: src/proctable.cpp:280 src/procproperties.cpp:152
+#: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Total escritura disc"
+
+#: src/proctable.cpp:280
+msgid "Disk Read"
+msgstr "Lectura disc"
 
 #: src/proctable.cpp:281
-msgid "Disk Read"
-msgstr ""
-
-#: src/proctable.cpp:282
 msgid "Disk Write"
-msgstr ""
+msgstr "Escritura disc"
 
-#: src/proctable.cpp:283 src/procproperties.cpp:157
+#: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
 msgstr "Prioritat"
 
-#: src/proctable.cpp:1188
+#: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
 msgstr ""
@@ -1466,7 +1520,7 @@ msgstr "Uèi %l:%M %p"
 
 #: src/util.cpp:33
 msgid "Yesterday %l:%M %p"
-msgstr "Ièr %H:%M"
+msgstr "Ièr a %Hh%M"
 
 #: src/util.cpp:35
 msgid "%a %l:%M %p"

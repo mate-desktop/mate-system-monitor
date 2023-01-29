@@ -55,6 +55,8 @@ struct LoadGraph {
     guint graph_buffer_offset;
 
     std::vector<GdkRGBA> colors;
+    GdkRGBA background_color;
+    GdkRGBA grid_color;
 
     std::vector<float> data_block;
     gfloat* data[NUM_POINTS];
@@ -124,3 +126,4 @@ GtkWidget*
 load_graph_get_swap_color_picker(LoadGraph *g) G_GNUC_CONST;
 
 #endif /* _PROCMAN_LOAD_GRAPH_H_ */
+

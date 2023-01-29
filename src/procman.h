@@ -93,6 +93,8 @@ struct ProcConfig
     GdkRGBA     net_out_color;
     GdkRGBA     bg_color;
     GdkRGBA     frame_color;
+    GdkRGBA     load_graph_background_color;
+    GdkRGBA     load_graph_grid_color;
     gint        num_cpus;
     bool solaris_mode;
     bool network_in_bits;
@@ -261,3 +263,4 @@ struct KillArgs
 };
 
 #endif /* _PROCMAN_PROCMAN_H_ */
+

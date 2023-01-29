@@ -398,6 +398,14 @@ create_sys_view (ProcData *procdata, GtkBuilder * builder)
 
     procdata->net_graph = net_graph;
     g_free(title_template);
+
+    procdata->cpu_graph->background_color = procdata->config.load_graph_background_color;
+    procdata->mem_graph->background_color = procdata->config.load_graph_background_color;
+    procdata->net_graph->background_color = procdata->config.load_graph_background_color;
+
+    procdata->cpu_graph->grid_color = procdata->config.load_graph_grid_color;
+    procdata->mem_graph->grid_color = procdata->config.load_graph_grid_color;
+    procdata->net_graph->grid_color = procdata->config.load_graph_grid_color;
 }
 
 static void
@@ -679,3 +687,4 @@ cb_proc_goto_tab (gint tab)
     ProcData *data = ProcData::get_instance ();
     gtk_notebook_set_current_page (GTK_NOTEBOOK (data->notebook), tab);
 }
+

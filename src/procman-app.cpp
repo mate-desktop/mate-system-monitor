@@ -184,6 +184,18 @@ color_changed_cb (GSettings *settings, const gchar *key, gpointer data)
         gdk_rgba_parse (&procdata->config.net_out_color, color);
         procdata->net_graph->colors.at(1) = procdata->config.net_out_color;
     }
+    else if (g_str_equal (key, "load-graph-background-color")) {
+        gdk_rgba_parse (&procdata->config.load_graph_background_color, color);
+        procdata->cpu_graph->background_color = procdata->config.load_graph_background_color;
+        procdata->mem_graph->background_color = procdata->config.load_graph_background_color;
+        procdata->net_graph->background_color = procdata->config.load_graph_background_color;
+    }
+    else if (g_str_equal (key, "load-graph-grid-color")) {
+        gdk_rgba_parse (&procdata->config.load_graph_grid_color, color);
+        procdata->cpu_graph->grid_color = procdata->config.load_graph_grid_color;
+        procdata->mem_graph->grid_color = procdata->config.load_graph_grid_color;
+        procdata->net_graph->grid_color = procdata->config.load_graph_grid_color;
+    }
     else {
         g_assert_not_reached();
     }
@@ -304,6 +316,22 @@ procman_data_new (GSettings *settings)
     g_signal_connect (G_OBJECT(settings), "changed::net-out-color",
                       G_CALLBACK(color_changed_cb), pd);
     gdk_rgba_parse(&pd->config.net_out_color, color);
+    g_free (color);
+
+    color = g_settings_get_string (settings, "load-graph-background-color");
+    if (!color)
+        color = g_strdup ("#ffffff");
+    g_signal_connect (G_OBJECT(settings), "changed::load-graph-background-color",
+                      G_CALLBACK(color_changed_cb), pd);
+    gdk_rgba_parse(&pd->config.load_graph_background_color, color);
+    g_free (color);
+
+    color = g_settings_get_string (settings, "load-graph-grid-color");
+    if (!color)
+        color = g_strdup ("#e3e3e3");
+    g_signal_connect (G_OBJECT(settings), "changed::load-graph-grid-color",
+                      G_CALLBACK(color_changed_cb), pd);
+    gdk_rgba_parse(&pd->config.load_graph_grid_color, color);
     g_free (color);
 
     /* Sanity checks */
@@ -433,4 +461,5 @@ void ProcmanApp::on_shutdown()
     procman_free_data(procdata);
     glibtop_close();
 }
+
 

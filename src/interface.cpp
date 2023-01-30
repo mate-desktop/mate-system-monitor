@@ -687,4 +687,3 @@ cb_proc_goto_tab (gint tab)
     ProcData *data = ProcData::get_instance ();
     gtk_notebook_set_current_page (GTK_NOTEBOOK (data->notebook), tab);
 }
-

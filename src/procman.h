@@ -263,4 +263,3 @@ struct KillArgs
 };
 
 #endif /* _PROCMAN_PROCMAN_H_ */
-

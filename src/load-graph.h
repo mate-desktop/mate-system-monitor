@@ -126,4 +126,3 @@ GtkWidget*
 load_graph_get_swap_color_picker(LoadGraph *g) G_GNUC_CONST;
 
 #endif /* _PROCMAN_LOAD_GRAPH_H_ */
-

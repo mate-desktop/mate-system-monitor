@@ -843,4 +843,3 @@ load_graph_get_swap_color_picker(LoadGraph *graph)
 {
     return graph->swap_color_picker;
 }
-

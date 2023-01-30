@@ -462,4 +462,3 @@ void ProcmanApp::on_shutdown()
     glibtop_close();
 }
 
-

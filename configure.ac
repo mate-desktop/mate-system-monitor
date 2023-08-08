@@ -78,6 +78,25 @@ fi
 
 AM_CONDITIONAL(HAVE_SYSTEMD, [test "$have_systemd" = "yes"])
 
+AC_ARG_WITH(elogind,
+            AS_HELP_STRING([--with-elogind],
+            [Use libelogind instead of libsystemd-login]),
+            [with_elogind=$withval], [with_elogind=no])
+
+use_elogind=no
+if test "x$with_elogind" = "xyes"; then
+    PKG_CHECK_MODULES(LIBELOGIND,[libelogind], [use_elogind=yes], [use_elogind=no])
+
+    if test "x$use_elogind" = "xyes"; then
+        AC_DEFINE([WITH_ELOGIND], 1, [elogind support])
+        AC_DEFINE([WITH_SYSTEMD], 1, [Define to 1 to reduce ifdefs since elogind is a drop-in replacement for systemd])
+        AC_SUBST(LIBELOGIND_CFLAGS)
+        AC_SUBST(LIBELOGIND_LIBS)
+    fi
+fi
+AM_CONDITIONAL(WITH_ELOGIND, [test "x$use_elogind" = "xyes"])
+AC_SUBST(WITH_ELOGIND)
+
 # Compiler warnings
 MATE_COMPILE_WARNINGS
 MATE_CXX_WARNINGS
@@ -141,6 +160,7 @@ Configure summary:
         WARN_CFLAGS:            ${WARN_CFLAGS}
         C++ Compiler:           ${CXX}
         CXXFLAGS:               ${CXXFLAGS}
+        Elogind support:        ${use_elogind}
         WARN_CXXFLAGS:          ${WARN_CXXFLAGS}
         Maintainer mode:        ${USE_MAINTAINER_MODE}
         Systemd support:        ${have_systemd}

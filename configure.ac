@@ -89,9 +89,6 @@ if test "x$enable_elogind" = "xyes"; then
     else
         AC_DEFINE([WITH_ELOGIND], 1, [elogind support])
         AC_DEFINE([WITH_SYSTEMD], 1, [Define to 1 to reduce ifdefs since elogind is a drop-in replacement for systemd])
-        AC_SUBST(LIBELOGIND_CFLAGS)
-        AC_SUBST(LIBELOGIND_LIBS)
-
     fi
 fi
 AM_CONDITIONAL(WITH_ELOGIND, [test "x$use_elogind" = "xyes"])

@@ -20,6 +20,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/mate-system-monitor
+    - appstream
     - autopoint
     - autoconf-archive
     - clang

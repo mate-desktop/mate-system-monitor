@@ -13,16 +13,16 @@
 # tarakbumba <tarakbumba@gmail.com>, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # Mehmet, 2022
-# Sabri Ünal <libreajans@gmail.com>, 2022
+# Sabri Ünal <libreajans@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.26.0\n"
+"Project-Id-Version: mate-system-monitor 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2022-10-29 15:31+0200\n"
+"POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2022\n"
-"Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -713,8 +713,8 @@ msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
 msgstr ""
-"Eğer DOĞRU ise, ana pencere azami boyutta açılacak ve kaydedilmiş boyut ile "
-"konum verileri görmezden gelinecektir."
+"Eğer TRUE (doğru) ise, ana pencere azami boyutta açılacak ve kaydedilmiş "
+"boyut ile konum verileri görmezden gelinecektir."
 
 #: src/org.mate.system-monitor.gschema.xml.in:14
 msgid "Show process dependencies in tree form"
@@ -730,8 +730,9 @@ msgid ""
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
 msgstr ""
-"DOĞRU ise, sistem-monitörü 'Solaris kipi'nde çalışır; ki bir görevin MİB "
-"kullanımı MİB toplam sayısına bölünür. Aksi halde 'Irix kipi'nde çalışır."
+"Eğer TRUE (doğru) ise, system-monitor 'Solaris kipi'nde çalışır; ki bir "
+"görevin MİB kullanımı MİB toplam sayısına bölünür. Aksi halde 'Irix kipi'nde"
+" çalışır."
 
 #: src/org.mate.system-monitor.gschema.xml.in:23
 msgid "Enable/Disable smooth refresh"
@@ -923,10 +924,12 @@ msgstr "Süreç 'X Sunucu Belleği' sütununun genişliği"
 msgid "Show process 'X Server Memory' column on startup"
 msgstr "Başlangıçta 'X Sunucusu Belleği' süreç sütununu göster"
 
+#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
 msgstr "Süreç 'MİB %' sütununun genişliği"
 
+#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
 msgstr "Başlangıçta 'MİB %' sütununu göster"

@@ -5,22 +5,22 @@
 # 
 # Translators:
 # fbc955180bc2b956cb4ef52d00eb80a0_91487f8, 2018
-# BALLOON | FU-SEN, 2018
+# 🎈 BALLOON | FU-SEN, 2018
 # あわしろいくや <ikunya@gmail.com>, 2018
 # Ikuru K <kanumaiku@gmail.com>, 2019
 # Wolfgang Ulbrich <mate@raveit.de>, 2021
 # ABE Tsunehiko, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
-# Green, 2022
+# Green <usergreen@users.osdn.me>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.26.0\n"
+"Project-Id-Version: mate-system-monitor 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2022-10-29 15:31+0200\n"
+"POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Green, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2022\n"
+"Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -903,10 +903,12 @@ msgstr "'X サーバーメモリー' の項目の幅"
 msgid "Show process 'X Server Memory' column on startup"
 msgstr "起動時に 'X サーバーメモリー' の項目を表示するか"
 
+#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
 msgstr "'CPU 使用率' の項目の幅"
 
+#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
 msgstr "起動時に 'CPU 使用率' の項目を表示する"

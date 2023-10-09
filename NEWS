@@ -1,3 +1,10 @@
+### mate-system-monitor 1.26.1
+
+  * Translations update
+  * Fix Information Fields not being saved
+  * Fix a warning in japanese translations
+  * Add preferences.ui in POTFILES.in
+
 ### mate-system-monitor 1.26.0
 
   * Translations update

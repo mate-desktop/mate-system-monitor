@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Milan Savaliya <milansavaliyaz@gmail.com>, 2019
+# Milan Savaliya <milansavaliyaz@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Milan Savaliya <milansavaliyaz@gmail.com>, 2019\n"
-"Language-Team: Gujarati (https://www.transifex.com/mate/teams/13566/gu/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Language-Team: Gujarati (https://app.transifex.com/mate/teams/13566/gu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -478,15 +478,15 @@ msgstr "કુલ મોકલ્યા"
 msgid "System"
 msgstr "સિસ્ટમ"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "પ્રક્રિયાઓ"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "સ્રોતો"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "ફાઈલ સિસ્ટમો"
 
@@ -1113,6 +1113,54 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr ""
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "સિસ્ટમ મોનિટર પસંદગીઓ"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "વર્તણૂક"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "અંતરાલ સેકન્ડોમાં સુધારો (_U):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "સરળ પુનઃતાજું કરો સક્રિય કરો (_s)"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "પ્રક્રિયાઓનો અંત કરવા અથવા તેમને મારી નાંખવા પહેલા ચેતવો (_k)"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "જાણકારી ક્ષેત્રો"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "યાદીમાં બતાવેલ પ્રક્રિયા જાણકારી (_n):"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "આલેખો"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr ""
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "યાદીમાં બતાવેલ ફાઇલ સિસ્ટમ જાણકારી:"
 
 #: src/procactions.cpp:77
 #, c-format

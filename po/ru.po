@@ -4,29 +4,35 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Aleksandr <pc01.alex@yandex.ru>, 2018
-# Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2018
-# 3bc1d0981266ee56e134b97b4970de06_52e58dc <e9a3d6aaf4954f31618f7b086b2e0f03_238271>, 2018
-# Dmitry Mandryk <dmandryk@gmail.com>, 2018
-# theirix <theirix@gmail.com>, 2018
-# Alexei Sorokin, 2018
-# AlexL <loginov.alex.valer@gmail.com>, 2018
-# monsta <monsta@inbox.ru>, 2018
-# Andreï Victorovitch Kostyrka, 2018
-# Dmitriy Kulikov <kulikov@dima.perm.ru>, 2018
-# Alex Putz, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Дмитрий Михирев, 2019
-# Anna Vyalkova <cybertailor@gmail.com>, 2020
+# Dmitry Mandryk <dmandryk@gmail.com>, 2021
+# Olesya Gerasimenko <gammaray@basealt.ru>, 2021
+# XRevan86, 2021
+# Aleksey Kabanov <ak099@mail.ru>, 2021
+# Aleksandr <pc01.alex@yandex.ru>, 2021
+# Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2021
+# AlexL <loginov.alex.valer@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# 3bc1d0981266ee56e134b97b4970de06_52e58dc <e9a3d6aaf4954f31618f7b086b2e0f03_238271>, 2021
+# Cyber Tailor <cyber@sysrq.in>, 2021
+# monsta <monsta@inbox.ru>, 2021
+# Andreï Victorovitch Kostyrka, 2021
+# theirix <theirix@gmail.com>, 2021
+# Dmitriy Kulikov <kulikov@dima.perm.ru>, 2021
+# Дмитрий Астанков <mornie@basealt.ru>, 2021
+# Alexey Rodionov <melenki@yandex.ru>, 2021
+# Павел Коваленко, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Дмитрий Михирев, 2022
+# Sergej A. <Ser82-png@yandex.ru>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Anna Vyalkova <cybertailor@gmail.com>, 2020\n"
-"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Sergej A. <Ser82-png@yandex.ru>, 2022\n"
+"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -169,6 +175,7 @@ msgstr ""
 "Александр Сигачёв <ajvol2@gmail.com>\n"
 "Александр Соколов\n"
 "Александр Хромин\n"
+"Алексей Родионов <alexey.rodionov@red-soft.ru>\n"
 "Алексей Рочев <equeim@gmail.com>\n"
 "Алексей Сорокин <sor.alexei@meowr.ru>\n"
 "Андрей Иванков\n"
@@ -211,7 +218,7 @@ msgstr "Тип"
 
 #: src/disks.cpp:408
 msgid "SubVolume"
-msgstr ""
+msgstr "Подраздел"
 
 #: src/disks.cpp:409
 msgid "Total"
@@ -279,7 +286,7 @@ msgstr "_Монитор"
 
 #: src/interface.cpp:53
 msgid "_Edit"
-msgstr "_Правка"
+msgstr "_Изменить"
 
 #: src/interface.cpp:54
 msgid "_View"
@@ -287,7 +294,7 @@ msgstr "_Вид"
 
 #: src/interface.cpp:55
 msgid "_Help"
-msgstr "_Помощь"
+msgstr "С_правка"
 
 #: src/interface.cpp:57
 msgid "Search for _Open Files"
@@ -324,10 +331,10 @@ msgstr "Продолжить процесс, если остановлен"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "_Завершить процесс"
+msgstr[1] "_Завершить процессы"
+msgstr[2] "_Завершить процессы"
+msgstr[3] "_Завершить процессы"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -336,10 +343,10 @@ msgstr "Корректно завершить процесс"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "_Убить процесс"
+msgstr[1] "_Убить процессы"
+msgstr[2] "_Убить процессы"
+msgstr[3] "_Убить процессы"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -355,7 +362,7 @@ msgstr "Изменить приоритет процесса"
 
 #: src/interface.cpp:74
 msgid "_Preferences"
-msgstr "Н_астройка"
+msgstr "П_араметры"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
@@ -388,7 +395,7 @@ msgstr "Просмотреть файлы, открытые процессом"
 
 #: src/interface.cpp:85
 msgid "_Properties"
-msgstr "_Параметры"
+msgstr "_Свойства"
 
 #: src/interface.cpp:86
 msgid "View additional information about a process"
@@ -404,7 +411,7 @@ msgstr "Открыть справку"
 
 #: src/interface.cpp:91
 msgid "_About"
-msgstr "_Об апплете"
+msgstr "_О приложении"
 
 #: src/interface.cpp:92
 msgid "About this application"
@@ -452,7 +459,7 @@ msgstr "Установить очень высокий приоритет про
 
 #: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
-msgstr "Высокий"
+msgstr "Высокая"
 
 #: src/interface.cpp:118
 msgid "Set process priority to high"
@@ -468,7 +475,7 @@ msgstr "Установить нормальный приоритет проце�
 
 #: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
-msgstr "Низкий"
+msgstr "Низкая"
 
 #: src/interface.cpp:122
 msgid "Set process priority to low"
@@ -551,15 +558,15 @@ msgstr "Всего отправлено"
 msgid "System"
 msgstr "Система"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Процессы"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Ресурсы"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Файловые системы"
 
@@ -568,7 +575,7 @@ msgstr "Файловые системы"
 msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] "%u секунда"
-msgstr[1] "%u секунд"
+msgstr[1] "%u секунды"
 msgstr[2] "%u секунд"
 msgstr[3] "%u секунд"
 
@@ -620,7 +627,7 @@ msgstr "_Имя содержит:"
 #. The default accelerator collides with the default close accelerator.
 #: src/lsof.cpp:357
 msgid "C_lear"
-msgstr "_Очистить"
+msgstr "О_чистить"
 
 #: src/lsof.cpp:361
 msgid "Case insensitive matching"
@@ -1144,11 +1151,11 @@ msgstr "Показывать столбец «Тип» для дисков пр�
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'SubVol' column"
-msgstr ""
+msgstr "Ширина столбца «Подраздел» для дисков"
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'SubVol' column on startup"
-msgstr ""
+msgstr "Показывать столбец «Подраздел» для дисков при запуске"
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
@@ -1198,6 +1205,54 @@ msgstr "Столбец сортировки открытых файлов"
 msgid "Open files sort order"
 msgstr "Порядок сортировки открытых файлов"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Параметры системного монитора"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Поведение"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Интервал обновления в секундах:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Включить _плавное обновление"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Предупреждать перед _завершением или снятием процессов"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Разбить использование ЦП по количеству ЦП"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Информационные поля"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Информация о процессах, отображаемая в списке:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Графики"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Показывать скорость сети в битах"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Показать _все файловые системы"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Информация о файловой _системе, отображаемая в списке:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1220,25 +1275,25 @@ msgstr ""
 #: src/procdialogs.cpp:80
 #, c-format
 msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Вы действительно хотите убить выделенные процессы  «%s» (PID: %u)?"
 
 #. xgettext: primary alert message for ending single process
 #: src/procdialogs.cpp:85
 #, c-format
 msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Вы действительно хотите завершить выделенный процесс «%s» (PID: %u)?"
 
 #. xgettext: primary alert message for killing multiple processes
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr ""
+msgstr "Вы действительно хотите убить %d выделенных процесса?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr ""
+msgstr "Вы действительно хотите завершить %d выделенных процесса?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1271,7 +1326,7 @@ msgstr "Изменить приоритет процесса «%s» (PID: %u)"
 #: src/procdialogs.cpp:200
 #, c-format
 msgid "Change Priority of %d Selected Processes"
-msgstr ""
+msgstr "Изменить приоритет %d выделенных процессов"
 
 #: src/procdialogs.cpp:214
 msgid "Change _Priority"
@@ -1348,7 +1403,7 @@ msgstr "Приоритет"
 
 #: src/proctable.cpp:266 src/procproperties.cpp:158
 msgid "ID"
-msgstr "ID"
+msgstr "Идентификатор"
 
 #: src/proctable.cpp:267 src/procproperties.cpp:159
 msgid "Security Context"
@@ -1356,7 +1411,7 @@ msgstr "Контекст безопасности"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:160
 msgid "Command Line"
-msgstr "Командная строка"
+msgstr "Из командной строки"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1439,7 +1494,7 @@ msgstr "Выпуск %s %s"
 #: src/sysinfo.cpp:89
 #, c-format
 msgid "%s Version"
-msgstr "Версия %s"
+msgstr "%s версия"
 
 #. Translators: The string parameter is release version (codename)
 #: src/sysinfo.cpp:94
@@ -1452,11 +1507,11 @@ msgstr "Выпуск %s"
 #: src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
-msgstr "%d-разрядный"
+msgstr "%d-разрядная"
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"
-msgstr "Неизвестный"
+msgstr "Неизвестная"
 
 #: src/sysinfo.cpp:979
 #, c-format

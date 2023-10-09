@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Alexander Gabilondo <alexgabi@disroot.org>, 2019
-# David García-Abad <dgarciabad@gmail.com>, 2020
+# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2021
+# David García-Abad <dgarciabad@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Alexander Gabilondo <alexgabi@disroot.org>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: David García-Abad <dgarciabad@gmail.com>, 2020\n"
-"Language-Team: Basque (https://www.transifex.com/mate/teams/13566/eu/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Alexander Gabilondo <alexgabi@disroot.org>, 2022\n"
+"Language-Team: Basque (https://app.transifex.com/mate/teams/13566/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 "MATE SIstemaren Monitoreak zure sisteman exekutatzen ari diren prozesuak "
 "grafikoki ikusi eta aldatzeko aukera ematen dizu. Era berean, eskuragarri "
-"dauden baliabideen ikuspegi orokor bat erakusten du, hala nola CPU-a eta "
+"dauden baliabideen ikuspegi orokor bat erakusten du, hala nola PUZ eta "
 "memoria."
 
 #: mate-system-monitor.appdata.xml.in:15
@@ -78,7 +78,7 @@ msgstr "Beste erabiltzaileen prozesuak kontrolatzeko behar dira pribilegioak"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
-msgstr "Prozesuaren \"nice\" balioa aldatu (renice)"
+msgstr "Prozesuaren lehentasun balioa aldatu (renice)"
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
@@ -107,10 +107,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"Sistemaren Monitorea software askea da; birbana dezakezu eta/edo aldatu "
-"Software Librerako Fundazioak argitaratutako GNU Lizentzia Publiko "
-"Orokorraren baldintzen arabera; erabili dezakezu aipatutako lizentziaren 2. "
-"bertsioa edor beranduago argitaratu den beste edozein bertsio."
+"Sistemaren Monitorea software librea da; birbana dezakezu eta/edo aldatu "
+"Free Software Foundation-ek argitaratutako GNU Lizentzia Publiko Orokorraren"
+" baldintzen arabera; erabili dezakezu aipatutako lizentziaren 2. bertsioa "
+"edo beranduago argitaratu den beste edozein bertsio."
 
 #: src/callbacks.cpp:215
 msgid ""
@@ -119,8 +119,8 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
-"Sistemaren Monitorea banatzen da erabilgarria izango delako, baina INOLAKO "
-"BERMERIK GABE, ezta MERKATURATZEKO bermi inplizitoa edo HELBURU KONKRETU "
+"Sistemaren Monitorea banatzen da erabilgarria izango delakoan, baina INOLAKO"
+" BERMERIK GABE, ezta MERKATURATZEKO berme inplizitoa edo HELBURU KONKRETU "
 "BATERAKO EGOKIA IZATEKOA. Ikusi GNU Lizentzia Publiko Orokorra xehetasun "
 "gehiagorako."
 
@@ -502,15 +502,15 @@ msgstr "Bidalitakoak guztira"
 msgid "System"
 msgstr "Sistema"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Prozesuak"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Baliabideak"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Fitxategi-sistemak"
 
@@ -518,8 +518,8 @@ msgstr "Fitxategi-sistemak"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u segundo"
-msgstr[1] "%u segundo"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1043,15 +1043,16 @@ msgstr "Prozesuaren \"Distotik Irakurrita\" zutabearen zabalera"
 
 #: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
-msgstr "Erakutsi \"Diskoaren Irakurketa\" prozesua sistema hasieratzekoan"
+msgstr ""
+"Erakutsi prozesuaren \"Diskoan Irakurrita\" zutabea sistema hasieratzekoan"
 
 #: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
-msgstr "\"Diskoaren Idazketa\" prozesuari dagokion zutabearen zabalera"
+msgstr "Prozesuaren \"Diskoan Idatzita\" zutabearen zabalera"
 
 #: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
-msgstr "Erakutsi \"Diskoaren Idazketa\" zutabea sistema hasieratzekoan"
+msgstr "Erakutsi prozesuaren \"Diskoan Idatzita\" zutabea sistema hasieratzekoan"
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
@@ -1152,6 +1153,54 @@ msgstr "Ireki fitxategiak ordenatzeko zutabea"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Ireki fitxategiak ordenatzeko"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Sistemako monitorearen hobespenak"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Portaera"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Eguneratze-tartea (segundotan):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Gaitu freskatze _leuna"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Abisatu prozesuak amaitu edo hil aurretik"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Informazioaren eremuak"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Zerrendan erakutsitako prozesuen _datuak:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafikoak"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Erakutsi fitxategi sistema guztiak"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Fitxategi-sistemako _informazioa zerrendan erakutsita:"
 
 #: src/procactions.cpp:77
 #, c-format
@@ -1346,11 +1395,11 @@ msgstr "Jabea"
 
 #: src/proctable.cpp:279 src/procproperties.cpp:151
 msgid "Disk Read Total"
-msgstr "Diskoaren Irakurrita Guztira"
+msgstr "Diskoan Irakurrita Guztira"
 
 #: src/proctable.cpp:280 src/procproperties.cpp:152
 msgid "Disk Write Total"
-msgstr "Diskoaren Idatzita Guztira"
+msgstr "Diskoan Idatzita Guztira"
 
 #: src/proctable.cpp:281
 msgid "Disk Read"

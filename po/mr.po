@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2019
+# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2019\n"
-"Language-Team: Marathi (https://www.transifex.com/mate/teams/13566/mr/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Language-Team: Marathi (https://app.transifex.com/mate/teams/13566/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -478,15 +478,15 @@ msgstr "एकूण पाठविले"
 msgid "System"
 msgstr "प्रणाली"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "प्रक्रिया"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "साधने"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "फाइल प्रणाली"
 
@@ -1113,6 +1113,54 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr ""
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "प्रणाली मॉनिटर प्राधान्यता"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "वर्तन"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "अद्ययावत अंतराळ सेकंदांत(_U):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "हळुवार ताजाकरण कार्यान्वित करा(_s)"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "प्रक्रिया समाप्त किवा मारण्याआधी सतर्क करा(_k)"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "माहिती गुणविशेष"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "यादीत दर्शवलेली माहिती(_n) विश्लेषीत करा:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "आलेख"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr ""
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "यादीत दर्शविलेली फाइल प्रणाली विषयक माहिती (_n):"
 
 #: src/procactions.cpp:77
 #, c-format

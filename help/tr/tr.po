@@ -1,20 +1,22 @@
 # 
 # Translators:
-# Yaşar Çiv <yasarciv@protonmail.com>, 2018
-# tarakbumba <tarakbumba@gmail.com>, 2019
-# mauron, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2019
-# Butterfly <gokhanlnx@gmail.com>, 2020
-# hilalis <hilalis@outlook.com.tr>, 2020
+# tarakbumba <tarakbumba@gmail.com>, 2021
+# mauron, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Butterfly <gokhanlnx@gmail.com>, 2021
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
+# Yaşar Çiv <yasarciv@protonmail.com>, 2021
+# 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2021
+# hilalis <hilalis@outlook.com.tr>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: hilalis <hilalis@outlook.com.tr>, 2020\n"
-"Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,9 +34,10 @@ msgstr ""
 "Muhammet Kara <muhammet.k@gmail.com>, 2011.\n"
 "MATE projesine katkıda bulunanlar:\n"
 "hsngrms <dead-bodies-everywhere@hotmail.com>, 2012\n"
-"mauron, 2012, 2013, 2014\n"
+"mauron, 2012, 2013, 2014, 2015, 2016, 2017, 2018\n"
 "Atilla Öntaş <tarakbumba@gmail.com>, 2014\n"
-"Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015"
+"Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015\n"
+"Hilalis BIRDS <hilalis@outlook.com.tr>, 2021"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -44,7 +47,7 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr "<year>2015-2020</year> <holder>MATE tBelgelendirme Projesi</holder>"
+msgstr "<year>2015-2020</year> <holder>MATE Belgelendirme Projesi</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
@@ -119,7 +122,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "MATE Belgelendirme Takımı"
+msgstr "MATE Belgelendirme Projesi"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -185,8 +188,9 @@ msgstr "Geri bildirim"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -321,7 +325,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:273
 msgid "CPU (central processing unit) time"
-msgstr ""
+msgstr "CPU(Central Processing Unit) zamanı"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:278
@@ -331,7 +335,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:283
 msgid "Network usage"
-msgstr ""
+msgstr "ağ kullanımı"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
@@ -524,7 +528,7 @@ msgstr "Sistem Bilgisi"
 #. (itstool) path: sect2/title
 #: C/index.docbook:448
 msgid "To Display the Process List"
-msgstr ""
+msgstr "Görev Listesini Yürütmek İçin"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:449
@@ -567,7 +571,7 @@ msgstr "Öncelik"
 #. (itstool) path: listitem/para
 #: C/index.docbook:469
 msgid "ID"
-msgstr "Kimlik No"
+msgstr "No"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:472
@@ -677,12 +681,12 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:540
 msgid "To Sort the Process List"
-msgstr ""
+msgstr "Görev Listesini Sıralamak İçin"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:541
 msgid "To sort the process list, perform the following steps:"
-msgstr ""
+msgstr "Görev listesini sıralamak için aşağıdaki adımları yerine getirin:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:546 C/index.docbook:581 C/index.docbook:604
@@ -734,6 +738,7 @@ msgstr "Bütün İşlemleri Görüntülemek İçin"
 msgid ""
 "To show all processes in the process list, perform the following steps:"
 msgstr ""
+"Görev listesindeki tüm görevleri görüntülemek için adımları takip edin:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:586
@@ -848,7 +853,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:706
 msgid "Select the process in the process list."
-msgstr ""
+msgstr "Görev listesinde görevi seçin."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:711
@@ -870,7 +875,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:721
 msgid "<guilabel>Filename</guilabel>"
-msgstr ""
+msgstr "<guilabel>Dosya adı</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:723
@@ -1035,7 +1040,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:843 C/index.docbook:1537
 msgid "<guilabel>Device</guilabel>"
-msgstr ""
+msgstr "<guilabel>Cihaz</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:845
@@ -1170,7 +1175,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:944
 msgid "To Terminate a Process"
-msgstr ""
+msgstr "Görevi Sonlandırmak İçin:"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:945
@@ -1208,7 +1213,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:979
 msgid "To Monitor CPU Usage"
-msgstr ""
+msgstr "CPU Kullanımını Görüntülemek İçin:"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:980
@@ -1521,7 +1526,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1251
 msgid "<guilabel>Process Name</guilabel>"
-msgstr ""
+msgstr "<guilabel>Görev Adı</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1254
@@ -1557,7 +1562,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1275
 msgid "<guilabel>Virtual Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Sanal Bellek</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1278
@@ -1678,7 +1683,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1355
 msgid "<guilabel>Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Bellek</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1358
@@ -1702,7 +1707,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1371
 msgid "<guilabel>Command Line</guilabel>"
-msgstr ""
+msgstr "<guilabel>Komut Satırı</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1374
@@ -1842,7 +1847,8 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:1473
 msgid "Resources"
-msgstr "Kaynaklar"
+msgstr ""
+"Katkıda bulunmaya çekinmeyin, MATE'yi geliştiriken eğlenmenizi umuyoruz!"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1476
@@ -1957,7 +1963,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1577
 msgid "<guilabel>Available</guilabel>"
-msgstr ""
+msgstr "<guilabel>Kullanılabilir</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1580

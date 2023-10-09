@@ -4,20 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mubarak Qahtani <abu-q76@hotmail.com>, 2018
-# Mosaab Alzoubi <moceap@hotmail.com>, 2018
-# alibacha19 <alibacha19@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2019
+# Mosaab Alzoubi <moceap@hotmail.com>, 2021
+# Mubarak Qahtani <abu-q76@hotmail.com>, 2021
+# Ahmad Dakhlallah <andy.afef@gmail.com>, 2021
+# alibacha19 <alibacha19@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: مهدي السطيفي <chinoune.mehdi@gmail.com>, 2019\n"
-"Language-Team: Arabic (https://www.transifex.com/mate/teams/13566/ar/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: مهدي السطيفي <chinoune.mehdi@gmail.com>, 2022\n"
+"Language-Team: Arabic (https://app.transifex.com/mate/teams/13566/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -131,7 +132,8 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "فريق عيون العرب للترجمة http://www.arabeyes.org :\n"
-"مصعب الزعبي\t<moceap@hotmail.com>"
+"مصعب الزعبي\t<moceap@hotmail.com>\n"
+"لينيكس العرب linuxarabia.co"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -491,15 +493,15 @@ msgstr "المجموع المُرسَل"
 msgid "System"
 msgstr "النّظام"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "العمليّات"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "الموارد"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "أنظمة الملفات"
 
@@ -1128,6 +1130,54 @@ msgstr "فتح الملفات في شكل أعمدة"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "فتح الملفات بطريقة مرتبة"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "تفضيلات مراقب النظام"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "السلوك"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "ال_مدة بالثانية بين التحديثات الآلية:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "_فعّل التحديث المرن"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "نبّه عند إنهاء أو _قتل العمليّات"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "_حقول المعلومات"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "_معلومات العمليات المعروضة في القائمة:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "رسوم بيانية"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "عرض كل أنظمة الملفات"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "م_علومات نظام الملفات معروضة في قائمة:"
 
 #: src/procactions.cpp:77
 #, c-format

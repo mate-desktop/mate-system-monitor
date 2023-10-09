@@ -1,18 +1,18 @@
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Cédric Valmary <cvalmary@yahoo.fr>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
-# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Cédric Valmary <cvalmary@yahoo.fr>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2021
 # Quentin PAGÈS, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
 "Last-Translator: Quentin PAGÈS, 2021\n"
-"Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
+"Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,8 +23,8 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Yannig Marchegay (Kokoyaya) <yannig@marchegay.org> & Cédric Valmary "
-"(totenoc.eu) <cvalmary@yahoo.fr>"
+"Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, Cédric Valmary "
+"(totenoc.eu) <cvalmary@yahoo.fr>, Quentin Pagès"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -172,8 +172,9 @@ msgstr "Comentaris"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 "Per senhalar una avaria o per formular una suggestion a prepaus del Monitor "
 "sistèma o aqueste manual, seguissètz las instruccions dins la <ulink "
@@ -573,22 +574,22 @@ msgstr "Canal d'espèra"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Total lectura disc"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Total escritura disc"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "Lectura disc"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "Escritura disc"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490

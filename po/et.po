@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mattias Põldaru <mahfiaz@gmail.com>, 2018
-# Rivo Zängov <eraser@eraser.ee>, 2018
-# Ivar Smolin <okul@linux.ee>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Rivo Zängov <eraser@eraser.ee>, 2021
+# vaba <vaba@riseup.net>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Ivar Smolin <okul@linux.ee>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
-"Language-Team: Estonian (https://www.transifex.com/mate/teams/13566/et/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>, 2022\n"
+"Language-Team: Estonian (https://app.transifex.com/mate/teams/13566/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,7 +133,8 @@ msgstr ""
 "Ilmar Kerm <ikerm hot ee>, 2001, 2002.\n"
 "Tõivo Leedjärv <toivo linux ee>, 2002, 2003.\n"
 "Priit Laes <plaes plaes org>, 2004–2006, 2008, 2009\n"
-"Ivar Smolin <okul linux ee>, 2005–2010, 2014–2015, 2018."
+"Ivar Smolin <okul linux ee>, 2005–2010, 2014–2015, 2018.\n"
+"Marko Silluste, 2021."
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -485,15 +486,15 @@ msgstr "Kokku saadetud"
 msgid "System"
 msgstr "Süsteem"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Protsessid"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Vahendid"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Failisüsteemid"
 
@@ -501,8 +502,8 @@ msgstr "Failisüsteemid"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u sekund"
-msgstr[1] "%u sekundit"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1126,6 +1127,54 @@ msgstr "Avatud failide sortimisveerg"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Avatud failide sortimisjärjestus"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Süsteemijälgija eelistused"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Käitumine"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Värskendamise vahemik sekundites:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "_Sujuv värskendus on lubatud"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Hoiatus enne protsessi _kõrvaldamist"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Andmeväljad"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Loetelus näidatavad pro_tsessi andmed:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Graafikud"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Näidatakse _kõiki failisüsteeme"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Loetelus näidatavad pro_tsessi andmed:"
 
 #: src/procactions.cpp:77
 #, c-format

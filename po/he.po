@@ -4,22 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Dave Save <davesave@gmail.com>, 2018
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2018
-# בר בוכובזה <bokovzabox@gmail.com>, 2018
-# haxoc c11 <haxoc112@disroot.org>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# shy tzedaka <shaytzedaka123@gmail.com>, 2020
-# Omer I.S. <omeritzicschwartz@gmail.com>, 2021
+# בר בוכובזה <bokovzabox@gmail.com>, 2021
+# Dave Save <davesave@gmail.com>, 2021
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2021
+# shy tzedaka <shaytzedaka123@gmail.com>, 2021
+# haxoc c11 <haxoc112@disroot.org>, 2021
+# 63f334ffc0709ba0fc2361b80bf3c0f0_00ffd1e <ab96c93ca0ac55ba7fa06385427e60dd_878890>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>, 2021\n"
-"Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Language-Team: Hebrew (https://app.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -134,7 +134,9 @@ msgstr ""
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
-msgstr "Yaron Shahrabani <sh.yaron@gmail.com>"
+msgstr ""
+"Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Omer I.S. <omeritzicschwartz@gmail.com>"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -184,11 +186,11 @@ msgstr "כותרת"
 
 #: src/gsm_color_button.c:166
 msgid "The title of the color selection dialog"
-msgstr "הכותרת של חלון בחירת הצבע"
+msgstr "הכותרת של דו־שיח בחירת הצבע"
 
 #: src/gsm_color_button.c:167 src/gsm_color_button.c:591
 msgid "Pick a Color"
-msgstr "בחר צבע"
+msgstr "יש לבחור צבע"
 
 #: src/gsm_color_button.c:173
 msgid "Current Color"
@@ -383,7 +385,7 @@ msgstr ""
 
 #: src/interface.cpp:115 src/util.cpp:167
 msgid "Very High"
-msgstr "גבוה מאוד"
+msgstr "גבוהה מאוד"
 
 #: src/interface.cpp:116
 msgid "Set process priority to very high"
@@ -391,7 +393,7 @@ msgstr ""
 
 #: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
-msgstr "גבוה"
+msgstr "גבוהה"
 
 #: src/interface.cpp:118
 msgid "Set process priority to high"
@@ -399,7 +401,7 @@ msgstr ""
 
 #: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
-msgstr "רגיל"
+msgstr "רגילה"
 
 #: src/interface.cpp:120
 msgid "Set process priority to normal"
@@ -407,7 +409,7 @@ msgstr ""
 
 #: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
-msgstr "נמוך"
+msgstr "נמוכה"
 
 #: src/interface.cpp:122
 msgid "Set process priority to low"
@@ -490,15 +492,15 @@ msgstr "סה\"כ נשלח"
 msgid "System"
 msgstr "מערכת"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "תהליכים"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "משאבים"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "מערכות קבצים"
 
@@ -667,7 +669,7 @@ msgstr "אובייקט"
 
 #: src/openfiles.cpp:328
 msgid "Open Files"
-msgstr "קבצים פתוחים"
+msgstr "פתיחת קבצים"
 
 #: src/openfiles.cpp:349
 #, c-format
@@ -1128,6 +1130,54 @@ msgstr ""
 msgid "Open files sort order"
 msgstr ""
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "העדפות צג המערכת"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "התנהגות"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "מרוח _עדכון בשניות:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "לאפשר _ריענון חלק"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "התרע לפני _סיום או הריגת תהליכים"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "שדות מידע"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "_מידע על תהליכים אשר מוצג ברשימה:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "גרפים"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr ""
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "_מידע על מערכות קבצים אשר מוצג ברשימה:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1403,7 +1453,7 @@ msgstr "מעבד:"
 
 #: src/sysinfo.cpp:1016
 msgid "Graphics:"
-msgstr "גרפיקה:"
+msgstr "גרפיקה"
 
 #. disk space section
 #: src/sysinfo.cpp:1021

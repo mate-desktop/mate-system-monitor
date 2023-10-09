@@ -1,20 +1,22 @@
 # 
 # Translators:
-# Mubarak Qahtani <abu-q76@hotmail.com>, 2018
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
-# Mosaab Alzoubi <moceap@hotmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2019
-# alibacha19 <alibacha19@gmail.com>, 2019
-# Ahmad Dakhlallah <andy.afef@gmail.com>, 2019
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2021
+# Oukiki Saleh <salehoukiki@gmail.com>, 2021
+# Ahmd go <go.allen@protonmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Mosaab Alzoubi <moceap@hotmail.com>, 2021
+# Mubarak Qahtani <abu-q76@hotmail.com>, 2021
+# Ahmad Dakhlallah <andy.afef@gmail.com>, 2021
+# alibacha19 <alibacha19@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Ahmad Dakhlallah <andy.afef@gmail.com>, 2019\n"
-"Language-Team: Arabic (https://www.transifex.com/mate/teams/13566/ar/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: alibacha19 <alibacha19@gmail.com>, 2021\n"
+"Language-Team: Arabic (https://app.transifex.com/mate/teams/13566/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +28,8 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "فريق عيون العرب للترجمة http://www.arabeyes.org :\n"
-"مصعب الزعبي\t<moceap@hotmail.com>"
+"مصعب الزعبي\t<moceap@hotmail.com>\n"
+"لينيكس العرب linuxarabia.co"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -36,7 +39,7 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:25
 msgid "<year>2015-2020</year> <holder>MATE Documentation Project</holder>"
-msgstr ""
+msgstr "<year>2015-2020</year> <holder>مشروع دليل ماتي</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:28
@@ -59,7 +62,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr "مشروع دليل MATE"
+msgstr "مشروع توثيق ماتي"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
@@ -100,7 +103,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr ""
+msgstr "فريق توثيق ماتي  "
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -166,8 +169,9 @@ msgstr "آراء وانطباعات"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para

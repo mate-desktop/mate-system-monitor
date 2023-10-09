@@ -4,22 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nagy Gábor <jackson.gabor@gmail.com>, 2018
-# Rezső Páder <rezso@rezso.net>, 2018
-# Takler Tamás <taklertamas@gmail.com>, 2018
-# KAMI KAMI <kami911@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Falu <info@falu.me>, 2019
-# Balázs Meskó <meskobalazs@mailbox.org>, 2019
+# Nagy Gábor <jackson.gabor@gmail.com>, 2021
+# KAMI KAMI <kami911@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Takler Tamás <taklertamas@gmail.com>, 2021
+# Falu <info@falu.me>, 2021
+# Balázs Meskó <meskobalazs@mailbox.org>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Rezső Páder <rezso@rezso.net>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>, 2019\n"
-"Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Rezső Páder <rezso@rezso.net>, 2022\n"
+"Language-Team: Hungarian (https://app.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +33,7 @@ msgstr "MATE rendszerfigyelő"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Egy folyamat és erőforrás figyelő a MATE asztali környezethez"
+msgstr "Egy folyamat- és erőforrásfigyelő a MATE asztali környezethez"
 
 #: mate-system-monitor.appdata.xml.in:10
 msgid ""
@@ -145,14 +146,14 @@ msgstr ""
 #: src/callbacks.cpp:240
 msgid "translator-credits"
 msgstr ""
-"Dvornik László<dvornik at mate dot hu>\n"
-"Kelemen Gábor<kelemeng at mate dot hu>\n"
-"Tímár András<timar at mate dot hu>\n"
-"Rezső Páder<rezso at rezso dot net>\n"
-"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
-"Falu<info at falu dot me>\n"
-"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko dot balazs at fsf dot hu>"
+"Dvornik László <dvornik at mate dot hu>\n"
+"Kelemen Gábor <kelemeng at mate dot hu>\n"
+"Kalman „KAMI” Szalai <kami911 at gmail dot com>\n"
+"Falu <info at falu dot me>\n"
+"Rezső Páder <rezso at rezso dot net>\n"
+"Zoltán Rápolthy <real_zolee at hotmail dot com>\n"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>\n"
+"Tímár András <timar at mate dot hu>"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -504,15 +505,15 @@ msgstr "Küldve összesen"
 msgid "System"
 msgstr "Rendszer"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Folyamatok"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Erőforrások"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Fájlrendszerek"
 
@@ -520,8 +521,8 @@ msgstr "Fájlrendszerek"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u másodperc"
-msgstr[1] "%u másodperc"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -679,7 +680,7 @@ msgstr "Objektum"
 
 #: src/openfiles.cpp:328
 msgid "Open Files"
-msgstr "Nyitott fájlok"
+msgstr "Fájlok megnyitása"
 
 #: src/openfiles.cpp:349
 #, c-format
@@ -1149,6 +1150,56 @@ msgstr "A nyitott fájlok-nézet oszlopa"
 msgid "Open files sort order"
 msgstr "A nyitott fájlok-nézet elrendezése"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Rendszerfigyelő beállításai"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Viselkedés"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Frissítési időköz másodpercben:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Egyenlete_s frissítés engedélyezése"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr ""
+"F_olyamatok befejeztetése vagy kilövése előtt figyelmeztető üzenet "
+"megjelenítése"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Információs mezők"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "A listában megjelenített foly_amatinformációk:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafikonok"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Min_den fájlrendszer megjelenítése"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "A listában megjelenített fájl_rendszer-információk:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1309,7 +1360,7 @@ msgstr "Biztonsági környezet"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:160
 msgid "Command Line"
-msgstr "Parancssor"
+msgstr "Parancssorból"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1405,7 +1456,7 @@ msgstr "%s kiadás"
 #: src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
-msgstr "%d-bit"
+msgstr "%d bites"
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"

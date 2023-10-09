@@ -1,17 +1,19 @@
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2020
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Микола Ткач <chistomov@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Oleksii Khalikov <oleksii.khalikov@gmail.com>, 2021
+# Юрій Яновський <lytvyn349@ukr.net>, 2021
+# Sergiy <sergiy@gorichenko.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
-"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: Sergiy <sergiy@gorichenko.com>, 2022\n"
+"Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,8 +25,9 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
-"Микола Ткач <znadibnyk@gmail.com>,\n"
-"Oleh Tsyupka <myr4yk@gmail.com>"
+"Микола Ткач <Stuartlittle1970@gmail.com>,\n"
+"Oleh Tsyupka <myr4yk@gmail.com>\n"
+"Юрій Яновський <lytvyn349@ukr.net>"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -137,7 +140,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr "Сан Команда Документування GNOME "
+msgstr "Сан Команда документування GNOME "
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -185,13 +188,14 @@ msgstr "Зворотній зв'язок"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 "Щоб повідомити про помилку й внести пропозицію стосовно застосунку Системний"
-" монітор або цього керівництва, Дотримуйтеся вказівок на <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">Сторінці зворотнього зв'язку "
-"MATE</ulink>."
+" монітор або цього керівництва, Дотримуйтеся вказівок на <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">Сторінці зворотнього "
+"зв'язку MATE</ulink>."
 
 #. (itstool) path: abstract/para
 #: C/index.docbook:169
@@ -610,7 +614,7 @@ msgstr "Статус"
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
 msgid "%CPU"
-msgstr "%ЦПП"
+msgstr "%ЦП"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
@@ -668,8 +672,8 @@ msgid ""
 "For information about how to change the columns displayed in the process "
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
-"Про те, як змінити показувані у таблиці стовпці, дивіться <xref linkend"
-"=\"mate-system-monitor-prefs-proclist\"/>."
+"Про те, як змінити показувані у таблиці стовпці, дивіться <xref "
+"linkend=\"mate-system-monitor-prefs-proclist\"/>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:501
@@ -689,8 +693,8 @@ msgstr ""
 "Батьківський процес — це процес, який породжує інші процеси. Породжені "
 "процеси є процесами-нащадками їх батьківського процесу. Типово "
 "<application>Системний монітор</application> не показує залежності процесів."
-" Про те, як змінити типову поведінку, дивіться у розділі <xref linkend"
-"=\"mate-system-monitor-modify-processlist-viewdeps\"/>."
+" Про те, як змінити типову поведінку, дивіться у розділі <xref "
+"linkend=\"mate-system-monitor-modify-processlist-viewdeps\"/>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:508
@@ -738,8 +742,8 @@ msgid ""
 "For information about how to change the priority of a process, see <xref "
 "linkend=\"mate-system-monitor-change-priority\"/>."
 msgstr ""
-"Про те, як змінити пріоритет процесу, дивіться у розділі <xref linkend"
-"=\"mate-system-monitor-change-priority\"/>."
+"Про те, як змінити пріоритет процесу, дивіться у розділі <xref "
+"linkend=\"mate-system-monitor-change-priority\"/>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:540
@@ -1782,7 +1786,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1315
 msgid "<guilabel>% CPU</guilabel>"
-msgstr "<guilabel>% ЦПП</guilabel>"
+msgstr "<guilabel>% ЦП</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1318
@@ -2165,12 +2169,12 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
-"Дозволяється копіювати, розповсюджувати і / або змінювати цей документ у "
-"відповідности з умовами ліцензії GNU Free Documentation License (GFDL), "
-"версії 1.1 або будь-якої пізнішої версії, оголошеній Фундацією вільного "
-"програмного забезпечення без будь-яких інваріянтних розділів, без додавання "
-"тексту на початку або в кінці. Ви можете знайти копію GFDL тут <_:ulink-1/> "
-"або у файлі COPYING-DOCS, розповсюджуваному разом з цим керівництвом."
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
+" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -2180,8 +2184,8 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
-"Цей посібник є частиною збірки документації MATE, яка розповсюджується на "
-"умовах ліцензії GFDL. Якщо ви бажаєте розповсюджувати цей посібник окремо "
+"Цей посібник є частиною збірки документації MATE, яка розповсюджується за "
+"умовами ліцензії GFDL. Якщо ви бажаєте розповсюджувати цей посібник окремо "
 "від збірки, можете це зробити додавши до нього копію ліцензії, як описано в "
 "пункті 6 ліцензії."
 

@@ -4,20 +4,20 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# brennus <jonas.ska@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Audrius Meskauskas, 2019
-# Moo, 2020
-# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2020
+# brennus <jonas.ska@gmail.com>, 2021
+# Audrius Meskauskas, 2021
+# Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Moo, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Džiugas Grėbliūnas <dziugas.grebliunas@gmail.com>, 2020\n"
-"Language-Team: Lithuanian (https://www.transifex.com/mate/teams/13566/lt/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Moo, 2022\n"
+"Language-Team: Lithuanian (https://app.transifex.com/mate/teams/13566/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -161,7 +161,8 @@ msgstr ""
 "Gintautas Miliauskas <gintas@akl.lt>\n"
 "Tomas Kuliavas <tokul@users.sourceforge.net>\n"
 "Gediminas Paulauskas <menesis@chatsubo.lt>\n"
-"Moo"
+"Moo\n"
+"Džiugas Grėbliūnas <dziugas.grebliunas@stud.lsmu.lt>"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -290,10 +291,10 @@ msgstr "Tęsti procesą, jei jis buvo sustabdytas"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] "_Užbaigti procesą"
-msgstr[1] "_Užbaigti procesus"
-msgstr[2] "_Užbaigti procesus"
-msgstr[3] "_Užbaigti procesus"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -302,10 +303,10 @@ msgstr "Priversti procesą užbaigti darbą normaliai"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] "_Nutraukti procesą"
-msgstr[1] "_Nutraukti procesus"
-msgstr[2] "_Nutraukti procesus"
-msgstr[3] "_Nutraukti procesus"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -517,15 +518,15 @@ msgstr "Iš viso išsiųsta"
 msgid "System"
 msgstr "Sistema"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Procesai"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Ištekliai"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Failų sistemos"
 
@@ -533,10 +534,10 @@ msgstr "Failų sistemos"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u sekundė"
-msgstr[1] "%u sekundės"
-msgstr[2] "%u sekundžių"
-msgstr[3] "%u sekundė"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1161,6 +1162,54 @@ msgstr "Atverti failų rikiavimo stulpelį"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Atvertų failų rikiavimo tvarka"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Sistemos monitoriaus nustatymai"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Veikimas"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Atnaujinimo intervalas sekundėmis:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Įjungti _tolygų atnaujinimą"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Įspėti prieš užbaigiant arba nutrau_kiant procesus"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Informacijos laukeliai"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Sąraše rodoma proceso i_nformacija:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Diagramos"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Rodyti _visas failų sistemas"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Sąraše rodoma failų sistemos i_nformacija:"
 
 #: src/procactions.cpp:77
 #, c-format

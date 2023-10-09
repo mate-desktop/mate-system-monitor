@@ -4,20 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Jirasinee Tangtitawong <independent.red@gmail.com>, 2018
-# Rockers <sumorock@hotmail.com>, 2018
-# Aefgh Threenine <aefgh3962@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Akom <knight2000@gmail.com>, 2020
+# Rockers <sumorock@hotmail.com>, 2021
+# Aefgh Threenine <aefgh3962@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Akom <knight2000@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Akom <knight2000@gmail.com>, 2020\n"
-"Language-Team: Thai (https://www.transifex.com/mate/teams/13566/th/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Akom <knight2000@gmail.com>, 2022\n"
+"Language-Team: Thai (https://app.transifex.com/mate/teams/13566/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -86,7 +85,7 @@ msgstr "ต้องใช้สิทธิพิเศษในการเป
 
 #: src/argv.cpp:21
 msgid "Show the System tab"
-msgstr "แสดงแท็บ \"ระบบ\""
+msgstr "แสดงแท็บ “ระบบ”"
 
 #: src/argv.cpp:26
 msgid "Show the Processes tab"
@@ -150,7 +149,7 @@ msgstr ""
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
-msgstr "Akom Chotiphantawanon <knight2000@gmail.com>, 2016"
+msgstr "Akom Chotiphantawanon <knight2000@gmail.com>"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -238,7 +237,7 @@ msgstr "แ_ก้ไข"
 
 #: src/interface.cpp:54
 msgid "_View"
-msgstr "มุม_มอง"
+msgstr "มุ_มมอง"
 
 #: src/interface.cpp:55
 msgid "_Help"
@@ -270,7 +269,7 @@ msgstr "หยุดโพรเซส"
 
 #: src/interface.cpp:65
 msgid "_Continue Process"
-msgstr "ให้โพรเซสทำงาน_ต่อ"
+msgstr "ให้โพรเซส_ทำงานต่อ"
 
 #: src/interface.cpp:66
 msgid "Continue process if stopped"
@@ -304,11 +303,11 @@ msgstr "เปลี่ยนลำดับความสำคัญของ
 
 #: src/interface.cpp:74
 msgid "_Preferences"
-msgstr "_การกำหนดค่า"
+msgstr "_ปรับแต่ง"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
-msgstr "ปรับแต่งการทำงานของโปรแกรม"
+msgstr "ตั้งค่าโปรแกรม"
 
 #: src/interface.cpp:77
 msgid "_Refresh"
@@ -345,7 +344,7 @@ msgstr "ดูข้อมูลเพิ่มเติมเกี่ยวก
 
 #: src/interface.cpp:89
 msgid "_Contents"
-msgstr "เ_นื้อหา"
+msgstr "เนื้อ_หา"
 
 #: src/interface.cpp:90
 msgid "Open the manual"
@@ -500,15 +499,15 @@ msgstr "ส่งทั้งหมด"
 msgid "System"
 msgstr "ระบบ"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "โพรเซส"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "ทรัพยากร"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "ระบบแฟ้ม"
 
@@ -570,7 +569,7 @@ msgstr "_ล้าง"
 
 #: src/lsof.cpp:361
 msgid "Case insensitive matching"
-msgstr "ค้นหาโดยตัวพิมพ์ใหญ่-เล็กตรงกัน"
+msgstr "จับคู่ไม่สนใจตัวพิมพ์ใหญ่-เล็ก"
 
 #: src/lsof.cpp:369
 msgid "S_earch results:"
@@ -635,7 +634,7 @@ msgstr "ผังหน่วยความจำ"
 #: src/memmaps.cpp:444
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr "_ผังหน่วยความจำของโพรเซส \"%s\" (PID %u):"
+msgstr "_ผังหน่วยความจำของโพรเซส “%s” (PID %u):"
 
 #: src/openfiles.cpp:38
 msgid "file"
@@ -679,7 +678,7 @@ msgstr "แฟ้มที่เปิด"
 #: src/openfiles.cpp:349
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
-msgstr "แ_ฟ้มที่โพรเซส \"%s\" (PID %u) เปิด:"
+msgstr "แ_ฟ้มที่โพรเซส “%s” (PID %u) เปิด:"
 
 #: src/org.mate.system-monitor.gschema.xml.in:6
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
@@ -824,7 +823,7 @@ msgstr "แสดงการจราจรเครือข่ายในห
 
 #: src/org.mate.system-monitor.gschema.xml.in:212
 msgid "Process view sort column"
-msgstr "คอลัมน์ที่ใช้เรียงลำดับโพรเซสในรายการ"
+msgstr "คอลัมน์ที่ใช้เรียงลำดับรายการในหน้าแสดงโพรเซส"
 
 #: src/org.mate.system-monitor.gschema.xml.in:216
 msgid "Process view columns order"
@@ -832,7 +831,7 @@ msgstr "ลำดับการเรียงคอลัมน์ในหน
 
 #: src/org.mate.system-monitor.gschema.xml.in:220
 msgid "Process view sort order"
-msgstr "ลำดับการเรียงโพรเซส"
+msgstr "ลำดับการเรียงในหน้าแสดงโพรเซส"
 
 #: src/org.mate.system-monitor.gschema.xml.in:224
 msgid "Width of process 'Name' column"
@@ -964,11 +963,11 @@ msgstr "แสดงคอลัมน์ “หน่วยความจำ�
 
 #: src/org.mate.system-monitor.gschema.xml.in:354
 msgid "Width of process 'Waiting Channel' column"
-msgstr "ความกว้างของคอลัมน์ 'ช่องที่คอย' ของโพรเซส"
+msgstr "ความกว้างของคอลัมน์ “ช่องที่คอย” ของโพรเซส"
 
 #: src/org.mate.system-monitor.gschema.xml.in:358
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr "แสดงคอลัมน์ 'ช่องที่คอย' ของโพรเซสเมื่อเริ่มโปรแกรม"
+msgstr "แสดงคอลัมน์ “ช่องที่คอย” ของโพรเซสเมื่อเริ่มโปรแกรม"
 
 #: src/org.mate.system-monitor.gschema.xml.in:362
 msgid "Width of process 'Control Group' column"
@@ -1142,6 +1141,54 @@ msgstr "คอลัมน์ที่ใช้เรียงลำดับร
 msgid "Open files sort order"
 msgstr "ลำดับการเรียงในหน้าแสดงแฟ้มที่เปิด"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "ปรับแต่งโปรแกรมเฝ้าสังเกตระบบ"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "พฤติกรรม"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "ช่วงเวลา_ปรับข้อมูลเป็นวินาที:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "เปิดใช้การอ่านข้อมูลแบบ_ยืดหยุ่น"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "เตือนก่อน_จบหรือฆ่าโพรเซส"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "ฟิลด์ข้อมูล"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "_ข้อมูลของโพรเซสที่แสดงในรายการ:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "กราฟ"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "แสดงทุก_ระบบแฟ้ม"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "_ข้อมูลของระบบแฟ้มที่แสดงในรายการ:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1229,7 +1276,7 @@ msgstr "ค่าไ_นซ์:"
 
 #: src/procdialogs.cpp:252
 msgid "Note:"
-msgstr "ข้อสังเกต:"
+msgstr "หมายเหตุ:"
 
 #: src/procdialogs.cpp:253
 msgid ""
@@ -1351,7 +1398,7 @@ msgstr "เขียนดิสก์"
 
 #: src/proctable.cpp:283 src/procproperties.cpp:157
 msgid "Priority"
-msgstr "ระดับความสำคัญ"
+msgstr "ลำดับความสำคัญ"
 
 #: src/proctable.cpp:1188
 #, c-format
@@ -1362,7 +1409,7 @@ msgstr "โหลดเฉลี่ยใน 1, 5, 15 นาทีที่ผ�
 #: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
 #: src/util.cpp:462 src/util.cpp:500
 msgid "N/A"
-msgstr "ไม่รู้"
+msgstr "N/A"
 
 #: src/procproperties.cpp:270
 msgid "Process Properties"
@@ -1424,7 +1471,7 @@ msgstr "หน่วยความจำ:"
 
 #: src/sysinfo.cpp:1014
 msgid "Processor:"
-msgstr "โพรเซสเซอร์:"
+msgstr "ตัวประมวลผล:"
 
 #: src/sysinfo.cpp:1016
 msgid "Graphics:"
@@ -1437,7 +1484,7 @@ msgstr "สถานะระบบ"
 
 #: src/sysinfo.cpp:1026
 msgid "Available disk space:"
-msgstr "เนื้อที่ดิสก์ที่ใช้ได้:"
+msgstr "เนื้อที่ว่างในดิสก์:"
 
 #: src/util.cpp:31
 msgid "Today %l:%M %p"

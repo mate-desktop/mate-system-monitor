@@ -4,19 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Shahor <shahorr@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2019
-# Микола Ткач <chistomov@gmail.com>, 2021
+# Shahor <shahorr@gmail.com>, 2021
+# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Юрій Яновський <lytvyn349@ukr.net>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Микола Ткач <chistomov@gmail.com>, 2022
+# Sergiy <sergiy@gorichenko.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
-"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Sergiy <sergiy@gorichenko.com>, 2022\n"
+"Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,7 +51,7 @@ msgid ""
 "Monitor, please visit the project's home page."
 msgstr ""
 "MATE System Monitor є відгалуженням системного монітора GNOME та частиною "
-"робочого середовища MATE. Якщо ви волієте дізнатися більше про MATE та "
+"робочого середовища MATE. Якщо ви волієте дізнатись більше про MATE та "
 "System Monitor, відвідайте домашню сторінку проєкту."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
@@ -73,7 +76,7 @@ msgstr "Вбити процес"
 #: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
 msgstr ""
-"Для керування процесами инших користувачів, потрібно мати додаткові привілеї"
+"Для керування процесами инших користувачів потрібні додаткові привілеї"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
@@ -108,8 +111,8 @@ msgid ""
 msgstr ""
 "Системний монітор — безкоштовне програмне забезпечення; ви можете "
 "розповсюджувати його та/чи змінювати відповідно до умов Загальної публічної "
-"ліцензії GNU, оголошених Фундацією вільного програмного забезпечення; або "
-"версії 2 Ліцензії, або (за вашим бажанням) будь-якої пізнішої версії."
+"ліцензії GNU, оголошених Фундацією вільного програмного забезпечення; чи "
+"версії 2 Ліцензії, чи (за вашим бажанням) будь-якої пізнішої версії."
 
 #: src/callbacks.cpp:215
 msgid ""
@@ -119,7 +122,7 @@ msgid ""
 " more details."
 msgstr ""
 "System Monitor поширюється зі сподіванням, що він буде корисним, але БЕЗ "
-"БУДЬ-ЯКИХ ЗАПОРУК; Навіть не маючи на увазі запоруку ПРОДУКЦІЙНОСТИ або "
+"БУДЬ-ЯКИХ ЗАПОРУК; Навіть не маючи на увазі запоруку ПРОДУКЦІЙНОСТИ, чи "
 "ПРИДАТНОСТИ ДЛЯ ПЕВНОЇ МЕТИ. Детальніше див. У Загальній публічній ліцензії "
 "GNU."
 
@@ -153,7 +156,8 @@ msgid "translator-credits"
 msgstr ""
 "Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
 "Микола Ткач <Stuartlittle1970@gmail.com>,\n"
-"Oleh Tsyupka <myr4yk@gmail.com>"
+"Oleh Tsyupka <myr4yk@gmail.com>\n"
+"Юрій Яновський <lytvyn349@ukr.net>"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -169,7 +173,7 @@ msgstr "Тип"
 
 #: src/disks.cpp:408
 msgid "SubVolume"
-msgstr ""
+msgstr "ПідТом"
 
 #: src/disks.cpp:409
 msgid "Total"
@@ -282,10 +286,10 @@ msgstr "Продовжити зупинений процес"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] "_Закінчити процес"
-msgstr[1] "_Закінчити процеси"
-msgstr[2] "_Закінчити процесів"
-msgstr[3] "_Закінчити процесів"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -294,10 +298,10 @@ msgstr "Коректно завершити процес"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] "_Вбити процес"
-msgstr[1] "_Вбити процеси"
-msgstr[2] "_Вбити процесів"
-msgstr[3] "_Вбити процесів"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -410,7 +414,7 @@ msgstr "Встановити дуже високий пріоритет проц
 
 #: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
-msgstr "Високий"
+msgstr "Висока"
 
 #: src/interface.cpp:118
 msgid "Set process priority to high"
@@ -418,7 +422,7 @@ msgstr "Встановити високий пріоритет процесу"
 
 #: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
-msgstr "Початковий"
+msgstr "Початкове"
 
 #: src/interface.cpp:120
 msgid "Set process priority to normal"
@@ -426,7 +430,7 @@ msgstr "Встановити звичайний пріоритет процес�
 
 #: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
-msgstr "Низький"
+msgstr "Низька"
 
 #: src/interface.cpp:122
 msgid "Set process priority to low"
@@ -461,16 +465,16 @@ msgstr "Обрати колір для '%s'"
 
 #: src/interface.cpp:291
 msgid "CPU History"
-msgstr "Дієпис ЦПП"
+msgstr "Історія ЦП"
 
 #: src/interface.cpp:334 src/procproperties.cpp:153
 msgid "CPU"
-msgstr "ЦПП"
+msgstr "ЦП"
 
 #: src/interface.cpp:336
 #, c-format
 msgid "CPU%d"
-msgstr "ЦПП%d"
+msgstr "ЦП%d"
 
 #: src/interface.cpp:358
 msgid "Memory and Swap History"
@@ -509,15 +513,15 @@ msgstr "Усього надіслано"
 msgid "System"
 msgstr "Система"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Процеси"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Ресурси"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Файлові системи"
 
@@ -525,10 +529,10 @@ msgstr "Файлові системи"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u секунда"
-msgstr[1] "%u секунди"
-msgstr[2] "%u секунд"
-msgstr[3] "%u секунд"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -705,7 +709,7 @@ msgid ""
 " are ignored."
 msgstr ""
 "Якщо цей ключ має значення ІСТИНА, головне вікно відкривається розгорнутим, "
-"раніше збережені розмір і положення вікна нехтуються."
+"раніше збережений розмір і положення вікна нехтуються."
 
 #: src/org.mate.system-monitor.gschema.xml.in:14
 msgid "Show process dependencies in tree form"
@@ -810,11 +814,11 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:177
 #: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
-msgstr "Типовий колір графіку ЦПП"
+msgstr "Типовий колір графіка ЦП"
 
 #: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
-msgstr "Типовий колір графіку ЦПП"
+msgstr "Типовий колір графіка ЦП"
 
 #: src/org.mate.system-monitor.gschema.xml.in:185
 msgid "Default graph memory color"
@@ -914,19 +918,19 @@ msgstr "Показувати стовпчик пам’яти X-сервера �
 
 #: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
-msgstr "Ширина стовпчика «ЦПП» процесу"
+msgstr "Ширина стовпчика \"% ЦП\" процесу"
 
 #: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
-msgstr "Показувати стовпчик «ЦПП» процесу при запуску"
+msgstr "Показувати стовпчик \"ЦП\" процесу на старті"
 
 #: src/org.mate.system-monitor.gschema.xml.in:298
 msgid "Width of process 'CPU Time' column"
-msgstr "Ширина стовпчика часу зайнятости ЦПП процесом"
+msgstr "Ширина стовпчика \"Часу зайнятості ЦП\" процесом"
 
 #: src/org.mate.system-monitor.gschema.xml.in:302
 msgid "Show process 'CPU Time' column on startup"
-msgstr "Показувати стовпчик часу зайнятости ЦПП процесом при запуску"
+msgstr "Показувати стовпчик \"Часу зайнятості ЦП\" процесом на старті"
 
 #: src/org.mate.system-monitor.gschema.xml.in:306
 msgid "Width of process 'Started' column"
@@ -1103,11 +1107,11 @@ msgstr "Показувати стовпчик «Тип» для дисків п�
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'SubVol' column"
-msgstr ""
+msgstr "Ширина стовпчика \"ПідТом\" для дисків"
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'SubVol' column on startup"
-msgstr ""
+msgstr "Показувати в огляді дисків стовпчик \"ПідТом\" на старті "
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
@@ -1156,6 +1160,54 @@ msgstr "Стовпчик ґатункування відкритих файлі�
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Порядок ґатункування відкритих файлів"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Параметри системного монітору"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Поведінка"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Інтервал _оновлення у секундах:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Увімкнути _плавне оновлення"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Попереджувати перед за_вершенням, чи зняттям процесу"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Розділити використання ЦП за кількістю ЦП"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Інформаційні поля"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "_Інформація про процеси з переліку:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Графіки"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Показувати швидкість мережі у бітах"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Показати _всі файлові системи"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Ін_формація про файлову систему з переліку:"
 
 #: src/procactions.cpp:77
 #, c-format
@@ -1206,7 +1258,8 @@ msgid ""
 "security risk. Only unresponsive processes should be killed."
 msgstr ""
 "Завершення процесу може знищити дані, зламати сесію, чи призвести до "
-"безпекового ризику. Лише процеси, які не відповідають, потрібно завершувати."
+"безпекового ризику. Лише процеси, що не відповідають, повинні бути "
+"завершеними."
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:110
@@ -1215,7 +1268,8 @@ msgid ""
 " risk. Only unresponsive processes should be ended."
 msgstr ""
 "Припинення процесу може знищити дані, зламати сесію, чи призвести до "
-"безпекового ризику. Лише процеси, які не відповідають, потрібно припиняти."
+"безпекового ризику. Лише процеси, що не відповідають, повинні бути "
+"припиненими."
 
 #: src/procdialogs.cpp:148 src/procdialogs.cpp:247
 #, c-format
@@ -1291,11 +1345,11 @@ msgstr "Пам'ять X-сервера"
 #: src/proctable.cpp:262
 #, no-c-format
 msgid "% CPU"
-msgstr "% ЦПП"
+msgstr "% ЦП"
 
 #: src/proctable.cpp:263 src/procproperties.cpp:154
 msgid "CPU Time"
-msgstr "Час ЦПП"
+msgstr "Час ЦП"
 
 #: src/proctable.cpp:264 src/procproperties.cpp:155
 msgid "Started"
@@ -1315,7 +1369,7 @@ msgstr "Контекст безпеки"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:160
 msgid "Command Line"
-msgstr "Командний рядок:"
+msgstr "З командного рядка"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1380,12 +1434,12 @@ msgstr "Н/Д"
 
 #: src/procproperties.cpp:270
 msgid "Process Properties"
-msgstr "Ціхи процесу"
+msgstr "Властивості процесу"
 
 #: src/procproperties.cpp:290
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr "Ціхи процесу \"%s\" (PID %u):"
+msgstr "Властивості процесу \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
@@ -1430,7 +1484,7 @@ msgstr "MATE %s"
 #. hardware section
 #: src/sysinfo.cpp:1006
 msgid "Hardware"
-msgstr "Пристрої"
+msgstr "Апаратне забезпечення"
 
 #: src/sysinfo.cpp:1011
 msgid "Memory:"

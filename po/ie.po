@@ -4,16 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Caarmi, 2019
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
+# Caarmi, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Caarmi, 2019\n"
-"Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Caarmi, 2022\n"
+"Language-Team: Interlingue (https://app.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -136,7 +137,7 @@ msgstr ""
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
-msgstr "OIS <mistresssilvara@hotmail.com>, 2019"
+msgstr "OIS <mistresssilvara@hotmail.com>, 2020"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -240,7 +241,7 @@ msgstr "Serchar por apertet files"
 
 #: src/interface.cpp:59
 msgid "_Quit"
-msgstr "S_urtir"
+msgstr "Sa_lir"
 
 #: src/interface.cpp:60
 msgid "Quit the program"
@@ -488,15 +489,15 @@ msgstr "Total emisset"
 msgid "System"
 msgstr "Sistema"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Processus"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Ressurses"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Sistemas de file"
 
@@ -504,8 +505,8 @@ msgstr "Sistemas de file"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u seconde"
-msgstr[1] "%u secondes"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1119,6 +1120,54 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr ""
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Preferenties del monitor del sistema"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Conduida"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Intervalle de act_ualisation in sec:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "_Glatt actualisation"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr ""
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Campes de information"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformation pri processus monstrat in li liste:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Graficos"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Monstrar _omni sistemas de file"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformation pri fil-sistemas monstrat in li liste:"
 
 #: src/procactions.cpp:77
 #, c-format

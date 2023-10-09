@@ -1,31 +1,31 @@
 # 
 # Translators:
-# talorno <giovanni.talorno@gmail.com>, 2018
-# Marco Z. <minaz666@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Dario Di Nucci <linkin88mail@gmail.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Giuseppe Pignataro <rogepix@gmail.com>, 2019
-# Enrico B. <enricobe@hotmail.com>, 2019
-# Alessandro Volturno <alelvb@inwind.it>, 2020
+# Marco Z. <minaz666@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Dario Di Nucci <linkin88mail@gmail.com>, 2021
+# Giuseppe Pignataro <rogepix@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Enrico B. <enricobe@hotmail.com>, 2021
+# Alessandro Volturno <alelvb@inwind.it>, 2021
+# 6d1bb5d393520b00f70a137a58397ea1_b5ba1e2 <22cc5e560e0d5b6554809bfb51b90403_882095>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2020\n"
-"Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: 6d1bb5d393520b00f70a137a58397ea1_b5ba1e2 <22cc5e560e0d5b6554809bfb51b90403_882095>, 2021\n"
+"Language-Team: Italian (https://app.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Alessandro Volturno, 2020"
+msgstr "Alessandro Volturno, 2021"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -61,14 +61,14 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr "progetto Documentazione di  MATE"
+msgstr "Progetto della documentazione MATE"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr "Progetto Documentazione di GNOME"
+msgstr "Progetto Documentazione di GNOME "
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -77,7 +77,7 @@ msgid ""
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
 "<firstname>Progetto Documentazione di MATE</firstname> <surname/> "
-"<affiliation> <orgname>Desktop MATE</orgname> </affiliation>"
+"<affiliation> <orgname>MATE Desktop</orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70
@@ -85,8 +85,8 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
-"<firstname>Sun</firstname> <surname>Team Documentazione di GNOME</surname> "
-"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
+"<firstname>Sun</firstname> <surname>Team della documentation GNOME</surname>"
+" <affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -111,7 +111,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr "Team Documentazione di MATE"
+msgstr "Team della documentazione MATE"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -139,7 +139,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr "Team Documentazione GNOME Sun"
+msgstr "Team della documentazione Sun GNOME"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -187,8 +187,9 @@ msgstr "Commenti"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 "Per segnalare un malfunzionamento o un suggerimento sul Monitor di Sistema o"
 " su questo manuale, seguire le istruzioni nella <ulink url=\"help:mate-user-"
@@ -208,7 +209,7 @@ msgstr ""
 #. (itstool) path: article/indexterm
 #: C/index.docbook:177
 msgid "<primary>System Monitor</primary>"
-msgstr "<primary>Monitor di Sistema</primary>"
+msgstr "<primary>Monitor di sistema</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:180
@@ -313,7 +314,7 @@ msgstr "Spazio su disco attualmente disponibile"
 #. (itstool) path: listitem/para
 #: C/index.docbook:254 C/index.docbook:375
 msgid "<guilabel>Processes</guilabel>"
-msgstr "<guilabel>Processesi</guilabel>"
+msgstr "<guilabel>Processi</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:258
@@ -356,7 +357,7 @@ msgstr "Uilizzo della rete"
 #. (itstool) path: listitem/para
 #: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1505
 msgid "<guilabel>File Systems</guilabel>"
-msgstr "<guilabel>File Sistems</guilabel>"
+msgstr "<guilabel>File Sistem</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:295
@@ -369,7 +370,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr "Per iniziare"
+msgstr "Per Iniziare"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
@@ -388,7 +389,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr "menù <guimenu>Applicazioni</guimenu>"
+msgstr "menu <guimenu>Applicazioni</guimenu>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -465,7 +466,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:352
 msgid "Menubar"
-msgstr "Barra dei menù"
+msgstr "Barra dei menu"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:354
@@ -584,7 +585,7 @@ msgstr "Mostrare l'elenco dei processi"
 msgid ""
 "To display the process list, select the <guilabel>Processes</guilabel> tab."
 msgstr ""
-"Per mostrare l'elenco dei processi attivi selezionare la "
+"Per mostrare l'elenco dei processi selezionare la "
 "scheda<guilabel>Processi</guilabel>."
 
 #. (itstool) path: sect2/para
@@ -608,7 +609,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:457
 msgid "Process Name"
-msgstr "Nome del processo"
+msgstr "Nome del Processo"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:460
@@ -739,7 +740,7 @@ msgstr "Più è alto il valore nice, minore è la priorità del processo."
 #. (itstool) path: listitem/para
 #: C/index.docbook:527
 msgid "The lower the nice value, the higher the priority."
-msgstr "Più basso il valore nice, più alta è la priorità"
+msgstr "Più basso il valore nice, più alta è la priorità."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:532
@@ -1061,7 +1062,7 @@ msgid ""
 " processes."
 msgstr ""
 "Il segmento di memoria è riservato al processo, e non è accessibile da altri"
-" processi"
+" processi."
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:768
@@ -1532,7 +1533,7 @@ msgstr "Disponibile"
 #. (itstool) path: listitem/para
 #: C/index.docbook:1062
 msgid "Used"
-msgstr "Usato"
+msgstr "Utilizzato"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1065
@@ -1579,8 +1580,8 @@ msgid ""
 "information about the usage of system resources."
 msgstr ""
 "Selezionare la scheda <guilabel>Risorse</guilabel>della finestra di "
-"<guilabel>Monitor di Sistema</guilabel>, per mostrare i grafici e la tabella"
-" che forniscono informazioni sulle risorse del sistema."
+"<guilabel>Monitor di Sistema</guilabel> per visualizzare i grafici e la "
+"tabella che forniscono informazioni sulle risorse del sistema."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1102
@@ -1607,7 +1608,7 @@ msgid ""
 "color</guilabel> dialog."
 msgstr ""
 "Fare click su <guibutton>OK</guibutton> per chiudere la finestra "
-"<guilabel>Seleziona colore</guilabel>."
+"<guilabel>Seleziona un colore</guilabel>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:1120
@@ -1808,8 +1809,8 @@ msgid ""
 "Select this option to display the amount of virtual memory that is allocated"
 " to the process."
 msgstr ""
-"Scegliere questa opzione per mostrare il nome dell'utente che possiede il "
-"processo."
+"Scegliere questa opzione per mostrare la quantità di memoria virtuale che è "
+"allocata per il processo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1283
@@ -2137,7 +2138,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:1473
 msgid "Resources"
-msgstr "Risorse"
+msgstr "Non esitare a contribuire e divertirti migliorando MATE!"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1476
@@ -2314,8 +2315,8 @@ msgstr ""
 "È concesso il permesso di copiare, distribuire e/o modificare questo "
 "documento in base ai termini della GNU Free Documentation License (GFDL), "
 "Versione 1.1 o qualsiasi versione successiva pubblicata dalla Free Software "
-"Foundation senza sezioni invarianti, senza testi di copertina e nessun testo"
-" di retro copertina. Puoi trovare una copia del GFDL qui <_:ulink-1/> o nel "
+"Foundation senza sezioni invarianti, senza testi di copertina e senza testi "
+"di frontespizio. Potete trovare una copia del GFDL qui <_:ulink-1/> o nel "
 "file COPYING-DOCS distribuito con questo manuale."
 
 #. (itstool) path: legalnotice/para
@@ -2326,7 +2327,7 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
-"Questo manuale fa parte di una raccolta di manuali MATE distribuita in "
+"Questo manuale fa parte di una raccolta di manuali di MATE distribuita in "
 "conformità con la GFDL. Per poter distribuire questo manuale separatamente, "
 "è necessario inserirvi una copia della licenza, come descritto nella sezione"
 " 6 della licenza."
@@ -2342,9 +2343,9 @@ msgid ""
 msgstr ""
 "Molti dei nomi usati dalle aziende per distinguere i propri prodotti e "
 "servizi sono rivendicati come marchi. Quando questi nomi compaiono nella "
-"documentazione di MATE, e i partecipanti al MATE Documentation Project sono "
-"consapevoli del loro utilizzo, essi vengono scritti in lettere maiuscole o "
-"con l'iniziale maiuscola."
+"documentazione di MATE, e i partecipanti al progetto di documentazione MATE "
+"sono consapevoli del loro utilizzo, essi vengono scritti in lettere "
+"maiuscole o con l'iniziale maiuscola."
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -2361,19 +2362,20 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
-"IL DOCUMENTO VIENE FORNITO SENZA GARANZIE DI ALCUN TIPO, ESPLICITE O "
-"IMPLICITE, INCLUSE, MA SENZA LIMITAZIONE, LE GARANZIE ATTESTANTI CHE IL "
-"DOCUMENTO O LE SUE VERSIONI MODIFICATE SIANO PRIVI DI DIFETTI, "
-"COMMERCIALIZZABILI, IDONEI A UN DETERMINATO SCOPO O CHE NON VIOLINO DIRITTI "
-"DI TERZI. SI DECLINA QUALUNQUE RESPONSABILITÀ RIGUARDO AI RISCHI INERENTI LA"
-" QUALITÀ, L'ACCURATEZZA E LE PRESTAZIONI DEL DOCUMENTO O DI UNA SUA VERSIONE"
-" MODIFICATA. QUALORA UN DOCUMENTO O UNA SUA VERSIONE MODIFICATA DOVESSERO "
-"PRESENTARE QUALUNQUE TIPO DI DIFETTO, IL COSTO DI EVENTUALI INTERVENTI DI "
-"ASSISTENZA, RIPARAZIONE O CORREZIONE SARÀ A CARICO DELL'UTENTE (NON DEL "
-"REDATTORE INIZIALE, DELL'AUTORE O DI ALTRI COLLABORATORI). QUESTA "
-"LIMITAZIONE DELLA GARANZIA COSTITUISCE PARTE ESSENZIALE DELLA LICENZA. L'USO"
-" DEL DOCUMENTO O DELLE SUE VERSIONI MODIFICATE È CONSENTITO SOLO ENTRO I "
-"TERMINI DI QUESTA LIMITAZIONE DELLA GARANZIA;"
+"IL DOCUMENTO VIENE FORNITO SULLA BASE DEL \"COME È\", SENZA GARANZIE DI "
+"ALCUN TIPO, ESPLICITE O IMPLICITE, INCLUSE, MA SENZA LIMITAZIONE, LE "
+"GARANZIE ATTESTANTI CHE IL DOCUMENTO O LE SUE VERSIONI MODIFICATE SIANO "
+"PRIVI DI DIFETTI, COMMERCIALIZZABILI, IDONEI A UN DETERMINATO SCOPO O CHE "
+"NON VIOLINO DIRITTI DI TERZI. SI DECLINA QUALUNQUE RESPONSABILITÀ RIGUARDO "
+"AI RISCHI INERENTI LA QUALITÀ, L'ACCURATEZZA E LE PRESTAZIONI DEL DOCUMENTO "
+"O DI UNA SUA VERSIONE MODIFICATA. QUALORA UN DOCUMENTO O UNA SUA VERSIONE "
+"MODIFICATA DOVESSERO PRESENTARE QUALUNQUE TIPO DI DIFETTO, IL COSTO DI "
+"EVENTUALI INTERVENTI DI ASSISTENZA, RIPARAZIONE O CORREZIONE SARÀ A CARICO "
+"DELL'UTENTE (NON DEL REDATTORE INIZIALE, DELL'AUTORE O DI ALTRI "
+"COLLABORATORI). QUESTA LIMITAZIONE DELLA GARANZIA COSTITUISCE PARTE "
+"ESSENZIALE DELLA LICENZA. L'USO DEL DOCUMENTO O DELLE SUE VERSIONI "
+"MODIFICATE È CONSENTITO SOLO ENTRO I TERMINI DI QUESTA LIMITAZIONE DELLA "
+"GARANZIA;"
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:55

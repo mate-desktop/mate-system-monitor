@@ -4,33 +4,35 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Luis Filipe Teixeira <lufilte@gmail.com>, 2018
-# Manel Tinoco <maneltinoco@gmail.com>, 2018
-# Carlos Moreira, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# fc2d9c36d73e741383fbbf46a4aac49f_013445b, 2018
-# ogalho Carlos Dias Martins <ogalho@gmail.com>, 2018
-# Diogo Oliveira <diogodesigns@gmail.com>, 2018
-# Rui <xymarior@yandex.com>, 2019
-# Sérgio Marques <smarquespt@gmail.com>, 2019
-# Manuela Silva <mmsrs@sky.com>, 2019
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2019
-# Guilherme Campos <guilhermemiguel97@hotmail.com>, 2020
-# José Vieira <jvieira33@sapo.pt>, 2021
+# ogalho Carlos Dias Martins <ogalho@gmail.com>, 2021
+# Luis Filipe Teixeira <lufilte@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Diogo Oliveira <diogodesigns@gmail.com>, 2021
+# Rui <xymarior@yandex.com>, 2021
+# Manuela Silva <mmsrs@sky.com>, 2021
+# Manel Tinoco <maneltinoco@gmail.com>, 2021
+# Guilherme Campos <guilhermemiguel97@hotmail.com>, 2021
+# Sérgio Marques <smarquespt@gmail.com>, 2022
+# fc2d9c36d73e741383fbbf46a4aac49f_013445b, 2022
+# Carlos Moreira, 2022
+# José Vieira <jvieira33@sapo.pt>, 2022
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: José Vieira <jvieira33@sapo.pt>, 2021\n"
-"Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2022\n"
+"Language-Team: Portuguese (https://app.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -48,7 +50,7 @@ msgid ""
 msgstr ""
 "O Monitor de Sistema do MATE permite a visualização gráfica e a manipulação "
 "dos processos em execução no sistema. Também dá uma panorâmica dos recursos "
-"de CPU e de memória disponíveis. "
+"da CPU e de memória disponíveis. "
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -73,7 +75,7 @@ msgstr "Ver os processos atuais e monitorizar o estado do sistema"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr "MATE;sistema;monitor;processo;lisat;panorâmica;atual;recursos;"
+msgstr "MATE;sistema;monitor;processo;lista;panorâmica;atual;recursos;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -158,7 +160,9 @@ msgstr ""
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
-msgstr "Hugo Carvalho <hugokarvalho@gmail.com>"
+msgstr ""
+"Hugo Carvalho <hugokarvalho@hotmail.com>, 2018\n"
+"José Vieira <jvieira33@sapo.pt>, 2021"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -166,7 +170,7 @@ msgstr "Dispositivo"
 
 #: src/disks.cpp:406
 msgid "Directory"
-msgstr "Diretoria"
+msgstr "Diretório"
 
 #: src/disks.cpp:407 src/gsm_color_button.c:180 src/openfiles.cpp:256
 msgid "Type"
@@ -250,7 +254,7 @@ msgstr "_Ver"
 
 #: src/interface.cpp:55
 msgid "_Help"
-msgstr "A_juda"
+msgstr "_Ajuda"
 
 #: src/interface.cpp:57
 msgid "Search for _Open Files"
@@ -287,8 +291,9 @@ msgstr "Se parado, continuar processo"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] "_Terminar Processo"
-msgstr[1] "_Terminar Processos"
+msgstr[0] "T_erminar Processo"
+msgstr[1] "T_erminar Processos"
+msgstr[2] "T_erminar Processos"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -299,6 +304,7 @@ msgid "_Kill Process"
 msgid_plural "_Kill Processes"
 msgstr[0] "_Aniquilar Processo"
 msgstr[1] "_Aniquilar Processos"
+msgstr[2] "_Aniquilar Processos"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -363,7 +369,7 @@ msgstr "Abrir o manual"
 
 #: src/interface.cpp:91
 msgid "_About"
-msgstr "_Sobre"
+msgstr "_Acerca"
 
 #: src/interface.cpp:92
 msgid "About this application"
@@ -462,11 +468,11 @@ msgstr "Escolhe uma cor para '%s'"
 
 #: src/interface.cpp:291
 msgid "CPU History"
-msgstr "Histórico do CPU"
+msgstr "Histórico da CPU"
 
 #: src/interface.cpp:334 src/procproperties.cpp:153
 msgid "CPU"
-msgstr "UCP"
+msgstr "CPU"
 
 #: src/interface.cpp:336
 #, c-format
@@ -475,7 +481,7 @@ msgstr "CPU %d"
 
 #: src/interface.cpp:358
 msgid "Memory and Swap History"
-msgstr "Histórico de Memória e Troca"
+msgstr "Histórico de Memória e Swap"
 
 #: src/interface.cpp:392 src/proctable.cpp:269 src/procproperties.cpp:143
 msgid "Memory"
@@ -487,7 +493,7 @@ msgstr "Swap"
 
 #: src/interface.cpp:440
 msgid "Network History"
-msgstr "Histórico de rede"
+msgstr "Histórico de Rede"
 
 #: src/interface.cpp:473
 msgid "Receiving"
@@ -510,15 +516,15 @@ msgstr "Total enviado"
 msgid "System"
 msgstr "Sistema"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Processos"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
-msgstr "Recursos"
+msgstr "Não hesite em contribuir e se divertir melhorando o MATE!"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Sistemas de Ficheiros"
 
@@ -528,6 +534,7 @@ msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] "%u segundo"
 msgstr[1] "%u segundos"
+msgstr[2] "%u segundos"
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -711,7 +718,7 @@ msgstr "Mostrar processos dependentes em árvore"
 
 #: src/org.mate.system-monitor.gschema.xml.in:18
 msgid "Solaris mode for CPU percentage"
-msgstr "Modo Solaris para percentagem do CPU"
+msgstr "Modo Solaris para percentagem da CPU"
 
 #: src/org.mate.system-monitor.gschema.xml.in:19
 msgid ""
@@ -720,7 +727,7 @@ msgid ""
 "mode'."
 msgstr ""
 "Se VERDADEIRO, o monitor de sistema age em 'modo Solaris' onde um uso de "
-"processo do CPU é dividido pelo total de número de CPU's. Por outro lado, "
+"processo da CPU é dividido pelo total de número de CPU's. Por outro lado, "
 "ele age em 'modo Irix'."
 
 #: src/org.mate.system-monitor.gschema.xml.in:23
@@ -810,11 +817,11 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:177
 #: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
-msgstr "Cor padrão do gráfico do CPU"
+msgstr "Cor padrão do gráfico da CPU"
 
 #: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
-msgstr "Cor CPU do gráfico padrão"
+msgstr "Cor padrão do gráfico da CPU"
 
 #: src/org.mate.system-monitor.gschema.xml.in:185
 msgid "Default graph memory color"
@@ -822,7 +829,7 @@ msgstr "Cor padrão do gráfico de memória"
 
 #: src/org.mate.system-monitor.gschema.xml.in:189
 msgid "Default graph swap color"
-msgstr "Cor Swap do gráfico padrão"
+msgstr "Cor padrão do gráfico Swap"
 
 #: src/org.mate.system-monitor.gschema.xml.in:193
 msgid "Default graph incoming network traffic color"
@@ -1090,7 +1097,7 @@ msgstr "Largura da coluna de visualização de disco 'Diretório'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:468
 msgid "Show disk view 'Directory' column on startup"
-msgstr "Exibir coluna de visualização de disco 'Diretório' no arranque"
+msgstr "Mostrar coluna de visualização de disco 'Diretório' no arranque"
 
 #: src/org.mate.system-monitor.gschema.xml.in:472
 msgid "Width of disk view 'Type' column"
@@ -1155,6 +1162,54 @@ msgstr "Coluna de classificação de ficheiros abertos"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Ordem de classificação de ficheiros abertos"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Preferências do Monitor de Sistema"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Intervalo de atualização em segundos:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Ativar atualização _suave"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Alerta antes de fechar ou _terminar os processos"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Dividir a utilização da CPU pelas unidades da CPU"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Campos de informação"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformação do processo mostrada na lista:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Gráfico"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Mostrar a velocidade da rede em bits"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Mostrar _todos os sistemas de ficheiros"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformação do sistema de ficheiros mostrada na lista:"
 
 #: src/procactions.cpp:77
 #, c-format
@@ -1294,7 +1349,7 @@ msgstr "% CPU"
 
 #: src/proctable.cpp:263 src/procproperties.cpp:154
 msgid "CPU Time"
-msgstr "Hora do CPU"
+msgstr "Hora da CPU"
 
 #: src/proctable.cpp:264 src/procproperties.cpp:155
 msgid "Started"

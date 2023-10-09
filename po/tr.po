@@ -4,23 +4,28 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# tarakbumba <tarakbumba@gmail.com>, 2018
-# Emre FIRAT <emrefirat93@gmail.com>, 2018
-# mauron, 2018
-# Sabri Ünal <yakushabb@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Umut Barış GÖKMEN <umtbrsgkmn@gmail.com>, 2019
-# 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2019
-# Butterfly <gokhanlnx@gmail.com>, 2020
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
+# Umut Barış GÖKMEN <umtbrsgkmn@gmail.com>, 2021
+# Sabri Ünal <yakushabb@gmail.com>, 2021
+# mauron, 2021
+# Emre FIRAT <emrefirat93@gmail.com>, 2021
+# Butterfly <gokhanlnx@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# 0d1bdb3b9a0d4e8f77bc854af8bf3dfc_e6913f4, 2021
+# hilalis <hilalis@outlook.com.tr>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# tarakbumba <tarakbumba@gmail.com>, 2022
+# Mehmet, 2022
+# Sabri Ünal <libreajans@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Butterfly <gokhanlnx@gmail.com>, 2020\n"
-"Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2022\n"
+"Language-Team: Turkish (https://app.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,6 +46,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"Mate Sistem Gözlemcisi sisteminizde çalışan süreçleri grafiksel olarak "
+"görüntülemenize ve onları idare etmenize imkan verir. Ayrıca işlemci ve "
+"bellek gibi sistem kaynaklarına genel bir bakış sağlar."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -48,6 +56,10 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"Mate Sistem Gözlemcisi, GNOME Sistem Gözlemcisi'nden çatallanmıştır ve MATE "
+"Masaüstü Ortamı'nın bir parçasıdır. Eğer MATE ve Sistem Gözlemcisi hakkında "
+"daha fazla bilgi edinmek isterseniz lütfen projenin anasayfasını ziyaret "
+"ediniz."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.cpp:626
@@ -62,7 +74,7 @@ msgstr "Çalışan süreçleri ve sistem durumunu gösterir"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr ""
+msgstr "MATE;sistem;gözlemci;süreç;liste;görünüm;geçerli; kaynak;kaynaklar;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -140,6 +152,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Telif hakkı © 2001-2004 Kevin Vandersloot\n"
+"Telif hakkı © 2005-2007 Benoît Dejean\n"
+"Telif hakkı © 2011-2020 MATE geliştiricileri"
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
@@ -151,9 +166,10 @@ msgstr ""
 "Muhammet Kara <muhammet.k@gmail.com>, 2011.\n"
 "MATE projesine katkıda bulunanlar:\n"
 "hsngrms <dead-bodies-everywhere@hotmail.com>, 2012\n"
-"mauron, 2012-2014\n"
+"mauron, 2012, 2013, 2014, 2015, 2016, 2017, 2018\n"
 "Atilla Öntaş <tarakbumba@gmail.com>, 2014\n"
-"Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015"
+"Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015\n"
+"Hilalis BIRDS <hilalis@outlook.com.tr>, 2021"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -169,7 +185,7 @@ msgstr "Tür"
 
 #: src/disks.cpp:408
 msgid "SubVolume"
-msgstr ""
+msgstr "Alt Birim"
 
 #: src/disks.cpp:409
 msgid "Total"
@@ -265,7 +281,7 @@ msgstr "Programdan çık"
 
 #: src/interface.cpp:63
 msgid "_Stop Process"
-msgstr "Süreci _Durdur"
+msgstr "_Süreci Durdur"
 
 #: src/interface.cpp:64
 msgid "Stop process"
@@ -282,8 +298,8 @@ msgstr "Süreç durmuşsa devam ettir"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sür_eci Sonlandır"
+msgstr[1] "Sür_eçleri Sonlandır"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -292,8 +308,8 @@ msgstr "Süreci normal olarak sonlandırmaya zorla"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Süreci Ö_ldür"
+msgstr[1] "Süreçleri Ö_ldür"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -505,15 +521,16 @@ msgstr "Toplam Gönderilen"
 msgid "System"
 msgstr "Sistem"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Süreçler"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
-msgstr "Kaynaklar"
+msgstr ""
+"Katkıda bulunmaya çekinmeyin, MATE'yi geliştiriken eğlenmenizi umuyoruz!"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Dosya Sistemleri"
 
@@ -521,8 +538,8 @@ msgstr "Dosya Sistemleri"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u saniye"
-msgstr[1] "%u saniye"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1023,43 +1040,43 @@ msgstr "Başlangıçta 'Sahip' süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Süreç “Disk Toplam Yazma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "“Disk Toplam Yazma” sütununu başlangıçta göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Süreç “Disk Toplam Okuma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "“Disk Toplam Okuma” sütununu başlangıçta göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Süreç “Disk Okuma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "“Disk Okuma” sütununu başlangıçta göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Süreç “Disk Yazma” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "“Disk Yazma” sütununu başlangıçta göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Süreç “Öncelik” sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Başlangıçta “Öncelik” süreç sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
@@ -1099,11 +1116,11 @@ msgstr "Başlangıçta disk görünümü 'Tür' sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'SubVol' column"
-msgstr ""
+msgstr "Disk görünümü 'Alt Birim' sütununun genişliği"
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'SubVol' column on startup"
-msgstr ""
+msgstr "Başlangıçta disk görünümü 'Alt Birim' sütununu göster"
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
@@ -1153,6 +1170,54 @@ msgstr "Dosya açma sıra sütunu"
 msgid "Open files sort order"
 msgstr "Dosya açma sıra düzeni"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Sistem Gözlemcisi Tercihleri"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "İşleyiş"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Saniye olarak _güncelleme aralığı:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "_Yumuşak tazelemeyi etkinleştir"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Süreçler _sonlandırılmadan ya da öldürülmeden önce uyar"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_İşlemci kullanımını işlemci sayısına böl"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Bilgi Alanları"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Listede gösterilen süreç b_ilgisi:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafikler"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Ağ hızını bit cinsinden göster"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "_Tüm dosya sistemlerini göster"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Listede gösterilen dosya sistemi b_ilgisi:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1175,25 +1240,25 @@ msgstr ""
 #: src/procdialogs.cpp:80
 #, c-format
 msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Seçili süreci öldürmek istediğine emin misin “%s” (PID: %u)?"
 
 #. xgettext: primary alert message for ending single process
 #: src/procdialogs.cpp:85
 #, c-format
 msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Seçili süreci sonlandırmak istediğine emin misin “%s” (PID: %u)?"
 
 #. xgettext: primary alert message for killing multiple processes
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr ""
+msgstr "Seçili %d süreci öldürmek istediğinizden emin misiniz?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr ""
+msgstr "Seçili %d süreci sonlandırmak istediğinizden emin misiniz?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1226,7 +1291,7 @@ msgstr "\"%s\" (PID: %u) Sürecinin Önceliğini Değiştir"
 #: src/procdialogs.cpp:200
 #, c-format
 msgid "Change Priority of %d Selected Processes"
-msgstr ""
+msgstr "Seçili %d Sürecin Önceliğini Değiştir"
 
 #: src/procdialogs.cpp:214
 msgid "Change _Priority"

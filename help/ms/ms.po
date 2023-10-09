@@ -1,15 +1,15 @@
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# abuyop <abuyop@gmail.com>, 2020
+# abuyop <abuyop@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>, 2020\n"
-"Language-Team: Malay (https://www.transifex.com/mate/teams/13566/ms/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Language-Team: Malay (https://app.transifex.com/mate/teams/13566/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -126,8 +126,8 @@ msgid ""
 "<revnumber>System Monitor Manual V2.2;</revnumber> <date>March 2009</date> "
 "<_:revdescription-1/>"
 msgstr ""
-"<revnumber>Panduan Pemantau Sistem V2.2;</revnumber> <date>March 2009</date>"
-" <_:revdescription-1/>"
+"<revnumber>Panduan Pemantau Sistem V2.2;</revnumber> <date>Mac 2009</date> "
+"<_:revdescription-1/>"
 
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
@@ -180,8 +180,9 @@ msgstr "Maklumbalas"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 "Untuk melaporkan pepijat atau membuat saranan berkenaan aplikasi Pemantau "
 "Sistem atau panduan ini, ikuti arahan di dalam <ulink url=\"help:mate-user-"
@@ -669,7 +670,7 @@ msgid ""
 "list, see <xref linkend=\"mate-system-monitor-prefs-proclist\"/>."
 msgstr ""
 "Maklumat berkenaan cara mengubah lajur yang terpapar di dalam senarai "
-"proses, bolehlah rujuk <xref linkend=\"mate-system-monitor-prefs-"
+"proses, bolehlah merujuk <xref linkend=\"mate-system-monitor-prefs-"
 "proclist\"/>."
 
 #. (itstool) path: sect3/title
@@ -690,9 +691,9 @@ msgstr ""
 "Proses induk ialah proses yang membiakkan proses-proses lain. Proses "
 "terhasil ialah proses anak dariapda proses induk asal. Secara lalai, "
 "<application>Pemantau Sistem</application> tidak menunjukkan dependensi-"
-"dependensi proses. Maklumat bagaimana hendak mengubah kelakuan paparan "
-"lalai, bolehlah rujuk <xref linkend=\"mate-system-monitor-modify-"
-"processlist-viewdeps\"/>."
+"dependensi proses. Maklumat bagaimana cara mengubah kelakuan paparan lalai, "
+"bolehlah merujuk <xref linkend=\"mate-system-monitor-modify-processlist-"
+"viewdeps\"/>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:508
@@ -1326,7 +1327,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:944
 msgid "To Terminate a Process"
-msgstr "Menghentikan Proses"
+msgstr "Menghentikan sesebuah Proses"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:945
@@ -1389,7 +1390,7 @@ msgid ""
 msgstr ""
 "<application>Pemantau Sistem</application> memaparkan sejarah penggunaan CPU"
 " dalam format bergrafik. Di bawah graf, <application>Pemantau "
-"Sistem</application> juga memaparkan pengguna CPU semasa, dalam peratus."
+"Sistem</application> juga memaparkan penggunaan CPU semasa, dalam peratus."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:990
@@ -1416,7 +1417,7 @@ msgstr ""
 "<application>Pemantau Sistem</application> memaparkan sejarah penggunaan "
 "ingatan dan sejarah penggunaan silih dalam format bergrafik. Di bawah graf, "
 "<application>Pemantau Sistem</application> juga memaparkan nilai-nilai "
-"berangka, dalam peratus."
+"berangka:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:999
@@ -1464,7 +1465,7 @@ msgstr "Data dihantar sesaat dan jumlah"
 #. (itstool) path: sect2/title
 #: C/index.docbook:1035
 msgid "To Monitor File Systems"
-msgstr "Memantau Sistem Fail"
+msgstr "Memantau Sistem-Sistem Fail"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1036
@@ -2157,7 +2158,7 @@ msgid ""
 " Systems</guilabel> table."
 msgstr ""
 "Guna kotak angka untuk menentukan berapa kerapkah kemaskini  jadual "
-"<application>Pemantau Sistem</application> yang dikehendaki."
+"<guilabel>Pemantau Sistem</guilabel> yang dikehendaki."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1517

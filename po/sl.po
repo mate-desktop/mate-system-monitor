@@ -4,21 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Damir Mevkić <damir.mevkic@gmail.com>, 2018
-# Damir Jerovšek <jierro@windowslive.com>, 2018
-# worm <thewormhole@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Helena S <ele@tutamail.com>, 2020
-# Arnold Marko <arnold.marko@gmail.com>, 2020
+# worm <thewormhole@gmail.com>, 2021
+# Arnold Marko <arnold.marko@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Damir Jerovšek <jierro@windowslive.com>, 2022
+# Helena S <ele@tutamail.com>, 2022
+# Martin Srebotnjak <miles@filmsi.net>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2020\n"
-"Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>, 2022\n"
+"Language-Team: Slovenian (https://app.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
-msgstr "MATE Sistemski Nadzornik"
+msgstr "MATE nadzornik sistema"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Pregled procesov in sredstev za MATE Namizje"
+msgstr "Pregled procesov in sredstev MATE namizja"
 
 #: mate-system-monitor.appdata.xml.in:10
 msgid ""
@@ -60,7 +60,7 @@ msgstr "Nadzornik sistema"
 
 #: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
 msgid "View current processes and monitor system state"
-msgstr "Ogled trenutnih opravil in nadzor stanja sistema"
+msgstr "Ogled trenutnih opravil in nadzor nad stanjem sistema"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
@@ -74,15 +74,15 @@ msgstr "Uniči opravilo"
 
 #: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
-msgstr "Nadzor opravil drugih uporabnikov zahteva skrbniški dostop"
+msgstr "Nadzor nad opravili drugih uporabnikov zahteva ustrezne pravice"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
-msgstr "Spreminjanje prednosti opravil zahteva ustrezna dovoljenja"
+msgstr "izboljšanje opravil"
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
-msgstr "Sprememba prednosti opravil zahteva skrbniški sistem"
+msgstr "Spreminjanje prednosti opravil zahteva ustrezna dovoljenja"
 
 #: src/argv.cpp:21
 msgid "Show the System tab"
@@ -90,15 +90,15 @@ msgstr "Pokaži sistemski zavihek"
 
 #: src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr "Pokaži zavihek Procesi"
+msgstr "Pokaži zavihek opravil"
 
 #: src/argv.cpp:31
 msgid "Show the Resources tab"
-msgstr "Pokaži zavihek Viri"
+msgstr "Pokaži zavihek virov"
 
 #: src/argv.cpp:36
 msgid "Show the File Systems tab"
-msgstr "Pokaži zavihek Datotečnega Sistema"
+msgstr "Pokaži zavihek datotečnega sistema"
 
 #: src/callbacks.cpp:211
 msgid ""
@@ -192,7 +192,7 @@ msgstr "Delež"
 #. percentage property
 #: src/gsm_color_button.c:158
 msgid "Percentage full for pie color pickers"
-msgstr "Odstotek za izbirnike barv v polni piti"
+msgstr "Odstotek polnosti za izbirnike barv"
 
 #: src/gsm_color_button.c:165
 msgid "Title"
@@ -200,7 +200,7 @@ msgstr "Naziv"
 
 #: src/gsm_color_button.c:166
 msgid "The title of the color selection dialog"
-msgstr "Naziv pogovornega okna za izbor barve"
+msgstr "Naziv pogovornega okna za izbiro barve"
 
 #: src/gsm_color_button.c:167 src/gsm_color_button.c:591
 msgid "Pick a Color"
@@ -238,7 +238,7 @@ msgstr "_Uredi"
 
 #: src/interface.cpp:54
 msgid "_View"
-msgstr "_Pogled"
+msgstr "_Prikaz"
 
 #: src/interface.cpp:55
 msgid "_Help"
@@ -326,11 +326,11 @@ msgstr "Osvežitev seznama opravil"
 
 #: src/interface.cpp:80
 msgid "_Memory Maps"
-msgstr "_Karte pomnilnika"
+msgstr "_Mape pomnilnika"
 
 #: src/interface.cpp:81
 msgid "Open the memory maps associated with a process"
-msgstr "Odpri karte pomnilnika, povezane z opravilom"
+msgstr "Odpri mape pomnilnika, povezane z opravilom"
 
 #. Translators: this means 'Files that are open' (open is no verb here
 #: src/interface.cpp:83
@@ -347,11 +347,11 @@ msgstr "_Lasnosti"
 
 #: src/interface.cpp:86
 msgid "View additional information about a process"
-msgstr "Ogled dodatnih informacij o procesu"
+msgstr "Ogled dodatnih informacij o opravilu"
 
 #: src/interface.cpp:89
 msgid "_Contents"
-msgstr "_Vsebina"
+msgstr "_Vsebine"
 
 #: src/interface.cpp:90
 msgid "Open the manual"
@@ -375,11 +375,11 @@ msgstr "Pokaži odvisnosti nadrejeni/podrejeni med opravili"
 
 #: src/interface.cpp:105
 msgid "_Active Processes"
-msgstr "_Dejavna opravila"
+msgstr "_Aktivna opravila"
 
 #: src/interface.cpp:106
 msgid "Show active processes"
-msgstr "Pokaži dejavna opravila"
+msgstr "Pokaži aktivna opravila"
 
 #: src/interface.cpp:107
 msgid "A_ll Processes"
@@ -395,15 +395,15 @@ msgstr "_Moja opravila"
 
 #: src/interface.cpp:110
 msgid "Show only user-owned processes"
-msgstr "Prikaži samo procese uporabnika"
+msgstr "Prikaži samo opravila uporabnika"
 
 #: src/interface.cpp:115 src/util.cpp:167
 msgid "Very High"
-msgstr "Zelo Visoko"
+msgstr "Zelo visoko"
 
 #: src/interface.cpp:116
 msgid "Set process priority to very high"
-msgstr "Nastavi prioriteto procesa na zelo visoko"
+msgstr "Nastavi prednost opravila na zelo visoko"
 
 #: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
@@ -411,7 +411,7 @@ msgstr "Visoko"
 
 #: src/interface.cpp:118
 msgid "Set process priority to high"
-msgstr "Nastavi prioriteto procesa na visoko"
+msgstr "Nastavi prednost opravila na visoko"
 
 #: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
@@ -419,7 +419,7 @@ msgstr "Običajno"
 
 #: src/interface.cpp:120
 msgid "Set process priority to normal"
-msgstr "Nastavi prioriteto procesa na Običajno"
+msgstr "Nastavi prednost opravila na običajno"
 
 #: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
@@ -427,15 +427,15 @@ msgstr "Nizko"
 
 #: src/interface.cpp:122
 msgid "Set process priority to low"
-msgstr "Nastavi prioriteto procesa na Nizko"
+msgstr "Nastavi prednost opravila na nizko"
 
 #: src/interface.cpp:123 src/util.cpp:175
 msgid "Very Low"
-msgstr "Zelo Nizko"
+msgstr "Zelo nizko"
 
 #: src/interface.cpp:124
 msgid "Set process priority to very low"
-msgstr "Nastavi prioriteto procesa na zelo Nizko"
+msgstr "Nastavi prednost procesa na zelo nizko"
 
 #: src/interface.cpp:125
 msgid "Custom"
@@ -443,7 +443,7 @@ msgstr "Po meri"
 
 #: src/interface.cpp:126
 msgid "Set process priority manually"
-msgstr "Ročno nastavi prioriteto procesa."
+msgstr "Ročno nastavi prednost opravila"
 
 #: src/interface.cpp:232
 msgid "End _Process"
@@ -483,7 +483,7 @@ msgstr "Izmenjevalni razdelek"
 
 #: src/interface.cpp:440
 msgid "Network History"
-msgstr "Zgodovina uporabe mrežnih povezav"
+msgstr "Zgodovina uporabe omrežnih povezav"
 
 #: src/interface.cpp:473
 msgid "Receiving"
@@ -506,15 +506,15 @@ msgstr "Skupaj poslano"
 msgid "System"
 msgstr "Sistem"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Opravila"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Viri"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Datotečni sistemi"
 
@@ -549,7 +549,7 @@ msgstr "Napaka"
 #: src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr "'%s' ni veljaven logični izraz Perl."
+msgstr "'%s' ni veljaven regularni Perl izraz."
 
 #: src/lsof.cpp:270
 msgid "Process"
@@ -625,13 +625,13 @@ msgstr "Spremenjen pomnilnik"
 #. since it has been allocated
 #: src/memmaps.cpp:323
 msgid "Shared clean"
-msgstr "Spremenjen skupni pomnilnik"
+msgstr "Nespremenjen skupni pomnilnik"
 
 #. xgettext: shared memory that has been modified
 #. since it has been allocated
 #: src/memmaps.cpp:326
 msgid "Shared dirty"
-msgstr "nespremenjen skupni pomnilnik"
+msgstr "Spremenjen skupni pomnilnik"
 
 #: src/memmaps.cpp:328
 msgid "Inode"
@@ -639,12 +639,12 @@ msgstr "Inode"
 
 #: src/memmaps.cpp:432
 msgid "Memory Maps"
-msgstr "Karte pomnilnika"
+msgstr "Mape pomnilnika"
 
 #: src/memmaps.cpp:444
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr "_Karte pomnilnika za opravilo \"%s\" (PID %u):"
+msgstr "_Mape pomnilnika za opravilo \"%s\" (PID %u):"
 
 #: src/openfiles.cpp:38
 msgid "file"
@@ -664,7 +664,7 @@ msgstr "omrežna povezava IPv4"
 
 #: src/openfiles.cpp:46
 msgid "local socket"
-msgstr "lokalni vtič"
+msgstr "lokalni vtičnik"
 
 #: src/openfiles.cpp:48
 msgid "unknown type"
@@ -959,7 +959,7 @@ msgstr "Ob zagonu prikaži stolpec 'Varnostni kontekst' opravila"
 
 #: src/org.mate.system-monitor.gschema.xml.in:338
 msgid "Width of process 'Command Line' column"
-msgstr "Širina stolpca 'Ukazne vrstice'"
+msgstr "Širina stolpca opravila 'Ukazna vrstica'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:342
 msgid "Show process 'Command Line' column on startup"
@@ -983,7 +983,7 @@ msgstr "Ob zagonu pokaži stolpec 'čakajočega kanala' opravila"
 
 #: src/org.mate.system-monitor.gschema.xml.in:362
 msgid "Width of process 'Control Group' column"
-msgstr ""
+msgstr "Širina stolpca opravila 'Nadzorna skupina'"
 
 #: src/org.mate.system-monitor.gschema.xml.in:366
 msgid "Show process 'Control Group' column on startup"
@@ -1015,7 +1015,7 @@ msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:394
 msgid "Width of process 'Owner' column"
-msgstr ""
+msgstr "Širina stolpca 'lastnika' opravila"
 
 #: src/org.mate.system-monitor.gschema.xml.in:398
 msgid "Show process 'Owner' column on startup"
@@ -1055,11 +1055,11 @@ msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Širina stolpca 'Prednosti' opravila"
 
 #: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Ob zagonu pokaži stolpec 'Prednost' opravila"
 
 #: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
@@ -1152,6 +1152,54 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr ""
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Možnosti nadzornika sistema"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Obnašanje"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Časovni razmik posodabljanja v sekundah:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Omogoči _mehko osveževanje"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Opozori pred končanjem ali _uničevanjem opravila"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Polja podrobnosti"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "_Podatki o opravilih, prikazanih v seznamu:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafi"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Pokaži hitrost omrežne povezave v bitih"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Pokaži _vse datotečne sisteme"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "Podatki o _datotečnem sistemu, prikazanih na seznamu:"
 
 #: src/procactions.cpp:77
 #, c-format
@@ -1309,7 +1357,7 @@ msgstr "ID"
 
 #: src/proctable.cpp:267 src/procproperties.cpp:159
 msgid "Security Context"
-msgstr "Vsebina varnosti"
+msgstr "Varnostni kontekst"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:160
 msgid "Command Line"
@@ -1323,7 +1371,7 @@ msgstr "Čakajoč kanal"
 
 #: src/proctable.cpp:272 src/procproperties.cpp:162
 msgid "Control Group"
-msgstr ""
+msgstr "Nadzorna skupina"
 
 #: src/proctable.cpp:273
 msgid "Unit"
@@ -1396,7 +1444,7 @@ msgstr "Izdaja %s %s"
 #: src/sysinfo.cpp:89
 #, c-format
 msgid "%s Version"
-msgstr ""
+msgstr "Različica %s"
 
 #. Translators: The string parameter is release version (codename)
 #: src/sysinfo.cpp:94
@@ -1440,7 +1488,7 @@ msgstr "Procesor:"
 
 #: src/sysinfo.cpp:1016
 msgid "Graphics:"
-msgstr ""
+msgstr "Grafika:"
 
 #. disk space section
 #: src/sysinfo.cpp:1021

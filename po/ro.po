@@ -4,19 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# sidro <slacky2005@gmail.com>, 2018
-# corneliu.e <corneliueva@yahoo.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Daniel <danny3@tutanota.com>, 2019
+# 3d5ab56b1b83fefceeab671c39a98a6d_999ae54, 2021
+# sidro <slacky2005@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Daniel <danny3@tutanota.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Daniel <danny3@tutanota.com>, 2019\n"
-"Language-Team: Romanian (https://www.transifex.com/mate/teams/13566/ro/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Daniel <danny3@tutanota.com>, 2022\n"
+"Language-Team: Romanian (https://app.transifex.com/mate/teams/13566/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -483,15 +483,15 @@ msgstr "Trimise în total"
 msgid "System"
 msgstr "Sistem"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Procese"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Resurse"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Sisteme de fișiere"
 
@@ -1130,6 +1130,54 @@ msgstr "Coloană de sortare a fișierelor deschise"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Ordine de sortare a fișierelor deschise"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Preferințe monitorizare sistem"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Comportament"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Interval de _reactualizare în secunde:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Activează reactualizarea cu e_fect"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Avertizează înainte de _terminarea proceselor"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Câmpuri de informații"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "_Detalii de proces afișate în listă:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafice"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Arată _toate sistemele de fișiere"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "_Detalii ale sistemelor de fișiere afișate în listă:"
 
 #: src/procactions.cpp:77
 #, c-format

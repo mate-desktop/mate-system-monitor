@@ -1,23 +1,24 @@
 # 
 # Translators:
-# Falu <info@falu.me>, 2018
-# Balázs Meskó <meskobalazs@mailbox.org>, 2018
-# KAMI KAMI <kami911@gmail.com>, 2018
-# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2019
-# Csaba Székely <szekelycsaba76@gmail.com>, 2019
-# Rezső Páder <rezso@rezso.net>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# Takler Tamás <taklertamas@gmail.com>, 2019
-# Szabó Máté <mateszabo2001@gmail.com>, 2020
+# Rezső Páder <rezso@rezso.net>, 2021
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
+# Szabó Máté <mateszabo2001@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Takler Tamás <taklertamas@gmail.com>, 2021
+# Falu <info@falu.me>, 2021
+# Balázs Meskó <meskobalazs@mailbox.org>, 2021
+# Csaba Székely <szekelycsaba76@gmail.com>, 2021
+# KAMI KAMI <kami911@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Szabó Máté <mateszabo2001@gmail.com>, 2020\n"
-"Language-Team: Hungarian (https://www.transifex.com/mate/teams/13566/hu/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: KAMI KAMI <kami911@gmail.com>, 2022\n"
+"Language-Team: Hungarian (https://app.transifex.com/mate/teams/13566/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,14 +29,14 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Dvornik László<dvornik at mate dot hu>\n"
-"Kelemen Gábor<kelemeng at mate dot hu>\n"
-"Tímár András<timar at mate dot hu>\n"
-"Kalman „KAMI” Szalai<kami911 at gmail dot com>\n"
-"Falu<info at falu dot me>\n"
-"Rezső Páder<rezso at rezso dot net>\n"
-"Zoltán Rápolthy<real_zolee at hotmail dot com>\n"
-"Meskó Balázs <mesko dot balazs at fsf dot hu>"
+"Dvornik László <dvornik at mate dot hu>\n"
+"Kelemen Gábor <kelemeng at mate dot hu>\n"
+"Kalman „KAMI” Szalai <kami911 at gmail dot com>\n"
+"Falu <info at falu dot me>\n"
+"Rezső Páder <rezso at rezso dot net>\n"
+"Zoltán Rápolthy <real_zolee at hotmail dot com>\n"
+"Meskó Balázs <mesko dot balazs at fsf dot hu>\n"
+"Tímár András <timar at mate dot hu>"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -175,8 +176,9 @@ msgstr "Visszajelzés"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -186,11 +188,14 @@ msgid ""
 "network, and memory activities as well as a way for viewing and stopping "
 "system processes."
 msgstr ""
+"A System Monitor grafikus felhasználói felületet biztosít a felhasználók "
+"számára a CPU, a hálózat és a memória tevékenységének megfigyeléséhez, "
+"valamint a rendszerfolyamatok megtekintéséhez és leállításához."
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:177
 msgid "<primary>System Monitor</primary>"
-msgstr ""
+msgstr "<primary>Rendszerfigyelő</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:180
@@ -1785,7 +1790,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1435
 msgid "<guilabel>Session</guilabel>"
-msgstr ""
+msgstr "<guilabel>Munkamenet</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1438
@@ -1819,7 +1824,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1459
 msgid "<guilabel>Priority</guilabel>"
-msgstr ""
+msgstr "<guilabel>Prioritás</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1462
@@ -1828,6 +1833,9 @@ msgid ""
 "allowed to use. A process running with higher priority can use more of the "
 "CPU compared to the one with a lower priority."
 msgstr ""
+"Válassza ezt a lehetőséget a folyamat prioritásának megjelenítéséhez – azaz,"
+" hogy mennyi CPU-t használhat. A magasabb prioritással futó folyamat többet "
+"használhat a CPU-ból, mint az alacsonyabb prioritású."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1473
@@ -1967,7 +1975,7 @@ msgstr ""
 #. (itstool) path: para/ulink
 #: C/legal.xml:9
 msgid "link"
-msgstr "hivatkozással"
+msgstr "link"
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:2

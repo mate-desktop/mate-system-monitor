@@ -4,34 +4,36 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Matheus Macabu <mkbu95@gmail.com>, 2018
-# 3f37d448649cd548fa5a733e33387c2a_dee4ccf, 2018
-# 642cf48d39bca7f9ad9d185d4bcea8c8, 2018
-# Roger Araújo <roger.rf@gmail.com>, 2018
-# Herick Vinicius <herick.gustavo@gmail.com>, 2018
-# Aldo Oliveira <america103@gmail.com>, 2018
-# 65f2af3cfa184c075942a0418b98d2de_d688669, 2018
-# 18ab4449a00621534598e84a949423ea, 2018
-# Lucas Dias <lucasdiaas@outlook.com>, 2018
-# 710a500dd1d5560bb05c8b24814b8c26, 2018
-# jose, 2018
-# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2019
+# Matheus Macabu <mkbu95@gmail.com>, 2021
+# Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2021
+# 18ab4449a00621534598e84a949423ea, 2021
+# gustavo s, 2021
+# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2021
+# 3f37d448649cd548fa5a733e33387c2a_dee4ccf, 2021
+# 65f2af3cfa184c075942a0418b98d2de_d688669, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Roger Araújo <roger.rf@gmail.com>, 2021
+# Herick Vinicius <herick.gustavo@gmail.com>, 2021
+# Lucas Dias <lucasdiaas@outlook.com>, 2021
+# 710a500dd1d5560bb05c8b24814b8c26, 2021
+# Josué Teodoro Moreira <jteodomo@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Aldo Oliveira <america103@gmail.com>, 2022
+# Luciano Luck, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2019\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Luciano Luck, 2022\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -47,6 +49,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"O MATE System Monitor permite visualizar e manipular graficamente os \n"
+"processos em execução em seu sistema. Ele também fornece uma visão geral\n"
+" dos recursos disponíveis, como CPU e memória."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -54,6 +59,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"O MATE System Monitor é um fork do GNOME System Monitor e parte do MATE \n"
+"Desktop Environment. Se você quiser saber mais sobre o MATE e o System \n"
+"Monitor, visite a página inicial do projeto."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.cpp:626
@@ -68,7 +76,7 @@ msgstr "Veja os processos atuais e monitore o estado do sistema"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr ""
+msgstr "MATE;sistema;monitor;processo;lista;visualização;atual;recursos;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -110,6 +118,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"O System Monitor é um software livre; você pode redistribuí-lo e/ou \n"
+"modificá-lo sob os termos da GNU General Public License conforme \n"
+"publicada pela Free Software Foundation; seja a versão 2 da Licença ou \n"
+"(a seu critério) qualquer versão posterior."
 
 #: src/callbacks.cpp:215
 msgid ""
@@ -118,6 +130,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"O System Monitor é distribuído na esperança de que seja útil, mas SEM \n"
+"QUALQUER GARANTIA; sem mesmo a garantia implícita de COMERCIALIZAÇÃO ou \n"
+"ADEQUAÇÃO A UM DETERMINADO FIM. Veja a Licença Pública Geral GNU para \n"
+"mais detalhes."
 
 #: src/callbacks.cpp:219
 msgid ""
@@ -125,6 +141,9 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"você deve ter recebido uma cópia da GNU General Public License junto com\n"
+" o System Monitor; se não, escreva para a Free Software Foundation, \n"
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 
 #: src/callbacks.cpp:231
 msgid "About System Monitor"
@@ -136,6 +155,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 desenvolvedores MATE"
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
@@ -160,7 +182,10 @@ msgstr ""
 "Matheus Martins https://www.transifex.com/accounts/profile/Matheus_Martins\n"
 "Michele dos Santos da Silva https://www.transifex.com/accounts/profile/mchelem\n"
 "Thiago Cangussu https://www.transifex.com/accounts/profile/cangussu.thg\n"
-"vitorgatti https://www.transifex.com/accounts/profile/vitorgatti"
+"vitorgatti https://www.transifex.com/accounts/profile/vitorgatti\n"
+"Ítalo Rangel Penaforte https://www.transifex.com/accounts/profile/italo.penaforte\n"
+"George Salu da Silva https://www.transifex.com/user/profile/George_salu_da_silva/\n"
+"Josué Teodoro Moreira https://www.transifex.com/user/profile/J0sueTM/"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -176,7 +201,7 @@ msgstr "Tipo"
 
 #: src/disks.cpp:408
 msgid "SubVolume"
-msgstr ""
+msgstr "subVolume"
 
 #: src/disks.cpp:409
 msgid "Total"
@@ -291,6 +316,7 @@ msgid "_End Process"
 msgid_plural "_End Processes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -301,6 +327,7 @@ msgid "_Kill Process"
 msgid_plural "_Kill Processes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -324,7 +351,7 @@ msgstr "Configura o aplicativo"
 
 #: src/interface.cpp:77
 msgid "_Refresh"
-msgstr "At_ualizar"
+msgstr "_Atualizar"
 
 #: src/interface.cpp:78
 msgid "Refresh the process list"
@@ -512,15 +539,15 @@ msgstr "Total enviado"
 msgid "System"
 msgstr "Sistema"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Processos"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Recursos"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Sistemas de arquivos"
 
@@ -528,8 +555,9 @@ msgstr "Sistemas de arquivos"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u segundo"
-msgstr[1] "%u segundos"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1028,19 +1056,19 @@ msgstr "Exibir coluna de processos 'Proprietário' ao iniciar"
 
 #: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Largura da coluna “Disk Write Total” do processo"
 
 #: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Mostrar a coluna “Disk Write Total” do processo na inicialização"
 
 #: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Largura da coluna “Disk Read Total” do processo"
 
 #: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Mostrar a coluna “Disk Read Total” do processo na inicialização"
 
 #: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
@@ -1157,6 +1185,54 @@ msgstr "Ordenar coluna de arquivos abertos"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Ordem de classificação de arquivos abertos"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Preferências do monitor do sistema"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Intervalo de at_ualização em segundos:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Habilitar atualização _suave"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Alertar antes de terminar ou _matar processos"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Campos de informação"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformações dos processos exibidas na lista:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Gráficos"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Mostr_ar todos os sistemas de arquivos"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformações do sistema de arquivos exibidas na lista:"
 
 #: src/procactions.cpp:77
 #, c-format
@@ -1317,7 +1393,7 @@ msgstr "Contexto de segurança"
 
 #: src/proctable.cpp:268 src/procproperties.cpp:160
 msgid "Command Line"
-msgstr "Linha de comando"
+msgstr "Linha de Comando"
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1351,19 +1427,19 @@ msgstr "Proprietário"
 
 #: src/proctable.cpp:279 src/procproperties.cpp:151
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Total de Leitura do Disco"
 
 #: src/proctable.cpp:280 src/procproperties.cpp:152
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Total de Gravação de Disco"
 
 #: src/proctable.cpp:281
 msgid "Disk Read"
-msgstr ""
+msgstr "Leitura de Disco"
 
 #: src/proctable.cpp:282
 msgid "Disk Write"
-msgstr ""
+msgstr "Gravação de Disco"
 
 #: src/proctable.cpp:283 src/procproperties.cpp:157
 msgid "Priority"
@@ -1444,7 +1520,7 @@ msgstr "Processador:"
 
 #: src/sysinfo.cpp:1016
 msgid "Graphics:"
-msgstr ""
+msgstr "Gráficos:"
 
 #. disk space section
 #: src/sysinfo.cpp:1021

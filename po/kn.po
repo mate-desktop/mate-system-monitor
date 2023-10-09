@@ -4,18 +4,19 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# karthik holla <karthikholla87@gmail.com>, 2018
-# Yogesh K S <yogesh@karnatakaeducation.org.in>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Yogesh K S <yogesh@karnatakaeducation.org.in>, 2021
+# karthik holla <karthikholla87@gmail.com>, 2021
+# Sai Vinoba <saivinoba@sumati.net>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
-"Language-Team: Kannada (https://www.transifex.com/mate/teams/13566/kn/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Language-Team: Kannada (https://app.transifex.com/mate/teams/13566/kn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -128,7 +129,8 @@ msgstr ""
 #: src/callbacks.cpp:240
 msgid "translator-credits"
 msgstr ""
-"ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>,ಕಾರ್ತಿಕ ಹೊಳ್ಳ <karthikholla87@gmail.com>"
+"ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>,ಕಾರ್ತಿಕ ಹೊಳ್ಳ "
+"<karthikholla87@gmail.com>,ಸಾಯಿ ವಿನೋಬ<saivinoba@sumati.net>"
 
 #: src/disks.cpp:405 src/memmaps.cpp:327
 msgid "Device"
@@ -174,15 +176,15 @@ msgstr ""
 
 #: src/gsm_color_button.c:165
 msgid "Title"
-msgstr "ಶೀರ್ಷಿಕೆ"
+msgstr "ತಲೆಬರಹ"
 
 #: src/gsm_color_button.c:166
 msgid "The title of the color selection dialog"
-msgstr "ಬಣ್ಣ ಆಯ್ಕೆ ಸಂವಾದದ ಬಣ್ಣ"
+msgstr "ಬಣ್ಣ ಆಯ್ಕೆ ಮಾತುಕತೆಯ ತಲೆಬರಹ"
 
 #: src/gsm_color_button.c:167 src/gsm_color_button.c:591
 msgid "Pick a Color"
-msgstr "ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸು"
+msgstr "ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
 
 #: src/gsm_color_button.c:173
 msgid "Current Color"
@@ -198,7 +200,7 @@ msgstr "ಬಣ್ಣದ ಆಯ್ಕೆಗಾರದ ಬಗೆ"
 
 #: src/gsm_color_button.c:505
 msgid "Received invalid color data\n"
-msgstr "ಅಮಾನ್ಯ ಬಣ್ಣದ ದತ್ತಾಂಶವನ್ನು ಪಡೆಯಲಾಗಿದೆ\n"
+msgstr "ಸರಿಯಿಲ್ಲದ ಬಣ್ಣದ ತಿಳಿಹವನ್ನು ಪಡೆಯಲಾಗಿದೆ\n"
 
 #: src/gsm_color_button.c:614
 msgid "Click to set graph colors"
@@ -212,7 +214,7 @@ msgstr "ಮೇಲ್ವಿಚಾರಣೆ(_Monitor)"
 
 #: src/interface.cpp:53
 msgid "_Edit"
-msgstr "ಸಂಪಾದಿಸು(_E)"
+msgstr "ತಿದ್ದು (_E)"
 
 #: src/interface.cpp:54
 msgid "_View"
@@ -220,7 +222,7 @@ msgstr "ನೋಟ(_V)"
 
 #: src/interface.cpp:55
 msgid "_Help"
-msgstr "ನೆರವು(_H)"
+msgstr "ನೆರವು (_H)"
 
 #: src/interface.cpp:57
 msgid "Search for _Open Files"
@@ -284,7 +286,7 @@ msgstr "ಪ್ರಕ್ರಿಯೆಯ ಆದ್ಯತೆಯ ಕ್ರಮವನ�
 
 #: src/interface.cpp:74
 msgid "_Preferences"
-msgstr "ಆದ್ಯತೆಗಳು(_P)"
+msgstr "ಒಲವುಗಳು (_P)"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
@@ -333,7 +335,7 @@ msgstr "ಕೈಪಿಡಿಯನ್ನು ತೆರೆ"
 
 #: src/interface.cpp:91
 msgid "_About"
-msgstr "ಇದರ ಬಗ್ಗೆ(_A)"
+msgstr "ಬಗ್ಗೆ (_A)"
 
 #: src/interface.cpp:92
 msgid "About this application"
@@ -478,17 +480,17 @@ msgstr "ಒಟ್ಟು ಕಳುಹಿಸಲಾದವು"
 #. procman_create_sysinfo_view();
 #: src/interface.cpp:706
 msgid "System"
-msgstr "ವ್ಯವಸ್ಥೆ"
+msgstr "ಏರ್ಪಾಡು"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "ಪ್ರಕ್ರಿಯೆಗಳು"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "ಸಂಪನ್ಮೂಲಗಳು"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "ಕಡತ ವ್ಯವಸ್ಥೆಗಳು"
 
@@ -1116,6 +1118,54 @@ msgstr ""
 msgid "Open files sort order"
 msgstr ""
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "ಗಣಕ ಮೇಲ್ವಿಚಾರಣೆಯ ಆದ್ಯತೆಗಳು"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "ವರ್ತನೆ"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಅಪ್ಡೇಟ್ ಕಾಲಾವಧಿ(_U):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "ಮೃದು ಪುನಶ್ಚೇತನಗೊಳಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_s)"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "ಒಂದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ಕೊನೆಗೊಳಿಸುವಾದ ಅಥವ ನಿಲ್ಲಿಸುವಾಗ ಎಚ್ಚರಿಸು(_k)"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "ಮಾಹಿತಿ ಕ್ಷೇತ್ರಗಳು"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯ ಮಾಹಿತಿ(_n):"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "ನಕ್ಷೆಗಳು"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr ""
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸಲಾದ ಪ್ರಕ್ರಿಯೆಯ ಮಾಹಿತಿ(_n):"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1381,7 +1431,7 @@ msgstr "MATE %s"
 #. hardware section
 #: src/sysinfo.cpp:1006
 msgid "Hardware"
-msgstr "ಯಂತ್ರಾಂಶ"
+msgstr "ಹಾರ್ಡ್ವೇರ್"
 
 #: src/sysinfo.cpp:1011
 msgid "Memory:"

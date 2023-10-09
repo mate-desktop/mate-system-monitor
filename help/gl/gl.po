@@ -1,17 +1,17 @@
 # 
 # Translators:
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
-# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Miguel Anxo Bouzada <mbouzada@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2020\n"
-"Language-Team: Galician (https://www.transifex.com/mate/teams/13566/gl/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Language-Team: Galician (https://app.transifex.com/mate/teams/13566/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -169,8 +169,9 @@ msgstr "Comentarios"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para

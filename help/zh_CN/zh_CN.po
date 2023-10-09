@@ -1,22 +1,24 @@
 # 
 # Translators:
-# shuyu liu <liushuyu011@gmail.com>, 2018
-# biqiu-ssw <shenshuaiwen@gmail.com>, 2018
-# CNAmira <forucial@icloud.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Mingcong Bai <jeffbai@aosc.xyz>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# zhineng404 <zhinengge@gmail.com>, 2019
-# a73a47e368cc011d8f94528bd9d5d3f1_91fccdf <1b07f49e2a323989c85dd26d526f7bb9_871526>, 2020
-# liulitchi <xingzuo88@qq.com>, 2020
+# shuyu liu <liushuyu011@gmail.com>, 2021
+# CNAmira <forucial@icloud.com>, 2021
+# biqiu-ssw <shenshuaiwen@gmail.com>, 2021
+# Wenbin Lv <wenbin816@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# liu lizhi <xingzuo88@qq.com>, 2021
+# Mingcong Bai <jeffbai@aosc.xyz>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# zhineng404 <zhinengge@gmail.com>, 2021
+# a73a47e368cc011d8f94528bd9d5d3f1_91fccdf <1b07f49e2a323989c85dd26d526f7bb9_871526>, 2021
+# OkayPJ <1535253694@qq.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: liulitchi <xingzuo88@qq.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: OkayPJ <1535253694@qq.com>, 2021\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,17 +29,18 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Christopher Meng <i@cicku.me>, 2012-2013\n"
-"ravix <dr.neemous@gmail.com>, 2013\n"
+"Christopher Meng , 2012-2013\n"
+"ravix , 2013\n"
 "Dianjin Wang <1132321739qq@gmail.com>, 2012\n"
-"Cravix <dr.neemous@gmail.com>, 2013\n"
-"nyanyh <rebuilty@gmail.com>, 2013\n"
-"liulitchi <xingzuo88@qq.com>, 2013\n"
-"玉堂白鹤 <yjwork@qq.com>, 2015\n"
-"Mingye Wang <arthur200126@gmail.com>, 2015-2016\n"
-"白铭骢 <jeffbai@aosc.xyz>, 2015-2016\n"
-"刘子兴 <liushuyu@aosc.xyz>, 2015-2016\n"
-"比丘<shenshuaiwen@gmail.com>,2018-2019"
+"Cravix , 2013\n"
+"nyanyh , 2013\n"
+"liulitchi , 2013\n"
+"玉堂白鹤 , 2015\n"
+"Mingye Wang , 2015-2016\n"
+"白铭骢 , 2015-2016\n"
+"刘子兴 , 2015-2016\n"
+"比丘 , 2018-2019\n"
+"OkayPJ , 2020"
 
 #. (itstool) path: articleinfo/title
 #: C/index.docbook:23
@@ -57,7 +60,7 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
 msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
-msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
+msgstr "<year>2004</year> <holder>Sun 微系统</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:36
@@ -139,7 +142,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr "Sun GNOME 开发团队"
+msgstr "Sun GNOME 文档团队"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -181,8 +184,9 @@ msgstr "反馈"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -568,7 +572,7 @@ msgstr "ID"
 #. (itstool) path: listitem/para
 #: C/index.docbook:472
 msgid "Memory"
-msgstr "记忆"
+msgstr "内存"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:475
@@ -588,12 +592,12 @@ msgstr "磁盘总写入"
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr "磁盘读取"
+msgstr "读取磁盘"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr "磁盘写入"
+msgstr "写入磁盘"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490

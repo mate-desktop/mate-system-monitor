@@ -4,20 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Allan Nordhøy <epost@anotheragency.no>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2019
-# Kim Malmo <berencamlost@msn.com>, 2019
-# heskjestad <cato@heskjestad.xyz>, 2021
+# 87d96f43665dd9fb55eba4603e184cae, 2021
+# Kenneth Jenssen <kennethjenssen@yahoo.com>, 2021
+# Kim Malmo <berencamlost@msn.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Allan Nordhøy <epost@anotheragency.no>, 2022
+# heskjestad <cato@heskjestad.xyz>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: heskjestad <cato@heskjestad.xyz>, 2021\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: heskjestad <cato@heskjestad.xyz>, 2022\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -316,7 +317,7 @@ msgstr "Endre prioritet for en prosess"
 
 #: src/interface.cpp:74
 msgid "_Preferences"
-msgstr "Innstillinger"
+msgstr "Innstillin_ger"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
@@ -365,7 +366,7 @@ msgstr "Åpne brukermanualen"
 
 #: src/interface.cpp:91
 msgid "_About"
-msgstr "Om"
+msgstr "_Om"
 
 #: src/interface.cpp:92
 msgid "About this application"
@@ -512,15 +513,15 @@ msgstr "Totalt sendt"
 msgid "System"
 msgstr "System"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Prosesser"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Ressurser"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Filsystemer"
 
@@ -1156,6 +1157,54 @@ msgstr "Åpne filers sorteringskolonne"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Åpne filenes sorteringsrekkefølge"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Brukervalg for systemovervåkning"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Oppførsel"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Oppdateringsintervall i sekunder:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Aktiver _myk oppfrisking"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Vis advarsel ved avslutting eller _terminering av prosesser"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "Inn_del CPU-forbruk i kjerner"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Informasjonsfelt"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformasjon for prosesser som vises i listen:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafer"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "Vis _nettverkshastighet i bits"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Vis _alle filsystemer"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformasjon om filsystemer som vises i listen:"
 
 #: src/procactions.cpp:77
 #, c-format

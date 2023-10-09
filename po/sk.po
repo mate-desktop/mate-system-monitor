@@ -4,22 +4,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pavol Šimo <palo.simo@gmail.com>, 2018
-# 32442f8bc5cc500b59f161d95078a28a_525ed04, 2018
-# Tibor Kaputa <tibbbi2@gmail.com>, 2018
-# Erik Bročko <erik.brocko@letemsvetemapplem.eu>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2020
-# Dušan Kazik <prescott66@gmail.com>, 2020
+# 32442f8bc5cc500b59f161d95078a28a_525ed04, 2021
+# Dušan Kazik <prescott66@gmail.com>, 2021
+# Tibor Kaputa <tibbbi2@gmail.com>, 2021
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Pavol Šimo <palo.simo@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Dušan Kazik <prescott66@gmail.com>, 2020\n"
-"Language-Team: Slovak (https://www.transifex.com/mate/teams/13566/sk/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Pavol Šimo <palo.simo@gmail.com>, 2022\n"
+"Language-Team: Slovak (https://app.transifex.com/mate/teams/13566/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -496,15 +495,15 @@ msgstr "Spolu poslaných"
 msgid "System"
 msgstr "Systém"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Procesy"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "Prostriedky"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Súborové systémy"
 
@@ -512,10 +511,10 @@ msgstr "Súborové systémy"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u sekunda"
-msgstr[1] "%u sekundy"
-msgstr[2] "%u sekundy"
-msgstr[3] "%u sekúnd"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -1143,6 +1142,54 @@ msgstr "Zoradenie stĺpca s otvorenými súbormi"
 msgid "Open files sort order"
 msgstr "Zoradenie otvorených súborov"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Nastavenia monitora systému"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Správanie"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Interval aktualizácie v sekundách:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Povoliť _vyhladené obnovovanie"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Varovať pred ukončením alebo za_bitím procesov"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Polia s informáciami"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformácie o procesoch zobrazené v zozname:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Grafy"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "_Zobraziť všetky súborové systémy"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformácie o súborových systémoch zobrazené v zozname:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1398,7 +1445,7 @@ msgstr "Vydanie %s"
 #: src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
-msgstr "%d-bit"
+msgstr "%d-bitová"
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"

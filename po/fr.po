@@ -4,33 +4,34 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# df3de0cb43d289cd23a753345b3743cd_a20684f, 2018
-# jeremy shields <jeremy.shields@orange.fr>, 2018
-# mauron, 2018
-# Tubuntu, 2018
-# clefebvre <clement.lefebvre@linuxmint.com>, 2018
-# Charles Monzat <c.monzat@laposte.net>, 2018
-# Louis-Martin Carrière <louismc@gmail.com>, 2018
-# Étienne Deparis <etienne@depar.is>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Benjamin Teissier <enatheme@enatheme.org>, 2019
-# Jerom Turible <jeromet9208@gmail.com>, 2020
-# Laurent Napias, 2020
+# Charles Monzat <c.monzat@laposte.net>, 2021
+# jeremy shields <jeremy.shields@orange.fr>, 2021
+# Jerom Turible <jeromet9208@gmail.com>, 2021
+# Tubuntu, 2021
+# clefebvre <clement.lefebvre@linuxmint.com>, 2021
+# Étienne Deparis <etienne@depar.is>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Louis-Martin Carrière <louismc@gmail.com>, 2021
+# df3de0cb43d289cd23a753345b3743cd_a20684f, 2021
+# Laurent Napias, 2021
 # David D, 2021
+# Colomban Wendling <cwendling@hypra.fr>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# mauron, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: David D, 2021\n"
-"Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: mauron, 2022\n"
+"Language-Team: French (https://app.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -142,7 +143,7 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
-"Vous devriez avoir reçu une copie de la licence publique générale GNU avec "
+"Vous devriez avoir reçu une copie de la Licence Publique Générale GNU avec "
 "System Monitor; sinon, écrivez à la Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 
@@ -260,15 +261,15 @@ msgstr "_Moniteur"
 
 #: src/interface.cpp:53
 msgid "_Edit"
-msgstr "Éditio_n"
+msgstr "Édit_er"
 
 #: src/interface.cpp:54
 msgid "_View"
-msgstr "_Affichage"
+msgstr "Affichage"
 
 #: src/interface.cpp:55
 msgid "_Help"
-msgstr "Aid_e"
+msgstr "Aide"
 
 #: src/interface.cpp:57
 msgid "Search for _Open Files"
@@ -305,8 +306,9 @@ msgstr "Continue le processus s'il a été stoppé"
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] "_Terminer processus"
-msgstr[1] "_Terminer processus"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -315,8 +317,9 @@ msgstr "Force un processus à terminer"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] "_Tuer processus"
-msgstr[1] "_Tuer processus"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -373,7 +376,7 @@ msgstr "Visualiser les informations supplémentaires concernant un processus"
 
 #: src/interface.cpp:89
 msgid "_Contents"
-msgstr "_Sommaire"
+msgstr "Sommaire"
 
 #: src/interface.cpp:90
 msgid "Open the manual"
@@ -437,7 +440,7 @@ msgstr "Fixer la priorité du processus à élevée"
 
 #: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
-msgstr "Normale"
+msgstr "Normal"
 
 #: src/interface.cpp:120
 msgid "Set process priority to normal"
@@ -529,15 +532,15 @@ msgstr "Total envoyé"
 msgid "System"
 msgstr "Système"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Processus"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
-msgstr "Ressources"
+msgstr "N'hésitez pas à contribuer et amusez-vous bien en améliorant MATE !"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Systèmes de fichiers"
 
@@ -545,8 +548,9 @@ msgstr "Systèmes de fichiers"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] "%u seconde"
-msgstr[1] "%u secondes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -704,7 +708,7 @@ msgstr "Objet"
 
 #: src/openfiles.cpp:328
 msgid "Open Files"
-msgstr "Fichiers ouverts"
+msgstr "Ouvrir des fichiers"
 
 #: src/openfiles.cpp:349
 #, c-format
@@ -773,8 +777,8 @@ msgid ""
 "file systems."
 msgstr ""
 "Indique s'il faut afficher les informations relatives à tous les systèmes de"
-" fichiers : ceci inclut les systèmes de fichiers tels qu'« autofs » et « "
-"procfs ». Cette option permet d'obtenir la liste de tous les systèmes de "
+" fichiers : ceci inclut les systèmes de fichiers tels qu'« autofs » et "
+"« procfs ». Cette option permet d'obtenir la liste de tous les systèmes de "
 "fichiers actuellement montés."
 
 #: src/org.mate.system-monitor.gschema.xml.in:44
@@ -1191,6 +1195,54 @@ msgstr "Colonne de tri des fichiers ouverts"
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr "Ordre de tri des fichiers ouverts"
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Préférences du moniteur système"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Comportement"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "_Fréquence de mise à jour en secondes :"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Activer le rafraîchissement _lissé"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Afficher un avertissement avant de _terminer ou de tuer des processus"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Champs d'informations"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "I_nformations sur les processus affichés dans la liste :"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Graphiques"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Afficher _tous les systèmes de fichiers"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformations sur les systèmes de fichiers affichés dans la liste :"
 
 #: src/procactions.cpp:77
 #, c-format

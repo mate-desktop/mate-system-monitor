@@ -4,32 +4,30 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Fabian Rodriguez, 2018
-# Lluís Tusquellas <lutusq@gmail.com>, 2018
-# Naresu Tenshi <naresutenshi@gmail.com>, 2018
-# seacat <seacat.linux@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# ebray187 <ebray187@gmail.com>, 2018
-# Emiliano Fascetti, 2018
-# Alberto Vicente Sánchez <odintdh@gmail.com>, 2018
-# Joel Barrios <darkshram@gmail.com>, 2018
-# Adolfo Jayme Barrientos, 2019
-# Arcenio Cid <gusty.miliki@gmail.com>, 2019
-# Toni Estévez <toni.estevez@gmail.com>, 2021
+# seacat <seacat.linux@gmail.com>, 2021
+# Fabian Rodriguez, 2021
+# Naresu Tenshi <naresutenshi@gmail.com>, 2021
+# Alberto Vicente Sánchez <odintdh@gmail.com>, 2021
+# Adolfo Jayme-Barrientos, 2021
+# ebray187 <ebray187@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Emiliano Fascetti, 2022
+# Toni Estévez <toni.estevez@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2022\n"
+"Language-Team: Spanish (https://app.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -158,7 +156,8 @@ msgstr ""
 #: src/callbacks.cpp:240
 msgid "translator-credits"
 msgstr ""
-"Toni Estevez <toni.estevez@gmail.com>, 2019\n"
+"Toni Estevez <toni.estevez@gmail.com>, 2020-2021\n"
+"Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2018\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2007-2010\n"
 "Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003-2006\n"
 "Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002-2003"
@@ -292,6 +291,7 @@ msgid "_End Process"
 msgid_plural "_End Processes"
 msgstr[0] "_Finalizar el proceso"
 msgstr[1] "_Finalizar los procesos"
+msgstr[2] "_Finalizar los procesos"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -302,6 +302,7 @@ msgid "_Kill Process"
 msgid_plural "_Kill Processes"
 msgstr[0] "_Matar el proceso"
 msgstr[1] "_Matar los procesos"
+msgstr[2] "_Matar los procesos"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -317,7 +318,7 @@ msgstr "Cambia el orden de prioridad del proceso"
 
 #: src/interface.cpp:74
 msgid "_Preferences"
-msgstr "Preferencias"
+msgstr "_Preferencias"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
@@ -465,7 +466,7 @@ msgstr "Seleccionar un color para «%s»"
 
 #: src/interface.cpp:291
 msgid "CPU History"
-msgstr "Historial de la CPU"
+msgstr "Historial de CPU"
 
 #: src/interface.cpp:334 src/procproperties.cpp:153
 msgid "CPU"
@@ -513,15 +514,15 @@ msgstr "Enviado en total"
 msgid "System"
 msgstr "Sistema"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "Procesos"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
-msgstr "Recursos"
+msgstr "Información"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "Sistemas de archivos"
 
@@ -531,6 +532,7 @@ msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] "%u segundo"
 msgstr[1] "%u segundos"
+msgstr[2] "%u segundos"
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -715,7 +717,7 @@ msgstr "Mostrar las dependencias de los procesos en forma de árbol"
 
 #: src/org.mate.system-monitor.gschema.xml.in:18
 msgid "Solaris mode for CPU percentage"
-msgstr "Modo Solaris para el porcentaje de uso de la CPU"
+msgstr "Modo Solaris para el porcentaje de uso del procesador"
 
 #: src/org.mate.system-monitor.gschema.xml.in:19
 msgid ""
@@ -724,8 +726,8 @@ msgid ""
 "mode'."
 msgstr ""
 "Si se activa, el monitor del sistema opera en «modo Solaris», en el cual el "
-"uso de CPU de una tarea se divide entre el número total de CPU. De lo "
-"contrario, opera en «modo Irix»."
+"uso del procesador de una tarea se divide entre el número total de "
+"procesadores. De lo contrario, opera en «modo Irix»."
 
 #: src/org.mate.system-monitor.gschema.xml.in:23
 msgid "Enable/Disable smooth refresh"
@@ -815,11 +817,11 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:177
 #: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
-msgstr "Color predeterminado del gráfico de la CPU"
+msgstr "Color predeterminado del gráfico del procesador"
 
 #: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
-msgstr "Color predeterminado del gráfico de la CPU"
+msgstr "Color predeterminado del gráfico del procesador"
 
 #: src/org.mate.system-monitor.gschema.xml.in:185
 msgid "Default graph memory color"
@@ -1163,6 +1165,54 @@ msgstr "Columna de ordenación de los archivos abiertos"
 msgid "Open files sort order"
 msgstr "Orden de clasificación de los archivos abiertos"
 
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "Preferencias del monitor del sistema"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "Comportamiento"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "Intervalo de act_ualización en segundos:"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "Activar la actualización _suave"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "Alertar antes de finalizar o _matar procesos"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr "_Dividir el uso del procesador por el número de procesadores"
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "Campos de información"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "Información de los procesos _mostrados en la lista:"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "Gráficos"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr "_Mostrar la velocidad de la red en bits"
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr "Mostrar _todos los sistemas de archivos"
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "I_nformación de los procesos mostrados en la lista:"
+
 #: src/procactions.cpp:77
 #, c-format
 msgid ""
@@ -1368,7 +1418,7 @@ msgstr "Lecturas del disco"
 
 #: src/proctable.cpp:282
 msgid "Disk Write"
-msgstr "Escrituras del disco"
+msgstr "Escrituras de disco"
 
 #: src/proctable.cpp:283 src/procproperties.cpp:157
 msgid "Priority"
@@ -1422,7 +1472,7 @@ msgstr "%d bits"
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"
-msgstr "Desconocido"
+msgstr "Se desconoce"
 
 #: src/sysinfo.cpp:979
 #, c-format

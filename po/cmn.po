@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 趙惟倫 <bluebat@member.fsf.org>, 2019
+# 趙惟倫 <bluebat@member.fsf.org>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.25.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2019\n"
-"Language-Team: Chinese (Mandarin) (https://www.transifex.com/mate/teams/13566/cmn/)\n"
+"POT-Creation-Date: 2022-01-02 10:31+0100\n"
+"PO-Revision-Date: 2021-09-20 19:54+0000\n"
+"Last-Translator: 趙惟倫 <bluebat@member.fsf.org>, 2022\n"
+"Language-Team: Chinese (Mandarin) (https://app.transifex.com/mate/teams/13566/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -478,15 +478,15 @@ msgstr "總共傳送"
 msgid "System"
 msgstr "系統"
 
-#: src/interface.cpp:710
+#: src/interface.cpp:710 src/preferences.ui:310
 msgid "Processes"
 msgstr "程序"
 
-#: src/interface.cpp:714
+#: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
 msgstr "資源"
 
-#: src/interface.cpp:718
+#: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"
 msgstr "檔案系統"
 
@@ -1108,6 +1108,54 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
 msgstr ""
+
+#: src/preferences.ui:18
+msgid "System Monitor Preferences"
+msgstr "系統監控程式偏好設定"
+
+#: src/preferences.ui:106 src/preferences.ui:465
+msgid "Behavior"
+msgstr "運作方式"
+
+#: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
+msgid "_Update interval in seconds:"
+msgstr "更新間隔(_U):"
+
+#: src/preferences.ui:165
+msgid "Enable _smooth refresh"
+msgstr "啟用平滑更新(_S)"
+
+#: src/preferences.ui:180
+msgid "Alert before ending or _killing processes"
+msgstr "當程序結束或被強行終止前發出警告(_K)"
+
+#: src/preferences.ui:195
+msgid "_Divide CPU usage by CPU count"
+msgstr ""
+
+#: src/preferences.ui:232 src/preferences.ui:567
+msgid "Information Fields"
+msgstr "資訊欄"
+
+#: src/preferences.ui:258
+msgid "Process i_nformation shown in list:"
+msgstr "列表中顯示的程序資訊(_N):"
+
+#: src/preferences.ui:338
+msgid "Graphs"
+msgstr "圖表"
+
+#: src/preferences.ui:402
+msgid "_Show network speed in bits"
+msgstr ""
+
+#: src/preferences.ui:528
+msgid "Show _all file systems"
+msgstr ""
+
+#: src/preferences.ui:594
+msgid "File system i_nformation shown in list:"
+msgstr "列表中顯示的系統資訊(_N):"
 
 #: src/procactions.cpp:77
 #, c-format

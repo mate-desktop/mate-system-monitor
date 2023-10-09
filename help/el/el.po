@@ -1,22 +1,22 @@
 # 
 # Translators:
-# thunk <thunk77@gmail.com>, 2018
-# 437c9d6e19936ed69f57bed9e0fe4716, 2018
-# kosmmart <kosmmartak@gmail.com>, 2018
-# Alexandros Kapetanios <alexandros@gnugr.org>, 2018
-# TheDimitris15, 2019
-# Efstathios Iosifidis <iefstathios@gmail.com>, 2019
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
-# anvo <fragos.george@hotmail.com>, 2019
+# anvo <fragos.george@hotmail.com>, 2021
+# 437c9d6e19936ed69f57bed9e0fe4716, 2021
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# thunk <thunk77@gmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Alexandros Kapetanios <alexandros@gnugr.org>, 2021
+# kosmmart <kosmmartak@gmail.com>, 2021
+# TheDimitris15, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-24 10:25+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: anvo <fragos.george@hotmail.com>, 2019\n"
-"Language-Team: Greek (https://www.transifex.com/mate/teams/13566/el/)\n"
+"PO-Revision-Date: 2021-09-20 19:55+0000\n"
+"Last-Translator: TheDimitris15, 2021\n"
+"Language-Team: Greek (https://app.transifex.com/mate/teams/13566/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -172,8 +172,9 @@ msgstr "Ανάδραση"
 #: C/index.docbook:161
 msgid ""
 "To report a bug or make a suggestion regarding the System Monitor "
-"application or this manual, follow the directions in the <ulink url=\"help"
-":mate-user-guide/feedback\" type=\"help\">MATE Feedback Page</ulink>."
+"application or this manual, follow the directions in the <ulink "
+"url=\"help:mate-user-guide/feedback\" type=\"help\">MATE Feedback "
+"Page</ulink>."
 msgstr ""
 
 #. (itstool) path: abstract/para
@@ -1829,7 +1830,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:1473
 msgid "Resources"
-msgstr "Πόροι"
+msgstr " Άλλοι χρήσιμοι σύνδεσμοι:"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1476
@@ -1976,8 +1977,8 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
-"Επιτρέπεται η αντιγραφή, η διανομή και / ή η τροποποίηση αυτού του εγγράφου "
-"σύμφωνα με τους όρους της Άδειας Τεκμηρίωσης ελευθέρου λογισμικού GNU "
+"Επιτρέπεται η αντιγραφή, η διανομή και / η τροποποίηση αυτού του εγγράφου "
+"σύμφωνα με τους όρους της Άδειας Τεκμηρίωσης Ελευθέρου λογισμικού GNU "
 "(GFDL), Έκδοσης 1.1 ή οποιασδήποτε μεταγενέστερης έκδοσης που δημοσιεύεται "
 "από το Ίδρυμα Ελεύθερου Λογισμικού χωρίς Μεταβλητές Ενότητες, χωρίς Κείμενα "
 "Προσωρινού Εξώφυλλου και Κανένα κείμενο πίσω. Μπορείτε να βρείτε ένα "
@@ -2065,7 +2066,6 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
-"Η οθόνη προσβασιμότητας πληκτρολογίου σας δείχνει την κατάσταση των "
-"χαρακτηριστικών προσβασιμότητας πληκτρολογίου όταν αυτά χρησιμοποιούνται. "
-"Για παράδειγμα, μπορείτε να δείτε ποια πλήκτρα τροποποίησης είναι ενεργά και"
-" ποια κουμπιά του ποντικιού πιέζονται μέσω του πληκτρολογίου."
+"ΤΟ ΕΓΓΡΑΦΟ ΚΑΙ ΤΡΟΠΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΤΟΥ ΕΓΓΡΑΦΟΥ ΠΑΡΕΧΟΝΤΑΙ ΜΕ ΤΟΥΣ ΟΡΟΥΣ"
+" ΤΗΣ ΑΔΕΙΑΣ ΤΕΚΜΗΡΙΩΣΗ ΕΛΕΥΘΕΡΟΥ ΛΟΓΙΣΜΙΚΟΥ GNU ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ ΚΑΤΑΝΟΜΗ "
+"ΟΤΙ: <_:orderedlist-1/>"

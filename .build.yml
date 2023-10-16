@@ -40,6 +40,8 @@ requires:
     - make
     - mate-common
     - policykit-1
+    - appstream
+    - libpolkit-gobject-1-dev
     - quilt
     - yelp-tools
 

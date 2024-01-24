@@ -6,7 +6,7 @@
 # Moritz Bruder <muesli4@gmail.com>, 2021
 # Tobias Bannert <tobannert@gmail.com>, 2021
 # Julian Rüger <jr98@gmx.net>, 2021
-# Marcel Artz <email@marcel-artz.de>, 2021
+# Marcel Artz, 2021
 # Wolfgang Ulbrich <mate@raveit.de>, 2023
 # 
 msgid ""

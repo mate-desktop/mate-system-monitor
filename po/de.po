@@ -9,7 +9,7 @@
 # Ettore Atalan <atalanttore@googlemail.com>, 2021
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
 # nautilusx, 2021
-# Marcel Artz <email@marcel-artz.de>, 2021
+# Marcel Artz, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # Tobias Bannert <tobannert@gmail.com>, 2022
 # Xpistian <xpistianbecker2@web.de>, 2022

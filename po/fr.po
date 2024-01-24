@@ -10,7 +10,6 @@
 # Tubuntu, 2021
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
 # Étienne Deparis <etienne@depar.is>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
 # Louis-Martin Carrière <louismc@gmail.com>, 2021
 # df3de0cb43d289cd23a753345b3743cd_a20684f, 2021
 # Laurent Napias, 2021
@@ -18,6 +17,7 @@
 # Colomban Wendling <cwendling@hypra.fr>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # mauron, 2022
+# Wolfgang Ulbrich <mate@raveit.de>, 2024
 # 
 msgid ""
 msgstr ""
@@ -25,7 +25,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2022-01-02 10:31+0100\n"
 "PO-Revision-Date: 2021-09-20 19:54+0000\n"
-"Last-Translator: mauron, 2022\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2024\n"
 "Language-Team: French (https://app.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -538,7 +538,7 @@ msgstr "Processus"
 
 #: src/interface.cpp:714 src/preferences.ui:437
 msgid "Resources"
-msgstr "N'hésitez pas à contribuer et amusez-vous bien en améliorant MATE !"
+msgstr "Ressources"
 
 #: src/interface.cpp:718 src/preferences.ui:649
 msgid "File Systems"

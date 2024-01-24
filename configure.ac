@@ -64,14 +64,14 @@ AM_CONDITIONAL(HAVE_WNCK, [test "enable_wnck" = "yes"])
 PKG_CHECK_MODULES(TOOLS, glib-2.0 >= $GLIB_REQUIRED)
 
 have_systemd=no
-AC_ARG_ENABLE(systemd, AS_HELP_STRING([--disable-systemd], [disable systemd support]),,enable_systemd=no)
+AC_ARG_ENABLE(systemd, AS_HELP_STRING([--disable-systemd], [disable systemd support]),enable_systemd="$enableval",enable_systemd=auto)
 if test "x$enable_systemd" != "xno"; then
 	PKG_CHECK_MODULES(SYSTEMD, [libsystemd], [have_systemd=yes],
 	                  [PKG_CHECK_MODULES(SYSTEMD, [libsystemd-login >= $SYSTEMD_REQUIRED],
 	                  [have_systemd=yes])])
-	if test "x$have_systemd" = xno; then
+	if test "x$have_systemd" = xno && test "x$enable_systemd" = xyes; then
 		AC_MSG_ERROR([*** systemd support requested but libraries not found])
-	else
+	elif test "x$have_systemd" = xyes; then
 		AC_DEFINE(HAVE_SYSTEMD, 1, [Define if systemd is available])
 	fi
 fi

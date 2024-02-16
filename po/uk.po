@@ -9,15 +9,16 @@
 # Микола Ткач <chistomov@gmail.com>, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # Sergiy <sergiy@gorichenko.com>, 2022
+# Anton Gladky <gladk@debian.org>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.26.0\n"
+"Project-Id-Version: mate-system-monitor 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2022-10-29 15:31+0200\n"
+"POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Sergiy <sergiy@gorichenko.com>, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
+"Last-Translator: Anton Gladky <gladk@debian.org>, 2022\n"
+"Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,9 +49,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
-"MATE System Monitor є відгалуженням системного монітора GNOME та частиною "
-"робочого середовища MATE. Якщо ви волієте дізнатися більше про MATE та "
-"System Monitor, відвідайте домашню сторінку проєкту."
+"MATE System Monitor є відгалуженням (форк) системного монітора GNOME та "
+"частиною робочого середовища MATE. Якщо ви волієте дізнатися більше про MATE"
+" та System Monitor, відвідайте домашню сторінку проекту."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.ui:7
@@ -154,7 +155,8 @@ msgid "translator-credits"
 msgstr ""
 "Yarema aka Knedlyk <yupadmin@gmail.com>,\n"
 "Микола Ткач <Stuartlittle1970@gmail.com>,\n"
-"Oleh Tsyupka <myr4yk@gmail.com>"
+"Oleh Tsyupka <myr4yk@gmail.com>\n"
+"Anton Gladky <gladk@debian.org>"
 
 #: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
@@ -220,7 +222,7 @@ msgstr "Обраний колір"
 
 #: src/gsm_color_button.c:180
 msgid "Type of color picker"
-msgstr "Тип обрання кольору"
+msgstr "Тип палітри кольору"
 
 #: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
@@ -228,7 +230,7 @@ msgstr "Отримано некоректні дані кольору\n"
 
 #: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
-msgstr "Кнапайте для зміни кольорів графіку"
+msgstr "Клацніть для зміни кольорів графіку"
 
 #. xgettext: noun, top level menu.
 #. "File" did not make sense for system-monitor
@@ -286,7 +288,7 @@ msgid_plural "_End Processes"
 msgstr[0] "_Закінчити процес"
 msgstr[1] "_Закінчити процеси"
 msgstr[2] "_Закінчити процесів"
-msgstr[3] "_Закінчити процесів"
+msgstr[3] "_Завершити процеси"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -298,11 +300,11 @@ msgid_plural "_Kill Processes"
 msgstr[0] "_Вбити процес"
 msgstr[1] "_Вбити процеси"
 msgstr[2] "_Вбити процесів"
-msgstr[3] "_Вбити процесів"
+msgstr[3] "_Вбити процеси"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
-msgstr "Завершити процес негайно"
+msgstr "Примусово завершити процес негайно"
 
 #: src/interface.cpp:72
 msgid "_Change Priority"
@@ -310,7 +312,7 @@ msgstr "_Змінити пріоритет"
 
 #: src/interface.cpp:73
 msgid "Change the order of priority of process"
-msgstr "Змінити пріоритет процесу"
+msgstr "Змінити порядок пріоритетів процесу"
 
 #: src/interface.cpp:74
 msgid "_Preferences"
@@ -447,7 +449,7 @@ msgstr "Інше"
 
 #: src/interface.cpp:126
 msgid "Set process priority manually"
-msgstr "Встановити пріритет процесу вручну"
+msgstr "Встановити пріоритет процесу вручну"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
@@ -561,7 +563,7 @@ msgstr "'%s' не є коректним регулярним виразом Perl
 
 #: src/lsof.cpp:270
 msgid "Process"
-msgstr "Процеси"
+msgstr "Процес"
 
 #: src/lsof.cpp:282
 msgid "PID"
@@ -615,7 +617,7 @@ msgstr "Прапори"
 #. xgettext: virtual memory offset
 #: src/memmaps.cpp:314
 msgid "VM Offset"
-msgstr "Зсув ВП"
+msgstr "Зміщення ВП"
 
 #. xgettext: memory that has not been modified since
 #. it has been allocated
@@ -627,7 +629,7 @@ msgstr "Приватна чиста"
 #. has been allocated
 #: src/memmaps.cpp:320
 msgid "Private dirty"
-msgstr "Приватна змінена"
+msgstr "Приватна брудна"
 
 #. xgettext: shared memory that has not been modified
 #. since it has been allocated
@@ -639,7 +641,7 @@ msgstr "Спільна чиста"
 #. since it has been allocated
 #: src/memmaps.cpp:326
 msgid "Shared dirty"
-msgstr "Спільна змінена"
+msgstr "Спільна брудна"
 
 #: src/memmaps.cpp:328
 msgid "Inode"
@@ -664,11 +666,11 @@ msgstr "канал"
 
 #: src/openfiles.cpp:42
 msgid "IPv6 network connection"
-msgstr "мережне з'єднання IPv6"
+msgstr "IPv6 мережеве з’єднання"
 
 #: src/openfiles.cpp:44
 msgid "IPv4 network connection"
-msgstr "мережне з'єднання IPv4"
+msgstr "IPv4 мережеве з’єднання"
 
 #: src/openfiles.cpp:46
 msgid "local socket"
@@ -843,7 +845,7 @@ msgstr "Показувати трафік мережі у бітах"
 
 #: src/org.mate.system-monitor.gschema.xml.in:212
 msgid "Process view sort column"
-msgstr "Стовпчик ґатункування переліку процесів"
+msgstr "Стовпчик сортировки переліку процесів"
 
 #: src/org.mate.system-monitor.gschema.xml.in:216
 msgid "Process view columns order"
@@ -851,7 +853,7 @@ msgstr "Порядок стовпчиків перегляду процесів"
 
 #: src/org.mate.system-monitor.gschema.xml.in:220
 msgid "Process view sort order"
-msgstr "Порядок ґатункування переліку процесів"
+msgstr "Порядок сортування переліку процесів"
 
 #: src/org.mate.system-monitor.gschema.xml.in:224
 msgid "Width of process 'Name' column"
@@ -917,13 +919,15 @@ msgstr "Ширина стовпчика пам’яти X-сервера для 
 msgid "Show process 'X Server Memory' column on startup"
 msgstr "Показувати стовпчик пам’яти X-сервера для процесу при запуску"
 
+#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
 msgstr "Ширина стовпчика \"% ЦП\" процесу"
 
+#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
-msgstr "Показувати стовпчик \"% ЦП\" процесу на старті"
+msgstr "Показувати стовпчик \"% ЦП\" процесу при запуску"
 
 #: src/org.mate.system-monitor.gschema.xml.in:298
 msgid "Width of process 'CPU Time' column"
@@ -1076,7 +1080,7 @@ msgstr "Стовпчик ґатункування перегляду диска"
 
 #: src/org.mate.system-monitor.gschema.xml.in:448
 msgid "Disk view sort order"
-msgstr "Порядок ґатункування вигляду диска"
+msgstr "Порядок сортування вигляду диска"
 
 #: src/org.mate.system-monitor.gschema.xml.in:452
 msgid "Disk view columns order"
@@ -1148,19 +1152,19 @@ msgstr "Показувати стовпчик «Використано» для 
 
 #: src/org.mate.system-monitor.gschema.xml.in:522
 msgid "Memory map sort column"
-msgstr "Стовпчик ґатункування мапи пам’яти"
+msgstr "Стовпчик сортування мапи пам’яті"
 
 #: src/org.mate.system-monitor.gschema.xml.in:526
 msgid "Memory map sort order"
-msgstr "Порядок ґатункування мапи пам’яти"
+msgstr "Порядок сортування мапи пам’яті"
 
 #: src/org.mate.system-monitor.gschema.xml.in:532
 msgid "Open files sort column"
-msgstr "Стовпчик ґатункування відкритих файлів"
+msgstr "Стовпчик сортування відкритих файлів"
 
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
-msgstr "Порядок ґатункування відкритих файлів"
+msgstr "Порядок сортування відкритих файлів"
 
 #: src/preferences.ui:18
 msgid "System Monitor Preferences"
@@ -1244,13 +1248,13 @@ msgstr "Ви впевнені, що волієте завершити обран
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr "Ви впевнені, що волієте вбити %d обрані процеси?"
+msgstr "Ви впевнені, що бажаєте вбити %d обрані процеси?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr "Ви впевнені, що волієте закінчити %d обрані процеси?"
+msgstr "Ви впевнені, що бажаєте закінчити %d обрані процеси?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1438,7 +1442,7 @@ msgstr "Ціхи процесу"
 #: src/procproperties.cpp:290
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr "Ціхи процесу \"%s\" (PID %u):"
+msgstr "Властивості процесу \"%s\" (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit

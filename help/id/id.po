@@ -4,15 +4,15 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2019
 # Chotibul Studio <chotibulstudio@gmail.com>, 2020
-# Andika Triwidada <andika@gmail.com>, 2022
+# Andika Triwidada <andika@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>, 2022\n"
-"Language-Team: Indonesian (https://www.transifex.com/mate/teams/13566/id/)\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/mate/teams/13566/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2047,7 +2047,7 @@ msgstr "<guilabel>Satuan</guilabel>"
 #. (itstool) path: listitem/para
 #: C/index.docbook:1430
 msgid "Select this option to display the systemd unit for a process."
-msgstr ""
+msgstr "Pilih opsi ini untuk menampilkan unit systemd bagi suatu proses."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1435
@@ -2064,7 +2064,7 @@ msgstr "Pilih opsi ini untuk menampilkan sesi di mana proses berjalan."
 #. (itstool) path: listitem/para
 #: C/index.docbook:1443
 msgid "<guilabel>Seat</guilabel>"
-msgstr ""
+msgstr "<guilabel>Seat</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1446
@@ -2072,6 +2072,8 @@ msgid ""
 "Select this option to display the \"seat\" a process is assigned to. The "
 "special default seat called \"seat0\" always exists."
 msgstr ""
+"Pilih opsi ini untuk menampilkan ke \"seat\" mana suatu proses ditugaskan. "
+"Seat baku spesial bernama \"seat0\" selalu ada."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1451

@@ -11,7 +11,7 @@
 # Wolfgang Ulbrich <mate@raveit.de>, 2021
 # ABE Tsunehiko, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
-# Green <usergreen@users.osdn.me>, 2022
+# Green <usergreen@users.osdn.me>, 2024
 # 
 msgid ""
 msgstr ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Green <usergreen@users.osdn.me>, 2022\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
-msgstr "MATE システムモニター"
+msgstr "MATE システムモニタ"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
@@ -41,7 +41,7 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
-"MATE システムモニターは、システムで実行中のプロセスをグラフィカルに表示し、操作することができます。また、CPU "
+"MATE システムモニタは、システムで実行中のプロセスをグラフィカルに表示し、操作することができます。また、CPU "
 "やメモリなど利用可能なリソースの概要も表示します。"
 
 #: mate-system-monitor.appdata.xml.in:15
@@ -50,13 +50,13 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
-"MATE システムモニターは、GNOME システムモニターのフォークであり、 MATE デスクトップ環境の一部です。MATE "
-"とシステムモニターの詳細について知りたい場合は、プロジェクトのウェブページをご覧ください。"
+"MATE システムモニタは、GNOME システムモニタのフォークであり、 MATE デスクトップ環境の一部です。MATE "
+"とシステムモニタの詳細について知りたい場合は、プロジェクトのウェブページをご覧ください。"
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.ui:7
 msgid "System Monitor"
-msgstr "システムモニター"
+msgstr "システムモニタ"
 
 #: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
 msgid "View current processes and monitor system state"
@@ -74,7 +74,7 @@ msgstr "プロセスを強制終了する"
 
 #: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
-msgstr "他ユーザーのプロセスの操作には権限が必要です"
+msgstr "他ユーザのプロセスの操作には権限が必要です"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
@@ -107,7 +107,7 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"システムモニターは自由ソフトウェアです; フリーソフトウェア財団が公開する GNU 一般公衆ライセンの第 2 "
+"システムモニタは自由ソフトウェアです; フリーソフトウェア財団が公開する GNU 一般公衆ライセンの第 2 "
 "版、あるいは（あなたの選択で）それ以降の版が定める条件の下で本プログラムを再頒布または改変することができます。"
 
 #: src/callbacks.cpp:215
@@ -117,7 +117,7 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
-"システムモニターは有用であることを期待して頒布されていますが、商品適格性または特定の目的に対する適合性については暗黙の保証を含めて、一切保証を行ないません。詳細は"
+"システムモニタは有用であることを期待して頒布されていますが、商品適格性または特定の目的に対する適合性については暗黙の保証を含めて、一切保証を行ないません。詳細は"
 " GNU 一般公衆ライセンスをご覧ください。"
 
 #: src/callbacks.cpp:219
@@ -126,13 +126,13 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
-"あなたは、システムモニターと一緒に GNU 一般公衆ライセンスの写しを受け取っているはずです。もしそうでない場合は、Free Software "
+"あなたは、システムモニタと一緒に GNU 一般公衆ライセンスの写しを受け取っているはずです。もしそうでない場合は、Free Software "
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  "
 "USA あてご連絡ください。"
 
 #: src/callbacks.cpp:231
 msgid "About System Monitor"
-msgstr "システムモニターについて"
+msgstr "システムモニタについて"
 
 #: src/callbacks.cpp:233
 msgid ""
@@ -394,11 +394,11 @@ msgstr "すべてのプロセスを表示します"
 
 #: src/interface.cpp:109
 msgid "M_y Processes"
-msgstr "ユーザーのプロセス(_Y)"
+msgstr "ユーザのプロセス(_Y)"
 
 #: src/interface.cpp:110
 msgid "Show only user-owned processes"
-msgstr "ユーザーが所有しているプロセスだけを表示します。"
+msgstr "ユーザが所有しているプロセスだけを表示します。"
 
 #: src/interface.cpp:115 src/util.cpp:167
 msgid "Very High"
@@ -718,7 +718,7 @@ msgid ""
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
 msgstr ""
-"TRUE にすると、システムモニターはタスクの CPU 使用率を CPU の個数で割る'Solaris モード' で表示します。FALSE の場合は "
+"TRUE にすると、システムモニタはタスクの CPU 使用率を CPU の個数で割る 'Solaris モード' で表示します。FALSE の場合は "
 "'Irix モード' で表示します。"
 
 #: src/org.mate.system-monitor.gschema.xml.in:23
@@ -757,7 +757,7 @@ msgstr "デバイス一覧の更新間隔 (ミリ秒)"
 msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
-msgstr "デフォルトでどのレベルのプロセスを表示するか (0: 全て、1: ユーザープロセス、2: 動作中のプロセス)"
+msgstr "既定でどのレベルのプロセスを表示するか (0: 全て、1: ユーザプロセス、2: 動作中のプロセス)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:52
 msgid "Saves the currently viewed tab"
@@ -801,27 +801,27 @@ msgstr "0: システム情報、1: プロセスの一覧、2: リソース、3: 
 #: src/org.mate.system-monitor.gschema.xml.in:177
 #: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
-msgstr "CPU グラフの色 (デフォルト)"
+msgstr "CPU グラフの色 (既定)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
-msgstr "CPU グラフの色 (デフォルト)"
+msgstr "CPU グラフの色 (既定)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:185
 msgid "Default graph memory color"
-msgstr "メモリーグラフの色 (デフォルト)"
+msgstr "メモリーグラフの色 (既定)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:189
 msgid "Default graph swap color"
-msgstr "スワップグラフの色 (デフォルト)"
+msgstr "スワップグラフの色 (既定)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:193
 msgid "Default graph incoming network traffic color"
-msgstr "ネットワーク受信グラフの色 (デフォルト)"
+msgstr "ネットワーク受信グラフの色 (既定)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:197
 msgid "Default graph outgoing network traffic color"
-msgstr "ネットワーク送信グラフの色 (デフォルト)"
+msgstr "ネットワーク送信グラフの色 (既定)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:202
 msgid "Show network traffic in bits"
@@ -849,11 +849,11 @@ msgstr "起動時に 'プロセス名' の項目を表示する"
 
 #: src/org.mate.system-monitor.gschema.xml.in:232
 msgid "Width of process 'User' column"
-msgstr "'ユーザー名' の項目の幅"
+msgstr "'ユーザ名' の項目の幅"
 
 #: src/org.mate.system-monitor.gschema.xml.in:236
 msgid "Show process 'User' column on startup"
-msgstr "起動時に 'ユーザー名' の項目を表示する"
+msgstr "起動時に 'ユーザ名' の項目を表示する"
 
 #: src/org.mate.system-monitor.gschema.xml.in:240
 msgid "Width of process 'Status' column"
@@ -897,11 +897,11 @@ msgstr "起動時に '共有メモリー' の項目を表示する"
 
 #: src/org.mate.system-monitor.gschema.xml.in:280
 msgid "Width of process 'X Server Memory' column"
-msgstr "'X サーバーメモリー' の項目の幅"
+msgstr "'X サーバメモリ' の項目の幅"
 
 #: src/org.mate.system-monitor.gschema.xml.in:284
 msgid "Show process 'X Server Memory' column on startup"
-msgstr "起動時に 'X サーバーメモリー' の項目を表示するか"
+msgstr "起動時に 'X サーバメモリ' の項目を表示するか"
 
 #. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:289
@@ -1151,7 +1151,7 @@ msgstr "開いているファイルのソート順"
 
 #: src/preferences.ui:18
 msgid "System Monitor Preferences"
-msgstr "システムモニターの設定"
+msgstr "システムモニタの設定"
 
 #: src/preferences.ui:106 src/preferences.ui:465
 msgid "Behavior"
@@ -1298,7 +1298,7 @@ msgstr "プロセス名"
 
 #: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
-msgstr "ユーザー名"
+msgstr "ユーザ名"
 
 #: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
@@ -1322,7 +1322,7 @@ msgstr "共有メモリー"
 
 #: src/proctable.cpp:260 src/procproperties.cpp:149
 msgid "X Server Memory"
-msgstr "X サーバーメモリー"
+msgstr "X サーバメモリ"
 
 #: src/proctable.cpp:261
 #, no-c-format
@@ -1412,7 +1412,7 @@ msgstr "最近 1, 5, 15分間の平均負荷: %0.2f, %0.2f, %0.2f"
 #: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
 #: src/util.cpp:462 src/util.cpp:500
 msgid "N/A"
-msgstr "無し"
+msgstr "N/A"
 
 #: src/procproperties.cpp:270
 msgid "Process Properties"

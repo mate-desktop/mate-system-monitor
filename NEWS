@@ -1,6 +1,15 @@
+### mate-system-monitor 1.28.0
+
+  * Translations update
+  * build: do enable systemd by default (but don't force it)
+  * fix a warning in japanese translations
+  * fix a warning in turkish translation
+  * Fix translations in help not built
+  * Fix meson configuration failure on URL keyword
+
 ### mate-system-monitor 1.27.0
 
-  * tx: sync with transifex
+  * Translations update
   * tx: update resource
   * tx: migrate config file
   * gsm_color_button: Fix -Wfloat-conversion warning

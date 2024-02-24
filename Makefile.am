@@ -29,6 +29,18 @@ EXTRA_DIST = \
 	omf.make \
 	xmldocs.make
 
+# Distribute the Meson build system files as well
+EXTRA_DIST += \
+	meson.build		\
+	meson_options.txt	\
+	meson_post_install.py	\
+	help/meson.build	\
+	help/LINGUAS		\
+	pixmaps/meson.build	\
+	po/meson.build		\
+	src/meson.build		\
+	tools/meson.build
+
 polkit_policydir = $(datadir)/polkit-1/actions
 polkit_policy_in_files = org.mate.mate-system-monitor.policy.in
 polkit_policy_DATA = $(polkit_policy_in_files:.policy.in=.policy)

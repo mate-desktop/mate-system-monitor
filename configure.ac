@@ -78,6 +78,21 @@ fi
 
 AM_CONDITIONAL(HAVE_SYSTEMD, [test "$have_systemd" = "yes"])
 
+AC_ARG_ENABLE(elogind, AS_HELP_STRING([--enable-elogind], [Use libelogind instead of libsystemd-login]),, enable_elogind=no)
+
+use_elogind=no
+if test "x$enable_elogind" = "xyes"; then
+    PKG_CHECK_MODULES(LIBELOGIND,[libelogind], [use_elogind=yes], [use_elogind=no])
+
+    if test "x$use_elogind" = "xno"; then
+	AC_MSG_ERROR([*** elogind support requested but libraries not found])
+    else
+        AC_DEFINE([WITH_ELOGIND], 1, [elogind support])
+        AC_DEFINE([WITH_SYSTEMD], 1, [Define to 1 to reduce ifdefs since elogind is a drop-in replacement for systemd])
+    fi
+fi
+AM_CONDITIONAL(WITH_ELOGIND, [test "x$use_elogind" = "xyes"])
+
 # Compiler warnings
 MATE_COMPILE_WARNINGS
 MATE_CXX_WARNINGS
@@ -143,6 +158,7 @@ Configure summary:
         CXXFLAGS:               ${CXXFLAGS}
         WARN_CXXFLAGS:          ${WARN_CXXFLAGS}
         Maintainer mode:        ${USE_MAINTAINER_MODE}
+        Elogind support:        ${use_elogind}
         Systemd support:        ${have_systemd}
         wnck support:           ${enable_wnck}
 "

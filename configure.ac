@@ -3,7 +3,7 @@ dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ([2.63])
 
 AC_INIT([mate-system-monitor],
-	[1.28.0],
+	[1.28.1],
 	[https://github.com/mate-desktop/mate-system-monitor/issues],
 	[mate-system-monitor],
 	[https://mate-desktop.org])

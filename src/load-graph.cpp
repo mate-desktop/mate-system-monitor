@@ -113,7 +113,7 @@ static void draw_background(LoadGraph *graph) {
     cairo_translate (cr, FRAME_WIDTH, FRAME_WIDTH);
 
     /* Draw background rectangle */
-    cairo_set_source_rgb (cr, 1.0, 1.0, 1.0);
+    gdk_cairo_set_source_rgba (cr, &graph->background_color);
     cairo_rectangle (cr, graph->rmargin + graph->indent, 0,
                      graph->draw_width - graph->rmargin - graph->indent, graph->real_draw_height);
     cairo_fill(cr);
@@ -150,10 +150,7 @@ static void draw_background(LoadGraph *graph) {
             pango_cairo_show_layout (cr, layout);
         }
 
-        if (i==0 || i==num_bars)
-          cairo_set_source_rgba (cr, 0.70, 0.71, 0.70, 1.0);
-        else
-          cairo_set_source_rgba (cr, 0.89, 0.89, 0.89, 1.0);
+        gdk_cairo_set_source_rgba (cr, &graph->grid_color);
         cairo_move_to (cr, graph->rmargin + graph->indent - 3, i * graph->graph_dely + 0.5);
         cairo_line_to (cr, graph->draw_width - 0.5, i * graph->graph_dely + 0.5);
         cairo_stroke (cr);
@@ -163,10 +160,7 @@ static void draw_background(LoadGraph *graph) {
 
     for (unsigned int i = 0; i < 7; i++) {
         double x = (i) * (graph->draw_width - graph->rmargin - graph->indent) / 6;
-        if (i==0 || i==6)
-          cairo_set_source_rgba (cr, 0.70, 0.71, 0.70, 1.0);
-        else
-          cairo_set_source_rgba (cr, 0.89, 0.89, 0.89, 1.0);
+        gdk_cairo_set_source_rgba (cr, &graph->grid_color);
         cairo_move_to (cr, (ceil(x) + 0.5) + graph->rmargin + graph->indent, 0.5);
         cairo_line_to (cr, (ceil(x) + 0.5) + graph->rmargin + graph->indent, graph->real_draw_height + 4.5);
         cairo_stroke(cr);

@@ -55,6 +55,8 @@ struct LoadGraph {
     guint graph_buffer_offset;
 
     std::vector<GdkRGBA> colors;
+    GdkRGBA background_color;
+    GdkRGBA grid_color;
 
     std::vector<float> data_block;
     gfloat* data[NUM_POINTS];

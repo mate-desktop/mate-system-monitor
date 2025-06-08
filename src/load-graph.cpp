@@ -74,7 +74,7 @@ static void draw_background(LoadGraph *graph) {
     PangoFontDescription* font_desc;
     PangoRectangle extents;
     cairo_surface_t *surface;
-    GdkRGBA fg, bg;
+    GdkRGBA fg, bg = { 0.0, 0.0, 0.0, 0.0 };
 
     num_bars = graph->num_bars();
     graph->graph_dely = (graph->draw_height - 15) / num_bars; /* round to int to avoid AA blur */
@@ -89,7 +89,6 @@ static void draw_background(LoadGraph *graph) {
     GtkStyleContext *context = gtk_widget_get_style_context (ProcData::get_instance()->notebook);
     gtk_style_context_save (context);
     gtk_style_context_set_state (context, GTK_STATE_FLAG_NORMAL);
-    gtk_style_context_get_background_color (context, gtk_style_context_get_state (context), &bg);
     gtk_style_context_get_color (context, gtk_style_context_get_state (context), &fg);
     gtk_style_context_restore (context);
 

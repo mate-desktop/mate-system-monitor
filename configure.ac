@@ -9,7 +9,7 @@ AC_INIT([mate-system-monitor],
 	[https://mate-desktop.org])
 AC_CONFIG_SRCDIR(configure.ac)
 AC_CONFIG_HEADERS(config.h)
-AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_MACRO_DIRS([m4])
 
 AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-xz foreign check-news])
 AM_SILENT_RULES([yes])

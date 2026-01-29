@@ -137,7 +137,7 @@ i18n.merge_file(
   ),
   output: 'org.mate.mate-system-monitor.policy',
   po_dir: 'po',
-  data_dirs: 'po',
+  type: 'xml',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'polkit-1', 'actions'),
 )

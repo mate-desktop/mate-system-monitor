@@ -201,6 +201,14 @@
       </default>
       <summary>Show network traffic in bits</summary>
     </key>
+    <key name="load-graph-background-color" type="s">
+      <default>'#FFFFFF'</default>
+      <summary>Default graph background color</summary>
+    </key>
+    <key name="load-graph-grid-color" type="s">
+      <default>'#E3E3E3'</default>
+      <summary>Default graph grid color</summary>
+    </key>
     <child name="proctree" schema="org.mate.system-monitor.proctree"/>
     <child name="disktreenew" schema="org.mate.system-monitor.disktreenew"/>
     <child name="memmapstree" schema="org.mate.system-monitor.memmapstree"/>

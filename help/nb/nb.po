@@ -1,10 +1,11 @@
+# 
 # Translators:
 # Imre Kristoffer Eilertsen <imreeil42@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Allan Nordhøy <epost@anotheragency.no>, 2019
 # Kenneth Jenssen <kennethjenssen@yahoo.com>, 2019
 # Kim Malmo <berencamlost@msn.com>, 2019
-# heskjestad, 2019
+# Kaci Heskjestad, 2019
 # Jan Sherdahl, 2021
 # 
 msgid ""

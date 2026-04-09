@@ -9,23 +9,22 @@
 # בר בוכובזה <bokovzabox@gmail.com>, 2018
 # haxoc c11 <haxoc112@disroot.org>, 2018
 # shy tzedaka <shaytzedaka123@gmail.com>, 2020
-# 63f334ffc0709ba0fc2361b80bf3c0f0_00ffd1e <ab96c93ca0ac55ba7fa06385427e60dd_878890>, 2022
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
-# Avi Markovitz <avi.markovitz@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-system-monitor 1.27.0\n"
+"Project-Id-Version: mate-system-monitor 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
-"POT-Creation-Date: 2023-09-04 20:48+0200\n"
+"POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>, 2024\n"
-"Language-Team: Hebrew (https://app.transifex.com/mate/teams/13566/he/)\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -267,6 +266,7 @@ msgid_plural "_End Processes"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -278,6 +278,7 @@ msgid_plural "_Kill Processes"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -512,6 +513,7 @@ msgid_plural "%u seconds"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -742,7 +744,7 @@ msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:52
 msgid "Saves the currently viewed tab"
-msgstr ""
+msgstr "Saves the currently viewed tab"
 
 #: src/org.mate.system-monitor.gschema.xml.in:53
 msgid ""
@@ -886,12 +888,10 @@ msgstr ""
 msgid "Show process 'X Server Memory' column on startup"
 msgstr ""
 
-#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
 msgstr ""
 
-#. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
 msgstr ""
@@ -1126,11 +1126,11 @@ msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:532
 msgid "Open files sort column"
-msgstr "פתיחת עמודת מיון קבצים"
+msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:536
 msgid "Open files sort order"
-msgstr "פתיחת עמודת מיון קבצים"
+msgstr ""
 
 #: src/preferences.ui:18
 msgid "System Monitor Preferences"

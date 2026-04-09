@@ -1,16 +1,17 @@
+# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Cédric Valmary <cvalmary@yahoo.fr>, 2018
-# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2018
+# Wolfgang Ulbrich <mate@raveit.de>, 2018
 # 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2019
-# Quentin PAGÈS, 2024
+# Quentin PAGÈS, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Quentin PAGÈS, 2024\n"
+"Last-Translator: Quentin PAGÈS, 2023\n"
 "Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -538,12 +539,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:457
 msgid "Process Name"
-msgstr "Nom del procèssus"
+msgstr "Nom del processus"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:460
 msgid "Status"
-msgstr "Estat"
+msgstr "Estatut"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:463
@@ -1444,7 +1445,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:1198
 msgid "Processes"
-msgstr "Procèssus"
+msgstr "Processus"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:1201

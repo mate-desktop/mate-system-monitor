@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Alan Monfort <alan.monfort@free.fr>, 2018

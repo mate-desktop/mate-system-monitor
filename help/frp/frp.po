@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Alexandre Raymond, 2018
 # 

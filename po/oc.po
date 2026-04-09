@@ -7,7 +7,7 @@
 # Cédric Valmary <cvalmary@yahoo.fr>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # 48c2de07903ce5a77a8e90265f95c4c2_8909374 <837c8d0ab97b27e737893c19f79bd4de_348476>, 2022
-# Quentin PAGÈS, 2023
+# Quentin PAGÈS, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Quentin PAGÈS, 2023\n"
+"Last-Translator: Quentin PAGÈS, 2025\n"
 "Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr "Monitor sistèma MATE"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "Un monitor de processus e ressorsas pel burèu MATE"
+msgstr "Un monitor de procèssus e ressorsas pel burèu MATE"
 
 #: mate-system-monitor.appdata.xml.in:10
 msgid ""
@@ -38,7 +38,7 @@ msgid ""
 "resources, such as CPU and memory."
 msgstr ""
 "Lo Monitor sistèma MATE permet d'afichar e de manipular graficament de "
-"processús en cors del sistèma. Provesís tanben un apercebut de las ressorsas"
+"procèssus en cors del sistèma. Provesís tanben un apercebut de las ressorsas"
 " disponiblas, coma lo CPU e la memòria."
 
 #: mate-system-monitor.appdata.xml.in:15
@@ -58,32 +58,32 @@ msgstr "Monitor sistèma"
 
 #: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
 msgid "View current processes and monitor system state"
-msgstr "Afichar los processus en cors e survelhar l'estat del sistèma"
+msgstr "Afichar los procèssus en cors e susvelhar l'estat del sistèma"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
 msgstr ""
-"MATE;system;monitor;process;list;view;current;resources;sistèma;ressorsas;potencia;ordi;"
+"MATE;system;sistèma:monitor;process;procèssus;list;view;current;resources;lista;vista;ressorsas;potencia;ordi;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
-msgstr "Tuar lo processús"
+msgstr "Tuar lo procèssus"
 
 #: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
 msgstr ""
-"De permissions necessàrias per modificar los processús dels autres "
+"De permissions necessàrias per modificar los procèssus dels autres "
 "utilizaires"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
-msgstr "Modificar la valor de prioritat del processus"
+msgstr "Modificar la valor de prioritat del procèssus"
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
-msgstr "De permissions necessàrias per modificar la prioritat dels processús"
+msgstr "De permissions necessàrias per modificar la prioritat dels procèssus"
 
 #: src/argv.cpp:21
 msgid "Show the System tab"
@@ -91,7 +91,7 @@ msgstr "Afichar l'onglet Sistèma"
 
 #: src/argv.cpp:26
 msgid "Show the Processes tab"
-msgstr "Afichar l'onglet Processus"
+msgstr "Afichar l'onglet Procèssus"
 
 #: src/argv.cpp:31
 msgid "Show the Resources tab"
@@ -265,39 +265,39 @@ msgstr "Sortir del programa"
 
 #: src/interface.cpp:63
 msgid "_Stop Process"
-msgstr "_Acabar lo processus"
+msgstr "_Acabar lo procèssus"
 
 #: src/interface.cpp:64
 msgid "Stop process"
-msgstr "Acabar lo processus"
+msgstr "Acabar lo procèssus"
 
 #: src/interface.cpp:65
 msgid "_Continue Process"
-msgstr "_Continuer lo processus"
+msgstr "_Contunhar lo procèssus"
 
 #: src/interface.cpp:66
 msgid "Continue process if stopped"
-msgstr "Contunha lo processus se es estat arrestat"
+msgstr "Contunhar lo procèssus se’s estat arrestat"
 
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] "_Acabar lo processus"
-msgstr[1] "_Acabar los processus"
+msgstr[0] "_Acabar lo procèssus"
+msgstr[1] "_Acabar los procèssus"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
-msgstr "Fòrça un processus a terminar"
+msgstr "Fòrça un procèssus a terminar"
 
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] "_Tuar lo processus"
-msgstr[1] "_Tuar los processus"
+msgstr[0] "_Tuar lo procèssus"
+msgstr[1] "_Tuar los procèssus"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
-msgstr "Fòrça un processus a acabar immediatament"
+msgstr "Fòrça un procèssus a acabar immediatament"
 
 #: src/interface.cpp:72
 msgid "_Change Priority"
@@ -305,7 +305,7 @@ msgstr "_Cambiar la prioritat"
 
 #: src/interface.cpp:73
 msgid "Change the order of priority of process"
-msgstr "Modifica la prioritat d'un processus"
+msgstr "Modifica la prioritat d'un procèssus"
 
 #: src/interface.cpp:74
 msgid "_Preferences"
@@ -321,7 +321,7 @@ msgstr "_Actualizar"
 
 #: src/interface.cpp:78
 msgid "Refresh the process list"
-msgstr "Actualiza la lista dels processus"
+msgstr "Actualiza la lista dels procèssus"
 
 #: src/interface.cpp:80
 msgid "_Memory Maps"
@@ -329,7 +329,7 @@ msgstr "Car_tas de la memòria"
 
 #: src/interface.cpp:81
 msgid "Open the memory maps associated with a process"
-msgstr "Aficha las mapas de la memòria associadas a un processus"
+msgstr "Aficha las mapas de la memòria associadas a un procèssus"
 
 #. Translators: this means 'Files that are open' (open is no verb here
 #: src/interface.cpp:83
@@ -338,7 +338,7 @@ msgstr "_Fichièrs dobèrts"
 
 #: src/interface.cpp:84
 msgid "View the files opened by a process"
-msgstr "Aficha los fichièrs dobèrts per un processus"
+msgstr "Aficha los fichièrs dobèrts per un procèssus"
 
 #: src/interface.cpp:85
 msgid "_Properties"
@@ -346,7 +346,7 @@ msgstr "_Proprietats"
 
 #: src/interface.cpp:86
 msgid "View additional information about a process"
-msgstr "Afichar las informacions suplementàrias a prepaus d'un processus"
+msgstr "Afichar las informacions suplementàrias a prepaus d'un procèssus"
 
 #: src/interface.cpp:89
 msgid "_Contents"
@@ -370,31 +370,31 @@ msgstr "_Dependéncias"
 
 #: src/interface.cpp:98
 msgid "Show parent/child relationship between processes"
-msgstr "Aficha las relacions paire/filh entre los processus"
+msgstr "Aficha las relacions paire/filh entre los procèssus"
 
 #: src/interface.cpp:105
 msgid "_Active Processes"
-msgstr "Processus _actius"
+msgstr "Procèssus _actius"
 
 #: src/interface.cpp:106
 msgid "Show active processes"
-msgstr "Aficha los processus actius"
+msgstr "Aficha los procèssus actius"
 
 #: src/interface.cpp:107
 msgid "A_ll Processes"
-msgstr "_Totes los processus"
+msgstr "_Totes los procèssus"
 
 #: src/interface.cpp:108
 msgid "Show all processes"
-msgstr "Aficha totes los processus"
+msgstr "Aficha totes los procèssus"
 
 #: src/interface.cpp:109
 msgid "M_y Processes"
-msgstr "_Mos processus"
+msgstr "_Mos procèssus"
 
 #: src/interface.cpp:110
 msgid "Show only user-owned processes"
-msgstr "N'afichar que los processus qu'apartenon a l'utilizaire"
+msgstr "N'afichar que los procèssus qu'apartenon a l'utilizaire"
 
 #: src/interface.cpp:115 src/util.cpp:167
 msgid "Very High"
@@ -402,7 +402,7 @@ msgstr "Fòrça nauta"
 
 #: src/interface.cpp:116
 msgid "Set process priority to very high"
-msgstr "Fixar la prioritat del processus a fòrça nauta"
+msgstr "Fixar la prioritat del procèssus a fòrça nauta"
 
 #: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
@@ -410,7 +410,7 @@ msgstr "Elevada"
 
 #: src/interface.cpp:118
 msgid "Set process priority to high"
-msgstr "Fixar la prioritat del processus a elevada"
+msgstr "Fixar la prioritat del procèssus a elevada"
 
 #: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
@@ -418,7 +418,7 @@ msgstr "Normala"
 
 #: src/interface.cpp:120
 msgid "Set process priority to normal"
-msgstr "Fixar la prioritat del processus a normala"
+msgstr "Fixar la prioritat del procèssus a normala"
 
 #: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
@@ -426,7 +426,7 @@ msgstr "Bassa"
 
 #: src/interface.cpp:122
 msgid "Set process priority to low"
-msgstr "Fixar la prioritat del processus a bassa"
+msgstr "Fixar la prioritat del procèssus a bassa"
 
 #: src/interface.cpp:123 src/util.cpp:175
 msgid "Very Low"
@@ -434,7 +434,7 @@ msgstr "Fòrça bassa"
 
 #: src/interface.cpp:124
 msgid "Set process priority to very low"
-msgstr "Fixar la prioritat del processus a fòrça bassa"
+msgstr "Fixar la prioritat del procèssus a fòrça bassa"
 
 #: src/interface.cpp:125
 msgid "Custom"
@@ -442,7 +442,7 @@ msgstr "Personalizada"
 
 #: src/interface.cpp:126
 msgid "Set process priority manually"
-msgstr "Fixar la prioritat del processus manualament"
+msgstr "Fixar la prioritat del procèssus manualament"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
@@ -483,11 +483,11 @@ msgstr "Sistèma"
 
 #: src/interface.ui:91
 msgid "End _Process"
-msgstr "_Acabar lo processus"
+msgstr "_Acabar lo procèssus"
 
 #: src/interface.ui:114 src/preferences.ui:310
 msgid "Processes"
-msgstr "Processus"
+msgstr "Procèssus"
 
 #: src/interface.ui:140
 msgid "CPU History"
@@ -554,7 +554,7 @@ msgstr "« %s » es pas una expression regulara valida en Perl."
 
 #: src/lsof.cpp:270
 msgid "Process"
-msgstr "Processus"
+msgstr "Procèssus"
 
 #: src/lsof.cpp:282
 msgid "PID"
@@ -645,7 +645,7 @@ msgstr "Mapas de la memòria"
 #: src/memmaps.cpp:444
 #, c-format
 msgid "_Memory maps for process \"%s\" (PID %u):"
-msgstr "Mapas de la _memòria del processus « %s » (PID %u) :"
+msgstr "Mapas de la _memòria del procèssus « %s » (PID %u) :"
 
 #: src/openfiles.cpp:38
 msgid "file"
@@ -689,12 +689,12 @@ msgstr "Dobrir los fichièrs"
 #: src/openfiles.cpp:349
 #, c-format
 msgid "_Files opened by process \"%s\" (PID %u):"
-msgstr "_Fichièrs dobèrts pel processus « %s » (PID %u) :"
+msgstr "_Fichièrs dobèrts pel procèssus « %s » (PID %u) :"
 
 #: src/org.mate.system-monitor.gschema.xml.in:6
 msgid "Main window size and position in the form (width, height, xpos, ypos)"
 msgstr ""
-"Talha e posicion de la fenèstra principala jos la forma (largor, nautor, "
+"Talha e posicion de la fenèstra principala jos la fòrma (largor, nautor, "
 "posx, posy)"
 
 #: src/org.mate.system-monitor.gschema.xml.in:10
@@ -707,7 +707,7 @@ msgstr ""
 
 #: src/org.mate.system-monitor.gschema.xml.in:14
 msgid "Show process dependencies in tree form"
-msgstr "Afichar las dependéncias del processus jos forma arborescenta"
+msgstr "Afichar las dependéncias del procèssus jos fòrma arborescenta"
 
 #: src/org.mate.system-monitor.gschema.xml.in:18
 msgid "Solaris mode for CPU percentage"
@@ -729,12 +729,12 @@ msgstr "Activa/Desactiva lo refrescament lissat"
 
 #: src/org.mate.system-monitor.gschema.xml.in:27
 msgid "Show warning dialog when killing processes"
-msgstr "Afichar un avertiment abans de tuar un processus"
+msgstr "Afichar un avertiment abans de tuar un procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:31
 msgid "Time in milliseconds between updates of the process view"
 msgstr ""
-"Durada en millisegondas entre los refrescaments de la lista dels processus"
+"Durada en millisegondas entre los refrescaments de la lista dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:35
 msgid "Time in milliseconds between updates of the graphs"
@@ -766,8 +766,8 @@ msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
 msgstr ""
-"Determina los processus d'afichar per defaut. 0 per tous, 1 pels processus "
-"de l'utilizaire, e 2 pels processus actius"
+"Determina los procèssus d'afichar per defaut. 0 per totes, 1 pels procèssus "
+"de l'utilizaire, e 2 pels procèssus actius"
 
 #: src/org.mate.system-monitor.gschema.xml.in:52
 msgid "Saves the currently viewed tab"
@@ -778,7 +778,7 @@ msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr ""
-"0 per las informacions sistèma, 1 per la lista de processus, 2 per les "
+"0 per las informacions sistèma, 1 per la lista de procèssus, 2 per les "
 "ressorsas e 3 per la lista dels disques"
 
 #: src/org.mate.system-monitor.gschema.xml.in:57
@@ -841,236 +841,236 @@ msgstr "Afichar lo trafic ret en bits"
 
 #: src/org.mate.system-monitor.gschema.xml.in:212
 msgid "Process view sort column"
-msgstr "Colomna de triada del processus"
+msgstr "Colomna de triada del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:216
 msgid "Process view columns order"
-msgstr "Òrdre des colomnas de la vista del processus"
+msgstr "Òrdre des colomnas de la vista del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:220
 msgid "Process view sort order"
-msgstr "Òrdre de triada de vista del processus"
+msgstr "Òrdre de triada de vista del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:224
 msgid "Width of process 'Name' column"
-msgstr "Largor de la colomna del nom dels processus"
+msgstr "Largor de la colomna del nom dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:228
 msgid "Show process 'Name' column on startup"
-msgstr "Afichar la colomna del nom dels processus a l'aviada"
+msgstr "Afichar la colomna del nom dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:232
 msgid "Width of process 'User' column"
-msgstr "Largor de la colomna « Utilizaire » dels processus"
+msgstr "Largor de la colomna « Utilizaire » dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:236
 msgid "Show process 'User' column on startup"
-msgstr "Afichar la colomna « Utilizaire » dels processus a l'aviada"
+msgstr "Afichar la colomna « Utilizaire » dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:240
 msgid "Width of process 'Status' column"
-msgstr "Largor de la colomna « Estat » dels processus"
+msgstr "Largor de la colomna « Estat » dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:244
 msgid "Show process 'Status' column on startup"
-msgstr "Afichar la colomna « Estat » dels processus a l'aviada"
+msgstr "Afichar la colomna « Estat » dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:248
 msgid "Width of process 'Virtual Memory' column"
-msgstr "Largor de la colomna de la memòria virtuala dels processus"
+msgstr "Largor de la colomna de la memòria virtuala dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:252
 msgid "Show process 'Virtual Memory' column on startup"
-msgstr "Afichar la colomna de la memòria virtuala dels processus a l'aviada"
+msgstr "Afichar la colomna de la memòria virtuala dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:256
 msgid "Width of process 'Resident Memory' column"
-msgstr "Largor de la colomna de la memòria residenta dels processus"
+msgstr "Largor de la colomna de la memòria residenta dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:260
 msgid "Show process 'Resident Memory' column on startup"
-msgstr "Afichar la colomna de la memòria residenta dels processus a l'aviada"
+msgstr "Afichar la colomna de la memòria residenta dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:264
 msgid "Width of process 'Writable Memory' column"
-msgstr "Largor de la colomna de la memòria inscriptibla dels processus"
+msgstr "Largor de la colomna de la memòria inscriptibla dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:268
 msgid "Show process 'Writable Memory' column on startup"
 msgstr ""
-"Afichar la colomna de la memòria inscriptibla dels processus a l'aviada"
+"Afichar la colomna de la memòria inscriptibla dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:272
 msgid "Width of process 'Shared Memory' column"
-msgstr "Largor de la colomna de memòria partejada dels processus"
+msgstr "Largor de la colomna de memòria partejada dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:276
 msgid "Show process 'Shared Memory' column on startup"
-msgstr "Afichar la colomna de la memòria partejada dels processus a l'aviada"
+msgstr "Afichar la colomna de la memòria partejada dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:280
 msgid "Width of process 'X Server Memory' column"
-msgstr "Largor de la colomna de la memòria del servidor X dels processus"
+msgstr "Largor de la colomna de la memòria del servidor X dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:284
 msgid "Show process 'X Server Memory' column on startup"
 msgstr ""
-"Afichar la colomna de la memòria del servidor X dels processus a l'aviada"
+"Afichar la colomna de la memòria del servidor X dels procèssus a l'aviada"
 
 #. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:289
 msgid "Width of process '% CPU' column"
-msgstr "Largor de la colomna del % CPU dels processus"
+msgstr "Largor de la colomna del % CPU dels procèssus"
 
 #. makepot: remove comment
 #: src/org.mate.system-monitor.gschema.xml.in:294
 msgid "Show process '% CPU' column on startup"
-msgstr "Afichar la colomna del % de CPU utilizat per los processus a l'aviada"
+msgstr "Afichar la colomna del % de CPU utilizat per los procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:298
 msgid "Width of process 'CPU Time' column"
-msgstr "Largor de la colomna del temps CPU dels processus"
+msgstr "Largor de la colomna del temps CPU dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:302
 msgid "Show process 'CPU Time' column on startup"
-msgstr "Afichar la colomna de temps CPU dels processus a l'aviada"
+msgstr "Afichar la colomna de temps CPU dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:306
 msgid "Width of process 'Started' column"
-msgstr "Largor de la colomna de l'ora de démarrage dels processus"
+msgstr "Largor de la colomna dels procèssus « en foncionament »"
 
 #: src/org.mate.system-monitor.gschema.xml.in:310
 msgid "Show process 'Started' column on startup"
-msgstr "Afichar la colomna de l'ora de démarrage dels processus a l'aviada"
+msgstr "Afichar la colomna dels procèssus « en foncionament » a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:314
 msgid "Width of process 'Nice' column"
-msgstr "Largor de la colomna de la prioritat dels processus"
+msgstr "Largor de la colomna de la prioritat dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:318
 msgid "Show process 'Nice' column on startup"
-msgstr "Afichar la colomna de la prioritat dels processus a l'aviada"
+msgstr "Afichar la colomna de la prioritat dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:322
 msgid "Width of process 'ID' column"
-msgstr "Largor de la colomna de l'ID dels processus"
+msgstr "Largor de la colomna « ID » dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:326
 msgid "Show process 'ID' column on startup"
-msgstr "Afichar la colomna « ID » dels processus a l'aviada"
+msgstr "Afichar la colomna « ID » dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:330
 msgid "Width of process 'Security Context' column"
-msgstr "Largor de la colomna del contexte de seguretat dels processus"
+msgstr "Largor de la colomna del contèxte de seguretat dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:334
 msgid "Show process 'Security Context' column on startup"
 msgstr ""
-"Afichar la colomna del contexte de seguretat dels processus a l'aviada"
+"Afichar la colomna del contèxte de seguretat dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:338
 msgid "Width of process 'Command Line' column"
-msgstr "Largor de la colomna « linha de comanda » dels processus"
+msgstr "Largor de la colomna « linha de comanda » dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:342
 msgid "Show process 'Command Line' column on startup"
-msgstr "Afichar la colomna « linha de comanda » dels processus a l'aviada"
+msgstr "Afichar la colomna « linha de comanda » dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:346
 msgid "Width of process 'Memory' column"
-msgstr "Largor de la colomna de la memòria dels processus"
+msgstr "Largor de la colomna de la memòria dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:350
 msgid "Show process 'Memory' column on startup"
-msgstr "Afichar la colomna de la memòria dels processus a l'aviada"
+msgstr "Afichar la colomna de la memòria dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:354
 msgid "Width of process 'Waiting Channel' column"
-msgstr "Largor de la colomna del canal d'espèra dels processus"
+msgstr "Largor de la colomna del canal d'espèra dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:358
 msgid "Show process 'Waiting Channel' column on startup"
-msgstr "Afichar la colomna del canal d'espèra dels processus a l'aviada"
+msgstr "Afichar la colomna del canal d'espèra dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:362
 msgid "Width of process 'Control Group' column"
-msgstr "Largor de la colomna del grop de contraròtle dels processus"
+msgstr "Largor de la colomna del grop de contraròtle dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:366
 msgid "Show process 'Control Group' column on startup"
-msgstr "Afichar lo grop de contraròtle dels processus a l'aviada"
+msgstr "Afichar lo grop de contraròtle dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:370
 msgid "Width of process 'Unit' column"
-msgstr "Largor de la colomna de l'unitat dels processus"
+msgstr "Largor de la colomna de l'unitat dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:374
 msgid "Show process 'Unit' column on startup"
-msgstr "Afichar la colomna de l'unitat dels processus a l'aviada"
+msgstr "Afichar la colomna de l'unitat dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:378
 msgid "Width of process 'Session' column"
-msgstr "Largor de la colomna de la session dels processus"
+msgstr "Largor de la colomna de la session dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:382
 msgid "Show process 'Session' column on startup"
-msgstr "Afichar la colomna de la session dels processus a l'aviada"
+msgstr "Afichar la colomna de la session dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:386
 msgid "Width of process 'Seat' column"
-msgstr "Largor de la colomna « sèti » dels processus"
+msgstr "Largor de la colomna « Sèti » dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:390
 msgid "Show process 'Seat' column on startup"
-msgstr "Afichar la colomna « sèti » dels processus a l'aviada"
+msgstr "Afichar la colomna « Sèti » dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:394
 msgid "Width of process 'Owner' column"
-msgstr "Largor de la colomna del proprietari dels processus"
+msgstr "Largor de la colomna del proprietari dels procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:398
 msgid "Show process 'Owner' column on startup"
-msgstr "Afichar la colomna del proprietari dels processus a l'aviada"
+msgstr "Afichar la colomna del proprietari dels procèssus a l'aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
-msgstr "Largor de la colomna « Total escritura disc » del processus"
+msgstr "Largor de la colomna « Total escritura disc » del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
-msgstr "Afichar la colomna « Total escritura disc » del processus a l’aviada"
+msgstr "Afichar la colomna « Total escritura disc » del procèssus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
-msgstr "Largor de la colomna « Total lectura disc » del processus"
+msgstr "Largor de la colomna « Total lectura disc » del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
-msgstr "Afichar la colomna « Total lectura disc » del processus a l’aviada"
+msgstr "Afichar la colomna « Total lectura disc » del procèssus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
-msgstr "Largor de la colomna « Lectura disc » del processus"
+msgstr "Largor de la colomna « Lectura disc » del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
-msgstr "Afichar la colomna « Lectura disc » del processus a l’aviada"
+msgstr "Afichar la colomna « Lectura disc » del procèssus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
-msgstr "Largor de la colomna « Escritura disc » del processus"
+msgstr "Largor de la colomna « Escritura disc » del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
-msgstr "Afichar la colomna « Escritura disc » del processus a l’aviada"
+msgstr "Afichar la colomna « Escritura disc » del procèssus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
-msgstr "Largor de la colomna « Prioritat » del processus"
+msgstr "Largor de la colomna « Prioritat » del procèssus"
 
 #: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
-msgstr "Afichar la colomna « Prioritat » del processus a l’aviada"
+msgstr "Afichar la colomna « Prioritat » del procèssus a l’aviada"
 
 #: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
@@ -1185,7 +1185,7 @@ msgstr "Activar lo refrescament _lissat"
 
 #: src/preferences.ui:180
 msgid "Alert before ending or _killing processes"
-msgstr "Afichar un avertiment abans de _acabar o de tuar dels processus"
+msgstr "Afichar un avertiment abans de _acabar o de tuar de procèssus"
 
 #: src/preferences.ui:195
 msgid "_Divide CPU usage by CPU count"
@@ -1197,7 +1197,7 @@ msgstr "Camps d'informacions"
 
 #: src/preferences.ui:258
 msgid "Process i_nformation shown in list:"
-msgstr "I_nformacions suls processus afichats dins la lista :"
+msgstr "I_nformacions suls procèssus afichats dins la lista :"
 
 #: src/preferences.ui:338
 msgid "Graphs"
@@ -1221,7 +1221,7 @@ msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
 msgstr ""
-"Impossible de cambiar la prioritat del processus del PID %d cap a %d.\n"
+"Impossible de cambiar la prioritat del procèssus del PID %d cap a %d.\n"
 "%s"
 
 #: src/procactions.cpp:157
@@ -1230,7 +1230,7 @@ msgid ""
 "Cannot kill process with PID %d with signal %d.\n"
 "%s"
 msgstr ""
-"Impossible de tuar lo processus al PID %d amb lo signal %d.\n"
+"Impossible de tuar lo procèssus al PID %d amb lo senhal %d.\n"
 "%s"
 
 #. xgettext: primary alert message for killing single process
@@ -1238,26 +1238,26 @@ msgstr ""
 #, c-format
 msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
 msgstr ""
-"Volètz vertadièrament tuar lo processus seleccionat « %s » (PID : %u) ?"
+"Volètz vertadièrament tuar lo procèssus seleccionat « %s » (PID : %u) ?"
 
 #. xgettext: primary alert message for ending single process
 #: src/procdialogs.cpp:85
 #, c-format
 msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
 msgstr ""
-"Volètz vertadièrament acabar lo processus seleccionat « %s » (PID : %u) ?"
+"Volètz vertadièrament acabar lo procèssus seleccionat « %s » (PID : %u) ?"
 
 #. xgettext: primary alert message for killing multiple processes
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr "Volètz vertadièrament tuar los %d processus seleccionats ?"
+msgstr "Volètz vertadièrament tuar los %d procèssus  seleccionats ?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr "Volètz vertadièrament acabar los %d processus seleccionats ?"
+msgstr "Volètz vertadièrament acabar los %d procèssus  seleccionats ?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1265,9 +1265,9 @@ msgid ""
 "Killing a process may destroy data, break the session or introduce a "
 "security risk. Only unresponsive processes should be killed."
 msgstr ""
-"En tuant un processus, podètz destruire vòstras donadas, damatjar vòstra "
+"En tuant un procèssus, podètz destruire vòstras donadas, damatjar vòstra "
 "session de trabalh o alara introduire una falha de seguretat. Sols los "
-"processus que respondon pas mai deurián èsser tuats."
+"procèssus que respondon pas mai deurián èsser tuats."
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:110
@@ -1275,9 +1275,9 @@ msgid ""
 "Ending a process may destroy data, break the session or introduce a security"
 " risk. Only unresponsive processes should be ended."
 msgstr ""
-"En terminant un processus, podètz destruire vòstras donadas, damatjar vòstra"
+"En terminant un procèssus, podètz destruire vòstras donadas, damatjar vòstra"
 " session de trabalh o alara introduire una falha de seguretat. Sols los "
-"processus que respondon pas mai deurián èsser acabats."
+"procèssus que respondon pas mai deurián èsser acabats."
 
 #: src/procdialogs.cpp:148 src/procdialogs.cpp:247
 #, c-format
@@ -1287,12 +1287,12 @@ msgstr "(Prioritat %s)"
 #: src/procdialogs.cpp:197
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr "Cambiar la prioritat del processus « %s » (PID : %u)"
+msgstr "Cambiar la prioritat del procèssus « %s » (PID : %u)"
 
 #: src/procdialogs.cpp:200
 #, c-format
 msgid "Change Priority of %d Selected Processes"
-msgstr "Cambiar la prioritat dels %d processus seleccionats"
+msgstr "Cambiar la prioritat dels %d procèssus  seleccionats"
 
 #: src/procdialogs.cpp:214
 msgid "Change _Priority"
@@ -1311,8 +1311,8 @@ msgid ""
 "The priority of a process is given by its nice value. A lower nice value "
 "corresponds to a higher priority."
 msgstr ""
-"La prioritat d'un processus es atribuida amb l'ajuda de sa valor « nice ». "
-"Una valor nice mai bassa correspond a una mai nauta prioritat."
+"La prioritat d'un procèssus es atribuida amb l'ajuda de sa valor « nice ». "
+"Una valor nice mai bassa correspond a una prioritat mai nauta."
 
 #: src/procdialogs.cpp:423
 msgid "Icon"
@@ -1320,7 +1320,7 @@ msgstr "Icòna"
 
 #: src/proctable.cpp:253 src/procproperties.cpp:140
 msgid "Process Name"
-msgstr "Nom del processus"
+msgstr "Nom del procèssus"
 
 #: src/proctable.cpp:254 src/procproperties.cpp:141
 msgid "User"
@@ -1328,7 +1328,7 @@ msgstr "Utilizaire"
 
 #: src/proctable.cpp:255 src/procproperties.cpp:142
 msgid "Status"
-msgstr "Estatut"
+msgstr "Estat"
 
 #: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
@@ -1443,12 +1443,12 @@ msgstr "N/D"
 
 #: src/procproperties.cpp:270
 msgid "Process Properties"
-msgstr "Proprietats del processus"
+msgstr "Proprietats del procèssus"
 
 #: src/procproperties.cpp:290
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr "Proprietats del processus « %s » (PID %u) :"
+msgstr "Proprietats del procèssus « %s » (PID %u) :"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit

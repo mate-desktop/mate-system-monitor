@@ -1,4 +1,3 @@
-# 
 # Translators:
 # jorge becerril <jrbecster@gmail.com>, 2018
 # 

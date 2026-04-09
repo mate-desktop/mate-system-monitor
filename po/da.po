@@ -7,7 +7,7 @@
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2018
 # Allan Nordhøy <epost@anotheragency.no>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
-# Joe Hansen <joedalton2@yahoo.dk>, 2025
+# Joe Hansen <joedalton2@yahoo.dk>, 2022
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2025\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2022\n"
 "Language-Team: Danish (https://app.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

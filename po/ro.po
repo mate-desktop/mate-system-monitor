@@ -8,7 +8,6 @@
 # 3d5ab56b1b83fefceeab671c39a98a6d_999ae54, 2018
 # Daniel <danny3@tutanota.com>, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
-# roundabout host, 2025
 # 
 msgid ""
 msgstr ""
@@ -16,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: roundabout host, 2025\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
 "Language-Team: Romanian (https://app.transifex.com/mate/teams/13566/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -119,7 +118,7 @@ msgstr ""
 
 #: src/callbacks.cpp:231
 msgid "About System Monitor"
-msgstr "Despre Monitor sistem"
+msgstr ""
 
 #: src/callbacks.cpp:233
 msgid ""

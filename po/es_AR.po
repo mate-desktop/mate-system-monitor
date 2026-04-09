@@ -9,6 +9,7 @@
 # Germán Herrou <german.herrou@gmail.com>, 2018
 # Adrián Benavente <benaventeadrian@gmail.com>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Last-Translator: Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024\n"
 "Language-Team: Spanish (Argentina) (https://app.transifex.com/mate/teams/13566/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -181,7 +182,7 @@ msgstr "Título"
 
 #: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
-msgstr ""
+msgstr "Título del diálogo de selección de color"
 
 #: src/gsm_color_button.c:166 src/gsm_color_button.c:585
 msgid "Pick a Color"
@@ -193,7 +194,7 @@ msgstr "Color actual"
 
 #: src/gsm_color_button.c:173
 msgid "The selected color"
-msgstr ""
+msgstr "El color seleccionado"
 
 #: src/gsm_color_button.c:180
 msgid "Type of color picker"
@@ -201,7 +202,7 @@ msgstr ""
 
 #: src/gsm_color_button.c:502
 msgid "Received invalid color data\n"
-msgstr ""
+msgstr "Dato de color recibido invalido\n"
 
 #: src/gsm_color_button.c:608
 msgid "Click to set graph colors"
@@ -219,7 +220,7 @@ msgstr "_Editar"
 
 #: src/interface.cpp:54
 msgid "_View"
-msgstr ""
+msgstr "_Ver"
 
 #: src/interface.cpp:55
 msgid "_Help"
@@ -293,7 +294,7 @@ msgstr "_Preferencias"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
-msgstr ""
+msgstr "Configurar el programa"
 
 #: src/interface.cpp:77
 msgid "_Refresh"
@@ -330,7 +331,7 @@ msgstr ""
 
 #: src/interface.cpp:89
 msgid "_Contents"
-msgstr ""
+msgstr "_Contenido"
 
 #: src/interface.cpp:90
 msgid "Open the manual"
@@ -342,7 +343,7 @@ msgstr "_Acerca de"
 
 #: src/interface.cpp:92
 msgid "About this application"
-msgstr ""
+msgstr "Acerca de este programa"
 
 #: src/interface.cpp:97
 msgid "_Dependencies"
@@ -650,7 +651,7 @@ msgstr ""
 
 #: src/openfiles.cpp:48
 msgid "unknown type"
-msgstr ""
+msgstr "tipo desconocido"
 
 #. Translators: "FD" here means "File Descriptor". Please use
 #. a very short translation if possible, and at most

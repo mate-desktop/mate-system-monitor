@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Xuacu Saturio <xuacusk8@gmail.com>, 2018
 # Iñigo Varela <ivarela@softastur.org>, 2019

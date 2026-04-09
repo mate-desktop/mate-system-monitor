@@ -1,23 +1,23 @@
-# 
 # Translators:
 # Andres Sanchez <blackatze93@gmail.com>, 2018
 # elio <micta2003@hotmail.com>, 2018
 # Isabel Ortuño <isabel.ortuno1@gmail.com>, 2018
 # Joel Barrios <darkshram@gmail.com>, 2018
-# Adolfo Jayme-Barrientos, 2018
+# Adolfo Jayme Barrientos, 2018
 # Luis Zárate <luisza@visualcon.net>, 2019
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2019
 # Emiliano Fascetti, 2019
 # seacat <seacat.linux@gmail.com>, 2021
 # Toni Estévez <toni.estevez@gmail.com>, 2021
+# Francisco Serrador, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
+"Last-Translator: Francisco Serrador, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1812,7 +1812,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1451
 msgid "<guilabel>Owner</guilabel>"
-msgstr ""
+msgstr "<guilabel>Propietario</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1454

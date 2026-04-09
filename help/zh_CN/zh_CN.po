@@ -1,11 +1,10 @@
-# 
 # Translators:
 # shuyu liu <liushuyu011@gmail.com>, 2018
 # biqiu-ssw <shenshuaiwen@gmail.com>, 2018
 # CNAmira <forucial@icloud.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Mingcong Bai <jeffbai@aosc.xyz>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2019
 # zhineng404 <zhinengge@gmail.com>, 2019
 # a73a47e368cc011d8f94528bd9d5d3f1_91fccdf <1b07f49e2a323989c85dd26d526f7bb9_871526>, 2020
 # liu lizhi <xingzuo88@qq.com>, 2020

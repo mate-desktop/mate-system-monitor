@@ -12,9 +12,10 @@
 # Tobias Lekare <lekare@linux.com>, 2018
 # Philip Andersen <renegadevi@codeofmagi.net>, 2018
 # Henrik Mattsson-Mårn <h@reglage.net>, 2019
-# Luna Jernberg <droidbittin@gmail.com>, 2021
 # Kristoffer Grundström <lovaren@gmail.com>, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Luna Jernberg <droidbittin@gmail.com>, 2024
+# Daniel Nylander <po@danielnylander.se>, 2025
 # 
 msgid ""
 msgstr ""
@@ -22,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,6 +45,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"MATE System Monitor gör det möjligt att grafiskt visa och manipulera de "
+"processer som körs på ditt system. Den ger också en översikt över "
+"tillgängliga resurser, t.ex. CPU och minne."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -51,6 +55,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"MATE Systemövervakare är en avknoppning av GNOME Systemövervakare och en del"
+" av skrivbordsmiljön MATE. Om du vill veta mer om MATE och Systemövervakare "
+"kan du besöka projektets webbsida."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.ui:7
@@ -65,7 +72,7 @@ msgstr "Visa aktuella processer och övervaka systemtillståndet"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
-msgstr ""
+msgstr "MATE;system;övervaka;process;lista;visa;aktuella;resurser;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -106,6 +113,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"System Monitor är fri programvara; du kan vidaredistribuera den och/eller "
+"modifiera den enligt villkoren i GNU General Public License som publiceras "
+"av Free Software Foundation; antingen version 2 av licensen eller (efter "
+"eget val) någon senare version."
 
 #: src/callbacks.cpp:215
 msgid ""
@@ -114,6 +125,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"System Monitor distribueras i hopp om att det ska vara användbart, men UTAN "
+"NÅGON GARANTI; inte ens den underförstådda garantin om SÄLJBARHET eller "
+"LÄMPLIGHET FÖR ETT SÄRSKILT SYFTE.  Se GNU General Public License för mer "
+"information."
 
 #: src/callbacks.cpp:219
 msgid ""
@@ -121,10 +136,13 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Du bör ha fått en kopia av GNU General Public License tillsammans med System"
+" Monitor; om inte, skriv till Free Software Foundation, Inc, 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 USA"
 
 #: src/callbacks.cpp:231
 msgid "About System Monitor"
-msgstr ""
+msgstr "Om systemövervakare"
 
 #: src/callbacks.cpp:233
 msgid ""
@@ -132,10 +150,15 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Upphovsrätt © 2001-2004 Kevin Vandersloot\n"
+"Upphovsrätt © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 MATE-utvecklare"
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
-msgstr "Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>\n"
+"Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>"
 
 #: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
@@ -151,7 +174,7 @@ msgstr "Typ"
 
 #: src/disks.cpp:407
 msgid "SubVolume"
-msgstr ""
+msgstr "Undervolym"
 
 #: src/disks.cpp:408
 msgid "Total"
@@ -489,7 +512,7 @@ msgstr "Totalt mottaget"
 
 #: src/interface.ui:377
 msgid "Sent"
-msgstr ""
+msgstr "Skickat"
 
 #: src/interface.ui:390
 msgid "Total Sent"
@@ -1007,43 +1030,43 @@ msgstr "Visa processkolumnen 'Ägare' vid uppstart"
 
 #: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Bredd på processen \"Diskskrivning totalt\" kolumn"
 
 #: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Visa processens \"Diskskrivning totalt\"-kolumn vid uppstart"
 
 #: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Bredd på processens kolumn \"Disk Read Total\""
 
 #: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Visa processens \"Diskläsning totalt\"-kolumn vid uppstart"
 
 #: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Bredd på processens kolumn \"Disk Read\""
 
 #: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "Visa processens \"Diskläsning\"-kolumn vid uppstart"
 
 #: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Bredd på processen \"Disk Write\" kolumn"
 
 #: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "Visa processens \"Diskskrivning\"-kolumn vid uppstart"
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Bredd på kolumnen \"Prioritet\" för processen"
 
 #: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Visa processens \"Prioritet\"-kolumn vid start"
 
 #: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
@@ -1083,11 +1106,11 @@ msgstr "Visa diskvykolumnen 'Typ' vid uppstart"
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'SubVol' column"
-msgstr ""
+msgstr "Bredd på kolumnen \"SubVol\" för diskvy"
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'SubVol' column on startup"
-msgstr ""
+msgstr "Visa kolumnen 'SubVol' i diskvyn vid start"
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
@@ -1159,7 +1182,7 @@ msgstr "Varna innan processer avslutas eller _dödas"
 
 #: src/preferences.ui:195
 msgid "_Divide CPU usage by CPU count"
-msgstr ""
+msgstr "_Dividera CPU-användning med CPU-antal"
 
 #: src/preferences.ui:232 src/preferences.ui:567
 msgid "Information Fields"
@@ -1175,7 +1198,7 @@ msgstr "Diagram"
 
 #: src/preferences.ui:402
 msgid "_Show network speed in bits"
-msgstr ""
+msgstr "_Visa nätverkshastighet i bitar"
 
 #: src/preferences.ui:528
 msgid "Show _all file systems"
@@ -1207,25 +1230,25 @@ msgstr ""
 #: src/procdialogs.cpp:80
 #, c-format
 msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Är du säker på att du vill döda den valda processen \"%s\" (PID: %u)?"
 
 #. xgettext: primary alert message for ending single process
 #: src/procdialogs.cpp:85
 #, c-format
 msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Är du säker på att du vill avsluta den valda processen \"%s\" (PID: %u)?"
 
 #. xgettext: primary alert message for killing multiple processes
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr ""
+msgstr "Är du säker på att du vill döda de %d valda processerna?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr ""
+msgstr "Är du säker på att du vill avsluta de %d valda processerna?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1258,7 +1281,7 @@ msgstr "Ändra prioritet för Process “%s” (PID: %u)"
 #: src/procdialogs.cpp:200
 #, c-format
 msgid "Change Priority of %d Selected Processes"
-msgstr ""
+msgstr "Ändra prioritet för %d valda processer"
 
 #: src/procdialogs.cpp:214
 msgid "Change _Priority"
@@ -1377,19 +1400,19 @@ msgstr "Ägare"
 
 #: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Diskläsning Totalt"
 
 #: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Diskskrivning totalt"
 
 #: src/proctable.cpp:280
 msgid "Disk Read"
-msgstr ""
+msgstr "Diskläsning"
 
 #: src/proctable.cpp:281
 msgid "Disk Write"
-msgstr ""
+msgstr "Diskskrivning"
 
 #: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"

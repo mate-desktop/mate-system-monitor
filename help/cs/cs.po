@@ -1,17 +1,17 @@
-# 
 # Translators:
-# Wolfgang Ulbrich <mate@raveit.de>, 2018
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # LiberteCzech <martin.kriz.czech@gmail.com>, 2019
 # ToMáš Marný, 2019
 # Lukáš Lommer <drom@kdyne.net>, 2021
+# J Nezbeda, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:31+0200\n"
 "PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Lukáš Lommer <drom@kdyne.net>, 2021\n"
+"Last-Translator: J Nezbeda, 2026\n"
 "Language-Team: Czech (https://app.transifex.com/mate/teams/13566/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -322,13 +322,13 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:283
 msgid "Network usage"
-msgstr ""
+msgstr "Využití sítě"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: listitem/para
 #: C/index.docbook:291 C/index.docbook:391 C/index.docbook:1505
 msgid "<guilabel>File Systems</guilabel>"
-msgstr ""
+msgstr "<guilabel>Souborové systémy</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:295
@@ -491,7 +491,7 @@ msgstr "Využití"
 #. (itstool) path: sect2/title
 #: C/index.docbook:421
 msgid "To Display Basic System Information"
-msgstr ""
+msgstr "Pro zobrazení základních systémových informací"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:422
@@ -510,12 +510,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:430
 msgid "System Information"
-msgstr ""
+msgstr "Systémové informace"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:448
 msgid "To Display the Process List"
-msgstr ""
+msgstr "Pro zobrazení seznamu procesů"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:449
@@ -668,12 +668,12 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:540
 msgid "To Sort the Process List"
-msgstr ""
+msgstr "Pro setřídění seznamu procesů"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:541
 msgid "To sort the process list, perform the following steps:"
-msgstr ""
+msgstr "Pro setřídění seznamu procesů, udělejte následující kroky:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:546 C/index.docbook:581 C/index.docbook:604
@@ -682,6 +682,7 @@ msgstr ""
 msgid ""
 "Select the <guilabel>Processes</guilabel> tab to display the process list."
 msgstr ""
+"Vyberte záložku <guilabel>Procesy</guilabel> k zobrazení seznamu procesů."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:551
@@ -690,6 +691,9 @@ msgid ""
 " the processes in reverse alphabetical order, click on the <guilabel>Process"
 " Name</guilabel> column header."
 msgstr ""
+"Ve výchozím stavu jsou procesy řazeny podle abecedy. Abyste obrátili "
+"abecední pořadí jmen procesů, klikněte na záhlaví sloupce <guilabel>Jméno "
+"procesu</guilabel>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:556
@@ -697,6 +701,8 @@ msgid ""
 "Click on any column header to sort the processes by the information in that "
 "column, in alphabetical or numerical order."
 msgstr ""
+"Kliknutím na libovolné záhlaví sloupce setřídíte procesy podle informací v "
+"tomto sloupci v abecedním nebo číselném pořadí."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:561
@@ -704,6 +710,8 @@ msgid ""
 "Click again on the column header to sort the data in reverse alphabetical or"
 " reverse numerical order."
 msgstr ""
+"Kliknutím znova na záhlaví sloupce setřídíte data v opačném abecedním nebo "
+"číselném pořadí."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:569
@@ -718,13 +726,14 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:575
 msgid "To Show All Processes"
-msgstr ""
+msgstr "Pro zobrazení všech procesů"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:576
 msgid ""
 "To show all processes in the process list, perform the following steps:"
 msgstr ""
+"Pro zobrazení všech procesů v seznamu procesů, udělejte následující kroky:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:586
@@ -732,11 +741,13 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>All "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"Vyberte <menuchoice> <guimenu>Zobrazit</guimenu> <guimenuitem>Všechny "
+"procesy</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:598
 msgid "To Show Only Processes Owned by the Current User"
-msgstr ""
+msgstr "Pro zobrazení pouze procesů, které vlastní současný uživatel"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:599
@@ -744,6 +755,8 @@ msgid ""
 "To show only the processes that are owned by the current user, perform the "
 "following steps:"
 msgstr ""
+"Pro zobrazení pouze procesů, které vlastní současný uživatel, udělejte "
+"následující kroky:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:609
@@ -751,18 +764,20 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>My "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"Vyberte <menuchoice> <guimenu>Zobrazit</guimenu> <guimenuitem>Mé "
+"procesy</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:621
 msgid "To Show Only Active Processes"
-msgstr ""
+msgstr "Pro zobrazení pouze aktivních procesů"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:622
 msgid ""
 "To show only the active processes in the process list, perform the following"
 " steps:"
-msgstr ""
+msgstr "Pro zobrazení pouze aktivních procesů, udělejte následující kroky:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:632
@@ -770,11 +785,13 @@ msgid ""
 "Choose <menuchoice> <guimenu>View</guimenu> <guimenuitem>Active "
 "Processes</guimenuitem> </menuchoice>."
 msgstr ""
+"Vyberte <menuchoice> <guimenu>Zobrazit</guimenu> <guimenuitem>Aktivní "
+"procesy</guimenuitem> </menuchoice>."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:644
 msgid "To Show Dependencies"
-msgstr ""
+msgstr "K zobrazení závislostí"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:645
@@ -782,6 +799,8 @@ msgid ""
 "To show process dependencies in the process list, perform the following "
 "steps:"
 msgstr ""
+"K zobrazení závislostí procesů v seznamu procesů, udělejte následující "
+"kroky:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:655
@@ -789,6 +808,8 @@ msgid ""
 "Choose "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Dependencies</guimenuitem></menuchoice>."
 msgstr ""
+"Vyberte "
+"<menuchoice><guimenu>Zobrazit</guimenu><guimenuitem>Závislosti</guimenuitem></menuchoice>."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:660
@@ -1026,7 +1047,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:843 C/index.docbook:1537
 msgid "<guilabel>Device</guilabel>"
-msgstr ""
+msgstr "<guilabel>Zařízení</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:845
@@ -1038,7 +1059,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:851
 msgid "<guilabel>Inode</guilabel>"
-msgstr ""
+msgstr "<guilabel>Inode</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:853
@@ -1065,17 +1086,17 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:868
 msgid "To Change the Priority of a Process"
-msgstr ""
+msgstr "Pro změnu priority procesu"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:869
 msgid "To change the priority of a process, perform the following steps:"
-msgstr ""
+msgstr "Pro změnu priority procesu, udělejte následující kroky:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:879
 msgid "Select the process for which you want to change the priority."
-msgstr ""
+msgstr "Vyberte proces pro který chcete změnit jeho prioritu."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:884
@@ -1088,11 +1109,16 @@ msgid ""
 "<guilabel>Change Priority</guilabel> dialog is displayed, and continue as "
 "follows."
 msgstr ""
+"Vyberte prioritu v <menuchoice><guimenu>Upravit</guimenu><guimenuitem>Změna "
+"priority</guimenuitem></menuchoice>, nebo udělejte klik pravým tlačítkem a "
+"zvolte <menuchoice><guimenu>Změna priority</guimenu></menuchoice>. Pokud je "
+"ve<guimenuitem>Volitelném</guimenuitem> menu položka vybrána, dialog "
+"<guilabel>Změna priority</guilabel> je zobrazen a pokračujte následovně."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:889
 msgid "Use the slider to set the nice value of the process."
-msgstr ""
+msgstr "Pomocí posuvníku nastavte požadovanou hodnotu pro proces."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:892
@@ -1100,6 +1126,7 @@ msgid ""
 "The nice value sets the priority of the process: the lower the nice value, "
 "the higher the priority."
 msgstr ""
+"Čím nižší je hodnota posuvníku, tím nižší je priorita procesu a obráceně."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:895
@@ -1107,26 +1134,28 @@ msgid ""
 "To specify a nice value lower than zero, non-root users must enter the root "
 "password."
 msgstr ""
+"Pro nastavení požadované hodnoty nižší než je nula, ne-root uživatel musí "
+"zadat root heslo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:900
 msgid "Click on the <guibutton>Change Priority</guibutton> button."
-msgstr ""
+msgstr "Klikněte na tlačítko <guibutton>Změna priority</guibutton>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:909
 msgid "To End a Process"
-msgstr ""
+msgstr "K zastavení procesu"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:910
 msgid "To end a process, perform the following steps:"
-msgstr ""
+msgstr "K zastavení procesu, udělejte následující kroky:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:920
 msgid "Select the process that you want to end."
-msgstr ""
+msgstr "Vyberte proces, který chcete ukončit."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:925
@@ -1136,6 +1165,10 @@ msgid ""
 "<menuchoice><guimenu>End Process</guimenu></menuchoice>, or click on the "
 "<guibutton>End Process</guibutton> button."
 msgstr ""
+"Zvolte <menuchoice><guimenu>Upravit</guimenu><guimenuitem>Ukončit "
+"proces</guimenuitem></menuchoice>nebo klikněte pravým tlačítkem a zvolte "
+"<menuchoice><guimenu>Ukončit proces</guimenu></menuchoice> nebo klikněte na "
+"tlačítko <guibutton>Ukončit proces</guibutton>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:928 C/index.docbook:963
@@ -1144,6 +1177,9 @@ msgid ""
 "display or hide the confirmation alert, see <xref linkend=\"mate-system-"
 "monitor-prefs-proclist\"/>."
 msgstr ""
+"Ve výchozím stavu se vám zobrazí potvrzovací varování. Pro informace, jak "
+"zobrazit nebo skrýt potvrzovací varování, viz <xref linkend=\"mate-system-"
+"monitor-prefs-proclist\"/>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:933

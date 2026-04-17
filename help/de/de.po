@@ -1,11 +1,10 @@
-# 
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2018
 # Moritz Bruder <muesli4@gmail.com>, 2018
 # Julian Rüger <jr98@gmx.net>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2019
 # Tobias Bannert <tobannert@gmail.com>, 2019
-# Wolfgang Ulbrich <mate@raveit.de>, 2019
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2019
 # Xpistian <xpistianbecker2@web.de>, 2019
 # Marcel Artz, 2019
 # Michael Hartmann, 2020

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2022
+# Hakim Oubouali <hakim1bal@protonmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -12,13 +12,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
 "PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2022\n"
-"Language-Team: Spanish (Spain) (https://app.transifex.com/mate/teams/13566/es_ES/)\n"
+"Last-Translator: Hakim Oubouali <hakim1bal@protonmail.com>, 2021\n"
+"Language-Team: Central Atlas Tamazight (https://app.transifex.com/mate/teams/13566/tzm/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language: tzm\n"
+"Plural-Forms: nplurals=2; plural=n >= 2 && (n < 11 || n > 99);\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -45,7 +45,7 @@ msgstr ""
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.ui:7
 msgid "System Monitor"
-msgstr "Monitor del sistema"
+msgstr ""
 
 #: mate-system-monitor.desktop.in.in:5 src/callbacks.cpp:232
 msgid "View current processes and monitor system state"
@@ -126,12 +126,10 @@ msgstr ""
 #: src/callbacks.cpp:240
 msgid "translator-credits"
 msgstr ""
-"Jorge González <jorgegonz@svn.mate.org>\n"
-"Francisco Javier F. Serrador <serrador@cvs.mate.org>"
 
 #: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
-msgstr ""
+msgstr "Allal"
 
 #: src/disks.cpp:405
 msgid "Directory"
@@ -139,7 +137,7 @@ msgstr ""
 
 #: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
-msgstr ""
+msgstr "Anaw"
 
 #: src/disks.cpp:407
 msgid "SubVolume"
@@ -173,7 +171,7 @@ msgstr ""
 
 #: src/gsm_color_button.c:164
 msgid "Title"
-msgstr ""
+msgstr "Azwel"
 
 #: src/gsm_color_button.c:165
 msgid "The title of the color selection dialog"
@@ -211,7 +209,7 @@ msgstr ""
 
 #: src/interface.cpp:53
 msgid "_Edit"
-msgstr "_Editar"
+msgstr "_Ssenfel"
 
 #: src/interface.cpp:54
 msgid "_View"
@@ -219,7 +217,7 @@ msgstr ""
 
 #: src/interface.cpp:55
 msgid "_Help"
-msgstr "Ay_uda"
+msgstr "_Tiwisi"
 
 #: src/interface.cpp:57
 msgid "Search for _Open Files"
@@ -231,7 +229,7 @@ msgstr ""
 
 #: src/interface.cpp:59
 msgid "_Quit"
-msgstr ""
+msgstr "_Ffeɣ"
 
 #: src/interface.cpp:60
 msgid "Quit the program"
@@ -258,7 +256,6 @@ msgid "_End Process"
 msgid_plural "_End Processes"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
@@ -269,7 +266,6 @@ msgid "_Kill Process"
 msgid_plural "_Kill Processes"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -285,7 +281,7 @@ msgstr ""
 
 #: src/interface.cpp:74
 msgid "_Preferences"
-msgstr "Prefere_ncias"
+msgstr ""
 
 #: src/interface.cpp:75
 msgid "Configure the application"
@@ -293,7 +289,7 @@ msgstr ""
 
 #: src/interface.cpp:77
 msgid "_Refresh"
-msgstr "_Refrescar"
+msgstr ""
 
 #: src/interface.cpp:78
 msgid "Refresh the process list"
@@ -318,7 +314,7 @@ msgstr ""
 
 #: src/interface.cpp:85
 msgid "_Properties"
-msgstr "_Propiedades"
+msgstr ""
 
 #: src/interface.cpp:86
 msgid "View additional information about a process"
@@ -334,7 +330,7 @@ msgstr ""
 
 #: src/interface.cpp:91
 msgid "_About"
-msgstr "Acerca _de"
+msgstr "_Ɣef"
 
 #: src/interface.cpp:92
 msgid "About this application"
@@ -439,7 +435,7 @@ msgstr ""
 #: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
 #: src/procproperties.cpp:143
 msgid "Memory"
-msgstr "Memoria"
+msgstr ""
 
 #: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
@@ -455,7 +451,7 @@ msgstr ""
 
 #: src/interface.ui:45
 msgid "System"
-msgstr ""
+msgstr "Anegraw"
 
 #: src/interface.ui:91
 msgid "End _Process"
@@ -503,7 +499,6 @@ msgid "%u second"
 msgid_plural "%u seconds"
 msgstr[0] ""
 msgstr[1] ""
-msgstr[2] ""
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -518,7 +513,7 @@ msgstr ""
 #: src/load-graph.cpp:603 src/load-graph.cpp:610 src/util.cpp:506
 #, c-format
 msgid "%s/s"
-msgstr "%s/s"
+msgstr ""
 
 #: src/lsof.cpp:123
 msgid "Error"
@@ -539,7 +534,7 @@ msgstr ""
 
 #: src/lsof.cpp:292 src/memmaps.cpp:305
 msgid "Filename"
-msgstr ""
+msgstr "Isem n ufaylu"
 
 #. gtk_window_set_modal(GTK_WINDOW(dialog), TRUE);
 #: src/lsof.cpp:309
@@ -1122,11 +1117,11 @@ msgstr ""
 
 #: src/preferences.ui:18
 msgid "System Monitor Preferences"
-msgstr "Preferencias del monitor del sistema"
+msgstr ""
 
 #: src/preferences.ui:106 src/preferences.ui:465
 msgid "Behavior"
-msgstr "Comportamiento"
+msgstr ""
 
 #: src/preferences.ui:135 src/preferences.ui:372 src/preferences.ui:498
 msgid "_Update interval in seconds:"
@@ -1316,7 +1311,7 @@ msgstr ""
 
 #: src/proctable.cpp:267 src/procproperties.cpp:160
 msgid "Command Line"
-msgstr "Línea de comandos"
+msgstr ""
 
 #. xgettext: combined noun, the function the process is waiting in, see wchan
 #. ps(1)
@@ -1346,7 +1341,7 @@ msgstr ""
 
 #: src/proctable.cpp:277
 msgid "Owner"
-msgstr ""
+msgstr "Bab"
 
 #: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
@@ -1377,7 +1372,7 @@ msgstr ""
 #: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
 #: src/util.cpp:462 src/util.cpp:500
 msgid "N/A"
-msgstr "N/D"
+msgstr ""
 
 #: src/procproperties.cpp:270
 msgid "Process Properties"
@@ -1416,7 +1411,7 @@ msgstr ""
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"
-msgstr "Desconocido"
+msgstr ""
 
 #: src/sysinfo.cpp:979
 #, c-format

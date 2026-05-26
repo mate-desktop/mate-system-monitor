@@ -33,6 +33,9 @@ get_process_selinux_context (ProcInfo *info)
         info->security_context = g_strdup (con);
         freecon (con);
     }
+
+    if (!info->security_context)
+        info->security_context = g_strdup ("");
 }
 
 

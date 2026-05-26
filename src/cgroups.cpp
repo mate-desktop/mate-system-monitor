@@ -143,8 +143,11 @@ get_process_cgroup_info(ProcInfo *info)
     char **lines;
     int i;
 
-    if (!cgroups_enabled())
+    if (!cgroups_enabled()) {
+        if (!info->cgroup_name)
+            info->cgroup_name = g_strdup ("");
         return;
+    }
 
     /* read out of /proc/pid/cgroup */
     path = g_strdup_printf("/proc/%d/cgroup", info->pid);

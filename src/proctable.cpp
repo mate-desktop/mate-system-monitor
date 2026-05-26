@@ -817,7 +817,7 @@ get_process_systemd_info(ProcInfo *info)
     uid_t uid;
 
     if (!LOGIND_RUNNING())
-        return;
+        goto out;
 
     free(info->unit);
     info->unit = NULL;
@@ -837,7 +837,16 @@ get_process_systemd_info(ProcInfo *info)
         info->owner = info->lookup_user(uid);
     else
         info->owner = "";
+
+out:
 #endif
+
+    if (!info->unit)
+        info->unit = strdup ("");
+    if (!info->session)
+        info->session = strdup ("");
+    if (!info->seat)
+        info->seat = strdup ("");
 }
 
 static void

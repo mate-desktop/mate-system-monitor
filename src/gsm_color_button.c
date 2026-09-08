@@ -222,7 +222,7 @@ fill_image_buffer_from_file (cairo_t *cr, const char *filePath)
 }
 
 static void
-render (GtkWidget * widget)
+render (GtkWidget * widget, cairo_t *cr)
 {
     GSMColorButtonPrivate *priv;
     GSMColorButton *color_button = GSM_COLOR_BUTTON (widget);
@@ -231,7 +231,6 @@ render (GtkWidget * widget)
     GdkRGBA *color;
     GdkRGBA tmp_color = priv->color;
     color = &tmp_color;
-    cairo_t *cr = gdk_cairo_create (gtk_widget_get_window (widget));
     cairo_path_t *path = NULL;
     gint width, height;
     gdouble radius, arc_start, arc_end;
@@ -257,8 +256,8 @@ render (GtkWidget * widget)
     }
     gdk_cairo_set_source_rgba (cr, color);
 
-    width = gdk_window_get_width(gtk_widget_get_window(widget));
-    height = gdk_window_get_height(gtk_widget_get_window(widget));
+    width = gtk_widget_get_allocated_width (widget);
+    height = gtk_widget_get_allocated_height (widget);
 
     switch (priv->type)
         {
@@ -400,13 +399,15 @@ render (GtkWidget * widget)
 
             break;
         }
-    cairo_destroy (cr);
 }
 
 /* Handle exposure events for the color picker's drawing area */
 static gboolean draw (GtkWidget * widget, cairo_t * cr, gpointer data)
 {
-    render (GTK_WIDGET (data));
+    /* GTK owns the context and its viewport clipping/translation. */
+    cairo_save (cr);
+    render (widget, cr);
+    cairo_restore (cr);
 
     return FALSE;
 }
@@ -415,7 +416,7 @@ static void
 gsm_color_button_realize (GtkWidget * widget)
 {
     GTK_WIDGET_CLASS (gsm_color_button_parent_class)->realize (widget);
-    render (widget);
+    gtk_widget_queue_draw (widget);
 }
 
 static void gsm_color_button_get_preferred_width (GtkWidget * widget, gint * minimum_width, gint * natural_width)

@@ -222,12 +222,10 @@ load_graph_configure (GtkWidget *widget,
 static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer data_ptr)
 {
     LoadGraph * const graph = static_cast<LoadGraph*>(data_ptr);
-    GdkWindow *window;
 
     guint i, j;
     gdouble sample_width, x_offset;
 
-    window = gtk_widget_get_window (graph->disp);
 
     /* Number of pixels wide for one graph point */
     sample_width = (float)(graph->draw_width - graph->rmargin - graph->indent) / (float)LoadGraph::NUM_POINTS;
@@ -238,9 +236,9 @@ static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer d
     x_offset += graph->rmargin - ((sample_width / graph->frames_per_unit) * graph->render_counter);
 
     /* draw the graph */
-    cairo_t* cr;
-
-    cr = gdk_cairo_create (window);
+    // Preserve GTK's context, including viewport clipping and translation.
+    cairo_t* cr = context;
+    cairo_save (cr);
 
     if (graph->background == NULL) {
         draw_background(graph);
@@ -274,7 +272,7 @@ static gboolean load_graph_draw (GtkWidget *widget, cairo_t *context, gpointer d
 
     }
 
-    cairo_destroy (cr);
+    cairo_restore (cr);
 
     return TRUE;
 }

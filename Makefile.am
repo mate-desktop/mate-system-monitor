@@ -21,6 +21,7 @@ DISTCHECK_CONFIGURE_FLAGS = \
 	CFLAGS='-Wno-deprecated-declarations'
 
 EXTRA_DIST = \
+	NVIDIA-MONITORING.md \
 	autogen.sh \
 	$(man_MANS) \
 	$(appdata_in_files) \

@@ -10,3 +10,5 @@ Optional dependencies :
 - libselinux
 - lsb_release in PATH - recommended on linux
 
+
+Optional NVIDIA GPU monitoring: see NVIDIA-MONITORING.md.

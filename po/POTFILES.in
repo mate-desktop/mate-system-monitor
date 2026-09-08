@@ -8,6 +8,7 @@ src/argv.h
 src/callbacks.cpp
 src/defaulttable.h
 src/disks.cpp
+src/gpu-monitor.cpp
 src/gsm_color_button.c
 src/interface.cpp
 src/interface.ui

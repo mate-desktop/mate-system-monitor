@@ -18,6 +18,8 @@ mate_system_monitor_cpp_files = \
 	argv.cpp \
 	procman.cpp \
 	interface.cpp \
+	gpu-monitor.cpp \
+	nvidia-smi.cpp \
 	callbacks.cpp \
 	load-graph.cpp \
 	proctable.cpp \
@@ -93,3 +95,16 @@ EXTRA_DIST = \
 MAINTAINERCLEANFILES = $(gsettings_SCHEMAS:.xml=.valid)
 
 -include $(top_srcdir)/git.mk
+
+check_PROGRAMS = nvidia-smi-test
+TESTS = $(check_PROGRAMS)
+nvidia_smi_test_SOURCES = ../tests/nvidia-smi-test.cpp nvidia-smi.cpp nvidia-smi.h
+nvidia_smi_test_CPPFLAGS = -I$(srcdir)
+check_PROGRAMS += gpu-monitor-test
+gpu_monitor_test_SOURCES = ../tests/gpu-monitor-test.cpp nvidia-smi.cpp nvidia-smi.h
+gpu_monitor_test_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)
+gpu_monitor_test_LDADD = @PROCMAN_LIBS@
+check_PROGRAMS += color-button-test
+color_button_test_SOURCES = ../tests/color-button-test.c gsm_color_button.c gsm_color_button.h
+color_button_test_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)
+color_button_test_LDADD = @PROCMAN_LIBS@ -lm

@@ -41,6 +41,7 @@
 #include "disks.h"
 #include "sysinfo.h"
 #include "gsm_color_button.h"
+#include "gpu-monitor.h"
 
 static void    cb_toggle_tree (GtkAction *action, gpointer data);
 static void    cb_proc_goto_tab (gint tab);
@@ -397,6 +398,7 @@ create_sys_view (ProcData *procdata, GtkBuilder * builder)
     gtk_grid_attach (GTK_GRID (table), label, 6, 1, 1, 1);
 
     procdata->net_graph = net_graph;
+    gpu_monitor_attach(GTK_WIDGET(gtk_builder_get_object(builder, "res_box")));
     g_free(title_template);
 }
 

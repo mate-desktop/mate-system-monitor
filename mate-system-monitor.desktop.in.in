@@ -12,7 +12,6 @@ StartupNotify=true
 Categories=GTK;System;Monitor;
 # Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 Keywords=MATE;system;monitor;process;list;view;current;resources;
-OnlyShowIn=MATE;
 X-MATE-Bugzilla-Bugzilla=MATE
 X-MATE-Bugzilla-Product=system-monitor
 X-MATE-Bugzilla-Component=general

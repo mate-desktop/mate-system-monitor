@@ -190,9 +190,7 @@ procman_save_config (ProcData *data)
     data->config.maximized = gdk_window_get_state(gtk_widget_get_window (data->app)) & GDK_WINDOW_STATE_MAXIMIZED;
     if (!data->config.maximized) {
         // we only want to store/overwrite size and position info with non-maximized state info
-        data->config.width  = gdk_window_get_width (gtk_widget_get_window (data->app));
-        data->config.height = gdk_window_get_height(gtk_widget_get_window (data->app));
-
+        gtk_window_get_size(GTK_WINDOW(data->app), &data->config.width, &data->config.height);
         gtk_window_get_position(GTK_WINDOW(data->app), &data->config.xpos, &data->config.ypos);
 
         g_settings_set (settings, "window-state", "(iiii)",

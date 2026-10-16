@@ -1,25 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-system-monitor package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026
-# 
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.27.0\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/"
+"issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026\n"
-"Language-Team: Georgian (https://app.transifex.com/mate/teams/13566/ka/)\n"
+"PO-Revision-Date: 2026-06-22 17:43+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-system-monitor/ka/>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ka\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -57,6 +59,7 @@ msgstr "მიმდინარე პროცესებისა და თ
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
 msgstr ""
+"MATE;system;monitor;process;list;view;current;resources;სისტემა;მონიტორინგი;პროცესები;სია;ნახვა;მიმდინარე;რესურსები;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
@@ -126,7 +129,7 @@ msgstr ""
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
-msgstr "Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>"
+msgstr "თემური დოღონაძე"
 
 #: src/disks.cpp:404 src/memmaps.cpp:327
 msgid "Device"
@@ -134,7 +137,7 @@ msgstr "მოწყობილობა"
 
 #: src/disks.cpp:405
 msgid "Directory"
-msgstr "დასტა"
+msgstr "კატალოგი"
 
 #: src/disks.cpp:406 src/gsm_color_button.c:179 src/openfiles.cpp:256
 msgid "Type"
@@ -142,7 +145,7 @@ msgstr "ტიპი"
 
 #: src/disks.cpp:407
 msgid "SubVolume"
-msgstr ""
+msgstr "ქვეტომი"
 
 #: src/disks.cpp:408
 msgid "Total"
@@ -162,7 +165,7 @@ msgstr "გამოყენებული"
 
 #: src/gsm_color_button.c:155
 msgid "Fraction"
-msgstr ""
+msgstr "ნაწილი"
 
 #. TRANSLATORS: description of the pie color picker's (mem, swap) filled
 #. percentage property
@@ -210,7 +213,7 @@ msgstr "_მონიტორი"
 
 #: src/interface.cpp:53
 msgid "_Edit"
-msgstr "_დამუშავება"
+msgstr "ჩასწორ_ება"
 
 #: src/interface.cpp:54
 msgid "_View"
@@ -282,7 +285,7 @@ msgstr "პროცესის პრიორიტეტის შეცვ�
 
 #: src/interface.cpp:74
 msgid "_Preferences"
-msgstr "_პარამეტრები"
+msgstr "_მორგება"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
@@ -315,7 +318,7 @@ msgstr "პროცესის მიერ გახსნილი ფაი
 
 #: src/interface.cpp:85
 msgid "_Properties"
-msgstr "_პარამეტრები"
+msgstr "_თვისებები"
 
 #: src/interface.cpp:86
 msgid "View additional information about a process"
@@ -323,7 +326,7 @@ msgstr ""
 
 #: src/interface.cpp:89
 msgid "_Contents"
-msgstr "_შინაარსი"
+msgstr "შემ_ცველობა"
 
 #: src/interface.cpp:90
 msgid "Open the manual"
@@ -339,7 +342,7 @@ msgstr "ამ პროგრამის შესახებ"
 
 #: src/interface.cpp:97
 msgid "_Dependencies"
-msgstr "_დამოკიდებულებანი"
+msgstr "_დამოკიდებულებები"
 
 #: src/interface.cpp:98
 msgid "Show parent/child relationship between processes"
@@ -379,7 +382,7 @@ msgstr ""
 
 #: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
-msgstr ""
+msgstr "მაღალი"
 
 #: src/interface.cpp:118
 msgid "Set process priority to high"
@@ -387,7 +390,7 @@ msgstr ""
 
 #: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
-msgstr "ჩვეულებრივი"
+msgstr "ნორმალური"
 
 #: src/interface.cpp:120
 msgid "Set process priority to normal"
@@ -395,7 +398,7 @@ msgstr ""
 
 #: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
-msgstr ""
+msgstr "დაბალი"
 
 #: src/interface.cpp:122
 msgid "Set process priority to low"
@@ -411,7 +414,7 @@ msgstr ""
 
 #: src/interface.cpp:125
 msgid "Custom"
-msgstr "სხვა"
+msgstr "მორგებული"
 
 #: src/interface.cpp:126
 msgid "Set process priority manually"
@@ -431,7 +434,7 @@ msgstr "პროცესორი"
 #: src/interface.cpp:289
 #, c-format
 msgid "CPU%d"
-msgstr ""
+msgstr "CPU%d"
 
 #: src/interface.cpp:324 src/interface.ui:257 src/proctable.cpp:268
 #: src/procproperties.cpp:143
@@ -440,15 +443,15 @@ msgstr "მეხსიერება"
 
 #: src/interface.cpp:337 src/interface.ui:244
 msgid "Swap"
-msgstr ""
+msgstr "სვოპი"
 
 #: src/interface.cpp:365 src/interface.ui:351
 msgid "Receiving"
-msgstr ""
+msgstr "მიღება"
 
 #: src/interface.cpp:384
 msgid "Sending"
-msgstr ""
+msgstr "გაგზავნა"
 
 #: src/interface.ui:45
 msgid "System"
@@ -480,7 +483,7 @@ msgstr ""
 
 #: src/interface.ui:377
 msgid "Sent"
-msgstr ""
+msgstr "გაგზავნილი"
 
 #: src/interface.ui:390
 msgid "Total Sent"
@@ -514,7 +517,7 @@ msgstr ""
 #: src/load-graph.cpp:603 src/load-graph.cpp:610 src/util.cpp:506
 #, c-format
 msgid "%s/s"
-msgstr "%s/s"
+msgstr "%s/წმ"
 
 #: src/lsof.cpp:123
 msgid "Error"
@@ -626,7 +629,7 @@ msgstr "ფაილი"
 
 #: src/openfiles.cpp:40
 msgid "pipe"
-msgstr "ნაკადი"
+msgstr "კომუნიკაციის არხი"
 
 #: src/openfiles.cpp:42
 msgid "IPv6 network connection"
@@ -1273,7 +1276,7 @@ msgstr "სტატუსი"
 
 #: src/proctable.cpp:256 src/procproperties.cpp:144
 msgid "Virtual Memory"
-msgstr "ვირტუალური მეხსიერება (VM)"
+msgstr "ვირტუალური მეხსიერება"
 
 #: src/proctable.cpp:257 src/procproperties.cpp:145
 msgid "Resident Memory"
@@ -1306,7 +1309,7 @@ msgstr "გაშვებული"
 
 #: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
-msgstr "Nice"
+msgstr "პრიორიტეტი"
 
 #: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
@@ -1332,11 +1335,11 @@ msgstr ""
 
 #: src/proctable.cpp:272
 msgid "Unit"
-msgstr ""
+msgstr "ერთეული"
 
 #: src/proctable.cpp:273
 msgid "Session"
-msgstr ""
+msgstr "სესია"
 
 #. TRANSLATORS: Seat = i.e. the physical seat the session of the process
 #. belongs to, only
@@ -1344,7 +1347,7 @@ msgstr ""
 #. http://en.wikipedia.org/wiki/Multiseat_configuration
 #: src/proctable.cpp:276
 msgid "Seat"
-msgstr ""
+msgstr "მრავალმომხმარებლიანი სისტემა"
 
 #: src/proctable.cpp:277
 msgid "Owner"
@@ -1368,7 +1371,7 @@ msgstr ""
 
 #: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
-msgstr ""
+msgstr "პრიორიტეტი"
 
 #: src/proctable.cpp:1180
 #, c-format
@@ -1414,7 +1417,7 @@ msgstr "გამოშვება %s"
 #: src/sysinfo.cpp:137
 #, c-format
 msgid "%d-bit"
-msgstr ""
+msgstr "%d-ბიტიანი"
 
 #: src/sysinfo.cpp:298
 msgid "Unknown"
@@ -1433,7 +1436,7 @@ msgstr "გნომი %s"
 #. hardware section
 #: src/sysinfo.cpp:1006
 msgid "Hardware"
-msgstr ""
+msgstr "აპარატურა"
 
 #: src/sysinfo.cpp:1011
 msgid "Memory:"
@@ -1445,7 +1448,7 @@ msgstr "პროცესორი:"
 
 #: src/sysinfo.cpp:1016
 msgid "Graphics:"
-msgstr ""
+msgstr "გრაფიკა:"
 
 #. disk space section
 #: src/sysinfo.cpp:1021
@@ -1486,11 +1489,11 @@ msgstr "გაჩერებულია"
 
 #: src/util.cpp:65
 msgid "Zombie"
-msgstr "ზომბური"
+msgstr "ზომბი"
 
 #: src/util.cpp:69
 msgid "Uninterruptible"
-msgstr "უწყვეტი"
+msgstr "არაწყვეტადი"
 
 #: src/util.cpp:73
 msgid "Sleeping"
@@ -1500,13 +1503,13 @@ msgstr "ძინავს"
 #: src/util.cpp:128
 #, c-format
 msgid "%uw%ud"
-msgstr "%uw%ud"
+msgstr "%uკვ%uდღ"
 
 #. xgettext: days, hours (0 -> 23)
 #: src/util.cpp:132
 #, c-format
 msgid "%ud%02uh"
-msgstr "%ud%02uh"
+msgstr "%uდღ%02uსთ"
 
 #. xgettext: hours (0 -> 23), minutes, seconds
 #: src/util.cpp:136

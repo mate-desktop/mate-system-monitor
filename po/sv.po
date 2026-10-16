@@ -1,10 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-system-monitor package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
 # Patrik Nilsson <asavartzeth@gmail.com>, 2018
 # Daniel Gullbransen, 2018
 # cb445fb3dfd1fe3c2b9f58ac5638f478, 2018
@@ -15,29 +11,35 @@
 # Kristoffer Grundström <lovaren@gmail.com>, 2022
 # Stefano Karapetsas <stefano@karapetsas.com>, 2022
 # Luna Jernberg <droidbittin@gmail.com>, 2024
-# Daniel Nylander <po@danielnylander.se>, 2025
-# 
+# Daniel Nylander <po@danielnylander.se>, 2025, 2026.
+#
+# Translators:
+# 6a42dd6e7ca9a813693714b0d9aa1ad8, 2018
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.27.0\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/"
+"issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
-"Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
+"PO-Revision-Date: 2026-10-11 12:14+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-system-monitor/sv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
-msgstr "Systemövervakare för MATE"
+msgstr "MATE:s systemövervakare"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr "En process och resursövervakare för MATE-skrivbordet"
+msgstr "En process och resursövervakare för MATE:s skrivbordsmiljö"
 
 #: mate-system-monitor.appdata.xml.in:10
 msgid ""
@@ -45,9 +47,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
-"MATE System Monitor gör det möjligt att grafiskt visa och manipulera de "
-"processer som körs på ditt system. Den ger också en översikt över "
-"tillgängliga resurser, t.ex. CPU och minne."
+"MATE:s systemövervakare gör det möjligt att grafiskt visa och hantera de "
+"processer som körs i systemet. Den ger också en översikt över tillgängliga "
+"resurser, till exempel processor och minne."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -55,9 +57,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
-"MATE Systemövervakare är en avknoppning av GNOME Systemövervakare och en del"
-" av skrivbordsmiljön MATE. Om du vill veta mer om MATE och Systemövervakare "
-"kan du besöka projektets webbsida."
+"MATE:s systemövervakare är en avknoppning av GNOME Systemövervakare och "
+"ingår i MATE:s skrivbordsmiljö. Läs mer om MATE och systemövervakaren på "
+"projektets webbplats."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.ui:7
@@ -84,7 +86,7 @@ msgstr "Privilegier krävs för att kontrollera andra användares processer"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
-msgstr "Renice process"
+msgstr "Ändra processens prioritet"
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
@@ -238,7 +240,7 @@ msgstr "Klicka för att ange diagramfärger"
 #. "File" did not make sense for system-monitor
 #: src/interface.cpp:52
 msgid "_Monitor"
-msgstr "_Övervaka"
+msgstr "_Bevaka"
 
 #: src/interface.cpp:53
 msgid "_Edit"
@@ -250,11 +252,11 @@ msgstr "_Visa"
 
 #: src/interface.cpp:55
 msgid "_Help"
-msgstr "_Hjälp"
+msgstr "_Bevaka"
 
 #: src/interface.cpp:57
 msgid "Search for _Open Files"
-msgstr "Sök efter _öppna filer"
+msgstr "Sök efter _filer som är öppna"
 
 #: src/interface.cpp:58
 msgid "Search for open files"
@@ -297,8 +299,8 @@ msgstr "Tvinga process att avsluta normalt"
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] "Döda process"
-msgstr[1] "D_öda processer"
+msgstr[0] "_Döda process"
+msgstr[1] "_Döda processer"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
@@ -306,7 +308,7 @@ msgstr "Tvinga process att avsluta omedelbart"
 
 #: src/interface.cpp:72
 msgid "_Change Priority"
-msgstr "_Ändra prioritet"
+msgstr "Ändra _prioritet"
 
 #: src/interface.cpp:73
 msgid "Change the order of priority of process"
@@ -395,7 +397,7 @@ msgstr "Visa alla processer"
 
 #: src/interface.cpp:109
 msgid "M_y Processes"
-msgstr "_Mina processer"
+msgstr "M_ina processer"
 
 #: src/interface.cpp:110
 msgid "Show only user-owned processes"
@@ -1214,7 +1216,7 @@ msgid ""
 "Cannot change the priority of process with PID %d to %d.\n"
 "%s"
 msgstr ""
-"Kan ej ändra prioritet för processen med PID %d till %d.\n"
+"Kan inte ändra prioriteten för processen med PID %d till %d.\n"
 "%s"
 
 #: src/procactions.cpp:157
@@ -1276,7 +1278,7 @@ msgstr "(%s prioritet)"
 #: src/procdialogs.cpp:197
 #, c-format
 msgid "Change Priority of Process “%s” (PID: %u)"
-msgstr "Ändra prioritet för Process “%s” (PID: %u)"
+msgstr "Ändra prioritet för processen ”%s” (PID: %u)"
 
 #: src/procdialogs.cpp:200
 #, c-format
@@ -1354,7 +1356,7 @@ msgstr "Startad"
 
 #: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
-msgstr "Processprioritet"
+msgstr "Prioritet"
 
 #: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"

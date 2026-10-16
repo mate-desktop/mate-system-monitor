@@ -1,25 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-system-monitor package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2022
-# 
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2022, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-system-monitor 1.27.0\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-system-monitor/"
+"issues\n"
 "POT-Creation-Date: 2023-09-04 20:48+0200\n"
-"PO-Revision-Date: 2018-03-12 08:25+0000\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2022\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-26 18:18+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/mate-system-monitor/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: mate-system-monitor.appdata.xml.in:7 mate-system-monitor.desktop.in.in:3
 msgid "MATE System Monitor"
@@ -27,7 +29,7 @@ msgstr "MATE жүйелік бақылаушысы"
 
 #: mate-system-monitor.appdata.xml.in:8
 msgid "A Process and resource monitor for MATE Desktop"
-msgstr ""
+msgstr "MATE жұмыс үстеліне арналған процестер мен ресурстар мониторы"
 
 #: mate-system-monitor.appdata.xml.in:10
 msgid ""
@@ -35,6 +37,9 @@ msgid ""
 "processes on your system. It also provides an overview of available "
 "resources, such as CPU and memory."
 msgstr ""
+"MATE жүйелік мониторы жүйеңізде орындалып жатқан процестерді графикалық "
+"түрде көруге және басқаруға мүмкіндік береді. Ол сонымен қатар процессор мен "
+"жады сияқты қолжетімді ресурстарға шолуды қамтамасыз етеді."
 
 #: mate-system-monitor.appdata.xml.in:15
 msgid ""
@@ -42,6 +47,9 @@ msgid ""
 "Desktop Environment. If you would like to know more about MATE and System "
 "Monitor, please visit the project's home page."
 msgstr ""
+"MATE жүйелік мониторы — GNOME жүйелік мониторының форкі және MATE жұмыс "
+"үстелі ортасының бір бөлігі. Егер сіз MATE және жүйелік монитор туралы "
+"көбірек білгіңіз келсе, жобаның басты бетіне өтіңіз."
 
 #: mate-system-monitor.desktop.in.in:4 src/callbacks.cpp:229
 #: src/interface.ui:7
@@ -57,22 +65,23 @@ msgstr "Ағымдағы үрдістерді қарау және жүйе қа�
 #: mate-system-monitor.desktop.in.in:15
 msgid "MATE;system;monitor;process;list;view;current;resources;"
 msgstr ""
+"MATE;system;monitor;process;list;view;current;resources;жүйелік;монитор;процесс;тізім;көрініс;ағымдағы;ресурстар;"
 
 #: org.mate.mate-system-monitor.policy.in.in:11
 msgid "Kill process"
-msgstr ""
+msgstr "Процесті мәжбүрлеп аяқтау"
 
 #: org.mate.mate-system-monitor.policy.in.in:12
 msgid "Privileges are required to control other users' processes"
-msgstr ""
+msgstr "Басқа пайдаланушылардың процестерін басқару үшін артықшылықтар қажет"
 
 #: org.mate.mate-system-monitor.policy.in.in:22
 msgid "Renice process"
-msgstr ""
+msgstr "Процесс басымдығын өзгерту"
 
 #: org.mate.mate-system-monitor.policy.in.in:23
 msgid "Privileges are required to change the priority of processes"
-msgstr ""
+msgstr "Процестердің басымдығын өзгерту үшін артықшылықтар қажет"
 
 #: src/argv.cpp:21
 msgid "Show the System tab"
@@ -97,6 +106,10 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
+"Жүйелік монитор — еркін бағдарламалық қамтама; сіз оны Free Software "
+"Foundation жариялаған GNU General Public License шарттары бойынша, 2-нұсқасы "
+"немесе (өз таңдауыңыз бойынша) кез келген кейінгі нұсқасы бойынша қайта "
+"тарата аласыз және/немесе өзгерте аласыз."
 
 #: src/callbacks.cpp:215
 msgid ""
@@ -105,6 +118,10 @@ msgid ""
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
 msgstr ""
+"Жүйелік монитор пайдалы болады деген үмітпен таратылады, бірақ ЕШҚАНДАЙ "
+"КЕПІЛДІК БЕРІЛМЕЙДІ; тіпті САТУҒА ЖАРАМДЫЛЫҒЫ немесе БЕЛГІЛІ БІР МАҚСАТҚА "
+"СӘЙКЕСТІГІ туралы жанама кепілдік те берілмейді. Қосымша ақпаратты GNU "
+"General Public License лицензиясынан қараңыз."
 
 #: src/callbacks.cpp:219
 msgid ""
@@ -112,10 +129,14 @@ msgid ""
 " System Monitor; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
 msgstr ""
+"Сіз Жүйелік монитормен бірге GNU General Public License лицензиясының "
+"көшірмесін алуыңыз керек еді; олай болмаса, келесі мекенжайға жазыңыз: Free "
+"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-"
+"1301 USA"
 
 #: src/callbacks.cpp:231
 msgid "About System Monitor"
-msgstr ""
+msgstr "Жүйелік монитор туралы"
 
 #: src/callbacks.cpp:233
 msgid ""
@@ -123,6 +144,9 @@ msgid ""
 "Copyright © 2005-2007 Benoît Dejean\n"
 "Copyright © 2011-2020 MATE developers"
 msgstr ""
+"Copyright © 2001-2004 Kevin Vandersloot\n"
+"Copyright © 2005-2007 Benoît Dejean\n"
+"Copyright © 2011-2020 MATE developers"
 
 #: src/callbacks.cpp:240
 msgid "translator-credits"
@@ -142,7 +166,7 @@ msgstr "Түрі"
 
 #: src/disks.cpp:407
 msgid "SubVolume"
-msgstr ""
+msgstr "Ішкі том"
 
 #: src/disks.cpp:408
 msgid "Total"
@@ -222,11 +246,11 @@ msgstr "Көм_ек"
 
 #: src/interface.cpp:57
 msgid "Search for _Open Files"
-msgstr ""
+msgstr "А_шық файлдарды іздеу"
 
 #: src/interface.cpp:58
 msgid "Search for open files"
-msgstr ""
+msgstr "Ашық файлдарды іздеу"
 
 #: src/interface.cpp:59
 msgid "_Quit"
@@ -238,39 +262,39 @@ msgstr "Бағдарламаны жабу"
 
 #: src/interface.cpp:63
 msgid "_Stop Process"
-msgstr ""
+msgstr "Процесті _тоқтату"
 
 #: src/interface.cpp:64
 msgid "Stop process"
-msgstr ""
+msgstr "Процесті тоқтату"
 
 #: src/interface.cpp:65
 msgid "_Continue Process"
-msgstr ""
+msgstr "Процесті _жалғастыру"
 
 #: src/interface.cpp:66
 msgid "Continue process if stopped"
-msgstr ""
+msgstr "Тоқтатылған болса, процесті жалғастыру"
 
 #: src/interface.cpp:68 src/procdialogs.cpp:113
 msgid "_End Process"
 msgid_plural "_End Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Процесті _аяқтау"
+msgstr[1] "Процестерді _аяқтау"
 
 #: src/interface.cpp:69
 msgid "Force process to finish normally"
-msgstr ""
+msgstr "Процесті қалыпты түрде аяқтауға мәжбүрлеу"
 
 #: src/interface.cpp:70 src/procdialogs.cpp:107
 msgid "_Kill Process"
 msgid_plural "_Kill Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Процесті мәжбүрлеп _аяқтау"
+msgstr[1] "Процестерді мәжбүрлеп _аяқтау"
 
 #: src/interface.cpp:71
 msgid "Force process to finish immediately"
-msgstr ""
+msgstr "Процесті дереу аяқтауға мәжбүрлеу"
 
 #: src/interface.cpp:72
 msgid "_Change Priority"
@@ -278,7 +302,7 @@ msgstr "_Приоритетті өзгерту"
 
 #: src/interface.cpp:73
 msgid "Change the order of priority of process"
-msgstr ""
+msgstr "Процестің басымдық ретін өзгерту"
 
 #: src/interface.cpp:74
 msgid "_Preferences"
@@ -286,7 +310,7 @@ msgstr "Баптаулар"
 
 #: src/interface.cpp:75
 msgid "Configure the application"
-msgstr ""
+msgstr "Қолданбаны баптау"
 
 #: src/interface.cpp:77
 msgid "_Refresh"
@@ -294,7 +318,7 @@ msgstr "Жаңар_ту"
 
 #: src/interface.cpp:78
 msgid "Refresh the process list"
-msgstr ""
+msgstr "Процестер тізімін жаңарту"
 
 #: src/interface.cpp:80
 msgid "_Memory Maps"
@@ -302,7 +326,7 @@ msgstr "_Жады карталары"
 
 #: src/interface.cpp:81
 msgid "Open the memory maps associated with a process"
-msgstr ""
+msgstr "Процеске байланысты жады карталарын ашу"
 
 #. Translators: this means 'Files that are open' (open is no verb here
 #: src/interface.cpp:83
@@ -311,7 +335,7 @@ msgstr "Ашық _файлдар"
 
 #: src/interface.cpp:84
 msgid "View the files opened by a process"
-msgstr ""
+msgstr "Процес ашқан файлдарды көру"
 
 #: src/interface.cpp:85
 msgid "_Properties"
@@ -319,7 +343,7 @@ msgstr "Қас_иеттері"
 
 #: src/interface.cpp:86
 msgid "View additional information about a process"
-msgstr ""
+msgstr "Процесс туралы қосымша ақпаратты көру"
 
 #: src/interface.cpp:89
 msgid "_Contents"
@@ -327,7 +351,7 @@ msgstr "Құра_масы"
 
 #: src/interface.cpp:90
 msgid "Open the manual"
-msgstr ""
+msgstr "Нұсқаулықты ашу"
 
 #: src/interface.cpp:91
 msgid "_About"
@@ -343,7 +367,7 @@ msgstr "_Тәуелділіктер"
 
 #: src/interface.cpp:98
 msgid "Show parent/child relationship between processes"
-msgstr ""
+msgstr "Процестер арасындағы аталық/еншілес байланысын көрсету"
 
 #: src/interface.cpp:105
 msgid "_Active Processes"
@@ -351,7 +375,7 @@ msgstr "_Белсенді үрдістер"
 
 #: src/interface.cpp:106
 msgid "Show active processes"
-msgstr ""
+msgstr "Белсенді процестерді көрсету"
 
 #: src/interface.cpp:107
 msgid "A_ll Processes"
@@ -359,7 +383,7 @@ msgstr "Бар_лық үрдістер"
 
 #: src/interface.cpp:108
 msgid "Show all processes"
-msgstr ""
+msgstr "Барлық процестерді көрсету"
 
 #: src/interface.cpp:109
 msgid "M_y Processes"
@@ -367,7 +391,7 @@ msgstr "М_енің үрдістерім"
 
 #: src/interface.cpp:110
 msgid "Show only user-owned processes"
-msgstr ""
+msgstr "Тек пайдаланушы процестерін көрсету"
 
 #: src/interface.cpp:115 src/util.cpp:167
 msgid "Very High"
@@ -375,7 +399,7 @@ msgstr "Өте жоғары"
 
 #: src/interface.cpp:116
 msgid "Set process priority to very high"
-msgstr ""
+msgstr "Процесс басымдығын өте жоғары деп орнату"
 
 #: src/interface.cpp:117 src/util.cpp:169
 msgid "High"
@@ -383,7 +407,7 @@ msgstr "Жоғары"
 
 #: src/interface.cpp:118
 msgid "Set process priority to high"
-msgstr ""
+msgstr "Процесс басымдығын жоғары деп орнату"
 
 #: src/interface.cpp:119 src/util.cpp:171
 msgid "Normal"
@@ -391,7 +415,7 @@ msgstr "Қалыпты"
 
 #: src/interface.cpp:120
 msgid "Set process priority to normal"
-msgstr ""
+msgstr "Процесс басымдығын қалыпты деп орнату"
 
 #: src/interface.cpp:121 src/util.cpp:173
 msgid "Low"
@@ -399,7 +423,7 @@ msgstr "Төмен"
 
 #: src/interface.cpp:122
 msgid "Set process priority to low"
-msgstr ""
+msgstr "Процесс басымдығын төмен деп орнату"
 
 #: src/interface.cpp:123 src/util.cpp:175
 msgid "Very Low"
@@ -407,7 +431,7 @@ msgstr "Өте төмен"
 
 #: src/interface.cpp:124
 msgid "Set process priority to very low"
-msgstr ""
+msgstr "Процесс басымдығын өте төмен деп орнату"
 
 #: src/interface.cpp:125
 msgid "Custom"
@@ -415,7 +439,7 @@ msgstr "Таңдауыңызша"
 
 #: src/interface.cpp:126
 msgid "Set process priority manually"
-msgstr ""
+msgstr "Процесс басымдығын қолмен орнату"
 
 #. Translators: color picker title, %s is CPU, Memory, Swap, Receiving,
 #. Sending
@@ -480,7 +504,7 @@ msgstr "Жалпы қабылданған"
 
 #: src/interface.ui:377
 msgid "Sent"
-msgstr ""
+msgstr "Жіберілді"
 
 #: src/interface.ui:390
 msgid "Total Sent"
@@ -498,8 +522,8 @@ msgstr "Файлдық жүйелер"
 #, c-format
 msgid "%u second"
 msgid_plural "%u seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u секунд"
+msgstr[1] "%u секунд"
 
 #: src/load-graph.cpp:349
 msgid "not available"
@@ -523,7 +547,7 @@ msgstr "Қате"
 #: src/lsof.cpp:124
 #, c-format
 msgid "'%s' is not a valid Perl regular expression."
-msgstr ""
+msgstr "«%s» жарамды Perl тұрақты өрнегі емес."
 
 #: src/lsof.cpp:270
 msgid "Process"
@@ -553,7 +577,7 @@ msgstr "Та_зарту"
 
 #: src/lsof.cpp:361
 msgid "Case insensitive matching"
-msgstr ""
+msgstr "Регистрді ескермей сәйкестендіру"
 
 #: src/lsof.cpp:369
 msgid "S_earch results:"
@@ -674,6 +698,8 @@ msgid ""
 "If TRUE, main window will open maximized, and saved size and position values"
 " are ignored."
 msgstr ""
+"Егер АҚИҚАТ болса, негізгі терезе жазылған күйде ашылады және сақталған "
+"өлшем мен орын мәндері еленбейді."
 
 #: src/org.mate.system-monitor.gschema.xml.in:14
 msgid "Show process dependencies in tree form"
@@ -689,6 +715,9 @@ msgid ""
 "is divided by the total number of CPUs. Otherwise, it operates in 'Irix "
 "mode'."
 msgstr ""
+"Егер АҚИҚАТ болса, жүйелік монитор тапсырманың процессорды пайдалануы "
+"процессорлардың жалпы санына бөлінетін «Solaris режимінде» жұмыс істейді. "
+"Әйтпесе, ол «Irix режимінде» жұмыс істейді."
 
 #: src/org.mate.system-monitor.gschema.xml.in:23
 msgid "Enable/Disable smooth refresh"
@@ -717,6 +746,9 @@ msgid ""
 "'autofs' and 'procfs'). Useful for getting a list of all currently mounted "
 "file systems."
 msgstr ""
+"Барлық файлдық жүйелер туралы ақпаратты көрсету керек пе ('autofs' және "
+"'procfs' сияқты түрлерді қоса). Қазіргі уақытта тіркелген барлық файлдық "
+"жүйелер тізімін алу үшін пайдалы."
 
 #: src/org.mate.system-monitor.gschema.xml.in:44
 msgid "Time in milliseconds between updates of the devices list"
@@ -727,6 +759,8 @@ msgid ""
 "Determines which processes to show by default. 0 is All, 1 is user, and 2 is"
 " active"
 msgstr ""
+"Үнсіз келісім бойынша қандай процестерді көрсету керектігін анықтайды. 0 — "
+"Барлығы, 1 — Пайдаланушынікі, 2 — Белсенді"
 
 #: src/org.mate.system-monitor.gschema.xml.in:52
 msgid "Saves the currently viewed tab"
@@ -737,6 +771,8 @@ msgid ""
 "0 for the System Info, 1 for the processes list, 2 for the resources and 3 "
 "for the disks list"
 msgstr ""
+"Жүйелік ақпарат үшін 0, процестер тізімі үшін 1, ресурстар үшін 2 және "
+"дискілер тізімі үшін 3"
 
 #: src/org.mate.system-monitor.gschema.xml.in:57
 #: src/org.mate.system-monitor.gschema.xml.in:61
@@ -770,11 +806,11 @@ msgstr ""
 #: src/org.mate.system-monitor.gschema.xml.in:177
 #: src/org.mate.system-monitor.gschema.xml.in:181
 msgid "Default graph CPU color"
-msgstr ""
+msgstr "Үнсіз келісім бойынша график процессорының түсі"
 
 #: src/org.mate.system-monitor.gschema.xml.in:81
 msgid "Default graph cpu color"
-msgstr ""
+msgstr "Үнсіз келісім бойынша график процессорының түсі"
 
 #: src/org.mate.system-monitor.gschema.xml.in:185
 msgid "Default graph memory color"
@@ -988,43 +1024,43 @@ msgstr "Үрдістің \"Иесі\" бағанын іске қосылғанд
 
 #: src/org.mate.system-monitor.gschema.xml.in:402
 msgid "Width of process “Disk Write Total” column"
-msgstr ""
+msgstr "Процестің «Барлық жазылған диск көлемі» бағанының ені"
 
 #: src/org.mate.system-monitor.gschema.xml.in:406
 msgid "Show process “Disk Write Total” column on startup"
-msgstr ""
+msgstr "Іске қосылғанда процестің «Барлық жазылған диск көлемі» бағанын көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:410
 msgid "Width of process “Disk Read Total” column"
-msgstr ""
+msgstr "Процестің «Барлық оқылған диск көлемі» бағанының ені"
 
 #: src/org.mate.system-monitor.gschema.xml.in:414
 msgid "Show process “Disk Read Total” column on startup"
-msgstr ""
+msgstr "Іске қосылғанда процестің «Барлық оқылған диск көлемі» бағанын көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:418
 msgid "Width of process “Disk Read” column"
-msgstr ""
+msgstr "Процестің «Дискіден оқу» бағанының ені"
 
 #: src/org.mate.system-monitor.gschema.xml.in:422
 msgid "Show process “Disk Read” column on startup"
-msgstr ""
+msgstr "Іске қосылғанда процестің «Дискіден оқу» бағанын көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:426
 msgid "Width of process “Disk Write” column"
-msgstr ""
+msgstr "Процестің «Дискіге жазу» бағанының ені"
 
 #: src/org.mate.system-monitor.gschema.xml.in:430
 msgid "Show process “Disk Write” column on startup"
-msgstr ""
+msgstr "Іске қосылғанда процестің «Дискіге жазу» бағанын көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:434
 msgid "Width of process “Priority” column"
-msgstr ""
+msgstr "Процестің «Басымдық» бағанының ені"
 
 #: src/org.mate.system-monitor.gschema.xml.in:438
 msgid "Show process “Priority” column on startup"
-msgstr ""
+msgstr "Іске қосылғанда процестің «Басымдық» бағанын көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:444
 msgid "Disk view sort column"
@@ -1064,11 +1100,11 @@ msgstr "Диск көрінісінің \"Түрі\" бағанын іске қ�
 
 #: src/org.mate.system-monitor.gschema.xml.in:480
 msgid "Width of disk view 'SubVol' column"
-msgstr ""
+msgstr "Дискілер көрінісіндегі «Ішкі том» бағанының ені"
 
 #: src/org.mate.system-monitor.gschema.xml.in:484
 msgid "Show disk view 'SubVol' column on startup"
-msgstr ""
+msgstr "Іске қосылғанда дискілер көрінісіндегі «Ішкі том» бағанын көрсету"
 
 #: src/org.mate.system-monitor.gschema.xml.in:488
 msgid "Width of disk view 'Total' column"
@@ -1140,7 +1176,7 @@ msgstr "Үрдісті үзу не ө_лтіру алдында ескерту"
 
 #: src/preferences.ui:195
 msgid "_Divide CPU usage by CPU count"
-msgstr ""
+msgstr "Процессор қолданысын процессорлар санына _бөлу"
 
 #: src/preferences.ui:232 src/preferences.ui:567
 msgid "Information Fields"
@@ -1156,7 +1192,7 @@ msgstr "Графиктер"
 
 #: src/preferences.ui:402
 msgid "_Show network speed in bits"
-msgstr ""
+msgstr "Желі жылдамдығын битпен _көрсету"
 
 #: src/preferences.ui:528
 msgid "Show _all file systems"
@@ -1188,25 +1224,25 @@ msgstr ""
 #: src/procdialogs.cpp:80
 #, c-format
 msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Таңдалған «%s» процесін (PID: %u) мәжбүрлеп аяқтау керек пе?"
 
 #. xgettext: primary alert message for ending single process
 #: src/procdialogs.cpp:85
 #, c-format
 msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
-msgstr ""
+msgstr "Таңдалған «%s» процесін (PID: %u) аяқтау керек пе?"
 
 #. xgettext: primary alert message for killing multiple processes
 #: src/procdialogs.cpp:92
 #, c-format
 msgid "Are you sure you want to kill the %d selected processes?"
-msgstr ""
+msgstr "Таңдалған %d процесті мәжбүрлеп аяқтау керек пе?"
 
 #. xgettext: primary alert message for ending multiple processes
 #: src/procdialogs.cpp:96
 #, c-format
 msgid "Are you sure you want to end the %d selected processes?"
-msgstr ""
+msgstr "Таңдалған %d процесті аяқтау керек пе?"
 
 #. xgettext: secondary alert message
 #: src/procdialogs.cpp:104
@@ -1229,7 +1265,7 @@ msgstr ""
 #: src/procdialogs.cpp:148 src/procdialogs.cpp:247
 #, c-format
 msgid "(%s Priority)"
-msgstr ""
+msgstr "(%s басымдығы)"
 
 #: src/procdialogs.cpp:197
 #, c-format
@@ -1239,7 +1275,7 @@ msgstr "\"%s\" (PID: %u) үрдісінің приоритетін өзгерт�
 #: src/procdialogs.cpp:200
 #, c-format
 msgid "Change Priority of %d Selected Processes"
-msgstr ""
+msgstr "Таңдалған %d процестің басымдығын өзгерту"
 
 #: src/procdialogs.cpp:214
 msgid "Change _Priority"
@@ -1312,7 +1348,7 @@ msgstr "Іске қосылған"
 
 #: src/proctable.cpp:264 src/procproperties.cpp:156
 msgid "Nice"
-msgstr "Ергіштік (nice)"
+msgstr "Ницца"
 
 #: src/proctable.cpp:265 src/procproperties.cpp:158
 msgid "ID"
@@ -1358,19 +1394,19 @@ msgstr "Иесі"
 
 #: src/proctable.cpp:278 src/procproperties.cpp:151
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Барлық оқылған диск көлемі"
 
 #: src/proctable.cpp:279 src/procproperties.cpp:152
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Барлық жазылған диск көлемі"
 
 #: src/proctable.cpp:280
 msgid "Disk Read"
-msgstr ""
+msgstr "Дискіден оқу"
 
 #: src/proctable.cpp:281
 msgid "Disk Write"
-msgstr ""
+msgstr "Дискіге жазу"
 
 #: src/proctable.cpp:282 src/procproperties.cpp:157
 msgid "Priority"
@@ -1379,7 +1415,7 @@ msgstr "Приоритеті"
 #: src/proctable.cpp:1180
 #, c-format
 msgid "Load averages for the last 1, 5, 15 minutes: %0.2f, %0.2f, %0.2f"
-msgstr ""
+msgstr "Соңғы 1, 5, 15 минуттағы орташа жүктеме: %0.2f, %0.2f, %0.2f"
 
 #: src/procproperties.cpp:114 src/procproperties.cpp:123
 #: src/procproperties.cpp:159 src/procproperties.cpp:162 src/util.cpp:390
@@ -1394,7 +1430,7 @@ msgstr "Үрдіс қасиеттері"
 #: src/procproperties.cpp:290
 #, c-format
 msgid "Properties of process \"%s\" (PID %u):"
-msgstr ""
+msgstr "«%s» процесінің қасиеттері (PID %u):"
 
 #. Translators: The first string parameter is release version (codename),
 #. * the second one is the architecture, 32 or 64-bit
@@ -1407,13 +1443,13 @@ msgstr "Шығарылымы %s %s"
 #: src/sysinfo.cpp:89
 #, c-format
 msgid "%s Version"
-msgstr ""
+msgstr "%s нұсқасы"
 
 #. Translators: The string parameter is release version (codename)
 #: src/sysinfo.cpp:94
 #, c-format
 msgid "Release %s"
-msgstr ""
+msgstr "%s шығарылымы"
 
 #. translators: This is the type of architecture, for example:
 #. * "64-bit" or "32-bit"
@@ -1451,7 +1487,7 @@ msgstr "Процессор:"
 
 #: src/sysinfo.cpp:1016
 msgid "Graphics:"
-msgstr ""
+msgstr "Графика:"
 
 #. disk space section
 #: src/sysinfo.cpp:1021

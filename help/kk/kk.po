@@ -1,20 +1,21 @@
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2019
-# 
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2019, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:31+0200\n"
-"PO-Revision-Date: 2018-10-05 17:10+0000\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2019\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-30 04:19+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/mate-system-monitor-help/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -39,7 +40,7 @@ msgstr ""
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:32
 msgid "<year>2004</year> <holder>Sun Microsystems</holder>"
-msgstr ""
+msgstr "<year>2004</year> <holder>Sun Microsystems</holder>"
 
 #. (itstool) path: articleinfo/copyright
 #: C/index.docbook:36
@@ -52,14 +53,14 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:51 C/index.docbook:113
 msgid "MATE Documentation Project"
-msgstr ""
+msgstr "MATE құжаттама жобасы"
 
 #. (itstool) path: publisher/publishername
 #. (itstool) path: revdescription/para
 #: C/index.docbook:54 C/index.docbook:123 C/index.docbook:131
 #: C/index.docbook:140 C/index.docbook:150
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "GNOME құжаттама жобасы"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:63
@@ -67,6 +68,8 @@ msgid ""
 "<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
 "<orgname>MATE Desktop</orgname> </affiliation>"
 msgstr ""
+"<firstname>MATE Documentation Project</firstname> <surname/> <affiliation> "
+"<orgname>MATE Desktop</orgname> </affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:70
@@ -74,6 +77,8 @@ msgid ""
 "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
 "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 msgstr ""
+"<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+"<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
 
 #. (itstool) path: authorgroup/author
 #: C/index.docbook:75
@@ -93,7 +98,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:112
 msgid "MATE Documentation Team"
-msgstr ""
+msgstr "MATE құжаттама тобы"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:108
@@ -117,7 +122,7 @@ msgstr ""
 #. (itstool) path: revdescription/para
 #: C/index.docbook:130
 msgid "Sun GNOME Documentation Team"
-msgstr ""
+msgstr "Sun GNOME құжаттама тобы"
 
 #. (itstool) path: revhistory/revision
 #: C/index.docbook:126
@@ -153,7 +158,7 @@ msgstr ""
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:160
 msgid "Feedback"
-msgstr ""
+msgstr "Кіріспе"
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:161
@@ -175,7 +180,7 @@ msgstr ""
 #. (itstool) path: article/indexterm
 #: C/index.docbook:177
 msgid "<primary>System Monitor</primary>"
-msgstr ""
+msgstr "<primary>Жүйелік монитор</primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:180
@@ -212,7 +217,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:199 C/index.docbook:367
 msgid "<guilabel>System</guilabel>"
-msgstr ""
+msgstr "<guilabel>Жүйе</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:203
@@ -323,7 +328,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:305
 msgid "Getting Started"
-msgstr ""
+msgstr "Жұмысқа кірісу"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:309
@@ -340,7 +345,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:313
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr ""
+msgstr "<guimenu>Қолданбалар</guimenu> мәзірі"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:315
@@ -537,7 +542,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:466
 msgid "Nice"
-msgstr "Ергіштік (nice)"
+msgstr "Ницца"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:469
@@ -557,22 +562,22 @@ msgstr "Күтетін арна"
 #. (itstool) path: listitem/para
 #: C/index.docbook:478
 msgid "Disk Read Total"
-msgstr ""
+msgstr "Барлық оқылған диск көлемі"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:481
 msgid "Disk Write Total"
-msgstr ""
+msgstr "Барлық жазылған диск көлемі"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:484
 msgid "Disk Read"
-msgstr ""
+msgstr "Дискіден оқу"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:487
 msgid "Disk Write"
-msgstr ""
+msgstr "Дискіге жазу"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:490
@@ -1509,7 +1514,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1259
 msgid "<guilabel>User</guilabel>"
-msgstr ""
+msgstr "<guilabel>Пайдаланушы</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1262
@@ -1627,7 +1632,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1339
 msgid "<guilabel>Nice</guilabel>"
-msgstr ""
+msgstr "<guilabel>Nice</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1342
@@ -1653,7 +1658,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1355
 msgid "<guilabel>Memory</guilabel>"
-msgstr ""
+msgstr "<guilabel>Жады</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1358
@@ -1920,7 +1925,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1569
 msgid "<guilabel>Free</guilabel>"
-msgstr ""
+msgstr "<guilabel>Бос</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1572
@@ -1942,7 +1947,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1585
 msgid "<guilabel>Used</guilabel>"
-msgstr ""
+msgstr "<guilabel>Пайдаланылған</guilabel>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1588
@@ -1964,6 +1969,13 @@ msgid ""
 " of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
 "with this manual."
 msgstr ""
+"Осы құжатты Еркін бағдарламалық қамтама қоры (Free Software Foundation) "
+"жариялаған GNU еркін құжаттама лицензиясының (GFDL) 1.1 нұсқасы немесе кез "
+"келген кейінгі нұсқасының шарттарына сәйкес, өзгертілмейтін бөлімдерсіз, "
+"алдыңғы жақ мәтіндерсіз және артқы жақ мәтіндерсіз көшіруге, үлестіруге және/"
+"немесе өзгертуге рұқсат беріледі. GFDL лицензиясының көшірмесін мына "
+"<_:ulink-1/> немесе осы нұсқаулықпен бірге үлестірілген COPYING-DOCS "
+"файлынан таба аласыз."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:12
@@ -1973,6 +1985,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
+"Бұл нұсқаулық GFDL аясында үлестірілген MATE нұсқаулықтар жиынтығының бөлігі "
+"болып табылады. Егер бұл нұсқаулықты жиынтықтан бөлек үлестіргіңіз келсе, "
+"лицензияның 6-бөлімінде сипатталғандай, лицензияның көшірмесін нұсқаулыққа "
+"қосу арқылы жасай аласыз."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:19
@@ -1983,6 +1999,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Компаниялар өз өнімдері мен қызметтерін ажырату үшін пайдаланатын көптеген "
+"аттар сауда белгісі ретінде мәлімделген. Мұндай аттар кез келген MATE "
+"құжаттамасында кездескен жағдайда және MATE құжаттама жобасының мүшелері сол "
+"сауда белгілері туралы хабардар болса, онда аттар бас әріптермен немесе "
+"бастапқы бас әріптермен жазылады."
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:35
@@ -1999,6 +2020,18 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
+"ҚҰЖАТ «СОЛАЙ БОЛҒАН КҮЙІНДЕ» НЕГІЗІНДЕ, ЕШҚАНДАЙ КЕПІЛДІКСІЗ, ТІКЕЛЕЙ НЕМЕСЕ "
+"ЖАНАМА ТҮРДЕ БЕРІЛЕДІ, СОНЫҢ ІШІНДЕ ШЕКТЕУСІЗ, ҚҰЖАТ НЕМЕСЕ ОНЫҢ ӨЗГЕРТІЛГЕН "
+"НҰСҚАСЫ КЕМШІЛІКСІЗ, ТАУАРЛЫҚ КҮЙДЕ, БЕЛГІЛІ БІР МАҚСАТҚА САЙ КЕЛЕТІН НЕМЕСЕ "
+"ҚҰҚЫҚТАРДЫ БҰЗБАЙТЫН ДЕГЕН КЕПІЛДІКТЕР БЕРІЛМЕЙДІ. ҚҰЖАТТЫҢ НЕМЕСЕ ОНЫҢ "
+"ӨЗГЕРТІЛГЕН НҰСҚАСЫНЫҢ САПАСЫНА, ДӘЛДІГІНЕ ЖӘНЕ ӨНІМДІЛІГІНЕ ҚАТЫСТЫ БАРЛЫҚ "
+"ТӘУЕКЕЛ СІЗГЕ ЖҮКТЕЛЕДІ. ЕГЕР ҚАНДАЙ ДА БІР ҚҰЖАТ НЕМЕСЕ ӨЗГЕРТІЛГЕН НҰСҚА "
+"КЕЗ КЕЛГЕН ЖАҒДАЙДА АҚАУЛЫ БОЛЫП ШЫҚСА, КЕЗ КЕЛГЕН ҚАЖЕТТІ ҚЫЗМЕТ КӨРСЕТУ, "
+"ЖӨНДЕУ НЕМЕСЕ ТҮЗЕТУ ШЫҒЫНДАРЫН СІЗ (БАСТАПҚЫ WRITER, АВТОР НЕМЕСЕ КЕЗ "
+"КЕЛГЕН CONTRIBUTOR ЕМЕС) ӨЗ МОЙНЫҢЫЗҒА АЛАСЫЗ. КЕПІЛДІКТЕН БАС ТАРТУ ТУРАЛЫ "
+"ОСЫ ЕРЕЖЕ ОСЫ ЛИЦЕНЗИЯНЫҢ МІНДЕТТІ БӨЛІГІ БОЛЫП ТАБЫЛАДЫ. ҚҰЖАТТЫҢ НЕМЕСЕ "
+"ОНЫҢ ӨЗГЕРТІЛГЕН НҰСҚАСЫНЫҢ КЕЗ КЕЛГЕН ПАЙДАЛАНЫЛУЫНА ТЕК ОСЫ КЕПІЛДІКТЕН "
+"БАС ТАРТУ ШАРТТАРЫМЕН ҒАН РҰҚСАТ БЕРІЛЕДІ; ЖӘНЕ"
 
 #. (itstool) path: listitem/para
 #: C/legal.xml:55
@@ -2014,6 +2047,17 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"ЕШҚАНДАЙ ЖАҒДАЙДА ЖӘНЕ ЕШҚАНДАЙ ҚҰҚЫҚТЫҚ ТЕОРИЯ БОЙЫНША, МЕЙЛІ АЗАМАТТЫҚ "
+"ҚҰҚЫҚ БҰЗУШЫЛЫҚ (СОНЫҢ ІШІНДЕ ҰҚЫПСЫЗДЫҚ), КЕЛІСІМШАРТ НЕМЕСЕ ӘЙТПЕСЕ "
+"БОЛСЫН, АВТОР, БАСТАПҚЫ WRITER, КЕЗ КЕЛГЕН CONTRIBUTOR НЕМЕСЕ ҚҰЖАТТЫҢ "
+"НЕМЕСЕ ӨЗГЕРТІЛГЕН НҰСҚАСЫНЫҢ КЕЗ КЕЛГЕН ДИСТРИБЬЮТОРЫ НЕМЕСЕ ОСЫНДАЙ "
+"ТАРАПТАРДЫҢ КЕЗ КЕЛГЕН ЖЕТКІЗУШІСІ КЕЗ КЕЛГЕН ТҰЛҒА АЛДЫНДА КЕЗ КЕЛГЕН "
+"ТІКЕЛЕЙ, ЖАНАМА, АРНАЙЫ, КЕЗДЕЙСОҚ НЕМЕСЕ ЖАНАМА ШЫҒЫНДАР ҮШІН, СОНЫҢ ІШІНДЕ "
+"ШЕКТЕУСІЗ, ІСКЕРЛІК БЕДЕЛДІҢ ЖОҒАЛУЫ, ЖҰМЫСТЫҢ ТОҚТАП ҚАЛУЫ, КОМПЬЮТЕРДІҢ "
+"СӘТСІЗДІГІ НЕМЕСЕ ДҰРЫС ЖҰМЫС ІСТЕМЕУІ НЕМЕСЕ ҚҰЖАТТЫ ПАЙДАЛАНУДАН НЕМЕСЕ "
+"ОҒАН ҚАТЫСТЫ ТУЫНДАҒАН БАРЛЫҚ БАСҚА ШЫҒЫНДАР НЕМЕСЕ ЖОҒАЛТУЛАР ҮШІН, ТІПТІ "
+"ОСЫНДАЙ ТАРАП ОСЫНДАЙ ШЫҒЫНДАРДЫҢ МҮМКІНДІГІ ТУРАЛЫ ХАБАРДАР БОЛСА ДА, "
+"ЖАУАПТЫ БОЛМАЙДЫ."
 
 #. (itstool) path: legalnotice/para
 #: C/legal.xml:28
@@ -2022,3 +2066,5 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"ҚҰЖАТ ЖӘНЕ ҚҰЖАТТЫҢ ӨЗГЕРТІЛГЕН НҰСҚАЛАРЫ КЕЛЕСІ ҚОСЫМША ТҮСІНІКТЕМЕЛЕРМЕН "
+"GNU ЕРКІН ҚҰЖАТТАМА ЛИЦЕНЗИЯСЫНЫҢ ШАРТТАРЫМЕН БЕРІЛЕДІ: <_:orderedlist-1/>"
